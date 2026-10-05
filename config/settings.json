@@ -1,0 +1,12 @@
+{
+  "geos": ["US", "BR", "MX", "ES", "GB"],
+  "timeframe": "today 3-m",
+  "max_explore_per_run": 7,
+  "formal_limit": 3,
+  "min_recent_peak": 20,
+  "max_baseline_avg": 1.5,
+  "max_baseline_nonzero_ratio": 0.1,
+  "max_baseline_peak": 10,
+  "min_money_score": 55,
+  "lookback_new_days": 30
+}
