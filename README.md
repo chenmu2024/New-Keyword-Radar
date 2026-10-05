@@ -11,7 +11,7 @@ The hard rule is: **a new product is not automatically a new keyword**. A formal
 3. Query Google Autocomplete for a small number of fresh topics and keep only suggestions with clear commercial/tool intent.
 4. Reuse rising related queries discovered by prior Explore checks through `state/pending.json`.
 5. Validate a small number of exact full queries with Google Trends Explore over the past 90 days.
-6. Score the desired shape: **old baseline near zero → first meaningful rise in the last 30 days**.
+6. Score the desired shape: **old baseline near zero → first meaningful rise in the configured recent window (default 45 days)**.
 7. For provisional winners, run a second **5-year exact-query history gate** to reject seasonal or previously established phrases that only look new in a 90-day chart.
 8. Separately score monetization intent such as `calculator`, `codes`, `values`, `checker`, `pricing`, `template`, and `tracker`.
 9. Save raw series plus a shortlist so ChatGPT can inspect the evidence directly.
@@ -45,8 +45,8 @@ The radar can still reject a seed if either its 90-day curve or its five-year hi
 - baseline average `<= 1.5`
 - baseline non-zero ratio `<= 10%`
 - baseline peak `<= 10`
-- recent 30-day peak `>= 20`
-- first meaningful rise must occur inside the recent window
+- recent 45-day peak `>= 20`
+- first meaningful rise must occur inside the recent 45-day window
 
 Five-year anti-old-query gate defaults:
 
