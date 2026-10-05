@@ -1,6 +1,12 @@
 {
-  "pipeline_version": 2,
-  "geos": ["US", "BR", "MX", "ES", "GB"],
+  "pipeline_version": 3,
+  "geos": [
+    "US",
+    "BR",
+    "MX",
+    "ES",
+    "GB"
+  ],
   "timeframe": "today 3-m",
   "history_timeframe": "today 5-y",
   "max_suggest_bases": 12,
@@ -15,5 +21,5 @@
   "max_history_nonzero_ratio": 0.03,
   "max_history_peak": 8,
   "min_money_score": 55,
-  "lookback_new_days": 30
+  "lookback_new_days": 45
 }
