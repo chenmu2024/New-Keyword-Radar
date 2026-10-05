@@ -122,7 +122,7 @@ def analyze(keyword,geo,source,first,series,related,cfg):
  pts.sort()
  ms,mt=money(keyword)
  if not pts: return {'keyword':keyword,'geo':geo,'source':source,'first_seen':first,'newness_score':0,'money_score':ms,'money_type':mt,'true_new':False,'verdict':'reject','series':series,'related_rising':related}
- cutoff=pts[-1][0]-timedelta(days=int(cfg.get('lookback_new_days',30))); base=[v for d,v in pts if d<cutoff]; recent=[(d,v) for d,v in pts if d>=cutoff]
+ cutoff=pts[-1][0]-timedelta(days=int(cfg.get('lookback_new_days',45))); base=[v for d,v in pts if d<cutoff]; recent=[(d,v) for d,v in pts if d>=cutoff]
  if not base:
   k=max(1,int(len(pts)*2/3)); base=[v for _,v in pts[:k]]; recent=pts[k:]
  rv=[v for _,v in recent] or [0]; ba=round(sum(base or [0])/max(1,len(base)),2); bp=max(base or [0]); bn=round(sum(v>0 for v in (base or [0]))/max(1,len(base)),3); rp=max(rv)
@@ -171,7 +171,7 @@ def main():
   if i<len(chosen)-1: time.sleep(9)
  checked.sort(key=lambda x:(x['verdict']!='formal',-x['newness_score'],-x['money_score'],x['keyword'])); formal=[x for x in checked if x['verdict']=='formal'][:int(cfg.get('formal_limit',3))]
  pend=sorted(pending.values(),key=lambda x:(int(x.get('checks',0)),-money(x.get('query',''))[0],x.get('first_seen','9999-99-99')))[:250]; pending={x['query']:x for x in pend if x.get('query')}
- payload={'generated_at':now().isoformat(),'timeframe':cfg.get('timeframe','today 3-m'),'source_geos':cfg.get('geos',[]),'checked_count':len(checked),'formal_count':len(formal),'formal_candidates':formal,'all_checked':checked,'discovered_count':len(items),'pending_count':len(pending),'method':{'new_word_gate':'near-zero baseline + first rise in last 30 days','money_gate':f"money_score >= {cfg.get('min_money_score',55)}",'discovery':'Trending Now RSS + related queries + Google autocomplete + Explore rising queries','note':'Google Trends is relative 0-100 interest, not absolute volume.'}}
+ payload={'generated_at':now().isoformat(),'timeframe':cfg.get('timeframe','today 3-m'),'source_geos':cfg.get('geos',[]),'checked_count':len(checked),'formal_count':len(formal),'formal_candidates':formal,'all_checked':checked,'discovered_count':len(items),'pending_count':len(pending),'method':{'new_word_gate':f"near-zero baseline + first rise in last {cfg.get('lookback_new_days',45)} days",'money_gate':f"money_score >= {cfg.get('min_money_score',55)}",'discovery':'Trending Now RSS + related queries + Google autocomplete + Explore rising queries','note':'Google Trends is relative 0-100 interest, not absolute volume.'}}
  save(DATA/f'{today}.json',payload); save(DATA/'latest.json',payload); save(SEEN,seen); save(PENDING,pending); md=report(payload); (REPORTS/f'{today}.md').write_text(md,encoding='utf-8'); (REPORTS/'latest.md').write_text(md,encoding='utf-8'); print('Formal candidates:',len(formal)); return 0
 
 if __name__=='__main__': raise SystemExit(main())
