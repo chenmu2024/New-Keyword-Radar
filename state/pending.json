@@ -23,38 +23,6 @@
     "checks": 0,
     "last_seen": "2026-10-05"
   },
-  "pistons preseason schedule": {
-    "query": "pistons preseason schedule",
-    "geo": "US",
-    "source": "suggest:US:pistons",
-    "first_seen": "2026-10-05",
-    "checks": 0,
-    "last_seen": "2026-10-05"
-  },
-  "phoenix suns schedule": {
-    "query": "phoenix suns schedule",
-    "geo": "US",
-    "source": "suggest:US:phoenix suns",
-    "first_seen": "2026-10-05",
-    "checks": 0,
-    "last_seen": "2026-10-05"
-  },
-  "phoenix suns summer league schedule": {
-    "query": "phoenix suns summer league schedule",
-    "geo": "US",
-    "source": "suggest:US:phoenix suns",
-    "first_seen": "2026-10-05",
-    "checks": 0,
-    "last_seen": "2026-10-05"
-  },
-  "nba schedule today": {
-    "query": "nba schedule today",
-    "geo": "US",
-    "source": "suggest:US:nba schedule",
-    "first_seen": "2026-10-05",
-    "checks": 0,
-    "last_seen": "2026-10-05"
-  },
   "grand blue tier list": {
     "query": "grand blue tier list",
     "geo": "",
@@ -199,6 +167,30 @@
     "checks": 0,
     "last_seen": "2026-10-05"
   },
+  "tommy pham stats": {
+    "query": "tommy pham stats",
+    "geo": "US",
+    "source": "suggest:US:tommy pham",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
+  "wnba schedule today": {
+    "query": "wnba schedule today",
+    "geo": "US",
+    "source": "explore-related:nba schedule today",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
+  "kalshi promo code": {
+    "query": "kalshi promo code",
+    "geo": "US",
+    "source": "explore-related:novig promo code",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
   "typesafe ai": {
     "query": "typesafe ai",
     "geo": "",
@@ -273,6 +265,14 @@
   },
   "how to use jev ai": {
     "query": "how to use jev ai",
+    "geo": "",
+    "source": "explore-related:jev ai",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
+  "jev ai llm": {
+    "query": "jev ai llm",
     "geo": "",
     "source": "explore-related:jev ai",
     "first_seen": "2026-10-05",
@@ -759,6 +759,22 @@
     "checks": 0,
     "last_seen": "2026-10-05"
   },
+  "jillian michaels": {
+    "query": "jillian michaels",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
+  "tommy pham": {
+    "query": "tommy pham",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
   "pistons": {
     "query": "pistons",
     "geo": "US",
@@ -902,6 +918,70 @@
     "first_seen": "2026-10-05",
     "checks": 0,
     "last_seen": "2026-10-05"
+  },
+  "curacao": {
+    "query": "curacao",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
+  "novig": {
+    "query": "novig",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
+  "suns": {
+    "query": "suns",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
+  "pistons preseason schedule": {
+    "query": "pistons preseason schedule",
+    "geo": "US",
+    "source": "suggest:US:pistons",
+    "first_seen": "2026-10-05",
+    "checks": 1,
+    "last_seen": "2026-10-05",
+    "last_checked": "2026-10-05",
+    "last_verdict": "formal"
+  },
+  "phoenix suns schedule": {
+    "query": "phoenix suns schedule",
+    "geo": "US",
+    "source": "suggest:US:phoenix suns",
+    "first_seen": "2026-10-05",
+    "checks": 1,
+    "last_seen": "2026-10-05",
+    "last_checked": "2026-10-05",
+    "last_verdict": "reject"
+  },
+  "phoenix suns summer league schedule": {
+    "query": "phoenix suns summer league schedule",
+    "geo": "US",
+    "source": "suggest:US:phoenix suns",
+    "first_seen": "2026-10-05",
+    "checks": 1,
+    "last_seen": "2026-10-05",
+    "last_checked": "2026-10-05",
+    "last_verdict": "reject"
+  },
+  "nba schedule today": {
+    "query": "nba schedule today",
+    "geo": "US",
+    "source": "suggest:US:nba schedule",
+    "first_seen": "2026-10-05",
+    "checks": 1,
+    "last_seen": "2026-10-05",
+    "last_checked": "2026-10-05",
+    "last_verdict": "reject"
   },
   "nba schedule release": {
     "query": "nba schedule release",
@@ -1053,12 +1133,22 @@
     "last_checked": "2026-10-05",
     "last_verdict": "formal"
   },
+  "novig promo code": {
+    "query": "novig promo code",
+    "geo": "US",
+    "source": "suggest:US:novig",
+    "first_seen": "2026-10-05",
+    "checks": 1,
+    "last_seen": "2026-10-05",
+    "last_checked": "2026-10-05",
+    "last_verdict": "formal"
+  },
   "grand blue codes": {
     "query": "grand blue codes",
     "geo": "",
     "source": "manual-seed",
     "first_seen": "2026-10-05",
-    "checks": 3,
+    "checks": 4,
     "last_seen": "2026-10-05",
     "last_checked": "2026-10-05",
     "last_verdict": "formal"
@@ -1068,9 +1158,9 @@
     "geo": "",
     "source": "manual-seed",
     "first_seen": "2026-10-05",
-    "checks": 3,
+    "checks": 4,
     "last_seen": "2026-10-05",
     "last_checked": "2026-10-05",
-    "last_verdict": "formal"
+    "last_verdict": "trend-watch"
   }
 }
