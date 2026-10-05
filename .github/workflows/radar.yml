@@ -1,0 +1,60 @@
+name: New Keyword Radar
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "config/**"
+      - "requirements.txt"
+      - ".github/workflows/radar.yml"
+  schedule:
+    # 07:05 Asia/Shanghai every day; leaves ~55 min before the 08:00 report.
+    - cron: "5 23 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: new-keyword-radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Run radar
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python src/radar.py
+
+      - name: Commit daily data
+        run: |
+          git config user.name "new-keyword-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data reports state
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "data: refresh Google Trends radar $(date -u +%F)"
+            git push
+          fi
