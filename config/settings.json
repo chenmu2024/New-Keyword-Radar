@@ -1,6 +1,7 @@
 {
   "geos": ["US", "BR", "MX", "ES", "GB"],
   "timeframe": "today 3-m",
+  "max_suggest_bases": 12,
   "max_explore_per_run": 7,
   "formal_limit": 3,
   "min_recent_peak": 20,
