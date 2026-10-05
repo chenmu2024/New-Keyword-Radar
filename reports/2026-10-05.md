@@ -1,16 +1,21 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-05T23:45:45.360106+00:00
+Generated: 2026-10-05T23:51:24.504120+00:00
 
 ## Formal candidates
 
-**今日无合格可变现新词。**
+### 1. jev ai
+
+- Newness **96/100**; money **55/100** (software).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-09-16T00:00:00+00:00, retention **10.3%**.
+- 5y old-history gate: avg **0.0**, peak **0**, non-zero ratio **0.0**.
+- Source manual-seed; geo Worldwide.
+
 ## Watch / rejected
 
-- lakers preseason schedule — **old-history** — newness 100, money 92; 5y peak 100
-- hukporti stats — **old-history** — newness 95, money 86; 5y peak 80
-- jev ai — **trend-watch** — newness 96, money 49
-- grand blue codes — **reject** — newness 36, money 92
-- lakers schedule — **reject** — newness 35, money 92
-- dean wade stats — **reject** — newness 25, money 86
-- ariel hukporti stats — **reject** — newness 0, money 86
+- grand blue codes — **old-history** — newness 96, money 92; 5y peak 3
+- nba schedule 26 27 — **history-unchecked** — newness 95, money 86
+- nba schedule preseason — **reject** — newness 35, money 86
+- nba schedule release date — **reject** — newness 15, money 86
+- nba schedule release — **reject** — newness 7, money 92
+- nba schedule release 2026-27 — **reject** — newness 0, money 86

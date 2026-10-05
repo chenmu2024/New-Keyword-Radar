@@ -47,48 +47,8 @@
     "checks": 0,
     "last_seen": "2026-10-05"
   },
-  "nba schedule release": {
-    "query": "nba schedule release",
-    "geo": "US",
-    "source": "suggest:US:nba schedule",
-    "first_seen": "2026-10-05",
-    "checks": 0,
-    "last_seen": "2026-10-05"
-  },
   "nba schedule today": {
     "query": "nba schedule today",
-    "geo": "US",
-    "source": "suggest:US:nba schedule",
-    "first_seen": "2026-10-05",
-    "checks": 0,
-    "last_seen": "2026-10-05"
-  },
-  "nba schedule release date": {
-    "query": "nba schedule release date",
-    "geo": "US",
-    "source": "suggest:US:nba schedule",
-    "first_seen": "2026-10-05",
-    "checks": 0,
-    "last_seen": "2026-10-05"
-  },
-  "nba schedule 26 27": {
-    "query": "nba schedule 26 27",
-    "geo": "US",
-    "source": "suggest:US:nba schedule",
-    "first_seen": "2026-10-05",
-    "checks": 0,
-    "last_seen": "2026-10-05"
-  },
-  "nba schedule release 2026-27": {
-    "query": "nba schedule release 2026-27",
-    "geo": "US",
-    "source": "suggest:US:nba schedule",
-    "first_seen": "2026-10-05",
-    "checks": 0,
-    "last_seen": "2026-10-05"
-  },
-  "nba schedule preseason": {
-    "query": "nba schedule preseason",
     "geo": "US",
     "source": "suggest:US:nba schedule",
     "first_seen": "2026-10-05",
@@ -219,6 +179,22 @@
     "query": "los angeles lakers schedule",
     "geo": "US",
     "source": "explore-related:lakers schedule",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
+  "dungeon lootr codes": {
+    "query": "dungeon lootr codes",
+    "geo": "",
+    "source": "explore-related:grand blue codes",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
+  "when does the nba schedule release": {
+    "query": "when does the nba schedule release",
+    "geo": "US",
+    "source": "explore-related:nba schedule release",
     "first_seen": "2026-10-05",
     "checks": 0,
     "last_seen": "2026-10-05"
@@ -775,6 +751,14 @@
     "checks": 0,
     "last_seen": "2026-10-05"
   },
+  "michel temer": {
+    "query": "michel temer",
+    "geo": "BR",
+    "source": "rss:BR:keyword",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
   "pistons": {
     "query": "pistons",
     "geo": "US",
@@ -911,6 +895,64 @@
     "checks": 0,
     "last_seen": "2026-10-05"
   },
+  "pozo": {
+    "query": "pozo",
+    "geo": "MX",
+    "source": "rss:MX:keyword",
+    "first_seen": "2026-10-05",
+    "checks": 0,
+    "last_seen": "2026-10-05"
+  },
+  "nba schedule release": {
+    "query": "nba schedule release",
+    "geo": "US",
+    "source": "suggest:US:nba schedule",
+    "first_seen": "2026-10-05",
+    "checks": 1,
+    "last_seen": "2026-10-05",
+    "last_checked": "2026-10-05",
+    "last_verdict": "reject"
+  },
+  "nba schedule release date": {
+    "query": "nba schedule release date",
+    "geo": "US",
+    "source": "suggest:US:nba schedule",
+    "first_seen": "2026-10-05",
+    "checks": 1,
+    "last_seen": "2026-10-05",
+    "last_checked": "2026-10-05",
+    "last_verdict": "reject"
+  },
+  "nba schedule 26 27": {
+    "query": "nba schedule 26 27",
+    "geo": "US",
+    "source": "suggest:US:nba schedule",
+    "first_seen": "2026-10-05",
+    "checks": 1,
+    "last_seen": "2026-10-05",
+    "last_checked": "2026-10-05",
+    "last_verdict": "formal"
+  },
+  "nba schedule release 2026-27": {
+    "query": "nba schedule release 2026-27",
+    "geo": "US",
+    "source": "suggest:US:nba schedule",
+    "first_seen": "2026-10-05",
+    "checks": 1,
+    "last_seen": "2026-10-05",
+    "last_checked": "2026-10-05",
+    "last_verdict": "reject"
+  },
+  "nba schedule preseason": {
+    "query": "nba schedule preseason",
+    "geo": "US",
+    "source": "suggest:US:nba schedule",
+    "first_seen": "2026-10-05",
+    "checks": 1,
+    "last_seen": "2026-10-05",
+    "last_checked": "2026-10-05",
+    "last_verdict": "reject"
+  },
   "nba schedule 2026-27": {
     "query": "nba schedule 2026-27",
     "geo": "US",
@@ -1016,19 +1058,19 @@
     "geo": "",
     "source": "manual-seed",
     "first_seen": "2026-10-05",
-    "checks": 2,
+    "checks": 3,
     "last_seen": "2026-10-05",
     "last_checked": "2026-10-05",
-    "last_verdict": "reject"
+    "last_verdict": "formal"
   },
   "jev ai": {
     "query": "jev ai",
     "geo": "",
     "source": "manual-seed",
     "first_seen": "2026-10-05",
-    "checks": 2,
+    "checks": 3,
     "last_seen": "2026-10-05",
     "last_checked": "2026-10-05",
-    "last_verdict": "trend-watch"
+    "last_verdict": "formal"
   }
 }
