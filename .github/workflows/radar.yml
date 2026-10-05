@@ -10,7 +10,7 @@ on:
       - "requirements.txt"
       - ".github/workflows/radar.yml"
   schedule:
-    # 07:05 Asia/Shanghai every day; leaves ~55 min before the 08:00 report.
+    # 07:05 UTC+8 every day; leaves ~55 min before the 08:00 report.
     - cron: "5 23 * * *"
 
 permissions:
@@ -42,10 +42,15 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip && pip install -r requirements.txt
 
-      - name: Run radar
+      - name: Run 90-day radar
         env:
           PYTHONUNBUFFERED: "1"
         run: python src/radar.py
+
+      - name: Run 5-year historical gate
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python src/history_gate.py
 
       - name: Commit daily data
         run: |
