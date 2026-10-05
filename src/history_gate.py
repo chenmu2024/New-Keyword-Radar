@@ -28,15 +28,16 @@ def history_summary(keyword,geo,cfg):
   except Exception: pass
  if not old:return {'historically_new':None,'old_avg':None,'old_peak':None,'old_nonzero_ratio':None,'points':0}
  avg=round(sum(old)/len(old),2); peak=max(old); nz=round(sum(v>0 for v in old)/len(old),3)
- ok=avg<=cfg.get('max_history_avg',0.5) and peak<=cfg.get('max_history_peak',8) and nz<=cfg.get('max_history_nonzero_ratio',0.03)
- return {'historically_new':ok,'old_avg':avg,'old_peak':peak,'old_nonzero_ratio':nz,'points':len(old)}
+ material_threshold=int(cfg.get('history_material_threshold',5)); material_ratio=round(sum(v>=material_threshold for v in old)/len(old),3)
+ ok=avg<=cfg.get('max_history_avg',0.5) and peak<=cfg.get('max_history_peak',8) and material_ratio<=cfg.get('max_history_material_ratio',0.03)
+ return {'historically_new':ok,'old_avg':avg,'old_peak':peak,'old_nonzero_ratio':nz,'old_material_ratio':material_ratio,'material_threshold':material_threshold,'points':len(old)}
 
 def make_report(payload):
  lines=['# New Keyword Radar — Latest','',f"Generated: {payload['generated_at']}",'','## Formal candidates','']
  if not payload['formal_candidates']:lines.append('**今日无合格可变现新词。**')
  for i,x in enumerate(payload['formal_candidates'],1):
   h=x.get('history_5y',{})
-  lines += [f"### {i}. {x['keyword']}",'',f"- Newness **{x['newness_score']}/100**; money **{x['money_score']}/100** ({x['money_type']}).",f"- 90d baseline avg **{x.get('baseline_avg')}**, recent peak **{x.get('recent_peak')}**, first rise {x.get('first_rise_date')}, retention **{x.get('retention_pct')}%**.",f"- 5y old-history gate: avg **{h.get('old_avg')}**, peak **{h.get('old_peak')}**, non-zero ratio **{h.get('old_nonzero_ratio')}**.",f"- Source {x['source']}; geo {x['geo'] or 'Worldwide'}.",'']
+  lines += [f"### {i}. {x['keyword']}",'',f"- Newness **{x['newness_score']}/100**; money **{x['money_score']}/100** ({x['money_type']}).",f"- 90d baseline avg **{x.get('baseline_avg')}**, recent peak **{x.get('recent_peak')}**, first rise {x.get('first_rise_date')}, retention **{x.get('retention_pct')}%**.",f"- 5y old-history gate: avg **{h.get('old_avg')}**, peak **{h.get('old_peak')}**, material ratio (>= {h.get('material_threshold')}) **{h.get('old_material_ratio')}**; raw non-zero ratio **{h.get('old_nonzero_ratio')}**.",f"- Source {x['source']}; geo {x['geo'] or 'Worldwide'}.",'']
  lines += ['## Watch / rejected','']
  for x in payload['all_checked']:
   if x['verdict']!='formal':

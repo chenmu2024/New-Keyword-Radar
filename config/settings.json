@@ -1,5 +1,5 @@
 {
-  "pipeline_version": 3,
+  "pipeline_version": 4,
   "geos": [
     "US",
     "BR",
@@ -18,8 +18,9 @@
   "max_baseline_nonzero_ratio": 0.1,
   "max_baseline_peak": 10,
   "max_history_avg": 0.5,
-  "max_history_nonzero_ratio": 0.03,
   "max_history_peak": 8,
   "min_money_score": 55,
-  "lookback_new_days": 45
+  "lookback_new_days": 45,
+  "history_material_threshold": 5,
+  "max_history_material_ratio": 0.03
 }

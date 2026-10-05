@@ -52,9 +52,9 @@ Five-year anti-old-query gate defaults:
 
 - historical average before the recent window `<= 0.5`
 - historical peak `<= 8`
-- historical non-zero ratio `<= 3%`
+- historical **material** ratio (points `>= 5`) `<= 3%`
 
-These are relative Google Trends values, **not absolute search volume**.
+Values 1–4 in a five-year series are treated as low-level background/noise for the material-ratio test; they are still reported. This prevents a genuinely new query such as a new `<game> codes` phrase from being rejected only because Google sampled tiny historical values. These are relative Google Trends values, **not absolute search volume**.
 
 ## Money gate
 
