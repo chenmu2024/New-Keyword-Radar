@@ -1,25 +1,16 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-05T23:40:34.580815+00:00
+Generated: 2026-10-05T23:45:45.360106+00:00
 
 ## Formal candidates
 
-### 1. jev ai
-
-- Newness **96/100**; money **55/100** (software).
-- Baseline avg **0.0**, recent peak **100**, first rise 2026-09-16T00:00:00+00:00, retention **10.3%**.
-- Source manual-seed; geo Worldwide; radar first seen 2026-10-05.
-
-### 2. dazn boxing schedule
-
-- Newness **95/100**; money **86/100** (repeat-data).
-- Baseline avg **0.0**, recent peak **100**, first rise 2026-09-23T00:00:00+00:00, retention **53.7%**.
-- Source suggest:US:dazn; geo US; radar first seen 2026-10-05.
-
+**今日无合格可变现新词。**
 ## Watch / rejected
 
+- lakers preseason schedule — **old-history** — newness 100, money 92; 5y peak 100
+- hukporti stats — **old-history** — newness 95, money 86; 5y peak 80
+- jev ai — **trend-watch** — newness 96, money 49
 - grand blue codes — **reject** — newness 36, money 92
-- nba games schedule — **reject** — newness 35, money 86
-- nba schedule 2026 — **reject** — newness 15, money 92
-- nba schedule 2026-27 — **reject** — newness 15, money 86
-- nba schedule 2027 — **reject** — newness 15, money 86
+- lakers schedule — **reject** — newness 35, money 92
+- dean wade stats — **reject** — newness 25, money 86
+- ariel hukporti stats — **reject** — newness 0, money 86
