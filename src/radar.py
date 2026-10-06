@@ -107,7 +107,9 @@ def select(items,seeds,seen,pending,n):
   q=x['query']; first=seen.get(q,{}).get('first_seen',today.isoformat())
   try: age=max(0,(today-datetime.fromisoformat(first).date()).days)
   except Exception: age=999
-  bonus=(100 if x['source']=='manual-seed' else 0)+(28 if x['source'].startswith('suggest:') else 0)+(18 if ':related' in x['source'] else 0)
+  rise=float(pending.get(q,{}).get('rise_value',0) or 0)
+  rise_bonus=min(40, int(math.log10(max(1.0,rise))*12)) if rise>0 else 0
+  bonus=(100 if x['source']=='manual-seed' else 0)+(36 if x['source'].startswith('seed-rising:') else 0)+(28 if x['source'].startswith('suggest:') else 0)+(18 if ':related' in x['source'] else 0)+rise_bonus
   checks=int(pending.get(q,{}).get('checks',0)); score=money(q)[0]+max(0,30-age)+bonus+max(0,18-checks*6)-(25 if noisy(q) else 0)
   ranked.append((score,q,x))
  ranked.sort(key=lambda z:(-z[0],z[1])); return [x for _,_,x in ranked[:n]]
