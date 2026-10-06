@@ -1,17 +1,31 @@
 {
-  "generated_at": "2026-10-06T00:19:00.698891+00:00",
-  "local_generated_at": "2026-10-06T08:19:00.698891+08:00",
+  "local_date": "2026-10-06",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
-  "seed_batch": [
+  "batches": [
+    {
+      "start_index": 5,
+      "generated_at": "2026-10-06T00:19:00.698891+00:00",
+      "local_generated_at": "2026-10-06T08:19:00.698891+08:00",
+      "seed_batch": [
+        "downloader",
+        "maker",
+        "creator",
+        "editor",
+        "processor"
+      ],
+      "discovery_count": 47,
+      "status": "ok"
+    }
+  ],
+  "scanned_seeds": [
     "downloader",
     "maker",
     "creator",
     "editor",
     "processor"
   ],
-  "start_index": 5,
   "discoveries": [
     {
       "seed": "creator",
@@ -113,13 +127,10 @@
       "seed": "maker",
       "query": "clipchamp free video editor & video maker",
       "rise_value": 130.0,
-      "raw_value": 130
-    },
-    {
-      "seed": "editor",
-      "query": "clipchamp free video editor & video maker",
-      "rise_value": 130.0,
-      "raw_value": 130
+      "raw_value": 130,
+      "also_from_seeds": [
+        "editor"
+      ]
     },
     {
       "seed": "maker",
@@ -296,6 +307,9 @@
       "raw_value": 40
     }
   ],
-  "status": "ok",
-  "discovery_count": 47
+  "scanned_seed_count": 5,
+  "batch_count": 1,
+  "discovery_count": 46,
+  "complete_20_seeds": false,
+  "updated_at": "2026-10-06T00:19:00.698891+00:00"
 }
