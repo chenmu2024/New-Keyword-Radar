@@ -6,12 +6,10 @@ on:
     branches: [main]
     paths:
       - "src/seed_scout.py"
-      - "config/discovery_seeds.txt"
-      - "config/settings.json"
-      - "requirements.txt"
       - ".github/workflows/seed-scout.yml"
   schedule:
-    # Four lightweight seed batches/day. One batch = 5 seed roots.
+    # Asia/Shanghai: 02:20, 08:20, 14:20, 20:20.
+    # Four batches x 5 roots = 20 roots per local calendar day.
     - cron: "20 0,6,12,18 * * *"
 
 permissions:
@@ -48,11 +46,11 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: python src/seed_scout.py
 
-      - name: Commit scout state
+      - name: Commit scout state and daily archive
         run: |
           git config user.name "new-keyword-radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/seed-scout-latest.json state/pending.json state/seed_cursor.json
+          git add data/seed-scout-latest.json data/seed-scout data/seed-scout-daily reports/seed-scout-daily state/pending.json state/seed_cursor.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
