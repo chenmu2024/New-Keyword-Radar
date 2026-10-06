@@ -1,0 +1,61 @@
+name: 7-Day Seed Scout
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/seed_scout.py"
+      - "config/discovery_seeds.txt"
+      - "config/settings.json"
+      - "requirements.txt"
+      - ".github/workflows/seed-scout.yml"
+  schedule:
+    # Four lightweight seed batches/day. One batch = 5 seed roots.
+    - cron: "20 0,6,12,18 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seed-scout
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Scan 7-day Rising queries
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python src/seed_scout.py
+
+      - name: Commit scout state
+        run: |
+          git config user.name "new-keyword-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/seed-scout-latest.json state/pending.json state/seed_cursor.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "data: refresh 7-day seed scout $(date -u +%FT%H)"
+            git push
+          fi
