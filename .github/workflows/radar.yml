@@ -17,7 +17,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: new-keyword-radar
+  group: keyword-radar-pipeline
   cancel-in-progress: false
 
 jobs:
@@ -61,5 +61,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "data: refresh Google Trends radar $(date -u +%F)"
+            git pull --rebase origin main
             git push
           fi

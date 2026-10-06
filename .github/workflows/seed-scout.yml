@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: seed-scout
+  group: keyword-radar-pipeline
   cancel-in-progress: false
 
 jobs:
@@ -57,5 +57,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "data: refresh 7-day seed scout $(date -u +%FT%H)"
+            git pull --rebase origin main
             git push
           fi
