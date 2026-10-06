@@ -2,11 +2,6 @@ name: 7-Day Seed Scout
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "src/seed_scout.py"
-      - ".github/workflows/seed-scout.yml"
   schedule:
     # Asia/Shanghai: 02:20, 08:20, 14:20, 20:20.
     # Four batches x 5 roots = 20 roots per local calendar day.
