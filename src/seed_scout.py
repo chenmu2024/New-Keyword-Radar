@@ -120,6 +120,11 @@ def main():
     timeframe = cfg.get('seed_scan_timeframe', 'now 7-d')
     per_seed = int(cfg.get('seed_related_per_keyword', 15))
     u = utc_now(); l = u.astimezone(LOCAL_TZ); today = l.date().isoformat()
+    existing_daily = load(DAILY_DIR / f'{today}.json', {})
+    if int(existing_daily.get('scanned_seed_count', 0) or 0) >= 20 or existing_daily.get('complete_20_seeds') is True:
+        print(f'Daily seed scout already complete for {today}: {existing_daily.get("scanned_seed_count", 0)} roots; no-op')
+        return 0
+
     result = {'generated_at': u.isoformat(), 'local_generated_at': l.isoformat(), 'timezone': 'Asia/Shanghai', 'timeframe': timeframe, 'geo': 'Worldwide', 'seed_batch': batch, 'start_index': start, 'discoveries': [], 'status': 'ok'}
     pending = load(PENDING, {})
     try:
@@ -160,6 +165,15 @@ def main():
         result['error'] = f'{type(e).__name__}: {e}'
         save(LATEST, result)
         save(BATCH_DIR / today / f"{l.strftime('%H%M')}-start-{start}-error.json", result)
+
+        daily_path = DAILY_DIR / f'{today}.json'
+        daily = load(daily_path, {'local_date': today, 'timezone': 'Asia/Shanghai', 'timeframe': timeframe, 'geo': 'Worldwide', 'batches': [], 'scanned_seeds': [], 'discoveries': []})
+        errors = daily.setdefault('errors', [])
+        errors.append({'generated_at': u.isoformat(), 'local_generated_at': l.isoformat(), 'start_index': start, 'seed_batch': batch, 'error': result['error']})
+        daily['complete_20_seeds'] = int(daily.get('scanned_seed_count', 0) or 0) >= 20
+        daily['updated_at'] = u.isoformat()
+        save(daily_path, daily)
+
         print(result['error'], file=sys.stderr)
         return 1
 
