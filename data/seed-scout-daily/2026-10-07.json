@@ -31,6 +31,20 @@
       ],
       "discovery_count": 48,
       "status": "ok"
+    },
+    {
+      "start_index": 25,
+      "generated_at": "2026-10-07T11:07:38.653844+00:00",
+      "local_generated_at": "2026-10-07T19:07:38.653844+08:00",
+      "seed_batch": [
+        "checker",
+        "detector",
+        "scraper",
+        "manager",
+        "explorer"
+      ],
+      "discovery_count": 72,
+      "status": "ok"
     }
   ],
   "scanned_seeds": [
@@ -43,7 +57,12 @@
     "format",
     "builder",
     "scheme",
-    "pattern"
+    "pattern",
+    "checker",
+    "detector",
+    "scraper",
+    "manager",
+    "explorer"
   ],
   "discoveries": [
     {
@@ -83,6 +102,24 @@
       "raw_value": 18300
     },
     {
+      "seed": "scraper",
+      "query": "sandhouse scraper",
+      "rise_value": 17150.0,
+      "raw_value": 17150
+    },
+    {
+      "seed": "manager",
+      "query": "cheesesteak thrown at manager philadelphia",
+      "rise_value": 15700.0,
+      "raw_value": 15700
+    },
+    {
+      "seed": "explorer",
+      "query": "kashita maryoku wa revo barai de kyousei choushuu",
+      "rise_value": 14600.0,
+      "raw_value": 14600
+    },
+    {
       "seed": "scheme",
       "query": "employees pension scheme eligibility expansion",
       "rise_value": 13650.0,
@@ -107,10 +144,22 @@
       "raw_value": 10400
     },
     {
+      "seed": "explorer",
+      "query": "which explorer captained the golden hind during its historic voyage around the world in 1580?",
+      "rise_value": 9650.0,
+      "raw_value": 9650
+    },
+    {
       "seed": "format",
       "query": "woolworths new store format south africa",
       "rise_value": 9250.0,
       "raw_value": 9250
+    },
+    {
+      "seed": "explorer",
+      "query": "zombie sagashitemasu",
+      "rise_value": 9150.0,
+      "raw_value": 9150
     },
     {
       "seed": "uploader",
@@ -123,6 +172,12 @@
       "query": "tyquan thornton injury",
       "rise_value": 8400.0,
       "raw_value": 8400
+    },
+    {
+      "seed": "scraper",
+      "query": "scraper pelicula",
+      "rise_value": 7900.0,
+      "raw_value": 7900
     },
     {
       "seed": "pattern",
@@ -141,6 +196,12 @@
       "query": "free ftp uploader",
       "rise_value": 6700.0,
       "raw_value": 6700
+    },
+    {
+      "seed": "scraper",
+      "query": "sandhouse paint scraper",
+      "rise_value": 6600.0,
+      "raw_value": 6600
     },
     {
       "seed": "scheme",
@@ -203,6 +264,12 @@
       "raw_value": 4600
     },
     {
+      "seed": "explorer",
+      "query": "romelia senki",
+      "rise_value": 4550.0,
+      "raw_value": 4550
+    },
+    {
       "seed": "sample",
       "query": "next toppers",
       "rise_value": 4500.0,
@@ -231,6 +298,12 @@
       "query": "kansas city chiefs receiver injury",
       "rise_value": 4050.0,
       "raw_value": 4050
+    },
+    {
+      "seed": "explorer",
+      "query": "vertex force",
+      "rise_value": 4000.0,
+      "raw_value": 4000
     },
     {
       "seed": "receiver",
@@ -287,6 +360,12 @@
       "raw_value": 2800
     },
     {
+      "seed": "manager",
+      "query": "football manager 27 xbox game pass",
+      "rise_value": 2250.0,
+      "raw_value": 2250
+    },
+    {
       "seed": "receiver",
       "query": "kc wide receiver injury",
       "rise_value": 2100.0,
@@ -305,8 +384,38 @@
       "raw_value": 1650
     },
     {
+      "seed": "explorer",
+      "query": "saikyosoubi",
+      "rise_value": 1600.0,
+      "raw_value": 1600
+    },
+    {
+      "seed": "explorer",
+      "query": "dark summoner to dekiteiru",
+      "rise_value": 1550.0,
+      "raw_value": 1550
+    },
+    {
+      "seed": "checker",
+      "query": "premium bond prize checker",
+      "rise_value": 1450.0,
+      "raw_value": 1450
+    },
+    {
       "seed": "sample",
       "query": "motel rocks sample sale",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "checker",
+      "query": "ns&i prize checker",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "checker",
+      "query": "nsandi prize checker",
       "rise_value": 1400.0,
       "raw_value": 1400
     },
@@ -317,10 +426,28 @@
       "raw_value": 1350
     },
     {
+      "seed": "checker",
+      "query": "nsi prize checker",
+      "rise_value": 1150.0,
+      "raw_value": 1150
+    },
+    {
+      "seed": "checker",
+      "query": "premium bond checker",
+      "rise_value": 1150.0,
+      "raw_value": 1150
+    },
+    {
       "seed": "scheme",
       "query": "gobardhan central sector scheme launch",
       "rise_value": 1100.0,
       "raw_value": 1100
+    },
+    {
+      "seed": "checker",
+      "query": "premium bonds prize checker",
+      "rise_value": 1050.0,
+      "raw_value": 1050
     },
     {
       "seed": "uploader",
@@ -329,8 +456,20 @@
       "raw_value": 1050
     },
     {
+      "seed": "checker",
+      "query": "premium bonds prize checker check if you have won ns&i",
+      "rise_value": 1000.0,
+      "raw_value": 1000
+    },
+    {
       "seed": "builder",
       "query": "exfat image builder",
+      "rise_value": 900.0,
+      "raw_value": 900
+    },
+    {
+      "seed": "checker",
+      "query": "premium bonds checker",
       "rise_value": 900.0,
       "raw_value": 900
     },
@@ -339,6 +478,12 @@
       "query": "starbucks small format cafe design",
       "rise_value": 750.0,
       "raw_value": 750
+    },
+    {
+      "seed": "explorer",
+      "query": "2026 ford explorer st review",
+      "rise_value": 500.0,
+      "raw_value": 500
     },
     {
       "seed": "template",
@@ -389,6 +534,12 @@
       "raw_value": 300
     },
     {
+      "seed": "manager",
+      "query": "braves manager",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
       "seed": "template",
       "query": "esb template",
       "rise_value": 250.0,
@@ -413,16 +564,64 @@
       "raw_value": 250
     },
     {
+      "seed": "explorer",
+      "query": "britannic explorer train",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "manager",
+      "query": "deadlock mod manager",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "explorer",
+      "query": "magical explorer",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
       "seed": "template",
       "query": "peb template pdf",
       "rise_value": 200.0,
       "raw_value": 200
     },
     {
+      "seed": "manager",
+      "query": "croatia manager",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "manager",
+      "query": "white sox manager",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "explorer",
+      "query": "magical explorer manga",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "manager",
+      "query": "padres manager",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
       "seed": "template",
       "query": "vyapam template pdf",
       "rise_value": 170.0,
       "raw_value": 170
+    },
+    {
+      "seed": "explorer",
+      "query": "ford explorer sport trac for sale",
+      "rise_value": 150.0,
+      "raw_value": 150
     },
     {
       "seed": "uploader",
@@ -443,14 +642,92 @@
       "raw_value": 140
     },
     {
+      "seed": "explorer",
+      "query": "britannic explorer",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "explorer",
+      "query": "magical explorer anime",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "manager",
+      "query": "meta ads manager login",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "detector",
+      "query": "stealth writer",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "explorer",
+      "query": "usgs earth explorer",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "detector",
+      "query": "xnx detector 2018",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
       "seed": "builder",
       "query": "dokkan team builder",
       "rise_value": 120.0,
       "raw_value": 120
     },
     {
+      "seed": "manager",
+      "query": "mendeley reference manager",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "manager",
+      "query": "line official account manager",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "manager",
+      "query": "meta business suite",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "manager",
+      "query": "phillies manager",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "checker",
+      "query": "ahref traffic checker",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
       "seed": "uploader",
       "query": "bir excel uploader",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scraper",
+      "query": "instant data scraper extension",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "checker",
+      "query": "kra pin checker",
       "rise_value": 90.0,
       "raw_value": 90
     },
@@ -467,10 +744,46 @@
       "raw_value": 90
     },
     {
+      "seed": "checker",
+      "query": "ahrefs traffic checker",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "uploader",
       "query": "axfc uploader",
       "rise_value": 80.0,
       "raw_value": 80
+    },
+    {
+      "seed": "scraper",
+      "query": "data scraper extension",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "scraper",
+      "query": "electric coconut scraper",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "manager",
+      "query": "fb ads manager",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "manager",
+      "query": "passwort manager",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "detector",
+      "query": "cek ai detector",
+      "rise_value": 70.0,
+      "raw_value": 70
     },
     {
       "seed": "builder",
@@ -487,6 +800,18 @@
     {
       "seed": "uploader",
       "query": "downloads",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scraper",
+      "query": "instant data scraper chrome extension",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "manager",
+      "query": "nsdl login manager",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -533,6 +858,12 @@
       "raw_value": 60
     },
     {
+      "seed": "detector",
+      "query": "clever ai humanizer",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "uploader",
       "query": "excel uploader",
       "rise_value": 60.0,
@@ -545,8 +876,32 @@
       "raw_value": 60
     },
     {
+      "seed": "detector",
+      "query": "paraphrasing tool",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scraper",
+      "query": "proxy scraper duckduckgo proxy vpn",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "template",
       "query": "pumpkin template",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "detector",
+      "query": "quillbot ai",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "checker",
+      "query": "quillbot ai checker",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -569,8 +924,38 @@
       "raw_value": 50
     },
     {
+      "seed": "checker",
+      "query": "chubby checker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "checker",
+      "query": "da pa checker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "detector",
+      "query": "detector de ia gratis",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "format",
       "query": "format factory download",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "detector",
+      "query": "humanize ai text",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scraper",
+      "query": "instant data scraper",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -581,8 +966,20 @@
       "raw_value": 50
     },
     {
+      "seed": "scraper",
+      "query": "niche scraper",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "interpreter",
       "query": "ohtani interpreter",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "detector",
+      "query": "quillbot",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -593,14 +990,68 @@
       "raw_value": 50
     },
     {
+      "seed": "detector",
+      "query": "scribbr",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "checker",
+      "query": "traffic checker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scraper",
+      "query": "web scraper chrome extension",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "detector",
+      "query": "zerogpt",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "detector",
+      "query": "zerogpt ai detector",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "builder",
       "query": "canva website builder",
       "rise_value": 40.0,
       "raw_value": 40
     },
     {
+      "seed": "detector",
+      "query": "gptzero",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "calculator",
       "query": "gst calculator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "detector",
+      "query": "humanizar texto",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "scraper",
+      "query": "proxy vpn",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "detector",
+      "query": "quillbot ai detector",
       "rise_value": 40.0,
       "raw_value": 40
     },
@@ -629,11 +1080,11 @@
       "raw_value": 40
     }
   ],
-  "scanned_seed_count": 10,
-  "batch_count": 2,
-  "discovery_count": 97,
+  "scanned_seed_count": 15,
+  "batch_count": 3,
+  "discovery_count": 169,
   "complete_20_seeds": false,
-  "updated_at": "2026-10-07T01:36:22.478890+00:00",
+  "updated_at": "2026-10-07T11:07:38.653844+00:00",
   "errors": [
     {
       "generated_at": "2026-10-07T01:34:15.109985+00:00",
@@ -645,6 +1096,19 @@
         "builder",
         "scheme",
         "pattern"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    },
+    {
+      "generated_at": "2026-10-07T11:05:43.900456+00:00",
+      "local_generated_at": "2026-10-07T19:05:43.900456+08:00",
+      "start_index": 25,
+      "seed_batch": [
+        "checker",
+        "detector",
+        "scraper",
+        "manager",
+        "explorer"
       ],
       "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
     }
