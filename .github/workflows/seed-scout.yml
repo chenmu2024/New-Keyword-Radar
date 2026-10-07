@@ -2,10 +2,16 @@ name: 7-Day Seed Scout
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "src/seed_scout.py"
+      - "config/discovery_seeds.txt"
+      - "config/settings.json"
+      - ".github/workflows/seed-scout.yml"
   schedule:
-    # Asia/Shanghai: 02:20, 08:20, 14:20, 20:20.
-    # Four batches x 5 roots = 20 roots per local calendar day.
-    - cron: "20 0,6,12,18 * * *"
+    # Asia/Shanghai primary batches: 08:20, 12:20, 16:20, 20:20.
+    # 22:20 is a safety catch-up slot. src/seed_scout.py no-ops once 20 roots are complete.
+    - cron: "20 0,4,8,12,14 * * *"
 
 permissions:
   contents: write
@@ -17,7 +23,7 @@ concurrency:
 jobs:
   scout:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 35
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,12 +42,53 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip && pip install -r requirements.txt
 
-      - name: Scan 7-day Rising queries
+      - name: Scan 7-day Rising queries with retry
         env:
           PYTHONUNBUFFERED: "1"
-        run: python src/seed_scout.py
+        shell: bash
+        run: |
+          set -u
+          for attempt in 1 2 3; do
+            echo "Seed scout attempt $attempt/3"
+            if python src/seed_scout.py; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              sleep $((attempt * 60))
+            fi
+          done
+          echo "Seed scout failed after 3 attempts"
+          exit 1
+
+      - name: Verify local-day archive
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          local_now = datetime.now(ZoneInfo("Asia/Shanghai"))
+          day = local_now.date().isoformat()
+          path = Path("data/seed-scout-daily") / f"{day}.json"
+          if not path.exists():
+              raise SystemExit(f"Missing daily archive: {path}")
+
+          data = json.loads(path.read_text(encoding="utf-8"))
+          count = int(data.get("scanned_seed_count", 0) or 0)
+          complete = bool(data.get("complete_20_seeds", False))
+          print(f"{day}: scanned_seed_count={count}, complete_20_seeds={complete}")
+
+          # By/after the 20:20 primary slot, the Beijing-local day must be complete.
+          # The 22:20 slot is a final catch-up; failure remains visible instead of being masked.
+          if local_now.hour >= 20 and not complete:
+              raise SystemExit(f"Daily scan incomplete after evening slot: {count}/20 roots")
+          PY
 
       - name: Commit scout state and daily archive
+        if: always()
+        shell: bash
         run: |
           git config user.name "new-keyword-radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
