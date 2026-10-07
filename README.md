@@ -70,9 +70,9 @@ A query can be truly new and still be excluded if it has no clear way to make mo
 
 ## Schedule
 
-GitHub Actions runs at `23:05 UTC`, approximately **07:05 UTC+8**, leaving time for the 08:00 downstream new-word report.
+GitHub Actions runs the seed scout on the Asia/Shanghai calendar day at **08:20 / 12:20 / 16:20 / 20:20**, five roots per primary batch. A **22:20** safety slot only runs missing work; once the daily archive reaches 20 unique roots, the scout exits without scanning more. Each batch retries transient Google Trends failures up to three times.
 
-The workflow also runs after changes to the radar code/config so setup and fixes can be verified immediately.
+The downstream 08:00 report therefore reads the **previous Beijing-local day's** completed 20-root archive. The workflow also runs after changes to the scout code/config so fixes can be exercised immediately.
 
 ## Cost
 
