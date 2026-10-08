@@ -50,6 +50,26 @@ class FirstPersonDemandTests(unittest.TestCase):
                           reference=datetime(2026, 10, 8, tzinfo=timezone.utc))
         self.assertEqual(verdict["screening"], "review")
 
+    def test_old_2016_hn_post_not_current_demand(self):
+        item = {"platform": "hackernews_ask",
+                "title": "Ask HN: Small business bank account – who do you use?",
+                "snippet": "We need an account for payroll integration with accounting tools.",
+                "published_at": "2016-04-06T14:31:06Z",
+                "url": "https://news.ycombinator.com/item?id=11438973"}
+        verdict = q.score(item, "payroll integration error")
+        self.assertEqual(verdict["screening"], "discard")
+        self.assertIn("firsthand_date_missing_or_older_than_180_days", verdict["reasons"])
+
+    def test_internal_finance_task_without_customer_report_not_demand(self):
+        item = {"platform": "github_issues",
+                "title": "D1-C — integrated deterministic closeout, truth table, UAT",
+                "snippet": "Integrate payroll reconciliation and error workflow for finance team.",
+                "published_at": "2026-10-05T00:21:32Z",
+                "url": "https://github.com/bensmullen/personal-finance-app/issues/80"}
+        verdict = q.score(item, "payroll integration error")
+        self.assertEqual(verdict["screening"], "discard")
+        self.assertIn("no_topical_title_or_customer_attribution", verdict["reasons"])
+
     @patch.object(s, "cached_request")
     def test_hn_invalid_ids_ignored(self, mocked):
         mocked.return_value = (json.dumps({"hits": [{"objectID": "not_numeric",
