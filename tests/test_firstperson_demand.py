@@ -50,7 +50,6 @@ class FirstPersonDemandTests(unittest.TestCase):
                           reference=datetime(2026, 10, 8, tzinfo=timezone.utc))
         self.assertEqual(verdict["screening"], "review")
 
-    @patch.object(s, "cached_request")
     def test_old_2016_hn_post_not_current_demand(self):
         item = {"platform": "hackernews_ask",
                 "title": "Ask HN: Small business bank account – who do you use?",
@@ -71,6 +70,7 @@ class FirstPersonDemandTests(unittest.TestCase):
         self.assertEqual(verdict["screening"], "discard")
         self.assertIn("no_topical_title_or_customer_attribution", verdict["reasons"])
 
+    @patch.object(s, "cached_request")
     def test_hn_invalid_ids_ignored(self, mocked):
         mocked.return_value = (json.dumps({"hits": [{"objectID": "not_numeric",
                              "title": "Ask HN: a request"}]}), False)
