@@ -40,6 +40,17 @@ class FreeSearchTests(unittest.TestCase):
         self.assertEqual(result["total"], 0)
         self.assertIsNone(result["keyword_metrics"]["volume"])
 
+    @patch.object(f, "bing_rss")
+    @patch.object(f, "duckduckgo")
+    def test_ddg_202_uses_labeled_bing_rss_fallback(self, ddg, bing):
+        ddg.side_effect = ValueError("Unexpected HTTP status: 202")
+        bing.return_value = [f.row("bing_rss", "Example", "https://example.org/article")]
+        result = f.collect("example", ["duckduckgo"], limit=1)
+        self.assertEqual(result["sources"]["duckduckgo"]["status"], "degraded")
+        self.assertEqual(result["sources"]["duckduckgo"]["fallback"], "bing_rss")
+        self.assertEqual(result["items"][0]["platform"], "bing_rss")
+        self.assertEqual(result["items"][0]["metadata"]["fallback_for"], "duckduckgo")
+
     def test_local_extractor(self):
         p = f.TextParser()
         p.feed("<html><title>Hello</title><nav>No</nav><article><p>Yes</p></article></html>")
