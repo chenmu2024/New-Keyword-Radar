@@ -127,6 +127,8 @@ def github(query, kind="repositories", limit=8):
     data = json.loads(cached_request(url, ttl=1800, headers=headers)[0])
     out = []
     for obj in data.get("items", [])[:limit]:
+        if kind == "issues" and "pull_request" in obj:
+            continue
         title = obj.get("full_name") if kind == "repositories" else obj.get("title")
         snippet = obj.get("description") if kind == "repositories" else obj.get("body")
         metrics = {"stars": obj.get("stargazers_count")} if kind == "repositories" else {"comments": obj.get("comments")}
@@ -207,6 +209,12 @@ def duckduckgo(query, limit=8):
     return dedupe(parser.items)[:limit]
 
 
+def bing_rss(query, limit=8):
+    # Public Bing search RSS, not the paid Bing Search API.
+    url = "https://www.bing.com/search?" + urlencode({"q": query, "format": "rss"})
+    return rss_items(url, limit, platform="bing_rss")
+
+
 def reddit(query, limit=8):
     # Public RSS may return 403; report failure and provide an indexed discovery
     # fallback, clearly labeled rather than misrepresenting it as Reddit API.
@@ -218,7 +226,11 @@ def reddit(query, limit=8):
         failure = "Reddit public RSS returned no items"
     except Exception as exc:
         failure = type(exc).__name__ + ": " + str(exc)[:180]
-    result = [item for item in duckduckgo("site:reddit.com " + query, limit) if (urlparse(item.get("url", "")).hostname or "").endswith("reddit.com")]
+    try:
+        indexed = duckduckgo("site:reddit.com " + query, limit)
+    except (OSError, ValueError):
+        indexed = bing_rss("site:reddit.com " + query, limit)
+    result = [item for item in indexed if (urlparse(item.get("url", "")).hostname or "").endswith("reddit.com")]
     for item in result:
         item["platform"] = "reddit_index_fallback"
         item["metadata"]["fallback_reason"] = failure
@@ -293,6 +305,7 @@ def collect(query, platforms, limit=8):
         "github_issues": lambda: github(query, "issues", limit),
         "google_news_rss": lambda: google_news(query, limit),
         "duckduckgo": lambda: duckduckgo(query, limit),
+        "bing_rss": lambda: bing_rss(query, limit),
         "reddit": lambda: reddit(query, limit),
         "images": lambda: image_candidates(query, limit),
     }
@@ -311,8 +324,20 @@ def collect(query, platforms, limit=8):
                                          "count": len(items), "warning": warning}
             result["items"].extend(items)
         except (HTTPError, URLError, OSError, ValueError, ET.ParseError, KeyError) as exc:
-            result["sources"][source] = {"status": "error", "count": 0,
-                                         "error": type(exc).__name__ + ": " + str(exc)[:200]}
+            reason = type(exc).__name__ + ": " + str(exc)[:200]
+            if source == "duckduckgo":
+                # Hosted runners can receive HTTP 202; no evasion or proxy usage.
+                try:
+                    fallback = bing_rss(query, limit)
+                    for entry in fallback:
+                        entry["metadata"]["fallback_for"] = "duckduckgo"
+                    result["items"].extend(fallback)
+                    result["sources"][source] = {"status": "degraded", "count": len(fallback),
+                                                  "warning": reason, "fallback": "bing_rss"}
+                    continue
+                except (HTTPError, URLError, OSError, ValueError, ET.ParseError) as alt:
+                    reason += "; bing_rss: " + str(alt)[:150]
+            result["sources"][source] = {"status": "error", "count": 0, "error": reason}
     result["items"] = dedupe(result["items"])
     result["total"] = len(result["items"])
     return result
