@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-08T08:14:28.975332+08:00",
+  "generated_at": "2026-10-08T08:21:38.503284+08:00",
   "mode": "read_only_discovery",
   "keyword_metrics": {
     "volume": null,
@@ -12,7 +12,7 @@
   "queries": [
     {
       "query": "micro SaaS feature request",
-      "captured_at": "2026-10-08T00:14:23.286575+00:00",
+      "captured_at": "2026-10-08T00:21:31.977645+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -55,7 +55,7 @@
             "updated_at": "2026-08-27T09:20:58Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:14:23.652201+00:00",
+          "discovered_at": "2026-10-08T00:21:32.293352+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -73,7 +73,7 @@
             "updated_at": "2023-06-10T04:55:54Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:14:23.652271+00:00",
+          "discovered_at": "2026-10-08T00:21:32.293401+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -85,13 +85,49 @@
           "snippet": "## Observed, not accepted In `/implement --fix #1805` run `f56b5d9db2313942` (Claude session `b01695d9`), F1 initialized the per-repo sentinel with mode, run ID, issue and base commit at 15:07:55Z and `record_run_start` returned true. At 15:08:56Z a bare recovery sentinel appeared with only session ID, `recovered` and timestamp; the original run ID, mode, issue and base commit were gone. At 15:09:06Z alignment was signed onto this identity-less state. The separate completion ledger still named the run, but it is a different, lower-authority carrier. The cause is now reproduced at the function boundary: `commands/implement-fix.md` F1 initializes `state` without `session_id`, while full mode i",
           "published_at": "2026-09-25T15:30:30Z",
           "engagement": {
-            "comments": 311
+            "comments": 313
           },
           "metadata": {
-            "updated_at": "2026-10-08T00:13:09Z",
+            "updated_at": "2026-10-08T00:20:42Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:14:24.030586+00:00",
+          "discovered_at": "2026-10-08T00:21:32.673848+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "KDS Mission Control — single communication thread",
+          "url": "https://github.com/hallurg/hladvarp/issues/10",
+          "snippet": "# KDS Mission Control — Single Communication Thread ## Purpose This issue is the single durable communication hub for Codex ↔ ChatGPT ↔ CEO coordination. CEO is currently dealing with too many runtime chats, repeated GitHub execution request chats, side-channel instructions, and project-specific threads. That is creating confusion and wasted quota. From now on, this issue is the **mission control thread**. ## Core rule Runtime chats are disposable. GitHub issue threads are durable. Codex must treat this issue as the primary communication hub unless a specific project issue is explicitly designated as active. ## Operating model 1. CEO can talk to Codex in one new Codex communication chat. 2. ",
+          "published_at": "2026-07-07T13:44:41Z",
+          "engagement": {
+            "comments": 603
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T00:20:29Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:21:32.674119+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "117 AUTONOMOUS STUDIO — ChatGPT × Claude Code",
+          "url": "https://github.com/moshehason/117-LAB-TEST/issues/3",
+          "snippet": "# 117 Autonomous Studio This issue is the shared workroom for ChatGPT and Claude Code. ## Mission Continuously improve 117 as an experimental digital-art project: code quality, mobile QA, new interactive studies, presentation, documentation, and gallery-facing materials. ## Collaboration protocol - Always inspect the latest `main` before changing files. - Never overwrite another agent's newer work. - Use this issue for handoffs, findings, QA failures, ideas, and next actions. - Small safe fixes may be committed directly; substantial experiments should use a branch/PR. - Mobile/iPhone QA is mandatory for visual experiments: the complete 117 must remain visible unless clipping is explicitly in",
+          "published_at": "2026-09-21T09:32:20Z",
+          "engagement": {
+            "comments": 254
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T00:14:32Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:21:32.674202+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -109,43 +145,7 @@
             "updated_at": "2026-10-08T00:10:30Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:14:24.032227+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "github_issues",
-          "title": "KDS Mission Control — single communication thread",
-          "url": "https://github.com/hallurg/hladvarp/issues/10",
-          "snippet": "# KDS Mission Control — Single Communication Thread ## Purpose This issue is the single durable communication hub for Codex ↔ ChatGPT ↔ CEO coordination. CEO is currently dealing with too many runtime chats, repeated GitHub execution request chats, side-channel instructions, and project-specific threads. That is creating confusion and wasted quota. From now on, this issue is the **mission control thread**. ## Core rule Runtime chats are disposable. GitHub issue threads are durable. Codex must treat this issue as the primary communication hub unless a specific project issue is explicitly designated as active. ## Operating model 1. CEO can talk to Codex in one new Codex communication chat. 2. ",
-          "published_at": "2026-07-07T13:44:41Z",
-          "engagement": {
-            "comments": 602
-          },
-          "metadata": {
-            "updated_at": "2026-10-08T00:04:53Z",
-            "state": "open"
-          },
-          "discovered_at": "2026-10-08T00:14:24.032867+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "github_issues",
-          "title": "Submit Your MCP Servers here",
-          "url": "https://github.com/chatmcp/mcpso/issues/1",
-          "snippet": "Leave your MCP Servers links. We will make it visiable on https://mcp.so",
-          "published_at": "2024-12-06T02:23:42Z",
-          "engagement": {
-            "comments": 1392
-          },
-          "metadata": {
-            "updated_at": "2026-10-07T23:52:45Z",
-            "state": "open"
-          },
-          "discovered_at": "2026-10-08T00:14:24.032907+00:00",
+          "discovered_at": "2026-10-08T00:21:32.676026+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -158,7 +158,7 @@
           "published_at": "Mon, 19 Jun 2023 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:14:24.447347+00:00",
+          "discovered_at": "2026-10-08T00:21:33.018021+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -171,7 +171,7 @@
           "published_at": "Fri, 18 Apr 2025 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:14:24.447405+00:00",
+          "discovered_at": "2026-10-08T00:21:33.018120+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -184,7 +184,7 @@
           "published_at": "Fri, 12 Jul 2024 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:14:24.447453+00:00",
+          "discovered_at": "2026-10-08T00:21:33.018204+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -197,7 +197,22 @@
           "published_at": "Fri, 11 May 2018 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:14:24.447498+00:00",
+          "discovered_at": "2026-10-08T00:21:33.018287+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Microsoft account | Sign In or Create Your Account Today – Microsoft",
+          "url": "https://account.microsoft.com/account",
+          "snippet": "Get access to free online versions of Outlook, Word, Excel, and PowerPoint.",
+          "published_at": "Wed, 07 Oct 2026 15:17:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:21:33.399890+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -212,22 +227,22 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:24.643131+00:00",
+          "discovered_at": "2026-10-08T00:21:33.399965+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Microsoft account | Sign In or Create Your Account Today – Microsoft",
-          "url": "https://account.microsoft.com/account",
-          "snippet": "Access all your Microsoft apps, services, and games with one account. Whatever you’re doing, wherever you are, just go. Your account profile and preferences sync across all your devices. Wherever you are, it’s all here.",
-          "published_at": "Wed, 07 Oct 2026 15:17:00 GMT",
+          "title": "Computer Store in Denver, CO - Micro Center",
+          "url": "https://www.microcenter.com/site/stores/denver.aspx",
+          "snippet": "Welcome to Micro Center Denver—your premier tech destination in Colorado since 1999. Conveniently located in the Denver Tech Center just off I-225 on South Tamarac Street, our store offers over 25,000 products, including laptops, desktops, PC parts, Apple devices, and gaming gear. With spacious departments, a dedicated DIY builder area, and a knowledgeable team of tech enthusiasts, we ...",
+          "published_at": "Tue, 06 Oct 2026 09:20:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:24.643190+00:00",
+          "discovered_at": "2026-10-08T00:21:33.400056+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -237,27 +252,12 @@
           "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
           "url": "https://www.microsoft.com/en-us",
           "snippet": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
-          "published_at": "Wed, 07 Oct 2026 19:56:00 GMT",
+          "published_at": "Wed, 07 Oct 2026 20:54:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:24.643227+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "bing_rss",
-          "title": "Micro- - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Micro-",
-          "snippet": "Micro (Greek letter μ, mu, non- italic) is a unit prefix in the metric system denoting a factor of one millionth (10 −6). [2] . It comes from the Greek word μικρός (mikrós), meaning \"small\". [3] It is the only SI prefix which uses a character not from the Latin alphabet.",
-          "published_at": "Wed, 07 Oct 2026 10:17:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T00:14:24.643265+00:00",
+          "discovered_at": "2026-10-08T00:21:33.400111+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -270,7 +270,7 @@
           "published_at": "2026-03-06T12:14:47+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:14:24.850529+00:00",
+          "discovered_at": "2026-10-08T00:21:33.610536+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -283,7 +283,7 @@
           "published_at": "2026-10-08T00:11:14+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:14:24.850574+00:00",
+          "discovered_at": "2026-10-08T00:21:33.610582+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -296,7 +296,7 @@
           "published_at": "2026-10-08T00:10:27+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:14:24.850604+00:00",
+          "discovered_at": "2026-10-08T00:21:33.610612+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -309,7 +309,7 @@
           "published_at": "2026-10-08T00:02:40+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:14:24.850628+00:00",
+          "discovered_at": "2026-10-08T00:21:33.610638+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -321,11 +321,220 @@
         "kd": null,
         "cpc": null
       },
-      "total": 18
+      "total": 18,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 1,
+        "discarded_count": 17,
+        "review_leads": [
+          {
+            "platform": "github_repositories",
+            "title": "enoob15/featurehunt",
+            "url": "https://github.com/enoob15/featurehunt",
+            "snippet": "🎯 Feature request board for micro-SaaS — collect ideas, upvote what matters, ship the right things. No database required.",
+            "published_at": "2026-08-27T09:05:39Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-08-27T09:20:58Z",
+              "state": null
+            },
+            "discovered_at": "2026-10-08T00:21:32.293352+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 76,
+              "screening": "review",
+              "reasons": [
+                "query_terms:feature,saas",
+                "problem_or_request_language",
+                "commercial_or_tool_context"
+              ],
+              "matched_query_terms": [
+                "feature",
+                "saas"
+              ],
+              "published_age_days": 41,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/AbdallahAHO/pulse-poc",
+            "title": "AbdallahAHO/pulse-poc",
+            "score": 41,
+            "reasons": [
+              "query_terms:feature,saas",
+              "commercial_or_tool_context",
+              "stale_over_one_year"
+            ]
+          },
+          {
+            "url": "https://github.com/akaszubski/autonomous-dev/issues/1807",
+            "title": "Fail closed when sentinel recovery loses signed run identity",
+            "score": 0,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_30_days",
+              "non_opportunity_or_automated_noise",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://github.com/hallurg/hladvarp/issues/10",
+            "title": "KDS Mission Control — single communication thread",
+            "score": 23,
+            "reasons": [
+              "problem_or_request_language",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://github.com/moshehason/117-LAB-TEST/issues/3",
+            "title": "117 AUTONOMOUS STUDIO — ChatGPT × Claude Code",
+            "score": 32,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_30_days",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://github.com/SUSANO-OOO/Zombieee/issues/172",
+            "title": "[Execution Ledger] Version 1.0.0 final release",
+            "score": 10,
+            "reasons": [
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4yYzBfbndONFd6Zl9TWDlrUkZndFY5R2QwVDdVTlJuT1BTSjhkVGlTX2wwMTNPSUZ2OVRJNmlpcC14LVIzbm44UkZHOXFmek5yNHhiUHU5bGVURm1DTmNORXR3ZGxvS1NvOUdoV3dOX1BGZ0dVUTRB?oc=5",
+            "title": "Every request, every microsecond: scalable machine learning at Cloudflare - Cloudflare Blog",
+            "score": 13,
+            "reasons": [
+              "problem_or_request_language",
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90UEVLa0VHTnRyZ3pJekd4TDRWWkkwWG1OZUJKSW5pazF6QkZYNVhnRjkzRnJWSllYa1BUb201VlhHa1otV3FocmZCQ3dORUdjZ2JmY3pTbktPUEZlb0NF?oc=5",
+            "title": "Top SaaS ideas to start a profitable business in 2026 - Hostinger",
+            "score": 39,
+            "reasons": [
+              "query_terms:saas",
+              "commercial_or_tool_context",
+              "publication_date_unverified"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSTVPWHc3dFZDZEFTZm5vM1dmVmY0b3ZKS2Y0VFMzZ2FQWFgzMDRzQWRWbHdhbEVOckUyWV9EZUctdXJYakVUcF9oVjg3RWN2QVE0Z1dKdThlZWdqTl9VT2xHbnZKZUFzOXlwVEVBd3FKbElteU1VYTNGWWtndVU0dnd4NS1PQVg0aEdZRnc3MW5SeE91VUl5RnAwQUJDRjU0V0MyTmJxdWg3bWNPNE1jT3RVZ1BaemtUUUFvMjNjT19DTWloODI2VHVB?oc=5",
+            "title": "Mojix Platform Updates Include New Traceability Features - Supply & Demand Chain Executive",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVnJGZUVSUVducUNocFA3ZW93ZnZqTE9Dd2JVQjBzc1Z1bHZTT01IRzFFUDFIMy1HbHdyclNwR283bmFTZXlpLW9JMndVRjV6MGZ3NGMzdmxUbTFiem5VdktlQTFNdGNUbE0weFpGaEdNQVVGYWFZZ1VHUVpzWkpPZnE1RGF2QWQtREd3UVN0WkNCOS1WOTlNRmZtM3Utd0xLbEI5SkV4OWIwenVrczUxWmYxSWhicWw5?oc=5",
+            "title": "How a SaaS provider made microservices deployment safely chaotic - TechTarget",
+            "score": 39,
+            "reasons": [
+              "query_terms:saas",
+              "commercial_or_tool_context",
+              "publication_date_unverified"
+            ]
+          },
+          {
+            "url": "https://account.microsoft.com/account",
+            "title": "Microsoft account | Sign In or Create Your Account Today – Microsoft",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.microcenter.com/",
+            "title": "Micro Center - Computer & Electronics Retailer - Shop Now",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.microcenter.com/site/stores/denver.aspx",
+            "title": "Computer Store in Denver, CO - Micro Center",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.microsoft.com/en-us",
+            "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/FonixOne",
+            "title": "Fonix One - Own Your Music Again",
+            "score": 5,
+            "reasons": [
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/IMadeThis/comments/1x0cmbc/i_built_a_free_typing_practice_site_how_would_you",
+            "title": "I built a free typing practice site - how would you get the first 500 users?",
+            "score": 19,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1x0clqb/i_built_a_free_typing_practice_site_how_would_you",
+            "title": "I built a free typing practice site - how would you get the first 500 users?",
+            "score": 19,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/ScamChecker/comments/1x0cfsz/is_gigaswordsite_legit_or_scam",
+            "title": "is gigasword.site legit or scam?",
+            "score": 19,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      }
     },
     {
       "query": "problema ferramenta online Brasil",
-      "captured_at": "2026-10-08T00:14:24.850825+00:00",
+      "captured_at": "2026-10-08T00:21:33.612980+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -368,7 +577,7 @@
             "updated_at": "2026-07-13T15:31:24Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:14:25.137897+00:00",
+          "discovered_at": "2026-10-08T00:21:33.904885+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -386,7 +595,7 @@
             "updated_at": "2026-10-07T21:15:39Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:14:25.552023+00:00",
+          "discovered_at": "2026-10-08T00:21:34.275650+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -404,7 +613,7 @@
             "updated_at": "2026-09-27T23:07:55Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:14:25.552997+00:00",
+          "discovered_at": "2026-10-08T00:21:34.276823+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -422,7 +631,7 @@
             "updated_at": "2026-09-24T02:27:42Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:14:25.553053+00:00",
+          "discovered_at": "2026-10-08T00:21:34.276885+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -440,7 +649,7 @@
             "updated_at": "2026-09-23T23:28:58Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:14:25.553700+00:00",
+          "discovered_at": "2026-10-08T00:21:34.277648+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -453,67 +662,67 @@
           "published_at": "Mon, 11 May 2026 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:14:25.909666+00:00",
+          "discovered_at": "2026-10-08T00:21:34.554111+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Problema | Spanish to English Translation - SpanishDictionary.com",
-          "url": "https://www.spanishdict.com/translate/problema",
-          "snippet": "Translate Problema. See 3 authoritative translations of Problema in English with example sentences, phrases and audio pronunciations.",
-          "published_at": "Tue, 06 Oct 2026 06:29:00 GMT",
+          "title": "Chicago South Loop Chicago, IL Warehouse | Costco",
+          "url": "https://www.costco.com/w/-/il/chicago/1107",
+          "snippet": "Shop Costco's Chicago, IL location for electronics, groceries, small appliances, and more. Find quality brand-name products at warehouse prices.",
+          "published_at": "Wed, 07 Oct 2026 19:42:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:26.078599+00:00",
+          "discovered_at": "2026-10-08T00:21:34.767266+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "No Problemo or Problema? Which is Correct? - Spanish with Flor",
-          "url": "https://spanishwithflor.net/no-problemo-problema-which-is-correct",
-          "snippet": "Many people wonder if it is correct to say “no problemo” or “no problema” in Spanish. In this article, we will explore this topic and provide you with a clear answer.",
-          "published_at": "Wed, 07 Oct 2026 01:48:00 GMT",
+          "title": "Lincoln Park Chicago, IL Warehouse | Costco",
+          "url": "https://www.costco.com/w/-/il/chicago/380",
+          "snippet": "Shop Costco's Chicago, IL location for electronics, groceries, small appliances, and more. Find quality brand-name products at warehouse prices.",
+          "published_at": "Tue, 06 Oct 2026 19:50:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:26.078654+00:00",
+          "discovered_at": "2026-10-08T00:21:34.767308+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Daddy Yankee – Problema (Official Music Video)",
-          "url": "https://m.youtube.com/watch?v=vtJUFn66nOI",
-          "snippet": "This reggaeton anthem delivers infectious beats, powerful rhythms, and the unmistakable style that made Daddy Yankee a global Latin music icon.",
-          "published_at": "Sun, 20 Sep 2026 01:18:00 GMT",
+          "title": "Costco Stores in Illinois (23 Locations) - Oct 2026",
+          "url": "https://www.storelocators.com/store-lists/costco/illinois",
+          "snippet": "Download all 23 Costco store locations in Illinois as a free CSV, including addresses, phone numbers, operating hours, and coordinates. This data is part of the largest free public directory of retail store locations, tracked in real-time by StoreLocators and updated daily.",
+          "published_at": "Tue, 06 Oct 2026 20:12:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:26.078693+00:00",
+          "discovered_at": "2026-10-08T00:21:34.767346+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Daddy Yankee - Problema (Official Video) - YouTube",
-          "url": "https://m.youtube.com/watch?v=7qrlCLbGigc",
-          "snippet": "Daddy Yankee Problema (Official Video) Subscribe to the channel: https://goo.gl/yypZya More music videos from DY: De Vuelta Pa' La Vuelta: • Daddy Yankee & Marc Anthony - De Vuelta Pa...",
-          "published_at": "Sat, 03 Oct 2026 22:17:00 GMT",
+          "title": "Chicago South Loop Chicago, IL Warehouse | Costco",
+          "url": "https://www.costco.ca/w/-/il/chicago/1107",
+          "snippet": "Magasinez à l’entrepôt Costco de/d’ Chicago, IL pour les appareils électroniques, les courses, les petits électroménagers et plus encore, et profitez de prix d’entrepôt sur des articles de marque.",
+          "published_at": "Tue, 06 Oct 2026 19:50:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:26.078733+00:00",
+          "discovered_at": "2026-10-08T00:21:34.767383+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -525,11 +734,119 @@
         "kd": null,
         "cpc": null
       },
-      "total": 10
+      "total": 10,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "discarded_count": 10,
+        "review_leads": [],
+        "discarded": [
+          {
+            "url": "https://github.com/Andreesclusividade/mabs-curriculo-pwa",
+            "title": "Andreesclusividade/mabs-curriculo-pwa",
+            "score": 12,
+            "reasons": [
+              "commercial_or_tool_context",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://github.com/Zion-support/zion-support.github.io/issues/71361",
+            "title": "OPS COMMS — forever agent log (do not close)",
+            "score": 0,
+            "reasons": [
+              "published_within_30_days",
+              "non_opportunity_or_automated_noise",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://github.com/jhowtkd/adscale/issues/538",
+            "title": "Spec: ADScale Equipe — operação de marketing self-driving (fluxos centrais)",
+            "score": 32,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_30_days",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://github.com/dunossauro/fastapi-do-zero/issues/91",
+            "title": "Repositórios",
+            "score": 7,
+            "reasons": [
+              "problem_or_request_language",
+              "stale_over_one_year",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://github.com/UnitedOpen-Source/microHelium/issues/390",
+            "title": "BNCC Computação: o que o microHelium já cobre, o que falta para uma rede de ensino usá-lo, e por onde começar",
+            "score": 32,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_30_days",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPU2d3ZXA2aWJlM1lubjNIcllOZEozdlNiZDIzWHZXaElONWlDZlVITWhZTUFIZDFvSThEalpUWlNlTHNqNmtwQXYtSk5UaHVvOTVPV0owazdITTJOdlpDNGwtX2RBQmdSQ0NkZ1hsbHhyeDdOb1NZTkFpTXRUN1ozSzdTSWJWaE85Z2xMZjlvb3k0U3dYdUdKLV9GR3BrQ3owYm42eTJOdVE?oc=5",
+            "title": "Opinião | Proteção infantil erra ao penalizar ferramentas de segurança digital - Poder360",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.costco.com/w/-/il/chicago/1107",
+            "title": "Chicago South Loop Chicago, IL Warehouse | Costco",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.costco.com/w/-/il/chicago/380",
+            "title": "Lincoln Park Chicago, IL Warehouse | Costco",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.storelocators.com/store-lists/costco/illinois",
+            "title": "Costco Stores in Illinois (23 Locations) - Oct 2026",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.costco.ca/w/-/il/chicago/1107",
+            "title": "Chicago South Loop Chicago, IL Warehouse | Costco",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      }
     },
     {
       "query": "problema herramienta online México",
-      "captured_at": "2026-10-08T00:14:26.304502+00:00",
+      "captured_at": "2026-10-08T00:21:35.089351+00:00",
       "sources": {
         "github_repos": {
           "status": "empty",
@@ -572,7 +889,7 @@
             "updated_at": "2026-09-25T20:46:55Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:14:26.998658+00:00",
+          "discovered_at": "2026-10-08T00:21:35.790045+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -590,67 +907,67 @@
             "updated_at": "2026-09-19T20:38:31Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:14:27.000833+00:00",
+          "discovered_at": "2026-10-08T00:21:35.792422+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Problema | Spanish to English Translation - SpanishDictionary.com",
-          "url": "https://www.spanishdict.com/translate/problema",
-          "snippet": "Translate Problema. See 3 authoritative translations of Problema in English with example sentences, phrases and audio pronunciations.",
-          "published_at": "Tue, 06 Oct 2026 06:29:00 GMT",
+          "title": "Stats | UEFA Champions League 2026/27",
+          "url": "https://www.uefa.com/uefachampionsleague/statistics",
+          "snippet": "Visit UEFA.com for comprehensive player, club and competition stats for UEFA Champions League 2026/2027, including goals, matches played, and many more.",
+          "published_at": "Tue, 19 Aug 2025 16:04:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:27.504514+00:00",
+          "discovered_at": "2026-10-08T00:21:36.563091+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "No Problemo or Problema? Which is Correct? - Spanish with Flor",
-          "url": "https://spanishwithflor.net/no-problemo-problema-which-is-correct",
-          "snippet": "Many people wonder if it is correct to say “no problemo” or “no problema” in Spanish. In this article, we will explore this topic and provide you with a clear answer.",
-          "published_at": "Wed, 07 Oct 2026 01:48:00 GMT",
+          "title": "Player stats | UEFA Champions League 2026/27",
+          "url": "https://www.uefa.com/uefachampionsleague/statistics/players",
+          "snippet": "Visit UEFA.com for comprehensive player stats for this seasons UEFA Champions League 2026/2027, including goals, attacking, defending, and many more.",
+          "published_at": "Wed, 07 Oct 2026 22:27:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:27.504561+00:00",
+          "discovered_at": "2026-10-08T00:21:36.563137+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Daddy Yankee – Problema (Official Music Video)",
-          "url": "https://m.youtube.com/watch?v=vtJUFn66nOI",
-          "snippet": "This reggaeton anthem delivers infectious beats, powerful rhythms, and the unmistakable style that made Daddy Yankee a global Latin music icon.",
-          "published_at": "Sun, 20 Sep 2026 01:18:00 GMT",
+          "title": "Stats | UEFA Champions League 2026/27",
+          "url": "https://fr.uefa.com/uefachampionsleague/statistics",
+          "snippet": "Rendez-vous sur UEFA.com pour découvrir toutes les stats sur les joueurs, les équipes et l'Histoire de UEFA Champions League 2026/2027. Vous y trouverez aussi les buts marqués, les matches ...",
+          "published_at": "Fri, 23 Jan 2026 00:48:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:27.504591+00:00",
+          "discovered_at": "2026-10-08T00:21:36.563172+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Daddy Yankee - Problema (Official Video) - YouTube",
-          "url": "https://m.youtube.com/watch?v=7qrlCLbGigc",
-          "snippet": "Daddy Yankee Problema (Official Video) Subscribe to the channel: https://goo.gl/yypZya More music videos from DY: De Vuelta Pa' La Vuelta: • Daddy Yankee & Marc Anthony - De Vuelta Pa...",
-          "published_at": "Sat, 03 Oct 2026 22:17:00 GMT",
+          "title": "Saison 2024/25 Stats | UEFA Champions League 2024/25",
+          "url": "https://fr.uefa.com/uefachampionsleague/history/seasons/2025/statistics",
+          "snippet": "UEFA Champions League 2024/25, rendez-vous sur fr.UEFA.com pour les statistiques complètes sur les joueurs, les équipes et la compétition, dont les buts, les matches, et bien plus encore!",
+          "published_at": "Fri, 06 Mar 2026 05:20:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:27.504623+00:00",
+          "discovered_at": "2026-10-08T00:21:36.563207+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -662,11 +979,80 @@
         "kd": null,
         "cpc": null
       },
-      "total": 6
+      "total": 6,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "discarded_count": 6,
+        "review_leads": [],
+        "discarded": [
+          {
+            "url": "https://github.com/yinyo1/fts-suite/issues/314",
+            "title": "Conciliación Chase company 6: proceso actual, columnas PO/Analítica y deber ser",
+            "score": 16,
+            "reasons": [
+              "published_within_30_days",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://github.com/yinyo1/fts-suite/issues/262",
+            "title": "Auditoría y arquitectura: conciliación fiscal SAT vs Odoo",
+            "score": 32,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_30_days",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.uefa.com/uefachampionsleague/statistics",
+            "title": "Stats | UEFA Champions League 2026/27",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.uefa.com/uefachampionsleague/statistics/players",
+            "title": "Player stats | UEFA Champions League 2026/27",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://fr.uefa.com/uefachampionsleague/statistics",
+            "title": "Stats | UEFA Champions League 2026/27",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://fr.uefa.com/uefachampionsleague/history/seasons/2025/statistics",
+            "title": "Saison 2024/25 Stats | UEFA Champions League 2024/25",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      }
     },
     {
       "query": "brotx optimizer v4",
-      "captured_at": "2026-10-08T00:14:27.734454+00:00",
+      "captured_at": "2026-10-08T00:21:36.864369+00:00",
       "sources": {
         "github_repos": {
           "status": "empty",
@@ -698,60 +1084,60 @@
       "items": [
         {
           "platform": "bing_rss",
-          "title": "كبَر الكُريات (تضخم خلايا الدم الحمراء): ما سبب هذه الحالة؟",
-          "url": "https://www.mayoclinic.org/ar/diseases-conditions/vitamin-deficiency-anemia/expert-answers/macrocytosis/faq-20058234",
-          "snippet": "تُسمى حالة ازدياد حجم خلايا الدم الحمراء بشكل أكبر المعتاد كبر الكريات. وغالبًا لا تسبب هذه الحالة أي أعراض، ويُجرى اكتشافها من خلال اختبارات الدم الروتينية. كبر ...",
-          "published_at": "Wed, 23 Jul 2025 23:17:00 GMT",
+          "title": "Walmart Careers",
+          "url": "https://careers.walmart.com/us/en/home",
+          "snippet": "Medical, dental, vision and wellness programs for you and your family. Access mental health resources and assistance programs for life’s challenges. Training, leadership programs, and clear paths to advance. That’s just the beginning. We offer more perks specific to your work location and role.",
+          "published_at": "Wed, 07 Oct 2026 23:03:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:28.746425+00:00",
+          "discovered_at": "2026-10-08T00:21:38.087496+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Macrocytosis: What causes it? - Mayo Clinic",
-          "url": "https://www.mayoclinic.org/diseases-conditions/vitamin-deficiency-anemia/expert-answers/macrocytosis/faq-20058234",
-          "snippet": "Macrocytosis most often has no symptoms. It's found on routine blood tests. Macrocytosis isn't a disease. But it may mean there's an underlying condition that needs medical attention. Common causes of macrocytosis include: Too little vitamin B-12. Too little vitamin folate. Liver disease. Alcohol use. An underactive thyroid, also called ...",
-          "published_at": "Wed, 31 Jul 2024 16:37:00 GMT",
+          "title": "Now Hiring: 200 Walmart Jobs in Lakewood, WA | Indeed",
+          "url": "https://www.indeed.com/q-walmart-l-lakewood,-wa-jobs.html",
+          "snippet": "Browse 204 Walmart jobs in Lakewood, WA. New jobs posted today. Apply now and find your next opportunity on Indeed.com.",
+          "published_at": "Wed, 07 Oct 2026 05:45:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:28.746476+00:00",
+          "discovered_at": "2026-10-08T00:21:38.087542+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "巨红细胞症：是什么引起的？ - 妙佑医疗国际 - Mayo Clinic",
-          "url": "https://www.mayoclinic.org/zh-hans/diseases-conditions/vitamin-deficiency-anemia/expert-answers/macrocytosis/faq-20058234",
-          "snippet": "红细胞比正常大的状况称为巨红细胞症。巨红细胞症通常无症状。它通常是在常规血液检测中被发现的。 巨红细胞症不是一种疾病。但这可能意味着有一种潜在的状况需要医疗护理。巨红细胞症的常见原因包括： 维生素 B-12 ...",
-          "published_at": "Sat, 12 Jul 2025 00:50:00 GMT",
+          "title": "Walmart - Hiring Center",
+          "url": "https://storejobs.wal-mart.com/HiringCenter/SS/NTQzOTI1NzoxNDE2Og",
+          "snippet": "Apply for job opportunities at Walmart's Hiring Center and join a team dedicated to providing excellent customer service.",
+          "published_at": "Wed, 07 Oct 2026 22:55:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:28.746507+00:00",
+          "discovered_at": "2026-10-08T00:21:38.087572+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Systemic mastocytosis - Symptoms and causes - Mayo Clinic",
-          "url": "https://www.mayoclinic.org/diseases-conditions/systemic-mastocytosis/symptoms-causes/syc-20352859",
-          "snippet": "Overview Systemic mastocytosis (mas-to-sy-TOE-sis) is a rare condition that results in too many mast cells building up in the body. Mast cells are found in tissues throughout the body. Mast cells help the immune system work properly and help protect the body from disease. Systemic mastocytosis causes too many mast cells to build up in the skin and bone marrow. Less often, mast cells also build ...",
-          "published_at": "Wed, 07 Oct 2026 12:33:00 GMT",
+          "title": "100 Walmart Jobs & Work in Lakewood, WA | Indeed",
+          "url": "https://www.indeed.com/q-Walmart-Jobs-l-Lakewood,-WA-jobs.html",
+          "snippet": "Browse 179 Walmart jobs in Lakewood, WA. New jobs posted today. Apply now and find your next opportunity on Indeed.com.",
+          "published_at": "Tue, 01 Sep 2026 19:13:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:14:28.746546+00:00",
+          "discovered_at": "2026-10-08T00:21:38.087603+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -763,7 +1149,58 @@
         "kd": null,
         "cpc": null
       },
-      "total": 4
+      "total": 4,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "discarded_count": 4,
+        "review_leads": [],
+        "discarded": [
+          {
+            "url": "https://careers.walmart.com/us/en/home",
+            "title": "Walmart Careers",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.indeed.com/q-walmart-l-lakewood,-wa-jobs.html",
+            "title": "Now Hiring: 200 Walmart Jobs in Lakewood, WA | Indeed",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://storejobs.wal-mart.com/HiringCenter/SS/NTQzOTI1NzoxNDE2Og",
+            "title": "Walmart - Hiring Center",
+            "score": 5,
+            "reasons": [
+              "commercial_or_tool_context",
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://www.indeed.com/q-Walmart-Jobs-l-Lakewood,-WA-jobs.html",
+            "title": "100 Walmart Jobs & Work in Lakewood, WA | Indeed",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      }
     }
   ],
   "warnings": [
