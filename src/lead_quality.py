@@ -147,8 +147,17 @@ def score(item, query, reference=None):
     if not pain:
         eligible = False
         notes.append("no_explicit_user_pain_in_snippet")
+    title_terms = words(title)
+    title_match = bool(tokens & title_terms)
+    # Search results, especially Bing RSS fallbacks, can be wildly off-topic.
+    # Only keep a contextual link if its title or multiple textual topic terms
+    # genuinely match, AND it clears the basic relevance threshold.
+    contextual_match = (bool(matched) and (title_match or len(matched) >= 2)
+                        and pts >= 25 and not spam)
+    if source in contextual_sources and not contextual_match:
+        notes.append("off_topic_contextual_reference")
     classification = ("review" if eligible
-                      else "reference" if source in contextual_sources and not spam
+                      else "reference" if source in contextual_sources and contextual_match
                       else "discard")
     return {"score": max(0, min(100, pts)), "screening": classification,
             "reasons": notes, "matched_query_terms": matched,
