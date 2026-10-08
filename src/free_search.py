@@ -126,9 +126,11 @@ def github(query, kind="repositories", limit=8):
         headers["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
     data = json.loads(cached_request(url, ttl=1800, headers=headers)[0])
     out = []
-    for obj in data.get("items", [])[:limit]:
+    for obj in data.get("items", []):
         if kind == "issues" and "pull_request" in obj:
             continue
+        if len(out) >= limit:
+            break
         title = obj.get("full_name") if kind == "repositories" else obj.get("title")
         snippet = obj.get("description") if kind == "repositories" else obj.get("body")
         metrics = {"stars": obj.get("stargazers_count")} if kind == "repositories" else {"comments": obj.get("comments")}
