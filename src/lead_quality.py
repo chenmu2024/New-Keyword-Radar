@@ -38,10 +38,23 @@ NOISE = re.compile(
     r"\b(election|political|president|celebrity|episode|movie review|"
     r"football|lottery|earthquake)\b)", re.I
 )
+INTERNAL_TASK_TITLE = re.compile(
+    r"^\\s*(build|implement|refactor|revisar|fortalecer|create|add|update|fix|"
+    r"document|write|setup|audit|migrate|test|expand|configure|integrate|"
+    r"complete|develop|design|establish)\\b", re.I
+)
+EXPLICIT_CUSTOMER_REPORT = re.compile(
+    r"\\b(our customers?|customers? report|users? report|users? complain|"
+    r"as a user|user feedback|buyer requests?|customer requests?|"
+    r"we need|i need|i cannot|we cannot|we can't|i can't|"
+    r"preciso|necessit\\w*|clientes? reclam\\w*|usuários? relat\\w*|"
+    r"necesito|clientes? reportan|usuarios? reportan)\\b", re.I
+)
+
 SOURCE_WEIGHT = {
     "github_issues": 22, "reddit_rss": 20, "reddit_index_fallback": 11,
     "github_repositories": 15, "google_news_rss": 12,
-    "bing_rss": 8, "duckduckgo": 8
+    "bing_rss": 8, "duckduckgo": 8, "hackernews_ask": 20
 }
 EVIDENCE_MIN = 45
 
@@ -111,14 +124,14 @@ def score(item, query, reference=None):
     # A result is only a REVIEW lead, never a verified opportunity.
     # For broad exploratory queries, explicit buyer pain + tooling context
     # can qualify for review even when the title uses different vocabulary.
-    alternative_intent = pain and monetization and source in ("github_issues", "reddit_rss")
+    alternative_intent = pain and monetization and source in ("github_issues", "reddit_rss", "hackernews_ask")
     eligible = (not spam and (bool(matched) or alternative_intent)
                 and (pain or monetization)
                 and pts >= EVIDENCE_MIN and bool(item.get("url")))
     if source not in SOURCE_WEIGHT:
         eligible = False
         notes.append("unknown_source_not_eligible")
-    first_person_demand_sources = {"github_issues", "reddit_rss"}
+    first_person_demand_sources = {"github_issues", "reddit_rss", "hackernews_ask"}
     contextual_sources = {"github_repositories", "google_news_rss", "bing_rss",
                           "duckduckgo", "reddit_index_fallback"}
     # News, SERP snippets, GitHub products and indexed Reddit copies are not
@@ -126,6 +139,10 @@ def score(item, query, reference=None):
     if source not in first_person_demand_sources:
         eligible = False
         notes.append("context_only_not_first_person_demand")
+    if source == "github_issues" and INTERNAL_TASK_TITLE.search(title):
+        if not EXPLICIT_CUSTOMER_REPORT.search(text):
+            eligible = False
+            notes.append("engineering_task_without_explicit_user_report")
     # A genuine user-reported pain signal is required in addition to industry terms.
     if not pain:
         eligible = False
