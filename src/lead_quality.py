@@ -149,6 +149,18 @@ def score(item, query, reference=None):
         notes.append("no_explicit_user_pain_in_snippet")
     title_terms = words(title)
     title_match = bool(tokens & title_terms)
+    if source in first_person_demand_sources:
+        # A decade-old forum question is historical context, not current
+        # independently corroborated demand; unverified dates do not pass.
+        if age is None or age > 180:
+            eligible = False
+            notes.append("firsthand_date_missing_or_older_than_180_days")
+        # Very long issue descriptions can mention an industry term while the
+        # actual task is unrelated. Demand must have either a topical title
+        # or a specific attributed user/customer report.
+        if not title_match and not EXPLICIT_CUSTOMER_REPORT.search(text):
+            eligible = False
+            notes.append("no_topical_title_or_customer_attribution")
     # Search results, especially Bing RSS fallbacks, can be wildly off-topic.
     # Only keep a contextual link if its title or multiple textual topic terms
     # genuinely match, AND it clears the basic relevance threshold.
