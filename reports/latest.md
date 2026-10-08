@@ -1,6 +1,6 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-08T00:21:46.336232+00:00
+Generated: 2026-10-08T00:24:27.353244+00:00
 
 ## Formal candidates
 
