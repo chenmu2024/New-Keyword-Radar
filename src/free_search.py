@@ -135,7 +135,8 @@ def github(query, kind="repositories", limit=8):
         snippet = obj.get("description") if kind == "repositories" else obj.get("body")
         metrics = {"stars": obj.get("stargazers_count")} if kind == "repositories" else {"comments": obj.get("comments")}
         candidate = row("github_" + kind, title, obj.get("html_url"), snippet, obj.get("created_at"),
-                        metrics, {"updated_at": obj.get("updated_at"), "state": obj.get("state")})
+                        metrics, {"updated_at": obj.get("updated_at"), "state": obj.get("state"),
+                                  "author": (obj.get("user") or {}).get("login") if kind == "issues" else None})
         if candidate:
             out.append(candidate)
     return out
