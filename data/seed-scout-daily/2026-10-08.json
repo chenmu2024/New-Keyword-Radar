@@ -783,5 +783,46 @@
   "batch_count": 2,
   "discovery_count": 122,
   "complete_20_seeds": false,
-  "updated_at": "2026-10-08T06:06:29.704879+00:00"
+  "updated_at": "2026-10-08T15:42:07.770455+00:00",
+  "errors": [
+    {
+      "generated_at": "2026-10-08T15:38:35.945116+00:00",
+      "local_generated_at": "2026-10-08T23:38:35.945116+08:00",
+      "start_index": 40,
+      "seed_batch": [
+        "notifier",
+        "verifier",
+        "simulator",
+        "assistant",
+        "constructor"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    },
+    {
+      "generated_at": "2026-10-08T15:39:56.747855+00:00",
+      "local_generated_at": "2026-10-08T23:39:56.747855+08:00",
+      "start_index": 40,
+      "seed_batch": [
+        "notifier",
+        "verifier",
+        "simulator",
+        "assistant",
+        "constructor"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    },
+    {
+      "generated_at": "2026-10-08T15:42:07.770455+00:00",
+      "local_generated_at": "2026-10-08T23:42:07.770455+08:00",
+      "start_index": 40,
+      "seed_batch": [
+        "notifier",
+        "verifier",
+        "simulator",
+        "assistant",
+        "constructor"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    }
+  ]
 }
