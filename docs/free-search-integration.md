@@ -80,3 +80,32 @@ fallback is labeled and not counted as firsthand demand.
 Cross-query duplicate URLs are reported. Verification of user need, willingness
 to pay, exact-query 90-day/5-year newness, and independently sourced
 Volume/KD/CPC is still required before an opportunity is recommended.
+
+## Evidence-to-validation queue (new)
+
+Every standalone daily free discovery run now additionally writes:
+- `data/free-intelligence/validation-queue-latest.json`
+- `reports/free-intelligence/validation-queue-latest.md`
+- Dated JSON and Markdown versions next to each day's discovery report.
+
+Each market/topic is a **research task**, not a vetted business opportunity.
+Cards have firsthand user complaint citations, weaker market/competitor
+references, relevant source failures, and an explicit five-step verification
+checklist. The initial fields for exact localized SEO keyword,
+monthly search Volume, KD, CPC, data provider/date, 10k–100k/month
+competitor evidence and paying-user evidence remain missing until independently
+verified. Existing Google Trends rising phrases appear as an **unverified
+keyword candidate**, not an automatically approved target keyword.
+
+Two attributable source-author pairs can move a topic to
+`needs_search_and_payment_validation`, but never directly to a build-approved
+state. Cross-query duplicate links, unknown authors and off-topic SERP news
+cannot count as independent user demand. This avoids treating a high
+heuristic score, repeated press hits, or a competitor repository as evidence
+of paying customers.
+
+The queue deliberately shows **0 ready-to-build** unless a separate,
+provenanced and independently verified process establishes the user's
+minimum nonzero search demand, acceptable competition, and commercial route.
+This does not change original keyword lists, daily Trends pipelines,
+report cadences or code for user websites.
