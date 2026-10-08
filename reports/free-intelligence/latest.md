@@ -18,8 +18,8 @@ Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degra
 - [How a SaaS provider made microservices deployment safely chaotic - TechTarget](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVnJGZUVSUVducUNocFA3ZW93ZnZqTE9Dd2JVQjBzc1Z1bHZTT01IRzFFUDFIMy1HbHdyclNwR283bmFTZXlpLW9JMndVRjV6MGZ3NGMzdmxUbTFiem5VdktlQTFNdGNUbE0weFpGaEdNQVVGYWFZZ1VHUVpzWkpPZnE1RGF2QWQtREd3UVN0WkNCOS1WOTlNRmZtM3Utd0xLbEI5SkV4OWIwenVrczUxWmYxSWhicWw5?oc=5) — google_news_rss
 - [Microsoft account | Sign In or Create Your Account Today – Microsoft](https://account.microsoft.com/account) — bing_rss
 - [Micro Center - Computer & Electronics Retailer - Shop Now](https://www.microcenter.com/) — bing_rss
-- [Computer Store in Denver, CO - Micro Center](https://www.microcenter.com/site/stores/denver.aspx) — bing_rss
 - [Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps](https://www.microsoft.com/en-us) — bing_rss
+- [Micro Center Store Locator](https://www.microcenter.com/site/stores/default.aspx) — bing_rss
 - [Fonix One - Own Your Music Again](https://www.reddit.com/r/FonixOne) — reddit_rss
 
 ## problema ferramenta online Brasil
@@ -32,10 +32,10 @@ Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degra
 - [Repositórios](https://github.com/dunossauro/fastapi-do-zero/issues/91) — github_issues
 - [BNCC Computação: o que o microHelium já cobre, o que falta para uma rede de ensino usá-lo, e por onde começar](https://github.com/UnitedOpen-Source/microHelium/issues/390) — github_issues
 - [Opinião | Proteção infantil erra ao penalizar ferramentas de segurança digital - Poder360](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPU2d3ZXA2aWJlM1lubjNIcllOZEozdlNiZDIzWHZXaElONWlDZlVITWhZTUFIZDFvSThEalpUWlNlTHNqNmtwQXYtSk5UaHVvOTVPV0owazdITTJOdlpDNGwtX2RBQmdSQ0NkZ1hsbHhyeDdOb1NZTkFpTXRUN1ozSzdTSWJWaE85Z2xMZjlvb3k0U3dYdUdKLV9GR3BrQ3owYm42eTJOdVE?oc=5) — google_news_rss
-- [Ethanol Fermentation vs. Lactic Acid Fermentation - What's ...](https://thisvsthat.io/ethanol-fermentation-vs-lactic-acid-fermentation) — bing_rss
-- [Ethanol Fermentation vs Lactic Acid Fermentation](https://difbetween.com/ethanol-fermentation-vs-lactic-acid-fermentation.p19606) — bing_rss
-- [Ethanol Fermentation vs Lactic Acid Fermentation [Key ...](https://scimatics.blog/ethanol-vs-lactic-acid-fermentation-differences) — bing_rss
-- [Lactic Acid Fermentation vs. Ethanol Fermentation | Bohrium](https://scipedia.bohrium.com/en/sciencepedia/feynman/keyword/lactic_acid_fermentation_vs_ethanol_fermentation) — bing_rss
+- [Premier Weight Loss Solutions Bariatric Center - Overview](https://www.obesityhelp.com/profiles/bariatric-center/premier-bariatric-associates) — bing_rss
+- [Will Insurance Cover My Plastic Surgery After Massive Weight Loss?](https://www.obesityhelp.com/articles/will-insurance-cover-my-plastic-surgery-after-massive-weight-loss) — bing_rss
+- [Lap Band Leaks: What You Should Know - ObesityHelp](https://www.obesityhelp.com/forums/NB/4040693/Lap-Band-Leaks-What-You-Should-Know) — bing_rss
+- [BCBS Blue Cross says they cover CPT 43775 - obesityhelp.com](https://www.obesityhelp.com/forums/vsg/4171933/BCBS-Blue-Cross-says-they-cover-CPT-43775) — bing_rss
 
 ## problema herramienta online México
 
@@ -43,10 +43,12 @@ Sources: github_repos=empty, github_issues=ok, google_news_rss=empty, duckduckgo
 
 - [Conciliación Chase company 6: proceso actual, columnas PO/Analítica y deber ser](https://github.com/yinyo1/fts-suite/issues/314) — github_issues
 - [Auditoría y arquitectura: conciliación fiscal SAT vs Odoo](https://github.com/yinyo1/fts-suite/issues/262) — github_issues
-- [apostrophe - Dickens' or Dickens's? - English Language & Usage Stack ...](https://english.stackexchange.com/questions/405428/dickens-or-dickenss) — bing_rss
-- [punctuation - Apostrophe after first use of acronym - English Language ...](https://english.stackexchange.com/questions/340127/apostrophe-after-first-use-of-acronym) — bing_rss
-- [possessives - User’s Guide vs Users’ Guide - English Language & Usage ...](https://english.stackexchange.com/questions/36657/user-s-guide-vs-users-guide) — bing_rss
-- [grammatical number - Does a person have two “masters’ degrees” or two ...](https://english.stackexchange.com/questions/105530/does-a-person-have-two-masters-degrees-or-two-master-s-degrees) — bing_rss
+- [Ancestry | Family Tree, Genealogy & Family History Records](https://www.ancestry.com/) — bing_rss
+- [Family History | Ancestry](https://www.ancestry.com/c/ancestry-family) — bing_rss
+- [Ancestry.com](https://support.ancestry.com/s/article/Not-Getting-Ancestry-Emails?language=en_US) — bing_rss
+- [Free Charts and Forms – Ancestry](https://help.ancestry.com/hc/en-us/articles/53933314544275-Free-Charts-and-Forms) — bing_rss
+- [Do you ever use remote play, and what do you think of it?](https://www.reddit.com/r/XboxSeriesX/comments/xl3kr8/do_you_ever_use_remote_play_and_what_do_you_think) — reddit_index_fallback
+- [What I should get for Xbox remote play as a hand held? - Reddit](https://www.reddit.com/r/XboxSeriesX/comments/14hd4ik/what_i_should_get_for_xbox_remote_play_as_a_hand) — reddit_index_fallback
 
 ## trump approval by state tracker
 
@@ -59,7 +61,7 @@ Sources: github_repos=empty, github_issues=ok, google_news_rss=ok, duckduckgo=de
 - [Trump's approval ratings underwater in 39 states - USA Today](https://news.google.com/rss/articles/CBMiugFBVV95cUxQZHh1eHFoendhMW5iZ3FRRUVQemRKb3JjX0hadWN1d3FBZW44THI1Z0hQQlRnRUhSTFhtb2ZqQll1QzRwUXpYUVVzLWRKTF81ZkpZZHFEczRnTi04YWljN1JIRGdRdXJla2hEQ052UWJGcmVnNHducTdQLWZ4RHhla0NKR0twaGNPYTV4UDc5UjFnaHpEUGppV09YeTZ1aF9WU1hEUVJqcVIwMTdneWFlWXkzX0t2RHVsbFE?oc=5) — google_news_rss
 - [New poll tracker shows Donald Trump's approval rating by state. See where Washington stands - Yahoo](https://news.google.com/rss/articles/CBMilwFBVV95cUxOWU41Q3ZEU3BVbC1ILThHOUlmLXlIT3FWS0lQOEI4SldsWVI2LVl3dTNDYzVYV0NFdmRpeUw2TXpRX2NXazFsXzFwamhIVnpOZXVzeWFvVEtzQ01EbW1pQ2lUc3FuemVIOGk3MTBtdDJZbm95RnRwWjF1enV3UjB1cFQ4RTFNaWYzeGd6V2UydXFXczNvTE1z?oc=5) — google_news_rss
 - [Map Shows Trump’s Approval Rating in Every State 1 Month Until Midterms - Newsweek](https://news.google.com/rss/articles/CBMinAFBVV95cUxNMlpOSG9CNkhvNG9sVHRkMWdGSlJjRzJhRTFsNkw2b1hnNXFrUzdtRFJnVlpDaW5zVFBTS0t6RWhUZlJidkVWRFNrQ3FadENlUmpnY0lsNkhhSmtBRTZHNTdzYVQzWm5feHdPRG56cWV3OE5XeTZPWlQzZ3lwYWxQRDh0U0Z3WXE0bkk2R0pra2F5bzVEODgwYkFTelY?oc=5) — google_news_rss
-- [Donald Trump - Wikipedia](https://en.m.wikipedia.org/wiki/Donald_Trump) — bing_rss
+- [Donald Trump - Wikipedia](https://en.wikipedia.org/wiki/Donald_Trump) — bing_rss
 - [Donald Trump | Breaking News & Latest Updates | AP News](https://apnews.com/hub/donald-trump) — bing_rss
 - [Latest Donald Trump News | Top Headlines on Donald Trump | Reuters](https://www.reuters.com/world/us/donald-trump) — bing_rss
 - [President Donald J. Trump - The White House](https://www.whitehouse.gov/administration/donald-j-trump) — bing_rss
