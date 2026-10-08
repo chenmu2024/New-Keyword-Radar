@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-08T08:59:22.988587+08:00",
+  "generated_at": "2026-10-08T09:02:15.677266+08:00",
   "mode": "read_only_buyer_pain_research",
   "keyword_metrics": {
     "volume": null,
@@ -12,7 +12,7 @@
   "queries": [
     {
       "query": "payroll integration error",
-      "captured_at": "2026-10-08T00:59:09.442746+00:00",
+      "captured_at": "2026-10-08T01:01:10.361885+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -21,13 +21,13 @@
         },
         "github_issues": {
           "status": "ok",
-          "count": 4,
+          "count": 2,
           "warning": null
         },
         "google_news_rss": {
-          "status": "ok",
-          "count": 4,
-          "warning": null
+          "status": "error",
+          "count": 0,
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
         },
         "duckduckgo": {
           "status": "degraded",
@@ -61,7 +61,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:09.958436+00:00",
+          "discovered_at": "2026-10-08T01:01:10.757286+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -80,7 +80,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:09.958520+00:00",
+          "discovered_at": "2026-10-08T01:01:10.757321+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -99,7 +99,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:09.958566+00:00",
+          "discovered_at": "2026-10-08T01:01:10.757346+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -118,7 +118,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:09.958610+00:00",
+          "discovered_at": "2026-10-08T01:01:10.757368+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -137,7 +137,7 @@
             "state": "open",
             "author": "bensmullen"
           },
-          "discovered_at": "2026-10-08T00:59:10.617210+00:00",
+          "discovered_at": "2026-10-08T01:01:11.371256+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -156,97 +156,7 @@
             "state": "open",
             "author": "delightfactory"
           },
-          "discovered_at": "2026-10-08T00:59:10.619041+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "github_issues",
-          "title": "SKO やることリスト【再開時はまずここを見る】",
-          "url": "https://github.com/robin4250/sk-works/issues/273",
-          "snippet": "## 🔁 新しい指示を受けた時の更新ルール - ユーザーから新しい指示を受けたら、内容を整理した時点で**実装より先に Issue #273 を更新**する。 - その指示を「現在進行中」または「次にやる」に明記してから実装開始する。 - 作業完了後は、**同じ Issue #273 を再更新**して対象項目を「完了済み」に切り替える。 - チャット切断・スレッド移動・端末変更が起きても、Issue #273だけ見れば現在地点が復元できる状態を維持する。 - 完了済み作業は再実装しない。進行中PR・ブランチ・本番migration・CI状態も必要に応じて併記する。 ## 🟣 2026-10-04 新規指示：全ページUX・表示・リンク総点検 ### 先にやること ### 全ページ監査 一次結果 - [x] PR #609 全ページUX/リンク監査契約テスト（3CI成功・main反映済み） ### 全ページ監査 第2グループ - [ ] 設定 `settings_page.dart`：一部翻訳済みだが固定日本語多数 - [ ] 利用機能設定 `company_module_settings_page.dart`：翻訳未接続 - [ ] 会社単価・手当設定 `company_rate_settings_page.dart`：翻訳未接続 - [ ] 承認待ち `approvals_hub_page.dart`：翻訳未接続 - [ ] 通知 `notifications_page.dart`：翻訳未接続 - [ ] 友達 `chat_friends_page.dart`：翻訳未接続 - ",
-          "published_at": "2026-09-28T16:49:29Z",
-          "engagement": {
-            "comments": 112
-          },
-          "metadata": {
-            "updated_at": "2026-10-08T00:38:00Z",
-            "state": "open",
-            "author": "robin4250"
-          },
-          "discovered_at": "2026-10-08T00:59:10.620138+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "github_issues",
-          "title": "Master Control — open items carried forward from #3",
-          "url": "https://github.com/Presidente49/gatorbait-media-redesign/issues/34",
-          "snippet": "Carried forward from #3, closed September 26, 2026 after the homepage/Magazine restoration (PR #33, merged). This is the new shared coordination thread for these remaining items — read the opening and newest comments before work, same as #3's original contract. ## Canonical reference - Repository: **Presidente49/gatorbait-media-redesign**. - Production Wix site: **18fb3a4e-d7f6-414a-aeb9-3047db3ea115** at `https://www.gatorbaitmedia.com/`. - Approved default: free sports-news homepage; Magazine stays separate. This is now live and verified (see #3's closing summary). ## Open items ### 1. Automatic article emails — UNVERIFIED Today's two publication alerts (as of the #3 closure) had no confir",
-          "published_at": "2026-09-26T12:21:15Z",
-          "engagement": {
-            "comments": 383
-          },
-          "metadata": {
-            "updated_at": "2026-10-08T00:37:38Z",
-            "state": "open",
-            "author": "Presidente49"
-          },
-          "discovered_at": "2026-10-08T00:59:10.620301+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "google_news_rss",
-          "title": "BrightHR Announces Xero Payroll Integration To Combat Wage Theft And Streamline Compliance - Scoop - New Zealand News",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVHNaRVpqZ05WVUNVakZwM1g5X2d5Yy1GUFhHY0NFZ3g2ZUxuWS15bllnN3UydFE0NlJFdFhEQndNaTVSTllWSS1UUks3WTVEVk9QQ0ZFUWxuRTJ4WHpqSHFnaEFDTG0zdjEtLTdYT3V3SUdsekw1MGtfdEt4d2Q2ZkdESmdFYW10NTFzbTdlbXh0YzN0eFFHNHVWQ1FNQzNHWmFGUHlMcUtNb1Z4RlkzT01kazdwN1BZdENnbEFfSnNJNmNWc1FTYWNFQQ?oc=5",
-          "snippet": "BrightHR Announces Xero Payroll Integration To Combat Wage Theft And Streamline Compliance Scoop - New Zealand News",
-          "published_at": "Wed, 07 Oct 2026 22:00:10 GMT",
-          "engagement": {},
-          "metadata": {},
-          "discovered_at": "2026-10-08T00:59:11.069817+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "google_news_rss",
-          "title": "BrightHR links with Xero Payroll to cut SME errors - IT Brief New Zealand",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2V5d1RCM1pXa3oxY3E0UWVXT1VkSnZQT1ZOSVFEckdBajFUTEdfTGUxTm9KTm9MN3Y3SmIzRWFxU3BMX2tMZmZlUUx4MkNWSGVtc1U3T0tRbnkzQkNuY3I0d25Oa29GVE02WnNxSWozcW5TZlNyQm9jc01oYjA4NU9KRE4?oc=5",
-          "snippet": "BrightHR links with Xero Payroll to cut SME errors IT Brief New Zealand",
-          "published_at": "Wed, 07 Oct 2026 21:56:00 GMT",
-          "engagement": {},
-          "metadata": {},
-          "discovered_at": "2026-10-08T00:59:11.069874+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "google_news_rss",
-          "title": "The 7 Best Payroll Software Providers for Small Businesses in 2026 - ADP",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMElyWUFsUmdXd3ZPMnVMVnN2LVc3aDFQSjJwUnV2UThPMDhXZXZXTUJDR1VBb3dKTk10Wjg3MVZEQ1ZtN1ZrT09ILUlxYWJReWR2TDdHZkNCWTZVRC0zZ05BTWdGZG5HbnJaSGktQVpBMGc2V1IxdEV6c3FIVFE1Z0xOTUdnQm1mMFJSU0ppTXlfRmhqRzgzRDg3RVY2T19aNXQ5alNBa2tpMksxaVczdlhKbHItemlvVU5GVldPckVxZw?oc=5",
-          "snippet": "The 7 Best Payroll Software Providers for Small Businesses in 2026 ADP",
-          "published_at": "Thu, 17 Sep 2026 07:00:00 GMT",
-          "engagement": {},
-          "metadata": {},
-          "discovered_at": "2026-10-08T00:59:11.069917+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "google_news_rss",
-          "title": "AI, payroll ledger, and the meaning of touchless payroll - Thomson Reuters tax",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVl2dVJQekhaZlNTU3pEeS1DbkFFdWdSRXNoMjEzTjdUZGhNeWZMMmktSTNyZ2dhT1dXeEZQSXB6WGpRWXF1N1lRR0ozRXR6RGJ1RWtvc2pnRWdOdFE5YmluVnNvTnBpVDRUQ3JIbGJrM1JKcUdBUHl4TUsxUzgzWmVtd2RFUzhNQ0hFcTJ6UVllYzBBSldUdkxmNmE?oc=5",
-          "snippet": "AI, payroll ledger, and the meaning of touchless payroll Thomson Reuters tax",
-          "published_at": "Thu, 09 Apr 2026 07:00:00 GMT",
-          "engagement": {},
-          "metadata": {},
-          "discovered_at": "2026-10-08T00:59:11.069959+00:00",
+          "discovered_at": "2026-10-08T01:01:11.372169+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -261,7 +171,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:11.364177+00:00",
+          "discovered_at": "2026-10-08T01:01:19.197272+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -276,7 +186,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:11.364224+00:00",
+          "discovered_at": "2026-10-08T01:01:19.197306+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -291,7 +201,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:11.364264+00:00",
+          "discovered_at": "2026-10-08T01:01:19.197328+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -306,7 +216,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:11.364302+00:00",
+          "discovered_at": "2026-10-08T01:01:19.197352+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -319,7 +229,7 @@
           "published_at": "2018-03-31T13:14:43+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:59:11.720107+00:00",
+          "discovered_at": "2026-10-08T01:01:19.450853+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -332,7 +242,7 @@
           "published_at": "2026-10-08T00:36:40+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:59:11.720149+00:00",
+          "discovered_at": "2026-10-08T01:01:19.450877+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -345,7 +255,7 @@
           "published_at": "2026-10-08T00:29:44+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:59:11.720179+00:00",
+          "discovered_at": "2026-10-08T01:01:19.450893+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -358,7 +268,27 @@
           "published_at": "2026-10-08T00:25:43+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:59:11.720201+00:00",
+          "discovered_at": "2026-10-08T01:01:19.450905+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Ask HN: Are we putting pricing on things too quickly?",
+          "url": "https://news.ycombinator.com/item?id=47220001",
+          "snippet": "I'm an early adopter. I genuinely enjoy exploring new ideas and trying early-stage products. But lately, when I browse launch platforms, even SideProject subreddit, it feels like almost everything is behind a paywall. Some offer a free trial, but I more often see posts saying something was vibe-coded in a few hours, and yet it costs over $50 to use. What feel odd to me is this: They are asking people for feedback. But if People can't actually use the product without paying, how people supposed to give you meaningful feedback? Is this just promoting subscriptions or asking feedback? I've seen builders ask for feedback while the core funtionality is locked unless you subscribe. That feels COUN",
+          "published_at": "2026-03-02T16:19:24Z",
+          "engagement": {
+            "points": 3,
+            "comments": 4
+          },
+          "metadata": {
+            "author": "LeanVibe",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T01:01:20.052686+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -378,67 +308,47 @@
             "source": "Ask HN user-authored question",
             "buyer_intent_verified": false
           },
-          "discovered_at": "2026-10-08T00:59:12.041078+00:00",
+          "discovered_at": "2026-10-08T01:01:20.052806+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "hackernews_ask",
-          "title": "Ask HN: ERP system suggestions",
-          "url": "https://news.ycombinator.com/item?id=17709117",
-          "snippet": "We are looking to transition to a new ERP system. We've been running the same software since the 70's, and it has been highly customized over time. We'd like to invest in a platform that allows us to modify all aspects of the system, while also starting out with a base that doesn't necessitate starting from scratch (i.e. prebuilt accounting, payroll, etc functions). Preferably the system has an open API for extending the system as necessary, and integrating with third party software. Any suggestions? We are in the metal wholesaling business.",
-          "published_at": "2018-08-07T18:18:50Z",
+          "title": "I built an AI health scanner for dogs would love your feedback",
+          "url": "https://news.ycombinator.com/item?id=44838374",
+          "snippet": "Hey HN, After months of solo building, trial and error, and countless chats with dog parents & vets, I just launched the 1st MVP of PawBud Scan - an AI-powered health scan tool for dogs. [https://scan.getpawbud.com](https://scan.getpawbud.com) It’s simple: • Fill out a quick health profile about your dog • Get an instant AI-generated health risk score + care tips • Optionally, unlock a vet style report for $10 The idea was born when my own 8 year old Labrador Retriever was diagnosed too late with a preventable joint condition. It hit me how little proactive care exists for pets, especially for early stage common symptoms. So I built this MVP with: • GPT-4o for AI triage • Stripe for instant ",
+          "published_at": "2025-08-08T15:45:08Z",
           "engagement": {
-            "points": 9,
-            "comments": 4
-          },
-          "metadata": {
-            "author": "rosenjon",
-            "source": "Ask HN user-authored question",
-            "buyer_intent_verified": false
-          },
-          "discovered_at": "2026-10-08T00:59:12.041145+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "hackernews_ask",
-          "title": "Apply HN: HR Partner – human resource management for small businesses",
-          "url": "https://news.ycombinator.com/item?id=11445068",
-          "snippet": "Problem - A lot of smaller companies don't have a dedicated HR manager or team, and don't invest in the time or technology to record important employee information, nor keep track of important recurring events such as performance reviews and employee leave quotas. Solution - HR Partner has been designed for smaller businesses, to get them on the right track with proper human resource practices. We offer a free tier for very small companies to get started. We also have an employee portal and leave tracking/application out of the box, and are busy integrating our system with various popular payroll systems. Differentiators from our competition - (a) we are region agnostic, and we don't supply ",
-          "published_at": "2016-04-07T06:03:52Z",
-          "engagement": {
-            "points": 6,
-            "comments": 6
-          },
-          "metadata": {
-            "author": "cyberferret",
-            "source": "Ask HN user-authored question",
-            "buyer_intent_verified": false
-          },
-          "discovered_at": "2026-10-08T00:59:12.041246+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "hackernews_ask",
-          "title": "Ask HN: Small business bank account – who do you use?",
-          "url": "https://news.ycombinator.com/item?id=11438973",
-          "snippet": "We currently use PNC but their online interface is atrocious/broken and we have frequent problems transferring money. Furthermore, our experiences at their local branch have been disappointing. Our needs are basic: - Single checking account with debit card for each co-founder - Send invoices online - Make (sometimes international) payments - Quickbooks integration - Local branch in Denver, CO (not strictly necessary) We're considering Wells Fargo. Does anyone have experience with them? We also use Gusto for payroll but are worried they won't be around in a few years. What has your experience with Intuit been like?",
-          "published_at": "2016-04-06T14:31:06Z",
-          "engagement": {
-            "points": 4,
+            "points": 1,
             "comments": 0
           },
           "metadata": {
-            "author": "jklontz",
+            "author": "anuragsrathor",
             "source": "Ask HN user-authored question",
             "buyer_intent_verified": false
           },
-          "discovered_at": "2026-10-08T00:59:12.041298+00:00",
+          "discovered_at": "2026-10-08T01:01:20.052865+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Idea – machine learning algorithm that browses the web?",
+          "url": "https://news.ycombinator.com/item?id=38569843",
+          "snippet": "Are there companies working on a machine learning algorithm that browses the web? I was recently summarizing a lot of resources on a website that are not presented in a structured way - some videos, some audio, some PDF, some summaries, no clear schema, no RSS, definitely no \"download all\" button - that were only accessible behind a paywall and login. It occurred to me that a browser extension could be used to navigate this information and run it wholesale through a local GPT-type model. This browser extension could use behavioral data to \"learn to browse\" and detect user interaction (such as video elements watched, rewinds, semantic value of content presented). Surely some company is workin",
+          "published_at": "2023-12-08T15:03:01Z",
+          "engagement": {
+            "points": 1,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "alhirzel",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T01:01:20.052897+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -458,88 +368,13 @@
         "kd": null,
         "cpc": null
       },
-      "total": 24,
+      "total": 18,
       "quality_screen": {
         "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
-        "review_count": 2,
-        "reference_count": 9,
+        "review_count": 0,
+        "reference_count": 5,
         "discarded_count": 13,
-        "review_leads": [
-          {
-            "platform": "hackernews_ask",
-            "title": "Ask HN: Small business bank account – who do you use?",
-            "url": "https://news.ycombinator.com/item?id=11438973",
-            "snippet": "We currently use PNC but their online interface is atrocious/broken and we have frequent problems transferring money. Furthermore, our experiences at their local branch have been disappointing. Our needs are basic: - Single checking account with debit card for each co-founder - Send invoices online - Make (sometimes international) payments - Quickbooks integration - Local branch in Denver, CO (not strictly necessary) We're considering Wells Fargo. Does anyone have experience with them? We also use Gusto for payroll but are worried they won't be around in a few years. What has your experience with Intuit been like?",
-            "published_at": "2016-04-06T14:31:06Z",
-            "engagement": {
-              "points": 4,
-              "comments": 0
-            },
-            "metadata": {
-              "author": "jklontz",
-              "source": "Ask HN user-authored question",
-              "buyer_intent_verified": false
-            },
-            "discovered_at": "2026-10-08T00:59:12.041298+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 52,
-              "screening": "review",
-              "reasons": [
-                "query_terms:integration,payroll",
-                "problem_or_request_language",
-                "commercial_or_tool_context",
-                "stale_over_one_year"
-              ],
-              "matched_query_terms": [
-                "integration",
-                "payroll"
-              ],
-              "published_age_days": 3836,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "github_issues",
-            "title": "D1-C — integrated deterministic closeout, truth table, UAT",
-            "url": "https://github.com/bensmullen/personal-finance-app/issues/80",
-            "snippet": "PFM_TASK_V3 TASK_KIND: repair TARGET_BRANCH: codex/d1-integrated-closeout DEPENDENCY_POLICY: locked ALLOWED_PATHS: - src/accounting.ts - src/accounting/** - src/application/** - src/funding.ts - src/funding/** - src/model/** - src/primitives/** - src/rules/** - src/semantics.ts - src/semantics/** - src/simulation/** - src/state.ts - src/state/** - src/valuation/** - ui/PersonalFinanceApp.tsx - ui/EntityEditor.tsx - ui/entityPresentation.ts - ui/forecast/** - ui/persistence/** - test/** - e2e/personal-mvp.spec.ts OBJECTIVE: Repair PR #89 after failed product-owner D1 UAT. Preserve the already-passing deterministic arithmetic, accounting, summary/detail parity, source-of-funds, tax-completenes",
-            "published_at": "2026-10-05T00:21:32Z",
-            "engagement": {
-              "comments": 0
-            },
-            "metadata": {
-              "updated_at": "2026-10-08T00:58:14Z",
-              "state": "open",
-              "author": "bensmullen"
-            },
-            "discovered_at": "2026-10-08T00:59:10.617210+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 49,
-              "screening": "review",
-              "reasons": [
-                "problem_or_request_language",
-                "commercial_or_tool_context",
-                "published_within_7_days",
-                "query_terms_not_found"
-              ],
-              "matched_query_terms": [],
-              "published_age_days": 3,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          }
-        ],
+        "review_leads": [],
         "competitor_references": [
           {
             "platform": "github_repositories",
@@ -555,7 +390,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:09.958436+00:00",
+            "discovered_at": "2026-10-08T01:01:10.757286+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -594,7 +429,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:09.958566+00:00",
+            "discovered_at": "2026-10-08T01:01:10.757346+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -619,135 +454,6 @@
             }
           },
           {
-            "platform": "google_news_rss",
-            "title": "BrightHR Announces Xero Payroll Integration To Combat Wage Theft And Streamline Compliance - Scoop - New Zealand News",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVHNaRVpqZ05WVUNVakZwM1g5X2d5Yy1GUFhHY0NFZ3g2ZUxuWS15bllnN3UydFE0NlJFdFhEQndNaTVSTllWSS1UUks3WTVEVk9QQ0ZFUWxuRTJ4WHpqSHFnaEFDTG0zdjEtLTdYT3V3SUdsekw1MGtfdEt4d2Q2ZkdESmdFYW10NTFzbTdlbXh0YzN0eFFHNHVWQ1FNQzNHWmFGUHlMcUtNb1Z4RlkzT01kazdwN1BZdENnbEFfSnNJNmNWc1FTYWNFQQ?oc=5",
-            "snippet": "BrightHR Announces Xero Payroll Integration To Combat Wage Theft And Streamline Compliance Scoop - New Zealand News",
-            "published_at": "Wed, 07 Oct 2026 22:00:10 GMT",
-            "engagement": {},
-            "metadata": {},
-            "discovered_at": "2026-10-08T00:59:11.069817+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 44,
-              "screening": "reference",
-              "reasons": [
-                "query_terms:integration,payroll",
-                "commercial_or_tool_context",
-                "publication_date_unverified",
-                "context_only_not_first_person_demand",
-                "no_explicit_user_pain_in_snippet"
-              ],
-              "matched_query_terms": [
-                "integration",
-                "payroll"
-              ],
-              "published_age_days": null,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "google_news_rss",
-            "title": "BrightHR links with Xero Payroll to cut SME errors - IT Brief New Zealand",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2V5d1RCM1pXa3oxY3E0UWVXT1VkSnZQT1ZOSVFEckdBajFUTEdfTGUxTm9KTm9MN3Y3SmIzRWFxU3BMX2tMZmZlUUx4MkNWSGVtc1U3T0tRbnkzQkNuY3I0d25Oa29GVE02WnNxSWozcW5TZlNyQm9jc01oYjA4NU9KRE4?oc=5",
-            "snippet": "BrightHR links with Xero Payroll to cut SME errors IT Brief New Zealand",
-            "published_at": "Wed, 07 Oct 2026 21:56:00 GMT",
-            "engagement": {},
-            "metadata": {},
-            "discovered_at": "2026-10-08T00:59:11.069874+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 50,
-              "screening": "reference",
-              "reasons": [
-                "query_terms:payroll",
-                "problem_or_request_language",
-                "commercial_or_tool_context",
-                "publication_date_unverified",
-                "context_only_not_first_person_demand"
-              ],
-              "matched_query_terms": [
-                "payroll"
-              ],
-              "published_age_days": null,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "google_news_rss",
-            "title": "The 7 Best Payroll Software Providers for Small Businesses in 2026 - ADP",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMElyWUFsUmdXd3ZPMnVMVnN2LVc3aDFQSjJwUnV2UThPMDhXZXZXTUJDR1VBb3dKTk10Wjg3MVZEQ1ZtN1ZrT09ILUlxYWJReWR2TDdHZkNCWTZVRC0zZ05BTWdGZG5HbnJaSGktQVpBMGc2V1IxdEV6c3FIVFE1Z0xOTUdnQm1mMFJSU0ppTXlfRmhqRzgzRDg3RVY2T19aNXQ5alNBa2tpMksxaVczdlhKbHItemlvVU5GVldPckVxZw?oc=5",
-            "snippet": "The 7 Best Payroll Software Providers for Small Businesses in 2026 ADP",
-            "published_at": "Thu, 17 Sep 2026 07:00:00 GMT",
-            "engagement": {},
-            "metadata": {},
-            "discovered_at": "2026-10-08T00:59:11.069917+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 34,
-              "screening": "reference",
-              "reasons": [
-                "query_terms:payroll",
-                "commercial_or_tool_context",
-                "publication_date_unverified",
-                "context_only_not_first_person_demand",
-                "no_explicit_user_pain_in_snippet"
-              ],
-              "matched_query_terms": [
-                "payroll"
-              ],
-              "published_age_days": null,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "google_news_rss",
-            "title": "AI, payroll ledger, and the meaning of touchless payroll - Thomson Reuters tax",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVl2dVJQekhaZlNTU3pEeS1DbkFFdWdSRXNoMjEzTjdUZGhNeWZMMmktSTNyZ2dhT1dXeEZQSXB6WGpRWXF1N1lRR0ozRXR6RGJ1RWtvc2pnRWdOdFE5YmluVnNvTnBpVDRUQ3JIbGJrM1JKcUdBUHl4TUsxUzgzWmVtd2RFUzhNQ0hFcTJ6UVllYzBBSldUdkxmNmE?oc=5",
-            "snippet": "AI, payroll ledger, and the meaning of touchless payroll Thomson Reuters tax",
-            "published_at": "Thu, 09 Apr 2026 07:00:00 GMT",
-            "engagement": {},
-            "metadata": {},
-            "discovered_at": "2026-10-08T00:59:11.069959+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 34,
-              "screening": "reference",
-              "reasons": [
-                "query_terms:payroll",
-                "commercial_or_tool_context",
-                "publication_date_unverified",
-                "context_only_not_first_person_demand",
-                "no_explicit_user_pain_in_snippet"
-              ],
-              "matched_query_terms": [
-                "payroll"
-              ],
-              "published_age_days": null,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
             "platform": "bing_rss",
             "title": "Payroll, HR and Tax Services | ADP Official Site",
             "url": "https://www.adp.com/",
@@ -757,7 +463,7 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:59:11.364177+00:00",
+            "discovered_at": "2026-10-08T01:01:19.197272+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -791,7 +497,7 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:59:11.364224+00:00",
+            "discovered_at": "2026-10-08T01:01:19.197306+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -825,7 +531,7 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:59:11.364264+00:00",
+            "discovered_at": "2026-10-08T01:01:19.197328+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -876,33 +582,26 @@
             ]
           },
           {
+            "url": "https://github.com/bensmullen/personal-finance-app/issues/80",
+            "title": "D1-C — integrated deterministic closeout, truth table, UAT",
+            "score": 49,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
             "url": "https://github.com/delightfactory/business-platform/issues/47",
             "title": "UX redesign: reviewed Claude reference and compatible W1 foundation",
             "score": 21,
             "reasons": [
               "published_within_7_days",
               "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
-            ]
-          },
-          {
-            "url": "https://github.com/robin4250/sk-works/issues/273",
-            "title": "SKO やることリスト【再開時はまずここを見る】",
-            "score": 32,
-            "reasons": [
-              "problem_or_request_language",
-              "published_within_30_days",
-              "query_terms_not_found"
-            ]
-          },
-          {
-            "url": "https://github.com/Presidente49/gatorbait-media-redesign/issues/34",
-            "title": "Master Control — open items carried forward from #3",
-            "score": 16,
-            "reasons": [
-              "published_within_30_days",
-              "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
@@ -925,7 +624,9 @@
             "reasons": [
               "stale_over_one_year",
               "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
+              "no_explicit_user_pain_in_snippet",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
@@ -935,7 +636,8 @@
             "reasons": [
               "published_within_7_days",
               "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
@@ -945,7 +647,8 @@
             "reasons": [
               "published_within_7_days",
               "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
@@ -956,7 +659,20 @@
               "published_within_7_days",
               "very_short_title",
               "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=47220001",
+            "title": "Ask HN: Are we putting pricing on things too quickly?",
+            "score": 33,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "query_terms_not_found",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
@@ -965,29 +681,35 @@
             "score": 21,
             "reasons": [
               "problem_or_request_language",
-              "query_terms_not_found"
+              "query_terms_not_found",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
-            "url": "https://news.ycombinator.com/item?id=17709117",
-            "title": "Ask HN: ERP system suggestions",
+            "url": "https://news.ycombinator.com/item?id=44838374",
+            "title": "I built an AI health scanner for dogs would love your feedback",
             "score": 42,
             "reasons": [
-              "query_terms:payroll",
+              "query_terms:error",
               "problem_or_request_language",
               "commercial_or_tool_context",
-              "stale_over_one_year"
+              "stale_over_one_year",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
-            "url": "https://news.ycombinator.com/item?id=11445068",
-            "title": "Apply HN: HR Partner – human resource management for small businesses",
-            "score": 42,
+            "url": "https://news.ycombinator.com/item?id=38569843",
+            "title": "Idea – machine learning algorithm that browses the web?",
+            "score": 1,
             "reasons": [
-              "query_terms:payroll",
-              "problem_or_request_language",
               "commercial_or_tool_context",
-              "stale_over_one_year"
+              "stale_over_one_year",
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
             ]
           }
         ],
@@ -1010,7 +732,7 @@
     },
     {
       "query": "inventory sync spreadsheet",
-      "captured_at": "2026-10-08T00:59:12.045216+00:00",
+      "captured_at": "2026-10-08T01:01:20.054784+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -1023,9 +745,9 @@
           "warning": null
         },
         "google_news_rss": {
-          "status": "ok",
-          "count": 4,
-          "warning": null
+          "status": "error",
+          "count": 0,
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
         },
         "duckduckgo": {
           "status": "degraded",
@@ -1059,7 +781,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:12.368709+00:00",
+          "discovered_at": "2026-10-08T01:01:20.420293+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1078,7 +800,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:12.368747+00:00",
+          "discovered_at": "2026-10-08T01:01:20.420312+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1097,7 +819,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:12.368770+00:00",
+          "discovered_at": "2026-10-08T01:01:20.420325+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1116,26 +838,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:12.368792+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "github_issues",
-          "title": "[PROTOCOL][CODING-RUNTIME] Multi-chat workforce + Integration Overseer operating model",
-          "url": "https://github.com/NinjaSteveXer0/Shinobi-Chronicles/issues/601",
-          "snippet": "# Shinobi Chronicles — Coding / Runtime Multi-Chat Workforce Protocol **Owner:** Coding / Runtime execution, coordinated by CE / Codex / Coordination **Primary priority:** Finish Shinobi Chronicles Alpha **Purpose:** materially reduce wall-clock implementation time without recreating branch contamination, lost authority, GitHub corruption, chat-local knowledge loss, or multi-lane merge chaos. This protocol extends master #449 and its existing A/B/C/D parallel-lane + work-cell rules. ## WHY THIS EXISTS SC has already paid heavily for serial execution and recovery overhead: - one Coding chat can spend many hours/days doing archaeology -> implementation -> QA -> browser tracing -> integration s",
-          "published_at": "2026-10-07T05:01:26Z",
-          "engagement": {
-            "comments": 14
-          },
-          "metadata": {
-            "updated_at": "2026-10-08T00:58:56Z",
-            "state": "open",
-            "author": "NinjaSteveXer0"
-          },
-          "discovered_at": "2026-10-08T00:59:13.112276+00:00",
+          "discovered_at": "2026-10-08T01:01:20.420338+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1147,85 +850,52 @@
           "snippet": "Lane channel for the five Codex lanes (A–E) working from the 10-07 consolidated main. Post only these line types, each 5 lines or fewer: - `READY <lane> <criterion-ids> <commit-sha>` - `BLOCKED <lane> <criterion-id>` - `QUESTION <lane>` - `PACE` (Codex coordinator, hourly) - `CONSOLIDATED` (Claude, every 2 hours) The full working rules are in the Codex coordinator prompt. #525 is retired. --- _Generated by [Claude Code](https://claude.ai/code)_",
           "published_at": "2026-10-07T11:54:36Z",
           "engagement": {
-            "comments": 710
+            "comments": 714
           },
           "metadata": {
-            "updated_at": "2026-10-08T00:58:56Z",
+            "updated_at": "2026-10-08T01:01:06Z",
             "state": "open",
             "author": "MJohnsonWellabe"
           },
-          "discovered_at": "2026-10-08T00:59:13.112335+00:00",
+          "discovered_at": "2026-10-08T01:01:21.050487+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "github_issues",
-          "title": "test(release): requalify both Production journeys after biopsy fixes",
-          "url": "https://github.com/relativityE/speaksharp/issues/1258",
-          "snippet": "<!-- rwt-current-execution:2026-10-05 --> ## Current RWT execution and closure contract — 5 October 2026 This is the current scheduling/task summary. Earlier conflicting queue, docs-age, three-model, six-word coaching and “all matrices before first RWT” banners are historical below. Existing privacy, evidence and explicit action authorities remain intact. No green status, task edit or Draft authorizes merge, deployment, migration, activation or a Production run. ### Work and owners | Task | Owner | Next action / real gate | |---|---|---| | #1556 docs, #1551 browser identity, #1555 diagnostics | Completed source work | Merged; do not wait on old docs/identity/recovery blockers. Deployment/jou",
-          "published_at": "2026-08-11T10:27:08Z",
+          "title": "inventory(capabilities): classify Studio-owned authoring operations",
+          "url": "https://github.com/ankhorage/studio/issues/788",
+          "snippet": "Part of ankhorage/contracts#508 Phase 1. ## Goal Complete the evidence-first inventory of Studio-owned authoring/application operations before the Phase-6 Studio capability/binding migration. Do not rewrite Studio bindings or publish a Studio capability catalog in this issue unless ownership and schemas are already fully evidenced. ## Scope Inspect current Studio public/runtime/host operations and classify each candidate as: - genuinely Studio-owned application/authoring behavior - an invocation of another package owner's capability - internal helper only - trusted host/server operation that must not become a generic UI binding target At minimum inspect: - manifest save / reload - node inser",
+          "published_at": "2026-10-08T01:01:04Z",
           "engagement": {
-            "comments": 1552
+            "comments": 0
           },
           "metadata": {
-            "updated_at": "2026-10-08T00:59:07Z",
+            "updated_at": "2026-10-08T01:01:04Z",
             "state": "open",
-            "author": "relativityE"
+            "author": "artiphishle"
           },
-          "discovered_at": "2026-10-08T00:59:13.113446+00:00",
+          "discovered_at": "2026-10-08T01:01:21.050556+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
-          "platform": "google_news_rss",
-          "title": "What is an Inventory System? Process and How to Set One Up (2026) - Shopify",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91VnFwRnUzZ2JVRWx4bVVzSF9VUV9GSVA4STZDME9Gc3NBWEpKYUl5Mms2Z3l1MDR3LTgwQmFWTFdxcTNVaG4yQi1ZQzlvWWZLSDVEMVpHaGo?oc=5",
-          "snippet": "What is an Inventory System? Process and How to Set One Up (2026) Shopify",
-          "published_at": "Wed, 19 Aug 2026 07:00:00 GMT",
-          "engagement": {},
-          "metadata": {},
-          "discovered_at": "2026-10-08T00:59:13.467724+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "google_news_rss",
-          "title": "Do It Best stores replaces spreadsheets with no-code database and reaps rewards - Retail Customer Experience",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdVJIOHBYT1BXcGJ3amJNcXB2WENWb245RS1pQWZYLThGdDBEN1lad2VETmg3WDAyZzB6YkdyUjVQWjFReS1UY3ItSUVmRy1IaW9qMnF6bFVvc3lYcno3M1lTZ0k1NjJGb1V6clcwRVcwc2UzX0s3ME1YbFJsLVJBUGNOZXgtQXBmSXVXbkhUamNEVm9nNU82b3I4clBHa25JN29kVEtfYW5sQWpuLWVUMW9tM204bERFUkN3TnM4WTZzY09PTmc?oc=5",
-          "snippet": "Do It Best stores replaces spreadsheets with no-code database and reaps rewards Retail Customer Experience",
-          "published_at": "Fri, 20 Feb 2026 08:00:00 GMT",
-          "engagement": {},
-          "metadata": {},
-          "discovered_at": "2026-10-08T00:59:13.467782+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "google_news_rss",
-          "title": "I Tested the Best Spreadsheet Software for 2026 - G2 Learning Hub",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuNE0zX2E5UnNTZlVlQzBNMS1pbUdqQ2NJRU9MX1BrZDR6YU14SkJtZ0dSemw2QU9Gd0pid3dRSW01OVB4M2ZpMWJlTWtyU1FEVDRqcDVOVlBzZ9IBakFVX3lxTE5QbEc1YlNUV1p1aERBNHpBMjlWVjU4WXJNOGtGNVlNUGE2T1JXX0xPOXdOVWxnRzU4emtzZXZrVG5uR1ZSNEJKVXA1U05CSFZvSUpOOGgyLVVUbC1qWE1uaWJUeFRmMVFPWkE?oc=5",
-          "snippet": "I Tested the Best Spreadsheet Software for 2026 G2 Learning Hub",
-          "published_at": "Fri, 07 Aug 2026 07:00:00 GMT",
-          "engagement": {},
-          "metadata": {},
-          "discovered_at": "2026-10-08T00:59:13.467824+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "google_news_rss",
-          "title": "10 Best Cash Flow Forecasting Tools for Ecommerce (2026): Features, Pricing, and Real-World Use Cases - Ask Luca",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRMEMxRGtZdmttVi1acEtCajhQU2pOTU1waUZhU3VXYlc1YUhRODhMam5nbXFpU0d5M0VSQ1ZacVIxMjYxZ1BqTkkxQlM5cmlpX3NNNlh3Z0dScWxuVmdfQk13RHB4OFhVUVZwT2h1UTI?oc=5",
-          "snippet": "10 Best Cash Flow Forecasting Tools for Ecommerce (2026): Features, Pricing, and Real-World Use Cases Ask Luca",
-          "published_at": "Tue, 19 May 2026 08:35:08 GMT",
-          "engagement": {},
-          "metadata": {},
-          "discovered_at": "2026-10-08T00:59:13.467865+00:00",
+          "platform": "github_issues",
+          "title": "RFC: move the hive operations control plane into the cluster",
+          "url": "https://github.com/tuna-os/hive/issues/15",
+          "snippet": "## Summary The hive's operational control plane — backend rotation, agent liveness healing, provider-headroom probing, peak-window scheduling, contributor lifecycle — currently runs as **8 systemd user timers on a personal workstation** (`himachal`), driving the cluster over `kubectl`. The hive itself runs 24/7 in Kubernetes; the thing that keeps it healthy does not. This RFC proposes moving that control plane into the cluster. It also argues **against** the obvious form of that move (a Go controller/CRD), and proposes a staged path that preserves the part that is actually valuable. ## Current architecture ``` himachal (a desktop) AWS Talos cluster ───────────────────── ───────────────── hiv",
+          "published_at": "2026-09-02T13:08:39Z",
+          "engagement": {
+            "comments": 2
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T01:01:04Z",
+            "state": "open",
+            "author": "hanthor"
+          },
+          "discovered_at": "2026-10-08T01:01:21.050785+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1240,7 +910,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:13.657008+00:00",
+          "discovered_at": "2026-10-08T01:01:27.158781+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1255,7 +925,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:13.657079+00:00",
+          "discovered_at": "2026-10-08T01:01:27.158816+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1270,7 +940,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:13.657119+00:00",
+          "discovered_at": "2026-10-08T01:01:27.158837+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1285,7 +955,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:13.657144+00:00",
+          "discovered_at": "2026-10-08T01:01:27.158850+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1305,27 +975,7 @@
             "source": "Ask HN user-authored question",
             "buyer_intent_verified": false
           },
-          "discovered_at": "2026-10-08T00:59:14.312912+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "hackernews_ask",
-          "title": "Do You Think OpenAI Is Apple Circa the 1980s?",
-          "url": "https://news.ycombinator.com/item?id=49178393",
-          "snippet": "OpenAI is a deeply mismanaged company. Most recently, a blog post that feels like it has got to have dozens of PR violations, responding to the Apple lawsuit. More broadly, OpenAI’s main problem is that it does not have a real competitive advantage. No real models do; the real differentiation is price; they will become commodities. The need to move upwards in the market in enterprise software is difficult since the current stack should remain the same, since sticking with Salesforce plus its new AI features is much simpler than the cost of switching to an AI-first startup version, which won’t be around 3 to 5 years from now. So consumer hardware and trying to become the next Apple could work",
-          "published_at": "2026-08-05T03:50:17Z",
-          "engagement": {
-            "points": 2,
-            "comments": 1
-          },
-          "metadata": {
-            "author": "Taikhoom2010",
-            "source": "Ask HN user-authored question",
-            "buyer_intent_verified": false
-          },
-          "discovered_at": "2026-10-08T00:59:14.313123+00:00",
+          "discovered_at": "2026-10-08T01:01:30.398546+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1345,27 +995,47 @@
             "source": "Ask HN user-authored question",
             "buyer_intent_verified": false
           },
-          "discovered_at": "2026-10-08T00:59:14.313278+00:00",
+          "discovered_at": "2026-10-08T01:01:30.398634+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "hackernews_ask",
-          "title": "Ask HN: Are employers getting the returns from AI?",
-          "url": "https://news.ycombinator.com/item?id=48014734",
-          "snippet": "Hi, most of the companies have now given AI tools to their employees, these include claude code, cursor and github copilot. This is supposed to be the testing period to see how will things turn out by using AI. But now its almost a year, and employers will want to see the return from their investment in AI tools. most devs have still not adopted cloud coding agents for one reason or the other. Layoff number is normal in non-VC funded companies, since they have no pressure to show AI working for employees. But this has to converge somewhere, are returns from AI tools enough to justify the headcount reduction except forcefully showing it to investors?",
-          "published_at": "2026-05-04T20:45:56Z",
+          "title": "Ask HN: Will we ever do something about patent trolls?",
+          "url": "https://news.ycombinator.com/item?id=47718079",
+          "snippet": "Some of you may have seen a project like Mycroft AI (nothing to do with LLMs!) from back in around 2017 or so, it was an open source Alexa alternative, even had skills and everything. I kept wondering why it quietly disappeared, and the repo was archived. Turns out a patent troll hit them hard, drained them of all their funds in court, till they shut down. https://patentprogress.org/2024/05/another-startup-bites-the-dust-courtesy-of-patent-trolls/ https://www.theregister.com/2023/02/13/linux_ai_assistant_killed_off/ Then there's many others, and I'm sure I'm missing some, but here's a list of companies / projects hit by patent trolls with various outcomes: That time some company shut down a ",
+          "published_at": "2026-04-10T13:45:00Z",
           "engagement": {
-            "points": 5,
-            "comments": 6
+            "points": 2,
+            "comments": 8
           },
           "metadata": {
-            "author": "daemon_9009",
+            "author": "giancarlostoro",
             "source": "Ask HN user-authored question",
             "buyer_intent_verified": false
           },
-          "discovered_at": "2026-10-08T00:59:14.313336+00:00",
+          "discovered_at": "2026-10-08T01:01:30.398749+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Wine Registry Seeks Co-Founder",
+          "url": "https://news.ycombinator.com/item?id=47461759",
+          "snippet": "Seeking technical co-founder | Curated wine registry marketplace | Napa, CA (remote-friendly) | Equity The problem: Wedding registries are a $19B market. Wine is almost entirely absent from it. Nobody has built a purpose-built wine registry that connects couples directly with winery partners. What I'm building: Everwine: a registry and marketplace where couples build a personalized wine registry (guided by a taste/occasion survey), guests purchase through a single unified checkout, and winery partners fulfill directly. The registry occasion solves the wine gifting UX problem: guests aren't browsing a wine shop, they're buying a wedding gift from a pre-curated list. Price sensitivity goes dow",
+          "published_at": "2026-03-20T22:45:14Z",
+          "engagement": {
+            "points": 2,
+            "comments": 1
+          },
+          "metadata": {
+            "author": "Chelper",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T01:01:30.398840+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1385,13 +1055,50 @@
         "kd": null,
         "cpc": null
       },
-      "total": 19,
+      "total": 15,
       "quality_screen": {
         "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
-        "review_count": 0,
-        "reference_count": 3,
-        "discarded_count": 16,
-        "review_leads": [],
+        "review_count": 1,
+        "reference_count": 2,
+        "discarded_count": 12,
+        "review_leads": [
+          {
+            "platform": "github_issues",
+            "title": "inventory(capabilities): classify Studio-owned authoring operations",
+            "url": "https://github.com/ankhorage/studio/issues/788",
+            "snippet": "Part of ankhorage/contracts#508 Phase 1. ## Goal Complete the evidence-first inventory of Studio-owned authoring/application operations before the Phase-6 Studio capability/binding migration. Do not rewrite Studio bindings or publish a Studio capability catalog in this issue unless ownership and schemas are already fully evidenced. ## Scope Inspect current Studio public/runtime/host operations and classify each candidate as: - genuinely Studio-owned application/authoring behavior - an invocation of another package owner's capability - internal helper only - trusted host/server operation that must not become a generic UI binding target At minimum inspect: - manifest save / reload - node inser",
+            "published_at": "2026-10-08T01:01:04Z",
+            "engagement": {
+              "comments": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-08T01:01:04Z",
+              "state": "open",
+              "author": "artiphishle"
+            },
+            "discovered_at": "2026-10-08T01:01:21.050556+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 62,
+              "screening": "review",
+              "reasons": [
+                "query_terms:inventory",
+                "problem_or_request_language",
+                "published_within_7_days"
+              ],
+              "matched_query_terms": [
+                "inventory"
+              ],
+              "published_age_days": 0,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
         "competitor_references": [
           {
             "platform": "github_repositories",
@@ -1407,7 +1114,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:12.368709+00:00",
+            "discovered_at": "2026-10-08T01:01:20.420293+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1445,7 +1152,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:12.368770+00:00",
+            "discovered_at": "2026-10-08T01:01:20.420325+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1462,38 +1169,6 @@
                 "inventory"
               ],
               "published_age_days": 5,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "google_news_rss",
-            "title": "I Tested the Best Spreadsheet Software for 2026 - G2 Learning Hub",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuNE0zX2E5UnNTZlVlQzBNMS1pbUdqQ2NJRU9MX1BrZDR6YU14SkJtZ0dSemw2QU9Gd0pid3dRSW01OVB4M2ZpMWJlTWtyU1FEVDRqcDVOVlBzZ9IBakFVX3lxTE5QbEc1YlNUV1p1aERBNHpBMjlWVjU4WXJNOGtGNVlNUGE2T1JXX0xPOXdOVWxnRzU4emtzZXZrVG5uR1ZSNEJKVXA1U05CSFZvSUpOOGgyLVVUbC1qWE1uaWJUeFRmMVFPWkE?oc=5",
-            "snippet": "I Tested the Best Spreadsheet Software for 2026 G2 Learning Hub",
-            "published_at": "Fri, 07 Aug 2026 07:00:00 GMT",
-            "engagement": {},
-            "metadata": {},
-            "discovered_at": "2026-10-08T00:59:13.467824+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 34,
-              "screening": "reference",
-              "reasons": [
-                "query_terms:spreadsheet",
-                "commercial_or_tool_context",
-                "publication_date_unverified",
-                "context_only_not_first_person_demand",
-                "no_explicit_user_pain_in_snippet"
-              ],
-              "matched_query_terms": [
-                "spreadsheet"
-              ],
-              "published_age_days": null,
               "verified_volume": null,
               "verified_kd": null,
               "verified_cpc": null,
@@ -1526,72 +1201,24 @@
             ]
           },
           {
-            "url": "https://github.com/NinjaSteveXer0/Shinobi-Chronicles/issues/601",
-            "title": "[PROTOCOL][CODING-RUNTIME] Multi-chat workforce + Integration Overseer operating model",
-            "score": 33,
-            "reasons": [
-              "commercial_or_tool_context",
-              "published_within_7_days",
-              "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
-            ]
-          },
-          {
             "url": "https://github.com/MJohnsonWellabe/Tetherbound/issues/572",
             "title": "Codex lanes A–E: close the remaining criteria (from 10-07 consolidated main)",
             "score": 21,
             "reasons": [
               "published_within_7_days",
               "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
-            "url": "https://github.com/relativityE/speaksharp/issues/1258",
-            "title": "test(release): requalify both Production journeys after biopsy fixes",
+            "url": "https://github.com/tuna-os/hive/issues/15",
+            "title": "RFC: move the hive operations control plane into the cluster",
             "score": 10,
             "reasons": [
               "query_terms_not_found",
-              "engineering_task_without_explicit_user_report",
-              "no_explicit_user_pain_in_snippet"
-            ]
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91VnFwRnUzZ2JVRWx4bVVzSF9VUV9GSVA4STZDME9Gc3NBWEpKYUl5Mms2Z3l1MDR3LTgwQmFWTFdxcTNVaG4yQi1ZQzlvWWZLSDVEMVpHaGo?oc=5",
-            "title": "What is an Inventory System? Process and How to Set One Up (2026) - Shopify",
-            "score": 22,
-            "reasons": [
-              "query_terms:inventory",
-              "publication_date_unverified",
-              "context_only_not_first_person_demand",
               "no_explicit_user_pain_in_snippet",
-              "off_topic_contextual_reference"
-            ]
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdVJIOHBYT1BXcGJ3amJNcXB2WENWb245RS1pQWZYLThGdDBEN1lad2VETmg3WDAyZzB6YkdyUjVQWjFReS1UY3ItSUVmRy1IaW9qMnF6bFVvc3lYcno3M1lTZ0k1NjJGb1V6clcwRVcwc2UzX0s3ME1YbFJsLVJBUGNOZXgtQXBmSXVXbkhUamNEVm9nNU82b3I4clBHa25JN29kVEtfYW5sQWpuLWVUMW9tM204bERFUkN3TnM4WTZzY09PTmc?oc=5",
-            "title": "Do It Best stores replaces spreadsheets with no-code database and reaps rewards - Retail Customer Experience",
-            "score": 9,
-            "reasons": [
-              "commercial_or_tool_context",
-              "publication_date_unverified",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
-              "no_explicit_user_pain_in_snippet",
-              "off_topic_contextual_reference"
-            ]
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRMEMxRGtZdmttVi1acEtCajhQU2pOTU1waUZhU3VXYlc1YUhRODhMam5nbXFpU0d5M0VSQ1ZacVIxMjYxZ1BqTkkxQlM5cmlpX3NNNlh3Z0dScWxuVmdfQk13RHB4OFhVUVZwT2h1UTI?oc=5",
-            "title": "10 Best Cash Flow Forecasting Tools for Ecommerce (2026): Features, Pricing, and Real-World Use Cases - Ask Luca",
-            "score": 9,
-            "reasons": [
-              "commercial_or_tool_context",
-              "publication_date_unverified",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
-              "no_explicit_user_pain_in_snippet",
-              "off_topic_contextual_reference"
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
@@ -1650,17 +1277,8 @@
               "query_terms:inventory",
               "commercial_or_tool_context",
               "published_within_30_days",
-              "no_explicit_user_pain_in_snippet"
-            ]
-          },
-          {
-            "url": "https://news.ycombinator.com/item?id=49178393",
-            "title": "Do You Think OpenAI Is Apple Circa the 1980s?",
-            "score": 36,
-            "reasons": [
-              "problem_or_request_language",
-              "commercial_or_tool_context",
-              "query_terms_not_found"
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
@@ -1670,17 +1288,29 @@
             "reasons": [
               "problem_or_request_language",
               "commercial_or_tool_context",
-              "query_terms_not_found"
+              "query_terms_not_found",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
-            "url": "https://news.ycombinator.com/item?id=48014734",
-            "title": "Ask HN: Are employers getting the returns from AI?",
-            "score": 17,
+            "url": "https://news.ycombinator.com/item?id=47718079",
+            "title": "Ask HN: Will we ever do something about patent trolls?",
+            "score": 21,
             "reasons": [
-              "commercial_or_tool_context",
+              "problem_or_request_language",
               "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=47461759",
+            "title": "Wine Registry Seeks Co-Founder",
+            "score": 21,
+            "reasons": [
+              "problem_or_request_language",
+              "query_terms_not_found",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
             ]
           }
         ],
@@ -1703,7 +1333,7 @@
     },
     {
       "query": "folha pagamento erro",
-      "captured_at": "2026-10-08T00:59:14.316808+00:00",
+      "captured_at": "2026-10-08T01:01:30.400560+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -1716,9 +1346,9 @@
           "warning": null
         },
         "google_news_rss": {
-          "status": "ok",
-          "count": 3,
-          "warning": null
+          "status": "error",
+          "count": 0,
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
         },
         "duckduckgo": {
           "status": "degraded",
@@ -1747,7 +1377,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:14.662166+00:00",
+          "discovered_at": "2026-10-08T01:01:30.788908+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1766,7 +1396,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:14.662202+00:00",
+          "discovered_at": "2026-10-08T01:01:30.788935+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1785,7 +1415,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:14.662228+00:00",
+          "discovered_at": "2026-10-08T01:01:30.788951+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1804,7 +1434,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:14.662248+00:00",
+          "discovered_at": "2026-10-08T01:01:30.788963+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1823,7 +1453,7 @@
             "state": "closed",
             "author": "VitorFX560"
           },
-          "discovered_at": "2026-10-08T00:59:15.158097+00:00",
+          "discovered_at": "2026-10-08T01:01:31.361867+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1842,46 +1472,7 @@
             "state": "closed",
             "author": "rogeriotpires-spec"
           },
-          "discovered_at": "2026-10-08T00:59:15.158202+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "google_news_rss",
-          "title": "Payroll errors impact 25% of UK employees - HR Magazine",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTlVyMGJsWC03V0JTTzJoRllVY3ZxbUI1SzhxcVlRRmZudy00Y2NPVGhEaHBkWEh5M1NQR1VoaU9wNm02R3UtVG02UWVhektGQUlKeXJNWDM5aFllQU5SQ2g4eFJUQzBCYS1hVmdER3ZkS042X2lkOERHSGFJWk9CZnV3Mm9PWGRzRGc?oc=5",
-          "snippet": "Payroll errors impact 25% of UK employees HR Magazine",
-          "published_at": "Thu, 04 Jul 2024 07:00:00 GMT",
-          "engagement": {},
-          "metadata": {},
-          "discovered_at": "2026-10-08T00:59:15.468832+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "google_news_rss",
-          "title": "Operação na Argentina derruba acesso de milhares de brasileiros a gatonet - UOL",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTEVkSXI5clJFeFJ1MnJVLVJzOFdoODRFMmEyUm5FQlBTVUd5NDNpUjVkS29lSHNOS0FVRUJZWXBZXzNDWERJRHFvTnBjTFpTTk9SZWg5SkYyR0tsRHFUZ1BmZFBnQTdBc0ZYRE5ta2FSdHk5WXhQWkdPR2VZSnk2TkZtaFpMejIwYnI2dno3MWcwUDFPeGNPelZBeURCZWZabXI4QjFyZXNJWWxIN1Izdk42WVdQWVdxcHl4Wm5B?oc=5",
-          "snippet": "Operação na Argentina derruba acesso de milhares de brasileiros a gatonet UOL",
-          "published_at": "Mon, 03 Nov 2025 08:00:00 GMT",
-          "engagement": {},
-          "metadata": {},
-          "discovered_at": "2026-10-08T00:59:15.468887+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "google_news_rss",
-          "title": "Não é verdade que existe documento secreto revelando falhas na apuração das eleições de 2018 - Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPV0hxQm5rbGpqYVVYVGVpVUJTX0VJVlVmNW1OM1pxNGdvYlpWaENNcTkzYkNkX2NFMGVjNU9WTkJobERmemZUUmljSjg3RzVzTWtGaWMtZHFJRVV3RzJjU0VwR1hyUEM0TDJDUnBzbHF5Mmk3ZFZsNlpTazRrSS0zTVprTW0zZUROb1I5Vk5aZlVBRWMtS0Z4aHJvc0tFZU5DUTh0MzY3QV9TY1RwVUJfekFwOVE3NWFKallMY0Q5Sm5yaXBDRkhiODJfeWJkNi1ESTlDV1l5Sm9QZ9IB3wFBVV95cUxOaFBjUnpTR0s2ejUzc2g0RDIzY1V3Q2JwazNTSk9MdTQ0YXdZWFlsR2x2QXhoWGN2d0tsRnRaVGsyWjdndk1Ic05QdmZ5bEFJTEhzZFkzTzVTVlZpUGFLT1hPYWp0RjlKZkhRd3dPb25nVFlIUmVOMkpsTjlwVHpMYUIwcEJFdmNacUtGQkZfd2hydG9ZTEp2ZDRqRXRTSlFwaUpvSk1sTFJRd1psSkZSMF9GNElGdkpjTENQZXdvdlM0UThkWnlnSWRzX1A4U01Xa3FXZlVvSk9Fb1FHbURZ?oc=5",
-          "snippet": "Não é verdade que existe documento secreto revelando falhas na apuração das eleições de 2018 Folha de S.Paulo",
-          "published_at": "Mon, 01 Aug 2022 07:00:00 GMT",
-          "engagement": {},
-          "metadata": {},
-          "discovered_at": "2026-10-08T00:59:15.468938+00:00",
+          "discovered_at": "2026-10-08T01:01:31.361936+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1896,7 +1487,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:15.656128+00:00",
+          "discovered_at": "2026-10-08T01:01:40.898037+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1911,7 +1502,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:15.656172+00:00",
+          "discovered_at": "2026-10-08T01:01:40.898068+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1926,7 +1517,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:15.656218+00:00",
+          "discovered_at": "2026-10-08T01:01:40.898094+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1941,7 +1532,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:15.656248+00:00",
+          "discovered_at": "2026-10-08T01:01:40.898110+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1960,12 +1551,12 @@
         "kd": null,
         "cpc": null
       },
-      "total": 13,
+      "total": 10,
       "quality_screen": {
         "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
         "review_count": 0,
-        "reference_count": 8,
-        "discarded_count": 5,
+        "reference_count": 7,
+        "discarded_count": 3,
         "review_leads": [],
         "competitor_references": [
           {
@@ -1982,7 +1573,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:14.662166+00:00",
+            "discovered_at": "2026-10-08T01:01:30.788908+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2021,7 +1612,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:14.662202+00:00",
+            "discovered_at": "2026-10-08T01:01:30.788935+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2059,7 +1650,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:14.662228+00:00",
+            "discovered_at": "2026-10-08T01:01:30.788951+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2084,38 +1675,6 @@
             }
           },
           {
-            "platform": "google_news_rss",
-            "title": "Não é verdade que existe documento secreto revelando falhas na apuração das eleições de 2018 - Folha de S.Paulo",
-            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPV0hxQm5rbGpqYVVYVGVpVUJTX0VJVlVmNW1OM1pxNGdvYlpWaENNcTkzYkNkX2NFMGVjNU9WTkJobERmemZUUmljSjg3RzVzTWtGaWMtZHFJRVV3RzJjU0VwR1hyUEM0TDJDUnBzbHF5Mmk3ZFZsNlpTazRrSS0zTVprTW0zZUROb1I5Vk5aZlVBRWMtS0Z4aHJvc0tFZU5DUTh0MzY3QV9TY1RwVUJfekFwOVE3NWFKallMY0Q5Sm5yaXBDRkhiODJfeWJkNi1ESTlDV1l5Sm9QZ9IB3wFBVV95cUxOaFBjUnpTR0s2ejUzc2g0RDIzY1V3Q2JwazNTSk9MdTQ0YXdZWFlsR2x2QXhoWGN2d0tsRnRaVGsyWjdndk1Ic05QdmZ5bEFJTEhzZFkzTzVTVlZpUGFLT1hPYWp0RjlKZkhRd3dPb25nVFlIUmVOMkpsTjlwVHpMYUIwcEJFdmNacUtGQkZfd2hydG9ZTEp2ZDRqRXRTSlFwaUpvSk1sTFJRd1psSkZSMF9GNElGdkpjTENQZXdvdlM0UThkWnlnSWRzX1A4U01Xa3FXZlVvSk9Fb1FHbURZ?oc=5",
-            "snippet": "Não é verdade que existe documento secreto revelando falhas na apuração das eleições de 2018 Folha de S.Paulo",
-            "published_at": "Mon, 01 Aug 2022 07:00:00 GMT",
-            "engagement": {},
-            "metadata": {},
-            "discovered_at": "2026-10-08T00:59:15.468938+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 50,
-              "screening": "reference",
-              "reasons": [
-                "query_terms:folha",
-                "problem_or_request_language",
-                "commercial_or_tool_context",
-                "publication_date_unverified",
-                "context_only_not_first_person_demand"
-              ],
-              "matched_query_terms": [
-                "folha"
-              ],
-              "published_age_days": null,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
             "platform": "bing_rss",
             "title": "Folha de S.Paulo",
             "url": "https://www.folha.uol.com.br/",
@@ -2125,7 +1684,7 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:59:15.656128+00:00",
+            "discovered_at": "2026-10-08T01:01:40.898037+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2159,7 +1718,7 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:59:15.656172+00:00",
+            "discovered_at": "2026-10-08T01:01:40.898068+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2193,7 +1752,7 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:59:15.656218+00:00",
+            "discovered_at": "2026-10-08T01:01:40.898094+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2227,7 +1786,7 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:59:15.656248+00:00",
+            "discovered_at": "2026-10-08T01:01:40.898110+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2273,7 +1832,8 @@
               "query_terms:folha,pagamento",
               "commercial_or_tool_context",
               "published_within_7_days",
-              "no_explicit_user_pain_in_snippet"
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
@@ -2283,32 +1843,8 @@
             "reasons": [
               "published_within_7_days",
               "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
-            ]
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTlVyMGJsWC03V0JTTzJoRllVY3ZxbUI1SzhxcVlRRmZudy00Y2NPVGhEaHBkWEh5M1NQR1VoaU9wNm02R3UtVG02UWVhektGQUlKeXJNWDM5aFllQU5SQ2g4eFJUQzBCYS1hVmdER3ZkS042X2lkOERHSGFJWk9CZnV3Mm9PWGRzRGc?oc=5",
-            "title": "Payroll errors impact 25% of UK employees - HR Magazine",
-            "score": 25,
-            "reasons": [
-              "problem_or_request_language",
-              "commercial_or_tool_context",
-              "publication_date_unverified",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
-              "off_topic_contextual_reference"
-            ]
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTEVkSXI5clJFeFJ1MnJVLVJzOFdoODRFMmEyUm5FQlBTVUd5NDNpUjVkS29lSHNOS0FVRUJZWXBZXzNDWERJRHFvTnBjTFpTTk9SZWg5SkYyR0tsRHFUZ1BmZFBnQTdBc0ZYRE5ta2FSdHk5WXhQWkdPR2VZSnk2TkZtaFpMejIwYnI2dno3MWcwUDFPeGNPelZBeURCZWZabXI4QjFyZXNJWWxIN1Izdk42WVdQWVdxcHl4Wm5B?oc=5",
-            "title": "Operação na Argentina derruba acesso de milhares de brasileiros a gatonet - UOL",
-            "score": 0,
-            "reasons": [
-              "publication_date_unverified",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
               "no_explicit_user_pain_in_snippet",
-              "off_topic_contextual_reference"
+              "no_topical_title_or_customer_attribution"
             ]
           }
         ],
@@ -2331,7 +1867,7 @@
     },
     {
       "query": "conciliação bancária manual",
-      "captured_at": "2026-10-08T00:59:15.989281+00:00",
+      "captured_at": "2026-10-08T01:01:41.197079+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -2344,9 +1880,9 @@
           "warning": null
         },
         "google_news_rss": {
-          "status": "empty",
+          "status": "error",
           "count": 0,
-          "warning": null
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
         },
         "duckduckgo": {
           "status": "degraded",
@@ -2356,7 +1892,7 @@
         },
         "reddit": {
           "status": "degraded",
-          "count": 0,
+          "count": 2,
           "warning": "HTTPError: HTTP Error 429: Too Many Requests"
         }
       },
@@ -2375,7 +1911,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:16.331728+00:00",
+          "discovered_at": "2026-10-08T01:01:41.499255+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2394,7 +1930,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:16.331770+00:00",
+          "discovered_at": "2026-10-08T01:01:41.499277+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2413,7 +1949,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:16.331798+00:00",
+          "discovered_at": "2026-10-08T01:01:41.499292+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2432,7 +1968,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:16.331820+00:00",
+          "discovered_at": "2026-10-08T01:01:41.499304+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2451,7 +1987,7 @@
             "state": "closed",
             "author": "felipe-urgal"
           },
-          "discovered_at": "2026-10-08T00:59:16.933628+00:00",
+          "discovered_at": "2026-10-08T01:01:42.245873+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2470,67 +2006,97 @@
             "state": "closed",
             "author": "djalmamartins"
           },
-          "discovered_at": "2026-10-08T00:59:16.933717+00:00",
+          "discovered_at": "2026-10-08T01:01:42.245923+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Voting: South Dakota Secretary of State - sdsos.gov",
-          "url": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
-          "snippet": "South Dakota law does not allow you to submit your voter registration form via fax or email. You can use this form to: Register to vote in South Dakota Change your registration name or address Change your party affiliation Cancel your voter registration by filling out the voter cancellation form.",
-          "published_at": "Tue, 06 Oct 2026 05:31:00 GMT",
+          "title": "Daily Sports Pages",
+          "url": "http://www.dailysportspages.com/index.php",
+          "snippet": "Daily Sports Pages Los Angeles DODGERS Discussions: 2,518 Messages: 550,245 Latest: BRAVES/DODGERS Bluezoo, 4 minutes ago RSS",
+          "published_at": "Wed, 07 Oct 2026 22:55:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:17.537363+00:00",
+          "discovered_at": "2026-10-08T01:01:49.277174+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Elections & Voting: South Dakota Secretary of State",
-          "url": "https://sdsos.gov/elections-voting/default.aspx",
-          "snippet": "Where Do I Vote? Register to Vote National Voter Registration Act (NVRA) Registration Changes Polling Place Accessibility Military Members Overseas Citizen Voter Absentee Voting Help America Vote Act (HAVA) Kids Voting South Dakota College Students Secretary of State Awards Address Confidentiality Election History Secretary of State Awards",
-          "published_at": "Tue, 06 Oct 2026 06:14:00 GMT",
+          "title": "ROTC + HPSP (Army) | United States of America Service Academy Forums",
+          "url": "https://www.serviceacademyforums.com/index.php?threads/rotc-hpsp-army.81329/",
+          "snippet": "Hello, I was ROTC while in college, and was on a reserve scholarship. I commissioned in 2019, and originally had a 6 year reserve obligation (I've since finished 2 of those 6 years). I went on to apply to medical school, and I am finishing up my first year now. I was awarded a 3 year HPSP...",
+          "published_at": "Mon, 02 Mar 2026 10:40:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:17.537415+00:00",
+          "discovered_at": "2026-10-08T01:01:49.277210+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "How to Vote in South Dakota - VoteAmerica",
-          "url": "https://www.voteamerica.org/how-to-vote/south-dakota",
-          "snippet": "Learn how to vote in South Dakota. Voter registration, absentee ballots, early voting, and voter ID information.",
-          "published_at": "Tue, 06 Oct 2026 21:52:00 GMT",
+          "title": "Los Angeles DODGERS | Daily Sports Pages",
+          "url": "http://www.dailysportspages.com/index.php?forums/los-angeles-dodgers.10/",
+          "snippet": "Los Angeles DODGERS Dodgercentric coverage of Major League Baseball as well as prospects internationally and minor league baseball..",
+          "published_at": "Wed, 07 Oct 2026 22:27:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:17.537447+00:00",
+          "discovered_at": "2026-10-08T01:01:49.277226+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "South Dakota voter guide - South Dakota News Watch",
-          "url": "https://www.sdnewswatch.org/south-dakota-voter-guide-primary-general-election",
-          "snippet": "What South Dakotans need to know about voting in statewide elections, and who and what are on the ballot.",
-          "published_at": "Fri, 25 Sep 2026 01:20:00 GMT",
+          "title": "Waiver approved Type 1 diabetes | United States of America Service ...",
+          "url": "https://www.serviceacademyforums.com/index.php?threads/waiver-approved-type-1-diabetes.98545/",
+          "snippet": "I have always been under the impression that having Type 1 diabetes would be impossible for military service, so thought I would share if there are any kids out there that have a dream to serve and did not think it was possible with Type 1 diabetes, keep your dream alive. Clearly, you would have to have phenomenal control and go through the rigorous waiver process, but it is now possible.",
+          "published_at": "Sat, 02 May 2026 14:07:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:17.537509+00:00",
+          "discovered_at": "2026-10-08T01:01:49.277251+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "reddit_index_fallback",
+          "title": "How much does xvideos pay? : r/CreatorsAdvice - Reddit",
+          "url": "https://www.reddit.com/r/CreatorsAdvice/comments/1dfwz85/how_much_does_xvideos_pay",
+          "snippet": "Xvideos uploads are managed through Sheer.com right now. Currently, it is much easier to monetize videos and get ad revenue from Sheer and it's partner sites than any other platform. This has just been my experience, but Xvideos has always seemed to be better income for amateurs.",
+          "published_at": "Wed, 26 Jun 2024 08:36:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_reason": "HTTPError: HTTP Error 429: Too Many Requests"
+          },
+          "discovered_at": "2026-10-08T01:01:49.574786+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "reddit_index_fallback",
+          "title": "Is xvideos staying up? : r/Virginia - Reddit",
+          "url": "https://www.reddit.com/r/Virginia/comments/14oe2jz/is_xvideos_staying_up",
+          "snippet": "The company that owns XVideos is based in the Czech republic. They must believe they have a low enough profile in the United States to avoid being successfully sued.",
+          "published_at": "Sun, 23 Jun 2024 06:31:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_reason": "HTTPError: HTTP Error 429: Too Many Requests"
+          },
+          "discovered_at": "2026-10-08T01:01:49.574810+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2549,12 +2115,12 @@
         "kd": null,
         "cpc": null
       },
-      "total": 10,
+      "total": 12,
       "quality_screen": {
         "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
         "review_count": 0,
         "reference_count": 3,
-        "discarded_count": 7,
+        "discarded_count": 9,
         "review_leads": [],
         "competitor_references": [
           {
@@ -2571,7 +2137,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:16.331728+00:00",
+            "discovered_at": "2026-10-08T01:01:41.499255+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2610,7 +2176,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:16.331770+00:00",
+            "discovered_at": "2026-10-08T01:01:41.499277+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2648,7 +2214,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:16.331798+00:00",
+            "discovered_at": "2026-10-08T01:01:41.499292+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2695,7 +2261,8 @@
               "problem_or_request_language",
               "commercial_or_tool_context",
               "published_within_7_days",
-              "engineering_task_without_explicit_user_report"
+              "engineering_task_without_explicit_user_report",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
@@ -2705,12 +2272,13 @@
             "reasons": [
               "published_within_7_days",
               "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
-            "url": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
-            "title": "Voting: South Dakota Secretary of State - sdsos.gov",
+            "url": "http://www.dailysportspages.com/index.php",
+            "title": "Daily Sports Pages",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -2721,21 +2289,8 @@
             ]
           },
           {
-            "url": "https://sdsos.gov/elections-voting/default.aspx",
-            "title": "Elections & Voting: South Dakota Secretary of State",
-            "score": 0,
-            "reasons": [
-              "publication_date_unverified",
-              "non_opportunity_or_automated_noise",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
-              "no_explicit_user_pain_in_snippet",
-              "off_topic_contextual_reference"
-            ]
-          },
-          {
-            "url": "https://www.voteamerica.org/how-to-vote/south-dakota",
-            "title": "How to Vote in South Dakota - VoteAmerica",
+            "url": "https://www.serviceacademyforums.com/index.php?threads/rotc-hpsp-army.81329/",
+            "title": "ROTC + HPSP (Army) | United States of America Service Academy Forums",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -2746,14 +2301,51 @@
             ]
           },
           {
-            "url": "https://www.sdnewswatch.org/south-dakota-voter-guide-primary-general-election",
-            "title": "South Dakota voter guide - South Dakota News Watch",
-            "score": 9,
+            "url": "http://www.dailysportspages.com/index.php?forums/los-angeles-dodgers.10/",
+            "title": "Los Angeles DODGERS | Daily Sports Pages",
+            "score": 0,
             "reasons": [
-              "problem_or_request_language",
               "publication_date_unverified",
               "query_terms_not_found",
               "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.serviceacademyforums.com/index.php?threads/waiver-approved-type-1-diabetes.98545/",
+            "title": "Waiver approved Type 1 diabetes | United States of America Service ...",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/CreatorsAdvice/comments/1dfwz85/how_much_does_xvideos_pay",
+            "title": "How much does xvideos pay? : r/CreatorsAdvice - Reddit",
+            "score": 8,
+            "reasons": [
+              "commercial_or_tool_context",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/Virginia/comments/14oe2jz/is_xvideos_staying_up",
+            "title": "Is xvideos staying up? : r/Virginia - Reddit",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
               "off_topic_contextual_reference"
             ]
           }
@@ -2777,7 +2369,7 @@
     },
     {
       "query": "nómina excel errores",
-      "captured_at": "2026-10-08T00:59:18.044369+00:00",
+      "captured_at": "2026-10-08T01:01:49.576101+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -2790,9 +2382,9 @@
           "warning": null
         },
         "google_news_rss": {
-          "status": "empty",
+          "status": "error",
           "count": 0,
-          "warning": null
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
         },
         "duckduckgo": {
           "status": "degraded",
@@ -2821,7 +2413,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:18.404113+00:00",
+          "discovered_at": "2026-10-08T01:01:50.128598+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2840,7 +2432,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:18.404156+00:00",
+          "discovered_at": "2026-10-08T01:01:50.128621+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2859,7 +2451,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:18.404186+00:00",
+          "discovered_at": "2026-10-08T01:01:50.128638+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2878,67 +2470,67 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:18.404216+00:00",
+          "discovered_at": "2026-10-08T01:01:50.128653+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Homepage | FORVIA HELLA",
-          "url": "https://www.hella.com/en",
-          "snippet": "FORVIA HELLA is a listed, internationally positioned automotive supplier. We stand for high-performance lighting technology and vehicle electronics. At the same time, our Business Group Lifecycle Solutions covers a broad service and product portfolio for the spare parts and workshop business as well as for manufacturers of special vehicles.",
-          "published_at": "Wed, 07 Oct 2026 10:45:00 GMT",
+          "title": "Louis Vuitton 38th America's Cup - Naples, Italy",
+          "url": "https://www.americascup.com/",
+          "snippet": "The 38th America's Cup Louis Vuitton comes to Naples, Italy in 2027. Follow the oldest trophy in sport: teams, AC75 racing, results and live coverage.",
+          "published_at": "Wed, 07 Oct 2026 18:23:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:19.437102+00:00",
+          "discovered_at": "2026-10-08T01:01:58.809934+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "HELLA Slovenia | Forvia HELLA",
-          "url": "https://www.hella.com/en/slovenia-si",
-          "snippet": "Smo HELLA Saturnus Slovenija, ponosna članica globalne skupine FORVIA HELLA, z več kot 100-letno tradicijo. Naše podjetje HELLA Saturnus Slovenija je del poslovne skupine Svetlobna oprema, angl. Lighting, ki je globalno odgovorno za izdelke opreme sprednjega dela avtomobila in ima raznolike tehnološke kompetence. Zaposlujemo 1600 ljudi in naše izdelke dobavljamo najpomembnejšim svetovnim ...",
-          "published_at": "Tue, 06 Oct 2026 19:50:00 GMT",
+          "title": "Louis Vuitton 38a America's Cup - Napoli, Italia",
+          "url": "https://www.americascup.com/it/home",
+          "snippet": "La 38ª Coppa America Louis Vuitton arriva a Napoli nel 2027. Segui il più antico trofeo dello sport: team, regate AC75, risultati e dirette.",
+          "published_at": "Wed, 07 Oct 2026 14:49:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:19.437175+00:00",
+          "discovered_at": "2026-10-08T01:01:58.809965+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Hella - IIS Windows Server",
-          "url": "https://eppap.hella.com/",
-          "snippet": "IIS Windows Server",
-          "published_at": "Wed, 23 Sep 2026 23:05:00 GMT",
+          "title": "Emirates Team New Zealand",
+          "url": "https://emirates-team-new-zealand.americascup.com/",
+          "snippet": "Official website of America’s Cup. The competition for the oldest trophy in international sport and dates back to 1851.",
+          "published_at": "Wed, 07 Oct 2026 15:39:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:19.437219+00:00",
+          "discovered_at": "2026-10-08T01:01:58.809987+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "anmeldung",
-          "url": "https://www2.hella.com/webedi/jsp/anmeldung.jsp?Mandantennummer=0000&Sprache=en",
-          "snippet": "Log in WebEDI Please enter your username and password Then please press the button Log in",
-          "published_at": "Sun, 04 Oct 2026 02:06:00 GMT",
+          "title": "GRANT DALTON - Emirates Team New Zealand",
+          "url": "https://emirates-team-new-zealand.americascup.com/en/team/34_GRANT-DALTON.html",
+          "snippet": "Grant was appointed to Team New Zealand after their loss of the America’s Cup in 2003. Under his leadership, the team designed, built and campaigned a TP52 on the MedCup circuit in 2009 and 2010, winning the season championship in both years.",
+          "published_at": "Sat, 03 Oct 2026 01:46:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:19.437252+00:00",
+          "discovered_at": "2026-10-08T01:01:58.810010+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2979,7 +2571,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:18.404113+00:00",
+            "discovered_at": "2026-10-08T01:01:50.128598+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3017,7 +2609,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:18.404156+00:00",
+            "discovered_at": "2026-10-08T01:01:50.128621+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3056,7 +2648,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:18.404186+00:00",
+            "discovered_at": "2026-10-08T01:01:50.128638+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3095,7 +2687,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:18.404216+00:00",
+            "discovered_at": "2026-10-08T01:01:50.128653+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3122,21 +2714,8 @@
         ],
         "discarded": [
           {
-            "url": "https://www.hella.com/en",
-            "title": "Homepage | FORVIA HELLA",
-            "score": 5,
-            "reasons": [
-              "commercial_or_tool_context",
-              "publication_date_unverified",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
-              "no_explicit_user_pain_in_snippet",
-              "off_topic_contextual_reference"
-            ]
-          },
-          {
-            "url": "https://www.hella.com/en/slovenia-si",
-            "title": "HELLA Slovenia | Forvia HELLA",
+            "url": "https://www.americascup.com/",
+            "title": "Louis Vuitton 38th America's Cup - Naples, Italy",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3147,8 +2726,8 @@
             ]
           },
           {
-            "url": "https://eppap.hella.com/",
-            "title": "Hella - IIS Windows Server",
+            "url": "https://www.americascup.com/it/home",
+            "title": "Louis Vuitton 38a America's Cup - Napoli, Italia",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3159,8 +2738,20 @@
             ]
           },
           {
-            "url": "https://www2.hella.com/webedi/jsp/anmeldung.jsp?Mandantennummer=0000&Sprache=en",
-            "title": "anmeldung",
+            "url": "https://emirates-team-new-zealand.americascup.com/",
+            "title": "Emirates Team New Zealand",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://emirates-team-new-zealand.americascup.com/en/team/34_GRANT-DALTON.html",
+            "title": "GRANT DALTON - Emirates Team New Zealand",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3190,7 +2781,7 @@
     },
     {
       "query": "facturas SAT errores",
-      "captured_at": "2026-10-08T00:59:19.724068+00:00",
+      "captured_at": "2026-10-08T01:01:59.183984+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -3203,9 +2794,9 @@
           "warning": null
         },
         "google_news_rss": {
-          "status": "ok",
-          "count": 1,
-          "warning": null
+          "status": "error",
+          "count": 0,
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
         },
         "duckduckgo": {
           "status": "degraded",
@@ -3214,9 +2805,9 @@
           "fallback": "bing_rss"
         },
         "reddit": {
-          "status": "degraded",
-          "count": 0,
-          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+          "status": "ok",
+          "count": 3,
+          "warning": null
         }
       },
       "items": [
@@ -3234,7 +2825,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:20.075982+00:00",
+          "discovered_at": "2026-10-08T01:01:59.597747+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3253,7 +2844,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:20.076018+00:00",
+          "discovered_at": "2026-10-08T01:01:59.597773+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3272,7 +2863,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:20.076044+00:00",
+          "discovered_at": "2026-10-08T01:01:59.597789+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3291,7 +2882,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T00:59:20.076067+00:00",
+          "discovered_at": "2026-10-08T01:01:59.597803+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3310,7 +2901,7 @@
             "state": "open",
             "author": "iandolan"
           },
-          "discovered_at": "2026-10-08T00:59:20.863087+00:00",
+          "discovered_at": "2026-10-08T01:02:00.550188+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3329,7 +2920,7 @@
             "state": "open",
             "author": "github-actions[bot]"
           },
-          "discovered_at": "2026-10-08T00:59:20.863928+00:00",
+          "discovered_at": "2026-10-08T01:02:00.550645+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3348,80 +2939,106 @@
             "state": "open",
             "author": "yinyo1"
           },
-          "discovered_at": "2026-10-08T00:59:20.864035+00:00",
+          "discovered_at": "2026-10-08T01:02:00.550705+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
-          "platform": "google_news_rss",
-          "title": "SAT duplica la recaudación por fiscalizar operaciones de comercio exterior - Expansión",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdnJPVDFuSlFyLUJFWkVIR2pVVUdwQTFYR0p3ZEhXWTJYckphVjVTelRfN3lzaENrR0dELXBPaXJNa3lsc0lNLUF1TmxFdDZMSmMxWFhpR2hSbDhXOUp3eGFieUlHSGZLcnJDMWdGZmFvOHBxSWtHRzUzc2luZW5mSThR0gGPAUFVX3lxTE5ZQi1rcF83WldUT3JZMnhsT28yRFUxMlhtMmR4UGxJNnlsUy1TZkJUQVVsOEktcF94NGZqVHB2T09lSlh2WktNTnhuWFVPS1Job0psWV80dzdUZ05RWnRMWDRPdG5WVFlHakdvcW5PcGVtT09ZZlNOMEdwR282bXV3Q1hMX3NPdzRGUWlKM3hV?oc=5",
-          "snippet": "SAT duplica la recaudación por fiscalizar operaciones de comercio exterior Expansión",
-          "published_at": "Wed, 28 Feb 2024 08:00:00 GMT",
+          "platform": "bing_rss",
+          "title": "11 Must-See Washington, DC Memorials - Exploring DC",
+          "url": "https://exploringdc.com/washington-dc-memorials",
+          "snippet": "In this guide, I’ll walk you through 11 must-see monuments and memorials in DC. Whether you’re a history buff, a lover of architecture, or simply wanting to check iconic spots off your bucket list, these memorials belong on your itinerary.",
+          "published_at": "Tue, 06 Oct 2026 18:17:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T01:02:06.880000+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Washington DC Monuments & Memorials | List of DC Monuments",
+          "url": "https://washington.org/visit-dc/monuments-memorials",
+          "snippet": "The Jefferson Memorial, the Lincoln Memorial, the Washington Monument – let’s face it, Washington, DC’s famous monuments and memorials are why you’re here. Explore the National Mall and plan your trip to the nation’s capital today.",
+          "published_at": "Fri, 20 Feb 2026 16:14:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T01:02:06.880036+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "The Best Monuments and Memorials in Washington, D.C. - TripSavvy",
+          "url": "https://www.tripsavvy.com/monuments-and-memorials-in-washington-dc-4176946",
+          "snippet": "See our list (and map) of the best Washington DC monuments, including both heavy-hitters like the Lincoln Memorial and lesser-known gems.",
+          "published_at": "Sun, 04 Oct 2026 08:04:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T01:02:06.880054+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Washington, D.C. - Monuments, Memorials, History | Britannica",
+          "url": "https://www.britannica.com/place/Washington-DC/Monuments-and-memorials",
+          "snippet": "The Washington Monument and other memorials honoring U.S. presidents are some of the most-visited landmarks in Washington. The Lincoln Memorial lies west of the Washington Monument, on land reclaimed from the Potomac River at the far western end of the Mall ’s Reflecting Pool.",
+          "published_at": "Tue, 06 Oct 2026 07:19:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T01:02:06.880074+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "reddit_rss",
+          "title": "PICK UP",
+          "url": "https://www.reddit.com/r/Dreading/comments/1x0cwyx/pick_up",
+          "snippet": "",
+          "published_at": "2026-10-08T00:25:43+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:59:21.140687+00:00",
+          "discovered_at": "2026-10-08T01:02:07.310799+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
-          "platform": "bing_rss",
-          "title": "Home [help.paramountplus.com]",
-          "url": "https://help.paramountplus.com/s",
-          "snippet": "Welcome to the Paramount+ International Help Center. For U.S. inquiries, visit help.paramountplus.com. How can we help?",
-          "published_at": "Wed, 07 Oct 2026 12:33:00 GMT",
+          "platform": "reddit_rss",
+          "title": "Predators of the Sixth World - 66",
+          "url": "https://www.reddit.com/r/NatureofPredators/comments/1x0ch10/predators_of_the_sixth_world_66",
+          "snippet": "",
+          "published_at": "2026-10-08T00:04:19+00:00",
           "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T00:59:21.304731+00:00",
+          "metadata": {},
+          "discovered_at": "2026-10-08T01:02:07.310829+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
-          "platform": "bing_rss",
-          "title": "Paramount+ Help Center",
-          "url": "https://help.paramountplus.com/s/global-search/chat%20with%20us",
-          "snippet": "Paramount+ Help Center ×Sorry to interrupt Refresh",
-          "published_at": "Tue, 29 Sep 2026 12:21:00 GMT",
+          "platform": "reddit_rss",
+          "title": "5am showers with the Marc Anthony Grow Long leave in conditioner spray",
+          "url": "https://www.reddit.com/r/HairRoutine/comments/1x0bt10/5am_showers_with_the_marc_anthony_grow_long_leave",
+          "snippet": "",
+          "published_at": "2026-10-07T23:33:10+00:00",
           "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T00:59:21.304819+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "bing_rss",
-          "title": "Login - Paramount+",
-          "url": "https://help.paramountplus.com/s/my-account",
-          "snippet": "For personalized content, sign in using your existing Paramount+ email and password.",
-          "published_at": "Wed, 07 Oct 2026 10:45:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T00:59:21.304862+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "bing_rss",
-          "title": "Login Template Title - Paramount+",
-          "url": "https://help.paramountplus.com/s/login?locale=us",
-          "snippet": "Login Template Title Loading ×Sorry to interrupt CSS Error Refresh",
-          "published_at": "Tue, 06 Oct 2026 08:16:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T00:59:21.304894+00:00",
+          "metadata": {},
+          "discovered_at": "2026-10-08T01:02:07.310846+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3440,12 +3057,12 @@
         "kd": null,
         "cpc": null
       },
-      "total": 12,
+      "total": 14,
       "quality_screen": {
         "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
         "review_count": 0,
-        "reference_count": 3,
-        "discarded_count": 9,
+        "reference_count": 2,
+        "discarded_count": 12,
         "review_leads": [],
         "competitor_references": [
           {
@@ -3462,7 +3079,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:20.076018+00:00",
+            "discovered_at": "2026-10-08T01:01:59.597773+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3501,7 +3118,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T00:59:20.076067+00:00",
+            "discovered_at": "2026-10-08T01:01:59.597803+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3520,38 +3137,6 @@
                 "sat"
               ],
               "published_age_days": 2,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "google_news_rss",
-            "title": "SAT duplica la recaudación por fiscalizar operaciones de comercio exterior - Expansión",
-            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdnJPVDFuSlFyLUJFWkVIR2pVVUdwQTFYR0p3ZEhXWTJYckphVjVTelRfN3lzaENrR0dELXBPaXJNa3lsc0lNLUF1TmxFdDZMSmMxWFhpR2hSbDhXOUp3eGFieUlHSGZLcnJDMWdGZmFvOHBxSWtHRzUzc2luZW5mSThR0gGPAUFVX3lxTE5ZQi1rcF83WldUT3JZMnhsT28yRFUxMlhtMmR4UGxJNnlsUy1TZkJUQVVsOEktcF94NGZqVHB2T09lSlh2WktNTnhuWFVPS1Job0psWV80dzdUZ05RWnRMWDRPdG5WVFlHakdvcW5PcGVtT09ZZlNOMEdwR282bXV3Q1hMX3NPdzRGUWlKM3hV?oc=5",
-            "snippet": "SAT duplica la recaudación por fiscalizar operaciones de comercio exterior Expansión",
-            "published_at": "Wed, 28 Feb 2024 08:00:00 GMT",
-            "engagement": {},
-            "metadata": {},
-            "discovered_at": "2026-10-08T00:59:21.140687+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 34,
-              "screening": "reference",
-              "reasons": [
-                "query_terms:sat",
-                "commercial_or_tool_context",
-                "publication_date_unverified",
-                "context_only_not_first_person_demand",
-                "no_explicit_user_pain_in_snippet"
-              ],
-              "matched_query_terms": [
-                "sat"
-              ],
-              "published_age_days": null,
               "verified_volume": null,
               "verified_kd": null,
               "verified_cpc": null,
@@ -3591,7 +3176,8 @@
             "reasons": [
               "problem_or_request_language",
               "published_within_7_days",
-              "query_terms_not_found"
+              "query_terms_not_found",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
@@ -3601,7 +3187,8 @@
             "reasons": [
               "commercial_or_tool_context",
               "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
@@ -3611,12 +3198,13 @@
             "reasons": [
               "published_within_30_days",
               "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
             ]
           },
           {
-            "url": "https://help.paramountplus.com/s",
-            "title": "Home [help.paramountplus.com]",
+            "url": "https://exploringdc.com/washington-dc-memorials",
+            "title": "11 Must-See Washington, DC Memorials - Exploring DC",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3627,8 +3215,8 @@
             ]
           },
           {
-            "url": "https://help.paramountplus.com/s/global-search/chat%20with%20us",
-            "title": "Paramount+ Help Center",
+            "url": "https://washington.org/visit-dc/monuments-memorials",
+            "title": "Washington DC Monuments & Memorials | List of DC Monuments",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3639,8 +3227,8 @@
             ]
           },
           {
-            "url": "https://help.paramountplus.com/s/my-account",
-            "title": "Login - Paramount+",
+            "url": "https://www.tripsavvy.com/monuments-and-memorials-in-washington-dc-4176946",
+            "title": "The Best Monuments and Memorials in Washington, D.C. - TripSavvy",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3651,16 +3239,49 @@
             ]
           },
           {
-            "url": "https://help.paramountplus.com/s/login?locale=us",
-            "title": "Login Template Title - Paramount+",
-            "score": 21,
+            "url": "https://www.britannica.com/place/Washington-DC/Monuments-and-memorials",
+            "title": "Washington, D.C. - Monuments, Memorials, History | Britannica",
+            "score": 0,
             "reasons": [
-              "problem_or_request_language",
-              "commercial_or_tool_context",
               "publication_date_unverified",
               "query_terms_not_found",
               "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
               "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/Dreading/comments/1x0cwyx/pick_up",
+            "title": "PICK UP",
+            "score": 9,
+            "reasons": [
+              "published_within_7_days",
+              "very_short_title",
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/NatureofPredators/comments/1x0ch10/predators_of_the_sixth_world_66",
+            "title": "Predators of the Sixth World - 66",
+            "score": 19,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/HairRoutine/comments/1x0bt10/5am_showers_with_the_marc_anthony_grow_long_leave",
+            "title": "5am showers with the Marc Anthony Grow Long leave in conditioner spray",
+            "score": 19,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
             ]
           }
         ],
@@ -3679,11 +3300,13 @@
         "locale": "es",
         "kind": "specific_buyer_problem"
       },
-      "repeat_links_across_queries": []
+      "repeat_links_across_queries": [
+        "https://www.reddit.com/r/Dreading/comments/1x0cwyx/pick_up"
+      ]
     },
     {
       "query": "brotx optimizer v4",
-      "captured_at": "2026-10-08T00:59:21.595194+00:00",
+      "captured_at": "2026-10-08T01:02:07.312115+00:00",
       "sources": {
         "github_repos": {
           "status": "empty",
@@ -3696,9 +3319,9 @@
           "warning": null
         },
         "google_news_rss": {
-          "status": "empty",
+          "status": "error",
           "count": 0,
-          "warning": null
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
         },
         "duckduckgo": {
           "status": "degraded",
@@ -3715,60 +3338,60 @@
       "items": [
         {
           "platform": "bing_rss",
-          "title": "Game Server Hosting | Blue Fang Solutions",
-          "url": "https://www.bluefangsolutions.com/",
-          "snippet": "Experience low-latency dedicated game server hosting. Get fast setup, custom control panel, and 24/7 expert support for your favorite multiplayer games.",
-          "published_at": "Wed, 07 Oct 2026 05:02:00 GMT",
+          "title": "Katie Holmes - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Katie_Holmes",
+          "snippet": "Kate Noelle Holmes (born December 18, 1978) [9] is an American actress. She first achieved fame as Joey Potter on the television series Dawson's Creek (1998–2003). [3] Holmes made her film debut with a supporting role in Ang Lee 's The Ice Storm (1997). [10] .",
+          "published_at": "Tue, 06 Oct 2026 18:53:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:22.662519+00:00",
+          "discovered_at": "2026-10-08T01:02:15.344358+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "7 Days to Die Game Server Hosting - Blue Fang Solutions LLC",
-          "url": "https://www.bluefangsolutions.com/shop/game-servers/7-days-to-die-server-hosting",
-          "snippet": "RENT 7 DAYS TO DIE GAME SERVER 7 DAYS TO DIE game server hosting (monthly rental) [NOTICE] The v2.0 Stable version is out now supporting Crossplay for dedicated servers! Crossplay servers must be 8 slots, have EAC on, and generally no mods. HOW LONG WILL YOU SURVIVE? With over 12 million copies sold, 7 Days to Die has defined the survival genre, with unrivaled crafting and world-building ...",
-          "published_at": "Wed, 07 Oct 2026 13:37:00 GMT",
+          "title": "Katie Holmes - IMDb",
+          "url": "https://www.imdb.com/name/nm0005017",
+          "snippet": "Born two months premature at four pounds, Kate Noelle Holmes made her first appearance on December 18, 1978, in Toledo, Ohio. She is the daughter of Kathleen Ann (Craft), a philanthropist, and Martin Joseph Holmes, Sr., a lawyer. She is of German, Irish, and English ancestry.",
+          "published_at": "Mon, 05 Oct 2026 17:36:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:22.662581+00:00",
+          "discovered_at": "2026-10-08T01:02:15.344390+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "My Account - BlueFangSolutions.com",
-          "url": "https://www.bluefangsolutions.com/my-account",
-          "snippet": "Contact Us Today! | sales@bluefangsolutions.com Overseer Panel 2.0™ Get Support Cart",
-          "published_at": "Mon, 05 Oct 2026 10:19:00 GMT",
+          "title": "Katie Holmes: news & photos from Tom Cruise ex-wife - HELLO!",
+          "url": "https://www.hellomagazine.com/tags/katie-holmes",
+          "snippet": "All the latest news and photos of the Dawson's Creek star who went through a high profile divorce from ex-husband Tom Cruise in 2012 following five-year relationship with the actor. Katie is...",
+          "published_at": "Thu, 18 Aug 2011 08:15:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:22.662634+00:00",
+          "discovered_at": "2026-10-08T01:02:15.344411+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Ground Branch - BlueFangSolutions.com",
-          "url": "https://www.bluefangsolutions.com/shop/game-servers/ground-branch-server-hosting",
-          "snippet": "RENT GROUND BRANCH DEDICATED GAME SERVER. Ground Branch game server hosting (monthly rental). This game is in Steam Early Access stages.",
-          "published_at": "Wed, 07 Oct 2026 01:55:00 GMT",
+          "title": "Katie Holmes (@katieholmes) • Instagram photos and videos",
+          "url": "https://www.instagram.com/katieholmes",
+          "snippet": "3M Followers, 1,549 Following, 1,128 Posts - Katie Holmes (@katieholmes) on Instagram: \"\"",
+          "published_at": "Wed, 07 Oct 2026 18:45:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:59:22.662677+00:00",
+          "discovered_at": "2026-10-08T01:02:15.344427+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3797,8 +3420,8 @@
         "competitor_references": [],
         "discarded": [
           {
-            "url": "https://www.bluefangsolutions.com/",
-            "title": "Game Server Hosting | Blue Fang Solutions",
+            "url": "https://en.wikipedia.org/wiki/Katie_Holmes",
+            "title": "Katie Holmes - Wikipedia",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3809,8 +3432,8 @@
             ]
           },
           {
-            "url": "https://www.bluefangsolutions.com/shop/game-servers/7-days-to-die-server-hosting",
-            "title": "7 Days to Die Game Server Hosting - Blue Fang Solutions LLC",
+            "url": "https://www.imdb.com/name/nm0005017",
+            "title": "Katie Holmes - IMDb",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3821,8 +3444,8 @@
             ]
           },
           {
-            "url": "https://www.bluefangsolutions.com/my-account",
-            "title": "My Account - BlueFangSolutions.com",
+            "url": "https://www.hellomagazine.com/tags/katie-holmes",
+            "title": "Katie Holmes: news & photos from Tom Cruise ex-wife - HELLO!",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3833,8 +3456,8 @@
             ]
           },
           {
-            "url": "https://www.bluefangsolutions.com/shop/game-servers/ground-branch-server-hosting",
-            "title": "Ground Branch - BlueFangSolutions.com",
+            "url": "https://www.instagram.com/katieholmes",
+            "title": "Katie Holmes (@katieholmes) • Instagram photos and videos",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3864,7 +3487,7 @@
       "repeat_links_across_queries": []
     }
   ],
-  "unique_evidence_links_across_queries": 90,
+  "unique_evidence_links_across_queries": 80,
   "warnings": [
     "Search occurrences, heuristic scores and user issues do not prove search volume or willingness to pay.",
     "Article/news hits and competitor repositories are contextual leads, not verified buyer demand.",
