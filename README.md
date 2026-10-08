@@ -74,6 +74,15 @@ GitHub Actions runs the seed scout on the Asia/Shanghai calendar day at **08:20 
 
 The downstream 08:00 report therefore reads the **previous Beijing-local day's** completed 20-root archive. The workflow also runs after changes to the scout code/config so fixes can be exercised immediately.
 
+## OPC business evidence review (non-destructive)
+
+After the five-year history gate, the scheduled pipeline also runs `src/opc_business_gate.py` with **no paid API or additional network request**. It only inspects existing `formal_candidates` and optional manually verified evidence in `config/business_evidence.json`, then writes `data/business/latest.json` and `reports/business/latest.md`.
+
+Missing Volume/KD/CPC, competitor traffic, SERP evidence and user-pain signals remain **UNVERIFIED**, not zero, and never generate an automatic building recommendation. Existing keyword lists, newness gates and shortlist criteria are unchanged.
+
+Details and evidence schema: [docs/opc-business-gate.md](docs/opc-business-gate.md).
+Principles adapted independently from [easychen/opc-methodology](https://github.com/easychen/opc-methodology) with attribution; non-commercial Skill text is not bundled.
+
 ## Cost
 
 - Google Trends: free
