@@ -1,6 +1,6 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-08T01:06:05.048423+00:00
+Generated: 2026-10-08T01:12:12.552689+00:00
 
 ## Formal candidates
 
@@ -8,9 +8,9 @@ Generated: 2026-10-08T01:06:05.048423+00:00
 ## Watch / rejected
 
 - fantasy basketball trade analyzer — **old-history** — newness 100, money 100; 5y peak 100
-- my education planner — **commercial-watch** — newness 73, money 100
+- my education planner — **commercial-watch** — newness 53, money 100
+- tracker cast — **reject** — newness 40, money 94
 - ahref traffic checker — **reject** — newness 35, money 94
 - kra pin checker — **reject** — newness 35, money 94
 - mapquest route planner — **reject** — newness 35, money 94
-- tracker cast — **reject** — newness 35, money 94
 - tracker new season — **reject** — newness 35, money 94
