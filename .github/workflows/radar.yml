@@ -58,15 +58,8 @@ jobs:
       - name: Run OPC business gate after history verification
         run: python src/opc_business_gate.py
 
-      - name: Commit daily data
+      - name: Publish reconciled daily data
         run: |
           git config user.name "new-keyword-radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data reports state
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "data: refresh Google Trends radar $(date -u +%F)"
-            git pull --rebase origin main
-            git push
-          fi
+          python src/publish_radar.py
