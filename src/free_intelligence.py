@@ -16,10 +16,12 @@ try:
     from .free_search import collect, canonical_url
     from .lead_quality import screen_result
     from .evidence_queue import build_queue, render_queue
+    from .validation_history import annotate_queue
 except ImportError:
     from free_search import collect, canonical_url
     from lead_quality import screen_result
     from evidence_queue import build_queue, render_queue
+    from validation_history import annotate_queue
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCAL = ZoneInfo("Asia/Shanghai")
@@ -27,6 +29,7 @@ OUT = ROOT / "data/free-intelligence"
 REPORTS = ROOT / "reports/free-intelligence"
 SEED_FILE = ROOT / "data/seed-scout-latest.json"
 CONFIG = ROOT / "config/free_intelligence.json"
+TARGETS = ROOT / "config/validation_targets.json"
 
 COMMERCIAL_TERMS = re.compile(
     r"\b(calculator|generator|checker|converter|tracker|planner|builder|editor|"
@@ -155,7 +158,7 @@ def main():
     ap.add_argument("--limit", type=int, default=4)
     args = ap.parse_args()
     summary, markdown = run(max_queries=max(1, min(args.max_queries, 8)), limit=max(1, min(args.limit, 10)))
-    queue = build_queue(summary)
+    queue = annotate_queue(build_queue(summary), OUT, TARGETS)
     queue_markdown = render_queue(queue)
     OUT.mkdir(parents=True, exist_ok=True)
     REPORTS.mkdir(parents=True, exist_ok=True)

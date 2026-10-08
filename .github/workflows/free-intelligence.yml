@@ -8,6 +8,9 @@ on:
       - "src/free_search.py"
       - "src/free_intelligence.py"
       - "src/evidence_queue.py"
+      - "src/validation_history.py"
+      - "config/validation_targets.json"
+      - "tests/test_validation_history.py"
       - "tests/test_evidence_queue.py"
       - "src/lead_quality.py"
       - "tests/test_firstperson_demand.py"
@@ -42,7 +45,8 @@ jobs:
           python -m unittest discover -s tests -p test_pain_query_plan.py -v
           python -m unittest discover -s tests -p test_firstperson_demand.py -v
           python -m unittest discover -s tests -p test_evidence_queue.py -v
-          python -m py_compile src/free_search.py src/free_intelligence.py src/lead_quality.py src/evidence_queue.py
+          python -m unittest discover -s tests -p test_validation_history.py -v
+          python -m py_compile src/free_search.py src/free_intelligence.py src/lead_quality.py src/evidence_queue.py src/validation_history.py
       - name: Run free discovery (no paid API)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -109,3 +109,38 @@ provenanced and independently verified process establishes the user's
 minimum nonzero search demand, acceptable competition, and commercial route.
 This does not change original keyword lists, daily Trends pipelines,
 report cadences or code for user websites.
+
+## Cross-day observations and exact keyword research (14 days)
+
+Daily `validation-queue-latest.json` now compares up to 14 **previous dated
+validation-queue JSON archives** already stored in
+`data/free-intelligence/`. It reports:
+
+- Earlier archived days containing the same **market + research intent**
+  (topic coverage only, **not** proof the demand is growing).
+- Days when the **same discovery query** appeared and counts of new versus
+  repeated saved URLs, split into firsthand evidence and background/context.
+- A data sufficiency signal. Until at least three distinct prior archived
+  days exist, the history is labelled `insufficient_history`.
+- Entries with missing or mismatched dates, corrupted JSON, or timestamps
+  outside the 14-day lookback are skipped. Today's rerun is **not** counted as
+  a separate historical observation.
+
+Keyword verification templates are declared in
+`config/validation_targets.json` for twelve English / Brazilian Portuguese /
+Mexican Spanish pain-research categories. Each has up to three **suggested
+exact search terms to research**, language, target country, and a clearly
+unverified monetization hypothesis. None of these terms are replacements for
+website keywords and none are claims of real monthly Volume, KD or CPC.
+
+Read the actionable list at
+`reports/free-intelligence/validation-queue-latest.md` after the independent
+06:40 Asia/Shanghai GitHub Actions research job. Daily archives are retained
+in `reports/free-intelligence/YYYY-MM-DD-validation-queue.md`.
+
+**Boundaries:** same URL seen 5 times is one reference, not 5 users;
+different terms from a rotating research set do not prove one identical buyer
+problem; a Google Trends spike is not validated organic search demand;
+even two independent complaints cannot authorize a build without SEO,
+competition and monetization evidence. No paid API, browser runner, proxy,
+always-on PC, or change to the existing radar schedule is involved.
