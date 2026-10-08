@@ -11,17 +11,18 @@ Queries by source: github_repos = payroll integration, github_issues = payroll i
 
 Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=ok, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 24 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 2 / 24 raw unique links. Filtered, not verified.
 
-- No qualifying buyer-pain evidence. Do not infer absence of demand.
+- [Ask HN: Small business bank account – who do you use?](https://news.ycombinator.com/item?id=11438973) · hackernews_ask · triage 52/100 · query_terms:integration,payroll, problem_or_request_language, commercial_or_tool_context, stale_over_one_year
+- [D1-C — integrated deterministic closeout, truth table, UAT](https://github.com/bensmullen/personal-finance-app/issues/80) · github_issues · triage 49/100 · problem_or_request_language, commercial_or_tool_context, published_within_7_days, query_terms_not_found
 
-Competitor / contextual references: 12
+Competitor / contextual references: 9
 
 - [Daclify/daclify-backend-modules](https://github.com/Daclify/daclify-backend-modules)
-- [alfredang/AI-LMS-TMS](https://github.com/alfredang/AI-LMS-TMS)
 - [api-evangelist/playroll](https://github.com/api-evangelist/playroll)
+- [BrightHR Announces Xero Payroll Integration To Combat Wage Theft And Streamline Compliance - Scoop - New Zealand News](https://news.google.com/rss/articles/CBMiywFBVV95cUxOVHNaRVpqZ05WVUNVakZwM1g5X2d5Yy1GUFhHY0NFZ3g2ZUxuWS15bllnN3UydFE0NlJFdFhEQndNaTVSTllWSS1UUks3WTVEVk9QQ0ZFUWxuRTJ4WHpqSHFnaEFDTG0zdjEtLTdYT3V3SUdsekw1MGtfdEt4d2Q2ZkdESmdFYW10NTFzbTdlbXh0YzN0eFFHNHVWQ1FNQzNHWmFGUHlMcUtNb1Z4RlkzT01kazdwN1BZdENnbEFfSnNJNmNWc1FTYWNFQQ?oc=5)
 
-Discarded/noise: 12; repeated URLs across queries: 0
+Discarded/noise: 13; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -33,17 +34,17 @@ Queries by source: github_repos = inventory sync, github_issues = inventory sync
 
 Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 18 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 19 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 12
+Competitor / contextual references: 3
 
 - [mcsilva711-cpu/ieo-privacy](https://github.com/mcsilva711-cpu/ieo-privacy)
-- [bertinaanalogical656/cmd](https://github.com/bertinaanalogical656/cmd)
 - [dezzaCodes/flower-inventory](https://github.com/dezzaCodes/flower-inventory)
+- [I Tested the Best Spreadsheet Software for 2026 - G2 Learning Hub](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuNE0zX2E5UnNTZlVlQzBNMS1pbUdqQ2NJRU9MX1BrZDR6YU14SkJtZ0dSemw2QU9Gd0pid3dRSW01OVB4M2ZpMWJlTWtyU1FEVDRqcDVOVlBzZ9IBakFVX3lxTE5QbEc1YlNUV1p1aERBNHpBMjlWVjU4WXJNOGtGNVlNUGE2T1JXX0xPOXdOVWxnRzU4emtzZXZrVG5uR1ZSNEJKVXA1U05CSFZvSUpOOGgyLVVUbC1qWE1uaWJUeFRmMVFPWkE?oc=5)
 
-Discarded/noise: 6; repeated URLs across queries: 0
+Discarded/noise: 16; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -59,13 +60,13 @@ Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degra
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 11
+Competitor / contextual references: 8
 
 - [Vs-Shin/folha_de_pagamento](https://github.com/Vs-Shin/folha_de_pagamento)
 - [aureliocastru/Folha-de-Pagamento-Ilnet](https://github.com/aureliocastru/Folha-de-Pagamento-Ilnet)
 - [Paulocpjunior/Consultor-DP-Folhapagamentos](https://github.com/Paulocpjunior/Consultor-DP-Folhapagamentos)
 
-Discarded/noise: 2; repeated URLs across queries: 0
+Discarded/noise: 5; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -81,13 +82,13 @@ Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=de
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 8
+Competitor / contextual references: 3
 
 - [vinilopesc/casa-acolhimento-rosa-mistica](https://github.com/vinilopesc/casa-acolhimento-rosa-mistica)
 - [PauloHenriqueL/hamilton_whatsapp](https://github.com/PauloHenriqueL/hamilton_whatsapp)
 - [hologram-gestao/auditoria-lancamentos](https://github.com/hologram-gestao/auditoria-lancamentos)
 
-Discarded/noise: 2; repeated URLs across queries: 0
+Discarded/noise: 7; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -103,13 +104,13 @@ Sources: github_repos=ok, github_issues=empty, google_news_rss=empty, duckduckgo
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 8
+Competitor / contextual references: 4
 
 - [Camilo1408/Nomina-Xpress](https://github.com/Camilo1408/Nomina-Xpress)
 - [7Freeza/liquidador-nomina](https://github.com/7Freeza/liquidador-nomina)
 - [chrisbalmar/rrhh-doc-automation](https://github.com/chrisbalmar/rrhh-doc-automation)
 
-Discarded/noise: 0; repeated URLs across queries: 0
+Discarded/noise: 4; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -125,13 +126,13 @@ Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degra
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 9
+Competitor / contextual references: 3
 
-- [FacturAPI/facturapi-java](https://github.com/FacturAPI/facturapi-java)
 - [VALIDADORCIBEY/validador](https://github.com/VALIDADORCIBEY/validador)
-- [yolovany/facturacionmozart-woocommerce-plugin](https://github.com/yolovany/facturacionmozart-woocommerce-plugin)
+- [JAGA894/Dsoft_Facturas_NC](https://github.com/JAGA894/Dsoft_Facturas_NC)
+- [SAT duplica la recaudación por fiscalizar operaciones de comercio exterior - Expansión](https://news.google.com/rss/articles/CBMiggFBVV95cUxNdnJPVDFuSlFyLUJFWkVIR2pVVUdwQTFYR0p3ZEhXWTJYckphVjVTelRfN3lzaENrR0dELXBPaXJNa3lsc0lNLUF1TmxFdDZMSmMxWFhpR2hSbDhXOUp3eGFieUlHSGZLcnJDMWdGZmFvOHBxSWtHRzUzc2luZW5mSThR0gGPAUFVX3lxTE5ZQi1rcF83WldUT3JZMnhsT28yRFUxMlhtMmR4UGxJNnlsUy1TZkJUQVVsOEktcF94NGZqVHB2T09lSlh2WktNTnhuWFVPS1Job0psWV80dzdUZ05RWnRMWDRPdG5WVFlHakdvcW5PcGVtT09ZZlNOMEdwR282bXV3Q1hMX3NPdzRGUWlKM3hV?oc=5)
 
-Discarded/noise: 3; repeated URLs across queries: 0
+Discarded/noise: 9; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -147,12 +148,9 @@ Sources: github_repos=empty, github_issues=empty, google_news_rss=empty, duckduc
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 4
+Competitor / contextual references: 0
 
-- [Men's College Basketball Schedule - 2026 Season - ESPN](https://www.espn.com/mens-college-basketball/schedule)
-- [2027 March Madness: Men's NCAA tournament schedule, dates](https://www.ncaa.com/news/basketball-men/article/2026-05-07/2027-march-madness-mens-ncaa-tournament-schedule-dates)
-- [NCAA Schedule, Standings, Results and Updates (Season 102) Men's ...](https://www.teampilipinas.info/2019/07/ncaa-live-updates-schedule-standings.html)
 
-Discarded/noise: 0; repeated URLs across queries: 0
+Discarded/noise: 4; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
