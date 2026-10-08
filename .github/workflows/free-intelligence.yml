@@ -2,6 +2,13 @@ name: Free Search Intelligence
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/free_search.py"
+      - "src/free_intelligence.py"
+      - "config/free_intelligence.json"
+      - ".github/workflows/free-intelligence.yml"
   schedule:
     # 06:40 Asia/Shanghai, before the existing Trends report window.
     - cron: "40 22 * * *"
