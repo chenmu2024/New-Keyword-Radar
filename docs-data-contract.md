@@ -44,3 +44,9 @@ Each checked candidate includes:
 ## Interpretation
 
 A “formal” candidate is not equivalent to an absolute search-volume recommendation. Google Trends is relative. The intended second step is to inspect only the best 1–3 candidates in Semrush/Ahrefs or another keyword database for Volume/KD/CPC and then inspect SERP weakness and monetization feasibility.
+
+## Additional optional business decision layer
+
+After the five-year history gate, `src/opc_business_gate.py` reads only `data/latest.json` formal candidates and human-supplied `config/business_evidence.json`. It creates `data/business/latest.json` and `reports/business/latest.md` without changing existing radar outputs or their formal verdicts.
+
+Each assessment includes `volume`, `kd`, `cpc` (all nullable), the six evidence-backed 0–5 dimensions and nullable `score_total`, `missing` evidence items, and a human-review-only `status`. Never infer values that were not independently sourced and dated. See [docs/opc-business-gate.md](docs/opc-business-gate.md).
