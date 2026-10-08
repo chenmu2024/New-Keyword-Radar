@@ -120,15 +120,17 @@ def dedupe(items):
 def github(query, kind="repositories", limit=8):
     if kind not in ("repositories", "issues"):
         raise ValueError("Invalid GitHub search type")
-    url = "https://api.github.com/search/" + kind + "?" + urlencode({"q": query, "per_page": min(limit, 30), "sort": "updated"})
+    url = "https://api.github.com/search/" + kind + "?" + urlencode({"q": query, "per_page": min(limit * 3 if kind == "issues" else limit, 30), "sort": "updated"})
     headers = {"Accept": "application/vnd.github+json"}
     if os.getenv("GITHUB_TOKEN"):
         headers["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
     data = json.loads(cached_request(url, ttl=1800, headers=headers)[0])
     out = []
-    for obj in data.get("items", [])[:limit]:
+    for obj in data.get("items", []):
         if kind == "issues" and "pull_request" in obj:
             continue
+        if len(out) >= limit:
+            break
         title = obj.get("full_name") if kind == "repositories" else obj.get("title")
         snippet = obj.get("description") if kind == "repositories" else obj.get("body")
         metrics = {"stars": obj.get("stargazers_count")} if kind == "repositories" else {"comments": obj.get("comments")}
@@ -299,20 +301,24 @@ def page_to_markdown(url):
             "extraction_method": "local_html", "note": "Static HTML only; not a headless browser."}
 
 
-def collect(query, platforms, limit=8):
+def collect(query, platforms, limit=8, source_queries=None):
+    source_queries = source_queries or {}
+    def q(source):
+        return source_queries.get(source) or query
     handlers = {
-        "github_repos": lambda: github(query, "repositories", limit),
-        "github_issues": lambda: github(query, "issues", limit),
-        "google_news_rss": lambda: google_news(query, limit),
-        "duckduckgo": lambda: duckduckgo(query, limit),
-        "bing_rss": lambda: bing_rss(query, limit),
-        "reddit": lambda: reddit(query, limit),
-        "images": lambda: image_candidates(query, limit),
+        "github_repos": lambda: github(q("github_repos"), "repositories", limit),
+        "github_issues": lambda: github(q("github_issues"), "issues", limit),
+        "google_news_rss": lambda: google_news(q("google_news_rss"), limit),
+        "duckduckgo": lambda: duckduckgo(q("duckduckgo"), limit),
+        "bing_rss": lambda: bing_rss(q("bing_rss"), limit),
+        "reddit": lambda: reddit(q("reddit"), limit),
+        "images": lambda: image_candidates(q("images"), limit),
     }
     if not query.strip() or limit < 1 or limit > 30:
         raise ValueError("Nonempty query and 1 <= limit <= 30 required")
     result = {"query": query, "captured_at": utc_now(), "sources": {}, "items": [],
-              "cost_model": "no paid API", "keyword_metrics": {"volume": None, "kd": None, "cpc": None}}
+              "cost_model": "no paid API", "source_queries": {name: q(name) for name in platforms},
+              "keyword_metrics": {"volume": None, "kd": None, "cpc": None}}
     for source in platforms:
         if source not in handlers:
             result["sources"][source] = {"status": "unsupported"}

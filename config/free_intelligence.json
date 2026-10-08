@@ -26,5 +26,99 @@
     "earthquake",
     "breaking news"
   ],
-  "notes": "Research queries only (EN + PT + ES); fourth daily slot takes Google Trends seed-scout discovery. Original keyword and Trends gates never change."
+  "notes": "Daily research only; rotate 2 pain-oriented queries per language across EN-US, PT-BR, ES-MX; add at most one relevant rising query. Query metrics never inferred. Original Trends/user SEO keywords unchanged.",
+  "pain_query_groups": {
+    "en": [
+      {
+        "query": "invoice reconciliation manual",
+        "issue_query": "invoice reconciliation",
+        "market": "US",
+        "topic": "finance_operations",
+        "intent": "manual_invoice_pain"
+      },
+      {
+        "query": "payroll integration error",
+        "issue_query": "payroll integration",
+        "market": "US",
+        "topic": "payroll",
+        "intent": "integration_pain"
+      },
+      {
+        "query": "inventory sync spreadsheet",
+        "issue_query": "inventory sync",
+        "market": "US",
+        "topic": "retail_operations",
+        "intent": "manual_sync_pain"
+      },
+      {
+        "query": "scheduling spreadsheet manual",
+        "issue_query": "scheduling spreadsheet",
+        "market": "US",
+        "topic": "operations",
+        "intent": "manual_schedule_pain"
+      }
+    ],
+    "pt": [
+      {
+        "query": "nota fiscal planilha",
+        "issue_query": "nota fiscal",
+        "market": "BR",
+        "topic": "tax_compliance",
+        "intent": "manual_invoice_pain"
+      },
+      {
+        "query": "folha pagamento erro",
+        "issue_query": "folha pagamento",
+        "market": "BR",
+        "topic": "payroll",
+        "intent": "payroll_error"
+      },
+      {
+        "query": "conciliação bancária manual",
+        "issue_query": "conciliação bancária",
+        "market": "BR",
+        "topic": "finance_operations",
+        "intent": "manual_reconciliation"
+      },
+      {
+        "query": "estoque integração falha",
+        "issue_query": "estoque integração",
+        "market": "BR",
+        "topic": "inventory",
+        "intent": "integration_pain"
+      }
+    ],
+    "es": [
+      {
+        "query": "CFDI conciliación errores",
+        "issue_query": "CFDI conciliación",
+        "market": "MX",
+        "topic": "tax_compliance",
+        "intent": "invoice_validation"
+      },
+      {
+        "query": "nómina excel errores",
+        "issue_query": "nómina excel",
+        "market": "MX",
+        "topic": "payroll",
+        "intent": "manual_payroll_pain"
+      },
+      {
+        "query": "facturas SAT errores",
+        "issue_query": "facturas SAT",
+        "market": "MX",
+        "topic": "tax_compliance",
+        "intent": "invoice_rejection"
+      },
+      {
+        "query": "inventario excel manual",
+        "issue_query": "inventario excel",
+        "market": "MX",
+        "topic": "inventory",
+        "intent": "manual_inventory_pain"
+      }
+    ]
+  },
+  "queries_per_market": 2,
+  "max_rising_candidate_queries": 1
 }
