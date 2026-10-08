@@ -62,7 +62,10 @@ def run(max_queries=4, platforms=None, limit=4):
                          + item["platform"] + " · triage " + str(score["score"]) + "/100 · " +
                          ", ".join(score["reasons"]))
         if not screen["review_leads"]:
-            lines.append("- No sufficiently relevant **review leads**. This does not imply zero demand.")
+            lines.append("- No sufficiently relevant **buyer-pain review leads**. This does not imply zero demand.")
+        lines += ["", "Competitor/tool references (not purchase intent): " + str(screen["reference_count"]), ""]
+        for item in screen["competitor_references"][:4]:
+            lines.append("- [" + item["title"].replace("]", "") + "](" + item["url"] + ") — reference only")
         lines += ["", "Rejected/noise: " + str(screen["discarded_count"]), "",
                   "Next: validate exact Trends history, Volume/KD/CPC, local SERP and willingness to pay.", ""]
     return summary, "\n".join(lines)

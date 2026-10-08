@@ -116,7 +116,13 @@ def score(item, query, reference=None):
     if source not in SOURCE_WEIGHT:
         eligible = False
         notes.append("unknown_source_not_eligible")
-    return {"score": max(0, min(100, pts)), "screening": "review" if eligible else "discard",
+    if source == "github_repositories" and not spam:
+        # A tool's repository is competitor evidence, not buyer pain.
+        eligible = False
+        notes.append("product_reference_not_buyer_request")
+    classification = ("reference" if source == "github_repositories" and not spam
+                      else "review" if eligible else "discard")
+    return {"score": max(0, min(100, pts)), "screening": classification,
             "reasons": notes, "matched_query_terms": matched,
             "published_age_days": age, "verified_volume": None, "verified_kd": None,
             "verified_cpc": None, "is_verified_opportunity": False}
@@ -124,20 +130,24 @@ def score(item, query, reference=None):
 def screen_result(result):
     query = result.get("query") or ""
     scored = []
+    references = []
     dropped = []
     for item in result.get("items", []):
         s = score(item, query)
         enriched = dict(item, quality=s)
         if s["screening"] == "review":
             scored.append(enriched)
+        elif s["screening"] == "reference":
+            references.append(enriched)
         else:
             dropped.append({"url": item.get("url"), "title": item.get("title"),
                             "score": s["score"], "reasons": s["reasons"]})
     scored.sort(key=lambda i: (-i["quality"]["score"], i.get("url", "")))
     result["quality_screen"] = {
         "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
-        "review_count": len(scored), "discarded_count": len(dropped),
-        "review_leads": scored, "discarded": dropped,
+        "review_count": len(scored), "reference_count": len(references),
+        "discarded_count": len(dropped),
+        "review_leads": scored, "competitor_references": references, "discarded": dropped,
         "next_validation": ["Check exact query Google Trends history", "Check Volume/KD/CPC using real source",
                             "Inspect local country SERP", "Verify independent user pain and payability"]
     }
