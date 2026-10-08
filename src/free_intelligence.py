@@ -15,9 +15,11 @@ from zoneinfo import ZoneInfo
 try:
     from .free_search import collect, canonical_url
     from .lead_quality import screen_result
+    from .evidence_queue import build_queue, render_queue
 except ImportError:
     from free_search import collect, canonical_url
     from lead_quality import screen_result
+    from evidence_queue import build_queue, render_queue
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCAL = ZoneInfo("Asia/Shanghai")
@@ -153,6 +155,8 @@ def main():
     ap.add_argument("--limit", type=int, default=4)
     args = ap.parse_args()
     summary, markdown = run(max_queries=max(1, min(args.max_queries, 8)), limit=max(1, min(args.limit, 10)))
+    queue = build_queue(summary)
+    queue_markdown = render_queue(queue)
     OUT.mkdir(parents=True, exist_ok=True)
     REPORTS.mkdir(parents=True, exist_ok=True)
     payload = json.dumps(summary, indent=2, ensure_ascii=False) + "\n"
@@ -160,10 +164,19 @@ def main():
         p.write_text(payload, encoding="utf-8")
     for p in (REPORTS / (summary["date"] + ".md"), REPORTS / "latest.md"):
         p.write_text(markdown, encoding="utf-8")
+    queue_json = json.dumps(queue, ensure_ascii=False, indent=2) + "\n"
+    for p in (OUT / (summary["date"] + "-validation-queue.json"),
+              OUT / "validation-queue-latest.json"):
+        p.write_text(queue_json, encoding="utf-8")
+    for p in (REPORTS / (summary["date"] + "-validation-queue.md"),
+              REPORTS / "validation-queue-latest.md"):
+        p.write_text(queue_markdown, encoding="utf-8")
     print("queries=", len(summary["queries"]),
           "raw_links=", sum(x["total"] for x in summary["queries"]),
           "unique_links=", summary["unique_evidence_links_across_queries"],
-          "review_leads=", sum(x["quality_screen"]["review_count"] for x in summary["queries"]))
+          "review_leads=", sum(x["quality_screen"]["review_count"] for x in summary["queries"]),
+          "validation_topics=", queue["total_topics"],
+          "build_ready=", queue["build_ready_count"])
 
 
 if __name__ == "__main__":
