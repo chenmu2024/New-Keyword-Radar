@@ -31,6 +31,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Self-tests before remote collection
+        run: |
+          python -m unittest discover -s tests -p test_free_search.py -v
+          python -m py_compile src/free_search.py src/free_intelligence.py
       - name: Run free discovery (no paid API)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
