@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "method": "Editorial research hypotheses only. Not a modification to user website core keywords or verified SEO target words.",
+  "targets": {
+    "US:manual_invoice_pain": {
+      "language": "en",
+      "terms": [
+        "invoice reconciliation software",
+        "invoice reconciliation automation",
+        "automated invoice matching"
+      ],
+      "monetization_hypothesis": "B2B SaaS: reconciliation workflow; paid intent unverified"
+    },
+    "US:integration_pain": {
+      "language": "en",
+      "terms": [
+        "payroll integration software",
+        "payroll integration errors",
+        "payroll API integration"
+      ],
+      "monetization_hypothesis": "B2B integrations or compliance tool; paid intent unverified"
+    },
+    "US:manual_sync_pain": {
+      "language": "en",
+      "terms": [
+        "inventory sync software",
+        "inventory spreadsheet integration",
+        "stock synchronization tool"
+      ],
+      "monetization_hypothesis": "B2B inventory synchronization; paid intent unverified"
+    },
+    "US:manual_schedule_pain": {
+      "language": "en",
+      "terms": [
+        "employee scheduling spreadsheet",
+        "schedule automation software",
+        "staff rota generator"
+      ],
+      "monetization_hypothesis": "Staff planning tool / subscription; paid intent unverified"
+    },
+    "BR:manual_invoice_pain": {
+      "language": "pt-BR",
+      "terms": [
+        "controle de notas fiscais planilha",
+        "conciliação de notas fiscais",
+        "emissor de nota fiscal online"
+      ],
+      "monetization_hypothesis": "Brazil compliance utility or SaaS; applicability unverified"
+    },
+    "BR:payroll_error": {
+      "language": "pt-BR",
+      "terms": [
+        "erro folha de pagamento",
+        "conferência folha de pagamento",
+        "cálculo folha de pagamento online"
+      ],
+      "monetization_hypothesis": "Brazil payroll checker / B2B SaaS; paid intent unverified"
+    },
+    "BR:manual_reconciliation": {
+      "language": "pt-BR",
+      "terms": [
+        "conciliação bancária online",
+        "conciliação bancária automática",
+        "planilha conciliação bancária"
+      ],
+      "monetization_hypothesis": "Brazil bookkeeping reconciliation; paid intent unverified"
+    },
+    "BR:integration_pain": {
+      "language": "pt-BR",
+      "terms": [
+        "controle de estoque online",
+        "integração de estoque",
+        "sincronização de estoque"
+      ],
+      "monetization_hypothesis": "Inventory integration utility; paid intent unverified"
+    },
+    "MX:invoice_validation": {
+      "language": "es-MX",
+      "terms": [
+        "conciliación de CFDI",
+        "validador CFDI SAT",
+        "errores CFDI SAT"
+      ],
+      "monetization_hypothesis": "Mexican CFDI validation/checker; paid intent unverified"
+    },
+    "MX:manual_payroll_pain": {
+      "language": "es-MX",
+      "terms": [
+        "nómina excel",
+        "calculadora de nómina México",
+        "errores de nómina"
+      ],
+      "monetization_hypothesis": "Mexico payroll checker; paid intent unverified"
+    },
+    "MX:invoice_rejection": {
+      "language": "es-MX",
+      "terms": [
+        "validar facturas SAT",
+        "errores de facturación SAT",
+        "verificador de facturas CFDI"
+      ],
+      "monetization_hypothesis": "Mexico invoice compliance utility; paid intent unverified"
+    },
+    "MX:manual_inventory_pain": {
+      "language": "es-MX",
+      "terms": [
+        "control de inventarios excel",
+        "inventario en línea",
+        "sistema de inventarios en excel"
+      ],
+      "monetization_hypothesis": "Small business inventory tool; paid intent unverified"
+    }
+  },
+  "required_verification": [
+    "Country-specific provider-reported nonzero Volume and recorded report date",
+    "Observed KD and local SERP overlap/competition from a named source",
+    "Observed CPC and monetization route",
+    "Comparable reference site traffic, preferably 10k-100k/month with date/source",
+    "At least two independent real user reports and practical zero-fixed-cost feasibility"
+  ]
+}
