@@ -55,6 +55,9 @@ jobs:
       - name: Check OPC business gate safeguards
         run: python -m unittest discover -s tests -p "test_opc_business_gate.py"
 
+      - name: Test concurrent publisher reconciliation
+        run: python -m unittest discover -s tests -p "test_publish_radar.py"
+
       - name: Run OPC business gate after history verification
         run: python src/opc_business_gate.py
 
