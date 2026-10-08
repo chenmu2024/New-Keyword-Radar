@@ -1,7 +1,8 @@
 {
   "opportunity_queries": [
-    "AI agent automation pain point",
-    "micro SaaS feature request"
+    "micro SaaS feature request",
+    "problema ferramenta online Brasil",
+    "problema herramienta online México"
   ],
   "platforms": [
     "github_repos",
@@ -11,7 +12,12 @@
     "reddit"
   ],
   "exclusions": [
-    "election", "celebrity", "lottery", "earthquake", "season 4", "movie review"
+    "election",
+    "celebrity",
+    "lottery",
+    "earthquake",
+    "season 4",
+    "movie review"
   ],
-  "notes": "Independent lead generation only. Never changes original Google Trends seeds or keyword scores."
+  "notes": "Research queries only (EN + PT + ES); fourth daily slot takes Google Trends seed-scout discovery. Original keyword and Trends gates never change."
 }
