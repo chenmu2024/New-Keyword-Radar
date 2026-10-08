@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-08T08:12:36.636495+08:00",
+  "generated_at": "2026-10-08T08:13:46.213348+08:00",
   "mode": "read_only_discovery",
   "keyword_metrics": {
     "volume": null,
@@ -12,7 +12,7 @@
   "queries": [
     {
       "query": "micro SaaS feature request",
-      "captured_at": "2026-10-08T00:12:30.772672+00:00",
+      "captured_at": "2026-10-08T00:13:36.439309+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -30,9 +30,10 @@
           "warning": null
         },
         "duckduckgo": {
-          "status": "error",
-          "count": 0,
-          "error": "ValueError: Unexpected HTTP status: 202"
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
         },
         "reddit": {
           "status": "ok",
@@ -54,7 +55,7 @@
             "updated_at": "2026-08-27T09:20:58Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:12:31.174192+00:00",
+          "discovered_at": "2026-10-08T00:13:36.924855+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -72,7 +73,25 @@
             "updated_at": "2023-06-10T04:55:54Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:12:31.174247+00:00",
+          "discovered_at": "2026-10-08T00:13:36.924928+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Fail closed when sentinel recovery loses signed run identity",
+          "url": "https://github.com/akaszubski/autonomous-dev/issues/1807",
+          "snippet": "## Observed, not accepted In `/implement --fix #1805` run `f56b5d9db2313942` (Claude session `b01695d9`), F1 initialized the per-repo sentinel with mode, run ID, issue and base commit at 15:07:55Z and `record_run_start` returned true. At 15:08:56Z a bare recovery sentinel appeared with only session ID, `recovered` and timestamp; the original run ID, mode, issue and base commit were gone. At 15:09:06Z alignment was signed onto this identity-less state. The separate completion ledger still named the run, but it is a different, lower-authority carrier. The cause is now reproduced at the function boundary: `commands/implement-fix.md` F1 initializes `state` without `session_id`, while full mode i",
+          "published_at": "2026-09-25T15:30:30Z",
+          "engagement": {
+            "comments": 311
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T00:13:09Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:13:37.635506+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -90,7 +109,7 @@
             "updated_at": "2026-10-08T00:10:30Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:12:31.638254+00:00",
+          "discovered_at": "2026-10-08T00:13:37.637277+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -108,25 +127,7 @@
             "updated_at": "2026-10-08T00:04:53Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:12:31.638815+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "github_issues",
-          "title": "Fail closed when sentinel recovery loses signed run identity",
-          "url": "https://github.com/akaszubski/autonomous-dev/issues/1807",
-          "snippet": "## Observed, not accepted In `/implement --fix #1805` run `f56b5d9db2313942` (Claude session `b01695d9`), F1 initialized the per-repo sentinel with mode, run ID, issue and base commit at 15:07:55Z and `record_run_start` returned true. At 15:08:56Z a bare recovery sentinel appeared with only session ID, `recovered` and timestamp; the original run ID, mode, issue and base commit were gone. At 15:09:06Z alignment was signed onto this identity-less state. The separate completion ledger still named the run, but it is a different, lower-authority carrier. The cause is now reproduced at the function boundary: `commands/implement-fix.md` F1 initializes `state` without `session_id`, while full mode i",
-          "published_at": "2026-09-25T15:30:30Z",
-          "engagement": {
-            "comments": 310
-          },
-          "metadata": {
-            "updated_at": "2026-10-08T00:04:12Z",
-            "state": "open"
-          },
-          "discovered_at": "2026-10-08T00:12:31.639030+00:00",
+          "discovered_at": "2026-10-08T00:13:37.637882+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -144,7 +145,7 @@
             "updated_at": "2026-10-07T23:52:45Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:12:31.639062+00:00",
+          "discovered_at": "2026-10-08T00:13:37.637930+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -157,7 +158,7 @@
           "published_at": "Mon, 19 Jun 2023 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:32.001003+00:00",
+          "discovered_at": "2026-10-08T00:13:38.077417+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -170,7 +171,7 @@
           "published_at": "Fri, 18 Apr 2025 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:32.001060+00:00",
+          "discovered_at": "2026-10-08T00:13:38.077480+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -183,7 +184,7 @@
           "published_at": "Fri, 12 Jul 2024 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:32.001109+00:00",
+          "discovered_at": "2026-10-08T00:13:38.077530+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -196,7 +197,67 @@
           "published_at": "Fri, 11 May 2018 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:32.001152+00:00",
+          "discovered_at": "2026-10-08T00:13:38.077575+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Microsoft account | Sign In or Create Your Account Today – Microsoft",
+          "url": "https://account.microsoft.com/account",
+          "snippet": "Get access to free online versions of Outlook, Word, Excel, and PowerPoint.",
+          "published_at": "Wed, 07 Oct 2026 15:17:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:38.529858+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Micro Center - Computer & Electronics Retailer - Shop Now",
+          "url": "https://www.microcenter.com/",
+          "snippet": "Shop Micro Center for electronics, PCs, laptops, Apple products, and much more. Enjoy in-store pickup, top deals, and expert same-day tech support.",
+          "published_at": "Wed, 07 Oct 2026 10:38:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:38.529912+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Computer Store in Denver, CO - Micro Center",
+          "url": "https://www.microcenter.com/site/stores/denver.aspx",
+          "snippet": "Welcome to Micro Center Denver—your premier tech destination in Colorado since 1999. Conveniently located in the Denver Tech Center just off I-225 on South Tamarac Street, our store offers over 25,000 products, including laptops, desktops, PC parts, Apple devices, and gaming gear. With spacious departments, a dedicated DIY builder area, and a knowledgeable team of tech enthusiasts, we ...",
+          "published_at": "Tue, 06 Oct 2026 09:20:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:38.529961+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+          "url": "https://www.microsoft.com/en-us",
+          "snippet": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+          "published_at": "Wed, 07 Oct 2026 20:54:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:38.530000+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -209,7 +270,7 @@
           "published_at": "2026-03-06T12:14:47+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:32.388886+00:00",
+          "discovered_at": "2026-10-08T00:13:38.764038+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -222,7 +283,7 @@
           "published_at": "2026-10-08T00:11:14+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:32.388933+00:00",
+          "discovered_at": "2026-10-08T00:13:38.764085+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -235,7 +296,7 @@
           "published_at": "2026-10-08T00:10:27+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:32.388967+00:00",
+          "discovered_at": "2026-10-08T00:13:38.764117+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -248,7 +309,7 @@
           "published_at": "2026-10-08T00:02:40+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:32.388993+00:00",
+          "discovered_at": "2026-10-08T00:13:38.764142+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -260,11 +321,11 @@
         "kd": null,
         "cpc": null
       },
-      "total": 14
+      "total": 18
     },
     {
       "query": "problema ferramenta online Brasil",
-      "captured_at": "2026-10-08T00:12:32.389152+00:00",
+      "captured_at": "2026-10-08T00:13:38.764343+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -282,14 +343,15 @@
           "warning": null
         },
         "duckduckgo": {
-          "status": "error",
-          "count": 0,
-          "error": "ValueError: Unexpected HTTP status: 202"
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
         },
         "reddit": {
-          "status": "error",
+          "status": "degraded",
           "count": 0,
-          "error": "ValueError: Unexpected HTTP status: 202"
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
         }
       },
       "items": [
@@ -306,7 +368,7 @@
             "updated_at": "2026-07-13T15:31:24Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:12:32.695328+00:00",
+          "discovered_at": "2026-10-08T00:13:39.194312+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -324,7 +386,7 @@
             "updated_at": "2026-10-07T21:15:39Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:12:33.042376+00:00",
+          "discovered_at": "2026-10-08T00:13:39.921670+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -342,7 +404,7 @@
             "updated_at": "2026-09-27T23:07:55Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:12:33.043431+00:00",
+          "discovered_at": "2026-10-08T00:13:39.922942+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -360,7 +422,7 @@
             "updated_at": "2026-09-24T02:27:42Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:12:33.043486+00:00",
+          "discovered_at": "2026-10-08T00:13:39.923011+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -378,7 +440,7 @@
             "updated_at": "2026-09-23T23:28:58Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:12:33.044195+00:00",
+          "discovered_at": "2026-10-08T00:13:39.923814+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -391,7 +453,67 @@
           "published_at": "Mon, 11 May 2026 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:33.439549+00:00",
+          "discovered_at": "2026-10-08T00:13:40.316089+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Ethanol Fermentation vs. Lactic Acid Fermentation - What's ...",
+          "url": "https://thisvsthat.io/ethanol-fermentation-vs-lactic-acid-fermentation",
+          "snippet": "Ethanol fermentation and lactic acid fermentation are two different processes that occur in living organisms to produce energy in the absence of oxygen. Ethanol fermentation is commonly found in yeast and some bacteria, where glucose is converted into ethanol and carbon dioxide.",
+          "published_at": "Fri, 21 Aug 2026 07:52:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:40.638145+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Ethanol Fermentation vs Lactic Acid Fermentation",
+          "url": "https://difbetween.com/ethanol-fermentation-vs-lactic-acid-fermentation.p19606",
+          "snippet": "Two prominent examples of fermentation are ethanol fermentation, utilized in the production of alcoholic beverages and biofuels, and lactic acid fermentation, crucial in the creation of dairy products and involved in muscle function during intense exercise.",
+          "published_at": "Wed, 30 Sep 2026 16:16:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:40.638195+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Ethanol Fermentation vs Lactic Acid Fermentation [Key ...",
+          "url": "https://scimatics.blog/ethanol-vs-lactic-acid-fermentation-differences",
+          "snippet": "Discover the critical differences between ethanol and lactic acid fermentation. Learn how ATP, NAD+, and pyruvate pathways diverge in this expert guide.",
+          "published_at": "Sat, 26 Sep 2026 09:04:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:40.638228+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Lactic Acid Fermentation vs. Ethanol Fermentation | Bohrium",
+          "url": "https://scipedia.bohrium.com/en/sciencepedia/feynman/keyword/lactic_acid_fermentation_vs_ethanol_fermentation",
+          "snippet": "Lactic acid fermentation is a reversible, single-step process common in animal cells that preserves the carbon skeleton of pyruvate, while ethanol fermentation is an irreversible, two-step process in microbes that releases carbon dioxide.",
+          "published_at": "Wed, 30 Sep 2026 02:40:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:40.638263+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -403,11 +525,11 @@
         "kd": null,
         "cpc": null
       },
-      "total": 6
+      "total": 10
     },
     {
       "query": "problema herramienta online México",
-      "captured_at": "2026-10-08T00:12:33.645170+00:00",
+      "captured_at": "2026-10-08T00:13:41.150333+00:00",
       "sources": {
         "github_repos": {
           "status": "empty",
@@ -416,7 +538,7 @@
         },
         "github_issues": {
           "status": "ok",
-          "count": 4,
+          "count": 2,
           "warning": null
         },
         "google_news_rss": {
@@ -425,35 +547,18 @@
           "warning": null
         },
         "duckduckgo": {
-          "status": "error",
-          "count": 0,
-          "error": "ValueError: Unexpected HTTP status: 202"
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
         },
         "reddit": {
-          "status": "error",
+          "status": "degraded",
           "count": 0,
-          "error": "ValueError: Unexpected HTTP status: 202"
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
         }
       },
       "items": [
-        {
-          "platform": "github_issues",
-          "title": "Document the bucket live-follow (server-sent events) endpoint",
-          "url": "https://github.com/huggingface/hub-docs/pull/2786",
-          "snippet": "Buckets now expose `GET /api/buckets/{owner}/{bucket}/events`, a server-sent events stream of file changes so clients can stop polling the bucket listing. - storage-buckets: new \"Tracking Changes\" section covering the event types (`ready`, `changes`, `reset`, `reconnect`), change entry fields, resuming with `cursor`/`since`, and reconnect handling - webhooks: cross-reference from the Buckets payload section - storage-buckets-access: pointer for keeping a client in sync without polling <!-- CURSOR_SUMMARY --> --- > [!NOTE] > **Low Risk** > Documentation-only changes with no runtime or security-sensitive code modifications. > > **Overview** > Documents how clients can **track bucket file chang",
-          "published_at": "2026-09-16T09:52:29Z",
-          "engagement": {
-            "comments": 9
-          },
-          "metadata": {
-            "updated_at": "2026-09-30T08:04:54Z",
-            "state": "closed"
-          },
-          "discovered_at": "2026-10-08T00:12:34.437208+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
         {
           "platform": "github_issues",
           "title": "Conciliación Chase company 6: proceso actual, columnas PO/Analítica y deber ser",
@@ -467,7 +572,7 @@
             "updated_at": "2026-09-25T20:46:55Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:12:34.438174+00:00",
+          "discovered_at": "2026-10-08T00:13:42.241649+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -485,25 +590,67 @@
             "updated_at": "2026-09-19T20:38:31Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:12:34.440329+00:00",
+          "discovered_at": "2026-10-08T00:13:42.244034+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
-          "platform": "github_issues",
-          "title": "docs(lore): fuentes de Tolkien y puente hacia Espaciokoop/D&D",
-          "url": "https://github.com/EspacioKoop/espaciokooplagunak/pull/881",
-          "snippet": "Investigación y mapa de fuentes (Kalevala, Eddas, Volsung/Nibelungen, Heimskringla, Beowulf, Mabinogion, Morris/Dunsany/Eddison) hacia implementaciones concretas en módulos Foundry. Incluye acciones, criterios de aceptación y riesgos.",
-          "published_at": "2026-09-01T01:24:52Z",
-          "engagement": {
-            "comments": 6
-          },
+          "platform": "bing_rss",
+          "title": "apostrophe - Dickens' or Dickens's? - English Language & Usage Stack ...",
+          "url": "https://english.stackexchange.com/questions/405428/dickens-or-dickenss",
+          "snippet": "APA style, also American, dictates Dickens's. And CMOS, again American, prefers DIckens's but has no objection to Dickens'. Of related interest: When did it become correct to add an “s” to a singular possessive already ending in “‑s”? and Which singular names ending in “s” form possessives with only a bare apostrophe? among others.",
+          "published_at": "Wed, 07 Oct 2026 15:53:00 GMT",
+          "engagement": {},
           "metadata": {
-            "updated_at": "2026-09-07T23:14:46Z",
-            "state": "closed"
+            "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:12:34.440380+00:00",
+          "discovered_at": "2026-10-08T00:13:43.087516+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "punctuation - Apostrophe after first use of acronym - English Language ...",
+          "url": "https://english.stackexchange.com/questions/340127/apostrophe-after-first-use-of-acronym",
+          "snippet": "If I am writing a letter and I use an office title for the first time, I will include the acronym, but if the office title has a possessive, apostrophe s, will the acronym have the apostrophe s wit...",
+          "published_at": "Wed, 07 Oct 2026 04:12:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:43.087574+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "possessives - User’s Guide vs Users’ Guide - English Language & Usage ...",
+          "url": "https://english.stackexchange.com/questions/36657/user-s-guide-vs-users-guide",
+          "snippet": "I've also often seen it written with no apostrophe: \"Users Guide\". I think the reasoning is that the point isn't that the user owns the guide, but that the guide is for or about the user. Like, \"Setup Instructions\" -- you wouldn't write \"Setup's Instructions\". I don't claim that that's correct -- personally I'm very confused on this one myself.",
+          "published_at": "Wed, 07 Oct 2026 01:34:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:43.087670+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "grammatical number - Does a person have two “masters’ degrees” or two ...",
+          "url": "https://english.stackexchange.com/questions/105530/does-a-person-have-two-masters-degrees-or-two-master-s-degrees",
+          "snippet": "When someone has more than one master’s degree, should these be described as have several masters’ degrees or several master’s degrees? In other words, which of these two applies: (singular) a mas...",
+          "published_at": "Wed, 07 Oct 2026 03:43:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:43.087760+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -515,11 +662,11 @@
         "kd": null,
         "cpc": null
       },
-      "total": 4
+      "total": 6
     },
     {
       "query": "trump approval by state tracker",
-      "captured_at": "2026-10-08T00:12:35.007030+00:00",
+      "captured_at": "2026-10-08T00:13:43.550431+00:00",
       "sources": {
         "github_repos": {
           "status": "empty",
@@ -528,7 +675,7 @@
         },
         "github_issues": {
           "status": "ok",
-          "count": 4,
+          "count": 3,
           "warning": null
         },
         "google_news_rss": {
@@ -537,35 +684,18 @@
           "warning": null
         },
         "duckduckgo": {
-          "status": "error",
-          "count": 0,
-          "error": "ValueError: Unexpected HTTP status: 202"
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
         },
         "reddit": {
-          "status": "error",
+          "status": "degraded",
           "count": 0,
-          "error": "ValueError: Unexpected HTTP status: 202"
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
         }
       },
       "items": [
-        {
-          "platform": "github_issues",
-          "title": "fix(trackers): assess finalized language eligibility",
-          "url": "https://github.com/autobrr/upbrr/pull/662",
-          "snippet": "## Description References #606. Resolve audio and subtitle facts once, then use them consistently for tracker naming, eligibility and CLI/WebUI review. Source-history, retention, provenance, quality and hypothetical subtitle concerns are passive warnings. Genuine upload inputs, measured constraints and explicit tracker acknowledgements remain distinct. - Preserve corrected original/programme/subtitle languages, track roles, explicit default/forced flags, measured container order and unknown evidence. Full-disc uploads retain their existing behavior; remuxes remain in scope. - Apply evidence-backed language decisions and the approved DP naming matrix, including manual marker choices for uncov",
-          "published_at": "2026-10-06T16:27:32Z",
-          "engagement": {
-            "comments": 3
-          },
-          "metadata": {
-            "updated_at": "2026-10-08T00:04:07Z",
-            "state": "open"
-          },
-          "discovered_at": "2026-10-08T00:12:35.872626+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
         {
           "platform": "github_issues",
           "title": "[PM seat] triage (objectstack-wide) — 🟢 Routine · session_01AavokzJ5DndAwitDXvKy4U · trig_01NcnCtMS2tH46nUg1a5TaMJ (hourly) · state = body + the round records newer than it",
@@ -579,7 +709,7 @@
             "updated_at": "2026-10-07T23:55:44Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:12:35.877671+00:00",
+          "discovered_at": "2026-10-08T00:13:44.731334+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -597,7 +727,7 @@
             "updated_at": "2026-10-07T23:47:40Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:12:35.878144+00:00",
+          "discovered_at": "2026-10-08T00:13:44.731809+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -615,7 +745,7 @@
             "updated_at": "2026-10-07T23:33:09Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:12:35.878213+00:00",
+          "discovered_at": "2026-10-08T00:13:44.731871+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -628,7 +758,7 @@
           "published_at": "Wed, 07 Oct 2026 14:35:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:36.434136+00:00",
+          "discovered_at": "2026-10-08T00:13:45.314585+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -641,7 +771,7 @@
           "published_at": "Wed, 07 Oct 2026 12:40:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:36.434196+00:00",
+          "discovered_at": "2026-10-08T00:13:45.314641+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -654,7 +784,7 @@
           "published_at": "Wed, 07 Oct 2026 16:54:30 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:36.434294+00:00",
+          "discovered_at": "2026-10-08T00:13:45.314681+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -667,7 +797,67 @@
           "published_at": "Sat, 03 Oct 2026 08:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:12:36.434346+00:00",
+          "discovered_at": "2026-10-08T00:13:45.314761+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Donald Trump - Wikipedia",
+          "url": "https://en.m.wikipedia.org/wiki/Donald_Trump",
+          "snippet": "Donald Trump - Wikipedia",
+          "published_at": "Wed, 07 Oct 2026 02:24:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:45.632559+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Donald Trump | Breaking News & Latest Updates | AP News",
+          "url": "https://apnews.com/hub/donald-trump",
+          "snippet": "Stay informed and read the latest breaking news and updates on Donald Trump from AP News, the definitive source for independent journalism.",
+          "published_at": "Mon, 14 Sep 2026 08:49:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:45.632609+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Latest Donald Trump News | Top Headlines on Donald Trump | Reuters",
+          "url": "https://www.reuters.com/world/us/donald-trump",
+          "snippet": "Donald Trump is the undisputed frontrunner for the Republican presidential nomination in the 2024 election. He is also the defendant in four criminal cases. Bookmark this page to get the latest ...",
+          "published_at": "Fri, 02 Oct 2026 16:13:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:45.632646+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "President Donald J. Trump - The White House",
+          "url": "https://www.whitehouse.gov/administration/donald-j-trump",
+          "snippet": "After a landslide election victory in 2024, President Donald J. Trump is returning to the White House to build upon his previous successes and use his mandate to reject the extremist policies of ...",
+          "published_at": "Wed, 07 Oct 2026 10:38:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:13:45.632680+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -679,7 +869,7 @@
         "kd": null,
         "cpc": null
       },
-      "total": 8
+      "total": 11
     }
   ],
   "warnings": [
