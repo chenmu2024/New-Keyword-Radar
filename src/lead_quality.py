@@ -143,6 +143,12 @@ def score(item, query, reference=None):
         if not EXPLICIT_CUSTOMER_REPORT.search(text):
             eligible = False
             notes.append("engineering_task_without_explicit_user_report")
+    # GitHub Issues are often internal engineering work queues. A keyword
+    # appearing in a technical issue title is not an attributable customer pain
+    # report. The source must explicitly describe a user/customer problem.
+    if source == "github_issues" and not EXPLICIT_CUSTOMER_REPORT.search(text):
+        eligible = False
+        notes.append("github_issue_without_explicit_customer_voice")
     # A genuine user-reported pain signal is required in addition to industry terms.
     if not pain:
         eligible = False
