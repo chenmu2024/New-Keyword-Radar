@@ -39,16 +39,16 @@ NOISE = re.compile(
     r"football|lottery|earthquake)\b)", re.I
 )
 INTERNAL_TASK_TITLE = re.compile(
-    r"^\\s*(build|implement|refactor|revisar|fortalecer|create|add|update|fix|"
+    r"^\s*(build|implement|refactor|revisar|fortalecer|create|add|update|fix|"
     r"document|write|setup|audit|migrate|test|expand|configure|integrate|"
-    r"complete|develop|design|establish)\\b", re.I
+    r"complete|develop|design|establish)\b", re.I
 )
 EXPLICIT_CUSTOMER_REPORT = re.compile(
-    r"\\b(our customers?|customers? report|users? report|users? complain|"
+    r"\b(our customers?|customers? report|users? report|users? complain|"
     r"as a user|user feedback|buyer requests?|customer requests?|"
     r"we need|i need|i cannot|we cannot|we can't|i can't|"
-    r"preciso|necessit\\w*|clientes? reclam\\w*|usuários? relat\\w*|"
-    r"necesito|clientes? reportan|usuarios? reportan)\\b", re.I
+    r"preciso|necessit\w*|clientes? reclam\w*|usuários? relat\w*|"
+    r"necesito|clientes? reportan|usuarios? reportan)\b", re.I
 )
 
 SOURCE_WEIGHT = {
