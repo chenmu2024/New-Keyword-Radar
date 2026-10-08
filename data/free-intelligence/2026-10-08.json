@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-08T09:03:51.527707+08:00",
+  "generated_at": "2026-10-08T09:10:56.704768+08:00",
   "mode": "read_only_buyer_pain_research",
   "keyword_metrics": {
     "volume": null,
@@ -12,7 +12,7 @@
   "queries": [
     {
       "query": "payroll integration error",
-      "captured_at": "2026-10-08T01:03:36.853935+00:00",
+      "captured_at": "2026-10-08T01:10:39.981116+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -21,7 +21,7 @@
         },
         "github_issues": {
           "status": "ok",
-          "count": 3,
+          "count": 4,
           "warning": null
         },
         "google_news_rss": {
@@ -61,7 +61,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:37.249373+00:00",
+          "discovered_at": "2026-10-08T01:10:40.459179+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -80,7 +80,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:37.249431+00:00",
+          "discovered_at": "2026-10-08T01:10:40.459218+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -99,7 +99,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:37.249478+00:00",
+          "discovered_at": "2026-10-08T01:10:40.459244+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -118,7 +118,26 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:37.249520+00:00",
+          "discovered_at": "2026-10-08T01:10:40.459267+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "SKO やることリスト【再開時はまずここを見る】",
+          "url": "https://github.com/robin4250/sk-works/issues/273",
+          "snippet": "## 🔁 新しい指示を受けた時の更新ルール - ユーザーから新しい指示を受けたら、内容を整理した時点で**実装より先に Issue #273 を更新**する。 - その指示を「現在進行中」または「次にやる」に明記してから実装開始する。 - 作業完了後は、**同じ Issue #273 を再更新**して対象項目を「完了済み」に切り替える。 - チャット切断・スレッド移動・端末変更が起きても、Issue #273だけ見れば現在地点が復元できる状態を維持する。 - 完了済み作業は再実装しない。進行中PR・ブランチ・本番migration・CI状態も必要に応じて併記する。 ## 🟣 2026-10-04 新規指示：全ページUX・表示・リンク総点検 ### 先にやること ### 全ページ監査 一次結果 - [x] PR #609 全ページUX/リンク監査契約テスト（3CI成功・main反映済み） ### 全ページ監査 第2グループ - [ ] 設定 `settings_page.dart`：一部翻訳済みだが固定日本語多数 - [ ] 利用機能設定 `company_module_settings_page.dart`：翻訳未接続 - [ ] 会社単価・手当設定 `company_rate_settings_page.dart`：翻訳未接続 - [ ] 承認待ち `approvals_hub_page.dart`：翻訳未接続 - [ ] 通知 `notifications_page.dart`：翻訳未接続 - [ ] 友達 `chat_friends_page.dart`：翻訳未接続 - ",
+          "published_at": "2026-09-28T16:49:29Z",
+          "engagement": {
+            "comments": 113
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T01:03:39Z",
+            "state": "open",
+            "author": "robin4250"
+          },
+          "discovered_at": "2026-10-08T01:10:41.276067+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -137,7 +156,7 @@
             "state": "open",
             "author": "ql-owo-lp"
           },
-          "discovered_at": "2026-10-08T01:03:38.292516+00:00",
+          "discovered_at": "2026-10-08T01:10:41.276208+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -156,7 +175,7 @@
             "state": "open",
             "author": "delightfactory"
           },
-          "discovered_at": "2026-10-08T01:03:38.294631+00:00",
+          "discovered_at": "2026-10-08T01:10:41.277222+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -175,7 +194,7 @@
             "state": "open",
             "author": "bensmullen"
           },
-          "discovered_at": "2026-10-08T01:03:38.297319+00:00",
+          "discovered_at": "2026-10-08T01:10:41.278610+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -188,7 +207,7 @@
           "published_at": "Wed, 07 Oct 2026 22:00:10 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:38.740709+00:00",
+          "discovered_at": "2026-10-08T01:10:41.804248+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -201,7 +220,7 @@
           "published_at": "Wed, 07 Oct 2026 21:56:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:38.740769+00:00",
+          "discovered_at": "2026-10-08T01:10:41.804287+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -214,7 +233,7 @@
           "published_at": "Thu, 17 Sep 2026 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:38.740819+00:00",
+          "discovered_at": "2026-10-08T01:10:41.804311+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -227,7 +246,7 @@
           "published_at": "Thu, 09 Apr 2026 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:38.740863+00:00",
+          "discovered_at": "2026-10-08T01:10:41.804334+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -237,12 +256,12 @@
           "title": "Payroll, HR and Tax Services | ADP Official Site",
           "url": "https://www.adp.com/",
           "snippet": "ADP offers industry-leading online payroll and HR solutions, plus tax, compliance, benefit administration and more.",
-          "published_at": "Wed, 07 Oct 2026 14:13:00 GMT",
+          "published_at": "Tue, 06 Oct 2026 16:44:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:39.087725+00:00",
+          "discovered_at": "2026-10-08T01:10:42.182381+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -257,7 +276,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:39.087776+00:00",
+          "discovered_at": "2026-10-08T01:10:42.182412+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -272,22 +291,22 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:39.087816+00:00",
+          "discovered_at": "2026-10-08T01:10:42.182431+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Logins | ADP",
-          "url": "https://www.adp.com/logins.aspx",
-          "snippet": "ADP Workforce Now empowers clients to effectively address business challenges with a flexible, secure and integrated HCM solution that supports the full spectrum of HR needs – from recruitment to retirement and everything in between. The ideal payroll and tax solution for any small business.",
-          "published_at": "Wed, 07 Oct 2026 07:32:00 GMT",
+          "title": "Payroll | Online Payroll for Small Business | Try It Free Today!",
+          "url": "https://www.patriotsoftware.com/payroll",
+          "snippet": "Try our online payroll, ranked best for ease of use, functionality, value for money, and customer support. Sign up for our 30-day free trial today!",
+          "published_at": "Wed, 07 Oct 2026 17:12:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:39.087860+00:00",
+          "discovered_at": "2026-10-08T01:10:42.182448+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -300,7 +319,7 @@
           "published_at": "2018-03-31T13:14:43+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:39.334976+00:00",
+          "discovered_at": "2026-10-08T01:10:42.446077+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -313,7 +332,7 @@
           "published_at": "2026-10-08T00:36:40+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:39.335043+00:00",
+          "discovered_at": "2026-10-08T01:10:42.446106+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -326,7 +345,7 @@
           "published_at": "2026-10-08T00:29:44+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:39.335074+00:00",
+          "discovered_at": "2026-10-08T01:10:42.446122+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -339,27 +358,7 @@
           "published_at": "2026-10-08T00:25:43+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:39.335098+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "hackernews_ask",
-          "title": "Ask HN: Are we putting pricing on things too quickly?",
-          "url": "https://news.ycombinator.com/item?id=47220001",
-          "snippet": "I'm an early adopter. I genuinely enjoy exploring new ideas and trying early-stage products. But lately, when I browse launch platforms, even SideProject subreddit, it feels like almost everything is behind a paywall. Some offer a free trial, but I more often see posts saying something was vibe-coded in a few hours, and yet it costs over $50 to use. What feel odd to me is this: They are asking people for feedback. But if People can't actually use the product without paying, how people supposed to give you meaningful feedback? Is this just promoting subscriptions or asking feedback? I've seen builders ask for feedback while the core funtionality is locked unless you subscribe. That feels COUN",
-          "published_at": "2026-03-02T16:19:24Z",
-          "engagement": {
-            "points": 3,
-            "comments": 4
-          },
-          "metadata": {
-            "author": "LeanVibe",
-            "source": "Ask HN user-authored question",
-            "buyer_intent_verified": false
-          },
-          "discovered_at": "2026-10-08T01:03:39.624733+00:00",
+          "discovered_at": "2026-10-08T01:10:42.446134+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -379,47 +378,67 @@
             "source": "Ask HN user-authored question",
             "buyer_intent_verified": false
           },
-          "discovered_at": "2026-10-08T01:03:39.624941+00:00",
+          "discovered_at": "2026-10-08T01:10:43.495082+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "hackernews_ask",
-          "title": "I built an AI health scanner for dogs would love your feedback",
-          "url": "https://news.ycombinator.com/item?id=44838374",
-          "snippet": "Hey HN, After months of solo building, trial and error, and countless chats with dog parents & vets, I just launched the 1st MVP of PawBud Scan - an AI-powered health scan tool for dogs. [https://scan.getpawbud.com](https://scan.getpawbud.com) It’s simple: • Fill out a quick health profile about your dog • Get an instant AI-generated health risk score + care tips • Optionally, unlock a vet style report for $10 The idea was born when my own 8 year old Labrador Retriever was diagnosed too late with a preventable joint condition. It hit me how little proactive care exists for pets, especially for early stage common symptoms. So I built this MVP with: • GPT-4o for AI triage • Stripe for instant ",
-          "published_at": "2025-08-08T15:45:08Z",
+          "title": "Ask HN: ERP system suggestions",
+          "url": "https://news.ycombinator.com/item?id=17709117",
+          "snippet": "We are looking to transition to a new ERP system. We've been running the same software since the 70's, and it has been highly customized over time. We'd like to invest in a platform that allows us to modify all aspects of the system, while also starting out with a base that doesn't necessitate starting from scratch (i.e. prebuilt accounting, payroll, etc functions). Preferably the system has an open API for extending the system as necessary, and integrating with third party software. Any suggestions? We are in the metal wholesaling business.",
+          "published_at": "2018-08-07T18:18:50Z",
           "engagement": {
-            "points": 1,
-            "comments": 0
+            "points": 9,
+            "comments": 4
           },
           "metadata": {
-            "author": "anuragsrathor",
+            "author": "rosenjon",
             "source": "Ask HN user-authored question",
             "buyer_intent_verified": false
           },
-          "discovered_at": "2026-10-08T01:03:39.625094+00:00",
+          "discovered_at": "2026-10-08T01:10:43.495123+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "hackernews_ask",
-          "title": "Idea – machine learning algorithm that browses the web?",
-          "url": "https://news.ycombinator.com/item?id=38569843",
-          "snippet": "Are there companies working on a machine learning algorithm that browses the web? I was recently summarizing a lot of resources on a website that are not presented in a structured way - some videos, some audio, some PDF, some summaries, no clear schema, no RSS, definitely no \"download all\" button - that were only accessible behind a paywall and login. It occurred to me that a browser extension could be used to navigate this information and run it wholesale through a local GPT-type model. This browser extension could use behavioral data to \"learn to browse\" and detect user interaction (such as video elements watched, rewinds, semantic value of content presented). Surely some company is workin",
-          "published_at": "2023-12-08T15:03:01Z",
+          "title": "Apply HN: HR Partner – human resource management for small businesses",
+          "url": "https://news.ycombinator.com/item?id=11445068",
+          "snippet": "Problem - A lot of smaller companies don't have a dedicated HR manager or team, and don't invest in the time or technology to record important employee information, nor keep track of important recurring events such as performance reviews and employee leave quotas. Solution - HR Partner has been designed for smaller businesses, to get them on the right track with proper human resource practices. We offer a free tier for very small companies to get started. We also have an employee portal and leave tracking/application out of the box, and are busy integrating our system with various popular payroll systems. Differentiators from our competition - (a) we are region agnostic, and we don't supply ",
+          "published_at": "2016-04-07T06:03:52Z",
           "engagement": {
-            "points": 1,
-            "comments": 0
+            "points": 6,
+            "comments": 6
           },
           "metadata": {
-            "author": "alhirzel",
+            "author": "cyberferret",
             "source": "Ask HN user-authored question",
             "buyer_intent_verified": false
           },
-          "discovered_at": "2026-10-08T01:03:39.625173+00:00",
+          "discovered_at": "2026-10-08T01:10:43.495176+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Ask HN: Small business bank account – who do you use?",
+          "url": "https://news.ycombinator.com/item?id=11438973",
+          "snippet": "We currently use PNC but their online interface is atrocious/broken and we have frequent problems transferring money. Furthermore, our experiences at their local branch have been disappointing. Our needs are basic: - Single checking account with debit card for each co-founder - Send invoices online - Make (sometimes international) payments - Quickbooks integration - Local branch in Denver, CO (not strictly necessary) We're considering Wells Fargo. Does anyone have experience with them? We also use Gusto for payroll but are worried they won't be around in a few years. What has your experience with Intuit been like?",
+          "published_at": "2016-04-06T14:31:06Z",
+          "engagement": {
+            "points": 4,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "jklontz",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T01:10:43.495203+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -439,11 +458,11 @@
         "kd": null,
         "cpc": null
       },
-      "total": 23,
+      "total": 24,
       "quality_screen": {
         "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
         "review_count": 0,
-        "reference_count": 9,
+        "reference_count": 10,
         "discarded_count": 14,
         "review_leads": [],
         "competitor_references": [
@@ -461,7 +480,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:37.249373+00:00",
+            "discovered_at": "2026-10-08T01:10:40.459179+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -500,7 +519,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:37.249478+00:00",
+            "discovered_at": "2026-10-08T01:10:40.459244+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -532,7 +551,7 @@
             "published_at": "Wed, 07 Oct 2026 22:00:10 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T01:03:38.740709+00:00",
+            "discovered_at": "2026-10-08T01:10:41.804248+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -565,7 +584,7 @@
             "published_at": "Wed, 07 Oct 2026 21:56:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T01:03:38.740769+00:00",
+            "discovered_at": "2026-10-08T01:10:41.804287+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -597,7 +616,7 @@
             "published_at": "Thu, 17 Sep 2026 07:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T01:03:38.740819+00:00",
+            "discovered_at": "2026-10-08T01:10:41.804311+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -629,7 +648,7 @@
             "published_at": "Thu, 09 Apr 2026 07:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T01:03:38.740863+00:00",
+            "discovered_at": "2026-10-08T01:10:41.804334+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -658,12 +677,12 @@
             "title": "Payroll, HR and Tax Services | ADP Official Site",
             "url": "https://www.adp.com/",
             "snippet": "ADP offers industry-leading online payroll and HR solutions, plus tax, compliance, benefit administration and more.",
-            "published_at": "Wed, 07 Oct 2026 14:13:00 GMT",
+            "published_at": "Tue, 06 Oct 2026 16:44:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T01:03:39.087725+00:00",
+            "discovered_at": "2026-10-08T01:10:42.182381+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -697,7 +716,7 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T01:03:39.087776+00:00",
+            "discovered_at": "2026-10-08T01:10:42.182412+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -731,7 +750,41 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T01:03:39.087816+00:00",
+            "discovered_at": "2026-10-08T01:10:42.182431+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:payroll",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "payroll"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Payroll | Online Payroll for Small Business | Try It Free Today!",
+            "url": "https://www.patriotsoftware.com/payroll",
+            "snippet": "Try our online payroll, ranked best for ease of use, functionality, value for money, and customer support. Sign up for our 30-day free trial today!",
+            "published_at": "Wed, 07 Oct 2026 17:12:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-10-08T01:10:42.182448+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -782,6 +835,18 @@
             ]
           },
           {
+            "url": "https://github.com/robin4250/sk-works/issues/273",
+            "title": "SKO やることリスト【再開時はまずここを見る】",
+            "score": 32,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_30_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
             "url": "https://github.com/omnisolo-llc/onehumancorp/issues/24644",
             "title": "[architecture] Universal Autonomous Staff Management Mesh",
             "score": 23,
@@ -815,19 +880,6 @@
               "query_terms_not_found",
               "github_issue_without_explicit_customer_voice",
               "no_topical_title_or_customer_attribution"
-            ]
-          },
-          {
-            "url": "https://www.adp.com/logins.aspx",
-            "title": "Logins | ADP",
-            "score": 46,
-            "reasons": [
-              "query_terms:payroll",
-              "problem_or_request_language",
-              "commercial_or_tool_context",
-              "publication_date_unverified",
-              "context_only_not_first_person_demand",
-              "off_topic_contextual_reference"
             ]
           },
           {
@@ -877,18 +929,6 @@
             ]
           },
           {
-            "url": "https://news.ycombinator.com/item?id=47220001",
-            "title": "Ask HN: Are we putting pricing on things too quickly?",
-            "score": 33,
-            "reasons": [
-              "problem_or_request_language",
-              "commercial_or_tool_context",
-              "query_terms_not_found",
-              "firsthand_date_missing_or_older_than_180_days",
-              "no_topical_title_or_customer_attribution"
-            ]
-          },
-          {
             "url": "https://news.ycombinator.com/item?id=46854817",
             "title": "Zero-Knowledge Privacy Infrastructure for Solana",
             "score": 21,
@@ -900,11 +940,23 @@
             ]
           },
           {
-            "url": "https://news.ycombinator.com/item?id=44838374",
-            "title": "I built an AI health scanner for dogs would love your feedback",
+            "url": "https://news.ycombinator.com/item?id=17709117",
+            "title": "Ask HN: ERP system suggestions",
             "score": 42,
             "reasons": [
-              "query_terms:error",
+              "query_terms:payroll",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "stale_over_one_year",
+              "firsthand_date_missing_or_older_than_180_days"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=11445068",
+            "title": "Apply HN: HR Partner – human resource management for small businesses",
+            "score": 42,
+            "reasons": [
+              "query_terms:payroll",
               "problem_or_request_language",
               "commercial_or_tool_context",
               "stale_over_one_year",
@@ -913,14 +965,14 @@
             ]
           },
           {
-            "url": "https://news.ycombinator.com/item?id=38569843",
-            "title": "Idea – machine learning algorithm that browses the web?",
-            "score": 1,
+            "url": "https://news.ycombinator.com/item?id=11438973",
+            "title": "Ask HN: Small business bank account – who do you use?",
+            "score": 52,
             "reasons": [
+              "query_terms:integration,payroll",
+              "problem_or_request_language",
               "commercial_or_tool_context",
               "stale_over_one_year",
-              "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet",
               "firsthand_date_missing_or_older_than_180_days",
               "no_topical_title_or_customer_attribution"
             ]
@@ -945,7 +997,7 @@
     },
     {
       "query": "inventory sync spreadsheet",
-      "captured_at": "2026-10-08T01:03:39.629423+00:00",
+      "captured_at": "2026-10-08T01:10:43.497744+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -954,7 +1006,7 @@
         },
         "github_issues": {
           "status": "ok",
-          "count": 3,
+          "count": 4,
           "warning": null
         },
         "google_news_rss": {
@@ -994,7 +1046,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:39.947962+00:00",
+          "discovered_at": "2026-10-08T01:10:43.962755+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1013,7 +1065,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:39.948026+00:00",
+          "discovered_at": "2026-10-08T01:10:43.962782+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1032,7 +1084,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:39.948052+00:00",
+          "discovered_at": "2026-10-08T01:10:43.962795+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1051,64 +1103,83 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:39.948077+00:00",
+          "discovered_at": "2026-10-08T01:10:43.962807+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "github_issues",
-          "title": "Agent-sandbox product surface: close every gap (tracking)",
-          "url": "https://github.com/tinylabscom/mvm/issues/3731",
-          "snippet": "Tracking issue for closing every product-surface gap found in the agent-sandbox comparison of 2026-09-25. **North star:** keep the security core (microVM, no guest NIC, vsock as the only channel, signed and audited `ExecutionPlan`) and rebuild the product surface on top of it: profiles, signed packs, credential UX, undo/redo/replay, denial feedback, runtime approvals, sessions, provenance, docs and packaging. Security wins every tie. Security invariants (binding): the microVM stays the isolation boundary; the guest has no NIC; no TAP/TUN devices are created anywhere; authenticated vsock is the only host<->guest channel; the host network endpoint remains the single egress decision point (`che",
-          "published_at": "2026-09-25T22:13:18Z",
+          "title": "nightly-red: vacuity",
+          "url": "https://github.com/louisianahelpr/louisianahelpr/issues/2501",
+          "snippet": "vacuity failed. Run: https://github.com/louisianahelpr/louisianahelpr/actions/runs/37544869382 This issue stays open until vacuity goes green again — it is closed automatically by the same sync step, not by hand. See CLAUDE.md: sessions must check `gh issue list -l nightly-red` at start. Commit c9408480bb0570d1f2050bab9a33b2648a03551f — `chore(open): file Q1463 (pre-restore sync checks, low, post-launch)`. Read the red run itself: gh run view 37544869382 --log-failed",
+          "published_at": "2026-10-06T23:14:23Z",
           "engagement": {
-            "comments": 37
+            "comments": 33
           },
           "metadata": {
-            "updated_at": "2026-10-08T01:03:23Z",
+            "updated_at": "2026-10-08T01:10:36Z",
             "state": "open",
-            "author": "auser"
+            "author": "github-actions[bot]"
           },
-          "discovered_at": "2026-10-08T01:03:40.662919+00:00",
+          "discovered_at": "2026-10-08T01:10:44.910773+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "github_issues",
-          "title": "Architecture program: terminal-agnostic compute, BIST, self-repair, reproducibility, and controlled generalization",
-          "url": "https://github.com/onnxscibroccoli/Grasshopper/issues/65",
-          "snippet": "This issue tracks the next architecture layer described in `docs/TRANSCENDENTAL_ARCHITECTURE_WORKSTREAM_2026-09-29.md`. The strategic ideas are now separated into proven baseline, target capability, and research direction. ## Immediate implementation sequence 1. Reproducible clean-host reconstruction 2. Machine-readable BIST across gateway/database/worker/executor/guest/desktop boundaries 3. Executor-side idempotency and cancellation semantics 4. Autonomous diagnosis and bounded self-repair with restore points 5. Terminal-independent client contract 6. Second execution substrate without changing the task lifecycle 7. Controlled portability 8. Bounded multi-agent orchestration with durable ev",
-          "published_at": "2026-09-29T05:58:10Z",
+          "title": "QA bot 2 queue: qa2.coil.legal",
+          "url": "https://github.com/Coil-Legal/coil/issues/89",
+          "snippet": "Queue for **QA Bot 2**. Handoffs and results for the second bot go here and only here. QA Bot 1 (`grokshaz`) stays on issue #12 and testfirm. Neither bot acts on the other's thread. **Instance:** https://qa2.coil.legal, firm \"Coil QA Bot 2 Firm\", seeded 2026-10-02 from the demo seed (`seed.py`): 2 matters, 3 contacts. Owner login is held by Ian and given to the bot directly. It is never posted here. **Rules, same as #12 unless stated:** - Pin every handoff to `https://qa2.coil.legal/health` and stop if the commit moves. - Case numbers start at **5001**, so they never collide with #12. - Every record this bot creates is named with the prefix **`QA2`** plus the date, for example `QA2 Matter 20",
+          "published_at": "2026-10-02T21:34:30Z",
           "engagement": {
-            "comments": 141
+            "comments": 419
           },
           "metadata": {
-            "updated_at": "2026-10-08T01:03:22Z",
+            "updated_at": "2026-10-08T01:10:24Z",
             "state": "open",
-            "author": "onnxscibroccoli"
+            "author": "iandolan"
           },
-          "discovered_at": "2026-10-08T01:03:40.663036+00:00",
+          "discovered_at": "2026-10-08T01:10:44.910830+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "github_issues",
-          "title": "After the current allocation, prioritize unresolved real-time control research over packaging work",
-          "url": "https://github.com/Unjuno/agent-interface/issues/59",
-          "snippet": "## Objective After the currently running/frozen bounded model allocation reaches its existing stop condition, **do not switch the main effort to repository cleanup, packaging polish, LP work, containerization, release engineering, refactors for presentation, or other launch-oriented optimization merely because Issue #58 is open**. The current research state is not a finished runtime that only needs packaging. The retained Astra MAP01 attempt died without an exit, and the corrected renewable-cover / schema-v3 path still lacks the decisive threat-exposure evidence needed to show that the current system can sustain useful control when the environment changes during frontier-model latency. This ",
-          "published_at": "2026-09-14T18:30:32Z",
+          "title": "Dependency Dashboard",
+          "url": "https://github.com/bright-room/br-cluster/issues/65",
+          "snippet": "This issue lists Renovate updates and detected dependencies. Read the [Dependency Dashboard](https://docs.renovatebot.com/key-concepts/dashboard/) docs to learn more.<br>[View this repository on the Mend.io Web Portal](https://developer.mend.io/github/bright-room/br-cluster). ## Repository Problems These problems occurred while renovating this repository. [View logs](https://developer.mend.io//github/bright-room/br-cluster). - ⚠️ WARN: Excess registryUrls found for datasource lookup - using first configured only ## Abandoned Dependencies The following dependencies have not received updates for an extended period and may be unmaintained. > [!NOTE] Packages are marked as abandoned when they ex",
+          "published_at": "2026-04-15T17:58:16Z",
           "engagement": {
-            "comments": 1672
+            "comments": 0
           },
           "metadata": {
-            "updated_at": "2026-10-08T01:03:14Z",
+            "updated_at": "2026-10-08T01:10:21Z",
             "state": "open",
-            "author": "Unjuno"
+            "author": "renovate[bot]"
           },
-          "discovered_at": "2026-10-08T01:03:40.663444+00:00",
+          "discovered_at": "2026-10-08T01:10:44.911190+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Codex lanes A–E: close the remaining criteria (from 10-07 consolidated main)",
+          "url": "https://github.com/MJohnsonWellabe/Tetherbound/issues/572",
+          "snippet": "Lane channel for the five Codex lanes (A–E) working from the 10-07 consolidated main. Post only these line types, each 5 lines or fewer: - `READY <lane> <criterion-ids> <commit-sha>` - `BLOCKED <lane> <criterion-id>` - `QUESTION <lane>` - `PACE` (Codex coordinator, hourly) - `CONSOLIDATED` (Claude, every 2 hours) The full working rules are in the Codex coordinator prompt. #525 is retired. --- _Generated by [Claude Code](https://claude.ai/code)_",
+          "published_at": "2026-10-07T11:54:36Z",
+          "engagement": {
+            "comments": 726
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T01:10:21Z",
+            "state": "open",
+            "author": "MJohnsonWellabe"
+          },
+          "discovered_at": "2026-10-08T01:10:44.911214+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1121,7 +1192,7 @@
           "published_at": "Wed, 19 Aug 2026 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:40.957787+00:00",
+          "discovered_at": "2026-10-08T01:10:45.320168+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1134,7 +1205,7 @@
           "published_at": "Fri, 20 Feb 2026 08:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:40.957847+00:00",
+          "discovered_at": "2026-10-08T01:10:45.320209+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1147,7 +1218,7 @@
           "published_at": "Fri, 07 Aug 2026 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:40.957887+00:00",
+          "discovered_at": "2026-10-08T01:10:45.320232+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1160,52 +1231,7 @@
           "published_at": "Tue, 19 May 2026 08:35:08 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:40.957930+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "bing_rss",
-          "title": "Understanding Inventory: Key Types, Examples, and ... - Investopedia",
-          "url": "https://www.investopedia.com/terms/i/inventory.asp",
-          "snippet": "Inventory is the vital assets a company has in production and in goods produced that are available for sale. Inventory encompasses raw materials, work-in-progress (WIP), and finished goods.",
-          "published_at": "Sat, 25 Oct 2025 18:05:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T01:03:41.185005+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "bing_rss",
-          "title": "Inventory - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Inventory",
-          "snippet": "Inventory or stock is a quantity of the goods and materials that a business holds for the ultimate goal of resale, production or utilisation. Inventory management is a discipline primarily about specifying the shape and placement of stocked goods.",
-          "published_at": "Tue, 06 Oct 2026 09:13:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T01:03:41.185067+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "bing_rss",
-          "title": "What Is Inventory? Types, Definition, & Examples - NetSuite",
-          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory.shtml",
-          "snippet": "As an accounting term, inventory is a current asset and represents the value of goods a company holds for sale or use. While having enough on hand is essential, excess inventory can become a liability.",
-          "published_at": "Wed, 07 Oct 2026 17:26:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T01:03:41.185119+00:00",
+          "discovered_at": "2026-10-08T01:10:45.320254+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1220,7 +1246,52 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:41.185145+00:00",
+          "discovered_at": "2026-10-08T01:10:45.559245+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Understanding Inventory: Key Types, Examples, and ... - Investopedia",
+          "url": "https://www.investopedia.com/terms/i/inventory.asp",
+          "snippet": "Discover what inventory means, its essential types like raw materials and finished goods, and strategies for effective inventory management to enhance your business’s efficiency.",
+          "published_at": "Sat, 25 Oct 2025 18:05:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T01:10:45.559285+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "INVENTORY Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/inventory",
+          "snippet": "Noun We made an inventory of the library's collection. The dealer keeps a large inventory of used cars and trucks. Inventories at both stores were low. How can a small business afford to keep so much inventory? We'll be doing inventory on the collection soon.",
+          "published_at": "Wed, 07 Oct 2026 06:28:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T01:10:45.559309+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "What Is Inventory? Types, Definition, & Examples - NetSuite",
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory.shtml",
+          "snippet": "As an accounting term, inventory is a current asset and represents the value of goods a company holds for sale or use. While having enough on hand is essential, excess inventory can become a liability.",
+          "published_at": "Wed, 07 Oct 2026 17:26:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T01:10:45.559328+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1240,67 +1311,67 @@
             "source": "Ask HN user-authored question",
             "buyer_intent_verified": false
           },
-          "discovered_at": "2026-10-08T01:03:42.570445+00:00",
+          "discovered_at": "2026-10-08T01:10:46.462787+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "hackernews_ask",
-          "title": "A 30 Year OG Application Developer Available",
-          "url": "https://news.ycombinator.com/item?id=48668766",
-          "snippet": "https://www.youtube.com/watch?v=DACtpW9Q-hc That link is the #1 Architectural Interior Design software used by the top firms in the world. What you are looking at is the result of pure architectural discipline. To handle massive global budgets, complex subcontractor workflows, and real-time synchronization with massive enterprise CAD suites, I engineered a closed-loop, self-aware data object model. The data objects carry their own application logic and database schemas. It is a zero-exception, self-contained architecture that eliminates the need for lazy, nested error handling. It runs perfectly because it mathematically cannot run corruptly. It has a bidirectional interface to Revit, the sa",
-          "published_at": "2026-06-25T04:09:52Z",
+          "title": "Ask HN: Would a startup for young creatives who reject AI be feasible?",
+          "url": "https://news.ycombinator.com/item?id=49689696",
+          "snippet": "I am a member of my university's game development club, which puts me around lots of talented programmers as well as artists of all kinds, and I've observed that just about everyone disapproves of AI. The sentiment is especially strong among younger people coming into the club. By \"disapproves\", I mean they refuse to allow AI-generated content in games and see AI use in general as something like a moral failure. At the same time, I scroll down the YC startup directory, sorting by launch date, and observe that every non-hardware company (and most of the hardware ones) are entirely based on AI. The demographic I described above, young creatives like the ones in this club, has zero chance of vo",
+          "published_at": "2026-09-13T23:09:37Z",
           "engagement": {
-            "points": 2,
+            "points": 11,
+            "comments": 26
+          },
+          "metadata": {
+            "author": "mondobe",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T01:10:46.462859+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk",
+          "url": "https://news.ycombinator.com/item?id=49304986",
+          "snippet": "\"Musk has publicly stated estimated timelines and intended capabilities of the system since at least 2013. FSD and Autopilot are classified as SAE Level 2 ADAS, as of January 2024. A lawsuit filed in February 2023 by Tesla investors alleging that Musk committed securities fraud by making misleading statements about the development timeline of autonomous Tesla vehicles was dismissed without prejudice in September 2024; the judge ruled that Tesla's legal team successfully argued that Elon Musk's statements were \"corporate puffery\", i.e., vague corporate optimism.\" 2 Correct 4 Partial credit 28 Wrong 3 TBD",
+          "published_at": "2026-08-14T21:48:38Z",
+          "engagement": {
+            "points": 6,
             "comments": 0
           },
           "metadata": {
-            "author": "MichaelHonohan",
+            "author": "glaslong",
             "source": "Ask HN user-authored question",
             "buyer_intent_verified": false
           },
-          "discovered_at": "2026-10-08T01:03:42.570633+00:00",
+          "discovered_at": "2026-10-08T01:10:46.462895+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "hackernews_ask",
-          "title": "Ask HN: Will we ever do something about patent trolls?",
-          "url": "https://news.ycombinator.com/item?id=47718079",
-          "snippet": "Some of you may have seen a project like Mycroft AI (nothing to do with LLMs!) from back in around 2017 or so, it was an open source Alexa alternative, even had skills and everything. I kept wondering why it quietly disappeared, and the repo was archived. Turns out a patent troll hit them hard, drained them of all their funds in court, till they shut down. https://patentprogress.org/2024/05/another-startup-bites-the-dust-courtesy-of-patent-trolls/ https://www.theregister.com/2023/02/13/linux_ai_assistant_killed_off/ Then there's many others, and I'm sure I'm missing some, but here's a list of companies / projects hit by patent trolls with various outcomes: That time some company shut down a ",
-          "published_at": "2026-04-10T13:45:00Z",
-          "engagement": {
-            "points": 2,
-            "comments": 8
-          },
-          "metadata": {
-            "author": "giancarlostoro",
-            "source": "Ask HN user-authored question",
-            "buyer_intent_verified": false
-          },
-          "discovered_at": "2026-10-08T01:03:42.570896+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "hackernews_ask",
-          "title": "Wine Registry Seeks Co-Founder",
-          "url": "https://news.ycombinator.com/item?id=47461759",
-          "snippet": "Seeking technical co-founder | Curated wine registry marketplace | Napa, CA (remote-friendly) | Equity The problem: Wedding registries are a $19B market. Wine is almost entirely absent from it. Nobody has built a purpose-built wine registry that connects couples directly with winery partners. What I'm building: Everwine: a registry and marketplace where couples build a personalized wine registry (guided by a taste/occasion survey), guests purchase through a single unified checkout, and winery partners fulfill directly. The registry occasion solves the wine gifting UX problem: guests aren't browsing a wine shop, they're buying a wedding gift from a pre-curated list. Price sensitivity goes dow",
-          "published_at": "2026-03-20T22:45:14Z",
+          "title": "Do You Think OpenAI Is Apple Circa the 1980s?",
+          "url": "https://news.ycombinator.com/item?id=49178393",
+          "snippet": "OpenAI is a deeply mismanaged company. Most recently, a blog post that feels like it has got to have dozens of PR violations, responding to the Apple lawsuit. More broadly, OpenAI’s main problem is that it does not have a real competitive advantage. No real models do; the real differentiation is price; they will become commodities. The need to move upwards in the market in enterprise software is difficult since the current stack should remain the same, since sticking with Salesforce plus its new AI features is much simpler than the cost of switching to an AI-first startup version, which won’t be around 3 to 5 years from now. So consumer hardware and trying to become the next Apple could work",
+          "published_at": "2026-08-05T03:50:17Z",
           "engagement": {
             "points": 2,
             "comments": 1
           },
           "metadata": {
-            "author": "Chelper",
+            "author": "Taikhoom2010",
             "source": "Ask HN user-authored question",
             "buyer_intent_verified": false
           },
-          "discovered_at": "2026-10-08T01:03:42.571115+00:00",
+          "discovered_at": "2026-10-08T01:10:46.463004+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1320,12 +1391,12 @@
         "kd": null,
         "cpc": null
       },
-      "total": 19,
+      "total": 20,
       "quality_screen": {
         "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
         "review_count": 0,
         "reference_count": 3,
-        "discarded_count": 16,
+        "discarded_count": 17,
         "review_leads": [],
         "competitor_references": [
           {
@@ -1342,7 +1413,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:39.947962+00:00",
+            "discovered_at": "2026-10-08T01:10:43.962755+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1380,7 +1451,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:39.948052+00:00",
+            "discovered_at": "2026-10-08T01:10:43.962795+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1411,7 +1482,7 @@
             "published_at": "Fri, 07 Aug 2026 07:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T01:03:40.957887+00:00",
+            "discovered_at": "2026-10-08T01:10:45.320232+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1461,40 +1532,51 @@
             ]
           },
           {
-            "url": "https://github.com/tinylabscom/mvm/issues/3731",
-            "title": "Agent-sandbox product surface: close every gap (tracking)",
-            "score": 44,
+            "url": "https://github.com/louisianahelpr/louisianahelpr/issues/2501",
+            "title": "nightly-red: vacuity",
+            "score": 0,
+            "reasons": [
+              "query_terms:sync",
+              "problem_or_request_language",
+              "published_within_7_days",
+              "non_opportunity_or_automated_noise",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/Coil-Legal/coil/issues/89",
+            "title": "QA bot 2 queue: qa2.coil.legal",
+            "score": 37,
             "reasons": [
               "problem_or_request_language",
-              "commercial_or_tool_context",
-              "published_within_30_days",
+              "published_within_7_days",
               "query_terms_not_found",
               "github_issue_without_explicit_customer_voice",
               "no_topical_title_or_customer_attribution"
             ]
           },
           {
-            "url": "https://github.com/onnxscibroccoli/Grasshopper/issues/65",
-            "title": "Architecture program: terminal-agnostic compute, BIST, self-repair, reproducibility, and controlled generalization",
-            "score": 44,
+            "url": "https://github.com/bright-room/br-cluster/issues/65",
+            "title": "Dependency Dashboard",
+            "score": 35,
             "reasons": [
               "problem_or_request_language",
               "commercial_or_tool_context",
-              "published_within_30_days",
               "query_terms_not_found",
               "github_issue_without_explicit_customer_voice",
               "no_topical_title_or_customer_attribution"
             ]
           },
           {
-            "url": "https://github.com/Unjuno/agent-interface/issues/59",
-            "title": "After the current allocation, prioritize unresolved real-time control research over packaging work",
-            "score": 32,
+            "url": "https://github.com/MJohnsonWellabe/Tetherbound/issues/572",
+            "title": "Codex lanes A–E: close the remaining criteria (from 10-07 consolidated main)",
+            "score": 21,
             "reasons": [
-              "problem_or_request_language",
-              "published_within_30_days",
+              "published_within_7_days",
               "query_terms_not_found",
               "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
               "no_topical_title_or_customer_attribution"
             ]
           },
@@ -1537,6 +1619,18 @@
             ]
           },
           {
+            "url": "https://inventory.dealersocket.com/login/index.html",
+            "title": "Inventory+ - DealerSocket",
+            "score": 18,
+            "reasons": [
+              "query_terms:inventory",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
             "url": "https://www.investopedia.com/terms/i/inventory.asp",
             "title": "Understanding Inventory: Key Types, Examples, and ... - Investopedia",
             "score": 18,
@@ -1549,8 +1643,8 @@
             ]
           },
           {
-            "url": "https://en.wikipedia.org/wiki/Inventory",
-            "title": "Inventory - Wikipedia",
+            "url": "https://www.merriam-webster.com/dictionary/inventory",
+            "title": "INVENTORY Definition & Meaning - Merriam-Webster",
             "score": 18,
             "reasons": [
               "query_terms:inventory",
@@ -1573,18 +1667,6 @@
             ]
           },
           {
-            "url": "https://inventory.dealersocket.com/login/index.html",
-            "title": "Inventory+ - DealerSocket",
-            "score": 18,
-            "reasons": [
-              "query_terms:inventory",
-              "publication_date_unverified",
-              "context_only_not_first_person_demand",
-              "no_explicit_user_pain_in_snippet",
-              "off_topic_contextual_reference"
-            ]
-          },
-          {
             "url": "https://news.ycombinator.com/item?id=49692067",
             "title": "Ask HN: Building KasirCepat, an offline-first POS for Indonesia",
             "score": 51,
@@ -1597,34 +1679,34 @@
             ]
           },
           {
-            "url": "https://news.ycombinator.com/item?id=48668766",
-            "title": "A 30 Year OG Application Developer Available",
-            "score": 33,
+            "url": "https://news.ycombinator.com/item?id=49689696",
+            "title": "Ask HN: Would a startup for young creatives who reject AI be feasible?",
+            "score": 30,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_30_days",
+              "query_terms_not_found",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=49304986",
+            "title": "Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk",
+            "score": 8,
+            "reasons": [
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=49178393",
+            "title": "Do You Think OpenAI Is Apple Circa the 1980s?",
+            "score": 36,
             "reasons": [
               "problem_or_request_language",
               "commercial_or_tool_context",
               "query_terms_not_found",
-              "no_topical_title_or_customer_attribution"
-            ]
-          },
-          {
-            "url": "https://news.ycombinator.com/item?id=47718079",
-            "title": "Ask HN: Will we ever do something about patent trolls?",
-            "score": 21,
-            "reasons": [
-              "problem_or_request_language",
-              "query_terms_not_found",
-              "no_topical_title_or_customer_attribution"
-            ]
-          },
-          {
-            "url": "https://news.ycombinator.com/item?id=47461759",
-            "title": "Wine Registry Seeks Co-Founder",
-            "score": 21,
-            "reasons": [
-              "problem_or_request_language",
-              "query_terms_not_found",
-              "firsthand_date_missing_or_older_than_180_days",
               "no_topical_title_or_customer_attribution"
             ]
           }
@@ -1648,7 +1730,7 @@
     },
     {
       "query": "folha pagamento erro",
-      "captured_at": "2026-10-08T01:03:42.574897+00:00",
+      "captured_at": "2026-10-08T01:10:46.465384+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -1692,7 +1774,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:43.003510+00:00",
+          "discovered_at": "2026-10-08T01:10:46.937806+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1711,7 +1793,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:43.003551+00:00",
+          "discovered_at": "2026-10-08T01:10:46.937832+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1730,7 +1812,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:43.003582+00:00",
+          "discovered_at": "2026-10-08T01:10:46.937848+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1749,7 +1831,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:43.003606+00:00",
+          "discovered_at": "2026-10-08T01:10:46.937858+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1768,7 +1850,7 @@
             "state": "closed",
             "author": "VitorFX560"
           },
-          "discovered_at": "2026-10-08T01:03:43.510009+00:00",
+          "discovered_at": "2026-10-08T01:10:47.633247+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1787,7 +1869,7 @@
             "state": "closed",
             "author": "rogeriotpires-spec"
           },
-          "discovered_at": "2026-10-08T01:03:43.510158+00:00",
+          "discovered_at": "2026-10-08T01:10:47.633318+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1800,7 +1882,7 @@
           "published_at": "Thu, 04 Jul 2024 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:43.793556+00:00",
+          "discovered_at": "2026-10-08T01:10:48.009487+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1813,7 +1895,7 @@
           "published_at": "Mon, 03 Nov 2025 08:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:43.793625+00:00",
+          "discovered_at": "2026-10-08T01:10:48.009548+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1826,7 +1908,7 @@
           "published_at": "Mon, 01 Aug 2022 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:43.793690+00:00",
+          "discovered_at": "2026-10-08T01:10:48.009581+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1841,7 +1923,37 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:44.258432+00:00",
+          "discovered_at": "2026-10-08T01:10:48.240665+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Início · Folha Esportes",
+          "url": "https://www.folhaesportes.com/",
+          "snippet": "Folha Esportes — As últimas notícias do esporte brasileiro",
+          "published_at": "Wed, 07 Oct 2026 14:49:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T01:10:48.240692+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Edição Folha - Folha de S.Paulo",
+          "url": "https://acervo.folha.com.br/digital",
+          "snippet": "Edição Folha - Folha de S.Paulo Terça-feira, 06.out Folha de S.Paulo Ano 106 - N° 35.643 Segunda-feira, 05.out Folha de S.Paulo Ano 106 - N° 35.642 Domingo, 04.out Folha de S.Paulo Ano 106 - N° 35.641 Sábado, 03.out Folha de S.Paulo Ano 106 - N° 35.640 Sexta-feira, 02.out Folha de S.Paulo Ano 106 - N° 35.639 Quinta-feira, 01.out Folha de S.Paulo Ano 106 - N° 35.638 Quarta-feira, 30 ...",
+          "published_at": "Wed, 07 Oct 2026 17:05:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T01:10:48.240718+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1851,42 +1963,12 @@
           "title": "FOLHA SÃO PAULO",
           "url": "https://folhasaopaulo.com/",
           "snippet": "Super Data Fifa abre novo ciclo mundial com torneios oficiais, renovação de seleções e grandes confrontos Posted in FOLHA SÃO PAULO",
-          "published_at": "Wed, 07 Oct 2026 15:32:00 GMT",
+          "published_at": "Wed, 07 Oct 2026 17:40:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:44.258481+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "bing_rss",
-          "title": "Folha de S.Paulo - Wikipedia",
-          "url": "https://en.m.wikipedia.org/wiki/Folha_de_S.Paulo",
-          "snippet": "Folha de S.Paulo (sometimes spelled Folha de São Paulo, lit. 'São Paulo Sheet') also known as simply Folha (Portuguese pronunciation: [ˈfoʎɐ], lit. 'Sheet'), is a Brazilian daily newspaper founded in 1921 [3] under the name Folha da Noite and published in São Paulo by the Folha da Manhã company. The newspaper is the centerpiece for Grupo Folha, a conglomerate that also controls UOL ...",
-          "published_at": "Tue, 06 Oct 2026 17:27:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T01:03:44.258532+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "bing_rss",
-          "title": "FOLHA SÃO PAULO",
-          "url": "https://www.folhasaopaulo.com.br/",
-          "snippet": "FOLHA SÃO PAULO é um dos maiores portais de notícias do estado de São Paulo, saiba o que acontece no estado acesse folhasaopaulo.com.br",
-          "published_at": "Wed, 07 Oct 2026 16:00:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T01:03:44.258564+00:00",
+          "discovered_at": "2026-10-08T01:10:48.240732+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1927,7 +2009,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:43.003510+00:00",
+            "discovered_at": "2026-10-08T01:10:46.937806+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1966,7 +2048,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:43.003551+00:00",
+            "discovered_at": "2026-10-08T01:10:46.937832+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2004,7 +2086,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:43.003582+00:00",
+            "discovered_at": "2026-10-08T01:10:46.937848+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2036,7 +2118,7 @@
             "published_at": "Mon, 01 Aug 2022 07:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T01:03:43.793690+00:00",
+            "discovered_at": "2026-10-08T01:10:48.009581+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2070,7 +2152,75 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T01:03:44.258432+00:00",
+            "discovered_at": "2026-10-08T01:10:48.240665+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "folha"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Início · Folha Esportes",
+            "url": "https://www.folhaesportes.com/",
+            "snippet": "Folha Esportes — As últimas notícias do esporte brasileiro",
+            "published_at": "Wed, 07 Oct 2026 14:49:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-10-08T01:10:48.240692+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "folha"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Edição Folha - Folha de S.Paulo",
+            "url": "https://acervo.folha.com.br/digital",
+            "snippet": "Edição Folha - Folha de S.Paulo Terça-feira, 06.out Folha de S.Paulo Ano 106 - N° 35.643 Segunda-feira, 05.out Folha de S.Paulo Ano 106 - N° 35.642 Domingo, 04.out Folha de S.Paulo Ano 106 - N° 35.641 Sábado, 03.out Folha de S.Paulo Ano 106 - N° 35.640 Sexta-feira, 02.out Folha de S.Paulo Ano 106 - N° 35.639 Quinta-feira, 01.out Folha de S.Paulo Ano 106 - N° 35.638 Quarta-feira, 30 ...",
+            "published_at": "Wed, 07 Oct 2026 17:05:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-10-08T01:10:48.240718+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2099,80 +2249,12 @@
             "title": "FOLHA SÃO PAULO",
             "url": "https://folhasaopaulo.com/",
             "snippet": "Super Data Fifa abre novo ciclo mundial com torneios oficiais, renovação de seleções e grandes confrontos Posted in FOLHA SÃO PAULO",
-            "published_at": "Wed, 07 Oct 2026 15:32:00 GMT",
+            "published_at": "Wed, 07 Oct 2026 17:40:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T01:03:44.258481+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 30,
-              "screening": "reference",
-              "reasons": [
-                "query_terms:folha",
-                "commercial_or_tool_context",
-                "publication_date_unverified",
-                "context_only_not_first_person_demand",
-                "no_explicit_user_pain_in_snippet"
-              ],
-              "matched_query_terms": [
-                "folha"
-              ],
-              "published_age_days": null,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "bing_rss",
-            "title": "Folha de S.Paulo - Wikipedia",
-            "url": "https://en.m.wikipedia.org/wiki/Folha_de_S.Paulo",
-            "snippet": "Folha de S.Paulo (sometimes spelled Folha de São Paulo, lit. 'São Paulo Sheet') also known as simply Folha (Portuguese pronunciation: [ˈfoʎɐ], lit. 'Sheet'), is a Brazilian daily newspaper founded in 1921 [3] under the name Folha da Noite and published in São Paulo by the Folha da Manhã company. The newspaper is the centerpiece for Grupo Folha, a conglomerate that also controls UOL ...",
-            "published_at": "Tue, 06 Oct 2026 17:27:00 GMT",
-            "engagement": {},
-            "metadata": {
-              "fallback_for": "duckduckgo"
-            },
-            "discovered_at": "2026-10-08T01:03:44.258532+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 30,
-              "screening": "reference",
-              "reasons": [
-                "query_terms:folha",
-                "commercial_or_tool_context",
-                "publication_date_unverified",
-                "context_only_not_first_person_demand",
-                "no_explicit_user_pain_in_snippet"
-              ],
-              "matched_query_terms": [
-                "folha"
-              ],
-              "published_age_days": null,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "bing_rss",
-            "title": "FOLHA SÃO PAULO",
-            "url": "https://www.folhasaopaulo.com.br/",
-            "snippet": "FOLHA SÃO PAULO é um dos maiores portais de notícias do estado de São Paulo, saiba o que acontece no estado acesse folhasaopaulo.com.br",
-            "published_at": "Wed, 07 Oct 2026 16:00:00 GMT",
-            "engagement": {},
-            "metadata": {
-              "fallback_for": "duckduckgo"
-            },
-            "discovered_at": "2026-10-08T01:03:44.258564+00:00",
+            "discovered_at": "2026-10-08T01:10:48.240732+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2280,7 +2362,7 @@
     },
     {
       "query": "conciliação bancária manual",
-      "captured_at": "2026-10-08T01:03:44.639254+00:00",
+      "captured_at": "2026-10-08T01:10:48.560300+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -2324,7 +2406,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:44.998408+00:00",
+          "discovered_at": "2026-10-08T01:10:49.036387+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2343,7 +2425,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:44.998457+00:00",
+          "discovered_at": "2026-10-08T01:10:49.036419+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2362,7 +2444,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:44.998489+00:00",
+          "discovered_at": "2026-10-08T01:10:49.036436+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2381,7 +2463,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:44.998515+00:00",
+          "discovered_at": "2026-10-08T01:10:49.036448+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2400,7 +2482,7 @@
             "state": "closed",
             "author": "felipe-urgal"
           },
-          "discovered_at": "2026-10-08T01:03:45.606396+00:00",
+          "discovered_at": "2026-10-08T01:10:49.723965+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2419,67 +2501,67 @@
             "state": "closed",
             "author": "djalmamartins"
           },
-          "discovered_at": "2026-10-08T01:03:45.606492+00:00",
+          "discovered_at": "2026-10-08T01:10:49.724029+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Introducing Microsoft Ink Canvas",
-          "url": "https://support.microsoft.com/en-us/surface/introducing-microsoft-ink-canvas",
-          "snippet": "Introducing Microsoft Ink Canvas What is Microsoft Ink Canvas? Microsoft Ink Canvas is an AI-powered, pen-first experience designed for the moments before an idea becomes a document, prompt, image, or plan.",
-          "published_at": "Mon, 05 Oct 2026 20:35:00 GMT",
+          "title": "The Home Depot",
+          "url": "https://www.homedepot.com/",
+          "snippet": "Shop online for all your home improvement needs: appliances, bathroom decorating ideas, kitchen remodeling, patio furniture, power tools, bbq grills, carpeting, lumber, concrete, lighting, ceiling fans and more at The Home Depot.",
+          "published_at": "Wed, 07 Oct 2026 03:07:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:46.186645+00:00",
+          "discovered_at": "2026-10-08T01:10:50.452978+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Contact Us - Microsoft Support",
-          "url": "https://support.microsoft.com/en-gb/contactus",
-          "snippet": "Contact Microsoft Support. Find solutions to common problems, or get help from a support agent.",
-          "published_at": "Wed, 07 Oct 2026 10:45:00 GMT",
+          "title": "The Bainbridge Home Depot in Bainbridge, GA 39819",
+          "url": "https://www.homedepot.com/l/Bainbridge/GA/Bainbridge/39819/6959",
+          "snippet": "Save time on your trip to the Home Depot by scheduling your order with buy online pick up in store or schedule a delivery directly from your Bainbridge store in Bainbridge, GA.",
+          "published_at": "Wed, 07 Oct 2026 14:41:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:46.186691+00:00",
+          "discovered_at": "2026-10-08T01:10:50.453014+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Windows Insider Program | Microsoft Community Hub",
-          "url": "https://techcommunity.microsoft.com/category/windows/discussions/windowsinsiderprogram",
-          "snippet": "Microsoft Store Account profile Download Center Microsoft Store support Returns Order tracking Certified Refurbished Microsoft Store Promise Flexible Payments Education Microsoft in education Devices for education Microsoft Teams for Education Microsoft 365 Education How to buy for your school Educator training and development Deals for ...",
-          "published_at": "Tue, 06 Oct 2026 22:57:00 GMT",
+          "title": "Grants | The Home Depot",
+          "url": "https://corporate.homedepot.com/page/grants",
+          "snippet": "The Home Depot and The Home Depot Foundation are deeply committed to serving our communities. Click the tiles below to learn about our community grants programs.",
+          "published_at": "Tue, 06 Oct 2026 13:02:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:46.186734+00:00",
+          "discovered_at": "2026-10-08T01:10:50.453033+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Hardware Dev Center | Microsoft Community Hub",
-          "url": "https://techcommunity.microsoft.com/category/winhec-online/blog/hardware-dev-center",
-          "snippet": "Today we are introducing a new Hardware Dev Center capability for ARM system makers that lets hardware partners request approval for a specific System Manifest version to be delivered during the Wind...",
-          "published_at": "Wed, 07 Oct 2026 05:09:00 GMT",
+          "title": "Our Values - The Home Depot",
+          "url": "https://corporate.homedepot.com/page/our-values",
+          "snippet": "Rick Cox Atlanta Store Support Center Rick manages The Home Depot’s store inventory reverse logistics system at the Store Support Center. This system handles the process of removing products from our stores for return to vendor, donations, and buybacks. Rick and his team worked with both vendors and associates across the company to transform and centralize our Return to Vendor and Out for ...",
+          "published_at": "Thu, 18 Aug 2022 06:16:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:46.186769+00:00",
+          "discovered_at": "2026-10-08T01:10:50.453061+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2520,7 +2602,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:44.998408+00:00",
+            "discovered_at": "2026-10-08T01:10:49.036387+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2559,7 +2641,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:44.998457+00:00",
+            "discovered_at": "2026-10-08T01:10:49.036419+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2597,7 +2679,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:44.998489+00:00",
+            "discovered_at": "2026-10-08T01:10:49.036436+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2662,8 +2744,21 @@
             ]
           },
           {
-            "url": "https://support.microsoft.com/en-us/surface/introducing-microsoft-ink-canvas",
-            "title": "Introducing Microsoft Ink Canvas",
+            "url": "https://www.homedepot.com/",
+            "title": "The Home Depot",
+            "score": 21,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.homedepot.com/l/Bainbridge/GA/Bainbridge/39819/6959",
+            "title": "The Bainbridge Home Depot in Bainbridge, GA 39819",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -2674,20 +2769,8 @@
             ]
           },
           {
-            "url": "https://support.microsoft.com/en-gb/contactus",
-            "title": "Contact Us - Microsoft Support",
-            "score": 9,
-            "reasons": [
-              "problem_or_request_language",
-              "publication_date_unverified",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
-              "off_topic_contextual_reference"
-            ]
-          },
-          {
-            "url": "https://techcommunity.microsoft.com/category/windows/discussions/windowsinsiderprogram",
-            "title": "Windows Insider Program | Microsoft Community Hub",
+            "url": "https://corporate.homedepot.com/page/grants",
+            "title": "Grants | The Home Depot",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -2698,14 +2781,15 @@
             ]
           },
           {
-            "url": "https://techcommunity.microsoft.com/category/winhec-online/blog/hardware-dev-center",
-            "title": "Hardware Dev Center | Microsoft Community Hub",
-            "score": 9,
+            "url": "https://corporate.homedepot.com/page/our-values",
+            "title": "Our Values - The Home Depot",
+            "score": 5,
             "reasons": [
-              "problem_or_request_language",
+              "commercial_or_tool_context",
               "publication_date_unverified",
               "query_terms_not_found",
               "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
               "off_topic_contextual_reference"
             ]
           }
@@ -2729,7 +2813,7 @@
     },
     {
       "query": "nómina excel errores",
-      "captured_at": "2026-10-08T01:03:46.585123+00:00",
+      "captured_at": "2026-10-08T01:10:50.844339+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -2773,7 +2857,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:46.934312+00:00",
+          "discovered_at": "2026-10-08T01:10:51.268539+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2792,7 +2876,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:46.934368+00:00",
+          "discovered_at": "2026-10-08T01:10:51.268571+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2811,7 +2895,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:46.934413+00:00",
+          "discovered_at": "2026-10-08T01:10:51.268589+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2830,67 +2914,67 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:46.934455+00:00",
+          "discovered_at": "2026-10-08T01:10:51.268606+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Word Finder: Scrabble & Word Game Solver | Merriam-Webster",
-          "url": "https://www.merriam-webster.com/wordfinder",
-          "snippet": "Word Finder helps you win word games. Search for words by starting letter, ending letter, or any other letter combination. We’ll give you all the matching words in the Merriam-Webster dictionary. The most complete word search of its kind.",
-          "published_at": "Wed, 07 Oct 2026 10:09:00 GMT",
+          "title": "Canva: Visual Suite for Everyone",
+          "url": "https://www.canva.com/",
+          "snippet": "Canva is a free-to-use online graphic design tool. Use it to create social media posts, presentations, posters, videos, logos and more.",
+          "published_at": "Wed, 07 Oct 2026 07:39:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:47.942384+00:00",
+          "discovered_at": "2026-10-08T01:10:52.448081+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "All 5-letter words containing letters D, E, I and N - Best Word List",
-          "url": "https://www.bestwordlist.com/c/d/4/5letterwordswithdein.htm",
-          "snippet": "There are 38 five-letter words containing D, E, I and N: DAINE DEIGN DENIM ... VINED WIDEN WINED. Every word on this site is valid scrabble words. See other lists, beginning with or ending with letters of your choice.",
-          "published_at": "Tue, 06 Oct 2026 01:14:00 GMT",
+          "title": "Login to your Canva account",
+          "url": "https://www.canva.com/login",
+          "snippet": "Log in or sign up in seconds Use your email or another service to continue with Canva (it’s free)!",
+          "published_at": "Wed, 07 Oct 2026 18:02:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:47.942445+00:00",
+          "discovered_at": "2026-10-08T01:10:52.448116+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "5 Letter Word Finder & Unscrambler | WordFinder",
-          "url": "https://wordfinder.yourdictionary.com/5-letter-word-finder",
-          "snippet": "Generate, unscramble and search five-letter words in one easy tool. Perfect for puzzles, word games and vocabulary practice.",
-          "published_at": "Wed, 07 Oct 2026 08:36:00 GMT",
+          "title": "Free templates | Canva",
+          "url": "https://www.canva.com/templates",
+          "snippet": "Cards Worksheets Invoices New in Canva Dinosaur Colouring Page in Black and White Line Art Style Brown Gold and Pink Elegant Family Naming Ceremony Instagram Post Gold Black and White Modern Marketing Agency Logo",
+          "published_at": "Wed, 07 Oct 2026 20:39:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:47.942487+00:00",
+          "discovered_at": "2026-10-08T01:10:52.448136+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "List of 5 Letter Words with \"I,D,E,N\" (Any Position) - WordDB.com",
-          "url": "https://www.worddb.com/5-letter/words/containing/i,d,e,n",
-          "snippet": "5-letter Wordle Words with I,D,E,N in any position: Diner, Lined, Index, Denis, Edwin, Fiend, Mined, Indie, Widen, Denim, Nudie, Snide, Deign, Dinge etc (38 results)",
-          "published_at": "Sat, 31 Jan 2026 18:32:00 GMT",
+          "title": "Log in to your Canva account to start creating beautiful designs",
+          "url": "https://www.canva.com/class/join",
+          "snippet": "Create beautiful designs with your team. Login with your email address, mobile number, Google, Facebook or Apple.",
+          "published_at": "Wed, 07 Oct 2026 20:47:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:47.942528+00:00",
+          "discovered_at": "2026-10-08T01:10:52.448152+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2931,7 +3015,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:46.934312+00:00",
+            "discovered_at": "2026-10-08T01:10:51.268539+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2969,7 +3053,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:46.934368+00:00",
+            "discovered_at": "2026-10-08T01:10:51.268571+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3008,7 +3092,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:46.934413+00:00",
+            "discovered_at": "2026-10-08T01:10:51.268589+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3047,7 +3131,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:46.934455+00:00",
+            "discovered_at": "2026-10-08T01:10:51.268606+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3074,32 +3158,8 @@
         ],
         "discarded": [
           {
-            "url": "https://www.merriam-webster.com/wordfinder",
-            "title": "Word Finder: Scrabble & Word Game Solver | Merriam-Webster",
-            "score": 0,
-            "reasons": [
-              "publication_date_unverified",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
-              "no_explicit_user_pain_in_snippet",
-              "off_topic_contextual_reference"
-            ]
-          },
-          {
-            "url": "https://www.bestwordlist.com/c/d/4/5letterwordswithdein.htm",
-            "title": "All 5-letter words containing letters D, E, I and N - Best Word List",
-            "score": 0,
-            "reasons": [
-              "publication_date_unverified",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
-              "no_explicit_user_pain_in_snippet",
-              "off_topic_contextual_reference"
-            ]
-          },
-          {
-            "url": "https://wordfinder.yourdictionary.com/5-letter-word-finder",
-            "title": "5 Letter Word Finder & Unscrambler | WordFinder",
+            "url": "https://www.canva.com/",
+            "title": "Canva: Visual Suite for Everyone",
             "score": 5,
             "reasons": [
               "commercial_or_tool_context",
@@ -3111,8 +3171,33 @@
             ]
           },
           {
-            "url": "https://www.worddb.com/5-letter/words/containing/i,d,e,n",
-            "title": "List of 5 Letter Words with \"I,D,E,N\" (Any Position) - WordDB.com",
+            "url": "https://www.canva.com/login",
+            "title": "Login to your Canva account",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.canva.com/templates",
+            "title": "Free templates | Canva",
+            "score": 5,
+            "reasons": [
+              "commercial_or_tool_context",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.canva.com/class/join",
+            "title": "Log in to your Canva account to start creating beautiful designs",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3142,7 +3227,7 @@
     },
     {
       "query": "facturas SAT errores",
-      "captured_at": "2026-10-08T01:03:48.361414+00:00",
+      "captured_at": "2026-10-08T01:10:52.807921+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -3186,7 +3271,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:48.695384+00:00",
+          "discovered_at": "2026-10-08T01:10:53.239960+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3205,7 +3290,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:48.695421+00:00",
+          "discovered_at": "2026-10-08T01:10:53.239988+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3224,7 +3309,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:48.695450+00:00",
+          "discovered_at": "2026-10-08T01:10:53.240004+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3243,7 +3328,7 @@
             "state": null,
             "author": null
           },
-          "discovered_at": "2026-10-08T01:03:48.695475+00:00",
+          "discovered_at": "2026-10-08T01:10:53.240016+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3255,14 +3340,14 @@
           "snippet": "Queue for **QA Bot 2**. Handoffs and results for the second bot go here and only here. QA Bot 1 (`grokshaz`) stays on issue #12 and testfirm. Neither bot acts on the other's thread. **Instance:** https://qa2.coil.legal, firm \"Coil QA Bot 2 Firm\", seeded 2026-10-02 from the demo seed (`seed.py`): 2 matters, 3 contacts. Owner login is held by Ian and given to the bot directly. It is never posted here. **Rules, same as #12 unless stated:** - Pin every handoff to `https://qa2.coil.legal/health` and stop if the commit moves. - Case numbers start at **5001**, so they never collide with #12. - Every record this bot creates is named with the prefix **`QA2`** plus the date, for example `QA2 Matter 20",
           "published_at": "2026-10-02T21:34:30Z",
           "engagement": {
-            "comments": 418
+            "comments": 419
           },
           "metadata": {
-            "updated_at": "2026-10-07T23:33:29Z",
+            "updated_at": "2026-10-08T01:10:24Z",
             "state": "open",
             "author": "iandolan"
           },
-          "discovered_at": "2026-10-08T01:03:49.382306+00:00",
+          "discovered_at": "2026-10-08T01:10:54.068549+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3281,7 +3366,7 @@
             "state": "open",
             "author": "github-actions[bot]"
           },
-          "discovered_at": "2026-10-08T01:03:49.383201+00:00",
+          "discovered_at": "2026-10-08T01:10:54.068992+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3300,7 +3385,7 @@
             "state": "open",
             "author": "yinyo1"
           },
-          "discovered_at": "2026-10-08T01:03:49.383314+00:00",
+          "discovered_at": "2026-10-08T01:10:54.069051+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3313,67 +3398,67 @@
           "published_at": "Wed, 28 Feb 2024 08:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T01:03:49.663965+00:00",
+          "discovered_at": "2026-10-08T01:10:54.437070+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Movie Showtimes and Theaters near Seattle, WA | Fandango",
-          "url": "https://www.fandango.com/seattle_wa_movietimes",
-          "snippet": "Discover showtimes and movie theaters near you with Fandango! Find showtimes, tickets, and more for your favorite cinema experience in Seattle, WA.",
-          "published_at": "Wed, 07 Oct 2026 11:35:00 GMT",
+          "title": "8 Best All-Weather Floor Liners for SUVs (October 2026) Tested",
+          "url": "https://www.thebrickfantastic.com/best-all-weather-floor-liners-for-suvs",
+          "snippet": "After testing 8 of the most popular all-weather floor liners on the market and digging through 90,000+ verified owner reviews, our team put together this guide to help you pick the right set for your SUV.",
+          "published_at": "Tue, 29 Sep 2026 20:06:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:49.921250+00:00",
+          "discovered_at": "2026-10-08T01:10:54.777139+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Cinema Seattle - Seattle Movie Showtimes & Cinema Map",
-          "url": "https://www.cinemaseattle.com/",
-          "snippet": "Daily and weekly movie showtimes for Seattle cinemas, plus an interactive map of Seattle movie theater locations.",
-          "published_at": "Wed, 07 Oct 2026 11:07:00 GMT",
+          "title": "10 Best All Weather Floor Mats For SUVs (October 2026) Tested",
+          "url": "https://www.kiddofspeed.com/best-all-weather-floor-mats-for-suvs",
+          "snippet": "Discover the best all weather floor mats for SUVs in 2026. We tested 10 top models for fit, protection, and value to help you choose the perfect set.",
+          "published_at": "Wed, 07 Oct 2026 15:39:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:49.921306+00:00",
+          "discovered_at": "2026-10-08T01:10:54.777165+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Seattle Showtimes",
-          "url": "https://seattleshowtimes.com/",
-          "snippet": "Grand Illusion Cinema: 10/6/2026, 11:37:48 AM SIFF: 10/6/2026, 2:38:46 PM Northwest Film Forum: 10/6/2026, 2:37:49 PM The Beacon: 10/6/2026, 11:37:47 AM Data sourced from SIFF, Northwest Film Forum, and Grand Illusion Cinema.",
-          "published_at": "Wed, 07 Oct 2026 23:31:00 GMT",
+          "title": "Best Floor Liners for SUVs: Rugged All-Weather Floor Mats",
+          "url": "https://carstechie.com/best-floor-liners-for-suv",
+          "snippet": "Each option emphasizes rugged construction, easy maintenance, and reliable coverage for front rows, rear seats, and cargo areas where applicable. Read on to compare materials, fitment, and practical features to choose the best floor liner set for your vehicle.",
+          "published_at": "Wed, 23 Sep 2026 16:17:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:49.921346+00:00",
+          "discovered_at": "2026-10-08T01:10:54.777185+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Movie Showtimes and Theaters near Seattle Washington, undefined",
-          "url": "https://www.fandango.com/seattle-washington_movietimes",
-          "snippet": "Discover showtimes and movie theaters near you with Fandango! Find showtimes, tickets, and more for your favorite cinema experience in Seattle Washington, undefined.",
-          "published_at": "Wed, 07 Oct 2026 21:58:00 GMT",
+          "title": "Best SUV Floor Liners for All-Weather Protection (2020-2026 Models ...",
+          "url": "https://automotive-guides.com/best-suv-floor-liners",
+          "snippet": "Looking for durable SUV floor liners that protect carpet from mud, snow, and spills? This guide covers five top options that balance fit, protection, and ease of cleaning.",
+          "published_at": "Wed, 07 Oct 2026 06:35:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:49.921386+00:00",
+          "discovered_at": "2026-10-08T01:10:54.777201+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3414,7 +3499,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:48.695421+00:00",
+            "discovered_at": "2026-10-08T01:10:53.239988+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3453,7 +3538,7 @@
               "state": null,
               "author": null
             },
-            "discovered_at": "2026-10-08T01:03:48.695475+00:00",
+            "discovered_at": "2026-10-08T01:10:53.240016+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3486,7 +3571,7 @@
             "published_at": "Wed, 28 Feb 2024 08:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T01:03:49.663965+00:00",
+            "discovered_at": "2026-10-08T01:10:54.437070+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3573,8 +3658,8 @@
             ]
           },
           {
-            "url": "https://www.fandango.com/seattle_wa_movietimes",
-            "title": "Movie Showtimes and Theaters near Seattle, WA | Fandango",
+            "url": "https://www.thebrickfantastic.com/best-all-weather-floor-liners-for-suvs",
+            "title": "8 Best All-Weather Floor Liners for SUVs (October 2026) Tested",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3585,8 +3670,8 @@
             ]
           },
           {
-            "url": "https://www.cinemaseattle.com/",
-            "title": "Cinema Seattle - Seattle Movie Showtimes & Cinema Map",
+            "url": "https://www.kiddofspeed.com/best-all-weather-floor-mats-for-suvs",
+            "title": "10 Best All Weather Floor Mats For SUVs (October 2026) Tested",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3597,8 +3682,8 @@
             ]
           },
           {
-            "url": "https://seattleshowtimes.com/",
-            "title": "Seattle Showtimes",
+            "url": "https://carstechie.com/best-floor-liners-for-suv",
+            "title": "Best Floor Liners for SUVs: Rugged All-Weather Floor Mats",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3609,8 +3694,8 @@
             ]
           },
           {
-            "url": "https://www.fandango.com/seattle-washington_movietimes",
-            "title": "Movie Showtimes and Theaters near Seattle Washington, undefined",
+            "url": "https://automotive-guides.com/best-suv-floor-liners",
+            "title": "Best SUV Floor Liners for All-Weather Protection (2020-2026 Models ...",
             "score": 0,
             "reasons": [
               "publication_date_unverified",
@@ -3636,11 +3721,13 @@
         "locale": "es",
         "kind": "specific_buyer_problem"
       },
-      "repeat_links_across_queries": []
+      "repeat_links_across_queries": [
+        "https://github.com/Coil-Legal/coil/issues/89"
+      ]
     },
     {
       "query": "brotx optimizer v4",
-      "captured_at": "2026-10-08T01:03:50.208932+00:00",
+      "captured_at": "2026-10-08T01:10:55.058741+00:00",
       "sources": {
         "github_repos": {
           "status": "empty",
@@ -3672,90 +3759,90 @@
       "items": [
         {
           "platform": "bing_rss",
-          "title": "exterminator in Norfolk, VA",
-          "url": "https://www.yellowbot.com/browse/exterminator/Norfolk,%20VA/page1.html",
-          "snippet": "Pest Control Services RESIDENTIAL & COMMERCIAL Rodent Control Termite Certificates Wood.",
-          "published_at": "Sun, 04 Oct 2026 07:57:00 GMT",
+          "title": "Microsoft - Headquarters in Redmond, WA United States - Apple Maps",
+          "url": "https://maps.apple.com/place?place-id=IA108CFF6BBA2E5A6",
+          "snippet": "View details about Microsoft - Headquarters in Redmond, WA United States on Apple Maps. Address, driving directions, images, nearby attractions and more.",
+          "published_at": "Tue, 06 Oct 2026 20:26:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:51.228390+00:00",
+          "discovered_at": "2026-10-08T01:10:56.411448+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Triumph Pentecostal Church of Deliverance in Newport News, VA ...",
-          "url": "https://www.yellowbot.com/triumph-pentecostal-church-of-deliverance-newport-news-va.html",
-          "snippet": "Triumph Pentecostal Church of Deliverance at 1811 Wickham Ave, Newport News, VA 23607",
-          "published_at": "Wed, 02 Sep 2026 00:21:00 GMT",
+          "title": "Microsoft Office Locations | About Microsoft",
+          "url": "https://www.microsoft.com/en-us/about/office-locations",
+          "snippet": "Learn about Microsoft headquarters in Redmond, WA and our offices, locations, and experience centers across the United States.",
+          "published_at": "Wed, 18 Dec 2024 21:22:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:51.228442+00:00",
+          "discovered_at": "2026-10-08T01:10:56.411477+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Zion Baptist Church in North Garden, VA - YellowBot",
-          "url": "https://www.yellowbot.com/zion-baptist-church-north-garden-va-1.html",
-          "snippet": "Claim it now! Sign in to add (and see) your own tags!",
-          "published_at": "Sat, 15 Aug 2026 00:35:00 GMT",
+          "title": "Microsoft campus - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Microsoft_campus",
+          "snippet": "The Microsoft campus is the corporate headquarters of Microsoft Corporation, located in Redmond, Washington, United States, a part of the Seattle metropolitan area. Microsoft initially moved onto the grounds of the campus on February 26, 1986, shortly before going public on March 13.",
+          "published_at": "Tue, 06 Oct 2026 11:36:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:51.228480+00:00",
+          "discovered_at": "2026-10-08T01:10:56.411496+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Yellow Pages - YellowBot",
-          "url": "https://www.yellowbot.com/place",
-          "snippet": "Akron, OH Albuquerque, NM Amarillo, TX Anaheim, CA Arlington, TX Arlington, VA Atlanta, GA Aurora, CO Austin, TX Bakersfield, CA Baltimore, MD Baton Rouge, LA Birmingham, AL Boston, MA Brownsville, TX Buffalo, NY Chandler, AZ Charlotte, NC Chattanooga, TN Chesapeake, VA Chicago, IL Chula Vista, CA Cincinnati, OH Cleveland, OH Colorado Springs, CO Columbus, GA Columbus, OH Corpus Christi, TX Dallas, TX Dayton, OH Denver, CO Des Moines, IA Detroit, MI Durham, NC El Paso, TX Fort Lauderdale, FL Fort Wayne, IN Fort Worth, TX Fremont, CA Fresno, CA Garden Grove, CA Garland, TX Glendale, AZ Glendale, CA Grand Rapids, MI Greensboro, NC Hampton, VA Henderson, NV Hialeah, FL Hollywood, FL Honolulu, H",
-          "published_at": "Sun, 13 Sep 2026 14:20:00 GMT",
+          "title": "Microsoft Headquarters, Overlake - Explore in Google Maps",
+          "url": "https://www.google.com/maps/search/25%25+30%251+microsoft+way+redmond+world",
+          "snippet": "You're seeing a limited view of Google Maps. Software company. Overlake, One Microsoft Way, Redmond, WA 98052.",
+          "published_at": "Thu, 01 Oct 2026 11:50:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T01:03:51.228617+00:00",
+          "discovered_at": "2026-10-08T01:10:56.411513+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "reddit_index_fallback",
-          "title": "Deactivated due to inactivity : r/yahoo - Reddit",
-          "url": "https://www.reddit.com/r/yahoo/comments/173rtht/deactivated_due_to_inactivity",
-          "snippet": "My yahoo account from childhood was deactivated after not logging in for several years. I really need to access it— it’s the recovery email for my current account… Now I can’t get access to either. Is there any way to restore it?? Haven’t gotten any support through their phone lines, just robotic script answers providing zero help or ...",
-          "published_at": "Mon, 13 May 2024 21:10:00 GMT",
+          "title": "unsolicited \"Your new account on XNXX GOLD\" email - Reddit",
+          "url": "https://www.reddit.com/r/Scams/comments/wip14o/unsolicited_your_new_account_on_xnxx_gold_email",
+          "snippet": "Archived post. New comments cannot be posted and votes cannot be cast.",
+          "published_at": "Sat, 17 Aug 2024 05:40:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_reason": "HTTPError: HTTP Error 429: Too Many Requests"
           },
-          "discovered_at": "2026-10-08T01:03:51.526170+00:00",
+          "discovered_at": "2026-10-08T01:10:56.704180+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "reddit_index_fallback",
-          "title": "/r/yahoo! - Reddit",
-          "url": "https://www.reddit.com/r/yahoo/about",
-          "snippet": "r/yahoo: Yahoo makes the world's daily habits inspiring and entertaining! If you need help accessing your account, or have customer service…",
-          "published_at": "Fri, 26 Apr 2024 05:02:00 GMT",
+          "title": "xnxx_12 - Reddit",
+          "url": "https://www.reddit.com/r/xnxx_12",
+          "snippet": "r/xnxx_12 This community doesn't have any posts yet Make one and get this feed started. Create a post",
+          "published_at": "Sat, 11 May 2024 04:23:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_reason": "HTTPError: HTTP Error 429: Too Many Requests"
           },
-          "discovered_at": "2026-10-08T01:03:51.526222+00:00",
+          "discovered_at": "2026-10-08T01:10:56.704227+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3784,8 +3871,44 @@
         "competitor_references": [],
         "discarded": [
           {
-            "url": "https://www.yellowbot.com/browse/exterminator/Norfolk,%20VA/page1.html",
-            "title": "exterminator in Norfolk, VA",
+            "url": "https://maps.apple.com/place?place-id=IA108CFF6BBA2E5A6",
+            "title": "Microsoft - Headquarters in Redmond, WA United States - Apple Maps",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/about/office-locations",
+            "title": "Microsoft Office Locations | About Microsoft",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Microsoft_campus",
+            "title": "Microsoft campus - Wikipedia",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.google.com/maps/search/25%25+30%251+microsoft+way+redmond+world",
+            "title": "Microsoft Headquarters, Overlake - Explore in Google Maps",
             "score": 5,
             "reasons": [
               "commercial_or_tool_context",
@@ -3797,44 +3920,8 @@
             ]
           },
           {
-            "url": "https://www.yellowbot.com/triumph-pentecostal-church-of-deliverance-newport-news-va.html",
-            "title": "Triumph Pentecostal Church of Deliverance in Newport News, VA ...",
-            "score": 0,
-            "reasons": [
-              "publication_date_unverified",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
-              "no_explicit_user_pain_in_snippet",
-              "off_topic_contextual_reference"
-            ]
-          },
-          {
-            "url": "https://www.yellowbot.com/zion-baptist-church-north-garden-va-1.html",
-            "title": "Zion Baptist Church in North Garden, VA - YellowBot",
-            "score": 0,
-            "reasons": [
-              "publication_date_unverified",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
-              "no_explicit_user_pain_in_snippet",
-              "off_topic_contextual_reference"
-            ]
-          },
-          {
-            "url": "https://www.yellowbot.com/place",
-            "title": "Yellow Pages - YellowBot",
-            "score": 0,
-            "reasons": [
-              "publication_date_unverified",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
-              "no_explicit_user_pain_in_snippet",
-              "off_topic_contextual_reference"
-            ]
-          },
-          {
-            "url": "https://www.reddit.com/r/yahoo/comments/173rtht/deactivated_due_to_inactivity",
-            "title": "Deactivated due to inactivity : r/yahoo - Reddit",
+            "url": "https://www.reddit.com/r/Scams/comments/wip14o/unsolicited_your_new_account_on_xnxx_gold_email",
+            "title": "unsolicited \"Your new account on XNXX GOLD\" email - Reddit",
             "score": 12,
             "reasons": [
               "problem_or_request_language",
@@ -3845,15 +3932,14 @@
             ]
           },
           {
-            "url": "https://www.reddit.com/r/yahoo/about",
-            "title": "/r/yahoo! - Reddit",
-            "score": 24,
+            "url": "https://www.reddit.com/r/xnxx_12",
+            "title": "xnxx_12 - Reddit",
+            "score": 0,
             "reasons": [
-              "problem_or_request_language",
-              "commercial_or_tool_context",
               "publication_date_unverified",
               "query_terms_not_found",
               "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
               "off_topic_contextual_reference"
             ]
           }
@@ -3877,7 +3963,7 @@
       "repeat_links_across_queries": []
     }
   ],
-  "unique_evidence_links_across_queries": 91,
+  "unique_evidence_links_across_queries": 92,
   "warnings": [
     "Search occurrences, heuristic scores and user issues do not prove search volume or willingness to pay.",
     "Article/news hits and competitor repositories are contextual leads, not verified buyer demand.",

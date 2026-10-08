@@ -11,11 +11,11 @@ Queries by source: github_repos = payroll integration, github_issues = payroll i
 
 Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=ok, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 23 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 24 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 9
+Competitor / contextual references: 10
 
 - [Daclify/daclify-backend-modules](https://github.com/Daclify/daclify-backend-modules)
 - [api-evangelist/playroll](https://github.com/api-evangelist/playroll)
@@ -33,7 +33,7 @@ Queries by source: github_repos = inventory sync, github_issues = inventory sync
 
 Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 19 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 20 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
@@ -43,7 +43,7 @@ Competitor / contextual references: 3
 - [dezzaCodes/flower-inventory](https://github.com/dezzaCodes/flower-inventory)
 - [I Tested the Best Spreadsheet Software for 2026 - G2 Learning Hub](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuNE0zX2E5UnNTZlVlQzBNMS1pbUdqQ2NJRU9MX1BrZDR6YU14SkJtZ0dSemw2QU9Gd0pid3dRSW01OVB4M2ZpMWJlTWtyU1FEVDRqcDVOVlBzZ9IBakFVX3lxTE5QbEc1YlNUV1p1aERBNHpBMjlWVjU4WXJNOGtGNVlNUGE2T1JXX0xPOXdOVWxnRzU4emtzZXZrVG5uR1ZSNEJKVXA1U05CSFZvSUpOOGgyLVVUbC1qWE1uaWJUeFRmMVFPWkE?oc=5)
 
-Discarded/noise: 16; repeated URLs across queries: 0
+Discarded/noise: 17; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -131,7 +131,7 @@ Competitor / contextual references: 3
 - [JAGA894/Dsoft_Facturas_NC](https://github.com/JAGA894/Dsoft_Facturas_NC)
 - [SAT duplica la recaudación por fiscalizar operaciones de comercio exterior - Expansión](https://news.google.com/rss/articles/CBMiggFBVV95cUxNdnJPVDFuSlFyLUJFWkVIR2pVVUdwQTFYR0p3ZEhXWTJYckphVjVTelRfN3lzaENrR0dELXBPaXJNa3lsc0lNLUF1TmxFdDZMSmMxWFhpR2hSbDhXOUp3eGFieUlHSGZLcnJDMWdGZmFvOHBxSWtHRzUzc2luZW5mSThR0gGPAUFVX3lxTE5ZQi1rcF83WldUT3JZMnhsT28yRFUxMlhtMmR4UGxJNnlsUy1TZkJUQVVsOEktcF94NGZqVHB2T09lSlh2WktNTnhuWFVPS1Job0psWV80dzdUZ05RWnRMWDRPdG5WVFlHakdvcW5PcGVtT09ZZlNOMEdwR282bXV3Q1hMX3NPdzRGUWlKM3hV?oc=5)
 
-Discarded/noise: 9; repeated URLs across queries: 0
+Discarded/noise: 9; repeated URLs across queries: 1
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
