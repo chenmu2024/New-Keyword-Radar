@@ -42,6 +42,16 @@ class LeadQualityTests(unittest.TestCase):
         self.assertIn("quality_screen", screened)
         self.assertIsNone(q.score(item, "SaaS generator")["verified_cpc"])
 
+    def test_repo_is_competitor_not_demand(self):
+        item = {"platform": "github_repositories", "title": "Feature request management SaaS",
+                "snippet": "Software tool to collect user requests and manage clients",
+                "published_at": "2026-10-05T00:00:00Z",
+                "url": "https://github.com/example/featurehub"}
+        result = q.screen_result({"query": "micro SaaS feature request", "items": [item]})
+        self.assertEqual(result["quality_screen"]["review_count"], 0)
+        self.assertEqual(result["quality_screen"]["reference_count"], 1)
+        self.assertEqual(result["quality_screen"]["competitor_references"][0]["quality"]["screening"], "reference")
+
     def test_staleness_is_not_recent(self):
         item = {"platform": "github_issues", "title": "Need automation feature",
                 "snippet": "customers need tools", "url": "https://github.com/x/y/issues/1",
