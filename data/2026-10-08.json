@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T00:37:21.064871+00:00",
+  "generated_at": "2026-10-08T00:41:26.143483+00:00",
   "timeframe": "today 3-m",
   "source_geos": [
     "US",
@@ -25,12 +25,25 @@
       "retention_pct": 51.0,
       "first_rise_date": "2026-09-24T00:00:00+00:00",
       "peak_date": "2026-10-05T00:00:00+00:00",
-      "newness_score": 95,
-      "money_score": 94,
+      "newness_score": 100,
+      "money_score": 100,
       "money_type": "tool",
       "true_new": false,
       "verdict": "old-history",
-      "related_rising": [],
+      "related_rising": [
+        {
+          "query": "espn fantasy basketball",
+          "value": 1120150,
+          "formatted_value": "Breakout",
+          "link": "https://trends.google.com/trends/explore?q=espn+fantasy+basketball&date=today+3-m"
+        },
+        {
+          "query": "fantasy basketball rankings",
+          "value": 748450,
+          "formatted_value": "Breakout",
+          "link": "https://trends.google.com/trends/explore?q=fantasy+basketball+rankings&date=today+3-m"
+        }
+      ],
       "series": [
         {
           "date": "2026-07-08T00:00:00+00:00",
@@ -518,8 +531,8 @@
       "baseline_peak": 0,
       "baseline_nonzero_ratio": 0.0,
       "recent_peak": 100,
-      "current_level": 34.33,
-      "retention_pct": 34.3,
+      "current_level": 35.33,
+      "retention_pct": 35.3,
       "first_rise_date": "2026-09-24T00:00:00+00:00",
       "peak_date": "2026-10-01T00:00:00+00:00",
       "newness_score": 95,
@@ -986,7 +999,7 @@
         },
         {
           "date": "2026-10-07T00:00:00+00:00",
-          "value": 39,
+          "value": 42,
           "is_partial": false
         },
         {
@@ -2017,14 +2030,7 @@
       "money_type": "tool",
       "true_new": false,
       "verdict": "reject",
-      "related_rising": [
-        {
-          "query": "ecitizen login",
-          "value": 80,
-          "formatted_value": "+80%",
-          "link": "https://trends.google.com/trends/explore?q=ecitizen+login&date=today+3-m"
-        }
-      ],
+      "related_rising": [],
       "series": [
         {
           "date": "2026-07-08T00:00:00+00:00",
@@ -2498,13 +2504,13 @@
       "geo": "",
       "source": "seed-rising:tracker",
       "first_seen": "2026-10-08",
-      "baseline_avg": 21.89,
+      "baseline_avg": 21.74,
       "baseline_peak": 37,
       "baseline_nonzero_ratio": 1.0,
       "recent_peak": 100,
-      "current_level": 69.67,
-      "retention_pct": 69.7,
-      "first_rise_date": "2026-08-24T00:00:00+00:00",
+      "current_level": 68.0,
+      "retention_pct": 68.0,
+      "first_rise_date": "2026-08-25T00:00:00+00:00",
       "peak_date": "2026-10-08T00:00:00+00:00",
       "newness_score": 35,
       "money_score": 94,
@@ -2570,7 +2576,7 @@
         },
         {
           "date": "2026-07-19T00:00:00+00:00",
-          "value": 30,
+          "value": 29,
           "is_partial": false
         },
         {
@@ -2605,7 +2611,7 @@
         },
         {
           "date": "2026-07-26T00:00:00+00:00",
-          "value": 31,
+          "value": 30,
           "is_partial": false
         },
         {
@@ -2615,12 +2621,12 @@
         },
         {
           "date": "2026-07-28T00:00:00+00:00",
-          "value": 19,
+          "value": 18,
           "is_partial": false
         },
         {
           "date": "2026-07-29T00:00:00+00:00",
-          "value": 20,
+          "value": 19,
           "is_partial": false
         },
         {
@@ -2640,7 +2646,7 @@
         },
         {
           "date": "2026-08-02T00:00:00+00:00",
-          "value": 36,
+          "value": 35,
           "is_partial": false
         },
         {
@@ -2685,7 +2691,7 @@
         },
         {
           "date": "2026-08-11T00:00:00+00:00",
-          "value": 18,
+          "value": 17,
           "is_partial": false
         },
         {
@@ -2715,7 +2721,7 @@
         },
         {
           "date": "2026-08-17T00:00:00+00:00",
-          "value": 26,
+          "value": 25,
           "is_partial": false
         },
         {
@@ -2750,12 +2756,12 @@
         },
         {
           "date": "2026-08-24T00:00:00+00:00",
-          "value": 12,
+          "value": 11,
           "is_partial": false
         },
         {
           "date": "2026-08-25T00:00:00+00:00",
-          "value": 14,
+          "value": 13,
           "is_partial": false
         },
         {
@@ -2860,7 +2866,7 @@
         },
         {
           "date": "2026-09-15T00:00:00+00:00",
-          "value": 21,
+          "value": 20,
           "is_partial": false
         },
         {
@@ -2870,7 +2876,7 @@
         },
         {
           "date": "2026-09-17T00:00:00+00:00",
-          "value": 15,
+          "value": 14,
           "is_partial": false
         },
         {
@@ -2880,7 +2886,7 @@
         },
         {
           "date": "2026-09-19T00:00:00+00:00",
-          "value": 57,
+          "value": 56,
           "is_partial": false
         },
         {
@@ -2960,17 +2966,17 @@
         },
         {
           "date": "2026-10-05T00:00:00+00:00",
-          "value": 50,
+          "value": 49,
           "is_partial": false
         },
         {
           "date": "2026-10-06T00:00:00+00:00",
-          "value": 33,
+          "value": 32,
           "is_partial": false
         },
         {
           "date": "2026-10-07T00:00:00+00:00",
-          "value": 76,
+          "value": 72,
           "is_partial": false
         },
         {
@@ -2989,8 +2995,8 @@
       "baseline_peak": 26,
       "baseline_nonzero_ratio": 0.787,
       "recent_peak": 100,
-      "current_level": 42.33,
-      "retention_pct": 42.3,
+      "current_level": 40.33,
+      "retention_pct": 40.3,
       "first_rise_date": "2026-08-24T00:00:00+00:00",
       "peak_date": "2026-10-04T00:00:00+00:00",
       "newness_score": 35,
@@ -3427,7 +3433,7 @@
         },
         {
           "date": "2026-10-01T00:00:00+00:00",
-          "value": 19,
+          "value": 20,
           "is_partial": false
         },
         {
@@ -3437,7 +3443,7 @@
         },
         {
           "date": "2026-10-03T00:00:00+00:00",
-          "value": 34,
+          "value": 35,
           "is_partial": false
         },
         {
@@ -3447,7 +3453,7 @@
         },
         {
           "date": "2026-10-05T00:00:00+00:00",
-          "value": 98,
+          "value": 99,
           "is_partial": false
         },
         {
@@ -3462,7 +3468,7 @@
         },
         {
           "date": "2026-10-08T00:00:00+00:00",
-          "value": 68,
+          "value": 62,
           "is_partial": true
         }
       ]
