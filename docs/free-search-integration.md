@@ -40,3 +40,19 @@ Daily standalone action: **06:40 China time**; outputs
 - Image discovery is not a publication license: examine license/source per image.
 - Public sources may throttle/deny unattended GitHub Actions IPs.
 - GitHub Action schedule timing is approximate; cache files are deliberately not committed.
+
+## Opportunity-lead quality screening
+
+The daily report now distinguishes **raw search links** from **review leads**.
+`src/lead_quality.py` scores source credibility, topical relevance, explicit
+user pain, commercial/tool context, freshness (only when dated), and automated
+noise. It keeps explanatory reasons and discarded links in JSON for auditing.
+
+A score only routes a link to human verification: it **never** means 10,000
+monthly visits, nonzero search volume, KD below a threshold, confirmed
+search-term newness, or willingness to pay. All SEO metrics remain null until
+independently sourced. We keep the existing exact-query 90-day + 5-year Trends
+validation untouched, including user-selected keywords and geographic groups.
+
+PT-BR, ES-MX, and English discovery each keep their own fixed search slot;
+another slot follows commercial-intent rising query candidates.

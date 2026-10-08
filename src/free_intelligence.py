@@ -8,8 +8,10 @@ from zoneinfo import ZoneInfo
 
 try:
     from .free_search import collect
+    from .lead_quality import screen_result
 except ImportError:
     from free_search import collect
+    from lead_quality import screen_result
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCAL = ZoneInfo("Asia/Shanghai")
@@ -39,7 +41,7 @@ def queries(max_queries=4):
 def run(max_queries=4, platforms=None, limit=4):
     selected, cfg = queries(max_queries)
     sources = platforms or cfg.get("platforms", ["github_repos", "github_issues", "google_news_rss", "duckduckgo", "reddit"])
-    results = [collect(q, sources, limit=limit) for q in selected]
+    results = [screen_result(collect(q, sources, limit=limit)) for q in selected]
     date = datetime.now(LOCAL).date().isoformat()
     summary = {"date": date, "timezone": "Asia/Shanghai", "generated_at": datetime.now(LOCAL).isoformat(),
                "mode": "read_only_discovery", "keyword_metrics": {"volume": None, "kd": None, "cpc": None},
@@ -49,13 +51,20 @@ def run(max_queries=4, platforms=None, limit=4):
     lines = ["# Free search intelligence — " + date, "",
              "Free, preliminary discovery only. **Volume / KD / CPC: unverified**, not zero.", ""]
     for result in results:
+        screen = result["quality_screen"]
         lines += ["## " + result["query"], "",
-                  "Sources: " + ", ".join(k + "=" + v["status"] for k, v in result["sources"].items()), ""]
-        for item in result["items"][:15]:
-            lines.append("- [" + item["title"].replace("]", "") + "](" + item["url"] + ") — " + item["platform"])
-        if not result["items"]:
-            lines.append("- No verified accessible results; this is **not** evidence of no demand.")
-        lines.append("")
+                  "Sources: " + ", ".join(k + "=" + v["status"] for k, v in result["sources"].items()), "",
+                  "**Review leads:** " + str(screen["review_count"]) + " / " + str(result["total"]) +
+                  " raw unique links (heuristic screening only).", ""]
+        for item in screen["review_leads"][:8]:
+            score = item["quality"]
+            lines.append("- [" + item["title"].replace("]", "") + "](" + item["url"] + ") — "
+                         + item["platform"] + " · triage " + str(score["score"]) + "/100 · " +
+                         ", ".join(score["reasons"]))
+        if not screen["review_leads"]:
+            lines.append("- No sufficiently relevant **review leads**. This does not imply zero demand.")
+        lines += ["", "Rejected/noise: " + str(screen["discarded_count"]), "",
+                  "Next: validate exact Trends history, Volume/KD/CPC, local SERP and willingness to pay.", ""]
     return summary, "\n".join(lines)
 
 
