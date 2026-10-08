@@ -21,8 +21,9 @@ def topic(query="facturas SAT errores", intent="invoice_rejection", direct=None,
 
 
 def queue(day="2026-10-08", topics=None):
-    return {"date": day, "topics": topics if topics is not None else [topic()],
-            "build_ready_count": 0}
+    entries = topics if topics is not None else [topic()]
+    return {"date": day, "topics": entries, "total_topics": len(entries),
+            "firsthand_qualified_topics": 0, "build_ready_count": 0}
 
 
 def sight(url):
