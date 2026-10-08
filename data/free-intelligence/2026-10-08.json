@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-08T08:36:42.035739+08:00",
+  "generated_at": "2026-10-08T08:39:59.642199+08:00",
   "mode": "read_only_buyer_pain_research",
   "keyword_metrics": {
     "volume": null,
@@ -12,7 +12,7 @@
   "queries": [
     {
       "query": "payroll integration error",
-      "captured_at": "2026-10-08T00:36:28.731152+00:00",
+      "captured_at": "2026-10-08T00:39:42.529703+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -39,6 +39,11 @@
           "status": "ok",
           "count": 4,
           "warning": null
+        },
+        "hackernews_ask": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
         }
       },
       "items": [
@@ -55,7 +60,7 @@
             "updated_at": "2026-10-07T20:46:02Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:29.185092+00:00",
+          "discovered_at": "2026-10-08T00:39:43.102430+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -73,7 +78,7 @@
             "updated_at": "2026-10-07T19:06:40Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:29.185173+00:00",
+          "discovered_at": "2026-10-08T00:39:43.102472+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -91,7 +96,7 @@
             "updated_at": "2026-10-07T16:51:19Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:29.185252+00:00",
+          "discovered_at": "2026-10-08T00:39:43.102501+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -109,7 +114,43 @@
             "updated_at": "2026-10-07T16:25:43Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:29.185325+00:00",
+          "discovered_at": "2026-10-08T00:39:43.102526+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "SKO やることリスト【再開時はまずここを見る】",
+          "url": "https://github.com/robin4250/sk-works/issues/273",
+          "snippet": "## 🔁 新しい指示を受けた時の更新ルール - ユーザーから新しい指示を受けたら、内容を整理した時点で**実装より先に Issue #273 を更新**する。 - その指示を「現在進行中」または「次にやる」に明記してから実装開始する。 - 作業完了後は、**同じ Issue #273 を再更新**して対象項目を「完了済み」に切り替える。 - チャット切断・スレッド移動・端末変更が起きても、Issue #273だけ見れば現在地点が復元できる状態を維持する。 - 完了済み作業は再実装しない。進行中PR・ブランチ・本番migration・CI状態も必要に応じて併記する。 ## 🟣 2026-10-04 新規指示：全ページUX・表示・リンク総点検 ### 先にやること ### 全ページ監査 一次結果 - [x] PR #609 全ページUX/リンク監査契約テスト（3CI成功・main反映済み） ### 全ページ監査 第2グループ - [ ] 設定 `settings_page.dart`：一部翻訳済みだが固定日本語多数 - [ ] 利用機能設定 `company_module_settings_page.dart`：翻訳未接続 - [ ] 会社単価・手当設定 `company_rate_settings_page.dart`：翻訳未接続 - [ ] 承認待ち `approvals_hub_page.dart`：翻訳未接続 - [ ] 通知 `notifications_page.dart`：翻訳未接続 - [ ] 友達 `chat_friends_page.dart`：翻訳未接続 - ",
+          "published_at": "2026-09-28T16:49:29Z",
+          "engagement": {
+            "comments": 112
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T00:38:00Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:39:44.070662+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Master Control — open items carried forward from #3",
+          "url": "https://github.com/Presidente49/gatorbait-media-redesign/issues/34",
+          "snippet": "Carried forward from #3, closed September 26, 2026 after the homepage/Magazine restoration (PR #33, merged). This is the new shared coordination thread for these remaining items — read the opening and newest comments before work, same as #3's original contract. ## Canonical reference - Repository: **Presidente49/gatorbait-media-redesign**. - Production Wix site: **18fb3a4e-d7f6-414a-aeb9-3047db3ea115** at `https://www.gatorbaitmedia.com/`. - Approved default: free sports-news homepage; Magazine stays separate. This is now live and verified (see #3's closing summary). ## Open items ### 1. Automatic article emails — UNVERIFIED Today's two publication alerts (as of the #3 closure) had no confir",
+          "published_at": "2026-09-26T12:21:15Z",
+          "engagement": {
+            "comments": 383
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T00:37:38Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:39:44.070778+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -127,7 +168,7 @@
             "updated_at": "2026-10-08T00:35:01Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:36:29.808786+00:00",
+          "discovered_at": "2026-10-08T00:39:44.071841+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -145,43 +186,7 @@
             "updated_at": "2026-10-08T00:34:51Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:36:29.808865+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "github_issues",
-          "title": "AI prompts: review every service's prompt for narrow scope and run-to-run consistency",
-          "url": "https://github.com/gene-png/080426SHIELD/issues/806",
-          "snippet": "Gene, 2026-10-02: review every service's AI prompt so it is narrowly scoped and complete enough to give **as close to the same result each time** as possible. Advisor's first read of `main` e0d08c2 (`app/ai/jobs.py`, `app/tech_debt/extract.py`, `app/ai/llm.py`) is below. These are leads to verify, not findings. **Applies to every job** 1. **No sampling settings are passed.** `llm.py`'s Anthropic call sets `model`, `max_tokens` and `messages`, but no `temperature`, and `thinking` is omitted (adaptive thinking on claude-opus-5, per the comment there). Setting these is usually the biggest consistency lever. *Unverified:* whether claude-opus-5 accepts a low temperature together with adaptive thi",
-          "published_at": "2026-10-02T23:34:31Z",
-          "engagement": {
-            "comments": 31
-          },
-          "metadata": {
-            "updated_at": "2026-10-08T00:33:22Z",
-            "state": "open"
-          },
-          "discovered_at": "2026-10-08T00:36:29.809009+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "github_issues",
-          "title": "Master Control — open items carried forward from #3",
-          "url": "https://github.com/Presidente49/gatorbait-media-redesign/issues/34",
-          "snippet": "Carried forward from #3, closed September 26, 2026 after the homepage/Magazine restoration (PR #33, merged). This is the new shared coordination thread for these remaining items — read the opening and newest comments before work, same as #3's original contract. ## Canonical reference - Repository: **Presidente49/gatorbait-media-redesign**. - Production Wix site: **18fb3a4e-d7f6-414a-aeb9-3047db3ea115** at `https://www.gatorbaitmedia.com/`. - Approved default: free sports-news homepage; Magazine stays separate. This is now live and verified (see #3's closing summary). ## Open items ### 1. Automatic article emails — UNVERIFIED Today's two publication alerts (as of the #3 closure) had no confir",
-          "published_at": "2026-09-26T12:21:15Z",
-          "engagement": {
-            "comments": 382
-          },
-          "metadata": {
-            "updated_at": "2026-10-08T00:33:15Z",
-            "state": "open"
-          },
-          "discovered_at": "2026-10-08T00:36:29.809158+00:00",
+          "discovered_at": "2026-10-08T00:39:44.071880+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -194,20 +199,20 @@
           "published_at": "Wed, 07 Oct 2026 22:00:10 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:30.254533+00:00",
+          "discovered_at": "2026-10-08T00:39:44.697411+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "google_news_rss",
-          "title": "BrightHR links with Xero Payroll to cut SME errors - CFOtech Australia",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaGZoOHdIY2lPQjkwaVNTaHpFLUNOYVMwNmhwQkExbkJ6aFZWYklXQXFuczVfTXJoYkRyNHBsTHRRdEw5Y1FXRGlSTk5PbXJRZ0MxeFpsWFJvR3Uwek9XV0J6VkZsSk1sUGhERjNGajdrRVU3SVRDc0xPVGxRdVlXR3pXRk9RQQ?oc=5",
-          "snippet": "BrightHR links with Xero Payroll to cut SME errors CFOtech Australia",
+          "title": "BrightHR links with Xero Payroll to cut SME errors - IT Brief New Zealand",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2V5d1RCM1pXa3oxY3E0UWVXT1VkSnZQT1ZOSVFEckdBajFUTEdfTGUxTm9KTm9MN3Y3SmIzRWFxU3BMX2tMZmZlUUx4MkNWSGVtc1U3T0tRbnkzQkNuY3I0d25Oa29GVE02WnNxSWozcW5TZlNyQm9jc01oYjA4NU9KRE4?oc=5",
+          "snippet": "BrightHR links with Xero Payroll to cut SME errors IT Brief New Zealand",
           "published_at": "Wed, 07 Oct 2026 21:56:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:30.254590+00:00",
+          "discovered_at": "2026-10-08T00:39:44.697450+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -220,7 +225,7 @@
           "published_at": "Thu, 17 Sep 2026 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:30.254636+00:00",
+          "discovered_at": "2026-10-08T00:39:44.697474+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -233,7 +238,7 @@
           "published_at": "Thu, 09 Apr 2026 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:30.254679+00:00",
+          "discovered_at": "2026-10-08T00:39:44.697497+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -248,7 +253,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:30.497862+00:00",
+          "discovered_at": "2026-10-08T00:39:45.001031+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -263,7 +268,7 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:30.497920+00:00",
+          "discovered_at": "2026-10-08T00:39:45.001060+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -278,22 +283,22 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:30.497978+00:00",
+          "discovered_at": "2026-10-08T00:39:45.001079+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Sign in | MyADP",
-          "url": "https://my.adp.com/",
-          "snippet": "Secure and convenient tools right in your hands for simple, anytime access across devices.",
-          "published_at": "Wed, 07 Oct 2026 07:32:00 GMT",
+          "title": "Payroll | Online Payroll for Small Business | Try It Free Today!",
+          "url": "https://www.patriotsoftware.com/payroll",
+          "snippet": "Try our online payroll, ranked best for ease of use, functionality, value for money, and customer support. Sign up for our 30-day free trial today!",
+          "published_at": "Wed, 07 Oct 2026 17:12:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:30.498018+00:00",
+          "discovered_at": "2026-10-08T00:39:45.001095+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -306,7 +311,7 @@
           "published_at": "2018-03-31T13:14:43+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:30.793938+00:00",
+          "discovered_at": "2026-10-08T00:39:45.232538+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -319,7 +324,7 @@
           "published_at": "2026-10-08T00:29:44+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:30.794003+00:00",
+          "discovered_at": "2026-10-08T00:39:45.232568+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -332,7 +337,7 @@
           "published_at": "2026-10-08T00:25:43+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:30.794030+00:00",
+          "discovered_at": "2026-10-08T00:39:45.232581+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -345,7 +350,87 @@
           "published_at": "2026-10-08T00:16:57+00:00",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:30.794058+00:00",
+          "discovered_at": "2026-10-08T00:39:45.232595+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Ask HN: Are we putting pricing on things too quickly?",
+          "url": "https://news.ycombinator.com/item?id=47220001",
+          "snippet": "I'm an early adopter. I genuinely enjoy exploring new ideas and trying early-stage products. But lately, when I browse launch platforms, even SideProject subreddit, it feels like almost everything is behind a paywall. Some offer a free trial, but I more often see posts saying something was vibe-coded in a few hours, and yet it costs over $50 to use. What feel odd to me is this: They are asking people for feedback. But if People can't actually use the product without paying, how people supposed to give you meaningful feedback? Is this just promoting subscriptions or asking feedback? I've seen builders ask for feedback while the core funtionality is locked unless you subscribe. That feels COUN",
+          "published_at": "2026-03-02T16:19:24Z",
+          "engagement": {
+            "points": 3,
+            "comments": 4
+          },
+          "metadata": {
+            "author": "LeanVibe",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T00:39:45.560933+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Zero-Knowledge Privacy Infrastructure for Solana",
+          "url": "https://news.ycombinator.com/item?id=46854817",
+          "snippet": "Open-source privacy protocol using Groth16 ZK-SNARKs. Sub-second proof generation, automated leak detection, 1M+ anonymity set capacity. No token, no VC. The Problem Every Solana transaction is public. Analytics firms link activity to real identity. I got doxxed via Coinbase deposit chain analysis in 24 hours. Tornado Cash: Sanctioned, $50+ fees. Privacy Cash: 10K limit. Token2022: No graph privacy. No complete infrastructure exists. SolVoid Architecture Privacy Shield: Groth16 ZK-SNARKs with Poseidon hashing 0.8s proof generation (vs 2-3s alternatives) 20-level Merkle tree (1M+ commitment capacity) $0.00001 transaction cost (500x cheaper than Ethereum) Leak Detection Pipeline: Automated pri",
+          "published_at": "2026-02-02T11:33:55Z",
+          "engagement": {
+            "points": 2,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "2r1in",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T00:39:45.561063+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "I built an AI health scanner for dogs would love your feedback",
+          "url": "https://news.ycombinator.com/item?id=44838374",
+          "snippet": "Hey HN, After months of solo building, trial and error, and countless chats with dog parents & vets, I just launched the 1st MVP of PawBud Scan - an AI-powered health scan tool for dogs. [https://scan.getpawbud.com](https://scan.getpawbud.com) It’s simple: • Fill out a quick health profile about your dog • Get an instant AI-generated health risk score + care tips • Optionally, unlock a vet style report for $10 The idea was born when my own 8 year old Labrador Retriever was diagnosed too late with a preventable joint condition. It hit me how little proactive care exists for pets, especially for early stage common symptoms. So I built this MVP with: • GPT-4o for AI triage • Stripe for instant ",
+          "published_at": "2025-08-08T15:45:08Z",
+          "engagement": {
+            "points": 1,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "anuragsrathor",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T00:39:45.561122+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Idea – machine learning algorithm that browses the web?",
+          "url": "https://news.ycombinator.com/item?id=38569843",
+          "snippet": "Are there companies working on a machine learning algorithm that browses the web? I was recently summarizing a lot of resources on a website that are not presented in a structured way - some videos, some audio, some PDF, some summaries, no clear schema, no RSS, definitely no \"download all\" button - that were only accessible behind a paywall and login. It occurred to me that a browser extension could be used to navigate this information and run it wholesale through a local GPT-type model. This browser extension could use behavioral data to \"learn to browse\" and detect user interaction (such as video elements watched, rewinds, semantic value of content presented). Surely some company is workin",
+          "published_at": "2023-12-08T15:03:01Z",
+          "engagement": {
+            "points": 1,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "alhirzel",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T00:39:45.561156+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -357,19 +442,20 @@
         "github_issues": "payroll integration",
         "google_news_rss": "payroll integration error",
         "duckduckgo": "payroll integration error",
-        "reddit": "payroll integration error"
+        "reddit": "payroll integration error",
+        "hackernews_ask": "payroll integration"
       },
       "keyword_metrics": {
         "volume": null,
         "kd": null,
         "cpc": null
       },
-      "total": 20,
+      "total": 24,
       "quality_screen": {
         "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
         "review_count": 0,
         "reference_count": 12,
-        "discarded_count": 8,
+        "discarded_count": 12,
         "review_leads": [],
         "competitor_references": [
           {
@@ -385,7 +471,7 @@
               "updated_at": "2026-10-07T20:46:02Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:29.185092+00:00",
+            "discovered_at": "2026-10-08T00:39:43.102430+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -423,7 +509,7 @@
               "updated_at": "2026-10-07T19:06:40Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:29.185173+00:00",
+            "discovered_at": "2026-10-08T00:39:43.102472+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -459,7 +545,7 @@
               "updated_at": "2026-10-07T16:51:19Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:29.185252+00:00",
+            "discovered_at": "2026-10-08T00:39:43.102501+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -496,7 +582,7 @@
               "updated_at": "2026-10-07T16:25:43Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:29.185325+00:00",
+            "discovered_at": "2026-10-08T00:39:43.102526+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -527,7 +613,7 @@
             "published_at": "Wed, 07 Oct 2026 22:00:10 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T00:36:30.254533+00:00",
+            "discovered_at": "2026-10-08T00:39:44.697411+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -554,13 +640,13 @@
           },
           {
             "platform": "google_news_rss",
-            "title": "BrightHR links with Xero Payroll to cut SME errors - CFOtech Australia",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaGZoOHdIY2lPQjkwaVNTaHpFLUNOYVMwNmhwQkExbkJ6aFZWYklXQXFuczVfTXJoYkRyNHBsTHRRdEw5Y1FXRGlSTk5PbXJRZ0MxeFpsWFJvR3Uwek9XV0J6VkZsSk1sUGhERjNGajdrRVU3SVRDc0xPVGxRdVlXR3pXRk9RQQ?oc=5",
-            "snippet": "BrightHR links with Xero Payroll to cut SME errors CFOtech Australia",
+            "title": "BrightHR links with Xero Payroll to cut SME errors - IT Brief New Zealand",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2V5d1RCM1pXa3oxY3E0UWVXT1VkSnZQT1ZOSVFEckdBajFUTEdfTGUxTm9KTm9MN3Y3SmIzRWFxU3BMX2tMZmZlUUx4MkNWSGVtc1U3T0tRbnkzQkNuY3I0d25Oa29GVE02WnNxSWozcW5TZlNyQm9jc01oYjA4NU9KRE4?oc=5",
+            "snippet": "BrightHR links with Xero Payroll to cut SME errors IT Brief New Zealand",
             "published_at": "Wed, 07 Oct 2026 21:56:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T00:36:30.254590+00:00",
+            "discovered_at": "2026-10-08T00:39:44.697450+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -592,7 +678,7 @@
             "published_at": "Thu, 17 Sep 2026 07:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T00:36:30.254636+00:00",
+            "discovered_at": "2026-10-08T00:39:44.697474+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -624,7 +710,7 @@
             "published_at": "Thu, 09 Apr 2026 07:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T00:36:30.254679+00:00",
+            "discovered_at": "2026-10-08T00:39:44.697497+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -658,7 +744,7 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:30.497862+00:00",
+            "discovered_at": "2026-10-08T00:39:45.001031+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -692,7 +778,7 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:30.497920+00:00",
+            "discovered_at": "2026-10-08T00:39:45.001060+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -726,7 +812,7 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:30.497978+00:00",
+            "discovered_at": "2026-10-08T00:39:45.001079+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -752,29 +838,31 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Sign in | MyADP",
-            "url": "https://my.adp.com/",
-            "snippet": "Secure and convenient tools right in your hands for simple, anytime access across devices.",
-            "published_at": "Wed, 07 Oct 2026 07:32:00 GMT",
+            "title": "Payroll | Online Payroll for Small Business | Try It Free Today!",
+            "url": "https://www.patriotsoftware.com/payroll",
+            "snippet": "Try our online payroll, ranked best for ease of use, functionality, value for money, and customer support. Sign up for our 30-day free trial today!",
+            "published_at": "Wed, 07 Oct 2026 17:12:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:30.498018+00:00",
+            "discovered_at": "2026-10-08T00:39:45.001095+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
             "quality": {
-              "score": 5,
+              "score": 30,
               "screening": "reference",
               "reasons": [
+                "query_terms:payroll",
                 "commercial_or_tool_context",
                 "publication_date_unverified",
-                "query_terms_not_found",
                 "context_only_not_first_person_demand",
                 "no_explicit_user_pain_in_snippet"
               ],
-              "matched_query_terms": [],
+              "matched_query_terms": [
+                "payroll"
+              ],
               "published_age_days": null,
               "verified_volume": null,
               "verified_kd": null,
@@ -784,6 +872,26 @@
           }
         ],
         "discarded": [
+          {
+            "url": "https://github.com/robin4250/sk-works/issues/273",
+            "title": "SKO やることリスト【再開時はまずここを見る】",
+            "score": 32,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_30_days",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://github.com/Presidente49/gatorbait-media-redesign/issues/34",
+            "title": "Master Control — open items carried forward from #3",
+            "score": 16,
+            "reasons": [
+              "published_within_30_days",
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet"
+            ]
+          },
           {
             "url": "https://github.com/delightfactory/business-platform/issues/47",
             "title": "UX redesign: reviewed Claude reference and compatible W1 foundation",
@@ -797,26 +905,6 @@
           {
             "url": "https://github.com/braydenparker999/jarvis/issues/2",
             "title": "Jarvis publications — replies and Daily Board",
-            "score": 16,
-            "reasons": [
-              "published_within_30_days",
-              "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
-            ]
-          },
-          {
-            "url": "https://github.com/gene-png/080426SHIELD/issues/806",
-            "title": "AI prompts: review every service's prompt for narrow scope and run-to-run consistency",
-            "score": 21,
-            "reasons": [
-              "published_within_7_days",
-              "query_terms_not_found",
-              "no_explicit_user_pain_in_snippet"
-            ]
-          },
-          {
-            "url": "https://github.com/Presidente49/gatorbait-media-redesign/issues/34",
-            "title": "Master Control — open items carried forward from #3",
             "score": 16,
             "reasons": [
               "published_within_30_days",
@@ -864,6 +952,47 @@
               "query_terms_not_found",
               "no_explicit_user_pain_in_snippet"
             ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=47220001",
+            "title": "Ask HN: Are we putting pricing on things too quickly?",
+            "score": 33,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=46854817",
+            "title": "Zero-Knowledge Privacy Infrastructure for Solana",
+            "score": 21,
+            "reasons": [
+              "problem_or_request_language",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=44838374",
+            "title": "I built an AI health scanner for dogs would love your feedback",
+            "score": 42,
+            "reasons": [
+              "query_terms:error",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "stale_over_one_year"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=38569843",
+            "title": "Idea – machine learning algorithm that browses the web?",
+            "score": 1,
+            "reasons": [
+              "commercial_or_tool_context",
+              "stale_over_one_year",
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet"
+            ]
           }
         ],
         "next_validation": [
@@ -885,7 +1014,7 @@
     },
     {
       "query": "inventory sync spreadsheet",
-      "captured_at": "2026-10-08T00:36:30.797046+00:00",
+      "captured_at": "2026-10-08T00:39:45.563503+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -912,6 +1041,11 @@
           "status": "degraded",
           "count": 0,
           "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+        },
+        "hackernews_ask": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
         }
       },
       "items": [
@@ -925,10 +1059,10 @@
             "stars": 0
           },
           "metadata": {
-            "updated_at": "2026-10-08T00:34:40Z",
+            "updated_at": "2026-10-08T00:37:10Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:31.279080+00:00",
+          "discovered_at": "2026-10-08T00:39:46.113625+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -946,7 +1080,7 @@
             "updated_at": "2026-10-07T23:46:11Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:31.279119+00:00",
+          "discovered_at": "2026-10-08T00:39:46.113658+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -964,7 +1098,7 @@
             "updated_at": "2026-10-07T23:26:49Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:31.279142+00:00",
+          "discovered_at": "2026-10-08T00:39:46.113671+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -982,43 +1116,43 @@
             "updated_at": "2026-10-07T23:16:52Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:31.279164+00:00",
+          "discovered_at": "2026-10-08T00:39:46.113684+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "github_issues",
-          "title": "[PM seat] domain:spec — 🟢 os-litant · session_01LAi5BVvQNiYzepSAcsoFLK",
-          "url": "https://github.com/objectstack-ai/objectstack/issues/6017",
-          "snippet": "## Current PM 🟢 **`os-litant`** · session `session_01LAi5BVvQNiYzepSAcsoFLK` · body refreshed 2026-10-08T00:34Z at round 1's dispatch. - **Seated:** round-open marker `6049471504`, on the maintainer's summons `/pm-dispatch spec@objectstack seat 1`. The predecessor's brief `6020119565`, its remain-behind addendum `6030299857` and the tail-clear note `6043431928` were read; nothing is fenced. - **Wake:** Routine `trig_01B7av63TCinM7exrrxKDJkv` (self-bound to this session, hourly at minute 15). The predecessor's Routine `trig_01HzFgtyDbnd92ftkcVQCWf3` stays disabled; deleting it is the maintainer's act. - **Selection rule:** `batch` 3, the default. The maintainer stated no other rule to this se",
-          "published_at": "2026-08-06T15:03:12Z",
+          "title": "test(release): requalify both Production journeys after biopsy fixes",
+          "url": "https://github.com/relativityE/speaksharp/issues/1258",
+          "snippet": "<!-- rwt-current-execution:2026-10-05 --> ## Current RWT execution and closure contract — 5 October 2026 This is the current scheduling/task summary. Earlier conflicting queue, docs-age, three-model, six-word coaching and “all matrices before first RWT” banners are historical below. Existing privacy, evidence and explicit action authorities remain intact. No green status, task edit or Draft authorizes merge, deployment, migration, activation or a Production run. ### Work and owners | Task | Owner | Next action / real gate | |---|---|---| | #1556 docs, #1551 browser identity, #1555 diagnostics | Completed source work | Merged; do not wait on old docs/identity/recovery blockers. Deployment/jou",
+          "published_at": "2026-08-11T10:27:08Z",
           "engagement": {
-            "comments": 292
+            "comments": 1544
           },
           "metadata": {
-            "updated_at": "2026-10-08T00:36:24Z",
+            "updated_at": "2026-10-08T00:39:30Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:36:32.031484+00:00",
+          "discovered_at": "2026-10-08T00:39:47.313530+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "github_issues",
-          "title": "Build complete source-to-Legacy feature and route acceptance matrix",
-          "url": "https://github.com/MALIEV-Co-Ltd/Legacy.Maliev.Workflows/issues/98",
-          "snippet": "The source-commit ledger tracks commit disposition but does not prove every migrated service feature and Web/Intranet route works against production-derived local Aspire data. This is an explicit migration completion gate, not a deployment request. Acceptance: - Inventory each Legacy service feature, API, role, entity, background operation, and every Web/Intranet route against the latest committed original source; retain full source SHA, owning Legacy repo, main SHA, status, and exact evidence links. - Mark unverified items pending; distinguish source retirement approvals from migrations. Do not infer feature parity from a code mapping, route alias, smoke test, or green unit suite. - Record ",
-          "published_at": "2026-09-27T12:08:51Z",
+          "title": "Priority: P2 — flash durability & corruption-recovery audit for wallet.db and new durable stores (G06/G09 add writes; this issue bounds the write cost and the blast radius).",
+          "url": "https://github.com/OpenTollGate/tollgate-module-basic-go/issues/505",
+          "snippet": "**Priority: P2 — flash durability & corruption-recovery audit for wallet.db and new durable stores (G06/G09 add writes; this issue bounds the write cost and the blast radius).** ## Problem The wallet (bbolt), the drain journal, and (if G06/G09 land) session/payment stores all write to router flash. Unknown/uncontrolled today: fsync semantics of bbolt on OpenWrt kernels (default `NoSync=false`? options at open), write amplification of bbolt B+tree rewrites vs the flash budget (8 MB flash routers have limited erase cycles), power-loss behavior of each file (bbolt is designed for crash safety with fsync — verify our open flags don't disable it), and corruption detection/repair (bbolt ships `bol",
+          "published_at": "2026-09-22T07:52:23Z",
           "engagement": {
-            "comments": 227
+            "comments": 2
           },
           "metadata": {
-            "updated_at": "2026-10-08T00:36:14Z",
+            "updated_at": "2026-10-08T00:39:26Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:36:32.031624+00:00",
+          "discovered_at": "2026-10-08T00:39:47.313640+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1031,7 +1165,7 @@
           "published_at": "Wed, 19 Aug 2026 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:32.383130+00:00",
+          "discovered_at": "2026-10-08T00:39:47.823669+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1044,7 +1178,7 @@
           "published_at": "Fri, 20 Feb 2026 08:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:32.383186+00:00",
+          "discovered_at": "2026-10-08T00:39:47.823711+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1057,7 +1191,7 @@
           "published_at": "Fri, 07 Aug 2026 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:32.383226+00:00",
+          "discovered_at": "2026-10-08T00:39:47.823734+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1070,52 +1204,7 @@
           "published_at": "Tue, 19 May 2026 08:35:08 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:32.383267+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "bing_rss",
-          "title": "Understanding Inventory: Key Types, Examples, and ... - Investopedia",
-          "url": "https://www.investopedia.com/terms/i/inventory.asp",
-          "snippet": "Inventory is the vital assets a company has in production and in goods produced that are available for sale. Inventory encompasses raw materials, work-in-progress (WIP), and finished goods.",
-          "published_at": "Sat, 25 Oct 2025 18:05:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T00:36:32.644197+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "bing_rss",
-          "title": "Inventory - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Inventory",
-          "snippet": "Inventory or stock is a quantity of the goods and materials that a business holds for the ultimate goal of resale, production or utilisation. Inventory management is a discipline primarily about specifying the shape and placement of stocked goods.",
-          "published_at": "Tue, 06 Oct 2026 09:13:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T00:36:32.644254+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "bing_rss",
-          "title": "What Is Inventory? Types, Definition, & Examples - NetSuite",
-          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory.shtml",
-          "snippet": "As an accounting term, inventory is a current asset and represents the value of goods a company holds for sale or use. While having enough on hand is essential, excess inventory can become a liability.",
-          "published_at": "Wed, 07 Oct 2026 17:26:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_for": "duckduckgo"
-          },
-          "discovered_at": "2026-10-08T00:36:32.644299+00:00",
+          "discovered_at": "2026-10-08T00:39:47.823756+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1130,7 +1219,132 @@
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:32.644323+00:00",
+          "discovered_at": "2026-10-08T00:39:48.024797+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Understanding Inventory: Key Types, Examples, and ... - Investopedia",
+          "url": "https://www.investopedia.com/terms/i/inventory.asp",
+          "snippet": "Discover what inventory means, its essential types like raw materials and finished goods, and strategies for effective inventory management to enhance your business’s efficiency.",
+          "published_at": "Sat, 25 Oct 2025 18:05:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:39:48.024836+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "INVENTORY Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/inventory",
+          "snippet": "Noun We made an inventory of the library's collection. The dealer keeps a large inventory of used cars and trucks. Inventories at both stores were low. How can a small business afford to keep so much inventory? We'll be doing inventory on the collection soon.",
+          "published_at": "Wed, 07 Oct 2026 06:28:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:39:48.024860+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "What Is Inventory? Types, Definition, & Examples - NetSuite",
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory.shtml",
+          "snippet": "As an accounting term, inventory is a current asset and represents the value of goods a company holds for sale or use. While having enough on hand is essential, excess inventory can become a liability.",
+          "published_at": "Wed, 07 Oct 2026 17:26:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-08T00:39:48.024881+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Ask HN: Building KasirCepat, an offline-first POS for Indonesia",
+          "url": "https://news.ycombinator.com/item?id=49692067",
+          "snippet": "I'm building KasirCepat, a POS application for small shops in Indonesia. Many of these businesses have unreliable internet connections, so I started with a local-first architecture instead of cloud-first. The main goal is to make the daily workflow simple: - selling products, - tracking inventory, - viewing sales history. I'm curious how other developers approach: - data synchronization, - multi-device workflows, - handling conflicts, - designing software for non-technical users. Especially interested in lessons from building local-first/offline-first applications.",
+          "published_at": "2026-09-14T04:40:51Z",
+          "engagement": {
+            "points": 1,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "cas8398",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T00:39:48.787750+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Ask HN: Would a startup for young creatives who reject AI be feasible?",
+          "url": "https://news.ycombinator.com/item?id=49689696",
+          "snippet": "I am a member of my university's game development club, which puts me around lots of talented programmers as well as artists of all kinds, and I've observed that just about everyone disapproves of AI. The sentiment is especially strong among younger people coming into the club. By \"disapproves\", I mean they refuse to allow AI-generated content in games and see AI use in general as something like a moral failure. At the same time, I scroll down the YC startup directory, sorting by launch date, and observe that every non-hardware company (and most of the hardware ones) are entirely based on AI. The demographic I described above, young creatives like the ones in this club, has zero chance of vo",
+          "published_at": "2026-09-13T23:09:37Z",
+          "engagement": {
+            "points": 11,
+            "comments": 26
+          },
+          "metadata": {
+            "author": "mondobe",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T00:39:48.787823+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk",
+          "url": "https://news.ycombinator.com/item?id=49304986",
+          "snippet": "\"Musk has publicly stated estimated timelines and intended capabilities of the system since at least 2013. FSD and Autopilot are classified as SAE Level 2 ADAS, as of January 2024. A lawsuit filed in February 2023 by Tesla investors alleging that Musk committed securities fraud by making misleading statements about the development timeline of autonomous Tesla vehicles was dismissed without prejudice in September 2024; the judge ruled that Tesla's legal team successfully argued that Elon Musk's statements were \"corporate puffery\", i.e., vague corporate optimism.\" 2 Correct 4 Partial credit 28 Wrong 3 TBD",
+          "published_at": "2026-08-14T21:48:38Z",
+          "engagement": {
+            "points": 6,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "glaslong",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T00:39:48.787857+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Do You Think OpenAI Is Apple Circa the 1980s?",
+          "url": "https://news.ycombinator.com/item?id=49178393",
+          "snippet": "OpenAI is a deeply mismanaged company. Most recently, a blog post that feels like it has got to have dozens of PR violations, responding to the Apple lawsuit. More broadly, OpenAI’s main problem is that it does not have a real competitive advantage. No real models do; the real differentiation is price; they will become commodities. The need to move upwards in the market in enterprise software is difficult since the current stack should remain the same, since sticking with Salesforce plus its new AI features is much simpler than the cost of switching to an AI-first startup version, which won’t be around 3 to 5 years from now. So consumer hardware and trying to become the next Apple could work",
+          "published_at": "2026-08-05T03:50:17Z",
+          "engagement": {
+            "points": 2,
+            "comments": 1
+          },
+          "metadata": {
+            "author": "Taikhoom2010",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-08T00:39:48.787961+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1142,57 +1356,21 @@
         "github_issues": "inventory sync",
         "google_news_rss": "inventory sync spreadsheet",
         "duckduckgo": "inventory sync spreadsheet",
-        "reddit": "inventory sync spreadsheet"
+        "reddit": "inventory sync spreadsheet",
+        "hackernews_ask": "inventory sync"
       },
       "keyword_metrics": {
         "volume": null,
         "kd": null,
         "cpc": null
       },
-      "total": 14,
+      "total": 18,
       "quality_screen": {
         "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
-        "review_count": 1,
+        "review_count": 0,
         "reference_count": 12,
-        "discarded_count": 1,
-        "review_leads": [
-          {
-            "platform": "github_issues",
-            "title": "Build complete source-to-Legacy feature and route acceptance matrix",
-            "url": "https://github.com/MALIEV-Co-Ltd/Legacy.Maliev.Workflows/issues/98",
-            "snippet": "The source-commit ledger tracks commit disposition but does not prove every migrated service feature and Web/Intranet route works against production-derived local Aspire data. This is an explicit migration completion gate, not a deployment request. Acceptance: - Inventory each Legacy service feature, API, role, entity, background operation, and every Web/Intranet route against the latest committed original source; retain full source SHA, owning Legacy repo, main SHA, status, and exact evidence links. - Mark unverified items pending; distinguish source retirement approvals from migrations. Do not infer feature parity from a code mapping, route alias, smoke test, or green unit suite. - Record ",
-            "published_at": "2026-09-27T12:08:51Z",
-            "engagement": {
-              "comments": 227
-            },
-            "metadata": {
-              "updated_at": "2026-10-08T00:36:14Z",
-              "state": "open"
-            },
-            "discovered_at": "2026-10-08T00:36:32.031624+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 69,
-              "screening": "review",
-              "reasons": [
-                "query_terms:inventory",
-                "problem_or_request_language",
-                "commercial_or_tool_context",
-                "published_within_30_days"
-              ],
-              "matched_query_terms": [
-                "inventory"
-              ],
-              "published_age_days": 10,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          }
-        ],
+        "discarded_count": 6,
+        "review_leads": [],
         "competitor_references": [
           {
             "platform": "github_repositories",
@@ -1204,10 +1382,10 @@
               "stars": 0
             },
             "metadata": {
-              "updated_at": "2026-10-08T00:34:40Z",
+              "updated_at": "2026-10-08T00:37:10Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:31.279080+00:00",
+            "discovered_at": "2026-10-08T00:39:46.113625+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1244,7 +1422,7 @@
               "updated_at": "2026-10-07T23:46:11Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:31.279119+00:00",
+            "discovered_at": "2026-10-08T00:39:46.113658+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1277,7 +1455,7 @@
               "updated_at": "2026-10-07T23:26:49Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:31.279142+00:00",
+            "discovered_at": "2026-10-08T00:39:46.113671+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1313,7 +1491,7 @@
               "updated_at": "2026-10-07T23:16:52Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:31.279164+00:00",
+            "discovered_at": "2026-10-08T00:39:46.113684+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1344,7 +1522,7 @@
             "published_at": "Wed, 19 Aug 2026 07:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T00:36:32.383130+00:00",
+            "discovered_at": "2026-10-08T00:39:47.823669+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1375,7 +1553,7 @@
             "published_at": "Fri, 20 Feb 2026 08:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T00:36:32.383186+00:00",
+            "discovered_at": "2026-10-08T00:39:47.823711+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1405,7 +1583,7 @@
             "published_at": "Fri, 07 Aug 2026 07:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T00:36:32.383226+00:00",
+            "discovered_at": "2026-10-08T00:39:47.823734+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1437,7 +1615,7 @@
             "published_at": "Tue, 19 May 2026 08:35:08 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T00:36:32.383267+00:00",
+            "discovered_at": "2026-10-08T00:39:47.823756+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1461,15 +1639,15 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Understanding Inventory: Key Types, Examples, and ... - Investopedia",
-            "url": "https://www.investopedia.com/terms/i/inventory.asp",
-            "snippet": "Inventory is the vital assets a company has in production and in goods produced that are available for sale. Inventory encompasses raw materials, work-in-progress (WIP), and finished goods.",
-            "published_at": "Sat, 25 Oct 2025 18:05:00 GMT",
+            "title": "Inventory+ - DealerSocket",
+            "url": "https://inventory.dealersocket.com/login/index.html",
+            "snippet": "Terms of Use | Privacy Notice.",
+            "published_at": "Tue, 06 Oct 2026 20:12:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:32.644197+00:00",
+            "discovered_at": "2026-10-08T00:39:48.024797+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1494,15 +1672,48 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Inventory - Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Inventory",
-            "snippet": "Inventory or stock is a quantity of the goods and materials that a business holds for the ultimate goal of resale, production or utilisation. Inventory management is a discipline primarily about specifying the shape and placement of stocked goods.",
-            "published_at": "Tue, 06 Oct 2026 09:13:00 GMT",
+            "title": "Understanding Inventory: Key Types, Examples, and ... - Investopedia",
+            "url": "https://www.investopedia.com/terms/i/inventory.asp",
+            "snippet": "Discover what inventory means, its essential types like raw materials and finished goods, and strategies for effective inventory management to enhance your business’s efficiency.",
+            "published_at": "Sat, 25 Oct 2025 18:05:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:32.644254+00:00",
+            "discovered_at": "2026-10-08T00:39:48.024836+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 18,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:inventory",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "inventory"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "INVENTORY Definition & Meaning - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/dictionary/inventory",
+            "snippet": "Noun We made an inventory of the library's collection. The dealer keeps a large inventory of used cars and trucks. Inventories at both stores were low. How can a small business afford to keep so much inventory? We'll be doing inventory on the collection soon.",
+            "published_at": "Wed, 07 Oct 2026 06:28:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-10-08T00:39:48.024860+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1535,40 +1746,7 @@
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:32.644299+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 18,
-              "screening": "reference",
-              "reasons": [
-                "query_terms:inventory",
-                "publication_date_unverified",
-                "context_only_not_first_person_demand",
-                "no_explicit_user_pain_in_snippet"
-              ],
-              "matched_query_terms": [
-                "inventory"
-              ],
-              "published_age_days": null,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "bing_rss",
-            "title": "Inventory+ - DealerSocket",
-            "url": "https://inventory.dealersocket.com/login/index.html",
-            "snippet": "Terms of Use | Privacy Notice.",
-            "published_at": "Tue, 06 Oct 2026 20:12:00 GMT",
-            "engagement": {},
-            "metadata": {
-              "fallback_for": "duckduckgo"
-            },
-            "discovered_at": "2026-10-08T00:36:32.644323+00:00",
+            "discovered_at": "2026-10-08T00:39:48.024881+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1594,13 +1772,63 @@
         ],
         "discarded": [
           {
-            "url": "https://github.com/objectstack-ai/objectstack/issues/6017",
-            "title": "[PM seat] domain:spec — 🟢 os-litant · session_01LAi5BVvQNiYzepSAcsoFLK",
-            "score": 0,
+            "url": "https://github.com/relativityE/speaksharp/issues/1258",
+            "title": "test(release): requalify both Production journeys after biopsy fixes",
+            "score": 10,
             "reasons": [
-              "non_opportunity_or_automated_noise",
+              "query_terms_not_found",
+              "engineering_task_without_explicit_user_report",
+              "no_explicit_user_pain_in_snippet"
+            ]
+          },
+          {
+            "url": "https://github.com/OpenTollGate/tollgate-module-basic-go/issues/505",
+            "title": "Priority: P2 — flash durability & corruption-recovery audit for wallet.db and new durable stores (G06/G09 add writes; this issue bounds the write cost and the blast radius).",
+            "score": 32,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_30_days",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=49692067",
+            "title": "Ask HN: Building KasirCepat, an offline-first POS for Indonesia",
+            "score": 51,
+            "reasons": [
+              "query_terms:inventory",
+              "commercial_or_tool_context",
+              "published_within_30_days",
+              "no_explicit_user_pain_in_snippet"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=49689696",
+            "title": "Ask HN: Would a startup for young creatives who reject AI be feasible?",
+            "score": 30,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_30_days",
+              "query_terms_not_found"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=49304986",
+            "title": "Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk",
+            "score": 8,
+            "reasons": [
               "query_terms_not_found",
               "no_explicit_user_pain_in_snippet"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=49178393",
+            "title": "Do You Think OpenAI Is Apple Circa the 1980s?",
+            "score": 36,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "query_terms_not_found"
             ]
           }
         ],
@@ -1623,7 +1851,7 @@
     },
     {
       "query": "folha pagamento erro",
-      "captured_at": "2026-10-08T00:36:32.979229+00:00",
+      "captured_at": "2026-10-08T00:39:48.789841+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -1655,6 +1883,24 @@
       "items": [
         {
           "platform": "github_repositories",
+          "title": "Vs-Shin/folha_de_pagamento",
+          "url": "https://github.com/Vs-Shin/folha_de_pagamento",
+          "snippet": "Protótipo de programa de folha de pagamento.",
+          "published_at": "2026-10-08T00:37:39Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T00:37:45Z",
+            "state": null
+          },
+          "discovered_at": "2026-10-08T00:39:49.239168+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
           "title": "aureliocastru/Folha-de-Pagamento-Ilnet",
           "url": "https://github.com/aureliocastru/Folha-de-Pagamento-Ilnet",
           "snippet": "Folha de pagamento",
@@ -1666,7 +1912,7 @@
             "updated_at": "2026-10-07T21:22:39Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:33.301633+00:00",
+          "discovered_at": "2026-10-08T00:39:49.239195+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1684,7 +1930,7 @@
             "updated_at": "2026-10-07T20:07:06Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:33.301674+00:00",
+          "discovered_at": "2026-10-08T00:39:49.239211+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1702,25 +1948,7 @@
             "updated_at": "2026-10-07T18:27:47Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:33.301698+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "github_repositories",
-          "title": "thiago-p23/Atividade-III-Sistema-de-folha-de-pagamento",
-          "url": "https://github.com/thiago-p23/Atividade-III-Sistema-de-folha-de-pagamento",
-          "snippet": "",
-          "published_at": "2026-10-07T18:00:56Z",
-          "engagement": {
-            "stars": 0
-          },
-          "metadata": {
-            "updated_at": "2026-10-07T18:07:33Z",
-            "state": null
-          },
-          "discovered_at": "2026-10-08T00:36:33.301719+00:00",
+          "discovered_at": "2026-10-08T00:39:49.239222+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1738,7 +1966,7 @@
             "updated_at": "2026-10-07T22:37:52Z",
             "state": "closed"
           },
-          "discovered_at": "2026-10-08T00:36:33.913591+00:00",
+          "discovered_at": "2026-10-08T00:39:49.988728+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1756,7 +1984,7 @@
             "updated_at": "2026-10-07T22:07:03Z",
             "state": "closed"
           },
-          "discovered_at": "2026-10-08T00:36:33.913701+00:00",
+          "discovered_at": "2026-10-08T00:39:49.988800+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1769,7 +1997,7 @@
           "published_at": "Thu, 04 Jul 2024 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:34.280116+00:00",
+          "discovered_at": "2026-10-08T00:39:50.384653+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1782,7 +2010,7 @@
           "published_at": "Mon, 03 Nov 2025 08:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:34.280174+00:00",
+          "discovered_at": "2026-10-08T00:39:50.384695+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1795,67 +2023,67 @@
           "published_at": "Mon, 01 Aug 2022 07:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:34.280228+00:00",
+          "discovered_at": "2026-10-08T00:39:50.384724+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Cleaners Bury St Edmunds, Suffolk | Dash Clean",
-          "url": "https://www.dashclean.co.uk/",
-          "snippet": "Dash Clean are a cleaners based in Bury St Edmunds, Suffolk. We provide private/domestic cleaning, and commercial cleaning services including end of tenancy cleaning, builders cleans, house cleaning, and office cleaning.",
-          "published_at": "Wed, 07 Oct 2026 00:22:00 GMT",
+          "title": "Folha de S.Paulo",
+          "url": "https://www.folha.uol.com.br/",
+          "snippet": "We would like to show you a description here but the site won’t allow us.",
+          "published_at": "Wed, 07 Oct 2026 07:46:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:34.440181+00:00",
+          "discovered_at": "2026-10-08T00:39:50.685424+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Office Cleaning in Bury St Edmunds - Minster Cleaning",
-          "url": "https://www.minstercleaning.co.uk/uk/suffolk/bury-st-edmunds-cleaning-company",
-          "snippet": "Office cleaning in Bury St Edmunds and surrounding areas. For a reliable, great value service, please request a quote today from Minster Cleaning!",
-          "published_at": "Mon, 05 Oct 2026 04:28:00 GMT",
+          "title": "Início · Folha Esportes",
+          "url": "https://www.folhaesportes.com/",
+          "snippet": "Folha Esportes — As últimas notícias do esporte brasileiro",
+          "published_at": "Wed, 07 Oct 2026 14:49:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:34.440228+00:00",
+          "discovered_at": "2026-10-08T00:39:50.685457+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Commercial Cleaners Bury St Edmunds, Suffolk | Dash Clean",
-          "url": "https://dashclean.co.uk/commercial-cleaning.php",
-          "snippet": "Dash Clean provide commercial cleaning services to clients in Bury St Edmunds and throughout Suffolk; including end of tenancy cleaning, builders cleans, office cleaning, restaurant cleaning, carpet cleaning and oven cleaning.",
-          "published_at": "Wed, 30 Sep 2026 04:41:00 GMT",
+          "title": "Edição Folha - Folha de S.Paulo",
+          "url": "https://acervo.folha.com.br/digital",
+          "snippet": "Edição Folha - Folha de S.Paulo Terça-feira, 06.out Folha de S.Paulo Ano 106 - N° 35.643 Segunda-feira, 05.out Folha de S.Paulo Ano 106 - N° 35.642 Domingo, 04.out Folha de S.Paulo Ano 106 - N° 35.641 Sábado, 03.out Folha de S.Paulo Ano 106 - N° 35.640 Sexta-feira, 02.out Folha de S.Paulo Ano 106 - N° 35.639 Quinta-feira, 01.out Folha de S.Paulo Ano 106 - N° 35.638 Quarta-feira, 30 ...",
+          "published_at": "Wed, 07 Oct 2026 17:05:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:34.440282+00:00",
+          "discovered_at": "2026-10-08T00:39:50.685484+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Bury St Edmunds Commercial Cleaning - Peak Cleaning",
-          "url": "https://peakcleaning.co.uk/commercial-cleaning-bury-st-edmunds",
-          "snippet": "We provide professional commercial cleaning services tailored to the needs of businesses across Bury St Edmunds and the surrounding Suffolk area, supporting a wide range of premises including offices, GP surgeries, warehouses, schools, nurseries and other commercial environments.",
-          "published_at": "Wed, 30 Sep 2026 21:09:00 GMT",
+          "title": "FOLHA SÃO PAULO",
+          "url": "https://folhasaopaulo.com/",
+          "snippet": "Super Data Fifa abre novo ciclo mundial com torneios oficiais, renovação de seleções e grandes confrontos Posted in FOLHA SÃO PAULO",
+          "published_at": "Wed, 07 Oct 2026 17:40:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:34.440319+00:00",
+          "discovered_at": "2026-10-08T00:39:50.685500+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -1884,6 +2112,44 @@
         "competitor_references": [
           {
             "platform": "github_repositories",
+            "title": "Vs-Shin/folha_de_pagamento",
+            "url": "https://github.com/Vs-Shin/folha_de_pagamento",
+            "snippet": "Protótipo de programa de folha de pagamento.",
+            "published_at": "2026-10-08T00:37:39Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-08T00:37:45Z",
+              "state": null
+            },
+            "discovered_at": "2026-10-08T00:39:49.239168+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 61,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha,pagamento",
+                "commercial_or_tool_context",
+                "published_within_7_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "folha",
+                "pagamento"
+              ],
+              "published_age_days": 0,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
             "title": "aureliocastru/Folha-de-Pagamento-Ilnet",
             "url": "https://github.com/aureliocastru/Folha-de-Pagamento-Ilnet",
             "snippet": "Folha de pagamento",
@@ -1895,7 +2161,7 @@
               "updated_at": "2026-10-07T21:22:39Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:33.301633+00:00",
+            "discovered_at": "2026-10-08T00:39:49.239195+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1932,7 +2198,7 @@
               "updated_at": "2026-10-07T20:07:06Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:33.301674+00:00",
+            "discovered_at": "2026-10-08T00:39:49.239211+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1969,7 +2235,7 @@
               "updated_at": "2026-10-07T18:27:47Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:33.301698+00:00",
+            "discovered_at": "2026-10-08T00:39:49.239222+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -1991,44 +2257,6 @@
             }
           },
           {
-            "platform": "github_repositories",
-            "title": "thiago-p23/Atividade-III-Sistema-de-folha-de-pagamento",
-            "url": "https://github.com/thiago-p23/Atividade-III-Sistema-de-folha-de-pagamento",
-            "snippet": "",
-            "published_at": "2026-10-07T18:00:56Z",
-            "engagement": {
-              "stars": 0
-            },
-            "metadata": {
-              "updated_at": "2026-10-07T18:07:33Z",
-              "state": null
-            },
-            "discovered_at": "2026-10-08T00:36:33.301719+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 61,
-              "screening": "reference",
-              "reasons": [
-                "query_terms:folha,pagamento",
-                "commercial_or_tool_context",
-                "published_within_7_days",
-                "context_only_not_first_person_demand",
-                "no_explicit_user_pain_in_snippet"
-              ],
-              "matched_query_terms": [
-                "folha",
-                "pagamento"
-              ],
-              "published_age_days": 0,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
             "platform": "google_news_rss",
             "title": "Payroll errors impact 25% of UK employees - HR Magazine",
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTlVyMGJsWC03V0JTTzJoRllVY3ZxbUI1SzhxcVlRRmZudy00Y2NPVGhEaHBkWEh5M1NQR1VoaU9wNm02R3UtVG02UWVhektGQUlKeXJNWDM5aFllQU5SQ2g4eFJUQzBCYS1hVmdER3ZkS042X2lkOERHSGFJWk9CZnV3Mm9PWGRzRGc?oc=5",
@@ -2036,7 +2264,7 @@
             "published_at": "Thu, 04 Jul 2024 07:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T00:36:34.280116+00:00",
+            "discovered_at": "2026-10-08T00:39:50.384653+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2066,7 +2294,7 @@
             "published_at": "Mon, 03 Nov 2025 08:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T00:36:34.280174+00:00",
+            "discovered_at": "2026-10-08T00:39:50.384695+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2095,7 +2323,7 @@
             "published_at": "Mon, 01 Aug 2022 07:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T00:36:34.280228+00:00",
+            "discovered_at": "2026-10-08T00:39:50.384724+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2121,60 +2349,31 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Cleaners Bury St Edmunds, Suffolk | Dash Clean",
-            "url": "https://www.dashclean.co.uk/",
-            "snippet": "Dash Clean are a cleaners based in Bury St Edmunds, Suffolk. We provide private/domestic cleaning, and commercial cleaning services including end of tenancy cleaning, builders cleans, house cleaning, and office cleaning.",
-            "published_at": "Wed, 07 Oct 2026 00:22:00 GMT",
+            "title": "Folha de S.Paulo",
+            "url": "https://www.folha.uol.com.br/",
+            "snippet": "We would like to show you a description here but the site won’t allow us.",
+            "published_at": "Wed, 07 Oct 2026 07:46:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:34.440181+00:00",
+            "discovered_at": "2026-10-08T00:39:50.685424+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
             "quality": {
-              "score": 5,
+              "score": 30,
               "screening": "reference",
               "reasons": [
+                "query_terms:folha",
                 "commercial_or_tool_context",
                 "publication_date_unverified",
-                "query_terms_not_found",
                 "context_only_not_first_person_demand",
                 "no_explicit_user_pain_in_snippet"
               ],
-              "matched_query_terms": [],
-              "published_age_days": null,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "bing_rss",
-            "title": "Office Cleaning in Bury St Edmunds - Minster Cleaning",
-            "url": "https://www.minstercleaning.co.uk/uk/suffolk/bury-st-edmunds-cleaning-company",
-            "snippet": "Office cleaning in Bury St Edmunds and surrounding areas. For a reliable, great value service, please request a quote today from Minster Cleaning!",
-            "published_at": "Mon, 05 Oct 2026 04:28:00 GMT",
-            "engagement": {},
-            "metadata": {
-              "fallback_for": "duckduckgo"
-            },
-            "discovered_at": "2026-10-08T00:36:34.440228+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 9,
-              "screening": "reference",
-              "reasons": [
-                "problem_or_request_language",
-                "publication_date_unverified",
-                "query_terms_not_found",
-                "context_only_not_first_person_demand"
+              "matched_query_terms": [
+                "folha"
               ],
-              "matched_query_terms": [],
               "published_age_days": null,
               "verified_volume": null,
               "verified_kd": null,
@@ -2184,29 +2383,31 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Commercial Cleaners Bury St Edmunds, Suffolk | Dash Clean",
-            "url": "https://dashclean.co.uk/commercial-cleaning.php",
-            "snippet": "Dash Clean provide commercial cleaning services to clients in Bury St Edmunds and throughout Suffolk; including end of tenancy cleaning, builders cleans, office cleaning, restaurant cleaning, carpet cleaning and oven cleaning.",
-            "published_at": "Wed, 30 Sep 2026 04:41:00 GMT",
+            "title": "Início · Folha Esportes",
+            "url": "https://www.folhaesportes.com/",
+            "snippet": "Folha Esportes — As últimas notícias do esporte brasileiro",
+            "published_at": "Wed, 07 Oct 2026 14:49:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:34.440282+00:00",
+            "discovered_at": "2026-10-08T00:39:50.685457+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
             "quality": {
-              "score": 5,
+              "score": 30,
               "screening": "reference",
               "reasons": [
+                "query_terms:folha",
                 "commercial_or_tool_context",
                 "publication_date_unverified",
-                "query_terms_not_found",
                 "context_only_not_first_person_demand",
                 "no_explicit_user_pain_in_snippet"
               ],
-              "matched_query_terms": [],
+              "matched_query_terms": [
+                "folha"
+              ],
               "published_age_days": null,
               "verified_volume": null,
               "verified_kd": null,
@@ -2216,29 +2417,65 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Bury St Edmunds Commercial Cleaning - Peak Cleaning",
-            "url": "https://peakcleaning.co.uk/commercial-cleaning-bury-st-edmunds",
-            "snippet": "We provide professional commercial cleaning services tailored to the needs of businesses across Bury St Edmunds and the surrounding Suffolk area, supporting a wide range of premises including offices, GP surgeries, warehouses, schools, nurseries and other commercial environments.",
-            "published_at": "Wed, 30 Sep 2026 21:09:00 GMT",
+            "title": "Edição Folha - Folha de S.Paulo",
+            "url": "https://acervo.folha.com.br/digital",
+            "snippet": "Edição Folha - Folha de S.Paulo Terça-feira, 06.out Folha de S.Paulo Ano 106 - N° 35.643 Segunda-feira, 05.out Folha de S.Paulo Ano 106 - N° 35.642 Domingo, 04.out Folha de S.Paulo Ano 106 - N° 35.641 Sábado, 03.out Folha de S.Paulo Ano 106 - N° 35.640 Sexta-feira, 02.out Folha de S.Paulo Ano 106 - N° 35.639 Quinta-feira, 01.out Folha de S.Paulo Ano 106 - N° 35.638 Quarta-feira, 30 ...",
+            "published_at": "Wed, 07 Oct 2026 17:05:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:34.440319+00:00",
+            "discovered_at": "2026-10-08T00:39:50.685484+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
             "quality": {
-              "score": 21,
+              "score": 30,
               "screening": "reference",
               "reasons": [
-                "problem_or_request_language",
+                "query_terms:folha",
                 "commercial_or_tool_context",
                 "publication_date_unverified",
-                "query_terms_not_found",
-                "context_only_not_first_person_demand"
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
               ],
-              "matched_query_terms": [],
+              "matched_query_terms": [
+                "folha"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "FOLHA SÃO PAULO",
+            "url": "https://folhasaopaulo.com/",
+            "snippet": "Super Data Fifa abre novo ciclo mundial com torneios oficiais, renovação de seleções e grandes confrontos Posted in FOLHA SÃO PAULO",
+            "published_at": "Wed, 07 Oct 2026 17:40:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-10-08T00:39:50.685500+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "folha"
+              ],
               "published_age_days": null,
               "verified_volume": null,
               "verified_kd": null,
@@ -2289,7 +2526,7 @@
     },
     {
       "query": "conciliação bancária manual",
-      "captured_at": "2026-10-08T00:36:34.736226+00:00",
+      "captured_at": "2026-10-08T00:39:51.071277+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -2332,7 +2569,7 @@
             "updated_at": "2026-10-07T21:40:46Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:35.346824+00:00",
+          "discovered_at": "2026-10-08T00:39:51.588782+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2350,7 +2587,7 @@
             "updated_at": "2026-10-07T20:36:52Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:35.346865+00:00",
+          "discovered_at": "2026-10-08T00:39:51.588813+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2368,7 +2605,7 @@
             "updated_at": "2026-10-07T20:16:47Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:35.346894+00:00",
+          "discovered_at": "2026-10-08T00:39:51.588829+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2386,7 +2623,7 @@
             "updated_at": "2026-10-07T13:46:36Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:35.346917+00:00",
+          "discovered_at": "2026-10-08T00:39:51.588842+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2404,7 +2641,7 @@
             "updated_at": "2026-10-07T12:56:18Z",
             "state": "closed"
           },
-          "discovered_at": "2026-10-08T00:36:35.839864+00:00",
+          "discovered_at": "2026-10-08T00:39:52.349698+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2422,67 +2659,67 @@
             "updated_at": "2026-10-07T02:48:59Z",
             "state": "closed"
           },
-          "discovered_at": "2026-10-08T00:36:35.839954+00:00",
+          "discovered_at": "2026-10-08T00:39:52.349758+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Curvy Women Porn Pics & Nude XXX Photos - NakedWomenPics.com",
-          "url": "https://nakedwomenpics.com/search/curvy-women",
-          "snippet": "Don't miss out on the trendiest Curvy Women porn pictures of the moment, exclusively at NakedWomenPics.com. Explore new FREE nude pics added every day.",
-          "published_at": "Wed, 07 Oct 2026 00:22:00 GMT",
+          "title": "Pilates Exercise: Double Leg Stretch | Pilates Anytime",
+          "url": "https://www.youtube.com/watch?v=fuwzt4d7FuY",
+          "snippet": "Objective: Strengthen abdominals and stabilize Powerhouse. Start Position: Curl your head and shoulders off the Mat, bend both knees into your chest, and extend one leg straight as you place both...",
+          "published_at": "Sat, 26 Sep 2026 08:21:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:36.385109+00:00",
+          "discovered_at": "2026-10-08T00:39:52.912245+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Ready To Get Fucked Porn Pics - Nude Women Pics",
-          "url": "https://nakedwomenpics.com/search/ready-to-get-fucked",
-          "snippet": "Don't miss out on the trendiest Ready To Get Fucked porn pictures of the moment, exclusively at NakedWomenPics.com. Explore new FREE nude pics added every day.",
-          "published_at": "Wed, 07 Oct 2026 12:25:00 GMT",
+          "title": "How to Do a Double Leg Stretch | Pilates Workout",
+          "url": "https://www.youtube.com/watch?v=N-jZas9tMSU",
+          "snippet": "So right after Single Leg Stretch she's on the mat, then curl up your head, neck and shoulders. Extend your arms toward your ears, and extend your legs out to 45 degrees parallel. Then circle...",
+          "published_at": "Sat, 26 Sep 2026 08:21:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:36.385154+00:00",
+          "discovered_at": "2026-10-08T00:39:52.912279+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Women Captions Porn & Nude Pics - NakedWomenPics.com",
-          "url": "https://nakedwomenpics.com/search/women-captions-porn",
-          "snippet": "Don't miss out on the trendiest Women Captions Porn porn pictures of the moment, exclusively at NakedWomenPics.com. Explore new FREE nude pics added every day.",
-          "published_at": "Mon, 05 Oct 2026 22:15:00 GMT",
+          "title": "How To Do a Double Leg Stretch (From a Personal Trainer)",
+          "url": "https://gethealthyu.com/double-leg-stretch",
+          "snippet": "Learn how to do the double leg stretch properly from a personal trainer! This pilates move strengthens your abs and protects your back.",
+          "published_at": "Wed, 30 Sep 2026 16:23:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:36.385188+00:00",
+          "discovered_at": "2026-10-08T00:39:52.912298+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Outdoor Spread Porn Pics & Nude XXX Photos - Nude Women Pics",
-          "url": "https://nakedwomenpics.com/search/outdoor-spread",
-          "snippet": "Don't miss out on the trendiest Outdoor Spread porn pictures of the moment, exclusively at NakedWomenPics.com. Explore new FREE nude pics added every day.",
-          "published_at": "Wed, 07 Oct 2026 15:17:00 GMT",
+          "title": "Double Leg Stretch: Complete Pilates Guide | RESET",
+          "url": "https://weareformfitness.com/training/pilates/double-leg-stretch",
+          "snippet": "Master the Pilates Double Leg Stretch. Learn the setup, breathing, form fixes and modifications to hold core stability with all four limbs extended.",
+          "published_at": "Sat, 03 Oct 2026 19:25:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:36.385221+00:00",
+          "discovered_at": "2026-10-08T00:39:52.912316+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2504,48 +2741,10 @@
       "total": 10,
       "quality_screen": {
         "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
-        "review_count": 1,
+        "review_count": 0,
         "reference_count": 8,
-        "discarded_count": 1,
-        "review_leads": [
-          {
-            "platform": "github_issues",
-            "title": "Revisar e fortalecer Rendimentos do trabalho ponta a ponta",
-            "url": "https://github.com/felipe-urgal/controle-gastos/issues/806",
-            "snippet": "**Status final:** concluído. Implementação entregue e mergeada nos PRs #836, #837 e #838. ## Contexto Revisão completa do módulo **Rendimentos do trabalho**, cobrindo importação de holerites/adiantamentos, consolidação mensal, conciliação adiantamento × folha, conciliação com créditos bancários, informe anual, conciliação anual, ownership, idempotência, correções/retificações, performance, UX desktop/mobile e testes. A arquitetura atual possui decisões importantes e corretas: - holerite/informe anual são fontes documentais separadas de `Transaction`; - importar folha **não cria receita bancária automaticamente**; - o líquido pode ser vinculado explicitamente a uma transação existente; - vínc",
-            "published_at": "2026-10-05T19:38:27Z",
-            "engagement": {
-              "comments": 0
-            },
-            "metadata": {
-              "updated_at": "2026-10-07T12:56:18Z",
-              "state": "closed"
-            },
-            "discovered_at": "2026-10-08T00:36:35.839864+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 84,
-              "screening": "review",
-              "reasons": [
-                "query_terms:bancária,conciliação",
-                "problem_or_request_language",
-                "commercial_or_tool_context",
-                "published_within_7_days"
-              ],
-              "matched_query_terms": [
-                "bancária",
-                "conciliação"
-              ],
-              "published_age_days": 2,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          }
-        ],
+        "discarded_count": 2,
+        "review_leads": [],
         "competitor_references": [
           {
             "platform": "github_repositories",
@@ -2560,7 +2759,7 @@
               "updated_at": "2026-10-07T21:40:46Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:35.346824+00:00",
+            "discovered_at": "2026-10-08T00:39:51.588782+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2598,7 +2797,7 @@
               "updated_at": "2026-10-07T20:36:52Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:35.346865+00:00",
+            "discovered_at": "2026-10-08T00:39:51.588813+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2635,7 +2834,7 @@
               "updated_at": "2026-10-07T20:16:47Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:35.346894+00:00",
+            "discovered_at": "2026-10-08T00:39:51.588829+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2672,7 +2871,7 @@
               "updated_at": "2026-10-07T13:46:36Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:35.346917+00:00",
+            "discovered_at": "2026-10-08T00:39:51.588842+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2697,15 +2896,15 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Curvy Women Porn Pics & Nude XXX Photos - NakedWomenPics.com",
-            "url": "https://nakedwomenpics.com/search/curvy-women",
-            "snippet": "Don't miss out on the trendiest Curvy Women porn pictures of the moment, exclusively at NakedWomenPics.com. Explore new FREE nude pics added every day.",
-            "published_at": "Wed, 07 Oct 2026 00:22:00 GMT",
+            "title": "Pilates Exercise: Double Leg Stretch | Pilates Anytime",
+            "url": "https://www.youtube.com/watch?v=fuwzt4d7FuY",
+            "snippet": "Objective: Strengthen abdominals and stabilize Powerhouse. Start Position: Curl your head and shoulders off the Mat, bend both knees into your chest, and extend one leg straight as you place both...",
+            "published_at": "Sat, 26 Sep 2026 08:21:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:36.385109+00:00",
+            "discovered_at": "2026-10-08T00:39:52.912245+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2728,15 +2927,15 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Ready To Get Fucked Porn Pics - Nude Women Pics",
-            "url": "https://nakedwomenpics.com/search/ready-to-get-fucked",
-            "snippet": "Don't miss out on the trendiest Ready To Get Fucked porn pictures of the moment, exclusively at NakedWomenPics.com. Explore new FREE nude pics added every day.",
-            "published_at": "Wed, 07 Oct 2026 12:25:00 GMT",
+            "title": "How to Do a Double Leg Stretch | Pilates Workout",
+            "url": "https://www.youtube.com/watch?v=N-jZas9tMSU",
+            "snippet": "So right after Single Leg Stretch she's on the mat, then curl up your head, neck and shoulders. Extend your arms toward your ears, and extend your legs out to 45 degrees parallel. Then circle...",
+            "published_at": "Sat, 26 Sep 2026 08:21:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:36.385154+00:00",
+            "discovered_at": "2026-10-08T00:39:52.912279+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2759,15 +2958,15 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Women Captions Porn & Nude Pics - NakedWomenPics.com",
-            "url": "https://nakedwomenpics.com/search/women-captions-porn",
-            "snippet": "Don't miss out on the trendiest Women Captions Porn porn pictures of the moment, exclusively at NakedWomenPics.com. Explore new FREE nude pics added every day.",
-            "published_at": "Mon, 05 Oct 2026 22:15:00 GMT",
+            "title": "How To Do a Double Leg Stretch (From a Personal Trainer)",
+            "url": "https://gethealthyu.com/double-leg-stretch",
+            "snippet": "Learn how to do the double leg stretch properly from a personal trainer! This pilates move strengthens your abs and protects your back.",
+            "published_at": "Wed, 30 Sep 2026 16:23:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:36.385188+00:00",
+            "discovered_at": "2026-10-08T00:39:52.912298+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2790,15 +2989,15 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Outdoor Spread Porn Pics & Nude XXX Photos - Nude Women Pics",
-            "url": "https://nakedwomenpics.com/search/outdoor-spread",
-            "snippet": "Don't miss out on the trendiest Outdoor Spread porn pictures of the moment, exclusively at NakedWomenPics.com. Explore new FREE nude pics added every day.",
-            "published_at": "Wed, 07 Oct 2026 15:17:00 GMT",
+            "title": "Double Leg Stretch: Complete Pilates Guide | RESET",
+            "url": "https://weareformfitness.com/training/pilates/double-leg-stretch",
+            "snippet": "Master the Pilates Double Leg Stretch. Learn the setup, breathing, form fixes and modifications to hold core stability with all four limbs extended.",
+            "published_at": "Sat, 03 Oct 2026 19:25:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:36.385221+00:00",
+            "discovered_at": "2026-10-08T00:39:52.912316+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -2821,6 +3020,18 @@
           }
         ],
         "discarded": [
+          {
+            "url": "https://github.com/felipe-urgal/controle-gastos/issues/806",
+            "title": "Revisar e fortalecer Rendimentos do trabalho ponta a ponta",
+            "score": 84,
+            "reasons": [
+              "query_terms:bancária,conciliação",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "engineering_task_without_explicit_user_report"
+            ]
+          },
           {
             "url": "https://github.com/djalmamartins/mvs/issues/298",
             "title": "ERP-012 — Fundação de contas a receber",
@@ -2851,7 +3062,7 @@
     },
     {
       "query": "nómina excel errores",
-      "captured_at": "2026-10-08T00:36:36.600506+00:00",
+      "captured_at": "2026-10-08T00:39:53.172716+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -2876,7 +3087,7 @@
         },
         "reddit": {
           "status": "degraded",
-          "count": 3,
+          "count": 0,
           "warning": "HTTPError: HTTP Error 429: Too Many Requests"
         }
       },
@@ -2894,7 +3105,7 @@
             "updated_at": "2026-10-06T05:01:36Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:36.995417+00:00",
+          "discovered_at": "2026-10-08T00:39:53.614480+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2912,7 +3123,7 @@
             "updated_at": "2026-10-05T16:59:58Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:36.995458+00:00",
+          "discovered_at": "2026-10-08T00:39:53.614512+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2930,7 +3141,7 @@
             "updated_at": "2026-10-02T23:41:51Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:36.995488+00:00",
+          "discovered_at": "2026-10-08T00:39:53.614529+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -2948,112 +3159,67 @@
             "updated_at": "2026-09-30T12:02:44Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:36.995517+00:00",
+          "discovered_at": "2026-10-08T00:39:53.614546+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "DuckDuckGo - Reddit",
-          "url": "https://www.reddit.com/r/duckduckgo/top",
-          "snippet": "We like to keep the DuckDuckGo subreddit friendly, suitable for children (13+), and free of political discussion that risks leading to personal insults. We recommend /r/politics for anything related to politics. Rude, vulgar, and/or politically charged posts or replies are subject to removal and may lead to further moderation action. Thanks!",
-          "published_at": "Sat, 17 Aug 2024 04:14:00 GMT",
+          "title": "2026 Ohio Festival Guide | Find Ohio's Best Festivals",
+          "url": "https://ohiofestivals.net/ohio-festivals",
+          "snippet": "Ohio's best festival guide with over 2,300 festivals in such cities as Columbus, Cleveland, Cincinnati, Dayton, Marietta, Toledo, and Youngstown.",
+          "published_at": "Tue, 06 Oct 2026 16:23:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:38.343210+00:00",
+          "discovered_at": "2026-10-08T00:39:55.097151+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "DuckDuckGo - 知乎",
-          "url": "https://www.zhihu.com/topic/19594248/hot",
-          "snippet": "DuckDuckGo是专注隐私、反追踪以及避免信息过滤的搜索引擎，使用多方来源优化搜索结果，并加强内容的关联度。",
-          "published_at": "Wed, 07 Oct 2026 23:10:00 GMT",
+          "title": "Ohio Summer Festivals & Events - Ohio Traveler",
+          "url": "https://www.ohiotraveler.com/ohio-summer-fests-events",
+          "snippet": "Content for OhioTraveler’s monthly editions comes from four sources: Freelance, staff, press releases and advertorials. Content includes articles, videos and advertisements.",
+          "published_at": "Fri, 02 Oct 2026 16:42:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:38.343253+00:00",
+          "discovered_at": "2026-10-08T00:39:55.097192+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "DuckDuckGo: Privacy search, browsers, and browser extensions - Reddit",
-          "url": "https://www.reddit.com/r/duckduckgo/about",
-          "snippet": "DuckDuckGo is a private alternative to Google search, as well as free browsers for mobile & desktop devices. Unlike Chrome, DuckDuckGo browsers have privacy built-in with best-in-class tracker blocking that stop cookies & creepy ads that follow you around, & more.",
-          "published_at": "Thu, 01 Feb 2024 17:49:00 GMT",
+          "title": "2026 Ohio Summer Festivals - Ohio guide for food, fun and adventure",
+          "url": "https://eatstayplayohio.com/ohio-summer-festivals",
+          "snippet": "Discover 180+ summer festivals in Ohio for 2026. Find food events, music festivals, county fairs & more going on from June through September.",
+          "published_at": "Tue, 06 Oct 2026 18:17:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:38.343296+00:00",
+          "discovered_at": "2026-10-08T00:39:55.097213+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "DuckDuckGo 的几个常用 Bangs - 知乎",
-          "url": "https://www.zhihu.com/column/p/28628720",
-          "snippet": "DuckDuckgo 一个主张维护用户隐私权，承诺不监控、不记录用户的行为的搜索引擎（host 46.51.218.82） 除了保护隐私，它还有一个有趣的功能 Bangs 只要一个感叹号加上关键字，便可跳转到指定网站进行搜索，把它作…",
-          "published_at": "Tue, 29 Sep 2026 06:08:00 GMT",
+          "title": "14 Summer Festivals Across Ohio That Turn Small Towns Into Big Celebrations",
+          "url": "https://takemetotn.com/14-summer-festivals-across-ohio-that-turn-small-towns-into-big-celebrations",
+          "snippet": "From beloved county fairgrounds to streets lined with vendors and festival stages, these 14 summer festivals show how Ohio turns local pride into unforgettable celebration, and once you start reading, you may find yourself planning a road trip across the state just to catch as many as possible.",
+          "published_at": "Sun, 04 Oct 2026 14:31:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:38.343328+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "reddit_index_fallback",
-          "title": "123movies dissapeared : r/PiracyBackup - Reddit",
-          "url": "https://www.reddit.com/r/PiracyBackup/comments/1bb2f3a/123movies_dissapeared",
-          "snippet": "Everyone chill out I’m here to rescue you all. 123 movies was shut down a while back same as soap2day. I’ve been using this alternative and proves to be the same https://soap2day.tf/home Your still going to get spammed by ads like any pirated website but it works well",
-          "published_at": "Sat, 17 Aug 2024 03:17:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_reason": "HTTPError: HTTP Error 429: Too Many Requests"
-          },
-          "discovered_at": "2026-10-08T00:36:38.564671+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "reddit_index_fallback",
-          "title": "Anyone got a working 123movies / GoMovies link : r/teenagers - Reddit",
-          "url": "https://www.reddit.com/r/teenagers/comments/afgtd1/anyone_got_a_working_123movies_gomovies_link",
-          "snippet": "I tried the https://azmovies.online and when I clicked on the movies all they show are trailers.",
-          "published_at": "Sat, 17 Aug 2024 03:17:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_reason": "HTTPError: HTTP Error 429: Too Many Requests"
-          },
-          "discovered_at": "2026-10-08T00:36:38.564707+00:00",
-          "volume": null,
-          "kd": null,
-          "cpc": null
-        },
-        {
-          "platform": "reddit_index_fallback",
-          "title": "How long does it usually take for sites like 123movies and the ... - Reddit",
-          "url": "https://www.reddit.com/r/NoStupidQuestions/comments/rmszpl/how_long_does_it_usually_take_for_sites_like",
-          "snippet": "How long does it usually take for sites like 123movies and the like to upload the HD version of the movie?",
-          "published_at": "Sat, 17 Aug 2024 05:12:00 GMT",
-          "engagement": {},
-          "metadata": {
-            "fallback_reason": "HTTPError: HTTP Error 429: Too Many Requests"
-          },
-          "discovered_at": "2026-10-08T00:36:38.564741+00:00",
+          "discovered_at": "2026-10-08T00:39:55.097237+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3072,12 +3238,12 @@
         "kd": null,
         "cpc": null
       },
-      "total": 11,
+      "total": 8,
       "quality_screen": {
         "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
         "review_count": 0,
-        "reference_count": 10,
-        "discarded_count": 1,
+        "reference_count": 8,
+        "discarded_count": 0,
         "review_leads": [],
         "competitor_references": [
           {
@@ -3093,7 +3259,7 @@
               "updated_at": "2026-10-06T05:01:36Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:36.995417+00:00",
+            "discovered_at": "2026-10-08T00:39:53.614480+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3130,7 +3296,7 @@
               "updated_at": "2026-10-05T16:59:58Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:36.995458+00:00",
+            "discovered_at": "2026-10-08T00:39:53.614512+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3168,7 +3334,7 @@
               "updated_at": "2026-10-02T23:41:51Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:36.995488+00:00",
+            "discovered_at": "2026-10-08T00:39:53.614529+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3206,7 +3372,7 @@
               "updated_at": "2026-09-30T12:02:44Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:36.995517+00:00",
+            "discovered_at": "2026-10-08T00:39:53.614546+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3232,15 +3398,15 @@
           },
           {
             "platform": "bing_rss",
-            "title": "DuckDuckGo - 知乎",
-            "url": "https://www.zhihu.com/topic/19594248/hot",
-            "snippet": "DuckDuckGo是专注隐私、反追踪以及避免信息过滤的搜索引擎，使用多方来源优化搜索结果，并加强内容的关联度。",
-            "published_at": "Wed, 07 Oct 2026 23:10:00 GMT",
+            "title": "2026 Ohio Festival Guide | Find Ohio's Best Festivals",
+            "url": "https://ohiofestivals.net/ohio-festivals",
+            "snippet": "Ohio's best festival guide with over 2,300 festivals in such cities as Columbus, Cleveland, Cincinnati, Dayton, Marietta, Toledo, and Youngstown.",
+            "published_at": "Tue, 06 Oct 2026 16:23:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:38.343253+00:00",
+            "discovered_at": "2026-10-08T00:39:55.097151+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3263,27 +3429,26 @@
           },
           {
             "platform": "bing_rss",
-            "title": "DuckDuckGo: Privacy search, browsers, and browser extensions - Reddit",
-            "url": "https://www.reddit.com/r/duckduckgo/about",
-            "snippet": "DuckDuckGo is a private alternative to Google search, as well as free browsers for mobile & desktop devices. Unlike Chrome, DuckDuckGo browsers have privacy built-in with best-in-class tracker blocking that stop cookies & creepy ads that follow you around, & more.",
-            "published_at": "Thu, 01 Feb 2024 17:49:00 GMT",
+            "title": "Ohio Summer Festivals & Events - Ohio Traveler",
+            "url": "https://www.ohiotraveler.com/ohio-summer-fests-events",
+            "snippet": "Content for OhioTraveler’s monthly editions comes from four sources: Freelance, staff, press releases and advertorials. Content includes articles, videos and advertisements.",
+            "published_at": "Fri, 02 Oct 2026 16:42:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:38.343296+00:00",
+            "discovered_at": "2026-10-08T00:39:55.097192+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
             "quality": {
-              "score": 21,
+              "score": 0,
               "screening": "reference",
               "reasons": [
-                "problem_or_request_language",
-                "commercial_or_tool_context",
                 "publication_date_unverified",
                 "query_terms_not_found",
-                "context_only_not_first_person_demand"
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
               ],
               "matched_query_terms": [],
               "published_age_days": null,
@@ -3295,15 +3460,15 @@
           },
           {
             "platform": "bing_rss",
-            "title": "DuckDuckGo 的几个常用 Bangs - 知乎",
-            "url": "https://www.zhihu.com/column/p/28628720",
-            "snippet": "DuckDuckgo 一个主张维护用户隐私权，承诺不监控、不记录用户的行为的搜索引擎（host 46.51.218.82） 除了保护隐私，它还有一个有趣的功能 Bangs 只要一个感叹号加上关键字，便可跳转到指定网站进行搜索，把它作…",
-            "published_at": "Tue, 29 Sep 2026 06:08:00 GMT",
+            "title": "2026 Ohio Summer Festivals - Ohio guide for food, fun and adventure",
+            "url": "https://eatstayplayohio.com/ohio-summer-festivals",
+            "snippet": "Discover 180+ summer festivals in Ohio for 2026. Find food events, music festivals, county fairs & more going on from June through September.",
+            "published_at": "Tue, 06 Oct 2026 18:17:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:38.343328+00:00",
+            "discovered_at": "2026-10-08T00:39:55.097213+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3325,78 +3490,16 @@
             }
           },
           {
-            "platform": "reddit_index_fallback",
-            "title": "123movies dissapeared : r/PiracyBackup - Reddit",
-            "url": "https://www.reddit.com/r/PiracyBackup/comments/1bb2f3a/123movies_dissapeared",
-            "snippet": "Everyone chill out I’m here to rescue you all. 123 movies was shut down a while back same as soap2day. I’ve been using this alternative and proves to be the same https://soap2day.tf/home Your still going to get spammed by ads like any pirated website but it works well",
-            "published_at": "Sat, 17 Aug 2024 03:17:00 GMT",
+            "platform": "bing_rss",
+            "title": "14 Summer Festivals Across Ohio That Turn Small Towns Into Big Celebrations",
+            "url": "https://takemetotn.com/14-summer-festivals-across-ohio-that-turn-small-towns-into-big-celebrations",
+            "snippet": "From beloved county fairgrounds to streets lined with vendors and festival stages, these 14 summer festivals show how Ohio turns local pride into unforgettable celebration, and once you start reading, you may find yourself planning a road trip across the state just to catch as many as possible.",
+            "published_at": "Sun, 04 Oct 2026 14:31:00 GMT",
             "engagement": {},
             "metadata": {
-              "fallback_reason": "HTTPError: HTTP Error 429: Too Many Requests"
+              "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:38.564671+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 12,
-              "screening": "reference",
-              "reasons": [
-                "problem_or_request_language",
-                "publication_date_unverified",
-                "query_terms_not_found",
-                "context_only_not_first_person_demand"
-              ],
-              "matched_query_terms": [],
-              "published_age_days": null,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "reddit_index_fallback",
-            "title": "Anyone got a working 123movies / GoMovies link : r/teenagers - Reddit",
-            "url": "https://www.reddit.com/r/teenagers/comments/afgtd1/anyone_got_a_working_123movies_gomovies_link",
-            "snippet": "I tried the https://azmovies.online and when I clicked on the movies all they show are trailers.",
-            "published_at": "Sat, 17 Aug 2024 03:17:00 GMT",
-            "engagement": {},
-            "metadata": {
-              "fallback_reason": "HTTPError: HTTP Error 429: Too Many Requests"
-            },
-            "discovered_at": "2026-10-08T00:36:38.564707+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 0,
-              "screening": "reference",
-              "reasons": [
-                "publication_date_unverified",
-                "query_terms_not_found",
-                "context_only_not_first_person_demand",
-                "no_explicit_user_pain_in_snippet"
-              ],
-              "matched_query_terms": [],
-              "published_age_days": null,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "reddit_index_fallback",
-            "title": "How long does it usually take for sites like 123movies and the ... - Reddit",
-            "url": "https://www.reddit.com/r/NoStupidQuestions/comments/rmszpl/how_long_does_it_usually_take_for_sites_like",
-            "snippet": "How long does it usually take for sites like 123movies and the like to upload the HD version of the movie?",
-            "published_at": "Sat, 17 Aug 2024 05:12:00 GMT",
-            "engagement": {},
-            "metadata": {
-              "fallback_reason": "HTTPError: HTTP Error 429: Too Many Requests"
-            },
-            "discovered_at": "2026-10-08T00:36:38.564741+00:00",
+            "discovered_at": "2026-10-08T00:39:55.097237+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3418,20 +3521,7 @@
             }
           }
         ],
-        "discarded": [
-          {
-            "url": "https://www.reddit.com/r/duckduckgo/top",
-            "title": "DuckDuckGo - Reddit",
-            "score": 0,
-            "reasons": [
-              "publication_date_unverified",
-              "non_opportunity_or_automated_noise",
-              "query_terms_not_found",
-              "context_only_not_first_person_demand",
-              "no_explicit_user_pain_in_snippet"
-            ]
-          }
-        ],
+        "discarded": [],
         "next_validation": [
           "Check exact query Google Trends history",
           "Check Volume/KD/CPC using real source",
@@ -3451,7 +3541,7 @@
     },
     {
       "query": "facturas SAT errores",
-      "captured_at": "2026-10-08T00:36:38.566199+00:00",
+      "captured_at": "2026-10-08T00:39:55.379484+00:00",
       "sources": {
         "github_repos": {
           "status": "ok",
@@ -3494,7 +3584,7 @@
             "updated_at": "2026-10-07T15:37:32Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:38.954375+00:00",
+          "discovered_at": "2026-10-08T00:39:55.925573+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3512,7 +3602,7 @@
             "updated_at": "2026-10-07T02:06:30Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:38.954411+00:00",
+          "discovered_at": "2026-10-08T00:39:55.925602+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3530,7 +3620,7 @@
             "updated_at": "2026-10-06T23:47:56Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:38.954439+00:00",
+          "discovered_at": "2026-10-08T00:39:55.925618+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3548,7 +3638,7 @@
             "updated_at": "2026-10-06T17:20:30Z",
             "state": null
           },
-          "discovered_at": "2026-10-08T00:36:38.954463+00:00",
+          "discovered_at": "2026-10-08T00:39:55.925631+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3566,7 +3656,7 @@
             "updated_at": "2026-10-07T23:33:29Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:36:39.614831+00:00",
+          "discovered_at": "2026-10-08T00:39:57.042093+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3584,7 +3674,7 @@
             "updated_at": "2026-10-07T22:22:33Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:36:39.615716+00:00",
+          "discovered_at": "2026-10-08T00:39:57.042581+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3602,7 +3692,7 @@
             "updated_at": "2026-10-07T15:38:25Z",
             "state": "open"
           },
-          "discovered_at": "2026-10-08T00:36:39.615830+00:00",
+          "discovered_at": "2026-10-08T00:39:57.042644+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3615,67 +3705,67 @@
           "published_at": "Wed, 28 Feb 2024 08:00:00 GMT",
           "engagement": {},
           "metadata": {},
-          "discovered_at": "2026-10-08T00:36:39.941778+00:00",
+          "discovered_at": "2026-10-08T00:39:57.441651+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Portal de Trámites y Servicios del SAT",
-          "url": "https://www.sat.gob.mx/personas/factura-electronica",
-          "snippet": "Accede al portal del SAT para gestionar trámites y servicios relacionados con la factura electrónica de manera sencilla y eficiente.",
-          "published_at": "Tue, 06 Oct 2026 07:04:00 GMT",
+          "title": "Shafer, MN",
+          "url": "https://www.shafermn.com/agenda_details_T48_R64.php",
+          "snippet": "© 2025 • City of Shafer 17656 303rd Street Shafer, MN 55074 • Contact Us (651) 257-4726 Powered by revize., the Government Website Experts Login",
+          "published_at": "Tue, 24 Mar 2026 22:10:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:40.234596+00:00",
+          "discovered_at": "2026-10-08T00:39:57.618818+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Portal de Trámites y Servicios del SAT",
-          "url": "https://www.sat.gob.mx/portal/public/tramites/factura-electronica",
-          "snippet": "Accede al portal del SAT para realizar trámites relacionados con la factura electrónica y obtener información sobre su emisión y recuperación.",
-          "published_at": "Tue, 06 Oct 2026 14:43:00 GMT",
+          "title": "Shafer, MN",
+          "url": "https://www.shafermn.com/agenda_details_T48_R37.php",
+          "snippet": "Documents & Links: Tuesday July 19, 2022 07/19/22 07-19-22CCAgenda Tuesday July 19, 2022 07/19/22 07-19-22CCMinutes",
+          "published_at": "Fri, 18 Jul 2025 17:54:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:40.234641+00:00",
+          "discovered_at": "2026-10-08T00:39:57.618850+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "100 plantillas de facturas gratis para imprimir o descargar en PDF",
-          "url": "https://invoicehome.com/?locale=es",
-          "snippet": "En Invoice Home podrás generar, guardar, imprimir y enviar tantas veces como necesites todas tus facturas. Además, también te ofrecemos plantillas para crear facturas proforma y otros documentos esenciales para tu negocio.",
-          "published_at": "Wed, 07 Oct 2026 18:30:00 GMT",
+          "title": "Shafer, MN",
+          "url": "https://www.shafermn.com/agenda_details_T48_R93.php",
+          "snippet": "Documents & Links: Tuesday September 05, 2023 09/05/23 09-05-23 Agenda Tuesday September 05, 2023 09/05/23 09-05-23 Minutes",
+          "published_at": "Thu, 04 Sep 2025 03:35:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:40.234682+00:00",
+          "discovered_at": "2026-10-08T00:39:57.618867+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Factura electrónica - Portal de trámites y servicios - SAT",
-          "url": "https://wwwmat.sat.gob.mx/personas/factura-electronica",
-          "snippet": "Servicio de facturación CFDI versión 4.0 Verifica tus facturas Factura electrónica en Mis cuentas Genera facturas por tu actividad como persona física",
-          "published_at": "Wed, 07 Oct 2026 07:03:00 GMT",
+          "title": "Shafer, MN",
+          "url": "https://www.shafermn.com/search.php?q=2026",
+          "snippet": "Shafer, MN Home search",
+          "published_at": "Tue, 10 Feb 2026 11:04:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:40.234716+00:00",
+          "discovered_at": "2026-10-08T00:39:57.618882+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -3715,7 +3805,7 @@
               "updated_at": "2026-10-07T15:37:32Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:38.954375+00:00",
+            "discovered_at": "2026-10-08T00:39:55.925573+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3751,7 +3841,7 @@
               "updated_at": "2026-10-07T02:06:30Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:38.954411+00:00",
+            "discovered_at": "2026-10-08T00:39:55.925602+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3789,7 +3879,7 @@
               "updated_at": "2026-10-06T23:47:56Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:38.954439+00:00",
+            "discovered_at": "2026-10-08T00:39:55.925618+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3823,7 +3913,7 @@
               "updated_at": "2026-10-06T17:20:30Z",
               "state": null
             },
-            "discovered_at": "2026-10-08T00:36:38.954463+00:00",
+            "discovered_at": "2026-10-08T00:39:55.925631+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3856,7 +3946,7 @@
             "published_at": "Wed, 28 Feb 2024 08:00:00 GMT",
             "engagement": {},
             "metadata": {},
-            "discovered_at": "2026-10-08T00:36:39.941778+00:00",
+            "discovered_at": "2026-10-08T00:39:57.441651+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -3882,31 +3972,28 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Portal de Trámites y Servicios del SAT",
-            "url": "https://www.sat.gob.mx/personas/factura-electronica",
-            "snippet": "Accede al portal del SAT para gestionar trámites y servicios relacionados con la factura electrónica de manera sencilla y eficiente.",
-            "published_at": "Tue, 06 Oct 2026 07:04:00 GMT",
+            "title": "Shafer, MN",
+            "url": "https://www.shafermn.com/agenda_details_T48_R64.php",
+            "snippet": "© 2025 • City of Shafer 17656 303rd Street Shafer, MN 55074 • Contact Us (651) 257-4726 Powered by revize., the Government Website Experts Login",
+            "published_at": "Tue, 24 Mar 2026 22:10:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:40.234596+00:00",
+            "discovered_at": "2026-10-08T00:39:57.618818+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
             "quality": {
-              "score": 30,
+              "score": 0,
               "screening": "reference",
               "reasons": [
-                "query_terms:sat",
-                "commercial_or_tool_context",
                 "publication_date_unverified",
+                "query_terms_not_found",
                 "context_only_not_first_person_demand",
                 "no_explicit_user_pain_in_snippet"
               ],
-              "matched_query_terms": [
-                "sat"
-              ],
+              "matched_query_terms": [],
               "published_age_days": null,
               "verified_volume": null,
               "verified_kd": null,
@@ -3916,31 +4003,28 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Portal de Trámites y Servicios del SAT",
-            "url": "https://www.sat.gob.mx/portal/public/tramites/factura-electronica",
-            "snippet": "Accede al portal del SAT para realizar trámites relacionados con la factura electrónica y obtener información sobre su emisión y recuperación.",
-            "published_at": "Tue, 06 Oct 2026 14:43:00 GMT",
+            "title": "Shafer, MN",
+            "url": "https://www.shafermn.com/agenda_details_T48_R37.php",
+            "snippet": "Documents & Links: Tuesday July 19, 2022 07/19/22 07-19-22CCAgenda Tuesday July 19, 2022 07/19/22 07-19-22CCMinutes",
+            "published_at": "Fri, 18 Jul 2025 17:54:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:40.234641+00:00",
+            "discovered_at": "2026-10-08T00:39:57.618850+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
             "quality": {
-              "score": 30,
+              "score": 0,
               "screening": "reference",
               "reasons": [
-                "query_terms:sat",
-                "commercial_or_tool_context",
                 "publication_date_unverified",
+                "query_terms_not_found",
                 "context_only_not_first_person_demand",
                 "no_explicit_user_pain_in_snippet"
               ],
-              "matched_query_terms": [
-                "sat"
-              ],
+              "matched_query_terms": [],
               "published_age_days": null,
               "verified_volume": null,
               "verified_kd": null,
@@ -3950,31 +4034,28 @@
           },
           {
             "platform": "bing_rss",
-            "title": "100 plantillas de facturas gratis para imprimir o descargar en PDF",
-            "url": "https://invoicehome.com/?locale=es",
-            "snippet": "En Invoice Home podrás generar, guardar, imprimir y enviar tantas veces como necesites todas tus facturas. Además, también te ofrecemos plantillas para crear facturas proforma y otros documentos esenciales para tu negocio.",
-            "published_at": "Wed, 07 Oct 2026 18:30:00 GMT",
+            "title": "Shafer, MN",
+            "url": "https://www.shafermn.com/agenda_details_T48_R93.php",
+            "snippet": "Documents & Links: Tuesday September 05, 2023 09/05/23 09-05-23 Agenda Tuesday September 05, 2023 09/05/23 09-05-23 Minutes",
+            "published_at": "Thu, 04 Sep 2025 03:35:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:40.234682+00:00",
+            "discovered_at": "2026-10-08T00:39:57.618867+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
             "quality": {
-              "score": 46,
+              "score": 0,
               "screening": "reference",
               "reasons": [
-                "query_terms:facturas",
-                "problem_or_request_language",
-                "commercial_or_tool_context",
                 "publication_date_unverified",
-                "context_only_not_first_person_demand"
+                "query_terms_not_found",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
               ],
-              "matched_query_terms": [
-                "facturas"
-              ],
+              "matched_query_terms": [],
               "published_age_days": null,
               "verified_volume": null,
               "verified_kd": null,
@@ -3984,32 +4065,28 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Factura electrónica - Portal de trámites y servicios - SAT",
-            "url": "https://wwwmat.sat.gob.mx/personas/factura-electronica",
-            "snippet": "Servicio de facturación CFDI versión 4.0 Verifica tus facturas Factura electrónica en Mis cuentas Genera facturas por tu actividad como persona física",
-            "published_at": "Wed, 07 Oct 2026 07:03:00 GMT",
+            "title": "Shafer, MN",
+            "url": "https://www.shafermn.com/search.php?q=2026",
+            "snippet": "Shafer, MN Home search",
+            "published_at": "Tue, 10 Feb 2026 11:04:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:40.234716+00:00",
+            "discovered_at": "2026-10-08T00:39:57.618882+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
             "quality": {
-              "score": 40,
+              "score": 0,
               "screening": "reference",
               "reasons": [
-                "query_terms:facturas,sat",
-                "commercial_or_tool_context",
                 "publication_date_unverified",
+                "query_terms_not_found",
                 "context_only_not_first_person_demand",
                 "no_explicit_user_pain_in_snippet"
               ],
-              "matched_query_terms": [
-                "facturas",
-                "sat"
-              ],
+              "matched_query_terms": [],
               "published_age_days": null,
               "verified_volume": null,
               "verified_kd": null,
@@ -4069,7 +4146,7 @@
     },
     {
       "query": "brotx optimizer v4",
-      "captured_at": "2026-10-08T00:36:40.497197+00:00",
+      "captured_at": "2026-10-08T00:39:57.904873+00:00",
       "sources": {
         "github_repos": {
           "status": "empty",
@@ -4101,60 +4178,60 @@
       "items": [
         {
           "platform": "bing_rss",
-          "title": "Earn Yield on Crypto: Lend Tokens on Solana | Jupiter Lend",
-          "url": "https://jup.ag/lend/earn",
-          "snippet": "Jupiter Lend is a distributed set of specially-developed smart contracts (each, a \" Smart Contract \") deployed on the Solana blockchain network or such other compatible blockchain network, as the case may be (each, the \" relevant Blockchain Network \") which is a peer-to-peer decentralized, non-custodial, pool-based interest rates platform that ...",
-          "published_at": "Wed, 07 Oct 2026 21:01:00 GMT",
+          "title": "Men's College Basketball Schedule - 2026 Season - ESPN",
+          "url": "https://www.espn.com/mens-college-basketball/schedule",
+          "snippet": "The complete 2026 NCAAM season schedule on ESPN. Includes game times, TV listings and ticket information for all Men's College Basketball games.",
+          "published_at": "Wed, 10 Jun 2026 06:47:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:41.697113+00:00",
+          "discovered_at": "2026-10-08T00:39:59.329636+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Your Next Move Starts Onchain | Jupiter",
-          "url": "https://jup.ag/deposit/onramp",
-          "snippet": "Buy crypto with Apple Pay, Google Pay, or your preferred supported payment method.",
-          "published_at": "Wed, 07 Oct 2026 12:33:00 GMT",
+          "title": "2027 March Madness: Men's NCAA tournament schedule, dates",
+          "url": "https://www.ncaa.com/news/basketball-men/article/2026-05-07/2027-march-madness-mens-ncaa-tournament-schedule-dates",
+          "snippet": "Check out the full March Madness tournament schedule below. You can also print out a bracket here.",
+          "published_at": "Fri, 21 Mar 2025 08:12:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:41.697157+00:00",
+          "discovered_at": "2026-10-08T00:39:59.329667+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Jupiter Limit Orders - Jupiter Documentation",
-          "url": "https://docs.jup.ag/user-docs/trade/spot/limit-orders",
-          "snippet": "Jupiter Limit Orders differ from a traditional Central Limit Order Book (CLOB). CLOBs match buyers and sellers directly and require dedicated market makers. Jupiter Limit Orders instead execute against onchain liquidity from multiple decentralised exchanges (DEXes), offering broader token coverage but with different execution behaviour.",
-          "published_at": "Sun, 04 Oct 2026 09:37:00 GMT",
+          "title": "NCAA Schedule, Standings, Results and Updates (Season 102) Men's ...",
+          "url": "https://www.teampilipinas.info/2019/07/ncaa-live-updates-schedule-standings.html",
+          "snippet": "The National Collegiate Athletic Association (NCAA) is an athletic association established in 1924. It is the oldest athletic league in the Philippines and is composed of ten colleges and universities in the Philippines.",
+          "published_at": "Wed, 07 Oct 2026 08:44:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:41.697196+00:00",
+          "discovered_at": "2026-10-08T00:39:59.329689+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
         },
         {
           "platform": "bing_rss",
-          "title": "Invites | Jupiter",
-          "url": "https://invite.jup.ag/",
-          "snippet": "Jupiter is one of the largest decentralized trading platform and one of the most active governance community in crypto. We're building the everything exchange for everyone.",
-          "published_at": "Mon, 05 Oct 2026 09:15:00 GMT",
+          "title": "Men's College Basketball Schedule 2026-27 - CBS Sports",
+          "url": "https://www.cbssports.com/college-basketball/schedule",
+          "snippet": "Get the full NCAA Men's College Basketball schedule, including matchups, dates, times and TV and ticket information.",
+          "published_at": "Wed, 07 Oct 2026 09:34:00 GMT",
           "engagement": {},
           "metadata": {
             "fallback_for": "duckduckgo"
           },
-          "discovered_at": "2026-10-08T00:36:41.697226+00:00",
+          "discovered_at": "2026-10-08T00:39:59.329706+00:00",
           "volume": null,
           "kd": null,
           "cpc": null
@@ -4183,15 +4260,15 @@
         "competitor_references": [
           {
             "platform": "bing_rss",
-            "title": "Earn Yield on Crypto: Lend Tokens on Solana | Jupiter Lend",
-            "url": "https://jup.ag/lend/earn",
-            "snippet": "Jupiter Lend is a distributed set of specially-developed smart contracts (each, a \" Smart Contract \") deployed on the Solana blockchain network or such other compatible blockchain network, as the case may be (each, the \" relevant Blockchain Network \") which is a peer-to-peer decentralized, non-custodial, pool-based interest rates platform that ...",
-            "published_at": "Wed, 07 Oct 2026 21:01:00 GMT",
+            "title": "Men's College Basketball Schedule - 2026 Season - ESPN",
+            "url": "https://www.espn.com/mens-college-basketball/schedule",
+            "snippet": "The complete 2026 NCAAM season schedule on ESPN. Includes game times, TV listings and ticket information for all Men's College Basketball games.",
+            "published_at": "Wed, 10 Jun 2026 06:47:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:41.697113+00:00",
+            "discovered_at": "2026-10-08T00:39:59.329636+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -4214,47 +4291,15 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Your Next Move Starts Onchain | Jupiter",
-            "url": "https://jup.ag/deposit/onramp",
-            "snippet": "Buy crypto with Apple Pay, Google Pay, or your preferred supported payment method.",
-            "published_at": "Wed, 07 Oct 2026 12:33:00 GMT",
+            "title": "2027 March Madness: Men's NCAA tournament schedule, dates",
+            "url": "https://www.ncaa.com/news/basketball-men/article/2026-05-07/2027-march-madness-mens-ncaa-tournament-schedule-dates",
+            "snippet": "Check out the full March Madness tournament schedule below. You can also print out a bracket here.",
+            "published_at": "Fri, 21 Mar 2025 08:12:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:41.697157+00:00",
-            "volume": null,
-            "kd": null,
-            "cpc": null,
-            "quality": {
-              "score": 5,
-              "screening": "reference",
-              "reasons": [
-                "commercial_or_tool_context",
-                "publication_date_unverified",
-                "query_terms_not_found",
-                "context_only_not_first_person_demand",
-                "no_explicit_user_pain_in_snippet"
-              ],
-              "matched_query_terms": [],
-              "published_age_days": null,
-              "verified_volume": null,
-              "verified_kd": null,
-              "verified_cpc": null,
-              "is_verified_opportunity": false
-            }
-          },
-          {
-            "platform": "bing_rss",
-            "title": "Jupiter Limit Orders - Jupiter Documentation",
-            "url": "https://docs.jup.ag/user-docs/trade/spot/limit-orders",
-            "snippet": "Jupiter Limit Orders differ from a traditional Central Limit Order Book (CLOB). CLOBs match buyers and sellers directly and require dedicated market makers. Jupiter Limit Orders instead execute against onchain liquidity from multiple decentralised exchanges (DEXes), offering broader token coverage but with different execution behaviour.",
-            "published_at": "Sun, 04 Oct 2026 09:37:00 GMT",
-            "engagement": {},
-            "metadata": {
-              "fallback_for": "duckduckgo"
-            },
-            "discovered_at": "2026-10-08T00:36:41.697196+00:00",
+            "discovered_at": "2026-10-08T00:39:59.329667+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -4277,15 +4322,46 @@
           },
           {
             "platform": "bing_rss",
-            "title": "Invites | Jupiter",
-            "url": "https://invite.jup.ag/",
-            "snippet": "Jupiter is one of the largest decentralized trading platform and one of the most active governance community in crypto. We're building the everything exchange for everyone.",
-            "published_at": "Mon, 05 Oct 2026 09:15:00 GMT",
+            "title": "NCAA Schedule, Standings, Results and Updates (Season 102) Men's ...",
+            "url": "https://www.teampilipinas.info/2019/07/ncaa-live-updates-schedule-standings.html",
+            "snippet": "The National Collegiate Athletic Association (NCAA) is an athletic association established in 1924. It is the oldest athletic league in the Philippines and is composed of ten colleges and universities in the Philippines.",
+            "published_at": "Wed, 07 Oct 2026 08:44:00 GMT",
             "engagement": {},
             "metadata": {
               "fallback_for": "duckduckgo"
             },
-            "discovered_at": "2026-10-08T00:36:41.697226+00:00",
+            "discovered_at": "2026-10-08T00:39:59.329689+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 0,
+              "screening": "reference",
+              "reasons": [
+                "publication_date_unverified",
+                "query_terms_not_found",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Men's College Basketball Schedule 2026-27 - CBS Sports",
+            "url": "https://www.cbssports.com/college-basketball/schedule",
+            "snippet": "Get the full NCAA Men's College Basketball schedule, including matchups, dates, times and TV and ticket information.",
+            "published_at": "Wed, 07 Oct 2026 09:34:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-10-08T00:39:59.329706+00:00",
             "volume": null,
             "kd": null,
             "cpc": null,
@@ -4327,7 +4403,7 @@
       "repeat_links_across_queries": []
     }
   ],
-  "unique_evidence_links_across_queries": 84,
+  "unique_evidence_links_across_queries": 89,
   "warnings": [
     "Search occurrences, heuristic scores and user issues do not prove search volume or willingness to pay.",
     "Article/news hits and competitor repositories are contextual leads, not verified buyer demand.",

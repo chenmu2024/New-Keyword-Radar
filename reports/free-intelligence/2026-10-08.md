@@ -7,11 +7,11 @@ Sources can be rate-limited. A zero-lead day is not evidence of zero demand.
 
 Market: US · Topic: payroll · Intent: integration_pain · Category: specific_buyer_problem
 
-Queries by source: github_repos = payroll integration, github_issues = payroll integration, google_news_rss = payroll integration error, duckduckgo = payroll integration error, reddit = payroll integration error
+Queries by source: github_repos = payroll integration, github_issues = payroll integration, google_news_rss = payroll integration error, duckduckgo = payroll integration error, reddit = payroll integration error, hackernews_ask = payroll integration
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=ok
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=ok, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 20 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 24 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
@@ -21,7 +21,7 @@ Competitor / contextual references: 12
 - [alfredang/AI-LMS-TMS](https://github.com/alfredang/AI-LMS-TMS)
 - [api-evangelist/playroll](https://github.com/api-evangelist/playroll)
 
-Discarded/noise: 8; repeated URLs across queries: 0
+Discarded/noise: 12; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -29,13 +29,13 @@ Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payab
 
 Market: US · Topic: retail_operations · Intent: manual_sync_pain · Category: specific_buyer_problem
 
-Queries by source: github_repos = inventory sync, github_issues = inventory sync, google_news_rss = inventory sync spreadsheet, duckduckgo = inventory sync spreadsheet, reddit = inventory sync spreadsheet
+Queries by source: github_repos = inventory sync, github_issues = inventory sync, google_news_rss = inventory sync spreadsheet, duckduckgo = inventory sync spreadsheet, reddit = inventory sync spreadsheet, hackernews_ask = inventory sync
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
 
-**Buyer-pain review leads:** 1 / 14 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 18 raw unique links. Filtered, not verified.
 
-- [Build complete source-to-Legacy feature and route acceptance matrix](https://github.com/MALIEV-Co-Ltd/Legacy.Maliev.Workflows/issues/98) · github_issues · triage 69/100 · query_terms:inventory, problem_or_request_language, commercial_or_tool_context, published_within_30_days
+- No qualifying buyer-pain evidence. Do not infer absence of demand.
 
 Competitor / contextual references: 12
 
@@ -43,7 +43,7 @@ Competitor / contextual references: 12
 - [bertinaanalogical656/cmd](https://github.com/bertinaanalogical656/cmd)
 - [dezzaCodes/flower-inventory](https://github.com/dezzaCodes/flower-inventory)
 
-Discarded/noise: 1; repeated URLs across queries: 0
+Discarded/noise: 6; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -61,9 +61,9 @@ Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degra
 
 Competitor / contextual references: 11
 
+- [Vs-Shin/folha_de_pagamento](https://github.com/Vs-Shin/folha_de_pagamento)
 - [aureliocastru/Folha-de-Pagamento-Ilnet](https://github.com/aureliocastru/Folha-de-Pagamento-Ilnet)
 - [Paulocpjunior/Consultor-DP-Folhapagamentos](https://github.com/Paulocpjunior/Consultor-DP-Folhapagamentos)
-- [Guilherme-Porto-Silva/FolhaPagamentoServidorCorrigida](https://github.com/Guilherme-Porto-Silva/FolhaPagamentoServidorCorrigida)
 
 Discarded/noise: 2; repeated URLs across queries: 0
 
@@ -77,9 +77,9 @@ Queries by source: github_repos = conciliação bancária, github_issues = conci
 
 Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
 
-**Buyer-pain review leads:** 1 / 10 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 10 raw unique links. Filtered, not verified.
 
-- [Revisar e fortalecer Rendimentos do trabalho ponta a ponta](https://github.com/felipe-urgal/controle-gastos/issues/806) · github_issues · triage 84/100 · query_terms:bancária,conciliação, problem_or_request_language, commercial_or_tool_context, published_within_7_days
+- No qualifying buyer-pain evidence. Do not infer absence of demand.
 
 Competitor / contextual references: 8
 
@@ -87,7 +87,7 @@ Competitor / contextual references: 8
 - [PauloHenriqueL/hamilton_whatsapp](https://github.com/PauloHenriqueL/hamilton_whatsapp)
 - [hologram-gestao/auditoria-lancamentos](https://github.com/hologram-gestao/auditoria-lancamentos)
 
-Discarded/noise: 1; repeated URLs across queries: 0
+Discarded/noise: 2; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -99,17 +99,17 @@ Queries by source: github_repos = nómina excel, github_issues = nómina excel, 
 
 Sources: github_repos=ok, github_issues=empty, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
 
-**Buyer-pain review leads:** 0 / 11 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 8 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 10
+Competitor / contextual references: 8
 
 - [Camilo1408/Nomina-Xpress](https://github.com/Camilo1408/Nomina-Xpress)
 - [7Freeza/liquidador-nomina](https://github.com/7Freeza/liquidador-nomina)
 - [chrisbalmar/rrhh-doc-automation](https://github.com/chrisbalmar/rrhh-doc-automation)
 
-Discarded/noise: 1; repeated URLs across queries: 0
+Discarded/noise: 0; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -149,9 +149,9 @@ Sources: github_repos=empty, github_issues=empty, google_news_rss=empty, duckduc
 
 Competitor / contextual references: 4
 
-- [Earn Yield on Crypto: Lend Tokens on Solana | Jupiter Lend](https://jup.ag/lend/earn)
-- [Your Next Move Starts Onchain | Jupiter](https://jup.ag/deposit/onramp)
-- [Jupiter Limit Orders - Jupiter Documentation](https://docs.jup.ag/user-docs/trade/spot/limit-orders)
+- [Men's College Basketball Schedule - 2026 Season - ESPN](https://www.espn.com/mens-college-basketball/schedule)
+- [2027 March Madness: Men's NCAA tournament schedule, dates](https://www.ncaa.com/news/basketball-men/article/2026-05-07/2027-march-madness-mens-ncaa-tournament-schedule-dates)
+- [NCAA Schedule, Standings, Results and Updates (Season 102) Men's ...](https://www.teampilipinas.info/2019/07/ncaa-live-updates-schedule-standings.html)
 
 Discarded/noise: 0; repeated URLs across queries: 0
 
