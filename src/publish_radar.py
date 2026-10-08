@@ -105,9 +105,9 @@ def merge_pending(remote: dict, local: dict) -> dict:
     return dict(sorted_items[:250])
 
 
-def git(*argv: str, check: bool = True) -> subprocess.CompletedProcess:
+def git(*argv: str, cwd: Path | None = None, check: bool = True) -> subprocess.CompletedProcess:
     cmd = ["git", *argv]
-    return subprocess.run(cmd, text=True, capture_output=True, check=check)
+    return subprocess.run(cmd, cwd=cwd, text=True, capture_output=True, check=check)
 
 
 def publish(root: Path, max_attempts: int = 6):
@@ -134,8 +134,8 @@ def publish(root: Path, max_attempts: int = 6):
         local_seen = read_json(backup / "state/seen.json")
         local_pending = read_json(backup / "state/pending.json")
         for attempt in range(1, max_attempts + 1):
-            git("fetch", "origin", "main")
-            git("reset", "--hard", "origin/main")
+            git("fetch", "origin", "main", cwd=root)
+            git("reset", "--hard", "origin/main", cwd=root)
             remote_report = read_json(root / "data/latest.json")
             local_is_newer = timestamp(local_report["generated_at"]) > timestamp(remote_report.get("generated_at"))
             if local_is_newer:
@@ -149,12 +149,12 @@ def publish(root: Path, max_attempts: int = 6):
             write_json(root / "state/pending.json", merge_pending(read_json(root / "state/pending.json"), local_pending))
             # Recompute from the winning report; never carry over a stale companion file.
             business_review(root)
-            git("add", "-A", "--", "data", "reports", "state")
-            if git("diff", "--cached", "--quiet", check=False).returncode == 0:
+            git("add", "-A", "--", "data", "reports", "state", cwd=root)
+            if git("diff", "--cached", "--quiet", cwd=root, check=False).returncode == 0:
                 print("Already up to date; nothing to publish.")
                 return
-            git("commit", "-m", f"data: publish reconciled radar output {day}")
-            pushed = git("push", "origin", "HEAD:main", check=False)
+            git("commit", "-m", f"data: publish reconciled radar output {day}", cwd=root)
+            pushed = git("push", "origin", "HEAD:main", cwd=root, check=False)
             if pushed.returncode == 0:
                 print(f"Published output (attempt {attempt}, local_report_newer={local_is_newer}).")
                 return
