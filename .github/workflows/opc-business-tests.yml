@@ -1,0 +1,29 @@
+name: OPC Business Gate Tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/opc_business_gate.py"
+      - "tests/test_opc_business_gate.py"
+      - ".github/workflows/opc-business-tests.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  business-evidence-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Evidence gate unit tests
+        run: python -m unittest discover -s tests -p "test_opc_business_gate.py" -v
+      - name: Read-only business review smoke test
+        run: |
+          python src/opc_business_gate.py
+          python -c "import json; x=json.load(open('data/business/latest.json')); assert 'assessments' in x and 'formal_candidate_count' in x"
