@@ -239,6 +239,30 @@ def reddit(query, limit=8):
     return result, failure
 
 
+def hackernews_ask(query, limit=8):
+    """Public Algolia Ask HN search; read-only, no key or proxy."""
+    url = "https://hn.algolia.com/api/v1/search_by_date?" + urlencode({
+        "query": query, "tags": "ask_hn", "hitsPerPage": min(limit, 30)
+    })
+    payload = json.loads(cached_request(url, ttl=1800)[0])
+    rows = []
+    for hit in payload.get("hits", [])[:limit]:
+        ident = str(hit.get("objectID") or "").strip()
+        title = hit.get("title") or hit.get("story_title") or ""
+        if not ident.isdigit():
+            continue
+        body = re.sub(r"<[^>]+>", " ", str(hit.get("story_text") or ""))
+        obj = row("hackernews_ask", title,
+                  "https://news.ycombinator.com/item?id=" + ident,
+                  snippet=body, published=hit.get("created_at"),
+                  metrics={"points": hit.get("points"), "comments": hit.get("num_comments")},
+                  extra={"author": hit.get("author"), "source": "Ask HN user-authored question",
+                         "buyer_intent_verified": False})
+        if obj:
+            rows.append(obj)
+    return rows
+
+
 def image_candidates(query, limit=8):
     # Wikimedia Commons file metadata includes machine-readable license URLs.
     params = {"action": "query", "generator": "search", "gsrsearch": "filetype:bitmap " + query,
@@ -312,6 +336,7 @@ def collect(query, platforms, limit=8, source_queries=None):
         "duckduckgo": lambda: duckduckgo(q("duckduckgo"), limit),
         "bing_rss": lambda: bing_rss(q("bing_rss"), limit),
         "reddit": lambda: reddit(q("reddit"), limit),
+        "hackernews_ask": lambda: hackernews_ask(q("hackernews_ask"), limit),
         "images": lambda: image_candidates(q("images"), limit),
     }
     if not query.strip() or limit < 1 or limit > 30:

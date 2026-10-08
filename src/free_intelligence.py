@@ -88,8 +88,13 @@ def run(max_queries=7, platforms=None, limit=4):
     for plan in selected:
         phrase = plan["query"]
         target = plan.get("issue_query") or phrase
-        overrides = {"github_issues": target, "github_repos": target}
-        result = screen_result(collect(phrase, sources, limit=limit, source_queries=overrides))
+        overrides = {"github_issues": target, "github_repos": target,
+                     "hackernews_ask": target}
+        # Ask HN search is predominantly English. Do not pretend its lack of
+        # Portuguese/Spanish hits is evidence of absent demand in BR/MX.
+        applicable = [source for source in sources
+                      if source != "hackernews_ask" or plan.get("locale") == "en"]
+        result = screen_result(collect(phrase, applicable, limit=limit, source_queries=overrides))
         result["research_scope"] = {k: v for k, v in plan.items() if k != "query"}
         # A URL appearing in multiple query sets is one lead, not independent validation.
         repeats = []

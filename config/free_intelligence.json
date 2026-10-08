@@ -9,7 +9,8 @@
     "github_issues",
     "google_news_rss",
     "duckduckgo",
-    "reddit"
+    "reddit",
+    "hackernews_ask"
   ],
   "exclusions": [
     "election",
@@ -26,7 +27,7 @@
     "earthquake",
     "breaking news"
   ],
-  "notes": "Daily research only; rotate 2 pain-oriented queries per language across EN-US, PT-BR, ES-MX; add at most one relevant rising query. Query metrics never inferred. Original Trends/user SEO keywords unchanged.",
+  "notes": "Daily research only; rotate 2 pain-oriented queries per language across EN-US, PT-BR, ES-MX; add at most one relevant rising query. Query metrics never inferred. Original Trends/user SEO keywords unchanged. Hacker News Ask HN is used only for US English searches; public no-key index and no proof of purchase intent.",
   "pain_query_groups": {
     "en": [
       {
