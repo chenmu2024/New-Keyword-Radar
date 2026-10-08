@@ -1,12 +1,12 @@
 {
   "date": "2026-10-08",
-  "generated_at": "2026-10-08T09:02:15.677266+08:00",
+  "generated_at": "2026-10-08T09:03:51.527707+08:00",
   "schema_version": 1,
   "status": "research_queue_not_approved_opportunities",
   "total_topics": 7,
-  "firsthand_qualified_topics": 1,
+  "firsthand_qualified_topics": 0,
   "build_ready_count": 0,
-  "independent_discovery_urls": 24,
+  "independent_discovery_urls": 30,
   "market_counts": {
     "BR": 2,
     "MX": 2,
@@ -15,62 +15,68 @@
   },
   "topics": [
     {
-      "id": "68383ec8c9c3c2",
+      "id": "5782333daba9da",
       "market": "US",
       "language": "en",
-      "research_topic": "retail_operations",
-      "research_intent": "manual_sync_pain",
-      "query_used_for_discovery": "inventory sync spreadsheet",
+      "research_topic": "payroll",
+      "research_intent": "integration_pain",
+      "query_used_for_discovery": "payroll integration error",
       "keyword_candidate": null,
       "keyword_is_validated": false,
-      "stage": "needs_independent_corroboration",
-      "priority": "review_first",
-      "firsthand_evidence_count": 1,
-      "attributable_independent_authors": 1,
-      "contextual_reference_count": 2,
-      "firsthand_evidence": [
-        {
-          "title": "inventory(capabilities): classify Studio-owned authoring operations",
-          "url": "https://github.com/ankhorage/studio/issues/788",
-          "source": "github_issues",
-          "published_at": "2026-10-08T01:01:04Z",
-          "author": "artiphishle",
-          "heuristic_score": 62,
-          "verified_willingness_to_pay": false
-        }
-      ],
+      "stage": "needs_firsthand_problem_evidence",
+      "priority": "source_research",
+      "firsthand_evidence_count": 0,
+      "attributable_independent_authors": 0,
+      "contextual_reference_count": 9,
+      "firsthand_evidence": [],
       "contextual_references": [
         {
-          "title": "mcsilva711-cpu/ieo-privacy",
-          "url": "https://github.com/mcsilva711-cpu/ieo-privacy",
+          "title": "Daclify/daclify-backend-modules",
+          "url": "https://github.com/Daclify/daclify-backend-modules",
           "source": "github_repositories",
-          "published_at": "2026-10-08T00:34:34Z",
+          "published_at": "2026-10-05T12:37:09Z",
           "author": null,
-          "heuristic_score": 49,
+          "heuristic_score": 61,
           "verified_willingness_to_pay": false
         },
         {
-          "title": "dezzaCodes/flower-inventory",
-          "url": "https://github.com/dezzaCodes/flower-inventory",
+          "title": "api-evangelist/playroll",
+          "url": "https://github.com/api-evangelist/playroll",
           "source": "github_repositories",
-          "published_at": "2026-10-02T15:54:56Z",
+          "published_at": "2026-07-01T21:17:04Z",
           "author": null,
-          "heuristic_score": 39,
+          "heuristic_score": 47,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "BrightHR Announces Xero Payroll Integration To Combat Wage Theft And Streamline Compliance - Scoop - New Zealand News",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVHNaRVpqZ05WVUNVakZwM1g5X2d5Yy1GUFhHY0NFZ3g2ZUxuWS15bllnN3UydFE0NlJFdFhEQndNaTVSTllWSS1UUks3WTVEVk9QQ0ZFUWxuRTJ4WHpqSHFnaEFDTG0zdjEtLTdYT3V3SUdsekw1MGtfdEt4d2Q2ZkdESmdFYW10NTFzbTdlbXh0YzN0eFFHNHVWQ1FNQzNHWmFGUHlMcUtNb1Z4RlkzT01kazdwN1BZdENnbEFfSnNJNmNWc1FTYWNFQQ?oc=5",
+          "source": "google_news_rss",
+          "published_at": "Wed, 07 Oct 2026 22:00:10 GMT",
+          "author": null,
+          "heuristic_score": 44,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "BrightHR links with Xero Payroll to cut SME errors - IT Brief New Zealand",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2V5d1RCM1pXa3oxY3E0UWVXT1VkSnZQT1ZOSVFEckdBajFUTEdfTGUxTm9KTm9MN3Y3SmIzRWFxU3BMX2tMZmZlUUx4MkNWSGVtc1U3T0tRbnkzQkNuY3I0d25Oa29GVE02WnNxSWozcW5TZlNyQm9jc01oYjA4NU9KRE4?oc=5",
+          "source": "google_news_rss",
+          "published_at": "Wed, 07 Oct 2026 21:56:00 GMT",
+          "author": null,
+          "heuristic_score": 50,
           "verified_willingness_to_pay": false
         }
       ],
       "source_health": {
         "github_repos": "ok",
         "github_issues": "ok",
-        "google_news_rss": "error",
+        "google_news_rss": "ok",
         "duckduckgo": "degraded",
-        "reddit": "degraded",
+        "reddit": "ok",
         "hackernews_ask": "ok"
       },
       "unreliable_sources": [
-        "google_news_rss",
-        "duckduckgo",
-        "reddit"
+        "duckduckgo"
       ],
       "evidence_gaps": [
         "independent_firsthand_user_reports",
@@ -100,69 +106,60 @@
       "note": "No verified keyword or monetization data; query is a research prompt only."
     },
     {
-      "id": "5782333daba9da",
+      "id": "68383ec8c9c3c2",
       "market": "US",
       "language": "en",
-      "research_topic": "payroll",
-      "research_intent": "integration_pain",
-      "query_used_for_discovery": "payroll integration error",
+      "research_topic": "retail_operations",
+      "research_intent": "manual_sync_pain",
+      "query_used_for_discovery": "inventory sync spreadsheet",
       "keyword_candidate": null,
       "keyword_is_validated": false,
       "stage": "needs_firsthand_problem_evidence",
       "priority": "source_research",
       "firsthand_evidence_count": 0,
       "attributable_independent_authors": 0,
-      "contextual_reference_count": 5,
+      "contextual_reference_count": 3,
       "firsthand_evidence": [],
       "contextual_references": [
         {
-          "title": "Daclify/daclify-backend-modules",
-          "url": "https://github.com/Daclify/daclify-backend-modules",
+          "title": "mcsilva711-cpu/ieo-privacy",
+          "url": "https://github.com/mcsilva711-cpu/ieo-privacy",
           "source": "github_repositories",
-          "published_at": "2026-10-05T12:37:09Z",
+          "published_at": "2026-10-08T00:34:34Z",
           "author": null,
-          "heuristic_score": 61,
+          "heuristic_score": 49,
           "verified_willingness_to_pay": false
         },
         {
-          "title": "api-evangelist/playroll",
-          "url": "https://github.com/api-evangelist/playroll",
+          "title": "dezzaCodes/flower-inventory",
+          "url": "https://github.com/dezzaCodes/flower-inventory",
           "source": "github_repositories",
-          "published_at": "2026-07-01T21:17:04Z",
+          "published_at": "2026-10-02T15:54:56Z",
           "author": null,
-          "heuristic_score": 47,
+          "heuristic_score": 39,
           "verified_willingness_to_pay": false
         },
         {
-          "title": "Payroll, HR and Tax Services | ADP Official Site",
-          "url": "https://www.adp.com/",
-          "source": "bing_rss",
-          "published_at": "Wed, 07 Oct 2026 14:13:00 GMT",
+          "title": "I Tested the Best Spreadsheet Software for 2026 - G2 Learning Hub",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuNE0zX2E5UnNTZlVlQzBNMS1pbUdqQ2NJRU9MX1BrZDR6YU14SkJtZ0dSemw2QU9Gd0pid3dRSW01OVB4M2ZpMWJlTWtyU1FEVDRqcDVOVlBzZ9IBakFVX3lxTE5QbEc1YlNUV1p1aERBNHpBMjlWVjU4WXJNOGtGNVlNUGE2T1JXX0xPOXdOVWxnRzU4emtzZXZrVG5uR1ZSNEJKVXA1U05CSFZvSUpOOGgyLVVUbC1qWE1uaWJUeFRmMVFPWkE?oc=5",
+          "source": "google_news_rss",
+          "published_at": "Fri, 07 Aug 2026 07:00:00 GMT",
           "author": null,
-          "heuristic_score": 30,
-          "verified_willingness_to_pay": false
-        },
-        {
-          "title": "Payroll Services for Small Businesses | QuickBooks",
-          "url": "https://quickbooks.intuit.com/payroll",
-          "source": "bing_rss",
-          "published_at": "Tue, 06 Oct 2026 20:41:00 GMT",
-          "author": null,
-          "heuristic_score": 30,
+          "heuristic_score": 34,
           "verified_willingness_to_pay": false
         }
       ],
       "source_health": {
         "github_repos": "ok",
         "github_issues": "ok",
-        "google_news_rss": "error",
+        "google_news_rss": "ok",
         "duckduckgo": "degraded",
-        "reddit": "ok",
+        "reddit": "degraded",
         "hackernews_ask": "ok"
       },
       "unreliable_sources": [
-        "google_news_rss",
-        "duckduckgo"
+        "duckduckgo",
+        "reddit"
       ],
       "evidence_gaps": [
         "independent_firsthand_user_reports",
@@ -238,12 +235,11 @@
       "source_health": {
         "github_repos": "ok",
         "github_issues": "ok",
-        "google_news_rss": "error",
+        "google_news_rss": "empty",
         "duckduckgo": "degraded",
         "reddit": "degraded"
       },
       "unreliable_sources": [
-        "google_news_rss",
         "duckduckgo",
         "reddit"
       ],
@@ -287,7 +283,7 @@
       "priority": "source_research",
       "firsthand_evidence_count": 0,
       "attributable_independent_authors": 0,
-      "contextual_reference_count": 7,
+      "contextual_reference_count": 8,
       "firsthand_evidence": [],
       "contextual_references": [
         {
@@ -318,24 +314,23 @@
           "verified_willingness_to_pay": false
         },
         {
-          "title": "Folha de S.Paulo",
-          "url": "https://www.folha.uol.com.br/",
-          "source": "bing_rss",
-          "published_at": "Wed, 07 Oct 2026 07:46:00 GMT",
+          "title": "Não é verdade que existe documento secreto revelando falhas na apuração das eleições de 2018 - Folha de S.Paulo",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPV0hxQm5rbGpqYVVYVGVpVUJTX0VJVlVmNW1OM1pxNGdvYlpWaENNcTkzYkNkX2NFMGVjNU9WTkJobERmemZUUmljSjg3RzVzTWtGaWMtZHFJRVV3RzJjU0VwR1hyUEM0TDJDUnBzbHF5Mmk3ZFZsNlpTazRrSS0zTVprTW0zZUROb1I5Vk5aZlVBRWMtS0Z4aHJvc0tFZU5DUTh0MzY3QV9TY1RwVUJfekFwOVE3NWFKallMY0Q5Sm5yaXBDRkhiODJfeWJkNi1ESTlDV1l5Sm9QZ9IB3wFBVV95cUxOaFBjUnpTR0s2ejUzc2g0RDIzY1V3Q2JwazNTSk9MdTQ0YXdZWFlsR2x2QXhoWGN2d0tsRnRaVGsyWjdndk1Ic05QdmZ5bEFJTEhzZFkzTzVTVlZpUGFLT1hPYWp0RjlKZkhRd3dPb25nVFlIUmVOMkpsTjlwVHpMYUIwcEJFdmNacUtGQkZfd2hydG9ZTEp2ZDRqRXRTSlFwaUpvSk1sTFJRd1psSkZSMF9GNElGdkpjTENQZXdvdlM0UThkWnlnSWRzX1A4U01Xa3FXZlVvSk9Fb1FHbURZ?oc=5",
+          "source": "google_news_rss",
+          "published_at": "Mon, 01 Aug 2022 07:00:00 GMT",
           "author": null,
-          "heuristic_score": 30,
+          "heuristic_score": 50,
           "verified_willingness_to_pay": false
         }
       ],
       "source_health": {
         "github_repos": "ok",
         "github_issues": "ok",
-        "google_news_rss": "error",
+        "google_news_rss": "ok",
         "duckduckgo": "degraded",
         "reddit": "degraded"
       },
       "unreliable_sources": [
-        "google_news_rss",
         "duckduckgo",
         "reddit"
       ],
@@ -422,12 +417,11 @@
       "source_health": {
         "github_repos": "ok",
         "github_issues": "empty",
-        "google_news_rss": "error",
+        "google_news_rss": "empty",
         "duckduckgo": "degraded",
         "reddit": "degraded"
       },
       "unreliable_sources": [
-        "google_news_rss",
         "duckduckgo",
         "reddit"
       ],
@@ -471,7 +465,7 @@
       "priority": "source_research",
       "firsthand_evidence_count": 0,
       "attributable_independent_authors": 0,
-      "contextual_reference_count": 2,
+      "contextual_reference_count": 3,
       "firsthand_evidence": [],
       "contextual_references": [
         {
@@ -491,18 +485,27 @@
           "author": null,
           "heuristic_score": 61,
           "verified_willingness_to_pay": false
+        },
+        {
+          "title": "SAT duplica la recaudación por fiscalizar operaciones de comercio exterior - Expansión",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdnJPVDFuSlFyLUJFWkVIR2pVVUdwQTFYR0p3ZEhXWTJYckphVjVTelRfN3lzaENrR0dELXBPaXJNa3lsc0lNLUF1TmxFdDZMSmMxWFhpR2hSbDhXOUp3eGFieUlHSGZLcnJDMWdGZmFvOHBxSWtHRzUzc2luZW5mSThR0gGPAUFVX3lxTE5ZQi1rcF83WldUT3JZMnhsT28yRFUxMlhtMmR4UGxJNnlsUy1TZkJUQVVsOEktcF94NGZqVHB2T09lSlh2WktNTnhuWFVPS1Job0psWV80dzdUZ05RWnRMWDRPdG5WVFlHakdvcW5PcGVtT09ZZlNOMEdwR282bXV3Q1hMX3NPdzRGUWlKM3hV?oc=5",
+          "source": "google_news_rss",
+          "published_at": "Wed, 28 Feb 2024 08:00:00 GMT",
+          "author": null,
+          "heuristic_score": 34,
+          "verified_willingness_to_pay": false
         }
       ],
       "source_health": {
         "github_repos": "ok",
         "github_issues": "ok",
-        "google_news_rss": "error",
+        "google_news_rss": "ok",
         "duckduckgo": "degraded",
-        "reddit": "ok"
+        "reddit": "degraded"
       },
       "unreliable_sources": [
-        "google_news_rss",
-        "duckduckgo"
+        "duckduckgo",
+        "reddit"
       ],
       "evidence_gaps": [
         "independent_firsthand_user_reports",
@@ -550,12 +553,11 @@
       "source_health": {
         "github_repos": "empty",
         "github_issues": "empty",
-        "google_news_rss": "error",
+        "google_news_rss": "empty",
         "duckduckgo": "degraded",
         "reddit": "degraded"
       },
       "unreliable_sources": [
-        "google_news_rss",
         "duckduckgo",
         "reddit"
       ],
