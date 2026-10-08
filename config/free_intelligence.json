@@ -1,0 +1,23 @@
+{
+  "opportunity_queries": [
+    "micro SaaS feature request",
+    "problema ferramenta online Brasil",
+    "problema herramienta online México"
+  ],
+  "platforms": [
+    "github_repos",
+    "github_issues",
+    "google_news_rss",
+    "duckduckgo",
+    "reddit"
+  ],
+  "exclusions": [
+    "election",
+    "celebrity",
+    "lottery",
+    "earthquake",
+    "season 4",
+    "movie review"
+  ],
+  "notes": "Research queries only (EN + PT + ES); fourth daily slot takes Google Trends seed-scout discovery. Original keyword and Trends gates never change."
+}
