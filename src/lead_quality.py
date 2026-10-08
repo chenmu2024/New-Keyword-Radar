@@ -107,7 +107,11 @@ def score(item, query, reference=None):
         pts -= 15
         notes.append("query_terms_not_found")
     # A result is only a REVIEW lead, never a verified opportunity.
-    eligible = (not spam and bool(matched) and (pain or monetization)
+    # For broad exploratory queries, explicit buyer pain + tooling context
+    # can qualify for review even when the title uses different vocabulary.
+    alternative_intent = pain and monetization and source in ("github_issues", "reddit_rss")
+    eligible = (not spam and (bool(matched) or alternative_intent)
+                and (pain or monetization)
                 and pts >= EVIDENCE_MIN and bool(item.get("url")))
     if source not in SOURCE_WEIGHT:
         eligible = False
