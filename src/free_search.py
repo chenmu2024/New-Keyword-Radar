@@ -218,7 +218,7 @@ def reddit(query, limit=8):
         failure = "Reddit public RSS returned no items"
     except Exception as exc:
         failure = type(exc).__name__ + ": " + str(exc)[:180]
-    result = google_news("site:reddit.com " + query, limit)
+    result = [item for item in duckduckgo("site:reddit.com " + query, limit) if (urlparse(item.get("url", "")).hostname or "").endswith("reddit.com")]
     for item in result:
         item["platform"] = "reddit_index_fallback"
         item["metadata"]["fallback_reason"] = failure
