@@ -17,6 +17,20 @@
       ],
       "discovery_count": 70,
       "status": "ok"
+    },
+    {
+      "start_index": 35,
+      "generated_at": "2026-10-08T06:06:29.704879+00:00",
+      "local_generated_at": "2026-10-08T14:06:29.704879+08:00",
+      "seed_batch": [
+        "scheduler",
+        "converter",
+        "viewer",
+        "extractor",
+        "monitor"
+      ],
+      "discovery_count": 52,
+      "status": "ok"
     }
   ],
   "scanned_seeds": [
@@ -24,7 +38,12 @@
     "planner",
     "tracker",
     "recorder",
-    "optimizer"
+    "optimizer",
+    "scheduler",
+    "converter",
+    "viewer",
+    "extractor",
+    "monitor"
   ],
   "discoveries": [
     {
@@ -44,6 +63,12 @@
       "query": "cbs tracker season 4 cast changes",
       "rise_value": 12700.0,
       "raw_value": 12700
+    },
+    {
+      "seed": "extractor",
+      "query": "soul virtues extractor — test del alma en español",
+      "rise_value": 10950.0,
+      "raw_value": 10950
     },
     {
       "seed": "recorder",
@@ -112,6 +137,12 @@
       "raw_value": 700
     },
     {
+      "seed": "scheduler",
+      "query": "walmart near me",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
       "seed": "planner",
       "query": "myeducation planner",
       "rise_value": 550.0,
@@ -122,6 +153,12 @@
       "query": "optimizer ghub",
       "rise_value": 450.0,
       "raw_value": 450
+    },
+    {
+      "seed": "extractor",
+      "query": "ps5 pkg extractor",
+      "rise_value": 350.0,
+      "raw_value": 350
     },
     {
       "seed": "planner",
@@ -150,6 +187,12 @@
     {
       "seed": "dashboard",
       "query": "petpooja dashboard login",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "extractor",
+      "query": "soul virtues extractor",
       "rise_value": 250.0,
       "raw_value": 250
     },
@@ -250,10 +293,22 @@
       "raw_value": 150
     },
     {
+      "seed": "monitor",
+      "query": "monitor polski",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
       "seed": "dashboard",
       "query": "mygate dashboard",
       "rise_value": 150.0,
       "raw_value": 150
+    },
+    {
+      "seed": "extractor",
+      "query": "pkg extractor",
+      "rise_value": 140.0,
+      "raw_value": 140
     },
     {
       "seed": "optimizer",
@@ -268,6 +323,12 @@
       "raw_value": 130
     },
     {
+      "seed": "extractor",
+      "query": "email extractor 1.6.1",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
       "seed": "optimizer",
       "query": "exitlag",
       "rise_value": 120.0,
@@ -276,6 +337,12 @@
     {
       "seed": "dashboard",
       "query": "gst dashboard",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "scheduler",
+      "query": "labcorp appointment scheduler",
       "rise_value": 120.0,
       "raw_value": 120
     },
@@ -296,6 +363,12 @@
       "query": "vocaroo online voice recorder",
       "rise_value": 120.0,
       "raw_value": 120
+    },
+    {
+      "seed": "scheduler",
+      "query": "best free instagram scheduler",
+      "rise_value": 110.0,
+      "raw_value": 110
     },
     {
       "seed": "optimizer",
@@ -322,10 +395,22 @@
       "raw_value": 110
     },
     {
+      "seed": "scheduler",
+      "query": "social media post scheduler free",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
       "seed": "optimizer",
       "query": "winrar",
       "rise_value": 110.0,
       "raw_value": 110
+    },
+    {
+      "seed": "scheduler",
+      "query": "instagram scheduler free",
+      "rise_value": 100.0,
+      "raw_value": 100
     },
     {
       "seed": "optimizer",
@@ -334,8 +419,20 @@
       "raw_value": 100
     },
     {
+      "seed": "scheduler",
+      "query": "texas dps appointment scheduler",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
       "seed": "tracker",
       "query": "tracker tv show",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scheduler",
+      "query": "wmt web scheduler",
       "rise_value": 90.0,
       "raw_value": 90
     },
@@ -358,14 +455,38 @@
       "raw_value": 80
     },
     {
+      "seed": "scheduler",
+      "query": "free instagram post scheduler",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "recorder",
       "query": "ilford recorder",
       "rise_value": 80.0,
       "raw_value": 80
     },
     {
+      "seed": "converter",
+      "query": "jpg to excel converter",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "planner",
       "query": "national rail enquiries journey planner",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "scheduler",
+      "query": "social media post scheduler",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "viewer",
+      "query": "team viewer free download",
       "rise_value": 80.0,
       "raw_value": 80
     },
@@ -382,14 +503,74 @@
       "raw_value": 80
     },
     {
+      "seed": "extractor",
+      "query": "youtube script extractor",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "extractor",
+      "query": "yt tags extractor",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "optimizer",
       "query": "zyon optimizer",
       "rise_value": 80.0,
       "raw_value": 80
     },
     {
+      "seed": "scheduler",
+      "query": "best free social media scheduler",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scheduler",
+      "query": "chase meeting scheduler",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "converter",
+      "query": "excel to pdf converter",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "viewer",
+      "query": "instagram video download viewer",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "optimizer",
       "query": "kingshot optimizer tool",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "monitor",
+      "query": "lagarto monitor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scheduler",
+      "query": "playtime scheduler for pickleball",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "youtube tags extractor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "yt studio",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -400,14 +581,98 @@
       "raw_value": 60
     },
     {
+      "seed": "extractor",
+      "query": "email extractor 1.6",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "email extractor extension",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "converter",
+      "query": "krutidev to unicode converter",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "recorder",
       "query": "loom video recorder",
       "rise_value": 60.0,
       "raw_value": 60
     },
     {
+      "seed": "monitor",
+      "query": "nanit baby monitor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "pace scheduler login",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "converter",
+      "query": "pdf merge",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "converter",
+      "query": "pdf to jpg",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "planner",
       "query": "satisfactory planner",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "scheduler um",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "social media scheduler free",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "tags extractor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "thumbnail extractor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "converter",
+      "query": "unicode to bijoy converter",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "youtube video script extractor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "youtube video transcript extractor",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -424,8 +689,32 @@
       "raw_value": 50
     },
     {
+      "seed": "converter",
+      "query": "converter pdf to word",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "recorder",
       "query": "free screen recorder for pc",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "converter",
+      "query": "image to excel converter",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "converter",
+      "query": "jpeg to jpg converter",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "viewer",
+      "query": "minecraft seed viewer",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -442,15 +731,57 @@
       "raw_value": 50
     },
     {
+      "seed": "converter",
+      "query": "unicode to krutidev converter",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "recorder",
       "query": "video recorder for pc",
       "rise_value": 50.0,
       "raw_value": 50
+    },
+    {
+      "seed": "converter",
+      "query": "word to pdf converter online",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "viewer",
+      "query": "zpl viewer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "converter",
+      "query": "converter pdf em excel",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "converter",
+      "query": "heic to jpg converter",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "converter",
+      "query": "unicode converter",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "converter",
+      "query": "word to pdf",
+      "rise_value": 40.0,
+      "raw_value": 40
     }
   ],
-  "scanned_seed_count": 5,
-  "batch_count": 1,
-  "discovery_count": 70,
+  "scanned_seed_count": 10,
+  "batch_count": 2,
+  "discovery_count": 122,
   "complete_20_seeds": false,
-  "updated_at": "2026-10-07T18:57:56.287678+00:00"
+  "updated_at": "2026-10-08T06:06:29.704879+00:00"
 }
