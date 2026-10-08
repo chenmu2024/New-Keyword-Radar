@@ -150,7 +150,11 @@ def render_queue(queue):
         " · Topics with first-person leads: " + str(queue["firsthand_qualified_topics"]) +
         " · Ready to build: " + str(queue["build_ready_count"]),
         "", "Volume / KD / CPC: **not available**. These discovery queries are not "
-        "necessarily commercially searched keywords.", ""
+        "necessarily commercially searched keywords.", "",
+        "History: " + str(queue.get("historical_analysis", {}).get("prior_archive_days_found", 0)) +
+        " archived days in the prior " +
+        str(queue.get("historical_analysis", {}).get("lookback_days", 14)) +
+        " days. Observations are not distinct customer reports.", ""
     ]
     for item in queue["topics"]:
         lines += [
@@ -173,10 +177,30 @@ def render_queue(queue):
         for e in item["contextual_references"]:
             lines.append("- [" + e["title"].replace("]", "") + "](" + e["url"] + ") "
                          + "(" + e["source"] + ")")
-        lines += ["", "**Next checks:**",
-                  "- Determine the actual customer search keyword.",
-                  "- Check " + item["market"] + " Volume/KD/CPC with dated source.",
+        keywords = item.get("keyword_research") or {}
+        seen = item.get("history") or {}
+        lines += ["", "**Exact keyword hypotheses to verify (" +
+                  str(keywords.get("language") or "market-specific") + "):**"]
+        terms = keywords.get("exact_terms_to_check") or []
+        for term in terms:
+            lines.append("- `" + term + "` — Volume: unknown; KD: unknown; CPC: unknown")
+        if not terms:
+            lines.append("- No curated exact keywords yet; derive from actual customer wording.")
+        lines += ["", "Monetization hypothesis: " +
+                  str(keywords.get("monetization_hypothesis") or "not yet tested"),
+                  "", "**14-day cross-report observations**",
+                  "- Earlier days this research area was covered: " +
+                  str(seen.get("previous_days_in_same_research_area", 0)) +
+                  " (the same topic is not independent demand)",
+                  "- Repeated firsthand links (saved sample): " +
+                  str(seen.get("returning_firsthand_urls_in_saved_sample", 0)),
+                  "- Repeated context links (saved sample): " +
+                  str(seen.get("returning_context_urls_in_saved_sample", 0)),
+                  "", "**Next checks:**",
+                  "- Check the exact terms above for " + item["market"] +
+                  " Volume/KD/CPC, noting provider and date.",
                   "- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).",
-                  "- Confirm independent problem reports, feasibility and monetization.",
+                  "- Confirm independent, attributable recent problem reports.",
+                  "- Test ad/SaaS monetization and zero-fixed-cost feasibility.",
                   ""]
     return "\n".join(lines)
