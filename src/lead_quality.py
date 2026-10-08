@@ -11,9 +11,7 @@ from urllib.parse import urlparse
 
 STOPWORDS = {
     "the", "for", "and", "with", "from", "into", "online", "near", "new", "request",
-    "feature", "micro", "saas", "problem", "problems", "problema", "problemas",
-    "tool", "tools", "ferramenta", "ferramentas", "herramienta", "herramientas",
-    "brasil", "brazil", "mexico", "méxico", "de", "da", "do", "das", "dos", "para",
+    "micro", "brasil", "brazil", "mexico", "méxico", "de", "da", "do", "das", "dos", "para",
     "como", "com", "uma", "una", "por", "que", "del", "los", "las", "and", "software"
 }
 PAIN = re.compile(
