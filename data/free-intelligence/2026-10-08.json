@@ -1,0 +1,689 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-08T08:12:36.636495+08:00",
+  "mode": "read_only_discovery",
+  "keyword_metrics": {
+    "volume": null,
+    "kd": null,
+    "cpc": null
+  },
+  "newness_verified": false,
+  "queries": [
+    {
+      "query": "micro SaaS feature request",
+      "captured_at": "2026-10-08T00:12:30.772672+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 2,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "error",
+          "count": 0,
+          "error": "ValueError: Unexpected HTTP status: 202"
+        },
+        "reddit": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "enoob15/featurehunt",
+          "url": "https://github.com/enoob15/featurehunt",
+          "snippet": "🎯 Feature request board for micro-SaaS — collect ideas, upvote what matters, ship the right things. No database required.",
+          "published_at": "2026-08-27T09:05:39Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-08-27T09:20:58Z",
+            "state": null
+          },
+          "discovered_at": "2026-10-08T00:12:31.174192+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "AbdallahAHO/pulse-poc",
+          "url": "https://github.com/AbdallahAHO/pulse-poc",
+          "snippet": "ProjectScope is a micro SaaS tool that analyzes user reviews and feature requests in public GitHub projects",
+          "published_at": "2023-06-10T01:47:35Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2023-06-10T04:55:54Z",
+            "state": null
+          },
+          "discovered_at": "2026-10-08T00:12:31.174247+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "[Execution Ledger] Version 1.0.0 final release",
+          "url": "https://github.com/SUSANO-OOO/Zombieee/issues/172",
+          "snippet": "V1候補fe33989：終幕・監査改善。CI成功、最終実プレイ受入待ち。 ## 2026-09-09 6体の透過修復・実表示確認（未公開） 最新local build f1fd6adb39fd37715dadf7b2d58167457d0058b0d0fd75216dfbe9932df8e627。親が設計/検証、Lunaが実装。社長/Omega/RP4体v2を採用候補へ組込み、元画像/v1/identityを保全。縮小後alpha境界を自動計測し足元496を固定。初回sprite不一致を保全し、修正後build＋1602/1602。検査可搬化5/5、限定review H/M0。 同一候補のCH/現行WK、S25/S30・844x340で6体の実canvas/alpha1/素材hashを確認、errors0。Lv25fixtureの表示検査で、全campaign/難易度/実機/音響受入ではない。社長の頭とHUDの重なり、初回TAKUYAの打ち下ろし接続は次に修正する。 524/522素材、137179211/136639308bytes。6置換で640306bytes減、Kuma guard旧bytes維持。詳細 docs/PROJECT_STATE.md、outputs/completion/motion-alpha-checkpoint-r1.json。c471上の未commit/未push、PR171 Draft/open、公開なし。 ## 2026-09-09 クマ防御・画像処理承認（未公開） 無料local画像処理はProducer承認済み。親が設計/レビュー/検証、L",
+          "published_at": "2026-08-21T11:50:42Z",
+          "engagement": {
+            "comments": 371
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T00:10:30Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:31.638254+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "KDS Mission Control — single communication thread",
+          "url": "https://github.com/hallurg/hladvarp/issues/10",
+          "snippet": "# KDS Mission Control — Single Communication Thread ## Purpose This issue is the single durable communication hub for Codex ↔ ChatGPT ↔ CEO coordination. CEO is currently dealing with too many runtime chats, repeated GitHub execution request chats, side-channel instructions, and project-specific threads. That is creating confusion and wasted quota. From now on, this issue is the **mission control thread**. ## Core rule Runtime chats are disposable. GitHub issue threads are durable. Codex must treat this issue as the primary communication hub unless a specific project issue is explicitly designated as active. ## Operating model 1. CEO can talk to Codex in one new Codex communication chat. 2. ",
+          "published_at": "2026-07-07T13:44:41Z",
+          "engagement": {
+            "comments": 602
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T00:04:53Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:31.638815+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Fail closed when sentinel recovery loses signed run identity",
+          "url": "https://github.com/akaszubski/autonomous-dev/issues/1807",
+          "snippet": "## Observed, not accepted In `/implement --fix #1805` run `f56b5d9db2313942` (Claude session `b01695d9`), F1 initialized the per-repo sentinel with mode, run ID, issue and base commit at 15:07:55Z and `record_run_start` returned true. At 15:08:56Z a bare recovery sentinel appeared with only session ID, `recovered` and timestamp; the original run ID, mode, issue and base commit were gone. At 15:09:06Z alignment was signed onto this identity-less state. The separate completion ledger still named the run, but it is a different, lower-authority carrier. The cause is now reproduced at the function boundary: `commands/implement-fix.md` F1 initializes `state` without `session_id`, while full mode i",
+          "published_at": "2026-09-25T15:30:30Z",
+          "engagement": {
+            "comments": 310
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T00:04:12Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:31.639030+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Submit Your MCP Servers here",
+          "url": "https://github.com/chatmcp/mcpso/issues/1",
+          "snippet": "Leave your MCP Servers links. We will make it visiable on https://mcp.so",
+          "published_at": "2024-12-06T02:23:42Z",
+          "engagement": {
+            "comments": 1392
+          },
+          "metadata": {
+            "updated_at": "2026-10-07T23:52:45Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:31.639062+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Every request, every microsecond: scalable machine learning at Cloudflare - Cloudflare Blog",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4yYzBfbndONFd6Zl9TWDlrUkZndFY5R2QwVDdVTlJuT1BTSjhkVGlTX2wwMTNPSUZ2OVRJNmlpcC14LVIzbm44UkZHOXFmek5yNHhiUHU5bGVURm1DTmNORXR3ZGxvS1NvOUdoV3dOX1BGZ0dVUTRB?oc=5",
+          "snippet": "Every request, every microsecond: scalable machine learning at Cloudflare Cloudflare Blog",
+          "published_at": "Mon, 19 Jun 2023 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:32.001003+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Top SaaS ideas to start a profitable business in 2026 - Hostinger",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90UEVLa0VHTnRyZ3pJekd4TDRWWkkwWG1OZUJKSW5pazF6QkZYNVhnRjkzRnJWSllYa1BUb201VlhHa1otV3FocmZCQ3dORUdjZ2JmY3pTbktPUEZlb0NF?oc=5",
+          "snippet": "Top SaaS ideas to start a profitable business in 2026 Hostinger",
+          "published_at": "Fri, 18 Apr 2025 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:32.001060+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Mojix Platform Updates Include New Traceability Features - Supply & Demand Chain Executive",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSTVPWHc3dFZDZEFTZm5vM1dmVmY0b3ZKS2Y0VFMzZ2FQWFgzMDRzQWRWbHdhbEVOckUyWV9EZUctdXJYakVUcF9oVjg3RWN2QVE0Z1dKdThlZWdqTl9VT2xHbnZKZUFzOXlwVEVBd3FKbElteU1VYTNGWWtndVU0dnd4NS1PQVg0aEdZRnc3MW5SeE91VUl5RnAwQUJDRjU0V0MyTmJxdWg3bWNPNE1jT3RVZ1BaemtUUUFvMjNjT19DTWloODI2VHVB?oc=5",
+          "snippet": "Mojix Platform Updates Include New Traceability Features Supply & Demand Chain Executive",
+          "published_at": "Fri, 12 Jul 2024 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:32.001109+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "How a SaaS provider made microservices deployment safely chaotic - TechTarget",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVnJGZUVSUVducUNocFA3ZW93ZnZqTE9Dd2JVQjBzc1Z1bHZTT01IRzFFUDFIMy1HbHdyclNwR283bmFTZXlpLW9JMndVRjV6MGZ3NGMzdmxUbTFiem5VdktlQTFNdGNUbE0weFpGaEdNQVVGYWFZZ1VHUVpzWkpPZnE1RGF2QWQtREd3UVN0WkNCOS1WOTlNRmZtM3Utd0xLbEI5SkV4OWIwenVrczUxWmYxSWhicWw5?oc=5",
+          "snippet": "How a SaaS provider made microservices deployment safely chaotic TechTarget",
+          "published_at": "Fri, 11 May 2018 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:32.001152+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "reddit_rss",
+          "title": "Fonix One - Own Your Music Again",
+          "url": "https://www.reddit.com/r/FonixOne",
+          "snippet": "",
+          "published_at": "2026-03-06T12:14:47+00:00",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:32.388886+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "reddit_rss",
+          "title": "I built a free typing practice site - how would you get the first 500 users?",
+          "url": "https://www.reddit.com/r/IMadeThis/comments/1x0cmbc/i_built_a_free_typing_practice_site_how_would_you",
+          "snippet": "",
+          "published_at": "2026-10-08T00:11:14+00:00",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:32.388933+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "reddit_rss",
+          "title": "I built a free typing practice site - how would you get the first 500 users?",
+          "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1x0clqb/i_built_a_free_typing_practice_site_how_would_you",
+          "snippet": "",
+          "published_at": "2026-10-08T00:10:27+00:00",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:32.388967+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "reddit_rss",
+          "title": "is gigasword.site legit or scam?",
+          "url": "https://www.reddit.com/r/ScamChecker/comments/1x0cfsz/is_gigaswordsite_legit_or_scam",
+          "snippet": "",
+          "published_at": "2026-10-08T00:02:40+00:00",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:32.388993+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 14
+    },
+    {
+      "query": "problema ferramenta online Brasil",
+      "captured_at": "2026-10-08T00:12:32.389152+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 1,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "ok",
+          "count": 1,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "error",
+          "count": 0,
+          "error": "ValueError: Unexpected HTTP status: 202"
+        },
+        "reddit": {
+          "status": "error",
+          "count": 0,
+          "error": "ValueError: Unexpected HTTP status: 202"
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "Andreesclusividade/mabs-curriculo-pwa",
+          "url": "https://github.com/Andreesclusividade/mabs-curriculo-pwa",
+          "snippet": "A MABS Digital Business & Money® é uma marca de engenharia de produto digital solo que transforma problemas reais de pequenos negócios em ferramentas digitais com soluções prontas para vender. Domina o ciclo completo — ideia, código, design, proteção e venda online — sem depender de equipe. Rio de Janeiro, Brasil.",
+          "published_at": "2026-06-27T02:10:38Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-07-13T15:31:24Z",
+            "state": null
+          },
+          "discovered_at": "2026-10-08T00:12:32.695328+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "OPS COMMS — forever agent log (do not close)",
+          "url": "https://github.com/Zion-support/zion-support.github.io/issues/71361",
+          "snippet": "- 2026-10-07 18:10 -03 | Worker | HEARTBEAT (comments locked at 2500 — logged on body) ### 2026-10-07 18:10 -03 | Worker | HEARTBEAT CORE OFFLINE (>90 min after a named heartbeat): Grok last HEARTBEAT 2026-09-25 01:12 UTC; Harper 2026-09-17 16:40 -03; Benjamin no named HEARTBEAT on #71361; Lucas 2026-09-17 19:29 UTC. Do not flag Carol/Kilo/Tablet. URLs: /apps/ 200 (GitHub.com, no Location to network.ziontechgroup.com); /agent-brief/ 200; /stack-audit/ 200; /en/plans/ 200; /discovery/ 200; /ops/comms/ 200; CEO-OPS.md 404. static-deploy not queued (0 queued, 0 in_progress; last success run 37672759968 completed 19:24 UTC). No dispatch. Last 8 comments end 2026-09-25 01:34 UTC (cap 2500): Flush",
+          "published_at": "2026-09-17T19:12:38Z",
+          "engagement": {
+            "comments": 2500
+          },
+          "metadata": {
+            "updated_at": "2026-10-07T21:15:39Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:33.042376+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Spec: ADScale Equipe — operação de marketing self-driving (fluxos centrais)",
+          "url": "https://github.com/jhowtkd/adscale/issues/538",
+          "snippet": "> **Status:** proposta. Pelo `docs/agents/domain.md`, este documento só vira canônico depois que um ADR e o `CONTEXT.md` o absorverem (ver \"Further Notes\": congelamento de destinos primários). > > **Fontes do desenho** (Traycer, epic `1ff2dada`): > - proposta v3 (`debates/plataforma-agentes-marketing/final-synthesis`); > - fluxos centrais self-driving (`equipe-desenho/core-flows`: implantação, aprovação em lote, calibração, escalonamento e exceções); > - telas v3 aprovadas no pen.dev (`equipe-desenho/telas`). > > Preço e contrato ficam **fora** desta spec. ## Problem Statement Uma empresa pequena que quer marketing contínuo (estratégia, social, criativos de mídia, leitura de resultado) hoje ",
+          "published_at": "2026-09-27T22:33:10Z",
+          "engagement": {
+            "comments": 2
+          },
+          "metadata": {
+            "updated_at": "2026-09-27T23:07:55Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:33.043431+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Repositórios",
+          "url": "https://github.com/dunossauro/fastapi-do-zero/issues/91",
+          "snippet": "Essa issue foi feita para você compartilhar o seu repositório com todas as pessoas que estão fazendo o curso e aprender um pouco com quem também está fazendo. Compartilhe seu repositório da seguinte forma: | Link do projeto | Seu @ no git | Comentário (opcional) | | ---------------------- |--------------------| -------------------------------- | | [fast_zero](https://github.com/dunossauro/fast_zero) | [@dunossauro](https://github.com/dunossauro)| Implementação do material do curso sem alterações| Montarei uma tabela juntado todos os repositórios. **Exemplo de como construir a tabela em markdown**: ```txt | Link do projeto | Seu @ no git | Comentário (opcional) | |-------------|:-------------",
+          "published_at": "2024-02-02T13:04:14Z",
+          "engagement": {
+            "comments": 482
+          },
+          "metadata": {
+            "updated_at": "2026-09-24T02:27:42Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:33.043486+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "BNCC Computação: o que o microHelium já cobre, o que falta para uma rede de ensino usá-lo, e por onde começar",
+          "url": "https://github.com/UnitedOpen-Source/microHelium/issues/390",
+          "snippet": "Relacionadas: #43 (Treino Livre), #47 (contas gerenciadas), #188/#270 (organizações), #268/#267 (Scratch), #269/#296/#301 (Portugol), #306 (perfis de toolchain), #53 (julgamento distribuído), #42 (similaridade), #271 (pacote de resultados), #266 (AGPL-3.0), #32/#35 (acessibilidade). ## Por que abrir isto agora Desde 2026 toda rede pública de ensino no Brasil tem de ter currículo alinhado à **BNCC Computação**, e isso passou a pesar no dinheiro do Fundeb. O microHelium já tem, espalhado por issues fechadas, boa parte do que uma rede precisaria para praticar o eixo **Pensamento Computacional** com correção automática: Portugol Studio, G-Portugol e Scratch no auto-judge, Treino Livre fora de pr",
+          "published_at": "2026-09-23T23:16:46Z",
+          "engagement": {
+            "comments": 1
+          },
+          "metadata": {
+            "updated_at": "2026-09-23T23:28:58Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:33.044195+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Opinião | Proteção infantil erra ao penalizar ferramentas de segurança digital - Poder360",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPU2d3ZXA2aWJlM1lubjNIcllOZEozdlNiZDIzWHZXaElONWlDZlVITWhZTUFIZDFvSThEalpUWlNlTHNqNmtwQXYtSk5UaHVvOTVPV0owazdITTJOdlpDNGwtX2RBQmdSQ0NkZ1hsbHhyeDdOb1NZTkFpTXRUN1ozSzdTSWJWaE85Z2xMZjlvb3k0U3dYdUdKLV9GR3BrQ3owYm42eTJOdVE?oc=5",
+          "snippet": "Opinião | Proteção infantil erra ao penalizar ferramentas de segurança digital Poder360",
+          "published_at": "Mon, 11 May 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:33.439549+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 6
+    },
+    {
+      "query": "problema herramienta online México",
+      "captured_at": "2026-10-08T00:12:33.645170+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "empty",
+          "count": 0,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "empty",
+          "count": 0,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "error",
+          "count": 0,
+          "error": "ValueError: Unexpected HTTP status: 202"
+        },
+        "reddit": {
+          "status": "error",
+          "count": 0,
+          "error": "ValueError: Unexpected HTTP status: 202"
+        }
+      },
+      "items": [
+        {
+          "platform": "github_issues",
+          "title": "Document the bucket live-follow (server-sent events) endpoint",
+          "url": "https://github.com/huggingface/hub-docs/pull/2786",
+          "snippet": "Buckets now expose `GET /api/buckets/{owner}/{bucket}/events`, a server-sent events stream of file changes so clients can stop polling the bucket listing. - storage-buckets: new \"Tracking Changes\" section covering the event types (`ready`, `changes`, `reset`, `reconnect`), change entry fields, resuming with `cursor`/`since`, and reconnect handling - webhooks: cross-reference from the Buckets payload section - storage-buckets-access: pointer for keeping a client in sync without polling <!-- CURSOR_SUMMARY --> --- > [!NOTE] > **Low Risk** > Documentation-only changes with no runtime or security-sensitive code modifications. > > **Overview** > Documents how clients can **track bucket file chang",
+          "published_at": "2026-09-16T09:52:29Z",
+          "engagement": {
+            "comments": 9
+          },
+          "metadata": {
+            "updated_at": "2026-09-30T08:04:54Z",
+            "state": "closed"
+          },
+          "discovered_at": "2026-10-08T00:12:34.437208+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Conciliación Chase company 6: proceso actual, columnas PO/Analítica y deber ser",
+          "url": "https://github.com/yinyo1/fts-suite/issues/314",
+          "snippet": "Sesión de **diagnóstico y diseño**. Cero escrituras a Odoo, cero cambios a workflows de n8n. Todo el detalle sensible (proveedores, montos, movimientos) vive en `scripts/local/chase-c6-auditoria-2026-09-25.md`, gitignored (`.gitignore:2`), verificado con `git check-ignore`. --- ## ⚠️ 0. Incidente de credenciales — acción inmediata Al leer la ejecución **114044** de `fin/captura-conciliar` llamé `get_workflow_execution` con `includeData:true` **sin** filtro `nodeNames`, y la respuesta incluyó el output del nodo `2 - Set secretos`: **el secreto HMAC del JWT de finanzas y la `rpc_key` de Odoo, en claro**, dentro del transcript de esta sesión. Es exactamente el modo de fallo que CLAUDE.md §9 ya ",
+          "published_at": "2026-09-25T20:46:55Z",
+          "engagement": {
+            "comments": 0
+          },
+          "metadata": {
+            "updated_at": "2026-09-25T20:46:55Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:34.438174+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Auditoría y arquitectura: conciliación fiscal SAT vs Odoo",
+          "url": "https://github.com/yinyo1/fts-suite/issues/262",
+          "snippet": "> ## 📌 Estado del issue > > **Revisado y decidido por Esteban el 19-sep-2026** — ver el comentario *\"Revisión y decisiones de Esteban\"* más abajo. **Las nueve preguntas de §8 están resueltas ahí**; el texto de §8 se conserva para que se lea junto con las respuestas, pero **ya no son preguntas abiertas**. Etapas **1 a 4 autorizadas**. > > Cambio aplicado a este issue el 19-sep: **§1 reescrito** (punto B del comentario — el número de gastos estaba mal enmarcado). Los rediseños que salieron de esa revisión —E5 sin bucle, orden del backfill, proyecto de Railway aparte— y los huecos de cobertura del catálogo viven en el **issue hijo de cobertura**, no aquí. §5.4/§5.5/§5.6/§6 llevan marcas donde f",
+          "published_at": "2026-09-19T19:41:01Z",
+          "engagement": {
+            "comments": 2
+          },
+          "metadata": {
+            "updated_at": "2026-09-19T20:38:31Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:34.440329+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "docs(lore): fuentes de Tolkien y puente hacia Espaciokoop/D&D",
+          "url": "https://github.com/EspacioKoop/espaciokooplagunak/pull/881",
+          "snippet": "Investigación y mapa de fuentes (Kalevala, Eddas, Volsung/Nibelungen, Heimskringla, Beowulf, Mabinogion, Morris/Dunsany/Eddison) hacia implementaciones concretas en módulos Foundry. Incluye acciones, criterios de aceptación y riesgos.",
+          "published_at": "2026-09-01T01:24:52Z",
+          "engagement": {
+            "comments": 6
+          },
+          "metadata": {
+            "updated_at": "2026-09-07T23:14:46Z",
+            "state": "closed"
+          },
+          "discovered_at": "2026-10-08T00:12:34.440380+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 4
+    },
+    {
+      "query": "trump approval by state tracker",
+      "captured_at": "2026-10-08T00:12:35.007030+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "empty",
+          "count": 0,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "error",
+          "count": 0,
+          "error": "ValueError: Unexpected HTTP status: 202"
+        },
+        "reddit": {
+          "status": "error",
+          "count": 0,
+          "error": "ValueError: Unexpected HTTP status: 202"
+        }
+      },
+      "items": [
+        {
+          "platform": "github_issues",
+          "title": "fix(trackers): assess finalized language eligibility",
+          "url": "https://github.com/autobrr/upbrr/pull/662",
+          "snippet": "## Description References #606. Resolve audio and subtitle facts once, then use them consistently for tracker naming, eligibility and CLI/WebUI review. Source-history, retention, provenance, quality and hypothetical subtitle concerns are passive warnings. Genuine upload inputs, measured constraints and explicit tracker acknowledgements remain distinct. - Preserve corrected original/programme/subtitle languages, track roles, explicit default/forced flags, measured container order and unknown evidence. Full-disc uploads retain their existing behavior; remuxes remain in scope. - Apply evidence-backed language decisions and the approved DP naming matrix, including manual marker choices for uncov",
+          "published_at": "2026-10-06T16:27:32Z",
+          "engagement": {
+            "comments": 3
+          },
+          "metadata": {
+            "updated_at": "2026-10-08T00:04:07Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:35.872626+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "[PM seat] triage (objectstack-wide) — 🟢 Routine · session_01AavokzJ5DndAwitDXvKy4U · trig_01NcnCtMS2tH46nUg1a5TaMJ (hourly) · state = body + the round records newer than it",
+          "url": "https://github.com/objectstack-ai/objectstack/issues/6015",
+          "snippet": "**本贴是 分诊(objectstack 全仓) 座位的唯一权威登记。** 座位贴协议(维护者 2026-08-06 批准,自 objectstack-ai/objectstack#4604 单正文座位表迁移而来):索引 = `label:pm:seat`,总入口 objectstack-ai/objectstack#4604(指针页)。 **单写手规则**:只有**在任座位 PM** 编辑本贴正文;接管/移交 = 改正文 + 一条审计评论(评论只作交接存档,不承载状态)。空缺争用时:动手前重拉正文、审计评论时间戳先到先得、写后回读。活性判定(惰性,无心跳,仅接管冲突时评估):Routine 座位查调度器(last_fired/next_run),会话座位查最近产出评论时间戳,超过 24h 无产出即可回收(改正文 + 审计评论)。 ## 范围 只扫/分类/打标签/拆跨域/查重,⛔ 永不认领派发 ## 当前 PM(会话或 Routine ID) **🟢 在任 —— `session_01KYzNJPin9Ar4oMMkSh4S9h`**,2026-09-20T02:48Z 维护者以 `/pm-dispatch triage` 召唤就座。前任 `session_01Y6AwMBAN8zRUHgmgFdV1Qr`(全板大扫除试运行班)已于 2026-09-19T01:59Z 奉维护者令收班,收班简报 `5738544201`。 ⚠️ **接手者三条,先读这三条再读别的**(本席照单继承,逐条仍成立): 1. **状态源是本贴正文 + 晚于其最后编辑的评论**,⛔ 不是任何 Routi",
+          "published_at": "2026-08-06T15:03:07Z",
+          "engagement": {
+            "comments": 1126
+          },
+          "metadata": {
+            "updated_at": "2026-10-07T23:55:44Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:35.877671+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Plan: experiments to find the lever after gen 5 (search-mean target, head-vs-search, coverage, PUCT)",
+          "url": "https://github.com/jerryyyu/shengji/issues/663",
+          "snippet": "> **Execution index:** #707 is the active central workstream board (successor to closed #679), including Codex admission, value diagnosis, the fixed audit (#681), diversity, PUCT, and Sol/PT-Sol benchmarking (#355). The active goal is to explain whether PV training improves deployed admission and validate one targeted improvement against production W64. The dated tables below are historical snapshots; use #707 and subsequent result comments for current execution status. No board entry itself grants run or deployment authority. ## Current evidence and remaining goal (reconciled 2026-10-06) The [measurement corrections](https://github.com/jerryyyu/shengji/issues/663#issuecomment-5899900689) su",
+          "published_at": "2026-09-29T21:52:32Z",
+          "engagement": {
+            "comments": 485
+          },
+          "metadata": {
+            "updated_at": "2026-10-07T23:47:40Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:35.878144+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Daily Shorts Pipeline — Reports",
+          "url": "https://github.com/caleblschulte0-ux/Shorts-pipeline/issues/1",
+          "snippet": "This is the tracking issue the **Daily Shorts** GitHub Action posts to once per day. Each comment below = one day's run report. Subscribe to this issue (GitHub Mobile → bell icon → \"Watching\") to get a push notification when a new report lands. ## What you'll see in each report - How many shorts were queued, succeeded, failed - For each post: title, scheduled publish time, YouTube URL - Stderr tail for anything that failed ## Controls - **Pause for a day**: create a file called `PAUSED` in the repo root. Action skips runs until you delete it. - **Auto-pause**: triggers if 2 days in a row fail. Reset `state/failure_count.txt` to `0` to resume. - **Manual run**: Actions tab → Daily Shorts → Ru",
+          "published_at": "2026-05-28T21:54:45Z",
+          "engagement": {
+            "comments": 803
+          },
+          "metadata": {
+            "updated_at": "2026-10-07T23:33:09Z",
+            "state": "open"
+          },
+          "discovered_at": "2026-10-08T00:12:35.878213+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Trump approval rating is negative in 39 states. Is your state one? - The Providence Journal",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWlJ1OTZwc1Y4Mm5EaGt4UUh3Rzh5a1ZJZUg2YnhfMG5jQTNMNkVTV2Vqa2hka2prNHV1WUtUaGdPZTBLUEZHNEgtUWZ6ZlJSbFpOdTZhTENveHIwLXRCN1NqeTU4VDNIZDV2aUhQYmJMQkYwdmk4WTJJU2MtNEFwRmVvVWRJd3BleFQ5Zzl2WUQ3dkZOZVE1TGptWnFTUUtyVHo5YkhSRGJBQ3N1U1FCZEU5eXB3SHZ6OEJITWtHTzBFRVhJbXV4bDJxMVpfYlNTYjcyeUFWTQ?oc=5",
+          "snippet": "Trump approval rating is negative in 39 states. Is your state one? The Providence Journal",
+          "published_at": "Wed, 07 Oct 2026 14:35:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:36.434136+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Trump's approval ratings underwater in 39 states - USA Today",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZHh1eHFoendhMW5iZ3FRRUVQemRKb3JjX0hadWN1d3FBZW44THI1Z0hQQlRnRUhSTFhtb2ZqQll1QzRwUXpYUVVzLWRKTF81ZkpZZHFEczRnTi04YWljN1JIRGdRdXJla2hEQ052UWJGcmVnNHducTdQLWZ4RHhla0NKR0twaGNPYTV4UDc5UjFnaHpEUGppV09YeTZ1aF9WU1hEUVJqcVIwMTdneWFlWXkzX0t2RHVsbFE?oc=5",
+          "snippet": "Trump's approval ratings underwater in 39 states USA Today",
+          "published_at": "Wed, 07 Oct 2026 12:40:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:36.434196+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "New poll tracker shows Donald Trump's approval rating by state. See where Washington stands - Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWU41Q3ZEU3BVbC1ILThHOUlmLXlIT3FWS0lQOEI4SldsWVI2LVl3dTNDYzVYV0NFdmRpeUw2TXpRX2NXazFsXzFwamhIVnpOZXVzeWFvVEtzQ01EbW1pQ2lUc3FuemVIOGk3MTBtdDJZbm95RnRwWjF1enV3UjB1cFQ4RTFNaWYzeGd6V2UydXFXczNvTE1z?oc=5",
+          "snippet": "New poll tracker shows Donald Trump's approval rating by state. See where Washington stands Yahoo",
+          "published_at": "Wed, 07 Oct 2026 16:54:30 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:36.434294+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Map Shows Trump’s Approval Rating in Every State 1 Month Until Midterms - Newsweek",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMlpOSG9CNkhvNG9sVHRkMWdGSlJjRzJhRTFsNkw2b1hnNXFrUzdtRFJnVlpDaW5zVFBTS0t6RWhUZlJidkVWRFNrQ3FadENlUmpnY0lsNkhhSmtBRTZHNTdzYVQzWm5feHdPRG56cWV3OE5XeTZPWlQzZ3lwYWxQRDh0U0Z3WXE0bkk2R0pra2F5bzVEODgwYkFTelY?oc=5",
+          "snippet": "Map Shows Trump’s Approval Rating in Every State 1 Month Until Midterms Newsweek",
+          "published_at": "Sat, 03 Oct 2026 08:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-08T00:12:36.434346+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 8
+    }
+  ],
+  "warnings": [
+    "Search presence and engagement do not prove search volume or newness.",
+    "Do not edit existing keyword lists or treat this as a formal candidate gate."
+  ]
+}
