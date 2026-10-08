@@ -56,3 +56,27 @@ validation untouched, including user-selected keywords and geographic groups.
 
 PT-BR, ES-MX, and English discovery each keep their own fixed search slot;
 another slot follows commercial-intent rising query candidates.
+
+## Pain-oriented queries by market
+
+The independent free-search layer now rotates **two precise problem queries per
+market daily**, from 4 configured options each: US (English), Brazil
+(Portuguese), Mexico (Spanish). It preserves one slot for a commercial-intent
+rising query observed in the existing 7-day seed report. The user-selected
+Google Trends seed files and site SEO keywords do not change.
+
+Set source-specific, shorter issue queries in
+`config/free_intelligence.json` (`pain_query_groups.*[].issue_query`);
+the full user-pain phrase is retained for web/news and scoring. Each record
+shows its actual query per platform, country, sector and intended problem.
+
+Default total: **7 queries/day, 4 hits/platform/query**. No paid provider is
+introduced, and no computer needs to remain on. This is an initial lead
+generation screen: GitHub Issues or original Reddit posts can yield firsthand
+requests; news articles, search snippets, and GitHub repos are **contextual
+references**, not paid-demand evidence. If Reddit is rate-limited, the
+fallback is labeled and not counted as firsthand demand.
+
+Cross-query duplicate URLs are reported. Verification of user need, willingness
+to pay, exact-query 90-day/5-year newness, and independently sourced
+Volume/KD/CPC is still required before an opportunity is recommended.
