@@ -7,6 +7,8 @@ on:
     paths:
       - "src/opc_business_gate.py"
       - "tests/test_opc_business_gate.py"
+      - "tests/test_publish_radar.py"
+      - "src/publish_radar.py"
       - ".github/workflows/opc-business-tests.yml"
 
 permissions:
@@ -23,6 +25,8 @@ jobs:
           python-version: "3.11"
       - name: Evidence gate unit tests
         run: python -m unittest discover -s tests -p "test_opc_business_gate.py" -v
+      - name: Concurrent publisher regression tests
+        run: python -m unittest discover -s tests -p "test_publish_radar.py" -v
       - name: Read-only business review smoke test
         run: |
           python src/opc_business_gate.py
