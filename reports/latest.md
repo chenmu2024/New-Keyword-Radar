@@ -1,16 +1,16 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-08T00:18:49.904940+00:00
+Generated: 2026-10-08T00:21:46.336232+00:00
 
 ## Formal candidates
 
 **今日无合格可变现新词。**
 ## Watch / rejected
 
-- premium bonds prize checker check if you have won ns&i — **old-history** — newness 96, money 100; 5y peak 44
-- lesson planner ph — **old-history** — newness 95, money 94; 5y peak 100
-- nsi prize checker — **commercial-watch** — newness 46, money 100
-- premium bond checker — **reject** — newness 36, money 100
-- premium bond prize checker — **reject** — newness 36, money 100
-- premium bonds prize checker — **reject** — newness 36, money 100
-- premium bonds checker — **reject** — newness 31, money 100
+- karl bushby tracker — **old-history** — newness 95, money 94; 5y peak 81
+- myeducation planner — **old-history** — newness 95, money 94; 5y peak 100
+- education planner bc — **commercial-watch** — newness 78, money 100
+- tracker season 4 — **reject** — newness 40, money 100
+- tracker episode 1 — **reject** — newness 35, money 94
+- hotel planner tour — **reject** — newness 31, money 94
+- google fitbit air fitness tracker — **reject** — newness 20, money 100
