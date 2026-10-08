@@ -15,18 +15,20 @@ STOPWORDS = {
     "como", "com", "uma", "una", "por", "que", "del", "los", "las", "and", "software"
 }
 PAIN = re.compile(
-    r"\b(bug|broken|missing|lack|pain|struggl|issue|frustrat|can't|cannot|need|"
-    r"wish|problem|request|alternative|manual|expensive|slow|failing|"
-    r"erro|falha|falta|preciso|necessito|automatizar|problema|"
-    r"falla|necesito|automatización|solución|solucao|solução|"
-    r"feature request|help wanted|looking for)\b", re.I
+    r"\b(bugs?|broken|missing|lack|pains?|struggl\w*|issues?|frustrat\w*|can't|cannot|"
+    r"needs?|wish\w*|problems?|requests?|alternatives?|manually?|expensive|slow|fail\w*|"
+    r"errors?|erro\w*|falha\w*|falta|precis\w*|necessit\w*|automatiz\w*|"
+    r"problemas?|fallas?|necesit\w*|manualmente|descuadre|inconsistenc\w*|"
+    r"reconcilia\w*|conciliac\w*|conciliaç\w*)\b", re.I
 )
 BUY = re.compile(
     r"\b(api|automation|automatiza\w*|saas|subscription|pricing|paid|pay|"
-    r"commercial|customer|client|cliente|product|produto|producto|"
-    r"calculator|calculadora|generator|generador|gerador|invoice|factura|"
-    r"payroll|nomina|nómina|compliance|tool|software|workflow|template|"
-    r"dashboard|plugin|extension|subscription|billing|integration)\b", re.I
+    r"commercial|customers?|clients?|clientes?|products?|produtos?|productos?|"
+    r"calculators?|calculadoras?|generators?|generadores?|geradores?|"
+    r"invoices?|facturas?|facturação|faturamento|fiscais?|fiscal|CFDI|SAT|"
+    r"payroll|nomina|nómina|folha|pagamento|contabilidade|impuestos?|"
+    r"compliance|tools?|software|workflows?|templates?|dashboards?|"
+    r"plugins?|extensions?|billing|integrations?|integraç\w*)\b", re.I
 )
 NOISE = re.compile(
     r"(\b(ops comms|forever agent log|do not close|session_\w+|"
@@ -116,12 +118,21 @@ def score(item, query, reference=None):
     if source not in SOURCE_WEIGHT:
         eligible = False
         notes.append("unknown_source_not_eligible")
-    if source == "github_repositories" and not spam:
-        # A tool's repository is competitor evidence, not buyer pain.
+    first_person_demand_sources = {"github_issues", "reddit_rss"}
+    contextual_sources = {"github_repositories", "google_news_rss", "bing_rss",
+                          "duckduckgo", "reddit_index_fallback"}
+    # News, SERP snippets, GitHub products and indexed Reddit copies are not
+    # evidence that an identifiable user requested a feature or would pay.
+    if source not in first_person_demand_sources:
         eligible = False
-        notes.append("product_reference_not_buyer_request")
-    classification = ("reference" if source == "github_repositories" and not spam
-                      else "review" if eligible else "discard")
+        notes.append("context_only_not_first_person_demand")
+    # A genuine user-reported pain signal is required in addition to industry terms.
+    if not pain:
+        eligible = False
+        notes.append("no_explicit_user_pain_in_snippet")
+    classification = ("review" if eligible
+                      else "reference" if source in contextual_sources and not spam
+                      else "discard")
     return {"score": max(0, min(100, pts)), "screening": classification,
             "reasons": notes, "matched_query_terms": matched,
             "published_age_days": age, "verified_volume": None, "verified_kd": None,
