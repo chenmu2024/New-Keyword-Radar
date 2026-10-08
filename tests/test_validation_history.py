@@ -15,8 +15,9 @@ def topic(query="facturas SAT errores", intent="invoice_rejection", direct=None,
         "market": "MX", "language": "es",
         "research_topic": "tax_compliance", "research_intent": intent,
         "query_used_for_discovery": query, "stage": "needs_firsthand_problem_evidence",
-        "may_be_recommended_for_build": False, "firsthand_evidence": direct or [],
-        "contextual_references": context or [],
+        "priority": "source_research", "attributable_independent_authors": 0,
+        "unreliable_sources": [], "may_be_recommended_for_build": False,
+        "firsthand_evidence": direct or [], "contextual_references": context or [],
     }
 
 
