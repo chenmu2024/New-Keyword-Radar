@@ -50,6 +50,18 @@ class FirstPersonDemandTests(unittest.TestCase):
                           reference=datetime(2026, 10, 8, tzinfo=timezone.utc))
         self.assertEqual(verdict["screening"], "review")
 
+    def test_internal_inventory_capabilities_not_customer_pain(self):
+        row = {
+            "platform": "github_issues",
+            "title": "inventory(capabilities): classify Studio-owned authoring operations",
+            "snippet": "Inventory sync spreadsheet workflow, integration errors, and API improvements.",
+            "published_at": "2026-10-07T06:30:00Z",
+            "url": "https://github.com/ankhorage/studio/issues/788",
+        }
+        verdict = q.score(row, "inventory sync spreadsheet")
+        self.assertEqual(verdict["screening"], "discard")
+        self.assertIn("github_issue_without_explicit_customer_voice", verdict["reasons"])
+
     def test_old_2016_hn_post_not_current_demand(self):
         item = {"platform": "hackernews_ask",
                 "title": "Ask HN: Small business bank account – who do you use?",
