@@ -14,7 +14,10 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from opc_business_gate import run as business_review
+try:
+    from .opc_business_gate import run as business_review
+except ImportError:
+    from opc_business_gate import run as business_review
 
 
 def read_json(path: Path) -> dict:
