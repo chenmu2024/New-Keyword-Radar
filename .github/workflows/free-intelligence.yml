@@ -7,6 +7,7 @@ on:
     paths:
       - "src/free_search.py"
       - "src/free_intelligence.py"
+      - "src/lead_quality.py"
       - "config/free_intelligence.json"
       - ".github/workflows/free-intelligence.yml"
   schedule:
@@ -39,7 +40,7 @@ jobs:
       - name: Run free discovery (no paid API)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python src/free_intelligence.py --max-queries 4 --limit 4
+        run: python src/free_intelligence.py --max-queries 7 --limit 4
       - name: Persist only the report
         run: |
           git config user.name "free-intelligence-bot"
