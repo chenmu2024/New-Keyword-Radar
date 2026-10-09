@@ -1,17 +1,31 @@
 {
-  "generated_at": "2026-10-09T06:11:00.009212+00:00",
-  "local_generated_at": "2026-10-09T14:11:00.009212+08:00",
+  "local_date": "2026-10-09",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
-  "seed_batch": [
+  "batches": [
+    {
+      "start_index": 40,
+      "generated_at": "2026-10-09T06:11:00.009212+00:00",
+      "local_generated_at": "2026-10-09T14:11:00.009212+08:00",
+      "seed_batch": [
+        "notifier",
+        "verifier",
+        "simulator",
+        "assistant",
+        "constructor"
+      ],
+      "discovery_count": 65,
+      "status": "ok"
+    }
+  ],
+  "scanned_seeds": [
     "notifier",
     "verifier",
     "simulator",
     "assistant",
     "constructor"
   ],
-  "start_index": 40,
   "discoveries": [
     {
       "seed": "constructor",
@@ -404,6 +418,9 @@
       "raw_value": 40
     }
   ],
-  "status": "ok",
-  "discovery_count": 65
+  "scanned_seed_count": 5,
+  "batch_count": 1,
+  "discovery_count": 65,
+  "complete_20_seeds": false,
+  "updated_at": "2026-10-09T06:11:00.009212+00:00"
 }
