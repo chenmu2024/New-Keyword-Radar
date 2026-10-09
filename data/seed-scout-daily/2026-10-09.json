@@ -17,6 +17,20 @@
       ],
       "discovery_count": 65,
       "status": "ok"
+    },
+    {
+      "start_index": 45,
+      "generated_at": "2026-10-09T15:23:02.270876+00:00",
+      "local_generated_at": "2026-10-09T23:23:02.270876+08:00",
+      "seed_batch": [
+        "comparator",
+        "navigator",
+        "syncer",
+        "connector",
+        "cataloger"
+      ],
+      "discovery_count": 42,
+      "status": "ok"
     }
   ],
   "scanned_seeds": [
@@ -24,9 +38,26 @@
     "verifier",
     "simulator",
     "assistant",
-    "constructor"
+    "constructor",
+    "comparator",
+    "navigator",
+    "syncer",
+    "connector",
+    "cataloger"
   ],
   "discoveries": [
+    {
+      "seed": "cataloger",
+      "query": "wow cataloger jakes",
+      "rise_value": 154800.0,
+      "raw_value": 154800
+    },
+    {
+      "seed": "cataloger",
+      "query": "cataloger jake",
+      "rise_value": 118950.0,
+      "raw_value": 118950
+    },
     {
       "seed": "constructor",
       "query": "gra",
@@ -52,6 +83,24 @@
       "raw_value": 4800
     },
     {
+      "seed": "connector",
+      "query": "manual connector system fs25",
+      "rise_value": 4500.0,
+      "raw_value": 4500
+    },
+    {
+      "seed": "connector",
+      "query": "pny rtx 5090 melted power connector",
+      "rise_value": 3800.0,
+      "raw_value": 3800
+    },
+    {
+      "seed": "comparator",
+      "query": "minecraftle",
+      "rise_value": 2600.0,
+      "raw_value": 2600
+    },
+    {
       "seed": "constructor",
       "query": "bridge constructor studio",
       "rise_value": 1050.0,
@@ -70,8 +119,20 @@
       "raw_value": 450
     },
     {
+      "seed": "navigator",
+      "query": "db navigator störung",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
       "seed": "simulator",
       "query": "deltarune fight simulator",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "syncer",
+      "query": "tradingview",
       "rise_value": 300.0,
       "raw_value": 300
     },
@@ -112,6 +173,12 @@
       "raw_value": 200
     },
     {
+      "seed": "syncer",
+      "query": "lucid trading",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
       "seed": "assistant",
       "query": "nicl assistant",
       "rise_value": 200.0,
@@ -136,6 +203,12 @@
       "raw_value": 190
     },
     {
+      "seed": "comparator",
+      "query": "tire size comparator",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
       "seed": "assistant",
       "query": "emergency care assistant",
       "rise_value": 170.0,
@@ -148,10 +221,28 @@
       "raw_value": 170
     },
     {
+      "seed": "navigator",
+      "query": "the ecd3350-rd85 global navigator x watch",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
       "seed": "notifier",
       "query": "notifier deutsch",
       "rise_value": 150.0,
       "raw_value": 150
+    },
+    {
+      "seed": "navigator",
+      "query": "campus navigator tu dresden",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator oferte-tip de furnizare a energiei electrice",
+      "rise_value": 140.0,
+      "raw_value": 140
     },
     {
       "seed": "constructor",
@@ -168,6 +259,12 @@
     {
       "seed": "assistant",
       "query": "home assistant 2026.10",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "navigator",
+      "query": "rally navigator",
       "rise_value": 140.0,
       "raw_value": 140
     },
@@ -244,6 +341,12 @@
       "raw_value": 110
     },
     {
+      "seed": "comparator",
+      "query": "comparable and comparator in java",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
       "seed": "simulator",
       "query": "construction simulator",
       "rise_value": 100.0,
@@ -268,10 +371,34 @@
       "raw_value": 100
     },
     {
+      "seed": "connector",
+      "query": "bj77 connector price",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "comparator",
+      "query": "cheapest flights to tokyo",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "syncer",
+      "query": "lucid",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
       "seed": "verifier",
       "query": "verifier billet loterie",
       "rise_value": 90.0,
       "raw_value": 90
+    },
+    {
+      "seed": "navigator",
+      "query": "2017 lincoln navigator",
+      "rise_value": 80.0,
+      "raw_value": 80
     },
     {
       "seed": "verifier",
@@ -292,6 +419,18 @@
       "raw_value": 80
     },
     {
+      "seed": "comparator",
+      "query": "2 bit magnitude comparator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "4 bit comparator truth table",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "constructor",
       "query": "constructor matériaux",
       "rise_value": 70.0,
@@ -304,8 +443,26 @@
       "raw_value": 70
     },
     {
+      "seed": "connector",
+      "query": "iop connector run",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "navigator",
+      "query": "lincoln navigator for sale",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "notifier",
       "query": "m701 notifier",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "repeater minecraft",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -322,8 +479,32 @@
       "raw_value": 70
     },
     {
+      "seed": "syncer",
+      "query": "usdb syncer",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "verifier",
       "query": "verifier son inscription sur liste electorale",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "what does a comparator do in minecraft",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "what does a redstone comparator do",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "what does redstone comparator do",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -352,8 +533,26 @@
       "raw_value": 60
     },
     {
+      "seed": "navigator",
+      "query": "jupyter notebook",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "navigator",
+      "query": "lincoln navigator l for sale",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "simulator",
       "query": "polski piłkarz simulator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "comparator",
+      "query": "repeater recipe minecraft",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -364,6 +563,24 @@
       "raw_value": 60
     },
     {
+      "seed": "connector",
+      "query": "zotero connector chrome",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "navigator",
+      "query": "anaconda download",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "navigator",
+      "query": "anaconda navigator download",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "verifier",
       "query": "email checker",
       "rise_value": 50.0,
@@ -372,6 +589,30 @@
     {
       "seed": "verifier",
       "query": "email id verifier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "how to craft a redstone comparator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "how to make a comparator in minecraft",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "how to make a redstone comparator in minecraft",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "navigator",
+      "query": "linkedin sales navigator login",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -388,10 +629,22 @@
       "raw_value": 50
     },
     {
+      "seed": "syncer",
+      "query": "tradovate",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "simulator",
       "query": "wokwi simulator",
       "rise_value": 50.0,
       "raw_value": 50
+    },
+    {
+      "seed": "navigator",
+      "query": "anaconda",
+      "rise_value": 40.0,
+      "raw_value": 40
     },
     {
       "seed": "notifier",
@@ -402,6 +655,24 @@
     {
       "seed": "notifier",
       "query": "fruit notifier script",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "navigator",
+      "query": "repco navigator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "navigator",
+      "query": "sales navigator login",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "syncer",
+      "query": "trade copia",
       "rise_value": 40.0,
       "raw_value": 40
     },
@@ -418,9 +689,37 @@
       "raw_value": 40
     }
   ],
-  "scanned_seed_count": 5,
-  "batch_count": 1,
-  "discovery_count": 65,
+  "scanned_seed_count": 10,
+  "batch_count": 2,
+  "discovery_count": 107,
   "complete_20_seeds": false,
-  "updated_at": "2026-10-09T06:11:00.009212+00:00"
+  "updated_at": "2026-10-09T15:23:02.270876+00:00",
+  "errors": [
+    {
+      "generated_at": "2026-10-09T15:19:28.989871+00:00",
+      "local_generated_at": "2026-10-09T23:19:28.989871+08:00",
+      "start_index": 45,
+      "seed_batch": [
+        "comparator",
+        "navigator",
+        "syncer",
+        "connector",
+        "cataloger"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    },
+    {
+      "generated_at": "2026-10-09T15:20:51.460989+00:00",
+      "local_generated_at": "2026-10-09T23:20:51.460989+08:00",
+      "start_index": 45,
+      "seed_batch": [
+        "comparator",
+        "navigator",
+        "syncer",
+        "connector",
+        "cataloger"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    }
+  ]
 }
