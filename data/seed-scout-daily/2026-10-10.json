@@ -17,6 +17,20 @@
       ],
       "discovery_count": 33,
       "status": "ok"
+    },
+    {
+      "start_index": 55,
+      "generated_at": "2026-10-10T14:28:59.666039+00:00",
+      "local_generated_at": "2026-10-10T22:28:59.666039+08:00",
+      "seed_batch": [
+        "gumroad",
+        "steam",
+        "game",
+        "poki",
+        "slope game"
+      ],
+      "discovery_count": 42,
+      "status": "ok"
     }
   ],
   "scanned_seeds": [
@@ -24,14 +38,61 @@
     "color",
     "image",
     "flux",
-    "ai"
+    "ai",
+    "gumroad",
+    "steam",
+    "game",
+    "poki",
+    "slope game"
   ],
   "discoveries": [
+    {
+      "seed": "game",
+      "query": "lagos life",
+      "rise_value": 18450.0,
+      "raw_value": 18450
+    },
+    {
+      "seed": "game",
+      "query": "lagos life game",
+      "rise_value": 17350.0,
+      "raw_value": 17350
+    },
+    {
+      "seed": "slope game",
+      "query": "2v2io",
+      "rise_value": 13750.0,
+      "raw_value": 13750
+    },
+    {
+      "seed": "game",
+      "query": "lagos life game app",
+      "rise_value": 12900.0,
+      "raw_value": 12900
+    },
+    {
+      "seed": "game",
+      "query": "lagos life app",
+      "rise_value": 12750.0,
+      "raw_value": 12750
+    },
+    {
+      "seed": "steam",
+      "query": "steam free games weekend promotion",
+      "rise_value": 7450.0,
+      "raw_value": 7450
+    },
     {
       "seed": "responder",
       "query": "que valor humano é defendido pela tirinha ao apresentar pessoas diferentes associadas às ideias de igualdade e liberdade?",
       "rise_value": 4700.0,
       "raw_value": 4700
+    },
+    {
+      "seed": "game",
+      "query": "lagos lifestyle game",
+      "rise_value": 4500.0,
+      "raw_value": 4500
     },
     {
       "seed": "image",
@@ -40,10 +101,22 @@
       "raw_value": 2850
     },
     {
+      "seed": "steam",
+      "query": "embark studios arc raiders steam",
+      "rise_value": 1600.0,
+      "raw_value": 1600
+    },
+    {
       "seed": "responder",
       "query": "qual é o nome dado para os sólidos geométricos que apresentam faces, arestas e vértices?",
       "rise_value": 1300.0,
       "raw_value": 1300
+    },
+    {
+      "seed": "game",
+      "query": "alabama georgia game",
+      "rise_value": 1150.0,
+      "raw_value": 1150
     },
     {
       "seed": "color",
@@ -58,10 +131,88 @@
       "raw_value": 800
     },
     {
+      "seed": "game",
+      "query": "argentina game today",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "steam",
+      "query": "gears of war e day steam charts",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
+      "seed": "game",
+      "query": "brewers game",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "game",
+      "query": "dodgers game today",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "steam",
+      "query": "star wars galactic racer",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "game",
+      "query": "brewers game today",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "game",
+      "query": "brewer game",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "game",
+      "query": "dodgers game",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "game",
+      "query": "guardians game today",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "game",
+      "query": "kidnap game",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "game",
+      "query": "messi last game",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
       "seed": "color",
       "query": "psicología del color",
       "rise_value": 350.0,
       "raw_value": 350
+    },
+    {
+      "seed": "steam",
+      "query": "arc raiders",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "steam",
+      "query": "arc raiders steam charts",
+      "rise_value": 250.0,
+      "raw_value": 250
     },
     {
       "seed": "color",
@@ -76,10 +227,40 @@
       "raw_value": 160
     },
     {
+      "seed": "steam",
+      "query": "aion 2 steam charts",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "steam",
+      "query": "gears of war e day steam",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
       "seed": "flux",
       "query": "snow flux",
       "rise_value": 150.0,
       "raw_value": 150
+    },
+    {
+      "seed": "steam",
+      "query": "gears of war e day",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "gumroad",
+      "query": "how to bake a cake",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "slope game",
+      "query": "slitherio",
+      "rise_value": 130.0,
+      "raw_value": 130
     },
     {
       "seed": "flux",
@@ -94,14 +275,50 @@
       "raw_value": 110
     },
     {
+      "seed": "steam",
+      "query": "aion2",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "gumroad",
+      "query": "codecanyon",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "image",
       "query": "image to excel converter",
       "rise_value": 80.0,
       "raw_value": 80
     },
     {
+      "seed": "steam",
+      "query": "steam edu az",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "steam",
+      "query": "aion 2",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "steam",
+      "query": "aion 2 steam",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "flux",
       "query": "flux 3 image",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "steam",
+      "query": "marathon steam charts",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -112,14 +329,44 @@
       "raw_value": 60
     },
     {
+      "seed": "slope game",
+      "query": "crazygames",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "color",
       "query": "eye color chart",
       "rise_value": 60.0,
       "raw_value": 60
     },
     {
+      "seed": "slope game",
+      "query": "freezenova",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "slope game",
+      "query": "google doodles",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "gumroad",
+      "query": "gumroad que es",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "ai",
       "query": "mistral ai",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "slope game",
+      "query": "snapchat",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -136,8 +383,20 @@
       "raw_value": 50
     },
     {
+      "seed": "slope game",
+      "query": "neal fun",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "flux",
       "query": "osde flux",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "gumroad",
+      "query": "payhip login",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -174,6 +433,12 @@
     {
       "seed": "image",
       "query": "remove bg",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "steam",
+      "query": "steam charts",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -224,11 +489,17 @@
       "query": "resize image online",
       "rise_value": 40.0,
       "raw_value": 40
+    },
+    {
+      "seed": "poki",
+      "query": "vioedu",
+      "rise_value": 40.0,
+      "raw_value": 40
     }
   ],
-  "scanned_seed_count": 5,
-  "batch_count": 1,
-  "discovery_count": 33,
+  "scanned_seed_count": 10,
+  "batch_count": 2,
+  "discovery_count": 75,
   "complete_20_seeds": false,
-  "updated_at": "2026-10-10T05:54:39.798954+00:00"
+  "updated_at": "2026-10-10T14:28:59.666039+00:00"
 }
