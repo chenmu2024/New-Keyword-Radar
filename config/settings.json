@@ -1,5 +1,5 @@
 {
-  "pipeline_version": 6,
+  "pipeline_version": 7,
   "geos": [
     "US",
     "BR",
@@ -13,8 +13,8 @@
   "seed_batch_size": 5,
   "seed_related_per_keyword": 15,
   "max_suggest_bases": 12,
-  "max_explore_per_run": 7,
-  "max_history_checks_per_run": 2,
+  "max_explore_per_run": 15,
+  "max_history_checks_per_run": 5,
   "formal_limit": 3,
   "min_recent_peak": 20,
   "max_baseline_avg": 1.5,
@@ -25,5 +25,9 @@
   "history_material_threshold": 5,
   "max_history_material_ratio": 0.03,
   "min_money_score": 55,
-  "lookback_new_days": 45
+  "lookback_new_days": 45,
+  "daily_seed_target": 74,
+  "seed_batches_per_run": 20,
+  "seed_batch_delay_seconds": 90,
+  "pending_limit": 750
 }
