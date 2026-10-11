@@ -201,7 +201,7 @@ def main():
    q=norm(rq.get('query',''))
    if valid(q): src=f"explore-related:{x['query']}"; remember(seen,q,src,today); queue(pending,q,x.get('geo',''),src,today)
   if i<len(chosen)-1: time.sleep(9)
- checked.sort(key=lambda x:(x['verdict']!='formal',-x['newness_score'],-x['money_score'],x['keyword'])); formal=[x for x in checked if x['verdict']=='formal'][:int(cfg.get('formal_limit',3))]
+ checked.sort(key=lambda x:(x['verdict']!='formal',-x['newness_score'],-x['money_score'],x['keyword'])); formal=[x for x in checked if x['verdict']=='formal']
  limit=int(cfg.get('pending_limit',750))
  def pending_rank(x):
   last=x.get('last_seen','1970-01-01')
