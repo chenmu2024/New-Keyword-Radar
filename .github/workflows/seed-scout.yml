@@ -9,9 +9,10 @@ on:
       - "config/settings.json"
       - ".github/workflows/seed-scout.yml"
   schedule:
-    # Asia/Shanghai primary batches: 08:20, 12:20, 16:20, 20:20.
-    # 22:20 is a safety catch-up slot. src/seed_scout.py no-ops once 20 roots are complete.
-    - cron: "20 0,4,8,12,14 * * *"
+    # Three Beijing-local sweeps: 05:10, 13:10, 21:10.
+    # Each sweep processes as many missing roots as possible, so reliability no
+    # longer depends on GitHub firing 15+ separate cron events.
+    - cron: "10 5,13,21 * * *"
 
 permissions:
   contents: write
@@ -23,7 +24,7 @@ concurrency:
 jobs:
   scout:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 70
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -42,25 +43,12 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip && pip install -r requirements.txt
 
-      - name: Scan 7-day Rising queries with retry
+      - name: Sweep missing 7-day Rising roots
         env:
           PYTHONUNBUFFERED: "1"
-        shell: bash
-        run: |
-          set -u
-          for attempt in 1 2 3; do
-            echo "Seed scout attempt $attempt/3"
-            if python src/seed_scout.py; then
-              exit 0
-            fi
-            if [ "$attempt" -lt 3 ]; then
-              sleep $((attempt * 60))
-            fi
-          done
-          echo "Seed scout failed after 3 attempts"
-          exit 1
+        run: python src/seed_scout.py
 
-      - name: Verify local-day archive
+      - name: Verify Beijing-local daily coverage
         shell: bash
         run: |
           python - <<'PY'
@@ -77,13 +65,17 @@ jobs:
 
           data = json.loads(path.read_text(encoding="utf-8"))
           count = int(data.get("scanned_seed_count", 0) or 0)
-          complete = bool(data.get("complete_20_seeds", False))
-          print(f"{day}: scanned_seed_count={count}, complete_20_seeds={complete}")
+          target = int(data.get("target_seed_count", 0) or 0)
+          complete = bool(data.get("complete_daily_target", False))
+          print(
+              f"{day}: scanned_seed_count={count}, target_seed_count={target}, "
+              f"complete_daily_target={complete}"
+          )
 
-          # By/after the 20:20 primary slot, the Beijing-local day must be complete.
-          # The 22:20 slot is a final catch-up; failure remains visible instead of being masked.
-          if local_now.hour >= 20 and not complete:
-              raise SystemExit(f"Daily scan incomplete after evening slot: {count}/20 roots")
+          # Only the final 21:10 local sweep is a hard completeness gate.
+          # Earlier sweeps may legitimately leave work for the next fresh runner.
+          if local_now.hour >= 21 and not complete:
+              raise SystemExit(f"Daily scan incomplete after final sweep: {count}/{target} roots")
           PY
 
       - name: Commit scout state and daily archive
@@ -96,7 +88,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "data: refresh 7-day seed scout $(date -u +%FT%H)"
+            git commit -m "data: refresh full daily seed scout $(date -u +%FT%H)"
             git pull --rebase origin main
             git push
           fi
