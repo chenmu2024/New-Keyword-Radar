@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "src/seed_scout.py"
+      - "src/publish_seed_scout.py"
       - "config/discovery_seeds.txt"
       - "config/settings.json"
       - ".github/workflows/seed-scout.yml"
@@ -78,17 +79,9 @@ jobs:
               raise SystemExit(f"Daily scan incomplete after final sweep: {count}/{target} roots")
           PY
 
-      - name: Commit scout state and daily archive
+      - name: Publish reconciled scout output
         if: always()
-        shell: bash
         run: |
           git config user.name "new-keyword-radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/seed-scout-latest.json data/seed-scout data/seed-scout-daily reports/seed-scout-daily state/pending.json state/seed_cursor.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "data: refresh full daily seed scout $(date -u +%FT%H)"
-            git pull --rebase origin main
-            git push
-          fi
+          python src/publish_seed_scout.py
