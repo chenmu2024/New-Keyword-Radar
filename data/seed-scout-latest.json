@@ -1,26 +1,121 @@
 {
-  "batch_id": "2026-10-11T16:16:57.454905+00:00-47-48-49-50-51",
-  "generated_at": "2026-10-11T16:16:57.454905+00:00",
-  "local_generated_at": "2026-10-12T00:16:57.454905+08:00",
+  "batch_id": "2026-10-11T22:13:50.159487+00:00-48-49-50-51",
+  "generated_at": "2026-10-11T22:13:50.159487+00:00",
+  "local_generated_at": "2026-10-12T06:13:50.159487+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "syncer",
     "connector",
     "cataloger",
     "responder",
     "color"
   ],
   "seed_indices": [
-    47,
     48,
     49,
     50,
     51
   ],
-  "start_index": 47,
-  "discoveries": [],
-  "status": "error",
-  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+  "start_index": 48,
+  "discoveries": [
+    {
+      "seed": "connector",
+      "query": "manual connector system fs25",
+      "rise_value": 6350.0,
+      "raw_value": 6350
+    },
+    {
+      "seed": "responder",
+      "query": "que valor humano é defendido pela tirinha ao apresentar pessoas diferentes associadas às ideias de igualdade e liberdade?",
+      "rise_value": 4900.0,
+      "raw_value": 4900
+    },
+    {
+      "seed": "connector",
+      "query": "tesla wall connector smart charging",
+      "rise_value": 2300.0,
+      "raw_value": 2300
+    },
+    {
+      "seed": "responder",
+      "query": "qual é o nome dado para os sólidos geométricos que apresentam faces, arestas e vértices?",
+      "rise_value": 1300.0,
+      "raw_value": 1300
+    },
+    {
+      "seed": "color",
+      "query": "color for the cure",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "connector",
+      "query": "alexandra park connector",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "responder",
+      "query": "briggs and stratton storm responder 6250",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "color",
+      "query": "read your color",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "responder",
+      "query": "lululemon first responder",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "connector",
+      "query": "bj77 connector price",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "responder",
+      "query": "lululemon first responder discount canada",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "color",
+      "query": "eye color chart",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "responder",
+      "query": "liggo",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "responder",
+      "query": "lululemon first responder discount",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "connector",
+      "query": "zotero connector chrome",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "color",
+      "query": "hazel color",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 16
 }

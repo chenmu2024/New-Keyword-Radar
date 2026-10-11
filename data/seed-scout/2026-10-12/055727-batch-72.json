@@ -1,0 +1,57 @@
+{
+  "batch_id": "2026-10-11T21:57:27.102369+00:00-72-73-0-1-2",
+  "generated_at": "2026-10-11T21:57:27.102369+00:00",
+  "local_generated_at": "2026-10-12T05:57:27.102369+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "tea",
+    "download",
+    "translator",
+    "generator",
+    "example"
+  ],
+  "seed_indices": [
+    72,
+    73,
+    0,
+    1,
+    2
+  ],
+  "start_index": 72,
+  "discoveries": [
+    {
+      "seed": "translator",
+      "query": "english to afrikaans translator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "generator",
+      "query": "secret santa generator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "download",
+      "query": "abha card download",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "download",
+      "query": "ultraviewer download",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "generator",
+      "query": "upc barcode generator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 5
+}
