@@ -1,0 +1,878 @@
+{
+  "local_date": "2026-10-11",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "target_seed_count": 74,
+  "batches": [
+    {
+      "batch_id": "2026-10-11T01:04:21.001133+00:00-40-41-42-43-44",
+      "start_index": 40,
+      "seed_indices": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "generated_at": "2026-10-11T01:04:21.001133+00:00",
+      "local_generated_at": "2026-10-11T09:04:21.001133+08:00",
+      "seed_batch": [
+        "notifier",
+        "verifier",
+        "simulator",
+        "assistant",
+        "constructor"
+      ],
+      "discovery_count": 65,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-11T01:05:58.843942+00:00-45-46-47-48-49",
+      "start_index": 45,
+      "seed_indices": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "generated_at": "2026-10-11T01:05:58.843942+00:00",
+      "local_generated_at": "2026-10-11T09:05:58.843942+08:00",
+      "seed_batch": [
+        "comparator",
+        "navigator",
+        "syncer",
+        "connector",
+        "cataloger"
+      ],
+      "discovery_count": 35,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-11T01:07:34.728588+00:00-50-51-52-53-54",
+      "start_index": 50,
+      "seed_indices": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "generated_at": "2026-10-11T01:07:34.728588+00:00",
+      "local_generated_at": "2026-10-11T09:07:34.728588+08:00",
+      "seed_batch": [
+        "responder",
+        "color",
+        "image",
+        "flux",
+        "ai"
+      ],
+      "discovery_count": 26,
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "generated_at": "2026-10-11T01:10:03.241798+00:00",
+      "local_generated_at": "2026-10-11T09:10:03.241798+08:00",
+      "start_index": 55,
+      "seed_indices": [
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "seed_batch": [
+        "gumroad",
+        "steam",
+        "game",
+        "poki",
+        "slope game"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    }
+  ],
+  "scanned_seeds": [
+    "notifier",
+    "verifier",
+    "simulator",
+    "assistant",
+    "constructor",
+    "comparator",
+    "navigator",
+    "syncer",
+    "connector",
+    "cataloger",
+    "responder",
+    "color",
+    "image",
+    "flux",
+    "ai"
+  ],
+  "discoveries": [
+    {
+      "seed": "notifier",
+      "query": "clover time codes",
+      "rise_value": 13000.0,
+      "raw_value": 13000
+    },
+    {
+      "seed": "notifier",
+      "query": "zoomify",
+      "rise_value": 11100.0,
+      "raw_value": 11100
+    },
+    {
+      "seed": "notifier",
+      "query": "howard email notifier",
+      "rise_value": 5950.0,
+      "raw_value": 5950
+    },
+    {
+      "seed": "connector",
+      "query": "manual connector system fs25",
+      "rise_value": 5400.0,
+      "raw_value": 5400
+    },
+    {
+      "seed": "simulator",
+      "query": "lagos life simulator game",
+      "rise_value": 5050.0,
+      "raw_value": 5050
+    },
+    {
+      "seed": "responder",
+      "query": "que valor humano é defendido pela tirinha ao apresentar pessoas diferentes associadas às ideias de igualdade e liberdade?",
+      "rise_value": 4800.0,
+      "raw_value": 4800
+    },
+    {
+      "seed": "flux",
+      "query": "pizaa",
+      "rise_value": 4650.0,
+      "raw_value": 4650
+    },
+    {
+      "seed": "simulator",
+      "query": "cyber cleaner simulator",
+      "rise_value": 2900.0,
+      "raw_value": 2900
+    },
+    {
+      "seed": "image",
+      "query": "nasa curiosity rover mars dawn image",
+      "rise_value": 2850.0,
+      "raw_value": 2850
+    },
+    {
+      "seed": "ai",
+      "query": "alex karp ai career advice",
+      "rise_value": 2500.0,
+      "raw_value": 2500
+    },
+    {
+      "seed": "flux",
+      "query": "athyx flux one",
+      "rise_value": 2300.0,
+      "raw_value": 2300
+    },
+    {
+      "seed": "connector",
+      "query": "alexandra park connector",
+      "rise_value": 1350.0,
+      "raw_value": 1350
+    },
+    {
+      "seed": "simulator",
+      "query": "maid cafe simulator",
+      "rise_value": 1350.0,
+      "raw_value": 1350
+    },
+    {
+      "seed": "responder",
+      "query": "qual é o nome dado para os sólidos geométricos que apresentam faces, arestas e vértices?",
+      "rise_value": 1350.0,
+      "raw_value": 1350
+    },
+    {
+      "seed": "connector",
+      "query": "rainiai",
+      "rise_value": 1250.0,
+      "raw_value": 1250
+    },
+    {
+      "seed": "color",
+      "query": "color for the cure",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "constructor",
+      "query": "gra",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "comparator",
+      "query": "minecraftle",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "comparator",
+      "query": "globle",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "simulator",
+      "query": "wni simulator",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "flux",
+      "query": "snow flux jacket",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "assistant",
+      "query": "nicl ao recruitment 2026",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "assistant",
+      "query": "bsf nursing assistant recruitment 2026",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "navigator",
+      "query": "db navigator störung",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "constructor",
+      "query": "f1 driver standings",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "constructor",
+      "query": "bridge constructor",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "constructor",
+      "query": "bridge constructor studio",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "comparator",
+      "query": "cheapest flights to tokyo",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator pulse extender",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "navigator",
+      "query": "rally navigator",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "syncer",
+      "query": "tradingview",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "ai",
+      "query": "osiris ai",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "color",
+      "query": "read your color",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "verifier",
+      "query": "1 winner bet verifier ticket",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "constructor",
+      "query": "constructor standings f1",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "syncer",
+      "query": "discord",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "constructor",
+      "query": "f1 constructor",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "comparator",
+      "query": "kanstul mouthpiece comparator",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "syncer",
+      "query": "lucid",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "flux",
+      "query": "snow flux",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "constructor",
+      "query": "constructor championship f1 2026",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "constructor",
+      "query": "f1 constructor championship",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "assistant",
+      "query": "nicl assistant recruitment 2026",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "simulator",
+      "query": "simulator electude",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator oferte-tip de furnizare a energiei electrice",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "simulator",
+      "query": "deltarune battle simulator",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "constructor",
+      "query": "online c++ compiler",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "flux",
+      "query": "philips hue flux lightstrip",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "verifier",
+      "query": "android system key verifier что это",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "syncer",
+      "query": "lucid trading",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "assistant",
+      "query": "nicl assistant",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "comparator",
+      "query": "top tourist attractions in paris",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "assistant",
+      "query": "nicl",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier son inscription sur liste electorale",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "navigator",
+      "query": "campus navigator tu dresden",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "simulator",
+      "query": "deltarune fight simulator",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "verifier",
+      "query": "free bulk email verifier",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "constructor",
+      "query": "constructor championship",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "verifier",
+      "query": "how to bake a cake",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "simulator",
+      "query": "tcg card shop simulator pokemon mod",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "comparator",
+      "query": "4 bit comparator truth table",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "simulator",
+      "query": "deltarune simulator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "simulator",
+      "query": "electude simulator challenge",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "constructor",
+      "query": "manny a la obra",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "notifier",
+      "query": "steal an egg",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "flux",
+      "query": "stone flux pauldron",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "navigator",
+      "query": "2017 lincoln navigator",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "assistant",
+      "query": "home assistant 2026.10",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "constructor",
+      "query": "java online compiler",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "notifier",
+      "query": "steal an egg egg notifier",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "notifier",
+      "query": "steal an egg notifier",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "assistant",
+      "query": "uphesc assistant professor",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "syncer",
+      "query": "usdb syncer",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "constructor",
+      "query": "best pizza near me",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "navigator",
+      "query": "ecu navigator portal",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "constructor",
+      "query": "how to make sushi",
+      "rise_value": 70.0,
+      "raw_value": 70,
+      "also_from_seeds": [
+        "comparator"
+      ]
+    },
+    {
+      "seed": "notifier",
+      "query": "is fruit notifier worth it",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "verifier",
+      "query": "loto quebec verifier un billet",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "tire size comparator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "syncer",
+      "query": "trade copia",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "connector",
+      "query": "zotero connector chrome",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "2 bit magnitude comparator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "navigator",
+      "query": "capital one dealer navigator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator circuit diagram",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator crafting recipe",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator vs comparable in java",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "notifier",
+      "query": "egg notifier",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "ai",
+      "query": "mistral ai",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "assistant",
+      "query": "nicl assistant result",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "assistant",
+      "query": "nicl assistant result 2026",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "flux",
+      "query": "philips hue flux",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "navigator",
+      "query": "salem state navigator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier billet loterie",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "connector",
+      "query": "bj77 connector price",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "bulk email verifier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "ai",
+      "query": "claude ai",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "ai",
+      "query": "claude ai login",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "comment verifier un oeuf",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator and comparable in java",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "responder",
+      "query": "first responder challenge",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "how much is fruit notifier in blox fruits",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "image",
+      "query": "image to excel converter",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "image",
+      "query": "image to text converter",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "constructor",
+      "query": "manny el constructor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "assistant",
+      "query": "nicl assistant prelims result 2026",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier heat detector",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "assistant",
+      "query": "up assistant professor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "assistant",
+      "query": "up assistant professor vacancy 2026",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier inscription sur liste electorale",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "ants",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "ai",
+      "query": "claude ai free",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "verifier",
+      "query": "email id verifier",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "ai",
+      "query": "gamma ai",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "image",
+      "query": "image to word converter",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "navigator",
+      "query": "jupyter notebook",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "responder",
+      "query": "lululemon first responder",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "assistant",
+      "query": "medical assistant week 2026",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier fsp-951",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "flux",
+      "query": "osde flux",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "verifier",
+      "query": "philsys verifier",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "image",
+      "query": "remove background from image",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "navigator",
+      "query": "the ecd3350-rd85 global navigator x watch",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "assistant",
+      "query": "up assistant professor vacancy",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "simulator",
+      "query": "wokwi simulator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "simulator",
+      "query": "woman simulator game",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "discovery_count": 125,
+  "updated_at": "2026-10-11T01:10:03.241798+00:00",
+  "scanned_seed_count": 15,
+  "batch_count": 3,
+  "attempted_seed_count": 20,
+  "complete_20_seeds": false,
+  "complete_daily_target": false,
+  "completion_pct": 20.3,
+  "failed_seed_count": 5
+}

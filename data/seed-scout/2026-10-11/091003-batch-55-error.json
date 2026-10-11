@@ -1,0 +1,26 @@
+{
+  "batch_id": "2026-10-11T01:10:03.241798+00:00-55-56-57-58-59",
+  "generated_at": "2026-10-11T01:10:03.241798+00:00",
+  "local_generated_at": "2026-10-11T09:10:03.241798+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "gumroad",
+    "steam",
+    "game",
+    "poki",
+    "slope game"
+  ],
+  "seed_indices": [
+    55,
+    56,
+    57,
+    58,
+    59
+  ],
+  "start_index": 55,
+  "discoveries": [],
+  "status": "error",
+  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+}
