@@ -70,9 +70,9 @@ A query can be truly new and still be excluded if it has no clear way to make mo
 
 ## Schedule
 
-GitHub Actions runs the seed scout on the Asia/Shanghai calendar day at **08:20 / 12:20 / 16:20 / 20:20**, five roots per primary batch. A **22:20** safety slot only runs missing work; once the daily archive reaches 20 unique roots, the scout exits without scanning more. Each batch retries transient Google Trends failures up to three times.
+GitHub Actions runs the seed scout as three Beijing-local sweeps at **05:10 / 13:10 / 21:10**. Each sweep keeps processing missing roots in five-root Google Trends batches, with spacing between batches, until the day's configured target is complete or Google rate-limits the runner. Failed roots are deferred instead of locking the cursor, and the next sweep continues with other unscanned roots before retrying failures.
 
-The downstream 08:00 report therefore reads the **previous Beijing-local day's** completed 20-root archive. The workflow also runs after changes to the scout code/config so fixes can be exercised immediately.
+The current daily target is the **full discovery seed universe (74 roots)** rather than a 20-root sample. The downstream 08:00 report reads the previous Beijing-local day's archive and treats it as complete only when `complete_daily_target=true` and `scanned_seed_count == target_seed_count`. The workflow also runs after changes to the scout code/config so fixes can be exercised immediately.
 
 ## OPC business evidence review (non-destructive)
 
