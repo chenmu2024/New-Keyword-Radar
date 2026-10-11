@@ -102,7 +102,7 @@ def merge_pending(remote: dict, local: dict) -> dict:
         -timestamp((kv[1].get("last_seen") or "1970-01-01") + "T00:00:00+00:00").timestamp(),
         kv[0],
     ))
-    return dict(sorted_items[:250])
+    return dict(sorted_items[:750])
 
 
 def git(*argv: str, cwd: Path | None = None, check: bool = True) -> subprocess.CompletedProcess:
