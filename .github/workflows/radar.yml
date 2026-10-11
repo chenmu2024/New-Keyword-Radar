@@ -17,7 +17,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: keyword-radar-pipeline
+  group: keyword-radar-validation
   cancel-in-progress: false
 
 jobs:
