@@ -1,20 +1,16 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-10T02:10:21.016892+00:00
+Generated: 2026-10-11T00:54:47.958536+00:00
 
 ## Formal candidates
 
-### 1. wni simulator
-
-- Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-09-15T00:00:00+00:00, retention **72.0%**.
-- 5y old-history gate: avg **0.05**, peak **6**, material ratio (>= 5) **0.008**; raw non-zero ratio **0.008**.
-- Source seed-rising:simulator; geo Worldwide.
-
+**今日无合格可变现新词。**
 ## Watch / rejected
 
-- deltarune battle simulator — **old-history** — newness 100, money 100; 5y peak 37
-- my education planner — **history-unchecked** — newness 96, money 100
-- deltarune fight simulator — **commercial-watch** — newness 70, money 100
+- deltarune battle simulator — **old-history** — newness 100, money 100; 5y peak 34
+- my education planner — **old-history** — newness 96, money 100; 5y peak 100
+- engine simulator 3d — **history-unchecked** — newness 91, money 94
+- deltarune fight simulator — **commercial-watch** — newness 78, money 100
+- wni simulator — **commercial-watch** — newness 78, money 100
 - deltarune simulator — **reject** — newness 40, money 100
-- tracker cast — **reject** — newness 40, money 94
+- electude simulator — **reject** — newness 40, money 100
