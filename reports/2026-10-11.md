@@ -1,23 +1,24 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-11T00:58:04.181296+00:00
+Generated: 2026-10-11T01:02:29.785637+00:00
 
 ## Formal candidates
 
 **今日无合格可变现新词。**
 ## Watch / rejected
 
-- wni simulator — **old-history** — newness 100, money 100; 5y peak 10
-- superhero simulator — **old-history** — newness 95, money 100; 5y peak 100
-- wumpus torture simulator — **old-history** — newness 95, money 94; 5y peak 40
-- deltarune battle simulator — **commercial-watch** — newness 58, money 100
-- my education planner — **commercial-watch** — newness 49, money 94
-- constructor simulator — **commercial-watch** — newness 47, money 94
-- deltarune fight simulator — **reject** — newness 40, money 100
-- image to text converter — **reject** — newness 40, money 100
-- tcg card shop simulator pokemon mod — **reject** — newness 40, money 100
-- electude simulator — **reject** — newness 40, money 94
-- construction simulator — **reject** — newness 35, money 100
-- deltarune simulator — **reject** — newness 35, money 94
-- image to word converter — **reject** — newness 35, money 94
-- pdf to image converter — **reject** — newness 35, money 94
+- nicl assistant prelims result 2026 — **old-history** — newness 96, money 92; 5y peak 12
+- bj77 connector price — **old-history** — newness 95, money 90; 5y peak 100
+- global election simulator — **old-history** — newness 91, money 94; 5y peak 29
+- lagos life — **trend-watch** — newness 100, money 26
+- lagos life game — **trend-watch** — newness 100, money 26
+- electude simulator challenge — **commercial-watch** — newness 58, money 94
+- gemini app replacing google assistant — **reject** — newness 46, money 49
+- email checker — **reject** — newness 40, money 100
+- engine simulator — **reject** — newness 40, money 100
+- nicl assistant result — **reject** — newness 36, money 86
+- image to excel converter — **reject** — newness 35, money 100
+- polski piłkarz simulator — **reject** — newness 34, money 100
+- nicl assistant result 2026 — **reject** — newness 31, money 86
+- lagos life app — **error** — newness 0, money 49 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- lagos life game app — **error** — newness 0, money 49 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
