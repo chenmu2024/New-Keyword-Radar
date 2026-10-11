@@ -59,7 +59,7 @@ def main():
   except Exception as e:
    x['verdict']='history-error'; x['history_error']=f'{type(e).__name__}: {e}'; by_keyword.get(x.get('keyword'),{}).update(x); checked+=1
   time.sleep(9)
- final=[x for x in provisional if x.get('verdict')=='formal']
+ final=[x for x in provisional if x.get('verdict')=='formal'][:int(cfg.get('formal_limit',3))]
  payload['formal_candidates']=final; payload['formal_count']=len(final); payload['all_checked']=list(by_keyword.values()); payload.setdefault('method',{})['history_gate']='5-year exact-query anti-seasonality / anti-old-query check'; payload['history_checked_count']=checked
  save(DATA/'latest.json',payload)
  day=payload.get('generated_at','')[:10]
