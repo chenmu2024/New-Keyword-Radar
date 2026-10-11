@@ -10,10 +10,10 @@ on:
       - "config/settings.json"
       - ".github/workflows/seed-scout.yml"
   schedule:
-    # Three Beijing-local sweeps: 05:10, 13:10, 21:10.
-    # Each sweep processes as many missing roots as possible, so reliability no
-    # longer depends on GitHub firing 15+ separate cron events.
-    - cron: "10 5,13,21 * * *"
+    # Six Beijing-local sweeps: 02:10, 06:10, 10:10, 14:10, 18:10, 22:10.
+    # Google Trends often rate-limits a runner after several batches; fresh
+    # runners resume only missing roots, giving enough daily capacity for 74/74.
+    - cron: "10 2,6,10,14,18,22 * * *"
 
 permissions:
   contents: write
@@ -73,9 +73,9 @@ jobs:
               f"complete_daily_target={complete}"
           )
 
-          # Only the final 21:10 local sweep is a hard completeness gate.
+          # Only the final 22:10 local sweep is a hard completeness gate.
           # Earlier sweeps may legitimately leave work for the next fresh runner.
-          if local_now.hour >= 21 and not complete:
+          if local_now.hour >= 22 and not complete:
               raise SystemExit(f"Daily scan incomplete after final sweep: {count}/{target} roots")
           PY
 
