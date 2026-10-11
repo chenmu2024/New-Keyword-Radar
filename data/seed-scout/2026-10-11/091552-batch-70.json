@@ -1,0 +1,87 @@
+{
+  "batch_id": "2026-10-11T01:15:52.150902+00:00-70-71-72-73-0",
+  "generated_at": "2026-10-11T01:15:52.150902+00:00",
+  "local_generated_at": "2026-10-11T09:15:52.150902+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "symbol",
+    "instagram",
+    "tea",
+    "download",
+    "translator"
+  ],
+  "seed_indices": [
+    70,
+    71,
+    72,
+    73,
+    0
+  ],
+  "start_index": 70,
+  "discoveries": [
+    {
+      "seed": "instagram",
+      "query": "tom welling instagram story",
+      "rise_value": 1750.0,
+      "raw_value": 1750
+    },
+    {
+      "seed": "instagram",
+      "query": "muse instagram",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "symbol",
+      "query": "nazi eagle symbol",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "instagram",
+      "query": "instagram story watcher",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "symbol",
+      "query": "the sex symbol the don will never keep",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "translator",
+      "query": "afrikaans to english translator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "translator",
+      "query": "google translator from english to hindi",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "download",
+      "query": "ultraviewer download",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "instagram",
+      "query": "snapchat web",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "instagram",
+      "query": "tiktok login",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 10
+}

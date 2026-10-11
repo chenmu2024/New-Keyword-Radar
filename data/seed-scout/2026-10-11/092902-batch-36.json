@@ -1,0 +1,123 @@
+{
+  "batch_id": "2026-10-11T01:29:02.006313+00:00-36-37-38-39-55",
+  "generated_at": "2026-10-11T01:29:02.006313+00:00",
+  "local_generated_at": "2026-10-11T09:29:02.006313+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "converter",
+    "viewer",
+    "extractor",
+    "monitor",
+    "gumroad"
+  ],
+  "seed_indices": [
+    36,
+    37,
+    38,
+    39,
+    55
+  ],
+  "start_index": 36,
+  "discoveries": [
+    {
+      "seed": "extractor",
+      "query": "ps4 pkg extractor",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4 pkg extractor",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "extractor",
+      "query": "pkg extractor",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "viewer",
+      "query": "instagram video download viewer",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "monitor",
+      "query": "mozilla monitor",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "extractor",
+      "query": "what is an extractor fan",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "gumroad",
+      "query": "lemonsqueezy",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "extractor",
+      "query": "soul virtues extractor — test del alma en español",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "extractor",
+      "query": "email extractor 1.6",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "monitor",
+      "query": "monitor polski",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "viewer",
+      "query": "team viewer free download",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "extractor",
+      "query": "email extractor 1.6.1",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "extractor",
+      "query": "extractor 1.6",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "converter",
+      "query": "image to excel converter",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "converter",
+      "query": "jpg to excel converter",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 16
+}
