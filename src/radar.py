@@ -100,20 +100,50 @@ def suggest_discover(items,seen,pending,limit):
 
 def select(items,seeds,seen,pending,n):
  pool={q:{'query':q,'geo':'','source':'manual-seed'} for q in seeds}
- for q,x in pending.items(): pool.setdefault(q,{'query':q,'geo':x.get('geo',''),'source':x.get('source','pending')})
- for x in items: pool.setdefault(x['query'],x)
+ for q,x in pending.items():
+  pool.setdefault(q,{'query':q,'geo':x.get('geo',''),'source':x.get('source','pending')})
+ for x in items:
+  pool.setdefault(x['query'],x)
+
  today=now().date(); ranked=[]
  for x in pool.values():
-  q=x['query']; first=seen.get(q,{}).get('first_seen',today.isoformat())
+  q=x['query']; meta=pending.get(q,{})
+  first=seen.get(q,{}).get('first_seen',meta.get('first_seen',today.isoformat()))
   try: age=max(0,(today-datetime.fromisoformat(first).date()).days)
   except Exception: age=999
-  rise=float(pending.get(q,{}).get('rise_value',0) or 0)
-  rise_bonus=min(40, int(math.log10(max(1.0,rise))*12)) if rise>0 else 0
-  bonus=(100 if x['source']=='manual-seed' else 0)+(36 if x['source'].startswith('seed-rising:') else 0)+(28 if x['source'].startswith('suggest:') else 0)+(18 if ':related' in x['source'] else 0)+rise_bonus
-  checks=int(pending.get(q,{}).get('checks',0)); score=money(q)[0]+max(0,30-age)+bonus+max(0,18-checks*6)-(25 if noisy(q) else 0)
-  ranked.append((score,q,x))
- ranked.sort(key=lambda z:(-z[0],z[1])); return [x for _,_,x in ranked[:n]]
 
+  rise=float(meta.get('rise_value',0) or 0)
+  rise_bonus=min(55, int(math.log10(max(1.0,rise))*14)) if rise>0 else 0
+
+  source=x.get('source','')
+  source_bonus=(
+   55 if source.startswith('seed-rising:') else
+   28 if source.startswith('suggest:') else
+   20 if ':related' in source else
+   6 if source=='manual-seed' else
+   0
+  )
+
+  checks=int(meta.get('checks',0) or 0)
+  check_bonus=max(0,18-checks*5)
+
+  # Do not let benchmarks or yesterday's winners consume the same slots every day.
+  # Recently checked queries receive a strong cooldown, while fresh Rising queries win.
+  cooldown=0
+  last_checked=meta.get('last_checked')
+  if last_checked:
+   try:
+    days_since=max(0,(today-datetime.fromisoformat(last_checked).date()).days)
+    cooldown=120 if days_since==0 else 80 if days_since<=2 else 35 if days_since<=7 else 0
+   except Exception:
+    cooldown=0
+
+  freshness=max(0,35-age*4)
+  score=money(q)[0]+freshness+source_bonus+rise_bonus+check_bonus-cooldown-(30 if noisy(q) else 0)
+  ranked.append((score,q,x))
+
+ ranked.sort(key=lambda z:(-z[0],z[1]))
+ return [x for _,_,x in ranked[:n]]
 
 def analyze(keyword,geo,source,first,series,related,cfg):
  pts=[]
@@ -172,7 +202,13 @@ def main():
    if valid(q): src=f"explore-related:{x['query']}"; remember(seen,q,src,today); queue(pending,q,x.get('geo',''),src,today)
   if i<len(chosen)-1: time.sleep(9)
  checked.sort(key=lambda x:(x['verdict']!='formal',-x['newness_score'],-x['money_score'],x['keyword'])); formal=[x for x in checked if x['verdict']=='formal'][:int(cfg.get('formal_limit',3))]
- pend=sorted(pending.values(),key=lambda x:(int(x.get('checks',0)),-money(x.get('query',''))[0],x.get('first_seen','9999-99-99')))[:250]; pending={x['query']:x for x in pend if x.get('query')}
+ limit=int(cfg.get('pending_limit',750))
+ def pending_rank(x):
+  last=x.get('last_seen','1970-01-01')
+  try: recent=-datetime.fromisoformat(last).date().toordinal()
+  except Exception: recent=0
+  return (recent,-float(x.get('rise_value',0) or 0),int(x.get('checks',0) or 0),-money(x.get('query',''))[0],x.get('query',''))
+ pend=sorted(pending.values(),key=pending_rank)[:limit]; pending={x['query']:x for x in pend if x.get('query')}
  payload={'generated_at':now().isoformat(),'timeframe':cfg.get('timeframe','today 3-m'),'source_geos':cfg.get('geos',[]),'checked_count':len(checked),'formal_count':len(formal),'formal_candidates':formal,'all_checked':checked,'discovered_count':len(items),'pending_count':len(pending),'method':{'new_word_gate':f"near-zero baseline + first rise in last {cfg.get('lookback_new_days',45)} days",'money_gate':f"money_score >= {cfg.get('min_money_score',55)}",'discovery':'Trending Now RSS + related queries + Google autocomplete + Explore rising queries','note':'Google Trends is relative 0-100 interest, not absolute volume.'}}
  save(DATA/f'{today}.json',payload); save(DATA/'latest.json',payload); save(SEEN,seen); save(PENDING,pending); md=report(payload); (REPORTS/f'{today}.md').write_text(md,encoding='utf-8'); (REPORTS/'latest.md').write_text(md,encoding='utf-8'); print('Formal candidates:',len(formal)); return 0
 
