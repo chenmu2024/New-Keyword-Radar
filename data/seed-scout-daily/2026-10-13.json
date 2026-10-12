@@ -1,0 +1,293 @@
+{
+  "local_date": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "target_seed_count": 74,
+  "batches": [
+    {
+      "batch_id": "2026-10-12T19:46:39.857464+00:00-54-55-56-57-58",
+      "start_index": 54,
+      "seed_indices": [
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "generated_at": "2026-10-12T19:46:39.857464+00:00",
+      "local_generated_at": "2026-10-13T03:46:39.857464+08:00",
+      "seed_batch": [
+        "ai",
+        "gumroad",
+        "steam",
+        "game",
+        "poki"
+      ],
+      "discovery_count": 37,
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "generated_at": "2026-10-12T19:48:19.586009+00:00",
+      "local_generated_at": "2026-10-13T03:48:19.586009+08:00",
+      "start_index": 59,
+      "seed_indices": [
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "seed_batch": [
+        "slope game",
+        "crazy games",
+        "itch.io",
+        "roblox",
+        "cocrea"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    }
+  ],
+  "scanned_seeds": [
+    "ai",
+    "gumroad",
+    "steam",
+    "game",
+    "poki"
+  ],
+  "discoveries": [
+    {
+      "seed": "steam",
+      "query": "steam free games weekend promotion",
+      "rise_value": 11350.0,
+      "raw_value": 11350
+    },
+    {
+      "seed": "steam",
+      "query": "easy fox steam demo ai costs",
+      "rise_value": 9800.0,
+      "raw_value": 9800
+    },
+    {
+      "seed": "steam",
+      "query": "aion 2 steam launch stats",
+      "rise_value": 8250.0,
+      "raw_value": 8250
+    },
+    {
+      "seed": "steam",
+      "query": "steam free to keep promotions",
+      "rise_value": 5300.0,
+      "raw_value": 5300
+    },
+    {
+      "seed": "steam",
+      "query": "steam game sales revenue cuts",
+      "rise_value": 4650.0,
+      "raw_value": 4650
+    },
+    {
+      "seed": "ai",
+      "query": "cleo ai ftc payment email",
+      "rise_value": 3450.0,
+      "raw_value": 3450
+    },
+    {
+      "seed": "game",
+      "query": "alabama georgia game",
+      "rise_value": 2650.0,
+      "raw_value": 2650
+    },
+    {
+      "seed": "steam",
+      "query": "embark studios arc raiders steam",
+      "rise_value": 2000.0,
+      "raw_value": 2000
+    },
+    {
+      "seed": "game",
+      "query": "ga alabama game",
+      "rise_value": 1800.0,
+      "raw_value": 1800
+    },
+    {
+      "seed": "game",
+      "query": "uga alabama game",
+      "rise_value": 1600.0,
+      "raw_value": 1600
+    },
+    {
+      "seed": "game",
+      "query": "texas ou game",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "game",
+      "query": "lagos life game login",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
+      "seed": "game",
+      "query": "georgia game",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "game",
+      "query": "hellraiser game",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "game",
+      "query": "alabama game",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "game",
+      "query": "falcons game",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "steam",
+      "query": "hellraiser steam",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "game",
+      "query": "kidnap game",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "steam",
+      "query": "gears of war e day steam charts",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "steam",
+      "query": "arc raiders",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "steam",
+      "query": "arc raiders steam",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "steam",
+      "query": "arc raiders steam charts",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "game",
+      "query": "saints game today",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "game",
+      "query": "guardians game",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "game",
+      "query": "lagos life app",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "game",
+      "query": "lagos life game app",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "game",
+      "query": "guardians game today",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "ai",
+      "query": "mistral ai",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "gumroad",
+      "query": "payhip login",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "ai",
+      "query": "osiris ai",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "steam",
+      "query": "gears of war e day",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "steam",
+      "query": "gears of war e day steam",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "steam",
+      "query": "marathon steam charts",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "ai",
+      "query": "osiris ai live",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "gumroad",
+      "query": "best laptop for work",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "steam",
+      "query": "steam stats",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "gumroad",
+      "query": "best time to visit maldives",
+      "rise_value": 50.0,
+      "raw_value": 50
+    }
+  ],
+  "discovery_count": 37,
+  "updated_at": "2026-10-12T19:48:19.586009+00:00",
+  "scanned_seed_count": 5,
+  "batch_count": 1,
+  "attempted_seed_count": 10,
+  "complete_20_seeds": false,
+  "complete_daily_target": false,
+  "completion_pct": 6.8,
+  "failed_seed_count": 5
+}
