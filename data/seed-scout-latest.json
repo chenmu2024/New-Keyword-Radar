@@ -1,25 +1,25 @@
 {
-  "batch_id": "2026-10-13T14:08:57.215430+00:00-10-11-12-13-14",
-  "generated_at": "2026-10-13T14:08:57.215430+00:00",
-  "local_generated_at": "2026-10-13T22:08:57.215430+08:00",
+  "batch_id": "2026-10-13T20:31:20.051917+00:00-37-38-39-40-41",
+  "generated_at": "2026-10-13T20:31:20.051917+00:00",
+  "local_generated_at": "2026-10-14T04:31:20.051917+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "designer",
-    "compiler",
-    "analyzer",
-    "evaluator",
-    "sender"
+    "viewer",
+    "extractor",
+    "monitor",
+    "notifier",
+    "verifier"
   ],
   "seed_indices": [
-    10,
-    11,
-    12,
-    13,
-    14
+    37,
+    38,
+    39,
+    40,
+    41
   ],
-  "start_index": 10,
+  "start_index": 37,
   "discoveries": [],
   "status": "error",
   "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."

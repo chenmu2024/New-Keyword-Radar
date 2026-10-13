@@ -1,0 +1,57 @@
+{
+  "batch_id": "2026-10-13T20:18:03.478991+00:00-71-72-73-0-1",
+  "generated_at": "2026-10-13T20:18:03.478991+00:00",
+  "local_generated_at": "2026-10-14T04:18:03.478991+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "instagram",
+    "tea",
+    "download",
+    "translator",
+    "generator"
+  ],
+  "seed_indices": [
+    71,
+    72,
+    73,
+    0,
+    1
+  ],
+  "start_index": 71,
+  "discoveries": [
+    {
+      "seed": "instagram",
+      "query": "tom welling instagram story",
+      "rise_value": 5900.0,
+      "raw_value": 5900
+    },
+    {
+      "seed": "instagram",
+      "query": "muse instagram",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "instagram",
+      "query": "anonyig.com instagram",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "translator",
+      "query": "english to afrikaans translator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "generator",
+      "query": "harbor freight",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 5
+}
