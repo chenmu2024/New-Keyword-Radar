@@ -1,12 +1,13 @@
 {
-  "index": 42,
-  "runs": 61,
-  "last_success_at": "2026-10-14T01:16:23.010084+00:00",
+  "index": 29,
+  "runs": 68,
+  "last_success_at": "2026-10-14T21:48:40.963755+00:00",
   "last_batch": [
-    "extractor",
-    "monitor",
-    "notifier",
-    "verifier"
+    "pattern",
+    "checker",
+    "detector",
+    "scraper",
+    "manager"
   ],
   "seed_count": 74
 }

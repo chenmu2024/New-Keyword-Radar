@@ -1,0 +1,51 @@
+{
+  "batch_id": "2026-10-14T21:38:23.513900+00:00-73-0-1-2-3",
+  "generated_at": "2026-10-14T21:38:23.513900+00:00",
+  "local_generated_at": "2026-10-15T05:38:23.513900+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "download",
+    "translator",
+    "generator",
+    "example",
+    "convert"
+  ],
+  "seed_indices": [
+    73,
+    0,
+    1,
+    2,
+    3
+  ],
+  "start_index": 73,
+  "discoveries": [
+    {
+      "seed": "example",
+      "query": "เว็บ สล็อต media kongkaram ac th example",
+      "rise_value": 14650.0,
+      "raw_value": 14650
+    },
+    {
+      "seed": "translator",
+      "query": "huttese translator",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "translator",
+      "query": "english to afrikaans translator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "download",
+      "query": "netflix download",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 4
+}
