@@ -1,26 +1,175 @@
 {
-  "batch_id": "2026-10-13T20:31:20.051917+00:00-37-38-39-40-41",
-  "generated_at": "2026-10-13T20:31:20.051917+00:00",
-  "local_generated_at": "2026-10-14T04:31:20.051917+08:00",
+  "batch_id": "2026-10-14T01:16:23.010084+00:00-38-39-40-41",
+  "generated_at": "2026-10-14T01:16:23.010084+00:00",
+  "local_generated_at": "2026-10-14T09:16:23.010084+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "viewer",
     "extractor",
     "monitor",
     "notifier",
     "verifier"
   ],
   "seed_indices": [
-    37,
     38,
     39,
     40,
     41
   ],
-  "start_index": 37,
-  "discoveries": [],
-  "status": "error",
-  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+  "start_index": 38,
+  "discoveries": [
+    {
+      "seed": "extractor",
+      "query": "shadps4plus pkg extractor",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "extractor",
+      "query": "pkg extractor ps4",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier taxe fonciere",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4 pkg extractor",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "extractor",
+      "query": "pkg extractor",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "monitor",
+      "query": "munch monitor",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "extractor",
+      "query": "what is an extractor fan",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "verifier",
+      "query": "1 winner bet verifier ticket",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "verifier",
+      "query": "android system key verifier co to",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "verifier",
+      "query": "comment verifier un oeuf",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "monitor",
+      "query": "mozilla monitor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "notifier",
+      "query": "steam achievement notifier",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "notifier",
+      "query": "bt notifier app",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "notifier",
+      "query": "clover time codes",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "egg notifier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "extractor",
+      "query": "email extractor 1.6",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "impot gouv",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "loto quebec verifier un billet",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier m701",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "steal an egg",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "steal an egg egg notifier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "comment verifier si sa carte cni est disponible",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier afp-200",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier billet loterie",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 25
 }
