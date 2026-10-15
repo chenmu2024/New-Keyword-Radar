@@ -1,26 +1,199 @@
 {
-  "batch_id": "2026-10-14T21:50:19.824724+00:00-29-30-31-32-33",
-  "generated_at": "2026-10-14T21:50:19.824724+00:00",
-  "local_generated_at": "2026-10-15T05:50:19.824724+08:00",
+  "batch_id": "2026-10-15T00:42:21.789400+00:00-30-31-32-33",
+  "generated_at": "2026-10-15T00:42:21.789400+00:00",
+  "local_generated_at": "2026-10-15T08:42:21.789400+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "explorer",
     "dashboard",
     "planner",
     "tracker",
     "recorder"
   ],
   "seed_indices": [
-    29,
     30,
     31,
     32,
     33
   ],
-  "start_index": 29,
-  "discoveries": [],
-  "status": "error",
-  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+  "start_index": 30,
+  "discoveries": [
+    {
+      "seed": "tracker",
+      "query": "tracker switchback",
+      "rise_value": 7900.0,
+      "raw_value": 7900
+    },
+    {
+      "seed": "dashboard",
+      "query": "claude dashboard and motion",
+      "rise_value": 6100.0,
+      "raw_value": 6100
+    },
+    {
+      "seed": "dashboard",
+      "query": "claude motion",
+      "rise_value": 5800.0,
+      "raw_value": 5800
+    },
+    {
+      "seed": "tracker",
+      "query": "moab 240 tracker",
+      "rise_value": 5700.0,
+      "raw_value": 5700
+    },
+    {
+      "seed": "tracker",
+      "query": "melbourne marathon tracker",
+      "rise_value": 3750.0,
+      "raw_value": 3750
+    },
+    {
+      "seed": "tracker",
+      "query": "chicago marathon tracker",
+      "rise_value": 3600.0,
+      "raw_value": 3600
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane isaias live tracker",
+      "rise_value": 3450.0,
+      "raw_value": 3450
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane simon tracker",
+      "rise_value": 3250.0,
+      "raw_value": 3250
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane simon",
+      "rise_value": 3200.0,
+      "raw_value": 3200
+    },
+    {
+      "seed": "tracker",
+      "query": "chicago marathon 2026",
+      "rise_value": 3100.0,
+      "raw_value": 3100
+    },
+    {
+      "seed": "tracker",
+      "query": "chicago marathon 2026 tracker",
+      "rise_value": 3100.0,
+      "raw_value": 3100
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane isaias path tracker",
+      "rise_value": 1500.0,
+      "raw_value": 1500
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane isaias path",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "tracker",
+      "query": "fitness tracker review",
+      "rise_value": 1200.0,
+      "raw_value": 1200
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane isaias track",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
+      "seed": "tracker",
+      "query": "fitbit edge tracker",
+      "rise_value": 900.0,
+      "raw_value": 900
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane isaias tracker",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "dashboard",
+      "query": "claude dashboards",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "dashboard",
+      "query": "dashboard finance 365",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "planner",
+      "query": "fpl planner",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "recorder",
+      "query": "implantable loop recorder",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "planner",
+      "query": "sut planner",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "planner",
+      "query": "aniimo homeland planner",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "dashboard",
+      "query": "claude dashboard",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "dashboard",
+      "query": "gst dashboard",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "recorder",
+      "query": "recordly screen recorder",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "dashboard",
+      "query": "gst login dashboard",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "dashboard",
+      "query": "gst portal login dashboard",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "recorder",
+      "query": "loop recorder",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 29
 }
