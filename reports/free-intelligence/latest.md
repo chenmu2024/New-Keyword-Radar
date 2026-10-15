@@ -1,29 +1,7 @@
-# Free SaaS pain and new-keyword intelligence — 2026-10-14
+# Free SaaS pain and new-keyword intelligence — 2026-10-15
 
 Research only. **Volume / KD / CPC: unverified, not zero.**
 Sources can be rate-limited. A zero-lead day is not evidence of zero demand.
-
-## scheduling spreadsheet manual
-
-Market: US · Topic: operations · Intent: manual_schedule_pain · Category: specific_buyer_problem
-
-Queries by source: github_repos = scheduling spreadsheet, github_issues = scheduling spreadsheet, google_news_rss = scheduling spreadsheet manual, duckduckgo = scheduling spreadsheet manual, reddit = scheduling spreadsheet manual, hackernews_ask = scheduling spreadsheet
-
-Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=ok, hackernews_ask=ok
-
-**Buyer-pain review leads:** 0 / 24 raw unique links. Filtered, not verified.
-
-- No qualifying buyer-pain evidence. Do not infer absence of demand.
-
-Competitor / contextual references: 3
-
-- [Acuity Scheduling: Online Booking & Appointment Scheduling Software](https://acuityscheduling.com/)
-- [Meeting Scheduling Software and AI Meeting Tools | Calendly](https://calendly.com/)
-- [Scheduling - Maple](https://www.maple.com/scheduling)
-
-Discarded/noise: 21; repeated URLs across queries: 0
-
-Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
 ## invoice reconciliation manual
 
@@ -31,41 +9,41 @@ Market: US · Topic: finance_operations · Intent: manual_invoice_pain · Catego
 
 Queries by source: github_repos = invoice reconciliation, github_issues = invoice reconciliation, google_news_rss = invoice reconciliation manual, duckduckgo = invoice reconciliation manual, reddit = invoice reconciliation manual, hackernews_ask = invoice reconciliation
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=ok, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 16 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 24 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 8
+Competitor / contextual references: 9
 
-- [BrunoGupa/carrier-invoice-reconciliation](https://github.com/BrunoGupa/carrier-invoice-reconciliation)
-- [Jundev66/conciliabot](https://github.com/Jundev66/conciliabot)
-- [kushal99991/powergst](https://github.com/kushal99991/powergst)
+- [pavelzago/Prueba-tecnica-Bancolombia](https://github.com/pavelzago/Prueba-tecnica-Bancolombia)
+- [Rapunzelmina/Receiving-Finance-PWA](https://github.com/Rapunzelmina/Receiving-Finance-PWA)
+- [KishoreKumar-DA/accounts-payable-invoice-exception-analytics](https://github.com/KishoreKumar-DA/accounts-payable-invoice-exception-analytics)
 
-Discarded/noise: 8; repeated URLs across queries: 0
+Discarded/noise: 15; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
-## estoque integração falha
+## payroll integration error
 
-Market: BR · Topic: inventory · Intent: integration_pain · Category: specific_buyer_problem
+Market: US · Topic: payroll · Intent: integration_pain · Category: specific_buyer_problem
 
-Queries by source: github_repos = estoque integração, github_issues = estoque integração, google_news_rss = estoque integração falha, duckduckgo = estoque integração falha, reddit = estoque integração falha
+Queries by source: github_repos = payroll integration, github_issues = payroll integration, google_news_rss = payroll integration error, duckduckgo = payroll integration error, reddit = payroll integration error, hackernews_ask = payroll integration
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=ok
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 15 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 20 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 4
+Competitor / contextual references: 9
 
-- [victortxsn/API-Ecommerce-php](https://github.com/victortxsn/API-Ecommerce-php)
-- [LucasMiguel822/Achados_e_Perdidos](https://github.com/LucasMiguel822/Achados_e_Perdidos)
-- [MelissaCrepaldi/prjAchados-e-Perdidos](https://github.com/MelissaCrepaldi/prjAchados-e-Perdidos)
+- [harshitdobal31-cloud/EmployeeManagementSystem](https://github.com/harshitdobal31-cloud/EmployeeManagementSystem)
+- [Why Retail Brands Should Prioritize Full-Solution Automation in an HCM and Payroll Platform - Solutions Review](https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcjBxSFlBa0kwaTNfenlKaGt3UnVxUXM3RExzMDhHQzdFV2g5cU5kQng1VFliQzQwQXJtZGd4QWluWm9pV1JTYXlaUTdfdmFYV25teUd2SXNYT0lNRGdSME4xX2JxWFJfdjRlVHZSdzIzNFU4MWRDWktZVHNxbGdkOVJDNVpvblNZUW51T2x2Z05QNi1rSkEyV0ZCbDJuckVqcWlpelRJWUdXbklBN1hkM3VGQ1ZLM1ZpdFJpZk9za2VsMDNZdlQ4VjBvMXhWeVgwQmJ0QU9XdTR0ZTVSR0lUYWtR?oc=5)
+- [The payroll problem often starts long before payday - Bizcommunity](https://news.google.com/rss/articles/CBMinAFBVV95cUxOWTdpeVg4WHZfQlJNMHRoYS1VbGtHcUxNVkp4MVpOcXN4YUozVl9zY2ZpU3dGUjdnZE5TYUplYU4zVzZVVkhuLWhIR3htMUd6VVk4WE1rakw5d1FhQmRqYUdVY1JaX0duM3pjREpxRTlQM21nR2VDVnpjNHRKTHR6cUhnTDgxY05iZGNLOTNhVGI4b2JzZmd1NjJLbEw?oc=5)
 
-Discarded/noise: 11; repeated URLs across queries: 0
+Discarded/noise: 11; repeated URLs across queries: 2
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -81,35 +59,35 @@ Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=de
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 3
+Competitor / contextual references: 5
 
 - [renatoaloi/freela-board](https://github.com/renatoaloi/freela-board)
-- [DarkPimbaa/nfe](https://github.com/DarkPimbaa/nfe)
-- [Drikavassos/Nota-fiscal](https://github.com/Drikavassos/Nota-fiscal)
+- [aaronscienceh-sudo/bot-fiscal](https://github.com/aaronscienceh-sudo/bot-fiscal)
+- [wmixvideo/nfe](https://github.com/wmixvideo/nfe)
 
-Discarded/noise: 9; repeated URLs across queries: 0
+Discarded/noise: 7; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
-## inventario excel manual
+## folha pagamento erro
 
-Market: MX · Topic: inventory · Intent: manual_inventory_pain · Category: specific_buyer_problem
+Market: BR · Topic: payroll · Intent: payroll_error · Category: specific_buyer_problem
 
-Queries by source: github_repos = inventario excel, github_issues = inventario excel, google_news_rss = inventario excel manual, duckduckgo = inventario excel manual, reddit = inventario excel manual
+Queries by source: github_repos = folha pagamento, github_issues = folha pagamento, google_news_rss = folha pagamento erro, duckduckgo = folha pagamento erro, reddit = folha pagamento erro
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded
 
 **Buyer-pain review leads:** 0 / 12 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 6
+Competitor / contextual references: 8
 
-- [kianush00/pipeline-inventario-datacenter](https://github.com/kianush00/pipeline-inventario-datacenter)
-- [siuldevelop/OrganizaTuInventario](https://github.com/siuldevelop/OrganizaTuInventario)
-- [Marcos-Argel/Gestor-de-Farmacia](https://github.com/Marcos-Argel/Gestor-de-Farmacia)
+- [lucasamui/A3-folha-pagamento-gqs](https://github.com/lucasamui/A3-folha-pagamento-gqs)
+- [pedroabueno06/Folha-de-Pagamento](https://github.com/pedroabueno06/Folha-de-Pagamento)
+- [TheKitumba/pagador.ao](https://github.com/TheKitumba/pagador.ao)
 
-Discarded/noise: 6; repeated URLs across queries: 2
+Discarded/noise: 4; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -119,40 +97,59 @@ Market: MX · Topic: tax_compliance · Intent: invoice_validation · Category: s
 
 Queries by source: github_repos = CFDI conciliación, github_issues = CFDI conciliación, google_news_rss = CFDI conciliación errores, duckduckgo = CFDI conciliación errores, reddit = CFDI conciliación errores
 
+Sources: github_repos=ok, github_issues=empty, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
+
+**Buyer-pain review leads:** 0 / 7 raw unique links. Filtered, not verified.
+
+- No qualifying buyer-pain evidence. Do not infer absence of demand.
+
+Competitor / contextual references: 1
+
+- [shellaquiles/tribuTACOS](https://github.com/shellaquiles/tribuTACOS)
+
+Discarded/noise: 6; repeated URLs across queries: 0
+
+Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
+
+## nómina excel errores
+
+Market: MX · Topic: payroll · Intent: manual_payroll_pain · Category: specific_buyer_problem
+
+Queries by source: github_repos = nómina excel, github_issues = nómina excel, google_news_rss = nómina excel errores, duckduckgo = nómina excel errores, reddit = nómina excel errores
+
 Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
 
-**Buyer-pain review leads:** 0 / 8 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 10 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
 Competitor / contextual references: 4
 
-- [shellaquiles/tribuTACOS](https://github.com/shellaquiles/tribuTACOS)
-- [What is CFDI? - Understanding CFDI Compliance | Tipalti](https://tipalti.com/resources/learn/cfdi-compliance)
-- [CFDI SAT: Qué es, cómo consultarlo y cómo descargarlo gratis](https://portalsat.com.mx/cfdi-sat-que-es-como-consultarlo-y-como-descargarlo-gratis)
+- [7Freeza/liquidador-nomina](https://github.com/7Freeza/liquidador-nomina)
+- [JesusAlonsoMorales/Automatizacion-partes-de-trabajo](https://github.com/JesusAlonsoMorales/Automatizacion-partes-de-trabajo)
+- [Camilo1408/Nomina-Xpress](https://github.com/Camilo1408/Nomina-Xpress)
 
-Discarded/noise: 4; repeated URLs across queries: 0
+Discarded/noise: 6; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
-## clover time codes
+## tracker switchback
 
 Market: Worldwide · Topic: seed_rising · Intent: emerging_query · Category: trend_lead_not_verified
 
-Queries by source: github_repos = clover time codes, github_issues = clover time codes, google_news_rss = clover time codes, duckduckgo = clover time codes, reddit = clover time codes
+Queries by source: github_repos = tracker switchback, github_issues = tracker switchback, google_news_rss = tracker switchback, duckduckgo = tracker switchback, reddit = tracker switchback
 
 Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded
 
-**Buyer-pain review leads:** 0 / 12 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 13 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 9
+Competitor / contextual references: 2
 
-- [Fatmangh/ticketpulse](https://github.com/Fatmangh/ticketpulse)
-- [Clover Time codes (October 2026): Full list and how to redeem - Radio Times](https://news.google.com/rss/articles/CBMicEFVX3lxTE05bXBrRE55bk5lVjVWaWJibU40SVVncjlrYUNic00wd3IwLXhqMFEwOVdfVDdrblhYQ29hQXRmQTlleHEtWURwLUhLUTFDdVN5Y2w1Uzdqc0o1aWN4MDJHZjFyQ2k3N1VEZlZhTlptbjY?oc=5)
-- [Clover Time codes October 2026 - Eurogamer.net](https://news.google.com/rss/articles/CBMiVkFVX3lxTE82dzV3dTlldXhjXzFMamxJVDlpazJ6c1lVdWowcHVteERsd21RZ3pKRFpSbmZVbkR5T1V2SFY1VTRQZHpoX0ROUGZ6STRrMlowQ3Y1QV9n?oc=5)
+- [sukikeeling/switchback](https://github.com/sukikeeling/switchback)
+- [Tracker S04E02: "Switchback" Preview: A Mother & Daughter Go Missing - Bleeding Cool News](https://news.google.com/rss/articles/CBMilgFBVV95cUxQMENYdXNXcVVlbUtEVkpDaFpCeWJFYVhDSVJHbnVtNEwxbGZLNmpYVGFPcXNIOUk3RWMyVE9UZFlabTZyWm83LVZIMUpSQmFpRmNtdXJFeE8yTnJNVnlsajJGYkFFWTM4MGNqY2tWdTdWdnpuV0psMGI5V3ZCSDhqTHBxR0pTWWRKalhnRU95eTgyNXhtQkE?oc=5)
 
-Discarded/noise: 3; repeated URLs across queries: 0
+Discarded/noise: 11; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
