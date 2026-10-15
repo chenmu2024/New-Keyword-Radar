@@ -1,0 +1,26 @@
+{
+  "batch_id": "2026-10-15T21:30:32.763117+00:00-36-37-38-39-40",
+  "generated_at": "2026-10-15T21:30:32.763117+00:00",
+  "local_generated_at": "2026-10-16T05:30:32.763117+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "converter",
+    "viewer",
+    "extractor",
+    "monitor",
+    "notifier"
+  ],
+  "seed_indices": [
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "start_index": 36,
+  "discoveries": [],
+  "status": "error",
+  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+}

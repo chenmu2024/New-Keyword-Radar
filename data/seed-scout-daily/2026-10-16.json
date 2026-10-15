@@ -1,0 +1,1559 @@
+{
+  "local_date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "target_seed_count": 74,
+  "batches": [
+    {
+      "batch_id": "2026-10-15T21:18:04.276778+00:00-1-2-3-4-5",
+      "start_index": 1,
+      "seed_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "generated_at": "2026-10-15T21:18:04.276778+00:00",
+      "local_generated_at": "2026-10-16T05:18:04.276778+08:00",
+      "seed_batch": [
+        "generator",
+        "example",
+        "convert",
+        "online",
+        "downloader"
+      ],
+      "discovery_count": 9,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-15T21:19:44.231071+00:00-6-7-8-9-10",
+      "start_index": 6,
+      "seed_indices": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "generated_at": "2026-10-15T21:19:44.231071+00:00",
+      "local_generated_at": "2026-10-16T05:19:44.231071+08:00",
+      "seed_batch": [
+        "maker",
+        "creator",
+        "editor",
+        "processor",
+        "designer"
+      ],
+      "discovery_count": 11,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-15T21:21:23.097303+00:00-11-12-13-14-15",
+      "start_index": 11,
+      "seed_indices": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "generated_at": "2026-10-15T21:21:23.097303+00:00",
+      "local_generated_at": "2026-10-16T05:21:23.097303+08:00",
+      "seed_batch": [
+        "compiler",
+        "analyzer",
+        "evaluator",
+        "sender",
+        "receiver"
+      ],
+      "discovery_count": 38,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-15T21:23:00.130914+00:00-16-17-18-19-20",
+      "start_index": 16,
+      "seed_indices": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "generated_at": "2026-10-15T21:23:00.130914+00:00",
+      "local_generated_at": "2026-10-16T05:23:00.130914+08:00",
+      "seed_batch": [
+        "interpreter",
+        "uploader",
+        "calculator",
+        "sample",
+        "template"
+      ],
+      "discovery_count": 45,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-15T21:24:40.191343+00:00-21-22-23-24-25",
+      "start_index": 21,
+      "seed_indices": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "generated_at": "2026-10-15T21:24:40.191343+00:00",
+      "local_generated_at": "2026-10-16T05:24:40.191343+08:00",
+      "seed_batch": [
+        "format",
+        "builder",
+        "scheme",
+        "pattern",
+        "checker"
+      ],
+      "discovery_count": 40,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-15T21:26:20.489168+00:00-26-27-28-29-30",
+      "start_index": 26,
+      "seed_indices": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "generated_at": "2026-10-15T21:26:20.489168+00:00",
+      "local_generated_at": "2026-10-16T05:26:20.489168+08:00",
+      "seed_batch": [
+        "detector",
+        "scraper",
+        "manager",
+        "explorer",
+        "dashboard"
+      ],
+      "discovery_count": 32,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-15T21:27:59.417741+00:00-31-32-33-34-35",
+      "start_index": 31,
+      "seed_indices": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "generated_at": "2026-10-15T21:27:59.417741+00:00",
+      "local_generated_at": "2026-10-16T05:27:59.417741+08:00",
+      "seed_batch": [
+        "planner",
+        "tracker",
+        "recorder",
+        "optimizer",
+        "scheduler"
+      ],
+      "discovery_count": 49,
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "generated_at": "2026-10-15T21:30:32.763117+00:00",
+      "local_generated_at": "2026-10-16T05:30:32.763117+08:00",
+      "start_index": 36,
+      "seed_indices": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "seed_batch": [
+        "converter",
+        "viewer",
+        "extractor",
+        "monitor",
+        "notifier"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    }
+  ],
+  "scanned_seeds": [
+    "generator",
+    "example",
+    "convert",
+    "online",
+    "downloader",
+    "maker",
+    "creator",
+    "editor",
+    "processor",
+    "designer",
+    "compiler",
+    "analyzer",
+    "evaluator",
+    "sender",
+    "receiver",
+    "interpreter",
+    "uploader",
+    "calculator",
+    "sample",
+    "template",
+    "format",
+    "builder",
+    "scheme",
+    "pattern",
+    "checker",
+    "detector",
+    "scraper",
+    "manager",
+    "explorer",
+    "dashboard",
+    "planner",
+    "tracker",
+    "recorder",
+    "optimizer",
+    "scheduler"
+  ],
+  "discoveries": [
+    {
+      "seed": "scraper",
+      "query": "syntactic",
+      "rise_value": 257200.0,
+      "raw_value": 257200
+    },
+    {
+      "seed": "scraper",
+      "query": "peruse",
+      "rise_value": 208150.0,
+      "raw_value": 208150
+    },
+    {
+      "seed": "scraper",
+      "query": "2027 gmc sierra boot scraper",
+      "rise_value": 191200.0,
+      "raw_value": 191200
+    },
+    {
+      "seed": "scraper",
+      "query": "syntactic meaning",
+      "rise_value": 126100.0,
+      "raw_value": 126100
+    },
+    {
+      "seed": "scraper",
+      "query": "wield meaning",
+      "rise_value": 79800.0,
+      "raw_value": 79800
+    },
+    {
+      "seed": "scraper",
+      "query": "employ",
+      "rise_value": 69500.0,
+      "raw_value": 69500
+    },
+    {
+      "seed": "online",
+      "query": "casino online 🇳🇱 www.palmy.best",
+      "rise_value": 64100.0,
+      "raw_value": 64100
+    },
+    {
+      "seed": "scraper",
+      "query": "patrick meaning",
+      "rise_value": 62400.0,
+      "raw_value": 62400
+    },
+    {
+      "seed": "scraper",
+      "query": "gloves map ice scraper",
+      "rise_value": 58650.0,
+      "raw_value": 58650
+    },
+    {
+      "seed": "scraper",
+      "query": "harness meaning",
+      "rise_value": 55550.0,
+      "raw_value": 55550
+    },
+    {
+      "seed": "optimizer",
+      "query": "vel.gg/bo1z",
+      "rise_value": 45950.0,
+      "raw_value": 45950
+    },
+    {
+      "seed": "scheme",
+      "query": "andy burnham housing scheme earnings cap",
+      "rise_value": 32550.0,
+      "raw_value": 32550
+    },
+    {
+      "seed": "scraper",
+      "query": "peruse meaning",
+      "rise_value": 28850.0,
+      "raw_value": 28850
+    },
+    {
+      "seed": "optimizer",
+      "query": "radiant optimizer app",
+      "rise_value": 27800.0,
+      "raw_value": 27800
+    },
+    {
+      "seed": "scheme",
+      "query": "smedan conditional grant scheme",
+      "rise_value": 26750.0,
+      "raw_value": 26750
+    },
+    {
+      "seed": "scraper",
+      "query": "employ meaning",
+      "rise_value": 25650.0,
+      "raw_value": 25650
+    },
+    {
+      "seed": "optimizer",
+      "query": "radiant optimizer.app",
+      "rise_value": 23850.0,
+      "raw_value": 23850
+    },
+    {
+      "seed": "scraper",
+      "query": "syntactic definition",
+      "rise_value": 21800.0,
+      "raw_value": 21800
+    },
+    {
+      "seed": "evaluator",
+      "query": "search query evaluator",
+      "rise_value": 21650.0,
+      "raw_value": 21650
+    },
+    {
+      "seed": "scraper",
+      "query": "peruse definition",
+      "rise_value": 21000.0,
+      "raw_value": 21000
+    },
+    {
+      "seed": "manager",
+      "query": "rj mitte manager",
+      "rise_value": 20200.0,
+      "raw_value": 20200
+    },
+    {
+      "seed": "scheme",
+      "query": "pli scheme public sector banks",
+      "rise_value": 19750.0,
+      "raw_value": 19750
+    },
+    {
+      "seed": "scheme",
+      "query": "conditional grant scheme nigeria smedan",
+      "rise_value": 19700.0,
+      "raw_value": 19700
+    },
+    {
+      "seed": "scraper",
+      "query": "syntatic",
+      "rise_value": 19400.0,
+      "raw_value": 19400
+    },
+    {
+      "seed": "scraper",
+      "query": "ruse",
+      "rise_value": 17950.0,
+      "raw_value": 17950
+    },
+    {
+      "seed": "receiver",
+      "query": "kansas city chiefs sign wide receiver justin watson to the practice squad and place tyquan thornton on injured reserve",
+      "rise_value": 17650.0,
+      "raw_value": 17650
+    },
+    {
+      "seed": "uploader",
+      "query": "scs workshop uploader",
+      "rise_value": 17550.0,
+      "raw_value": 17550
+    },
+    {
+      "seed": "online",
+      "query": "melhores casinos online portugal www.casinowinner.io 🇵🇹",
+      "rise_value": 16500.0,
+      "raw_value": 16500
+    },
+    {
+      "seed": "online",
+      "query": "neue online casinos 🇩🇪 www.catplus.de",
+      "rise_value": 15350.0,
+      "raw_value": 15350
+    },
+    {
+      "seed": "sender",
+      "query": "galatasaray barcelona welcher sender",
+      "rise_value": 14500.0,
+      "raw_value": 14500
+    },
+    {
+      "seed": "checker",
+      "query": "ncc checker",
+      "rise_value": 14150.0,
+      "raw_value": 14150
+    },
+    {
+      "seed": "receiver",
+      "query": "malik nabers wide receiver drama",
+      "rise_value": 13450.0,
+      "raw_value": 13450
+    },
+    {
+      "seed": "evaluator",
+      "query": "sphithiphithi evaluator twitter",
+      "rise_value": 13200.0,
+      "raw_value": 13200
+    },
+    {
+      "seed": "optimizer",
+      "query": "radiantoptimizer",
+      "rise_value": 12900.0,
+      "raw_value": 12900
+    },
+    {
+      "seed": "scheme",
+      "query": "meezan bank ghta scheme financing",
+      "rise_value": 12600.0,
+      "raw_value": 12600
+    },
+    {
+      "seed": "online",
+      "query": "online casino boni 🇩🇪 casinod.vip",
+      "rise_value": 12500.0,
+      "raw_value": 12500
+    },
+    {
+      "seed": "interpreter",
+      "query": "cardi b sign language interpreter",
+      "rise_value": 12350.0,
+      "raw_value": 12350
+    },
+    {
+      "seed": "scheme",
+      "query": "haze subsidy scheme",
+      "rise_value": 12300.0,
+      "raw_value": 12300
+    },
+    {
+      "seed": "online",
+      "query": "casino boni 🇩🇪 casinod.vip",
+      "rise_value": 12250.0,
+      "raw_value": 12250
+    },
+    {
+      "seed": "receiver",
+      "query": "the arizona cardinals are finalizing a trade involving wide receiver marvin harrison jr",
+      "rise_value": 11150.0,
+      "raw_value": 11150
+    },
+    {
+      "seed": "sample",
+      "query": "fessenheim reactor steel sample removal",
+      "rise_value": 10200.0,
+      "raw_value": 10200
+    },
+    {
+      "seed": "online",
+      "query": "online casino boni 🇩🇪 casinod.ink",
+      "rise_value": 10200.0,
+      "raw_value": 10200
+    },
+    {
+      "seed": "scheme",
+      "query": "octo assist support scheme winter",
+      "rise_value": 10100.0,
+      "raw_value": 10100
+    },
+    {
+      "seed": "uploader",
+      "query": "wwe2k19 image uploader",
+      "rise_value": 9100.0,
+      "raw_value": 9100
+    },
+    {
+      "seed": "receiver",
+      "query": "steelers 59 million dollar receiver",
+      "rise_value": 9050.0,
+      "raw_value": 9050
+    },
+    {
+      "seed": "tracker",
+      "query": "tracker switchback",
+      "rise_value": 8850.0,
+      "raw_value": 8850
+    },
+    {
+      "seed": "optimizer",
+      "query": "radian optimizer",
+      "rise_value": 7900.0,
+      "raw_value": 7900
+    },
+    {
+      "seed": "optimizer",
+      "query": "cinevo",
+      "rise_value": 7250.0,
+      "raw_value": 7250
+    },
+    {
+      "seed": "receiver",
+      "query": "chiefs midseason wide receiver trade rumors",
+      "rise_value": 6600.0,
+      "raw_value": 6600
+    },
+    {
+      "seed": "optimizer",
+      "query": "radiant optimizer game",
+      "rise_value": 6000.0,
+      "raw_value": 6000
+    },
+    {
+      "seed": "optimizer",
+      "query": "radiant",
+      "rise_value": 5800.0,
+      "raw_value": 5800
+    },
+    {
+      "seed": "sample",
+      "query": "sapphire canyon rock mars sample nasa",
+      "rise_value": 5750.0,
+      "raw_value": 5750
+    },
+    {
+      "seed": "scheme",
+      "query": "boiler upgrade scheme budget reduction",
+      "rise_value": 5300.0,
+      "raw_value": 5300
+    },
+    {
+      "seed": "optimizer",
+      "query": "octane optimizer",
+      "rise_value": 5300.0,
+      "raw_value": 5300
+    },
+    {
+      "seed": "optimizer",
+      "query": "radiant optimizer twitter",
+      "rise_value": 5050.0,
+      "raw_value": 5050
+    },
+    {
+      "seed": "tracker",
+      "query": "moab 240 tracker",
+      "rise_value": 4900.0,
+      "raw_value": 4900
+    },
+    {
+      "seed": "sender",
+      "query": "hvem sender viking bayern munchen",
+      "rise_value": 4700.0,
+      "raw_value": 4700
+    },
+    {
+      "seed": "manager",
+      "query": "clarence seedorf manager corinthians",
+      "rise_value": 4550.0,
+      "raw_value": 4550
+    },
+    {
+      "seed": "optimizer",
+      "query": "browser games",
+      "rise_value": 4500.0,
+      "raw_value": 4500
+    },
+    {
+      "seed": "scheme",
+      "query": "uk hospitality youth employment scheme",
+      "rise_value": 4400.0,
+      "raw_value": 4400
+    },
+    {
+      "seed": "example",
+      "query": "สล็อต เว็บ ตรง cateringdario pl example",
+      "rise_value": 4100.0,
+      "raw_value": 4100
+    },
+    {
+      "seed": "tracker",
+      "query": "chicago marathon tracker",
+      "rise_value": 3900.0,
+      "raw_value": 3900
+    },
+    {
+      "seed": "optimizer",
+      "query": "ai browser games",
+      "rise_value": 3800.0,
+      "raw_value": 3800
+    },
+    {
+      "seed": "optimizer",
+      "query": "x radiant optimizer",
+      "rise_value": 3600.0,
+      "raw_value": 3600
+    },
+    {
+      "seed": "tracker",
+      "query": "chicago marathon 2026",
+      "rise_value": 3250.0,
+      "raw_value": 3250
+    },
+    {
+      "seed": "tracker",
+      "query": "chicago marathon 2026 tracker",
+      "rise_value": 3250.0,
+      "raw_value": 3250
+    },
+    {
+      "seed": "creator",
+      "query": "nier creator yoko taro interview",
+      "rise_value": 3200.0,
+      "raw_value": 3200
+    },
+    {
+      "seed": "tracker",
+      "query": "melbourne marathon tracker",
+      "rise_value": 2750.0,
+      "raw_value": 2750
+    },
+    {
+      "seed": "sample",
+      "query": "perseverance rover sapphire canyon sample",
+      "rise_value": 2700.0,
+      "raw_value": 2700
+    },
+    {
+      "seed": "scheme",
+      "query": "first home scheme drawdowns increase",
+      "rise_value": 2600.0,
+      "raw_value": 2600
+    },
+    {
+      "seed": "detector",
+      "query": "sismo detector",
+      "rise_value": 2550.0,
+      "raw_value": 2550
+    },
+    {
+      "seed": "optimizer",
+      "query": "gta 5",
+      "rise_value": 2450.0,
+      "raw_value": 2450
+    },
+    {
+      "seed": "optimizer",
+      "query": "radient optimizer",
+      "rise_value": 2300.0,
+      "raw_value": 2300
+    },
+    {
+      "seed": "dashboard",
+      "query": "claude dashboard and motion",
+      "rise_value": 2200.0,
+      "raw_value": 2200
+    },
+    {
+      "seed": "builder",
+      "query": "ecommerce website builder",
+      "rise_value": 2150.0,
+      "raw_value": 2150
+    },
+    {
+      "seed": "builder",
+      "query": "pokemon football team builder",
+      "rise_value": 2000.0,
+      "raw_value": 2000
+    },
+    {
+      "seed": "format",
+      "query": "email format grade 12",
+      "rise_value": 1950.0,
+      "raw_value": 1950
+    },
+    {
+      "seed": "dashboard",
+      "query": "claude motion",
+      "rise_value": 1800.0,
+      "raw_value": 1800
+    },
+    {
+      "seed": "receiver",
+      "query": "retro receiver phone",
+      "rise_value": 1800.0,
+      "raw_value": 1800
+    },
+    {
+      "seed": "receiver",
+      "query": "detroit lions receiver jameson williams",
+      "rise_value": 1700.0,
+      "raw_value": 1700
+    },
+    {
+      "seed": "interpreter",
+      "query": "kelly kurdi",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane simon",
+      "rise_value": 1350.0,
+      "raw_value": 1350
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane simon tracker",
+      "rise_value": 1350.0,
+      "raw_value": 1350
+    },
+    {
+      "seed": "scheme",
+      "query": "new irish investment account scheme",
+      "rise_value": 1300.0,
+      "raw_value": 1300
+    },
+    {
+      "seed": "tracker",
+      "query": "fitness tracker review",
+      "rise_value": 1250.0,
+      "raw_value": 1250
+    },
+    {
+      "seed": "sample",
+      "query": "amelia earhart plane",
+      "rise_value": 1150.0,
+      "raw_value": 1150
+    },
+    {
+      "seed": "receiver",
+      "query": "retro receiver for cell phone",
+      "rise_value": 1150.0,
+      "raw_value": 1150
+    },
+    {
+      "seed": "interpreter",
+      "query": "wap sign language interpreter",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
+      "seed": "editor",
+      "query": "artcraft",
+      "rise_value": 1000.0,
+      "raw_value": 1000
+    },
+    {
+      "seed": "tracker",
+      "query": "fitbit edge tracker",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "interpreter",
+      "query": "sign language interpreter for wap",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane isaias live tracker",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "receiver",
+      "query": "retro receiver for iphone",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "scheme",
+      "query": "national student financial aid scheme",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "scheduler",
+      "query": "tiger scheduler auburn",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "receiver",
+      "query": "patriots receiver aj brown status",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "receiver",
+      "query": "marvin harrison jr",
+      "rise_value": 550.0,
+      "raw_value": 550,
+      "also_from_seeds": [
+        "analyzer"
+      ]
+    },
+    {
+      "seed": "checker",
+      "query": "aquaria digital",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "checker",
+      "query": "aquaria digital agency",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "scheduler",
+      "query": "asd conference scheduler",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot georgia",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "uploader",
+      "query": "zoom uploader",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "checker",
+      "query": "aquaria digital marketing",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "checker",
+      "query": "aquaria digital marketing agency",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "dashboard",
+      "query": "claude dashboards",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "receiver",
+      "query": "palmetto state armory",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "receiver",
+      "query": "retro receiver",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "tracker",
+      "query": "tornado tracker",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "uploader",
+      "query": "wwe 2k25 image uploader",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "builder",
+      "query": "ai dropshipping builder",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "scheme",
+      "query": "cm laptop scheme",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "maker",
+      "query": "kazumi coffee maker",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "template",
+      "query": "my 9 games template",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "sample",
+      "query": "my jewellery sample sale",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "evaluator",
+      "query": "top tourist attractions in paris",
+      "rise_value": 400.0,
+      "raw_value": 400,
+      "also_from_seeds": [
+        "scheduler"
+      ]
+    },
+    {
+      "seed": "creator",
+      "query": "tyler the creator barcelona",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "scheduler",
+      "query": "au access",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "dashboard",
+      "query": "dashboard finance 365",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "sample",
+      "query": "georgia sample ballot 2026",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane isaias path",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "recorder",
+      "query": "implantable loop recorder",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "creator",
+      "query": "screentime to cash creator tiktok",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "scheduler",
+      "query": "tiger scheduler",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "scheme",
+      "query": "cm punjab laptop scheme",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane isaias path tracker",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "tracker",
+      "query": "hurricane tracker live",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "sample",
+      "query": "most wanted sample sale",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "sample",
+      "query": "sample the shoreline near the hotel beach",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "builder",
+      "query": "arc raiders skill tree builder",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "scheme",
+      "query": "cm laptop scheme 2026",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "receiver",
+      "query": "jesse legree",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "sample",
+      "query": "jimmy choo sample sale",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "sample",
+      "query": "my jewellery sample sale 2026",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "planner",
+      "query": "fpl planner",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "scheduler",
+      "query": "gt scheduler",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "receiver",
+      "query": "oregon state receiver",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot by zip code",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot by zip code nc",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "evaluator",
+      "query": "telus international",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "creator",
+      "query": "tyler the creator golf",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "planner",
+      "query": "sut planner",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "analyzer",
+      "query": "cbe analyzer",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "pattern",
+      "query": "pattern styling cream",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot nc",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "sample",
+      "query": "nc sample ballot 2026",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "dashboard",
+      "query": "claude dashboard",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "builder",
+      "query": "tiny11 builder",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "manager",
+      "query": "man city manager",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "interpreter",
+      "query": "the genius interpreter in plain sight dailymotion",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "manager",
+      "query": "guardians manager",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "planner",
+      "query": "aniimo homeland planner",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "analyzer",
+      "query": "fantasy basketball trade analyzer",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "evaluator",
+      "query": "jsonpath evaluator",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "scheduler",
+      "query": "new york times",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "evaluator",
+      "query": "pokemon team evaluator",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "uploader",
+      "query": "skindex",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "explorer",
+      "query": "explorer cup 2026",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "manager",
+      "query": "free download manager",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "checker",
+      "query": "seo agency regalseo",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "uploader",
+      "query": "bir uploader",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "checker",
+      "query": "domain age checker regalseo",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "checker",
+      "query": "domain expiry checker regalseo",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scheduler",
+      "query": "epro scheduler login",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "pattern",
+      "query": "ibps clerk mains exam pattern",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "checker",
+      "query": "meta tag checker regalseo",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "uploader",
+      "query": "aura web uploader",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "evaluator",
+      "query": "enterprise damage evaluator",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "creator",
+      "query": "mlbb creator base",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "analyzer",
+      "query": "nba trade analyzer",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "checker",
+      "query": "regalseo",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "downloader",
+      "query": "tiktok downloader snaptik.com.lc🚀🎁",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "manager",
+      "query": "brewers manager",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "evaluator",
+      "query": "fairy agent evaluator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scheduler",
+      "query": "how to make sushi",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "pattern",
+      "query": "ibps clerk mains pattern",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "manager",
+      "query": "liverpool manager",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "interpreter",
+      "query": "martti interpreter",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "analyzer",
+      "query": "megh updates twitter",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "analyzer",
+      "query": "nba fantasy trade analyzer",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "downloader",
+      "query": "tiktok video downloader snaptik.com.lc🚀🎁",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "uploader",
+      "query": "bir excel uploader",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "evaluator",
+      "query": "blackrock tax evaluator",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "evaluator",
+      "query": "fantasy trade calculator",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "sender",
+      "query": "fernsehprogramm heute abend 20.15 alle sender hörzu tv programm",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "calculator",
+      "query": "atar calculator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "checker",
+      "query": "domain age checker",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "recorder",
+      "query": "recordly screen recorder",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "interpreter",
+      "query": "best pizza near me",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "designer",
+      "query": "designer outlet neumünster",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "uploader",
+      "query": "free file uploader",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "builder",
+      "query": "gbf class builder",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "recorder",
+      "query": "loop recorder",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "nw scheduler download",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "uploader",
+      "query": "online image uploader",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "detector",
+      "query": "synthid detector",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "template",
+      "query": "template meaning",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "uploader",
+      "query": "utsa document uploader",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "interpreter",
+      "query": "auslan interpreter",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "interpreter",
+      "query": "best time to visit maldives",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "manager",
+      "query": "download manager",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "uploader",
+      "query": "driver uploader",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "creator",
+      "query": "fc mobile card creator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "playtime scheduler for pickleball",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "pattern",
+      "query": "sbi clerk mains exam pattern",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "pattern",
+      "query": "sbi clerk mains exam pattern 2026",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "interpreter",
+      "query": "shohei ohtani interpreter",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "creator",
+      "query": "south park character creator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "builder",
+      "query": "website builder",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "checker",
+      "query": "backlink checker",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "template",
+      "query": "business plan template",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "scheduler",
+      "query": "calendly",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "template",
+      "query": "cv template free download",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "sender",
+      "query": "ff emote sender ffhub",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "interpreter",
+      "query": "interpreter pronunciation",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "uploader",
+      "query": "mega uploader",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "manager",
+      "query": "mt manager",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "scheduler",
+      "query": "nc dmv appointment scheduler",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "maker",
+      "query": "pdf maker free",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "sender",
+      "query": "sender one lax",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "uploader",
+      "query": "tidepool uploader",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "discovery_count": 220,
+  "updated_at": "2026-10-15T21:30:32.763117+00:00",
+  "scanned_seed_count": 35,
+  "batch_count": 7,
+  "attempted_seed_count": 40,
+  "complete_20_seeds": true,
+  "complete_daily_target": false,
+  "completion_pct": 47.3,
+  "failed_seed_count": 5
+}
