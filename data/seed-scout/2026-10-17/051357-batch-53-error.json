@@ -1,0 +1,26 @@
+{
+  "batch_id": "2026-10-16T21:13:57.942870+00:00-53-54-55-56-57",
+  "generated_at": "2026-10-16T21:13:57.942870+00:00",
+  "local_generated_at": "2026-10-17T05:13:57.942870+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "flux",
+    "ai",
+    "gumroad",
+    "steam",
+    "game"
+  ],
+  "seed_indices": [
+    53,
+    54,
+    55,
+    56,
+    57
+  ],
+  "start_index": 53,
+  "discoveries": [],
+  "status": "error",
+  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+}
