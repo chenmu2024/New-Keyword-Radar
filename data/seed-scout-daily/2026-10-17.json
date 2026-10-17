@@ -202,6 +202,136 @@
       ],
       "discovery_count": 22,
       "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-17T00:22:33.452684+00:00-58-59-60-61-62",
+      "start_index": 58,
+      "seed_indices": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "generated_at": "2026-10-17T00:22:33.452684+00:00",
+      "local_generated_at": "2026-10-17T08:22:33.452684+08:00",
+      "seed_batch": [
+        "poki",
+        "slope game",
+        "crazy games",
+        "itch.io",
+        "roblox"
+      ],
+      "discovery_count": 7,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-17T00:24:10.020700+00:00-63-64-65-66-67",
+      "start_index": 63,
+      "seed_indices": [
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "generated_at": "2026-10-17T00:24:10.020700+00:00",
+      "local_generated_at": "2026-10-17T08:24:10.020700+08:00",
+      "seed_batch": [
+        "cocrea",
+        "cocrea world",
+        "compressor",
+        "figma",
+        "composer"
+      ],
+      "discovery_count": 37,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-17T00:25:45.776025+00:00-68-69-70-71-72",
+      "start_index": 68,
+      "seed_indices": [
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "generated_at": "2026-10-17T00:25:45.776025+00:00",
+      "local_generated_at": "2026-10-17T08:25:45.776025+08:00",
+      "seed_batch": [
+        "fonts",
+        "card",
+        "symbol",
+        "instagram",
+        "tea"
+      ],
+      "discovery_count": 23,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-17T00:27:24.405347+00:00-73-0-1-2-3",
+      "start_index": 73,
+      "seed_indices": [
+        73,
+        0,
+        1,
+        2,
+        3
+      ],
+      "generated_at": "2026-10-17T00:27:24.405347+00:00",
+      "local_generated_at": "2026-10-17T08:27:24.405347+08:00",
+      "seed_batch": [
+        "download",
+        "translator",
+        "generator",
+        "example",
+        "convert"
+      ],
+      "discovery_count": 8,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-17T00:29:03.405410+00:00-4-5-6-7-53",
+      "start_index": 4,
+      "seed_indices": [
+        4,
+        5,
+        6,
+        7,
+        53
+      ],
+      "generated_at": "2026-10-17T00:29:03.405410+00:00",
+      "local_generated_at": "2026-10-17T08:29:03.405410+08:00",
+      "seed_batch": [
+        "online",
+        "downloader",
+        "maker",
+        "creator",
+        "flux"
+      ],
+      "discovery_count": 33,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-17T00:30:41.864032+00:00-54-55-56-57",
+      "start_index": 54,
+      "seed_indices": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "generated_at": "2026-10-17T00:30:41.864032+00:00",
+      "local_generated_at": "2026-10-17T08:30:41.864032+08:00",
+      "seed_batch": [
+        "ai",
+        "gumroad",
+        "steam",
+        "game"
+      ],
+      "discovery_count": 37,
+      "status": "ok"
     }
   ],
   "errors": [
@@ -271,7 +401,36 @@
     "cataloger",
     "responder",
     "color",
-    "image"
+    "image",
+    "poki",
+    "slope game",
+    "crazy games",
+    "itch.io",
+    "roblox",
+    "cocrea",
+    "cocrea world",
+    "compressor",
+    "figma",
+    "composer",
+    "fonts",
+    "card",
+    "symbol",
+    "instagram",
+    "tea",
+    "download",
+    "translator",
+    "generator",
+    "example",
+    "convert",
+    "online",
+    "downloader",
+    "maker",
+    "creator",
+    "flux",
+    "ai",
+    "gumroad",
+    "steam",
+    "game"
   ],
   "discoveries": [
     {
@@ -311,10 +470,28 @@
       "raw_value": 81700
     },
     {
+      "seed": "online",
+      "query": "casino online 🇳🇱 www.palmy.best",
+      "rise_value": 71200.0,
+      "raw_value": 71200
+    },
+    {
       "seed": "scraper",
       "query": "employ",
       "rise_value": 70600.0,
       "raw_value": 70600
+    },
+    {
+      "seed": "online",
+      "query": "casino online 🇳🇱 www.palmy.best 🇳🇱",
+      "rise_value": 69450.0,
+      "raw_value": 69450
+    },
+    {
+      "seed": "composer",
+      "query": "doom 2016 soundtrack composer",
+      "rise_value": 67050.0,
+      "raw_value": 67050
     },
     {
       "seed": "scraper",
@@ -341,6 +518,12 @@
       "raw_value": 41400
     },
     {
+      "seed": "cocrea",
+      "query": "sprunki chaotic good",
+      "rise_value": 41300.0,
+      "raw_value": 41300
+    },
+    {
       "seed": "scheme",
       "query": "conditional grant scheme nigeria smedan",
       "rise_value": 35800.0,
@@ -351,6 +534,12 @@
       "query": "andy burnham housing scheme earnings cap",
       "rise_value": 32450.0,
       "raw_value": 32450
+    },
+    {
+      "seed": "example",
+      "query": "สล็อต เว็บ ตรง nsn ac th example",
+      "rise_value": 29300.0,
+      "raw_value": 29300
     },
     {
       "seed": "scraper",
@@ -389,10 +578,34 @@
       "raw_value": 22000
     },
     {
+      "seed": "online",
+      "query": "online casinos 🇳🇱 www.palmy.best",
+      "rise_value": 21250.0,
+      "raw_value": 21250
+    },
+    {
       "seed": "scraper",
       "query": "peruse definition",
       "rise_value": 21050.0,
       "raw_value": 21050
+    },
+    {
+      "seed": "online",
+      "query": "casino online 2026 www.palmy.best",
+      "rise_value": 21000.0,
+      "raw_value": 21000
+    },
+    {
+      "seed": "online",
+      "query": "casino online nl 🇳🇱 www.palmy.best",
+      "rise_value": 20850.0,
+      "raw_value": 20850
+    },
+    {
+      "seed": "online",
+      "query": "casino online nl 🇳🇱 www.palmy.best 🇳🇱",
+      "rise_value": 20200.0,
+      "raw_value": 20200
     },
     {
       "seed": "scheme",
@@ -407,16 +620,82 @@
       "raw_value": 19900
     },
     {
+      "seed": "figma",
+      "query": "figcraft",
+      "rise_value": 18200.0,
+      "raw_value": 18200
+    },
+    {
+      "seed": "online",
+      "query": "neue online casinos 🇩🇪 www.catplus.de",
+      "rise_value": 15950.0,
+      "raw_value": 15950
+    },
+    {
+      "seed": "online",
+      "query": "melhores casinos online portugal www.casinowinner.io 🇵🇹",
+      "rise_value": 15250.0,
+      "raw_value": 15250
+    },
+    {
+      "seed": "tea",
+      "query": "email marketing for restaurants",
+      "rise_value": 12950.0,
+      "raw_value": 12950
+    },
+    {
       "seed": "scheme",
       "query": "haze subsidy scheme",
       "rise_value": 12850.0,
       "raw_value": 12850
     },
     {
+      "seed": "online",
+      "query": "online casino boni 🇩🇪 casinod.vip",
+      "rise_value": 12400.0,
+      "raw_value": 12400
+    },
+    {
+      "seed": "tea",
+      "query": "hc andersen født",
+      "rise_value": 12250.0,
+      "raw_value": 12250
+    },
+    {
       "seed": "sample",
       "query": "fessenheim reactor steel sample removal",
       "rise_value": 12050.0,
       "raw_value": 12050
+    },
+    {
+      "seed": "tea",
+      "query": "høretelefoner løb",
+      "rise_value": 11850.0,
+      "raw_value": 11850
+    },
+    {
+      "seed": "steam",
+      "query": "aion 2 steam launch stats",
+      "rise_value": 10850.0,
+      "raw_value": 10850
+    },
+    {
+      "seed": "online",
+      "query": "online casino zonder cruks 2026 www.palmy.best",
+      "rise_value": 10600.0,
+      "raw_value": 10600
+    },
+    {
+      "seed": "steam",
+      "query": "easy fox steam demo ai costs",
+      "rise_value": 10500.0,
+      "raw_value": 10500
+    },
+    {
+      "seed": "online",
+      "query": "dewill.cfd",
+      "rise_value": 10300.0,
+      "raw_value": 10300
     },
     {
       "seed": "assistant",
@@ -437,6 +716,18 @@
       "raw_value": 9500
     },
     {
+      "seed": "tea",
+      "query": "what is a roth ira",
+      "rise_value": 9400.0,
+      "raw_value": 9400
+    },
+    {
+      "seed": "tea",
+      "query": "best budget smartphone",
+      "rise_value": 8750.0,
+      "raw_value": 8750
+    },
+    {
       "seed": "simulator",
       "query": "driver and vehicle licensing authority simulator",
       "rise_value": 8700.0,
@@ -445,6 +736,12 @@
     {
       "seed": "tracker",
       "query": "tracker switchback",
+      "rise_value": 8450.0,
+      "raw_value": 8450
+    },
+    {
+      "seed": "tea",
+      "query": "what is a 401k",
       "rise_value": 8450.0,
       "raw_value": 8450
     },
@@ -461,6 +758,12 @@
       "raw_value": 7700
     },
     {
+      "seed": "composer",
+      "query": "baroque composer johann melchior",
+      "rise_value": 7500.0,
+      "raw_value": 7500
+    },
+    {
       "seed": "scheme",
       "query": "meezan bank ghta scheme financing",
       "rise_value": 6900.0,
@@ -471,6 +774,18 @@
       "query": "sphithiphithi evaluator twitter",
       "rise_value": 6800.0,
       "raw_value": 6800
+    },
+    {
+      "seed": "composer",
+      "query": "will beneficiary crossword clue",
+      "rise_value": 6800.0,
+      "raw_value": 6800
+    },
+    {
+      "seed": "instagram",
+      "query": "maasranga tv instagram",
+      "rise_value": 6750.0,
+      "raw_value": 6750
     },
     {
       "seed": "sample",
@@ -485,16 +800,40 @@
       "raw_value": 6300
     },
     {
+      "seed": "card",
+      "query": "jtet admit card",
+      "rise_value": 6200.0,
+      "raw_value": 6200
+    },
+    {
       "seed": "optimizer",
       "query": "radiant optimizer.app",
       "rise_value": 6200.0,
       "raw_value": 6200
     },
     {
+      "seed": "composer",
+      "query": "john ireland composer",
+      "rise_value": 5950.0,
+      "raw_value": 5950
+    },
+    {
       "seed": "pattern",
       "query": "pea soup weather pattern",
       "rise_value": 5950.0,
       "raw_value": 5950
+    },
+    {
+      "seed": "instagram",
+      "query": "tom welling instagram story",
+      "rise_value": 5700.0,
+      "raw_value": 5700
+    },
+    {
+      "seed": "composer",
+      "query": "bitter crossword clue",
+      "rise_value": 5650.0,
+      "raw_value": 5650
     },
     {
       "seed": "sender",
@@ -505,6 +844,12 @@
     {
       "seed": "sender",
       "query": "hoffenheim besiktas",
+      "rise_value": 5550.0,
+      "raw_value": 5550
+    },
+    {
+      "seed": "tea",
+      "query": "legetøj tilbud",
       "rise_value": 5550.0,
       "raw_value": 5550
     },
@@ -521,16 +866,52 @@
       "raw_value": 5400
     },
     {
+      "seed": "card",
+      "query": "uae bank credit card debt dispute",
+      "rise_value": 5250.0,
+      "raw_value": 5250
+    },
+    {
+      "seed": "steam",
+      "query": "hood warfare 2",
+      "rise_value": 5100.0,
+      "raw_value": 5100
+    },
+    {
+      "seed": "steam",
+      "query": "hood warfare 2 steam",
+      "rise_value": 5050.0,
+      "raw_value": 5050
+    },
+    {
       "seed": "manager",
       "query": "japan business manager visa departures",
       "rise_value": 5050.0,
       "raw_value": 5050
     },
     {
+      "seed": "steam",
+      "query": "steam free to keep promotions",
+      "rise_value": 4800.0,
+      "raw_value": 4800
+    },
+    {
+      "seed": "steam",
+      "query": "steam game sales revenue cuts",
+      "rise_value": 4800.0,
+      "raw_value": 4800
+    },
+    {
       "seed": "scheme",
       "query": "uk hospitality youth employment scheme",
       "rise_value": 4800.0,
       "raw_value": 4800
+    },
+    {
+      "seed": "example",
+      "query": "สล็อต เว็บ ตรง nsn ac th jointly",
+      "rise_value": 4700.0,
+      "raw_value": 4700
     },
     {
       "seed": "receiver",
@@ -551,10 +932,46 @@
       "raw_value": 4350
     },
     {
+      "seed": "card",
+      "query": "jtet admit card 2026",
+      "rise_value": 4100.0,
+      "raw_value": 4100
+    },
+    {
+      "seed": "steam",
+      "query": "steam service error",
+      "rise_value": 4100.0,
+      "raw_value": 4100
+    },
+    {
+      "seed": "composer",
+      "query": "doom composer mick gordon interview",
+      "rise_value": 4000.0,
+      "raw_value": 4000
+    },
+    {
+      "seed": "creator",
+      "query": "22nd amendment",
+      "rise_value": 3900.0,
+      "raw_value": 3900
+    },
+    {
       "seed": "connector",
       "query": "tesla wall connector smart charging",
       "rise_value": 3900.0,
       "raw_value": 3900
+    },
+    {
+      "seed": "steam",
+      "query": "hood warfare 2 steam charts",
+      "rise_value": 3650.0,
+      "raw_value": 3650
+    },
+    {
+      "seed": "creator",
+      "query": "cuban poet jose",
+      "rise_value": 3550.0,
+      "raw_value": 3550
     },
     {
       "seed": "color",
@@ -563,10 +980,22 @@
       "raw_value": 3250
     },
     {
+      "seed": "creator",
+      "query": "mariana enriquez",
+      "rise_value": 3050.0,
+      "raw_value": 3050
+    },
+    {
       "seed": "checker",
       "query": "ncc checker",
       "rise_value": 3000.0,
       "raw_value": 3000
+    },
+    {
+      "seed": "creator",
+      "query": "simon the zealot",
+      "rise_value": 2950.0,
+      "raw_value": 2950
     },
     {
       "seed": "tracker",
@@ -579,6 +1008,12 @@
       "query": "chicago marathon 2026 tracker",
       "rise_value": 2850.0,
       "raw_value": 2850
+    },
+    {
+      "seed": "example",
+      "query": "a little doodle for example",
+      "rise_value": 2650.0,
+      "raw_value": 2650
     },
     {
       "seed": "tracker",
@@ -599,6 +1034,12 @@
       "raw_value": 2600
     },
     {
+      "seed": "steam",
+      "query": "steam サービス エラー",
+      "rise_value": 2600.0,
+      "raw_value": 2600
+    },
+    {
       "seed": "sample",
       "query": "perseverance rover sapphire canyon sample",
       "rise_value": 2550.0,
@@ -611,10 +1052,34 @@
       "raw_value": 2550
     },
     {
+      "seed": "creator",
+      "query": "dr eggman",
+      "rise_value": 2350.0,
+      "raw_value": 2350
+    },
+    {
       "seed": "receiver",
       "query": "chiefs midseason wide receiver trade rumors",
       "rise_value": 2300.0,
       "raw_value": 2300
+    },
+    {
+      "seed": "flux",
+      "query": "flux 3 image klein",
+      "rise_value": 2300.0,
+      "raw_value": 2300
+    },
+    {
+      "seed": "steam",
+      "query": "steam service error the steam service on your machine requires some maintenance",
+      "rise_value": 2300.0,
+      "raw_value": 2300
+    },
+    {
+      "seed": "itch.io",
+      "query": "armor simulator itch.io",
+      "rise_value": 2250.0,
+      "raw_value": 2250
     },
     {
       "seed": "receiver",
@@ -629,10 +1094,28 @@
       "raw_value": 2050
     },
     {
+      "seed": "card",
+      "query": "cuban green card approval decline",
+      "rise_value": 2000.0,
+      "raw_value": 2000
+    },
+    {
+      "seed": "composer",
+      "query": "la boheme composer",
+      "rise_value": 1950.0,
+      "raw_value": 1950
+    },
+    {
       "seed": "receiver",
       "query": "retro phone receiver",
       "rise_value": 1900.0,
       "raw_value": 1900
+    },
+    {
+      "seed": "flux",
+      "query": "flux 3 klein",
+      "rise_value": 1850.0,
+      "raw_value": 1850
     },
     {
       "seed": "color",
@@ -645,6 +1128,30 @@
       "query": "kelly kurdi",
       "rise_value": 1850.0,
       "raw_value": 1850
+    },
+    {
+      "seed": "composer",
+      "query": "film composer schifrin",
+      "rise_value": 1800.0,
+      "raw_value": 1800
+    },
+    {
+      "seed": "creator",
+      "query": "but to lose all my senses that is just so typically me",
+      "rise_value": 1750.0,
+      "raw_value": 1750
+    },
+    {
+      "seed": "roblox",
+      "query": "eclipse animator roblox",
+      "rise_value": 1750.0,
+      "raw_value": 1750
+    },
+    {
+      "seed": "maker",
+      "query": "pet pumpkin food maker",
+      "rise_value": 1700.0,
+      "raw_value": 1700
     },
     {
       "seed": "tracker",
@@ -677,6 +1184,36 @@
       "raw_value": 1500
     },
     {
+      "seed": "maker",
+      "query": "pet pumpkin dog food maker",
+      "rise_value": 1500.0,
+      "raw_value": 1500
+    },
+    {
+      "seed": "figma",
+      "query": "artcraft",
+      "rise_value": 1450.0,
+      "raw_value": 1450
+    },
+    {
+      "seed": "composer",
+      "query": "film composer schifrin crossword",
+      "rise_value": 1450.0,
+      "raw_value": 1450
+    },
+    {
+      "seed": "game",
+      "query": "sundowns game today",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "steam",
+      "query": "something that uses steam",
+      "rise_value": 1350.0,
+      "raw_value": 1350
+    },
+    {
       "seed": "scheduler",
       "query": "asd conference scheduler",
       "rise_value": 1300.0,
@@ -703,6 +1240,12 @@
     {
       "seed": "responder",
       "query": "princess cruises first responder discount",
+      "rise_value": 1200.0,
+      "raw_value": 1200
+    },
+    {
+      "seed": "example",
+      "query": "สล็อต เว็บ ตรง nsn ac th rating",
       "rise_value": 1200.0,
       "raw_value": 1200
     },
@@ -737,8 +1280,20 @@
       "raw_value": 1100
     },
     {
+      "seed": "creator",
+      "query": "tyler the creator 2011",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
       "seed": "color",
       "query": "color story palette",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
+      "seed": "card",
+      "query": "e card gebühr für pensionisten",
       "rise_value": 1050.0,
       "raw_value": 1050
     },
@@ -761,8 +1316,20 @@
       "raw_value": 1050
     },
     {
+      "seed": "card",
+      "query": "suzanne smith nexus card revoked",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
       "seed": "interpreter",
       "query": "wap sign language interpreter",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
+      "seed": "example",
+      "query": "สล็อต เว็บ ตรง nsn ac th test",
       "rise_value": 1050.0,
       "raw_value": 1050
     },
@@ -773,16 +1340,52 @@
       "raw_value": 1000
     },
     {
+      "seed": "game",
+      "query": "pirates game today",
+      "rise_value": 1000.0,
+      "raw_value": 1000
+    },
+    {
       "seed": "evaluator",
       "query": "search query evaluator",
       "rise_value": 1000.0,
       "raw_value": 1000
     },
     {
+      "seed": "steam",
+      "query": "valor mortis steam",
+      "rise_value": 1000.0,
+      "raw_value": 1000
+    },
+    {
+      "seed": "roblox",
+      "query": "huss valley codes roblox",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
       "seed": "interpreter",
       "query": "sign language interpreter for wap",
       "rise_value": 950.0,
       "raw_value": 950
+    },
+    {
+      "seed": "creator",
+      "query": "31168 lego creator ritterburg im mittelalter",
+      "rise_value": 900.0,
+      "raw_value": 900
+    },
+    {
+      "seed": "creator",
+      "query": "tyler the creator barcelona",
+      "rise_value": 900.0,
+      "raw_value": 900
+    },
+    {
+      "seed": "example",
+      "query": "did bid a farewell for example",
+      "rise_value": 850.0,
+      "raw_value": 850
     },
     {
       "seed": "color",
@@ -797,16 +1400,40 @@
       "raw_value": 850
     },
     {
+      "seed": "ai",
+      "query": "anthropic ai labor and consciousness",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
       "seed": "tracker",
       "query": "moab 240 tracker",
       "rise_value": 800.0,
       "raw_value": 800
     },
     {
+      "seed": "composer",
+      "query": "tell crossword clue",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "composer",
+      "query": "la boheme composer crossword clue",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
       "seed": "scheme",
       "query": "national student financial aid scheme",
       "rise_value": 750.0,
       "raw_value": 750
+    },
+    {
+      "seed": "steam",
+      "query": "planet zoo 2",
+      "rise_value": 700.0,
+      "raw_value": 700
     },
     {
       "seed": "optimizer",
@@ -825,6 +1452,12 @@
       "query": "optijuegos",
       "rise_value": 650.0,
       "raw_value": 650
+    },
+    {
+      "seed": "maker",
+      "query": "kazumi coffee maker",
+      "rise_value": 600.0,
+      "raw_value": 600
     },
     {
       "seed": "optimizer",
@@ -902,7 +1535,10 @@
       "seed": "comparator",
       "query": "pizaa",
       "rise_value": 500.0,
-      "raw_value": 500
+      "raw_value": 500,
+      "also_from_seeds": [
+        "flux"
+      ]
     },
     {
       "seed": "sample",
@@ -917,8 +1553,8 @@
       "raw_value": 500
     },
     {
-      "seed": "editor",
-      "query": "artcraft",
+      "seed": "composer",
+      "query": "film composer silvestri",
       "rise_value": 450.0,
       "raw_value": 450
     },
@@ -931,6 +1567,12 @@
     {
       "seed": "tracker",
       "query": "hurricane simon tracker",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "symbol",
+      "query": "nazi eagle symbol",
       "rise_value": 450.0,
       "raw_value": 450
     },
@@ -953,14 +1595,32 @@
       "raw_value": 450
     },
     {
+      "seed": "game",
+      "query": "texas ou game",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
       "seed": "builder",
       "query": "ai dropshipping builder",
       "rise_value": 400.0,
       "raw_value": 400
     },
     {
+      "seed": "figma",
+      "query": "figma config 2026",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
       "seed": "sample",
       "query": "georgia sample ballot 2026",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "composer",
+      "query": "get happy composer",
       "rise_value": 400.0,
       "raw_value": 400
     },
@@ -995,6 +1655,12 @@
       "raw_value": 350
     },
     {
+      "seed": "figma",
+      "query": "figma config",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
       "seed": "recorder",
       "query": "implantable loop recorder",
       "rise_value": 350.0,
@@ -1019,10 +1685,34 @@
       "raw_value": 350
     },
     {
+      "seed": "itch.io",
+      "query": "pvz lawn",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
       "seed": "sample",
       "query": "sample the shoreline near the hotel beach",
       "rise_value": 350.0,
       "raw_value": 350
+    },
+    {
+      "seed": "tea",
+      "query": "tea košir",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "creator",
+      "query": "tyler the creator golf",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "roblox",
+      "query": "baguette",
+      "rise_value": 300.0,
+      "raw_value": 300
     },
     {
       "seed": "simulator",
@@ -1037,8 +1727,32 @@
       "raw_value": 300
     },
     {
+      "seed": "figma",
+      "query": "figma 井 之 頭 五郎 松重 豊 ver",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "creator",
+      "query": "golf wang",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
       "seed": "optimizer",
       "query": "gta 5",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "figma",
+      "query": "hunger games district quiz figma",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "translator",
+      "query": "huttese translator",
       "rise_value": 300.0,
       "raw_value": 300
     },
@@ -1085,6 +1799,12 @@
       "raw_value": 300
     },
     {
+      "seed": "game",
+      "query": "alabama georgia game",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
       "seed": "notifier",
       "query": "better f3",
       "rise_value": 250.0,
@@ -1105,6 +1825,24 @@
     {
       "seed": "analyzer",
       "query": "cbe analyzer",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "figma",
+      "query": "figma specs",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "game",
+      "query": "ga alabama game",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "composer",
+      "query": "italian composer crossword clue",
       "rise_value": 250.0,
       "raw_value": 250
     },
@@ -1143,6 +1881,12 @@
       "query": "tfl graduate scheme",
       "rise_value": 250.0,
       "raw_value": 250
+    },
+    {
+      "seed": "composer",
+      "query": "barber of seville composer",
+      "rise_value": 200.0,
+      "raw_value": 200
     },
     {
       "seed": "color",
@@ -1195,6 +1939,18 @@
     {
       "seed": "notifier",
       "query": "puzzleslib",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "cocrea world",
+      "query": "scratch sprunki",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "cocrea",
+      "query": "sprunki phase 8 definitive cocrea",
       "rise_value": 200.0,
       "raw_value": 200
     },
@@ -1265,6 +2021,18 @@
       "raw_value": 180
     },
     {
+      "seed": "card",
+      "query": "green card lottery 2027",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "itch.io",
+      "query": "itch.io breadwinner",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
       "seed": "assistant",
       "query": "nicl assistant score card 2026",
       "rise_value": 170.0,
@@ -1283,8 +2051,20 @@
       "raw_value": 170
     },
     {
+      "seed": "game",
+      "query": "browns game",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
       "seed": "navigator",
       "query": "campus navigator",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "game",
+      "query": "georgia game",
       "rise_value": 160.0,
       "raw_value": 160
     },
@@ -1330,8 +2110,44 @@
       "raw_value": 150
     },
     {
+      "seed": "game",
+      "query": "steelers game",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "game",
+      "query": "texas game",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "game",
+      "query": "alabama game",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "card",
+      "query": "green card lottery",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
       "seed": "monitor",
       "query": "munch monitor",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "cocrea",
+      "query": "penguin mod",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "flux",
+      "query": "stone flux pauldron",
       "rise_value": 140.0,
       "raw_value": 140
     },
@@ -1384,6 +2200,12 @@
       "raw_value": 130
     },
     {
+      "seed": "game",
+      "query": "rams game",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
       "seed": "notifier",
       "query": "steam achievement notifier",
       "rise_value": 130.0,
@@ -1396,8 +2218,20 @@
       "raw_value": 130
     },
     {
+      "seed": "game",
+      "query": "hellraiser game",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
       "seed": "simulator",
       "query": "superhero simulator",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "game",
+      "query": "ut game",
       "rise_value": 120.0,
       "raw_value": 120
     },
@@ -1410,6 +2244,12 @@
     {
       "seed": "evaluator",
       "query": "extraterrestrial vegetation evaluator",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "game",
+      "query": "guardians game",
       "rise_value": 110.0,
       "raw_value": 110
     },
@@ -1444,6 +2284,18 @@
       "raw_value": 110
     },
     {
+      "seed": "symbol",
+      "query": "nazi symbol",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "game",
+      "query": "uga alabama game",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
       "seed": "manager",
       "query": "championship manager",
       "rise_value": 100.0,
@@ -1456,7 +2308,8 @@
       "raw_value": 100,
       "also_from_seeds": [
         "interpreter",
-        "format"
+        "format",
+        "flux"
       ]
     },
     {
@@ -1478,6 +2331,12 @@
       "raw_value": 100
     },
     {
+      "seed": "flux",
+      "query": "light flux pauldron",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
       "seed": "responder",
       "query": "lululemon first responder discount canada",
       "rise_value": 100.0,
@@ -1490,8 +2349,32 @@
       "raw_value": 100
     },
     {
+      "seed": "symbol",
+      "query": "swastik symbol",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
       "seed": "builder",
       "query": "arc raiders skill tree builder",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "ai",
+      "query": "capafy ai",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "cocrea",
+      "query": "cocreate",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "creator",
+      "query": "mlbb creator base",
       "rise_value": 90.0,
       "raw_value": 90
     },
@@ -1510,6 +2393,24 @@
     {
       "seed": "scheduler",
       "query": "quebec medical appointment scheduler",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "compressor",
+      "query": "tnpsc",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "compressor",
+      "query": "tnpsc photo compressor",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "compressor",
+      "query": "tnpsc signature compressor",
       "rise_value": 90.0,
       "raw_value": 90
     },
@@ -1580,6 +2481,12 @@
       "raw_value": 80
     },
     {
+      "seed": "compressor",
+      "query": "tnpsc group 4 apply online 2026",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "scheduler",
       "query": "uf scheduler",
       "rise_value": 80.0,
@@ -1610,6 +2517,12 @@
       "raw_value": 70
     },
     {
+      "seed": "tea",
+      "query": "hey tea",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "manager",
       "query": "liverpool manager",
       "rise_value": 70.0,
@@ -1622,6 +2535,12 @@
       "raw_value": 70
     },
     {
+      "seed": "steam",
+      "query": "next steam sale",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "scheduler",
       "query": "scheduler cornell",
       "rise_value": 70.0,
@@ -1630,6 +2549,12 @@
     {
       "seed": "responder",
       "query": "sitka first responder discount",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "cocrea",
+      "query": "spruted remastered cocrea",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -1718,6 +2643,12 @@
       "raw_value": 60
     },
     {
+      "seed": "flux",
+      "query": "monster party flux",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "verifier",
       "query": "oscaro",
       "rise_value": 60.0,
@@ -1742,8 +2673,20 @@
       "raw_value": 60
     },
     {
+      "seed": "steam",
+      "query": "steam stats",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "responder",
       "query": "the responder season 3",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "compressor",
+      "query": "tnpsc group 4",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -1810,6 +2753,12 @@
     {
       "seed": "calculator",
       "query": "atar calculator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "slope game",
+      "query": "block blast",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -1898,6 +2847,24 @@
       "raw_value": 50
     },
     {
+      "seed": "gumroad",
+      "query": "muse ai",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "gumroad",
+      "query": "payoneer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "cocrea",
+      "query": "penguinmod",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "analyzer",
       "query": "privacy.net analyzer",
       "rise_value": 50.0,
@@ -1958,6 +2925,12 @@
       "raw_value": 50
     },
     {
+      "seed": "cocrea",
+      "query": "sprunki phase 11",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "interpreter",
       "query": "tis interpreter",
       "rise_value": 50.0,
@@ -1988,6 +2961,18 @@
       "raw_value": 50
     },
     {
+      "seed": "figma",
+      "query": "adobe xd",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "convert",
+      "query": "aha convert",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "navigator",
       "query": "capital one dealer navigator",
       "rise_value": 40.0,
@@ -2006,6 +2991,12 @@
       "raw_value": 40
     },
     {
+      "seed": "card",
+      "query": "credit card rewards",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "manager",
       "query": "deadlock mod manager",
       "rise_value": 40.0,
@@ -2018,6 +3009,12 @@
       "raw_value": 40
     },
     {
+      "seed": "gumroad",
+      "query": "gumroad github",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "navigator",
       "query": "housing navigator massachusetts",
       "rise_value": 40.0,
@@ -2026,6 +3023,12 @@
     {
       "seed": "analyzer",
       "query": "josh jacobs",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "gumroad",
+      "query": "kofi",
       "rise_value": 40.0,
       "raw_value": 40
     },
@@ -2054,6 +3057,12 @@
       "raw_value": 40
     },
     {
+      "seed": "compressor",
+      "query": "signature compressor",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "recorder",
       "query": "sáo recorder",
       "rise_value": 40.0,
@@ -2072,19 +3081,25 @@
       "raw_value": 40
     },
     {
+      "seed": "gumroad",
+      "query": "vrmodels",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "verifier",
       "query": "winner verifier ticket",
       "rise_value": 40.0,
       "raw_value": 40
     }
   ],
-  "discovery_count": 299,
-  "updated_at": "2026-10-16T21:13:57.942870+00:00",
-  "scanned_seed_count": 45,
-  "batch_count": 9,
-  "attempted_seed_count": 50,
+  "discovery_count": 441,
+  "updated_at": "2026-10-17T00:30:41.864032+00:00",
+  "scanned_seed_count": 74,
+  "batch_count": 15,
+  "attempted_seed_count": 74,
   "complete_20_seeds": true,
-  "complete_daily_target": false,
-  "completion_pct": 60.8,
-  "failed_seed_count": 5
+  "complete_daily_target": true,
+  "completion_pct": 100.0,
+  "failed_seed_count": 0
 }

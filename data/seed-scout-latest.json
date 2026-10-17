@@ -1,26 +1,247 @@
 {
-  "batch_id": "2026-10-16T21:13:57.942870+00:00-53-54-55-56-57",
-  "generated_at": "2026-10-16T21:13:57.942870+00:00",
-  "local_generated_at": "2026-10-17T05:13:57.942870+08:00",
+  "batch_id": "2026-10-17T00:30:41.864032+00:00-54-55-56-57",
+  "generated_at": "2026-10-17T00:30:41.864032+00:00",
+  "local_generated_at": "2026-10-17T08:30:41.864032+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "flux",
     "ai",
     "gumroad",
     "steam",
     "game"
   ],
   "seed_indices": [
-    53,
     54,
     55,
     56,
     57
   ],
-  "start_index": 53,
-  "discoveries": [],
-  "status": "error",
-  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+  "start_index": 54,
+  "discoveries": [
+    {
+      "seed": "steam",
+      "query": "aion 2 steam launch stats",
+      "rise_value": 10850.0,
+      "raw_value": 10850
+    },
+    {
+      "seed": "steam",
+      "query": "easy fox steam demo ai costs",
+      "rise_value": 10500.0,
+      "raw_value": 10500
+    },
+    {
+      "seed": "steam",
+      "query": "hood warfare 2",
+      "rise_value": 5100.0,
+      "raw_value": 5100
+    },
+    {
+      "seed": "steam",
+      "query": "hood warfare 2 steam",
+      "rise_value": 5050.0,
+      "raw_value": 5050
+    },
+    {
+      "seed": "steam",
+      "query": "steam free to keep promotions",
+      "rise_value": 4800.0,
+      "raw_value": 4800
+    },
+    {
+      "seed": "steam",
+      "query": "steam game sales revenue cuts",
+      "rise_value": 4800.0,
+      "raw_value": 4800
+    },
+    {
+      "seed": "steam",
+      "query": "steam service error",
+      "rise_value": 4100.0,
+      "raw_value": 4100
+    },
+    {
+      "seed": "steam",
+      "query": "hood warfare 2 steam charts",
+      "rise_value": 3650.0,
+      "raw_value": 3650
+    },
+    {
+      "seed": "steam",
+      "query": "steam サービス エラー",
+      "rise_value": 2600.0,
+      "raw_value": 2600
+    },
+    {
+      "seed": "steam",
+      "query": "steam service error the steam service on your machine requires some maintenance",
+      "rise_value": 2300.0,
+      "raw_value": 2300
+    },
+    {
+      "seed": "game",
+      "query": "sundowns game today",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "steam",
+      "query": "something that uses steam",
+      "rise_value": 1350.0,
+      "raw_value": 1350
+    },
+    {
+      "seed": "game",
+      "query": "pirates game today",
+      "rise_value": 1000.0,
+      "raw_value": 1000
+    },
+    {
+      "seed": "steam",
+      "query": "valor mortis steam",
+      "rise_value": 1000.0,
+      "raw_value": 1000
+    },
+    {
+      "seed": "ai",
+      "query": "anthropic ai labor and consciousness",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "steam",
+      "query": "planet zoo 2",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
+      "seed": "game",
+      "query": "texas ou game",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "game",
+      "query": "alabama georgia game",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "game",
+      "query": "ga alabama game",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "game",
+      "query": "browns game",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "game",
+      "query": "georgia game",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "game",
+      "query": "steelers game",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "game",
+      "query": "texas game",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "game",
+      "query": "alabama game",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "game",
+      "query": "rams game",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "game",
+      "query": "hellraiser game",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "game",
+      "query": "ut game",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "game",
+      "query": "guardians game",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "game",
+      "query": "uga alabama game",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "ai",
+      "query": "capafy ai",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "steam",
+      "query": "next steam sale",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "steam",
+      "query": "steam stats",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "gumroad",
+      "query": "muse ai",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "gumroad",
+      "query": "payoneer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "gumroad",
+      "query": "gumroad github",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "gumroad",
+      "query": "kofi",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "gumroad",
+      "query": "vrmodels",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 37
 }
