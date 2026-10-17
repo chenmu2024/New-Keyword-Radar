@@ -36,7 +36,16 @@ def money(q):
   if re.search(pat,q,re.I) and score>best[0]: best=(score,kind)
  if len(q.split())>=2: best=(min(100,best[0]+4),best[1])
  return best
-def noisy(q): return any(x in norm(q) for x in NOISE)
+def intent_block(q):
+ q=norm(q)
+ # Conservative negatives: these are not evidence of a third-party utility.
+ if re.search(r'\\b(hurricane|typhoon|tropical storm|marathon|earthquake|tornado)\\b',q): return 'event-or-disaster'
+ if re.search(r'\\b(interview|soundtrack|episode|season \\d|obituary|warrants|job opening|vacancy)\\b',q): return 'media-or-job'
+ if re.search(r'\\b(login|twitter|instagram|reddit|official site)\\b',q): return 'navigation'
+ if re.search(r'\\b(simulator|tracker)\\b',q) and re.search(r'\\b(licensing authority|driver and vehicle)\\b',q): return 'government-news'
+ return None
+
+def noisy(q): return any(x in norm(q) for x in NOISE) or intent_block(q) is not None
 def seed_list():
  if not SEEDS.exists(): return []
  return list(dict.fromkeys(norm(x) for x in SEEDS.read_text(encoding='utf-8').splitlines() if x.strip() and not x.lstrip().startswith('#')))
@@ -139,7 +148,7 @@ def select(items,seeds,seen,pending,n):
     cooldown=0
 
   freshness=max(0,35-age*4)
-  score=money(q)[0]+freshness+source_bonus+rise_bonus+check_bonus-cooldown-(30 if noisy(q) else 0)
+  score=money(q)[0]+freshness+source_bonus+rise_bonus+check_bonus-cooldown-(250 if intent_block(q) else 30 if noisy(q) else 0)
   ranked.append((score,q,x))
 
  ranked.sort(key=lambda z:(-z[0],z[1]))
@@ -163,8 +172,10 @@ def analyze(keyword,geo,source,first,series,related,cfg):
  ns=(30 if ba<=.5 else 20 if ba<=1.5 else 0)+(18 if bn<=.05 else 10 if bn<=.1 else 0)+(12 if bp<=5 else 6 if bp<=10 else 0)+(20 if rp>=50 else 14 if rp>=20 else 0)+(8 if rise else 0)+(7 if ret>=15 else 3 if ret>0 else 0)
  if any(str(x.get('formatted_value','')).lower()=='breakout' for x in related): ns+=5
  if any(money(x.get('query',''))[0]>=75 for x in related): ms=min(100,ms+6)
- verdict='formal' if true and ms>=cfg.get('min_money_score',55) else 'trend-watch' if true else 'commercial-watch' if ms>=60 and ns>=45 else 'reject'
- return {'keyword':keyword,'geo':geo,'source':source,'first_seen':first,'baseline_avg':ba,'baseline_peak':bp,'baseline_nonzero_ratio':bn,'recent_peak':rp,'current_level':cur,'retention_pct':ret,'first_rise_date':rise.isoformat() if rise else None,'peak_date':peak.isoformat() if peak else None,'newness_score':min(100,ns),'money_score':ms,'money_type':mt,'true_new':true,'verdict':verdict,'related_rising':related,'series':series}
+ block=intent_block(keyword)
+ if block: ms=0; mt='excluded:'+block
+ verdict='formal' if true and not block and ms>=cfg.get('min_money_score',55) else 'trend-watch' if true and not block else 'commercial-watch' if not block and ms>=60 and ns>=45 else 'reject'
+ return {'keyword':keyword,'geo':geo,'source':source,'first_seen':first,'baseline_avg':ba,'baseline_peak':bp,'baseline_nonzero_ratio':bn,'recent_peak':rp,'current_level':cur,'retention_pct':ret,'first_rise_date':rise.isoformat() if rise else None,'peak_date':peak.isoformat() if peak else None,'newness_score':min(100,ns),'money_score':ms,'money_type':mt,'true_new':true,'intent_block_reason':block,'verdict':verdict,'related_rising':related,'series':series}
 
 
 def explore(x,seen,cfg):
