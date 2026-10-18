@@ -1,41 +1,41 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-17T03:43:03.967828+00:00
+Generated: 2026-10-18T00:43:36.409337+00:00
 
 ## Formal candidates
 
-### 1. maid cafe simulator
+### 1. shipping store simulator 2037
 
-- Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-08T00:00:00+00:00, retention **37.7%**.
-- 5y old-history gate: avg **0.06**, peak **7**, material ratio (>= 5) **0.008**; raw non-zero ratio **0.008**.
+- Newness **100/100**; money **94/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-14T00:00:00+00:00, retention **62.3%**.
+- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
 - Source seed-rising:simulator; geo Worldwide.
 
-### 2. clover time codes
+### 2. cbs action thriller tracker show
 
-- Newness **100/100**; money **92/100** (repeat-data).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-02T00:00:00+00:00, retention **24.7%**.
-- 5y old-history gate: avg **0.03**, peak **1**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.029**.
-- Source seed-rising:notifier; geo Worldwide.
-
-### 3. princess cruises first responder discount
-
-- Newness **95/100**; money **90/100** (transactional).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-16T00:00:00+00:00, retention **33.3%**.
+- Newness **95/100**; money **94/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-16T00:00:00+00:00, retention **54.3%**.
 - 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
-- Source seed-rising:responder; geo Worldwide.
+- Source seed-rising:tracker; geo Worldwide.
+
+### 3. tap simulator reborn codes
+
+- Newness **95/100**; money **94/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-15T00:00:00+00:00, retention **54.3%**.
+- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
+- Source seed-rising:simulator; geo Worldwide.
 
 ## Watch / rejected
 
-- arc raiders skill tree builder — **old-history** — newness 100, money 100; 5y peak 100
-- blind box shop simulator — **old-history** — newness 100, money 100; 5y peak 17
-- hurricane simon tracker — **history-unchecked** — newness 91, money 94
-- lagos life simulator game — **history-unchecked** — newness 91, money 94
-- pokemon football team builder — **history-unchecked** — newness 91, money 94
-- hurricane isaias path tracker — **history-unchecked** — newness 88, money 94
-- week 6 fantasy wide receiver rankings — **commercial-watch** — newness 47, money 86
-- domain expiry checker regalseo — **reject** — newness 43, money 100
-- meta tag checker regalseo — **reject** — newness 43, money 100
-- tornado tracker — **reject** — newness 36, money 100
-- ircc application status tracker — **reject** — newness 35, money 94
-- ircc tracker — **reject** — newness 35, money 94
+- chicago marathon tracker — **old-history** — newness 96, money 100; 5y peak 85
+- time stop simulator — **old-history** — newness 96, money 100; 5y peak 25
+- princess cruises first responder discount — **history-unchecked** — newness 95, money 90
+- driver and vehicle licensing authority simulator — **history-unchecked** — newness 91, money 94
+- tracker switchback — **history-unchecked** — newness 91, money 94
+- armor simulator itch.io — **history-unchecked** — newness 88, money 94
+- chicago marathon 2026 tracker — **history-unchecked** — newness 88, money 94
+- stingray cell site simulator warrants — **history-unchecked** — newness 88, money 94
+- aion 2 steam launch stats — **history-unchecked** — newness 88, money 86
+- fitness tracker review — **commercial-watch** — newness 65, money 100
+- ircc application status tracker — **commercial-watch** — newness 65, money 94
+- ecommerce website builder — **reject** — newness 35, money 94

@@ -1,6 +1,6 @@
 # OPC-inspired business evidence review
 
-Generated: 2026-10-17T03:43:52.514160+00:00
+Generated: 2026-10-18T00:44:24.686686+00:00
 
 **Advisory only.** The module does not collect keyword metrics, prove demand,
 approve a launch, or change the radar's formal verdict.
@@ -8,7 +8,7 @@ approve a launch, or change the radar's formal verdict.
 Formal radar candidates: 3.
 No candidate may be recommended for development without external source evidence.
 
-## maid cafe simulator (Worldwide)
+## shipping store simulator 2037 (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
@@ -16,7 +16,7 @@ No candidate may be recommended for development without external source evidence
 - Missing evidence: dated Volume/KD and source, dated SERP inspection and notes, dated reference-site traffic or verified recent-game signal, evidence-backed score: pain, evidence-backed score: leverage, evidence-backed score: timing, evidence-backed score: resource_fit, evidence-backed score: standardization, evidence-backed score: cashflow, monetization model, acquisition channel, estimated monthly fixed cost (USD)
 - Notes: Requires human decision
 
-## clover time codes (Worldwide)
+## cbs action thriller tracker show (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
@@ -24,7 +24,7 @@ No candidate may be recommended for development without external source evidence
 - Missing evidence: dated Volume/KD and source, dated SERP inspection and notes, dated reference-site traffic or verified recent-game signal, evidence-backed score: pain, evidence-backed score: leverage, evidence-backed score: timing, evidence-backed score: resource_fit, evidence-backed score: standardization, evidence-backed score: cashflow, monetization model, acquisition channel, estimated monthly fixed cost (USD)
 - Notes: Requires human decision
 
-## princess cruises first responder discount (Worldwide)
+## tap simulator reborn codes (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
