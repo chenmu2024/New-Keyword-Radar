@@ -312,6 +312,26 @@
       ],
       "discovery_count": 62,
       "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-18T20:34:39.756726+00:00-18-19-20-21",
+      "start_index": 18,
+      "seed_indices": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "generated_at": "2026-10-18T20:34:39.756726+00:00",
+      "local_generated_at": "2026-10-19T04:34:39.756726+08:00",
+      "seed_batch": [
+        "calculator",
+        "sample",
+        "template",
+        "format"
+      ],
+      "discovery_count": 27,
+      "status": "ok"
     }
   ],
   "errors": [
@@ -404,7 +424,11 @@
     "sender",
     "receiver",
     "interpreter",
-    "uploader"
+    "uploader",
+    "calculator",
+    "sample",
+    "template",
+    "format"
   ],
   "discoveries": [
     {
@@ -624,6 +648,12 @@
       "raw_value": 12450
     },
     {
+      "seed": "sample",
+      "query": "fessenheim reactor steel sample removal",
+      "rise_value": 12200.0,
+      "raw_value": 12200
+    },
+    {
       "seed": "online",
       "query": "online casino boni 🇩🇪 toni-bauer.online 🇩🇪",
       "rise_value": 12150.0,
@@ -700,6 +730,12 @@
       "query": "2027 toyota fortuner spy shots",
       "rise_value": 6900.0,
       "raw_value": 6900
+    },
+    {
+      "seed": "sample",
+      "query": "sapphire canyon rock mars sample nasa",
+      "rise_value": 6850.0,
+      "raw_value": 6850
     },
     {
       "seed": "receiver",
@@ -912,6 +948,12 @@
       "raw_value": 2700
     },
     {
+      "seed": "sample",
+      "query": "perseverance rover sapphire canyon sample",
+      "rise_value": 2650.0,
+      "raw_value": 2650
+    },
+    {
       "seed": "steam",
       "query": "steam サービス エラー",
       "rise_value": 2500.0,
@@ -1032,6 +1074,12 @@
       "raw_value": 1550
     },
     {
+      "seed": "sample",
+      "query": "amelia earhart plane",
+      "rise_value": 1500.0,
+      "raw_value": 1500
+    },
+    {
       "seed": "interpreter",
       "query": "kelly kurdi",
       "rise_value": 1500.0,
@@ -1092,6 +1140,12 @@
       "raw_value": 1100
     },
     {
+      "seed": "template",
+      "query": "my 9 games template",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
       "seed": "interpreter",
       "query": "sign language interpreter wap",
       "rise_value": 1100.0,
@@ -1100,6 +1154,12 @@
     {
       "seed": "color",
       "query": "color story palette",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
+      "seed": "format",
+      "query": "email format grade 12",
       "rise_value": 1050.0,
       "raw_value": 1050
     },
@@ -1205,6 +1265,12 @@
     {
       "seed": "scheduler",
       "query": "asd conference scheduler",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "sample",
+      "query": "guest in residence sample sale",
       "rise_value": 650.0,
       "raw_value": 650
     },
@@ -1317,6 +1383,12 @@
       "raw_value": 400
     },
     {
+      "seed": "format",
+      "query": "rugby league world cup format",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
       "seed": "extractor",
       "query": "shad ps4 plus pkg extractor",
       "rise_value": 400.0,
@@ -1347,8 +1419,32 @@
       "raw_value": 350
     },
     {
+      "seed": "template",
+      "query": "creator point template",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "sample",
+      "query": "georgia sample ballot",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
       "seed": "creator",
       "query": "golf wang",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "sample",
+      "query": "most wanted sample sale",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot nc",
       "rise_value": 350.0,
       "raw_value": 350
     },
@@ -1389,6 +1485,12 @@
       "raw_value": 350
     },
     {
+      "seed": "sample",
+      "query": "arcteryx sample sale",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
       "seed": "scheduler",
       "query": "au access",
       "rise_value": 300.0,
@@ -1397,12 +1499,6 @@
     {
       "seed": "manager",
       "query": "brewers manager",
-      "rise_value": 300.0,
-      "raw_value": 300
-    },
-    {
-      "seed": "creator",
-      "query": "creator point template",
       "rise_value": 300.0,
       "raw_value": 300
     },
@@ -1419,8 +1515,20 @@
       "raw_value": 300
     },
     {
+      "seed": "sample",
+      "query": "georgia sample ballot 2026",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
       "seed": "scheduler",
       "query": "gt scheduler",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "sample",
+      "query": "jimmy choo sample sale",
       "rise_value": 300.0,
       "raw_value": 300
     },
@@ -1439,6 +1547,12 @@
     {
       "seed": "extractor",
       "query": "pkg extractor",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "sample",
+      "query": "sample sale my jewellery",
       "rise_value": 300.0,
       "raw_value": 300
     },
@@ -1463,7 +1577,8 @@
         "constructor",
         "evaluator",
         "interpreter",
-        "sender"
+        "sender",
+        "format"
       ]
     },
     {
@@ -1521,6 +1636,18 @@
       "raw_value": 250
     },
     {
+      "seed": "sample",
+      "query": "sample ballot by zip code",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot by zip code nc",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
       "seed": "notifier",
       "query": "symfony notifier",
       "rise_value": 250.0,
@@ -1553,6 +1680,12 @@
     {
       "seed": "receiver",
       "query": "jesse legree stats",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "sample",
+      "query": "nc sample ballot 2026",
       "rise_value": 200.0,
       "raw_value": 200
     },
@@ -1620,7 +1753,10 @@
       "seed": "interpreter",
       "query": "how to bake a cake",
       "rise_value": 170.0,
-      "raw_value": 170
+      "raw_value": 170,
+      "also_from_seeds": [
+        "format"
+      ]
     },
     {
       "seed": "translator",
@@ -1869,6 +2005,12 @@
       "raw_value": 110
     },
     {
+      "seed": "template",
+      "query": "my9albums template",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
       "seed": "optimizer",
       "query": "radian optimizer",
       "rise_value": 110.0,
@@ -1945,6 +2087,18 @@
       "query": "sprunki phase 17",
       "rise_value": 100.0,
       "raw_value": 100
+    },
+    {
+      "seed": "calculator",
+      "query": "crs calculator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "calculator",
+      "query": "crs score calculator",
+      "rise_value": 90.0,
+      "raw_value": 90
     },
     {
       "seed": "detector",
@@ -2040,7 +2194,8 @@
       "rise_value": 80.0,
       "raw_value": 80,
       "also_from_seeds": [
-        "constructor"
+        "constructor",
+        "format"
       ]
     },
     {
@@ -2440,6 +2595,12 @@
       "raw_value": 50
     },
     {
+      "seed": "format",
+      "query": "best pizza near me",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "manager",
       "query": "brighton manager",
       "rise_value": 50.0,
@@ -2725,7 +2886,10 @@
       "seed": "scheduler",
       "query": "top tourist attractions in paris",
       "rise_value": 40.0,
-      "raw_value": 40
+      "raw_value": 40,
+      "also_from_seeds": [
+        "format"
+      ]
     },
     {
       "seed": "extractor",
@@ -2734,13 +2898,13 @@
       "raw_value": 40
     }
   ],
-  "discovery_count": 385,
-  "updated_at": "2026-10-18T17:41:01.009135+00:00",
-  "scanned_seed_count": 70,
-  "batch_count": 14,
+  "discovery_count": 407,
+  "updated_at": "2026-10-18T20:34:39.756726+00:00",
+  "scanned_seed_count": 74,
+  "batch_count": 15,
   "attempted_seed_count": 74,
   "complete_20_seeds": true,
-  "complete_daily_target": false,
-  "completion_pct": 94.6,
-  "failed_seed_count": 4
+  "complete_daily_target": true,
+  "completion_pct": 100.0,
+  "failed_seed_count": 0
 }

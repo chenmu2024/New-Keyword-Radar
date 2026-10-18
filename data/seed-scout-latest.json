@@ -1,7 +1,7 @@
 {
-  "batch_id": "2026-10-18T17:41:01.009135+00:00-18-19-20-21",
-  "generated_at": "2026-10-18T17:41:01.009135+00:00",
-  "local_generated_at": "2026-10-19T01:41:01.009135+08:00",
+  "batch_id": "2026-10-18T20:34:39.756726+00:00-18-19-20-21",
+  "generated_at": "2026-10-18T20:34:39.756726+00:00",
+  "local_generated_at": "2026-10-19T04:34:39.756726+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
@@ -18,7 +18,170 @@
     21
   ],
   "start_index": 18,
-  "discoveries": [],
-  "status": "error",
-  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+  "discoveries": [
+    {
+      "seed": "sample",
+      "query": "fessenheim reactor steel sample removal",
+      "rise_value": 12200.0,
+      "raw_value": 12200
+    },
+    {
+      "seed": "sample",
+      "query": "sapphire canyon rock mars sample nasa",
+      "rise_value": 6850.0,
+      "raw_value": 6850
+    },
+    {
+      "seed": "sample",
+      "query": "perseverance rover sapphire canyon sample",
+      "rise_value": 2650.0,
+      "raw_value": 2650
+    },
+    {
+      "seed": "sample",
+      "query": "amelia earhart plane",
+      "rise_value": 1500.0,
+      "raw_value": 1500
+    },
+    {
+      "seed": "template",
+      "query": "my 9 games template",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
+      "seed": "format",
+      "query": "email format grade 12",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
+      "seed": "sample",
+      "query": "guest in residence sample sale",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "format",
+      "query": "rugby league world cup format",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "template",
+      "query": "creator point template",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "sample",
+      "query": "georgia sample ballot",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "sample",
+      "query": "most wanted sample sale",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot nc",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "sample",
+      "query": "arcteryx sample sale",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "sample",
+      "query": "georgia sample ballot 2026",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "sample",
+      "query": "jimmy choo sample sale",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "sample",
+      "query": "sample sale my jewellery",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot by zip code",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot by zip code nc",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "sample",
+      "query": "nc sample ballot 2026",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "template",
+      "query": "my9albums template",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "calculator",
+      "query": "crs calculator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "calculator",
+      "query": "crs score calculator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "format",
+      "query": "best time to visit maldives",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "format",
+      "query": "best pizza near me",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "format",
+      "query": "how to bake a cake",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "format",
+      "query": "cheapest flights to tokyo",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "format",
+      "query": "top tourist attractions in paris",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 27
 }
