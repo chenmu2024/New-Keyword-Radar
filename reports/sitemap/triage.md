@@ -5,10 +5,10 @@ not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidenc
 Raw queue and all main radar settings remain unchanged.
 
 - Sitemap feeds succeeded: 18/18
-- URLs newly observed in the latest scan: 0
-- Candidates newly extracted in the latest scan: 0
-- Accumulated queue: 244
-- Human keyword/topic review: 152
+- URLs newly observed in the latest scan: 2
+- Candidates newly extracted in the latest scan: 2
+- Accumulated queue: 246
+- Human keyword/topic review: 154
 - Game/general watchlist: 82
 - Low-quality page-name noise: 10
 - **Verified new keywords / search demand / business revenue: not established**
@@ -17,13 +17,14 @@ Raw queue and all main radar settings remain unchanged.
 
 - apify-actors-a: 157
 - gamepix-pt: 81
-- railway-templates: 3
+- railway-templates: 4
 - gamepix-en: 2
-- vercel-product-watch: 1
+- vercel-product-watch: 2
 
 ## Latest scan's leads (routing only)
 
-- None: a successful baseline scan does not create new-word alerts.
+- [django hello world](https://vercel.com/templates/python/django-hello-world) — review / product-content-not-search-demand; source=vercel-product-watch
+- [hoppscotch deploy hoppscotch api client on railway](https://railway.com/deploy/hoppscotch--deploy-hoppscotch-api-client-on-railway) — review / deployment-topic-not-search-demand; source=railway-templates
 
 ## Source interpretation
 

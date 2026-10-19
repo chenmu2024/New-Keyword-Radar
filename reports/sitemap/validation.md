@@ -6,12 +6,30 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 8
+- Total distinct expressions researched: 10
+- Usable Google Trends time series: 2/10
+- Missing or failed Google Trends time series: 8/10
+- Data coverage status: partial_coverage (not a keyword verdict)
 - 90-day + historical-interest passes: 0
 - Confirmed absolute Volume/KD/CPC: 0 (not supplied)
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### brand mentions monitor (US)
+- Source: [apify-actors-a](https://apify.com/ahmad_mahameed/brand-mentions-monitor)
+- Checked: 2026-10-19T10:29:48.254845+08:00 | Status: **older_interest**
+- Google Trends 90d baseline avg: 0.0; recent peak: 100; newness score: 95
+- Historical 5y gate: False
+- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+
+### hoppscotch deploy hoppscotch api client on railway (US)
+- Source: [railway-templates](https://railway.com/deploy/hoppscotch--deploy-hoppscotch-api-client-on-railway)
+- Checked: 2026-10-19T10:29:48.254845+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Monetary score is only a heuristic: 82 (saas-b2b); actual earnings unknown
+- Data error: Missing Google Trends observations
 
 ### ai readiness audit (US)
 - Source: [apify-actors-a](https://apify.com/agentsgearbox/ai-readiness-audit)

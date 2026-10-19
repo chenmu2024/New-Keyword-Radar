@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-19T10:26:23.558984+08:00",
+  "generated_at": "2026-10-19T10:29:21.662151+08:00",
   "date": "2026-10-19",
   "trial_start": "2026-10-19",
   "trial_end_exclusive": "2026-11-02",
   "source_count": 18,
   "success_count": 18,
-  "new_url_count": 0,
-  "new_candidate_count": 0,
-  "queue_size": 244,
+  "new_url_count": 2,
+  "new_candidate_count": 2,
+  "queue_size": 246,
   "queue_limit": 2000,
   "keyword_metrics_verified": false,
   "newness_verified": false,
@@ -104,10 +104,10 @@
       "source_id": "vercel-product-watch",
       "status": "delta",
       "page_count": 2063,
-      "new_url_count": 0,
-      "removed_url_count": 0,
-      "eligible_candidate_count": 0,
-      "candidate_count": 0,
+      "new_url_count": 1,
+      "removed_url_count": 1,
+      "eligible_candidate_count": 1,
+      "candidate_count": 1,
       "candidates_over_scan_cap": 0,
       "sitemap_files": 1
     },
@@ -125,11 +125,11 @@
     {
       "source_id": "railway-templates",
       "status": "delta",
-      "page_count": 6856,
-      "new_url_count": 0,
+      "page_count": 6857,
+      "new_url_count": 1,
       "removed_url_count": 0,
-      "eligible_candidate_count": 0,
-      "candidate_count": 0,
+      "eligible_candidate_count": 1,
+      "candidate_count": 1,
       "candidates_over_scan_cap": 0,
       "sitemap_files": 1
     },
@@ -211,5 +211,29 @@
       "sitemap_files": 1
     }
   ],
-  "candidates": []
+  "candidates": [
+    {
+      "query": "django hello world",
+      "url": "https://vercel.com/templates/python/django-hello-world",
+      "source_id": "vercel-product-watch",
+      "geo": "US",
+      "topic": "developer-products-saas",
+      "first_seen": "2026-10-19",
+      "tool_intent_hint": false,
+      "title": "",
+      "h1": "",
+      "page_error": "HTTPError"
+    },
+    {
+      "query": "hoppscotch deploy hoppscotch api client on railway",
+      "url": "https://railway.com/deploy/hoppscotch--deploy-hoppscotch-api-client-on-railway",
+      "source_id": "railway-templates",
+      "geo": "US",
+      "topic": "deployable-tools-saas",
+      "first_seen": "2026-10-19",
+      "tool_intent_hint": false,
+      "title": "Deploy & Host Hoppscotch | Railway",
+      "h1": "Deploy Hoppscotch"
+    }
+  ]
 }
