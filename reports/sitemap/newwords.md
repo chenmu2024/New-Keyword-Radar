@@ -1,8 +1,9 @@
-# 新词雷达 — Sitemap + 真实发布时间核查
+# 新词雷达 — 仅来自同行 Sitemap 新增 URL
 
 研究日期：2026-10-19；公开发布窗口：最近 14 天。
 
 **重要：产品或游戏刚发布，不等于该名字已有搜索量，也不等于已经通过五年历史新词核验。**
+硬性规则：没有被监控同行的 Sitemap 新增 URL 发现，就不得进入本报告。
 Sitemap URL 首次出现时间、Google Trends 相对热度与搜索月量是三种不同数据。
 
 - 已核查近期发布并进入 Sitemap 队列的名称：3
@@ -12,21 +13,18 @@ Sitemap URL 首次出现时间、Google Trends 相对热度与搜索月量是三
 
 ## 近期真实上线的名称（等待搜索需求验证）
 
-1. **[rent king](https://www.gamepix.com/pt/play/rent-king)** — 发布 2026-10-15，距今 4 天；来源 gamepix-pt / BR （葡语目录≠巴西搜索需求）。
+1. **[rent king](https://www.gamepix.com/pt/play/rent-king)** — 发布 2026-10-15，距今 4 天；Sitemap 首见 2026-10-19；来源 gamepix-pt / BR （葡语目录≠巴西搜索需求）。
    状态：名称近期上线；Google Trends 90天+5年和 Volume/KD/CPC 尚待验证。
-2. **[nations royale](https://www.gamepix.com/pt/play/nations-royale)** — 发布 2026-10-14，距今 5 天；来源 gamepix-pt / BR （葡语目录≠巴西搜索需求）。
+2. **[nations royale](https://www.gamepix.com/pt/play/nations-royale)** — 发布 2026-10-14，距今 5 天；Sitemap 首见 2026-10-19；来源 gamepix-pt / BR （葡语目录≠巴西搜索需求）。
    状态：名称近期上线；Google Trends 90天+5年和 Volume/KD/CPC 尚待验证。
-3. **[dino arena](https://www.gamepix.com/pt/play/dino-arena)** — 发布 2026-10-12，距今 7 天；来源 gamepix-pt / BR （葡语目录≠巴西搜索需求）。
+3. **[dino arena](https://www.gamepix.com/pt/play/dino-arena)** — 发布 2026-10-12，距今 7 天；Sitemap 首见 2026-10-19；来源 gamepix-pt / BR （葡语目录≠巴西搜索需求）。
    状态：名称近期上线；Google Trends 90天+5年和 Volume/KD/CPC 尚待验证。
 
-## 主雷达新词趋势（不要求同时出现 Sitemap）
+## 趋势检查：只标注 Sitemap 队列中的候选
 
-- **eclipse animator roblox**：90天首次上升 2026-10-11T00:00:00+00:00；相对峰值 100；新意评分 100。
-  - 发布方最近上线证据：有；5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。
-- **hood warfare 2**：90天首次上升 2026-10-11T00:00:00+00:00；相对峰值 100；新意评分 100。
-  - 发布方最近上线证据：有；5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。
-- **radian optimizer**：90天首次上升 2026-10-09T00:00:00+00:00；相对峰值 100；新意评分 91。
-  - 发布方最近上线证据：未找到；5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。
+- **[rent king](https://www.gamepix.com/pt/play/rent-king)** — Sitemap来源：gamepix-pt；Trends状态：not_checked；首次上升：unknown；5年历史排旧：not_checked。搜索量/KD/CPC：未知。
+- **[nations royale](https://www.gamepix.com/pt/play/nations-royale)** — Sitemap来源：gamepix-pt；Trends状态：not_checked；首次上升：unknown；5年历史排旧：not_checked。搜索量/KD/CPC：未知。
+- **[dino arena](https://www.gamepix.com/pt/play/dino-arena)** — Sitemap来源：gamepix-pt；Trends状态：not_checked；首次上升：unknown；5年历史排旧：not_checked。搜索量/KD/CPC：未知。
 
 ## 防止旧词混入（发布方确认的旧游戏）
 

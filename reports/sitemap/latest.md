@@ -1,13 +1,13 @@
 # Sitemap delta research — 2026-10-19
 
 Unverified leads only. Baseline URL snapshots are NOT discoveries.
-Sources succeeded: 18/18; new URLs: 8; candidate URL leads: 8; first-time keyword/geo research leads: 8; reappeared URLs: 0; retained queue: 259. Neither URL changes nor leads establish search demand.
+Sources succeeded: 18/18; new URLs: 0; candidate URL leads: 0; first-time keyword/geo research leads: 0; reappeared URLs: 0; retained queue: 259. Neither URL changes nor leads establish search demand.
 
 ## Sources
 
-- crazygames-en: delta; 6 new URLs; 5265 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-en: delta; 0 new URLs; 5265 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - crazygames-br: delta; 0 new URLs; 5259 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- crazygames-es: delta; 2 new URLs; 5261 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-es: delta; 0 new URLs; 5261 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamepix-en: delta; 0 new URLs; 19239 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamepix-pt: delta; 0 new URLs; 19239 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - minijuegos-es: delta; 0 new URLs; 27516 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -26,13 +26,6 @@ Sources succeeded: 18/18; new URLs: 8; candidate URL leads: 8; first-time keywor
 
 ## New URL leads (not proven new keywords)
 
-- [era legion fzc](https://www.crazygames.com/game/era-legion-fzc) — crazygames-en / US
-- [draw fly](https://www.crazygames.com/game/draw-fly) — crazygames-en / US
-- [london crane operator](https://www.crazygames.com/game/london-crane-operator) — crazygames-en / US
-- [mega jump](https://www.crazygames.com/game/mega-jump) — crazygames-en / US
-- [coin run](https://www.crazygames.com/game/coin-run) — crazygames-en / US
-- [hero merge jpc](https://www.crazygames.com/game/hero-merge-jpc) — crazygames-en / US
-- [london crane operator](https://www.crazygames.com/es/game/london-crane-operator) — crazygames-es / ES
-- [era legion fzc](https://www.crazygames.com/es/game/era-legion-fzc) — crazygames-es / ES
+None. First successful scans create baselines without alerts.
 
 Next: verify original keyword age, country search demand, SERP and monetization independently.

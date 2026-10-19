@@ -5,9 +5,9 @@ not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidenc
 Raw queue and all main radar settings remain unchanged.
 
 - Sitemap feeds succeeded: 18/18
-- URLs newly observed in the latest scan: 8
-- Candidate URL rows extracted in latest scan: 8
-- First-time keyword/geo research leads: 8
+- URLs newly observed in the latest scan: 0
+- Candidate URL rows extracted in latest scan: 0
+- First-time keyword/geo research leads: 0
 - Previously removed URLs resurfacing: 0
 - Accumulated queue: 259
 - Human keyword/topic review: 158
@@ -27,14 +27,7 @@ Raw queue and all main radar settings remain unchanged.
 
 ## Latest scan's leads (routing only)
 
-- [era legion fzc](https://www.crazygames.com/game/era-legion-fzc) — watch / game-title-not-search-demand; source=crazygames-en
-- [draw fly](https://www.crazygames.com/game/draw-fly) — watch / game-title-not-search-demand; source=crazygames-en
-- [london crane operator](https://www.crazygames.com/game/london-crane-operator) — watch / game-title-not-search-demand; source=crazygames-en
-- [mega jump](https://www.crazygames.com/game/mega-jump) — watch / game-title-not-search-demand; source=crazygames-en
-- [coin run](https://www.crazygames.com/game/coin-run) — watch / game-title-not-search-demand; source=crazygames-en
-- [hero merge jpc](https://www.crazygames.com/game/hero-merge-jpc) — watch / game-title-not-search-demand; source=crazygames-en
-- [london crane operator](https://www.crazygames.com/es/game/london-crane-operator) — watch / game-title-not-search-demand; source=crazygames-es
-- [era legion fzc](https://www.crazygames.com/es/game/era-legion-fzc) — watch / game-title-not-search-demand; source=crazygames-es
+- None: a successful baseline scan does not create new-word alerts.
 
 ## Source interpretation
 

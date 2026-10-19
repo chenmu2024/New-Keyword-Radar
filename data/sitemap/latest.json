@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-19T12:02:42.601680+08:00",
+  "generated_at": "2026-10-19T12:11:01.036677+08:00",
   "date": "2026-10-19",
   "trial_start": "2026-10-19",
   "trial_end_exclusive": "2026-11-02",
   "source_count": 18,
   "success_count": 18,
-  "new_url_count": 8,
-  "new_candidate_count": 8,
-  "new_unique_research_lead_count": 8,
+  "new_url_count": 0,
+  "new_candidate_count": 0,
+  "new_unique_research_lead_count": 0,
   "reappeared_url_count": 0,
   "queue_size": 259,
   "queue_limit": 2000,
@@ -18,11 +18,11 @@
       "source_id": "crazygames-en",
       "status": "delta",
       "page_count": 5265,
-      "new_url_count": 6,
+      "new_url_count": 0,
       "removed_url_count": 0,
       "reappeared_url_count": 0,
-      "eligible_candidate_count": 6,
-      "candidate_count": 6,
+      "eligible_candidate_count": 0,
+      "candidate_count": 0,
       "candidates_over_scan_cap": 0,
       "sitemap_files": 1
     },
@@ -42,11 +42,11 @@
       "source_id": "crazygames-es",
       "status": "delta",
       "page_count": 5261,
-      "new_url_count": 2,
+      "new_url_count": 0,
       "removed_url_count": 0,
       "reappeared_url_count": 0,
-      "eligible_candidate_count": 2,
-      "candidate_count": 2,
+      "eligible_candidate_count": 0,
+      "candidate_count": 0,
       "candidates_over_scan_cap": 0,
       "sitemap_files": 1
     },
@@ -231,94 +231,5 @@
       "sitemap_files": 1
     }
   ],
-  "candidates": [
-    {
-      "query": "era legion fzc",
-      "url": "https://www.crazygames.com/game/era-legion-fzc",
-      "source_id": "crazygames-en",
-      "geo": "US",
-      "topic": "games",
-      "first_seen": "2026-10-19",
-      "tool_intent_hint": false,
-      "title": "🎮 Era Legion 🕹️ Play on CrazyGames",
-      "h1": "Era Legion"
-    },
-    {
-      "query": "draw fly",
-      "url": "https://www.crazygames.com/game/draw-fly",
-      "source_id": "crazygames-en",
-      "geo": "US",
-      "topic": "games",
-      "first_seen": "2026-10-19",
-      "tool_intent_hint": false,
-      "title": "🎮 Draw Fly 🕹️ Play on CrazyGames",
-      "h1": "Draw Fly"
-    },
-    {
-      "query": "london crane operator",
-      "url": "https://www.crazygames.com/game/london-crane-operator",
-      "source_id": "crazygames-en",
-      "geo": "US",
-      "topic": "games",
-      "first_seen": "2026-10-19",
-      "tool_intent_hint": false,
-      "title": "🎮 London Crane Operator 🕹️ Play on CrazyGames",
-      "h1": "London Crane Operator"
-    },
-    {
-      "query": "mega jump",
-      "url": "https://www.crazygames.com/game/mega-jump",
-      "source_id": "crazygames-en",
-      "geo": "US",
-      "topic": "games",
-      "first_seen": "2026-10-19",
-      "tool_intent_hint": false,
-      "title": "🎮 Mega Jump 🕹️ Play on CrazyGames",
-      "h1": "Mega Jump"
-    },
-    {
-      "query": "coin run",
-      "url": "https://www.crazygames.com/game/coin-run",
-      "source_id": "crazygames-en",
-      "geo": "US",
-      "topic": "games",
-      "first_seen": "2026-10-19",
-      "tool_intent_hint": false,
-      "title": "🎮 Coin Run 🕹️ Play on CrazyGames",
-      "h1": "Coin Run"
-    },
-    {
-      "query": "hero merge jpc",
-      "url": "https://www.crazygames.com/game/hero-merge-jpc",
-      "source_id": "crazygames-en",
-      "geo": "US",
-      "topic": "games",
-      "first_seen": "2026-10-19",
-      "tool_intent_hint": false,
-      "title": "🎮 Hero Merge 🕹️ Play on CrazyGames",
-      "h1": "Hero Merge"
-    },
-    {
-      "query": "london crane operator",
-      "url": "https://www.crazygames.com/es/game/london-crane-operator",
-      "source_id": "crazygames-es",
-      "geo": "ES",
-      "topic": "games",
-      "first_seen": "2026-10-19",
-      "tool_intent_hint": false,
-      "title": "🎮 London Crane Operator 🕹️ Juega en CrazyGames",
-      "h1": "London Crane Operator"
-    },
-    {
-      "query": "era legion fzc",
-      "url": "https://www.crazygames.com/es/game/era-legion-fzc",
-      "source_id": "crazygames-es",
-      "geo": "ES",
-      "topic": "games",
-      "first_seen": "2026-10-19",
-      "tool_intent_hint": false,
-      "title": "🎮 Era Legion 🕹️ Juega en CrazyGames",
-      "h1": "Era Legion"
-    }
-  ]
+  "candidates": []
 }
