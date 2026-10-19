@@ -15,7 +15,7 @@ Sources succeeded: 18/18; new URLs: 37; candidate leads: 37; retained queue: 46.
 - calculator-soup: delta; 0 new URLs; 501 pages
 - vercel-product-watch: delta; 0 new URLs; 2063 pages
 - n8n-workflows: baseline; 0 new URLs; 13433 pages
-- railway-templates: baseline; 0 new URLs; 6856 pages
+- railway-templates: baseline; 0 new URLs; 6852 pages
 - railway-changelog: baseline; 0 new URLs; 312 pages
 - apify-actors-a: baseline; 0 new URLs; 5868 pages
 - apify-actors-z: baseline; 0 new URLs; 6322 pages
