@@ -9,13 +9,14 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 from sitemap_monitor import MAX_QUEUE, merge_queue
 from sitemap_trends import render
+from sitemap_newwords import render as render_newwords, combine_launch_data
 
 
 ROOT = Path(__file__).resolve().parents[1]
 FILES = ["state/sitemap/snapshots.json", "data/sitemap/queue.json",
          "data/sitemap/latest.json", "reports/sitemap/latest.md", "reports/sitemap/triage.md",
          "data/sitemap/validation.json", "reports/sitemap/validation.md",
-         "reports/sitemap/commercial.md"]
+         "data/sitemap/release_dates.json", "reports/sitemap/newwords.md"]
 
 
 def cmd(*args, check=True):
@@ -59,7 +60,7 @@ def publish():
             remote = load(ROOT / "data/sitemap/latest.json", {})
             local_newer = local_latest["generated_at"] >= remote.get("generated_at", "")
             if local_newer:
-                for name in (daily, "data/sitemap/latest.json", "reports/sitemap/latest.md", "reports/sitemap/triage.md", "data/sitemap/validation.json", "reports/sitemap/validation.md", "reports/sitemap/commercial.md"):
+                for name in (daily, "data/sitemap/latest.json", "reports/sitemap/latest.md", "reports/sitemap/triage.md", "data/sitemap/validation.json", "reports/sitemap/validation.md", "data/sitemap/release_dates.json", "reports/sitemap/newwords.md"):
                     source = backup / name
                     if source.exists():
                         dest = ROOT / name
@@ -87,11 +88,33 @@ def publish():
                 if row.get("checked_at", "") >= prev.get("checked_at", ""):
                     remote_checks[key] = row
             save(ROOT / "data/sitemap/validation.json", remote_checks)
+            # Launch dates are independently observed facts, never rewritten
+            # by an older concurrent job with a failed page request.
+            remote_age = load(ROOT / "data/sitemap/release_dates.json", {})
+            local_age = load(backup / "data/sitemap/release_dates.json", {})
+            for url, row in local_age.items():
+                prev = remote_age.get(url, {})
+                if row.get("checked_at", "") >= prev.get("checked_at", "") or (
+                    row.get("release_date") and not prev.get("release_date")
+                ):
+                    remote_age[url] = row
+            save(ROOT / "data/sitemap/release_dates.json", remote_age)
             stamp = max(local_latest.get("generated_at", ""),
                         remote.get("generated_at", ""))
             if stamp:
                 (ROOT / "reports/sitemap/validation.md").write_text(
                     render(remote_checks, datetime.fromisoformat(stamp)), encoding="utf-8")
+            # Re-render from reconciled URL queue and release metadata, never
+            # accidentally erase proof observed by another Sitemap run.
+            if stamp:
+                live_queue = load(ROOT / "data/sitemap/queue.json", [])
+                launch_evidence = load(ROOT / "data/sitemap/launch_evidence.json", {})
+                main = load(ROOT / "data/latest.json", {})
+                combined = combine_launch_data(launch_evidence, remote_age)
+                (ROOT / "reports/sitemap/newwords.md").write_text(
+                    render_newwords(live_queue, combined, main,
+                                    datetime.fromisoformat(stamp).date().isoformat()),
+                    encoding="utf-8")
             cmd("add", "--", "state/sitemap", "data/sitemap", "reports/sitemap")
             if cmd("diff", "--cached", "--quiet", check=False).returncode == 0:
                 print("Already up to date")

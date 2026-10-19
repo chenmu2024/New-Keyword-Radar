@@ -12,7 +12,7 @@ from zoneinfo import ZoneInfo
 import json
 import re
 
-from sitemap_triage import classify
+from sitemap_triage import classify, GAME_FEEDS
 
 ROOT = Path(__file__).resolve().parents[1]
 TZ = ZoneInfo("Asia/Shanghai")
@@ -29,12 +29,27 @@ def key(lead):
     return str(lead.get("geo") or "WORLD") + "|" + str(lead.get("query", "")).casefold()
 
 
-def eligible(lead):
+def eligible(lead, game_launches=None, today=None):
     tier, _ = classify(lead)
-    return tier == "review" and bool(lead.get("query")) and bool(lead.get("url", "").startswith("https://"))
+    if not (lead.get("query") and lead.get("url", "").startswith("https://")):
+        return False
+    if lead.get("source_id") in GAME_FEEDS:
+        # GamePix /pt/ pages aren't BR demand or a new game. The game
+        # first needs a publisher-supported release date inside 14 days.
+        evidence = (game_launches or {}).get(lead["url"], {})
+        released = evidence.get("release_date")
+        if not released or not today:
+            return False
+        try:
+            age = (datetime.fromisoformat(today).date() -
+                   datetime.fromisoformat(released).date()).days
+            return 0 <= age <= 14
+        except ValueError:
+            return False
+    return tier == "review"
 
 
-def select(queue, past, today, limit=MAX_CHECKS):
+def select(queue, past, today, limit=MAX_CHECKS, game_launches=None):
     """Return at most two *previously unchecked* meaningful research leads.
 
     The full queue is evaluated, not just the first N URLs. Successful
@@ -46,7 +61,7 @@ def select(queue, past, today, limit=MAX_CHECKS):
         return []
     choices = []
     for lead in queue:
-        if not eligible(lead):
+        if not eligible(lead, game_launches, today):
             continue
         prior = past.get(key(lead), {})
         date_string = prior.get("checked_date")
@@ -60,9 +75,10 @@ def select(queue, past, today, limit=MAX_CHECKS):
             except (TypeError, ValueError):
                 pass
         choices.append(lead)
-    # Research priority only: tool wording + practical workflow/problem terms.
-    # These are NOT newness, SERP difficulty, absolute volume or revenue scores.
-    choices.sort(key=lambda x: (-int(bool(x.get("tool_intent_hint"))),
+    # Verified newly published GAME TITLES get a protected research slot.
+    # It is not proof that search volume exists or that a keyword is genuinely new.
+    choices.sort(key=lambda x: (-int(x.get("source_id") in GAME_FEEDS), 
+                                -int(bool(x.get("tool_intent_hint"))),
                                 -int(bool(RESEARCH_CUE.search(x.get("query", "")))),
                                 -int(str(x.get("first_seen") or "1970-01-01").replace("-", "")),
                                 x.get("source_id", ""), x.get("query", "")))
@@ -186,7 +202,7 @@ def render(store, now):
              "- A zero relative Trends peak does NOT establish zero searches.", "",
              "## Checked expressions", ""]
     if not items:
-        lines.append("- No eligible commercial/tool-oriented Sitemap leads awaiting validation.")
+        lines.append("- No source-verified launch names have passed trends/history validation yet.")
     for item in items[:40]:
         lines += [
             f"### {item['query']} ({item.get('geo') or 'Worldwide'})",
@@ -194,7 +210,7 @@ def render(store, now):
             f"- Checked: {item.get('checked_at')} | Status: **{item.get('status')}**",
             f"- Google Trends 90d baseline avg: {item.get('baseline_avg')}; recent peak: {item.get('recent_peak')}; newness score: {item.get('newness_score')}",
             f"- Historical 5y gate: {item.get('history_5y', {}).get('historically_new', 'not run')}",
-            f"- Monetary score is only a heuristic: {item.get('money_score')} ({item.get('money_type')}); actual earnings unknown",
+            "- Search Volume/KD/CPC remains unverified; not a build recommendation.",
         ]
         if item.get("error"):
             lines.append("- Data error: " + str(item["error"]).replace("\n", " ")[:200])
@@ -220,7 +236,16 @@ def run(now=None):
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
     saved = json.loads(STORE.read_text(encoding="utf-8")) if STORE.exists() else {}
     until = rate_limit_until(saved, now)
-    selected = [] if until else select(queue, saved, now.date().isoformat())
+    launches = {}
+    cache_file = ROOT / "data/sitemap/release_dates.json"
+    if cache_file.exists():
+        launches = json.loads(cache_file.read_text(encoding="utf-8"))
+    manual = ROOT / "data/sitemap/launch_evidence.json"
+    if manual.exists():
+        for url, evidence in json.loads(manual.read_text(encoding="utf-8")).items():
+            launches.setdefault(url, evidence)
+    selected = [] if until else select(
+        queue, saved, now.date().isoformat(), game_launches=launches)
     if until:
         print(f"Google Trends rate-limit backoff active until {until.isoformat()}: no requests")
     for lead in selected:

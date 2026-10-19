@@ -15,6 +15,18 @@ def lead(q, source="railway-templates", first="2026-10-19", geo="US", cue=False)
 
 
 class SitemapTrendsTests(unittest.TestCase):
+    def test_newly_launched_game_gets_real_trends_priority(self):
+        new_game = lead("nations royale", source="gamepix-pt", geo="BR")
+        regular = lead("youtube scraper", source="apify-actors-a")
+        release = {new_game["url"]: {"release_date": "2026-10-14"}}
+        selected = s.select([regular, new_game], {}, "2026-10-19",
+                            game_launches=release)
+        self.assertEqual([x["query"] for x in selected],
+                         ["nations royale", "youtube scraper"])
+        self.assertEqual(s.select([new_game], {}, "2026-11-01",
+                                  game_launches=release), [])
+        self.assertEqual(s.select([new_game], {}, "2026-10-19"), [])
+
     def test_does_not_let_early_games_bury_last_qualified_lead(self):
         queue = [lead(f"new fun game {i}", source="gamepix-pt", geo="BR")
                  for i in range(85)]
