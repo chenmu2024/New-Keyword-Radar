@@ -171,7 +171,7 @@ def render(queue, age_map, radar_latest, today):
     # seasonal query, school homework or government election search into a
     # supposed "new keyword" simply because relative Trends peaked.
     name_evidence = {v.get("query", "").casefold(): v for v in age_map.values()}
-    focused = re.compile(r"\\b(roblox|animator|optimizer|generator|converter|calculator|codes|builder|planner|simulator|tracker|template|wave|font|fonts|game)\\b", re.I)
+    focused = re.compile(r"\b(roblox|animator|optimizer|generator|converter|calculator|codes|builder|planner|simulator|tracker|template|wave|font|fonts|game)\b", re.I)
     rising = [row for row in checked
               if row.get("true_new") is True and row.get("first_rise_date")
               and (focused.search(str(row.get("keyword", ""))) or
