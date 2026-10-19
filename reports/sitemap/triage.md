@@ -5,8 +5,8 @@ not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidenc
 Raw queue and all main radar settings remain unchanged.
 
 - Sitemap feeds succeeded: 18/18
-- URLs newly observed in the latest scan: 2
-- Candidates newly extracted in the latest scan: 2
+- URLs newly observed in the latest scan: 0
+- Candidates newly extracted in the latest scan: 0
 - Accumulated queue: 246
 - Human keyword/topic review: 154
 - Game/general watchlist: 82
@@ -23,8 +23,7 @@ Raw queue and all main radar settings remain unchanged.
 
 ## Latest scan's leads (routing only)
 
-- [django hello world](https://vercel.com/templates/python/django-hello-world) — review / product-content-not-search-demand; source=vercel-product-watch
-- [hoppscotch deploy hoppscotch api client on railway](https://railway.com/deploy/hoppscotch--deploy-hoppscotch-api-client-on-railway) — review / deployment-topic-not-search-demand; source=railway-templates
+- None: a successful baseline scan does not create new-word alerts.
 
 ## Source interpretation
 

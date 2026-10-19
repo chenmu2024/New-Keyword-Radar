@@ -6,15 +6,30 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 10
-- Usable Google Trends time series: 2/10
-- Missing or failed Google Trends time series: 8/10
+- Total distinct expressions researched: 12
+- Usable Google Trends time series: 3/12
+- Missing or failed Google Trends time series: 9/12
 - Data coverage status: partial_coverage (not a keyword verdict)
 - 90-day + historical-interest passes: 0
 - Confirmed absolute Volume/KD/CPC: 0 (not supplied)
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### brazil cnpj monitor (US)
+- Source: [apify-actors-a](https://apify.com/alaudinburki/brazil-cnpj-monitor)
+- Checked: 2026-10-19T10:32:11.113784+08:00 | Status: **insufficient_relative_signal**
+- Google Trends 90d baseline avg: 2.13; recent peak: 0; newness score: 18
+- Historical 5y gate: not run
+- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+
+### django hello world (US)
+- Source: [vercel-product-watch](https://vercel.com/templates/python/django-hello-world)
+- Checked: 2026-10-19T10:32:11.113784+08:00 | Status: **error**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Data error: RateLimitError: Google rate-limited the Explore data request; stop and back off.
 
 ### brand mentions monitor (US)
 - Source: [apify-actors-a](https://apify.com/ahmad_mahameed/brand-mentions-monitor)

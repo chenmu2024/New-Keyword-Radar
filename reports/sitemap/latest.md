@@ -1,21 +1,21 @@
 # Sitemap delta research — 2026-10-19
 
 Unverified leads only. Baseline URL snapshots are NOT discoveries.
-Sources succeeded: 18/18; new URLs: 2; candidate leads: 2; retained queue: 246.
+Sources succeeded: 18/18; new URLs: 0; candidate leads: 0; retained queue: 246.
 
 ## Sources
 
 - crazygames-en: delta; 0 new URLs; 5259 pages; removed 0; candidate scan cap skipped 0
 - crazygames-br: delta; 0 new URLs; 5259 pages; removed 0; candidate scan cap skipped 0
 - crazygames-es: delta; 0 new URLs; 5259 pages; removed 0; candidate scan cap skipped 0
-- gamepix-en: delta; 0 new URLs; 19239 pages; removed 0; candidate scan cap skipped 0
-- gamepix-pt: delta; 0 new URLs; 19239 pages; removed 0; candidate scan cap skipped 0
+- gamepix-en: delta; 0 new URLs; 19238 pages; removed 1; candidate scan cap skipped 0
+- gamepix-pt: delta; 0 new URLs; 19203 pages; removed 36; candidate scan cap skipped 0
 - minijuegos-es: delta; 0 new URLs; 27516 pages; removed 0; candidate scan cap skipped 0
 - friv-en: delta; 0 new URLs; 1183 pages; removed 0; candidate scan cap skipped 0
 - calculator-soup: delta; 0 new URLs; 501 pages; removed 0; candidate scan cap skipped 0
-- vercel-product-watch: delta; 1 new URLs; 2063 pages; removed 1; candidate scan cap skipped 0
+- vercel-product-watch: delta; 0 new URLs; 2063 pages; removed 0; candidate scan cap skipped 0
 - n8n-workflows: delta; 0 new URLs; 13433 pages; removed 0; candidate scan cap skipped 0
-- railway-templates: delta; 1 new URLs; 6857 pages; removed 0; candidate scan cap skipped 0
+- railway-templates: delta; 0 new URLs; 6857 pages; removed 0; candidate scan cap skipped 0
 - railway-changelog: delta; 0 new URLs; 312 pages; removed 0; candidate scan cap skipped 0
 - apify-actors-a: delta; 0 new URLs; 5868 pages; removed 0; candidate scan cap skipped 0
 - apify-actors-z: delta; 0 new URLs; 6322 pages; removed 0; candidate scan cap skipped 0
@@ -26,7 +26,6 @@ Sources succeeded: 18/18; new URLs: 2; candidate leads: 2; retained queue: 246.
 
 ## New URL leads (not proven new keywords)
 
-- [django hello world](https://vercel.com/templates/python/django-hello-world) — vercel-product-watch / US
-- [hoppscotch deploy hoppscotch api client on railway](https://railway.com/deploy/hoppscotch--deploy-hoppscotch-api-client-on-railway) — railway-templates / US
+None. First successful scans create baselines without alerts.
 
 Next: verify original keyword age, country search demand, SERP and monetization independently.
