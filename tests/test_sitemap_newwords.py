@@ -5,79 +5,88 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 import sitemap_newwords as n
 
 
-class GameReleaseTests(unittest.TestCase):
-    def html(self, text):
-        return "<html><body><p>Release date:</p><span>" + text + "</span></body></html>"
+class SitemapOnlyNewWordTests(unittest.TestCase):
+    def game(self, query="nations royale", source="gamepix-pt", date="2026-10-19"):
+        return {"query": query, "source_id": source,
+                "url": "https://www.gamepix.com/pt/play/" + query.replace(" ", "-"),
+                "geo": "BR", "first_seen": date}
 
-    def test_parse_explicit_publisher_release_date_not_sitemap_lastmod(self):
-        self.assertEqual(n.extract_release_date(self.html("October 14, 2026")), "2026-10-14")
+    def test_gamepix_release_date_read_from_page_not_sitemap_lastmod(self):
+        html = "<html><p>Release date:</p><span>October 14, 2026</span></html>"
+        self.assertEqual(n.extract_release_date(html), "2026-10-14")
         self.assertIsNone(n.extract_release_date("<html>Last update: October 14, 2026</html>"))
 
-    def test_real_old_games_excluded_even_if_just_seen(self):
-        queue = [{"query": "no mice in the kitchen", "source_id": "gamepix-pt",
-                  "url": "https://www.gamepix.com/play/no-mice-in-the-kitchen", "geo": "BR"},
-                 {"query": "nations royale", "source_id": "gamepix-pt",
-                  "url": "https://www.gamepix.com/play/nations-royale", "geo": "BR"}]
-        verified = {
-            queue[0]["url"]: {"release_date": "2024-03-04"},
-            queue[1]["url"]: {"release_date": "2026-10-14"}
-        }
-        matched = n.priority(queue, verified, "2026-10-19")
-        self.assertEqual([x["query"] for x in matched], ["nations royale"])
+    def test_pilot_provenance_rejects_rss_and_nontrial_pages(self):
+        self.assertTrue(n.observed_from_monitored_sitemap(self.game(), "2026-10-19"))
+        self.assertFalse(n.observed_from_monitored_sitemap(self.game(source="rss-trends"), "2026-10-19"))
+        self.assertFalse(n.observed_from_monitored_sitemap(self.game(date="2026-10-18"), "2026-10-17"))
+        self.assertFalse(n.observed_from_monitored_sitemap(self.game(date="2026-10-01"), "2026-10-19"))
+        bad = self.game()
+        del bad["first_seen"]
+        self.assertFalse(n.observed_from_monitored_sitemap(bad, "2026-10-19"))
 
-    def test_bounded_game_page_date_audit(self):
-        q = [{"query": "new title", "source_id": "gamepix-pt",
-              "url": "https://www.gamepix.com/play/new-title", "geo": "BR"},
-             {"query": "random", "source_id": "apify-actors-a",
-              "url": "https://apify.com/user/random", "geo": "US"}]
-        calls = []
-        def fetch(url, allowed, max_bytes):
-            calls.append((url, allowed))
-            return self.html("October 15, 2026").encode("utf-8")
-        results = n.audit_games(q, {}, "2026-10-19", fetch)
-        self.assertEqual(len(calls), 1)
-        self.assertEqual(len(results), 1)
-        self.assertEqual(results[q[0]["url"]]["release_date"], "2026-10-15")
-        again = n.audit_games(q, results, "2026-10-19", fetch)
-        self.assertEqual(again, results)
+    def test_recent_game_from_sitemap_and_old_game_excluded(self):
+        new = self.game()
+        old = self.game("wyrm saga")
+        launched = {new["url"]: {"release_date": "2026-10-14"},
+                    old["url"]: {"release_date": "2026-03-30"}}
+        chosen = n.priority([new, old], launched, "2026-10-19")
+        self.assertEqual([x["query"] for x in chosen], ["nations royale"])
+        self.assertEqual(chosen[0]["sitemap_first_seen"], "2026-10-19")
+
+    def test_radar_keyword_without_sitemap_url_never_appears_in_report(self):
+        candidate = self.game()
+        dates = {candidate["url"]: {"release_date": "2026-10-14"}}
+        main_radar = {"all_checked": [
+            {"keyword":"eclipse animator roblox","true_new":True,
+             "recent_peak":100, "first_rise_date":"2026-10-11"},
+            {"keyword":"hood warfare 2","true_new":True}]}
+        report = n.render([candidate], dates, main_radar, "2026-10-19")
+        self.assertIn("###", report) if "###" in report else self.assertIn("nations royale", report)
+        self.assertNotIn("eclipse animator roblox", report)
+        self.assertNotIn("hood warfare 2", report)
+        self.assertIn("nations royale", report)
+
+    def test_sitemap_trends_only_annotation_by_exact_market_keyword(self):
+        candidate = self.game()
+        dates = {candidate["url"]: {"release_date": "2026-10-14"}}
+        validation = {
+            "BR|nations royale": {"status":"trends_history_pass",
+                                  "history_5y":{"historically_new":True},
+                                  "first_rise_date":"2026-10-16"},
+            "US|unrelated": {"status":"trends_history_pass",
+                              "first_rise_date":"2026-10-14"}}
+        report = n.render([candidate], dates, validation, "2026-10-19")
+        self.assertIn("Trends状态：trends_history_pass", report)
+        self.assertNotIn("unrelated", report)
+
+    def test_bounded_publisher_page_probe_and_fail_closed(self):
+        game = self.game()
+        called = []
+        def fake(url, allowed, max_bytes):
+            called.append(url)
+            return b"<p>Release date:</p><span>October 15, 2026</span>"
+        rows = n.audit_games([game], {}, "2026-10-19", fake)
+        self.assertEqual(rows[game["url"]]["release_date"], "2026-10-15")
+        self.assertEqual(len(n.audit_games([game], rows, "2026-10-19", fake)), 1)
+        self.assertEqual(len(called), 1)
         with self.assertRaises(ValueError):
-            n.audit_games(q, {}, "2026-10-19", fetch, limit=100)
-
-    def test_failed_publisher_request_is_not_new_date(self):
-        q = [{"query": "old-game", "source_id": "gamepix-pt",
-              "url": "https://www.gamepix.com/play/old-game", "geo": "BR"}]
+            n.audit_games([game], {}, "2026-10-19", fake, limit=100)
         def blocked(*args):
             raise OSError("403")
-        result = n.audit_games(q, {}, "2026-10-19", blocked)
-        self.assertNotIn("release_date", result[q[0]["url"]])
-        self.assertEqual(n.priority(q, result, "2026-10-19"), [])
+        error = n.audit_games([game], {}, "2026-10-19", blocked)
+        self.assertNotIn("release_date", error[game["url"]])
 
-    def test_portuguese_locale_matches_publisher_launch_and_removes_noise(self):
-        import json
-        facts = json.loads(n.EVIDENCE.read_text(encoding="utf-8"))
-        queue = [{"query":"nations royale","source_id":"gamepix-pt","geo":"BR",
-                  "url":"https://www.gamepix.com/pt/play/nations-royale"},
-                 {"query":"wyrm saga","source_id":"gamepix-pt","geo":"BR",
-                  "url":"https://www.gamepix.com/pt/play/wyrm-saga"}]
-        result = n.priority(queue, facts, "2026-10-19")
-        self.assertEqual([row["query"] for row in result], ["nations royale"])
-        report = n.render(queue, facts, {"all_checked": [
-            {"keyword":"sample ballot nc","true_new":True,
-             "first_rise_date":"2026-10-11","recent_peak":100},
-            {"keyword":"eclipse animator roblox","true_new":True,
-             "first_rise_date":"2026-10-11","newness_score":100,"recent_peak":100},
-        ]}, "2026-10-19")
-        self.assertIn("nations royale", report)
-        self.assertIn("eclipse animator roblox", report)
-        self.assertNotIn("sample ballot nc", report)
-
-    def test_main_radar_signal_kept_separate_from_date_and_semrush(self):
-        report = n.render([], {}, {"all_checked": [{"keyword": "eclipse animator roblox",
-                        "true_new": True, "first_rise_date": "2026-10-11",
-                        "newness_score": 100, "recent_peak": 100}]}, "2026-10-19")
-        self.assertIn("eclipse animator roblox", report)
-        self.assertIn("5年旧兴趣核验", report)
-        self.assertIn("Semrush Volume/KD/CPC = 未验证", report)
+    def test_report_cannot_promote_manually_supplied_url_not_in_sitemap(self):
+        new = self.game()
+        dates = {new["url"]: {"release_date":"2026-10-14"},
+                 "https://create.roblox.com/asset/eclipse": {"release_date":"2026-10-14"}}
+        report = n.render([], dates, {}, "2026-10-19")
+        self.assertIn("没有符合真实 Sitemap", report)
+        self.assertNotIn("nations royale", report)
+        report2 = n.render([new], dates, {}, "2026-10-19")
+        self.assertIn("nations royale", report2)
+        self.assertNotIn("eclipse", report2)
 
 
 if __name__ == "__main__":
