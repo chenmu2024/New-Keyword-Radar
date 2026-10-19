@@ -1,24 +1,24 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-19T03:26:23.146202+00:00
+Generated: 2026-10-19T04:04:07.325504+00:00
 
 ## Formal candidates
 
 **今日无合格可变现新词。**
 ## Watch / rejected
 
-- eclipse animator roblox — **trend-watch** — newness 100, money 26
-- hood warfare 2 — **trend-watch** — newness 100, money 26
-- rj mitte manager — **trend-watch** — newness 96, money 26
-- benjamin moore color of the year 2027 — **trend-watch** — newness 95, money 26
-- guest in residence sample sale — **trend-watch** — newness 95, money 26
-- sample ballot nc — **trend-watch** — newness 95, money 26
-- email format grade 12 — **trend-watch** — newness 91, money 26
-- radian optimizer — **trend-watch** — newness 91, money 26
-- hvem sender viking bayern munchen — **trend-watch** — newness 88, money 26
-- octo assist support scheme winter — **trend-watch** — newness 88, money 26
-- steam service error — **trend-watch** — newness 88, money 26
-- artcraft — **reject** — newness 72, money 22
-- sample sale my jewellery — **reject** — newness 53, money 26
+- cason wallace stats — **old-history** — newness 95, money 86; 5y peak 100
+- cyberpunk edgerunners season 2 release schedule — **old-history** — newness 95, money 86; 5y peak 100
+- deportivo cali vs junior de barranquilla stats — **old-history** — newness 95, money 86; 5y peak 74
+- hood warfare 2 steam charts — **trend-watch** — newness 95, money 26
+- andy dalton stats — **commercial-watch** — newness 74, money 86
+- byu game — **reject** — newness 72, money 26
 - justin hartley tracker — **commercial-watch** — newness 50, money 100
-- imgbb — **reject** — newness 35, money 22
+- cowboys.schedule 2026 — **reject** — newness 33, money 86
+- bo bryan football ranking — **reject** — newness 0, money 86
+- brevyn spann-ford stats — **error** — newness 0, money 86 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- caleb downs stats — **error** — newness 0, money 86 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- carolina hurricanes schedule — **error** — newness 0, money 86 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- cris collinsworth stats — **error** — newness 0, money 86 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- bloodborne pc — **error** — newness 0, money 26 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- cm punjab laptop scheme — **error** — newness 0, money 26 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
