@@ -10,6 +10,7 @@ a winnable SERP, paid demand or monthly search volume.
 - Usable Google Trends time series: 3/12
 - Missing or failed Google Trends time series: 9/12
 - Data coverage status: partial_coverage (not a keyword verdict)
+- Rate-limit safety backoff: 2026-10-20T22:32:11.113784+08:00
 - 90-day + historical-interest passes: 0
 - Confirmed absolute Volume/KD/CPC: 0 (not supplied)
 - A zero relative Trends peak does NOT establish zero searches.
