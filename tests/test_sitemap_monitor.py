@@ -1,4 +1,5 @@
 import io
+import json
 import unittest
 from urllib.error import URLError
 from pathlib import Path
@@ -133,6 +134,26 @@ class SitemapTests(unittest.TestCase):
     def test_numeric_workflow_id_removed(self):
         self.assertEqual(m.candidate("https://n8n.io/workflows/19182-convert-images-to-pdf/"),
                          "convert images to pdf")
+
+    def test_production_watchlist_stays_bounded(self):
+        # Guard the approved 18-source inventory and the 14-day pilot cutoff.
+        cfg = json.loads((m.ROOT / "config/sitemap_sources.json").read_text(encoding="utf-8"))
+        feeds = cfg["sources"]
+        ids = {x["id"] for x in feeds}
+        self.assertEqual(len(feeds), len(ids))
+        self.assertEqual(len(feeds), 18)
+        required = {
+            "n8n-workflows", "railway-templates", "railway-changelog",
+            "apify-actors-a", "apify-actors-z", "futurepedia-tools",
+            "netlify-product-watch", "onlinetools-br", "producthunt-products",
+            "vercel-product-watch",
+        }
+        self.assertTrue(required.issubset(ids))
+        producthunt = next(x for x in feeds if x["id"] == "producthunt-products")
+        self.assertEqual(producthunt["page_hosts"], ["www.producthunt.com"])
+        self.assertEqual(producthunt["include_path_prefixes"], ["/products/"])
+        self.assertTrue(all(x["sitemap"].startswith("https://") for x in feeds))
+        self.assertEqual(cfg["trial_end_exclusive"], "2026-11-02")
 
     def test_aborts_incomplete_index(self):
         root = "https://example.com/sitemap.xml"
