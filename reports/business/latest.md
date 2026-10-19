@@ -1,6 +1,6 @@
 # OPC-inspired business evidence review
 
-Generated: 2026-10-19T01:40:40.013776+00:00
+Generated: 2026-10-19T02:09:43.184391+00:00
 
 **Advisory only.** The module does not collect keyword metrics, prove demand,
 approve a launch, or change the radar's formal verdict.
@@ -8,7 +8,7 @@ approve a launch, or change the radar's formal verdict.
 Formal radar candidates: 1.
 No candidate may be recommended for development without external source evidence.
 
-## coloros 17 ai capabilities (Worldwide)
+## cleo ai ftc payment email (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
