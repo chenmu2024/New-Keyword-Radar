@@ -36,21 +36,42 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Check research pilot date window
+        id: pilot
+        shell: bash
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          cfg = json.loads(Path("config/sitemap_sources.json").read_text())
+          day = datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
+          enabled = cfg["trial_start"] <= day < cfg["trial_end_exclusive"]
+          print("run=" + ("true" if enabled else "false"))
+          PY
       - name: Setup Chrome for Google Trends Explore fallback
+        if: steps.pilot.outputs.run == 'true'
         uses: browser-actions/setup-chrome@v1
       - name: Offline regression tests
+        if: steps.pilot.outputs.run == 'true'
         run: |
           python -m unittest discover -s tests -p 'test_sitemap_*.py' -v
           python -m py_compile src/sitemap_monitor.py src/sitemap_triage.py src/sitemap_trends.py src/radar.py
       - name: Collect competitor Sitemap deltas
+        if: steps.pilot.outputs.run == 'true'
         run: python src/sitemap_monitor.py
       - name: Triage URL leads without changing keyword rules
+        if: steps.pilot.outputs.run == 'true'
         run: python src/sitemap_triage.py
       - name: Install free Google Trends client for bounded candidate research
+        if: steps.pilot.outputs.run == 'true'
         run: pip install -r requirements.txt
       - name: Validate high-intent Sitemap leads (max two per run)
+        if: steps.pilot.outputs.run == 'true'
         run: python src/sitemap_trends.py
       - name: Publish isolated research outputs without overwriting other workflows
+        if: steps.pilot.outputs.run == 'true'
         run: |
           git config user.name "sitemap-research-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

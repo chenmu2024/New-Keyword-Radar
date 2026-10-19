@@ -6,6 +6,7 @@ import subprocess
 import tempfile
 import time
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from sitemap_monitor import MAX_QUEUE, merge_queue
 from sitemap_trends import render
 
@@ -30,6 +31,11 @@ def save(path, val):
 
 
 def publish():
+    bounds = load(ROOT / "config/sitemap_sources.json", {})
+    today = datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
+    if not (bounds["trial_start"] <= today < bounds["trial_end_exclusive"]):
+        print("Outside 14-day Sitemap pilot: no publish.")
+        return
     if not (ROOT / ".git").exists():
         raise RuntimeError("Must run from GitHub Actions checkout")
     local_latest = load(ROOT / "data/sitemap/latest.json", {})

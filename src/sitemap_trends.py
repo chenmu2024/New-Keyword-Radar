@@ -182,8 +182,16 @@ def render(store, now):
     return "\n".join(lines)
 
 
+def in_pilot(day, bounds):
+    return bounds["trial_start"] <= day < bounds["trial_end_exclusive"]
+
+
 def run(now=None):
     now = now or datetime.now(TZ)
+    bounds = json.loads((ROOT / "config/sitemap_sources.json").read_text(encoding="utf-8"))
+    if not in_pilot(now.date().isoformat(), bounds):
+        print("Outside 14-day Sitemap pilot: no Trends collection, no writes.")
+        return {}
     cfg = json.loads(CFG.read_text(encoding="utf-8"))
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
     saved = json.loads(STORE.read_text(encoding="utf-8")) if STORE.exists() else {}

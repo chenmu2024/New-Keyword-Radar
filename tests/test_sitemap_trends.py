@@ -110,6 +110,13 @@ class SitemapTrendsTests(unittest.TestCase):
         self.assertIn("Usable Google Trends time series: 1/2", report)
         self.assertIn("Missing or failed Google Trends time series: 1/2", report)
 
+    def test_trial_cutoff_is_exclusive_and_date_scoped(self):
+        trial = {"trial_start": "2026-10-19", "trial_end_exclusive": "2026-11-02"}
+        self.assertTrue(s.in_pilot("2026-10-19", trial))
+        self.assertTrue(s.in_pilot("2026-11-01", trial))
+        self.assertFalse(s.in_pilot("2026-11-02", trial))
+        self.assertFalse(s.in_pilot("2026-10-18", trial))
+
     def test_no_observations_is_insufficient_not_zero_volume(self):
         row = s.check(lead("local tool"), {}, NOW,
                       lambda *args: {"verdict": "reject", "true_new": False,
