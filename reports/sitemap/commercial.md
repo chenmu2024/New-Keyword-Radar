@@ -18,7 +18,7 @@ MRR, users willing to subscribe to a standalone site, search volume or keyword n
 - What the product actually sells: SPF, DMARC, MX, SMTP STARTTLS and certificate review with exportable evidence
 - Standalone-website hypothesis: Standalone domain email configuration checker with downloadable diagnostics
 - Single-developer cost/maintenance concern: MX/SMTP probing needs controlled server network access; static browser alone cannot perform all tests
-- Important weakness: Listing indicates a paid tariff, not proof that any customer actually paid; demand from independent SEO website unknown
+- Important weakness: DEPRECATED Apify Actor with 0 monthly active users (2026-10-19). Unit pricing is not proof of paid customers or current viability. Independent website Stripe-connected proof and comparison are in reports/sitemap/independent_revenue_research_2026-10-19.md.
 - Next exact query to verify in Semrush/SERP: **email domain security checker**
 - Status: **commercial-offer observed; real revenue and SEO viability unverified**
 
@@ -30,7 +30,7 @@ MRR, users willing to subscribe to a standalone site, search volume or keyword n
 - What the product actually sells: Batch conversion of video/Shorts URLs into thumbnail assets and metadata
 - Standalone-website hypothesis: Browser-first batch thumbnail extractor, URL parser and export tool
 - Single-developer cost/maintenance concern: Can be cheap in-browser, but video metadata and protected assets may require maintained server retrieval
-- Important weakness: Strong free substitutes exist and small per-result price is not standalone subscription evidence
+- Important weakness: Free competitor Wow1 already offers 20-URL bulk ZIP; MetaClipper $6/month Pro is a waitlist, not active subscriber evidence. Creator sales/MRR unverified.
 - Next exact query to verify in Semrush/SERP: **youtube thumbnail downloader bulk**
 - Status: **commercial-offer observed; real revenue and SEO viability unverified**
 
@@ -42,7 +42,7 @@ MRR, users willing to subscribe to a standalone site, search volume or keyword n
 - What the product actually sells: Crawl a site and export text, metadata, Markdown and JSONL for RAG workflows
 - Standalone-website hypothesis: Small-site URL to clean Markdown / knowledge.jsonl export utility
 - Single-developer cost/maintenance concern: Cross-origin crawling and multi-page requests need a bounded proxy/backend or user-provided HTML; not a purely static universal crawler
-- Important weakness: The referenced Actor is under maintenance; pricing is an offer only, not usage or MRR evidence
+- Important weakness: Actor Under maintenance with 0 monthly active users (2026-10-19). WellMarked and Firecrawl have listed prices, but no independently verified active paid accounts found. PlainMarkdown verified receipts are from a browser extension, which is outside this user's product scope.
 - Next exact query to verify in Semrush/SERP: **website to markdown converter**
 - Status: **commercial-offer observed; real revenue and SEO viability unverified**
 
