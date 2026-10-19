@@ -9,7 +9,7 @@ Sources succeeded: 18/18; new URLs: 4; candidate URL leads: 4; first-time keywor
 - crazygames-br: delta; 0 new URLs; 5259 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - crazygames-es: delta; 0 new URLs; 5259 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamepix-en: delta; 0 new URLs; 19239 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- gamepix-pt: delta; 0 new URLs; 19202 pages; removed 37; reappeared 0; candidate scan cap skipped 0
+- gamepix-pt: delta; 0 new URLs; 19239 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - minijuegos-es: delta; 0 new URLs; 27516 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - friv-en: delta; 0 new URLs; 1183 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculator-soup: delta; 0 new URLs; 501 pages; removed 0; reappeared 0; candidate scan cap skipped 0

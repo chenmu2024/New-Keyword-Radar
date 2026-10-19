@@ -6,7 +6,9 @@ Raw queue and all main radar settings remain unchanged.
 
 - Sitemap feeds succeeded: 18/18
 - URLs newly observed in the latest scan: 4
-- Candidates newly extracted in the latest scan: 4
+- Candidate URL rows extracted in latest scan: 4
+- First-time keyword/geo research leads: 3
+- Previously removed URLs resurfacing: 0
 - Accumulated queue: 249
 - Human keyword/topic review: 156
 - Game/general watchlist: 82
