@@ -10,6 +10,7 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 import json
+import re
 
 from sitemap_triage import classify
 
@@ -20,6 +21,7 @@ QUEUE = ROOT / "data/sitemap/queue.json"
 STORE = ROOT / "data/sitemap/validation.json"
 REPORT = ROOT / "reports/sitemap/validation.md"
 MAX_CHECKS = 2  # Total per scan, not per source. Avoid Google rate limits.
+RESEARCH_CUE = re.compile(r"\b(backup|checker|calculator|generator|converter|monitor|transcript|planner|export|audit|invoice|price|seo|workflow|automation|data cleaning)\b", re.I)
 
 
 def key(lead):
@@ -57,11 +59,24 @@ def select(queue, past, today, limit=MAX_CHECKS):
             except (TypeError, ValueError):
                 pass
         choices.append(lead)
-    # Prioritize high-intent tool queries, then new captures; stable order.
-    choices.sort(key=lambda x: (not bool(x.get("tool_intent_hint")),
+    # Research priority only: tool wording + practical workflow/problem terms.
+    # These are NOT newness, SERP difficulty, absolute volume or revenue scores.
+    choices.sort(key=lambda x: (-int(bool(x.get("tool_intent_hint"))),
+                                -int(bool(RESEARCH_CUE.search(x.get("query", "")))),
                                 -int(str(x.get("first_seen") or "1970-01-01").replace("-", "")),
                                 x.get("source_id", ""), x.get("query", "")))
-    selected, seen = [], set()
+    selected, seen, sources = [], set(), set()
+    # Reserve variety when available so one fast-growing Actor Sitemap cannot
+    # consume the entire validation quota for days.
+    for row in choices:
+        source = row.get("source_id", "")
+        if source in sources or key(row) in seen:
+            continue
+        selected.append(row)
+        seen.add(key(row))
+        sources.add(source)
+        if len(selected) == limit:
+            return selected
     for row in choices:
         if key(row) not in seen:
             selected.append(row)
