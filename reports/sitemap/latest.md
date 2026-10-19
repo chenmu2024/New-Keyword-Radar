@@ -1,7 +1,7 @@
 # Sitemap delta research — 2026-10-19
 
 Unverified leads only. Baseline URL snapshots are NOT discoveries.
-Sources succeeded: 9/9; new URLs: 0; candidate leads: 0; retained queue: 23.
+Sources succeeded: 18/18; new URLs: 37; candidate leads: 37; retained queue: 46.
 
 ## Sources
 
@@ -9,14 +9,59 @@ Sources succeeded: 9/9; new URLs: 0; candidate leads: 0; retained queue: 23.
 - crazygames-br: delta; 0 new URLs; 5259 pages
 - crazygames-es: delta; 0 new URLs; 5259 pages
 - gamepix-en: delta; 0 new URLs; 19239 pages
-- gamepix-pt: delta; 0 new URLs; 19202 pages
+- gamepix-pt: delta; 37 new URLs; 19239 pages
 - minijuegos-es: delta; 0 new URLs; 27516 pages
 - friv-en: delta; 0 new URLs; 1183 pages
 - calculator-soup: delta; 0 new URLs; 501 pages
-- vercel-product-watch: baseline; 0 new URLs; 2063 pages
+- vercel-product-watch: delta; 0 new URLs; 2063 pages
+- n8n-workflows: baseline; 0 new URLs; 13433 pages
+- railway-templates: baseline; 0 new URLs; 6856 pages
+- railway-changelog: baseline; 0 new URLs; 312 pages
+- apify-actors-a: baseline; 0 new URLs; 5868 pages
+- apify-actors-z: baseline; 0 new URLs; 6322 pages
+- futurepedia-tools: baseline; 0 new URLs; 1329 pages
+- netlify-product-watch: baseline; 0 new URLs; 796 pages
+- onlinetools-br: baseline; 0 new URLs; 99 pages
+- producthunt-products: baseline; 0 new URLs; 21688 pages
 
 ## New URL leads (not proven new keywords)
 
-None. First successful scans create baselines without alerts.
+- [banners of war last stand online](https://www.gamepix.com/pt/play/banners-of-war-last-stand-online) — gamepix-pt / BR
+- [cake smash](https://www.gamepix.com/pt/play/cake-smash) — gamepix-pt / BR
+- [camo party](https://www.gamepix.com/pt/play/camo-party) — gamepix-pt / BR
+- [christmas mandala coloring book](https://www.gamepix.com/pt/play/christmas-mandala-coloring-book) — gamepix-pt / BR
+- [coloful drink](https://www.gamepix.com/pt/play/coloful-drink) — gamepix-pt / BR
+- [color blitz](https://www.gamepix.com/pt/play/color-blitz) — gamepix-pt / BR
+- [devil roulette](https://www.gamepix.com/pt/play/devil-roulette) — gamepix-pt / BR
+- [doge s battle royale](https://www.gamepix.com/pt/play/doge-s-battle-royale) — gamepix-pt / BR
+- [egg wars battle arena 3d](https://www.gamepix.com/pt/play/egg-wars-battle-arena-3d) — gamepix-pt / BR
+- [gas gas drive](https://www.gamepix.com/pt/play/gas-gas-drive) — gamepix-pt / BR
+- [ghtsggjvv](https://www.gamepix.com/pt/play/ghtsggjvv) — gamepix-pt / BR
+- [gold clicker](https://www.gamepix.com/pt/play/gold-clicker) — gamepix-pt / BR
+- [graze](https://www.gamepix.com/pt/play/graze) — gamepix-pt / BR
+- [halloween candy match](https://www.gamepix.com/pt/play/halloween-candy-match) — gamepix-pt / BR
+- [hoops gm basketball franchise manager](https://www.gamepix.com/pt/play/hoops-gm-basketball-franchise-manager) — gamepix-pt / BR
+- [jewel christmas mania](https://www.gamepix.com/pt/play/jewel-christmas-mania) — gamepix-pt / BR
+- [mini football](https://www.gamepix.com/pt/play/mini-football) — gamepix-pt / BR
+- [mob rush crowd runner](https://www.gamepix.com/pt/play/mob-rush-crowd-runner) — gamepix-pt / BR
+- [neon gates](https://www.gamepix.com/pt/play/neon-gates) — gamepix-pt / BR
+- [nightfall z](https://www.gamepix.com/pt/play/nightfall-z) — gamepix-pt / BR
+- [offroad crash climb](https://www.gamepix.com/pt/play/offroad-crash-climb) — gamepix-pt / BR
+- [once upon a canter](https://www.gamepix.com/pt/play/once-upon-a-canter) — gamepix-pt / BR
+- [orbit io](https://www.gamepix.com/pt/play/orbit-io) — gamepix-pt / BR
+- [penalty strike 3d](https://www.gamepix.com/pt/play/penalty-strike-3d) — gamepix-pt / BR
+- [pixel gold clicker](https://www.gamepix.com/pt/play/pixel-gold-clicker) — gamepix-pt / BR
+- [rabbit ben](https://www.gamepix.com/pt/play/rabbit-ben) — gamepix-pt / BR
+- [santa run adventure](https://www.gamepix.com/pt/play/santa-run-adventure) — gamepix-pt / BR
+- [skibidi online](https://www.gamepix.com/pt/play/skibidi-online) — gamepix-pt / BR
+- [skibidi toilet soccer](https://www.gamepix.com/pt/play/skibidi-toilet-soccer) — gamepix-pt / BR
+- [snack tower](https://www.gamepix.com/pt/play/snack-tower) — gamepix-pt / BR
+- [stunt crasher](https://www.gamepix.com/pt/play/stunt-crasher) — gamepix-pt / BR
+- [the last date 2](https://www.gamepix.com/pt/play/the-last-date-2) — gamepix-pt / BR
+- [the scythian warrior](https://www.gamepix.com/pt/play/the-scythian-warrior) — gamepix-pt / BR
+- [the smile haunts you](https://www.gamepix.com/pt/play/the-smile-haunts-you) — gamepix-pt / BR
+- [toss ammo](https://www.gamepix.com/pt/play/toss-ammo) — gamepix-pt / BR
+- [wyrm saga](https://www.gamepix.com/pt/play/wyrm-saga) — gamepix-pt / BR
+- [x o battle](https://www.gamepix.com/pt/play/x-o-battle) — gamepix-pt / BR
 
 Next: verify original keyword age, country search demand, SERP and monetization independently.
