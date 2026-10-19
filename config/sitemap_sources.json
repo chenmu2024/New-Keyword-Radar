@@ -5,7 +5,7 @@
   "max_sitemaps_per_source": 18,
   "max_new_urls_per_source": 80,
   "max_page_enrich_per_run": 8,
-  "notes": "Public Sitemap pilot with safe limits and verified content feeds. Vercel root sitemap declared in its robots.txt and approximately 7,069 URLs on 2026-10-19; only product/marketplace, templates, changelog and blog paths are included, not docs or academy. No pages are assumed to have search traffic or monetization evidence.",
+  "notes": "2026-10-19: 7 websites/9 scoped feeds added after public sitemap verification. Apify covers first and last shards ONLY (not comprehensive); Product Hunt uses the exact public CloudFront CDN URL observed from its robots-declared sitemap redirect and accepts only www.producthunt.com/products/ page locations. Baseline first, never assume search volume or paid demand. All original seed/Trends thresholds unchanged.",
   "sources": [
     {
       "id": "crazygames-en",
@@ -69,6 +69,95 @@
         "/changelog/",
         "/blog/"
       ]
+    },
+    {
+      "id": "n8n-workflows",
+      "sitemap": "https://n8n.io/sitemap-workflows.xml",
+      "geo": "US",
+      "topic": "automation-paid-problems",
+      "include_path_prefixes": [
+        "/workflows/"
+      ]
+    },
+    {
+      "id": "railway-templates",
+      "sitemap": "https://railway.com/templates-sitemap.xml",
+      "geo": "US",
+      "topic": "deployable-tools-saas",
+      "include_path_prefixes": [
+        "/deploy/"
+      ],
+      "exclude_path_prefixes": [
+        "/deploy/category/"
+      ]
+    },
+    {
+      "id": "railway-changelog",
+      "sitemap": "https://railway.com/changelog-sitemap.xml",
+      "geo": "US",
+      "topic": "developer-product-updates",
+      "include_path_prefixes": [
+        "/changelog/"
+      ]
+    },
+    {
+      "id": "apify-actors-a",
+      "sitemap": "https://apify.com/sitemap/actors1.xml",
+      "geo": "US",
+      "topic": "paid-data-automation-actors-partial-sample",
+      "max_bytes": 15000000,
+      "include_page_path_regex": "^/[^/]+/[^/]+/?$",
+      "enrich_pages": false
+    },
+    {
+      "id": "apify-actors-z",
+      "sitemap": "https://apify.com/sitemap/actors14.xml",
+      "geo": "US",
+      "topic": "paid-data-automation-actors-partial-sample",
+      "max_bytes": 15000000,
+      "include_page_path_regex": "^/[^/]+/[^/]+/?$",
+      "enrich_pages": false
+    },
+    {
+      "id": "futurepedia-tools",
+      "sitemap": "https://www.futurepedia.io/sitemap_tools.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/tool/"
+      ]
+    },
+    {
+      "id": "netlify-product-watch",
+      "sitemap": "https://www.netlify.com/sitemap-0.xml",
+      "geo": "US",
+      "topic": "developer-integrations-product-changes",
+      "include_path_prefixes": [
+        "/integrations/",
+        "/changelog/"
+      ]
+    },
+    {
+      "id": "onlinetools-br",
+      "sitemap": "https://onlinetools.com.br/sitemap.xml",
+      "geo": "BR",
+      "topic": "brazilian-online-utilities",
+      "include_path_prefixes": [
+        "/pt/"
+      ]
+    },
+    {
+      "id": "producthunt-products",
+      "sitemap": "https://d29lzieai721mu.cloudfront.net/sitemaps_v3/product_about_sitemap.xml.gz",
+      "geo": "US",
+      "topic": "product-launches-saas",
+      "page_hosts": [
+        "www.producthunt.com"
+      ],
+      "include_path_prefixes": [
+        "/products/"
+      ],
+      "enrich_pages": false
     }
   ]
 }

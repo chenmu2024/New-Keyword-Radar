@@ -87,6 +87,53 @@ class SitemapTests(unittest.TestCase):
         self.assertEqual(len(chosen), 4)
         self.assertFalse(any("/docs/" in x or "/academy/" in x for x in chosen))
 
+    def test_explicit_cdn_page_hosts_only(self):
+        root = "https://d29lzieai721mu.cloudfront.net/sitemaps_v3/product_about_sitemap.xml.gz"
+        items = [
+            "https://www.producthunt.com/products/clean-invoice-tool",
+            "https://www.producthunt.com/posts/marketing-news",
+            "https://evil.invalid/products/bad",
+        ]
+        def fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            self.assertEqual(allowed, "d29lzieai721mu.cloudfront.net")
+            return urlset(*items)
+        links, files = m.collect_sitemap(root, fetch,
+                    include_prefixes=["/products/"],
+                    page_hosts=["www.producthunt.com"])
+        self.assertEqual(links, [items[0]])
+        self.assertEqual(files, 1)
+
+    def test_actor_page_dedup_and_scoping(self):
+        root = "https://apify.com/sitemap/actors14.xml"
+        urls = [
+            "https://apify.com/vendor/review-scraper",
+            "https://apify.com/vendor/review-scraper/api",
+            "https://apify.com/vendor/review-scraper/examples/use-case",
+            "https://apify.com/vendor/other-scraper",
+        ]
+        def fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            return urlset(*urls)
+        links, files = m.collect_sitemap(root, fetch,
+                      page_path_regex=r"^/[^/]+/[^/]+/?$")
+        self.assertEqual(links, [urls[0], urls[3]])
+        self.assertEqual(files, 1)
+
+    def test_bounded_path_prefixes(self):
+        root = "https://railway.com/templates-sitemap.xml"
+        urls = ["https://railway.com/deploy/ai-tool",
+                "https://railway.com/deploy/category/ai",
+                "https://railway.com/changelog/fix"]
+        def fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            return urlset(*urls)
+        links, files = m.collect_sitemap(root, fetch, include_prefixes=["/deploy/"],
+                    exclude_prefixes=["/deploy/category/"])
+        self.assertEqual(links, [urls[0]])
+        self.assertEqual(files, 1)
+
+    def test_numeric_workflow_id_removed(self):
+        self.assertEqual(m.candidate("https://n8n.io/workflows/19182-convert-images-to-pdf/"),
+                         "convert images to pdf")
+
     def test_aborts_incomplete_index(self):
         root = "https://example.com/sitemap.xml"
         def fetch(url, allowed, max_bytes=m.MAX_BYTES):

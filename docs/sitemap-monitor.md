@@ -52,3 +52,25 @@ This workflow is independent of the main radar and has no capability to send not
 - URL changes are clues about new third-party tools, developer products and SaaS offerings, not proof of a genuinely new query, actual customer revenue or achievable SEO ranking.
 - First successful poll only creates a baseline; subsequent new URLs go through the unchanged validation pipeline and are tagged with source `vercel-product-watch`.
 - This source shares the existing 14-day pilot end date; it is not a permanent monitor until reviewed.
+
+## Additional sources (2026-10-19)
+
+The following URLs were inspected before inclusion. Public sitemap *appearance* does not confirm SEO, recent launches, payment, or viable demand.
+
+| Source ID | Public sitemap URL | Page selection |
+|---|---|---|
+| `n8n-workflows` | `https://n8n.io/sitemap-workflows.xml` | /workflows/ |
+| `railway-templates` | `https://railway.com/templates-sitemap.xml` | /deploy/ |
+| `railway-changelog` | `https://railway.com/changelog-sitemap.xml` | /changelog/ |
+| `apify-actors-a` | `https://apify.com/sitemap/actors1.xml` | ^/[^/]+/[^/]+/?$ |
+| `apify-actors-z` | `https://apify.com/sitemap/actors14.xml` | ^/[^/]+/[^/]+/?$ |
+| `futurepedia-tools` | `https://www.futurepedia.io/sitemap_tools.xml` | /tool/ |
+| `netlify-product-watch` | `https://www.netlify.com/sitemap-0.xml` | /integrations/, /changelog/ |
+| `onlinetools-br` | `https://onlinetools.com.br/sitemap.xml` | /pt/ |
+| `producthunt-products` | `https://d29lzieai721mu.cloudfront.net/sitemaps_v3/product_about_sitemap.xml.gz` | /products/ |
+
+**Product Hunt:** The robots.txt-declared `www.producthunt.com/sitemaps_v3/product_about_sitemap.xml.gz` redirects to the exact public CloudFront distribution `d29lzieai721mu.cloudfront.net`; anonymous requests to the origin may be blocked. Only `www.producthunt.com/products/` loc URLs from that exact CDN XML are accepted; page enrichment is disabled, and arbitrary redirects are NOT permitted.
+
+**Apify:** The full index currently contains 14 enormous Actor sitemap shards with API, examples and issue subpages. For bounded first-pass evidence, only shard 1 and 14 are scanned; direct two-segment Actor URLs are retained, and this must be labelled **partial alphabetical sample**, never full Apify coverage. Scale only after the 14-day trial demonstrates utility.
+
+**Safety/performance:** Incoming XML is capped by per-source compressed+decompressed byte limits. The gzip payload is expanded incrementally up to that byte cap. XML from a CDN may list product pages at a single explicitly allowlisted hostname. The main Trends pipeline, seed lists, KPI gates and 08:00 briefing remain unchanged.

@@ -10,6 +10,7 @@ from datetime import datetime
 from hashlib import sha256
 from html.parser import HTMLParser
 import gzip
+import io
 import json
 from pathlib import Path
 import re
@@ -69,9 +70,11 @@ def safe_fetch(url, allowed_host, max_bytes=MAX_BYTES):
         data = response.read(max_bytes + 1)
         if len(data) > max_bytes:
             raise ValueError("Response exceeds size limit")
-        zipped = urlsplit(url).path.endswith(".gz") or response.headers.get("Content-Encoding", "").lower() == "gzip"
-        if zipped:
-            data = gzip.decompress(data)
+        # Decompress *boundedly*, including Product Hunt's public .xml.gz archive.
+        # An untrusted gzip bomb must never be expanded unbounded in memory.
+        if data.startswith(b"\x1f\x8b"):
+            with gzip.GzipFile(fileobj=io.BytesIO(data)) as packed:
+                data = packed.read(max_bytes + 1)
         if len(data) > max_bytes:
             raise ValueError("Decompressed response exceeds size limit")
         return data
@@ -96,9 +99,18 @@ def xml_items(raw):
 
 
 def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000, max_bytes=MAX_BYTES,
-                    include_prefixes=None):
+                    include_prefixes=None, page_hosts=None, page_path_regex=None,
+                    exclude_prefixes=None):
     """Reject incomplete scans: an incomplete set must never replace baseline."""
     allowed = host(root_url)
+    # XML may live on a CDN, while its <loc> URLs point to the official product site.
+    # This *explicit* allowlist does not authorize arbitrary cross-site requests.
+    trusted_pages = set(page_hosts or [allowed])
+    for item in trusted_pages:
+        if host("https://" + item + "/") != item:
+            raise ValueError("Invalid explicit page host")
+    path_pattern = re.compile(page_path_regex) if page_path_regex else None
+    blocked_prefixes = exclude_prefixes or []
     todo = [(root_url, 0)]
     fetched, pages, seen = 0, set(), set()
     while todo:
@@ -124,10 +136,15 @@ def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000,
                 raise ValueError("More sitemap files than safety cap; increase deliberately")
         else:
             for link in links:
-                if host(link) == allowed and not SKIP.search(urlsplit(link).path):
+                if host(link) in trusted_pages and not SKIP.search(urlsplit(link).path):
                     path = urlsplit(link).path
-                    if not include_prefixes or any(path.startswith(prefix) for prefix in include_prefixes):
-                        pages.add(link.split("#", 1)[0])
+                    if (include_prefixes and not any(path.startswith(p) for p in include_prefixes)):
+                        continue
+                    if any(path.startswith(p) for p in blocked_prefixes):
+                        continue
+                    if path_pattern and not path_pattern.fullmatch(path):
+                        continue
+                    pages.add(link.split("#", 1)[0])
                 if len(pages) > max_urls:
                     raise ValueError("Page count exceeds safety cap")
     return sorted(pages), fetched
@@ -146,6 +163,9 @@ def candidate(url):
     slug = re.sub(r"\.(html?|php|aspx?)$", "", slug, flags=re.I)
     slug = re.sub(r"[_\-.]+", " ", slug)
     slug = re.sub(r"\s+", " ", slug).strip().lower()
+    # n8n workflow slugs begin with a numeric catalog ID, not part of the query.
+    if re.match(r"^\d+\s+", slug):
+        slug = re.sub(r"^\d+\s+", "", slug)
     if (slug in SKIP_SLUG or len(slug) < 5 or len(slug) > 90 or
             len(slug.split()) > 10 or slug.isnumeric() or
             re.search(r"^(20\d{2}|page \d+)$", slug)):
@@ -191,9 +211,11 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
         name, url = source["id"], source["sitemap"]
         previous_site = states.get(name)
         try:
-            urls, nfiles = collect_sitemap(url, fetch, max_files, max_pages,
-                                           int(source.get('max_bytes', MAX_BYTES)),
-                                           source.get('include_path_prefixes'))
+            urls, nfiles = collect_sitemap(
+                url, fetch, max_files, int(source.get("max_urls", max_pages)),
+                int(source.get("max_bytes", MAX_BYTES)),
+                source.get("include_path_prefixes"), source.get("page_hosts"),
+                source.get("include_page_path_regex"), source.get("exclude_path_prefixes"))
             hashes = {digest(link) for link in urls}
             old = set(previous_site["hashes"]) if previous_site and "hashes" in previous_site else None
             novel = [] if old is None else [link for link in urls if digest(link) not in old]
@@ -202,8 +224,8 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
                 query = candidate(link)
                 if not query:
                     continue
-                meta = page_meta(link, fetch) if enrich_budget else {"title": "", "h1": ""}
-                if enrich_budget:
+                meta = page_meta(link, fetch) if enrich_budget and source.get("enrich_pages", True) else {"title": "", "h1": ""}
+                if enrich_budget and source.get("enrich_pages", True):
                     enrich_budget -= 1
                 findings.append({"query": query, "url": link, "source_id": name,
                                  "geo": source.get("geo", ""), "topic": source.get("topic", ""),
