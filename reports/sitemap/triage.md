@@ -5,105 +5,104 @@ not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidenc
 Raw queue and all main radar settings remain unchanged.
 
 - Sitemap feeds succeeded: 18/18
-- URLs newly observed in the latest scan: 150
-- Candidates newly extracted in the latest scan: 81
-- Accumulated queue: 166
-- Human keyword/topic review: 81
+- URLs newly observed in the latest scan: 134
+- Candidates newly extracted in the latest scan: 80
+- Accumulated queue: 244
+- Human keyword/topic review: 152
 - Game/general watchlist: 82
-- Low-quality page-name noise: 3
+- Low-quality page-name noise: 10
 - **Verified new keywords / search demand / business revenue: not established**
 
 ## Queue composition (by Sitemap source)
 
+- apify-actors-a: 157
 - gamepix-pt: 81
-- apify-actors-a: 79
 - railway-templates: 3
 - gamepix-en: 2
 - vercel-product-watch: 1
 
 ## Latest scan's leads (routing only)
 
-- [rust wait until](https://vercel.com/templates/axum/rust-wait-until) — review / product-content-not-search-demand; source=vercel-product-watch
-- [agoda scraper](https://apify.com/aboo.script/agoda-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [feverup reviews scraper](https://apify.com/aboo.script/feverup-reviews-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [feverup scraper](https://apify.com/aboo.script/feverup-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [get in scraper](https://apify.com/aboo.script/get-in-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [tiqets scraper](https://apify.com/aboo.script/tiqets-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [webook scraper](https://apify.com/aboo.script/webook-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [curtsy app scraper](https://apify.com/abotapi/curtsy-app-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [distressed au nz scraper](https://apify.com/abotapi/distressed-au-nz-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [medium feed lookup](https://apify.com/accountable_eel/medium-feed-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [mlb stats lookup](https://apify.com/accountable_eel/mlb-stats-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [norway company incorporation alert](https://apify.com/accountable_eel/norway-company-incorporation-alert) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [openalex work search lookup](https://apify.com/accountable_eel/openalex-work-search-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [poland krs company lookup](https://apify.com/accountable_eel/poland-krs-company-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [remote jobs unified search](https://apify.com/accountable_eel/remote-jobs-unified-search) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [rss new item monitor](https://apify.com/accountable_eel/rss-new-item-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [technical seo audit composite](https://apify.com/accountable_eel/technical-seo-audit-composite) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [telegram channel posts lookup](https://apify.com/accountable_eel/telegram-channel-posts-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [youtube video stats lookup](https://apify.com/accountable_eel/youtube-video-stats-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [bilibili scraper](https://apify.com/actor-forge/bilibili-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [china trending topics](https://apify.com/actor-forge/china-trending-topics) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [douyin hot search](https://apify.com/actor-forge/douyin-hot-search) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [uk planning applications](https://apify.com/actor-forge/uk-planning-applications) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [weibo hot search](https://apify.com/actor-forge/weibo-hot-search) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [dfw public bids](https://apify.com/adaptive_depths/dfw-public-bids) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [uk gov tenders feed](https://apify.com/affable_ornament_8s8/uk-gov-tenders-feed) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [newapi01 ecommerce email trust auditor](https://apify.com/afkdigital/newapi01-ecommerce-email-trust-auditor) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [newapi02 us industrial contract suppliers](https://apify.com/afkdigital/newapi02-us-industrial-contract-suppliers) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [newapi03 nyc construction permit contractor leads](https://apify.com/afkdigital/newapi03-nyc-construction-permit-contractor-leads) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [newapi04 wholesale catalog normalizer](https://apify.com/afkdigital/newapi04-wholesale-catalog-normalizer) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [newapi05 us medicare clinician clinic leads](https://apify.com/afkdigital/newapi05-us-medicare-clinician-clinic-leads) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [openalex mcp](https://apify.com/agentic_solutions/openalex-mcp) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [uk public tenders tracker](https://apify.com/agentic_solutions/uk-public-tenders-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-a
-- [ai readiness audit](https://apify.com/agentsgearbox/ai-readiness-audit) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [app intelligence](https://apify.com/agentsgearbox/app-intelligence) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [app store reviews scraper](https://apify.com/agentsgearbox/app-store-reviews-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [company lookup](https://apify.com/agentsgearbox/company-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [brand mentions monitor](https://apify.com/ahmad_mahameed/brand-mentions-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [google maps leads scraper](https://apify.com/ahmad_mahameed/google-maps-leads-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [google news scraper](https://apify.com/ahmad_mahameed/google-news-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [remote jobs aggregator](https://apify.com/ahmad_mahameed/remote-jobs-aggregator) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [uk find a tender](https://apify.com/ahmad_mahameed/uk-find-a-tender) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [website contact finder](https://apify.com/ahmad_mahameed/website-contact-finder) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [youtube scraper](https://apify.com/ahmad_mahameed/youtube-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [youtube transcript scraper](https://apify.com/ahmad_mahameed/youtube-transcript-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [bienici scraper](https://apify.com/ahmed_jasarevic/bienici-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [chewy scraper](https://apify.com/ahmed_jasarevic/chewy-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [hipages scraper](https://apify.com/ahmed_jasarevic/hipages-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [mediamarkt scraper](https://apify.com/ahmed_jasarevic/mediamarkt-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [mouthshut scraper](https://apify.com/ahmed_jasarevic/mouthshut-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [movoto scraper](https://apify.com/ahmed_jasarevic/movoto-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [pagesjaunes fr scraper](https://apify.com/ahmed_jasarevic/pagesjaunes-fr-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [skip trace people finder](https://apify.com/ahmed_jasarevic/skip-trace-people-finder) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [streeteasy scraper](https://apify.com/ahmed_jasarevic/streeteasy-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [x quotes reposts scraper](https://apify.com/ahmed_jasarevic/x-quotes-reposts-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [career site jobs scraper](https://apify.com/aimindteams/career-site-jobs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [govcon rfp deep parser](https://apify.com/aimindteams/govcon-rfp-deep-parser) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [shopify catalog price monitor](https://apify.com/aimindteams/shopify-catalog-price-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [website contact tech enricher](https://apify.com/aimindteams/website-contact-tech-enricher) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [ip geolocation bulk](https://apify.com/aimojo/ip-geolocation-bulk) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [yahoo finance scraper](https://apify.com/akhil_rajesh/yahoo-finance-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [pakistan tender matcher](https://apify.com/akramkhan/pakistan-tender-matcher) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [aliexpress search products](https://apify.com/alaathr/aliexpress-search-products) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [google hotels prices](https://apify.com/alaathr/google-hotels-prices) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [google trends reliable](https://apify.com/alaathr/google-trends-reliable) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [google trends trending now](https://apify.com/alaathr/google-trends-trending-now) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [ares companies](https://apify.com/alaudinburki/ares-companies) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [brazil cnpj](https://apify.com/alaudinburki/brazil-cnpj) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [brazil cnpj monitor](https://apify.com/alaudinburki/brazil-cnpj-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [brreg companies](https://apify.com/alaudinburki/brreg-companies) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [companies house monitor](https://apify.com/alaudinburki/companies-house-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [company registry search](https://apify.com/alaudinburki/company-registry-search) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [dataset digest](https://apify.com/alaudinburki/dataset-digest) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [mcp enricher](https://apify.com/alaudinburki/mcp-enricher) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [mcp output router](https://apify.com/alaudinburki/mcp-output-router) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [uk companies house](https://apify.com/alaudinburki/uk-companies-house) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [facebook ads library scraper](https://apify.com/alexmorain/facebook-ads-library-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [google ads transparency scraper](https://apify.com/alexmorain/google-ads-transparency-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [google news scraper](https://apify.com/alexmorain/google-news-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [google trends scraper](https://apify.com/alexmorain/google-trends-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [polarsteps trip scraper](https://apify.com/alexmorain/polarsteps-trip-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [ai company lead researcher](https://apify.com/aarya_2/ai-company-lead-researcher) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [acinsoft email domain security audit](https://apify.com/acinsoft/acinsoft-email-domain-security-audit) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [yahoo finance](https://apify.com/ahmed_jasarevic/yahoo-finance) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [yahoo finance options](https://apify.com/ahmed_jasarevic/yahoo-finance-options) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [amazon product search scraper](https://apify.com/alpha-scraper/amazon-product-search-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [capterra software reviews scraper](https://apify.com/antishock/capterra-software-reviews-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [eu ted tenders](https://apify.com/api_pro/eu-ted-tenders) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [uk legislation monitor](https://apify.com/api_pro/uk-legislation-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [uk public tenders](https://apify.com/api_pro/uk-public-tenders) — low / government-or-regulated-target; source=apify-actors-a
+- [website ai readiness audit](https://apify.com/askmywebsiteai/website-ai-readiness-audit) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [korea g2b notice changes](https://apify.com/atomo-studio/korea-g2b-notice-changes) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [korea g2b purchase items](https://apify.com/atomo-studio/korea-g2b-purchase-items) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [korea g2b reserve prices](https://apify.com/atomo-studio/korea-g2b-reserve-prices) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [korea g2b tender notices](https://apify.com/atomo-studio/korea-g2b-tender-notices) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [korea g2b tender winners](https://apify.com/atomo-studio/korea-g2b-tender-winners) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [bilibili scraper](https://apify.com/atomus/bilibili-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [douyin scraper](https://apify.com/atomus/douyin-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [google maps scraper](https://apify.com/atomus/google-maps-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [leads finder](https://apify.com/atomus/leads-finder) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [linkedin comments scraper pro](https://apify.com/atomus/linkedin-comments-scraper-pro) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [linkedin company employees](https://apify.com/atomus/linkedin-company-employees) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [linkedin company posts scraper](https://apify.com/atomus/linkedin-company-posts-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [linkedin company scraper](https://apify.com/atomus/linkedin-company-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [linkedin post search](https://apify.com/atomus/linkedin-post-search) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [linkedin posts scraper pro](https://apify.com/atomus/linkedin-posts-scraper-pro) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [linkedin profile scraper](https://apify.com/atomus/linkedin-profile-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [linkedin profile search](https://apify.com/atomus/linkedin-profile-search) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [linkedin reactions scraper pro](https://apify.com/atomus/linkedin-reactions-scraper-pro) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [tiktok comments scraper](https://apify.com/atomus/tiktok-comments-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [tiktok scraper](https://apify.com/atomus/tiktok-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [twitter scraper](https://apify.com/atomus/twitter-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [weibo scraper](https://apify.com/atomus/weibo-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [xiaohongshu scraper](https://apify.com/atomus/xiaohongshu-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [youtube thumbnail downloader](https://apify.com/atomus/youtube-thumbnail-downloader) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [quant mcp tools](https://apify.com/atrokhym/quant-mcp-tools) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [ashby job scraper](https://apify.com/atsdata/ashby-job-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [ats job scraper](https://apify.com/atsdata/ats-job-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [greenhouse job scraper](https://apify.com/atsdata/greenhouse-job-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [lever job scraper](https://apify.com/atsdata/lever-job-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [workday job scraper](https://apify.com/atsdata/workday-job-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [remote tech jobs aggregator](https://apify.com/attainable_iota/remote-tech-jobs-aggregator) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [website to llm knowledge pack](https://apify.com/attainable_iota/website-to-llm-knowledge-pack) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [facebook ads library scraper](https://apify.com/attainable_readiness/facebook-ads-library-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [telegram channel analytics scraper](https://apify.com/attainable_readiness/telegram-channel-analytics-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [word counter](https://apify.com/attentive_upsurge/word-counter) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [abn lookup enricher](https://apify.com/au_actorfactory/abn-lookup-enricher) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [ron swanson quotes scraper api](https://apify.com/aubrieglu2002/ron-swanson-quotes-scraper-api) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [eu transport auditor](https://apify.com/audit-data-solutions/eu-transport-auditor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [stromaudit pro](https://apify.com/audit-data-solutions/stromaudit-pro) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [resident advisor](https://apify.com/augeas/resident-advisor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [spotify monthly listeners](https://apify.com/augeas/spotify-monthly-listeners) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [spotify playlists](https://apify.com/augeas/spotify-playlists) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [egov mcp apify](https://apify.com/aulvem/egov-mcp-apify) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [estat mcp apify](https://apify.com/aulvem/estat-mcp-apify) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [2dehands scraper](https://apify.com/aurenic/2dehands-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [4zida scraper](https://apify.com/aurenic/4zida-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [airbnb market intel scraper](https://apify.com/aurenic/airbnb-market-intel-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [alo bg scraper](https://apify.com/aurenic/alo-bg-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [apple media scraper](https://apify.com/aurenic/apple-media-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [arxiv scraper](https://apify.com/aurenic/arxiv-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [ats jobs scraper](https://apify.com/aurenic/ats-jobs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [autoscout24 scraper](https://apify.com/aurenic/autoscout24-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [bazos at bazos pl scraper](https://apify.com/aurenic/bazos-at-bazos-pl-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [bazos scraper](https://apify.com/aurenic/bazos-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [bbb scraper](https://apify.com/aurenic/bbb-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [beehiiv newsletter scraper](https://apify.com/aurenic/beehiiv-newsletter-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [bidnet direct scraper](https://apify.com/aurenic/bidnet-direct-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [blocket scraper](https://apify.com/aurenic/blocket-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [bringatrailer scraper](https://apify.com/aurenic/bringatrailer-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [catawiki scraper](https://apify.com/aurenic/catawiki-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [clinicaltrials scraper](https://apify.com/aurenic/clinicaltrials-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [cnpj scraper](https://apify.com/aurenic/cnpj-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [congress trades scraper](https://apify.com/aurenic/congress-trades-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [dba dk scraper](https://apify.com/aurenic/dba-dk-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [discogs scraper](https://apify.com/aurenic/discogs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [domain intel scraper](https://apify.com/aurenic/domain-intel-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [email finder scraper](https://apify.com/aurenic/email-finder-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [espn scraper](https://apify.com/aurenic/espn-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [fdic scraper](https://apify.com/aurenic/fdic-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [federal register scraper](https://apify.com/aurenic/federal-register-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
 
 ## Source interpretation
 

@@ -6,11 +6,27 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 2
+- Total distinct expressions researched: 4
 - 90-day + historical-interest passes: 0
 - Confirmed absolute Volume/KD/CPC: 0 (not supplied)
 
 ## Checked expressions
+
+### 2dehands scraper (US)
+- Source: [apify-actors-a](https://apify.com/aurenic/2dehands-scraper)
+- Checked: 2026-10-19T10:09:34.470237+08:00 | Status: **error**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Data error: Missing Google Trends observations
+
+### 4zida scraper (US)
+- Source: [apify-actors-a](https://apify.com/aurenic/4zida-scraper)
+- Checked: 2026-10-19T10:09:34.470237+08:00 | Status: **error**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Data error: Missing Google Trends observations
 
 ### uk public tenders tracker (US)
 - Source: [apify-actors-a](https://apify.com/agentic_solutions/uk-public-tenders-tracker)
