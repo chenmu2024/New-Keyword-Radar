@@ -19,6 +19,13 @@ class SitemapTriageTests(unittest.TestCase):
         self.assertEqual(tier, "review")
         self.assertIn("not-search-demand", reason)
 
+    def test_government_procurement_is_not_an_actionable_lead(self):
+        self.assertEqual(triage.classify({"source_id": "apify-actors-a",
+                                          "query": "uk public tenders tracker",
+                                          "tool_intent_hint": True})[0], "low")
+        self.assertEqual(triage.classify({"source_id": "apify-actors-a",
+                                          "query": "uk planning applications"})[0], "low")
+
     def test_game_titles_are_watch_only(self):
         self.assertEqual(triage.classify({"source_id": "gamepix-pt",
                                           "query": "new puzzle game"})[0], "watch")
