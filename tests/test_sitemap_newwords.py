@@ -52,6 +52,25 @@ class GameReleaseTests(unittest.TestCase):
         self.assertNotIn("release_date", result[q[0]["url"]])
         self.assertEqual(n.priority(q, result, "2026-10-19"), [])
 
+    def test_portuguese_locale_matches_publisher_launch_and_removes_noise(self):
+        import json
+        facts = json.loads(n.EVIDENCE.read_text(encoding="utf-8"))
+        queue = [{"query":"nations royale","source_id":"gamepix-pt","geo":"BR",
+                  "url":"https://www.gamepix.com/pt/play/nations-royale"},
+                 {"query":"wyrm saga","source_id":"gamepix-pt","geo":"BR",
+                  "url":"https://www.gamepix.com/pt/play/wyrm-saga"}]
+        result = n.priority(queue, facts, "2026-10-19")
+        self.assertEqual([row["query"] for row in result], ["nations royale"])
+        report = n.render(queue, facts, {"all_checked": [
+            {"keyword":"sample ballot nc","true_new":True,
+             "first_rise_date":"2026-10-11","recent_peak":100},
+            {"keyword":"eclipse animator roblox","true_new":True,
+             "first_rise_date":"2026-10-11","newness_score":100,"recent_peak":100},
+        ]}, "2026-10-19")
+        self.assertIn("nations royale", report)
+        self.assertIn("eclipse animator roblox", report)
+        self.assertNotIn("sample ballot nc", report)
+
     def test_main_radar_signal_kept_separate_from_date_and_semrush(self):
         report = n.render([], {}, {"all_checked": [{"keyword": "eclipse animator roblox",
                         "true_new": True, "first_rise_date": "2026-10-11",

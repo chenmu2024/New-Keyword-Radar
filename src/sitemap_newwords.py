@@ -167,8 +167,15 @@ def render(queue, age_map, radar_latest, today):
         ]
     lines += ["", "## 主雷达新词趋势（不要求同时出现 Sitemap）", ""]
     checked = radar_latest.get("all_checked", [])
+    # Recent developer/game/tool name discovery; don't turn a one-week
+    # seasonal query, school homework or government election search into a
+    # supposed "new keyword" simply because relative Trends peaked.
+    name_evidence = {v.get("query", "").casefold(): v for v in age_map.values()}
+    focused = re.compile(r"\\b(roblox|animator|optimizer|generator|converter|calculator|codes|builder|planner|simulator|tracker|template|wave|font|fonts|game)\\b", re.I)
     rising = [row for row in checked
-              if row.get("true_new") is True and row.get("first_rise_date")]
+              if row.get("true_new") is True and row.get("first_rise_date")
+              and (focused.search(str(row.get("keyword", ""))) or
+                   row.get("keyword", "").casefold() in name_evidence)]
     rising.sort(key=lambda x: (-int(x.get("newness_score") or 0),
                                -int(x.get("recent_peak") or 0)))
     for row in rising[:8]:
