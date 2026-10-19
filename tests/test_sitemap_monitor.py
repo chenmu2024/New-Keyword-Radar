@@ -44,6 +44,26 @@ class SitemapTests(unittest.TestCase):
         self.assertEqual(leads[0]["title"], "New Puzzle")
         self.assertEqual(len(second["test"]["hashes"]), 2)
 
+    def test_removed_url_return_is_reappearance_not_new_keyword(self):
+        root = "https://example.com/sitemap.xml"
+        first = "https://example.com/tools/domain-checker"
+        second = "https://example.com/tools/seo-generator"
+        stages = [urlset(first, second), urlset(first), urlset(first, second)]
+        index = [0]
+        def fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            return stages[index[0]]
+        config = {"sources": [{"id": "test", "sitemap": root, "geo": "US"}]}
+        state, _, _ = m.scan(config, {}, fetch, today="2026-10-19")
+        index[0] = 1
+        state, leads, status = m.scan(config, state, fetch, today="2026-10-20")
+        self.assertEqual(status[0]["removed_url_count"], 1)
+        self.assertEqual(leads, [])
+        index[0] = 2
+        state, leads, status = m.scan(config, state, fetch, today="2026-10-21")
+        self.assertEqual(status[0]["new_url_count"], 0)
+        self.assertEqual(status[0]["reappeared_url_count"], 1)
+        self.assertEqual(leads, [])
+
     def test_error_does_not_erase_baseline(self):
         cfg = {"sources": [{"id": "test", "sitemap": "https://example.com/sitemap.xml"}]}
         old = {"test": {"hashes": ["abcdef"], "checked_at": "2026-10-19"}}
