@@ -9,7 +9,7 @@
     "sold_function": "SPF, DMARC, MX, SMTP STARTTLS and certificate review with exportable evidence",
     "web_version": "Standalone domain email configuration checker with downloadable diagnostics",
     "cost_warning": "MX/SMTP probing needs controlled server network access; static browser alone cannot perform all tests",
-    "evidence_limit": "Listing indicates a paid tariff, not proof that any customer actually paid; demand from independent SEO website unknown",
+    "evidence_limit": "DEPRECATED Apify Actor with 0 monthly active users (2026-10-19). Unit pricing is not proof of paid customers or current viability. Independent website Stripe-connected proof and comparison are in reports/sitemap/independent_revenue_research_2026-10-19.md.",
     "check_term": "email domain security checker"
   },
   {
@@ -22,7 +22,7 @@
     "sold_function": "Batch conversion of video/Shorts URLs into thumbnail assets and metadata",
     "web_version": "Browser-first batch thumbnail extractor, URL parser and export tool",
     "cost_warning": "Can be cheap in-browser, but video metadata and protected assets may require maintained server retrieval",
-    "evidence_limit": "Strong free substitutes exist and small per-result price is not standalone subscription evidence",
+    "evidence_limit": "Free competitor Wow1 already offers 20-URL bulk ZIP; MetaClipper $6/month Pro is a waitlist, not active subscriber evidence. Creator sales/MRR unverified.",
     "check_term": "youtube thumbnail downloader bulk"
   },
   {
@@ -35,7 +35,7 @@
     "sold_function": "Crawl a site and export text, metadata, Markdown and JSONL for RAG workflows",
     "web_version": "Small-site URL to clean Markdown / knowledge.jsonl export utility",
     "cost_warning": "Cross-origin crawling and multi-page requests need a bounded proxy/backend or user-provided HTML; not a purely static universal crawler",
-    "evidence_limit": "The referenced Actor is under maintenance; pricing is an offer only, not usage or MRR evidence",
+    "evidence_limit": "Actor Under maintenance with 0 monthly active users (2026-10-19). WellMarked and Firecrawl have listed prices, but no independently verified active paid accounts found. PlainMarkdown verified receipts are from a browser extension, which is outside this user's product scope.",
     "check_term": "website to markdown converter"
   }
 ]
