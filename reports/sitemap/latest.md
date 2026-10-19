@@ -1,7 +1,7 @@
 # Sitemap delta research — 2026-10-19
 
 Unverified leads only. Baseline URL snapshots are NOT discoveries.
-Sources succeeded: 18/18; new URLs: 2; candidate URL leads: 2; first-time keyword/geo research leads: 2; reappeared URLs: 0; retained queue: 251. Neither URL changes nor leads establish search demand.
+Sources succeeded: 18/18; new URLs: 0; candidate URL leads: 0; first-time keyword/geo research leads: 0; reappeared URLs: 0; retained queue: 251. Neither URL changes nor leads establish search demand.
 
 ## Sources
 
@@ -13,7 +13,7 @@ Sources succeeded: 18/18; new URLs: 2; candidate URL leads: 2; first-time keywor
 - minijuegos-es: delta; 0 new URLs; 27516 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - friv-en: delta; 0 new URLs; 1183 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculator-soup: delta; 0 new URLs; 501 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- vercel-product-watch: delta; 2 new URLs; 2064 pages; removed 1; reappeared 0; candidate scan cap skipped 0
+- vercel-product-watch: delta; 0 new URLs; 2064 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - n8n-workflows: delta; 0 new URLs; 13433 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - railway-templates: delta; 0 new URLs; 6860 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - railway-changelog: delta; 0 new URLs; 312 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -26,7 +26,6 @@ Sources succeeded: 18/18; new URLs: 2; candidate URL leads: 2; first-time keywor
 
 ## New URL leads (not proven new keywords)
 
-- [domco vite api starter](https://vercel.com/templates/hono/domco-vite-api-starter) — vercel-product-watch / US
-- [nextjs openai doc search starter](https://vercel.com/templates/next.js/nextjs-openai-doc-search-starter) — vercel-product-watch / US
+None. First successful scans create baselines without alerts.
 
 Next: verify original keyword age, country search demand, SERP and monetization independently.

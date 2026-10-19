@@ -5,9 +5,9 @@ not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidenc
 Raw queue and all main radar settings remain unchanged.
 
 - Sitemap feeds succeeded: 18/18
-- URLs newly observed in the latest scan: 2
-- Candidate URL rows extracted in latest scan: 2
-- First-time keyword/geo research leads: 2
+- URLs newly observed in the latest scan: 0
+- Candidate URL rows extracted in latest scan: 0
+- First-time keyword/geo research leads: 0
 - Previously removed URLs resurfacing: 0
 - Accumulated queue: 251
 - Human keyword/topic review: 158
@@ -25,8 +25,7 @@ Raw queue and all main radar settings remain unchanged.
 
 ## Latest scan's leads (routing only)
 
-- [domco vite api starter](https://vercel.com/templates/hono/domco-vite-api-starter) — review / product-content-not-search-demand; source=vercel-product-watch
-- [nextjs openai doc search starter](https://vercel.com/templates/next.js/nextjs-openai-doc-search-starter) — review / product-content-not-search-demand; source=vercel-product-watch
+- None: a successful baseline scan does not create new-word alerts.
 
 ## Source interpretation
 

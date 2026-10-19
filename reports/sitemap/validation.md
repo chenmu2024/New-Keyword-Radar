@@ -22,14 +22,14 @@ a winnable SERP, paid demand or monthly search volume.
 - Checked: 2026-10-19T10:32:11.113784+08:00 | Status: **insufficient_relative_signal**
 - Google Trends 90d baseline avg: 2.13; recent peak: 0; newness score: 18
 - Historical 5y gate: not run
-- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 
 ### django hello world (US)
 - Source: [vercel-product-watch](https://vercel.com/templates/python/django-hello-world)
 - Checked: 2026-10-19T10:32:11.113784+08:00 | Status: **error**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
-- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 - Data error: RateLimitError: Google rate-limited the Explore data request; stop and back off.
 
 ### brand mentions monitor (US)
@@ -37,14 +37,14 @@ a winnable SERP, paid demand or monthly search volume.
 - Checked: 2026-10-19T10:29:48.254845+08:00 | Status: **older_interest**
 - Google Trends 90d baseline avg: 0.0; recent peak: 100; newness score: 95
 - Historical 5y gate: False
-- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 
 ### hoppscotch deploy hoppscotch api client on railway (US)
 - Source: [railway-templates](https://railway.com/deploy/hoppscotch--deploy-hoppscotch-api-client-on-railway)
 - Checked: 2026-10-19T10:29:48.254845+08:00 | Status: **insufficient_data**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
-- Monetary score is only a heuristic: 82 (saas-b2b); actual earnings unknown
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 - Data error: Missing Google Trends observations
 
 ### ai readiness audit (US)
@@ -52,7 +52,7 @@ a winnable SERP, paid demand or monthly search volume.
 - Checked: 2026-10-19T10:26:50.601202+08:00 | Status: **insufficient_data**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
-- Monetary score is only a heuristic: 49 (software); actual earnings unknown
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 - Data error: Missing Google Trends observations
 
 ### rust wait until (US)
@@ -60,7 +60,7 @@ a winnable SERP, paid demand or monthly search volume.
 - Checked: 2026-10-19T10:26:50.601202+08:00 | Status: **insufficient_data**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
-- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 - Data error: Missing Google Trends observations
 
 ### acinsoft email domain security audit (US)
@@ -68,14 +68,14 @@ a winnable SERP, paid demand or monthly search volume.
 - Checked: 2026-10-19T10:12:37.098813+08:00 | Status: **no_recent_trends_breakout**
 - Google Trends 90d baseline avg: 2.13; recent peak: 0; newness score: 18
 - Historical 5y gate: not run
-- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 
 ### dumpling backup (US)
 - Source: [railway-templates](https://railway.com/deploy/dumpling-backup)
 - Checked: 2026-10-19T10:12:37.098813+08:00 | Status: **error**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
-- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 - Data error: Missing Google Trends observations
 
 ### 2dehands scraper (US)
@@ -83,7 +83,7 @@ a winnable SERP, paid demand or monthly search volume.
 - Checked: 2026-10-19T10:10:21.317064+08:00 | Status: **error**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
-- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 - Data error: Missing Google Trends observations
 
 ### 4zida scraper (US)
@@ -91,7 +91,7 @@ a winnable SERP, paid demand or monthly search volume.
 - Checked: 2026-10-19T10:10:21.317064+08:00 | Status: **error**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
-- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 - Data error: Missing Google Trends observations
 
 ### uk public tenders tracker (US)
@@ -99,7 +99,7 @@ a winnable SERP, paid demand or monthly search volume.
 - Checked: 2026-10-19T10:06:01.308021+08:00 | Status: **error**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
-- Monetary score is only a heuristic: 94 (tool); actual earnings unknown
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 - Data error: BrowserError: Google Trends Explore did not render the interest-over-time chart, and no rate-limit message was shown — the page structure may have changed.  This usually means Google updated the Explo
 
 ### agoda scraper (US)
@@ -107,7 +107,7 @@ a winnable SERP, paid demand or monthly search volume.
 - Checked: 2026-10-19T10:06:01.308021+08:00 | Status: **error**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
-- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 - Data error: BrowserError: Google Trends Explore did not render the interest-over-time chart, and no rate-limit message was shown — the page structure may have changed.  This usually means Google updated the Explo
 
 ## Next independent checks

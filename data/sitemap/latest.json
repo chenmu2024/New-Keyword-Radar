@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-19T11:32:07.811586+08:00",
+  "generated_at": "2026-10-19T11:59:39.156539+08:00",
   "date": "2026-10-19",
   "trial_start": "2026-10-19",
   "trial_end_exclusive": "2026-11-02",
   "source_count": 18,
   "success_count": 18,
-  "new_url_count": 2,
-  "new_candidate_count": 2,
-  "new_unique_research_lead_count": 2,
+  "new_url_count": 0,
+  "new_candidate_count": 0,
+  "new_unique_research_lead_count": 0,
   "reappeared_url_count": 0,
   "queue_size": 251,
   "queue_limit": 2000,
@@ -114,11 +114,11 @@
       "source_id": "vercel-product-watch",
       "status": "delta",
       "page_count": 2064,
-      "new_url_count": 2,
-      "removed_url_count": 1,
+      "new_url_count": 0,
+      "removed_url_count": 0,
       "reappeared_url_count": 0,
-      "eligible_candidate_count": 2,
-      "candidate_count": 2,
+      "eligible_candidate_count": 0,
+      "candidate_count": 0,
       "candidates_over_scan_cap": 0,
       "sitemap_files": 1
     },
@@ -231,30 +231,5 @@
       "sitemap_files": 1
     }
   ],
-  "candidates": [
-    {
-      "query": "domco vite api starter",
-      "url": "https://vercel.com/templates/hono/domco-vite-api-starter",
-      "source_id": "vercel-product-watch",
-      "geo": "US",
-      "topic": "developer-products-saas",
-      "first_seen": "2026-10-19",
-      "tool_intent_hint": false,
-      "title": "",
-      "h1": "",
-      "page_error": "HTTPError"
-    },
-    {
-      "query": "nextjs openai doc search starter",
-      "url": "https://vercel.com/templates/next.js/nextjs-openai-doc-search-starter",
-      "source_id": "vercel-product-watch",
-      "geo": "US",
-      "topic": "developer-products-saas",
-      "first_seen": "2026-10-19",
-      "tool_intent_hint": false,
-      "title": "",
-      "h1": "",
-      "page_error": "HTTPError"
-    }
-  ]
+  "candidates": []
 }
