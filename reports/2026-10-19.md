@@ -1,24 +1,24 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-19T02:12:40.573190+00:00
+Generated: 2026-10-19T02:15:44.591923+00:00
 
 ## Formal candidates
 
 **今日无合格可变现新词。**
 ## Watch / rejected
 
-- alliance arts steam demo cancellation — **trend-watch** — newness 100, money 32
-- deva composer — **trend-watch** — newness 100, money 26
-- quantum foods farm manager diesel dismissal — **trend-watch** — newness 100, money 26
-- royal caribbean cruise overboard — **trend-watch** — newness 100, money 26
-- 2027 toyota fortuner spy shots — **trend-watch** — newness 95, money 26
-- cm vijay tribute composer deva — **trend-watch** — newness 95, money 26
-- mary carole mcdonnell banking scheme — **trend-watch** — newness 95, money 26
-- online casino 🇩🇪 toni-bauer.online 🇩🇪 — **trend-watch** — newness 95, money 26
-- samsung camera assistant 24mp mode — **trend-watch** — newness 95, money 26
-- venezuelan composer gus ormo news — **trend-watch** — newness 95, money 26
-- whatsapp android chat bar redesign — **trend-watch** — newness 95, money 26
-- cleo ai ftc payment email — **trend-watch** — newness 93, money 49
-- google serp scraper blocking methods — **trend-watch** — newness 88, money 26
-- fallen animal scheme dispute — **reject** — newness 53, money 26
-- deva — **reject** — newness 40, money 22
+- rj mitte instagram — **trend-watch** — newness 96, money 26
+- 2028 lincoln navigator refresh design — **trend-watch** — newness 95, money 26
+- brandon smith steelers wide receiver — **trend-watch** — newness 95, money 26
+- quilpie outback housing affordability scheme — **trend-watch** — newness 95, money 26
+- vaccine damage payment scheme reform — **trend-watch** — newness 95, money 26
+- casino online 🇳🇱 www.palmy.best 🇳🇱 — **trend-watch** — newness 91, money 26
+- japan business manager visa departures — **trend-watch** — newness 91, money 26
+- online casinos 🇳🇱 www.palmy.best — **trend-watch** — newness 91, money 26
+- a little doodle for example nyt — **trend-watch** — newness 88, money 26
+- adin ross fight card — **reject** — newness 88, money 26
+- barcelona tyler the creator — **reject** — newness 84, money 26
+- best budget smartphone — **reject** — newness 82, money 26
+- hoffenheim besiktas — **reject** — newness 78, money 26
+- rise of superfake designer handbags — **reject** — newness 73, money 26
+- 22nd amendment — **reject** — newness 35, money 26
