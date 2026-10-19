@@ -9,7 +9,7 @@ import time
 
 ROOT = Path(__file__).resolve().parents[1]
 FILES = ["state/sitemap/snapshots.json", "data/sitemap/queue.json",
-         "data/sitemap/latest.json", "reports/sitemap/latest.md"]
+         "data/sitemap/latest.json", "reports/sitemap/latest.md", "reports/sitemap/triage.md"]
 
 
 def cmd(*args, check=True):
@@ -48,7 +48,7 @@ def publish():
             remote = load(ROOT / "data/sitemap/latest.json", {})
             local_newer = local_latest["generated_at"] >= remote.get("generated_at", "")
             if local_newer:
-                for name in (daily, "data/sitemap/latest.json", "reports/sitemap/latest.md"):
+                for name in (daily, "data/sitemap/latest.json", "reports/sitemap/latest.md", "reports/sitemap/triage.md"):
                     source = backup / name
                     if source.exists():
                         dest = ROOT / name
