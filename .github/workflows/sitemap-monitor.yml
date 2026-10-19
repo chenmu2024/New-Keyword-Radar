@@ -7,10 +7,12 @@ on:
     paths:
       - "src/sitemap_monitor.py"
       - "src/sitemap_triage.py"
+      - "src/sitemap_trends.py"
       - "src/publish_sitemap.py"
       - "config/sitemap_sources.json"
       - "tests/test_sitemap_monitor.py"
       - "tests/test_sitemap_triage.py"
+      - "tests/test_sitemap_trends.py"
       - ".github/workflows/sitemap-monitor.yml"
   schedule:
     # UTC 02:35/14:35 = Beijing 10:35/22:35.
@@ -37,11 +39,15 @@ jobs:
       - name: Offline regression tests
         run: |
           python -m unittest discover -s tests -p 'test_sitemap_*.py' -v
-          python -m py_compile src/sitemap_monitor.py src/sitemap_triage.py src/radar.py
+          python -m py_compile src/sitemap_monitor.py src/sitemap_triage.py src/sitemap_trends.py src/radar.py
       - name: Collect competitor Sitemap deltas
         run: python src/sitemap_monitor.py
       - name: Triage URL leads without changing keyword rules
         run: python src/sitemap_triage.py
+      - name: Install free Google Trends client for bounded candidate research
+        run: pip install -r requirements.txt
+      - name: Validate high-intent Sitemap leads (max two per run)
+        run: python src/sitemap_trends.py
       - name: Publish isolated research outputs without overwriting other workflows
         run: |
           git config user.name "sitemap-research-bot"
