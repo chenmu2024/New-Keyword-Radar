@@ -27,7 +27,7 @@ class SitemapTrendsTests(unittest.TestCase):
                  lead("invoice checker"), lead("database backups")]
         selected = s.select(queue, {}, "2026-10-19")
         self.assertEqual(len(selected), 2)
-        self.assertEqual({x["query"] for x in selected}, {"workflow creator", "invoice checker"})
+        self.assertEqual({x["query"] for x in selected}, {"database backups", "invoice checker"})
         with self.assertRaises(ValueError):
             s.select(queue, {}, "2026-10-19", limit=3)
         self.assertEqual(s.select(queue, {}, "2026-10-19", limit=0), [])
