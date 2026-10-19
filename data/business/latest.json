@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-10-19T01:20:41.834261+00:00",
-  "source_radar_generated_at": "2026-10-19T01:19:42.330498+00:00",
-  "formal_candidate_count": 0,
-  "assessments": [],
-  "status_counts": {},
+  "generated_at": "2026-10-19T01:37:19.030299+00:00",
+  "source_radar_generated_at": "2026-10-19T01:36:47.592603+00:00",
+  "formal_candidate_count": 1,
+  "assessments": [
+    {
+      "keyword": "coloros 17 ai capabilities",
+      "geo": "",
+      "radar_verdict": "formal",
+      "newness_score": 96,
+      "money_score": 55,
+      "volume": null,
+      "kd": null,
+      "cpc": null,
+      "six_dimensions": {
+        "pain": null,
+        "leverage": null,
+        "timing": null,
+        "resource_fit": null,
+        "standardization": null,
+        "cashflow": null
+      },
+      "score_total": null,
+      "status": "needs-evidence",
+      "missing": [
+        "dated Volume/KD and source",
+        "dated SERP inspection and notes",
+        "dated reference-site traffic or verified recent-game signal",
+        "evidence-backed score: pain",
+        "evidence-backed score: leverage",
+        "evidence-backed score: timing",
+        "evidence-backed score: resource_fit",
+        "evidence-backed score: standardization",
+        "evidence-backed score: cashflow",
+        "monetization model",
+        "acquisition channel",
+        "estimated monthly fixed cost (USD)"
+      ],
+      "reasons": [],
+      "evidence_key": "coloros 17 ai capabilities|",
+      "advisory_only": true
+    }
+  ],
+  "status_counts": {
+    "needs-evidence": 1
+  },
   "policy": "Evidence-first, human-reviewed; never infer Volume/KD/CPC or auto-launch."
 }
