@@ -1,35 +1,24 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-19T00:56:14.442696+00:00
+Generated: 2026-10-19T01:08:05.186108+00:00
 
 ## Formal candidates
 
-### 1. roxx editor
-
-- Newness **96/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-09-13T00:00:00+00:00, retention **6.0%**.
-- 5y old-history gate: avg **0.03**, peak **8**, material ratio (>= 5) **0.004**; raw non-zero ratio **0.004**.
-- Source seed-rising:editor; geo Worldwide.
-
-### 2. pokemon football team builder
-
-- Newness **88/100**; money **94/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-09-15T00:00:00+00:00, retention **0.0%**.
-- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
-- Source seed-rising:builder; geo Worldwide.
-
+**今日无合格可变现新词。**
 ## Watch / rejected
 
-- gtnh planner — **old-history** — newness 95, money 94; 5y peak 56
-- fitbit edge tracker — **old-history** — newness 90, money 94; 5y peak 25
-- jesse legree stats — **commercial-watch** — newness 88, money 92
-- orka tax — **commercial-watch** — newness 84, money 88
-- tiny11 builder — **commercial-watch** — newness 58, money 100
-- pkg editor — **commercial-watch** — newness 58, money 94
-- lol tracker — **reject** — newness 40, money 100
-- trade analyzer — **reject** — newness 40, money 100
-- r6 tracker — **reject** — newness 35, money 100
-- royal mail tracker — **reject** — newness 35, money 100
-- crs calculator — **reject** — newness 35, money 94
-- valorant tracker gg — **reject** — newness 35, money 94
-- tornado tracker — **reject** — newness 30, money 100
+- ai dropshipping builder — **old-history** — newness 100, money 100; 5y peak 52
+- arc raiders skill tree builder — **old-history** — newness 100, money 100; 5y peak 100
+- sut planner — **old-history** — newness 100, money 100; 5y peak 100
+- my 9 games template — **old-history** — newness 100, money 80; 5y peak 22
+- cbe analyzer — **old-history** — newness 96, money 94; 5y peak 73
+- backcountry first responder discount — **history-unchecked** — newness 95, money 90
+- verifier coupon 1xbet — **history-unchecked** — newness 95, money 90
+- pharmacy assistant noc code — **history-unchecked** — newness 95, money 86
+- privacy.net analyzer — **history-unchecked** — newness 91, money 94
+- alo first responder discount — **history-unchecked** — newness 91, money 90
+- rest of season fantasy football rankings — **commercial-watch** — newness 78, money 92
+- creator point template — **commercial-watch** — newness 78, money 86
+- huss valley codes roblox — **commercial-watch** — newness 70, money 92
+- japanese ramen simulator — **commercial-watch** — newness 58, money 100
+- planet fitness first responder discount — **reject** — newness 0, money 90
