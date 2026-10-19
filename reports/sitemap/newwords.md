@@ -5,36 +5,38 @@
 **重要：产品或游戏刚发布，不等于该名字已有搜索量，也不等于已经通过五年历史新词核验。**
 Sitemap URL 首次出现时间、Google Trends 相对热度与搜索月量是三种不同数据。
 
-- 已核查近期发布并进入 Sitemap 队列的名称：0
-- 已明确排除为旧发布的 URL：1
+- 已核查近期发布并进入 Sitemap 队列的名称：3
+- 已明确排除为旧发布的 URL：8
 - 仅 Sitemap 新词部分：Semrush Volume/KD/CPC = 未验证
 - 从未将 Apify 收费功能或 SaaS 真实收入当成新词依据
 
 ## 近期真实上线的名称（等待搜索需求验证）
 
-当前无最近14天内、经发布方日期证实的 Sitemap 游戏/产品名称；不可凑数。
+1. **[rent king](https://www.gamepix.com/pt/play/rent-king)** — 发布 2026-10-15，距今 4 天；来源 gamepix-pt / BR （葡语目录≠巴西搜索需求）。
+   状态：名称近期上线；Google Trends 90天+5年和 Volume/KD/CPC 尚待验证。
+2. **[nations royale](https://www.gamepix.com/pt/play/nations-royale)** — 发布 2026-10-14，距今 5 天；来源 gamepix-pt / BR （葡语目录≠巴西搜索需求）。
+   状态：名称近期上线；Google Trends 90天+5年和 Volume/KD/CPC 尚待验证。
+3. **[dino arena](https://www.gamepix.com/pt/play/dino-arena)** — 发布 2026-10-12，距今 7 天；来源 gamepix-pt / BR （葡语目录≠巴西搜索需求）。
+   状态：名称近期上线；Google Trends 90天+5年和 Volume/KD/CPC 尚待验证。
 
 ## 主雷达新词趋势（不要求同时出现 Sitemap）
 
 - **eclipse animator roblox**：90天首次上升 2026-10-11T00:00:00+00:00；相对峰值 100；新意评分 100。
   - 发布方最近上线证据：有；5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。
 - **hood warfare 2**：90天首次上升 2026-10-11T00:00:00+00:00；相对峰值 100；新意评分 100。
-  - 发布方最近上线证据：未找到；5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。
-- **rj mitte manager**：90天首次上升 2026-10-12T00:00:00+00:00；相对峰值 100；新意评分 96。
-  - 发布方最近上线证据：未找到；5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。
-- **benjamin moore color of the year 2027**：90天首次上升 2026-10-14T00:00:00+00:00；相对峰值 100；新意评分 95。
-  - 发布方最近上线证据：未找到；5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。
-- **guest in residence sample sale**：90天首次上升 2026-10-13T00:00:00+00:00；相对峰值 100；新意评分 95。
-  - 发布方最近上线证据：未找到；5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。
-- **sample ballot nc**：90天首次上升 2026-10-06T00:00:00+00:00；相对峰值 100；新意评分 95。
-  - 发布方最近上线证据：未找到；5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。
-- **email format grade 12**：90天首次上升 2026-10-13T00:00:00+00:00；相对峰值 100；新意评分 91。
-  - 发布方最近上线证据：未找到；5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。
+  - 发布方最近上线证据：有；5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。
 - **radian optimizer**：90天首次上升 2026-10-09T00:00:00+00:00；相对峰值 100；新意评分 91。
   - 发布方最近上线证据：未找到；5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。
 
 ## 防止旧词混入（发布方确认的旧游戏）
 
+- ~~no mice in the kitchen~~ — 2024-03-04 上线，不是 2026-10-19 的新发布。[gamepix-pt](https://www.gamepix.com/pt/play/no-mice-in-the-kitchen)
+- ~~heaven challenge 2 player~~ — 2024-09-10 上线，不是 2026-10-19 的新发布。[gamepix-pt](https://www.gamepix.com/pt/play/heaven-challenge-2-player)
+- ~~tile rush~~ — 2025-02-27 上线，不是 2026-10-19 的新发布。[gamepix-pt](https://www.gamepix.com/pt/play/tile-rush)
+- ~~project exo assault future combats~~ — 2025-11-20 上线，不是 2026-10-19 的新发布。[gamepix-pt](https://www.gamepix.com/pt/play/project-exo-assault-future-combats)
+- ~~wyrm saga~~ — 2026-03-30 上线，不是 2026-10-19 的新发布。[gamepix-pt](https://www.gamepix.com/pt/play/wyrm-saga)
+- ~~fact or cap~~ — 2026-08-06 上线，不是 2026-10-19 的新发布。[gamepix-pt](https://www.gamepix.com/pt/play/fact-or-cap)
+- ~~zuma boom 2~~ — 2026-08-31 上线，不是 2026-10-19 的新发布。[gamepix-pt](https://www.gamepix.com/pt/play/zuma-boom-2)
 - ~~snakearea io~~ — 2026-09-30 上线，不是 2026-10-19 的新发布。[gamepix-en](https://www.gamepix.com/play/snakearea-io)
 
 ## 继续核验，不提前宣布搜索量
