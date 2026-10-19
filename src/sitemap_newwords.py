@@ -85,6 +85,7 @@ def priority(queue, verified, today):
             "query": entry["query"], "url": entry["url"],
             "source_id": entry["source_id"], "geo": entry.get("geo", ""),
             "released": proof["release_date"], "age_days": age,
+            "sitemap_first_seen": entry.get("first_seen"),
             "status": "recent_launch_not_search_verified"
         })
     out.sort(key=lambda x: (x["age_days"], x["query"]))
@@ -136,8 +137,10 @@ def audit_games(queue, known, today, fetch=safe_fetch, limit=MAX_GAME_AUDITS):
     return output
 
 
-def render(queue, age_map, radar_latest, today):
-    fresh = priority(queue, age_map, today)
+def render(queue, age_map, sitemap_checks, today):
+    # Only rows in the actual scanned Sitemap delta queue can produce output.
+    observed = [row for row in queue if row.get("first_seen") and row.get("source_id")]
+    fresh = priority(observed, age_map, today)
     known_urls = {r.get("url") for r in queue}
     older = []
     for row in queue:
@@ -146,9 +149,10 @@ def render(queue, age_map, radar_latest, today):
         if age is not None and age > WINDOW_DAYS:
             older.append((row, proof))
     lines = [
-        "# 新词雷达 — Sitemap + 真实发布时间核查", "",
+        "# 新词雷达 — 仅来自同行 Sitemap 新增 URL", "",
         f"研究日期：{today}；公开发布窗口：最近 {WINDOW_DAYS} 天。", "",
         "**重要：产品或游戏刚发布，不等于该名字已有搜索量，也不等于已经通过五年历史新词核验。**",
+        "硬性规则：没有被监控同行的 Sitemap 新增 URL 发现，就不得进入本报告。",
         "Sitemap URL 首次出现时间、Google Trends 相对热度与搜索月量是三种不同数据。", "",
         f"- 已核查近期发布并进入 Sitemap 队列的名称：{len(fresh)}",
         f"- 已明确排除为旧发布的 URL：{len(older)}",
@@ -162,36 +166,26 @@ def render(queue, age_map, radar_latest, today):
         location_note = "（葡语目录≠巴西搜索需求）" if x["geo"] == "BR" else ""
         lines += [
             f"{i}. **[{x['query']}]({x['url']})** — 发布 {x['released']}，"
-            f"距今 {x['age_days']} 天；来源 {x['source_id']} / {x['geo']} {location_note}。",
+            f"距今 {x['age_days']} 天；Sitemap 首见 {x.get('sitemap_first_seen','unknown')}；来源 {x['source_id']} / {x['geo']} {location_note}。",
             "   状态：名称近期上线；Google Trends 90天+5年和 Volume/KD/CPC 尚待验证。",
         ]
-    lines += ["", "## 主雷达新词趋势（不要求同时出现 Sitemap）", ""]
-    checked = radar_latest.get("all_checked", [])
-    # Recent developer/game/tool name discovery; don't turn a one-week
-    # seasonal query, school homework or government election search into a
-    # supposed "new keyword" simply because relative Trends peaked.
-    name_evidence = {v.get("query", "").casefold(): v for v in age_map.values()}
-    focused = re.compile(r"\b(roblox|animator|optimizer|generator|converter|calculator|codes|builder|planner|simulator|tracker|template|wave|font|fonts|game)\b", re.I)
-    rising = [row for row in checked
-              if row.get("true_new") is True and row.get("first_rise_date")
-              and (focused.search(str(row.get("keyword", ""))) or
-                   row.get("keyword", "").casefold() in name_evidence)]
-    rising.sort(key=lambda x: (-int(x.get("newness_score") or 0),
-                               -int(x.get("recent_peak") or 0)))
-    for row in rising[:8]:
-        query = row.get("keyword", "")
-        corroborated = [v for v in age_map.values()
-                        if v.get("query", "").casefold() == query.casefold()
-                        and (research_age(v.get("release_date"), today) is not None)
-                        and 0 <= research_age(v.get("release_date"), today) <= WINDOW_DAYS]
-        lines += [
-            f"- **{query}**：90天首次上升 {row.get('first_rise_date')}；"
-            f"相对峰值 {row.get('recent_peak')}；新意评分 {row.get('newness_score')}。",
-            f"  - 发布方最近上线证据：{'有' if corroborated else '未找到'}；"
-            "5年旧兴趣核验与绝对月搜索量：未通过完整独立核验，继续观察。",
-        ]
-    if not rising:
-        lines.append("- 本轮主雷达没有足以识别的新增长词。")
+    lines += ["", "## 趋势检查：只标注 Sitemap 队列中的候选", ""]
+    # IMPORTANT: independent radar discoveries must never be appended here.
+    # Only match existing observed Sitemap leads by exact market+query key.
+    for lead in fresh[:20]:
+        key = (lead.get("geo") or "WORLD") + "|" + lead["query"].casefold()
+        result = sitemap_checks.get(key, {})
+        status = result.get("status", "not_checked")
+        history = result.get("history_5y", {}).get("historically_new", "not_checked")
+        first_rise = result.get("first_rise_date") or "unknown"
+        lines.append(
+            f"- **[{lead['query']}]({lead['url']})** — "
+            f"Sitemap来源：{lead['source_id']}；"
+            f"Trends状态：{status}；首次上升：{first_rise}；"
+            f"5年历史排旧：{history}。搜索量/KD/CPC：未知。"
+        )
+    if not fresh:
+        lines.append("- 没有符合真实 Sitemap 来源 + 近期发布证据的候选，不从其他雷达补词。")
     lines += ["", "## 防止旧词混入（发布方确认的旧游戏）", ""]
     for item, proof in sorted(older, key=lambda x: x[1]["release_date"])[:12]:
         lines.append(f"- ~~{item['query']}~~ — {proof['release_date']} 上线，"
@@ -222,8 +216,8 @@ def run():
     CACHE.parent.mkdir(parents=True, exist_ok=True)
     CACHE.write_text(json.dumps(updated, ensure_ascii=False, indent=2)+"\n",
                      encoding="utf-8")
-    main = ROOT / "data/latest.json"
-    latest = json.loads(main.read_text(encoding="utf-8")) if main.exists() else {}
+    checked = ROOT / "data/sitemap/validation.json"
+    latest = json.loads(checked.read_text(encoding="utf-8")) if checked.exists() else {}
     REPORT.parent.mkdir(parents=True, exist_ok=True)
     REPORT.write_text(render(queue, combine_launch_data(manual, updated),
                              latest, today), encoding="utf-8")
