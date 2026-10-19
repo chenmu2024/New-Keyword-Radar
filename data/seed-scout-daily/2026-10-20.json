@@ -1,0 +1,203 @@
+{
+  "local_date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "target_seed_count": 74,
+  "batches": [
+    {
+      "batch_id": "2026-10-19T16:56:59.957400+00:00-29-30-31-32-33",
+      "start_index": 29,
+      "seed_indices": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "generated_at": "2026-10-19T16:56:59.957400+00:00",
+      "local_generated_at": "2026-10-20T00:56:59.957400+08:00",
+      "seed_batch": [
+        "explorer",
+        "dashboard",
+        "planner",
+        "tracker",
+        "recorder"
+      ],
+      "discovery_count": 22,
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "generated_at": "2026-10-19T16:59:44.036204+00:00",
+      "local_generated_at": "2026-10-20T00:59:44.036204+08:00",
+      "start_index": 34,
+      "seed_indices": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "seed_batch": [
+        "optimizer",
+        "scheduler",
+        "converter",
+        "viewer",
+        "extractor"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    }
+  ],
+  "scanned_seeds": [
+    "explorer",
+    "dashboard",
+    "planner",
+    "tracker",
+    "recorder"
+  ],
+  "discoveries": [
+    {
+      "seed": "tracker",
+      "query": "cbs action thriller tracker show",
+      "rise_value": 50750.0,
+      "raw_value": 50750
+    },
+    {
+      "seed": "tracker",
+      "query": "tracker original parts",
+      "rise_value": 6800.0,
+      "raw_value": 6800
+    },
+    {
+      "seed": "tracker",
+      "query": "tracker s4e3",
+      "rise_value": 6200.0,
+      "raw_value": 6200
+    },
+    {
+      "seed": "tracker",
+      "query": "ircc application status tracker",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "tracker",
+      "query": "ircc application tracker",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "tracker",
+      "query": "tracker ircc",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "tracker",
+      "query": "ircc tracker login",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "tracker",
+      "query": "application status tracker",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "tracker",
+      "query": "typhoon tracker",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "planner",
+      "query": "sut planner",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "tracker",
+      "query": "fitbit edge tracker",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "tracker",
+      "query": "pr tracker",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "dashboard",
+      "query": "ipo dashboard",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "explorer",
+      "query": "hypernet explorer",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "tracker",
+      "query": "royal mail tracker",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "dashboard",
+      "query": "california dashboard",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "tracker",
+      "query": "citizenship application tracker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "tracker",
+      "query": "citizenship tracker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "tracker",
+      "query": "poshan tracker update",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "recorder",
+      "query": "sáo recorder",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "dashboard",
+      "query": "ca dashboard",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "explorer",
+      "query": "montblanc explorer infinite",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "discovery_count": 22,
+  "updated_at": "2026-10-19T16:59:44.036204+00:00",
+  "scanned_seed_count": 5,
+  "batch_count": 1,
+  "attempted_seed_count": 10,
+  "complete_20_seeds": false,
+  "complete_daily_target": false,
+  "completion_pct": 6.8,
+  "failed_seed_count": 5
+}
