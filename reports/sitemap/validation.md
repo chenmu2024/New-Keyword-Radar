@@ -6,11 +6,28 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 6
+- Total distinct expressions researched: 8
 - 90-day + historical-interest passes: 0
 - Confirmed absolute Volume/KD/CPC: 0 (not supplied)
+- A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### ai readiness audit (US)
+- Source: [apify-actors-a](https://apify.com/agentsgearbox/ai-readiness-audit)
+- Checked: 2026-10-19T10:26:50.601202+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Monetary score is only a heuristic: 49 (software); actual earnings unknown
+- Data error: Missing Google Trends observations
+
+### rust wait until (US)
+- Source: [vercel-product-watch](https://vercel.com/templates/axum/rust-wait-until)
+- Checked: 2026-10-19T10:26:50.601202+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Monetary score is only a heuristic: 26 (informational); actual earnings unknown
+- Data error: Missing Google Trends observations
 
 ### acinsoft email domain security audit (US)
 - Source: [apify-actors-a](https://apify.com/acinsoft/acinsoft-email-domain-security-audit)

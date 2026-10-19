@@ -5,24 +5,24 @@ Sources succeeded: 18/18; new URLs: 0; candidate leads: 0; retained queue: 244.
 
 ## Sources
 
-- crazygames-en: delta; 0 new URLs; 5259 pages
-- crazygames-br: delta; 0 new URLs; 5259 pages
-- crazygames-es: delta; 0 new URLs; 5259 pages
-- gamepix-en: delta; 0 new URLs; 19239 pages
-- gamepix-pt: delta; 0 new URLs; 19239 pages
-- minijuegos-es: delta; 0 new URLs; 27516 pages
-- friv-en: delta; 0 new URLs; 1183 pages
-- calculator-soup: delta; 0 new URLs; 501 pages
-- vercel-product-watch: delta; 0 new URLs; 2063 pages
-- n8n-workflows: delta; 0 new URLs; 13433 pages
-- railway-templates: delta; 0 new URLs; 6856 pages
-- railway-changelog: delta; 0 new URLs; 312 pages
-- apify-actors-a: delta; 0 new URLs; 5868 pages
-- apify-actors-z: delta; 0 new URLs; 6322 pages
-- futurepedia-tools: delta; 0 new URLs; 1329 pages
-- netlify-product-watch: delta; 0 new URLs; 796 pages
-- onlinetools-br: delta; 0 new URLs; 99 pages
-- producthunt-products: delta; 0 new URLs; 21688 pages
+- crazygames-en: delta; 0 new URLs; 5259 pages; removed 0; candidate scan cap skipped 0
+- crazygames-br: delta; 0 new URLs; 5259 pages; removed 0; candidate scan cap skipped 0
+- crazygames-es: delta; 0 new URLs; 5259 pages; removed 0; candidate scan cap skipped 0
+- gamepix-en: delta; 0 new URLs; 19239 pages; removed 0; candidate scan cap skipped 0
+- gamepix-pt: delta; 0 new URLs; 19239 pages; removed 0; candidate scan cap skipped 0
+- minijuegos-es: delta; 0 new URLs; 27516 pages; removed 0; candidate scan cap skipped 0
+- friv-en: delta; 0 new URLs; 1183 pages; removed 0; candidate scan cap skipped 0
+- calculator-soup: delta; 0 new URLs; 501 pages; removed 0; candidate scan cap skipped 0
+- vercel-product-watch: delta; 0 new URLs; 2063 pages; removed 0; candidate scan cap skipped 0
+- n8n-workflows: delta; 0 new URLs; 13433 pages; removed 0; candidate scan cap skipped 0
+- railway-templates: delta; 0 new URLs; 6856 pages; removed 0; candidate scan cap skipped 0
+- railway-changelog: delta; 0 new URLs; 312 pages; removed 0; candidate scan cap skipped 0
+- apify-actors-a: delta; 0 new URLs; 5868 pages; removed 0; candidate scan cap skipped 0
+- apify-actors-z: delta; 0 new URLs; 6322 pages; removed 0; candidate scan cap skipped 0
+- futurepedia-tools: delta; 0 new URLs; 1329 pages; removed 0; candidate scan cap skipped 0
+- netlify-product-watch: delta; 0 new URLs; 796 pages; removed 0; candidate scan cap skipped 0
+- onlinetools-br: delta; 0 new URLs; 99 pages; removed 0; candidate scan cap skipped 0
+- producthunt-products: delta; 0 new URLs; 21688 pages; removed 0; candidate scan cap skipped 0
 
 ## New URL leads (not proven new keywords)
 
