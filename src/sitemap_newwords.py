@@ -73,10 +73,24 @@ def research_age(when, today):
         return None
 
 
+def observed_from_monitored_sitemap(row, today):
+    """Only real URL deltas from the configured pilot feeds qualify."""
+    config = json.loads((ROOT / "config/sitemap_sources.json").read_text(encoding="utf-8"))
+    allowed = {source["id"] for source in config["sources"]}
+    first = str(row.get("first_seen") or "")
+    return (row.get("source_id") in allowed
+            and str(row.get("url", "")).startswith("https://")
+            and bool(row.get("query"))
+            and config["trial_start"] <= first < config["trial_end_exclusive"]
+            and first <= today)
+
+
 def priority(queue, verified, today):
     """Return only launched-in-last-14-days names, not all new URLs."""
     out = []
     for entry in queue:
+        if not observed_from_monitored_sitemap(entry, today):
+            continue
         proof = verified.get(entry.get("url"), {})
         age = research_age(proof.get("release_date"), today)
         if age is None or not 0 <= age <= WINDOW_DAYS:
@@ -139,7 +153,7 @@ def audit_games(queue, known, today, fetch=safe_fetch, limit=MAX_GAME_AUDITS):
 
 def render(queue, age_map, sitemap_checks, today):
     # Only rows in the actual scanned Sitemap delta queue can produce output.
-    observed = [row for row in queue if row.get("first_seen") and row.get("source_id")]
+    observed = [row for row in queue if observed_from_monitored_sitemap(row, today)]
     fresh = priority(observed, age_map, today)
     known_urls = {r.get("url") for r in queue}
     older = []
