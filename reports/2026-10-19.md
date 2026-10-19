@@ -1,24 +1,24 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-19T02:41:50.074690+00:00
+Generated: 2026-10-19T03:15:14.069779+00:00
 
 ## Formal candidates
 
 **今日无合格可变现新词。**
 ## Watch / rejected
 
-- radiantoptimizer — **trend-watch** — newness 100, money 22
-- nearjobs.lk management assistant job vacancies — **trend-watch** — newness 95, money 26
-- octane optimizer — **trend-watch** — newness 95, money 26
-- proxy scraper duckduckgo indonesia video — **trend-watch** — newness 95, money 26
-- jtet admit card 2026 — **trend-watch** — newness 91, money 26
-- casino online nl 🇳🇱 www.palmy.best 🇳🇱 — **trend-watch** — newness 88, money 26
-- online casino boni 🇩🇪 casinod.vip — **trend-watch** — newness 88, money 26
-- alabama tennessee game — **reject** — newness 82, money 26
-- paul thomas essendon assistant coach — **reject** — newness 76, money 26
-- a little doodle for example — **reject** — newness 71, money 26
-- pli scheme public sector banks — **reject** — newness 66, money 26
-- sign language interpreter wap — **reject** — newness 53, money 26
-- muse ai — **reject** — newness 40, money 55
-- justin hartley tracker — **error** — newness 0, money 94 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
-- casino online nl 🇳🇱 www.palmy.best — **error** — newness 0, money 26 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- maasranga tv instagram — **trend-watch** — newness 100, money 26
+- figcraft — **trend-watch** — newness 100, money 22
+- aspirant 5.0 pattern — **trend-watch** — newness 95, money 26
+- georgia sample ballot — **trend-watch** — newness 95, money 26
+- pattern beauty styling cream — **trend-watch** — newness 95, money 26
+- chiefs midseason wide receiver trade rumors — **trend-watch** — newness 88, money 26
+- fessenheim reactor steel sample removal — **trend-watch** — newness 88, money 26
+- first home scheme drawdowns increase — **trend-watch** — newness 88, money 26
+- galatasaray barcelona welcher sender — **trend-watch** — newness 88, money 26
+- retro phone receiver — **reject** — newness 73, money 26
+- rugby league world cup format — **reject** — newness 53, money 26
+- auburn game — **reject** — newness 52, money 26
+- justin hartley tracker — **commercial-watch** — newness 50, money 100
+- motorola g57 power 5g snapdragon 6s gen 4 processor — **reject** — newness 15, money 26
+- spruted remastered cocrea — **reject** — newness 0, money 26
