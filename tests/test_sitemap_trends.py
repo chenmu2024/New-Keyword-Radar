@@ -94,6 +94,22 @@ class SitemapTrendsTests(unittest.TestCase):
         self.assertIn("blocked", row["error"])
         self.assertFalse(row["independently_verified_new_keyword"])
 
+    def test_report_distinguishes_workflow_success_from_data_coverage(self):
+        now = NOW
+        rows = {"x": {"query": "test", "url": "https://a.test", "status": "error",
+                      "checked_at": now.isoformat(), "baseline_avg": None,
+                      "recent_peak": None, "source_id": "example"},
+                "y": {"query": "test2", "url": "https://a.test", "status": "no_recent_trends_breakout",
+                      "checked_at": now.isoformat(), "baseline_avg": 1.1,
+                      "recent_peak": 2, "source_id": "example"}}
+        summary = s.coverage(rows)
+        self.assertEqual(summary["usable"], 1)
+        self.assertEqual(summary["missing"], 1)
+        self.assertEqual(summary["status"], "partial_coverage")
+        report = s.render(rows, now)
+        self.assertIn("Usable Google Trends time series: 1/2", report)
+        self.assertIn("Missing or failed Google Trends time series: 1/2", report)
+
     def test_no_observations_is_insufficient_not_zero_volume(self):
         row = s.check(lead("local tool"), {}, NOW,
                       lambda *args: {"verdict": "reject", "true_new": False,

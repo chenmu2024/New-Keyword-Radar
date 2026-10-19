@@ -130,8 +130,23 @@ def check(lead, cfg, now, explore=None, five_year=None):
     return row
 
 
+def coverage(store):
+    """Availability of actual Trends time-series, not a measure of SEO demand."""
+    rows = list(store.values())
+    usable = sum(row.get("baseline_avg") is not None and
+                 row.get("recent_peak") is not None for row in rows)
+    missing = len(rows) - usable
+    hard_errors = sum(row.get("status") == "error" for row in rows)
+    return {"total": len(rows), "usable": usable, "missing": missing,
+            "hard_errors": hard_errors,
+            "status": "no_usable_series" if rows and usable == 0 else
+                      "partial_coverage" if missing else
+                      "not_checked" if not rows else "series_available"}
+
+
 def render(store, now):
     items = sorted(store.values(), key=lambda x: x.get("checked_at", ""), reverse=True)
+    quality = coverage(store)
     lines = ["# Sitemap to Google Trends validation — " + now.date().isoformat(), "",
              "This is independent research; original keyword seeds, commercial",
              "thresholds and the main radar candidate ranking are untouched.",
@@ -139,6 +154,9 @@ def render(store, now):
              "No URL finding or Trends spike alone establishes a new keyword,",
              "a winnable SERP, paid demand or monthly search volume.", "",
              f"- Total distinct expressions researched: {len(items)}",
+             f"- Usable Google Trends time series: {quality['usable']}/{quality['total']}",
+             f"- Missing or failed Google Trends time series: {quality['missing']}/{quality['total']}",
+             f"- Data coverage status: {quality['status']} (not a keyword verdict)",
              f"- 90-day + historical-interest passes: {sum(x.get('status') == 'trends_history_pass' for x in items)}",
              f"- Confirmed absolute Volume/KD/CPC: 0 (not supplied)",
              "- A zero relative Trends peak does NOT establish zero searches.", "",
@@ -178,7 +196,10 @@ def run(now=None):
     STORE.write_text(json.dumps(saved, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     REPORT.parent.mkdir(parents=True, exist_ok=True)
     REPORT.write_text(render(saved, now), encoding="utf-8")
+    health = coverage(saved)
     print(f"Sitemap validation: checked {len(selected)}, saved {len(saved)} results")
+    print(f"Google Trends coverage: {health['usable']}/{health['total']} usable series; "
+          f"{health['missing']} missing/failed; status={health['status']}")
     return saved
 
 
