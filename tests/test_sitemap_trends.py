@@ -117,6 +117,24 @@ class SitemapTrendsTests(unittest.TestCase):
         self.assertFalse(s.in_pilot("2026-11-02", trial))
         self.assertFalse(s.in_pilot("2026-10-18", trial))
 
+    def test_rate_limit_fail_closed_and_global_backoff(self):
+        from datetime import timedelta
+        def blocked(*args):
+            return {"verdict": "error", "series": [], "error": "RateLimitError: HTTP 429"}
+        row = s.check(lead("invoice checker"), {}, NOW, blocked, lambda *args: {})
+        self.assertEqual(row["status"], "rate_limited")
+        self.assertFalse(row["independently_verified_new_keyword"])
+        until = s.rate_limit_until({"x": row}, NOW + timedelta(hours=20))
+        self.assertEqual(until, NOW + timedelta(hours=36))
+        self.assertIsNone(s.rate_limit_until({"x": row}, NOW + timedelta(hours=37)))
+
+    def test_legacy_rate_limit_error_activates_backoff(self):
+        from datetime import timedelta
+        stored = {"test": {"status": "error",
+                           "error": "RateLimitError: Google rate-limited Explore",
+                           "checked_at": NOW.isoformat()}}
+        self.assertIsNotNone(s.rate_limit_until(stored, NOW + timedelta(hours=1)))
+
     def test_no_observations_is_insufficient_not_zero_volume(self):
         row = s.check(lead("local tool"), {}, NOW,
                       lambda *args: {"verdict": "reject", "true_new": False,

@@ -6,7 +6,7 @@ are Semrush Volume/KD/CPC or proof of business revenue.
 """
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 import json
@@ -21,6 +21,7 @@ QUEUE = ROOT / "data/sitemap/queue.json"
 STORE = ROOT / "data/sitemap/validation.json"
 REPORT = ROOT / "reports/sitemap/validation.md"
 MAX_CHECKS = 2  # Total per scan, not per source. Avoid Google rate limits.
+BACKOFF_HOURS = 36  # A 429 or RateLimitError suspends the entire isolated checker.
 RESEARCH_CUE = re.compile(r"\b(backup|checker|calculator|generator|converter|monitor|transcript|planner|export|audit|invoice|price|seo|workflow|automation|data cleaning)\b", re.I)
 
 
@@ -111,7 +112,9 @@ def check(lead, cfg, now, explore=None, five_year=None):
             "recent_peak", "retention_pct", "first_rise_date", "true_new")})
         if result.get("verdict") == "error" or not result.get("series"):
             row["error"] = result.get("error", "Missing Google Trends observations")
-            row["status"] = ("insufficient_data" if
+            row["status"] = ("rate_limited" if "RateLimitError" in row["error"] or
+                             "429 Too Many Requests" in row["error"] else
+                             "insufficient_data" if
                              "Missing Google Trends observations" in row["error"] else "error")
         elif result.get("true_new") is True:
             history = five_year(lead["query"], lead.get("geo", ""), cfg)
@@ -125,9 +128,29 @@ def check(lead, cfg, now, explore=None, five_year=None):
         else:
             row["status"] = "no_recent_trends_breakout"
     except Exception as exc:
-        row["status"] = "error"
         row["error"] = type(exc).__name__ + ": " + str(exc)[:200]
+        row["status"] = ("rate_limited" if "RateLimitError" in row["error"] or
+                         "429 Too Many Requests" in row["error"] else "error")
     return row
+
+
+def rate_limit_until(store, now):
+    """Detect both new and legacy rate-limit errors; time-zone aware fail-close."""
+    end = None
+    for row in store.values():
+        err = str(row.get("error") or "")
+        if row.get("status") != "rate_limited" and "RateLimitError" not in err and "429 Too Many Requests" not in err:
+            continue
+        try:
+            observed = datetime.fromisoformat(str(row["checked_at"]))
+            if observed.tzinfo is None:
+                continue
+            deadline = observed.astimezone(now.tzinfo) + timedelta(hours=BACKOFF_HOURS)
+            if deadline > now and (end is None or deadline > end):
+                end = deadline
+        except (ValueError, TypeError, KeyError):
+            continue
+    return end
 
 
 def coverage(store):
@@ -157,6 +180,7 @@ def render(store, now):
              f"- Usable Google Trends time series: {quality['usable']}/{quality['total']}",
              f"- Missing or failed Google Trends time series: {quality['missing']}/{quality['total']}",
              f"- Data coverage status: {quality['status']} (not a keyword verdict)",
+             f"- Rate-limit safety backoff: {rate_limit_until(store, now).isoformat() if rate_limit_until(store, now) else 'inactive'}",
              f"- 90-day + historical-interest passes: {sum(x.get('status') == 'trends_history_pass' for x in items)}",
              f"- Confirmed absolute Volume/KD/CPC: 0 (not supplied)",
              "- A zero relative Trends peak does NOT establish zero searches.", "",
@@ -195,11 +219,18 @@ def run(now=None):
     cfg = json.loads(CFG.read_text(encoding="utf-8"))
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
     saved = json.loads(STORE.read_text(encoding="utf-8")) if STORE.exists() else {}
-    selected = select(queue, saved, now.date().isoformat())
+    until = rate_limit_until(saved, now)
+    selected = [] if until else select(queue, saved, now.date().isoformat())
+    if until:
+        print(f"Google Trends rate-limit backoff active until {until.isoformat()}: no requests")
     for lead in selected:
         result = check(lead, cfg, now)
         saved[key(lead)] = result
         print(f"Trends sitemap check {lead['query']}: {result['status']}")
+        # Do not send a second request after a single rate-limit signal.
+        if result["status"] == "rate_limited":
+            print("Google Trends rate-limited: stop batch; enter 36-hour backoff")
+            break
     STORE.parent.mkdir(parents=True, exist_ok=True)
     STORE.write_text(json.dumps(saved, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     REPORT.parent.mkdir(parents=True, exist_ok=True)
