@@ -32,6 +32,20 @@ class SitemapTrendsTests(unittest.TestCase):
             s.select(queue, {}, "2026-10-19", limit=3)
         self.assertEqual(s.select(queue, {}, "2026-10-19", limit=0), [])
 
+    def test_validation_quota_is_not_monopolized_by_one_source(self):
+        q = [lead("youtube transcript scraper", source="apify-actors-a"),
+             lead("shopify price monitor", source="apify-actors-a"),
+             lead("database backup", source="railway-templates")]
+        chosen = s.select(q, {}, "2026-10-19")
+        self.assertEqual(len(chosen), 2)
+        self.assertEqual(len({row["source_id"] for row in chosen}), 2)
+
+    def test_government_keywords_do_not_enter_validation(self):
+        queue = [lead("uk public tenders tracker", source="apify-actors-a", cue=True),
+                 lead("database backup", source="railway-templates")]
+        chosen = s.select(queue, {}, "2026-10-19")
+        self.assertEqual([row["query"] for row in chosen], ["database backup"])
+
     def test_cooldown_and_retry_failed(self):
         queue = [lead("database backup"), lead("invoice checker")]
         state = {s.key(queue[0]): {"checked_date": "2026-10-19", "status": "older_interest"},
