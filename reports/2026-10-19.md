@@ -1,24 +1,24 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-19T02:36:10.813676+00:00
+Generated: 2026-10-19T02:41:50.074690+00:00
 
 ## Formal candidates
 
 **今日无合格可变现新词。**
 ## Watch / rejected
 
-- auburn georgia game — **trend-watch** — newness 100, money 26
-- email marketing for restaurants — **trend-watch** — newness 100, money 26
-- flux 3 image klein — **trend-watch** — newness 100, money 26
-- flux 3 klein — **trend-watch** — newness 100, money 26
-- hc andersen født — **trend-watch** — newness 100, money 26
-- hood warfare 2 steam — **trend-watch** — newness 100, money 26
-- høretelefoner løb — **trend-watch** — newness 100, money 26
-- stet admit card — **trend-watch** — newness 100, money 26
-- jtet admit card — **trend-watch** — newness 96, money 26
-- cardi b sign language interpreter — **trend-watch** — newness 95, money 26
-- legetøj tilbud — **trend-watch** — newness 93, money 26
-- casino online 🇳🇱 www.palmy.best — **trend-watch** — newness 91, money 26
-- baroque composer johann melchior — **trend-watch** — newness 88, money 26
-- schlagerboom 2026 — **reject** — newness 60, money 26
-- tradecopia — **reject** — newness 40, money 22
+- radiantoptimizer — **trend-watch** — newness 100, money 22
+- nearjobs.lk management assistant job vacancies — **trend-watch** — newness 95, money 26
+- octane optimizer — **trend-watch** — newness 95, money 26
+- proxy scraper duckduckgo indonesia video — **trend-watch** — newness 95, money 26
+- jtet admit card 2026 — **trend-watch** — newness 91, money 26
+- casino online nl 🇳🇱 www.palmy.best 🇳🇱 — **trend-watch** — newness 88, money 26
+- online casino boni 🇩🇪 casinod.vip — **trend-watch** — newness 88, money 26
+- alabama tennessee game — **reject** — newness 82, money 26
+- paul thomas essendon assistant coach — **reject** — newness 76, money 26
+- a little doodle for example — **reject** — newness 71, money 26
+- pli scheme public sector banks — **reject** — newness 66, money 26
+- sign language interpreter wap — **reject** — newness 53, money 26
+- muse ai — **reject** — newness 40, money 55
+- justin hartley tracker — **error** — newness 0, money 94 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- casino online nl 🇳🇱 www.palmy.best — **error** — newness 0, money 26 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
