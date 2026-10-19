@@ -115,7 +115,7 @@ class SitemapTests(unittest.TestCase):
             return urlset(*urls)
         links, files = m.collect_sitemap(root, fetch,
                       page_path_regex=r"^/[^/]+/[^/]+/?$")
-        self.assertEqual(links, [urls[0], urls[3]])
+        self.assertEqual(links, sorted([urls[0], urls[3]]))
         self.assertEqual(files, 1)
 
     def test_bounded_path_prefixes(self):
