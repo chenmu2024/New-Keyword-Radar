@@ -1,6 +1,6 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-19T01:36:47.592603+00:00
+Generated: 2026-10-19T01:40:20.119751+00:00
 
 ## Formal candidates
 
@@ -26,11 +26,4 @@ Generated: 2026-10-19T01:36:47.592603+00:00
 - online casino ohne limit 🇩🇪 toni-bauer.online 🇩🇪 — **trend-watch** — newness 95, money 26
 - kavya maran — **reject** — newness 72, money 26
 - crs score calculator — **reject** — newness 40, money 100
-- clash royale deck evaluator — **error** — newness 0, money 26 — BrowserError: Google Trends Explore did not render the interest-over-time chart, and no rate-limit message was shown — the page structure may have changed.
-
-This usually means Google updated the Explore UI. Solutions:
-• Update trendspyg: pip install --upgrade trendspyg
-• Run with headless=False (CLI: --visible) to see the page
-• Report it: https://github.com/flack0x/trendspyg/issues
-
-Keyword: 'clash royale deck evaluator' | Geo:  | Timeframe: today 3-m
+- clash royale deck evaluator — **reject** — newness 0, money 26
