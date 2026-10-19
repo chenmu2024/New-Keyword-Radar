@@ -95,7 +95,7 @@ def xml_items(raw):
     return tag, out
 
 
-def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000):
+def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000, max_bytes=MAX_BYTES):
     """Reject incomplete scans: an incomplete set must never replace baseline."""
     allowed = host(root_url)
     todo = [(root_url, 0)]
@@ -107,7 +107,7 @@ def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000)
         if depth > 3 or fetched >= max_sitemaps:
             raise ValueError("Sitemap index exceeds configured traversal limit")
         seen.add(url)
-        tag, links = xml_items(fetch(url, allowed))
+        tag, links = xml_items(fetch(url, allowed, max_bytes))
         fetched += 1
         if tag == "sitemapindex":
             if depth >= 3:
@@ -188,7 +188,8 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
         name, url = source["id"], source["sitemap"]
         previous_site = states.get(name)
         try:
-            urls, nfiles = collect_sitemap(url, fetch, max_files, max_pages)
+            urls, nfiles = collect_sitemap(url, fetch, max_files, max_pages,
+                                           int(source.get('max_bytes', MAX_BYTES)))
             hashes = {digest(link) for link in urls}
             old = set(previous_site["hashes"]) if previous_site and "hashes" in previous_site else None
             novel = [] if old is None else [link for link in urls if digest(link) not in old]

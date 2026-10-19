@@ -18,7 +18,7 @@ useful independently validated leads after the trial.
 - First successful source scan stores a URL hash baseline and reports **zero new URLs**.
 - Subsequent scans calculate set additions, independently of often-misleading lastmod.
 - Errors, truncated XML, too many pages/sitemaps and blocked requests preserve old snapshot.
-- Cross-domain URLs/redirects, non-HTTPS, very large downloads and image/video feeds are blocked.
+- Cross-domain URLs/redirects, non-HTTPS, very large downloads and image/video feeds are blocked. CrazyGames locale XML uses a bounded 25 MB per-source cap because the default 7 MB cap was exceeded in the first pilot run; other sources retain 7 MB.
 - Newly seen slugs provide leads; a small bounded HTML title/H1 lookup is optional. A URL is
   NOT a new keyword, not search Volume, and not revenue evidence.
 - Output is isolated under state/sitemap/, data/sitemap/, reports/sitemap/.
