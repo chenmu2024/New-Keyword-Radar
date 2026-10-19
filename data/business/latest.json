@@ -1,8 +1,85 @@
 {
-  "generated_at": "2026-10-19T00:43:13.765823+00:00",
-  "source_radar_generated_at": "2026-10-19T00:43:12.238103+00:00",
-  "formal_candidate_count": 0,
-  "assessments": [],
-  "status_counts": {},
+  "generated_at": "2026-10-19T00:57:15.334183+00:00",
+  "source_radar_generated_at": "2026-10-19T00:56:14.442696+00:00",
+  "formal_candidate_count": 2,
+  "assessments": [
+    {
+      "keyword": "roxx editor",
+      "geo": "",
+      "radar_verdict": "formal",
+      "newness_score": 96,
+      "money_score": 100,
+      "volume": null,
+      "kd": null,
+      "cpc": null,
+      "six_dimensions": {
+        "pain": null,
+        "leverage": null,
+        "timing": null,
+        "resource_fit": null,
+        "standardization": null,
+        "cashflow": null
+      },
+      "score_total": null,
+      "status": "needs-evidence",
+      "missing": [
+        "dated Volume/KD and source",
+        "dated SERP inspection and notes",
+        "dated reference-site traffic or verified recent-game signal",
+        "evidence-backed score: pain",
+        "evidence-backed score: leverage",
+        "evidence-backed score: timing",
+        "evidence-backed score: resource_fit",
+        "evidence-backed score: standardization",
+        "evidence-backed score: cashflow",
+        "monetization model",
+        "acquisition channel",
+        "estimated monthly fixed cost (USD)"
+      ],
+      "reasons": [],
+      "evidence_key": "roxx editor|",
+      "advisory_only": true
+    },
+    {
+      "keyword": "pokemon football team builder",
+      "geo": "",
+      "radar_verdict": "formal",
+      "newness_score": 88,
+      "money_score": 94,
+      "volume": null,
+      "kd": null,
+      "cpc": null,
+      "six_dimensions": {
+        "pain": null,
+        "leverage": null,
+        "timing": null,
+        "resource_fit": null,
+        "standardization": null,
+        "cashflow": null
+      },
+      "score_total": null,
+      "status": "needs-evidence",
+      "missing": [
+        "dated Volume/KD and source",
+        "dated SERP inspection and notes",
+        "dated reference-site traffic or verified recent-game signal",
+        "evidence-backed score: pain",
+        "evidence-backed score: leverage",
+        "evidence-backed score: timing",
+        "evidence-backed score: resource_fit",
+        "evidence-backed score: standardization",
+        "evidence-backed score: cashflow",
+        "monetization model",
+        "acquisition channel",
+        "estimated monthly fixed cost (USD)"
+      ],
+      "reasons": [],
+      "evidence_key": "pokemon football team builder|",
+      "advisory_only": true
+    }
+  ],
+  "status_counts": {
+    "needs-evidence": 2
+  },
   "policy": "Evidence-first, human-reviewed; never infer Volume/KD/CPC or auto-launch."
 }
