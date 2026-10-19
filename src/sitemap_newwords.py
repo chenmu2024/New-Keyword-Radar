@@ -157,7 +157,7 @@ def render(queue, age_map, sitemap_checks, today):
     fresh = priority(observed, age_map, today)
     known_urls = {r.get("url") for r in queue}
     older = []
-    for row in queue:
+    for row in observed:
         proof = age_map.get(row.get("url"), {})
         age = research_age(proof.get("release_date"), today)
         if age is not None and age > WINDOW_DAYS:
