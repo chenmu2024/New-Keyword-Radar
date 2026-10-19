@@ -29,6 +29,7 @@ LATEST = ROOT / "data/sitemap/latest.json"
 REPORT = ROOT / "reports/sitemap/latest.md"
 MAX_BYTES = 7_000_000
 MAX_QUEUE = 2000  # Research leads, not the hashed Sitemap baseline. Bounded Git footprint.
+MAX_REMOVED_HASHES = 10000  # Per source, bounded anti-churn memory.
 USER_AGENT = "NewKeywordRadar-SitemapResearch/1.0 (+public-sitemaps; polite daily checks)"
 SKIP = re.compile(
     r"(^|/)(tag|tags|category|categories|author|authors|login|signup|"
@@ -232,8 +233,15 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
                 source.get("include_page_path_regex"), source.get("exclude_path_prefixes"))
             hashes = {digest(link) for link in urls}
             old = set(previous_site["hashes"]) if previous_site and "hashes" in previous_site else None
-            novel = [] if old is None else [link for link in urls if digest(link) not in old]
-            removed_count = len(old - hashes) if old is not None else 0
+            retired = set((previous_site or {}).get("retired_hashes", []))
+            # Reappearing URLs are not freshly published pages.
+            reappeared = [] if old is None else [
+                link for link in urls if digest(link) not in old and digest(link) in retired]
+            novel = [] if old is None else [
+                link for link in urls if digest(link) not in old and digest(link) not in retired]
+            removed_hashes = (old - hashes) if old is not None else set()
+            removed_count = len(removed_hashes)
+            retired.update(removed_hashes)
             stage = "baseline" if old is None else "delta"
             chosen, eligible_count = select_novel_leads(
                 novel, int(config.get("max_new_urls_per_source", 80)))
@@ -246,9 +254,11 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
                                  "first_seen": today, "tool_intent_hint": bool(CUE.search(query)),
                                  **meta})
             states[name] = {"hashes": sorted(hashes), "checked_at": today,
+                            "retired_hashes": sorted(retired)[:MAX_REMOVED_HASHES],
                             "count": len(urls), "files": nfiles}
             status.append({"source_id": name, "status": stage, "page_count": len(urls),
                            "new_url_count": len(novel), "removed_url_count": removed_count,
+                           "reappeared_url_count": len(reappeared),
                            "eligible_candidate_count": eligible_count,
                            "candidate_count": len(chosen),
                            "candidates_over_scan_cap": max(0, eligible_count - len(chosen)),
@@ -323,13 +333,21 @@ def run(root=ROOT, enrich=True):
     previous = load_json(state_path, {})
     updated, findings, status = scan(cfg, previous, enrich=enrich, today=day)
     previous_queue = load_json(queue_path, [])
+    known = {(str(row.get("query", "")).casefold(),
+              str(row.get("geo", "")).upper()) for row in previous_queue}
+    first_seen = {(str(row.get("query", "")).casefold(),
+                   str(row.get("geo", "")).upper()) for row in findings}
+    truly_new_research_leads = len(first_seen - known)
     queue = merge_queue(previous_queue, findings)
     success = sum(x["status"] != "error" for x in status)
     payload = {"generated_at": now.isoformat(), "date": day, "trial_start": cfg["trial_start"],
                "trial_end_exclusive": cfg["trial_end_exclusive"], "source_count": len(status),
                "success_count": success, "new_url_count": sum(
                    x.get("new_url_count", 0) for x in status),
-               "new_candidate_count": len(findings), "queue_size": len(queue),
+               "new_candidate_count": len(findings),
+               "new_unique_research_lead_count": truly_new_research_leads,
+               "reappeared_url_count": sum(x.get("reappeared_url_count", 0) for x in status),
+               "queue_size": len(queue),
                "queue_limit": MAX_QUEUE,
                "keyword_metrics_verified": False, "newness_verified": False,
                "sources": status, "candidates": findings[:100]}
@@ -344,13 +362,16 @@ def run(root=ROOT, enrich=True):
     lines = ["# Sitemap delta research — " + day, "",
              "Unverified leads only. Baseline URL snapshots are NOT discoveries.",
              f"Sources succeeded: {success}/{len(status)}; new URLs: {payload['new_url_count']}; "
-             f"candidate leads: {len(findings)}; retained queue: {len(queue)}.", "",
+             f"candidate URL leads: {len(findings)}; first-time keyword/geo research leads: "
+             f"{truly_new_research_leads}; reappeared URLs: {payload['reappeared_url_count']}; "
+             f"retained queue: {len(queue)}. Neither URL changes nor leads establish search demand.", "",
              "## Sources", ""]
     for row in status:
         lines.append("- " + row["source_id"] + ": " + row["status"] + "; "
                      + str(row.get("new_url_count", 0)) + " new URLs; "
                      + str(row.get("page_count", "?")) + " pages"
                      + "; removed " + str(row.get("removed_url_count", "?"))
+                     + "; reappeared " + str(row.get("reappeared_url_count", "?"))
                      + "; candidate scan cap skipped " + str(row.get("candidates_over_scan_cap", "?"))
                      + ("; " + row["error"] if row.get("error") else ""))
     lines.extend(["", "## New URL leads (not proven new keywords)", ""])
