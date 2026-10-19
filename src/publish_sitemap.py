@@ -109,7 +109,7 @@ def publish():
             if stamp:
                 live_queue = load(ROOT / "data/sitemap/queue.json", [])
                 launch_evidence = load(ROOT / "data/sitemap/launch_evidence.json", {})
-                main = load(ROOT / "data/latest.json", {})
+                main = load(ROOT / "data/sitemap/validation.json", {})
                 combined = combine_launch_data(launch_evidence, remote_age)
                 (ROOT / "reports/sitemap/newwords.md").write_text(
                     render_newwords(live_queue, combined, main,
