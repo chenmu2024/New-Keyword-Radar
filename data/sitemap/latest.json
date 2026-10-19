@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-19T08:27:06.676566+08:00",
+  "generated_at": "2026-10-19T08:30:52.690311+08:00",
   "date": "2026-10-19",
   "trial_start": "2026-10-19",
   "trial_end_exclusive": "2026-11-02",
-  "source_count": 9,
+  "source_count": 8,
   "success_count": 5,
   "new_url_count": 0,
   "new_candidate_count": 0,
@@ -14,27 +14,37 @@
     {
       "source_id": "crazygames-en",
       "status": "error",
-      "error": "ValueError: More sitemap files than safety cap; increase deliberately"
+      "error": "ValueError: Response exceeds size limit"
+    },
+    {
+      "source_id": "crazygames-br",
+      "status": "error",
+      "error": "ValueError: Response exceeds size limit"
+    },
+    {
+      "source_id": "crazygames-es",
+      "status": "error",
+      "error": "ValueError: Response exceeds size limit"
     },
     {
       "source_id": "gamepix-en",
-      "status": "baseline",
-      "page_count": 19239,
+      "status": "delta",
+      "page_count": 19238,
       "new_url_count": 0,
       "candidate_count": 0,
       "sitemap_files": 11
     },
     {
       "source_id": "gamepix-pt",
-      "status": "baseline",
-      "page_count": 19239,
+      "status": "delta",
+      "page_count": 19217,
       "new_url_count": 0,
       "candidate_count": 0,
       "sitemap_files": 11
     },
     {
       "source_id": "minijuegos-es",
-      "status": "baseline",
+      "status": "delta",
       "page_count": 27516,
       "new_url_count": 0,
       "candidate_count": 0,
@@ -42,34 +52,19 @@
     },
     {
       "source_id": "friv-en",
-      "status": "baseline",
+      "status": "delta",
       "page_count": 1183,
       "new_url_count": 0,
       "candidate_count": 0,
       "sitemap_files": 1
     },
     {
-      "source_id": "omni-tools",
-      "status": "error",
-      "error": "ValueError: Response exceeds size limit"
-    },
-    {
       "source_id": "calculator-soup",
-      "status": "baseline",
+      "status": "delta",
       "page_count": 501,
       "new_url_count": 0,
       "candidate_count": 0,
       "sitemap_files": 1
-    },
-    {
-      "source_id": "smallpdf",
-      "status": "error",
-      "error": "ValueError: Response exceeds size limit"
-    },
-    {
-      "source_id": "remove-bg",
-      "status": "error",
-      "error": "ValueError: Response exceeds size limit"
     }
   ],
   "candidates": []
