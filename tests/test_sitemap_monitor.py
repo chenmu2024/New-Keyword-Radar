@@ -67,6 +67,26 @@ class SitemapTests(unittest.TestCase):
         self.assertEqual(links, [base + "game/special-codes"])
         self.assertEqual(count, 2)
 
+    def test_marketplace_template_changelog_blog_scoped_only(self):
+        root = "https://vercel.com/sitemap.xml"
+        urls = [
+            "https://vercel.com/marketplace/new-ai-tool",
+            "https://vercel.com/changelog/new-thing",
+            "https://vercel.com/templates/ai/assistant-demo",
+            "https://vercel.com/blog/build-something",
+            "https://vercel.com/docs/ai",
+            "https://vercel.com/academy/deploy-nextjs",
+            "https://vercel.com/kb/guide/something",
+        ]
+        def fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            return urlset(*urls)
+        chosen, count = m.collect_sitemap(
+            root, fetch, include_prefixes=["/marketplace/", "/changelog/",
+                                           "/templates/", "/blog/"])
+        self.assertEqual(count, 1)
+        self.assertEqual(len(chosen), 4)
+        self.assertFalse(any("/docs/" in x or "/academy/" in x for x in chosen))
+
     def test_aborts_incomplete_index(self):
         root = "https://example.com/sitemap.xml"
         def fetch(url, allowed, max_bytes=m.MAX_BYTES):

@@ -95,7 +95,8 @@ def xml_items(raw):
     return tag, out
 
 
-def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000, max_bytes=MAX_BYTES):
+def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000, max_bytes=MAX_BYTES,
+                    include_prefixes=None):
     """Reject incomplete scans: an incomplete set must never replace baseline."""
     allowed = host(root_url)
     todo = [(root_url, 0)]
@@ -124,7 +125,9 @@ def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000,
         else:
             for link in links:
                 if host(link) == allowed and not SKIP.search(urlsplit(link).path):
-                    pages.add(link.split("#", 1)[0])
+                    path = urlsplit(link).path
+                    if not include_prefixes or any(path.startswith(prefix) for prefix in include_prefixes):
+                        pages.add(link.split("#", 1)[0])
                 if len(pages) > max_urls:
                     raise ValueError("Page count exceeds safety cap")
     return sorted(pages), fetched
@@ -189,7 +192,8 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
         previous_site = states.get(name)
         try:
             urls, nfiles = collect_sitemap(url, fetch, max_files, max_pages,
-                                           int(source.get('max_bytes', MAX_BYTES)))
+                                           int(source.get('max_bytes', MAX_BYTES)),
+                                           source.get('include_path_prefixes'))
             hashes = {digest(link) for link in urls}
             old = set(previous_site["hashes"]) if previous_site and "hashes" in previous_site else None
             novel = [] if old is None else [link for link in urls if digest(link) not in old]

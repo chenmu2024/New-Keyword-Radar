@@ -43,3 +43,12 @@ Manual research run (while pilot dates are valid):
     python src/sitemap_monitor.py --no-enrich
 
 This workflow is independent of the main radar and has no capability to send notifications.
+
+## Vercel product intelligence scope (added 2026-10-19)
+
+- Source: `https://vercel.com/sitemap.xml` (published in robots.txt), approximately 7,069 URLs when investigated.
+- Included URL prefixes: `/marketplace/`, `/templates/`, `/changelog/`, `/blog/`.
+- Excluded: `/docs/`, `/academy/`, `/kb/`, APIs and account pages, reducing update noise.
+- URL changes are clues about new third-party tools, developer products and SaaS offerings, not proof of a genuinely new query, actual customer revenue or achievable SEO ranking.
+- First successful poll only creates a baseline; subsequent new URLs go through the unchanged validation pipeline and are tagged with source `vercel-product-watch`.
+- This source shares the existing 14-day pilot end date; it is not a permanent monitor until reviewed.

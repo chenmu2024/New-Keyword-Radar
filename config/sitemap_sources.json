@@ -5,7 +5,7 @@
   "max_sitemaps_per_source": 18,
   "max_new_urls_per_source": 80,
   "max_page_enrich_per_run": 8,
-  "notes": "8 scoped candidate feeds; CrazyGames locale-specific XML URLs verified from live sitemap index (25 locales). Other 5 feeds were confirmed by robots.txt; no SEO revenue or search volume is implied. Three oversized generic sitemap sources temporarily excluded after the first live run.",
+  "notes": "Public Sitemap pilot with safe limits and verified content feeds. Vercel root sitemap declared in its robots.txt and approximately 7,069 URLs on 2026-10-19; only product/marketplace, templates, changelog and blog paths are included, not docs or academy. No pages are assumed to have search traffic or monetization evidence.",
   "sources": [
     {
       "id": "crazygames-en",
@@ -57,6 +57,18 @@
       "sitemap": "https://www.calculatorsoup.com/sitemap.xml",
       "geo": "US",
       "topic": "calculators"
+    },
+    {
+      "id": "vercel-product-watch",
+      "sitemap": "https://vercel.com/sitemap.xml",
+      "geo": "US",
+      "topic": "developer-products-saas",
+      "include_path_prefixes": [
+        "/marketplace/",
+        "/templates/",
+        "/changelog/",
+        "/blog/"
+      ]
     }
   ]
 }
