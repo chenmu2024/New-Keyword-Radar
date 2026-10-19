@@ -200,9 +200,22 @@ def report(payload):
  return '\n'.join(lines)+'\n'
 
 
+def sitemap_discover(seen, pending, limit=18):
+ """Sitemap URL leads enter the SAME Trends/5-year validation, never auto-formal."""
+ rows=load(ROOT/'data/sitemap/queue.json',[])
+ today=now().date().isoformat()
+ added=[]
+ for row in rows[:limit]:
+  q=norm(row.get('query','')); geo=row.get('geo','')
+  if not valid(q) or noisy(q) or money(q)[0]<55: continue
+  src='sitemap:'+row.get('source_id','unknown')
+  remember(seen,q,src,today); queue(pending,q,geo,src,today)
+  added.append({'query':q,'geo':geo,'source':src})
+ return added
+
 def main():
  DATA.mkdir(exist_ok=True); REPORTS.mkdir(exist_ok=True); cfg=load(CFG,{}); seen=load(SEEN,{}); pending=load(PENDING,{}); seeds=seed_list(); today=now().date().isoformat()
- items=rss_discover(cfg.get('geos',['US','BR','MX','ES','GB']),seen,pending); items=suggest_discover(items,seen,pending,int(cfg.get('max_suggest_bases',12)))
+ items=rss_discover(cfg.get('geos',['US','BR','MX','ES','GB']),seen,pending); items=suggest_discover(items,seen,pending,int(cfg.get('max_suggest_bases',12))); items.extend(sitemap_discover(seen,pending))
  for q in seeds: remember(seen,q,'manual-seed',today); queue(pending,q,'','manual-seed',today)
  chosen=select(items,seeds,seen,pending,int(cfg.get('max_explore_per_run',7))); checked=[]
  for i,x in enumerate(chosen):
@@ -220,7 +233,7 @@ def main():
   except Exception: recent=0
   return (recent,-float(x.get('rise_value',0) or 0),int(x.get('checks',0) or 0),-money(x.get('query',''))[0],x.get('query',''))
  pend=sorted(pending.values(),key=pending_rank)[:limit]; pending={x['query']:x for x in pend if x.get('query')}
- payload={'generated_at':now().isoformat(),'timeframe':cfg.get('timeframe','today 3-m'),'source_geos':cfg.get('geos',[]),'checked_count':len(checked),'formal_count':len(formal),'formal_candidates':formal,'all_checked':checked,'discovered_count':len(items),'pending_count':len(pending),'method':{'new_word_gate':f"near-zero baseline + first rise in last {cfg.get('lookback_new_days',45)} days",'money_gate':f"money_score >= {cfg.get('min_money_score',55)}",'discovery':'Trending Now RSS + related queries + Google autocomplete + Explore rising queries','note':'Google Trends is relative 0-100 interest, not absolute volume.'}}
+ payload={'generated_at':now().isoformat(),'timeframe':cfg.get('timeframe','today 3-m'),'source_geos':cfg.get('geos',[]),'checked_count':len(checked),'formal_count':len(formal),'formal_candidates':formal,'all_checked':checked,'discovered_count':len(items),'pending_count':len(pending),'method':{'new_word_gate':f"near-zero baseline + first rise in last {cfg.get('lookback_new_days',45)} days",'money_gate':f"money_score >= {cfg.get('min_money_score',55)}",'discovery':'Trending Now RSS + related queries + Google autocomplete + Explore rising queries + Sitemap URL leads','note':'Google Trends is relative 0-100 interest, not absolute volume.'}}
  save(DATA/f'{today}.json',payload); save(DATA/'latest.json',payload); save(SEEN,seen); save(PENDING,pending); md=report(payload); (REPORTS/f'{today}.md').write_text(md,encoding='utf-8'); (REPORTS/'latest.md').write_text(md,encoding='utf-8'); print('Formal candidates:',len(formal)); return 0
 
 if __name__=='__main__': raise SystemExit(main())

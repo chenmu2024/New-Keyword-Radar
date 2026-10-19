@@ -1,0 +1,65 @@
+{
+  "trial_start": "2026-10-19",
+  "trial_end_exclusive": "2026-11-02",
+  "max_urls_per_source": 50000,
+  "max_sitemaps_per_source": 18,
+  "max_new_urls_per_source": 80,
+  "max_page_enrich_per_run": 8,
+  "notes": "Only Sitemap locations explicitly observed in public robots.txt; inclusion is provisional, NOT evidence of non-brand SEO success.",
+  "sources": [
+    {
+      "id": "crazygames-en",
+      "sitemap": "https://www.crazygames.com/sitemap-index.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "gamepix-en",
+      "sitemap": "https://www.gamepix.com/sitemaps/index.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "gamepix-pt",
+      "sitemap": "https://www.gamepix.com/pt/sitemaps/index.xml",
+      "geo": "BR",
+      "topic": "games"
+    },
+    {
+      "id": "minijuegos-es",
+      "sitemap": "https://www.minijuegos.com/sitemap.xml",
+      "geo": "ES",
+      "topic": "games"
+    },
+    {
+      "id": "friv-en",
+      "sitemap": "https://www.friv.com/sitemap.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "omni-tools",
+      "sitemap": "https://www.omnicalculator.com/sitemap.xml",
+      "geo": "US",
+      "topic": "calculators"
+    },
+    {
+      "id": "calculator-soup",
+      "sitemap": "https://www.calculatorsoup.com/sitemap.xml",
+      "geo": "US",
+      "topic": "calculators"
+    },
+    {
+      "id": "smallpdf",
+      "sitemap": "https://smallpdf.com/sitemap.xml",
+      "geo": "US",
+      "topic": "file-tools"
+    },
+    {
+      "id": "remove-bg",
+      "sitemap": "https://www.remove.bg/sitemap.xml",
+      "geo": "US",
+      "topic": "image-tools"
+    }
+  ]
+}

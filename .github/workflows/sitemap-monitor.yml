@@ -1,0 +1,44 @@
+name: Sitemap Delta Research (14-day pilot)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/sitemap_monitor.py"
+      - "config/sitemap_sources.json"
+      - "tests/test_sitemap_monitor.py"
+      - ".github/workflows/sitemap-monitor.yml"
+  schedule:
+    # UTC 02:35/14:35 = Beijing 10:35/22:35.
+    - cron: "35 2,14 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: new-keyword-radar-sitemap
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Offline regression tests
+        run: |
+          python -m unittest discover -s tests -p test_sitemap_monitor.py -v
+          python -m py_compile src/sitemap_monitor.py src/radar.py
+      - name: Collect competitor Sitemap deltas
+        run: python src/sitemap_monitor.py
+      - name: Publish isolated research outputs without overwriting other workflows
+        run: |
+          git config user.name "sitemap-research-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python src/publish_sitemap.py
