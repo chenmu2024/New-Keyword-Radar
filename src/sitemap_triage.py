@@ -27,6 +27,9 @@ def classify(lead):
     query = lead.get("query", "").strip()
     if not query:
         return "ignore", "empty"
+    # Public tenders / government registry leads are out of scope for this project.
+    if re.search(r"\b(public tenders|public procurement|government tenders|gov tenders|government contracts|gov procurement|planning applications|companies house|medicare clinician)\b", query, re.I):
+        return "low", "government-or-regulated-target"
     if source in DEPLOY_FEEDS and re.search(r"\s\d+$", query):
         return "low", "numbered-deploy-template"
     if re.fullmatch(r"[a-z]{8,}", query) and not re.search(r"[aeiou]", query):
