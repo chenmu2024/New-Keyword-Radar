@@ -14,7 +14,7 @@ a winnable SERP, paid demand or monthly search volume.
 
 ### 2dehands scraper (US)
 - Source: [apify-actors-a](https://apify.com/aurenic/2dehands-scraper)
-- Checked: 2026-10-19T10:09:34.470237+08:00 | Status: **error**
+- Checked: 2026-10-19T10:10:21.317064+08:00 | Status: **error**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
 - Monetary score is only a heuristic: 26 (informational); actual earnings unknown
@@ -22,7 +22,7 @@ a winnable SERP, paid demand or monthly search volume.
 
 ### 4zida scraper (US)
 - Source: [apify-actors-a](https://apify.com/aurenic/4zida-scraper)
-- Checked: 2026-10-19T10:09:34.470237+08:00 | Status: **error**
+- Checked: 2026-10-19T10:10:21.317064+08:00 | Status: **error**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
 - Monetary score is only a heuristic: 26 (informational); actual earnings unknown

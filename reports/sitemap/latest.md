@@ -1,7 +1,7 @@
 # Sitemap delta research — 2026-10-19
 
 Unverified leads only. Baseline URL snapshots are NOT discoveries.
-Sources succeeded: 18/18; new URLs: 134; candidate leads: 80; retained queue: 244.
+Sources succeeded: 18/18; new URLs: 171; candidate leads: 117; retained queue: 244.
 
 ## Sources
 
@@ -9,7 +9,7 @@ Sources succeeded: 18/18; new URLs: 134; candidate leads: 80; retained queue: 24
 - crazygames-br: delta; 0 new URLs; 5259 pages
 - crazygames-es: delta; 0 new URLs; 5259 pages
 - gamepix-en: delta; 0 new URLs; 19239 pages
-- gamepix-pt: delta; 0 new URLs; 19202 pages
+- gamepix-pt: delta; 37 new URLs; 19239 pages
 - minijuegos-es: delta; 0 new URLs; 27516 pages
 - friv-en: delta; 0 new URLs; 1183 pages
 - calculator-soup: delta; 0 new URLs; 501 pages
@@ -26,6 +26,43 @@ Sources succeeded: 18/18; new URLs: 134; candidate leads: 80; retained queue: 24
 
 ## New URL leads (not proven new keywords)
 
+- [banners of war last stand online](https://www.gamepix.com/pt/play/banners-of-war-last-stand-online) — gamepix-pt / BR
+- [cake smash](https://www.gamepix.com/pt/play/cake-smash) — gamepix-pt / BR
+- [camo party](https://www.gamepix.com/pt/play/camo-party) — gamepix-pt / BR
+- [christmas mandala coloring book](https://www.gamepix.com/pt/play/christmas-mandala-coloring-book) — gamepix-pt / BR
+- [coloful drink](https://www.gamepix.com/pt/play/coloful-drink) — gamepix-pt / BR
+- [color blitz](https://www.gamepix.com/pt/play/color-blitz) — gamepix-pt / BR
+- [devil roulette](https://www.gamepix.com/pt/play/devil-roulette) — gamepix-pt / BR
+- [doge s battle royale](https://www.gamepix.com/pt/play/doge-s-battle-royale) — gamepix-pt / BR
+- [egg wars battle arena 3d](https://www.gamepix.com/pt/play/egg-wars-battle-arena-3d) — gamepix-pt / BR
+- [gas gas drive](https://www.gamepix.com/pt/play/gas-gas-drive) — gamepix-pt / BR
+- [ghtsggjvv](https://www.gamepix.com/pt/play/ghtsggjvv) — gamepix-pt / BR
+- [gold clicker](https://www.gamepix.com/pt/play/gold-clicker) — gamepix-pt / BR
+- [graze](https://www.gamepix.com/pt/play/graze) — gamepix-pt / BR
+- [halloween candy match](https://www.gamepix.com/pt/play/halloween-candy-match) — gamepix-pt / BR
+- [hoops gm basketball franchise manager](https://www.gamepix.com/pt/play/hoops-gm-basketball-franchise-manager) — gamepix-pt / BR
+- [jewel christmas mania](https://www.gamepix.com/pt/play/jewel-christmas-mania) — gamepix-pt / BR
+- [mini football](https://www.gamepix.com/pt/play/mini-football) — gamepix-pt / BR
+- [mob rush crowd runner](https://www.gamepix.com/pt/play/mob-rush-crowd-runner) — gamepix-pt / BR
+- [neon gates](https://www.gamepix.com/pt/play/neon-gates) — gamepix-pt / BR
+- [nightfall z](https://www.gamepix.com/pt/play/nightfall-z) — gamepix-pt / BR
+- [offroad crash climb](https://www.gamepix.com/pt/play/offroad-crash-climb) — gamepix-pt / BR
+- [once upon a canter](https://www.gamepix.com/pt/play/once-upon-a-canter) — gamepix-pt / BR
+- [orbit io](https://www.gamepix.com/pt/play/orbit-io) — gamepix-pt / BR
+- [penalty strike 3d](https://www.gamepix.com/pt/play/penalty-strike-3d) — gamepix-pt / BR
+- [pixel gold clicker](https://www.gamepix.com/pt/play/pixel-gold-clicker) — gamepix-pt / BR
+- [rabbit ben](https://www.gamepix.com/pt/play/rabbit-ben) — gamepix-pt / BR
+- [santa run adventure](https://www.gamepix.com/pt/play/santa-run-adventure) — gamepix-pt / BR
+- [skibidi online](https://www.gamepix.com/pt/play/skibidi-online) — gamepix-pt / BR
+- [skibidi toilet soccer](https://www.gamepix.com/pt/play/skibidi-toilet-soccer) — gamepix-pt / BR
+- [snack tower](https://www.gamepix.com/pt/play/snack-tower) — gamepix-pt / BR
+- [stunt crasher](https://www.gamepix.com/pt/play/stunt-crasher) — gamepix-pt / BR
+- [the last date 2](https://www.gamepix.com/pt/play/the-last-date-2) — gamepix-pt / BR
+- [the scythian warrior](https://www.gamepix.com/pt/play/the-scythian-warrior) — gamepix-pt / BR
+- [the smile haunts you](https://www.gamepix.com/pt/play/the-smile-haunts-you) — gamepix-pt / BR
+- [toss ammo](https://www.gamepix.com/pt/play/toss-ammo) — gamepix-pt / BR
+- [wyrm saga](https://www.gamepix.com/pt/play/wyrm-saga) — gamepix-pt / BR
+- [x o battle](https://www.gamepix.com/pt/play/x-o-battle) — gamepix-pt / BR
 - [ai company lead researcher](https://apify.com/aarya_2/ai-company-lead-researcher) — apify-actors-a / US
 - [acinsoft email domain security audit](https://apify.com/acinsoft/acinsoft-email-domain-security-audit) — apify-actors-a / US
 - [yahoo finance](https://apify.com/ahmed_jasarevic/yahoo-finance) — apify-actors-a / US
@@ -49,42 +86,5 @@ Sources succeeded: 18/18; new URLs: 134; candidate leads: 80; retained queue: 24
 - [linkedin company employees](https://apify.com/atomus/linkedin-company-employees) — apify-actors-a / US
 - [linkedin company posts scraper](https://apify.com/atomus/linkedin-company-posts-scraper) — apify-actors-a / US
 - [linkedin company scraper](https://apify.com/atomus/linkedin-company-scraper) — apify-actors-a / US
-- [linkedin post search](https://apify.com/atomus/linkedin-post-search) — apify-actors-a / US
-- [linkedin posts scraper pro](https://apify.com/atomus/linkedin-posts-scraper-pro) — apify-actors-a / US
-- [linkedin profile scraper](https://apify.com/atomus/linkedin-profile-scraper) — apify-actors-a / US
-- [linkedin profile search](https://apify.com/atomus/linkedin-profile-search) — apify-actors-a / US
-- [linkedin reactions scraper pro](https://apify.com/atomus/linkedin-reactions-scraper-pro) — apify-actors-a / US
-- [tiktok comments scraper](https://apify.com/atomus/tiktok-comments-scraper) — apify-actors-a / US
-- [tiktok scraper](https://apify.com/atomus/tiktok-scraper) — apify-actors-a / US
-- [twitter scraper](https://apify.com/atomus/twitter-scraper) — apify-actors-a / US
-- [weibo scraper](https://apify.com/atomus/weibo-scraper) — apify-actors-a / US
-- [xiaohongshu scraper](https://apify.com/atomus/xiaohongshu-scraper) — apify-actors-a / US
-- [youtube thumbnail downloader](https://apify.com/atomus/youtube-thumbnail-downloader) — apify-actors-a / US
-- [quant mcp tools](https://apify.com/atrokhym/quant-mcp-tools) — apify-actors-a / US
-- [ashby job scraper](https://apify.com/atsdata/ashby-job-scraper) — apify-actors-a / US
-- [ats job scraper](https://apify.com/atsdata/ats-job-scraper) — apify-actors-a / US
-- [greenhouse job scraper](https://apify.com/atsdata/greenhouse-job-scraper) — apify-actors-a / US
-- [lever job scraper](https://apify.com/atsdata/lever-job-scraper) — apify-actors-a / US
-- [workday job scraper](https://apify.com/atsdata/workday-job-scraper) — apify-actors-a / US
-- [remote tech jobs aggregator](https://apify.com/attainable_iota/remote-tech-jobs-aggregator) — apify-actors-a / US
-- [website to llm knowledge pack](https://apify.com/attainable_iota/website-to-llm-knowledge-pack) — apify-actors-a / US
-- [facebook ads library scraper](https://apify.com/attainable_readiness/facebook-ads-library-scraper) — apify-actors-a / US
-- [telegram channel analytics scraper](https://apify.com/attainable_readiness/telegram-channel-analytics-scraper) — apify-actors-a / US
-- [word counter](https://apify.com/attentive_upsurge/word-counter) — apify-actors-a / US
-- [abn lookup enricher](https://apify.com/au_actorfactory/abn-lookup-enricher) — apify-actors-a / US
-- [ron swanson quotes scraper api](https://apify.com/aubrieglu2002/ron-swanson-quotes-scraper-api) — apify-actors-a / US
-- [eu transport auditor](https://apify.com/audit-data-solutions/eu-transport-auditor) — apify-actors-a / US
-- [stromaudit pro](https://apify.com/audit-data-solutions/stromaudit-pro) — apify-actors-a / US
-- [resident advisor](https://apify.com/augeas/resident-advisor) — apify-actors-a / US
-- [spotify monthly listeners](https://apify.com/augeas/spotify-monthly-listeners) — apify-actors-a / US
-- [spotify playlists](https://apify.com/augeas/spotify-playlists) — apify-actors-a / US
-- [egov mcp apify](https://apify.com/aulvem/egov-mcp-apify) — apify-actors-a / US
-- [estat mcp apify](https://apify.com/aulvem/estat-mcp-apify) — apify-actors-a / US
-- [2dehands scraper](https://apify.com/aurenic/2dehands-scraper) — apify-actors-a / US
-- [4zida scraper](https://apify.com/aurenic/4zida-scraper) — apify-actors-a / US
-- [airbnb market intel scraper](https://apify.com/aurenic/airbnb-market-intel-scraper) — apify-actors-a / US
-- [alo bg scraper](https://apify.com/aurenic/alo-bg-scraper) — apify-actors-a / US
-- [apple media scraper](https://apify.com/aurenic/apple-media-scraper) — apify-actors-a / US
-- [arxiv scraper](https://apify.com/aurenic/arxiv-scraper) — apify-actors-a / US
 
 Next: verify original keyword age, country search demand, SERP and monetization independently.

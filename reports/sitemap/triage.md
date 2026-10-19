@@ -5,8 +5,8 @@ not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidenc
 Raw queue and all main radar settings remain unchanged.
 
 - Sitemap feeds succeeded: 18/18
-- URLs newly observed in the latest scan: 134
-- Candidates newly extracted in the latest scan: 80
+- URLs newly observed in the latest scan: 171
+- Candidates newly extracted in the latest scan: 117
 - Accumulated queue: 244
 - Human keyword/topic review: 152
 - Game/general watchlist: 82
@@ -23,6 +23,43 @@ Raw queue and all main radar settings remain unchanged.
 
 ## Latest scan's leads (routing only)
 
+- [banners of war last stand online](https://www.gamepix.com/pt/play/banners-of-war-last-stand-online) — watch / game-title-not-search-demand; source=gamepix-pt
+- [cake smash](https://www.gamepix.com/pt/play/cake-smash) — watch / game-title-not-search-demand; source=gamepix-pt
+- [camo party](https://www.gamepix.com/pt/play/camo-party) — watch / game-title-not-search-demand; source=gamepix-pt
+- [christmas mandala coloring book](https://www.gamepix.com/pt/play/christmas-mandala-coloring-book) — watch / game-title-not-search-demand; source=gamepix-pt
+- [coloful drink](https://www.gamepix.com/pt/play/coloful-drink) — watch / game-title-not-search-demand; source=gamepix-pt
+- [color blitz](https://www.gamepix.com/pt/play/color-blitz) — watch / game-title-not-search-demand; source=gamepix-pt
+- [devil roulette](https://www.gamepix.com/pt/play/devil-roulette) — watch / game-title-not-search-demand; source=gamepix-pt
+- [doge s battle royale](https://www.gamepix.com/pt/play/doge-s-battle-royale) — watch / game-title-not-search-demand; source=gamepix-pt
+- [egg wars battle arena 3d](https://www.gamepix.com/pt/play/egg-wars-battle-arena-3d) — watch / game-title-not-search-demand; source=gamepix-pt
+- [gas gas drive](https://www.gamepix.com/pt/play/gas-gas-drive) — watch / game-title-not-search-demand; source=gamepix-pt
+- [ghtsggjvv](https://www.gamepix.com/pt/play/ghtsggjvv) — low / unreadable-slug; source=gamepix-pt
+- [gold clicker](https://www.gamepix.com/pt/play/gold-clicker) — watch / game-title-not-search-demand; source=gamepix-pt
+- [graze](https://www.gamepix.com/pt/play/graze) — watch / game-title-not-search-demand; source=gamepix-pt
+- [halloween candy match](https://www.gamepix.com/pt/play/halloween-candy-match) — watch / game-title-not-search-demand; source=gamepix-pt
+- [hoops gm basketball franchise manager](https://www.gamepix.com/pt/play/hoops-gm-basketball-franchise-manager) — watch / game-title-not-search-demand; source=gamepix-pt
+- [jewel christmas mania](https://www.gamepix.com/pt/play/jewel-christmas-mania) — watch / game-title-not-search-demand; source=gamepix-pt
+- [mini football](https://www.gamepix.com/pt/play/mini-football) — watch / game-title-not-search-demand; source=gamepix-pt
+- [mob rush crowd runner](https://www.gamepix.com/pt/play/mob-rush-crowd-runner) — watch / game-title-not-search-demand; source=gamepix-pt
+- [neon gates](https://www.gamepix.com/pt/play/neon-gates) — watch / game-title-not-search-demand; source=gamepix-pt
+- [nightfall z](https://www.gamepix.com/pt/play/nightfall-z) — watch / game-title-not-search-demand; source=gamepix-pt
+- [offroad crash climb](https://www.gamepix.com/pt/play/offroad-crash-climb) — watch / game-title-not-search-demand; source=gamepix-pt
+- [once upon a canter](https://www.gamepix.com/pt/play/once-upon-a-canter) — watch / game-title-not-search-demand; source=gamepix-pt
+- [orbit io](https://www.gamepix.com/pt/play/orbit-io) — watch / game-title-not-search-demand; source=gamepix-pt
+- [penalty strike 3d](https://www.gamepix.com/pt/play/penalty-strike-3d) — watch / game-title-not-search-demand; source=gamepix-pt
+- [pixel gold clicker](https://www.gamepix.com/pt/play/pixel-gold-clicker) — watch / game-title-not-search-demand; source=gamepix-pt
+- [rabbit ben](https://www.gamepix.com/pt/play/rabbit-ben) — watch / game-title-not-search-demand; source=gamepix-pt
+- [santa run adventure](https://www.gamepix.com/pt/play/santa-run-adventure) — watch / game-title-not-search-demand; source=gamepix-pt
+- [skibidi online](https://www.gamepix.com/pt/play/skibidi-online) — watch / game-title-not-search-demand; source=gamepix-pt
+- [skibidi toilet soccer](https://www.gamepix.com/pt/play/skibidi-toilet-soccer) — watch / game-title-not-search-demand; source=gamepix-pt
+- [snack tower](https://www.gamepix.com/pt/play/snack-tower) — watch / game-title-not-search-demand; source=gamepix-pt
+- [stunt crasher](https://www.gamepix.com/pt/play/stunt-crasher) — watch / game-title-not-search-demand; source=gamepix-pt
+- [the last date 2](https://www.gamepix.com/pt/play/the-last-date-2) — watch / game-title-not-search-demand; source=gamepix-pt
+- [the scythian warrior](https://www.gamepix.com/pt/play/the-scythian-warrior) — watch / game-title-not-search-demand; source=gamepix-pt
+- [the smile haunts you](https://www.gamepix.com/pt/play/the-smile-haunts-you) — watch / game-title-not-search-demand; source=gamepix-pt
+- [toss ammo](https://www.gamepix.com/pt/play/toss-ammo) — watch / game-title-not-search-demand; source=gamepix-pt
+- [wyrm saga](https://www.gamepix.com/pt/play/wyrm-saga) — watch / game-title-not-search-demand; source=gamepix-pt
+- [x o battle](https://www.gamepix.com/pt/play/x-o-battle) — watch / game-title-not-search-demand; source=gamepix-pt
 - [ai company lead researcher](https://apify.com/aarya_2/ai-company-lead-researcher) — review / workflow-problem-not-search-demand; source=apify-actors-a
 - [acinsoft email domain security audit](https://apify.com/acinsoft/acinsoft-email-domain-security-audit) — review / workflow-problem-not-search-demand; source=apify-actors-a
 - [yahoo finance](https://apify.com/ahmed_jasarevic/yahoo-finance) — review / workflow-problem-not-search-demand; source=apify-actors-a
@@ -86,23 +123,6 @@ Raw queue and all main radar settings remain unchanged.
 - [ats jobs scraper](https://apify.com/aurenic/ats-jobs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
 - [autoscout24 scraper](https://apify.com/aurenic/autoscout24-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
 - [bazos at bazos pl scraper](https://apify.com/aurenic/bazos-at-bazos-pl-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [bazos scraper](https://apify.com/aurenic/bazos-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [bbb scraper](https://apify.com/aurenic/bbb-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [beehiiv newsletter scraper](https://apify.com/aurenic/beehiiv-newsletter-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [bidnet direct scraper](https://apify.com/aurenic/bidnet-direct-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [blocket scraper](https://apify.com/aurenic/blocket-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [bringatrailer scraper](https://apify.com/aurenic/bringatrailer-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [catawiki scraper](https://apify.com/aurenic/catawiki-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [clinicaltrials scraper](https://apify.com/aurenic/clinicaltrials-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [cnpj scraper](https://apify.com/aurenic/cnpj-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [congress trades scraper](https://apify.com/aurenic/congress-trades-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [dba dk scraper](https://apify.com/aurenic/dba-dk-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [discogs scraper](https://apify.com/aurenic/discogs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [domain intel scraper](https://apify.com/aurenic/domain-intel-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [email finder scraper](https://apify.com/aurenic/email-finder-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [espn scraper](https://apify.com/aurenic/espn-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [fdic scraper](https://apify.com/aurenic/fdic-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [federal register scraper](https://apify.com/aurenic/federal-register-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
 
 ## Source interpretation
 
