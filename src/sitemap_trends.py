@@ -110,14 +110,18 @@ def check(lead, cfg, now, explore=None, five_year=None):
             "baseline_avg", "baseline_peak", "baseline_nonzero_ratio",
             "recent_peak", "retention_pct", "first_rise_date", "true_new")})
         if result.get("verdict") == "error" or not result.get("series"):
-            row["status"] = "error"
             row["error"] = result.get("error", "Missing Google Trends observations")
+            row["status"] = ("insufficient_data" if
+                             "Missing Google Trends observations" in row["error"] else "error")
         elif result.get("true_new") is True:
             history = five_year(lead["query"], lead.get("geo", ""), cfg)
             row["history_5y"] = history
             state = history.get("historically_new")
             row["status"] = ("trends_history_pass" if state is True else
                              "older_interest" if state is False else "history_unknown")
+        elif result.get("recent_peak") == 0:
+            # Relative zero means no detectable signal, NOT 0 monthly searches.
+            row["status"] = "insufficient_relative_signal"
         else:
             row["status"] = "no_recent_trends_breakout"
     except Exception as exc:
@@ -136,7 +140,8 @@ def render(store, now):
              "a winnable SERP, paid demand or monthly search volume.", "",
              f"- Total distinct expressions researched: {len(items)}",
              f"- 90-day + historical-interest passes: {sum(x.get('status') == 'trends_history_pass' for x in items)}",
-             f"- Confirmed absolute Volume/KD/CPC: 0 (not supplied)", "",
+             f"- Confirmed absolute Volume/KD/CPC: 0 (not supplied)",
+             "- A zero relative Trends peak does NOT establish zero searches.", "",
              "## Checked expressions", ""]
     if not items:
         lines.append("- No eligible commercial/tool-oriented Sitemap leads awaiting validation.")

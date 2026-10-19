@@ -5,6 +5,9 @@ import shutil
 import subprocess
 import tempfile
 import time
+from datetime import datetime
+from sitemap_monitor import MAX_QUEUE, merge_queue
+from sitemap_trends import render
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -66,12 +69,22 @@ def publish():
             save(ROOT / "state/sitemap/snapshots.json", remote_state)
             remote_queue = load(ROOT / "data/sitemap/queue.json", [])
             local_queue = load(backup / "data/sitemap/queue.json", [])
-            merged = {x["query"]: x for x in remote_queue if x.get("query")}
-            for x in local_queue:
-                if x.get("query") and x["query"] not in merged:
-                    merged[x["query"]] = x
             save(ROOT / "data/sitemap/queue.json",
-                 sorted(merged.values(), key=lambda r: r.get("first_seen", ""), reverse=True)[:250])
+                 merge_queue(remote_queue, local_queue, limit=MAX_QUEUE))
+            # Reconcile validation independently: never drop a newer result
+            # when overlapping scans publish against an older checkout.
+            remote_checks = load(ROOT / "data/sitemap/validation.json", {})
+            local_checks = load(backup / "data/sitemap/validation.json", {})
+            for key, row in local_checks.items():
+                prev = remote_checks.get(key, {})
+                if row.get("checked_at", "") >= prev.get("checked_at", ""):
+                    remote_checks[key] = row
+            save(ROOT / "data/sitemap/validation.json", remote_checks)
+            stamp = max(local_latest.get("generated_at", ""),
+                        remote.get("generated_at", ""))
+            if stamp:
+                (ROOT / "reports/sitemap/validation.md").write_text(
+                    render(remote_checks, datetime.fromisoformat(stamp)), encoding="utf-8")
             cmd("add", "--", "state/sitemap", "data/sitemap", "reports/sitemap")
             if cmd("diff", "--cached", "--quiet", check=False).returncode == 0:
                 print("Already up to date")

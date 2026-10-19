@@ -155,6 +155,35 @@ class SitemapTests(unittest.TestCase):
         self.assertTrue(all(x["sitemap"].startswith("https://") for x in feeds))
         self.assertEqual(cfg["trial_end_exclusive"], "2026-11-02")
 
+    def test_large_delta_samples_all_urls_not_lexicographic_first_page(self):
+        urls = [f"https://example.com/tools/alpha-{i:04d}" for i in range(100)]
+        important = "https://example.com/tools/zebra-calculator"
+        chosen, eligible = m.select_novel_leads(urls + [important], 8)
+        self.assertEqual(eligible, 101)
+        self.assertEqual(len(chosen), 8)
+        self.assertIn((important, "zebra calculator"), chosen)
+
+    def test_queue_keeps_more_than_old_250_limit(self):
+        rows = [{"query": f"work item {i:04d}", "geo": "US",
+                 "source_id": "apify-actors-a", "first_seen": "2026-10-19",
+                 "url": f"https://example.com/{i}"} for i in range(270)]
+        merged = m.merge_queue([], rows)
+        self.assertEqual(len(merged), 270)
+        self.assertEqual(len({x["query"] for x in merged}), 270)
+
+    def test_queue_dedups_by_market_and_retains_source_diversity(self):
+        rows = [
+            {"query": "invoice checker", "geo": "BR", "source_id": "onlinetools-br", "first_seen": "2026-10-18", "url": "https://a.test/br"},
+            {"query": "invoice checker", "geo": "US", "source_id": "apify-actors-a", "first_seen": "2026-10-19", "url": "https://b.test/us"},
+        ]
+        rows += [{"query": f"random actor {i}", "geo": "US", "source_id": "apify-actors-a",
+                  "first_seen": "2026-10-19", "url": f"https://c.test/{i}"} for i in range(100)]
+        self.assertEqual(len(m.merge_queue([], rows)), 102)
+        limited = m.merge_queue([], rows, limit=10)
+        self.assertEqual(len(limited), 10)
+        self.assertEqual({x["source_id"] for x in limited}, {"onlinetools-br", "apify-actors-a"})
+        self.assertEqual(len(m.merge_queue(rows[:1], [rows[1]])), 2)
+
     def test_aborts_incomplete_index(self):
         root = "https://example.com/sitemap.xml"
         def fetch(url, allowed, max_bytes=m.MAX_BYTES):

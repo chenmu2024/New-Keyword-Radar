@@ -28,6 +28,7 @@ QUEUE = ROOT / "data/sitemap/queue.json"
 LATEST = ROOT / "data/sitemap/latest.json"
 REPORT = ROOT / "reports/sitemap/latest.md"
 MAX_BYTES = 7_000_000
+MAX_QUEUE = 2000  # Research leads, not the hashed Sitemap baseline. Bounded Git footprint.
 USER_AGENT = "NewKeywordRadar-SitemapResearch/1.0 (+public-sitemaps; polite daily checks)"
 SKIP = re.compile(
     r"(^|/)(tag|tags|category|categories|author|authors|login|signup|"
@@ -154,6 +155,19 @@ def digest(url):
     return sha256(url.encode("utf-8")).hexdigest()[:24]
 
 
+def select_novel_leads(novel, limit):
+    """Evaluate all novel URLs before capping, with deterministic non-alphabetical sampling.
+
+    Previously, only the first 80 lexicographically sorted URLs were inspected,
+    systematically ignoring later URLs including meaningful tools.
+    """
+    eligible = [(link, candidate(link)) for link in novel]
+    eligible = [(link, q) for link, q in eligible if q]
+    eligible.sort(key=lambda pair: (-int(bool(CUE.search(pair[1]))), digest(pair[0])))
+    cap = max(0, int(limit))
+    return eligible[:cap], len(eligible)
+
+
 def candidate(url):
     p = urlsplit(url)
     path = unquote(p.path).strip("/")
@@ -219,11 +233,11 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
             hashes = {digest(link) for link in urls}
             old = set(previous_site["hashes"]) if previous_site and "hashes" in previous_site else None
             novel = [] if old is None else [link for link in urls if digest(link) not in old]
+            removed_count = len(old - hashes) if old is not None else 0
             stage = "baseline" if old is None else "delta"
-            for link in novel[:int(config.get("max_new_urls_per_source", 80))]:
-                query = candidate(link)
-                if not query:
-                    continue
+            chosen, eligible_count = select_novel_leads(
+                novel, int(config.get("max_new_urls_per_source", 80)))
+            for link, query in chosen:
                 meta = page_meta(link, fetch) if enrich_budget and source.get("enrich_pages", True) else {"title": "", "h1": ""}
                 if enrich_budget and source.get("enrich_pages", True):
                     enrich_budget -= 1
@@ -234,9 +248,11 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
             states[name] = {"hashes": sorted(hashes), "checked_at": today,
                             "count": len(urls), "files": nfiles}
             status.append({"source_id": name, "status": stage, "page_count": len(urls),
-                           "new_url_count": len(novel), "candidate_count": sum(
-                               1 for link in novel[:int(config.get("max_new_urls_per_source", 80))]
-                               if candidate(link)), "sitemap_files": nfiles})
+                           "new_url_count": len(novel), "removed_url_count": removed_count,
+                           "eligible_candidate_count": eligible_count,
+                           "candidate_count": len(chosen),
+                           "candidates_over_scan_cap": max(0, eligible_count - len(chosen)),
+                           "sitemap_files": nfiles})
         except (OSError, ValueError, ET.ParseError, HTTPError, URLError) as exc:
             # Fail closed: do NOT replace the previous snapshot or fabricate deltas.
             status.append({"source_id": name, "status": "error",
@@ -244,18 +260,53 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
     return states, findings, status
 
 
-def merge_queue(old, findings, limit=250):
-    merged = {row["query"]: row for row in old if row.get("query")}
+def merge_queue(old, findings, limit=MAX_QUEUE):
+    """Keep market-distinct leads with source-balanced retention.
+
+    Snapshots store all checked URL hashes; this bounded queue is only
+    research metadata. It must not silently collapse US/BR/ES queries.
+    """
+    merged = {}
+    for row in old:
+        q = str(row.get("query", "")).strip().casefold()
+        if q:
+            key = (q, str(row.get("geo", "")).upper())
+            merged[key] = {**row, "additional_urls": list(row.get("additional_urls", []))}
     for finding in findings:
-        q = finding["query"]
-        if q not in merged:
-            merged[q] = finding
+        q = str(finding.get("query", "")).strip().casefold()
+        if not q:
+            continue
+        key = (q, str(finding.get("geo", "")).upper())
+        existing = merged.get(key)
+        if existing is None:
+            merged[key] = dict(finding)
         else:
-            merged[q]["last_seen"] = finding["first_seen"]
-            links = merged[q].setdefault("additional_urls", [])
-            if finding["url"] != merged[q].get("url") and finding["url"] not in links:
-                links.append(finding["url"])
-    return sorted(merged.values(), key=lambda r: (r.get("first_seen", ""), r["query"]), reverse=True)[:limit]
+            existing["last_seen"] = finding.get("first_seen", "")
+            links = existing.setdefault("additional_urls", [])
+            url = finding.get("url", "")
+            if url and url != existing.get("url") and url not in links:
+                links.append(url)
+
+    groups = {}
+    for row in merged.values():
+        groups.setdefault(row.get("source_id", "unknown"), []).append(row)
+    for entries in groups.values():
+        entries.sort(key=lambda x: (x.get("first_seen", ""), bool(x.get("tool_intent_hint")),
+                                     x.get("query", "")), reverse=True)
+    keys = sorted(groups)
+    output = []
+    # Round-robin retention stops one bulk index such as Apify from crowding
+    # out every other source when the research-queue safety limit is reached.
+    while keys and len(output) < max(0, int(limit)):
+        remaining = []
+        for source in keys:
+            group = groups[source]
+            if group and len(output) < limit:
+                output.append(group.pop(0))
+            if group:
+                remaining.append(source)
+        keys = remaining
+    return output
 
 
 def run(root=ROOT, enrich=True):
@@ -279,6 +330,7 @@ def run(root=ROOT, enrich=True):
                "success_count": success, "new_url_count": sum(
                    x.get("new_url_count", 0) for x in status),
                "new_candidate_count": len(findings), "queue_size": len(queue),
+               "queue_limit": MAX_QUEUE,
                "keyword_metrics_verified": False, "newness_verified": False,
                "sources": status, "candidates": findings[:100]}
     # Retain successful partial progress when other sources fail. Zero-success runs
@@ -298,6 +350,8 @@ def run(root=ROOT, enrich=True):
         lines.append("- " + row["source_id"] + ": " + row["status"] + "; "
                      + str(row.get("new_url_count", 0)) + " new URLs; "
                      + str(row.get("page_count", "?")) + " pages"
+                     + "; removed " + str(row.get("removed_url_count", "?"))
+                     + "; candidate scan cap skipped " + str(row.get("candidates_over_scan_cap", "?"))
                      + ("; " + row["error"] if row.get("error") else ""))
     lines.extend(["", "## New URL leads (not proven new keywords)", ""])
     for finding in findings[:60]:

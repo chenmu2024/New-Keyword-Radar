@@ -66,7 +66,7 @@ class SitemapTrendsTests(unittest.TestCase):
             calls.append("5y")
             return {"historically_new": True}
         row = s.check(lead("database backups"), {}, NOW, mock_explore, mock_history)
-        self.assertEqual(row["status"], "no_recent_trends_breakout")
+        self.assertEqual(row["status"], "insufficient_relative_signal")
         self.assertEqual(calls, ["90d"])
         self.assertIsNone(row["semrush_volume"])
         self.assertFalse(row["independently_verified_new_keyword"])
@@ -94,6 +94,13 @@ class SitemapTrendsTests(unittest.TestCase):
         self.assertIn("blocked", row["error"])
         self.assertFalse(row["independently_verified_new_keyword"])
 
+    def test_no_observations_is_insufficient_not_zero_volume(self):
+        row = s.check(lead("local tool"), {}, NOW,
+                      lambda *args: {"verdict": "reject", "true_new": False,
+                                     "series": []}, lambda *args: {})
+        self.assertEqual(row["status"], "insufficient_data")
+        self.assertIsNone(row["semrush_volume"])
+
     def test_report_has_no_false_volume_claim(self):
         row = s.check(lead("database backups"), {}, NOW,
                       lambda *x: {"verdict": "reject", "true_new": False,
@@ -101,6 +108,7 @@ class SitemapTrendsTests(unittest.TestCase):
         report = s.render({s.key(row): row}, NOW)
         self.assertIn("relative interest", report)
         self.assertIn("Confirmed absolute Volume/KD/CPC: 0", report)
+        self.assertIn("does NOT establish zero searches", report)
         self.assertIn("No URL finding", report)
 
 
