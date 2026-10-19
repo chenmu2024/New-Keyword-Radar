@@ -1,26 +1,193 @@
 {
-  "batch_id": "2026-10-19T16:59:44.036204+00:00-34-35-36-37-38",
-  "generated_at": "2026-10-19T16:59:44.036204+00:00",
-  "local_generated_at": "2026-10-20T00:59:44.036204+08:00",
+  "batch_id": "2026-10-19T22:39:18.165722+00:00-35-36-37-38",
+  "generated_at": "2026-10-19T22:39:18.165722+00:00",
+  "local_generated_at": "2026-10-20T06:39:18.165722+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "optimizer",
     "scheduler",
     "converter",
     "viewer",
     "extractor"
   ],
   "seed_indices": [
-    34,
     35,
     36,
     37,
     38
   ],
-  "start_index": 34,
-  "discoveries": [],
-  "status": "error",
-  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+  "start_index": 35,
+  "discoveries": [
+    {
+      "seed": "extractor",
+      "query": "ps4 pkg extractor apk",
+      "rise_value": 2000.0,
+      "raw_value": 2000
+    },
+    {
+      "seed": "extractor",
+      "query": "god of war 3 remastered pc",
+      "rise_value": 1600.0,
+      "raw_value": 1600
+    },
+    {
+      "seed": "scheduler",
+      "query": "asd conference scheduler",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "extractor",
+      "query": "wimfltr v2 extractor",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "scheduler",
+      "query": "rate my professor",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "extractor",
+      "query": "shad ps4 plus pkg extractor",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "scheduler",
+      "query": "gt scheduler",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4plus pkg extractor",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "extractor",
+      "query": "pkg extractor shadps4",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "scheduler",
+      "query": "cornell scheduler",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "extractor",
+      "query": "pkg extractor",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "extractor",
+      "query": "ps4 pkg extractor",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "extractor",
+      "query": "ps4 pkg tool",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "scheduler",
+      "query": "quebec medical appointment scheduler",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "extractor",
+      "query": "superpsx",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "scheduler",
+      "query": "uf scheduler",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "scheduler",
+      "query": "tiger scheduler auburn",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "bloodborne pc",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "bloodborne pc port",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "nw scheduler download",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "walgreens workforce scheduler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "kai scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "later social media scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "meeting scheduler time zones",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "project scheduler jobs",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "tiger scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "surgery scheduler salary",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 28
 }
