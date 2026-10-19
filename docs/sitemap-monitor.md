@@ -6,9 +6,12 @@ The normal keyword radar's 08:00 briefing and all existing seed/Trends settings 
 
 ## Evidence / limitations
 
-All nine starter source entries are *provisional candidates*, chosen because their Sitemap URL
-was explicitly observed in their public robots.txt (CrazyGames, GamePix EN/PT, MiniJuegos,
-Friv, Omni Calculator, CalculatorSoup, Smallpdf, Remove.bg). This does **not** demonstrate
+Eight starter source entries are *provisional candidates*. CrazyGames EN/BR/ES
+use the verified locale-specific XML URLs from its live 25-sitemap index; GamePix EN/PT,
+MiniJuegos, Friv, and CalculatorSoup use public Sitemap URLs observed in robots.txt.
+The broad XML files for Omni Calculator, Smallpdf and Remove.bg exceeded the safe
+response-size limit during the first live run and have been excluded from scheduled
+retries rather than treated as "zero demand." Inclusion does **not** demonstrate
 their pages have SEO traffic or represent verified keywords. Keep only sources producing
 useful independently validated leads after the trial.
 

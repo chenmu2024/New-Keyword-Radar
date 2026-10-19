@@ -5,12 +5,24 @@
   "max_sitemaps_per_source": 18,
   "max_new_urls_per_source": 80,
   "max_page_enrich_per_run": 8,
-  "notes": "Only Sitemap locations explicitly observed in public robots.txt; inclusion is provisional, NOT evidence of non-brand SEO success.",
+  "notes": "8 scoped candidate feeds; CrazyGames locale-specific XML URLs verified from live sitemap index (25 locales). Other 5 feeds were confirmed by robots.txt; no SEO revenue or search volume is implied. Three oversized generic sitemap sources temporarily excluded after the first live run.",
   "sources": [
     {
       "id": "crazygames-en",
-      "sitemap": "https://www.crazygames.com/sitemap-index.xml",
+      "sitemap": "https://www.crazygames.com/en/sitemap",
       "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "crazygames-br",
+      "sitemap": "https://www.crazygames.com/br/sitemap",
+      "geo": "BR",
+      "topic": "games"
+    },
+    {
+      "id": "crazygames-es",
+      "sitemap": "https://www.crazygames.com/es/sitemap",
+      "geo": "ES",
       "topic": "games"
     },
     {
@@ -38,28 +50,10 @@
       "topic": "games"
     },
     {
-      "id": "omni-tools",
-      "sitemap": "https://www.omnicalculator.com/sitemap.xml",
-      "geo": "US",
-      "topic": "calculators"
-    },
-    {
       "id": "calculator-soup",
       "sitemap": "https://www.calculatorsoup.com/sitemap.xml",
       "geo": "US",
       "topic": "calculators"
-    },
-    {
-      "id": "smallpdf",
-      "sitemap": "https://smallpdf.com/sitemap.xml",
-      "geo": "US",
-      "topic": "file-tools"
-    },
-    {
-      "id": "remove-bg",
-      "sitemap": "https://www.remove.bg/sitemap.xml",
-      "geo": "US",
-      "topic": "image-tools"
     }
   ]
 }
