@@ -1,4 +1,4 @@
-# Sitemap to Google Trends validation — 2026-10-20
+# Sitemap to Google Trends validation — 2026-10-21
 
 This is independent research; original keyword seeds, commercial
 thresholds and the main radar candidate ranking are untouched.
@@ -6,16 +6,31 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 12
-- Usable Google Trends time series: 3/12
-- Missing or failed Google Trends time series: 9/12
+- Total distinct expressions researched: 14
+- Usable Google Trends time series: 5/14
+- Missing or failed Google Trends time series: 9/14
 - Data coverage status: partial_coverage (not a keyword verdict)
-- Rate-limit safety backoff: 2026-10-20T22:32:11.113784+08:00
+- Rate-limit safety backoff: 2026-10-22T14:41:29.088699+08:00
 - 90-day + historical-interest passes: 0
 - Confirmed absolute Volume/KD/CPC: 0 (not supplied)
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### dino arena (BR)
+- Source: [gamepix-pt](https://www.gamepix.com/pt/play/dino-arena)
+- Checked: 2026-10-21T02:41:29.088699+08:00 | Status: **older_interest**
+- Google Trends 90d baseline avg: 0.0; recent peak: 100; newness score: 88
+- Historical 5y gate: False
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+
+### bulk image converter compressor (US)
+- Source: [apify-actors-z](https://apify.com/sophisticated_occasion/bulk-image-converter-compressor)
+- Checked: 2026-10-21T02:41:29.088699+08:00 | Status: **rate_limited**
+- Google Trends 90d baseline avg: 0.0; recent peak: 100; newness score: 88
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: RateLimitError: Google rate-limited the Explore data request; stop and back off.
 
 ### brazil cnpj monitor (US)
 - Source: [apify-actors-a](https://apify.com/alaudinburki/brazil-cnpj-monitor)
