@@ -1,24 +1,41 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-19T04:14:15.927139+00:00
+Generated: 2026-10-20T01:39:05.229847+00:00
 
 ## Formal candidates
 
-**今日无合格可变现新词。**
+### 1. tap simulator reborn
+
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-14T00:00:00+00:00, retention **64.3%**.
+- 5y old-history gate: avg **0.02**, peak **2**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.008**.
+- Source seed-rising:simulator; geo Worldwide.
+
+### 2. tap simulator reborn codes
+
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-14T00:00:00+00:00, retention **61.7%**.
+- 5y old-history gate: avg **0.04**, peak **6**, material ratio (>= 5) **0.004**; raw non-zero ratio **0.008**.
+- Source seed-rising:simulator; geo Worldwide.
+
+### 3. tracker original parts
+
+- Newness **100/100**; money **94/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-18T00:00:00+00:00, retention **78.3%**.
+- 5y old-history gate: avg **0.25**, peak **7**, material ratio (>= 5) **0.02**; raw non-zero ratio **0.057**.
+- Source seed-rising:tracker; geo Worldwide.
+
 ## Watch / rejected
 
-- jake ferguson stats — **old-history** — newness 100, money 86; 5y peak 100
-- brevyn spann-ford stats — **old-history** — newness 95, money 86; 5y peak 38
-- caleb downs stats — **old-history** — newness 95, money 86; 5y peak 100
-- cason wallace stats — **old-history** — newness 95, money 86; 5y peak 100
-- cris collinsworth stats — **old-history** — newness 95, money 86; 5y peak 100
-- deportivo cali vs junior de barranquilla stats — **history-unchecked** — newness 95, money 86
-- grady jarrett stats — **history-unchecked** — newness 95, money 86
-- jake ferguson stats vs packers — **history-unchecked** — newness 95, money 86
-- jaishawn barham stats — **history-unchecked** — newness 88, money 86
-- andy dalton stats — **commercial-watch** — newness 74, money 86
-- justin hartley tracker — **commercial-watch** — newness 50, money 100
-- carolina hurricanes schedule — **commercial-watch** — newness 45, money 92
-- cowboys.schedule 2026 — **reject** — newness 33, money 86
-- golf tyler the creator — **reject** — newness 31, money 26
-- bo bryan football ranking — **reject** — newness 0, money 86
+- tap simulator reborn code — **old-history** — newness 100, money 100; 5y peak 14
+- shipping store simulator 2037 — **old-history** — newness 100, money 94; 5y peak 9
+- time stop simulator — **history-unchecked** — newness 96, money 100
+- cbs action thriller tracker show — **history-unchecked** — newness 96, money 94
+- orka tax — **history-unchecked** — newness 96, money 82
+- tracker s4e3 — **history-unchecked** — newness 95, money 94
+- princess cruises first responder discount — **history-unchecked** — newness 95, money 90
+- dangote federal government tax credit scheme — **history-unchecked** — newness 95, money 82
+- driver and vehicle licensing authority simulator — **history-unchecked** — newness 88, money 94
+- ircc application status tracker — **commercial-watch** — newness 65, money 94
+- ircc application tracker — **reject** — newness 35, money 94
+- tracker ircc — **reject** — newness 35, money 94
