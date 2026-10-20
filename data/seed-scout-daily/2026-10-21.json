@@ -1,0 +1,1517 @@
+{
+  "local_date": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "target_seed_count": 74,
+  "batches": [
+    {
+      "batch_id": "2026-10-20T21:33:10.116723+00:00-36-37-38-39-40",
+      "start_index": 36,
+      "seed_indices": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "generated_at": "2026-10-20T21:33:10.116723+00:00",
+      "local_generated_at": "2026-10-21T05:33:10.116723+08:00",
+      "seed_batch": [
+        "converter",
+        "viewer",
+        "extractor",
+        "monitor",
+        "notifier"
+      ],
+      "discovery_count": 22,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-20T21:34:49.301963+00:00-41-42-43-44-45",
+      "start_index": 41,
+      "seed_indices": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "generated_at": "2026-10-20T21:34:49.301963+00:00",
+      "local_generated_at": "2026-10-21T05:34:49.301963+08:00",
+      "seed_batch": [
+        "verifier",
+        "simulator",
+        "assistant",
+        "constructor",
+        "comparator"
+      ],
+      "discovery_count": 55,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-20T21:36:27.501240+00:00-46-47-48-49-50",
+      "start_index": 46,
+      "seed_indices": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "generated_at": "2026-10-20T21:36:27.501240+00:00",
+      "local_generated_at": "2026-10-21T05:36:27.501240+08:00",
+      "seed_batch": [
+        "navigator",
+        "syncer",
+        "connector",
+        "cataloger",
+        "responder"
+      ],
+      "discovery_count": 26,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-20T21:38:06.090796+00:00-51-52-53-54-55",
+      "start_index": 51,
+      "seed_indices": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "generated_at": "2026-10-20T21:38:06.090796+00:00",
+      "local_generated_at": "2026-10-21T05:38:06.090796+08:00",
+      "seed_batch": [
+        "color",
+        "image",
+        "flux",
+        "ai",
+        "gumroad"
+      ],
+      "discovery_count": 25,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-20T21:39:45.771804+00:00-56-57-58-59-60",
+      "start_index": 56,
+      "seed_indices": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "generated_at": "2026-10-20T21:39:45.771804+00:00",
+      "local_generated_at": "2026-10-21T05:39:45.771804+08:00",
+      "seed_batch": [
+        "steam",
+        "game",
+        "poki",
+        "slope game",
+        "crazy games"
+      ],
+      "discovery_count": 32,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-20T21:42:31.113147+00:00-61-62-63-64-65",
+      "start_index": 61,
+      "seed_indices": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "generated_at": "2026-10-20T21:42:31.113147+00:00",
+      "local_generated_at": "2026-10-21T05:42:31.113147+08:00",
+      "seed_batch": [
+        "itch.io",
+        "roblox",
+        "cocrea",
+        "cocrea world",
+        "compressor"
+      ],
+      "discovery_count": 9,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-20T21:44:58.508134+00:00-66-67-68-69-70",
+      "start_index": 66,
+      "seed_indices": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "generated_at": "2026-10-20T21:44:58.508134+00:00",
+      "local_generated_at": "2026-10-21T05:44:58.508134+08:00",
+      "seed_batch": [
+        "figma",
+        "composer",
+        "fonts",
+        "card",
+        "symbol"
+      ],
+      "discovery_count": 46,
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "generated_at": "2026-10-20T21:47:26.823386+00:00",
+      "local_generated_at": "2026-10-21T05:47:26.823386+08:00",
+      "start_index": 71,
+      "seed_indices": [
+        71,
+        72,
+        73,
+        0,
+        1
+      ],
+      "seed_batch": [
+        "instagram",
+        "tea",
+        "download",
+        "translator",
+        "generator"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    }
+  ],
+  "scanned_seeds": [
+    "converter",
+    "viewer",
+    "extractor",
+    "monitor",
+    "notifier",
+    "verifier",
+    "simulator",
+    "assistant",
+    "constructor",
+    "comparator",
+    "navigator",
+    "syncer",
+    "connector",
+    "cataloger",
+    "responder",
+    "color",
+    "image",
+    "flux",
+    "ai",
+    "gumroad",
+    "steam",
+    "game",
+    "poki",
+    "slope game",
+    "crazy games",
+    "itch.io",
+    "roblox",
+    "cocrea",
+    "cocrea world",
+    "compressor",
+    "figma",
+    "composer",
+    "fonts",
+    "card",
+    "symbol"
+  ],
+  "discoveries": [
+    {
+      "seed": "syncer",
+      "query": "tradecopia",
+      "rise_value": 157950.0,
+      "raw_value": 157950
+    },
+    {
+      "seed": "fonts",
+      "query": "walrus",
+      "rise_value": 60700.0,
+      "raw_value": 60700
+    },
+    {
+      "seed": "syncer",
+      "query": "lucid trading",
+      "rise_value": 58400.0,
+      "raw_value": 58400
+    },
+    {
+      "seed": "fonts",
+      "query": "chevron font",
+      "rise_value": 44950.0,
+      "raw_value": 44950
+    },
+    {
+      "seed": "composer",
+      "query": "deva music composer",
+      "rise_value": 41300.0,
+      "raw_value": 41300
+    },
+    {
+      "seed": "fonts",
+      "query": "chevron meaning",
+      "rise_value": 35200.0,
+      "raw_value": 35200
+    },
+    {
+      "seed": "fonts",
+      "query": "walrus font",
+      "rise_value": 33950.0,
+      "raw_value": 33950
+    },
+    {
+      "seed": "composer",
+      "query": "deva music",
+      "rise_value": 30850.0,
+      "raw_value": 30850
+    },
+    {
+      "seed": "fonts",
+      "query": "chevron",
+      "rise_value": 26950.0,
+      "raw_value": 26950
+    },
+    {
+      "seed": "fonts",
+      "query": "walrus meaning",
+      "rise_value": 25700.0,
+      "raw_value": 25700
+    },
+    {
+      "seed": "composer",
+      "query": "deva composer",
+      "rise_value": 24100.0,
+      "raw_value": 24100
+    },
+    {
+      "seed": "composer",
+      "query": "deva",
+      "rise_value": 23400.0,
+      "raw_value": 23400
+    },
+    {
+      "seed": "composer",
+      "query": "cm vijay tribute composer deva",
+      "rise_value": 22250.0,
+      "raw_value": 22250
+    },
+    {
+      "seed": "fonts",
+      "query": "stooge",
+      "rise_value": 22250.0,
+      "raw_value": 22250
+    },
+    {
+      "seed": "steam",
+      "query": "alliance arts steam demo cancellation",
+      "rise_value": 21700.0,
+      "raw_value": 21700
+    },
+    {
+      "seed": "fonts",
+      "query": "poodle meaning",
+      "rise_value": 18050.0,
+      "raw_value": 18050
+    },
+    {
+      "seed": "fonts",
+      "query": "stooge meaning",
+      "rise_value": 17650.0,
+      "raw_value": 17650
+    },
+    {
+      "seed": "fonts",
+      "query": "arial meaning",
+      "rise_value": 16650.0,
+      "raw_value": 16650
+    },
+    {
+      "seed": "connector",
+      "query": "muscle bone connector nyt",
+      "rise_value": 15150.0,
+      "raw_value": 15150
+    },
+    {
+      "seed": "fonts",
+      "query": "poodle",
+      "rise_value": 14500.0,
+      "raw_value": 14500
+    },
+    {
+      "seed": "flux",
+      "query": "shenzi",
+      "rise_value": 12950.0,
+      "raw_value": 12950
+    },
+    {
+      "seed": "navigator",
+      "query": "2028 lincoln navigator refresh design",
+      "rise_value": 12500.0,
+      "raw_value": 12500
+    },
+    {
+      "seed": "composer",
+      "query": "kavya maran",
+      "rise_value": 12400.0,
+      "raw_value": 12400
+    },
+    {
+      "seed": "connector",
+      "query": "lout",
+      "rise_value": 11450.0,
+      "raw_value": 11450
+    },
+    {
+      "seed": "steam",
+      "query": "blather",
+      "rise_value": 10850.0,
+      "raw_value": 10850
+    },
+    {
+      "seed": "flux",
+      "query": "flux 3 image klein",
+      "rise_value": 10050.0,
+      "raw_value": 10050
+    },
+    {
+      "seed": "connector",
+      "query": "thai currency",
+      "rise_value": 9800.0,
+      "raw_value": 9800
+    },
+    {
+      "seed": "flux",
+      "query": "michelle kwan",
+      "rise_value": 9200.0,
+      "raw_value": 9200
+    },
+    {
+      "seed": "fonts",
+      "query": "wrest",
+      "rise_value": 8950.0,
+      "raw_value": 8950
+    },
+    {
+      "seed": "composer",
+      "query": "music director deva passed away",
+      "rise_value": 8850.0,
+      "raw_value": 8850
+    },
+    {
+      "seed": "flux",
+      "query": "shenzi lion king",
+      "rise_value": 8500.0,
+      "raw_value": 8500
+    },
+    {
+      "seed": "flux",
+      "query": "pugilist",
+      "rise_value": 8450.0,
+      "raw_value": 8450
+    },
+    {
+      "seed": "flux",
+      "query": "virile",
+      "rise_value": 8200.0,
+      "raw_value": 8200
+    },
+    {
+      "seed": "connector",
+      "query": "muscle bone connector",
+      "rise_value": 7850.0,
+      "raw_value": 7850
+    },
+    {
+      "seed": "composer",
+      "query": "la boheme composer crossword clue",
+      "rise_value": 7750.0,
+      "raw_value": 7750
+    },
+    {
+      "seed": "composer",
+      "query": "2027 toyota fortuner spy shots",
+      "rise_value": 7600.0,
+      "raw_value": 7600
+    },
+    {
+      "seed": "notifier",
+      "query": "blox fruit values",
+      "rise_value": 7200.0,
+      "raw_value": 7200
+    },
+    {
+      "seed": "connector",
+      "query": "dutch beer brand",
+      "rise_value": 7100.0,
+      "raw_value": 7100
+    },
+    {
+      "seed": "composer",
+      "query": "royal caribbean cruise overboard",
+      "rise_value": 6750.0,
+      "raw_value": 6750
+    },
+    {
+      "seed": "composer",
+      "query": "renault duster hybrid",
+      "rise_value": 6600.0,
+      "raw_value": 6600
+    },
+    {
+      "seed": "composer",
+      "query": "will beneficiary crossword clue",
+      "rise_value": 6300.0,
+      "raw_value": 6300
+    },
+    {
+      "seed": "flux",
+      "query": "de saint exupery",
+      "rise_value": 6100.0,
+      "raw_value": 6100
+    },
+    {
+      "seed": "flux",
+      "query": "bering strait",
+      "rise_value": 6050.0,
+      "raw_value": 6050
+    },
+    {
+      "seed": "ai",
+      "query": "rockstar gta 6 ai impact",
+      "rise_value": 5850.0,
+      "raw_value": 5850
+    },
+    {
+      "seed": "composer",
+      "query": "dr rachna shroff cancer",
+      "rise_value": 5750.0,
+      "raw_value": 5750
+    },
+    {
+      "seed": "composer",
+      "query": "deva music director",
+      "rise_value": 5600.0,
+      "raw_value": 5600
+    },
+    {
+      "seed": "composer",
+      "query": "bitter crossword clue",
+      "rise_value": 5550.0,
+      "raw_value": 5550
+    },
+    {
+      "seed": "symbol",
+      "query": "saraswati symbol",
+      "rise_value": 5250.0,
+      "raw_value": 5250
+    },
+    {
+      "seed": "steam",
+      "query": "blather meaning",
+      "rise_value": 5200.0,
+      "raw_value": 5200
+    },
+    {
+      "seed": "flux",
+      "query": "canary islands",
+      "rise_value": 5150.0,
+      "raw_value": 5150
+    },
+    {
+      "seed": "connector",
+      "query": "elvis middle name",
+      "rise_value": 5150.0,
+      "raw_value": 5150
+    },
+    {
+      "seed": "flux",
+      "query": "indian yogurt dish",
+      "rise_value": 4850.0,
+      "raw_value": 4850
+    },
+    {
+      "seed": "card",
+      "query": "adin ross fight card",
+      "rise_value": 4650.0,
+      "raw_value": 4650
+    },
+    {
+      "seed": "assistant",
+      "query": "samsung camera assistant 24mp mode",
+      "rise_value": 4450.0,
+      "raw_value": 4450
+    },
+    {
+      "seed": "card",
+      "query": "jtet admit card",
+      "rise_value": 4250.0,
+      "raw_value": 4250
+    },
+    {
+      "seed": "flux",
+      "query": "flux 3 klein",
+      "rise_value": 4200.0,
+      "raw_value": 4200
+    },
+    {
+      "seed": "steam",
+      "query": "steam service error",
+      "rise_value": 4100.0,
+      "raw_value": 4100
+    },
+    {
+      "seed": "fonts",
+      "query": "dock",
+      "rise_value": 3800.0,
+      "raw_value": 3800
+    },
+    {
+      "seed": "connector",
+      "query": "thai currency units",
+      "rise_value": 3700.0,
+      "raw_value": 3700
+    },
+    {
+      "seed": "assistant",
+      "query": "open source ai coding assistant",
+      "rise_value": 3650.0,
+      "raw_value": 3650
+    },
+    {
+      "seed": "connector",
+      "query": "sapporo rival",
+      "rise_value": 3450.0,
+      "raw_value": 3450
+    },
+    {
+      "seed": "card",
+      "query": "jtet admit card 2026",
+      "rise_value": 3350.0,
+      "raw_value": 3350
+    },
+    {
+      "seed": "steam",
+      "query": "the steam service on your machine requires some maintenance",
+      "rise_value": 3200.0,
+      "raw_value": 3200
+    },
+    {
+      "seed": "card",
+      "query": "cuban green card approval decline",
+      "rise_value": 3100.0,
+      "raw_value": 3100
+    },
+    {
+      "seed": "flux",
+      "query": "hummus bean",
+      "rise_value": 3100.0,
+      "raw_value": 3100
+    },
+    {
+      "seed": "fonts",
+      "query": "pencil font",
+      "rise_value": 2750.0,
+      "raw_value": 2750
+    },
+    {
+      "seed": "steam",
+      "query": "steam サービス エラー",
+      "rise_value": 2600.0,
+      "raw_value": 2600
+    },
+    {
+      "seed": "fonts",
+      "query": "bell font",
+      "rise_value": 2550.0,
+      "raw_value": 2550
+    },
+    {
+      "seed": "steam",
+      "query": "steam service error the steam service on your machine requires some maintenance",
+      "rise_value": 2550.0,
+      "raw_value": 2550
+    },
+    {
+      "seed": "flux",
+      "query": "mammal with a long ringed tail",
+      "rise_value": 2500.0,
+      "raw_value": 2500
+    },
+    {
+      "seed": "flux",
+      "query": "gymnast suni",
+      "rise_value": 2400.0,
+      "raw_value": 2400
+    },
+    {
+      "seed": "flux",
+      "query": "unit of magnetic flux density crossword clue",
+      "rise_value": 2350.0,
+      "raw_value": 2350
+    },
+    {
+      "seed": "monitor",
+      "query": "python swallows monitor lizard whole",
+      "rise_value": 2300.0,
+      "raw_value": 2300
+    },
+    {
+      "seed": "simulator",
+      "query": "shipping store simulator 2037",
+      "rise_value": 2000.0,
+      "raw_value": 2000
+    },
+    {
+      "seed": "connector",
+      "query": "capital of qatar",
+      "rise_value": 1500.0,
+      "raw_value": 1500
+    },
+    {
+      "seed": "extractor",
+      "query": "ps4 pkg extractor apk",
+      "rise_value": 1500.0,
+      "raw_value": 1500
+    },
+    {
+      "seed": "connector",
+      "query": "made some waves nyt crossword",
+      "rise_value": 1450.0,
+      "raw_value": 1450
+    },
+    {
+      "seed": "simulator",
+      "query": "tap simulator reborn code",
+      "rise_value": 1450.0,
+      "raw_value": 1450
+    },
+    {
+      "seed": "image",
+      "query": "moss image",
+      "rise_value": 1300.0,
+      "raw_value": 1300
+    },
+    {
+      "seed": "assistant",
+      "query": "nearjobs.lk management assistant job vacancies",
+      "rise_value": 1300.0,
+      "raw_value": 1300
+    },
+    {
+      "seed": "color",
+      "query": "benjamin moore color of the year 2027",
+      "rise_value": 1250.0,
+      "raw_value": 1250
+    },
+    {
+      "seed": "figma",
+      "query": "figcraft",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
+      "seed": "simulator",
+      "query": "tap simulator reborn codes",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
+      "seed": "simulator",
+      "query": "tap simulator reborn",
+      "rise_value": 1000.0,
+      "raw_value": 1000
+    },
+    {
+      "seed": "responder",
+      "query": "princess cruises first responder discount",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "figma",
+      "query": "figma code layers",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "steam",
+      "query": "call of duty modern warfare 4",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "steam",
+      "query": "enshrouded",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "steam",
+      "query": "enshrouded steam",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "figma",
+      "query": "figma specs",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "monitor",
+      "query": "alienware 32 aw3225qf oled qd-oled 240hz gaming monitor",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "game",
+      "query": "alabama tennessee game",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "roblox",
+      "query": "eclipse animator roblox",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "card",
+      "query": "green card lottery 2027",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "extractor",
+      "query": "wimfltr v2 extractor",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "comparator",
+      "query": "costcodle",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "simulator",
+      "query": "global election simulator",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "extractor",
+      "query": "god of war 3 remastered pc",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "verifier",
+      "query": "driver verifier dma violation windows 11",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "card",
+      "query": "green card lottery",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "figma",
+      "query": "figma config 2026",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "assistant",
+      "query": "medical assistant week",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "comparator",
+      "query": "poople",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "game",
+      "query": "rays game today",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "extractor",
+      "query": "shad ps4 plus pkg extractor",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "steam",
+      "query": "steam next fest",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "figma",
+      "query": "artcraft",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "comparator",
+      "query": "cheapest flights to tokyo",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "assistant",
+      "query": "lic assistant notification 2026",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "game",
+      "query": "rays game",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "slope game",
+      "query": "stickman hook",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "color",
+      "query": "today navratri color",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "game",
+      "query": "byu game",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4plus pkg extractor",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4 pkg extractor",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier billet loto max",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "assistant",
+      "query": "when is medical assistant week",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "comparator",
+      "query": "best time to visit maldives",
+      "rise_value": 170.0,
+      "raw_value": 170,
+      "also_from_seeds": [
+        "constructor"
+      ]
+    },
+    {
+      "seed": "cocrea world",
+      "query": "turbowarp",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "constructor",
+      "query": "ai agency constructor",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "game",
+      "query": "chiefs game",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "figma",
+      "query": "figma config",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "game",
+      "query": "guardians game today",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "itch.io",
+      "query": "itch.io rec",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "comparator",
+      "query": "krillion",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "itch.io",
+      "query": "rec",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "game",
+      "query": "chiefs game today",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "cocrea",
+      "query": "cocreate",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "constructor",
+      "query": "dia del constructor",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "extractor",
+      "query": "pkg extractor",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "assistant",
+      "query": "when is medical assistant week 2026",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "symbol",
+      "query": "swastik symbol",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "color",
+      "query": "todays color",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "game",
+      "query": "notre dame game",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "extractor",
+      "query": "pkg extractor ps4",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "comparator",
+      "query": "best laptop for work",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "navigator",
+      "query": "degree navigator rutgers",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "assistant",
+      "query": "medical assistant week 2026",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "color",
+      "query": "peacock green color",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "extractor",
+      "query": "superpsx",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "slope game",
+      "query": "geoguessr",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "game",
+      "query": "guardians game",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "comparator",
+      "query": "how to craft a redstone comparator",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "verifier",
+      "query": "national verifier phone number",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "slope game",
+      "query": "yandex games",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "cataloger",
+      "query": "fast video cataloger",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "steam",
+      "query": "planet zoo 2",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "constructor",
+      "query": "dia del constructor civil",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "constructor",
+      "query": "dia del constructor sodimac",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "simulator",
+      "query": "hunting simulator 3",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "constructor",
+      "query": "lider grupo constructor",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier loto quebec",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "verifier",
+      "query": "android developer verifier o que é",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "verifier",
+      "query": "loto quebec",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "game",
+      "query": "texans game",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier billet loto",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier billet loto quebec",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "verifier",
+      "query": "android developer verifier para que sirve",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "constructor",
+      "query": "campusnet constructor university",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "hidroelectrica",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "game",
+      "query": "indians game",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "verifier",
+      "query": "loto quebec verifier un billet",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "game",
+      "query": "michigan game",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "minecraftle",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "verifier",
+      "query": "oscaro",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "roblox",
+      "query": "roblox corporation",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "cocrea",
+      "query": "sprunki phase 100",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "itch.io",
+      "query": "w1wd itch.io",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "ceas comparator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "comparator",
+      "query": "chicken farm minecraft",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "comparator",
+      "query": "comparable vs comparator java",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator preturi gaze",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "navigator",
+      "query": "degree navigator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "game",
+      "query": "krillion game",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "connector",
+      "query": "liquid detected in lightning connector not wet",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "responder",
+      "query": "ll bean first responder discount",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "symbol",
+      "query": "om symbol",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "notifier",
+      "query": "symfony notifier",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier coupon 1xbet",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "verifier",
+      "query": "what is android system key verifier",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "verifier",
+      "query": "1 winner bet verifier ticket",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "game",
+      "query": "broncos game",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "crafter recipe",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "navigator",
+      "query": "ecu navigator portal",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "fcm-1",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "responder",
+      "query": "first responder appreciation day",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "gmail notifier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "gumroad",
+      "query": "gumroad español",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "gumroad",
+      "query": "gumroad github",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "connector",
+      "query": "health connector login",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "constructor",
+      "query": "how to bake a cake",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "constructor",
+      "query": "how to make sushi",
+      "rise_value": 50.0,
+      "raw_value": 50,
+      "also_from_seeds": [
+        "gumroad"
+      ]
+    },
+    {
+      "seed": "monitor",
+      "query": "lagarto monitor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "assistant",
+      "query": "medical assistant day",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "color",
+      "query": "navratri color",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier tech support",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "game",
+      "query": "ohio state game",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "responder",
+      "query": "peacock first responder discount",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "rotmg notifier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "slope game",
+      "query": "ski slope game",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "syncer",
+      "query": "tradesyncer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier ticket premier bet zone",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "wa notifier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "steam",
+      "query": "wardogs steam charts",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "win comparator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "constructor",
+      "query": "constructor matériaux",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "connector",
+      "query": "mass health connector login",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "monitor",
+      "query": "munch monitor",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "navigator",
+      "query": "niagara navigator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier fsp-851",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "roblox",
+      "query": "roblox indir",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "card",
+      "query": "upsssc pet admit card",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "discovery_count": 213,
+  "updated_at": "2026-10-20T21:47:26.823386+00:00",
+  "scanned_seed_count": 35,
+  "batch_count": 7,
+  "attempted_seed_count": 40,
+  "complete_20_seeds": true,
+  "complete_daily_target": false,
+  "completion_pct": 47.3,
+  "failed_seed_count": 5
+}
