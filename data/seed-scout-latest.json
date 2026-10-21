@@ -1,25 +1,25 @@
 {
-  "batch_id": "2026-10-20T21:47:26.823386+00:00-71-72-73-0-1",
-  "generated_at": "2026-10-20T21:47:26.823386+00:00",
-  "local_generated_at": "2026-10-21T05:47:26.823386+08:00",
+  "batch_id": "2026-10-21T00:33:51.745383+00:00-2-3-4-5-6",
+  "generated_at": "2026-10-21T00:33:51.745383+00:00",
+  "local_generated_at": "2026-10-21T08:33:51.745383+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "instagram",
-    "tea",
-    "download",
-    "translator",
-    "generator"
+    "example",
+    "convert",
+    "online",
+    "downloader",
+    "maker"
   ],
   "seed_indices": [
-    71,
-    72,
-    73,
-    0,
-    1
+    2,
+    3,
+    4,
+    5,
+    6
   ],
-  "start_index": 71,
+  "start_index": 2,
   "discoveries": [],
   "status": "error",
   "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
