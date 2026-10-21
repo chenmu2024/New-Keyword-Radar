@@ -1,29 +1,7 @@
-# Free SaaS pain and new-keyword intelligence — 2026-10-20
+# Free SaaS pain and new-keyword intelligence — 2026-10-21
 
 Research only. **Volume / KD / CPC: unverified, not zero.**
 Sources can be rate-limited. A zero-lead day is not evidence of zero demand.
-
-## payroll integration error
-
-Market: US · Topic: payroll · Intent: integration_pain · Category: specific_buyer_problem
-
-Queries by source: github_repos = payroll integration, github_issues = payroll integration, google_news_rss = payroll integration error, duckduckgo = payroll integration error, reddit = payroll integration error, hackernews_ask = payroll integration
-
-Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=ok, hackernews_ask=ok
-
-**Buyer-pain review leads:** 0 / 24 raw unique links. Filtered, not verified.
-
-- No qualifying buyer-pain evidence. Do not infer absence of demand.
-
-Competitor / contextual references: 12
-
-- [api-evangelist/kombo](https://github.com/api-evangelist/kombo)
-- [api-evangelist/finch](https://github.com/api-evangelist/finch)
-- [ryanpalmercs/staydesk](https://github.com/ryanpalmercs/staydesk)
-
-Discarded/noise: 12; repeated URLs across queries: 0
-
-Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
 ## inventory sync spreadsheet
 
@@ -31,41 +9,41 @@ Market: US · Topic: retail_operations · Intent: manual_sync_pain · Category: 
 
 Queries by source: github_repos = inventory sync, github_issues = inventory sync, google_news_rss = inventory sync spreadsheet, duckduckgo = inventory sync spreadsheet, reddit = inventory sync spreadsheet, hackernews_ask = inventory sync
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=ok, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 18 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 24 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 4
+Competitor / contextual references: 5
 
+- [HarryRichardJohnson/WordPress-WooCommerce-Plugins](https://github.com/HarryRichardJohnson/WordPress-WooCommerce-Plugins)
 - [techmore/rupert](https://github.com/techmore/rupert)
-- [EllieK-coder/django-inventory-sync](https://github.com/EllieK-coder/django-inventory-sync)
-- [wyatt-burley/fj-dashboard](https://github.com/wyatt-burley/fj-dashboard)
+- [ayoub-hs/jaziraerp](https://github.com/ayoub-hs/jaziraerp)
 
-Discarded/noise: 14; repeated URLs across queries: 0
+Discarded/noise: 19; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
-## folha pagamento erro
+## scheduling spreadsheet manual
 
-Market: BR · Topic: payroll · Intent: payroll_error · Category: specific_buyer_problem
+Market: US · Topic: operations · Intent: manual_schedule_pain · Category: specific_buyer_problem
 
-Queries by source: github_repos = folha pagamento, github_issues = folha pagamento, google_news_rss = folha pagamento erro, duckduckgo = folha pagamento erro, reddit = folha pagamento erro
+Queries by source: github_repos = scheduling spreadsheet, github_issues = scheduling spreadsheet, google_news_rss = scheduling spreadsheet manual, duckduckgo = scheduling spreadsheet manual, reddit = scheduling spreadsheet manual, hackernews_ask = scheduling spreadsheet
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 11 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 20 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 7
+Competitor / contextual references: 5
 
-- [Ribeiro-Silva/FolhadePagamento](https://github.com/Ribeiro-Silva/FolhadePagamento)
-- [VitorFX560/sistema-folha-pagamento](https://github.com/VitorFX560/sistema-folha-pagamento)
-- [nathanrodrig-ues/folha-de-pagamento](https://github.com/nathanrodrig-ues/folha-de-pagamento)
+- [The Hidden Cost of Manual Contact Center Scheduling - CX Today](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ULUxRQ1MwQXN4MklnUnlDejEzUGhRVVFJRDBQQ1JmNHBCZVhSZWZHYlBlVGx4cXpkLUtmWjdpS0dHX3BEWG9CRWg3M2dFbjdQczUw?oc=5)
+- [Morrisons to Replace Manual Store Planning Spreadsheets with Logile Software - citybiz](https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWxGUGtqdU1lMnhrd1h6Rk83b1hMbXc0b2gzODYwdndPeWZlN1MxUC12MV95OWNnR08yaGlFVjlSdzFzZDZhTk8tS1F5NWZaQXpiaDVYODR0YnpuZVdMMG5hbWt2NlNIWXU0eVlzNko4WUNnWTRCUmJUOUdjcVFlNWNKTWs1ZlpMMWF0S29fQzBleUN1THdxQS1Cb0xvLVA4TWVlS2ZDeUNIaXVJRTNqR3JHNmdyQQ?oc=5)
+- [Acuity Scheduling: Online Booking & Appointment Scheduling Software](https://acuityscheduling.com/)
 
-Discarded/noise: 4; repeated URLs across queries: 0
+Discarded/noise: 15; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -77,39 +55,39 @@ Queries by source: github_repos = conciliação bancária, github_issues = conci
 
 Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
 
+**Buyer-pain review leads:** 0 / 12 raw unique links. Filtered, not verified.
+
+- No qualifying buyer-pain evidence. Do not infer absence of demand.
+
+Competitor / contextual references: 4
+
+- [Rafael-BR-23/meu-financeiro](https://github.com/Rafael-BR-23/meu-financeiro)
+- [hologram-gestao/auditoria-lancamentos](https://github.com/hologram-gestao/auditoria-lancamentos)
+- [provaliaagro/sistema_conciliacao](https://github.com/provaliaagro/sistema_conciliacao)
+
+Discarded/noise: 8; repeated URLs across queries: 0
+
+Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
+
+## estoque integração falha
+
+Market: BR · Topic: inventory · Intent: integration_pain · Category: specific_buyer_problem
+
+Queries by source: github_repos = estoque integração, github_issues = estoque integração, google_news_rss = estoque integração falha, duckduckgo = estoque integração falha, reddit = estoque integração falha
+
+Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
+
 **Buyer-pain review leads:** 0 / 11 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
 Competitor / contextual references: 4
 
-- [hologram-gestao/auditoria-lancamentos](https://github.com/hologram-gestao/auditoria-lancamentos)
-- [orprocondigital-web/Orprocon-Gestao-Financeira-React](https://github.com/orprocondigital-web/Orprocon-Gestao-Financeira-React)
-- [Gary-Rainer-Chumacero-Vanderlei/ledger-fpa](https://github.com/Gary-Rainer-Chumacero-Vanderlei/ledger-fpa)
+- [felgoes/parts-erp](https://github.com/felgoes/parts-erp)
+- [havelroot/Order-and-Inventory-System](https://github.com/havelroot/Order-and-Inventory-System)
+- [CassianoCalian/sistema-gestao-delivery](https://github.com/CassianoCalian/sistema-gestao-delivery)
 
-Discarded/noise: 7; repeated URLs across queries: 0
-
-Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
-
-## nómina excel errores
-
-Market: MX · Topic: payroll · Intent: manual_payroll_pain · Category: specific_buyer_problem
-
-Queries by source: github_repos = nómina excel, github_issues = nómina excel, google_news_rss = nómina excel errores, duckduckgo = nómina excel errores, reddit = nómina excel errores
-
-Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
-
-**Buyer-pain review leads:** 0 / 10 raw unique links. Filtered, not verified.
-
-- No qualifying buyer-pain evidence. Do not infer absence of demand.
-
-Competitor / contextual references: 4
-
-- [7Freeza/liquidador-nomina](https://github.com/7Freeza/liquidador-nomina)
-- [JesusAlonsoMorales/Automatizacion-partes-de-trabajo](https://github.com/JesusAlonsoMorales/Automatizacion-partes-de-trabajo)
-- [Camilo1408/Nomina-Xpress](https://github.com/Camilo1408/Nomina-Xpress)
-
-Discarded/noise: 6; repeated URLs across queries: 0
+Discarded/noise: 7; repeated URLs across queries: 1
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -121,7 +99,7 @@ Queries by source: github_repos = facturas SAT, github_issues = facturas SAT, go
 
 Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded
 
-**Buyer-pain review leads:** 0 / 12 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 13 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
@@ -131,6 +109,28 @@ Competitor / contextual references: 9
 - [gustavojmarrero/extension-facturas-sat](https://github.com/gustavojmarrero/extension-facturas-sat)
 - [SVDev00/massive_sat_downloader](https://github.com/SVDev00/massive_sat_downloader)
 
-Discarded/noise: 3; repeated URLs across queries: 0
+Discarded/noise: 4; repeated URLs across queries: 0
+
+Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
+
+## inventario excel manual
+
+Market: MX · Topic: inventory · Intent: manual_inventory_pain · Category: specific_buyer_problem
+
+Queries by source: github_repos = inventario excel, github_issues = inventario excel, google_news_rss = inventario excel manual, duckduckgo = inventario excel manual, reddit = inventario excel manual
+
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded
+
+**Buyer-pain review leads:** 0 / 13 raw unique links. Filtered, not verified.
+
+- No qualifying buyer-pain evidence. Do not infer absence of demand.
+
+Competitor / contextual references: 7
+
+- [carranzapinzon55/AssetGuard_2620](https://github.com/carranzapinzon55/AssetGuard_2620)
+- [kianush00/pipeline-inventario-datacenter](https://github.com/kianush00/pipeline-inventario-datacenter)
+- [Eth3rn4l/pokun-pos](https://github.com/Eth3rn4l/pokun-pos)
+
+Discarded/noise: 6; repeated URLs across queries: 2
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
