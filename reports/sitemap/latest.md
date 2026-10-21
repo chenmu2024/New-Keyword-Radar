@@ -1,90 +1,90 @@
-# Sitemap delta research — 2026-10-21
+# Sitemap delta research — 2026-10-22
 
 Unverified leads only. Baseline URL snapshots are NOT discoveries.
-Sources succeeded: 18/18; new URLs: 107; candidate URL leads: 94; first-time keyword/geo research leads: 94; reappeared URLs: 4; retained queue: 993. Neither URL changes nor leads establish search demand.
+Sources succeeded: 18/18; new URLs: 1191; candidate URL leads: 174; first-time keyword/geo research leads: 155; reappeared URLs: 9; retained queue: 1148. Neither URL changes nor leads establish search demand.
 
 ## Sources
 
-- crazygames-en: delta; 5 new URLs; 5273 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- crazygames-br: delta; 6 new URLs; 5274 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- crazygames-es: delta; 6 new URLs; 5274 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- gamepix-en: delta; 1 new URLs; 19267 pages; removed 6; reappeared 1; candidate scan cap skipped 0
-- gamepix-pt: delta; 14 new URLs; 19272 pages; removed 1; reappeared 3; candidate scan cap skipped 0
-- minijuegos-es: delta; 7 new URLs; 27531 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-en: delta; 1 new URLs; 5274 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-br: delta; 0 new URLs; 5274 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-es: delta; 0 new URLs; 5274 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- gamepix-en: delta; 0 new URLs; 19273 pages; removed 0; reappeared 6; candidate scan cap skipped 0
+- gamepix-pt: delta; 10 new URLs; 19274 pages; removed 9; reappeared 1; candidate scan cap skipped 0
+- minijuegos-es: delta; 0 new URLs; 27532 pages; removed 0; reappeared 1; candidate scan cap skipped 0
 - friv-en: delta; 0 new URLs; 1183 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculator-soup: delta; 0 new URLs; 501 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- vercel-product-watch: delta; 4 new URLs; 2663 pages; removed 1; reappeared 0; candidate scan cap skipped 0
-- n8n-workflows: delta; 12 new URLs; 13598 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- railway-templates: delta; 42 new URLs; 6918 pages; removed 2; reappeared 0; candidate scan cap skipped 0
+- vercel-product-watch: delta; 2 new URLs; 2665 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- n8n-workflows: delta; 0 new URLs; 13598 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- railway-templates: delta; 2 new URLs; 6890 pages; removed 31; reappeared 1; candidate scan cap skipped 0
 - railway-changelog: delta; 0 new URLs; 312 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- apify-actors-a: delta; 0 new URLs; 5897 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- apify-actors-z: delta; 0 new URLs; 6513 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- apify-actors-a: delta; 103 new URLs; 5902 pages; removed 98; reappeared 0; candidate scan cap skipped 23
+- apify-actors-z: delta; 1073 new URLs; 6508 pages; removed 1078; reappeared 0; candidate scan cap skipped 993
 - futurepedia-tools: delta; 0 new URLs; 1329 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - netlify-product-watch: delta; 0 new URLs; 796 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- onlinetools-br: delta; 8 new URLs; 107 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- producthunt-products: delta; 2 new URLs; 21649 pages; removed 1; reappeared 0; candidate scan cap skipped 0
+- onlinetools-br: delta; 0 new URLs; 107 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- producthunt-products: delta; 0 new URLs; 21647 pages; removed 2; reappeared 0; candidate scan cap skipped 0
 
 ## New URL leads (not proven new keywords)
 
-- [dustpost](https://www.crazygames.com/game/dustpost) — crazygames-en / US
-- [dark adelita ecl](https://www.crazygames.com/game/dark-adelita-ecl) — crazygames-en / US
-- [can you land zzm](https://www.crazygames.com/game/can-you-land-zzm) — crazygames-en / US
-- [idle island build](https://www.crazygames.com/game/idle-island-build) — crazygames-en / US
-- [megminer](https://www.crazygames.com/game/megminer) — crazygames-en / US
-- [idle island build](https://www.crazygames.com/br/game/idle-island-build) — crazygames-br / BR
-- [dustpost](https://www.crazygames.com/br/game/dustpost) — crazygames-br / BR
-- [matching moments](https://www.crazygames.com/br/game/matching-moments) — crazygames-br / BR
-- [dark adelita ecl](https://www.crazygames.com/br/game/dark-adelita-ecl) — crazygames-br / BR
-- [can you land zzm](https://www.crazygames.com/br/game/can-you-land-zzm) — crazygames-br / BR
-- [megminer](https://www.crazygames.com/br/game/megminer) — crazygames-br / BR
-- [matching moments](https://www.crazygames.com/es/game/matching-moments) — crazygames-es / ES
-- [megminer](https://www.crazygames.com/es/game/megminer) — crazygames-es / ES
-- [can you land zzm](https://www.crazygames.com/es/game/can-you-land-zzm) — crazygames-es / ES
-- [idle island build](https://www.crazygames.com/es/game/idle-island-build) — crazygames-es / ES
-- [dark adelita ecl](https://www.crazygames.com/es/game/dark-adelita-ecl) — crazygames-es / ES
-- [dustpost](https://www.crazygames.com/es/game/dustpost) — crazygames-es / ES
-- [unrest alpha 0 4 3](https://www.gamepix.com/play/unrest-alpha-0-4-3) — gamepix-en / US
-- [stunt witch 3](https://www.gamepix.com/pt/play/stunt-witch-3) — gamepix-pt / BR
-- [deepglow](https://www.gamepix.com/pt/play/deepglow) — gamepix-pt / BR
-- [halloween hand care](https://www.gamepix.com/pt/play/halloween-hand-care) — gamepix-pt / BR
-- [iris and biscuit a cosy space adventure](https://www.gamepix.com/pt/play/iris-and-biscuit-a-cosy-space-adventure) — gamepix-pt / BR
-- [siege stars forest citadel](https://www.gamepix.com/pt/play/siege-stars-forest-citadel) — gamepix-pt / BR
-- [variant sudoku](https://www.gamepix.com/pt/play/variant-sudoku) — gamepix-pt / BR
-- [unrest alpha 0 4 3](https://www.gamepix.com/pt/play/unrest-alpha-0-4-3) — gamepix-pt / BR
-- [satispuzzle perfect tidy](https://www.gamepix.com/pt/play/satispuzzle-perfect-tidy) — gamepix-pt / BR
-- [mecha screw 3d](https://www.gamepix.com/pt/play/mecha-screw-3d) — gamepix-pt / BR
-- [haunted panic](https://www.gamepix.com/pt/play/haunted-panic) — gamepix-pt / BR
-- [boo brew](https://www.gamepix.com/pt/play/boo-brew) — gamepix-pt / BR
-- [vlinder garden dress princess](https://www.gamepix.com/pt/play/vlinder-garden-dress-princess) — gamepix-pt / BR
-- [chess kings](https://www.gamepix.com/pt/play/chess-kings) — gamepix-pt / BR
-- [snake fight](https://www.gamepix.com/pt/play/snake-fight) — gamepix-pt / BR
-- [catdoku](https://www.minijuegos.com/juego/catdoku) — minijuegos-es / ES
-- [soccer kick](https://www.minijuegos.com/juego/soccer-kick) — minijuegos-es / ES
-- [magic and wizards match 2](https://www.minijuegos.com/juego/magic-and-wizards-match-2) — minijuegos-es / ES
-- [dead zone squad](https://www.minijuegos.com/juego/dead-zone-squad) — minijuegos-es / ES
-- [soccer orbit](https://www.minijuegos.com/juego/soccer-orbit) — minijuegos-es / ES
-- [rooftop flip](https://www.minijuegos.com/juego/rooftop-flip) — minijuegos-es / ES
-- [assassins creed identify](https://www.minijuegos.com/juego/assassins-creed-identify) — minijuegos-es / ES
-- [deepseek v4 1 flash is now available in token pass](https://vercel.com/changelog/deepseek-v4-1-flash-is-now-available-in-token-pass) — vercel-product-watch / US
-- [making every harness durable](https://vercel.com/blog/making-every-harness-durable) — vercel-product-watch / US
-- [websocket support is now generally available](https://vercel.com/changelog/websocket-support-is-now-generally-available) — vercel-product-watch / US
-- [vercel shop](https://vercel.com/templates/next.js/vercel-shop) — vercel-product-watch / US
-- [write multilingual weather articles with open meteo claude and openai](https://n8n.io/workflows/21386-write-multilingual-weather-articles-with-open-meteo-claude-and-openai/) — n8n-workflows / US
-- [open agent network relay](https://railway.com/deploy/open-agent-network-relay) — railway-templates / US
-- [gregarious laughter](https://railway.com/deploy/gregarious-laughter) — railway-templates / US
-- [cap ai transcripts deploy cap with ai transcripts](https://railway.com/deploy/cap-ai-transcripts--deploy-cap-with-ai-transcripts) — railway-templates / US
-- [plausible nextjs deploy plausible analytics for nextjs](https://railway.com/deploy/plausible-nextjs--deploy-plausible-analytics-for-nextjs) — railway-templates / US
-- [openconnector postgres](https://railway.com/deploy/openconnector-postgres) — railway-templates / US
-- [hoppscotch desktop deploy hoppscotch for the desktop app](https://railway.com/deploy/hoppscotch-desktop--deploy-hoppscotch-for-the-desktop-app) — railway-templates / US
-- [penpot api tokens deploy penpot api with webhooks](https://railway.com/deploy/penpot-api-tokens--deploy-penpot-api-with-webhooks) — railway-templates / US
-- [infisical self hosted](https://railway.com/deploy/infisical-self-hosted) — railway-templates / US
-- [paperclip heartbeats deploy paperclip agent heartbeats](https://railway.com/deploy/paperclip-heartbeats--deploy-paperclip-agent-heartbeats) — railway-templates / US
-- [langfuse litellm deploy langfuse for litellm proxy](https://railway.com/deploy/langfuse-litellm--deploy-langfuse-for-litellm-proxy) — railway-templates / US
-- [twenty crm 1](https://railway.com/deploy/twenty-crm-1) — railway-templates / US
-- [evolution api typebot deploy evolution api typebot chatbot](https://railway.com/deploy/evolution-api-typebot--deploy-evolution-api-typebot-chatbot) — railway-templates / US
-- [empowering benevolence](https://railway.com/deploy/empowering-benevolence) — railway-templates / US
-- [code server vs openvscode deploy code server vs openvscode server](https://railway.com/deploy/code-server-vs-openvscode--deploy-code-server-vs-openvscode-server) — railway-templates / US
-- [its a plan single host](https://railway.com/deploy/its-a-plan-single-host) — railway-templates / US
-- [hermes agent cron deploy hermes agent cron scheduler](https://railway.com/deploy/hermes-agent-cron--deploy-hermes-agent-cron-scheduler) — railway-templates / US
+- [matching moments](https://www.crazygames.com/game/matching-moments) — crazygames-en / US
+- [carrom 3d](https://www.gamepix.com/pt/play/carrom-3d) — gamepix-pt / BR
+- [blast arena](https://www.gamepix.com/pt/play/blast-arena) — gamepix-pt / BR
+- [core rush](https://www.gamepix.com/pt/play/core-rush) — gamepix-pt / BR
+- [gummy arrows](https://www.gamepix.com/pt/play/gummy-arrows) — gamepix-pt / BR
+- [rot rush](https://www.gamepix.com/pt/play/rot-rush) — gamepix-pt / BR
+- [neon cube blasters](https://www.gamepix.com/pt/play/neon-cube-blasters) — gamepix-pt / BR
+- [overload survivors](https://www.gamepix.com/pt/play/overload-survivors) — gamepix-pt / BR
+- [gravity runner](https://www.gamepix.com/pt/play/gravity-runner) — gamepix-pt / BR
+- [pack the van](https://www.gamepix.com/pt/play/pack-the-van) — gamepix-pt / BR
+- [dead air the blackwater signal](https://www.gamepix.com/pt/play/dead-air-the-blackwater-signal) — gamepix-pt / BR
+- [routing middleware now supports python](https://vercel.com/changelog/routing-middleware-now-supports-python) — vercel-product-watch / US
+- [skipped monorepo deployments no longer count against limits](https://vercel.com/changelog/skipped-monorepo-deployments-no-longer-count-against-limits) — vercel-product-watch / US
+- [chatwoot self hosted live chat helpdesk chatwoot self hosted](https://railway.com/deploy/chatwoot-self-hosted-live-chat-helpdesk--chatwoot-self-hosted) — railway-templates / US
+- [openapi structural change checker](https://apify.com/abdulwhab95/openapi-structural-change-checker) — apify-actors-a / US
+- [open meteo weather](https://apify.com/alaudinburki/open-meteo-weather) — apify-actors-a / US
+- [usaspending federal contracts](https://apify.com/api-co/usaspending-federal-contracts) — apify-actors-a / US
+- [reddit subreddit scraper](https://apify.com/actorforgehq/reddit-subreddit-scraper) — apify-actors-a / US
+- [luxury sale price lookup](https://apify.com/accountable_eel/luxury-sale-price-lookup) — apify-actors-a / US
+- [aeo seo and ai crawler auditor mcp](https://apify.com/acer_quant_ai/aeo-seo-and-ai-crawler-auditor-mcp) — apify-actors-a / US
+- [seo site auditor](https://apify.com/api-co/seo-site-auditor) — apify-actors-a / US
+- [crossref scraper](https://apify.com/anyxsolutions/crossref-scraper) — apify-actors-a / US
+- [nyc hpd complaints by building](https://apify.com/angelic_hideout/nyc-hpd-complaints-by-building) — apify-actors-a / US
+- [npm scraper](https://apify.com/anyxsolutions/npm-scraper) — apify-actors-a / US
+- [viator scraper](https://apify.com/aboo.script/viator-scraper) — apify-actors-a / US
+- [dependency risk auditor](https://apify.com/andok/dependency-risk-auditor) — apify-actors-a / US
+- [purestream](https://apify.com/ahmedmohamed/purestream) — apify-actors-a / US
+- [telegram channel scraper](https://apify.com/andok/telegram-channel-scraper) — apify-actors-a / US
+- [llm table cleaner and auditor](https://apify.com/acer_quant_ai/llm-table-cleaner-and-auditor) — apify-actors-a / US
+- [threads lead finder local first](https://apify.com/abdul_wajid_khan/threads-lead-finder-local-first) — apify-actors-a / US
+- [shopify catalog spy mcp](https://apify.com/acer_quant_ai/shopify-catalog-spy-mcp) — apify-actors-a / US
+- [pokemon tcg card prices scraper](https://apify.com/apt_marble/pokemon-tcg-card-prices-scraper) — apify-actors-a / US
+- [google trends](https://apify.com/actor-forge/google-trends) — apify-actors-a / US
+- [youtube video timestamper](https://apify.com/andok/youtube-video-timestamper) — apify-actors-a / US
+- [tickets virginmegastore me scraper](https://apify.com/aboo.script/tickets-virginmegastore-me-scraper) — apify-actors-a / US
+- [arxiv scraper](https://apify.com/anyxsolutions/arxiv-scraper) — apify-actors-a / US
+- [sainsbury s product search](https://apify.com/apt_marble/sainsbury-s-product-search) — apify-actors-a / US
+- [npm package scraper](https://apify.com/alexburton/npm-package-scraper) — apify-actors-a / US
+- [audio to subtitles](https://apify.com/admirala/audio-to-subtitles) — apify-actors-a / US
+- [agoda scraper](https://apify.com/ahmed_jasarevic/agoda-scraper) — apify-actors-a / US
+- [devto tech lead scraper](https://apify.com/adaptive_nightmare/devto-tech-lead-scraper) — apify-actors-a / US
+- [zomato scraper](https://apify.com/ahmed_jasarevic/zomato-scraper) — apify-actors-a / US
+- [regulatory compliance search](https://apify.com/aimojo/regulatory-compliance-search) — apify-actors-a / US
+- [adroast apify](https://apify.com/adroast/adroast-apify) — apify-actors-a / US
+- [http security header presence audit](https://apify.com/abdulwhab95/http-security-header-presence-audit) — apify-actors-a / US
+- [cheapshark deals](https://apify.com/alaudinburki/cheapshark-deals) — apify-actors-a / US
+- [threads scraper](https://apify.com/apivault_labs/threads-scraper) — apify-actors-a / US
+- [youtube channel api](https://apify.com/actor-forge/youtube-channel-api) — apify-actors-a / US
+- [software review aggregator](https://apify.com/andok/software-review-aggregator) — apify-actors-a / US
+- [business places data](https://apify.com/actor-forge/business-places-data) — apify-actors-a / US
+- [substack scraper](https://apify.com/architekture/substack-scraper) — apify-actors-a / US
+- [ats jobs scraper](https://apify.com/adastra-connect/ats-jobs-scraper) — apify-actors-a / US
+- [rakuma listing lookup](https://apify.com/accountable_eel/rakuma-listing-lookup) — apify-actors-a / US
+- [linkedin jobs monitor](https://apify.com/architekture/linkedin-jobs-monitor) — apify-actors-a / US
+- [google news search](https://apify.com/apivault_labs/google-news-search) — apify-actors-a / US
+- [b2b tech jobs and hiring spy mcp](https://apify.com/acer_quant_ai/b2b-tech-jobs-and-hiring-spy-mcp) — apify-actors-a / US
+- [website tech stack detector](https://apify.com/admirala/website-tech-stack-detector) — apify-actors-a / US
+- [wikipedia trending radar](https://apify.com/adaptive_nightmare/wikipedia-trending-radar) — apify-actors-a / US
+- [youtube shorts scraper](https://apify.com/ahmad_mahameed/youtube-shorts-scraper) — apify-actors-a / US
+- [tradera sold lookup](https://apify.com/accountable_eel/tradera-sold-lookup) — apify-actors-a / US
 
 Next: verify original keyword age, country search demand, SERP and monetization independently.
