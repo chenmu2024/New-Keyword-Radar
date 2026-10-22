@@ -1,6 +1,6 @@
 # OPC-inspired business evidence review
 
-Generated: 2026-10-21T01:26:15.433206+00:00
+Generated: 2026-10-22T01:22:43.812541+00:00
 
 **Advisory only.** The module does not collect keyword metrics, prove demand,
 approve a launch, or change the radar's formal verdict.
@@ -8,7 +8,7 @@ approve a launch, or change the radar's formal verdict.
 Formal radar candidates: 1.
 No candidate may be recommended for development without external source evidence.
 
-## shipping store simulator 2037 (Worldwide)
+## dangote federal government tax credit scheme (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
