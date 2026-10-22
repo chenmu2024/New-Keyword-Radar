@@ -6,16 +6,31 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 14
-- Usable Google Trends time series: 5/14
-- Missing or failed Google Trends time series: 9/14
+- Total distinct expressions researched: 16
+- Usable Google Trends time series: 6/16
+- Missing or failed Google Trends time series: 10/16
 - Data coverage status: partial_coverage (not a keyword verdict)
-- Rate-limit safety backoff: 2026-10-22T14:41:29.088699+08:00
+- Rate-limit safety backoff: inactive
 - 90-day + historical-interest passes: 0
 - Confirmed absolute Volume/KD/CPC: 0 (not supplied)
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### nations royale (BR)
+- Source: [gamepix-pt](https://www.gamepix.com/pt/play/nations-royale)
+- Checked: 2026-10-22T15:55:31.514079+08:00 | Status: **older_interest**
+- Google Trends 90d baseline avg: 0.0; recent peak: 100; newness score: 88
+- Historical 5y gate: False
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+
+### openapi structural change checker (US)
+- Source: [apify-actors-a](https://apify.com/abdulwhab95/openapi-structural-change-checker)
+- Checked: 2026-10-22T15:55:31.514079+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
 
 ### dino arena (BR)
 - Source: [gamepix-pt](https://www.gamepix.com/pt/play/dino-arena)

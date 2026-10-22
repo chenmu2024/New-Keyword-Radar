@@ -23,7 +23,7 @@ Sitemap URL 首次出现时间、Google Trends 相对热度与搜索月量是三
 ## 趋势检查：只标注 Sitemap 队列中的候选
 
 - **[rent king](https://www.gamepix.com/pt/play/rent-king)** — Sitemap来源：gamepix-pt；Trends状态：not_checked；首次上升：unknown；5年历史排旧：not_checked。搜索量/KD/CPC：未知。
-- **[nations royale](https://www.gamepix.com/pt/play/nations-royale)** — Sitemap来源：gamepix-pt；Trends状态：not_checked；首次上升：unknown；5年历史排旧：not_checked。搜索量/KD/CPC：未知。
+- **[nations royale](https://www.gamepix.com/pt/play/nations-royale)** — Sitemap来源：gamepix-pt；Trends状态：older_interest；首次上升：2026-10-07T00:00:00+00:00；5年历史排旧：False。搜索量/KD/CPC：未知。
 - **[dino arena](https://www.gamepix.com/pt/play/dino-arena)** — Sitemap来源：gamepix-pt；Trends状态：older_interest；首次上升：2026-10-08T00:00:00+00:00；5年历史排旧：False。搜索量/KD/CPC：未知。
 
 ## 防止旧词混入（发布方确认的旧游戏）
