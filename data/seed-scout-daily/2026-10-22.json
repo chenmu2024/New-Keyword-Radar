@@ -268,6 +268,70 @@
       ],
       "discovery_count": 48,
       "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-22T07:29:40.160342+00:00-39-40-41-42-29",
+      "start_index": 39,
+      "seed_indices": [
+        39,
+        40,
+        41,
+        42,
+        29
+      ],
+      "generated_at": "2026-10-22T07:29:40.160342+00:00",
+      "local_generated_at": "2026-10-22T15:29:40.160342+08:00",
+      "seed_batch": [
+        "monitor",
+        "notifier",
+        "verifier",
+        "simulator",
+        "explorer"
+      ],
+      "discovery_count": 41,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-22T07:31:19.888620+00:00-30-31-32-33-34",
+      "start_index": 30,
+      "seed_indices": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "generated_at": "2026-10-22T07:31:19.888620+00:00",
+      "local_generated_at": "2026-10-22T15:31:19.888620+08:00",
+      "seed_batch": [
+        "dashboard",
+        "planner",
+        "tracker",
+        "recorder",
+        "optimizer"
+      ],
+      "discovery_count": 50,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-22T07:32:59.850969+00:00-35-36-37-38",
+      "start_index": 35,
+      "seed_indices": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "generated_at": "2026-10-22T07:32:59.850969+00:00",
+      "local_generated_at": "2026-10-22T15:32:59.850969+08:00",
+      "seed_batch": [
+        "scheduler",
+        "converter",
+        "viewer",
+        "extractor"
+      ],
+      "discovery_count": 23,
+      "status": "ok"
     }
   ],
   "errors": [
@@ -372,7 +436,21 @@
     "checker",
     "detector",
     "scraper",
-    "manager"
+    "manager",
+    "monitor",
+    "notifier",
+    "verifier",
+    "simulator",
+    "explorer",
+    "dashboard",
+    "planner",
+    "tracker",
+    "recorder",
+    "optimizer",
+    "scheduler",
+    "converter",
+    "viewer",
+    "extractor"
   ],
   "discoveries": [
     {
@@ -395,6 +473,18 @@
       "query": "music composer deva",
       "rise_value": 54200.0,
       "raw_value": 54200
+    },
+    {
+      "seed": "dashboard",
+      "query": "สล็อต เว็บ ตรง deva555 it com dashboard",
+      "rise_value": 52350.0,
+      "raw_value": 52350
+    },
+    {
+      "seed": "tracker",
+      "query": "cbs action thriller tracker show",
+      "rise_value": 51100.0,
+      "raw_value": 51100
     },
     {
       "seed": "scheme",
@@ -616,6 +706,12 @@
       "raw_value": 10200
     },
     {
+      "seed": "optimizer",
+      "query": "nba starting lineups",
+      "rise_value": 10100.0,
+      "raw_value": 10100
+    },
+    {
       "seed": "flux",
       "query": "pugilist",
       "rise_value": 10100.0,
@@ -626,6 +722,12 @@
       "query": "patriots sign ryan miller receiver",
       "rise_value": 10000.0,
       "raw_value": 10000
+    },
+    {
+      "seed": "notifier",
+      "query": "gmail notifier chrome extension",
+      "rise_value": 9500.0,
+      "raw_value": 9500
     },
     {
       "seed": "composer",
@@ -670,6 +772,12 @@
       "raw_value": 7850
     },
     {
+      "seed": "tracker",
+      "query": "typhoon champi tracker",
+      "rise_value": 7700.0,
+      "raw_value": 7700
+    },
+    {
       "seed": "flux",
       "query": "gymnast suni",
       "rise_value": 7600.0,
@@ -686,6 +794,12 @@
       "query": "dutch beer brand",
       "rise_value": 7500.0,
       "raw_value": 7500
+    },
+    {
+      "seed": "dashboard",
+      "query": "เว็บ สล็อต deva555 it com login",
+      "rise_value": 7250.0,
+      "raw_value": 7250
     },
     {
       "seed": "composer",
@@ -706,6 +820,12 @@
       "raw_value": 7000
     },
     {
+      "seed": "tracker",
+      "query": "tracker original parts",
+      "rise_value": 6750.0,
+      "raw_value": 6750
+    },
+    {
       "seed": "designer",
       "query": "rise of superfake designer handbags",
       "rise_value": 6600.0,
@@ -716,6 +836,12 @@
       "query": "unit of magnetic flux density crossword clue",
       "rise_value": 6300.0,
       "raw_value": 6300
+    },
+    {
+      "seed": "tracker",
+      "query": "tracker s4e3",
+      "rise_value": 6200.0,
+      "raw_value": 6200
     },
     {
       "seed": "composer",
@@ -758,6 +884,12 @@
       "query": "whatsapp android chat bar redesign",
       "rise_value": 5750.0,
       "raw_value": 5750
+    },
+    {
+      "seed": "notifier",
+      "query": "howard email notifier",
+      "rise_value": 5700.0,
+      "raw_value": 5700
     },
     {
       "seed": "constructor",
@@ -820,6 +952,12 @@
       "raw_value": 4800
     },
     {
+      "seed": "dashboard",
+      "query": "สล็อต เว็บ ตรง deva555 it com admin",
+      "rise_value": 4800.0,
+      "raw_value": 4800
+    },
+    {
       "seed": "assistant",
       "query": "samsung camera assistant 24mp mode",
       "rise_value": 4450.0,
@@ -858,6 +996,12 @@
     {
       "seed": "pattern",
       "query": "arial",
+      "rise_value": 4050.0,
+      "raw_value": 4050
+    },
+    {
+      "seed": "recorder",
+      "query": "gfx screen recorder",
       "rise_value": 4050.0,
       "raw_value": 4050
     },
@@ -902,6 +1046,12 @@
       "query": "chromebook scheme",
       "rise_value": 3500.0,
       "raw_value": 3500
+    },
+    {
+      "seed": "simulator",
+      "query": "car mechanic simulator 2027",
+      "rise_value": 3400.0,
+      "raw_value": 3400
     },
     {
       "seed": "receiver",
@@ -958,6 +1108,18 @@
       "raw_value": 2850
     },
     {
+      "seed": "tracker",
+      "query": "tracker season 4 episode 3 cast",
+      "rise_value": 2750.0,
+      "raw_value": 2750
+    },
+    {
+      "seed": "simulator",
+      "query": "farming simulator 25 catuaí map",
+      "rise_value": 2700.0,
+      "raw_value": 2700
+    },
+    {
       "seed": "card",
       "query": "jtet admit card",
       "rise_value": 2550.0,
@@ -966,6 +1128,12 @@
     {
       "seed": "game",
       "query": "farflung game",
+      "rise_value": 2450.0,
+      "raw_value": 2450
+    },
+    {
+      "seed": "monitor",
+      "query": "python swallows monitor lizard whole",
       "rise_value": 2450.0,
       "raw_value": 2450
     },
@@ -1004,6 +1172,12 @@
       "query": "arial definition",
       "rise_value": 1950.0,
       "raw_value": 1950
+    },
+    {
+      "seed": "simulator",
+      "query": "onthel simulator indonesia",
+      "rise_value": 1850.0,
+      "raw_value": 1850
     },
     {
       "seed": "example",
@@ -1054,6 +1228,12 @@
       "raw_value": 1500
     },
     {
+      "seed": "optimizer",
+      "query": "nba dfs optimizer",
+      "rise_value": 1500.0,
+      "raw_value": 1500
+    },
+    {
       "seed": "example",
       "query": "สล็อต เว็บ ตรง nsn ac th test",
       "rise_value": 1500.0,
@@ -1078,8 +1258,20 @@
       "raw_value": 1350
     },
     {
+      "seed": "extractor",
+      "query": "baloo file extractor",
+      "rise_value": 1250.0,
+      "raw_value": 1250
+    },
+    {
       "seed": "checker",
       "query": "php version checker",
+      "rise_value": 1150.0,
+      "raw_value": 1150
+    },
+    {
+      "seed": "optimizer",
+      "query": "rotowire nba optimizer",
       "rise_value": 1150.0,
       "raw_value": 1150
     },
@@ -1094,6 +1286,12 @@
       "query": "what is a 401k",
       "rise_value": 1150.0,
       "raw_value": 1150
+    },
+    {
+      "seed": "explorer",
+      "query": "seadoo explorer",
+      "rise_value": 1100.0,
+      "raw_value": 1100
     },
     {
       "seed": "sender",
@@ -1132,8 +1330,26 @@
       "raw_value": 950
     },
     {
+      "seed": "optimizer",
+      "query": "nba optimizer",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "explorer",
+      "query": "sea doo explorer",
+      "rise_value": 900.0,
+      "raw_value": 900
+    },
+    {
       "seed": "sample",
       "query": "harris county sample ballot 2026",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "extractor",
+      "query": "ps4 pkg extractor apk",
       "rise_value": 800.0,
       "raw_value": 800
     },
@@ -1146,6 +1362,18 @@
     {
       "seed": "tea",
       "query": "hc andersen født",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "simulator",
+      "query": "tap simulator reborn code",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "simulator",
+      "query": "tap simulator reborn codes",
       "rise_value": 750.0,
       "raw_value": 750
     },
@@ -1216,6 +1444,12 @@
       "raw_value": 650
     },
     {
+      "seed": "simulator",
+      "query": "tap simulator reborn",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
       "seed": "receiver",
       "query": "brandon smith steelers wide receiver",
       "rise_value": 600.0,
@@ -1232,6 +1466,18 @@
       "query": "wap interpreter",
       "rise_value": 600.0,
       "raw_value": 600
+    },
+    {
+      "seed": "planner",
+      "query": "course schedule planner rutgers",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "optimizer",
+      "query": "nba lineup optimizer",
+      "rise_value": 550.0,
+      "raw_value": 550
     },
     {
       "seed": "sample",
@@ -1258,6 +1504,12 @@
       "raw_value": 500
     },
     {
+      "seed": "optimizer",
+      "query": "nba fanduel optimizer",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
       "seed": "detector",
       "query": "sentivo co detector",
       "rise_value": 500.0,
@@ -1266,6 +1518,15 @@
     {
       "seed": "navigator",
       "query": "course schedule planner",
+      "rise_value": 450.0,
+      "raw_value": 450,
+      "also_from_seeds": [
+        "planner"
+      ]
+    },
+    {
+      "seed": "simulator",
+      "query": "global election simulator",
       "rise_value": 450.0,
       "raw_value": 450
     },
@@ -1366,10 +1627,40 @@
       "raw_value": 400
     },
     {
+      "seed": "simulator",
+      "query": "shipping store simulator 2037",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
       "seed": "interpreter",
       "query": "sign language interpreter for wap",
       "rise_value": 400.0,
       "raw_value": 400
+    },
+    {
+      "seed": "tracker",
+      "query": "typhoon tracker",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "optimizer",
+      "query": "cheapest flights to tokyo",
+      "rise_value": 350.0,
+      "raw_value": 350,
+      "also_from_seeds": [
+        "comparator",
+        "processor",
+        "interpreter",
+        "receiver"
+      ]
+    },
+    {
+      "seed": "optimizer",
+      "query": "cookies cpvp optimizer",
+      "rise_value": 350.0,
+      "raw_value": 350
     },
     {
       "seed": "creator",
@@ -1393,6 +1684,12 @@
       "raw_value": 350
     },
     {
+      "seed": "optimizer",
+      "query": "octane optimizer",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
       "seed": "evaluator",
       "query": "alignerr",
       "rise_value": 300.0,
@@ -1407,6 +1704,12 @@
     {
       "seed": "evaluator",
       "query": "crowdgen by appen",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "optimizer",
+      "query": "glyco optimizer",
       "rise_value": 300.0,
       "raw_value": 300
     },
@@ -1435,6 +1738,12 @@
       "raw_value": 300
     },
     {
+      "seed": "tracker",
+      "query": "osrs ge tracker",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
       "seed": "checker",
       "query": "php checker",
       "rise_value": 300.0,
@@ -1451,6 +1760,18 @@
       "query": "video assistant referee",
       "rise_value": 300.0,
       "raw_value": 300
+    },
+    {
+      "seed": "scheduler",
+      "query": "cornell scheduler",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "tracker",
+      "query": "ge tracker",
+      "rise_value": 250.0,
+      "raw_value": 250
     },
     {
       "seed": "manager",
@@ -1524,14 +1845,50 @@
       "raw_value": 200
     },
     {
+      "seed": "optimizer",
+      "query": "glyco optimizer reviews and complaints",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "optimizer",
+      "query": "idleon research optimizer",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "tracker",
+      "query": "ircc application status tracker",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "tracker",
+      "query": "ircc application tracker",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
       "seed": "evaluator",
       "query": "mioc evaluator",
       "rise_value": 200.0,
       "raw_value": 200
     },
     {
+      "seed": "scheduler",
+      "query": "msoe scheduler",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
       "seed": "sample",
       "query": "nc sample ballot 2026",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier tech support",
       "rise_value": 200.0,
       "raw_value": 200
     },
@@ -1590,6 +1947,12 @@
       "raw_value": 190
     },
     {
+      "seed": "tracker",
+      "query": "google fitbit air fitness tracker",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
       "seed": "evaluator",
       "query": "nba trade evaluator",
       "rise_value": 180.0,
@@ -1620,8 +1983,20 @@
       "raw_value": 180
     },
     {
+      "seed": "optimizer",
+      "query": "best laptop for work",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
       "seed": "scraper",
       "query": "electric ice scraper",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "tracker",
+      "query": "ircc tracker login",
       "rise_value": 170.0,
       "raw_value": 170
     },
@@ -1731,8 +2106,20 @@
       "raw_value": 140
     },
     {
+      "seed": "tracker",
+      "query": "ircc tracker",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
       "seed": "assistant",
       "query": "medical assistant week 2026",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "scheduler",
+      "query": "ncdmv appointment scheduler",
       "rise_value": 140.0,
       "raw_value": 140
     },
@@ -1741,6 +2128,12 @@
       "query": "sprunki anti shifted phase 3",
       "rise_value": 140.0,
       "raw_value": 140
+    },
+    {
+      "seed": "optimizer",
+      "query": "aao avatar optimizer",
+      "rise_value": 130.0,
+      "raw_value": 130
     },
     {
       "seed": "game",
@@ -1791,6 +2184,12 @@
       "raw_value": 130
     },
     {
+      "seed": "recorder",
+      "query": "task recorder",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
       "seed": "editor",
       "query": "concat",
       "rise_value": 120.0,
@@ -1811,6 +2210,18 @@
     {
       "seed": "constructor",
       "query": "dia del constructor sodimac",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "scheduler",
+      "query": "gt scheduler",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "explorer",
+      "query": "hypernet explorer",
       "rise_value": 120.0,
       "raw_value": 120
     },
@@ -1845,8 +2256,32 @@
       "raw_value": 120
     },
     {
+      "seed": "dashboard",
+      "query": "nysc dashboard",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
       "seed": "evaluator",
       "query": "online search engine evaluator jobs",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "scheduler",
+      "query": "rate my professor",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "scheduler",
+      "query": "telehealth scheduler remote jobs",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "notifier",
+      "query": "wss-pc-i02",
       "rise_value": 120.0,
       "raw_value": 120
     },
@@ -1857,8 +2292,8 @@
       "raw_value": 110
     },
     {
-      "seed": "interpreter",
-      "query": "best laptop for work",
+      "seed": "monitor",
+      "query": "alienware 32 aw3225qf oled qd-oled 240hz gaming monitor",
       "rise_value": 110.0,
       "raw_value": 110
     },
@@ -1911,6 +2346,12 @@
       "raw_value": 110
     },
     {
+      "seed": "simulator",
+      "query": "hunting simulator 3",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
       "seed": "creator",
       "query": "kenny content creator",
       "rise_value": 110.0,
@@ -1919,6 +2360,18 @@
     {
       "seed": "editor",
       "query": "roxx editor",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "planner",
+      "query": "schedule planner osu",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "extractor",
+      "query": "shad ps4 plus pkg extractor",
       "rise_value": 110.0,
       "raw_value": 110
     },
@@ -1941,6 +2394,12 @@
       "raw_value": 110
     },
     {
+      "seed": "verifier",
+      "query": "1 winner bet verifier ticket",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
       "seed": "uploader",
       "query": "bir excel uploader",
       "rise_value": 100.0,
@@ -1951,18 +2410,6 @@
       "query": "bir uploader",
       "rise_value": 100.0,
       "raw_value": 100
-    },
-    {
-      "seed": "constructor",
-      "query": "cheapest flights to tokyo",
-      "rise_value": 100.0,
-      "raw_value": 100,
-      "also_from_seeds": [
-        "comparator",
-        "processor",
-        "interpreter",
-        "receiver"
-      ]
     },
     {
       "seed": "calculator",
@@ -1977,6 +2424,18 @@
       "raw_value": 100
     },
     {
+      "seed": "verifier",
+      "query": "driver verifier dma violation windows 11",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "optimizer",
+      "query": "exitlag",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
       "seed": "cataloger",
       "query": "fast video cataloger",
       "rise_value": 100.0,
@@ -1985,6 +2444,18 @@
     {
       "seed": "assistant",
       "query": "medical assistant day",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "dashboard",
+      "query": "nysc portal",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "verifier",
+      "query": "philsys verifier",
       "rise_value": 100.0,
       "raw_value": 100
     },
@@ -2019,14 +2490,32 @@
       "raw_value": 100
     },
     {
+      "seed": "verifier",
+      "query": "verifier billet loto max",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
       "seed": "itch.io",
       "query": "w1wd itch.io",
       "rise_value": 100.0,
       "raw_value": 100
     },
     {
+      "seed": "dashboard",
+      "query": "core app dashboard",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
       "seed": "comparator",
       "query": "crafter recipe",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "notifier",
+      "query": "grow a garden stock notifier",
       "rise_value": 90.0,
       "raw_value": 90
     },
@@ -2039,6 +2528,24 @@
     {
       "seed": "analyzer",
       "query": "news analyzer twitter",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "dashboard",
+      "query": "nysc dashboard login",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "dashboard",
+      "query": "nysc dashboard login 2026",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "dashboard",
+      "query": "nysc portal login",
       "rise_value": 90.0,
       "raw_value": 90
     },
@@ -2059,6 +2566,12 @@
       "query": "yandex games",
       "rise_value": 90.0,
       "raw_value": 90
+    },
+    {
+      "seed": "verifier",
+      "query": "android system key verifier para que sirve",
+      "rise_value": 80.0,
+      "raw_value": 80
     },
     {
       "seed": "game",
@@ -2108,6 +2621,18 @@
       "raw_value": 80
     },
     {
+      "seed": "dashboard",
+      "query": "ipo dashboard",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "scheduler",
+      "query": "later social media scheduler",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "manager",
       "query": "microsoft pc manager",
       "rise_value": 80.0,
@@ -2126,6 +2651,12 @@
       "raw_value": 80
     },
     {
+      "seed": "dashboard",
+      "query": "nysc portal login dashboard login password",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "gumroad",
       "query": "paddle",
       "rise_value": 80.0,
@@ -2134,6 +2665,12 @@
     {
       "seed": "uploader",
       "query": "pictime uploader",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "verifier",
+      "query": "premier bet zone",
       "rise_value": 80.0,
       "raw_value": 80
     },
@@ -2168,6 +2705,12 @@
       "raw_value": 80
     },
     {
+      "seed": "verifier",
+      "query": "verifier billet loto",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "detector",
       "query": "xnx honeywell gas detector xnx xnx test x",
       "rise_value": 80.0,
@@ -2194,6 +2737,12 @@
     {
       "seed": "comparator",
       "query": "costcodle",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "planner",
+      "query": "cyberpunk build planner",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -2246,6 +2795,12 @@
       "raw_value": 70
     },
     {
+      "seed": "verifier",
+      "query": "loto quebec",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "itch.io",
       "query": "love maniac",
       "rise_value": 70.0,
@@ -2264,6 +2819,12 @@
       "raw_value": 70
     },
     {
+      "seed": "verifier",
+      "query": "national verifier website",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "responder",
       "query": "peacock first responder discount",
       "rise_value": 70.0,
@@ -2272,6 +2833,42 @@
     {
       "seed": "interpreter",
       "query": "php interpreter",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "pkg extractor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "pkg extractor shadps4",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scheduler",
+      "query": "quebec medical appointment scheduler",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "tracker",
+      "query": "royal mail tracker",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4plus pkg extractor",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -2288,6 +2885,18 @@
       "raw_value": 70
     },
     {
+      "seed": "scheduler",
+      "query": "uf scheduler",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier billet loto quebec",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "creator",
       "query": "ak creator yt",
       "rise_value": 60.0,
@@ -2296,6 +2905,12 @@
     {
       "seed": "comparator",
       "query": "anre comparator preturi energie electrica",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "dashboard",
+      "query": "ca dashboard",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -2354,6 +2969,24 @@
       "raw_value": 60
     },
     {
+      "seed": "verifier",
+      "query": "impot gouv",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "kai scheduler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "monitor",
+      "query": "lagarto monitor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "connector",
       "query": "liquid detected in lightning connector not wet",
       "rise_value": 60.0,
@@ -2362,6 +2995,12 @@
     {
       "seed": "manager",
       "query": "mt manager apk",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier nfs2-3030",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -2380,6 +3019,12 @@
     {
       "seed": "compiler",
       "query": "programiz python online compiler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "ps4 pkg extractor",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -2414,14 +3059,38 @@
       "raw_value": 60
     },
     {
+      "seed": "extractor",
+      "query": "superpsx",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "uploader",
       "query": "utsa document uploader",
       "rise_value": 60.0,
       "raw_value": 60
     },
     {
+      "seed": "verifier",
+      "query": "verifier ticket premier bet zone",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "verifier",
+      "query": "android developer verifier nedir",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "manager",
       "query": "brewers manager",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "dashboard",
+      "query": "california dashboard",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -2438,8 +3107,20 @@
       "raw_value": 50
     },
     {
+      "seed": "notifier",
+      "query": "clover time codes",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "comparator",
       "query": "comparitor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "course scheduler",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -2486,6 +3167,18 @@
       "raw_value": 50
     },
     {
+      "seed": "scheduler",
+      "query": "macro scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "medical scheduler remote jobs",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "manager",
       "query": "mt manager",
       "rise_value": 50.0,
@@ -2494,6 +3187,12 @@
     {
       "seed": "builder",
       "query": "new home builder near me",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier définition",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -2528,8 +3227,20 @@
       "raw_value": 50
     },
     {
+      "seed": "tracker",
+      "query": "psa backlog tracker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "responder",
       "query": "sala do futuro aluno",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "sigma metalytics precious metal verifier",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -2561,6 +3272,18 @@
         "receiver",
         "format"
       ]
+    },
+    {
+      "seed": "dashboard",
+      "query": "tvet dashboard",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier plaque immatriculation",
+      "rise_value": 50.0,
+      "raw_value": 50
     },
     {
       "seed": "uploader",
@@ -2641,6 +3364,12 @@
       "raw_value": 40
     },
     {
+      "seed": "viewer",
+      "query": "instagram story viewer anonym",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "manager",
       "query": "judo manager",
       "rise_value": 40.0,
@@ -2659,8 +3388,20 @@
       "raw_value": 40
     },
     {
+      "seed": "notifier",
+      "query": "notifier fsp-851",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "receiver",
       "query": "oregon state wide receiver",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "monitor",
+      "query": "playstation monitor",
       "rise_value": 40.0,
       "raw_value": 40
     },
@@ -2683,19 +3424,25 @@
       "raw_value": 40
     },
     {
+      "seed": "notifier",
+      "query": "wa notifier",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "receiver",
       "query": "wide receiver rankings week 6",
       "rise_value": 40.0,
       "raw_value": 40
     }
   ],
-  "discovery_count": 380,
-  "updated_at": "2026-10-22T00:38:11.896297+00:00",
-  "scanned_seed_count": 60,
-  "batch_count": 12,
-  "attempted_seed_count": 70,
+  "discovery_count": 491,
+  "updated_at": "2026-10-22T07:32:59.850969+00:00",
+  "scanned_seed_count": 74,
+  "batch_count": 15,
+  "attempted_seed_count": 74,
   "complete_20_seeds": true,
-  "complete_daily_target": false,
-  "completion_pct": 81.1,
-  "failed_seed_count": 10
+  "complete_daily_target": true,
+  "completion_pct": 100.0,
+  "failed_seed_count": 0
 }

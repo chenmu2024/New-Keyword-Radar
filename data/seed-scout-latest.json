@@ -1,26 +1,163 @@
 {
-  "batch_id": "2026-10-22T00:38:11.896297+00:00-34-35-36-37-38",
-  "generated_at": "2026-10-22T00:38:11.896297+00:00",
-  "local_generated_at": "2026-10-22T08:38:11.896297+08:00",
+  "batch_id": "2026-10-22T07:32:59.850969+00:00-35-36-37-38",
+  "generated_at": "2026-10-22T07:32:59.850969+00:00",
+  "local_generated_at": "2026-10-22T15:32:59.850969+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "optimizer",
     "scheduler",
     "converter",
     "viewer",
     "extractor"
   ],
   "seed_indices": [
-    34,
     35,
     36,
     37,
     38
   ],
-  "start_index": 34,
-  "discoveries": [],
-  "status": "error",
-  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+  "start_index": 35,
+  "discoveries": [
+    {
+      "seed": "extractor",
+      "query": "baloo file extractor",
+      "rise_value": 1250.0,
+      "raw_value": 1250
+    },
+    {
+      "seed": "extractor",
+      "query": "ps4 pkg extractor apk",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "scheduler",
+      "query": "cornell scheduler",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "scheduler",
+      "query": "msoe scheduler",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "scheduler",
+      "query": "ncdmv appointment scheduler",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "scheduler",
+      "query": "gt scheduler",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "scheduler",
+      "query": "rate my professor",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "scheduler",
+      "query": "telehealth scheduler remote jobs",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "extractor",
+      "query": "shad ps4 plus pkg extractor",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scheduler",
+      "query": "later social media scheduler",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "extractor",
+      "query": "pkg extractor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "pkg extractor shadps4",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scheduler",
+      "query": "quebec medical appointment scheduler",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "shadps4plus pkg extractor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scheduler",
+      "query": "uf scheduler",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scheduler",
+      "query": "kai scheduler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "ps4 pkg extractor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "superpsx",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "course scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "macro scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "medical scheduler remote jobs",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "viewer",
+      "query": "instagram story viewer anonym",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 23
 }
