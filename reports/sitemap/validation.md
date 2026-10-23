@@ -6,9 +6,9 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 18
-- Usable Google Trends time series: 6/18
-- Missing or failed Google Trends time series: 12/18
+- Total distinct expressions researched: 20
+- Usable Google Trends time series: 6/20
+- Missing or failed Google Trends time series: 14/20
 - Data coverage status: partial_coverage (not a keyword verdict)
 - Rate-limit safety backoff: inactive
 - 90-day + historical-interest passes: 0
@@ -16,6 +16,22 @@ a winnable SERP, paid demand or monthly search volume.
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### zillow price tracker (US)
+- Source: [apify-actors-a](https://apify.com/akhil_rajesh/zillow-price-tracker)
+- Checked: 2026-10-23T15:54:09.937078+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
+
+### chicken daylight planner (US)
+- Source: [apify-actors-z](https://apify.com/standardwork/chicken-daylight-planner)
+- Checked: 2026-10-23T15:54:09.937078+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
 
 ### rent king (BR)
 - Source: [gamepix-pt](https://www.gamepix.com/pt/play/rent-king)
