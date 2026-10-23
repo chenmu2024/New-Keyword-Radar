@@ -1,4 +1,4 @@
-# Sitemap to Google Trends validation — 2026-10-23
+# Sitemap to Google Trends validation — 2026-10-24
 
 This is independent research; original keyword seeds, commercial
 thresholds and the main radar candidate ranking are untouched.
@@ -6,9 +6,9 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 20
-- Usable Google Trends time series: 6/20
-- Missing or failed Google Trends time series: 14/20
+- Total distinct expressions researched: 22
+- Usable Google Trends time series: 6/22
+- Missing or failed Google Trends time series: 16/22
 - Data coverage status: partial_coverage (not a keyword verdict)
 - Rate-limit safety backoff: inactive
 - 90-day + historical-interest passes: 0
@@ -16,6 +16,22 @@ a winnable SERP, paid demand or monthly search volume.
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### ssl certificate expiry checker (US)
+- Source: [apify-actors-a](https://apify.com/admirala/ssl-certificate-expiry-checker)
+- Checked: 2026-10-24T02:41:17.953148+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
+
+### llms txt sitemap generator (US)
+- Source: [apify-actors-z](https://apify.com/silicon1235/llms-txt-sitemap-generator)
+- Checked: 2026-10-24T02:41:17.953148+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
 
 ### zillow price tracker (US)
 - Source: [apify-actors-a](https://apify.com/akhil_rajesh/zillow-price-tracker)
