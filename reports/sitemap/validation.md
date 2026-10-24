@@ -1,4 +1,4 @@
-# Sitemap to Google Trends validation — 2026-10-24
+# Sitemap to Google Trends validation — 2026-10-25
 
 This is independent research; original keyword seeds, commercial
 thresholds and the main radar candidate ranking are untouched.
@@ -6,16 +6,30 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 24
-- Usable Google Trends time series: 7/24
-- Missing or failed Google Trends time series: 17/24
+- Total distinct expressions researched: 26
+- Usable Google Trends time series: 9/26
+- Missing or failed Google Trends time series: 17/26
 - Data coverage status: partial_coverage (not a keyword verdict)
 - Rate-limit safety backoff: inactive
-- 90-day + historical-interest passes: 0
+- 90-day + historical-interest passes: 1
 - Confirmed absolute Volume/KD/CPC: 0 (not supplied)
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### ai answer visibility checker (US)
+- Source: [apify-actors-z](https://apify.com/shanmukhkiransagar/ai-answer-visibility-checker)
+- Checked: 2026-10-25T01:33:24.455298+08:00 | Status: **no_recent_trends_breakout**
+- Google Trends 90d baseline avg: 2.13; recent peak: 71; newness score: 46
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+
+### ai alt text generator (US)
+- Source: [vercel-product-watch](https://vercel.com/templates/next.js/ai-alt-text-generator)
+- Checked: 2026-10-25T01:33:24.455298+08:00 | Status: **trends_history_pass**
+- Google Trends 90d baseline avg: 0.0; recent peak: 100; newness score: 88
+- Historical 5y gate: True
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 
 ### local pack rank checker (US)
 - Source: [apify-actors-z](https://apify.com/steadyscrape/local-pack-rank-checker)
