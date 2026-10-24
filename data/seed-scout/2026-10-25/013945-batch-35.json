@@ -1,0 +1,111 @@
+{
+  "batch_id": "2026-10-24T17:39:45.368689+00:00-35-36-37-38-39",
+  "generated_at": "2026-10-24T17:39:45.368689+00:00",
+  "local_generated_at": "2026-10-25T01:39:45.368689+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "scheduler",
+    "converter",
+    "viewer",
+    "extractor",
+    "monitor"
+  ],
+  "seed_indices": [
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "start_index": 35,
+  "discoveries": [
+    {
+      "seed": "converter",
+      "query": "tangerine file converter",
+      "rise_value": 13800.0,
+      "raw_value": 13800
+    },
+    {
+      "seed": "monitor",
+      "query": "python swallows monitor lizard whole",
+      "rise_value": 2450.0,
+      "raw_value": 2450
+    },
+    {
+      "seed": "monitor",
+      "query": "colt monitor",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "scheduler",
+      "query": "msoe scheduler",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "scheduler",
+      "query": "telehealth scheduler jobs",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "scheduler",
+      "query": "telehealth scheduler remote jobs",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "scheduler",
+      "query": "scheduler cornell",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "scheduler",
+      "query": "booked scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "flex scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "medical scheduler remote jobs",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "extractor",
+      "query": "superpsx",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "best time to visit maldives",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "scheduler",
+      "query": "cheapest flights to tokyo",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "scheduler",
+      "query": "rti scheduler login",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 14
+}
