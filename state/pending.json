@@ -43,16 +43,6 @@
     "rise_value": 5850.0,
     "last_checked": ""
   },
-  "abs flux ii aqua pc deal": {
-    "query": "abs flux ii aqua pc deal",
-    "geo": "",
-    "source": "seed-rising:flux",
-    "first_seen": "2026-10-24",
-    "checks": 0,
-    "last_seen": "2026-10-24",
-    "seed_source": "flux",
-    "rise_value": 17300.0
-  },
   "adin ross fight card": {
     "query": "adin ross fight card",
     "geo": "",
@@ -72,7 +62,16 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "gumroad",
-    "rise_value": 600.0
+    "rise_value": 600.0,
+    "last_checked": ""
+  },
+  "agua": {
+    "query": "agua",
+    "geo": "ES",
+    "source": "rss:ES:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "ai agency constructor": {
     "query": "ai agency constructor",
@@ -84,16 +83,6 @@
     "seed_source": "constructor",
     "rise_value": 5600.0,
     "last_checked": ""
-  },
-  "ai image generator magnific": {
-    "query": "ai image generator magnific",
-    "geo": "",
-    "source": "seed-rising:image",
-    "first_seen": "2026-10-24",
-    "checks": 0,
-    "last_seen": "2026-10-24",
-    "seed_source": "image",
-    "rise_value": 2000.0
   },
   "aj brown": {
     "query": "aj brown",
@@ -117,6 +106,22 @@
     "rise_value": 90.0,
     "last_checked": ""
   },
+  "akool": {
+    "query": "akool",
+    "geo": "",
+    "source": "explore-related:ai image generator magnific",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "akool ai": {
+    "query": "akool ai",
+    "geo": "",
+    "source": "explore-related:ai image generator magnific",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "alden richards road manager": {
     "query": "alden richards road manager",
     "geo": "",
@@ -125,7 +130,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "manager",
-    "rise_value": 18150.0
+    "rise_value": 18150.0,
+    "last_checked": ""
   },
   "alliance arts steam demo cancellation": {
     "query": "alliance arts steam demo cancellation",
@@ -157,7 +163,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "verifier",
-    "rise_value": 40.0
+    "rise_value": 40.0,
+    "last_checked": ""
   },
   "andy woodman bromley manager departure": {
     "query": "andy woodman bromley manager departure",
@@ -213,6 +220,14 @@
     "seed_source": "pattern",
     "rise_value": 1950.0,
     "last_checked": ""
+  },
+  "asamblea virtual rita cetina": {
+    "query": "asamblea virtual rita cetina",
+    "geo": "MX",
+    "source": "rss:MX:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "aspirant pattern 2026": {
     "query": "aspirant pattern 2026",
@@ -368,6 +383,56 @@
     "rise_value": 5200.0,
     "last_checked": ""
   },
+  "bosch": {
+    "query": "bosch",
+    "geo": "",
+    "source": "explore-related:tracker season 4 episode 3 cast",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "bosch cast": {
+    "query": "bosch cast",
+    "geo": "",
+    "source": "explore-related:tracker original parts",
+    "first_seen": "2026-10-23",
+    "checks": 0,
+    "last_seen": "2026-10-24",
+    "last_checked": "",
+    "rise_value": 0.0
+  },
+  "bosch legacy cast": {
+    "query": "bosch legacy cast",
+    "geo": "",
+    "source": "explore-related:tracker season 4 episode 3 cast",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "boyacá chicó - bucaramanga": {
+    "query": "boyacá chicó - bucaramanga",
+    "geo": "ES",
+    "source": "rss:ES:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "bpc": {
+    "query": "bpc",
+    "geo": "BR",
+    "source": "rss:BR:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "brewers vs rays": {
+    "query": "brewers vs rays",
+    "geo": "GB",
+    "source": "rss:GB:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "brighton manager": {
     "query": "brighton manager",
     "geo": "",
@@ -467,15 +532,49 @@
     "rise_value": 3250.0,
     "last_checked": ""
   },
-  "car mechanic simulator 2027": {
-    "query": "car mechanic simulator 2027",
+  "car mechanic simulator 2026 ps5": {
+    "query": "car mechanic simulator 2026 ps5",
     "geo": "",
-    "source": "seed-rising:simulator",
+    "source": "explore-related:car mechanic simulator 2027",
     "first_seen": "2026-10-24",
     "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "car mechanic simulator 2026 release date": {
+    "query": "car mechanic simulator 2026 release date",
+    "geo": "",
+    "source": "explore-related:car mechanic simulator 2027",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "car mechanic simulator 2027 ps5": {
+    "query": "car mechanic simulator 2027 ps5",
+    "geo": "",
+    "source": "explore-related:car mechanic simulator 2027",
+    "first_seen": "2026-10-23",
+    "checks": 0,
     "last_seen": "2026-10-24",
-    "seed_source": "simulator",
-    "rise_value": 6750.0
+    "last_checked": "",
+    "rise_value": 0.0
+  },
+  "car mechanic simulator 2027 release date": {
+    "query": "car mechanic simulator 2027 release date",
+    "geo": "",
+    "source": "explore-related:car mechanic simulator 2027",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "car mechanic simulator 2027 xbox": {
+    "query": "car mechanic simulator 2027 xbox",
+    "geo": "",
+    "source": "explore-related:car mechanic simulator 2027",
+    "first_seen": "2026-10-23",
+    "checks": 0,
+    "last_seen": "2026-10-24",
+    "last_checked": "",
+    "rise_value": 0.0
   },
   "cardi b asl interpreter": {
     "query": "cardi b asl interpreter",
@@ -586,6 +685,54 @@
     "seed_source": "online",
     "rise_value": 14050.0,
     "last_checked": ""
+  },
+  "cast of tracker season 3": {
+    "query": "cast of tracker season 3",
+    "geo": "",
+    "source": "explore-related:tracker season 4 episode 3 cast",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "cast of tracker season 3 episode 3": {
+    "query": "cast of tracker season 3 episode 3",
+    "geo": "",
+    "source": "explore-related:tracker season 4 episode 3 cast",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "cast of tracker season 4": {
+    "query": "cast of tracker season 4",
+    "geo": "",
+    "source": "explore-related:tracker season 4 episode 3 cast",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "celtics": {
+    "query": "celtics",
+    "geo": "BR",
+    "source": "rss:BR:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "celtics - knicks": {
+    "query": "celtics - knicks",
+    "geo": "ES",
+    "source": "rss:ES:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "champi path": {
+    "query": "champi path",
+    "geo": "",
+    "source": "explore-related:typhoon champi tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "champions league format": {
     "query": "champions league format",
@@ -719,6 +866,14 @@
     "rise_value": 300.0,
     "last_checked": ""
   },
+  "clippers vs lakers": {
+    "query": "clippers vs lakers",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "cm vijay tribute composer deva": {
     "query": "cm vijay tribute composer deva",
     "geo": "",
@@ -741,6 +896,14 @@
     "rise_value": 43650.0,
     "last_checked": ""
   },
+  "cody rhodes": {
+    "query": "cody rhodes",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "college navigator": {
     "query": "college navigator",
     "geo": "",
@@ -760,7 +923,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "monitor",
-    "rise_value": 250.0
+    "rise_value": 250.0,
+    "last_checked": ""
   },
   "comment verifier si sa carte cni est disponible": {
     "query": "comment verifier si sa carte cni est disponible",
@@ -770,7 +934,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "verifier",
-    "rise_value": 70.0
+    "rise_value": 70.0,
+    "last_checked": ""
   },
   "common fonts": {
     "query": "common fonts",
@@ -948,15 +1113,21 @@
     "rise_value": 600.0,
     "last_checked": ""
   },
-  "cve tracker": {
-    "query": "cve tracker",
+  "cve-2026-109618": {
+    "query": "cve-2026-109618",
     "geo": "",
-    "source": "seed-rising:tracker",
+    "source": "explore-related:php2shell checker",
     "first_seen": "2026-10-24",
     "checks": 0,
-    "last_seen": "2026-10-24",
-    "seed_source": "tracker",
-    "rise_value": 2050.0
+    "last_seen": "2026-10-24"
+  },
+  "cyberpunk": {
+    "query": "cyberpunk",
+    "geo": "GB",
+    "source": "rss:GB:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "cyberpunk 2077 build planner": {
     "query": "cyberpunk 2077 build planner",
@@ -1012,6 +1183,22 @@
     "seed_source": "scheme",
     "rise_value": 27100.0,
     "last_checked": ""
+  },
+  "danny mcbride": {
+    "query": "danny mcbride",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "davion mitchell": {
+    "query": "davion mitchell",
+    "geo": "MX",
+    "source": "rss:MX:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "dbt project evaluator": {
     "query": "dbt project evaluator",
@@ -1197,7 +1384,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "constructor",
-    "rise_value": 120.0
+    "rise_value": 120.0,
+    "last_checked": ""
   },
   "dia del constructor sodimac": {
     "query": "dia del constructor sodimac",
@@ -1251,7 +1439,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "constructor",
-    "rise_value": 70.0
+    "rise_value": 70.0,
+    "last_checked": ""
   },
   "dj drop creator": {
     "query": "dj drop creator",
@@ -1283,7 +1472,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "manager",
-    "rise_value": 50.0
+    "rise_value": 50.0,
+    "last_checked": ""
   },
   "dmf sender": {
     "query": "dmf sender",
@@ -1340,6 +1530,14 @@
     "rise_value": 6400.0,
     "last_checked": ""
   },
+  "drake": {
+    "query": "drake",
+    "geo": "GB",
+    "source": "rss:GB:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "drew sample": {
     "query": "drew sample",
     "geo": "",
@@ -1359,7 +1557,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "verifier",
-    "rise_value": 40.0
+    "rise_value": 40.0,
+    "last_checked": ""
   },
   "driver verifier dma violation windows 11": {
     "query": "driver verifier dma violation windows 11",
@@ -1548,16 +1747,6 @@
     "rise_value": 3000.0,
     "last_checked": ""
   },
-  "farming simulator 25 catuaí map": {
-    "query": "farming simulator 25 catuaí map",
-    "geo": "",
-    "source": "seed-rising:simulator",
-    "first_seen": "2026-10-24",
-    "checks": 0,
-    "last_seen": "2026-10-24",
-    "seed_source": "simulator",
-    "rise_value": 3350.0
-  },
   "fast video cataloger": {
     "query": "fast video cataloger",
     "geo": "",
@@ -1568,6 +1757,14 @@
     "seed_source": "cataloger",
     "rise_value": 150.0,
     "last_checked": ""
+  },
+  "feria": {
+    "query": "feria",
+    "geo": "MX",
+    "source": "rss:MX:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "fflogs uploader": {
     "query": "fflogs uploader",
@@ -1590,6 +1787,22 @@
     "seed_source": "figma",
     "rise_value": 700.0,
     "last_checked": ""
+  },
+  "file converter download": {
+    "query": "file converter download",
+    "geo": "",
+    "source": "explore-related:tangerine file converter",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "file converter windows": {
+    "query": "file converter windows",
+    "geo": "",
+    "source": "explore-related:tangerine file converter",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "flappy bird": {
     "query": "flappy bird",
@@ -1623,6 +1836,14 @@
     "seed_source": "designer",
     "rise_value": 12650.0,
     "last_checked": ""
+  },
+  "flight tracker": {
+    "query": "flight tracker",
+    "geo": "",
+    "source": "explore-related:storm austen tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "fonts list": {
     "query": "fonts list",
@@ -1667,6 +1888,14 @@
     "seed_source": "evaluator",
     "rise_value": 10850.0,
     "last_checked": ""
+  },
+  "gas prices": {
+    "query": "gas prices",
+    "geo": "GB",
+    "source": "rss:GB:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "ge tracker": {
     "query": "ge tracker",
@@ -1723,6 +1952,24 @@
     "rise_value": 9300.0,
     "last_checked": ""
   },
+  "gillian bolt": {
+    "query": "gillian bolt",
+    "geo": "",
+    "source": "explore-related:tracker original parts",
+    "first_seen": "2026-10-23",
+    "checks": 0,
+    "last_seen": "2026-10-24",
+    "last_checked": "",
+    "rise_value": 0.0
+  },
+  "github": {
+    "query": "github",
+    "geo": "",
+    "source": "explore-related:tangerine file converter",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "github optimizer w11": {
     "query": "github optimizer w11",
     "geo": "",
@@ -1733,6 +1980,14 @@
     "seed_source": "optimizer",
     "rise_value": 400.0,
     "last_checked": ""
+  },
+  "github php2shell": {
+    "query": "github php2shell",
+    "geo": "",
+    "source": "explore-related:php2shell checker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "global election simulator": {
     "query": "global election simulator",
@@ -1833,6 +2088,22 @@
     "rise_value": 250.0,
     "last_checked": ""
   },
+  "governador parana": {
+    "query": "governador parana",
+    "geo": "BR",
+    "source": "rss:BR:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "grand vegas police simulator": {
+    "query": "grand vegas police simulator",
+    "geo": "BR",
+    "source": "sitemap:crazygames-br",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "green card lottery": {
     "query": "green card lottery",
     "geo": "",
@@ -1899,6 +2170,30 @@
     "rise_value": 300.0,
     "last_checked": ""
   },
+  "guam": {
+    "query": "guam",
+    "geo": "",
+    "source": "explore-related:typhoon champi tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "guam typhoon": {
+    "query": "guam typhoon",
+    "geo": "",
+    "source": "explore-related:typhoon champi tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "guam typhoon tracker": {
+    "query": "guam typhoon tracker",
+    "geo": "",
+    "source": "explore-related:typhoon champi tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "gymnast suni": {
     "query": "gymnast suni",
     "geo": "",
@@ -1964,6 +2259,22 @@
     "seed_source": "connector",
     "rise_value": 70.0,
     "last_checked": ""
+  },
+  "heat - pistons": {
+    "query": "heat - pistons",
+    "geo": "ES",
+    "source": "rss:ES:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "heat vs pistons": {
+    "query": "heat vs pistons",
+    "geo": "GB",
+    "source": "rss:GB:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "home assistant php": {
     "query": "home assistant php",
@@ -2042,6 +2353,22 @@
     "rise_value": 9150.0,
     "last_checked": ""
   },
+  "hunger games": {
+    "query": "hunger games",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "hunger games movies": {
+    "query": "hunger games movies",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "hunting simulator 3": {
     "query": "hunting simulator 3",
     "geo": "",
@@ -2052,6 +2379,22 @@
     "seed_source": "simulator",
     "rise_value": 110.0,
     "last_checked": ""
+  },
+  "hurricane champi": {
+    "query": "hurricane champi",
+    "geo": "",
+    "source": "explore-related:typhoon champi tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "hurricane tracker": {
+    "query": "hurricane tracker",
+    "geo": "",
+    "source": "explore-related:typhoon champi tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "hypernet explorer": {
     "query": "hypernet explorer",
@@ -2074,6 +2417,14 @@
     "seed_source": "scraper",
     "rise_value": 70.0,
     "last_checked": ""
+  },
+  "idade de flavio bolsonaro": {
+    "query": "idade de flavio bolsonaro",
+    "geo": "BR",
+    "source": "rss:BR:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "idleon research optimizer": {
     "query": "idleon research optimizer",
@@ -2207,6 +2558,38 @@
     "rise_value": 29500.0,
     "last_checked": ""
   },
+  "jalen duren": {
+    "query": "jalen duren",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "jalen duren stats": {
+    "query": "jalen duren stats",
+    "geo": "US",
+    "source": "suggest:US:jalen duren",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "jalen duren stats vs heat": {
+    "query": "jalen duren stats vs heat",
+    "geo": "US",
+    "source": "suggest:US:jalen duren",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "jalen smith": {
+    "query": "jalen smith",
+    "geo": "ES",
+    "source": "rss:ES:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "jelly operator optimizer": {
     "query": "jelly operator optimizer",
     "geo": "",
@@ -2217,6 +2600,14 @@
     "seed_source": "optimizer",
     "rise_value": 160.0,
     "last_checked": ""
+  },
+  "juarez vs necaxa": {
+    "query": "juarez vs necaxa",
+    "geo": "MX",
+    "source": "rss:MX:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "jura coffee maker": {
     "query": "jura coffee maker",
@@ -2229,6 +2620,14 @@
     "rise_value": 40.0,
     "last_checked": ""
   },
+  "juventud - peñarol": {
+    "query": "juventud - peñarol",
+    "geo": "ES",
+    "source": "rss:ES:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "kai scheduler": {
     "query": "kai scheduler",
     "geo": "",
@@ -2239,6 +2638,22 @@
     "seed_source": "scheduler",
     "rise_value": 90.0,
     "last_checked": ""
+  },
+  "kalshi": {
+    "query": "kalshi",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "kalshi promo code": {
+    "query": "kalshi promo code",
+    "geo": "US",
+    "source": "suggest:US:kalshi",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "kelly kurdi": {
     "query": "kelly kurdi",
@@ -2270,27 +2685,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "dashboard",
-    "rise_value": 60.0
-  },
-  "kmart undetectable tracker stalking concerns": {
-    "query": "kmart undetectable tracker stalking concerns",
-    "geo": "",
-    "source": "seed-rising:tracker",
-    "first_seen": "2026-10-24",
-    "checks": 0,
-    "last_seen": "2026-10-24",
-    "seed_source": "tracker",
-    "rise_value": 9150.0
-  },
-  "kmart usb charger tracker risks": {
-    "query": "kmart usb charger tracker risks",
-    "geo": "",
-    "source": "seed-rising:tracker",
-    "first_seen": "2026-10-24",
-    "checks": 0,
-    "last_seen": "2026-10-24",
-    "seed_source": "tracker",
-    "rise_value": 17400.0
+    "rise_value": 60.0,
+    "last_checked": ""
   },
   "knicks game": {
     "query": "knicks game",
@@ -2311,7 +2707,16 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "responder",
-    "rise_value": 50.0
+    "rise_value": 50.0,
+    "last_checked": ""
+  },
+  "lakers - clippers": {
+    "query": "lakers - clippers",
+    "geo": "MX",
+    "source": "rss:MX:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "lakers game": {
     "query": "lakers game",
@@ -2324,6 +2729,14 @@
     "rise_value": 200.0,
     "last_checked": ""
   },
+  "lakers x clippers": {
+    "query": "lakers x clippers",
+    "geo": "BR",
+    "source": "rss:BR:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "landscape designer near me": {
     "query": "landscape designer near me",
     "geo": "",
@@ -2334,6 +2747,14 @@
     "seed_source": "designer",
     "rise_value": 70.0,
     "last_checked": ""
+  },
+  "legol.click": {
+    "query": "legol.click",
+    "geo": "",
+    "source": "explore-related:ai image generator magnific",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "lic assistant notification 2026": {
     "query": "lic assistant notification 2026",
@@ -2367,6 +2788,14 @@
     "seed_source": "processor",
     "rise_value": 7450.0,
     "last_checked": ""
+  },
+  "lori vallow": {
+    "query": "lori vallow",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "loto quebec": {
     "query": "loto quebec",
@@ -2420,7 +2849,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "gumroad",
-    "rise_value": 100.0
+    "rise_value": 100.0,
+    "last_checked": ""
   },
   "m4 editor": {
     "query": "m4 editor",
@@ -2443,6 +2873,32 @@
     "seed_source": "connector",
     "rise_value": 2700.0,
     "last_checked": ""
+  },
+  "madison lintz": {
+    "query": "madison lintz",
+    "geo": "",
+    "source": "explore-related:tracker original parts",
+    "first_seen": "2026-10-23",
+    "checks": 0,
+    "last_seen": "2026-10-24",
+    "last_checked": "",
+    "rise_value": 0.0
+  },
+  "madison lintz tracker": {
+    "query": "madison lintz tracker",
+    "geo": "",
+    "source": "explore-related:tracker season 4 episode 3 cast",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "magic - timberwolves": {
+    "query": "magic - timberwolves",
+    "geo": "ES",
+    "source": "rss:ES:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "mahjongi.help": {
     "query": "mahjongi.help",
@@ -2507,7 +2963,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "connector",
-    "rise_value": 50.0
+    "rise_value": 50.0,
+    "last_checked": ""
   },
   "medical assistant day": {
     "query": "medical assistant day",
@@ -2575,6 +3032,14 @@
     "rise_value": 5750.0,
     "last_checked": ""
   },
+  "michael malarkey": {
+    "query": "michael malarkey",
+    "geo": "",
+    "source": "explore-related:tracker season 4 episode 3 cast",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "michelle kwan": {
     "query": "michelle kwan",
     "geo": "",
@@ -2597,6 +3062,14 @@
     "rise_value": 80.0,
     "last_checked": ""
   },
+  "milei": {
+    "query": "milei",
+    "geo": "BR",
+    "source": "rss:BR:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "mioc evaluator": {
     "query": "mioc evaluator",
     "geo": "",
@@ -2607,6 +3080,22 @@
     "seed_source": "evaluator",
     "rise_value": 200.0,
     "last_checked": ""
+  },
+  "mitchell robinson": {
+    "query": "mitchell robinson",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "mitchell robinson stats": {
+    "query": "mitchell robinson stats",
+    "geo": "US",
+    "source": "suggest:US:mitchell robinson",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "modern warfare 4": {
     "query": "modern warfare 4",
@@ -2627,7 +3116,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "steam",
-    "rise_value": 450.0
+    "rise_value": 450.0,
+    "last_checked": ""
   },
   "moss image": {
     "query": "moss image",
@@ -2659,7 +3149,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "monitor",
-    "rise_value": 60.0
+    "rise_value": 60.0,
+    "last_checked": ""
   },
   "msoe scheduler": {
     "query": "msoe scheduler",
@@ -2724,7 +3215,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "dashboard",
-    "rise_value": 60.0
+    "rise_value": 60.0,
+    "last_checked": ""
   },
   "mydiabby uploader": {
     "query": "mydiabby uploader",
@@ -2736,6 +3228,22 @@
     "seed_source": "uploader",
     "rise_value": 150.0,
     "last_checked": ""
+  },
+  "myriad immortal sect a xianxia simulator": {
+    "query": "myriad immortal sect a xianxia simulator",
+    "geo": "BR",
+    "source": "sitemap:gamepix-pt",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "météo": {
+    "query": "météo",
+    "geo": "",
+    "source": "explore-related:tracker s4e3",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "names of fonts": {
     "query": "names of fonts",
@@ -2767,7 +3275,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "optimizer",
-    "rise_value": 400.0
+    "rise_value": 400.0,
+    "last_checked": ""
   },
   "nba fanduel optimizer": {
     "query": "nba fanduel optimizer",
@@ -2812,6 +3321,14 @@
     "seed_source": "optimizer",
     "rise_value": 1050.0,
     "last_checked": ""
+  },
+  "nba scores": {
+    "query": "nba scores",
+    "geo": "GB",
+    "source": "rss:GB:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "nba starting lineups": {
     "query": "nba starting lineups",
@@ -2868,6 +3385,14 @@
     "rise_value": 5150.0,
     "last_checked": ""
   },
+  "news today": {
+    "query": "news today",
+    "geo": "GB",
+    "source": "rss:GB:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "next man utd manager odds": {
     "query": "next man utd manager odds",
     "geo": "",
@@ -2879,6 +3404,14 @@
     "rise_value": 180.0,
     "last_checked": ""
   },
+  "norte": {
+    "query": "norte",
+    "geo": "BR",
+    "source": "rss:BR:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "notifier afp-200": {
     "query": "notifier afp-200",
     "geo": "",
@@ -2887,7 +3420,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "notifier",
-    "rise_value": 100.0
+    "rise_value": 100.0,
+    "last_checked": ""
   },
   "notifier am2000": {
     "query": "notifier am2000",
@@ -2897,7 +3431,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "notifier",
-    "rise_value": 70.0
+    "rise_value": 70.0,
+    "last_checked": ""
   },
   "notifier fire alarms": {
     "query": "notifier fire alarms",
@@ -2907,7 +3442,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "notifier",
-    "rise_value": 60.0
+    "rise_value": 60.0,
+    "last_checked": ""
   },
   "notifier fsp-851": {
     "query": "notifier fsp-851",
@@ -2917,7 +3453,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "notifier",
-    "rise_value": 70.0
+    "rise_value": 70.0,
+    "last_checked": ""
   },
   "notifier nfs2-3030": {
     "query": "notifier nfs2-3030",
@@ -2938,7 +3475,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "notifier",
-    "rise_value": 60.0
+    "rise_value": 60.0,
+    "last_checked": ""
   },
   "notifier tech support": {
     "query": "notifier tech support",
@@ -2959,7 +3497,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "simulator",
-    "rise_value": 60.0
+    "rise_value": 60.0,
+    "last_checked": ""
   },
   "nysc dashboard": {
     "query": "nysc dashboard",
@@ -3068,7 +3607,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "simulator",
-    "rise_value": 1050.0
+    "rise_value": 1050.0,
+    "last_checked": ""
   },
   "open source ai coding assistant": {
     "query": "open source ai coding assistant",
@@ -3103,6 +3643,22 @@
     "rise_value": 400.0,
     "last_checked": ""
   },
+  "pacers - mavericks": {
+    "query": "pacers - mavericks",
+    "geo": "ES",
+    "source": "rss:ES:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "pacers vs mavericks": {
+    "query": "pacers vs mavericks",
+    "geo": "GB",
+    "source": "rss:GB:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "paddle": {
     "query": "paddle",
     "geo": "",
@@ -3111,7 +3667,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "gumroad",
-    "rise_value": 50.0
+    "rise_value": 50.0,
+    "last_checked": ""
   },
   "painting gingham pattern on vintage furniture": {
     "query": "painting gingham pattern on vintage furniture",
@@ -3201,6 +3758,14 @@
     "rise_value": 100.0,
     "last_checked": ""
   },
+  "php": {
+    "query": "php",
+    "geo": "",
+    "source": "explore-related:php2shell checker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "php checker": {
     "query": "php checker",
     "geo": "",
@@ -3211,6 +3776,14 @@
     "seed_source": "checker",
     "rise_value": 1050.0,
     "last_checked": ""
+  },
+  "php cve": {
+    "query": "php cve",
+    "geo": "",
+    "source": "explore-related:cve tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "php interpreter": {
     "query": "php interpreter",
@@ -3223,16 +3796,71 @@
     "rise_value": 300.0,
     "last_checked": ""
   },
-  "php2shell checker": {
-    "query": "php2shell checker",
+  "php version checker": {
+    "query": "php version checker",
     "geo": "",
-    "source": "seed-rising:checker",
+    "source": "explore-related:php2shell checker",
     "first_seen": "2026-10-24",
     "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "php vulnerability": {
+    "query": "php vulnerability",
+    "geo": "",
+    "source": "explore-related:php version checker",
+    "first_seen": "2026-10-22",
+    "checks": 0,
     "last_seen": "2026-10-24",
-    "seed_source": "checker",
-    "rise_value": 16750.0,
-    "last_checked": ""
+    "last_checked": "",
+    "rise_value": 0.0
+  },
+  "php2shell check": {
+    "query": "php2shell check",
+    "geo": "",
+    "source": "explore-related:php2shell checker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "php2shell cve": {
+    "query": "php2shell cve",
+    "geo": "",
+    "source": "explore-related:php2shell checker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "php2shell exploit": {
+    "query": "php2shell exploit",
+    "geo": "",
+    "source": "explore-related:php2shell checker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "php2shell exploit github": {
+    "query": "php2shell exploit github",
+    "geo": "",
+    "source": "explore-related:php2shell checker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "php2shell poc": {
+    "query": "php2shell poc",
+    "geo": "",
+    "source": "explore-related:php2shell checker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "php2shell vulnerability": {
+    "query": "php2shell vulnerability",
+    "geo": "",
+    "source": "explore-related:php2shell checker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "pittsburgh steelers wide receiver trade targets": {
     "query": "pittsburgh steelers wide receiver trade targets",
@@ -3266,6 +3894,14 @@
     "seed_source": "scheme",
     "rise_value": 5600.0,
     "last_checked": ""
+  },
+  "policía": {
+    "query": "policía",
+    "geo": "MX",
+    "source": "rss:MX:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "poop sender": {
     "query": "poop sender",
@@ -3333,6 +3969,14 @@
     "rise_value": 7400.0,
     "last_checked": ""
   },
+  "princesa leonor": {
+    "query": "princesa leonor",
+    "geo": "ES",
+    "source": "rss:ES:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "princess cruises first responder discount": {
     "query": "princess cruises first responder discount",
     "geo": "",
@@ -3399,6 +4043,14 @@
     "rise_value": 100.0,
     "last_checked": ""
   },
+  "ps5 pro": {
+    "query": "ps5 pro",
+    "geo": "GB",
+    "source": "rss:GB:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "pugilist": {
     "query": "pugilist",
     "geo": "",
@@ -3407,7 +4059,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "flux",
-    "rise_value": 10450.0
+    "rise_value": 10450.0,
+    "last_checked": ""
   },
   "pumpkin template": {
     "query": "pumpkin template",
@@ -3475,6 +4128,14 @@
     "rise_value": 500.0,
     "last_checked": ""
   },
+  "rays": {
+    "query": "rays",
+    "geo": "MX",
+    "source": "rss:MX:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "rec": {
     "query": "rec",
     "geo": "",
@@ -3505,7 +4166,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "responder",
-    "rise_value": 50.0
+    "rise_value": 50.0,
+    "last_checked": ""
   },
   "revolut down detector": {
     "query": "revolut down detector",
@@ -3537,7 +4199,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "manager",
-    "rise_value": 3450.0
+    "rise_value": 3450.0,
+    "last_checked": ""
   },
   "rockstar gta 6 ai impact": {
     "query": "rockstar gta 6 ai impact",
@@ -3560,6 +4223,14 @@
     "seed_source": "card",
     "rise_value": 2700.0,
     "last_checked": ""
+  },
+  "rosalia": {
+    "query": "rosalia",
+    "geo": "ES",
+    "source": "rss:ES:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "rotowire nba optimizer": {
     "query": "rotowire nba optimizer",
@@ -3833,7 +4504,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "responder",
-    "rise_value": 250.0
+    "rise_value": 250.0,
+    "last_checked": ""
   },
   "seaworld orlando first responder discount": {
     "query": "seaworld orlando first responder discount",
@@ -3843,7 +4515,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "responder",
-    "rise_value": 200.0
+    "rise_value": 200.0,
+    "last_checked": ""
   },
   "sentivo co detector": {
     "query": "sentivo co detector",
@@ -3855,6 +4528,14 @@
     "seed_source": "detector",
     "rise_value": 500.0,
     "last_checked": ""
+  },
+  "sergio moro": {
+    "query": "sergio moro",
+    "geo": "BR",
+    "source": "rss:BR:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "shad ps4 plus pkg extractor": {
     "query": "shad ps4 plus pkg extractor",
@@ -3944,6 +4625,26 @@
     "rise_value": 200.0,
     "last_checked": ""
   },
+  "siteverdict privacy policy checker": {
+    "query": "siteverdict privacy policy checker",
+    "geo": "US",
+    "source": "sitemap:apify-actors-z",
+    "first_seen": "2026-10-23",
+    "checks": 0,
+    "last_seen": "2026-10-24",
+    "last_checked": "",
+    "rise_value": 0.0
+  },
+  "siteverdict social preview checker": {
+    "query": "siteverdict social preview checker",
+    "geo": "US",
+    "source": "sitemap:apify-actors-z",
+    "first_seen": "2026-10-23",
+    "checks": 0,
+    "last_seen": "2026-10-24",
+    "last_checked": "",
+    "rise_value": 0.0
+  },
   "sixers game": {
     "query": "sixers game",
     "geo": "",
@@ -3974,7 +4675,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "constructor",
-    "rise_value": 40.0
+    "rise_value": 40.0,
+    "last_checked": ""
   },
   "sodimac constructor": {
     "query": "sodimac constructor",
@@ -3984,7 +4686,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "constructor",
-    "rise_value": 40.0
+    "rise_value": 40.0,
+    "last_checked": ""
   },
   "sprunki cancelled update cocrea": {
     "query": "sprunki cancelled update cocrea",
@@ -4063,6 +4766,14 @@
     "rise_value": 6500.0,
     "last_checked": ""
   },
+  "ssl certificate expiry checker": {
+    "query": "ssl certificate expiry checker",
+    "geo": "US",
+    "source": "sitemap:apify-actors-a",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "station master exam pattern": {
     "query": "station master exam pattern",
     "geo": "",
@@ -4073,6 +4784,14 @@
     "seed_source": "pattern",
     "rise_value": 300.0,
     "last_checked": ""
+  },
+  "steam": {
+    "query": "steam",
+    "geo": "",
+    "source": "explore-related:car mechanic simulator 2027",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "steam down": {
     "query": "steam down",
@@ -4104,7 +4823,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "steam",
-    "rise_value": 80.0
+    "rise_value": 80.0,
+    "last_checked": ""
   },
   "steam php": {
     "query": "steam php",
@@ -4180,27 +4900,56 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "tracker",
-    "rise_value": 15050.0
+    "rise_value": 15050.0,
+    "last_checked": ""
   },
-  "storm austen tracker": {
-    "query": "storm austen tracker",
+  "storm austen ireland": {
+    "query": "storm austen ireland",
     "geo": "",
-    "source": "seed-rising:tracker",
+    "source": "explore-related:storm austen tracker",
     "first_seen": "2026-10-24",
     "checks": 0,
-    "last_seen": "2026-10-24",
-    "seed_source": "tracker",
-    "rise_value": 15100.0
+    "last_seen": "2026-10-24"
   },
-  "storm austin tracker": {
-    "query": "storm austin tracker",
+  "storm austen london": {
+    "query": "storm austen london",
     "geo": "",
-    "source": "seed-rising:tracker",
+    "source": "explore-related:storm austen tracker",
     "first_seen": "2026-10-24",
     "checks": 0,
-    "last_seen": "2026-10-24",
-    "seed_source": "tracker",
-    "rise_value": 5250.0
+    "last_seen": "2026-10-24"
+  },
+  "storm austen uk": {
+    "query": "storm austen uk",
+    "geo": "",
+    "source": "explore-related:storm austen tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "storm austin": {
+    "query": "storm austin",
+    "geo": "",
+    "source": "explore-related:storm austen tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "storm tracker": {
+    "query": "storm tracker",
+    "geo": "",
+    "source": "explore-related:typhoon champi tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "storm tracker uk": {
+    "query": "storm tracker uk",
+    "geo": "",
+    "source": "explore-related:storm austen tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "student evaluator": {
     "query": "student evaluator",
@@ -4234,6 +4983,24 @@
     "seed_source": "maker",
     "rise_value": 70.0,
     "last_checked": ""
+  },
+  "super typhoon": {
+    "query": "super typhoon",
+    "geo": "",
+    "source": "explore-related:typhoon champi tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "super typhoon champi tracker": {
+    "query": "super typhoon champi tracker",
+    "geo": "",
+    "source": "explore-related:typhoon champi tracker",
+    "first_seen": "2026-10-23",
+    "checks": 0,
+    "last_seen": "2026-10-24",
+    "last_checked": "",
+    "rise_value": 0.0
   },
   "superpsx": {
     "query": "superpsx",
@@ -4290,15 +5057,77 @@
     "rise_value": 70.0,
     "last_checked": ""
   },
-  "tangerine file converter": {
-    "query": "tangerine file converter",
+  "tangerine ai": {
+    "query": "tangerine ai",
     "geo": "",
-    "source": "seed-rising:converter",
+    "source": "explore-related:tangerine file converter",
     "first_seen": "2026-10-24",
     "checks": 0,
-    "last_seen": "2026-10-24",
-    "seed_source": "converter",
-    "rise_value": 12950.0
+    "last_seen": "2026-10-24"
+  },
+  "tangerine app": {
+    "query": "tangerine app",
+    "geo": "",
+    "source": "explore-related:tangerine file converter",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "tangerine file convert": {
+    "query": "tangerine file convert",
+    "geo": "",
+    "source": "explore-related:tangerine file converter",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "tangerine file converter for windows": {
+    "query": "tangerine file converter for windows",
+    "geo": "",
+    "source": "explore-related:tangerine file converter",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "tangerine file converter windows": {
+    "query": "tangerine file converter windows",
+    "geo": "",
+    "source": "explore-related:tangerine file converter",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "tangerine for windows": {
+    "query": "tangerine for windows",
+    "geo": "",
+    "source": "explore-related:tangerine file converter",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "tangerine mac": {
+    "query": "tangerine mac",
+    "geo": "",
+    "source": "explore-related:tangerine file converter",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "tangerine mac app": {
+    "query": "tangerine mac app",
+    "geo": "",
+    "source": "explore-related:tangerine file converter",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "tangerine windows": {
+    "query": "tangerine windows",
+    "geo": "",
+    "source": "explore-related:tangerine file converter",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "tap simulator reborn": {
     "query": "tap simulator reborn",
@@ -4354,6 +5183,14 @@
     "seed_source": "recorder",
     "rise_value": 150.0,
     "last_checked": ""
+  },
+  "taxa selic": {
+    "query": "taxa selic",
+    "geo": "BR",
+    "source": "rss:BR:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "tea heart health": {
     "query": "tea heart health",
@@ -4420,6 +5257,14 @@
     "seed_source": "template",
     "rise_value": 700.0,
     "last_checked": ""
+  },
+  "terminal list season 2 cast": {
+    "query": "terminal list season 2 cast",
+    "geo": "US",
+    "source": "rss:US:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "texas sample ballot": {
     "query": "texas sample ballot",
@@ -4509,6 +5354,14 @@
     "rise_value": 170.0,
     "last_checked": ""
   },
+  "tigre - atlético tucumán": {
+    "query": "tigre - atlético tucumán",
+    "geo": "MX",
+    "source": "rss:MX:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "tim daly": {
     "query": "tim daly",
     "geo": "",
@@ -4528,37 +5381,64 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "comparator",
-    "rise_value": 60.0
+    "rise_value": 60.0,
+    "last_checked": ""
   },
-  "tracker original parts": {
-    "query": "tracker original parts",
+  "tracker cast": {
+    "query": "tracker cast",
     "geo": "",
-    "source": "seed-rising:tracker",
-    "first_seen": "2026-10-24",
+    "source": "explore-related:tracker original parts",
+    "first_seen": "2026-10-23",
     "checks": 0,
     "last_seen": "2026-10-24",
-    "seed_source": "tracker",
-    "rise_value": 7250.0
+    "last_checked": "",
+    "rise_value": 0.0
   },
-  "tracker s4e3": {
-    "query": "tracker s4e3",
+  "tracker episodes": {
+    "query": "tracker episodes",
     "geo": "",
-    "source": "seed-rising:tracker",
+    "source": "explore-related:tracker season 4 episode 3 cast",
     "first_seen": "2026-10-24",
     "checks": 0,
-    "last_seen": "2026-10-24",
-    "seed_source": "tracker",
-    "rise_value": 6950.0
+    "last_seen": "2026-10-24"
   },
-  "tracker season 4 episode 3 cast": {
-    "query": "tracker season 4 episode 3 cast",
+  "tracker season 4": {
+    "query": "tracker season 4",
     "geo": "",
-    "source": "seed-rising:tracker",
-    "first_seen": "2026-10-24",
+    "source": "explore-related:tracker original parts",
+    "first_seen": "2026-10-23",
     "checks": 0,
     "last_seen": "2026-10-24",
-    "seed_source": "tracker",
-    "rise_value": 2450.0
+    "last_checked": "",
+    "rise_value": 0.0
+  },
+  "tracker season 4 episode 3": {
+    "query": "tracker season 4 episode 3",
+    "geo": "",
+    "source": "explore-related:tracker original parts",
+    "first_seen": "2026-10-23",
+    "checks": 0,
+    "last_seen": "2026-10-24",
+    "last_checked": "",
+    "rise_value": 0.0
+  },
+  "tracker tonight": {
+    "query": "tracker tonight",
+    "geo": "",
+    "source": "explore-related:tracker original parts",
+    "first_seen": "2026-10-23",
+    "checks": 0,
+    "last_seen": "2026-10-24",
+    "last_checked": "",
+    "rise_value": 0.0
+  },
+  "tracker tonight cast": {
+    "query": "tracker tonight cast",
+    "geo": "",
+    "source": "explore-related:tracker original parts",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "trade analyzer fantasy basketball": {
     "query": "trade analyzer fantasy basketball",
@@ -4579,7 +5459,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "syncer",
-    "rise_value": 200.0
+    "rise_value": 200.0,
+    "last_checked": ""
   },
   "travis county sample ballot 2026": {
     "query": "travis county sample ballot 2026",
@@ -4603,15 +5484,29 @@
     "rise_value": 160.0,
     "last_checked": ""
   },
-  "typhoon champi tracker": {
-    "query": "typhoon champi tracker",
+  "typhoon champi guam tracker": {
+    "query": "typhoon champi guam tracker",
     "geo": "",
-    "source": "seed-rising:tracker",
+    "source": "explore-related:typhoon champi tracker",
     "first_seen": "2026-10-24",
     "checks": 0,
-    "last_seen": "2026-10-24",
-    "seed_source": "tracker",
-    "rise_value": 3550.0
+    "last_seen": "2026-10-24"
+  },
+  "typhoon champi path": {
+    "query": "typhoon champi path",
+    "geo": "",
+    "source": "explore-related:typhoon champi tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "typhoon taiwan": {
+    "query": "typhoon taiwan",
+    "geo": "",
+    "source": "explore-related:typhoon champi tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "typhoon tracker": {
     "query": "typhoon tracker",
@@ -4645,6 +5540,22 @@
     "seed_source": "card",
     "rise_value": 300.0,
     "last_checked": ""
+  },
+  "uk property tracker": {
+    "query": "uk property tracker",
+    "geo": "US",
+    "source": "sitemap:apify-actors-a",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "uk storm": {
+    "query": "uk storm",
+    "geo": "",
+    "source": "explore-related:storm austen tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "ulrica food processor": {
     "query": "ulrica food processor",
@@ -4733,6 +5644,14 @@
     "seed_source": "composer",
     "rise_value": 16350.0,
     "last_checked": ""
+  },
+  "vercel connect adds managed stripe api keys": {
+    "query": "vercel connect adds managed stripe api keys",
+    "geo": "US",
+    "source": "sitemap:vercel-product-watch",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "verifier billet loto": {
     "query": "verifier billet loto",
@@ -4921,6 +5840,30 @@
     "rise_value": 650.0,
     "last_checked": ""
   },
+  "warriors - grizzlies": {
+    "query": "warriors - grizzlies",
+    "geo": "MX",
+    "source": "rss:MX:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "warriors x grizzlies": {
+    "query": "warriors x grizzlies",
+    "geo": "BR",
+    "source": "rss:BR:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
+  "weather storm austen": {
+    "query": "weather storm austen",
+    "geo": "",
+    "source": "explore-related:storm austen tracker",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
+  },
   "western australia $500 toilet scheme": {
     "query": "western australia $500 toilet scheme",
     "geo": "",
@@ -4973,7 +5916,8 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "gumroad",
-    "rise_value": 120.0
+    "rise_value": 120.0,
+    "last_checked": ""
   },
   "whatsapp android chat bar redesign": {
     "query": "whatsapp android chat bar redesign",
@@ -5016,7 +5960,16 @@
     "checks": 0,
     "last_seen": "2026-10-24",
     "seed_source": "comparator",
-    "rise_value": 140.0
+    "rise_value": 140.0,
+    "last_checked": ""
+  },
+  "william contreras": {
+    "query": "william contreras",
+    "geo": "MX",
+    "source": "rss:MX:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "williamson county sample ballot": {
     "query": "williamson county sample ballot",
@@ -5028,6 +5981,14 @@
     "seed_source": "sample",
     "rise_value": 450.0,
     "last_checked": ""
+  },
+  "wizards vs raptors": {
+    "query": "wizards vs raptors",
+    "geo": "GB",
+    "source": "rss:GB:keyword",
+    "first_seen": "2026-10-24",
+    "checks": 0,
+    "last_seen": "2026-10-24"
   },
   "world series game 1": {
     "query": "world series game 1",
@@ -5367,16 +6328,6 @@
     "rise_value": 70.0,
     "last_checked": ""
   },
-  "bosch cast": {
-    "query": "bosch cast",
-    "geo": "",
-    "source": "explore-related:tracker original parts",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
   "brandon smith steelers wide receiver": {
     "query": "brandon smith steelers wide receiver",
     "geo": "",
@@ -5441,26 +6392,6 @@
     "seed_source": "constructor",
     "rise_value": 70.0,
     "last_checked": ""
-  },
-  "car mechanic simulator 2027 ps5": {
-    "query": "car mechanic simulator 2027 ps5",
-    "geo": "",
-    "source": "explore-related:car mechanic simulator 2027",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "car mechanic simulator 2027 xbox": {
-    "query": "car mechanic simulator 2027 xbox",
-    "geo": "",
-    "source": "explore-related:car mechanic simulator 2027",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
   },
   "cazé tv": {
     "query": "cazé tv",
@@ -5952,16 +6883,6 @@
     "last_checked": "",
     "rise_value": 0.0
   },
-  "gillian bolt": {
-    "query": "gillian bolt",
-    "geo": "",
-    "source": "explore-related:tracker original parts",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
   "glooko uploader": {
     "query": "glooko uploader",
     "geo": "",
@@ -6354,16 +7275,6 @@
     "last_checked": "",
     "rise_value": 0.0
   },
-  "madison lintz": {
-    "query": "madison lintz",
-    "geo": "",
-    "source": "explore-related:tracker original parts",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
   "maple leafs vs rangers": {
     "query": "maple leafs vs rangers",
     "geo": "GB",
@@ -6609,16 +7520,6 @@
     "seed_source": "scheme",
     "rise_value": 250.0,
     "last_checked": ""
-  },
-  "php vulnerability": {
-    "query": "php vulnerability",
-    "geo": "",
-    "source": "explore-related:php version checker",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
   },
   "pictime": {
     "query": "pictime",
@@ -6923,1176 +7824,6 @@
     "last_seen": "2026-10-23",
     "seed_source": "extractor",
     "rise_value": 250.0,
-    "last_checked": ""
-  },
-  "shadps4 pkg extractor": {
-    "query": "shadps4 pkg extractor",
-    "geo": "",
-    "source": "seed-rising:extractor",
-    "first_seen": "2026-10-21",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "extractor",
-    "rise_value": 180.0,
-    "last_checked": ""
-  },
-  "shadps4plus pkg extractor": {
-    "query": "shadps4plus pkg extractor",
-    "geo": "",
-    "source": "seed-rising:extractor",
-    "first_seen": "2026-10-20",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "extractor",
-    "rise_value": 300.0,
-    "last_checked": ""
-  },
-  "sitemap link checker": {
-    "query": "sitemap link checker",
-    "geo": "US",
-    "source": "sitemap:apify-actors-a",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "siteverdict privacy policy checker": {
-    "query": "siteverdict privacy policy checker",
-    "geo": "US",
-    "source": "sitemap:apify-actors-z",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "siteverdict social preview checker": {
-    "query": "siteverdict social preview checker",
-    "geo": "US",
-    "source": "sitemap:apify-actors-z",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "small restaurant crossword clue": {
-    "query": "small restaurant crossword clue",
-    "geo": "",
-    "source": "seed-rising:flux",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "flux",
-    "rise_value": 6500.0,
-    "last_checked": ""
-  },
-  "solvely ai": {
-    "query": "solvely ai",
-    "geo": "",
-    "source": "seed-rising:ai",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "ai",
-    "rise_value": 200.0,
-    "last_checked": ""
-  },
-  "sprunki phase 17": {
-    "query": "sprunki phase 17",
-    "geo": "",
-    "source": "seed-rising:cocrea",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "cocrea",
-    "rise_value": 90.0,
-    "last_checked": ""
-  },
-  "stanstore": {
-    "query": "stanstore",
-    "geo": "",
-    "source": "seed-rising:gumroad",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "gumroad",
-    "rise_value": 120.0,
-    "last_checked": ""
-  },
-  "steam server status": {
-    "query": "steam server status",
-    "geo": "",
-    "source": "seed-rising:steam",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "steam",
-    "rise_value": 50.0,
-    "last_checked": ""
-  },
-  "stick run creator death": {
-    "query": "stick run creator death",
-    "geo": "",
-    "source": "seed-rising:creator",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "creator",
-    "rise_value": 5900.0,
-    "last_checked": ""
-  },
-  "super typhoon champi tracker": {
-    "query": "super typhoon champi tracker",
-    "geo": "",
-    "source": "explore-related:typhoon champi tracker",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "surf file sender": {
-    "query": "surf file sender",
-    "geo": "",
-    "source": "seed-rising:sender",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "sender",
-    "rise_value": 60.0,
-    "last_checked": ""
-  },
-  "taco bell double dipping burritos": {
-    "query": "taco bell double dipping burritos",
-    "geo": "",
-    "source": "explore-related:cbs action thriller tracker show",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "tag": {
-    "query": "tag",
-    "geo": "",
-    "source": "seed-rising:slope game",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "slope game",
-    "rise_value": 80.0,
-    "last_checked": ""
-  },
-  "terry mclaurin": {
-    "query": "terry mclaurin",
-    "geo": "",
-    "source": "seed-rising:receiver",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "receiver",
-    "rise_value": 190.0,
-    "last_checked": ""
-  },
-  "the diplomat": {
-    "query": "the diplomat",
-    "geo": "",
-    "source": "explore-related:cbs action thriller tracker show",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "the diplomat rotten tomatoes score": {
-    "query": "the diplomat rotten tomatoes score",
-    "geo": "",
-    "source": "explore-related:cbs action thriller tracker show",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "the genius interpreter in plain sight dailymotion": {
-    "query": "the genius interpreter in plain sight dailymotion",
-    "geo": "",
-    "source": "seed-rising:interpreter",
-    "first_seen": "2026-10-20",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "interpreter",
-    "rise_value": 250.0,
-    "last_checked": ""
-  },
-  "thunder - nuggets": {
-    "query": "thunder - nuggets",
-    "geo": "MX",
-    "source": "rss:MX:keyword",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "thunder x nuggets": {
-    "query": "thunder x nuggets",
-    "geo": "BR",
-    "source": "rss:BR:keyword",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "tracker cast": {
-    "query": "tracker cast",
-    "geo": "",
-    "source": "explore-related:tracker original parts",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "tracker season 4": {
-    "query": "tracker season 4",
-    "geo": "",
-    "source": "explore-related:tracker original parts",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "tracker season 4 episode 3": {
-    "query": "tracker season 4 episode 3",
-    "geo": "",
-    "source": "explore-related:tracker original parts",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "tracker tonight": {
-    "query": "tracker tonight",
-    "geo": "",
-    "source": "explore-related:tracker original parts",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "trauma lab itch.io": {
-    "query": "trauma lab itch.io",
-    "geo": "",
-    "source": "seed-rising:itch.io",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "itch.io",
-    "rise_value": 16150.0,
-    "last_checked": ""
-  },
-  "travis county sample ballot": {
-    "query": "travis county sample ballot",
-    "geo": "",
-    "source": "seed-rising:sample",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "sample",
-    "rise_value": 650.0,
-    "last_checked": ""
-  },
-  "tvet dashboard": {
-    "query": "tvet dashboard",
-    "geo": "",
-    "source": "seed-rising:dashboard",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "dashboard",
-    "rise_value": 60.0,
-    "last_checked": ""
-  },
-  "uf scheduler": {
-    "query": "uf scheduler",
-    "geo": "",
-    "source": "seed-rising:scheduler",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "scheduler",
-    "rise_value": 70.0,
-    "last_checked": ""
-  },
-  "verifier mon inscription electorale": {
-    "query": "verifier mon inscription electorale",
-    "geo": "",
-    "source": "seed-rising:verifier",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "verifier",
-    "rise_value": 160.0,
-    "last_checked": ""
-  },
-  "verifier situation electorale": {
-    "query": "verifier situation electorale",
-    "geo": "",
-    "source": "seed-rising:verifier",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "verifier",
-    "rise_value": 60.0,
-    "last_checked": ""
-  },
-  "wap sign language interpreter": {
-    "query": "wap sign language interpreter",
-    "geo": "",
-    "source": "seed-rising:interpreter",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "interpreter",
-    "rise_value": 700.0,
-    "last_checked": ""
-  },
-  "week 7 wide receiver rankings": {
-    "query": "week 7 wide receiver rankings",
-    "geo": "",
-    "source": "seed-rising:receiver",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "receiver",
-    "rise_value": 2050.0,
-    "last_checked": ""
-  },
-  "what are the details of the study linking daily tea drinking to healthier hearts": {
-    "query": "what are the details of the study linking daily tea drinking to healthier hearts",
-    "geo": "",
-    "source": "seed-rising:tea",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "tea",
-    "rise_value": 1250.0,
-    "last_checked": ""
-  },
-  "whatsapp dynamic navigation bar beta": {
-    "query": "whatsapp dynamic navigation bar beta",
-    "geo": "",
-    "source": "seed-rising:scheme",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "scheme",
-    "rise_value": 1700.0,
-    "last_checked": ""
-  },
-  "white power symbol": {
-    "query": "white power symbol",
-    "geo": "",
-    "source": "seed-rising:symbol",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "symbol",
-    "rise_value": 150.0,
-    "last_checked": ""
-  },
-  "win comparator": {
-    "query": "win comparator",
-    "geo": "",
-    "source": "seed-rising:comparator",
-    "first_seen": "2026-10-20",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "comparator",
-    "rise_value": 50.0,
-    "last_checked": ""
-  },
-  "winter weather forecast": {
-    "query": "winter weather forecast",
-    "geo": "",
-    "source": "explore-related:cbs action thriller tracker show",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "wwe2k26 image uploader": {
-    "query": "wwe2k26 image uploader",
-    "geo": "",
-    "source": "seed-rising:uploader",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "uploader",
-    "rise_value": 90.0,
-    "last_checked": ""
-  },
-  "zillow price tracker": {
-    "query": "zillow price tracker",
-    "geo": "US",
-    "source": "sitemap:apify-actors-a",
-    "first_seen": "2026-10-23",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "สล็อต เว็บ ตรง nsn ac th example": {
-    "query": "สล็อต เว็บ ตรง nsn ac th example",
-    "geo": "",
-    "source": "seed-rising:example",
-    "first_seen": "2026-10-20",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "example",
-    "rise_value": 30350.0,
-    "last_checked": ""
-  },
-  "สล็อต เว็บ ตรง nsn ac th jointly": {
-    "query": "สล็อต เว็บ ตรง nsn ac th jointly",
-    "geo": "",
-    "source": "seed-rising:example",
-    "first_seen": "2026-10-20",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "example",
-    "rise_value": 5050.0,
-    "last_checked": ""
-  },
-  "สล็อต เว็บ ตรง nsn ac th rating": {
-    "query": "สล็อต เว็บ ตรง nsn ac th rating",
-    "geo": "",
-    "source": "seed-rising:example",
-    "first_seen": "2026-10-20",
-    "checks": 0,
-    "last_seen": "2026-10-23",
-    "seed_source": "example",
-    "rise_value": 1350.0,
-    "last_checked": ""
-  },
-  "1 winner bet verifier ticket": {
-    "query": "1 winner bet verifier ticket",
-    "geo": "",
-    "source": "seed-rising:verifier",
-    "first_seen": "2026-10-21",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "verifier",
-    "rise_value": 100.0,
-    "last_checked": ""
-  },
-  "2v2io": {
-    "query": "2v2io",
-    "geo": "",
-    "source": "seed-rising:slope game",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "slope game",
-    "rise_value": 150.0,
-    "last_checked": ""
-  },
-  "aao avatar optimizer": {
-    "query": "aao avatar optimizer",
-    "geo": "",
-    "source": "seed-rising:optimizer",
-    "first_seen": "2026-10-20",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "optimizer",
-    "rise_value": 130.0,
-    "last_checked": ""
-  },
-  "alienware 32 aw3225qf oled qd-oled 240hz gaming monitor": {
-    "query": "alienware 32 aw3225qf oled qd-oled 240hz gaming monitor",
-    "geo": "",
-    "source": "seed-rising:monitor",
-    "first_seen": "2026-10-16",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "monitor",
-    "rise_value": 500.0,
-    "last_checked": ""
-  },
-  "alignerr": {
-    "query": "alignerr",
-    "geo": "",
-    "source": "seed-rising:evaluator",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "evaluator",
-    "rise_value": 300.0,
-    "last_checked": ""
-  },
-  "android developer verifier nedir": {
-    "query": "android developer verifier nedir",
-    "geo": "",
-    "source": "seed-rising:verifier",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "verifier",
-    "rise_value": 50.0,
-    "last_checked": ""
-  },
-  "android system key verifier para que sirve": {
-    "query": "android system key verifier para que sirve",
-    "geo": "",
-    "source": "seed-rising:verifier",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "verifier",
-    "rise_value": 80.0,
-    "last_checked": ""
-  },
-  "artcraft": {
-    "query": "artcraft",
-    "geo": "",
-    "source": "seed-rising:figma",
-    "first_seen": "2026-10-20",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "figma",
-    "rise_value": 450.0,
-    "last_checked": ""
-  },
-  "asos website": {
-    "query": "asos website",
-    "geo": "",
-    "source": "explore-related:ecommerce website builder",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "atlanta dream": {
-    "query": "atlanta dream",
-    "geo": "US",
-    "source": "rss:US:keyword",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "atlanta dream schedule": {
-    "query": "atlanta dream schedule",
-    "geo": "US",
-    "source": "suggest:US:atlanta dream",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "atlas x club américa": {
-    "query": "atlas x club américa",
-    "geo": "BR",
-    "source": "rss:BR:keyword",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "baguette": {
-    "query": "baguette",
-    "geo": "",
-    "source": "seed-rising:roblox",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "roblox",
-    "rise_value": 650.0,
-    "last_checked": ""
-  },
-  "ballotpedia sample ballot": {
-    "query": "ballotpedia sample ballot",
-    "geo": "",
-    "source": "seed-rising:sample",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "sample",
-    "rise_value": 200.0,
-    "last_checked": ""
-  },
-  "baloo file extractor": {
-    "query": "baloo file extractor",
-    "geo": "",
-    "source": "seed-rising:extractor",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "extractor",
-    "rise_value": 1250.0,
-    "last_checked": ""
-  },
-  "barca game": {
-    "query": "barca game",
-    "geo": "",
-    "source": "seed-rising:game",
-    "first_seen": "2026-10-19",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "game",
-    "rise_value": 130.0,
-    "last_checked": ""
-  },
-  "barcelona tyler the creator": {
-    "query": "barcelona tyler the creator",
-    "geo": "",
-    "source": "seed-rising:creator",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "creator",
-    "rise_value": 1700.0,
-    "last_checked": ""
-  },
-  "benjamin moore color of the year 2027": {
-    "query": "benjamin moore color of the year 2027",
-    "geo": "",
-    "source": "seed-rising:color",
-    "first_seen": "2026-10-20",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "color",
-    "rise_value": 1300.0,
-    "last_checked": ""
-  },
-  "bir excel uploader": {
-    "query": "bir excel uploader",
-    "geo": "",
-    "source": "seed-rising:uploader",
-    "first_seen": "2026-10-11",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "uploader",
-    "rise_value": 250.0,
-    "last_checked": ""
-  },
-  "block blast": {
-    "query": "block blast",
-    "geo": "",
-    "source": "seed-rising:slope game",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "slope game",
-    "rise_value": 110.0,
-    "last_checked": ""
-  },
-  "bola ahmed tinubu": {
-    "query": "bola ahmed tinubu",
-    "geo": "",
-    "source": "explore-related:dangote federal government tax credit scheme",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "brewers manager": {
-    "query": "brewers manager",
-    "geo": "",
-    "source": "seed-rising:manager",
-    "first_seen": "2026-10-14",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "manager",
-    "rise_value": 300.0,
-    "last_checked": ""
-  },
-  "ca dashboard": {
-    "query": "ca dashboard",
-    "geo": "",
-    "source": "seed-rising:dashboard",
-    "first_seen": "2026-10-19",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "dashboard",
-    "rise_value": 60.0,
-    "last_checked": ""
-  },
-  "cacophony": {
-    "query": "cacophony",
-    "geo": "",
-    "source": "seed-rising:connector",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "connector",
-    "rise_value": 3050.0,
-    "last_checked": ""
-  },
-  "california dashboard": {
-    "query": "california dashboard",
-    "geo": "",
-    "source": "seed-rising:dashboard",
-    "first_seen": "2026-10-19",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "dashboard",
-    "rise_value": 50.0,
-    "last_checked": ""
-  },
-  "capafy ai": {
-    "query": "capafy ai",
-    "geo": "",
-    "source": "seed-rising:ai",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "ai",
-    "rise_value": 70.0,
-    "last_checked": ""
-  },
-  "capcut": {
-    "query": "capcut",
-    "geo": "",
-    "source": "explore-related:creator point template",
-    "first_seen": "2026-10-19",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "car ice scraper": {
-    "query": "car ice scraper",
-    "geo": "",
-    "source": "seed-rising:scraper",
-    "first_seen": "2026-10-20",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "scraper",
-    "rise_value": 50.0,
-    "last_checked": ""
-  },
-  "carlos miguel": {
-    "query": "carlos miguel",
-    "geo": "BR",
-    "source": "rss:BR:keyword",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "casino online nl www.gokkompas.com 🇳🇱": {
-    "query": "casino online nl www.gokkompas.com 🇳🇱",
-    "geo": "",
-    "source": "seed-rising:online",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "online",
-    "rise_value": 7900.0,
-    "last_checked": ""
-  },
-  "centro histórico de la ciudad de méxico": {
-    "query": "centro histórico de la ciudad de méxico",
-    "geo": "MX",
-    "source": "rss:MX:keyword",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "cgtrader": {
-    "query": "cgtrader",
-    "geo": "",
-    "source": "seed-rising:gumroad",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "gumroad",
-    "rise_value": 60.0,
-    "last_checked": ""
-  },
-  "chase home evaluator": {
-    "query": "chase home evaluator",
-    "geo": "",
-    "source": "seed-rising:evaluator",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "evaluator",
-    "rise_value": 300.0,
-    "last_checked": ""
-  },
-  "chubasco": {
-    "query": "chubasco",
-    "geo": "ES",
-    "source": "rss:ES:keyword",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "clover time codes": {
-    "query": "clover time codes",
-    "geo": "",
-    "source": "seed-rising:notifier",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "notifier",
-    "rise_value": 50.0,
-    "last_checked": ""
-  },
-  "coconut scraper electric": {
-    "query": "coconut scraper electric",
-    "geo": "",
-    "source": "seed-rising:scraper",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "scraper",
-    "rise_value": 70.0,
-    "last_checked": ""
-  },
-  "comparator vs comparable in java": {
-    "query": "comparator vs comparable in java",
-    "geo": "",
-    "source": "seed-rising:comparator",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "comparator",
-    "rise_value": 40.0,
-    "last_checked": ""
-  },
-  "comparitor": {
-    "query": "comparitor",
-    "geo": "",
-    "source": "seed-rising:comparator",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "comparator",
-    "rise_value": 50.0,
-    "last_checked": ""
-  },
-  "concat ai": {
-    "query": "concat ai",
-    "geo": "",
-    "source": "explore-related:concat video editor",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "concat capcut": {
-    "query": "concat capcut",
-    "geo": "",
-    "source": "explore-related:concat video editor",
-    "first_seen": "2026-10-21",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "concut": {
-    "query": "concut",
-    "geo": "",
-    "source": "explore-related:concat video editor",
-    "first_seen": "2026-10-21",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "copa libertadores": {
-    "query": "copa libertadores",
-    "geo": "MX",
-    "source": "rss:MX:keyword",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "course scheduler": {
-    "query": "course scheduler",
-    "geo": "",
-    "source": "seed-rising:scheduler",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "scheduler",
-    "rise_value": 50.0,
-    "last_checked": ""
-  },
-  "cozy builder": {
-    "query": "cozy builder",
-    "geo": "",
-    "source": "seed-rising:builder",
-    "first_seen": "2026-10-20",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "builder",
-    "rise_value": 160.0,
-    "last_checked": ""
-  },
-  "cuban green card approval decline": {
-    "query": "cuban green card approval decline",
-    "geo": "",
-    "source": "seed-rising:card",
-    "first_seen": "2026-10-21",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "card",
-    "rise_value": 3150.0,
-    "last_checked": ""
-  },
-  "dejounte murray": {
-    "query": "dejounte murray",
-    "geo": "US",
-    "source": "rss:US:keyword",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "dejounte murray stats": {
-    "query": "dejounte murray stats",
-    "geo": "US",
-    "source": "suggest:US:dejounte murray",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "dejounte murray stats vs pacers": {
-    "query": "dejounte murray stats vs pacers",
-    "geo": "US",
-    "source": "suggest:US:dejounte murray",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "descargar downloader": {
-    "query": "descargar downloader",
-    "geo": "",
-    "source": "seed-rising:downloader",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "downloader",
-    "rise_value": 40.0,
-    "last_checked": ""
-  },
-  "diana de gales": {
-    "query": "diana de gales",
-    "geo": "MX",
-    "source": "rss:MX:keyword",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "donde ver santos vs pumas": {
-    "query": "donde ver santos vs pumas",
-    "geo": "MX",
-    "source": "rss:MX:keyword",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "dp world tour": {
-    "query": "dp world tour",
-    "geo": "GB",
-    "source": "rss:GB:keyword",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "drift": {
-    "query": "drift",
-    "geo": "",
-    "source": "explore-related:concat video editor",
-    "first_seen": "2026-10-21",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "drift video": {
-    "query": "drift video",
-    "geo": "",
-    "source": "explore-related:concat video editor",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "drift video editor": {
-    "query": "drift video editor",
-    "geo": "",
-    "source": "explore-related:concat video editor",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "early voting locations by zip code": {
-    "query": "early voting locations by zip code",
-    "geo": "",
-    "source": "explore-related:harris county sample ballot by zip code",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "eclipse animator roblox": {
-    "query": "eclipse animator roblox",
-    "geo": "",
-    "source": "seed-rising:roblox",
-    "first_seen": "2026-10-20",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "roblox",
-    "rise_value": 650.0,
-    "last_checked": ""
-  },
-  "editor de video": {
-    "query": "editor de video",
-    "geo": "",
-    "source": "explore-related:concat video editor",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "emergent": {
-    "query": "emergent",
-    "geo": "",
-    "source": "explore-related:ecommerce website builder",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "last_checked": "",
-    "rise_value": 0.0
-  },
-  "enshrouded": {
-    "query": "enshrouded",
-    "geo": "",
-    "source": "seed-rising:steam",
-    "first_seen": "2026-10-21",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "steam",
-    "rise_value": 550.0,
-    "last_checked": ""
-  },
-  "fantasy team evaluator": {
-    "query": "fantasy team evaluator",
-    "geo": "",
-    "source": "seed-rising:evaluator",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "evaluator",
-    "rise_value": 70.0,
-    "last_checked": ""
-  },
-  "fernsehprogramm heute abend 20.15 alle sender hörzu programm": {
-    "query": "fernsehprogramm heute abend 20.15 alle sender hörzu programm",
-    "geo": "",
-    "source": "seed-rising:sender",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "sender",
-    "rise_value": 40.0,
-    "last_checked": ""
-  },
-  "fernsehprogramm heute abend 20.15 alle sender hörzu tv programm": {
-    "query": "fernsehprogramm heute abend 20.15 alle sender hörzu tv programm",
-    "geo": "",
-    "source": "seed-rising:sender",
-    "first_seen": "2026-10-15",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "sender",
-    "rise_value": 120.0,
-    "last_checked": ""
-  },
-  "ferreteria el constructor": {
-    "query": "ferreteria el constructor",
-    "geo": "",
-    "source": "seed-rising:constructor",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "constructor",
-    "rise_value": 40.0,
-    "last_checked": ""
-  },
-  "figma chrome extension": {
-    "query": "figma chrome extension",
-    "geo": "",
-    "source": "seed-rising:figma",
-    "first_seen": "2026-10-22",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "figma",
-    "rise_value": 50.0,
-    "last_checked": ""
-  },
-  "figma config": {
-    "query": "figma config",
-    "geo": "",
-    "source": "seed-rising:figma",
-    "first_seen": "2026-10-15",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "figma",
-    "rise_value": 350.0,
-    "last_checked": ""
-  },
-  "figma config 2026": {
-    "query": "figma config 2026",
-    "geo": "",
-    "source": "seed-rising:figma",
-    "first_seen": "2026-10-15",
-    "checks": 0,
-    "last_seen": "2026-10-22",
-    "seed_source": "figma",
-    "rise_value": 400.0,
     "last_checked": ""
   }
 }
