@@ -6,9 +6,9 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 22
-- Usable Google Trends time series: 6/22
-- Missing or failed Google Trends time series: 16/22
+- Total distinct expressions researched: 24
+- Usable Google Trends time series: 7/24
+- Missing or failed Google Trends time series: 17/24
 - Data coverage status: partial_coverage (not a keyword verdict)
 - Rate-limit safety backoff: inactive
 - 90-day + historical-interest passes: 0
@@ -16,6 +16,21 @@ a winnable SERP, paid demand or monthly search volume.
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### local pack rank checker (US)
+- Source: [apify-actors-z](https://apify.com/steadyscrape/local-pack-rank-checker)
+- Checked: 2026-10-24T15:34:53.871766+08:00 | Status: **insufficient_relative_signal**
+- Google Trends 90d baseline avg: 2.13; recent peak: 0; newness score: 18
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+
+### site seo audit link checker (US)
+- Source: [apify-actors-a](https://apify.com/appropriate_songbird/site-seo-audit-link-checker)
+- Checked: 2026-10-24T15:34:53.871766+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
 
 ### ssl certificate expiry checker (US)
 - Source: [apify-actors-a](https://apify.com/admirala/ssl-certificate-expiry-checker)
