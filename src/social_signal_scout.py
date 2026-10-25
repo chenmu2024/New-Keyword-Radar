@@ -37,6 +37,8 @@ HOSTS = {
     "bluesky": ("bsky.app",),
     "mastodon": ("mastodon.social",),
     "hackernews_ask": ("news.ycombinator.com",),
+    "github_issue": ("github.com",),
+    "reddit": ("reddit.com",),
 }
 INTENT_WORDS = re.compile(
     r"\b(how to|how do i|make one|generator|template|filter|editor|download|"
@@ -343,7 +345,27 @@ def run(root=ROOT, when=None, fetchers=None):
         except Exception as exc:
             health[platform] = {"status": "unavailable", "count": 0,
                                 "error": f"{type(exc).__name__}: {str(exc)[:120]}"}
-    unique = {r["id"]: r for r in all_rows}
+    # The 06:40 free-intelligence pipeline already collects GitHub Issues,
+    # Reddit RSS and Ask HN excerpts. Reuse its dated, persisted data without
+    # making duplicated HTTP requests or calling excerpts original comments.
+    try:
+        from .social_evidence_bridge import import_free_intelligence
+    except ImportError:
+        from social_evidence_bridge import import_free_intelligence
+    imported, bridge_health = import_free_intelligence(root, when)
+    health["existing_free_intelligence_bridge"] = bridge_health
+    all_rows.extend(imported)
+
+    # An official primary post outranks a search-index excerpt for the same URL.
+    reliability = {"direct_public_post": 5, "direct_public_issue_api": 5,
+                   "direct_public_feed": 4, "direct_public_api": 4,
+                   "public_rss_excerpt": 2, "indexed_public_post_excerpt": 2,
+                   "search_index_pointer": 1}
+    unique = {}
+    for item in all_rows:
+        old = unique.get(item["id"])
+        if old is None or reliability.get(item.get("evidence_type"), 0) > reliability.get(old.get("evidence_type"), 0):
+            unique[item["id"]] = item
     # Persistent discovery history can be reused by 08:00 ChatGPT research.
     new_history, n_new = reconcile(read_json(root / "state/social_seen.json", {}), unique.values(), observed_at)
     day = when.strftime("%Y-%m-%d")
