@@ -122,6 +122,94 @@ class SocialSignalTests(unittest.TestCase):
             self.assertEqual(out["sources"]["mastodon"]["status"], "ok")
             self.assertEqual(out["unique_in_run"], 2)
 
+    def test_bluesky_falls_back_only_to_official_public_api(self):
+        from src.social_direct import bluesky_posts
+        from urllib.error import HTTPError
+        calls = []
+        def getter(url, host):
+            calls.append(host)
+            if host == "public.api.bsky.app":
+                raise HTTPError(url, 403, "Forbidden", {}, None)
+            self.assertEqual(host, "api.bsky.app")
+            return {"posts": [{
+                "uri": "at://did:plc:example/app.bsky.feed.post/3k7abc",
+                "author": {"handle": "person.bsky.social"},
+                "record": {"text": "I need a tool to batch resize Minecraft skins",
+                           "createdAt": "2026-10-25T02:00:00Z"}
+            }]}
+        rows = bluesky_posts("need a tool", "2026-10-25T03:00:00Z", 5, getter=getter)
+        self.assertEqual(calls, ["public.api.bsky.app", "api.bsky.app"])
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["evidence_type"], "direct_public_post")
+        def banned(url, host):
+            raise HTTPError(url, 429, "Too Many Requests", {}, None)
+        with self.assertRaises(HTTPError):
+            bluesky_posts("need a tool", "2026-10-25T03:00:00Z", 5, getter=banned)
+
+    def test_official_ask_hn_api_yields_primary_public_questions(self):
+        from src.social_direct import hackernews_ask
+        calls = []
+        def getter(url, host):
+            calls.append(url)
+            self.assertEqual(host, "hacker-news.firebaseio.com")
+            if url.endswith("askstories.json"):
+                return [123, 124]
+            if url.endswith("item/123.json"):
+                return {"type": "story", "title": "Ask HN: Is there a tool to convert local CSV files?",
+                        "text": "<p>Need a batch CSV formatter.</p>",
+                        "time": 1792886400}
+            return {"type": "story", "title": "Ask HN: Spam", "deleted": True}
+        rows = hackernews_ask("2026-10-25T03:00:00Z", 3, getter=getter)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["platform"], "hackernews_ask")
+        self.assertEqual(rows[0]["url"], "https://news.ycombinator.com/item?id=123")
+        self.assertTrue(rows[0]["primary_text_available"])
+        self.assertEqual(len(calls), 3)
+
+    def test_question_hypotheses_are_not_auto_promoted(self):
+        from src.social_intent import mine_user_questions, hypothesis
+        self.assertEqual(hypothesis("I need a tool to batch resize Minecraft skins"),
+                         "to batch resize minecraft skins")
+        self.assertIsNone(hypothesis("We just launched a new generator for marketers!"))
+        original = {
+            "platform": "hackernews_ask",
+            "evidence_type": "direct_public_post",
+            "primary_text_available": True,
+            "title": "I need a tool to batch resize Minecraft skins",
+            "description": "I need a tool to batch resize Minecraft skins",
+            "url": "https://news.ycombinator.com/item?id=123",
+            "published_at": "2026-10-25T01:00:00Z"
+        }
+        queries = mine_user_questions([original, {
+            **original, "platform": "x", "evidence_type": "search_index_pointer",
+            "url": "https://x.com/a/status/1"
+        }])
+        self.assertEqual(len(queries), 1)
+        self.assertEqual(queries[0]["demand_status"], "unverified_question_hint")
+        self.assertIsNone(queries[0]["search_volume"])
+        self.assertFalse(queries[0]["ready_to_build"])
+
+    def test_direct_hn_flow_and_questions_report(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            (root / "config").mkdir()
+            (root / "config/social_sources.json").write_text(json.dumps({
+                "enabled_platforms": ["hackernews_ask"]
+            }), encoding="utf-8")
+            def hn_fetch(at, limit):
+                row = signal("hackernews_ask", "https://news.ycombinator.com/item?id=123",
+                             "Is there a free tool to batch convert SVG icons?",
+                             at, "direct_public_post",
+                             "2026-10-25T01:00:00Z")
+                row["primary_text_available"] = True
+                return [row]
+            out = run(root, datetime(2026, 10, 25, 1, tzinfo=timezone.utc),
+                      fetchers={"hackernews_ask": hn_fetch})
+            self.assertEqual(out["sources"]["hackernews_ask"]["status"], "ok")
+            questions = json.loads((root / "data/social-signals/correlations-latest.json").read_text())
+            self.assertEqual(questions["public_question_hypotheses"], 1)
+            self.assertFalse(questions["query_hypotheses"][0]["ready_to_build"])
+
     def test_unavailable_index_is_not_false_empty(self):
         from src.social_signal_scout import source_indexed
         from unittest.mock import patch
