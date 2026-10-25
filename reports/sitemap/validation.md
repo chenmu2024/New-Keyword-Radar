@@ -6,9 +6,9 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 26
-- Usable Google Trends time series: 9/26
-- Missing or failed Google Trends time series: 17/26
+- Total distinct expressions researched: 28
+- Usable Google Trends time series: 10/28
+- Missing or failed Google Trends time series: 18/28
 - Data coverage status: partial_coverage (not a keyword verdict)
 - Rate-limit safety backoff: inactive
 - 90-day + historical-interest passes: 1
@@ -16,6 +16,21 @@ a winnable SERP, paid demand or monthly search volume.
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### ai crawler access checker (US)
+- Source: [apify-actors-z](https://apify.com/srvscripts/ai-crawler-access-checker)
+- Checked: 2026-10-25T15:47:55.435690+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
+
+### ai emoji generator (US)
+- Source: [vercel-product-watch](https://vercel.com/templates/next.js/ai-emoji-generator)
+- Checked: 2026-10-25T15:47:55.435690+08:00 | Status: **older_interest**
+- Google Trends 90d baseline avg: 0.0; recent peak: 100; newness score: 88
+- Historical 5y gate: False
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 
 ### ai answer visibility checker (US)
 - Source: [apify-actors-z](https://apify.com/shanmukhkiransagar/ai-answer-visibility-checker)
