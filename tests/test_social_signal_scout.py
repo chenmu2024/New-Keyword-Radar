@@ -169,7 +169,7 @@ class SocialSignalTests(unittest.TestCase):
     def test_question_hypotheses_are_not_auto_promoted(self):
         from src.social_intent import mine_user_questions, hypothesis
         self.assertEqual(hypothesis("I need a tool to batch resize Minecraft skins"),
-                         "to batch resize minecraft skins")
+                         "batch resize minecraft skins")
         self.assertIsNone(hypothesis("We just launched a new generator for marketers!"))
         original = {
             "platform": "hackernews_ask",
