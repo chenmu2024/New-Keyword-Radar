@@ -1,27 +1,27 @@
-# Sitemap lead triage — 2026-10-25
+# Sitemap lead triage — 2026-10-26
 
 **Important:** These are *unverified URL leads*, not proven new keywords,
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
 - Sitemap feeds succeeded: 18/18
-- URLs newly observed in the latest scan: 23
-- Candidate URL rows extracted in latest scan: 18
-- First-time keyword/geo research leads: 18
-- Previously removed URLs resurfacing: 1983
-- Accumulated queue: 1884
-- Human keyword/topic review: 1345
+- URLs newly observed in the latest scan: 12
+- Candidate URL rows extracted in latest scan: 11
+- First-time keyword/geo research leads: 11
+- Previously removed URLs resurfacing: 23
+- Accumulated queue: 1895
+- Human keyword/topic review: 1355
 - Game/general watchlist: 505
-- Low-quality page-name noise: 34
+- Low-quality page-name noise: 35
 - **Verified new keywords / search demand / business revenue: not established**
 
 ## Queue composition (by Sitemap source)
 
 - apify-actors-a: 471
 - apify-actors-z: 381
-- railway-templates: 211
+- railway-templates: 212
 - gamepix-pt: 210
-- producthunt-products: 143
+- producthunt-products: 152
 - gamepix-en: 131
 - vercel-product-watch: 104
 - n8n-workflows: 51
@@ -30,29 +30,22 @@ Raw queue and all main radar settings remain unchanged.
 - crazygames-es: 49
 - minijuegos-es: 25
 - onlinetools-br: 8
-- netlify-product-watch: 1
+- netlify-product-watch: 2
 - railway-changelog: 1
 
 ## Latest scan's leads (routing only)
 
-- [typebot open source chatbot builder with postgres typebot production](https://railway.com/deploy/typebot-open-source-chatbot-builder-with-postgres--typebot-production) — review / tool-intent-wording-not-verified; source=railway-templates
-- [dify v1180 tit2v6](https://railway.com/deploy/dify-v1180--TiT2V6) — review / deployment-topic-not-search-demand; source=railway-templates
-- [librephotos](https://railway.com/deploy/librephotos) — review / deployment-topic-not-search-demand; source=railway-templates
-- [calibre web automated](https://railway.com/deploy/calibre-web-automated) — review / deployment-topic-not-search-demand; source=railway-templates
-- [infisical auto bootstrapped](https://railway.com/deploy/infisical-auto-bootstrapped) — review / deployment-topic-not-search-demand; source=railway-templates
-- [metabase open source bi and dashboards with postgres metabase production](https://railway.com/deploy/metabase-open-source-bi-and-dashboards-with-postgres--metabase-production) — review / deployment-topic-not-search-demand; source=railway-templates
-- [plane timetabling](https://railway.com/deploy/plane-timetabling) — review / deployment-topic-not-search-demand; source=railway-templates
-- [n8n self hosted n8n workers](https://railway.com/deploy/n8n--self-hosted-n8n-workers) — review / deployment-topic-not-search-demand; source=railway-templates
-- [cronlite](https://railway.com/deploy/cronlite) — review / deployment-topic-not-search-demand; source=railway-templates
-- [evolution api self hosted](https://railway.com/deploy/evolution-api-self-hosted) — review / deployment-topic-not-search-demand; source=railway-templates
-- [omnara](https://railway.com/deploy/omnara) — review / deployment-topic-not-search-demand; source=railway-templates
-- [ubuntu linux desktop ubuntu 2](https://railway.com/deploy/ubuntu-linux-desktop--ubuntu-2) — low / numbered-deploy-template; source=railway-templates
-- [cron sentinel healthchecks oct 26](https://railway.com/deploy/cron-sentinel-healthchecks-oct-26) — low / numbered-deploy-template; source=railway-templates
-- [bichon email archiver](https://railway.com/deploy/bichon-email-archiver) — review / deployment-topic-not-search-demand; source=railway-templates
-- [workadventure](https://railway.com/deploy/workadventure) — review / deployment-topic-not-search-demand; source=railway-templates
-- [open wearables self hosted](https://railway.com/deploy/open-wearables-self-hosted) — review / deployment-topic-not-search-demand; source=railway-templates
-- [plane 1](https://railway.com/deploy/plane-1) — low / numbered-deploy-template; source=railway-templates
-- [n8n evolution api whatsapp automation stack n8n whatsapp automation](https://railway.com/deploy/n8n-evolution-api-whatsapp-automation-stack--n8n-whatsapp-automation) — review / deployment-topic-not-search-demand; source=railway-templates
+- [uptime kuma 7](https://railway.com/deploy/uptime-kuma-7) — low / numbered-deploy-template; source=railway-templates
+- [minimax m3 1 flash ai gateway agent runners](https://www.netlify.com/changelog/minimax-m3-1-flash-ai-gateway-agent-runners/) — review / product-content-not-search-demand; source=netlify-product-watch
+- [agentgrid io](https://www.producthunt.com/products/agentgrid-io) — review / product-content-not-search-demand; source=producthunt-products
+- [clips by plastic](https://www.producthunt.com/products/clips-by-plastic) — review / product-content-not-search-demand; source=producthunt-products
+- [specsight](https://www.producthunt.com/products/specsight) — review / product-content-not-search-demand; source=producthunt-products
+- [lexmount browser](https://www.producthunt.com/products/lexmount-browser) — review / product-content-not-search-demand; source=producthunt-products
+- [how it spread](https://www.producthunt.com/products/how-it-spread) — review / product-content-not-search-demand; source=producthunt-products
+- [mrraudit](https://www.producthunt.com/products/mrraudit) — review / product-content-not-search-demand; source=producthunt-products
+- [badgey](https://www.producthunt.com/products/badgey) — review / product-content-not-search-demand; source=producthunt-products
+- [llama windows](https://www.producthunt.com/products/llama-windows) — review / product-content-not-search-demand; source=producthunt-products
+- [yourcast](https://www.producthunt.com/products/yourcast) — review / product-content-not-search-demand; source=producthunt-products
 
 ## Source interpretation
 

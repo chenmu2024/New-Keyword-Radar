@@ -1,4 +1,4 @@
-# Sitemap to Google Trends validation — 2026-10-25
+# Sitemap to Google Trends validation — 2026-10-26
 
 This is independent research; original keyword seeds, commercial
 thresholds and the main radar candidate ranking are untouched.
@@ -6,9 +6,9 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 28
-- Usable Google Trends time series: 10/28
-- Missing or failed Google Trends time series: 18/28
+- Total distinct expressions researched: 30
+- Usable Google Trends time series: 11/30
+- Missing or failed Google Trends time series: 19/30
 - Data coverage status: partial_coverage (not a keyword verdict)
 - Rate-limit safety backoff: inactive
 - 90-day + historical-interest passes: 1
@@ -16,6 +16,21 @@ a winnable SERP, paid demand or monthly search volume.
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### amazon price tracker (US)
+- Source: [apify-actors-z](https://apify.com/signal_lab/amazon-price-tracker)
+- Checked: 2026-10-26T01:48:56.241979+08:00 | Status: **no_recent_trends_breakout**
+- Google Trends 90d baseline avg: 5.7; recent peak: 100; newness score: 41
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+
+### ai faq documentation generator (US)
+- Source: [vercel-product-watch](https://vercel.com/templates/next.js/ai-faq-documentation-generator)
+- Checked: 2026-10-26T01:48:56.241979+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
 
 ### ai crawler access checker (US)
 - Source: [apify-actors-z](https://apify.com/srvscripts/ai-crawler-access-checker)
