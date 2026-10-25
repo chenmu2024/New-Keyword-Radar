@@ -92,6 +92,8 @@ def match_signals(rows, keywords, max_rows=30):
             continue
         # Boundary match protects against unrelated substring matches.
         for q, obj in keywords.items():
+            if not viable_query(q):
+                continue
             if (" " + q + " ") not in (" " + text + " "):
                 continue
             bucket = matches.setdefault(q, {"query": q,
