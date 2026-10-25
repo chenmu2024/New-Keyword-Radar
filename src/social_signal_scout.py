@@ -381,6 +381,10 @@ def run(root=ROOT, when=None, fetchers=None):
         from social_correlation import update_correlation
     linkage = update_correlation(root, when, result)
     result["cross_source_exact_matches"] = linkage["cross_matches"]
+    result["original_question_hypotheses"] = linkage["public_question_hypotheses"]
+    # Align on-disk JSON fields with the finished cross-source report.
+    write_json(root / "data/social-signals/latest.json", result)
+    write_json(root / f"data/social-signals/{day}/{stamp}.json", result)
     return result
 
 
