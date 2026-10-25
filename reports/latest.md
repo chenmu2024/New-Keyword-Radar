@@ -1,41 +1,41 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-25T00:56:36.177354+00:00
+Generated: 2026-10-25T06:30:39.791863+00:00
 
 ## Formal candidates
 
-### 1. php2shell checker
+### 1. onthel simulator indonesia
 
 - Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-21T00:00:00+00:00, retention **20.3%**.
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-17T00:00:00+00:00, retention **66.3%**.
+- 5y old-history gate: avg **0.01**, peak **3**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.004**.
+- Source seed-rising:simulator; geo Worldwide.
+
+### 2. typhoon champi tracker
+
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-17T00:00:00+00:00, retention **60.0%**.
 - 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
-- Source seed-rising:checker; geo Worldwide.
+- Source seed-rising:tracker; geo Worldwide.
 
-### 2. ai image generator magnific
+### 3. princess cruises first responder discount
 
-- Newness **100/100**; money **94/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-25T00:00:00+00:00, retention **37.0%**.
+- Newness **100/100**; money **96/100** (transactional).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-16T00:00:00+00:00, retention **26.7%**.
 - 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
-- Source seed-rising:generator; geo Worldwide.
-
-### 3. tangerine file converter
-
-- Newness **96/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-09-22T00:00:00+00:00, retention **7.0%**.
-- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
-- Source seed-rising:converter; geo Worldwide.
+- Source seed-rising:responder; geo Worldwide.
 
 ## Watch / rejected
 
-- tracker season 4 episode 3 cast — **old-history** — newness 100, money 94; 5y peak 38
-- storm austin tracker — **old-history** — newness 95, money 100; 5y peak 11
-- cve tracker — **history-unchecked** — newness 95, money 94
-- kmart usb charger tracker risks — **history-unchecked** — newness 95, money 94
-- farming simulator 25 catuaí map — **history-unchecked** — newness 91, money 94
-- kmart undetectable tracker stalking concerns — **history-unchecked** — newness 91, money 94
-- tracker s4e3 — **history-unchecked** — newness 91, money 94
-- abs flux ii aqua pc deal — **history-unchecked** — newness 88, money 90
-- storm austen tracker — **commercial-watch** — newness 88, money 100
-- car mechanic simulator 2027 — **commercial-watch** — newness 78, money 100
-- tracker original parts — **commercial-watch** — newness 74, money 100
-- rideshare simulator — **commercial-watch** — newness 50, money 100
+- anime dimensions simulator code — **old-history** — newness 100, money 100; 5y peak 100
+- trade analyzer nba — **old-history** — newness 100, money 100; 5y peak 100
+- cyberpunk 2077 build planner — **history-unchecked** — newness 100, money 94
+- vikash editor — **history-unchecked** — newness 100, money 94
+- dangote federal government tax credit scheme — **history-unchecked** — newness 93, money 82
+- interior designer sectional sofa alternatives — **history-unchecked** — newness 89, money 90
+- worlds 2026 simulator — **commercial-watch** — newness 78, money 100
+- php checker — **commercial-watch** — newness 70, money 100
+- course schedule planner rutgers — **reject** — newness 41, money 94
+- warm home discount scheme — **reject** — newness 40, money 96
+- course schedule planner — **reject** — newness 35, money 100
+- busch gardens first responder discount — **reject** — newness 0, money 90
