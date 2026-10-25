@@ -356,6 +356,23 @@ def run(root=ROOT, when=None, fetchers=None):
     health["existing_free_intelligence_bridge"] = bridge_health
     all_rows.extend(imported)
 
+    # Precision search: rotate TWO issue queries across six slots daily.
+    # This is a separate official public search, not Twitter/TikTok coverage.
+    try:
+        from .social_evidence_bridge import targeted_issue_search
+    except ImportError:
+        from social_evidence_bridge import targeted_issue_search
+    issue_queries = config.get("targeted_github_issue_queries") or []
+    if issue_queries:
+        ix = (when.hour // 4 * 2) % len(issue_queries)
+        subset = [issue_queries[(ix + offset) % len(issue_queries)]
+                  for offset in range(min(2, len(issue_queries)))]
+        issue_rows, issue_health = targeted_issue_search(when, subset, limit=5)
+        health["targeted_github_issues"] = issue_health
+        all_rows.extend(issue_rows)
+    else:
+        health["targeted_github_issues"] = {"status": "not_configured", "count": 0}
+
     # An official primary post outranks a search-index excerpt for the same URL.
     reliability = {"direct_public_post": 5, "direct_public_issue_api": 5,
                    "direct_public_feed": 4, "direct_public_api": 4,
