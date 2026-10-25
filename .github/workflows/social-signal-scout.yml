@@ -49,6 +49,9 @@ jobs:
           python -m py_compile src/social_signal_scout.py src/social_direct.py src/social_correlation.py src/social_intent.py src/social_evidence_bridge.py
       - name: Collect public social signals (no login and no paid API)
         if: github.ref == 'refs/heads/main'
+        env:
+          # Built-in ephemeral workflow token, used only for public GitHub issue search.
+          GITHUB_TOKEN: ${{ github.token }}
         run: python src/social_signal_scout.py
       - name: Publish scoped results without overwriting other radar output
         if: github.ref == 'refs/heads/main'
