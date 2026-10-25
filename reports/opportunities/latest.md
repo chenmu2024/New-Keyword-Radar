@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-25T07:32:38.656709+00:00
-- Historical candidates: 1114
-- Newly recorded from pending: 364
+- Updated (UTC): 2026-10-25T14:18:43.902779+00:00
+- Historical candidates: 1140
+- Newly recorded from pending: 26
 - Awaiting 7/14/30-day evidence review: 20
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
+- rutgers webreg [Global] — discovered — first 2026-10-25, last 2026-10-25
+- champi typhoon tracker [Global] — discovered — first 2026-10-25, last 2026-10-25
 - composer update [Global] — discovered — first 2026-10-25, last 2026-10-25
 - itch io [Global] — discovered — first 2026-10-25, last 2026-10-25
+- clover legends codes [Global] — discovered — first 2026-10-25, last 2026-10-25
+- blackpool weather [GB] — discovered — first 2026-10-25, last 2026-10-25
+- prince pro tips [Global] — discovered — first 2026-10-25, last 2026-10-25
+- flydubai flight tracker [Global] — discovered — first 2026-10-25, last 2026-10-25
+- karthik sabesh father [Global] — discovered — first 2026-10-25, last 2026-10-25
+- lottery result [GB] — discovered — first 2026-10-25, last 2026-10-25
+- el periodico [ES] — discovered — first 2026-10-25, last 2026-10-25
 - hawks - rockets [MX] — discovered — first 2026-10-25, last 2026-10-25
 - world series 2026 game 1 [Global] — discovered — first 2026-10-25, last 2026-10-25
+- champi typhoon path [Global] — discovered — first 2026-10-25, last 2026-10-25
+- manuel otto twitch video [Global] — discovered — first 2026-10-25, last 2026-10-25
+- hobonichi planner [Global] — discovered — first 2026-10-25, last 2026-10-25
+- capcut template creator point new [Global] — discovered — first 2026-10-25, last 2026-10-25
+- stick run creator manuel otto [Global] — discovered — first 2026-10-25, last 2026-10-25
+- ashlyn krueger ranking [US] — discovered — first 2026-10-25, last 2026-10-25
+- anime dice codes [Global] — discovered — first 2026-10-25, last 2026-10-25
+- ge tracker obligator [Global] — discovered — first 2026-10-25, last 2026-10-25
+- nba fantasy analyzer [Global] — discovered — first 2026-10-25, last 2026-10-25
 - quentin tarantino [BR] — discovered — first 2026-10-25, last 2026-10-25
-- hsin evaluator [Global] — discovered — first 2026-10-25, last 2026-10-25
-- php2shell online [Global] — discovered — first 2026-10-25, last 2026-10-25
-- tangerine for mac [Global] — discovered — first 2026-10-25, last 2026-10-25
-- sojuz.asia [Global] — discovered — first 2026-10-25, last 2026-10-25
-- olivia wilde [US] — discovered — first 2026-10-25, last 2026-10-25
-- electric coconut scraper [Global] — discovered — first 2026-10-25, last 2026-10-25
-- online casino ohne deutsche lizenz 🇩🇪 www.spieltresor.com [Global] — discovered — first 2026-10-25, last 2026-10-25
-- bbc introducing [Global] — discovered — first 2026-10-25, last 2026-10-25
-- orange [Global] — discovered — first 2026-10-25, last 2026-10-25
-- 2v2io [Global] — discovered — first 2026-10-25, last 2026-10-25
-- british airways graduate scheme [Global] — discovered — first 2026-10-25, last 2026-10-25
-- vortex mod manager [Global] — discovered — first 2026-10-25, last 2026-10-25
-- cam coleman stats [US] — discovered — first 2026-10-25, last 2026-10-25
-- corinthians [ES] — discovered — first 2026-10-25, last 2026-10-25
-- composer audit [Global] — discovered — first 2026-10-25, last 2026-10-25
-- small restaurant crossword clue [Global] — discovered — first 2026-10-25, last 2026-10-25
-- creator sathi [Global] — discovered — first 2026-10-25, last 2026-10-25
-- bir excel uploader [Global] — discovered — first 2026-10-25, last 2026-10-25
-- full pattern 😍👇 like this comment so it stays up 🙏🏽 [Global] — discovered — first 2026-10-25, last 2026-10-25
-- ufc 333 card [Global] — discovered — first 2026-10-25, last 2026-10-25
+- buckeye link [Global] — discovered — first 2026-10-25, last 2026-10-25
+- shodan [Global] — discovered — first 2026-10-25, last 2026-10-25
 
 ## Due for follow-up
 
