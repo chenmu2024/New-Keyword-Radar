@@ -91,7 +91,13 @@ def mine_user_questions(rows, limit=15):
             continue
         if not row.get("primary_text_available"):
             continue
-        text = str(row.get("description") or row.get("title") or "")
+        if row.get("evidence_type") == "direct_public_issue_api":
+            # Issues can express 'feature request' in title while body
+            # describes only the inputs and failure symptoms.
+            text = " ".join([str(row.get("title") or ""),
+                             str(row.get("description") or "")]).strip()
+        else:
+            text = str(row.get("description") or row.get("title") or "")
         proposal = hypothesis(text)
         if not proposal:
             continue
