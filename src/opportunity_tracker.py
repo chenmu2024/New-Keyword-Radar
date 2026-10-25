@@ -124,6 +124,13 @@ def update_ledger(root: Path = ROOT, now: datetime | None = None):
                       "monetization_evidence", "notes", "intent", "feasible_zero_fixed_cost"):
             if field in review:
                 rec[field] = review[field]
+        # A review milestone is only fulfilled by a dated, sourced re-check.
+        checks = dict(rec.get("review_checks") or {})
+        for day, check in (review.get("review_checks") or {}).items():
+            if str(day) in ("7", "14", "30") and isinstance(check, dict) and check.get("checked_at") and check.get("source_url"):
+                checks[str(day)] = {"checked_at": check["checked_at"], "source_url": check["source_url"]}
+        if checks:
+            rec["review_checks"] = checks
 
     due = []
     current_date = local.date()
@@ -131,11 +138,11 @@ def update_ledger(root: Path = ROOT, now: datetime | None = None):
         age = (current_date - date.fromisoformat(rec["first_seen"])).days
         if rec["stage"] in ("rejected", "paused"):
             continue
-        for days in (7, 14, 30):
-            checked = (rec.get("review_checks") or {}).get(str(days))
-            if age >= days and not checked:
-                due.append({"id": cid, "query": rec["query"], "due_day": days, "age_days": age})
-                break
+        overdue = [days for days in (7, 14, 30)
+                   if age >= days and not (rec.get("review_checks") or {}).get(str(days))]
+        if overdue:
+            due.append({"id": cid, "query": rec["query"],
+                        "due_day": max(overdue), "overdue_stages": overdue, "age_days": age})
 
     eligible = sorted(
         (x for x in candidates.values() if x["stage"] not in ("rejected", "paused")),
