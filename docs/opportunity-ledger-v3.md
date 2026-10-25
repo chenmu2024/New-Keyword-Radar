@@ -33,7 +33,7 @@ ID 基于完整Query标准化文本 + 地域，不能凭同一个词自动判断
 
 审核状态：`discovered`、`needs-evidence`、`serp-review`、`ready-to-test`、`watch`、`paused`、`rejected`。只有同时填写审核日期、用户需求链接、SERP证据链接和纯浏览器可行性为真时，才允许标为 `ready-to-test`；这只是允许进一步测试，并不表示产品已验证盈利。已拒绝状态不会因新一天 Rising Query 自动重置。
 
-跟踪到 D+7/D+14/D+30 只表示**需要重新取证**，并不意味着已经做过数据回测、竞争实测或用户支付确认。若在未来新增 `review_checks` 应记载真实核验日期、来源 URL、变化，不得事后伪造。
+可在审核文件记录 `review_checks: {"7": {"checked_at": "2026-10-25", "source_url": "https://example.org/recheck"}}`，只有同时包含实际复查日期和来源链接才计为完成。到第14、30天仍未补完的阶段会以 `overdue_stages` 显示。\n\n跟踪到 D+7/D+14/D+30 只表示**需要重新取证**，并不意味着已经做过数据回测、竞争实测或用户支付确认。若在未来新增 `review_checks` 应记载真实核验日期、来源 URL、变化，不得事后伪造。
 
 ## 系统边界
 
