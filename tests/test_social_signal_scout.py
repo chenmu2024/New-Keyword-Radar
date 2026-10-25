@@ -73,6 +73,69 @@ class SocialSignalTests(unittest.TestCase):
         self.assertEqual(rows[0]["evidence_type"], "search_index_pointer")
         self.assertFalse(rows[0]["user_demand_verified"])
 
+    def test_first_party_social_posts_not_verified_payment(self):
+        from src.social_direct import bluesky_posts, mastodon_hashtag
+        def bsky_fetch(url, host):
+            self.assertEqual(host, "public.api.bsky.app")
+            return {"posts": [{"uri": "at://did:plc:abc/app.bsky.feed.post/3k9abc",
+                 "author": {"handle": "sample.bsky.social"},
+                 "record": {"text": "Does anyone know how to make a stick run game creator?",
+                            "createdAt": "2026-10-25T00:00:00Z"}}]}
+        items = bluesky_posts("how to make", "2026-10-25T01:00:00Z", 4, getter=bsky_fetch)
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["evidence_type"], "direct_public_post")
+        self.assertFalse(items[0]["user_demand_verified"])
+        self.assertEqual(items[0]["url"], "https://bsky.app/profile/sample.bsky.social/post/3k9abc")
+        def mastodon_fetch(url, host):
+            self.assertEqual(host, "mastodon.social")
+            return [{"url": "https://mastodon.social/@user/123",
+                     "visibility": "public", "content": "<p>Looking for a tool to create a template</p>",
+                     "created_at": "2026-10-24T12:00:00Z"}]
+        mast = mastodon_hashtag("gamedev", "2026-10-25T01:00:00Z", 4, getter=mastodon_fetch)
+        self.assertEqual(mast[0]["evidence_type"], "direct_public_post")
+        self.assertTrue(mast[0]["primary_text_available"])
+
+    def test_unavailable_index_is_not_false_empty(self):
+        from src.social_signal_scout import source_indexed
+        from unittest.mock import patch
+        with patch("src.social_signal_scout.bing_rss", side_effect=ValueError("blocked")), \
+             patch("src.social_signal_scout.duckduckgo", side_effect=ValueError("blocked")):
+            with self.assertRaisesRegex(RuntimeError, "Both public index sources unavailable"):
+                source_indexed("x", "site:x.com maker", "2026-10-25T01:00:00Z", 4)
+
+    def test_exact_multiword_social_query_correlation(self):
+        from src.social_correlation import match_signals, viable_query, update_correlation
+        self.assertFalse(viable_query("ai"))
+        self.assertTrue(viable_query("stick run game creator"))
+        social = [
+            {"platform": "bluesky", "url": "https://bsky.app/profile/sample.bsky.social/post/3k9abc",
+             "title": "Does anyone know how to make a stick run game creator?",
+             "description": "", "evidence_type": "direct_public_post"},
+            {"platform": "x", "url": "https://x.com/example/status/123",
+             "title": "A new stick run game creator is here", "description": "",
+             "evidence_type": "search_index_pointer"},
+            {"platform": "tiktok", "url": "https://www.tiktok.com/@x/video/123",
+             "title": "ai trends everywhere", "description": "", "evidence_type": "search_index_pointer"}
+        ]
+        matches = match_signals(social, {"stick run game creator": {
+            "rise_value": 120.0, "seed": "creator"}, "ai": {"rise_value": 99999, "seed": "ai"}})
+        self.assertEqual(len(matches), 1)
+        self.assertEqual(matches[0]["independent_platforms"], 2)
+        self.assertEqual(matches[0]["original_post_question_hints"], 1)
+        self.assertFalse(matches[0]["ready_to_build"])
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            (root / "data/seed-scout-daily").mkdir(parents=True)
+            (root / "data/seed-scout-daily/2026-10-25.json").write_text(json.dumps({
+                "scanned_seed_count": 74, "target_seed_count": 74,
+                "complete_daily_target": True, "discoveries": [
+                    {"query": "stick run game creator", "rise_value": 120, "seed": "creator"}
+                ]}), encoding="utf-8")
+            result = update_correlation(root, datetime(2026, 10, 25, 1, tzinfo=timezone.utc),
+                {"generated_at": "2026-10-25T01:00:00Z", "unique_in_run": 3, "items": social})
+            self.assertEqual(result["cross_matches"], 1)
+            self.assertTrue((root / "reports/social-signals/correlations-latest.md").exists())
+
     def test_failure_is_visible(self):
         with tempfile.TemporaryDirectory() as d:
             root = Path(d)

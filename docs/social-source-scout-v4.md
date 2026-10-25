@@ -12,6 +12,17 @@ Runs every four hours on GitHub Actions (six times daily), independent of the 08
 - **YouTube channels**: optional, publicly published Atom feeds. Add verified UC channel IDs in `config/social_sources.json`. Empty list means `not_configured`.
 - **TikTok, YouTube Shorts, Instagram Reels, X**: platform-targeted *Bing search RSS* links **only**. These are **indexed pointers**, not original posts/comments, not complete discovery, and RSS dates are not authoritative original publish dates. Off-platform URLs are rejected. No direct platform API connection is claimed.
 
+## V4.1 direct social channels and exact-query linkage
+
+The updated workflow also checks two independent public-first-party sources:
+
+- **Bluesky AppView:** `https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts`; only public posts and plaintext returned by the source API, no login or scraping. Queries rotate between EN/PT/ES demand phrases. It is a primary-public-post lead; author text alone is **not** verified user purchase intent.
+- **Mastodon:** `https://mastodon.social/api/v1/timelines/tag/<tag>`; only public statuses with visible content, rotating a few hashtags. Some servers disable unauthenticated access; `unavailable` is reported instead of zero demand.
+
+Separately the scout reads that Beijing-local day's existing 7-day seed archive, normalizes complete multiword queries and matches exact word-bounded phrases in collected posts. It writes `data/social-signals/correlations-latest.json` and `reports/social-signals/correlations-latest.md` with source links, platforms, and possible first-person questions. It does not modify 74 seeds, `state/pending.json`, the 90-day/5-year newness gates, or previously rejected decisions. A positive phrase match never means the user wants to pay or that a site can rank.
+
+For TikTok/X/Instagram/Shorts, Bing-index and public DuckDuckGo-index pointers remain the only free, reliable-to-label approach used in this workflow. When both index sources fail, the status is `unavailable`; when queries run successfully but return no usable link, status is `empty`. Both statuses mean **unknown**, not that a platform has no relevant content.
+
 ## Output
 - `data/social-signals/latest.json` and UTC-dated scan archives.
 - `reports/social-signals/latest.md` includes each platform's success/failure and evidence class.

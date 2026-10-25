@@ -34,6 +34,8 @@ HOSTS = {
     "youtube_shorts": ("youtube.com", "youtu.be"),
     "instagram_reels": ("instagram.com",),
     "x": ("x.com", "twitter.com"),
+    "bluesky": ("bsky.app",),
+    "mastodon": ("mastodon.social",),
 }
 INTENT_WORDS = re.compile(
     r"\b(how to|how do i|make one|generator|template|filter|editor|download|"
@@ -207,18 +209,27 @@ def source_indexed(platform, query, observed_at, limit):
                 out.append(row)
         return out
 
+    working = 0
+    errors = []
     try:
         bing = usable(bing_rss(query, limit=limit), "bing_rss")
-    except (HTTPError, URLError, OSError, ValueError, ET.ParseError):
+        working += 1
+    except (HTTPError, URLError, OSError, ValueError, ET.ParseError) as exc:
+        errors.append("Bing: " + type(exc).__name__)
         bing = []
     if bing:
         return bing
-    # A search engine returning zero indexed links is NOT zero user demand.
-    # Try a second public endpoint, without proxy, login, or CAPTCHA bypass.
+    # Query availability is distinguished from indexed silence.
     try:
-        return usable(duckduckgo(query, limit=limit), "duckduckgo_html")
-    except (HTTPError, URLError, OSError, ValueError, ET.ParseError):
-        return []
+        ddg = usable(duckduckgo(query, limit=limit), "duckduckgo_html")
+        working += 1
+        if ddg:
+            return ddg
+    except (HTTPError, URLError, OSError, ValueError, ET.ParseError) as exc:
+        errors.append("DDG: " + type(exc).__name__)
+    if not working:
+        raise RuntimeError("Both public index sources unavailable: " + ", ".join(errors))
+    return []
 
 
 def read_json(path, default):
@@ -269,12 +280,13 @@ def run(root=ROOT, when=None, fetchers=None):
     queries = config.get("indexed_queries", {})
     channels = config.get("youtube_channel_ids") or []
     enabled = set(config.get("enabled_platforms", [
-        "tiktok", "youtube_shorts", "instagram_reels", "x", "producthunt", "huggingface"
+        "tiktok", "youtube_shorts", "instagram_reels", "x", "producthunt", "huggingface",
+        "bluesky", "mastodon"
     ]))
     fetchers = fetchers or {}
     all_rows, health = [], {}
     for platform in ("tiktok", "youtube_shorts", "instagram_reels", "x",
-                     "producthunt", "huggingface", "youtube_channel"):
+                     "producthunt", "huggingface", "bluesky", "mastodon", "youtube_channel"):
         if platform not in enabled:
             health[platform] = {"status": "disabled", "count": 0}
             continue
@@ -293,6 +305,21 @@ def run(root=ROOT, when=None, fetchers=None):
                 result = (fetchers.get(platform) or source_producthunt)(observed_at, limit)
             elif platform == "huggingface":
                 result = (fetchers.get(platform) or source_huggingface)(observed_at, limit)
+            elif platform in ("bluesky", "mastodon"):
+                try:
+                    from .social_direct import bluesky_posts, mastodon_hashtag
+                except ImportError:
+                    from social_direct import bluesky_posts, mastodon_hashtag
+                candidates = config.get("bluesky_queries" if platform == "bluesky" else "mastodon_hashtags") or []
+                if not candidates:
+                    health[platform] = {"status": "not_configured", "count": 0}
+                    continue
+                term = candidates[(when.hour // 4) % len(candidates)]
+                fn = fetchers.get(platform) or (
+                    bluesky_posts if platform == "bluesky" else mastodon_hashtag
+                )
+                result = fn(term, observed_at, limit)
+                warning = "Direct public post text, not verified customer payment or SEO demand."
             else:
                 if not channels:
                     health[platform] = {"status": "not_configured", "count": 0}
@@ -338,6 +365,13 @@ def run(root=ROOT, when=None, fetchers=None):
     dest = root / "reports/social-signals/latest.md"
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text("\n".join(report), encoding="utf-8")
+    # Independent query linkage: never auto-promote a raw social mention to a formal candidate.
+    try:
+        from .social_correlation import update_correlation
+    except ImportError:
+        from social_correlation import update_correlation
+    linkage = update_correlation(root, when, result)
+    result["cross_source_exact_matches"] = linkage["cross_matches"]
     return result
 
 
