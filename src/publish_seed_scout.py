@@ -17,8 +17,10 @@ from pathlib import Path
 
 try:
     from .publish_radar import merge_pending
+    from .opportunity_tracker import update_ledger
 except ImportError:
     from publish_radar import merge_pending
+    from opportunity_tracker import update_ledger
 
 
 def read_json(path: Path) -> dict:
@@ -109,8 +111,15 @@ def publish(root: Path, max_attempts: int = 6):
             if parse_dt(remote_cursor.get("last_success_at")) > parse_dt(local_cursor.get("last_success_at")):
                 write_json(root / "state/seed_cursor.json", remote_cursor)
 
+            # Preserve cross-day candidate identity and human review verdicts.
+            # This step runs after reset/merge, so it always reads the latest remote state.
+            update_ledger(root)
+
             add_args = [
                 "add", "-A", "--",
+                "state/opportunities.json",
+                "data/opportunities/latest.json",
+                "reports/opportunities/latest.md",
                 "data/seed-scout-latest.json",
                 f"data/seed-scout-daily/{day}.json",
                 f"reports/seed-scout-daily/{day}.md",
