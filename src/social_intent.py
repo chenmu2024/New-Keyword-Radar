@@ -27,6 +27,17 @@ ACTION = re.compile(
     r"(?:to|for|that can|which can|para|de)?\s*", re.I
 )
 TRAIL = re.compile(r"\b(?:thanks|please help|any suggestions?|let me know|appreciated|thanks in advance)\b.*", re.I)
+TOOL_INTENT = re.compile(
+    r"\b(tool|app|application|website|web site|software|service|generator|"
+    r"template|converter|editor|download|export|batch|bulk|csv|xlsx|svg|pdf|"
+    r"script|spreadsheet|file|automation|automatizar|automate|"
+    r"ferramenta|herramienta|planilha|archivo|arquivo|modelo|plantilla)\b", re.I
+)
+SPEND_CLAIM = re.compile(
+    r"\b(i (?:paid|bought|purchased|subscribed to)|"
+    r"eu (?:paguei|comprei)|(?:pagué|compré|he pagado|he comprado))\b", re.I
+)
+AMOUNT = re.compile(r"(?i)\b(?:paid|paguei|pagué|pagado)\s*(?:about|around|roughly)?\s*([$€£]\s*\d+(?:[.,]\d{1,2})?)")
 BORING = {"there", "anyone", "know", "looking", "free", "online", "tool", "tools",
           "app", "apps", "something", "this", "that", "those", "help", "with", "make",
           "create", "get", "some", "website", "would", "please", "thing",
@@ -42,6 +53,10 @@ def hypothesis(text):
     """Returns post-grounded tentative query fragment, never an asserted search volume."""
     raw = re.sub(r"\s+", " ", str(text or "")).strip()
     if not raw or PROMO.search(raw):
+        return None
+    # A general how-to question is NOT evidence of demand for a web tool.
+    # Require an explicit artefact, tool, file operation or automation context.
+    if not TOOL_INTENT.search(raw):
         return None
     m = ASK.search(raw)
     if not m:
@@ -93,3 +108,36 @@ def mine_user_questions(rows, limit=15):
             "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost.",
         })
     return candidates[:limit]
+
+
+
+def mine_buyer_spend_claims(rows, limit=12):
+    """First-person payment mentions from original posts, NEVER verified transactions."""
+    seen = set()
+    results = []
+    for row in rows:
+        if not isinstance(row, dict) or row.get("evidence_type") != "direct_public_post":
+            continue
+        if not row.get("primary_text_available"):
+            continue
+        body = str(row.get("description") or row.get("title") or "")
+        if not SPEND_CLAIM.search(body):
+            continue
+        url = row.get("url")
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        amount = AMOUNT.search(body)
+        results.append({
+            "original_post_url": url,
+            "platform": row.get("platform"),
+            "published_at": row.get("published_at"),
+            "self_reported_amount": amount.group(1).replace(" ", "") if amount else None,
+            "post_excerpt": body[:340],
+            "evidence_level": "independent_author_self_report_not_payment_processor",
+            "transaction_verified": False,
+            "business_income_verified": False,
+            "ready_to_build": False,
+            "next_check": "Identify product, exact complaint, free alternatives, actual keyword demand and original post context.",
+        })
+    return results[:limit]
