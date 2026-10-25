@@ -99,3 +99,65 @@ def import_free_intelligence(root: Path, when: datetime, max_age_hours=36, cap=5
                            "note": "Reused previously persisted evidence; not a new crawl and not buyer proof."}
     except (OSError, ValueError, TypeError, KeyError, AttributeError) as exc:
         return [], {"status": "unavailable", "count": 0, "error": f"{type(exc).__name__}: {str(exc)[:120]}"}
+
+
+
+def targeted_issue_search(when: datetime, queries, limit=5, searcher=None):
+    """Bounded targeted public GitHub Issue search, never a buyer validation.
+
+    Uses an existing GitHub API adapter, not a paid API. Caller controls rate;
+    two queries per four-hour run, capped results. Open issue metadata may be
+    old even when the search index reappears today.
+    """
+    if searcher is None:
+        try:
+            from .free_search import github
+        except ImportError:
+            from free_search import github
+        searcher = github
+    out = []
+    seen = set()
+    errors = []
+    for term in list(queries or [])[:2]:
+        if not isinstance(term, str) or not (5 <= len(term.strip()) <= 180):
+            continue
+        try:
+            records = searcher(term, kind="issues", limit=max(1, min(limit, 7)))
+        except (OSError, ValueError, TypeError, KeyError) as exc:
+            errors.append(f"{type(exc).__name__}: {str(exc)[:100]}")
+            continue
+        for item in records:
+            if not isinstance(item, dict):
+                continue
+            url = str(item.get("url") or "")
+            if not re.fullmatch(r"https://github\.com/[^/?#]+/[^/?#]+/issues/\d+/?", url):
+                continue
+            metadata = item.get("metadata") or {}
+            user = str(metadata.get("author") or "").lower()
+            if user in {"dependabot", "dependabot[bot]", "renovate[bot]", "github-actions[bot]"}:
+                continue
+            body = str(item.get("snippet") or "")
+            title = str(item.get("title") or "")
+            content = (title + " " + body).lower()
+            # Make first-party posts specific to an identifiable output/action.
+            # Generic release chores and bot tickets are not user's sought demand.
+            if not re.search(r"\b(?:export|exportar|download|descargar|batch|bulk|"
+                             r"converter|convert|conversor|csv|xlsx|svg|pdf|"
+                             r"arquivo|archivo|template|plantilla|merge|split)\b", content):
+                continue
+            row = signal("github_issue", url, title, when.isoformat(),
+                         "direct_public_issue_api", item.get("published_at"),
+                         body, date_kind="official_github_issue_created_at")
+            if row and row["id"] not in seen:
+                seen.add(row["id"])
+                row["primary_text_available"] = True
+                row["source_query"] = term
+                row["discovery_path"] = "targeted_github_public_issue_search"
+                row["source_warning"] = ("Original GitHub Issue author text from public API; "
+                       "may be truncated. Feature request is not proof of independent buyers or monetization.")
+                out.append(row)
+    if errors and not out:
+        return [], {"status": "unavailable", "count": 0, "errors": errors}
+    return out, {"status": "degraded" if errors else ("ok" if out else "empty"),
+                 "count": len(out), "errors": errors,
+                 "note": "Original issue author title/body via public search; NO paid demand or SEO proof."}
