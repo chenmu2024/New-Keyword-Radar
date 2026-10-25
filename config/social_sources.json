@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "note": "Public feeds and indexed pointers only. Never invent original post dates, view counts, comments, verified demand or SEO metrics.",
+  "per_source_limit": 6,
+  "enabled_platforms": [
+    "tiktok",
+    "youtube_shorts",
+    "instagram_reels",
+    "x",
+    "producthunt",
+    "huggingface",
+    "youtube_channel"
+  ],
+  "youtube_channel_ids": [],
+  "indexed_queries": {
+    "tiktok": [
+      "site:tiktok.com ai effect how to make",
+      "site:tiktok.com viral video generator template",
+      "site:tiktok.com como fazer efeito video ai",
+      "site:tiktok.com plantilla video como hacer"
+    ],
+    "youtube_shorts": [
+      "site:youtube.com/shorts AI effect how to",
+      "site:youtube.com/shorts generator template trend",
+      "site:youtube.com/shorts viral photo editor"
+    ],
+    "instagram_reels": [
+      "site:instagram.com/reel ai effect how to",
+      "site:instagram.com/reel template generator",
+      "site:instagram.com/reel filtro como fazer"
+    ],
+    "x": [
+      "site:x.com ai video generator how to",
+      "site:x.com need online tool generator",
+      "site:x.com maker template new trend",
+      "site:x.com ferramenta gerador vídeo"
+    ]
+  }
+}
