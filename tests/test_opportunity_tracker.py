@@ -32,6 +32,10 @@ class OpportunityTrackerTests(unittest.TestCase):
             first = update_ledger(root, datetime(2026, 10, 25, 4, tzinfo=timezone.utc))
             self.assertEqual(first["new_candidates"], 1)
             self.assertEqual(first["review_due_count"], 1)
+            # A 30-day-old candidate is marked D+30 with earlier missed stages.
+            long_due = update_ledger(root, datetime(2026, 11, 15, 4, tzinfo=timezone.utc))
+            self.assertEqual(long_due["review_due"][0]["due_day"], 30)
+            self.assertEqual(long_due["review_due"][0]["overdue_stages"], [7, 14, 30])
             cid = identity("hotel lobby ai video", "")
             state = json.loads((root / "state/opportunities.json").read_text())
             self.assertEqual(state["candidates"][cid]["first_seen"], "2026-10-15")
