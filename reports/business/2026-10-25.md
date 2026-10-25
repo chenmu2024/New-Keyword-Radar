@@ -1,6 +1,6 @@
 # OPC-inspired business evidence review
 
-Generated: 2026-10-25T06:47:18.114063+00:00
+Generated: 2026-10-25T06:56:29.095960+00:00
 
 **Advisory only.** The module does not collect keyword metrics, prove demand,
 approve a launch, or change the radar's formal verdict.
@@ -8,7 +8,7 @@ approve a launch, or change the radar's formal verdict.
 Formal radar candidates: 2.
 No candidate may be recommended for development without external source evidence.
 
-## groundwork simulator (Worldwide)
+## tap simulator reborn code (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
@@ -16,7 +16,7 @@ No candidate may be recommended for development without external source evidence
 - Missing evidence: dated Volume/KD and source, dated SERP inspection and notes, dated reference-site traffic or verified recent-game signal, evidence-backed score: pain, evidence-backed score: leverage, evidence-backed score: timing, evidence-backed score: resource_fit, evidence-backed score: standardization, evidence-backed score: cashflow, monetization model, acquisition channel, estimated monthly fixed cost (USD)
 - Notes: Requires human decision
 
-## tap simulator reborn (Worldwide)
+## tap simulator reborn codes (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED

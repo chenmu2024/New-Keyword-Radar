@@ -1,35 +1,35 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-25T06:46:38.738665+00:00
+Generated: 2026-10-25T06:55:40.507182+00:00
 
 ## Formal candidates
 
-### 1. groundwork simulator
+### 1. tap simulator reborn code
 
 - Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-09-29T00:00:00+00:00, retention **74.3%**.
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-15T00:00:00+00:00, retention **61.3%**.
 - 5y old-history gate: avg **0.03**, peak **4**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.008**.
 - Source seed-rising:simulator; geo Worldwide.
 
-### 2. tap simulator reborn
+### 2. tap simulator reborn codes
 
 - Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-14T00:00:00+00:00, retention **73.0%**.
-- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-14T00:00:00+00:00, retention **75.0%**.
+- 5y old-history gate: avg **0.01**, peak **3**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.004**.
 - Source seed-rising:simulator; geo Worldwide.
 
 ## Watch / rejected
 
-- buckeye degree planner — **old-history** — newness 96, money 100; 5y peak 59
-- harris county sample ballot by zip code — **old-history** — newness 96, money 92; 5y peak 47
-- riftbound deck builder — **commercial-watch** — newness 53, money 94
-- instagram follower checker — **commercial-watch** — newness 50, money 100
-- cyberpunk build planner — **commercial-watch** — newness 50, money 94
-- ppsc planner — **commercial-watch** — newness 45, money 94
-- ge tracker — **reject** — newness 40, money 100
-- osrs ge tracker — **reject** — newness 40, money 100
-- sterling ink planner — **reject** — newness 40, money 100
-- typhoon tracker — **reject** — newness 40, money 100
-- subway builder — **reject** — newness 35, money 100
-- nuke simulator — **reject** — newness 34, money 100
-- schedule planner — **reject** — newness 31, money 100
+- nba fantasy trade analyzer — **old-history** — newness 100, money 100; 5y peak 100
+- schedule planner osu — **old-history** — newness 100, money 100; 5y peak 100
+- template by editing 4u — **old-history** — newness 100, money 86; 5y peak 42
+- fantasy basketball team analyzer — **history-unchecked** — newness 96, money 100
+- clover time codes — **history-unchecked** — newness 96, money 92
+- sample ballot by zip code texas — **history-unchecked** — newness 96, money 92
+- roxx editor — **commercial-watch** — newness 88, money 100
+- creator point template — **commercial-watch** — newness 84, money 86
+- fantasy basketball trade analyzer — **commercial-watch** — newness 78, money 100
+- scribd downloader ppt format — **commercial-watch** — newness 58, money 100
+- hunting simulator 3 — **commercial-watch** — newness 53, money 94
+- rajan template edit — **reject** — newness 40, money 80
+- rajan template — **reject** — newness 34, money 86
