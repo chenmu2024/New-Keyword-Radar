@@ -8,6 +8,7 @@ on:
       - "src/social_signal_scout.py"
       - "src/social_direct.py"
       - "src/social_correlation.py"
+      - "src/social_intent.py"
       - "config/social_sources.json"
       - "tests/test_social_signal_scout.py"
       - ".github/workflows/social-signal-scout.yml"
@@ -19,8 +20,9 @@ on:
       - "tests/test_social_signal_scout.py"
       - ".github/workflows/social-signal-scout.yml"
   schedule:
-    # UTC every 4h; Asia/Shanghai 00:15 04:15 08:15 12:15 16:15 20:15.
-    - cron: "15 */4 * * *"
+    # UTC every 4h, local Asia/Shanghai: 07:15 11:15 15:15 19:15 23:15 03:15.
+    # Aim to produce a fresh snapshot BEFORE the 08:00 daily brief (best effort).
+    - cron: "15 3,7,11,15,19,23 * * *"
 
 permissions:
   contents: write
@@ -43,7 +45,7 @@ jobs:
       - name: Test provenance, deduplication and degraded sources
         run: |
           python -m unittest discover -s tests -p "test_social_signal_scout.py" -v
-          python -m py_compile src/social_signal_scout.py src/social_direct.py src/social_correlation.py
+          python -m py_compile src/social_signal_scout.py src/social_direct.py src/social_correlation.py src/social_intent.py
       - name: Collect public social signals (no login and no paid API)
         if: github.ref == 'refs/heads/main'
         run: python src/social_signal_scout.py

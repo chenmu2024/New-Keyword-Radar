@@ -36,6 +36,7 @@ HOSTS = {
     "x": ("x.com", "twitter.com"),
     "bluesky": ("bsky.app",),
     "mastodon": ("mastodon.social",),
+    "hackernews_ask": ("news.ycombinator.com",),
 }
 INTENT_WORDS = re.compile(
     r"\b(how to|how do i|make one|generator|template|filter|editor|download|"
@@ -281,12 +282,13 @@ def run(root=ROOT, when=None, fetchers=None):
     channels = config.get("youtube_channel_ids") or []
     enabled = set(config.get("enabled_platforms", [
         "tiktok", "youtube_shorts", "instagram_reels", "x", "producthunt", "huggingface",
-        "bluesky", "mastodon"
+        "bluesky", "mastodon", "hackernews_ask"
     ]))
     fetchers = fetchers or {}
     all_rows, health = [], {}
     for platform in ("tiktok", "youtube_shorts", "instagram_reels", "x",
-                     "producthunt", "huggingface", "bluesky", "mastodon", "youtube_channel"):
+                     "producthunt", "huggingface", "bluesky", "mastodon",
+                     "hackernews_ask", "youtube_channel"):
         if platform not in enabled:
             health[platform] = {"status": "disabled", "count": 0}
             continue
@@ -305,6 +307,13 @@ def run(root=ROOT, when=None, fetchers=None):
                 result = (fetchers.get(platform) or source_producthunt)(observed_at, limit)
             elif platform == "huggingface":
                 result = (fetchers.get(platform) or source_huggingface)(observed_at, limit)
+            elif platform == "hackernews_ask":
+                try:
+                    from .social_direct import hackernews_ask
+                except ImportError:
+                    from social_direct import hackernews_ask
+                result = (fetchers.get(platform) or hackernews_ask)(observed_at, limit)
+                warning = "Official Ask HN public posts; question text is not verified paid demand."
             elif platform in ("bluesky", "mastodon"):
                 try:
                     from .social_direct import bluesky_posts, mastodon_hashtag
@@ -344,7 +353,7 @@ def run(root=ROOT, when=None, fetchers=None):
               "sources": health, "new_discoveries": n_new,
               "unique_in_run": len(unique), "history_total": len(new_history["items"]),
               "items": list(unique.values())[:90],
-              "caveat": "Indexed X, TikTok, YouTube Shorts and Instagram links do not confirm original comments, publication dates or demand. Direct Product Hunt/HF feeds indicate launches, not buyer intent. Do not auto-add to formal 90-day candidates."}
+              "caveat": "Indexed X/TikTok/Shorts/Instagram links are search pointers, not original comments. HN/Mastodon/Bluesky direct public posts and Product Hunt/HF listings do not verify paid demand, SEO traffic, or feasible project opportunity. Never auto-promote into formal 90-day candidates."}
     write_json(root / "state/social_seen.json", new_history)
     write_json(root / "data/social-signals/latest.json", result)
     write_json(root / f"data/social-signals/{day}/{stamp}.json", result)
@@ -372,6 +381,10 @@ def run(root=ROOT, when=None, fetchers=None):
         from social_correlation import update_correlation
     linkage = update_correlation(root, when, result)
     result["cross_source_exact_matches"] = linkage["cross_matches"]
+    result["original_question_hypotheses"] = linkage["public_question_hypotheses"]
+    # Align on-disk JSON fields with the finished cross-source report.
+    write_json(root / "data/social-signals/latest.json", result)
+    write_json(root / f"data/social-signals/{day}/{stamp}.json", result)
     return result
 
 

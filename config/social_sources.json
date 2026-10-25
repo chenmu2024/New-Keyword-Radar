@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "note": "Bluesky and Mastodon are direct public posts (not confirmed paid buyers). TikTok/X/Instagram/Shorts are only search-index pointers; index search failures/zero links are not zero platform demand. Cross-query linking never bypasses 90d/5y/paid-metrics gates.",
+  "version": 3,
+  "note": "V4.2 Adds official public Ask HN questions, query hypotheses separate from Trends evidence, and fallback from cached Bluesky public AppView hostname to the documented api.bsky.app host only on ordinary HTTP403; never bypass auth, throttle or provider controls. X/TikTok/Shorts/Instagram remain index-only pointers.",
   "per_source_limit": 6,
   "enabled_platforms": [
     "tiktok",
@@ -11,6 +11,7 @@
     "huggingface",
     "bluesky",
     "mastodon",
+    "hackernews_ask",
     "youtube_channel"
   ],
   "youtube_channel_ids": [],
