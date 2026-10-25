@@ -17,8 +17,10 @@ from pathlib import Path
 
 try:
     from .publish_radar import merge_pending
+    from .opportunity_tracker import update_ledger
 except ImportError:
     from publish_radar import merge_pending
+    from opportunity_tracker import update_ledger
 
 
 def read_json(path: Path) -> dict:
@@ -111,7 +113,6 @@ def publish(root: Path, max_attempts: int = 6):
 
             # Preserve cross-day candidate identity and human review verdicts.
             # This step runs after reset/merge, so it always reads the latest remote state.
-            from opportunity_tracker import update_ledger
             update_ledger(root)
 
             add_args = [
