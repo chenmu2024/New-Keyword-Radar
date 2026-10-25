@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "note": "Public feeds and indexed pointers only. Never invent original post dates, view counts, comments, verified demand or SEO metrics.",
+  "version": 2,
+  "note": "Bluesky and Mastodon are direct public posts (not confirmed paid buyers). TikTok/X/Instagram/Shorts are only search-index pointers; index search failures/zero links are not zero platform demand. Cross-query linking never bypasses 90d/5y/paid-metrics gates.",
   "per_source_limit": 6,
   "enabled_platforms": [
     "tiktok",
@@ -9,6 +9,8 @@
     "x",
     "producthunt",
     "huggingface",
+    "bluesky",
+    "mastodon",
     "youtube_channel"
   ],
   "youtube_channel_ids": [],
@@ -35,5 +37,23 @@
       "site:x.com online tool",
       "site:x.com ferramenta gerador"
     ]
-  }
+  },
+  "bluesky_queries": [
+    "need a tool",
+    "how do i make",
+    "is there a generator",
+    "any free template",
+    "como fazer",
+    "necesito herramienta",
+    "preciso de gerador",
+    "how to create"
+  ],
+  "mastodon_hashtags": [
+    "aivideo",
+    "gamedev",
+    "smallweb",
+    "opensource",
+    "webtools",
+    "indieweb"
+  ]
 }
