@@ -19,9 +19,9 @@ from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 
 try:
-    from .free_search import bing_rss
+    from .free_search import bing_rss, duckduckgo
 except ImportError:
-    from free_search import bing_rss
+    from free_search import bing_rss, duckduckgo
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "config/social_sources.json"
@@ -192,18 +192,33 @@ def source_youtube_channels(observed_at, channels, limit):
 
 def source_indexed(platform, query, observed_at, limit):
     """Search engine index is ONLY a discovery pointer to social URLs."""
-    indexed = bing_rss(query, limit=limit)
-    out = []
-    for item in indexed:
-        if not isinstance(item, dict):
-            continue
-        # The date is an RSS index date, not necessarily the social post's date.
-        row = signal(platform, item.get("url"), item.get("title"), observed_at,
-                     "search_index_pointer", item.get("published_at") or item.get("published"),
-                     item.get("snippet", ""), date_kind="search_index_date_not_post_date")
-        if row:
-            out.append(row)
-    return out
+    def usable(items, engine):
+        out = []
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            row = signal(platform, item.get("url"), item.get("title"), observed_at,
+                         "search_index_pointer",
+                         item.get("published_at") or item.get("published"),
+                         item.get("snippet", ""),
+                         date_kind="search_index_date_not_post_date")
+            if row:
+                row["discovery_engine"] = engine
+                out.append(row)
+        return out
+
+    try:
+        bing = usable(bing_rss(query, limit=limit), "bing_rss")
+    except (HTTPError, URLError, OSError, ValueError, ET.ParseError):
+        bing = []
+    if bing:
+        return bing
+    # A search engine returning zero indexed links is NOT zero user demand.
+    # Try a second public endpoint, without proxy, login, or CAPTCHA bypass.
+    try:
+        return usable(duckduckgo(query, limit=limit), "duckduckgo_html")
+    except (HTTPError, URLError, OSError, ValueError, ET.ParseError):
+        return []
 
 
 def read_json(path, default):

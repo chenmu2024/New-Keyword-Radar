@@ -3,7 +3,8 @@ import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
-from src.social_signal_scout import signal, safe_url, parse_feed, reconcile, run
+from unittest.mock import patch
+from src.social_signal_scout import signal, safe_url, parse_feed, reconcile, run, source_indexed
 
 
 class SocialSignalTests(unittest.TestCase):
@@ -57,6 +58,20 @@ class SocialSignalTests(unittest.TestCase):
             stored = json.loads((root / "state/social_seen.json").read_text())
             self.assertEqual(len(stored["items"]), 2)
             self.assertTrue((root / "reports/social-signals/latest.md").exists())
+
+    def test_secondary_index_never_becomes_direct_comment_evidence(self):
+        with patch("src.social_signal_scout.bing_rss", return_value=[
+            {"url": "https://www.bing.com/search", "title": "bad off-platform"}
+        ]), patch("src.social_signal_scout.duckduckgo", return_value=[
+            {"url": "https://www.tiktok.com/@real/video/77",
+             "title": "how to make an AI effect"}
+        ]):
+            rows = source_indexed("tiktok", "site:tiktok.com ai effect",
+                                  "2026-10-25T00:00:00+00:00", 5)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["discovery_engine"], "duckduckgo_html")
+        self.assertEqual(rows[0]["evidence_type"], "search_index_pointer")
+        self.assertFalse(rows[0]["user_demand_verified"])
 
     def test_failure_is_visible(self):
         with tempfile.TemporaryDirectory() as d:
