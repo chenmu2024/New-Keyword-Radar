@@ -237,6 +237,99 @@ class SocialSignalTests(unittest.TestCase):
         self.assertEqual(claims[0]["self_reported_amount"], "$19")
         self.assertFalse(claims[0]["transaction_verified"])
 
+    def test_existing_free_intelligence_bridge_preserves_evidence_levels(self):
+        from src.social_evidence_bridge import import_free_intelligence
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            path = root / "data/free-intelligence/latest.json"
+            path.parent.mkdir(parents=True)
+            path.write_text(json.dumps({
+                "generated_at": "2026-10-25T06:30:00Z",
+                "queries": [{"query": "batch export editor",
+                    "items": [
+                        {"platform": "github_issues",
+                         "title": "Feature request: batch export SVG layers",
+                         "url": "https://github.com/example/repo/issues/123",
+                         "snippet": "Need a way to export multiple layers as SVG.",
+                         "published_at": "2026-10-24T01:00:00Z"},
+                        {"platform": "reddit_rss",
+                         "title": "Need bulk SVG to PNG",
+                         "url": "https://www.reddit.com/r/tools/comments/abc/hello",
+                         "snippet": "Is there a way to do this",
+                         "published_at": "2026-10-24T00:00:00Z"},
+                        {"platform": "reddit_index_fallback",
+                         "title": "indexed idea", "url": "https://reddit.com/r/a/comments/def",
+                         "snippet": "index excerpt"},
+                        {"platform": "hackernews_ask",
+                         "title": "Ask HN: csv format converter",
+                         "url": "https://news.ycombinator.com/item?id=123",
+                         "snippet": "Third-party indexed excerpt"},
+                        {"platform": "github_issues",
+                         "title": "Actually a pull request",
+                         "url": "https://github.com/example/repo/pull/987",
+                         "snippet": "Do not take as user issue"},
+                    ]}]
+            }), encoding="utf-8")
+            now = datetime(2026, 10, 25, 7, tzinfo=timezone.utc)
+            rows, status = import_free_intelligence(root, now)
+            self.assertEqual(status["status"], "ok")
+            self.assertEqual(len(rows), 4)
+            issue = next(x for x in rows if x["platform"] == "github_issue")
+            self.assertEqual(issue["evidence_type"], "direct_public_issue_api")
+            self.assertTrue(issue["primary_text_available"])
+            reddit = [x for x in rows if x["platform"] == "reddit"]
+            self.assertEqual({x["evidence_type"] for x in reddit},
+                             {"public_rss_excerpt", "search_index_pointer"})
+            indexed_hn = next(x for x in rows if x["platform"] == "hackernews_ask")
+            self.assertEqual(indexed_hn["evidence_type"], "indexed_public_post_excerpt")
+            self.assertFalse(indexed_hn["primary_text_available"])
+            stale, stale_status = import_free_intelligence(
+                root, datetime(2026, 10, 28, 7, tzinfo=timezone.utc))
+            self.assertEqual(stale, [])
+            self.assertEqual(stale_status["status"], "stale")
+
+    def test_72h_window_uses_prior_sightings_without_fabricating_fresh_posts(self):
+        from src.social_correlation import update_correlation
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            (root / "data/seed-scout-daily").mkdir(parents=True)
+            (root / "state").mkdir(parents=True)
+            (root / "data/seed-scout-daily/2026-10-24.json").write_text(json.dumps({
+                "scanned_seed_count": 74, "target_seed_count": 74,
+                "complete_daily_target": True,
+                "discoveries": [
+                    {"query": "batch svg layer exporter", "rise_value": 100, "seed": "exporter"}]
+            }), encoding="utf-8")
+            historical = signal("github_issue", "https://github.com/example/repo/issues/42",
+                                "Feature request: batch svg layer exporter",
+                                "2026-10-24T20:00:00Z",
+                                "direct_public_issue_api",
+                                "2025-01-01T00:00:00Z",
+                                "Please add batch svg layer exporter")
+            historical["primary_text_available"] = True
+            historical["last_seen"] = "2026-10-24T20:00:00Z"
+            (root / "state/social_seen.json").write_text(json.dumps({
+                "items": {historical["id"]: historical}
+            }), encoding="utf-8")
+            corr = update_correlation(root, datetime(2026, 10, 25, 7, tzinfo=timezone.utc),
+                 {"items": [], "unique_in_run": 0, "generated_at": "2026-10-25T07:00:00Z"})
+            self.assertEqual(corr["cross_matches"], 1)
+            self.assertEqual(corr["review_window"]["social_prior_sightings_72h"], 1)
+            self.assertEqual(corr["candidates"][0]["links"][0]["published_at"],
+                             "2025-01-01T00:00:00+00:00")
+            self.assertFalse(corr["candidates"][0]["ready_to_build"])
+
+    def test_github_feature_request_is_hint_not_confirmed_buyer(self):
+        from src.social_intent import mine_user_questions
+        issue = signal("github_issue", "https://github.com/owner/repo/issues/12",
+                       "Feature request: batch export SVG to PDF",
+                       "2026-10-25T07:00:00Z", "direct_public_issue_api")
+        issue["primary_text_available"] = True
+        matches = mine_user_questions([issue])
+        self.assertEqual(len(matches), 1)
+        self.assertEqual(matches[0]["demand_status"], "unverified_question_hint")
+        self.assertFalse(matches[0]["ready_to_build"])
+
     def test_unavailable_index_is_not_false_empty(self):
         from src.social_signal_scout import source_indexed
         from unittest.mock import patch
