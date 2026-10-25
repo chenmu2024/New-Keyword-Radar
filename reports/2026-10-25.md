@@ -1,35 +1,24 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-25T07:12:56.064764+00:00
+Generated: 2026-10-25T07:16:39.727003+00:00
 
 ## Formal candidates
 
-### 1. global election simulator
-
-- Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-03T00:00:00+00:00, retention **85.7%**.
-- 5y old-history gate: avg **0.05**, peak **4**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.025**.
-- Source seed-rising:simulator; geo Worldwide.
-
-### 2. rockstar gta 6 ai impact
-
-- Newness **96/100**; money **55/100** (software).
-- 90d baseline avg **0.09**, recent peak **100**, first rise 2026-10-19T00:00:00+00:00, retention **0.3%**.
-- 5y old-history gate: avg **0.02**, peak **1**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.02**.
-- Source seed-rising:ai; geo Worldwide.
-
+**今日无合格可变现新词。**
 ## Watch / rejected
 
-- osm template — **old-history** — newness 90, money 80; 5y peak 27
-- online casino bonus 🇩🇪 www.spieltresor.com — **trend-watch** — newness 100, money 26
-- kingshot optimizer tool — **trend-watch** — newness 95, money 49
-- open source ai coding assistant — **trend-watch** — newness 93, money 49
-- ai agency constructor — **trend-watch** — newness 88, money 49
-- hsin evaluator — **trend-watch** — newness 88, money 26
-- online casino portugal 🇵🇹 www.pooky.live — **trend-watch** — newness 88, money 26
-- online casino 🇵🇹 www.pooky.live — **trend-watch** — newness 88, money 26
-- droid dashcam video recorder — **reject** — newness 73, money 26
-- m4 editor — **reject** — newness 40, money 100
-- election simulator — **reject** — newness 35, money 94
-- google fitbit air fitness tracker — **reject** — newness 30, money 100
-- howard email notifier — **reject** — newness 0, money 26
+- storm austen — **trend-watch** — newness 100, money 32
+- alden richards road manager — **trend-watch** — newness 100, money 26
+- online casino ohne limit 2026 🇩🇪 www.spieltresor.com — **trend-watch** — newness 100, money 26
+- andy woodman bromley manager departure — **trend-watch** — newness 96, money 26
+- karthik sabesh — **trend-watch** — newness 96, money 26
+- amd ryzen 9 9900x 12-core 24-thread unlocked desktop processor — **trend-watch** — newness 95, money 26
+- road manager of alden richards — **trend-watch** — newness 95, money 26
+- sainsbury's £18 egift card scheme — **trend-watch** — newness 95, money 26
+- sojuz.asia — **trend-watch** — newness 95, money 22
+- small restaurant crossword clue — **trend-watch** — newness 91, money 26
+- microsoft pc manager app benchmark — **trend-watch** — newness 88, money 49
+- sprunki parodybox cocrea — **trend-watch** — newness 88, money 26
+- solvely ai — **reject** — newness 40, money 55
+- core app dashboard — **reject** — newness 36, money 49
+- new home builder near me — **reject** — newness 31, money 94
