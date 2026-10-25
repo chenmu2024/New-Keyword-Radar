@@ -382,6 +382,7 @@ def run(root=ROOT, when=None, fetchers=None):
     linkage = update_correlation(root, when, result)
     result["cross_source_exact_matches"] = linkage["cross_matches"]
     result["original_question_hypotheses"] = linkage["public_question_hypotheses"]
+    result["buyer_self_reports_unverified"] = linkage["self_reported_buyer_feedback_count"]
     # Align on-disk JSON fields with the finished cross-source report.
     write_json(root / "data/social-signals/latest.json", result)
     write_json(root / f"data/social-signals/{day}/{stamp}.json", result)

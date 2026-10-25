@@ -34,6 +34,13 @@ For TikTok/X/Instagram/Shorts, Bing-index and public DuckDuckGo-index pointers r
 
 These public sources do **not** supply direct TikTok, X, Instagram Reels or YouTube Shorts comments, nor independent payment or traffic proof. Do not treat their 0 indexed links as absence of demand.
 
+## V4.2 source quality and payment-self-report gate
+
+- **Demand question phrases are conservative:** a generic 'how to make art' or conversational post is ignored unless the same *direct public post* includes an identifiable tool, downloadable file, batch action, converter, export, template, or similar artefact. This avoids inflating candidate counts with unrelated chatter. False negatives are acceptable at the collection stage.
+- **Actual spend vs self-reported spend:** public posts saying 'I paid $19' are separately surfaced as `self_reported_buyer_feedback` in the correlations JSON, with the original post link and author-reported amount. Such an assertion is **not** a verified Stripe/Polar/merchant transaction, not SaaS business revenue, and not justification to copy a paid API product. It is a lead for further manual competitor/demand research.
+- `buyer_self_reports_unverified` in the latest run summary and `original_question_hypotheses` are real rule-based counter outputs, not 'qualified businesses'.
+- **Cross-source exact Query matches may remain 0**, even with direct source coverage. The system does not forcibly manufacture correlations when the 74-root Trends list has unrelated query contexts.
+
 ## Output
 - `data/social-signals/latest.json` and UTC-dated scan archives.
 - `reports/social-signals/latest.md` includes each platform's success/failure and evidence class.

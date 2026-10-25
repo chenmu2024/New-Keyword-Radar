@@ -210,6 +210,33 @@ class SocialSignalTests(unittest.TestCase):
             self.assertEqual(questions["public_question_hypotheses"], 1)
             self.assertFalse(questions["query_hypotheses"][0]["ready_to_build"])
 
+    def test_reject_chatter_accept_specific_tool_request_and_self_paid_user(self):
+        from src.social_intent import hypothesis, mine_user_questions, mine_buyer_spend_claims
+        self.assertIsNone(hypothesis("I dunno how to make clean looking art"))
+        self.assertIsNone(hypothesis("now how do i make a quadruped get wedgied"))
+        self.assertEqual(hypothesis("I need a tool to batch resize Minecraft skins"),
+                         "batch resize minecraft skins")
+        posts = [
+            {"platform": "bluesky", "url": "https://bsky.app/profile/abc/post/1",
+             "description": "I dunno how to make clean looking art", "title": "how to make",
+             "evidence_type": "direct_public_post", "primary_text_available": True},
+            {"platform": "hackernews_ask", "url": "https://news.ycombinator.com/item?id=50222093",
+             "title": "Ask HN: Kimi Code hit its limit",
+             "description": "I paid $19 for Kimi Code but my two tasks never completed.",
+             "evidence_type": "direct_public_post", "primary_text_available": True},
+            {"platform": "hackernews_ask", "url": "https://news.ycombinator.com/item?id=900",
+             "title": "Ask HN: Is there a tool for this?",
+             "description": "I need a tool to batch resize Minecraft skins",
+             "evidence_type": "direct_public_post", "primary_text_available": True},
+        ]
+        questions = mine_user_questions(posts)
+        claims = mine_buyer_spend_claims(posts)
+        self.assertEqual(len(questions), 1)
+        self.assertEqual(questions[0]["proposed_query"], "batch resize minecraft skins")
+        self.assertEqual(len(claims), 1)
+        self.assertEqual(claims[0]["self_reported_amount"], "$19")
+        self.assertFalse(claims[0]["transaction_verified"])
+
     def test_unavailable_index_is_not_false_empty(self):
         from src.social_signal_scout import source_indexed
         from unittest.mock import patch

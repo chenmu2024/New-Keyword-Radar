@@ -140,10 +140,11 @@ def update_correlation(root=ROOT, when=None, social=None):
     rows = social.get("items") or []
     ranked = match_signals(rows, keywords)
     try:
-        from .social_intent import mine_user_questions
+        from .social_intent import mine_user_questions, mine_buyer_spend_claims
     except ImportError:
-        from social_intent import mine_user_questions
+        from social_intent import mine_user_questions, mine_buyer_spend_claims
     questions = mine_user_questions(rows)
+    paid_claims = mine_buyer_spend_claims(rows)
     result = {"generated_at": when.isoformat(),
               "social_generated_at": social.get("generated_at"),
               "trends_coverage": coverage,
@@ -151,6 +152,8 @@ def update_correlation(root=ROOT, when=None, social=None):
               "cross_matches": len(ranked),
               "public_question_hypotheses": len(questions),
               "query_hypotheses": questions,
+              "self_reported_buyer_feedback_count": len(paid_claims),
+              "self_reported_buyer_feedback": paid_claims,
               "candidates": ranked,
               "caveat": ("Exact multiword overlap is only a research lead, not verified "
                          "demand, traffic, money, recent trend trajectory, or easy SERP. "
@@ -166,6 +169,7 @@ def update_correlation(root=ROOT, when=None, social=None):
         f"- Eligible multiword rising queries: {coverage['eligible_exact_queries']}",
         f"- Cross-source matches this run: {len(ranked)}",
         f"- Direct-post question-derived QUERY HYPOTHESES: {len(questions)}",
+        f"- Direct-post author self-reported payments (NOT processor verified): {len(paid_claims)}",
         "- Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.", "",
     ]
     for entry in ranked[:12]:
@@ -187,6 +191,14 @@ def update_correlation(root=ROOT, when=None, social=None):
                       "  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)"])
     if not questions:
         lines.append("- No qualifying public-post question hints in this scan.")
+    lines.append("")
+    lines.extend(["## First-person payment mentions (author reports, NOT verified orders)", ""])
+    for post in paid_claims[:10]:
+        lines.extend([f"- Original post: {post['original_post_url']}",
+                      f"  - Author-reported amount: {post['self_reported_amount'] or 'not specified'}",
+                      "  - Evidence level: author statement only; not independently confirmed transaction."])
+    if not paid_claims:
+        lines.append("- None collected from direct public posts in this run.")
     lines.append("")
     report = root / "reports/social-signals/correlations-latest.md"
     report.parent.mkdir(parents=True, exist_ok=True)
