@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-10-25T07:30:44.788144+00:00
+# V4 Social signal discovery — 2026-10-25T12:34:25.255711+00:00
 
-- Unique links this run: 65, newly seen: 5, history: 110
+- Unique links this run: 66, newly seen: 20, history: 130
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (3) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (4) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (38)
@@ -20,32 +20,33 @@
 
 ## Links (not validated project opportunities)
 
-- [git-flow-next](https://www.producthunt.com/products/tower) — producthunt — direct_public_feed
-- [pawl](https://www.producthunt.com/products/pawl) — producthunt — direct_public_feed
+- [Badgey](https://www.producthunt.com/products/badgey) — producthunt — direct_public_feed
+- [Specsight](https://www.producthunt.com/products/specsight) — producthunt — direct_public_feed
 - [Moli by Lexmount](https://www.producthunt.com/products/lexmount-browser) — producthunt — direct_public_feed
 - [MRRaudit](https://www.producthunt.com/products/mrraudit) — producthunt — direct_public_feed
-- [Badgey](https://www.producthunt.com/products/badgey) — producthunt — direct_public_feed
-- [Openstatus Incident Management](https://www.producthunt.com/products/openstatus-2) — producthunt — direct_public_feed
-- [xinge-medai/model-web-inference-s109](https://huggingface.co/spaces/xinge-medai/model-web-inference-s109) — huggingface — direct_public_api
-- [KITthaisanga/regjob](https://huggingface.co/spaces/KITthaisanga/regjob) — huggingface — direct_public_api
-- [saraaedan/arsl-alphabet-transformer-v3](https://huggingface.co/spaces/saraaedan/arsl-alphabet-transformer-v3) — huggingface — direct_public_api
-- [onlyfund/vanna-volga-sabr-demo](https://huggingface.co/spaces/onlyfund/vanna-volga-sabr-demo) — huggingface — direct_public_api
-- [louisnguyen198x/seedance-rtx-upscaler](https://huggingface.co/spaces/louisnguyen198x/seedance-rtx-upscaler) — huggingface — direct_public_api
-- [lakhwinde001/crop-doctor](https://huggingface.co/spaces/lakhwinde001/crop-doctor) — huggingface — direct_public_api
-- [If we ignore Folie à Deux, the current #Batman Cinematic Universe is crazy. Joker, The Penguin, now Clayface. I think that's how you can beat Marvel. Do a villain series. Let's ig](https://bsky.app/profile/chanchan.bsky.social/post/3myon3xhhp22k) — bluesky — direct_public_post
-- [I dunno how to make clean looking art o+< well I know. Vectors and stabilization . But do I have the patience? Noooooo My arts just really messy](https://bsky.app/profile/nootsuit.bsky.social/post/3myomxkrhak2n) — bluesky — direct_public_post — intent keyword found
-- [I do have my limits, but it’s fun to push them every so often, plus I’d love to see just how big you’d make me~ And the psychic paws would be lovely… Well, ya can’t really get fat](https://bsky.app/profile/squishyzorua.bsky.social/post/3myolkgrrqc2x) — bluesky — direct_public_post
-- [That would be when I turn to music. Queuing up the kind of music or playlist where the tunes make me mime & move around or dance in quite possibly embarrassing ways if anyone wer](https://bsky.app/profile/minasojo.bsky.social/post/3myokvtmzxk2d) — bluesky — direct_public_post
-- [not sure if i went about this the best way. but tried again for productive engagement thru youtube comment section. //sometimes things seem closer than they actual are; the shimme](https://bsky.app/profile/legitsalt.bsky.social/post/3myokm45ov22k) — bluesky — direct_public_post
-- [now how do i make a quadruped get wedgied...](https://bsky.app/profile/surfingstarfall.bsky.social/post/3myokfgcgj22y) — bluesky — direct_public_post — intent keyword found
-- [Trying the head circle laugh again, but toned down and simpler this time # pixelart # indiedev # gamedev](https://mastodon.social/@loubagel/117499931900273734) — mastodon — direct_public_post
-- [Daily Challenge: Xochimilco, Mexico City. Xochimilco's canals stretch about 170 kilometres — nearly all that survives of the lake the Aztecs once sailed. Same course for everyone t](https://mastodon.social/@cityrunnergame/117499795300973597) — mastodon — direct_public_post
-- [GamingDrift is now in beta. Gaming moves fast. GamingDrift tracks movement across dozens of sources so you can see what is worth watching. https:// gamingdrift.app/?utm_source=ma s](https://mastodon.social/@gamingdriftapp/117499413085395973) — mastodon — direct_public_post
+- [How It Spread](https://www.producthunt.com/products/how-it-spread) — producthunt — direct_public_feed
+- [pawl](https://www.producthunt.com/products/pawl) — producthunt — direct_public_feed
+- [starkAhmed43/lc-run-infernogod-ec-class-s002-20261025-d02-a0c20a31-fbe97e45](https://huggingface.co/spaces/starkAhmed43/lc-run-infernogod-ec-class-s002-20261025-d02-a0c20a31-fbe97e45) — huggingface — direct_public_api
+- [masoud1405/t1](https://huggingface.co/spaces/masoud1405/t1) — huggingface — direct_public_api
+- [j-osep-h/kikamba-gpt](https://huggingface.co/spaces/j-osep-h/kikamba-gpt) — huggingface — direct_public_api
+- [xu020301/myspace](https://huggingface.co/spaces/xu020301/myspace) — huggingface — direct_public_api
+- [Xzssss99/Sisisk](https://huggingface.co/spaces/Xzssss99/Sisisk) — huggingface — direct_public_api
+- [Huzaifa-2911/property-price-pakistan](https://huggingface.co/spaces/Huzaifa-2911/property-price-pakistan) — huggingface — direct_public_api
+- [blank template here! www.tumblr.com/hallabun/830...](https://bsky.app/profile/quiescentkairos.bsky.social/post/3mynfvgzxys26) — bluesky — direct_public_post — intent keyword found
+- [Small team, no HR software? A vacation tracker needs just two tabs: a Requests log (who, start, end, days) and a Balances tab that sums each person's approved days against their al](https://bsky.app/profile/simpleptotracker.bsky.social/post/3myn4gt75rm2z) — bluesky — direct_public_post — intent keyword found
+- [template credit: www.tumblr.com/hallabun/830...](https://bsky.app/profile/azemet.bsky.social/post/3mylulekmnc2e) — bluesky — direct_public_post — intent keyword found
+- [Midterm week and the Chapter 4 findings section still a blank page? Copy the three‑row table from any published thesis, paste your stats, and let the headings do the heavy lifting.](https://bsky.app/profile/eduspeedy.bsky.social/post/3myljd5wjdp2q) — bluesky — direct_public_post
+- [Love the carvings! I don't have any nature templates other than this but if Wyland's First Breath as pumpkin carving template is useful, have at it. Photo is from 2006. Feel free](https://bsky.app/profile/noeldickover.bsky.social/post/3myl4zexpd22o) — bluesky — direct_public_post — intent keyword found
+- [i didn't think to actually link the template but here it is for any others who are interested vvv](https://bsky.app/profile/dumbtree.net/post/3myksqkb2fc2x) — bluesky — direct_public_post — intent keyword found
+- [<think> Der User will einen Mastodon-Post für den Artikel "Flora: Robotikdaten 125x günstiger annotieren". 1. **Hashtags**: Der User hat 5 Hashtags zur Verfügung. Ich muss 2-3 ausw](https://mastodon.social/@ctsd/117501568687050248) — mastodon — direct_public_post
+- [fwupd 2.1.9 megjelent. Javított Secure Boot dbx-kezelés (0-verzió létrehozása hiányzó UEFI változók esetén), pontosabb verziófelismerés, Fedora CoreOS szolgáltatásindítás: After=lo](https://mastodon.social/@linuxmint_hun/117501544973805325) — mastodon — direct_public_post
+- [Riff offers Linux users a native Spotify experience with GTK4, libadwaita, playlist management, playback controls, and GNOME integration. https:// linuxiac.com/meet-riff-an-open -s](https://mastodon.social/@linuxiac/117501537613657931) — mastodon — direct_public_post
+- [Modern AI coding tools allow non-developers to build custom software, browser extensions, game mods, and OS utilities using natural language prompts. While services like Claude ena](https://mastodon.social/@hacksgr/117501532748725268) — mastodon — direct_public_post
+- [Ask HN: Are tab completion models dead?](https://news.ycombinator.com/item?id=50229834) — hackernews_ask — direct_public_post
+- [Ask HN: Are people aware OpenAI Dots intercept SSL?](https://news.ycombinator.com/item?id=50229493) — hackernews_ask — direct_public_post
 - [Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?](https://news.ycombinator.com/item?id=50200997) — hackernews_ask — direct_public_post
 - [Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry](https://news.ycombinator.com/item?id=50193416) — hackernews_ask — direct_public_post
 - [Is AI just another get rich quick scheme?](https://news.ycombinator.com/item?id=50220934) — hackernews_ask — direct_public_post
-- [Flow-state induction via raw mouse input (a working biohacking protocol)](https://news.ycombinator.com/item?id=50219717) — hackernews_ask — direct_public_post — intent keyword found
-- [Game trips modem/router breaker](https://news.ycombinator.com/item?id=50222517) — hackernews_ask — direct_public_post
 - [Ask HN: Kimi Code hit its 5-hour limit after $1.37 of API usage](https://news.ycombinator.com/item?id=50222093) — hackernews_ask — direct_public_post
 - [SPEC: フロントエンドに共有状態モデルとプル形式の描画を入れる — 66 モジュール 37,260 行が push を直接 DOM に書いており、面どうしの一貫性が構造的に保証されていない](https://github.com/akiojin/gwt/issues/5016) — github_issue — direct_public_issue_api
 - [LOUREX AI ONLY — final 10-workstream closure via 3 bounded acceptance gates (2026-10-23)](https://github.com/allidamech-bot/INVOICE/issues/1010) — github_issue — direct_public_issue_api
@@ -59,4 +60,3 @@
 - [Ask HN: Would a startup for young creatives who reject AI be feasible?](https://news.ycombinator.com/item?id=49689696) — hackernews_ask — indexed_public_post_excerpt
 - [Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk](https://news.ycombinator.com/item?id=49304986) — hackernews_ask — indexed_public_post_excerpt
 - [Do You Think OpenAI Is Apple Circa the 1980s?](https://news.ycombinator.com/item?id=49178393) — hackernews_ask — indexed_public_post_excerpt
-- [Banter: Claude × Copilot chat](https://github.com/cillian1/belfast-wheel-app/issues/30) — github_issue — direct_public_issue_api
