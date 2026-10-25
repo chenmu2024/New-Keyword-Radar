@@ -1,13 +1,13 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-25T06:42:28.031184+00:00
+Generated: 2026-10-25T06:46:38.738665+00:00
 
 ## Formal candidates
 
 ### 1. groundwork simulator
 
 - Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-09-29T00:00:00+00:00, retention **74.0%**.
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-09-29T00:00:00+00:00, retention **74.3%**.
 - 5y old-history gate: avg **0.03**, peak **4**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.008**.
 - Source seed-rising:simulator; geo Worldwide.
 
