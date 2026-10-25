@@ -1,6 +1,6 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-25T06:28:13.548635+00:00
+- Updated (UTC): 2026-10-25T06:29:48.496395+00:00
 - Historical candidates: 750
 - Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 20
@@ -43,17 +43,17 @@
 - D+7 gt scheduler (age 10d)
 - D+7 fast video cataloger (age 7d)
 - D+7 esn designer bar (age 7d)
-- D+7 best pizza near me (age 16d)
+- D+14 best pizza near me (age 16d)
 - D+7 detector aero (age 8d)
 - D+7 pattern styling cream (age 11d)
 - D+7 loto quebec (age 7d)
-- D+7 bir uploader (age 14d)
-- D+7 best laptop for work (age 16d)
+- D+14 bir uploader (age 14d)
+- D+14 best laptop for work (age 16d)
 - D+7 excel uploader (age 8d)
 - D+7 poop sender (age 7d)
-- D+7 best time to visit maldives (age 14d)
+- D+14 best time to visit maldives (age 14d)
 - D+7 lic assistant notification 2026 (age 7d)
 - D+7 glyco optimizer (age 7d)
-- D+7 how to bake a cake (age 15d)
+- D+14 how to bake a cake (age 15d)
 - D+7 green card lottery 2027 (age 9d)
 - D+7 cheapest flights to tokyo (age 11d)
