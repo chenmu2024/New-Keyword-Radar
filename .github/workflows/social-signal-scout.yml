@@ -6,6 +6,8 @@ on:
     branches: [main]
     paths:
       - "src/social_signal_scout.py"
+      - "src/social_direct.py"
+      - "src/social_correlation.py"
       - "config/social_sources.json"
       - "tests/test_social_signal_scout.py"
       - ".github/workflows/social-signal-scout.yml"
@@ -41,7 +43,7 @@ jobs:
       - name: Test provenance, deduplication and degraded sources
         run: |
           python -m unittest discover -s tests -p "test_social_signal_scout.py" -v
-          python -m py_compile src/social_signal_scout.py
+          python -m py_compile src/social_signal_scout.py src/social_direct.py src/social_correlation.py
       - name: Collect public social signals (no login and no paid API)
         if: github.ref == 'refs/heads/main'
         run: python src/social_signal_scout.py
