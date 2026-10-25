@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-10-25T07:24:23.954445+00:00
+# V4 Social signal discovery — 2026-10-25T07:28:17.944320+00:00
 
-- Unique links this run: 65, newly seen: 44, history: 102
+- Unique links this run: 66, newly seen: 3, history: 105
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -16,21 +16,22 @@
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (38)
+- targeted_github_issues: ok (1)
 
 ## Links (not validated project opportunities)
 
-- [Moli by Lexmount](https://www.producthunt.com/products/lexmount-browser) — producthunt — direct_public_feed
+- [git-flow-next](https://www.producthunt.com/products/tower) — producthunt — direct_public_feed
 - [MRRaudit](https://www.producthunt.com/products/mrraudit) — producthunt — direct_public_feed
-- [Llama Windows](https://www.producthunt.com/products/llama-windows) — producthunt — direct_public_feed
-- [pawl](https://www.producthunt.com/products/pawl) — producthunt — direct_public_feed
-- [Openstatus Incident Management](https://www.producthunt.com/products/openstatus-2) — producthunt — direct_public_feed
+- [Moli by Lexmount](https://www.producthunt.com/products/lexmount-browser) — producthunt — direct_public_feed
 - [Badgey](https://www.producthunt.com/products/badgey) — producthunt — direct_public_feed
+- [pawl](https://www.producthunt.com/products/pawl) — producthunt — direct_public_feed
+- [Llama Windows](https://www.producthunt.com/products/llama-windows) — producthunt — direct_public_feed
+- [lakhwinde001/crop-doctor](https://huggingface.co/spaces/lakhwinde001/crop-doctor) — huggingface — direct_public_api
+- [HammadHARahim/infinitic-urdu-headline-classifier](https://huggingface.co/spaces/HammadHARahim/infinitic-urdu-headline-classifier) — huggingface — direct_public_api
 - [paavel/ai-image-forensics-detector](https://huggingface.co/spaces/paavel/ai-image-forensics-detector) — huggingface — direct_public_api
 - [Kamil-de/heidenhain-lbleditor](https://huggingface.co/spaces/Kamil-de/heidenhain-lbleditor) — huggingface — direct_public_api
 - [Rohan-Vaghela132/Final_Assignment_Template](https://huggingface.co/spaces/Rohan-Vaghela132/Final_Assignment_Template) — huggingface — direct_public_api
 - [adama-coulibalyad670/bambara-tts-training](https://huggingface.co/spaces/adama-coulibalyad670/bambara-tts-training) — huggingface — direct_public_api
-- [Wai-1624/My-Voiceoverapp](https://huggingface.co/spaces/Wai-1624/My-Voiceoverapp) — huggingface — direct_public_api
-- [news-bot/news-bot](https://huggingface.co/spaces/news-bot/news-bot) — huggingface — direct_public_api
 - [If we ignore Folie à Deux, the current #Batman Cinematic Universe is crazy. Joker, The Penguin, now Clayface. I think that's how you can beat Marvel. Do a villain series. Let's ig](https://bsky.app/profile/chanchan.bsky.social/post/3myon3xhhp22k) — bluesky — direct_public_post
 - [I dunno how to make clean looking art o+< well I know. Vectors and stabilization . But do I have the patience? Noooooo My arts just really messy](https://bsky.app/profile/nootsuit.bsky.social/post/3myomxkrhak2n) — bluesky — direct_public_post — intent keyword found
 - [I do have my limits, but it’s fun to push them every so often, plus I’d love to see just how big you’d make me~ And the psychic paws would be lovely… Well, ya can’t really get fat](https://bsky.app/profile/squishyzorua.bsky.social/post/3myolkgrrqc2x) — bluesky — direct_public_post
