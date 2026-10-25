@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-10-25T07:13:48.739473+00:00
+# V4 Social signal discovery — 2026-10-25T07:24:23.954445+00:00
 
-- Unique links this run: 27, newly seen: 2, history: 58
+- Unique links this run: 65, newly seen: 44, history: 102
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -15,21 +15,22 @@
 - mastodon: ok (3) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
+- existing_free_intelligence_bridge: ok (38)
 
 ## Links (not validated project opportunities)
 
 - [Moli by Lexmount](https://www.producthunt.com/products/lexmount-browser) — producthunt — direct_public_feed
 - [MRRaudit](https://www.producthunt.com/products/mrraudit) — producthunt — direct_public_feed
-- [Badgey](https://www.producthunt.com/products/badgey) — producthunt — direct_public_feed
-- [pawl](https://www.producthunt.com/products/pawl) — producthunt — direct_public_feed
 - [Llama Windows](https://www.producthunt.com/products/llama-windows) — producthunt — direct_public_feed
+- [pawl](https://www.producthunt.com/products/pawl) — producthunt — direct_public_feed
 - [Openstatus Incident Management](https://www.producthunt.com/products/openstatus-2) — producthunt — direct_public_feed
-- [GoldenCap/campus-waste-sorter](https://huggingface.co/spaces/GoldenCap/campus-waste-sorter) — huggingface — direct_public_api
-- [tasinnigga/gg](https://huggingface.co/spaces/tasinnigga/gg) — huggingface — direct_public_api
-- [kokulan123/ckd-hf-space](https://huggingface.co/spaces/kokulan123/ckd-hf-space) — huggingface — direct_public_api
-- [omieeborseeee18/jarvis-backend](https://huggingface.co/spaces/omieeborseeee18/jarvis-backend) — huggingface — direct_public_api
-- [even3688/xhs-rife](https://huggingface.co/spaces/even3688/xhs-rife) — huggingface — direct_public_api
-- [rylansexboy-69/Xxx](https://huggingface.co/spaces/rylansexboy-69/Xxx) — huggingface — direct_public_api
+- [Badgey](https://www.producthunt.com/products/badgey) — producthunt — direct_public_feed
+- [paavel/ai-image-forensics-detector](https://huggingface.co/spaces/paavel/ai-image-forensics-detector) — huggingface — direct_public_api
+- [Kamil-de/heidenhain-lbleditor](https://huggingface.co/spaces/Kamil-de/heidenhain-lbleditor) — huggingface — direct_public_api
+- [Rohan-Vaghela132/Final_Assignment_Template](https://huggingface.co/spaces/Rohan-Vaghela132/Final_Assignment_Template) — huggingface — direct_public_api
+- [adama-coulibalyad670/bambara-tts-training](https://huggingface.co/spaces/adama-coulibalyad670/bambara-tts-training) — huggingface — direct_public_api
+- [Wai-1624/My-Voiceoverapp](https://huggingface.co/spaces/Wai-1624/My-Voiceoverapp) — huggingface — direct_public_api
+- [news-bot/news-bot](https://huggingface.co/spaces/news-bot/news-bot) — huggingface — direct_public_api
 - [If we ignore Folie à Deux, the current #Batman Cinematic Universe is crazy. Joker, The Penguin, now Clayface. I think that's how you can beat Marvel. Do a villain series. Let's ig](https://bsky.app/profile/chanchan.bsky.social/post/3myon3xhhp22k) — bluesky — direct_public_post
 - [I dunno how to make clean looking art o+< well I know. Vectors and stabilization . But do I have the patience? Noooooo My arts just really messy](https://bsky.app/profile/nootsuit.bsky.social/post/3myomxkrhak2n) — bluesky — direct_public_post — intent keyword found
 - [I do have my limits, but it’s fun to push them every so often, plus I’d love to see just how big you’d make me~ And the psychic paws would be lovely… Well, ya can’t really get fat](https://bsky.app/profile/squishyzorua.bsky.social/post/3myolkgrrqc2x) — bluesky — direct_public_post
@@ -45,3 +46,16 @@
 - [Flow-state induction via raw mouse input (a working biohacking protocol)](https://news.ycombinator.com/item?id=50219717) — hackernews_ask — direct_public_post — intent keyword found
 - [Game trips modem/router breaker](https://news.ycombinator.com/item?id=50222517) — hackernews_ask — direct_public_post
 - [Ask HN: Kimi Code hit its 5-hour limit after $1.37 of API usage](https://news.ycombinator.com/item?id=50222093) — hackernews_ask — direct_public_post
+- [SPEC: フロントエンドに共有状態モデルとプル形式の描画を入れる — 66 モジュール 37,260 行が push を直接 DOM に書いており、面どうしの一貫性が構造的に保証されていない](https://github.com/akiojin/gwt/issues/5016) — github_issue — direct_public_issue_api
+- [LOUREX AI ONLY — final 10-workstream closure via 3 bounded acceptance gates (2026-10-23)](https://github.com/allidamech-bot/INVOICE/issues/1010) — github_issue — direct_public_issue_api
+- [Dependency Dashboard](https://github.com/DanielH2018/server/issues/3) — github_issue — direct_public_issue_api
+- [[PROGRAM Complete the standalone ELIOT Search application](https://github.com/UnknownAlienHuman/eliot-search/issues/352) — github_issue — direct_public_issue_api
+- [Cleverence](https://www.reddit.com/r/Cleverence) — reddit — public_rss_excerpt
+- [Making E-Commerce Bookkeeping & Reconciliation Easier for Everyone (No More QuickBooks or Xero Nightmares)](https://www.reddit.com/r/BetterBusinessLab/comments/1xeo7py/making_ecommerce_bookkeeping_reconciliation) — reddit — public_rss_excerpt
+- [What makes r/BetterBusinessLab different?](https://www.reddit.com/r/BetterBusinessLab/comments/1xeo6bj/what_makes_rbetterbusinesslab_different) — reddit — public_rss_excerpt
+- [Heyyyyyy!!!](https://www.reddit.com/r/reselling/comments/1xenje8/heyyyyyy) — reddit — public_rss_excerpt
+- [Ask HN: Building KasirCepat, an offline-first POS for Indonesia](https://news.ycombinator.com/item?id=49692067) — hackernews_ask — indexed_public_post_excerpt
+- [Ask HN: Would a startup for young creatives who reject AI be feasible?](https://news.ycombinator.com/item?id=49689696) — hackernews_ask — indexed_public_post_excerpt
+- [Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk](https://news.ycombinator.com/item?id=49304986) — hackernews_ask — indexed_public_post_excerpt
+- [Do You Think OpenAI Is Apple Circa the 1980s?](https://news.ycombinator.com/item?id=49178393) — hackernews_ask — indexed_public_post_excerpt
+- [Banter: Claude × Copilot chat](https://github.com/cillian1/belfast-wheel-app/issues/30) — github_issue — direct_public_issue_api
