@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-10-25T07:10:13.433853+00:00
+# V4 Social signal discovery — 2026-10-25T07:13:48.739473+00:00
 
-- Unique links this run: 27, newly seen: 24, history: 56
+- Unique links this run: 27, newly seen: 2, history: 58
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -18,18 +18,18 @@
 
 ## Links (not validated project opportunities)
 
-- [git-flow-next](https://www.producthunt.com/products/tower) — producthunt — direct_public_feed
+- [Moli by Lexmount](https://www.producthunt.com/products/lexmount-browser) — producthunt — direct_public_feed
 - [MRRaudit](https://www.producthunt.com/products/mrraudit) — producthunt — direct_public_feed
 - [Badgey](https://www.producthunt.com/products/badgey) — producthunt — direct_public_feed
 - [pawl](https://www.producthunt.com/products/pawl) — producthunt — direct_public_feed
-- [Openstatus Incident Management](https://www.producthunt.com/products/openstatus-2) — producthunt — direct_public_feed
 - [Llama Windows](https://www.producthunt.com/products/llama-windows) — producthunt — direct_public_feed
+- [Openstatus Incident Management](https://www.producthunt.com/products/openstatus-2) — producthunt — direct_public_feed
+- [GoldenCap/campus-waste-sorter](https://huggingface.co/spaces/GoldenCap/campus-waste-sorter) — huggingface — direct_public_api
 - [tasinnigga/gg](https://huggingface.co/spaces/tasinnigga/gg) — huggingface — direct_public_api
 - [kokulan123/ckd-hf-space](https://huggingface.co/spaces/kokulan123/ckd-hf-space) — huggingface — direct_public_api
 - [omieeborseeee18/jarvis-backend](https://huggingface.co/spaces/omieeborseeee18/jarvis-backend) — huggingface — direct_public_api
 - [even3688/xhs-rife](https://huggingface.co/spaces/even3688/xhs-rife) — huggingface — direct_public_api
 - [rylansexboy-69/Xxx](https://huggingface.co/spaces/rylansexboy-69/Xxx) — huggingface — direct_public_api
-- [Kmpg2025/First_agent_template](https://huggingface.co/spaces/Kmpg2025/First_agent_template) — huggingface — direct_public_api
 - [If we ignore Folie à Deux, the current #Batman Cinematic Universe is crazy. Joker, The Penguin, now Clayface. I think that's how you can beat Marvel. Do a villain series. Let's ig](https://bsky.app/profile/chanchan.bsky.social/post/3myon3xhhp22k) — bluesky — direct_public_post
 - [I dunno how to make clean looking art o+< well I know. Vectors and stabilization . But do I have the patience? Noooooo My arts just really messy](https://bsky.app/profile/nootsuit.bsky.social/post/3myomxkrhak2n) — bluesky — direct_public_post — intent keyword found
 - [I do have my limits, but it’s fun to push them every so often, plus I’d love to see just how big you’d make me~ And the psychic paws would be lovely… Well, ya can’t really get fat](https://bsky.app/profile/squishyzorua.bsky.social/post/3myolkgrrqc2x) — bluesky — direct_public_post
