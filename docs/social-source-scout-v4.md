@@ -63,6 +63,10 @@ The 72h evidence bridge improves coverage, but generic issue search can return i
 - Results can support idea exploration but cannot prove actual paying customers, original independent demand, Semrush Volume/KD, current SERP weakness or feasibility.
 - Queries rotate; absence of hits in a scan is not absence of market demand.
 
+### V4.4.1 explicit-need filter
+
+Initial live targeted GitHub Issue search returned a machine-agent engineering benchmark containing "convert PDF", rather than an explicit tool user request. To prevent marketing/roadmap noise, a qualifying issue must now mention **both** a concrete file/export/conversion operation and an explicit problem/request such as "feature request", "I need", "can't export", "would be helpful", "preciso de" or "necesito". The exact original author URL remains attached and demand/SEO/buyer verification remains false. Strict filtering may miss less explicit opportunities; those are not fabricated as positive signals.
+
 ## Output
 - `data/social-signals/latest.json` and UTC-dated scan archives.
 - `reports/social-signals/latest.md` includes each platform's success/failure and evidence class.
