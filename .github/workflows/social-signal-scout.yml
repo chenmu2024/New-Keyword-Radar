@@ -1,0 +1,70 @@
+name: V4 Public Social Signal Scout
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/social_signal_scout.py"
+      - "config/social_sources.json"
+      - "tests/test_social_signal_scout.py"
+      - ".github/workflows/social-signal-scout.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "src/social_signal_scout.py"
+      - "config/social_sources.json"
+      - "tests/test_social_signal_scout.py"
+      - ".github/workflows/social-signal-scout.yml"
+  schedule:
+    # UTC every 4h; Asia/Shanghai 00:15 04:15 08:15 12:15 16:15 20:15.
+    - cron: "15 */4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: new-keyword-public-social-scout
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Test provenance, deduplication and degraded sources
+        run: |
+          python -m unittest discover -s tests -p "test_social_signal_scout.py" -v
+          python -m py_compile src/social_signal_scout.py
+      - name: Collect public social signals (no login and no paid API)
+        if: github.ref == 'refs/heads/main'
+        run: python src/social_signal_scout.py
+      - name: Publish scoped results without overwriting other radar output
+        if: github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          git config user.name "new-keyword-social-scout"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- state/social_seen.json data/social-signals reports/social-signals
+          if git diff --cached --quiet; then
+            echo "No new social signal output"
+            exit 0
+          fi
+          git commit -m "data: update public social signal evidence and source health"
+          for attempt in 1 2 3 4 5; do
+            if git fetch origin main && git rebase origin/main && git push origin HEAD:main; then
+              echo "Social signal data published"
+              exit 0
+            fi
+            git rebase --abort >/dev/null 2>&1 || true
+            echo "Publish retry ${attempt}/5 failed"
+            sleep $((attempt * 2))
+          done
+          echo "::error::Social signals were not published after 5 retries"
+          exit 1
