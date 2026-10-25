@@ -23,6 +23,17 @@ Separately the scout reads that Beijing-local day's existing 7-day seed archive,
 
 For TikTok/X/Instagram/Shorts, Bing-index and public DuckDuckGo-index pointers remain the only free, reliable-to-label approach used in this workflow. When both index sources fail, the status is `unavailable`; when queries run successfully but return no usable link, status is `empty`. Both statuses mean **unknown**, not that a platform has no relevant content.
 
+## V4.2: first-party question capture and query hypotheses (2026-10-25)
+
+- **Bluesky official alternate host:** on ordinary HTTP 403 from the officially documented `public.api.bsky.app` post-search endpoint, try the also-official unauthenticated `api.bsky.app` once. This is not a 429 bypass. If unavailable, show the actual HTTP error and do not claim coverage. The posts are still *not* verified paying customers.
+- **Official Ask HN Firebase:** read `askstories.json` and a bounded number of public `item/<id>.json` source posts. This provides original user-written title/body and server timestamps without cookies, login or a paid key; Ask HN posts can still be opinions and questions rather than paid needs.
+- **User-question query mining:** Rule-based `src/social_intent.py` considers only source-verified `direct_public_post` text with an explicit help/need/request phrase. Proposes a short phrase in `query_hypotheses[]` with original post URL and timestamp. Outputs are explicitly `unverified_question_hint`, `search_volume=null`, `keyword_difficulty=null`, `actual_user_paid=false`, `ready_to_build=false`. No made-up Semrush evidence.
+- **Complements exact query matching:** full-query matching against local 7-day 74-root Trends data stays conservative. It can return 0 independently of newly extracted social-first hypotheses.
+- **Daily-report freshness:** schedule now targets **07:15 Asia/Shanghai** before the 08:00 ChatGPT brief (every four hours, best effort; GitHub cron execution can be delayed).
+- **Consistent persistence:** latest and dated JSON archives include `cross_source_exact_matches` and `original_question_hypotheses`.
+
+These public sources do **not** supply direct TikTok, X, Instagram Reels or YouTube Shorts comments, nor independent payment or traffic proof. Do not treat their 0 indexed links as absence of demand.
+
 ## Output
 - `data/social-signals/latest.json` and UTC-dated scan archives.
 - `reports/social-signals/latest.md` includes each platform's success/failure and evidence class.
