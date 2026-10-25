@@ -1,20 +1,20 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-25T06:55:40.507182+00:00
+Generated: 2026-10-25T06:59:29.725437+00:00
 
 ## Formal candidates
 
 ### 1. tap simulator reborn code
 
 - Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-15T00:00:00+00:00, retention **61.3%**.
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-14T00:00:00+00:00, retention **62.7%**.
 - 5y old-history gate: avg **0.03**, peak **4**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.008**.
 - Source seed-rising:simulator; geo Worldwide.
 
 ### 2. tap simulator reborn codes
 
 - Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-14T00:00:00+00:00, retention **75.0%**.
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-14T00:00:00+00:00, retention **74.3%**.
 - 5y old-history gate: avg **0.01**, peak **3**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.004**.
 - Source seed-rising:simulator; geo Worldwide.
 
