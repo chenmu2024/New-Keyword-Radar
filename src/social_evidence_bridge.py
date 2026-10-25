@@ -145,6 +145,18 @@ def targeted_issue_search(when: datetime, queries, limit=5, searcher=None):
                              r"converter|convert|conversor|csv|xlsx|svg|pdf|"
                              r"arquivo|archivo|template|plantilla|merge|split)\b", content):
                 continue
+            # A technical product roadmap/agent benchmark mentioning PDF is
+            # not a human need. Require an explicit first-person problem,
+            # feature request, limitation or request to implement an output.
+            if not re.search(
+                r"\b(?:feature request|request to|please add|please support|"
+                r"i need|we need|i want|i would like|would be helpful|"
+                r"would it be possible|can't|cannot|does not support|"
+                r"doesn't support|allow users to|support for|"
+                r"preciso de|gostaria de|solicito|necesito|"
+                r"por favor|me gustaría|no puedo)\b", content
+            ):
+                continue
             row = signal("github_issue", url, title, when.isoformat(),
                          "direct_public_issue_api", item.get("published_at"),
                          body, date_kind="official_github_issue_created_at")
