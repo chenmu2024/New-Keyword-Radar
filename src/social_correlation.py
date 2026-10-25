@@ -139,11 +139,18 @@ def update_correlation(root=ROOT, when=None, social=None):
         coverage["fallback_previous_day"] = True
     rows = social.get("items") or []
     ranked = match_signals(rows, keywords)
+    try:
+        from .social_intent import mine_user_questions
+    except ImportError:
+        from social_intent import mine_user_questions
+    questions = mine_user_questions(rows)
     result = {"generated_at": when.isoformat(),
               "social_generated_at": social.get("generated_at"),
               "trends_coverage": coverage,
               "social_unique_in_run": social.get("unique_in_run"),
               "cross_matches": len(ranked),
+              "public_question_hypotheses": len(questions),
+              "query_hypotheses": questions,
               "candidates": ranked,
               "caveat": ("Exact multiword overlap is only a research lead, not verified "
                          "demand, traffic, money, recent trend trajectory, or easy SERP. "
@@ -158,7 +165,8 @@ def update_correlation(root=ROOT, when=None, social=None):
         f"- Trends archive: {coverage['archive_date']} ({coverage.get('scanned_seed_count')}/{coverage.get('target_seed_count')}; complete={coverage.get('complete_daily_target')})",
         f"- Eligible multiword rising queries: {coverage['eligible_exact_queries']}",
         f"- Cross-source matches this run: {len(ranked)}",
-        "- Matches are *discovery leads only*; neither original demand nor revenue are proven.", "",
+        f"- Direct-post question-derived QUERY HYPOTHESES: {len(questions)}",
+        "- Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.", "",
     ]
     for entry in ranked[:12]:
         lines += [
@@ -172,6 +180,14 @@ def update_correlation(root=ROOT, when=None, social=None):
         lines.append("")
     if not ranked:
         lines += ["No reliable full-query cross-source overlap found in this scan.", ""]
+    lines.extend(["## Original public-post question hints (NOT validated search keywords)", ""])
+    for q in questions[:12]:
+        lines.extend([f"- Proposed query: **{q['proposed_query']}**",
+                      f"  - Original public post: {q['original_post_url']}",
+                      "  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)"])
+    if not questions:
+        lines.append("- No qualifying public-post question hints in this scan.")
+    lines.append("")
     report = root / "reports/social-signals/correlations-latest.md"
     report.parent.mkdir(parents=True, exist_ok=True)
     report.write_text("\n".join(lines), encoding="utf-8")
