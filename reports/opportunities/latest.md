@@ -1,59 +1,64 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-25T14:18:43.902779+00:00
-- Historical candidates: 1140
-- Newly recorded from pending: 26
-- Awaiting 7/14/30-day evidence review: 20
+- Updated (UTC): 2026-10-25T21:08:30.138884+00:00
+- Historical candidates: 1280
+- Newly recorded from pending: 140
+- Awaiting 7/14/30-day evidence review: 32
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- rutgers webreg [Global] — discovered — first 2026-10-25, last 2026-10-25
-- champi typhoon tracker [Global] — discovered — first 2026-10-25, last 2026-10-25
-- composer update [Global] — discovered — first 2026-10-25, last 2026-10-25
-- itch io [Global] — discovered — first 2026-10-25, last 2026-10-25
-- clover legends codes [Global] — discovered — first 2026-10-25, last 2026-10-25
-- blackpool weather [GB] — discovered — first 2026-10-25, last 2026-10-25
-- prince pro tips [Global] — discovered — first 2026-10-25, last 2026-10-25
-- flydubai flight tracker [Global] — discovered — first 2026-10-25, last 2026-10-25
-- karthik sabesh father [Global] — discovered — first 2026-10-25, last 2026-10-25
-- lottery result [GB] — discovered — first 2026-10-25, last 2026-10-25
-- el periodico [ES] — discovered — first 2026-10-25, last 2026-10-25
-- hawks - rockets [MX] — discovered — first 2026-10-25, last 2026-10-25
-- world series 2026 game 1 [Global] — discovered — first 2026-10-25, last 2026-10-25
-- champi typhoon path [Global] — discovered — first 2026-10-25, last 2026-10-25
-- manuel otto twitch video [Global] — discovered — first 2026-10-25, last 2026-10-25
-- hobonichi planner [Global] — discovered — first 2026-10-25, last 2026-10-25
-- capcut template creator point new [Global] — discovered — first 2026-10-25, last 2026-10-25
-- stick run creator manuel otto [Global] — discovered — first 2026-10-25, last 2026-10-25
-- ashlyn krueger ranking [US] — discovered — first 2026-10-25, last 2026-10-25
-- anime dice codes [Global] — discovered — first 2026-10-25, last 2026-10-25
-- ge tracker obligator [Global] — discovered — first 2026-10-25, last 2026-10-25
-- nba fantasy analyzer [Global] — discovered — first 2026-10-25, last 2026-10-25
-- quentin tarantino [BR] — discovered — first 2026-10-25, last 2026-10-25
-- buckeye link [Global] — discovered — first 2026-10-25, last 2026-10-25
-- shodan [Global] — discovered — first 2026-10-25, last 2026-10-25
+- abg interpreter [Global] — discovered — first 2026-10-26, last 2026-10-26
+- abs flux ii aqua pc deal [Global] — discovered — first 2026-10-26, last 2026-10-26
+- addicted to my navigator [Global] — discovered — first 2026-10-26, last 2026-10-26
+- addicted to my navigator bilibili [Global] — discovered — first 2026-10-26, last 2026-10-26
+- addicted to my navigator dailymotion [Global] — discovered — first 2026-10-26, last 2026-10-26
+- ai image generator magnific [Global] — discovered — first 2026-10-26, last 2026-10-26
+- amd ryzen 5 9600x processor [Global] — discovered — first 2026-10-26, last 2026-10-26
+- antonchan-golden ticket roblox pizza [Global] — discovered — first 2026-10-26, last 2026-10-26
+- arizona iced tea [Global] — discovered — first 2026-10-26, last 2026-10-26
+- aus scheduler [Global] — discovered — first 2026-10-26, last 2026-10-26
+- barcelona real madrid welcher sender [Global] — discovered — first 2026-10-26, last 2026-10-26
+- bath body works new store format [Global] — discovered — first 2026-10-26, last 2026-10-26
+- bellini composer [Global] — discovered — first 2026-10-26, last 2026-10-26
+- bharattalk pattern apk [Global] — discovered — first 2026-10-26, last 2026-10-26
+- cacophony [Global] — discovered — first 2026-10-26, last 2026-10-26
+- car mechanic simulator 2027 [Global] — discovered — first 2026-10-26, last 2026-10-26
+- celtics game [Global] — discovered — first 2026-10-26, last 2026-10-26
+- christian kirk [Global] — discovered — first 2026-10-26, last 2026-10-26
+- chromebook scheme apply online [Global] — discovered — first 2026-10-26, last 2026-10-26
+- cocrea world sprunki phase 8 [Global] — discovered — first 2026-10-26, last 2026-10-26
+- collin county sample ballot 2026 [Global] — discovered — first 2026-10-26, last 2026-10-26
+- composer php [Global] — discovered — first 2026-10-26, last 2026-10-26
+- composer version [Global] — discovered — first 2026-10-26, last 2026-10-26
+- constructor devis [Global] — discovered — first 2026-10-26, last 2026-10-26
+- convert mp3 tiktok [Global] — discovered — first 2026-10-26, last 2026-10-26
 
 ## Due for follow-up
 
-- D+7 dia del constructor (age 9d)
-- D+7 figma specs (age 9d)
-- D+7 kelly kurdi (age 9d)
-- D+7 gt scheduler (age 10d)
-- D+7 fast video cataloger (age 7d)
-- D+7 esn designer bar (age 7d)
-- D+14 best pizza near me (age 16d)
-- D+7 detector aero (age 8d)
-- D+7 pattern styling cream (age 11d)
-- D+7 loto quebec (age 7d)
-- D+14 bir uploader (age 14d)
-- D+14 best laptop for work (age 16d)
-- D+7 excel uploader (age 8d)
-- D+7 poop sender (age 7d)
-- D+14 best time to visit maldives (age 14d)
-- D+7 lic assistant notification 2026 (age 7d)
-- D+7 glyco optimizer (age 7d)
-- D+14 how to bake a cake (age 15d)
-- D+7 green card lottery 2027 (age 9d)
-- D+7 cheapest flights to tokyo (age 11d)
+- D+7 fantasy basketball trade analyzer (age 7d)
+- D+7 dia del constructor (age 10d)
+- D+7 figma specs (age 10d)
+- D+7 kelly kurdi (age 10d)
+- D+7 cornell scheduler (age 7d)
+- D+7 gt scheduler (age 11d)
+- D+7 fast video cataloger (age 8d)
+- D+7 deva music (age 7d)
+- D+7 esn designer bar (age 8d)
+- D+7 glyco optimizer reviews and complaints (age 7d)
+- D+7 designer outlet roermond (age 7d)
+- D+14 best pizza near me (age 17d)
+- D+7 detector aero (age 9d)
+- D+7 pattern styling cream (age 12d)
+- D+7 loto quebec (age 8d)
+- D+14 bir uploader (age 15d)
+- D+14 best laptop for work (age 17d)
+- D+7 excel uploader (age 9d)
+- D+7 best budget smartphone (age 7d)
+- D+7 grimoire mod manager (age 7d)
+- D+7 deer processor near me (age 7d)
+- D+7 poop sender (age 8d)
+- D+14 best time to visit maldives (age 15d)
+- D+7 proxy scraper video indonesia (age 7d)
+- D+7 brighton manager (age 7d)

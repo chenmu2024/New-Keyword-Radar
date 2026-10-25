@@ -1,0 +1,159 @@
+{
+  "batch_id": "2026-10-25T20:58:42.633178+00:00-37-38-39-40-41",
+  "generated_at": "2026-10-25T20:58:42.633178+00:00",
+  "local_generated_at": "2026-10-26T04:58:42.633178+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "viewer",
+    "extractor",
+    "monitor",
+    "notifier",
+    "verifier"
+  ],
+  "seed_indices": [
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "start_index": 37,
+  "discoveries": [
+    {
+      "seed": "verifier",
+      "query": "service public fr verifier inscription liste electorale",
+      "rise_value": 8250.0,
+      "raw_value": 8250
+    },
+    {
+      "seed": "monitor",
+      "query": "python swallows monitor lizard whole",
+      "rise_value": 2500.0,
+      "raw_value": 2500
+    },
+    {
+      "seed": "monitor",
+      "query": "colt monitor",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "verifier",
+      "query": "service public.fr",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier situation electorale",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "verifier",
+      "query": "inscription liste électorale",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier liste electorale",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier mon inscription electorale",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier tech support",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier inscription sur liste electorale",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "verifier",
+      "query": "cheapest flights to tokyo",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier nfs2-3030",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "verifier",
+      "query": "driver verifier dma violation windows 11",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier son inscription sur liste electorale",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier afp-200",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier définition",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier assurance voiture",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "verifier",
+      "query": "sheerid verifier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "symfony notifier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "driver verifier dma violation",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier synonyme",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "verifier",
+      "query": "orange",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 22
+}
