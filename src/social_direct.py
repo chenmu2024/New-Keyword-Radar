@@ -46,7 +46,10 @@ def fetch_public_json(url, host, timeout=9):
 
 
 def bluesky_posts(query, observed_at, limit, getter=fetch_public_json):
-    from .social_signal_scout import signal
+    try:
+        from .social_signal_scout import signal
+    except ImportError:
+        from social_signal_scout import signal
     url = "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?" + urlencode({
         "q": query, "sort": "latest", "limit": min(limit, 15)
     })
@@ -78,7 +81,10 @@ def bluesky_posts(query, observed_at, limit, getter=fetch_public_json):
 
 
 def mastodon_hashtag(tag, observed_at, limit, getter=fetch_public_json):
-    from .social_signal_scout import signal
+    try:
+        from .social_signal_scout import signal
+    except ImportError:
+        from social_signal_scout import signal
     if not re.fullmatch(r"[a-zA-Z0-9_]{2,40}", tag):
         raise ValueError("Invalid hashtag")
     url = "https://mastodon.social/api/v1/timelines/tag/" + quote(tag) + "?" + urlencode(
