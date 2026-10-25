@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "note": "V4.2 Adds official public Ask HN questions, query hypotheses separate from Trends evidence, and fallback from cached Bluesky public AppView hostname to the documented api.bsky.app host only on ordinary HTTP403; never bypass auth, throttle or provider controls. X/TikTok/Shorts/Instagram remain index-only pointers.",
+  "version": 4,
+  "note": "V4.4 two rotating official public GitHub Issue queries per scan favor outputs/batch/conversion in EN, PT, ES; original user issue != validated customer demand. All existing sources still differentiated; no extra paid service.",
   "per_source_limit": 6,
   "enabled_platforms": [
     "tiktok",
@@ -56,5 +56,19 @@
     "opensource",
     "webtools",
     "indieweb"
+  ],
+  "targeted_github_issue_queries": [
+    "is:issue is:open \"feature request\" \"export\"",
+    "is:issue is:open \"batch\" \"csv\"",
+    "is:issue is:open \"bulk\" \"download\"",
+    "is:issue is:open \"convert\" \"pdf\"",
+    "is:issue is:open \"svg\" \"export\"",
+    "is:issue is:open \"spreadsheet\" \"import\"",
+    "is:issue is:open \"exportar\" \"csv\"",
+    "is:issue is:open \"converter\" \"arquivo\"",
+    "is:issue is:open \"plantilla\" \"descargar\"",
+    "is:issue is:open \"generador\" \"pdf\"",
+    "is:issue is:open \"xlsx\" \"convert\"",
+    "is:issue is:open \"batch\" \"resize\""
   ]
 }
