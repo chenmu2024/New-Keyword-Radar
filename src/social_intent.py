@@ -16,6 +16,8 @@ PROMO = re.compile(
 )
 ASK = re.compile(
     r"\b(does anyone know|any recommendations? for|is there (a|any)|"
+    r"feature request|request:|please add|would it be possible to|"
+    r"it would help if|support for|" 
     r"i (really )?need|looking for|how (do i|can i|to)|"
     r"any (free )?(tool|app|site)|"
     r"preciso de|algu[eé]m sabe|como (fazer|criar|posso)|"
@@ -31,6 +33,7 @@ TOOL_INTENT = re.compile(
     r"\b(tool|app|application|website|web site|software|service|generator|"
     r"template|converter|editor|download|export|batch|bulk|csv|xlsx|svg|pdf|"
     r"script|spreadsheet|file|automation|automatizar|automate|"
+    r"resize|merge|split|upload|import|format|filter|transform|" 
     r"ferramenta|herramienta|planilha|archivo|arquivo|modelo|plantilla)\b", re.I
 )
 SPEND_CLAIM = re.compile(
@@ -84,11 +87,17 @@ def mine_user_questions(rows, limit=15):
     seen = set()
     candidates = []
     for row in rows:
-        if not isinstance(row, dict) or row.get("evidence_type") != "direct_public_post":
+        if not isinstance(row, dict) or row.get("evidence_type") not in ("direct_public_post", "direct_public_issue_api"):
             continue
         if not row.get("primary_text_available"):
             continue
-        text = str(row.get("description") or row.get("title") or "")
+        if row.get("evidence_type") == "direct_public_issue_api":
+            # Issues can express 'feature request' in title while body
+            # describes only the inputs and failure symptoms.
+            text = " ".join([str(row.get("title") or ""),
+                             str(row.get("description") or "")]).strip()
+        else:
+            text = str(row.get("description") or row.get("title") or "")
         proposal = hypothesis(text)
         if not proposal:
             continue
@@ -116,7 +125,7 @@ def mine_buyer_spend_claims(rows, limit=12):
     seen = set()
     results = []
     for row in rows:
-        if not isinstance(row, dict) or row.get("evidence_type") != "direct_public_post":
+        if not isinstance(row, dict) or row.get("evidence_type") not in ("direct_public_post", "direct_public_issue_api"):
             continue
         if not row.get("primary_text_available"):
             continue

@@ -82,6 +82,64 @@ def recent_seed_queries(root, when, day_offset=0):
     }
 
 
+def cross_day_window(root, when, social, hours=72):
+    """Join only recently observed social pointers against current/prior-day Trends.
+
+    This examines published timestamps separately, because a recently discovered
+    old GitHub issue or news link is not itself a fresh emerging trend.
+    """
+    when = when.astimezone(timezone.utc)
+    window_start = when - timedelta(hours=hours)
+    keys = {}
+    archives = []
+    for age in range(3):
+        candidates, coverage = recent_seed_queries(root, when, age)
+        if coverage["rising_total"]:
+            archives.append(coverage)
+        for q, obj in candidates.items():
+            old = keys.get(q)
+            if old is None:
+                obj = dict(obj)
+                obj["trend_archive_dates"] = [coverage["archive_date"]]
+                keys[q] = obj
+            else:
+                if coverage["archive_date"] not in old["trend_archive_dates"]:
+                    old["trend_archive_dates"].append(coverage["archive_date"])
+                if obj["rise_value"] > old["rise_value"]:
+                    old["rise_value"], old["seed"] = obj["rise_value"], obj["seed"]
+    previous = read_json(root / "state/social_seen.json", {}).get("items") or {}
+    current = {(str(row.get("platform")), str(row.get("url"))): row
+               for row in social.get("items", []) if isinstance(row, dict) and row.get("url")}
+    older = 0
+    for row in previous.values():
+        if not isinstance(row, dict) or not row.get("url"):
+            continue
+        stamp = row.get("last_seen") or row.get("observed_at")
+        try:
+            dt = datetime.fromisoformat(str(stamp).replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+        except (ValueError, TypeError):
+            continue
+        if not (window_start <= dt.astimezone(timezone.utc) <= when):
+            continue
+        key = (str(row.get("platform")), str(row.get("url")))
+        if key not in current:
+            older += 1
+            current[key] = row
+    # Current run rows are retained first, then previous sightings.
+    return keys, list(current.values()), {
+        "trend_days_evaluated": archives,
+        "exact_queries_in_window": len(keys),
+        "social_current_run": len(social.get("items") or []),
+        "social_prior_sightings_72h": older,
+        "social_reviewable_72h": len(current),
+        "window_hours": hours,
+        "not_new_discoveries_warning": ("Window includes older links recently re-seen. "
+             "Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."),
+    }
+
+
 def match_signals(rows, keywords, max_rows=30):
     matches = {}
     for item in rows:
@@ -101,7 +159,7 @@ def match_signals(rows, keywords, max_rows=30):
                 "seed": obj["seed"], "sources": {}, "links": []})
             p = item.get("platform") or "unknown"
             bucket["sources"][p] = bucket["sources"].get(p, 0) + 1
-            is_direct = item.get("evidence_type") == "direct_public_post"
+            is_direct = item.get("evidence_type") in ("direct_public_post", "direct_public_issue_api")
             has_question = is_direct and bool(INTENT.search(text))
             bucket["links"].append({
                 "platform": p, "url": item["url"], "title": item.get("title"),
@@ -133,11 +191,14 @@ def match_signals(rows, keywords, max_rows=30):
 def update_correlation(root=ROOT, when=None, social=None):
     when = when or datetime.now(timezone.utc)
     social = social or read_json(root / "data/social-signals/latest.json", {})
-    keywords, coverage = recent_seed_queries(root, when)
-    if not keywords:
-        keywords, coverage = recent_seed_queries(root, when, day_offset=1)
-        coverage["fallback_previous_day"] = True
-    rows = social.get("items") or []
+    keywords, rows, window = cross_day_window(root, when, social)
+    archives = window["trend_days_evaluated"]
+    coverage = archives[0] if archives else {
+        "archive_date": when.astimezone(LOCAL).date().isoformat(),
+        "scanned_seed_count": None, "target_seed_count": None,
+        "complete_daily_target": False, "eligible_exact_queries": 0,
+        "missing_archive": True,
+    }
     ranked = match_signals(rows, keywords)
     try:
         from .social_intent import mine_user_questions, mine_buyer_spend_claims
@@ -149,6 +210,7 @@ def update_correlation(root=ROOT, when=None, social=None):
               "social_generated_at": social.get("generated_at"),
               "trends_coverage": coverage,
               "social_unique_in_run": social.get("unique_in_run"),
+              "review_window": window,
               "cross_matches": len(ranked),
               "public_question_hypotheses": len(questions),
               "query_hypotheses": questions,
@@ -167,7 +229,9 @@ def update_correlation(root=ROOT, when=None, social=None):
         f"- Source last updated: {result['social_generated_at']}",
         f"- Trends archive: {coverage['archive_date']} ({coverage.get('scanned_seed_count')}/{coverage.get('target_seed_count')}; complete={coverage.get('complete_daily_target')})",
         f"- Eligible multiword rising queries: {coverage['eligible_exact_queries']}",
-        f"- Cross-source matches this run: {len(ranked)}",
+        f"- Cross-source matches within 72h review window: {len(ranked)}",
+        f"- Social current-run links: {window['social_current_run']}, prior recent sightings: {window['social_prior_sightings_72h']}",
+        f"- Search archives examined: {', '.join(x['archive_date'] for x in archives) or 'none'}",
         f"- Direct-post question-derived QUERY HYPOTHESES: {len(questions)}",
         f"- Direct-post author self-reported payments (NOT processor verified): {len(paid_claims)}",
         "- Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.", "",

@@ -41,6 +41,19 @@ These public sources do **not** supply direct TikTok, X, Instagram Reels or YouT
 - `buyer_self_reports_unverified` in the latest run summary and `original_question_hypotheses` are real rule-based counter outputs, not 'qualified businesses'.
 - **Cross-source exact Query matches may remain 0**, even with direct source coverage. The system does not forcibly manufacture correlations when the 74-root Trends list has unrelated query contexts.
 
+## V4.3: reusing the existing pain-research feed
+
+**No new social-network scraper or paid account was added here.** Existing `src/free_intelligence.py` already gathers GitHub public Issues, Reddit RSS/index pointers and Ask HN indexed posts with six daily locale/topic searches. Previously, the social scout did not systematically consume these saved results. Now `src/social_evidence_bridge.py` reads `data/free-intelligence/latest.json` if its own reported generation timestamp is within 36 hours.
+
+- GitHub Issues from the existing official public search are labeled `direct_public_issue_api` (issue title and potentially truncated original body), **not verified buyer or independent user demand**. A GitHub issue might be authored by a maintainer, not a customer.
+- Reddit RSS is `public_rss_excerpt`; indexed fallback is `search_index_pointer`. Neither is original full comment evidence.
+- The targeted Ask HN search via Algolia is `indexed_public_post_excerpt`; the separate official HN Firebase adapter has higher precedence as `direct_public_post` if both point to the same post.
+- Source health includes `existing_free_intelligence_bridge`, data age and count. Stale, missing, failed and zero-result states remain visible. The bridge uses only existing saved JSON, so it makes no additional remote requests.
+- Newly accumulated social findings are reviewed against up to **72 hours** of saved sightings and exact multiword Trends queries from the **last three Beijing-local archive dates**. This comparison can find an older GitHub issue recently indexed or rediscovered; the issue's original publication date must be preserved and the 72h review window must NEVER be called 72h of newly published issues.
+- Source-precedence keeps original-source public post body ahead of third-party indexed excerpts for the same link.
+
+Even with broader evidence, query hypotheses are unverified, and confirmed commercial opportunities may still number **zero**. Respect the original 74 seeds, 90-day and 5-year gates, non-brand keyword/competition checks, and zero-paid-API principle.
+
 ## Output
 - `data/social-signals/latest.json` and UTC-dated scan archives.
 - `reports/social-signals/latest.md` includes each platform's success/failure and evidence class.
