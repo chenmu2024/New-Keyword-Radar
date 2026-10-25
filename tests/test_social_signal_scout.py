@@ -349,7 +349,11 @@ class SocialSignalTests(unittest.TestCase):
                  "metadata": {"author": "dependabot[bot]"}},
                 {"url": "https://github.com/example/repo/pull/888",
                  "title": "Export SVG to PDF",
-                 "metadata": {"author": "someone"}}
+                 "metadata": {"author": "someone"}},
+                {"url": "https://github.com/example/repo/issues/456",
+                 "title": "[Product][Drawing Craft] Multi-PDF to native DWG benchmark",
+                 "snippet": "ROLE=SOLO_CODEX product acceptance gates, drawing conversion",
+                 "metadata": {"author": "maintainer"}}
             ]
         rows, health = targeted_issue_search(
             datetime(2026, 10, 25, 2, tzinfo=timezone.utc),
