@@ -292,7 +292,7 @@ def run(root=ROOT, when=None, fetchers=None):
             continue
         try:
             warning = None
-            if platform in HOSTS:
+            if platform in ("tiktok", "youtube_shorts", "instagram_reels", "x"):
                 opts = queries.get(platform) or []
                 if not opts:
                     health[platform] = {"status": "not_configured", "count": 0}

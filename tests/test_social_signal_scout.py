@@ -95,6 +95,33 @@ class SocialSignalTests(unittest.TestCase):
         self.assertEqual(mast[0]["evidence_type"], "direct_public_post")
         self.assertTrue(mast[0]["primary_text_available"])
 
+    def test_enabled_direct_sources_are_dispatched(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            (root / "config").mkdir()
+            (root / "config/social_sources.json").write_text(json.dumps({
+                "enabled_platforms": ["bluesky", "mastodon"],
+                "bluesky_queries": ["need a tool"],
+                "mastodon_hashtags": ["opensource"]
+            }), encoding="utf-8")
+            calls = []
+            def bluesky_fetch(term, at, limit):
+                calls.append(("bluesky", term))
+                return [signal("bluesky",
+                               "https://bsky.app/profile/name.bsky.social/post/3k9abc",
+                               "Is there a tool for this?", at, "direct_public_post")]
+            def mastodon_fetch(term, at, limit):
+                calls.append(("mastodon", term))
+                return [signal("mastodon",
+                               "https://mastodon.social/@name/123",
+                               "Need a free template", at, "direct_public_post")]
+            out = run(root, datetime(2026, 10, 25, 1, tzinfo=timezone.utc),
+                      fetchers={"bluesky": bluesky_fetch, "mastodon": mastodon_fetch})
+            self.assertEqual(calls, [("bluesky", "need a tool"), ("mastodon", "opensource")])
+            self.assertEqual(out["sources"]["bluesky"]["status"], "ok")
+            self.assertEqual(out["sources"]["mastodon"]["status"], "ok")
+            self.assertEqual(out["unique_in_run"], 2)
+
     def test_unavailable_index_is_not_false_empty(self):
         from src.social_signal_scout import source_indexed
         from unittest.mock import patch
