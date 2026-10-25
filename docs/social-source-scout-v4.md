@@ -54,6 +54,15 @@ These public sources do **not** supply direct TikTok, X, Instagram Reels or YouT
 
 Even with broader evidence, query hypotheses are unverified, and confirmed commercial opportunities may still number **zero**. Respect the original 74 seeds, 90-day and 5-year gates, non-brand keyword/competition checks, and zero-paid-API principle.
 
+## V4.4: intent-focused public GitHub Issues (not new crawler subscriptions)
+
+The 72h evidence bridge improves coverage, but generic issue search can return irrelevant maintenance tasks. `config/social_sources.json` now includes 12 precise rotating EN/PT/ES public GitHub Issue searches centered on batch processing, SVG/PDF/CSV, export/import, and downloadable outputs. Each four-hour run selects only **two** queries with up to five results each. On GitHub Actions the existing ephemeral built-in workflow token is used for public Issues API rate limits; this is **not** a paid API, an installed plugin, or a personal access credential.
+
+- Public official Issues search yields author issue title and partial body; the runner filters PR links, known bot authors and missing concrete file-related action terms.
+- `targeted_github_issues` reports `ok`, `empty` or `unavailable` separately, with error context.
+- Results can support idea exploration but cannot prove actual paying customers, original independent demand, Semrush Volume/KD, current SERP weakness or feasibility.
+- Queries rotate; absence of hits in a scan is not absence of market demand.
+
 ## Output
 - `data/social-signals/latest.json` and UTC-dated scan archives.
 - `reports/social-signals/latest.md` includes each platform's success/failure and evidence class.

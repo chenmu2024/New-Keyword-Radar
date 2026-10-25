@@ -330,6 +330,55 @@ class SocialSignalTests(unittest.TestCase):
         self.assertEqual(matches[0]["demand_status"], "unverified_question_hint")
         self.assertFalse(matches[0]["ready_to_build"])
 
+    def test_intent_scoped_github_issues_are_direct_but_unverified(self):
+        from src.social_evidence_bridge import targeted_issue_search
+        calls = []
+        def fake(query, kind, limit):
+            calls.append((query, kind, limit))
+            return [
+                {"url": "https://github.com/example/repo/issues/123",
+                 "title": "Feature request: batch export SVG to PDF",
+                 "snippet": "I need a way to export selected layers as PDF.",
+                 "published_at": "2026-10-25T01:00:00Z",
+                 "metadata": {"author": "someone"}},
+                {"url": "https://github.com/example/repo/issues/123",
+                 "title": "Duplicated result", "snippet": "batch export PDF",
+                 "metadata": {"author": "someone"}},
+                {"url": "https://github.com/example/repo/issues/999",
+                 "title": "Dependency Dashboard", "snippet": "autoupdate job",
+                 "metadata": {"author": "dependabot[bot]"}},
+                {"url": "https://github.com/example/repo/pull/888",
+                 "title": "Export SVG to PDF",
+                 "metadata": {"author": "someone"}}
+            ]
+        rows, health = targeted_issue_search(
+            datetime(2026, 10, 25, 2, tzinfo=timezone.utc),
+            ['is:issue "batch" "export"', 'is:issue "pdf" "export"',
+             'is:issue "never_executed"'], searcher=fake)
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(calls[0][1], "issues")
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(health["status"], "ok")
+        self.assertEqual(rows[0]["evidence_type"], "direct_public_issue_api")
+        self.assertTrue(rows[0]["primary_text_available"])
+        self.assertFalse(rows[0]["user_demand_verified"])
+
+    def test_targeted_issue_rotation_in_scout_does_not_need_paid_api(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            (root / "config").mkdir()
+            (root / "config/social_sources.json").write_text(json.dumps({
+                "enabled_platforms": [],
+                "targeted_github_issue_queries": [
+                    "issue one", "issue two", "issue three", "issue four"
+                ]
+            }), encoding="utf-8")
+            with patch("src.social_evidence_bridge.targeted_issue_search",
+                       return_value=([], {"status": "empty", "count": 0})) as targeted:
+                result = run(root, datetime(2026, 10, 25, 8, tzinfo=timezone.utc))
+            self.assertEqual(result["sources"]["targeted_github_issues"]["status"], "empty")
+            self.assertEqual(targeted.call_args[0][1], ["issue one", "issue two"])
+
     def test_unavailable_index_is_not_false_empty(self):
         from src.social_signal_scout import source_indexed
         from unittest.mock import patch
