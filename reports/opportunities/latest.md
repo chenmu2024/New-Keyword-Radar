@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-25T21:08:30.138884+00:00
+- Updated (UTC): 2026-10-26T00:11:49.831452+00:00
 - Historical candidates: 1280
-- Newly recorded from pending: 140
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 32
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- abg interpreter [Global] — discovered — first 2026-10-26, last 2026-10-26
-- abs flux ii aqua pc deal [Global] — discovered — first 2026-10-26, last 2026-10-26
-- addicted to my navigator [Global] — discovered — first 2026-10-26, last 2026-10-26
-- addicted to my navigator bilibili [Global] — discovered — first 2026-10-26, last 2026-10-26
-- addicted to my navigator dailymotion [Global] — discovered — first 2026-10-26, last 2026-10-26
-- ai image generator magnific [Global] — discovered — first 2026-10-26, last 2026-10-26
-- amd ryzen 5 9600x processor [Global] — discovered — first 2026-10-26, last 2026-10-26
-- antonchan-golden ticket roblox pizza [Global] — discovered — first 2026-10-26, last 2026-10-26
-- arizona iced tea [Global] — discovered — first 2026-10-26, last 2026-10-26
-- aus scheduler [Global] — discovered — first 2026-10-26, last 2026-10-26
-- barcelona real madrid welcher sender [Global] — discovered — first 2026-10-26, last 2026-10-26
-- bath body works new store format [Global] — discovered — first 2026-10-26, last 2026-10-26
-- bellini composer [Global] — discovered — first 2026-10-26, last 2026-10-26
-- bharattalk pattern apk [Global] — discovered — first 2026-10-26, last 2026-10-26
-- cacophony [Global] — discovered — first 2026-10-26, last 2026-10-26
-- car mechanic simulator 2027 [Global] — discovered — first 2026-10-26, last 2026-10-26
-- celtics game [Global] — discovered — first 2026-10-26, last 2026-10-26
-- christian kirk [Global] — discovered — first 2026-10-26, last 2026-10-26
+- jesse legree oregon state receiver ceremony [Global] — discovered — first 2026-10-26, last 2026-10-26
 - chromebook scheme apply online [Global] — discovered — first 2026-10-26, last 2026-10-26
-- cocrea world sprunki phase 8 [Global] — discovered — first 2026-10-26, last 2026-10-26
-- collin county sample ballot 2026 [Global] — discovered — first 2026-10-26, last 2026-10-26
+- troy aikman cowboys receiver criticism [Global] — discovered — first 2026-10-26, last 2026-10-26
+- proxy scraper video yandex [Global] — discovered — first 2026-10-26, last 2026-10-26
+- cox-2 cybersomatic optimizer [Global] — discovered — first 2026-10-26, last 2026-10-26
+- later social media scheduler [Global] — discovered — first 2026-10-26, last 2026-10-26
+- rideshare simulator [Global] — discovered — first 2026-10-26, last 2026-10-26
+- online casino ohne lugas 🇩🇪 toni-bauer.net [Global] — discovered — first 2026-10-26, last 2026-10-26
+- kmart undetectable tracker stalking concerns [Global] — discovered — first 2026-10-26, last 2026-10-26
 - composer php [Global] — discovered — first 2026-10-26, last 2026-10-26
+- addicted to my navigator dailymotion [Global] — discovered — first 2026-10-26, last 2026-10-26
+- sample ballot texas [Global] — discovered — first 2026-10-26, last 2026-10-26
+- christian kirk [Global] — discovered — first 2026-10-26, last 2026-10-26
+- which sesame street character's behavior is an example of a condition called arithmomania? [Global] — discovered — first 2026-10-26, last 2026-10-26
+- plain [Global] — discovered — first 2026-10-26, last 2026-10-26
+- e bike scheme balloting result 2026 [Global] — discovered — first 2026-10-26, last 2026-10-26
+- sprunki 1996 cocrea [Global] — discovered — first 2026-10-26, last 2026-10-26
+- ufc fight card [Global] — discovered — first 2026-10-26, last 2026-10-26
+- final fantasy resonance composer [Global] — discovered — first 2026-10-26, last 2026-10-26
+- verifier mon inscription electorale [Global] — discovered — first 2026-10-26, last 2026-10-26
+- tim daly [Global] — discovered — first 2026-10-26, last 2026-10-26
 - composer version [Global] — discovered — first 2026-10-26, last 2026-10-26
-- constructor devis [Global] — discovered — first 2026-10-26, last 2026-10-26
-- convert mp3 tiktok [Global] — discovered — first 2026-10-26, last 2026-10-26
+- ai image generator magnific [Global] — discovered — first 2026-10-26, last 2026-10-26
+- y2mate convert into mp3 [Global] — discovered — first 2026-10-26, last 2026-10-26
+- what is gumroad used for [Global] — discovered — first 2026-10-26, last 2026-10-26
 
 ## Due for follow-up
 
