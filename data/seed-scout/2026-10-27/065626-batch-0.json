@@ -1,0 +1,93 @@
+{
+  "batch_id": "2026-10-26T22:56:26.348393+00:00-0-1-2-3-9",
+  "generated_at": "2026-10-26T22:56:26.348393+00:00",
+  "local_generated_at": "2026-10-27T06:56:26.348393+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "translator",
+    "generator",
+    "example",
+    "convert",
+    "processor"
+  ],
+  "seed_indices": [
+    0,
+    1,
+    2,
+    3,
+    9
+  ],
+  "start_index": 0,
+  "discoveries": [
+    {
+      "seed": "generator",
+      "query": "ai image generator magnific",
+      "rise_value": 4550.0,
+      "raw_value": 4550
+    },
+    {
+      "seed": "processor",
+      "query": "local deer meat processor fees",
+      "rise_value": 4200.0,
+      "raw_value": 4200
+    },
+    {
+      "seed": "example",
+      "query": "老虎",
+      "rise_value": 2500.0,
+      "raw_value": 2500
+    },
+    {
+      "seed": "processor",
+      "query": "amd ryzen 9 9950x3d2 16-core processor",
+      "rise_value": 2350.0,
+      "raw_value": 2350
+    },
+    {
+      "seed": "processor",
+      "query": "apple iphone processor in macbook neo",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
+      "seed": "example",
+      "query": "typical example crossword clue",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "processor",
+      "query": "ulrica food processor",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "convert",
+      "query": "convert mp3 tiktok",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "convert",
+      "query": "y2mate convert into mp3",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "processor",
+      "query": "preethi food processor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "example",
+      "query": "all rights reserved example",
+      "rise_value": 50.0,
+      "raw_value": 50
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 11
+}

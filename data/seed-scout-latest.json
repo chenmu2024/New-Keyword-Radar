@@ -1,26 +1,187 @@
 {
-  "batch_id": "2026-10-26T16:47:56.391662+00:00-9-10-11-12-13",
-  "generated_at": "2026-10-26T16:47:56.391662+00:00",
-  "local_generated_at": "2026-10-27T00:47:56.391662+08:00",
+  "batch_id": "2026-10-26T22:59:04.252410+00:00-10-11-12-13",
+  "generated_at": "2026-10-26T22:59:04.252410+00:00",
+  "local_generated_at": "2026-10-27T06:59:04.252410+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "processor",
     "designer",
     "compiler",
     "analyzer",
     "evaluator"
   ],
   "seed_indices": [
-    9,
     10,
     11,
     12,
     13
   ],
-  "start_index": 9,
-  "discoveries": [],
-  "status": "error",
-  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+  "start_index": 10,
+  "discoveries": [
+    {
+      "seed": "designer",
+      "query": "interior designer sectional sofa alternatives",
+      "rise_value": 21050.0,
+      "raw_value": 21050
+    },
+    {
+      "seed": "designer",
+      "query": "flight attendant turned interior designer",
+      "rise_value": 12400.0,
+      "raw_value": 12400
+    },
+    {
+      "seed": "designer",
+      "query": "billnass designer",
+      "rise_value": 1300.0,
+      "raw_value": 1300
+    },
+    {
+      "seed": "evaluator",
+      "query": "evaluator hsin",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "compiler",
+      "query": "cuims",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "designer",
+      "query": "hc andersen født",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "designer",
+      "query": "best budget smartphone",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "designer",
+      "query": "what is a 401k",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "designer",
+      "query": "email marketing for restaurants",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "evaluator",
+      "query": "nba trade evaluator",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "evaluator",
+      "query": "coin evaluator near me",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "analyzer",
+      "query": "jonathan taylor",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "designer",
+      "query": "what is a roth ira",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "designer",
+      "query": "designer sofa",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "evaluator",
+      "query": "car price evaluator",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "analyzer",
+      "query": "nba fantasy trade analyzer",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "analyzer",
+      "query": "nba trade analyzer",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "evaluator",
+      "query": "evaluator synonym",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "analyzer",
+      "query": "fantasy basketball trade analyzer",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "evaluator",
+      "query": "how to make sushi",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "analyzer",
+      "query": "whatsapp chat analyzer",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "evaluator",
+      "query": "online search engine evaluator jobs",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "evaluator",
+      "query": "micro1",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "evaluator",
+      "query": "ep evaluator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "evaluator",
+      "query": "outlier",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "designer",
+      "query": "parndorf designer outlet",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "evaluator",
+      "query": "search engine evaluator jobs",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 27
 }
