@@ -1,24 +1,41 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-25T07:34:11.849032+00:00
+Generated: 2026-10-26T01:05:08.458051+00:00
 
 ## Formal candidates
 
-**今日无合格可变现新词。**
+### 1. dublin marathon tracker 2026
+
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-25T00:00:00+00:00, retention **39.3%**.
+- 5y old-history gate: avg **0.02**, peak **3**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.008**.
+- Source seed-rising:tracker; geo Worldwide.
+
+### 2. marine corps marathon tracker
+
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-25T00:00:00+00:00, retention **47.0%**.
+- 5y old-history gate: avg **0.08**, peak **8**, material ratio (>= 5) **0.004**; raw non-zero ratio **0.024**.
+- Source seed-rising:tracker; geo Worldwide.
+
+### 3. storm boelo tracker
+
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-09T00:00:00+00:00, retention **63.3%**.
+- 5y old-history gate: avg **0.02**, peak **4**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.008**.
+- Source seed-rising:tracker; geo Worldwide.
+
 ## Watch / rejected
 
-- casino ohne limit 🇩🇪 toni-bauer.net — **trend-watch** — newness 96, money 26
-- flight attendant turned interior designer — **trend-watch** — newness 96, money 26
-- frost flick ice scraper — **trend-watch** — newness 95, money 26
-- bayern arsenal welcher sender — **trend-watch** — newness 93, money 26
-- cardi b asl interpreter — **trend-watch** — newness 93, money 26
-- casino online 🇮🇹 casinita.club — **trend-watch** — newness 93, money 26
-- casinos online portugal 🇵🇹 www.pooky.live — **trend-watch** — newness 93, money 26
-- cortege car crossword clue — **trend-watch** — newness 93, money 26
-- ek lip varsh mein kitne din hote hain — **trend-watch** — newness 93, money 26
-- revolut down detector — **trend-watch** — newness 93, money 26
-- aap kis desh mein trans siberian railway line per yatra kar sakte hain — **trend-watch** — newness 88, money 26
-- creator economy entrepreneurship jimmy donaldson — **trend-watch** — newness 88, money 26
-- indian yogurt dish — **reject** — newness 66, money 26
-- madison lintz — **reject** — newness 40, money 32
-- canary islands — **reject** — newness 40, money 26
+- car mechanic simulator 2027 — **old-history** — newness 100, money 100; 5y peak 9
+- dublin marathon tracker — **old-history** — newness 100, money 100; 5y peak 15
+- ai image generator magnific — **history-unchecked** — newness 100, money 94
+- interior designer sectional sofa alternatives — **history-unchecked** — newness 100, money 90
+- storm austen tracker — **history-unchecked** — newness 96, money 100
+- cve tracker — **history-unchecked** — newness 96, money 94
+- kmart usb charger tracker risks — **history-unchecked** — newness 96, money 94
+- tracker s4e4 — **history-unchecked** — newness 95, money 94
+- kmart undetectable tracker stalking concerns — **history-unchecked** — newness 91, money 94
+- tracker purification — **history-unchecked** — newness 89, money 94
+- farming simulator 25 catuaí map — **history-unchecked** — newness 88, money 94
+- abs flux ii aqua pc deal — **history-unchecked** — newness 88, money 90
