@@ -6,9 +6,9 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 30
-- Usable Google Trends time series: 11/30
-- Missing or failed Google Trends time series: 19/30
+- Total distinct expressions researched: 32
+- Usable Google Trends time series: 11/32
+- Missing or failed Google Trends time series: 21/32
 - Data coverage status: partial_coverage (not a keyword verdict)
 - Rate-limit safety backoff: inactive
 - 90-day + historical-interest passes: 1
@@ -16,6 +16,22 @@ a winnable SERP, paid demand or monthly search volume.
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### broken link checker bulk (US)
+- Source: [apify-actors-a](https://apify.com/admirala/broken-link-checker-bulk)
+- Checked: 2026-10-26T16:05:22.692244+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
+
+### ai brand visibility checker (US)
+- Source: [apify-actors-z](https://apify.com/sefran1/ai-brand-visibility-checker)
+- Checked: 2026-10-26T16:05:22.692244+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
 
 ### amazon price tracker (US)
 - Source: [apify-actors-z](https://apify.com/signal_lab/amazon-price-tracker)
