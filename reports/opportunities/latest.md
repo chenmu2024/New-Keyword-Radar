@@ -1,8 +1,8 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-26T22:59:55.069313+00:00
-- Historical candidates: 1523
-- Newly recorded from pending: 124
+- Updated (UTC): 2026-10-27T07:43:21.723178+00:00
+- Historical candidates: 1594
+- Newly recorded from pending: 71
 - Awaiting 7/14/30-day evidence review: 110
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
@@ -11,29 +11,29 @@
 
 - online casino ohne oasis 🇩🇪 www.spieltresor.com [Global] — discovered — first 2026-10-27, last 2026-10-27
 - creator coffins [Global] — discovered — first 2026-10-27, last 2026-10-27
+- steam down detector [Global] — discovered — first 2026-10-27, last 2026-10-27
+- astronomer crossword clue [Global] — discovered — first 2026-10-27, last 2026-10-27
+- natwest alleged ponzi scheme scrutiny [Global] — discovered — first 2026-10-27, last 2026-10-27
+- streamable [Global] — discovered — first 2026-10-27, last 2026-10-27
 - creator coffins brawl stars [Global] — discovered — first 2026-10-27, last 2026-10-27
 - online casino ohne limit 2026 🇩🇪 www.heinrichcasino.online [Global] — discovered — first 2026-10-27, last 2026-10-27
-- brawl stars creator codes [Global] — discovered — first 2026-10-27, last 2026-10-27
-- online casino ohne deutsche lizenz 🇩🇪 www.heinrichcasino.online [Global] — discovered — first 2026-10-27, last 2026-10-27
-- creator codes for brawl stars [Global] — discovered — first 2026-10-27, last 2026-10-27
-- สล็อต เว็บ ตรง a lucky pgs555 online [Global] — discovered — first 2026-10-27, last 2026-10-27
-- brawl stars creator code [Global] — discovered — first 2026-10-27, last 2026-10-27
-- brawlstars creator code [Global] — discovered — first 2026-10-27, last 2026-10-27
-- tnpsc photo editor [Global] — discovered — first 2026-10-27, last 2026-10-27
-- saps online application for 2027 [Global] — discovered — first 2026-10-27, last 2026-10-27
-- online casino boni 🇩🇪 www.heinrichcasino.online [Global] — discovered — first 2026-10-27, last 2026-10-27
-- 1v1 lol [Global] — discovered — first 2026-10-27, last 2026-10-27
-- 4 bit magnitude comparator [Global] — discovered — first 2026-10-27, last 2026-10-27
-- 49ers game [Global] — discovered — first 2026-10-27, last 2026-10-27
+- read your color [Global] — discovered — first 2026-10-27, last 2026-10-27
 - 49ers game today [Global] — discovered — first 2026-10-27, last 2026-10-27
-- abhyas ai [Global] — discovered — first 2026-10-27, last 2026-10-27
-- ai bubble [Global] — discovered — first 2026-10-27, last 2026-10-27
-- ai changing uk stem jobs [Global] — discovered — first 2026-10-27, last 2026-10-27
-- all rights reserved example [Global] — discovered — first 2026-10-27, last 2026-10-27
+- tnpsc [Global] — discovered — first 2026-10-27, last 2026-10-27
+- my navigator [Global] — discovered — first 2026-10-27, last 2026-10-27
+- f1 dashboard [Global] — discovered — first 2026-10-27, last 2026-10-27
+- walrus meaning [Global] — discovered — first 2026-10-27, last 2026-10-27
+- son of zeus crossword clue [Global] — discovered — first 2026-10-27, last 2026-10-27
+- tnpsc group 4 [Global] — discovered — first 2026-10-27, last 2026-10-27
+- dsssb [Global] — discovered — first 2026-10-27, last 2026-10-27
+- tallentex sample paper [Global] — discovered — first 2026-10-27, last 2026-10-27
+- roblox music id [Global] — discovered — first 2026-10-27, last 2026-10-27
+- manchester united manager [Global] — discovered — first 2026-10-27, last 2026-10-27
+- f1 standings [Global] — discovered — first 2026-10-27, last 2026-10-27
+- is chevron a font [Global] — discovered — first 2026-10-27, last 2026-10-27
+- fitness syncer [Global] — discovered — first 2026-10-27, last 2026-10-27
 - analyze grammar crossword clue [Global] — discovered — first 2026-10-27, last 2026-10-27
-- apple iphone processor in macbook neo [Global] — discovered — first 2026-10-27, last 2026-10-27
-- arthur c clarke novel crossword clue [Global] — discovered — first 2026-10-27, last 2026-10-27
-- artist jean crossword clue [Global] — discovered — first 2026-10-27, last 2026-10-27
+- constructor standings f1 [Global] — discovered — first 2026-10-27, last 2026-10-27
 
 ## Due for follow-up
 
