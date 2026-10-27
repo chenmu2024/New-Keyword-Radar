@@ -1,8 +1,8 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-27T07:43:21.723178+00:00
+- Updated (UTC): 2026-10-27T15:51:24.203221+00:00
 - Historical candidates: 1594
-- Newly recorded from pending: 71
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 110
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
@@ -10,30 +10,30 @@
 ## Recent tracked queries (not build recommendations)
 
 - online casino ohne oasis 🇩🇪 www.spieltresor.com [Global] — discovered — first 2026-10-27, last 2026-10-27
+- elijah mitchell [US] — discovered — first 2026-10-27, last 2026-10-27
 - creator coffins [Global] — discovered — first 2026-10-27, last 2026-10-27
+- mediaset infinity [ES] — discovered — first 2026-10-27, last 2026-10-27
 - steam down detector [Global] — discovered — first 2026-10-27, last 2026-10-27
 - astronomer crossword clue [Global] — discovered — first 2026-10-27, last 2026-10-27
 - natwest alleged ponzi scheme scrutiny [Global] — discovered — first 2026-10-27, last 2026-10-27
+- bmwf.lat [Global] — discovered — first 2026-10-27, last 2026-10-27
 - streamable [Global] — discovered — first 2026-10-27, last 2026-10-27
 - creator coffins brawl stars [Global] — discovered — first 2026-10-27, last 2026-10-27
+- lamelo ball stats [US] — discovered — first 2026-10-27, last 2026-10-27
 - online casino ohne limit 2026 🇩🇪 www.heinrichcasino.online [Global] — discovered — first 2026-10-27, last 2026-10-27
+- dublin marathon tracker 2025 [Global] — discovered — first 2026-10-27, last 2026-10-27
+- nuggets - warriors [MX] — discovered — first 2026-10-27, last 2026-10-27
+- luna de hoy [MX] — discovered — first 2026-10-27, last 2026-10-27
+- cyclone arnab tracker live satellite [Global] — discovered — first 2026-10-27, last 2026-10-27
 - read your color [Global] — discovered — first 2026-10-27, last 2026-10-27
+- clima mazatlan [MX] — discovered — first 2026-10-27, last 2026-10-27
+- george pickens [MX] — discovered — first 2026-10-27, last 2026-10-27
 - 49ers game today [Global] — discovered — first 2026-10-27, last 2026-10-27
 - tnpsc [Global] — discovered — first 2026-10-27, last 2026-10-27
 - my navigator [Global] — discovered — first 2026-10-27, last 2026-10-27
 - f1 dashboard [Global] — discovered — first 2026-10-27, last 2026-10-27
 - walrus meaning [Global] — discovered — first 2026-10-27, last 2026-10-27
 - son of zeus crossword clue [Global] — discovered — first 2026-10-27, last 2026-10-27
-- tnpsc group 4 [Global] — discovered — first 2026-10-27, last 2026-10-27
-- dsssb [Global] — discovered — first 2026-10-27, last 2026-10-27
-- tallentex sample paper [Global] — discovered — first 2026-10-27, last 2026-10-27
-- roblox music id [Global] — discovered — first 2026-10-27, last 2026-10-27
-- manchester united manager [Global] — discovered — first 2026-10-27, last 2026-10-27
-- f1 standings [Global] — discovered — first 2026-10-27, last 2026-10-27
-- is chevron a font [Global] — discovered — first 2026-10-27, last 2026-10-27
-- fitness syncer [Global] — discovered — first 2026-10-27, last 2026-10-27
-- analyze grammar crossword clue [Global] — discovered — first 2026-10-27, last 2026-10-27
-- constructor standings f1 [Global] — discovered — first 2026-10-27, last 2026-10-27
 
 ## Due for follow-up
 
