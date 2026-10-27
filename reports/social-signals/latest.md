@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-10-26T23:07:02.391086+00:00
+# V4 Social signal discovery — 2026-10-27T02:04:23.160118+00:00
 
-- Unique links this run: 58, newly seen: 14, history: 256
+- Unique links this run: 56, newly seen: 42, history: 298
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,51 +12,51 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (1) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (4) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
-- existing_free_intelligence_bridge: ok (33)
+- existing_free_intelligence_bridge: ok (28)
 - targeted_github_issues: empty (0)
 
 ## Links (not validated project opportunities)
 
-- [Standfast](https://www.producthunt.com/products/standfast) — producthunt — direct_public_feed
+- [Loqui](https://www.producthunt.com/products/loqui-2) — producthunt — direct_public_feed
 - [AI Bridge](https://www.producthunt.com/products/ai-bridge) — producthunt — direct_public_feed
-- [Flipcorder](https://www.producthunt.com/products/flipcorder) — producthunt — direct_public_feed
+- [Kiwi](https://www.producthunt.com/products/kiwi-7) — producthunt — direct_public_feed
+- [WhoIsCooking](https://www.producthunt.com/products/whoiscooking) — producthunt — direct_public_feed
 - [2G](https://www.producthunt.com/products/2g) — producthunt — direct_public_feed
-- [N8N Chat UI](https://www.producthunt.com/products/n8n-chat-ui-2) — producthunt — direct_public_feed
-- [tabsh](https://www.producthunt.com/products/tabsh) — producthunt — direct_public_feed
-- [Gerrybrain/wan7771](https://huggingface.co/spaces/Gerrybrain/wan7771) — huggingface — direct_public_api
-- [Kingsleyukaegbu90/JARVIS-ESTATE-KINGSLEY](https://huggingface.co/spaces/Kingsleyukaegbu90/JARVIS-ESTATE-KINGSLEY) — huggingface — direct_public_api
-- [Saboia97/gestao-pontes](https://huggingface.co/spaces/Saboia97/gestao-pontes) — huggingface — direct_public_api
-- [bobyang808/haii_collaborative_travel_assistant-ChunyiYang](https://huggingface.co/spaces/bobyang808/haii_collaborative_travel_assistant-ChunyiYang) — huggingface — direct_public_api
-- [Bayanat-Labs/arabic-form-grounding](https://huggingface.co/spaces/Bayanat-Labs/arabic-form-grounding) — huggingface — direct_public_api
-- [Dzambala/kubera-geoai-status](https://huggingface.co/spaces/Dzambala/kubera-geoai-status) — huggingface — direct_public_api
-- [Eso es que te hacen falta HERRAMIENTAS. Que cómo se le llena la boca a esa gente con las herramientas. Una llave inglesa atravesando la cabeza del que te jode, esa es la herramient](https://bsky.app/profile/barbatang.eurosky.social/post/3mwl7d7hedk2r) — bluesky — direct_public_post
-- [O sea, es una herramienta que es capaz de hacer ciertas cosas muy concretas y sabiendo que tendrás que cogerlas con pinzas. Pero de ahí a hacerme creer que puede (y necesito!) que](https://bsky.app/profile/pollofrito22.bsky.social/post/3mve3hi655t2r) — bluesky — direct_public_post
-- [Si no sé hacer integrales y necesito hacer integrales, entonces delego esa tarea en una herramienta que yo asumo que puede resolver integrales. Hasta ahí bien.](https://bsky.app/profile/fernandoblancopsy.com/post/3mv2zj4yyk22a) — bluesky — direct_public_post
-- [Se ha roto una herramienta que necesito para acabar mis últimas tareas Monkiflipn’t](https://bsky.app/profile/davidc4sas.bsky.social/post/3muec42dpp22m) — bluesky — direct_public_post
-- [.... esta vez fui al psiquiatra y me enseño, a asumir el tdah como si fuera corto de vista. Necesito samexid para funcionar (en esta sociedad) como necesitaría lentes si fuera cor](https://bsky.app/profile/showtimus.bsky.social/post/3muacskm3z22y) — bluesky — direct_public_post
-- [No me parece algo raro, me parece una herramienta útil. Yo tengo canciones que son mi lugar seguro, que sé exactamente qué emoción me van a despertar y que me las pongo cuando lo n](https://bsky.app/profile/lillusion.bsky.social/post/3mtsunkywn22t) — bluesky — direct_public_post
-- [Among all species Humans are one of the best at long-distance endurance running. Find this interesting? See the full details here: https:// lzon.ca/trivia/000006/ # IndieWeb # Pers](https://mastodon.social/@lzon/117508678390000661) — mastodon — direct_public_post
+- [CloudKnife](https://www.producthunt.com/products/cloudknife) — producthunt — direct_public_feed
+- [Earngameapps/gemini-mcp-test](https://huggingface.co/spaces/Earngameapps/gemini-mcp-test) — huggingface — direct_public_api
+- [semihaksehirli/Final_Assignment_Template](https://huggingface.co/spaces/semihaksehirli/Final_Assignment_Template) — huggingface — direct_public_api
+- [Researchapps/hematologyanalyzer_demo](https://huggingface.co/spaces/Researchapps/hematologyanalyzer_demo) — huggingface — direct_public_api
+- [jgurbillon/utecviz-t5](https://huggingface.co/spaces/jgurbillon/utecviz-t5) — huggingface — direct_public_api
+- [eeeeeeeeee1111/First_agent_template_2](https://huggingface.co/spaces/eeeeeeeeee1111/First_agent_template_2) — huggingface — direct_public_api
+- [dima0987654321/forDanceAndMovingCOPYfromVideo](https://huggingface.co/spaces/dima0987654321/forDanceAndMovingCOPYfromVideo) — huggingface — direct_public_api
+- [Recorded Healthcare Simulation: The Impact of Objective Assessments and Clinical Judgment in Nursing with AI https://learn.health... #HealthcareSimulation #ClinicalSimulation #Me](https://bsky.app/profile/healthysim.bsky.social/post/3myt4umqnzm2d) — bluesky — direct_public_post
+- [alright sorry i give up. this is way too busted, no OCR, my book will remain unsearchable and unscreenreadable. unless someone has a recommendation for a better tool to use (also i](https://bsky.app/profile/nadirarod.institute/post/3myt4haygvc2y) — bluesky — direct_public_post — intent keyword found
+- [Stop buying every new AI tool. 🤖 You only need 3 core tools to save 10+ hours a week: one for research, one for automation, and one for synthesis. Master the 80/20 AI Stack in 'S](https://bsky.app/profile/strategictuning.bsky.social/post/3myt2r6gqhs23) — bluesky — direct_public_post — intent keyword found
+- [I _think_ what it means is they just wanted something which put strings into the game, like JSON or a spreadsheet, that they could manually handle. But in that case, they didn't ne](https://bsky.app/profile/yarnspinner.dev/post/3myszxqcpw22o) — bluesky — direct_public_post — intent keyword found
+- [The biggest jobs in Tuftwood, a cozy rug tufting game, are 80 cm across. They're the ones that need the Bigger frame upgrade. https://store.steampowered.com/app/5436730/ #Tuftwood](https://bsky.app/profile/tuftwood.bsky.social/post/3myszxctdrt2w) — bluesky — direct_public_post
+- [then once you've dragged it to the correct position the page RELOADS!!!!!!! meaning if you want to add multiple videos you need to repeat this entire process for every single one](https://bsky.app/profile/ian07.bsky.social/post/3mysxvi26ls2z) — bluesky — direct_public_post — intent keyword found
+- [This isn't her. It's her AI twin 🤯 (TwinClips AI) One photo and 30 seconds of voice. Now she types a script and her twin turns it into a video. Could you tell the difference? 👇 Wan](https://mastodon.social/@rankmarket99/117510400018189474) — mastodon — direct_public_post
+- [A giant wave hitting the city? AI made this. (AI-generated video) Create your own AI video at https:// paypervideo.online No subscription. No account needed. # AIVideo](https://mastodon.social/@paypervideo/117509023192542745) — mastodon — direct_public_post — intent keyword found
+- [Архивска снимка од Петковден, 1987. 📼 Чичко Трајче уште не се вратил. Домаќинката уште го убедува да касне. 🎈 По колку сарми велите „не можам веќе“ на слава? 👇 # хуморико # слава #](https://mastodon.social/@humoriko/117508869314490615) — mastodon — direct_public_post
+- [ВОНРЕДНО: метеоролозите најавија студен бран за ноември. Струмичките баби веќе печат пиперки. Нема време за паника. 🌶️💥 Колку тегли ајвар прави вашата баба годинава? 👇 # хуморико #](https://mastodon.social/@humoriko/117508746755345819) — mastodon — direct_public_post
+- [What to do if you discover AI models trained using your copywrighted book?](https://news.ycombinator.com/item?id=50253561) — hackernews_ask — direct_public_post
 - [Ask HN: Do you still read clean code and software architecture books?](https://news.ycombinator.com/item?id=50248168) — hackernews_ask — direct_public_post
 - [Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?](https://news.ycombinator.com/item?id=50200997) — hackernews_ask — direct_public_post
 - [Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry](https://news.ycombinator.com/item?id=50193416) — hackernews_ask — direct_public_post
 - [Ask HN: Is it not possible to enroll for Apple Developer anymore?](https://news.ycombinator.com/item?id=50237680) — hackernews_ask — direct_public_post
-- [Ask HN: What are your career plans in the age of AI?](https://news.ycombinator.com/item?id=50249194) — hackernews_ask — direct_public_post
 - [Ask HN: How do you grow OSS projects?](https://news.ycombinator.com/item?id=50242424) — hackernews_ask — direct_public_post
-- [Master roadmap: coordinate ReefVision 1.0–2.0 across five hourly development tracks](https://github.com/Rafael-Del-Valle/ReefVision/issues/76) — github_issue — direct_public_issue_api
-- [Full cross-family audit of uploaded v20–v24 handoff](https://github.com/d6g8k5htny-coder/main/issues/605) — github_issue — direct_public_issue_api
-- [[AI Work Flow-First Data Flows UX / Control PF-CI Adoption](https://github.com/datarelay-labs/datarelay-control/issues/413) — github_issue — direct_public_issue_api
+- [WS-JARVIS-LAUNCH-01 — unified Writer release-control ledger [HOLD](https://github.com/SoullabTech/Sovereign/issues/1938) — github_issue — direct_public_issue_api
+- [SUCCESSOR Ω: Build the Next Discovery Lab — public integration checklist](https://github.com/MontrealAI/AGI-Alpha-Agent-v0/issues/4850) — github_issue — direct_public_issue_api
 - [Owner directive: Aria Mission Control — Work coordinator ownership and acceptance gaps](https://github.com/caosos/Desktop-Agent/issues/3) — github_issue — direct_public_issue_api
-- [Reddit's favorite Sport V](https://www.reddit.com/r/SVRiders) — reddit — public_rss_excerpt
-- [Most “AI social media agents” start too late in the workflow.](https://www.reddit.com/r/OpenclawBot/comments/1xfiohm/most_ai_social_media_agents_start_too_late_in_the) — reddit — public_rss_excerpt
-- [Rate my YALE supplemental!!](https://www.reddit.com/r/CollegeEssays/comments/1xfilid/rate_my_yale_supplemental) — reddit — public_rss_excerpt
-- [[Hiring Remote Executive Assistant for Administrative Support - $20/hr](https://www.reddit.com/r/forhire/comments/1xfikw7/hiring_remote_executive_assistant_for) — reddit — public_rss_excerpt
-- [Ask HN: What's still broken in SoC 2 readiness and audit prep?](https://news.ycombinator.com/item?id=46396889) — hackernews_ask — indexed_public_post_excerpt
-- [AI Agents Are Quietly Taking over Project Management](https://news.ycombinator.com/item?id=45618229) — hackernews_ask — indexed_public_post_excerpt
-- [The problem of scheduling life like a spreadsheet](https://news.ycombinator.com/item?id=45006853) — hackernews_ask — indexed_public_post_excerpt
-- [My Friend Raised Her Seed Round in 17 Days](https://news.ycombinator.com/item?id=44112008) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
-- [Verdict board 2 (continues #2554)](https://github.com/najathakram/routeflow/issues/3686) — github_issue — direct_public_issue_api
-- [Agent-native build board](https://github.com/rachelgonsalves821/Envoi/issues/34) — github_issue — direct_public_issue_api — intent keyword found
-- [Roadmap 3: evidence-backed competitor gap assessment and delivery acceptance](https://github.com/KAVentures/openworkgraph/issues/370) — github_issue — direct_public_issue_api
+- [Revealing the World's Leading Expert in Exotic Physics](https://www.reddit.com/r/PsychicWarfare) — reddit — public_rss_excerpt
+- [Husband's Resume Round 2](https://www.reddit.com/r/Accounting/comments/1xge2w7/husbands_resume_round_2) — reddit — public_rss_excerpt
+- [Building the Operating System for Indian Schools](https://www.reddit.com/r/u_Longjumping-Mix-4642/comments/1xgd34b/building_the_operating_system_for_indian_schools) — reddit — public_rss_excerpt
+- [My EDI Workflow Playbook](https://www.reddit.com/r/edi/comments/1xgbsy6/my_edi_workflow_playbook) — reddit — public_rss_excerpt
+- [Invoice OCR API for Logistics Expense Tracking Automation](https://news.ycombinator.com/item?id=47362152) — hackernews_ask — indexed_public_post_excerpt
+- [Invoice OCR API for Automated GST Data Extraction in India](https://news.ycombinator.com/item?id=47348462) — hackernews_ask — indexed_public_post_excerpt
+- [FinCrew: Multi-Agent AI Financial Intelligence](https://news.ycombinator.com/item?id=47148718) — hackernews_ask — indexed_public_post_excerpt
+- [GodHands – Deterministic Desktop Automation via MCP](https://news.ycombinator.com/item?id=46996023) — hackernews_ask — indexed_public_post_excerpt
+- [[M5-18b Course completion on the cohort page](https://github.com/JaimeSolisS/classora/issues/323) — github_issue — direct_public_issue_api
