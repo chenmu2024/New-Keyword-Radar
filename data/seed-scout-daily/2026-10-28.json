@@ -1,0 +1,3269 @@
+{
+  "local_date": "2026-10-28",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "target_seed_count": 74,
+  "batches": [
+    {
+      "batch_id": "2026-10-27T22:07:37.598687+00:00-11-12-13-14-15",
+      "start_index": 11,
+      "seed_indices": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "generated_at": "2026-10-27T22:07:37.598687+00:00",
+      "local_generated_at": "2026-10-28T06:07:37.598687+08:00",
+      "seed_batch": [
+        "compiler",
+        "analyzer",
+        "evaluator",
+        "sender",
+        "receiver"
+      ],
+      "discovery_count": 40,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:09:16.605552+00:00-16-17-18-19-20",
+      "start_index": 16,
+      "seed_indices": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "generated_at": "2026-10-27T22:09:16.605552+00:00",
+      "local_generated_at": "2026-10-28T06:09:16.605552+08:00",
+      "seed_batch": [
+        "interpreter",
+        "uploader",
+        "calculator",
+        "sample",
+        "template"
+      ],
+      "discovery_count": 35,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:10:55.428252+00:00-21-22-23-24-25",
+      "start_index": 21,
+      "seed_indices": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "generated_at": "2026-10-27T22:10:55.428252+00:00",
+      "local_generated_at": "2026-10-28T06:10:55.428252+08:00",
+      "seed_batch": [
+        "format",
+        "builder",
+        "scheme",
+        "pattern",
+        "checker"
+      ],
+      "discovery_count": 37,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:12:35.846816+00:00-26-27-28-29-30",
+      "start_index": 26,
+      "seed_indices": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "generated_at": "2026-10-27T22:12:35.846816+00:00",
+      "local_generated_at": "2026-10-28T06:12:35.846816+08:00",
+      "seed_batch": [
+        "detector",
+        "scraper",
+        "manager",
+        "explorer",
+        "dashboard"
+      ],
+      "discovery_count": 41,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:14:16.096888+00:00-31-32-33-34-35",
+      "start_index": 31,
+      "seed_indices": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "generated_at": "2026-10-27T22:14:16.096888+00:00",
+      "local_generated_at": "2026-10-28T06:14:16.096888+08:00",
+      "seed_batch": [
+        "planner",
+        "tracker",
+        "recorder",
+        "optimizer",
+        "scheduler"
+      ],
+      "discovery_count": 49,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:15:54.487466+00:00-36-37-38-39-40",
+      "start_index": 36,
+      "seed_indices": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "generated_at": "2026-10-27T22:15:54.487466+00:00",
+      "local_generated_at": "2026-10-28T06:15:54.487466+08:00",
+      "seed_batch": [
+        "converter",
+        "viewer",
+        "extractor",
+        "monitor",
+        "notifier"
+      ],
+      "discovery_count": 5,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:17:33.272419+00:00-41-42-43-44-45",
+      "start_index": 41,
+      "seed_indices": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "generated_at": "2026-10-27T22:17:33.272419+00:00",
+      "local_generated_at": "2026-10-28T06:17:33.272419+08:00",
+      "seed_batch": [
+        "verifier",
+        "simulator",
+        "assistant",
+        "constructor",
+        "comparator"
+      ],
+      "discovery_count": 63,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:19:11.312290+00:00-46-47-48-49-50",
+      "start_index": 46,
+      "seed_indices": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "generated_at": "2026-10-27T22:19:11.312290+00:00",
+      "local_generated_at": "2026-10-28T06:19:11.312290+08:00",
+      "seed_batch": [
+        "navigator",
+        "syncer",
+        "connector",
+        "cataloger",
+        "responder"
+      ],
+      "discovery_count": 25,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:20:49.363179+00:00-51-52-53-54-55",
+      "start_index": 51,
+      "seed_indices": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "generated_at": "2026-10-27T22:20:49.363179+00:00",
+      "local_generated_at": "2026-10-28T06:20:49.363179+08:00",
+      "seed_batch": [
+        "color",
+        "image",
+        "flux",
+        "ai",
+        "gumroad"
+      ],
+      "discovery_count": 21,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:22:29.117792+00:00-56-57-58-59-60",
+      "start_index": 56,
+      "seed_indices": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "generated_at": "2026-10-27T22:22:29.117792+00:00",
+      "local_generated_at": "2026-10-28T06:22:29.117792+08:00",
+      "seed_batch": [
+        "steam",
+        "game",
+        "poki",
+        "slope game",
+        "crazy games"
+      ],
+      "discovery_count": 39,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:24:07.183627+00:00-61-62-63-64-65",
+      "start_index": 61,
+      "seed_indices": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "generated_at": "2026-10-27T22:24:07.183627+00:00",
+      "local_generated_at": "2026-10-28T06:24:07.183627+08:00",
+      "seed_batch": [
+        "itch.io",
+        "roblox",
+        "cocrea",
+        "cocrea world",
+        "compressor"
+      ],
+      "discovery_count": 29,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:25:44.500381+00:00-66-67-68-69-70",
+      "start_index": 66,
+      "seed_indices": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "generated_at": "2026-10-27T22:25:44.500381+00:00",
+      "local_generated_at": "2026-10-28T06:25:44.500381+08:00",
+      "seed_batch": [
+        "figma",
+        "composer",
+        "fonts",
+        "card",
+        "symbol"
+      ],
+      "discovery_count": 30,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:27:24.389377+00:00-71-72-73-0-1",
+      "start_index": 71,
+      "seed_indices": [
+        71,
+        72,
+        73,
+        0,
+        1
+      ],
+      "generated_at": "2026-10-27T22:27:24.389377+00:00",
+      "local_generated_at": "2026-10-28T06:27:24.389377+08:00",
+      "seed_batch": [
+        "instagram",
+        "tea",
+        "download",
+        "translator",
+        "generator"
+      ],
+      "discovery_count": 18,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:29:03.302965+00:00-2-3-4-5-6",
+      "start_index": 2,
+      "seed_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "generated_at": "2026-10-27T22:29:03.302965+00:00",
+      "local_generated_at": "2026-10-28T06:29:03.302965+08:00",
+      "seed_batch": [
+        "example",
+        "convert",
+        "online",
+        "downloader",
+        "maker"
+      ],
+      "discovery_count": 14,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-27T22:30:43.468431+00:00-7-8-9-10",
+      "start_index": 7,
+      "seed_indices": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "generated_at": "2026-10-27T22:30:43.468431+00:00",
+      "local_generated_at": "2026-10-28T06:30:43.468431+08:00",
+      "seed_batch": [
+        "creator",
+        "editor",
+        "processor",
+        "designer"
+      ],
+      "discovery_count": 33,
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "scanned_seeds": [
+    "compiler",
+    "analyzer",
+    "evaluator",
+    "sender",
+    "receiver",
+    "interpreter",
+    "uploader",
+    "calculator",
+    "sample",
+    "template",
+    "format",
+    "builder",
+    "scheme",
+    "pattern",
+    "checker",
+    "detector",
+    "scraper",
+    "manager",
+    "explorer",
+    "dashboard",
+    "planner",
+    "tracker",
+    "recorder",
+    "optimizer",
+    "scheduler",
+    "converter",
+    "viewer",
+    "extractor",
+    "monitor",
+    "notifier",
+    "verifier",
+    "simulator",
+    "assistant",
+    "constructor",
+    "comparator",
+    "navigator",
+    "syncer",
+    "connector",
+    "cataloger",
+    "responder",
+    "color",
+    "image",
+    "flux",
+    "ai",
+    "gumroad",
+    "steam",
+    "game",
+    "poki",
+    "slope game",
+    "crazy games",
+    "itch.io",
+    "roblox",
+    "cocrea",
+    "cocrea world",
+    "compressor",
+    "figma",
+    "composer",
+    "fonts",
+    "card",
+    "symbol",
+    "instagram",
+    "tea",
+    "download",
+    "translator",
+    "generator",
+    "example",
+    "convert",
+    "online",
+    "downloader",
+    "maker",
+    "creator",
+    "editor",
+    "processor",
+    "designer"
+  ],
+  "discoveries": [
+    {
+      "seed": "scheme",
+      "query": "sainsbury's £18 egift card scheme",
+      "rise_value": 142800.0,
+      "raw_value": 142800,
+      "also_from_seeds": [
+        "card"
+      ]
+    },
+    {
+      "seed": "uploader",
+      "query": "uploader jp サービス 終了",
+      "rise_value": 125050.0,
+      "raw_value": 125050
+    },
+    {
+      "seed": "syncer",
+      "query": "tradecopia",
+      "rise_value": 103900.0,
+      "raw_value": 103900
+    },
+    {
+      "seed": "cocrea world",
+      "query": "turbowarp",
+      "rise_value": 85450.0,
+      "raw_value": 85450
+    },
+    {
+      "seed": "responder",
+      "query": "m50 first responder ryan mulroy",
+      "rise_value": 70050.0,
+      "raw_value": 70050
+    },
+    {
+      "seed": "tracker",
+      "query": "cyclone arnab",
+      "rise_value": 69900.0,
+      "raw_value": 69900
+    },
+    {
+      "seed": "tracker",
+      "query": "cyclone arnab tracker",
+      "rise_value": 69550.0,
+      "raw_value": 69550
+    },
+    {
+      "seed": "receiver",
+      "query": "pittsburgh steelers wide receiver trade rumors",
+      "rise_value": 68600.0,
+      "raw_value": 68600
+    },
+    {
+      "seed": "constructor",
+      "query": "monitoreo ciudadano constructor",
+      "rise_value": 60750.0,
+      "raw_value": 60750
+    },
+    {
+      "seed": "tracker",
+      "query": "arnab cyclone tracker",
+      "rise_value": 60700.0,
+      "raw_value": 60700
+    },
+    {
+      "seed": "scheme",
+      "query": "civil service pension scheme recovery plan",
+      "rise_value": 55550.0,
+      "raw_value": 55550
+    },
+    {
+      "seed": "card",
+      "query": "texas roadhouse steak complaint kenneth card",
+      "rise_value": 54350.0,
+      "raw_value": 54350
+    },
+    {
+      "seed": "receiver",
+      "query": "jesse legree oregon state receiver ceremony",
+      "rise_value": 53100.0,
+      "raw_value": 53100
+    },
+    {
+      "seed": "creator",
+      "query": "shubh sarang content creator income",
+      "rise_value": 47350.0,
+      "raw_value": 47350
+    },
+    {
+      "seed": "itch.io",
+      "query": "time freeze on itch.io",
+      "rise_value": 40000.0,
+      "raw_value": 40000
+    },
+    {
+      "seed": "navigator",
+      "query": "addicted to my navigator",
+      "rise_value": 39050.0,
+      "raw_value": 39050
+    },
+    {
+      "seed": "manager",
+      "query": "andy woodman bromley manager departure",
+      "rise_value": 38900.0,
+      "raw_value": 38900
+    },
+    {
+      "seed": "tracker",
+      "query": "cyclone arnab tracker live",
+      "rise_value": 35600.0,
+      "raw_value": 35600
+    },
+    {
+      "seed": "creator",
+      "query": "creator coffins",
+      "rise_value": 33400.0,
+      "raw_value": 33400
+    },
+    {
+      "seed": "recorder",
+      "query": "droid dashcam video recorder",
+      "rise_value": 32000.0,
+      "raw_value": 32000
+    },
+    {
+      "seed": "manager",
+      "query": "alden richards road manager",
+      "rise_value": 25100.0,
+      "raw_value": 25100
+    },
+    {
+      "seed": "creator",
+      "query": "stick run game creator",
+      "rise_value": 24450.0,
+      "raw_value": 24450
+    },
+    {
+      "seed": "navigator",
+      "query": "addicted to my navigator dailymotion",
+      "rise_value": 23500.0,
+      "raw_value": 23500
+    },
+    {
+      "seed": "tracker",
+      "query": "kmart usb charger tracker risks",
+      "rise_value": 21300.0,
+      "raw_value": 21300
+    },
+    {
+      "seed": "checker",
+      "query": "php2shell checker",
+      "rise_value": 20350.0,
+      "raw_value": 20350
+    },
+    {
+      "seed": "designer",
+      "query": "interior designer sectional sofa alternatives",
+      "rise_value": 20250.0,
+      "raw_value": 20250
+    },
+    {
+      "seed": "scheme",
+      "query": "magda wierzycka sygnia share scheme",
+      "rise_value": 18450.0,
+      "raw_value": 18450
+    },
+    {
+      "seed": "navigator",
+      "query": "addicted to my navigator bilibili",
+      "rise_value": 16850.0,
+      "raw_value": 16850
+    },
+    {
+      "seed": "template",
+      "query": "ray edits capcut template",
+      "rise_value": 16050.0,
+      "raw_value": 16050
+    },
+    {
+      "seed": "verifier",
+      "query": "service public fr verifier inscription liste electorale",
+      "rise_value": 15700.0,
+      "raw_value": 15700
+    },
+    {
+      "seed": "tracker",
+      "query": "storm boelo tracker",
+      "rise_value": 15400.0,
+      "raw_value": 15400
+    },
+    {
+      "seed": "tea",
+      "query": "what did the new study find about daily tea drinking and heart health",
+      "rise_value": 14350.0,
+      "raw_value": 14350
+    },
+    {
+      "seed": "recorder",
+      "query": "gfx screen recorder",
+      "rise_value": 13100.0,
+      "raw_value": 13100
+    },
+    {
+      "seed": "verifier",
+      "query": "service public verifier ma situation electorale",
+      "rise_value": 12450.0,
+      "raw_value": 12450
+    },
+    {
+      "seed": "flux",
+      "query": "flux redux glock",
+      "rise_value": 12350.0,
+      "raw_value": 12350
+    },
+    {
+      "seed": "designer",
+      "query": "flight attendant turned interior designer",
+      "rise_value": 12200.0,
+      "raw_value": 12200
+    },
+    {
+      "seed": "tracker",
+      "query": "cyclone arnab tracker live satellite",
+      "rise_value": 11250.0,
+      "raw_value": 11250
+    },
+    {
+      "seed": "evaluator",
+      "query": "how to make sushi",
+      "rise_value": 10100.0,
+      "raw_value": 10100
+    },
+    {
+      "seed": "format",
+      "query": "bath body works new store format",
+      "rise_value": 9350.0,
+      "raw_value": 9350
+    },
+    {
+      "seed": "receiver",
+      "query": "troy aikman cowboys receiver criticism",
+      "rise_value": 9250.0,
+      "raw_value": 9250
+    },
+    {
+      "seed": "tracker",
+      "query": "dublin marathon tracker",
+      "rise_value": 8750.0,
+      "raw_value": 8750
+    },
+    {
+      "seed": "tracker",
+      "query": "kmart undetectable tracker stalking concerns",
+      "rise_value": 8750.0,
+      "raw_value": 8750
+    },
+    {
+      "seed": "scheme",
+      "query": "natwest alleged ponzi scheme scrutiny",
+      "rise_value": 8550.0,
+      "raw_value": 8550
+    },
+    {
+      "seed": "processor",
+      "query": "alienware aurora gaming desktop act1250 intel core ultra 7 265kf processor",
+      "rise_value": 8400.0,
+      "raw_value": 8400
+    },
+    {
+      "seed": "receiver",
+      "query": "demario douglas patriots receiver role",
+      "rise_value": 8350.0,
+      "raw_value": 8350
+    },
+    {
+      "seed": "processor",
+      "query": "local deer meat processor fees",
+      "rise_value": 8200.0,
+      "raw_value": 8200
+    },
+    {
+      "seed": "scheme",
+      "query": "uk budget first time buyers scheme",
+      "rise_value": 8000.0,
+      "raw_value": 8000
+    },
+    {
+      "seed": "sender",
+      "query": "ballon d'or 2026 live",
+      "rise_value": 7850.0,
+      "raw_value": 7850
+    },
+    {
+      "seed": "online",
+      "query": "mawara.work",
+      "rise_value": 7800.0,
+      "raw_value": 7800
+    },
+    {
+      "seed": "composer",
+      "query": "arthur c clarke novel crossword clue",
+      "rise_value": 7700.0,
+      "raw_value": 7700
+    },
+    {
+      "seed": "tracker",
+      "query": "tracker purification",
+      "rise_value": 7700.0,
+      "raw_value": 7700
+    },
+    {
+      "seed": "tracker",
+      "query": "marine corps marathon tracker",
+      "rise_value": 7350.0,
+      "raw_value": 7350
+    },
+    {
+      "seed": "flux",
+      "query": "gate for private use crossword clue",
+      "rise_value": 7300.0,
+      "raw_value": 7300
+    },
+    {
+      "seed": "tracker",
+      "query": "storm austen tracker",
+      "rise_value": 7050.0,
+      "raw_value": 7050
+    },
+    {
+      "seed": "tracker",
+      "query": "storm austen",
+      "rise_value": 7000.0,
+      "raw_value": 7000
+    },
+    {
+      "seed": "tracker",
+      "query": "dublin marathon tracker 2026",
+      "rise_value": 6900.0,
+      "raw_value": 6900
+    },
+    {
+      "seed": "composer",
+      "query": "artist jean crossword clue",
+      "rise_value": 6800.0,
+      "raw_value": 6800
+    },
+    {
+      "seed": "tracker",
+      "query": "dublin marathon 2026",
+      "rise_value": 6750.0,
+      "raw_value": 6750
+    },
+    {
+      "seed": "creator",
+      "query": "brawl stars creator code",
+      "rise_value": 6600.0,
+      "raw_value": 6600
+    },
+    {
+      "seed": "itch.io",
+      "query": "itch.io trauma lab",
+      "rise_value": 6600.0,
+      "raw_value": 6600
+    },
+    {
+      "seed": "checker",
+      "query": "php version checker",
+      "rise_value": 6550.0,
+      "raw_value": 6550
+    },
+    {
+      "seed": "flux",
+      "query": "small restaurant crossword clue",
+      "rise_value": 6500.0,
+      "raw_value": 6500
+    },
+    {
+      "seed": "composer",
+      "query": "brawl crossword clue",
+      "rise_value": 6300.0,
+      "raw_value": 6300
+    },
+    {
+      "seed": "composer",
+      "query": "copy for paste up crossword",
+      "rise_value": 5950.0,
+      "raw_value": 5950
+    },
+    {
+      "seed": "constructor",
+      "query": "udham singh nagar mein nanak sagar bandh kis rajya mein sthit hai",
+      "rise_value": 5950.0,
+      "raw_value": 5950
+    },
+    {
+      "seed": "creator",
+      "query": "brawl stars creator codes",
+      "rise_value": 5700.0,
+      "raw_value": 5700
+    },
+    {
+      "seed": "manager",
+      "query": "road manager of alden richards",
+      "rise_value": 5450.0,
+      "raw_value": 5450
+    },
+    {
+      "seed": "composer",
+      "query": "son of zeus crossword clue",
+      "rise_value": 5450.0,
+      "raw_value": 5450
+    },
+    {
+      "seed": "dashboard",
+      "query": "fraser coast dashboard",
+      "rise_value": 5350.0,
+      "raw_value": 5350
+    },
+    {
+      "seed": "scheme",
+      "query": "capacity investment scheme project cancellations",
+      "rise_value": 5050.0,
+      "raw_value": 5050
+    },
+    {
+      "seed": "creator",
+      "query": "brawlstars creator code",
+      "rise_value": 5000.0,
+      "raw_value": 5000
+    },
+    {
+      "seed": "simulator",
+      "query": "car mechanic simulator 2027",
+      "rise_value": 5000.0,
+      "raw_value": 5000
+    },
+    {
+      "seed": "flux",
+      "query": "chumbkiya flux ghanatv ka si matrak",
+      "rise_value": 5000.0,
+      "raw_value": 5000
+    },
+    {
+      "seed": "scheme",
+      "query": "beverage container refund scheme",
+      "rise_value": 4900.0,
+      "raw_value": 4900
+    },
+    {
+      "seed": "constructor",
+      "query": "ek lip varsh mein kitne din hote hain",
+      "rise_value": 4900.0,
+      "raw_value": 4900
+    },
+    {
+      "seed": "composer",
+      "query": "analyze grammar crossword clue",
+      "rise_value": 4800.0,
+      "raw_value": 4800
+    },
+    {
+      "seed": "simulator",
+      "query": "farming simulator 25 catuaí map",
+      "rise_value": 4650.0,
+      "raw_value": 4650
+    },
+    {
+      "seed": "online",
+      "query": "mahjongen.help",
+      "rise_value": 4600.0,
+      "raw_value": 4600
+    },
+    {
+      "seed": "creator",
+      "query": "stick run",
+      "rise_value": 4600.0,
+      "raw_value": 4600
+    },
+    {
+      "seed": "creator",
+      "query": "stick run creator",
+      "rise_value": 4450.0,
+      "raw_value": 4450
+    },
+    {
+      "seed": "creator",
+      "query": "creator economy entrepreneurship jimmy donaldson",
+      "rise_value": 4350.0,
+      "raw_value": 4350
+    },
+    {
+      "seed": "composer",
+      "query": "place in order crossword clue",
+      "rise_value": 4250.0,
+      "raw_value": 4250
+    },
+    {
+      "seed": "checker",
+      "query": "backlink checker regalseo",
+      "rise_value": 4200.0,
+      "raw_value": 4200
+    },
+    {
+      "seed": "composer",
+      "query": "astronomer crossword clue",
+      "rise_value": 4150.0,
+      "raw_value": 4150
+    },
+    {
+      "seed": "online",
+      "query": "linkj.ink",
+      "rise_value": 4100.0,
+      "raw_value": 4100
+    },
+    {
+      "seed": "ai",
+      "query": "ai changing uk stem jobs",
+      "rise_value": 4050.0,
+      "raw_value": 4050
+    },
+    {
+      "seed": "constructor",
+      "query": "monitoreo ciudadano net p constructor",
+      "rise_value": 4000.0,
+      "raw_value": 4000
+    },
+    {
+      "seed": "creator",
+      "query": "creator codes for brawl stars",
+      "rise_value": 3950.0,
+      "raw_value": 3950
+    },
+    {
+      "seed": "card",
+      "query": "rogers credit card payment fee",
+      "rise_value": 3950.0,
+      "raw_value": 3950
+    },
+    {
+      "seed": "receiver",
+      "query": "patriots chargers trade rumors wide receiver",
+      "rise_value": 3900.0,
+      "raw_value": 3900
+    },
+    {
+      "seed": "online",
+      "query": "saps online application",
+      "rise_value": 3900.0,
+      "raw_value": 3900
+    },
+    {
+      "seed": "steam",
+      "query": "steam stuck on loading user data",
+      "rise_value": 3900.0,
+      "raw_value": 3900
+    },
+    {
+      "seed": "generator",
+      "query": "ai image generator magnific",
+      "rise_value": 3600.0,
+      "raw_value": 3600
+    },
+    {
+      "seed": "assistant",
+      "query": "home assistant php",
+      "rise_value": 3300.0,
+      "raw_value": 3300
+    },
+    {
+      "seed": "online",
+      "query": "saps online application for 2027",
+      "rise_value": 3300.0,
+      "raw_value": 3300
+    },
+    {
+      "seed": "example",
+      "query": "老虎",
+      "rise_value": 2800.0,
+      "raw_value": 2800
+    },
+    {
+      "seed": "processor",
+      "query": "apple iphone processor in macbook neo",
+      "rise_value": 2700.0,
+      "raw_value": 2700
+    },
+    {
+      "seed": "flux",
+      "query": "flux redux",
+      "rise_value": 2650.0,
+      "raw_value": 2650
+    },
+    {
+      "seed": "sender",
+      "query": "ballon d'or 2026 sender",
+      "rise_value": 2550.0,
+      "raw_value": 2550
+    },
+    {
+      "seed": "connector",
+      "query": "cfmeu coomera connector dispute",
+      "rise_value": 2550.0,
+      "raw_value": 2550
+    },
+    {
+      "seed": "assistant",
+      "query": "dtu assistant professor recruitment 2026",
+      "rise_value": 2500.0,
+      "raw_value": 2500
+    },
+    {
+      "seed": "itch.io",
+      "query": "ragdoll simulator itch.io",
+      "rise_value": 2450.0,
+      "raw_value": 2450
+    },
+    {
+      "seed": "tea",
+      "query": "tea heart health",
+      "rise_value": 2400.0,
+      "raw_value": 2400
+    },
+    {
+      "seed": "designer",
+      "query": "budget kitchen upgrade designer tips",
+      "rise_value": 2200.0,
+      "raw_value": 2200
+    },
+    {
+      "seed": "constructor",
+      "query": "aap kis desh mein trans siberian railway line per yatra kar sakte hain",
+      "rise_value": 2100.0,
+      "raw_value": 2100
+    },
+    {
+      "seed": "scheme",
+      "query": "e bike scheme balloting result 2026",
+      "rise_value": 1950.0,
+      "raw_value": 1950
+    },
+    {
+      "seed": "uploader",
+      "query": "uploader.jp",
+      "rise_value": 1950.0,
+      "raw_value": 1950
+    },
+    {
+      "seed": "sender",
+      "query": "barcelona real madrid welcher sender",
+      "rise_value": 1900.0,
+      "raw_value": 1900
+    },
+    {
+      "seed": "creator",
+      "query": "manuel otto",
+      "rise_value": 1700.0,
+      "raw_value": 1700
+    },
+    {
+      "seed": "game",
+      "query": "world series game 2",
+      "rise_value": 1650.0,
+      "raw_value": 1650
+    },
+    {
+      "seed": "template",
+      "query": "template by editing4u",
+      "rise_value": 1550.0,
+      "raw_value": 1550
+    },
+    {
+      "seed": "dashboard",
+      "query": "disaster dashboard",
+      "rise_value": 1450.0,
+      "raw_value": 1450
+    },
+    {
+      "seed": "flux",
+      "query": "chumbkiya flux ka si matrak",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "roblox",
+      "query": "the hollow roblox",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "checker",
+      "query": "php checker",
+      "rise_value": 1300.0,
+      "raw_value": 1300
+    },
+    {
+      "seed": "tea",
+      "query": "fig tea nicolai",
+      "rise_value": 1250.0,
+      "raw_value": 1250
+    },
+    {
+      "seed": "pattern",
+      "query": "pattern design",
+      "rise_value": 1250.0,
+      "raw_value": 1250
+    },
+    {
+      "seed": "steam",
+      "query": "steam php",
+      "rise_value": 1250.0,
+      "raw_value": 1250
+    },
+    {
+      "seed": "responder",
+      "query": "river series",
+      "rise_value": 1200.0,
+      "raw_value": 1200
+    },
+    {
+      "seed": "game",
+      "query": "world series game 3",
+      "rise_value": 1200.0,
+      "raw_value": 1200
+    },
+    {
+      "seed": "flux",
+      "query": "chumbkiya flux ka matrak",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
+      "seed": "simulator",
+      "query": "mod ontel simulator indonesia",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
+      "seed": "simulator",
+      "query": "ontel simulator indonesia mod apk",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
+      "seed": "pattern",
+      "query": "full pattern 😍👇 like this comment so it stays up 🙏🏽",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
+      "seed": "responder",
+      "query": "seaworld first responder tickets",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
+      "seed": "steam",
+      "query": "steam store down",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
+      "seed": "evaluator",
+      "query": "evaluator hsin",
+      "rise_value": 1000.0,
+      "raw_value": 1000
+    },
+    {
+      "seed": "detector",
+      "query": "down detector orange",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "itch.io",
+      "query": "itch.io time freeze",
+      "rise_value": 900.0,
+      "raw_value": 900
+    },
+    {
+      "seed": "creator",
+      "query": "tim beta creator",
+      "rise_value": 900.0,
+      "raw_value": 900
+    },
+    {
+      "seed": "monitor",
+      "query": "colt monitor",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "composer",
+      "query": "composer satie crossword",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "card",
+      "query": "mais card",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "composer",
+      "query": "dhurandhar music composer",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "checker",
+      "query": "iphone stock checker",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "itch.io",
+      "query": "time freeze",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "card",
+      "query": "ufc 333 fight card",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "scheme",
+      "query": "warm home discount scheme",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "sample",
+      "query": "drew sample",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "roblox",
+      "query": "how to update roblox on mac",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "card",
+      "query": "ufc 333 card",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "manager",
+      "query": "next man utd manager odds",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
+      "seed": "pattern",
+      "query": "rrb station master exam pattern",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
+      "seed": "verifier",
+      "query": "service public.fr",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
+      "seed": "composer",
+      "query": "shashwat sachdev",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
+      "seed": "simulator",
+      "query": "anime dimensions simulator codes",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "sample",
+      "query": "nta",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "card",
+      "query": "ufc 333",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "simulator",
+      "query": "anime dimensions simulator code",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "planner",
+      "query": "cyberpunk 2077 build planner",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "sample",
+      "query": "plant sample maplestory",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "card",
+      "query": "rrb je admit card",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "verifier",
+      "query": "service public verifier liste electorale",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "template",
+      "query": "template by editing 4u",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier situation electorale",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "game",
+      "query": "cavs game",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "planner",
+      "query": "cyberpunk build planner",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "uploader",
+      "query": "getuploader",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "itch.io",
+      "query": "ragdoll simulator itch.io themilitarylarper",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "simulator",
+      "query": "rideshare simulator",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "receiver",
+      "query": "wide receiver rankings week 7",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "uploader",
+      "query": "アップローダー",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "scraper",
+      "query": "google maps scraper kit github",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "interpreter",
+      "query": "php interpreter",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "scheme",
+      "query": "prime minister laptop scheme",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "verifier",
+      "query": "service public",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "flux",
+      "query": "si unit of magnetic flux density",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "uploader",
+      "query": "skyrim uploader",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "assistant",
+      "query": "video assistant referee",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "comparator",
+      "query": "wid world income comparator",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "assistant",
+      "query": "aura points / aura slang",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "sender",
+      "query": "bayern arsenal welcher sender",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "scheme",
+      "query": "chromebook scheme 2026",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "scraper",
+      "query": "frost flick ice scraper",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "receiver",
+      "query": "jesse legree",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "assistant",
+      "query": "kitchen tech upgrades",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "simulator",
+      "query": "ontel simulator indonesia",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "scheme",
+      "query": "pm chromebook scheme 2026",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "scheme",
+      "query": "pm chromebook scheme apply online",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "simulator",
+      "query": "polymarket",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "pattern",
+      "query": "station master exam pattern",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "game",
+      "query": "timberwolves game",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "itch.io",
+      "query": "to eat a god itch.io",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "game",
+      "query": "world series game 1",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "game",
+      "query": "76ers game",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "itch.io",
+      "query": "creepydates itch.io",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "composer",
+      "query": "final fantasy resonance composer",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "optimizer",
+      "query": "github optimizer w11",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "scraper",
+      "query": "google maps scraper kit",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "dashboard",
+      "query": "gsws attendance dashboard",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "game",
+      "query": "sixers game",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "responder",
+      "query": "unforgotten",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "editor",
+      "query": "vikas editor",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "editor",
+      "query": "vikash editor",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "game",
+      "query": "world series 2026",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "assistant",
+      "query": "best productivity apps 2025",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "scheme",
+      "query": "chromebook scheme apply online",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "composer",
+      "query": "composer satie",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "game",
+      "query": "exodus game",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "manager",
+      "query": "man utd manager",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "assistant",
+      "query": "non-toxic air fryer",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "steam",
+      "query": "phantom blade zero",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "scheme",
+      "query": "pm youth chromebook scheme",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "scheduler",
+      "query": "seagull scheduler",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "tea",
+      "query": "tea leoni husband",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "tea",
+      "query": "tim daly",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "assistant",
+      "query": "wellness gadgets",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "designer",
+      "query": "billnass designer",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "convert",
+      "query": "convert mp3 tiktok",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "compiler",
+      "query": "cuims",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "itch.io",
+      "query": "ender itch.io",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "simulator",
+      "query": "global election simulator",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "simulator",
+      "query": "global simulator",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "flux",
+      "query": "glock flux",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "simulator",
+      "query": "groundwork simulator",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "editor",
+      "query": "m4 editor",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "optimizer",
+      "query": "nba dfs optimizer",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "simulator",
+      "query": "onthel simulator indonesia",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "game",
+      "query": "plain",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "game",
+      "query": "plain game",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "pattern",
+      "query": "rbi grade a exam pattern",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "explorer",
+      "query": "sea doo explorer",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "ai",
+      "query": "ai bubble",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "composer",
+      "query": "aida composer",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "manager",
+      "query": "bournemouth manager",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "optimizer",
+      "query": "cox-2 cybersomatic optimizer",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "steam",
+      "query": "cyberpunk",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "steam",
+      "query": "cyberpunk 2077",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "builder",
+      "query": "cyberpunk builder",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "simulator",
+      "query": "election simulator",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "syncer",
+      "query": "fitness syncer",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "game",
+      "query": "lakers game",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "manager",
+      "query": "man united manager",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "manager",
+      "query": "manchester united manager",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "optimizer",
+      "query": "nba optimizer",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "optimizer",
+      "query": "nba rotowire optimizer",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "game",
+      "query": "pacers game",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "optimizer",
+      "query": "process lasso",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "explorer",
+      "query": "seadoo explorer",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "flux",
+      "query": "si unit of magnetic flux",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "game",
+      "query": "spurs game",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "notifier",
+      "query": "steam achievement manager",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "game",
+      "query": "thunder game",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "processor",
+      "query": "ulrica food processor",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier liste electorale",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier son inscription sur liste electorale",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "tea",
+      "query": "who is tea leoni married to",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "composer",
+      "query": "wildwood composer",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "example",
+      "query": "石油",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "ai",
+      "query": "abhyas ai",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "creator",
+      "query": "creator sathi",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "constructor",
+      "query": "dia del constructor civil",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "dashboard",
+      "query": "gsws dashboard",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "verifier",
+      "query": "liste electorale 2027",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "tea",
+      "query": "loaded tea discount codes",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "optimizer",
+      "query": "nba lineup optimizer",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "explorer",
+      "query": "seadoo explorer pro",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "tea",
+      "query": "tea leoni",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier si je suis inscrit sur liste electorale",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "interpreter",
+      "query": "daniel de mondesert",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "itch.io",
+      "query": "dummylab itch.io",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "interpreter",
+      "query": "jackson chourio",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier inscription sur liste electorale",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier liste electorale inscription",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "constructor",
+      "query": "dia del constructor sodimac",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "flux",
+      "query": "flux defense glock",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "scraper",
+      "query": "google maps scraper github",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "optimizer",
+      "query": "nba starting lineups",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "scheduler",
+      "query": "scheduler msoe",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "card",
+      "query": "ufc card",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "uploader",
+      "query": "axfc uploader",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "steam",
+      "query": "mw4 steam key",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "cocrea",
+      "query": "sprunki phase 14 definitive",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "comparator",
+      "query": "tinkercad",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "creator",
+      "query": "walmart creator program",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "designer",
+      "query": "designer sofa",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "optimizer",
+      "query": "octane optimizer",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "template",
+      "query": "osm template",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "pattern",
+      "query": "scalping pattern breakout ideas",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "maker",
+      "query": "maker faire roma 2026",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "symbol",
+      "query": "nazi eagle symbol",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "template",
+      "query": "pumpkin carving template",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "interpreter",
+      "query": "abg interpreter",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "optimizer",
+      "query": "github windows 11 optimizer",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "tea",
+      "query": "jamie lee curtis",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "cocrea world",
+      "query": "penguinmod",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "sample",
+      "query": "tallentex sample paper",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "evaluator",
+      "query": "best laptop for work",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "sample",
+      "query": "doen sample sale",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "dashboard",
+      "query": "f1 dashboard",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "optimizer",
+      "query": "nba fanduel optimizer",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "convert",
+      "query": "y2mate convert into mp3",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "dashboard",
+      "query": "core app dashboard",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "optimizer",
+      "query": "edh optimizer",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "steam",
+      "query": "iom steam packet",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "extractor",
+      "query": "nsp extractor",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "responder",
+      "query": "the missing",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "designer",
+      "query": "what is a 401k",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "constructor",
+      "query": "constructor championship f1 2026",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "constructor",
+      "query": "día del constructor",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "navigator",
+      "query": "ecu navigator portal",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "flux",
+      "query": "flux raider glock",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "interpreter",
+      "query": "google colab",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "tea",
+      "query": "hc andersen født",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier tech support",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "simulator",
+      "query": "nuke simulator",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "evaluator",
+      "query": "oneforma",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "evaluator",
+      "query": "productive playhouse",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "uploader",
+      "query": "uploader en français",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "processor",
+      "query": "amd ryzen 9 9950x3d2 16-core processor",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "constructor",
+      "query": "dia del constructor",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "recorder",
+      "query": "dive recorder",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "tea",
+      "query": "email marketing for restaurants",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "slope game",
+      "query": "football bros",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "itch.io",
+      "query": "is itch.io down",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "steam",
+      "query": "mw4 steam",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "receiver",
+      "query": "oregon state receiver",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "uploader",
+      "query": "streamable",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "scheduler",
+      "query": "telehealth scheduler jobs",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "slope game",
+      "query": "tetris",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "symbol",
+      "query": "tungsten symbol",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "steam",
+      "query": "call of duty modern warfare 4 steam",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scheduler",
+      "query": "chase appointment scheduler",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "assistant",
+      "query": "dsssb",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "constructor",
+      "query": "f1 constructor",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "constructor",
+      "query": "f1 constructor standings",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "evaluator",
+      "query": "general evaluator script",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "optimizer",
+      "query": "idleon jelly operator optimizer",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "planner",
+      "query": "ku planner",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scraper",
+      "query": "prototype in the scraper",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scraper",
+      "query": "prototype in the scraper door code",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scraper",
+      "query": "proxy scraper video gratis",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "receiver",
+      "query": "rams wide receiver depth chart",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot for my address",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "steam",
+      "query": "steam packet",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "tea",
+      "query": "what is a roth ira",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "flux",
+      "query": "back to the future flux cut",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "evaluator",
+      "query": "best pizza near me",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "steam",
+      "query": "call of duty modern warfare 4",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "slope game",
+      "query": "chess",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "constructor",
+      "query": "constructor championship f1",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "constructor",
+      "query": "disfraz de constructor",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "constructor",
+      "query": "f1 standings",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "optimizer",
+      "query": "glyco optimizer reviews and complaints",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "verifier",
+      "query": "inscription liste électorale",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "itch.io",
+      "query": "itch.io breadwinner",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "scheduler",
+      "query": "labcorp appointment scheduler",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "comparator",
+      "query": "magnitude comparator",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "evaluator",
+      "query": "monitor evaluator team role",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "responder",
+      "query": "national first responder day",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "scraper",
+      "query": "proxy scraper video yandex",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "scraper",
+      "query": "proxyscrape",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "receiver",
+      "query": "puka nacua",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "color",
+      "query": "read your color",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "responder",
+      "query": "sala do futuro",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "sender",
+      "query": "sender email marketing",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "slope game",
+      "query": "smash karts",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "cocrea",
+      "query": "sprunki msi cocrea",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "cocrea",
+      "query": "spruted cocrea",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "cocrea",
+      "query": "spruted remastered cocrea",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "maker",
+      "query": "super mario maker 2",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "manager",
+      "query": "vortex mod manager",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "navigator",
+      "query": "webreg",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "optimizer",
+      "query": "zzz optimizer",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "comparator",
+      "query": "2 bit magnitude comparator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "tea",
+      "query": "best budget smartphone",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "pattern",
+      "query": "bharattalk pattern apk",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scheduler",
+      "query": "booked scheduler",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "interpreter",
+      "query": "cardi b asl interpreter",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "interpreter",
+      "query": "cardi b interpreter",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "interpreter",
+      "query": "cardi b sign language interpreter",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "evaluator",
+      "query": "ep evaluator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "uploader",
+      "query": "excel uploader",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "sample",
+      "query": "florida sample ballot 2026",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "slope game",
+      "query": "happy wheels",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "slope game",
+      "query": "kahoot",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "analyzer",
+      "query": "nba fantasy trade analyzer",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "evaluator",
+      "query": "nba trade evaluator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "evaluator",
+      "query": "outlier ai",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "card",
+      "query": "pet admit card",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "processor",
+      "query": "preethi food processor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "builder",
+      "query": "riftbound deck builder",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "responder",
+      "query": "sala do futuro aluno",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "builder",
+      "query": "schedule builder uc davis",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "syncer",
+      "query": "skill syncer",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "generator",
+      "query": "solar powered generator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "tea",
+      "query": "tea tairovic",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scheduler",
+      "query": "telehealth scheduler remote jobs",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "text comparator online",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "analyzer",
+      "query": "trade analyzer nba",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "analyzer",
+      "query": "whatsapp chat analyzer",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "4 bit magnitude comparator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "responder",
+      "query": "alo first responder discount",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "uploader",
+      "query": "bir uploader",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "interpreter",
+      "query": "brewers interpreter",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "evaluator",
+      "query": "cheapest flights to tokyo",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "navigator",
+      "query": "course schedule planner",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "card",
+      "query": "delta reign card list",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "sample",
+      "query": "florida sample ballot",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "symbol",
+      "query": "font aesthetic symbol",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "manager",
+      "query": "football manager 27",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "cocrea world",
+      "query": "itch io",
+      "rise_value": 60.0,
+      "raw_value": 60,
+      "also_from_seeds": [
+        "cocrea"
+      ]
+    },
+    {
+      "seed": "flux",
+      "query": "jessa flux",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "verifier",
+      "query": "json verifier",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "maker",
+      "query": "maker faire",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "steam",
+      "query": "modern warfare 4",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "navigator",
+      "query": "my navigator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "symbol",
+      "query": "nazi symbol",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scraper",
+      "query": "proxy vpn",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "editor",
+      "query": "roxx editor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "gumroad",
+      "query": "selar",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "cocrea",
+      "query": "sprunki phase 18",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "steam",
+      "query": "steam down",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "planner",
+      "query": "sterling ink planner",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "builder",
+      "query": "subway builder",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "creator",
+      "query": "supercell creator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "responder",
+      "query": "the responder tv show",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier mon inscription electorale",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "dashboard",
+      "query": "vu dashboard",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "analyzer",
+      "query": "chess move analyzer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator energie electrica",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "format",
+      "query": "email writing format",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "analyzer",
+      "query": "fantasy basketball trade analyzer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "flux",
+      "query": "flux defense",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scraper",
+      "query": "google maps scraper",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "connector",
+      "query": "health connector payment",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "hopper recipe minecraft",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "dashboard",
+      "query": "instagram video dashboard 4k",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "dashboard",
+      "query": "ipo dashboard",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "steam",
+      "query": "is steam down",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "maker",
+      "query": "jura coffee maker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "interpreter",
+      "query": "kelly kurdi",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "dashboard",
+      "query": "klein isd dashboard",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "format",
+      "query": "letter writing format",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "syncer",
+      "query": "lucid",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "manager",
+      "query": "nginx proxy manager",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "evaluator",
+      "query": "outlier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "receiver",
+      "query": "patriots sign ryan miller receiver",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "sender",
+      "query": "premium sender plus",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "prometric scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "format",
+      "query": "report writing format",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "editor",
+      "query": "roy editor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "planner",
+      "query": "schedule planner osu",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "downloader",
+      "query": "scribd downloader ppt format",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "compressor",
+      "query": "tnpsc login",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "explorer",
+      "query": "triumph tiger explorer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "interpreter",
+      "query": "wap interpreter",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "detector",
+      "query": "xnx xnx honeywell gas detector fault codes x",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "anesthesia scheduler",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "cataloger",
+      "query": "ashok leyland cataloger",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "slope game",
+      "query": "connections",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "analyzer",
+      "query": "ffb trade analyzer",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "slope game",
+      "query": "flappy bird",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "scheduler",
+      "query": "garvi appointment scheduler",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "generator",
+      "query": "generator for home",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "itch.io",
+      "query": "helping your boyfriend itch.io",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "interpreter",
+      "query": "interpreter meaning in hindi",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "explorer",
+      "query": "jackery explorer 500",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "recorder",
+      "query": "jitbit macro recorder",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "assistant",
+      "query": "lic assistant notification 2026",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "manager",
+      "query": "ltk manager",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "connector",
+      "query": "ma health connector login",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "compressor",
+      "query": "patta chitta",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "dashboard",
+      "query": "poshan tracker dashboard",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "analyzer",
+      "query": "privacy.net analyzer",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "processor",
+      "query": "remote claims processor jobs",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "roblox",
+      "query": "roblox music id",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "sender",
+      "query": "sender one santa ana",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "extractor",
+      "query": "sitemap extractor",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "slope game",
+      "query": "ski slope game",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "sender",
+      "query": "the sender won't see if you read their messages until you reply or add them as a contact.",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "compressor",
+      "query": "tnega",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "compressor",
+      "query": "tnpds",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "discovery_count": 473,
+  "updated_at": "2026-10-27T22:30:43.468431+00:00",
+  "scanned_seed_count": 74,
+  "batch_count": 15,
+  "attempted_seed_count": 74,
+  "complete_20_seeds": true,
+  "complete_daily_target": true,
+  "completion_pct": 100.0,
+  "failed_seed_count": 0
+}

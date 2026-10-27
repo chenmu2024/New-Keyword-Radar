@@ -1,0 +1,111 @@
+{
+  "batch_id": "2026-10-27T22:29:03.302965+00:00-2-3-4-5-6",
+  "generated_at": "2026-10-27T22:29:03.302965+00:00",
+  "local_generated_at": "2026-10-28T06:29:03.302965+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "example",
+    "convert",
+    "online",
+    "downloader",
+    "maker"
+  ],
+  "seed_indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "start_index": 2,
+  "discoveries": [
+    {
+      "seed": "online",
+      "query": "mawara.work",
+      "rise_value": 7800.0,
+      "raw_value": 7800
+    },
+    {
+      "seed": "online",
+      "query": "mahjongen.help",
+      "rise_value": 4600.0,
+      "raw_value": 4600
+    },
+    {
+      "seed": "online",
+      "query": "linkj.ink",
+      "rise_value": 4100.0,
+      "raw_value": 4100
+    },
+    {
+      "seed": "online",
+      "query": "saps online application",
+      "rise_value": 3900.0,
+      "raw_value": 3900
+    },
+    {
+      "seed": "online",
+      "query": "saps online application for 2027",
+      "rise_value": 3300.0,
+      "raw_value": 3300
+    },
+    {
+      "seed": "example",
+      "query": "老虎",
+      "rise_value": 2800.0,
+      "raw_value": 2800
+    },
+    {
+      "seed": "convert",
+      "query": "convert mp3 tiktok",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "example",
+      "query": "石油",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "maker",
+      "query": "maker faire roma 2026",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "convert",
+      "query": "y2mate convert into mp3",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "maker",
+      "query": "super mario maker 2",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "maker",
+      "query": "maker faire",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "maker",
+      "query": "jura coffee maker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "downloader",
+      "query": "scribd downloader ppt format",
+      "rise_value": 50.0,
+      "raw_value": 50
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 14
+}
