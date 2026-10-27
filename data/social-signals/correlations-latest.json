@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-10-27T16:37:05.094151+00:00",
-  "social_generated_at": "2026-10-27T16:37:05.094151+00:00",
+  "generated_at": "2026-10-27T22:56:32.739713+00:00",
+  "social_generated_at": "2026-10-27T22:56:32.739713+00:00",
   "trends_coverage": {
-    "archive_date": "2026-10-27",
+    "archive_date": "2026-10-28",
     "scanned_seed_count": 74,
     "target_seed_count": 74,
     "complete_daily_target": true,
-    "rising_total": 490,
+    "rising_total": 473,
     "eligible_exact_queries": 436
   },
-  "social_unique_in_run": 57,
+  "social_unique_in_run": 54,
   "review_window": {
     "trend_days_evaluated": [
+      {
+        "archive_date": "2026-10-28",
+        "scanned_seed_count": 74,
+        "target_seed_count": 74,
+        "complete_daily_target": true,
+        "rising_total": 473,
+        "eligible_exact_queries": 436
+      },
       {
         "archive_date": "2026-10-27",
         "scanned_seed_count": 74,
@@ -29,14 +37,14 @@
         "eligible_exact_queries": 446
       }
     ],
-    "exact_queries_in_window": 586,
-    "social_current_run": 57,
-    "social_prior_sightings_72h": 280,
-    "social_reviewable_72h": 337,
+    "exact_queries_in_window": 706,
+    "social_current_run": 54,
+    "social_prior_sightings_72h": 292,
+    "social_reviewable_72h": 346,
     "window_hours": 72,
     "not_new_discoveries_warning": "Window includes older links recently re-seen. Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."
   },
-  "cross_matches": 0,
+  "cross_matches": 1,
   "public_question_hypotheses": 1,
   "query_hypotheses": [
     {
@@ -68,6 +76,32 @@
       "next_check": "Identify product, exact complaint, free alternatives, actual keyword demand and original post context."
     }
   ],
-  "candidates": [],
+  "candidates": [
+    {
+      "query": "pumpkin carving template",
+      "relative_rising_value": 150.0,
+      "seed": "template",
+      "sources": {
+        "bluesky": 1
+      },
+      "links": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/noeldickover.bsky.social/post/3myl4zexpd22o",
+          "title": "Love the carvings! I don't have any nature templates other than this but if Wyland's First Breath as pumpkin carving template is useful, have at it. Photo is from 2006. Feel free",
+          "published_at": "2026-10-23T21:34:27.954000+00:00",
+          "evidence_type": "direct_public_post",
+          "potential_first_person_question": false,
+          "verified_customer_demand": false,
+          "original_comments_verified": false
+        }
+      ],
+      "independent_platforms": 1,
+      "distinct_urls": 1,
+      "original_post_question_hints": 0,
+      "ready_to_build": false,
+      "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
+    }
+  ],
   "caveat": "Exact multiword overlap is only a research lead, not verified demand, traffic, money, recent trend trajectory, or easy SERP. No automatic recommendation or modification of pending keywords."
 }

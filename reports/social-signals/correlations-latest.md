@@ -1,17 +1,22 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-10-27T16:37:05.094151+00:00
-- Source last updated: 2026-10-27T16:37:05.094151+00:00
-- Trends archive: 2026-10-27 (74/74; complete=True)
+- Generated: 2026-10-27T22:56:32.739713+00:00
+- Source last updated: 2026-10-27T22:56:32.739713+00:00
+- Trends archive: 2026-10-28 (74/74; complete=True)
 - Eligible multiword rising queries: 436
-- Cross-source matches within 72h review window: 0
-- Social current-run links: 57, prior recent sightings: 280
-- Search archives examined: 2026-10-27, 2026-10-26
+- Cross-source matches within 72h review window: 1
+- Social current-run links: 54, prior recent sightings: 292
+- Search archives examined: 2026-10-28, 2026-10-27, 2026-10-26
 - Direct-post question-derived QUERY HYPOTHESES: 1
 - Direct-post author self-reported payments (NOT processor verified): 1
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
-No reliable full-query cross-source overlap found in this scan.
+## pumpkin carving template
+
+- Relative Trends rising value: 150.0 (NOT Volume)
+- Distinct matched platforms: 1
+- Direct public-post question hints: 0
+- bluesky: https://bsky.app/profile/noeldickover.bsky.social/post/3myl4zexpd22o (direct_public_post)
 
 ## Original public-post question hints (NOT validated search keywords)
 
