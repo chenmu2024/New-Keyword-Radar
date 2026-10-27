@@ -6,9 +6,9 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 34
-- Usable Google Trends time series: 13/34
-- Missing or failed Google Trends time series: 21/34
+- Total distinct expressions researched: 36
+- Usable Google Trends time series: 14/36
+- Missing or failed Google Trends time series: 22/36
 - Data coverage status: partial_coverage (not a keyword verdict)
 - Rate-limit safety backoff: inactive
 - 90-day + historical-interest passes: 1
@@ -16,6 +16,21 @@ a winnable SERP, paid demand or monthly search volume.
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### pdf image converter (US)
+- Source: [apify-actors-a](https://apify.com/ai_admin/pdf-image-converter)
+- Checked: 2026-10-27T16:20:36.672319+08:00 | Status: **no_recent_trends_breakout**
+- Google Trends 90d baseline avg: 15.94; recent peak: 100; newness score: 35
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+
+### cache control checker (US)
+- Source: [apify-actors-z](https://apify.com/scrappy_garden/cache-control-checker)
+- Checked: 2026-10-27T16:20:36.672319+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
 
 ### broken link checker (US)
 - Source: [apify-actors-z](https://apify.com/scrappy_garden/broken-link-checker)
