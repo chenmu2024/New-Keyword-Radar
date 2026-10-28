@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-10-28T02:14:17.462881+00:00
+# V4 Social signal discovery — 2026-10-28T09:37:31.960204+00:00
 
-- Unique links this run: 61, newly seen: 41, history: 387
+- Unique links this run: 60, newly seen: 17, history: 404
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (3) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (2) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (34)
@@ -20,33 +20,32 @@
 
 ## Links (not validated project opportunities)
 
-- [Orbit](https://www.producthunt.com/products/orbit-app-blocker) — producthunt — direct_public_feed
-- [Nuvio 5.0](https://www.producthunt.com/products/nuvio) — producthunt — direct_public_feed
-- [GPT-6.1 Terra](https://www.producthunt.com/products/openai) — producthunt — direct_public_feed
-- [Coachare](https://www.producthunt.com/products/coachare) — producthunt — direct_public_feed
-- [fswitcher](https://www.producthunt.com/products/fswitcher) — producthunt — direct_public_feed
-- [NuPlay](https://www.producthunt.com/products/nuplay) — producthunt — direct_public_feed
-- [alubbert/alberts-domain](https://huggingface.co/spaces/alubbert/alberts-domain) — huggingface — direct_public_api
-- [Vekaihuahua/First_agent_template](https://huggingface.co/spaces/Vekaihuahua/First_agent_template) — huggingface — direct_public_api
-- [WellmatixGenAI/semiconductor-thermal-ai](https://huggingface.co/spaces/WellmatixGenAI/semiconductor-thermal-ai) — huggingface — direct_public_api
-- [Kayoung2601110295/AiChat2](https://huggingface.co/spaces/Kayoung2601110295/AiChat2) — huggingface — direct_public_api
-- [NirmalMandal/StepAudio-3-Music](https://huggingface.co/spaces/NirmalMandal/StepAudio-3-Music) — huggingface — direct_public_api
-- [phamnghiahiep/9router](https://huggingface.co/spaces/phamnghiahiep/9router) — huggingface — direct_public_api
-- [I’m having fun with the lasso tool again, and the round brush. I feel so free….at least for now, till I’m like “damn, I need a textured brush…”.](https://bsky.app/profile/sersire.bsky.social/post/3myvnh25kb22c) — bluesky — direct_public_post — intent keyword found
-- [A useful tool to check drug interactions, just in case you need to be made aware of it! Unfortunately, doctors and pharmacists will sometimes not inform you of interactions or chec](https://bsky.app/profile/eskiworks.bsky.social/post/3myvn4gsrs22s) — bluesky — direct_public_post — intent keyword found
-- [Backing up p5.js editor sketches is such a practical gift — the editor is great until you need an offline archive or a migration. Does the tool keep project structure and libraries](https://bsky.app/profile/vibepaper.bsky.social/post/3myvmixa3gw2l) — bluesky — direct_public_post — intent keyword found
-- [procreate is a cheap one time purchase and ive used it for body textures and face textures. you can import fbx files (idk about other formats) and color on the mesh itself. it can](https://bsky.app/profile/kypepe.etheirys.social/post/3myvm7xxxkc2q) — bluesky — direct_public_post — intent keyword found
-- [Yep. There's all kinds of people suffering that need help and all these people are doing is stigmatizing us for being unwell and blaming a tool that could very well help us for mak](https://bsky.app/profile/alonwoof.moe/post/3myvm3xbhkk2z) — bluesky — direct_public_post — intent keyword found
-- [If it were $20 per day, it'd still be a weak offer. Need to go in hard on a proper change It was only a week or so ago people were going "but he's a scary socialist" and here he i](https://bsky.app/profile/myfreecats.com/post/3myvkkgri7k2p) — bluesky — direct_public_post — intent keyword found
-- [KitCut moved its AI film studio off a $250-a-month Azure VM onto a used gaming PC, and the same 8-minute film renders in 3m49s instead of 17m42s https:// lockergnome.com/kitcut-ai-](https://mastodon.social/@ChrisPirillo/117515984111282510) — mastodon — direct_public_post
-- [I typed one line and got a full TikTok video 🤯 (TokMax AI) "Baby tasting a lemon for the first time." That's the whole prompt. No camera, no studio, no actors. What line would you](https://mastodon.social/@rankmarket99/117513469706714987) — mastodon — direct_public_post
-- [I'm live on Fiverr 🚀 🌐 Clean, fast websites for small businesses — one-page website $400, multi-page website (up to 5 pages) $700: http://www. fiverr.com/s/0DD3Z6v 🎬 Viral AI video](https://mastodon.social/@deshimself/117513386670827990) — mastodon — direct_public_post
+- [LFM3 by Liquid AI](https://www.producthunt.com/products/lfm2) — producthunt — direct_public_feed
+- [Yardlet](https://www.producthunt.com/products/yardlet-2) — producthunt — direct_public_feed
+- [throxy (yc p25)](https://www.producthunt.com/products/throxy-yc-p25) — producthunt — direct_public_feed
+- [Hob](https://www.producthunt.com/products/hob-3) — producthunt — direct_public_feed
+- [licenseal](https://www.producthunt.com/products/licenseal) — producthunt — direct_public_feed
+- [TONKO](https://www.producthunt.com/products/tonko) — producthunt — direct_public_feed
+- [vaibhavshiroorkar/deepfake-generalization](https://huggingface.co/spaces/vaibhavshiroorkar/deepfake-generalization) — huggingface — direct_public_api
+- [chinmayak/huggingface-static-7616c6](https://huggingface.co/spaces/chinmayak/huggingface-static-7616c6) — huggingface — direct_public_api
+- [kenzodk9/turnstile](https://huggingface.co/spaces/kenzodk9/turnstile) — huggingface — direct_public_api
+- [cha19852445/ai-content-creator](https://huggingface.co/spaces/cha19852445/ai-content-creator) — huggingface — direct_public_api
+- [xjy999/ele-test](https://huggingface.co/spaces/xjy999/ele-test) — huggingface — direct_public_api
+- [DeeCee/qwen-image-2-1-realtime](https://huggingface.co/spaces/DeeCee/qwen-image-2-1-realtime) — huggingface — direct_public_api
+- [Stained Glass Generator: Create Custom Designs Instantly](https://bsky.app/profile/bloglink.bsky.social/post/3myvl7jj43y2t) — bluesky — direct_public_post — intent keyword found
+- [New setup for the craft night at the climbing gym! Trying out these rechargeable music stand lights for some extra pop. I was contemplating a big ass generator and trade show light](https://bsky.app/profile/jamienoguchi.bsky.social/post/3myvdl223gk2a) — bluesky — direct_public_post — intent keyword found
+- [Wait is there still a diesel generator for HEP? That’s so stupid!](https://bsky.app/profile/mdasilva.bsky.social/post/3myuhpfv5nk2q) — bluesky — direct_public_post — intent keyword found
+- [Tinkering with a town generator. Various roll charts to set up the town, factions and temples, and a system for plotting out the town's layout. The basics. Here is a town I made. 🏘](https://bsky.app/profile/drew-makes-games.itch.io/post/3mytje3cm4s2b) — bluesky — direct_public_post — intent keyword found
+- [The sad thing is I don’t think people are even getting back handers and fake jobs out of this stuff. There does seem to be a belief that this will be a money generator at some po](https://bsky.app/profile/rayminehane.bsky.social/post/3myrxz7wtg22q) — bluesky — direct_public_post — intent keyword found
+- [This race is already on for a few years with Lovable and many other tools, claiming to automate the manual design creation steps? And there were attempts to fully automate the wh](https://bsky.app/profile/mandrasch.bsky.social/post/3myr2yysycc2r) — bluesky — direct_public_post
+- [Halloween is almost here. 🎃🌙 A quiet night. A strange thought. A note from someone you've never met. On Driftya, short notes travel between strangers, gathering replies along the w](https://mastodon.social/@Driftya/117517753839353339) — mastodon — direct_public_post
+- [# Business # Fun Come back to Firefox · “The Internet you loved is still here.” https:// ilo.im/16hdgm _____ # Firefox # Browser # Privacy # Websites # OpenWeb # SmallWeb # IndieWe](https://mastodon.social/@inautilo/117516083190902103) — mastodon — direct_public_post
 - [DietPi v10.8 has been released](https://news.ycombinator.com/item?id=50260146) — hackernews_ask — direct_public_post — intent keyword found
 - [Expericencing an issue in Gmail where emails do not delete in Firefox](https://news.ycombinator.com/item?id=50259191) — hackernews_ask — direct_public_post
+- [Hey, Y Combinator - What will happen to humans?](https://news.ycombinator.com/item?id=50256932) — hackernews_ask — direct_public_post
 - [Slow Cloudflare Connections](https://news.ycombinator.com/item?id=50261688) — hackernews_ask — direct_public_post
 - [Ask HN: T'was the night of Claude Reset and quota left: Funniest app you built?](https://news.ycombinator.com/item?id=50261396) — hackernews_ask — direct_public_post
-- [Why remote roles are becoming extinct in 2026?](https://news.ycombinator.com/item?id=50255318) — hackernews_ask — direct_public_post
-- [Hey, Y Combinator - What will happen to humans?](https://news.ycombinator.com/item?id=50256932) — hackernews_ask — direct_public_post
+- [Do you want to keep your job? Stop feeding AI models](https://news.ycombinator.com/item?id=50253524) — hackernews_ask — direct_public_post
 - [Revenue reset: prioritize verified cashflow over infrastructure](https://github.com/me-fake-you/clearsheet-offers/issues/3) — github_issue — direct_public_issue_api
 - [vNext experience release: premium Web/BFF redesign, mobile QA and guarded promotion](https://github.com/Fullworth-prod/FullWorth/issues/934) — github_issue — direct_public_issue_api
 - [SUCCESSOR Ω: Build the Next Discovery Lab — public integration checklist](https://github.com/MontrealAI/AGI-Alpha-Agent-v0/issues/4850) — github_issue — direct_public_issue_api
@@ -60,3 +59,4 @@
 - [Apply HN: HR Partner – human resource management for small businesses](https://news.ycombinator.com/item?id=11445068) — hackernews_ask — indexed_public_post_excerpt
 - [Ask HN: Small business bank account – who do you use?](https://news.ycombinator.com/item?id=11438973) — hackernews_ask — indexed_public_post_excerpt
 - [POC: AI自律開発の意思決定・人間介入ログ](https://github.com/ryohryp/crownless/issues/367) — github_issue — direct_public_issue_api
+- [bug(review): intended-untracked selection submission drops the committed-only --base-ref selector, widening a slice to the whole branch until lens_context_budget_exceeded (3.5.0 stable)](https://github.com/Gentleman-Programming/gentle-ai/issues/4890) — github_issue — direct_public_issue_api
