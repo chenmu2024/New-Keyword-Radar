@@ -1,69 +1,90 @@
-# Sitemap delta research — 2026-10-28
+# Sitemap delta research — 2026-10-29
 
 Unverified leads only. Baseline URL snapshots are NOT discoveries.
-Sources succeeded: 17/18; new URLs: 41; candidate URL leads: 39; first-time keyword/geo research leads: 38; reappeared URLs: 14; retained queue: 2000. Neither URL changes nor leads establish search demand.
+Sources succeeded: 18/18; new URLs: 328; candidate URL leads: 280; first-time keyword/geo research leads: 280; reappeared URLs: 6; retained queue: 2000. Neither URL changes nor leads establish search demand.
 
 ## Sources
 
-- crazygames-en: delta; 6 new URLs; 5357 pages; removed 1; reappeared 1; candidate scan cap skipped 0
-- crazygames-br: delta; 2 new URLs; 5353 pages; removed 1; reappeared 0; candidate scan cap skipped 0
-- crazygames-es: delta; 2 new URLs; 5353 pages; removed 1; reappeared 0; candidate scan cap skipped 0
-- gamepix-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; TimeoutError: The read operation timed out
-- gamepix-pt: delta; 10 new URLs; 19413 pages; removed 6; reappeared 0; candidate scan cap skipped 0
-- minijuegos-es: delta; 6 new URLs; 27553 pages; removed 0; reappeared 1; candidate scan cap skipped 0
+- crazygames-en: delta; 5 new URLs; 5362 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-br: delta; 9 new URLs; 5362 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-es: delta; 9 new URLs; 5362 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- gamepix-en: delta; 81 new URLs; 19497 pages; removed 0; reappeared 0; candidate scan cap skipped 1
+- gamepix-pt: delta; 85 new URLs; 19504 pages; removed 0; reappeared 6; candidate scan cap skipped 5
+- minijuegos-es: delta; 0 new URLs; 27553 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - friv-en: delta; 0 new URLs; 1183 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculator-soup: delta; 0 new URLs; 502 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- vercel-product-watch: delta; 5 new URLs; 2673 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- n8n-workflows: delta; 0 new URLs; 13728 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- railway-templates: delta; 8 new URLs; 7167 pages; removed 1; reappeared 0; candidate scan cap skipped 0
+- vercel-product-watch: delta; 2 new URLs; 2675 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- n8n-workflows: delta; 43 new URLs; 13762 pages; removed 9; reappeared 0; candidate scan cap skipped 0
+- railway-templates: delta; 71 new URLs; 7237 pages; removed 1; reappeared 0; candidate scan cap skipped 0
 - railway-changelog: delta; 0 new URLs; 313 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - apify-actors-a: delta; 0 new URLs; 5956 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - apify-actors-z: delta; 0 new URLs; 5976 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - futurepedia-tools: delta; 0 new URLs; 2499 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - netlify-product-watch: delta; 0 new URLs; 799 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - onlinetools-br: delta; 0 new URLs; 109 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- producthunt-products: delta; 2 new URLs; 21679 pages; removed 0; reappeared 12; candidate scan cap skipped 0
+- producthunt-products: delta; 23 new URLs; 21702 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 
 ## New URL leads (not proven new keywords)
 
-- [blocky league](https://www.crazygames.com/game/blocky-league) — crazygames-en / US
-- [silent assassin](https://www.crazygames.com/game/silent-assassin) — crazygames-en / US
-- [cryptograms](https://www.crazygames.com/game/cryptograms) — crazygames-en / US
-- [hide shoot](https://www.crazygames.com/game/hide-shoot) — crazygames-en / US
-- [doorman story](https://www.crazygames.com/game/doorman-story) — crazygames-en / US
-- [catch the shark](https://www.crazygames.com/game/catch-the-shark) — crazygames-en / US
-- [cryptograms](https://www.crazygames.com/br/game/cryptograms) — crazygames-br / BR
-- [blocky league](https://www.crazygames.com/br/game/blocky-league) — crazygames-br / BR
-- [cryptograms](https://www.crazygames.com/es/game/cryptograms) — crazygames-es / ES
-- [blocky league](https://www.crazygames.com/es/game/blocky-league) — crazygames-es / ES
-- [pulse disc](https://www.gamepix.com/pt/play/pulse-disc) — gamepix-pt / BR
-- [hexa glow](https://www.gamepix.com/pt/play/hexa-glow) — gamepix-pt / BR
-- [seleon](https://www.gamepix.com/pt/play/seleon) — gamepix-pt / BR
-- [merge haven cafe](https://www.gamepix.com/pt/play/merge-haven-cafe) — gamepix-pt / BR
-- [moru friends](https://www.gamepix.com/pt/play/moru-friends) — gamepix-pt / BR
-- [wild wheels](https://www.gamepix.com/pt/play/wild-wheels) — gamepix-pt / BR
-- [fully booked hotel](https://www.gamepix.com/pt/play/fully-booked-hotel) — gamepix-pt / BR
-- [spirit gourd](https://www.gamepix.com/pt/play/spirit-gourd) — gamepix-pt / BR
-- [miaomiao cat hop](https://www.gamepix.com/pt/play/miaomiao-cat-hop) — gamepix-pt / BR
-- [hook harbor](https://www.gamepix.com/pt/play/hook-harbor) — gamepix-pt / BR
-- [splash rivals](https://www.minijuegos.com/juego/splash-rivals) — minijuegos-es / ES
-- [snack stack](https://www.minijuegos.com/juego/snack-stack) — minijuegos-es / ES
-- [granny 3](https://www.minijuegos.com/juego/granny-3) — minijuegos-es / ES
-- [race rocket arena car extreme](https://www.minijuegos.com/juego/race-rocket-arena-car-extreme) — minijuegos-es / ES
-- [the ultimate doom](https://www.minijuegos.com/juego/the-ultimate-doom) — minijuegos-es / ES
-- [shell survivor](https://www.minijuegos.com/juego/shell-survivor) — minijuegos-es / ES
-- [elevenlabs on ai gateway](https://vercel.com/blog/elevenlabs-on-ai-gateway) — vercel-product-watch / US
-- [fx harness adapter now separates host and sandbox](https://vercel.com/changelog/fx-harness-adapter-now-separates-host-and-sandbox) — vercel-product-watch / US
-- [vercel plugin now available in opencode](https://vercel.com/changelog/vercel-plugin-now-available-in-opencode) — vercel-product-watch / US
-- [ai traffic insights now available in vercel observability](https://vercel.com/changelog/ai-traffic-insights-now-available-in-vercel-observability) — vercel-product-watch / US
-- [deploy a container from a plain dockerfile](https://vercel.com/changelog/deploy-a-container-from-a-plain-dockerfile) — vercel-product-watch / US
-- [school timetable generator](https://railway.com/deploy/school-timetable-generator) — railway-templates / US
-- [n8n 30 workers n8n v3 pro stack n8n 30](https://railway.com/deploy/n8n-30-workers-n8n-v3-pro-stack--n8n-30) — railway-templates / US
-- [sharpmush stable](https://railway.com/deploy/sharpmush-stable) — railway-templates / US
-- [rackula server rack layout designer rackula](https://railway.com/deploy/rackula-server-rack-layout-designer--rackula) — railway-templates / US
-- [materialious modern youtube client on your own invidious materialious](https://railway.com/deploy/materialious-modern-youtube-client-on-your-own-invidious--materialious) — railway-templates / US
-- [n8n with workers 1 click n8n with workers 1 1](https://railway.com/deploy/n8n-with-workers-1-click--n8n-with-workers-1-1) — railway-templates / US
-- [coachare](https://www.producthunt.com/products/coachare) — producthunt-products / US
-- [ninx 2](https://www.producthunt.com/products/ninx-2) — producthunt-products / US
+- [spin rivals nrp](https://www.crazygames.com/game/spin-rivals-nrp) — crazygames-en / US
+- [fashion disaster fix](https://www.crazygames.com/game/fashion-disaster-fix) — crazygames-en / US
+- [planet defense](https://www.crazygames.com/game/planet-defense) — crazygames-en / US
+- [guess the number gdx](https://www.crazygames.com/game/guess-the-number-gdx) — crazygames-en / US
+- [catch the shark](https://www.crazygames.com/br/game/catch-the-shark) — crazygames-br / BR
+- [silent assassin](https://www.crazygames.com/br/game/silent-assassin) — crazygames-br / BR
+- [doorman story](https://www.crazygames.com/br/game/doorman-story) — crazygames-br / BR
+- [hide shoot](https://www.crazygames.com/br/game/hide-shoot) — crazygames-br / BR
+- [spin rivals nrp](https://www.crazygames.com/br/game/spin-rivals-nrp) — crazygames-br / BR
+- [fashion disaster fix](https://www.crazygames.com/br/game/fashion-disaster-fix) — crazygames-br / BR
+- [planet defense](https://www.crazygames.com/br/game/planet-defense) — crazygames-br / BR
+- [guess the number gdx](https://www.crazygames.com/br/game/guess-the-number-gdx) — crazygames-br / BR
+- [silent assassin](https://www.crazygames.com/es/game/silent-assassin) — crazygames-es / ES
+- [spin rivals nrp](https://www.crazygames.com/es/game/spin-rivals-nrp) — crazygames-es / ES
+- [fashion disaster fix](https://www.crazygames.com/es/game/fashion-disaster-fix) — crazygames-es / ES
+- [planet defense](https://www.crazygames.com/es/game/planet-defense) — crazygames-es / ES
+- [guess the number gdx](https://www.crazygames.com/es/game/guess-the-number-gdx) — crazygames-es / ES
+- [catch the shark](https://www.crazygames.com/es/game/catch-the-shark) — crazygames-es / ES
+- [hide shoot](https://www.crazygames.com/es/game/hide-shoot) — crazygames-es / ES
+- [doorman story](https://www.crazygames.com/es/game/doorman-story) — crazygames-es / ES
+- [chroma chime](https://www.gamepix.com/play/chroma-chime) — gamepix-en / US
+- [word snake](https://www.gamepix.com/play/word-snake) — gamepix-en / US
+- [neon arrow escape](https://www.gamepix.com/play/neon-arrow-escape) — gamepix-en / US
+- [duck marsh 70](https://www.gamepix.com/play/duck-marsh-70) — gamepix-en / US
+- [arrow dash](https://www.gamepix.com/play/arrow-dash) — gamepix-en / US
+- [space bugs](https://www.gamepix.com/play/space-bugs) — gamepix-en / US
+- [neon sky roll](https://www.gamepix.com/play/neon-sky-roll) — gamepix-en / US
+- [cat vs mice 3d](https://www.gamepix.com/play/cat-vs-mice-3d) — gamepix-en / US
+- [brick breaker boss](https://www.gamepix.com/play/brick-breaker-boss) — gamepix-en / US
+- [hide from chickens](https://www.gamepix.com/play/hide-from-chickens) — gamepix-en / US
+- [traxis path](https://www.gamepix.com/play/traxis-path) — gamepix-en / US
+- [frog vs bugs](https://www.gamepix.com/play/frog-vs-bugs) — gamepix-en / US
+- [arrow rhythm](https://www.gamepix.com/play/arrow-rhythm) — gamepix-en / US
+- [snake pr](https://www.gamepix.com/play/snake-pr) — gamepix-en / US
+- [kyvlo](https://www.gamepix.com/play/kyvlo) — gamepix-en / US
+- [balance scale](https://www.gamepix.com/play/balance-scale) — gamepix-en / US
+- [nexora](https://www.gamepix.com/play/nexora) — gamepix-en / US
+- [voidrush](https://www.gamepix.com/play/voidrush) — gamepix-en / US
+- [gunshell assault](https://www.gamepix.com/play/gunshell-assault) — gamepix-en / US
+- [space odyssey](https://www.gamepix.com/play/space-odyssey) — gamepix-en / US
+- [quantum catch](https://www.gamepix.com/play/quantum-catch) — gamepix-en / US
+- [lumina wardens grove defense](https://www.gamepix.com/play/lumina-wardens-grove-defense) — gamepix-en / US
+- [par breakers](https://www.gamepix.com/play/par-breakers) — gamepix-en / US
+- [yesterday farm](https://www.gamepix.com/play/yesterday-farm) — gamepix-en / US
+- [hurdle hounds](https://www.gamepix.com/play/hurdle-hounds) — gamepix-en / US
+- [sword smash](https://www.gamepix.com/play/sword-smash) — gamepix-en / US
+- [rubber doodle](https://www.gamepix.com/play/rubber-doodle) — gamepix-en / US
+- [chrono spira](https://www.gamepix.com/play/chrono-spira) — gamepix-en / US
+- [sindokus](https://www.gamepix.com/play/sindokus) — gamepix-en / US
+- [ink clash](https://www.gamepix.com/play/ink-clash) — gamepix-en / US
+- [starpile](https://www.gamepix.com/play/starpile) — gamepix-en / US
+- [inkblade](https://www.gamepix.com/play/inkblade) — gamepix-en / US
+- [jollof saga](https://www.gamepix.com/play/jollof-saga) — gamepix-en / US
+- [smashcue](https://www.gamepix.com/play/smashcue) — gamepix-en / US
+- [hang in balance](https://www.gamepix.com/play/hang-in-balance) — gamepix-en / US
+- [web swing](https://www.gamepix.com/play/web-swing) — gamepix-en / US
+- [street smart echoes of home](https://www.gamepix.com/play/street-smart-echoes-of-home) — gamepix-en / US
+- [swingpit](https://www.gamepix.com/play/swingpit) — gamepix-en / US
+- [escape the giant cat](https://www.gamepix.com/play/escape-the-giant-cat) — gamepix-en / US
+- [jinxed jump](https://www.gamepix.com/play/jinxed-jump) — gamepix-en / US
 
 Next: verify original keyword age, country search demand, SERP and monetization independently.

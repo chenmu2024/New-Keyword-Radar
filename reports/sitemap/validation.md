@@ -1,4 +1,4 @@
-# Sitemap to Google Trends validation — 2026-10-28
+# Sitemap to Google Trends validation — 2026-10-29
 
 This is independent research; original keyword seeds, commercial
 thresholds and the main radar candidate ranking are untouched.
@@ -6,9 +6,9 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 40
-- Usable Google Trends time series: 16/40
-- Missing or failed Google Trends time series: 24/40
+- Total distinct expressions researched: 42
+- Usable Google Trends time series: 17/42
+- Missing or failed Google Trends time series: 25/42
 - Data coverage status: partial_coverage (not a keyword verdict)
 - Rate-limit safety backoff: inactive
 - 90-day + historical-interest passes: 1
@@ -16,6 +16,21 @@ a winnable SERP, paid demand or monthly search volume.
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### cors policy checker (US)
+- Source: [apify-actors-z](https://apify.com/scrappy_garden/cors-policy-checker)
+- Checked: 2026-10-29T03:49:19.657235+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
+
+### date of birth calculator (US)
+- Source: [calculator-soup](https://www.calculatorsoup.com/calculators/time/date-of-birth-calculator.php)
+- Checked: 2026-10-29T03:49:19.657235+08:00 | Status: **no_recent_trends_breakout**
+- Google Trends 90d baseline avg: 19.77; recent peak: 100; newness score: 35
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
 
 ### school timetable generator (US)
 - Source: [railway-templates](https://railway.com/deploy/school-timetable-generator)
@@ -305,22 +320,6 @@ a winnable SERP, paid demand or monthly search volume.
 - Historical 5y gate: not run
 - Search Volume/KD/CPC remains unverified; not a build recommendation.
 - Data error: Missing Google Trends observations
-
-### uk public tenders tracker (US)
-- Source: [apify-actors-a](https://apify.com/agentic_solutions/uk-public-tenders-tracker)
-- Checked: 2026-10-19T10:06:01.308021+08:00 | Status: **error**
-- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
-- Historical 5y gate: not run
-- Search Volume/KD/CPC remains unverified; not a build recommendation.
-- Data error: BrowserError: Google Trends Explore did not render the interest-over-time chart, and no rate-limit message was shown — the page structure may have changed.  This usually means Google updated the Explo
-
-### agoda scraper (US)
-- Source: [apify-actors-a](https://apify.com/aboo.script/agoda-scraper)
-- Checked: 2026-10-19T10:06:01.308021+08:00 | Status: **error**
-- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
-- Historical 5y gate: not run
-- Search Volume/KD/CPC remains unverified; not a build recommendation.
-- Data error: BrowserError: Google Trends Explore did not render the interest-over-time chart, and no rate-limit message was shown — the page structure may have changed.  This usually means Google updated the Explo
 
 ## Next independent checks
 
