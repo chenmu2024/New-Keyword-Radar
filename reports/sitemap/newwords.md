@@ -7,7 +7,7 @@
 Sitemap URL 首次出现时间、Google Trends 相对热度与搜索月量是三种不同数据。
 
 - 已核查近期发布并进入 Sitemap 队列的名称：2
-- 已明确排除为旧发布的 URL：9
+- 已明确排除为旧发布的 URL：8
 - 仅 Sitemap 新词部分：Semrush Volume/KD/CPC = 未验证
 - 从未将 Apify 收费功能或 SaaS 真实收入当成新词依据
 
@@ -33,7 +33,6 @@ Sitemap URL 首次出现时间、Google Trends 相对热度与搜索月量是三
 - ~~fact or cap~~ — 2026-08-06 上线，不是 2026-10-28 的新发布。[gamepix-pt](https://www.gamepix.com/pt/play/fact-or-cap)
 - ~~zuma boom 2~~ — 2026-08-31 上线，不是 2026-10-28 的新发布。[gamepix-pt](https://www.gamepix.com/pt/play/zuma-boom-2)
 - ~~snakearea io~~ — 2026-09-30 上线，不是 2026-10-28 的新发布。[gamepix-en](https://www.gamepix.com/play/snakearea-io)
-- ~~dino arena~~ — 2026-10-12 上线，不是 2026-10-28 的新发布。[gamepix-pt](https://www.gamepix.com/pt/play/dino-arena)
 
 ## 继续核验，不提前宣布搜索量
 

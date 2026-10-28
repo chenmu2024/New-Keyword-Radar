@@ -6,9 +6,9 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 38
-- Usable Google Trends time series: 16/38
-- Missing or failed Google Trends time series: 22/38
+- Total distinct expressions researched: 40
+- Usable Google Trends time series: 16/40
+- Missing or failed Google Trends time series: 24/40
 - Data coverage status: partial_coverage (not a keyword verdict)
 - Rate-limit safety backoff: inactive
 - 90-day + historical-interest passes: 1
@@ -16,6 +16,22 @@ a winnable SERP, paid demand or monthly search volume.
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### school timetable generator (US)
+- Source: [railway-templates](https://railway.com/deploy/school-timetable-generator)
+- Checked: 2026-10-28T16:57:22.770885+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
+
+### cookie security flags checker (US)
+- Source: [apify-actors-z](https://apify.com/scrappy_garden/cookie-security-flags-checker)
+- Checked: 2026-10-28T16:57:22.770885+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
 
 ### qr barcode generator (US)
 - Source: [apify-actors-a](https://apify.com/actose/qr-barcode-generator)
