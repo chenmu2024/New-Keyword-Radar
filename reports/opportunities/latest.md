@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-27T22:30:52.770629+00:00
+- Updated (UTC): 2026-10-28T01:16:23.969677+00:00
 - Historical candidates: 1718
-- Newly recorded from pending: 124
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 152
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 2 bit magnitude comparator [Global] — discovered — first 2026-10-28, last 2026-10-28
-- alienware aurora gaming desktop act1250 intel core ultra 7 265kf processor [Global] — discovered — first 2026-10-28, last 2026-10-28
-- alo first responder discount [Global] — discovered — first 2026-10-28, last 2026-10-28
-- anesthesia scheduler [Global] — discovered — first 2026-10-28, last 2026-10-28
-- arnab cyclone tracker [Global] — discovered — first 2026-10-28, last 2026-10-28
-- ashok leyland cataloger [Global] — discovered — first 2026-10-28, last 2026-10-28
-- aura points / aura slang [Global] — discovered — first 2026-10-28, last 2026-10-28
-- back to the future flux cut [Global] — discovered — first 2026-10-28, last 2026-10-28
-- backlink checker regalseo [Global] — discovered — first 2026-10-28, last 2026-10-28
-- ballon d'or 2026 live [Global] — discovered — first 2026-10-28, last 2026-10-28
-- brewers interpreter [Global] — discovered — first 2026-10-28, last 2026-10-28
-- cfmeu coomera connector dispute [Global] — discovered — first 2026-10-28, last 2026-10-28
-- chase appointment scheduler [Global] — discovered — first 2026-10-28, last 2026-10-28
-- chess move analyzer [Global] — discovered — first 2026-10-28, last 2026-10-28
 - chumbkiya flux ghanatv ka si matrak [Global] — discovered — first 2026-10-28, last 2026-10-28
-- chumbkiya flux ka matrak [Global] — discovered — first 2026-10-28, last 2026-10-28
-- chumbkiya flux ka si matrak [Global] — discovered — first 2026-10-28, last 2026-10-28
-- civil service pension scheme recovery plan [Global] — discovered — first 2026-10-28, last 2026-10-28
-- comparator energie electrica [Global] — discovered — first 2026-10-28, last 2026-10-28
-- connections [Global] — discovered — first 2026-10-28, last 2026-10-28
-- constructor championship f1 [Global] — discovered — first 2026-10-28, last 2026-10-28
-- cyclone arnab [Global] — discovered — first 2026-10-28, last 2026-10-28
-- cyclone arnab tracker [Global] — discovered — first 2026-10-28, last 2026-10-28
-- daniel de mondesert [Global] — discovered — first 2026-10-28, last 2026-10-28
+- scheduler msoe [Global] — discovered — first 2026-10-28, last 2026-10-28
+- turbowarp [Global] — discovered — first 2026-10-28, last 2026-10-28
+- webreg [Global] — discovered — first 2026-10-28, last 2026-10-28
+- ballon d'or 2026 live [Global] — discovered — first 2026-10-28, last 2026-10-28
+- cfmeu coomera connector dispute [Global] — discovered — first 2026-10-28, last 2026-10-28
+- plant sample maplestory [Global] — discovered — first 2026-10-28, last 2026-10-28
+- proxy vpn [Global] — discovered — first 2026-10-28, last 2026-10-28
 - dtu assistant professor recruitment 2026 [Global] — discovered — first 2026-10-28, last 2026-10-28
+- world series game 3 [Global] — discovered — first 2026-10-28, last 2026-10-28
+- triumph tiger explorer [Global] — discovered — first 2026-10-28, last 2026-10-28
+- tea tairovic [Global] — discovered — first 2026-10-28, last 2026-10-28
+- generator for home [Global] — discovered — first 2026-10-28, last 2026-10-28
+- wildwood composer [Global] — discovered — first 2026-10-28, last 2026-10-28
+- selar [Global] — discovered — first 2026-10-28, last 2026-10-28
+- aura points / aura slang [Global] — discovered — first 2026-10-28, last 2026-10-28
+- github windows 11 optimizer [Global] — discovered — first 2026-10-28, last 2026-10-28
+- letter writing format [Global] — discovered — first 2026-10-28, last 2026-10-28
+- tnpds [Global] — discovered — first 2026-10-28, last 2026-10-28
+- patta chitta [Global] — discovered — first 2026-10-28, last 2026-10-28
+- mod ontel simulator indonesia [Global] — discovered — first 2026-10-28, last 2026-10-28
+- f1 constructor standings [Global] — discovered — first 2026-10-28, last 2026-10-28
+- email writing format [Global] — discovered — first 2026-10-28, last 2026-10-28
+- report writing format [Global] — discovered — first 2026-10-28, last 2026-10-28
+- sitemap extractor [Global] — discovered — first 2026-10-28, last 2026-10-28
 
 ## Due for follow-up
 
