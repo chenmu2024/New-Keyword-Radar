@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-28T16:35:46.945805+00:00
-- Historical candidates: 1808
-- Newly recorded from pending: 0
+- Updated (UTC): 2026-10-28T22:53:38.450209+00:00
+- Historical candidates: 1933
+- Newly recorded from pending: 125
 - Awaiting 7/14/30-day evidence review: 270
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- imd cyclone [Global] — discovered — first 2026-10-28, last 2026-10-28
-- juventud [ES] — discovered — first 2026-10-28, last 2026-10-28
-- chumbkiya flux ghanatv ka si matrak [Global] — discovered — first 2026-10-28, last 2026-10-28
-- anthony edwards [ES] — discovered — first 2026-10-28, last 2026-10-28
-- scheduler msoe [Global] — discovered — first 2026-10-28, last 2026-10-28
-- turbowarp [Global] — discovered — first 2026-10-28, last 2026-10-28
-- cyclone arnab update [Global] — discovered — first 2026-10-28, last 2026-10-28
-- webreg [Global] — discovered — first 2026-10-28, last 2026-10-28
-- bahamas [GB] — discovered — first 2026-10-28, last 2026-10-28
-- league two table [GB] — discovered — first 2026-10-28, last 2026-10-28
-- ballon d'or 2026 live [Global] — discovered — first 2026-10-28, last 2026-10-28
-- cfmeu coomera connector dispute [Global] — discovered — first 2026-10-28, last 2026-10-28
-- plant sample maplestory [Global] — discovered — first 2026-10-28, last 2026-10-28
-- proxy vpn [Global] — discovered — first 2026-10-28, last 2026-10-28
-- dtu assistant professor recruitment 2026 [Global] — discovered — first 2026-10-28, last 2026-10-28
-- knicks - pistons [ES] — discovered — first 2026-10-28, last 2026-10-28
-- world series game 3 [Global] — discovered — first 2026-10-28, last 2026-10-28
-- football games today [GB] — discovered — first 2026-10-28, last 2026-10-28
-- triumph tiger explorer [Global] — discovered — first 2026-10-28, last 2026-10-28
-- flyers game [US] — discovered — first 2026-10-28, last 2026-10-28
-- masterchef 2026 [BR] — discovered — first 2026-10-28, last 2026-10-28
-- classificacao serie b [BR] — discovered — first 2026-10-28, last 2026-10-28
-- tampa vs brewers [MX] — discovered — first 2026-10-28, last 2026-10-28
-- tea tairovic [Global] — discovered — first 2026-10-28, last 2026-10-28
-- pdf accessibility checker [US] — discovered — first 2026-10-28, last 2026-10-28
+- 1 bit comparator [Global] — discovered — first 2026-10-29, last 2026-10-29
+- 2 bit comparator [Global] — discovered — first 2026-10-29, last 2026-10-29
+- 4 bit comparator [Global] — discovered — first 2026-10-29, last 2026-10-29
+- aadhaar download [Global] — discovered — first 2026-10-29, last 2026-10-29
+- addicted to my navigator ai bl [Global] — discovered — first 2026-10-29, last 2026-10-29
+- adobe stock [Global] — discovered — first 2026-10-29, last 2026-10-29
+- ai image enhancer [Global] — discovered — first 2026-10-29, last 2026-10-29
+- argon symbol [Global] — discovered — first 2026-10-29, last 2026-10-29
+- arnab cyclone [Global] — discovered — first 2026-10-29, last 2026-10-29
+- b501ap [Global] — discovered — first 2026-10-29, last 2026-10-29
+- badia slimming tea [Global] — discovered — first 2026-10-29, last 2026-10-29
+- bengals game [Global] — discovered — first 2026-10-29, last 2026-10-29
+- best social media scheduler [Global] — discovered — first 2026-10-29, last 2026-10-29
+- bob the builder costume [Global] — discovered — first 2026-10-29, last 2026-10-29
+- brewers game [Global] — discovered — first 2026-10-29, last 2026-10-29
+- buckeye scheduler [Global] — discovered — first 2026-10-29, last 2026-10-29
+- burning hot tea study findings [Global] — discovered — first 2026-10-29, last 2026-10-29
+- ceo of roblox [Global] — discovered — first 2026-10-29, last 2026-10-29
+- chelsea manager [Global] — discovered — first 2026-10-29, last 2026-10-29
+- colored part of the eye [Global] — discovered — first 2026-10-29, last 2026-10-29
+- constructor championship [Global] — discovered — first 2026-10-29, last 2026-10-29
+- constructor logiciel [Global] — discovered — first 2026-10-29, last 2026-10-29
+- council tax band checker [Global] — discovered — first 2026-10-29, last 2026-10-29
+- council tax checker [Global] — discovered — first 2026-10-29, last 2026-10-29
+- creative fabrica [Global] — discovered — first 2026-10-29, last 2026-10-29
 
 ## Due for follow-up
 

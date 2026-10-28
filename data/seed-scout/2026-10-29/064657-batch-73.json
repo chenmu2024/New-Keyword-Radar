@@ -1,0 +1,87 @@
+{
+  "batch_id": "2026-10-28T22:46:57.385310+00:00-73-0-1-2-3",
+  "generated_at": "2026-10-28T22:46:57.385310+00:00",
+  "local_generated_at": "2026-10-29T06:46:57.385310+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "download",
+    "translator",
+    "generator",
+    "example",
+    "convert"
+  ],
+  "seed_indices": [
+    73,
+    0,
+    1,
+    2,
+    3
+  ],
+  "start_index": 73,
+  "discoveries": [
+    {
+      "seed": "example",
+      "query": "老虎",
+      "rise_value": 2650.0,
+      "raw_value": 2650
+    },
+    {
+      "seed": "generator",
+      "query": "ai image generator magnific",
+      "rise_value": 2100.0,
+      "raw_value": 2100
+    },
+    {
+      "seed": "download",
+      "query": "free fire india download",
+      "rise_value": 2100.0,
+      "raw_value": 2100
+    },
+    {
+      "seed": "convert",
+      "query": "convert mp3 tiktok",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "example",
+      "query": "石油",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "generator",
+      "query": "solar powered generator",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "generator",
+      "query": "jackery solar generator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "generator",
+      "query": "generator for home",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "generator",
+      "query": "solar generator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "download",
+      "query": "aadhaar download",
+      "rise_value": 50.0,
+      "raw_value": 50
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 10
+}
