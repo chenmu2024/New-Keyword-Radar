@@ -1,4 +1,4 @@
-# Sitemap to Google Trends validation — 2026-10-29
+# Sitemap to Google Trends validation — 2026-10-30
 
 This is independent research; original keyword seeds, commercial
 thresholds and the main radar candidate ranking are untouched.
@@ -6,9 +6,9 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 44
-- Usable Google Trends time series: 18/44
-- Missing or failed Google Trends time series: 26/44
+- Total distinct expressions researched: 46
+- Usable Google Trends time series: 19/46
+- Missing or failed Google Trends time series: 27/46
 - Data coverage status: partial_coverage (not a keyword verdict)
 - Rate-limit safety backoff: inactive
 - 90-day + historical-interest passes: 1
@@ -16,6 +16,21 @@ a winnable SERP, paid demand or monthly search volume.
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### ai crawler blocking checker (US)
+- Source: [apify-actors-z](https://apify.com/shawndunn/ai-crawler-blocking-checker)
+- Checked: 2026-10-30T03:49:06.673794+08:00 | Status: **insufficient_relative_signal**
+- Google Trends 90d baseline avg: 2.13; recent peak: 0; newness score: 18
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+
+### india food label checker (US)
+- Source: [apify-actors-a](https://apify.com/anamika67/india-food-label-checker)
+- Checked: 2026-10-30T03:49:06.673794+08:00 | Status: **insufficient_data**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: Missing Google Trends observations
 
 ### email domain checker (US)
 - Source: [apify-actors-a](https://apify.com/agents001/email-domain-checker)
@@ -300,21 +315,6 @@ a winnable SERP, paid demand or monthly search volume.
 ### rust wait until (US)
 - Source: [vercel-product-watch](https://vercel.com/templates/axum/rust-wait-until)
 - Checked: 2026-10-19T10:26:50.601202+08:00 | Status: **insufficient_data**
-- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
-- Historical 5y gate: not run
-- Search Volume/KD/CPC remains unverified; not a build recommendation.
-- Data error: Missing Google Trends observations
-
-### acinsoft email domain security audit (US)
-- Source: [apify-actors-a](https://apify.com/acinsoft/acinsoft-email-domain-security-audit)
-- Checked: 2026-10-19T10:12:37.098813+08:00 | Status: **no_recent_trends_breakout**
-- Google Trends 90d baseline avg: 2.13; recent peak: 0; newness score: 18
-- Historical 5y gate: not run
-- Search Volume/KD/CPC remains unverified; not a build recommendation.
-
-### dumpling backup (US)
-- Source: [railway-templates](https://railway.com/deploy/dumpling-backup)
-- Checked: 2026-10-19T10:12:37.098813+08:00 | Status: **error**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
 - Search Volume/KD/CPC remains unverified; not a build recommendation.

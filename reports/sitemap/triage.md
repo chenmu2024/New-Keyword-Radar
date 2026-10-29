@@ -1,34 +1,34 @@
-# Sitemap lead triage — 2026-10-29
+# Sitemap lead triage — 2026-10-30
 
 **Important:** These are *unverified URL leads*, not proven new keywords,
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
-- Sitemap feeds succeeded: 18/18
-- URLs newly observed in the latest scan: 319
-- Candidate URL rows extracted in latest scan: 218
-- First-time keyword/geo research leads: 215
+- Sitemap feeds succeeded: 17/18
+- URLs newly observed in the latest scan: 1220
+- Candidate URL rows extracted in latest scan: 150
+- First-time keyword/geo research leads: 145
 - Previously removed URLs resurfacing: 1
 - Accumulated queue: 2000
-- Human keyword/topic review: 1185
-- Game/general watchlist: 790
-- Low-quality page-name noise: 25
+- Human keyword/topic review: 1192
+- Game/general watchlist: 793
+- Low-quality page-name noise: 15
 - **Verified new keywords / search demand / business revenue: not established**
 
 ## Queue composition (by Sitemap source)
 
-- apify-actors-a: 212
-- apify-actors-z: 212
-- gamepix-en: 212
-- gamepix-pt: 212
-- producthunt-products: 212
-- railway-templates: 212
-- vercel-product-watch: 128
-- crazygames-br: 105
-- crazygames-es: 105
-- crazygames-en: 103
+- apify-actors-a: 209
+- apify-actors-z: 209
+- gamepix-en: 209
+- gamepix-pt: 208
+- producthunt-products: 208
+- railway-templates: 208
+- vercel-product-watch: 137
+- crazygames-br: 108
+- crazygames-en: 108
+- crazygames-es: 108
+- n8n-workflows: 82
 - futurepedia-tools: 81
-- n8n-workflows: 81
 - onlinetools-br: 80
 - minijuegos-es: 40
 - netlify-product-watch: 3
@@ -37,106 +37,106 @@ Raw queue and all main radar settings remain unchanged.
 
 ## Latest scan's leads (routing only)
 
-- [london street football](https://www.crazygames.com/game/london-street-football) — watch / game-title-not-search-demand; source=crazygames-en
-- [needle in a haystack](https://www.crazygames.com/game/needle-in-a-haystack) — watch / game-title-not-search-demand; source=crazygames-en
-- [driftwood isles](https://www.crazygames.com/game/driftwood-isles) — watch / game-title-not-search-demand; source=crazygames-en
-- [wingworks flight lab dwm](https://www.crazygames.com/game/wingworks-flight-lab-dwm) — watch / game-title-not-search-demand; source=crazygames-en
-- [velin world puffy morning](https://www.crazygames.com/game/velin-world-puffy-morning) — watch / game-title-not-search-demand; source=crazygames-en
-- [chicken battle simulator](https://www.crazygames.com/br/game/chicken-battle-simulator) — review / tool-intent-wording-not-verified; source=crazygames-br
-- [wingworks flight lab dwm](https://www.crazygames.com/br/game/wingworks-flight-lab-dwm) — watch / game-title-not-search-demand; source=crazygames-br
-- [london street football](https://www.crazygames.com/br/game/london-street-football) — watch / game-title-not-search-demand; source=crazygames-br
-- [needle in a haystack](https://www.crazygames.com/br/game/needle-in-a-haystack) — watch / game-title-not-search-demand; source=crazygames-br
-- [velin world puffy morning](https://www.crazygames.com/br/game/velin-world-puffy-morning) — watch / game-title-not-search-demand; source=crazygames-br
-- [blockshot dqv](https://www.crazygames.com/br/game/blockshot-dqv) — watch / game-title-not-search-demand; source=crazygames-br
-- [driftwood isles](https://www.crazygames.com/br/game/driftwood-isles) — watch / game-title-not-search-demand; source=crazygames-br
-- [chicken battle simulator](https://www.crazygames.com/es/game/chicken-battle-simulator) — review / tool-intent-wording-not-verified; source=crazygames-es
-- [driftwood isles](https://www.crazygames.com/es/game/driftwood-isles) — watch / game-title-not-search-demand; source=crazygames-es
-- [velin world puffy morning](https://www.crazygames.com/es/game/velin-world-puffy-morning) — watch / game-title-not-search-demand; source=crazygames-es
-- [needle in a haystack](https://www.crazygames.com/es/game/needle-in-a-haystack) — watch / game-title-not-search-demand; source=crazygames-es
-- [wingworks flight lab dwm](https://www.crazygames.com/es/game/wingworks-flight-lab-dwm) — watch / game-title-not-search-demand; source=crazygames-es
-- [blockshot dqv](https://www.crazygames.com/es/game/blockshot-dqv) — watch / game-title-not-search-demand; source=crazygames-es
-- [london street football](https://www.crazygames.com/es/game/london-street-football) — watch / game-title-not-search-demand; source=crazygames-es
-- [shadow lantern](https://www.gamepix.com/play/shadow-lantern) — watch / game-title-not-search-demand; source=gamepix-en
-- [bramblebound](https://www.gamepix.com/play/bramblebound) — watch / game-title-not-search-demand; source=gamepix-en
-- [classic freecell solitaire](https://www.gamepix.com/play/classic-freecell-solitaire) — watch / game-title-not-search-demand; source=gamepix-en
-- [hearthfields](https://www.gamepix.com/play/hearthfields) — watch / game-title-not-search-demand; source=gamepix-en
-- [rulefront](https://www.gamepix.com/play/rulefront) — watch / game-title-not-search-demand; source=gamepix-en
-- [freekick clash football cup](https://www.gamepix.com/pt/play/freekick-clash-football-cup) — watch / game-title-not-search-demand; source=gamepix-pt
-- [there is a hippo in my house](https://www.gamepix.com/pt/play/there-is-a-hippo-in-my-house) — watch / game-title-not-search-demand; source=gamepix-pt
-- [fartnership](https://www.minijuegos.com/juego/fartnership) — watch / game-title-not-search-demand; source=minijuegos-es
-- [pokeghostgrey](https://www.minijuegos.com/juego/pokeghostgrey) — watch / game-title-not-search-demand; source=minijuegos-es
-- [voxhalla](https://www.minijuegos.com/juego/voxhalla) — watch / game-title-not-search-demand; source=minijuegos-es
-- [swerve rush](https://www.minijuegos.com/juego/swerve-rush) — watch / game-title-not-search-demand; source=minijuegos-es
-- [word run](https://www.minijuegos.com/juego/word-run) — watch / game-title-not-search-demand; source=minijuegos-es
-- [introducing vercel ci](https://vercel.com/blog/introducing-vercel-ci) — review / product-content-not-search-demand; source=vercel-product-watch
-- [vercel ci is now in beta](https://vercel.com/changelog/vercel-ci-is-now-in-beta) — review / product-content-not-search-demand; source=vercel-product-watch
-- [run paseo agents on vercel sandbox](https://vercel.com/changelog/run-paseo-agents-on-vercel-sandbox) — review / product-content-not-search-demand; source=vercel-product-watch
-- [virtual models now available on ai gateway](https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway) — review / product-content-not-search-demand; source=vercel-product-watch
-- [particle 1 is now available on ai gateway](https://vercel.com/changelog/particle-1-is-now-available-on-ai-gateway) — review / product-content-not-search-demand; source=vercel-product-watch
-- [ai gateway virtual models](https://vercel.com/blog/ai-gateway-virtual-models) — review / product-content-not-search-demand; source=vercel-product-watch
-- [run synthetic regression tests for webhook and http api workflows](https://n8n.io/workflows/21841-run-synthetic-regression-tests-for-webhook-and-http-api-workflows/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [openseo backlinks deploy openseo backlink checker](https://railway.com/deploy/openseo-backlinks--deploy-openseo-backlink-checker) — review / tool-intent-wording-not-verified; source=railway-templates
-- [directus production](https://railway.com/deploy/directus-production) — review / deployment-topic-not-search-demand; source=railway-templates
-- [dify w admin setup](https://railway.com/deploy/dify-w-admin-setup) — review / deployment-topic-not-search-demand; source=railway-templates
-- [metabase production](https://railway.com/deploy/metabase-production) — review / deployment-topic-not-search-demand; source=railway-templates
-- [huly platform](https://railway.com/deploy/huly-platform) — review / deployment-topic-not-search-demand; source=railway-templates
-- [9router continue deploy 9router for continue](https://railway.com/deploy/9router-continue--deploy-9router-for-continue) — review / deployment-topic-not-search-demand; source=railway-templates
-- [searxng search](https://railway.com/deploy/searxng-search) — review / deployment-topic-not-search-demand; source=railway-templates
-- [phygital memory](https://railway.com/deploy/phygital-memory) — review / deployment-topic-not-search-demand; source=railway-templates
-- [plane community](https://railway.com/deploy/plane-community) — review / deployment-topic-not-search-demand; source=railway-templates
-- [plausible analytics plausible web analytics](https://railway.com/deploy/plausible-analytics--plausible-web-analytics) — review / deployment-topic-not-search-demand; source=railway-templates
-- [infisical secrets](https://railway.com/deploy/infisical-secrets) — review / deployment-topic-not-search-demand; source=railway-templates
-- [moodle 5](https://railway.com/deploy/moodle-5) — low / numbered-deploy-template; source=railway-templates
-- [lobehub 2](https://railway.com/deploy/lobehub-2) — low / numbered-deploy-template; source=railway-templates
-- [firecrawl self hosted](https://railway.com/deploy/firecrawl-self-hosted) — review / deployment-topic-not-search-demand; source=railway-templates
-- [documenso production](https://railway.com/deploy/documenso-production) — review / deployment-topic-not-search-demand; source=railway-templates
-- [umami web analytics](https://railway.com/deploy/umami-web-analytics) — review / deployment-topic-not-search-demand; source=railway-templates
-- [typebot production](https://railway.com/deploy/typebot-production) — review / deployment-topic-not-search-demand; source=railway-templates
-- [langfuse llamaindex deploy langfuse for llamaindex](https://railway.com/deploy/langfuse-llamaindex--deploy-langfuse-for-llamaindex) — review / deployment-topic-not-search-demand; source=railway-templates
-- [omniroute codex cli deploy omniroute for codex cli](https://railway.com/deploy/omniroute-codex-cli--deploy-omniroute-for-codex-cli) — review / deployment-topic-not-search-demand; source=railway-templates
-- [langflow production](https://railway.com/deploy/langflow-production) — review / deployment-topic-not-search-demand; source=railway-templates
-- [activepieces workflows](https://railway.com/deploy/activepieces-workflows) — review / deployment-topic-not-search-demand; source=railway-templates
-- [penpot custom fonts deploy penpot with custom fonts](https://railway.com/deploy/penpot-custom-fonts--deploy-penpot-with-custom-fonts) — review / deployment-topic-not-search-demand; source=railway-templates
-- [ragflow engine](https://railway.com/deploy/ragflow-engine) — review / deployment-topic-not-search-demand; source=railway-templates
-- [paperclip codex deploy paperclip with codex agents](https://railway.com/deploy/paperclip-codex--deploy-paperclip-with-codex-agents) — review / deployment-topic-not-search-demand; source=railway-templates
-- [appwrite 1](https://railway.com/deploy/appwrite-1) — low / numbered-deploy-template; source=railway-templates
-- [stump](https://railway.com/deploy/stump) — review / deployment-topic-not-search-demand; source=railway-templates
-- [obsidian self hosted obsidian sync](https://railway.com/deploy/obsidian--self-hosted-obsidian-sync) — review / deployment-topic-not-search-demand; source=railway-templates
-- [metabase for snowflake deploy metabase for snowflake](https://railway.com/deploy/metabase-for-snowflake--deploy-metabase-for-snowflake) — review / deployment-topic-not-search-demand; source=railway-templates
-- [wordpress pro](https://railway.com/deploy/wordpress-pro) — review / deployment-topic-not-search-demand; source=railway-templates
-- [navidrome 1](https://railway.com/deploy/navidrome-1) — low / numbered-deploy-template; source=railway-templates
-- [penpot production](https://railway.com/deploy/penpot-production) — review / deployment-topic-not-search-demand; source=railway-templates
-- [keycloak sso](https://railway.com/deploy/keycloak-sso) — review / deployment-topic-not-search-demand; source=railway-templates
-- [opencode cloud](https://railway.com/deploy/opencode-cloud) — review / deployment-topic-not-search-demand; source=railway-templates
-- [laminar observability](https://railway.com/deploy/laminar-observability) — review / deployment-topic-not-search-demand; source=railway-templates
-- [dify w ai model setup](https://railway.com/deploy/dify-w-ai-model-setup) — review / deployment-topic-not-search-demand; source=railway-templates
-- [postiz production](https://railway.com/deploy/postiz-production) — review / deployment-topic-not-search-demand; source=railway-templates
-- [frappe hr hrms](https://railway.com/deploy/frappe-hr--hrms) — review / deployment-topic-not-search-demand; source=railway-templates
-- [paperless ngx mobile deploy paperless ngx mobile app access](https://railway.com/deploy/paperless-ngx-mobile--deploy-paperless-ngx-mobile-app-access) — review / deployment-topic-not-search-demand; source=railway-templates
-- [khovdesk community management studio server khovdesk community management studio ser](https://railway.com/deploy/khovdesk-community-management-studio-server--khovdesk-community-management-studio-ser) — review / deployment-topic-not-search-demand; source=railway-templates
-- [opera browser](https://railway.com/deploy/opera-browser) — review / deployment-topic-not-search-demand; source=railway-templates
-- [paperclip production](https://railway.com/deploy/paperclip-production) — review / deployment-topic-not-search-demand; source=railway-templates
-- [listmonk newsletters](https://railway.com/deploy/listmonk-newsletters) — review / deployment-topic-not-search-demand; source=railway-templates
-- [evolution api cloud api deploy evolution api whatsapp cloud api](https://railway.com/deploy/evolution-api-cloud-api--deploy-evolution-api-whatsapp-cloud-api) — review / deployment-topic-not-search-demand; source=railway-templates
-- [kan boards](https://railway.com/deploy/kan-boards) — review / deployment-topic-not-search-demand; source=railway-templates
-- [open webui litellm](https://railway.com/deploy/open-webui-litellm) — review / deployment-topic-not-search-demand; source=railway-templates
-- [google chrome](https://railway.com/deploy/google-chrome) — review / deployment-topic-not-search-demand; source=railway-templates
-- [teable fits 1 gb plans](https://railway.com/deploy/teable-fits-1-gb-plans) — review / deployment-topic-not-search-demand; source=railway-templates
-- [hermes agent mcp deploy hermes agent with mcp servers](https://railway.com/deploy/hermes-agent-mcp--deploy-hermes-agent-with-mcp-servers) — review / deployment-topic-not-search-demand; source=railway-templates
-- [openproject production](https://railway.com/deploy/openproject-production) — review / deployment-topic-not-search-demand; source=railway-templates
-- [twenty vs pipedrive deploy twenty crm pipedrive alternative](https://railway.com/deploy/twenty-vs-pipedrive--deploy-twenty-crm-pipedrive-alternative) — review / deployment-topic-not-search-demand; source=railway-templates
-- [firefox browser](https://railway.com/deploy/firefox-browser) — review / deployment-topic-not-search-demand; source=railway-templates
-- [code server python deploy code server for python](https://railway.com/deploy/code-server-python--deploy-code-server-for-python) — review / deployment-topic-not-search-demand; source=railway-templates
-- [mem0 vs hindsight deploy mem0 hindsight alternative](https://railway.com/deploy/mem0-vs-hindsight--deploy-mem0-hindsight-alternative) — review / deployment-topic-not-search-demand; source=railway-templates
-- [typesense nl search deploy typesense natural language search](https://railway.com/deploy/typesense-nl-search--deploy-typesense-natural-language-search) — review / deployment-topic-not-search-demand; source=railway-templates
-- [pixelfed](https://railway.com/deploy/pixelfed) — review / deployment-topic-not-search-demand; source=railway-templates
-- [hoppscotch graphql deploy hoppscotch graphql client](https://railway.com/deploy/hoppscotch-graphql--deploy-hoppscotch-graphql-client) — review / deployment-topic-not-search-demand; source=railway-templates
-- [openclaw gateway](https://railway.com/deploy/openclaw-gateway) — review / deployment-topic-not-search-demand; source=railway-templates
-- [flowise workers](https://railway.com/deploy/flowise-workers) — review / deployment-topic-not-search-demand; source=railway-templates
-- [medusa commerce](https://railway.com/deploy/medusa-commerce) — review / deployment-topic-not-search-demand; source=railway-templates
-- [hermes agent dashboard](https://railway.com/deploy/hermes-agent-dashboard) — review / deployment-topic-not-search-demand; source=railway-templates
-- [baserow database](https://railway.com/deploy/baserow-database) — review / deployment-topic-not-search-demand; source=railway-templates
-- [microsoft edge](https://railway.com/deploy/microsoft-edge) — review / deployment-topic-not-search-demand; source=railway-templates
+- [chicken battle simulator](https://www.crazygames.com/game/chicken-battle-simulator) — review / tool-intent-wording-not-verified; source=crazygames-en
+- [blockshot dqv](https://www.crazygames.com/game/blockshot-dqv) — watch / game-title-not-search-demand; source=crazygames-en
+- [clean slate pnn](https://www.crazygames.com/game/clean-slate-pnn) — watch / game-title-not-search-demand; source=crazygames-en
+- [rising star](https://www.crazygames.com/game/rising-star) — watch / game-title-not-search-demand; source=crazygames-en
+- [kaboom town](https://www.crazygames.com/game/kaboom-town) — watch / game-title-not-search-demand; source=crazygames-en
+- [rising star](https://www.crazygames.com/br/game/rising-star) — watch / game-title-not-search-demand; source=crazygames-br
+- [kaboom town](https://www.crazygames.com/br/game/kaboom-town) — watch / game-title-not-search-demand; source=crazygames-br
+- [clean slate pnn](https://www.crazygames.com/br/game/clean-slate-pnn) — watch / game-title-not-search-demand; source=crazygames-br
+- [kaboom town](https://www.crazygames.com/es/game/kaboom-town) — watch / game-title-not-search-demand; source=crazygames-es
+- [rising star](https://www.crazygames.com/es/game/rising-star) — watch / game-title-not-search-demand; source=crazygames-es
+- [clean slate pnn](https://www.crazygames.com/es/game/clean-slate-pnn) — watch / game-title-not-search-demand; source=crazygames-es
+- [classic spider solitaire](https://www.gamepix.com/play/classic-spider-solitaire) — watch / game-title-not-search-demand; source=gamepix-en
+- [classic tripeaks solitaire](https://www.gamepix.com/play/classic-tripeaks-solitaire) — watch / game-title-not-search-demand; source=gamepix-en
+- [eve coding agent template](https://vercel.com/templates/eve/eve-coding-agent-template) — review / tool-intent-wording-not-verified; source=vercel-product-watch
+- [eve voice template](https://vercel.com/templates/eve/eve-voice-template) — review / tool-intent-wording-not-verified; source=vercel-product-watch
+- [eve design template](https://vercel.com/templates/eve/eve-design-template) — review / tool-intent-wording-not-verified; source=vercel-product-watch
+- [eve company brain template](https://vercel.com/templates/eve/eve-company-brain-template) — review / tool-intent-wording-not-verified; source=vercel-product-watch
+- [bell stack](https://vercel.com/templates/eve/bell-stack) — review / product-content-not-search-demand; source=vercel-product-watch
+- [block ai crawlers and assistants independently with managed rules](https://vercel.com/changelog/block-ai-crawlers-and-assistants-independently-with-managed-rules) — review / product-content-not-search-demand; source=vercel-product-watch
+- [vercel plugin is now available in antigravity](https://vercel.com/changelog/vercel-plugin-is-now-available-in-antigravity) — review / product-content-not-search-demand; source=vercel-product-watch
+- [improved ip geolocation data](https://vercel.com/changelog/improved-ip-geolocation-data) — review / product-content-not-search-demand; source=vercel-product-watch
+- [eve discord agent](https://vercel.com/templates/eve/eve-discord-agent) — review / product-content-not-search-demand; source=vercel-product-watch
+- [translate japanese product listings with glossary and dual openai review](https://n8n.io/workflows/21845-translate-japanese-product-listings-with-glossary-and-dual-openai-review/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [spliit](https://railway.com/deploy/spliit) — review / deployment-topic-not-search-demand; source=railway-templates
+- [caddy reverse proxy deploy caddy reverse proxy on railway](https://railway.com/deploy/caddy-reverse-proxy--deploy-caddy-reverse-proxy-on-railway) — review / deployment-topic-not-search-demand; source=railway-templates
+- [cap custom domain deploy cap on a custom domain](https://railway.com/deploy/cap-custom-domain--deploy-cap-on-a-custom-domain) — review / deployment-topic-not-search-demand; source=railway-templates
+- [redis sentinel deploy redis sentinel with failover](https://railway.com/deploy/redis-sentinel--deploy-redis-sentinel-with-failover) — review / deployment-topic-not-search-demand; source=railway-templates
+- [mongodb 9](https://railway.com/deploy/mongodb-9) — low / numbered-deploy-template; source=railway-templates
+- [sillytavern claude deploy sillytavern with claude](https://railway.com/deploy/sillytavern-claude--deploy-sillytavern-with-claude) — review / deployment-topic-not-search-demand; source=railway-templates
+- [wordpress multisite deploy wordpress multisite network](https://railway.com/deploy/wordpress-multisite--deploy-wordpress-multisite-network) — review / deployment-topic-not-search-demand; source=railway-templates
+- [listmonk mcp](https://railway.com/deploy/listmonk-mcp) — review / deployment-topic-not-search-demand; source=railway-templates
+- [mongodb 9 replica set](https://railway.com/deploy/mongodb-9-replica-set) — review / deployment-topic-not-search-demand; source=railway-templates
+- [ubuntu web terminal deploy ubuntu web terminal on railway](https://railway.com/deploy/ubuntu-web-terminal--deploy-ubuntu-web-terminal-on-railway) — review / deployment-topic-not-search-demand; source=railway-templates
+- [n8n 30 deploy n8n 30 with python runners](https://railway.com/deploy/n8n-30--deploy-n8n-30-with-python-runners) — review / deployment-topic-not-search-demand; source=railway-templates
+- [languagetool api deploy languagetool api server](https://railway.com/deploy/languagetool-api--deploy-languagetool-api-server) — review / deployment-topic-not-search-demand; source=railway-templates
+- [postgres ha pgvector deploy postgres ha with pgvector](https://railway.com/deploy/postgres-ha-pgvector--deploy-postgres-ha-with-pgvector) — review / deployment-topic-not-search-demand; source=railway-templates
+- [linkedin ads scraper](https://apify.com/aboo.script/linkedin-ads-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [vestiaire collective scraper](https://apify.com/abotapi/vestiaire-collective-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [uk company distress check](https://apify.com/accountable_eel/uk-company-distress-check) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [ads pinterest scraper](https://apify.com/aboo.script/ads-pinterest-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [adrepository apple scraper](https://apify.com/aboo.script/adrepository-apple-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [booking ads scraper](https://apify.com/aboo.script/booking-ads-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [site to markdown](https://apify.com/accountable_eel/site-to-markdown) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [amazon ads scraper](https://apify.com/aboo.script/amazon-ads-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [instagram trending audio](https://apify.com/adaptable_wheelhouse/instagram-trending-audio) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [polymarket markets](https://apify.com/actor-forge/polymarket-markets) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [distressed us scraper](https://apify.com/abotapi/distressed-us-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [arbeitsagentur jobs](https://apify.com/actor-forge/arbeitsagentur-jobs) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [google trends trending searches](https://apify.com/adaptable_wheelhouse/google-trends-trending-searches) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [snapchat profile scraper](https://apify.com/aimscrape/snapchat-profile-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [autoscout24 scraper](https://apify.com/actor-forge/autoscout24-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [telegram channel scraper](https://apify.com/akhil_rajesh/telegram-channel-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [twitter trends scraper](https://apify.com/adaptable_wheelhouse/twitter-trends-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [apple app store scraper](https://apify.com/apizy/apple-app-store-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [tiktok trends](https://apify.com/adaptable_wheelhouse/tiktok-trends) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [company hiring radar](https://apify.com/amazinglabs-dev/company-hiring-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [companies house search lookup](https://apify.com/accountable_eel/companies-house-search-lookup) — low / government-or-regulated-target; source=apify-actors-a
+- [medium scraper](https://apify.com/actor-forge/medium-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [german b2b leads directory scraper](https://apify.com/agrunert/german-b2b-leads-directory-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [fx metals monitor](https://apify.com/apivault_labs/fx-metals-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [distressed ca scraper](https://apify.com/abotapi/distressed-ca-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [bizbuysell scraper](https://apify.com/alkausari_mujahid/bizbuysell-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [github profile scraper](https://apify.com/aimscrape/github-profile-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [youtube scraper](https://apify.com/api-center/youtube-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [google trending searches scraper](https://apify.com/adaptable_wheelhouse/google-trending-searches-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [rental ledger categorizer](https://apify.com/appetizing_horsefly/rental-ledger-categorizer) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [distressed eu scraper](https://apify.com/abotapi/distressed-eu-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [remote jobs](https://apify.com/actor-forge/remote-jobs) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [crux core web vitals lookup](https://apify.com/accountable_eel/crux-core-web-vitals-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [github repo health lookup](https://apify.com/accountable_eel/github-repo-health-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [url health checker](https://apify.com/scrapesage/url-health-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [sitemap url status checker](https://apify.com/shadowell/sitemap-url-status-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [bulk url status checker](https://apify.com/scrapesignal_labs/bulk-url-status-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [linkedin repost checker](https://apify.com/sharplinelabs/linkedin-repost-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [veo 3 1 lite video generator](https://apify.com/seasons-ai/veo-3-1-lite-video-generator) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [yatco builder search scraper cheap](https://apify.com/scrapestorm/yatco-builder-search-scraper---cheap) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [ai crawler blocking checker](https://apify.com/shawndunn/ai-crawler-blocking-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [sitemap broken link checker](https://apify.com/sculptural_delphinium/sitemap-broken-link-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [rumble channel content scraper cheap](https://apify.com/scrapestorm/rumble-channel-content-scraper---cheap) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [yahoo finance scraper](https://apify.com/scrapesage/yahoo-finance-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [youtube email phone scraper](https://apify.com/scrapestorm/youtube-email-phone-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [kick videos clips scraper cheap](https://apify.com/scrapestorm/kick-videos-clips-scraper-cheap) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [stepstone scraper](https://apify.com/scrapesage/stepstone-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [mobile de scraper](https://apify.com/scrapesmith/mobile-de-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [bilbasen car scraper billig cheap](https://apify.com/scrapestorm/bilbasen-car-scraper---billig-cheap) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [nonprofit 990 scraper](https://apify.com/scrapesage/nonprofit-990-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [cryptopanic news scraper cheap](https://apify.com/scrapestorm/cryptopanic-news-scraper---cheap) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [sec investment adviser scraper](https://apify.com/scrapesage/sec-investment-adviser-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [poshmark product scraper cheap](https://apify.com/scrapestorm/poshmark-product-scraper---cheap) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [google flights scraper](https://apify.com/scrapesage/google-flights-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [resident advisor scraper](https://apify.com/scrapesage/resident-advisor-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [tennis scraper](https://apify.com/scrapesage/tennis-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [wellness com scraper](https://apify.com/scrapesage/wellness-com-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [czechhomeorgy downloader](https://apify.com/serpdownloaders/czechhomeorgy-downloader) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [meinestadt de jobs scraper billig cheap](https://apify.com/scrapestorm/meinestadt-de-jobs-scraper---billig-cheap) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [machinerytrader listings scraper cheap](https://apify.com/scrapestorm/machinerytrader-listings-scraper---cheap) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [efinancialcareers jobs scraper cheap](https://apify.com/scrapestorm/efinancialcareers-jobs-scraper---cheap) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [amazon product intelligence scraper](https://apify.com/sincere_developer/amazon-product-intelligence-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [copart lot scraper cheap](https://apify.com/scrapestorm/copart-lot-scraper---cheap) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [product hunt scraper](https://apify.com/scrapesage/product-hunt-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
 
 ## Source interpretation
 
