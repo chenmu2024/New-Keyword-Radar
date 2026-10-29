@@ -1,0 +1,4090 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-29T09:56:59.819845+08:00",
+  "mode": "read_only_buyer_pain_research",
+  "keyword_metrics": {
+    "volume": null,
+    "kd": null,
+    "cpc": null
+  },
+  "newness_verified": false,
+  "queries": [
+    {
+      "query": "inventory sync spreadsheet",
+      "captured_at": "2026-10-29T01:56:42.822215+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "hackernews_ask": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "techmore/rupert",
+          "url": "https://github.com/techmore/rupert",
+          "snippet": "Retail operations platform: Shopify + Square inventory sync, POS, CRM and HR. Rails app (main) with a parallel Rust core.",
+          "published_at": "2026-08-08T01:15:31Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:42:59Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:43.265585+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "agonyou/InventoryCount",
+          "url": "https://github.com/agonyou/InventoryCount",
+          "snippet": "Tally: iOS inventory counting on Couchbase Lite (P2P + Capella sync, on-device Foundation Models)",
+          "published_at": "2026-10-28T19:15:34Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:40:25Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:43.265632+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "somrudeebanthao09/OnHand-Inventory-Planner",
+          "url": "https://github.com/somrudeebanthao09/OnHand-Inventory-Planner",
+          "snippet": "On-Hand Inventory Planner - H9 Assembly with Kingdee ERP sync and Google Sheets database",
+          "published_at": "2026-10-14T04:34:21Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:39:57Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:43.265664+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "petdocpo/inventory-sync",
+          "url": "https://github.com/petdocpo/inventory-sync",
+          "snippet": "",
+          "published_at": "2026-07-14T00:07:55Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:30:09Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:43.265690+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Dependency Dashboard",
+          "url": "https://github.com/TryGhost/Ghost/issues/28155",
+          "snippet": "> [!NOTE] > This PR body was truncated due to platform limits. This issue lists Renovate updates and detected dependencies. Read the [Dependency Dashboard](https://docs.renovatebot.com/key-concepts/dashboard/) docs to learn more. ## Deprecations / Replacements > [!WARNING] > The following dependencies are either deprecated or have replacements available. | Datasource | Package | Replacement PR? | |------------|------|--------------| | npm | [i18next-parser](https://redirect.github.com/i18next/i18next-parser) | ![Unavailable](https://img.shields.io/badge/unavailable-orange?style=flat-square) | | npm | [path-match](https://redirect.github.com/pillarjs/path-match) | ![Unavailable](https://img.s",
+          "published_at": "2026-05-26T19:16:48Z",
+          "engagement": {
+            "comments": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:56:36Z",
+            "state": "open",
+            "author": "tryghost-renovate[bot]"
+          },
+          "discovered_at": "2026-10-29T01:56:44.165993+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Finish native transcript and streaming components",
+          "url": "https://github.com/Orchestration-Maestro/maestro/issues/1760",
+          "snippet": "## What to build Follow [the browser DOM component contract](https://github.com/Orchestration-Maestro/maestro/blob/main/docs/specs/maestro-port.md#browser-dom-components). Finish the native transcript, tool/message renderers, stable history and streaming subtree, absorbing #801's transcript capabilities. Deferred work now has separate owners: #2687 for shared dialogs, models/providers and credentials; #2688 for settings, saved sessions and storage permission; #2689 for the editor, session view, browser-local chat and embedding example; #2690 for daemon-attached sessions. These consumers do not block this transcript delivery. ## Acceptance criteria - [ ] Native transcript rows and both render",
+          "published_at": "2026-10-20T02:02:17Z",
+          "engagement": {
+            "comments": 34
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:56:35Z",
+            "state": "open",
+            "author": "FrancoisLDaigneault"
+          },
+          "discovered_at": "2026-10-29T01:56:44.168181+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Mods - make Claude 10x more extensible",
+          "url": "https://github.com/anthropics/claude-code/issues/91870",
+          "snippet": "## Community Micro-Update: Oct 1, 2026 We're live! We're rapidly working down the latest elements of feedback folks have posted. Thank you all again for being amazing stewards of this new extensibility affordance. 🚀 # Community Update: Sep 9, 2026 > **AI;DR**: We're shipping in N weeks. Thank you all for the positive feedback, and especially for the insightful, high-signal feedback that has materially shaped our design. We're now committed to shipping function hooks, on the scale of weeks in lieu of days or months. As well, from a product perspective, we are going to be calling this functionality \"Claude Mods\". The engineering term of art 'function hook' will still exist as the documented im",
+          "published_at": "2026-09-03T18:00:23Z",
+          "engagement": {
+            "comments": 275
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:56:35Z",
+            "state": "open",
+            "author": "poteat"
+          },
+          "discovered_at": "2026-10-29T01:56:44.168500+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Nolan Studio phase 2 — reference video to mastered effect and real-footage creative proof",
+          "url": "https://github.com/CGProductionHouse/CG-Dynamics/issues/874",
+          "snippet": "## OWNER TRANSFER — 28 October 2026 / 3b7d902b **Office PC now owns new Nolan Studio research and skill building. MSI parks research and retains existing Daisy/TBS/PSG/Fight client amendments.** This overrides older setup-only/new-production-only restrictions for research. Central Canvas904 stays office-owned separately; do not interfere with its active desktop. Full [takeover brief](https://github.com/CGProductionHouse/CG-Dynamics/blob/codex/nolan-studio-874/scripts/video-editing/studio-phase2/OFFICE-RESEARCH-TAKEOVER-20261028.md), [45-family progress](https://github.com/CGProductionHouse/CG-Dynamics/blob/codex/nolan-studio-874/scripts/video-editing/studio-phase2/SKILL-PROGRESS-20261028.md)",
+          "published_at": "2026-10-24T14:36:17Z",
+          "engagement": {
+            "comments": 39
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:56:33Z",
+            "state": "open",
+            "author": "CGProductionHouse"
+          },
+          "discovered_at": "2026-10-29T01:56:44.170211+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "GearChain Brings Live Barcode Inventory Tracking to Excel for the Web - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPS2FucnhVckJwSlUtcVotWERlcFBiSHZIU1RNOElZVmlvTUN1b19CR09SaUlaMWJGall6VDQyZndpZ1pyRmNwS3U0aUlSLV80bHp6alhrUDJtTGxYZDV2b1lxN2ZwUExQVFhVdHJWVjBYOE9yVGx2YThvMkYtdUxrNklHajM2ejNJbE5uRXlVNFBGM1U0V013S1BmMUpUV200cDFiTWNMNlNELVZBakJnSnZNQzJIM3d1VnctRjZtTU9Ea1E?oc=5",
+          "snippet": "GearChain Brings Live Barcode Inventory Tracking to Excel for the Web PR Newswire",
+          "published_at": "Wed, 28 Oct 2026 13:32:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:44.614023+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "12 Best Inventory Management Software for Resellers in 2026, Ranked - Technology Org",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTVpoa1NJTnZRV09JTlVvZXdTVzNlaEJ3VVBEUzllZ05EWDN0N1BrcFlZWHNlSFpfTmJZVzhCYU5ZV0lObDJtSGdmM1IxVWJCM05IVjdNUGRjdDBpM0pvVzl4N1NNbVdjUVgxQjVoWExsWFp3N2RvUEZVYzh5VUFKVTlmYzVxbTlIUm40?oc=5",
+          "snippet": "12 Best Inventory Management Software for Resellers in 2026, Ranked Technology Org",
+          "published_at": "Fri, 23 Oct 2026 05:28:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:44.614084+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Commerce Robotics Launches CommerceRobo Shopify Connect for Rakuten-Shopify Sync - Kitsap Sun",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORHFZMUtIeGl5ZC1xZnBUQ0FPc29xaXNBcmJKcE9jZFloRFQ4Q1RmVWRkOVVsbXROQ0RLaVhack9FNXpvcWZsRnlpbWg5QXdvRVVRa3BPeVRjOG9VSGpIbGp4N0Nhc3g1WlhPWlpRMFpUUTN6OHhiWmoyQzdLemJLa1pCVUcyMWpfRkZMMy1zYWpvV1VlLXlSOG11d3RGTUQwbWFUUkJxQTRDcTBPbTNual91T29oYnNRS1BWd3RkdDJsUjNPampVR0tBUEtiTlk?oc=5",
+          "snippet": "Commerce Robotics Launches CommerceRobo Shopify Connect for Rakuten-Shopify Sync Kitsap Sun",
+          "published_at": "Thu, 01 Oct 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:44.614131+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "What is an Inventory System? Process and How to Set One Up (2026) - Shopify",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UZm85VnA2b3lpMjktVmFVc0ZISGFwanBKVk1FNnRhSm53OVREcklkclF5THYxaFBvTEVqNjRObHZLWFBOcmxmdHZMSzM5ZkxQdkhHVDVqVnlnRTdx?oc=5",
+          "snippet": "What is an Inventory System? Process and How to Set One Up (2026) Shopify",
+          "published_at": "Wed, 19 Aug 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:44.614169+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Understanding Inventory: Key Types, Examples, and ... - Investopedia",
+          "url": "https://www.investopedia.com/terms/i/inventory.asp",
+          "snippet": "Inventory is the vital assets a company has in production and in goods produced that are available for sale. Inventory encompasses raw materials, work-in-progress (WIP), and finished goods.",
+          "published_at": "Sat, 25 Oct 2025 18:05:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:44.900111+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Inventory+ - DealerSocket",
+          "url": "https://inventory.dealersocket.com/login/index.html",
+          "snippet": "HOME CONTACT CHAT WITH SUPPORT SALES: 888-539-0942 SUPPORT: 877-806-8616",
+          "published_at": "Wed, 28 Oct 2026 05:55:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:44.900150+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Inventory - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Inventory",
+          "snippet": "Inventory or stock is a quantity of the goods and materials that a business holds for the ultimate goal of resale, production or utilisation. Inventory management is a discipline primarily about specifying the shape and placement of stocked goods.",
+          "published_at": "Tue, 27 Oct 2026 23:29:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:44.900187+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "What Is Inventory? Types, Definition, & Examples - NetSuite",
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory.shtml",
+          "snippet": "As an accounting term, inventory is a current asset and represents the value of goods a company holds for sale or use. While having enough on hand is essential, excess inventory can become a liability.",
+          "published_at": "Wed, 28 Oct 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:44.900225+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "reddit_rss",
+          "title": "Cleverence",
+          "url": "https://www.reddit.com/r/Cleverence",
+          "snippet": "",
+          "published_at": "2025-10-10T13:48:06+00:00",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:45.260184+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "reddit_rss",
+          "title": "TellyNest - Simple multi-currency accounting for small businesses",
+          "url": "https://www.reddit.com/r/Microlaunch/comments/1xi6w6l/tellynest_simple_multicurrency_accounting_for",
+          "snippet": "",
+          "published_at": "2026-10-29T01:33:38+00:00",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:45.260227+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "reddit_rss",
+          "title": "Pantry Calculator",
+          "url": "https://www.reddit.com/r/prepping/comments/1xi5gdh/pantry_calculator",
+          "snippet": "",
+          "published_at": "2026-10-29T00:27:41+00:00",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:45.260254+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "reddit_rss",
+          "title": "Google Search Console Keyword Ranking: 0 to 1,300 Clicks a Day",
+          "url": "https://www.reddit.com/r/AISEOInsider/comments/1xi5b7h/google_search_console_keyword_ranking_0_to_1300",
+          "snippet": "",
+          "published_at": "2026-10-29T00:21:09+00:00",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:45.260282+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Ask HN: Building KasirCepat, an offline-first POS for Indonesia",
+          "url": "https://news.ycombinator.com/item?id=49692067",
+          "snippet": "I'm building KasirCepat, a POS application for small shops in Indonesia. Many of these businesses have unreliable internet connections, so I started with a local-first architecture instead of cloud-first. The main goal is to make the daily workflow simple: - selling products, - tracking inventory, - viewing sales history. I'm curious how other developers approach: - data synchronization, - multi-device workflows, - handling conflicts, - designing software for non-technical users. Especially interested in lessons from building local-first/offline-first applications.",
+          "published_at": "2026-09-14T04:40:51Z",
+          "engagement": {
+            "points": 1,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "cas8398",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-29T01:56:45.534802+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Ask HN: Would a startup for young creatives who reject AI be feasible?",
+          "url": "https://news.ycombinator.com/item?id=49689696",
+          "snippet": "I am a member of my university's game development club, which puts me around lots of talented programmers as well as artists of all kinds, and I've observed that just about everyone disapproves of AI. The sentiment is especially strong among younger people coming into the club. By \"disapproves\", I mean they refuse to allow AI-generated content in games and see AI use in general as something like a moral failure. At the same time, I scroll down the YC startup directory, sorting by launch date, and observe that every non-hardware company (and most of the hardware ones) are entirely based on AI. The demographic I described above, young creatives like the ones in this club, has zero chance of vo",
+          "published_at": "2026-09-13T23:09:37Z",
+          "engagement": {
+            "points": 11,
+            "comments": 26
+          },
+          "metadata": {
+            "author": "mondobe",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-29T01:56:45.534945+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk",
+          "url": "https://news.ycombinator.com/item?id=49304986",
+          "snippet": "\"Musk has publicly stated estimated timelines and intended capabilities of the system since at least 2013. FSD and Autopilot are classified as SAE Level 2 ADAS, as of January 2024. A lawsuit filed in February 2023 by Tesla investors alleging that Musk committed securities fraud by making misleading statements about the development timeline of autonomous Tesla vehicles was dismissed without prejudice in September 2024; the judge ruled that Tesla's legal team successfully argued that Elon Musk's statements were \"corporate puffery\", i.e., vague corporate optimism.\" 2 Correct 4 Partial credit 28 Wrong 3 TBD",
+          "published_at": "2026-08-14T21:48:38Z",
+          "engagement": {
+            "points": 6,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "glaslong",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-29T01:56:45.535011+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Do You Think OpenAI Is Apple Circa the 1980s?",
+          "url": "https://news.ycombinator.com/item?id=49178393",
+          "snippet": "OpenAI is a deeply mismanaged company. Most recently, a blog post that feels like it has got to have dozens of PR violations, responding to the Apple lawsuit. More broadly, OpenAI’s main problem is that it does not have a real competitive advantage. No real models do; the real differentiation is price; they will become commodities. The need to move upwards in the market in enterprise software is difficult since the current stack should remain the same, since sticking with Salesforce plus its new AI features is much simpler than the cost of switching to an AI-first startup version, which won’t be around 3 to 5 years from now. So consumer hardware and trying to become the next Apple could work",
+          "published_at": "2026-08-05T03:50:17Z",
+          "engagement": {
+            "points": 2,
+            "comments": 1
+          },
+          "metadata": {
+            "author": "Taikhoom2010",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-29T01:56:45.535214+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "inventory sync",
+        "github_issues": "inventory sync",
+        "google_news_rss": "inventory sync spreadsheet",
+        "duckduckgo": "inventory sync spreadsheet",
+        "reddit": "inventory sync spreadsheet",
+        "hackernews_ask": "inventory sync"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 24,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 5,
+        "discarded_count": 19,
+        "review_leads": [],
+        "competitor_references": [
+          {
+            "platform": "github_repositories",
+            "title": "techmore/rupert",
+            "url": "https://github.com/techmore/rupert",
+            "snippet": "Retail operations platform: Shopify + Square inventory sync, POS, CRM and HR. Rails app (main) with a parallel Rust core.",
+            "published_at": "2026-08-08T01:15:31Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-29T01:42:59Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:43.265585+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 38,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:inventory,sync",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "inventory",
+                "sync"
+              ],
+              "published_age_days": 82,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "agonyou/InventoryCount",
+            "url": "https://github.com/agonyou/InventoryCount",
+            "snippet": "Tally: iOS inventory counting on Couchbase Lite (P2P + Capella sync, on-device Foundation Models)",
+            "published_at": "2026-10-28T19:15:34Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-29T01:40:25Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:43.265632+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 49,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:inventory,sync",
+                "published_within_7_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "inventory",
+                "sync"
+              ],
+              "published_age_days": 0,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "somrudeebanthao09/OnHand-Inventory-Planner",
+            "url": "https://github.com/somrudeebanthao09/OnHand-Inventory-Planner",
+            "snippet": "On-Hand Inventory Planner - H9 Assembly with Kingdee ERP sync and Google Sheets database",
+            "published_at": "2026-10-14T04:34:21Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-29T01:39:57Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:43.265664+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 44,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:inventory,sync",
+                "published_within_30_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "inventory",
+                "sync"
+              ],
+              "published_age_days": 14,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "petdocpo/inventory-sync",
+            "url": "https://github.com/petdocpo/inventory-sync",
+            "snippet": "",
+            "published_at": "2026-07-14T00:07:55Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-29T01:30:09Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:43.265690+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 35,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:inventory,sync",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "inventory",
+                "sync"
+              ],
+              "published_age_days": 107,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "google_news_rss",
+            "title": "12 Best Inventory Management Software for Resellers in 2026, Ranked - Technology Org",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTVpoa1NJTnZRV09JTlVvZXdTVzNlaEJ3VVBEUzllZ05EWDN0N1BrcFlZWHNlSFpfTmJZVzhCYU5ZV0lObDJtSGdmM1IxVWJCM05IVjdNUGRjdDBpM0pvVzl4N1NNbVdjUVgxQjVoWExsWFp3N2RvUEZVYzh5VUFKVTlmYzVxbTlIUm40?oc=5",
+            "snippet": "12 Best Inventory Management Software for Resellers in 2026, Ranked Technology Org",
+            "published_at": "Fri, 23 Oct 2026 05:28:00 GMT",
+            "engagement": {},
+            "metadata": {},
+            "discovered_at": "2026-10-29T01:56:44.614084+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 34,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:inventory",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "inventory"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/TryGhost/Ghost/issues/28155",
+            "title": "Dependency Dashboard",
+            "score": 35,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/Orchestration-Maestro/maestro/issues/1760",
+            "title": "Finish native transcript and streaming components",
+            "score": 28,
+            "reasons": [
+              "commercial_or_tool_context",
+              "published_within_30_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/anthropics/claude-code/issues/91870",
+            "title": "Mods - make Claude 10x more extensible",
+            "score": 22,
+            "reasons": [
+              "commercial_or_tool_context",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/CGProductionHouse/CG-Dynamics/issues/874",
+            "title": "Nolan Studio phase 2 — reference video to mastered effect and real-footage creative proof",
+            "score": 33,
+            "reasons": [
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPS2FucnhVckJwSlUtcVotWERlcFBiSHZIU1RNOElZVmlvTUN1b19CR09SaUlaMWJGall6VDQyZndpZ1pyRmNwS3U0aUlSLV80bHp6alhrUDJtTGxYZDV2b1lxN2ZwUExQVFhVdHJWVjBYOE9yVGx2YThvMkYtdUxrNklHajM2ejNJbE5uRXlVNFBGM1U0V013S1BmMUpUV200cDFiTWNMNlNELVZBakJnSnZNQzJIM3d1VnctRjZtTU9Ea1E?oc=5",
+            "title": "GearChain Brings Live Barcode Inventory Tracking to Excel for the Web - PR Newswire",
+            "score": 22,
+            "reasons": [
+              "query_terms:inventory",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORHFZMUtIeGl5ZC1xZnBUQ0FPc29xaXNBcmJKcE9jZFloRFQ4Q1RmVWRkOVVsbXROQ0RLaVhack9FNXpvcWZsRnlpbWg5QXdvRVVRa3BPeVRjOG9VSGpIbGp4N0Nhc3g1WlhPWlpRMFpUUTN6OHhiWmoyQzdLemJLa1pCVUcyMWpfRkZMMy1zYWpvV1VlLXlSOG11d3RGTUQwbWFUUkJxQTRDcTBPbTNual91T29oYnNRS1BWd3RkdDJsUjNPampVR0tBUEtiTlk?oc=5",
+            "title": "Commerce Robotics Launches CommerceRobo Shopify Connect for Rakuten-Shopify Sync - Kitsap Sun",
+            "score": 22,
+            "reasons": [
+              "query_terms:sync",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UZm85VnA2b3lpMjktVmFVc0ZISGFwanBKVk1FNnRhSm53OVREcklkclF5THYxaFBvTEVqNjRObHZLWFBOcmxmdHZMSzM5ZkxQdkhHVDVqVnlnRTdx?oc=5",
+            "title": "What is an Inventory System? Process and How to Set One Up (2026) - Shopify",
+            "score": 22,
+            "reasons": [
+              "query_terms:inventory",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.investopedia.com/terms/i/inventory.asp",
+            "title": "Understanding Inventory: Key Types, Examples, and ... - Investopedia",
+            "score": 18,
+            "reasons": [
+              "query_terms:inventory",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://inventory.dealersocket.com/login/index.html",
+            "title": "Inventory+ - DealerSocket",
+            "score": 18,
+            "reasons": [
+              "query_terms:inventory",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Inventory",
+            "title": "Inventory - Wikipedia",
+            "score": 18,
+            "reasons": [
+              "query_terms:inventory",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory.shtml",
+            "title": "What Is Inventory? Types, Definition, & Examples - NetSuite",
+            "score": 18,
+            "reasons": [
+              "query_terms:inventory",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/Cleverence",
+            "title": "Cleverence",
+            "score": 0,
+            "reasons": [
+              "stale_over_one_year",
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/Microlaunch/comments/1xi6w6l/tellynest_simple_multicurrency_accounting_for",
+            "title": "TellyNest - Simple multi-currency accounting for small businesses",
+            "score": 19,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/prepping/comments/1xi5gdh/pantry_calculator",
+            "title": "Pantry Calculator",
+            "score": 31,
+            "reasons": [
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://www.reddit.com/r/AISEOInsider/comments/1xi5b7h/google_search_console_keyword_ranking_0_to_1300",
+            "title": "Google Search Console Keyword Ranking: 0 to 1,300 Clicks a Day",
+            "score": 19,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=49692067",
+            "title": "Ask HN: Building KasirCepat, an offline-first POS for Indonesia",
+            "score": 45,
+            "reasons": [
+              "query_terms:inventory",
+              "commercial_or_tool_context",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=49689696",
+            "title": "Ask HN: Would a startup for young creatives who reject AI be feasible?",
+            "score": 24,
+            "reasons": [
+              "problem_or_request_language",
+              "query_terms_not_found",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=49304986",
+            "title": "Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk",
+            "score": 8,
+            "reasons": [
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=49178393",
+            "title": "Do You Think OpenAI Is Apple Circa the 1980s?",
+            "score": 36,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "query_terms_not_found",
+              "no_topical_title_or_customer_attribution"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "inventory sync",
+        "market": "US",
+        "topic": "retail_operations",
+        "intent": "manual_sync_pain",
+        "locale": "en",
+        "kind": "specific_buyer_problem"
+      },
+      "repeat_links_across_queries": []
+    },
+    {
+      "query": "scheduling spreadsheet manual",
+      "captured_at": "2026-10-29T01:56:45.539926+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "degraded",
+          "count": 0,
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+        },
+        "hackernews_ask": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "ReactorcoreGames/BlueskyAutoPoster",
+          "url": "https://github.com/ReactorcoreGames/BlueskyAutoPoster",
+          "snippet": "Automated Bluesky posting tool that schedules and publishes posts from a spreadsheet. Supports recurring posts, link formatting, and fully unattended operation after setup.",
+          "published_at": "2025-05-06T13:46:38Z",
+          "engagement": {
+            "stars": 2
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T17:30:20Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:45.975293+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "waldo323/schedcsv",
+          "url": "https://github.com/waldo323/schedcsv",
+          "snippet": "seemingly simple project with the goal of parsing a csv file currently from a google spreadsheet csv export, the output is relevant information which is particularly useful output files which are used by a convention for various things like the printed program book, signs for rooms, calendars. Also other scripts which help create html content for the website for use before the programming scheduling is complete.",
+          "published_at": "2012-04-23T20:11:12Z",
+          "engagement": {
+            "stars": 5
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T16:30:32Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:45.975346+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "SolarisPKN/SolarisPKN-Transport",
+          "url": "https://github.com/SolarisPKN/SolarisPKN-Transport",
+          "snippet": "SolarisPKN-Transport collects published timetables from the same backends used by the Trenes Argentinos and Cuándo SUBO applications, validates every candidate schedule, preserves it in a human-readable spreadsheet, and builds a normalized SQLite database for reliable web queries.",
+          "published_at": "2026-08-14T21:12:04Z",
+          "engagement": {
+            "stars": 1
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T16:08:39Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:45.975381+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "Ashutoshkh43/Examination-Management-Portal-V2",
+          "url": "https://github.com/Ashutoshkh43/Examination-Management-Portal-V2",
+          "snippet": "Educational institutions require efficient systems to manage examinations involving administrators, examiners, and students. Many institutions still rely on spreadsheets, emails, and manual coordination, making it difficult to manage examination schedules, examiner availability, slot booking, evaluation rubrics, and result publication.",
+          "published_at": "2026-10-06T13:18:00Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T15:12:42Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:45.975414+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Finish native transcript and streaming components",
+          "url": "https://github.com/Orchestration-Maestro/maestro/issues/1760",
+          "snippet": "## What to build Follow [the browser DOM component contract](https://github.com/Orchestration-Maestro/maestro/blob/main/docs/specs/maestro-port.md#browser-dom-components). Finish the native transcript, tool/message renderers, stable history and streaming subtree, absorbing #801's transcript capabilities. Deferred work now has separate owners: #2687 for shared dialogs, models/providers and credentials; #2688 for settings, saved sessions and storage permission; #2689 for the editor, session view, browser-local chat and embedding example; #2690 for daemon-attached sessions. These consumers do not block this transcript delivery. ## Acceptance criteria - [ ] Native transcript rows and both render",
+          "published_at": "2026-10-20T02:02:17Z",
+          "engagement": {
+            "comments": 34
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:56:35Z",
+            "state": "open",
+            "author": "FrancoisLDaigneault"
+          },
+          "discovered_at": "2026-10-29T01:56:46.707737+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Move every Odoo instance to Odoo 20 Community (Q870)",
+          "url": "https://github.com/cbusillo/odoo-devkit/issues/277",
+          "snippet": "Director decision Q870, Chris, October 25, 2026: \"Q870 yes\" (confirmed after the Supervisor restated it as \"Odoo 20 Community, once\"). Chris earlier: \"ideally, we get all Odoo instances off Enterprise. I like Odoo as code, but I don't like the company\"; \"I lean towards pushing Odoo 20 and removing Enterprise in this OPW migration and before CM is live. I feel like it will cut down on our total work by a lot, even if it drags our launches a bit\"; \"Odoo 18 never gets touched, it gets retired\"; \"the website tenant should get converted, it should be easy\"; the motor cohort view \"never actually got used\"; for CM \"we can either use OCA or build our own\". Evidence: Enterprise inventory https://gith",
+          "published_at": "2026-10-25T22:39:02Z",
+          "engagement": {
+            "comments": 539
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:56:06Z",
+            "state": "open",
+            "author": "shiny-code-app[bot]"
+          },
+          "discovered_at": "2026-10-29T01:56:46.708528+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "[TEAM NAYA] Coordination feed — successor to #2793",
+          "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/3066",
+          "snippet": "# [TEAM NAYA] Coordination feed — successor to #2793 **Live board from 2026-10-25.** This feed succeeds #2793 under Shawn's 2026-10-13 feed-succession law: GitHub locks issues at ~2,500 comments; the successor opens at >=2,300 comments, BEFORE the lock. #2793 crossed the trigger at 2,304 comments (2026-10-25 ~09:08Z, director pass) and was handed off the same pass. ## Chain - **This feed** (live from 2026-10-25) - #2793 — live 2026-10-20 -> 2026-10-25 (successor to #2765; crossed 2,300 at 2,304 comments) - #2765 — live 2026-10-18 -> 2026-10-20 - #2721 — live 2026-10-17 -> 2026-10-18 - #2641 — earlier in the chain ## Standing links - NOW board: #2599 (compiled, director-maintained) - MASTER D",
+          "published_at": "2026-10-25T09:09:43Z",
+          "engagement": {
+            "comments": 1048
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:55:21Z",
+            "state": "open",
+            "author": "SoulSchoolAcademy"
+          },
+          "discovered_at": "2026-10-29T01:56:46.708615+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "WS00 | NBR eReturn master integration & acceptance ledger | 2026-10-22",
+          "url": "https://github.com/shihab-tech04/NBR-Officemanagment-UI-V2/issues/106",
+          "snippet": "# WS00 — NBR eReturn integration and acceptance ledger **Checkpoint:** 2026-10-22 Asia/Dhaka. **Mode:** read-only source/SQL inspection and non-executable evidence coordination. **Release:** HOLD. This issue is the persistent coordination record, not an assertion that seven Project chats were remotely invoked. ## Immutable prerequisites - Canonical 366-rule registry `FINAL_2026_09_30` SHA-256 `34902bac07a459a4f0c051b90bfe3b4c492f2465d06c661bab18ab7f36252184`; registry original bytes NOT mounted here; do not alter or claim fresh hash comparison. - Original 137-case matrix SHA-256 `c5066103adbfefbdf15fff80497d2f928bc9631a2fa50d8aebc58946fc5b8b6e`; original fixture/expectation bundle NOT recove",
+          "published_at": "2026-10-21T18:38:23Z",
+          "engagement": {
+            "comments": 190
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:55:14Z",
+            "state": "open",
+            "author": "shihab-tech04"
+          },
+          "discovered_at": "2026-10-29T01:56:46.708896+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "The Hidden Cost of Manual Contact Center Scheduling - CX Today",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ULUxRQ1MwQXN4MklnUnlDejEzUGhRVVFJRDBQQ1JmNHBCZVhSZWZHYlBlVGx4cXpkLUtmWjdpS0dHX3BEWG9CRWg3M2dFbjdQczUw?oc=5",
+          "snippet": "The Hidden Cost of Manual Contact Center Scheduling CX Today",
+          "published_at": "Fri, 16 Oct 2026 11:01:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:47.357225+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Morrisons picks Logile to overhaul workload planning - IT Brief UK",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTWpSLXdaOFdTVEs1MHo2bDVFTXRMRHFEVkxDSHlBVWhlT3JPc0hVUzA0bXAzRHJIcmlCcnZNQno4allKSWRXcGc2R0hHbFVLdUhJbE5NdHVRRm1DTlljanVVdmNfSWdoTDZIXzgwaHNQWG55eE5rQ0Ewclo0TFZlS0FuTENjMHM?oc=5",
+          "snippet": "Morrisons picks Logile to overhaul workload planning IT Brief UK",
+          "published_at": "Wed, 28 Oct 2026 15:45:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:47.357278+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Morrisons to Replace Manual Store Planning Spreadsheets with Logile Software - citybiz",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWxGUGtqdU1lMnhrd1h6Rk83b1hMbXc0b2gzODYwdndPeWZlN1MxUC12MV95OWNnR08yaGlFVjlSdzFzZDZhTk8tS1F5NWZaQXpiaDVYODR0YnpuZVdMMG5hbWt2NlNIWXU0eVlzNko4WUNnWTRCUmJUOUdjcVFlNWNKTWs1ZlpMMWF0S29fQzBleUN1THdxQS1Cb0xvLVA4TWVlS2ZDeUNIaXVJRTNqR3JHNmdyQQ?oc=5",
+          "snippet": "Morrisons to Replace Manual Store Planning Spreadsheets with Logile Software citybiz",
+          "published_at": "Wed, 14 Oct 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:47.357319+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "From kegs to cases: the hidden planning complexity in alcohol and beverage supply chains - Kearney",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOd0lxTXF4S2JnTHpJdTJBYTluQW1pSUNwVkpXZDZ5RE4wQTlMY04tOHlDOG16Ulk4Yi15MlFVaW4xZ2hNTVdQMDBCSzBiSE0xVmNSYVdTU1JiTDFTa0dCWUR4bFh5X1lfUUhHUkRYeHYxdVZsU0JWZVprS2NvYXBtSno0WGlwejEtQVc1WG1LOE90MXVnVDNqdVVBV0V1Y2Vvakd5S1FnWGhZOU5nUm9xYjdYYjk1b3pKeDFWQmNqUngybWlSWnBtTTV1ZmxQeG1la0dhSWNRR0hWYTUtZXc?oc=5",
+          "snippet": "From kegs to cases: the hidden planning complexity in alcohol and beverage supply chains Kearney",
+          "published_at": "Thu, 02 Jul 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:47.357359+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Acuity Scheduling: Online Booking & Appointment Scheduling Software",
+          "url": "https://acuityscheduling.com/",
+          "snippet": "Book appointments, take payments, and automate the busywork, so you can deliver standout service every time. From solo practitioners to multi-location teams, Acuity adapts to how you work. Set up any type of appointment and let clients easily self-schedule on your branded booking page.",
+          "published_at": "Wed, 28 Oct 2026 16:54:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:47.661142+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Meeting Scheduling Software and AI Meeting Tools | Calendly",
+          "url": "https://calendly.com/",
+          "snippet": "Calendly connects and simplifies all of the work around meetings, from scheduling, payments, and meeting prep to notetaking, contact management, and follow-up.",
+          "published_at": "Wed, 28 Oct 2026 22:16:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:47.661188+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Scheduling (computing) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scheduling_(computing)",
+          "snippet": "In computing, scheduling is the action of assigning resources to perform tasks. The resources may be processors, network links or expansion cards. The tasks may be threads, processes or data flows. The scheduling activity is carried out by a mechanism called a scheduler.",
+          "published_at": "Wed, 28 Oct 2026 04:44:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:47.661223+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Google Calendar - Easier Time Management, Appointments & Scheduling",
+          "url": "https://calendar.google.com/",
+          "snippet": "Learn how Google Calendar helps you stay on top of your plans - at home, at work and everywhere in between.",
+          "published_at": "Wed, 28 Oct 2026 20:36:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:47.661253+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Ask HN: What's still broken in SoC 2 readiness and audit prep?",
+          "url": "https://news.ycombinator.com/item?id=46396889",
+          "snippet": "Hi HN, I’m working on a SOC 2 readiness platform and wanted to get perspectives from people who’ve actually been through SOC 2, either in-house or while helping other companies. From what I’ve seen, teams still struggle most with task planning over time, follow-ups, and turning evidence into something that’s actually audit-ready. Many end up with a mix of spreadsheets, shared folders, and last-minute report building, even when they’re using dedicated tools. I’m curious: - Where did SOC 2 preparation break down most for you? - What parts felt overly manual or fragile? - If you’ve used tools like Vanta, Drata, or others, what did they do well and what didn’t they? I recently launched a new ver",
+          "published_at": "2025-12-26T22:13:27Z",
+          "engagement": {
+            "points": 1,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "asdxrfx",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-29T01:56:48.350024+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "AI Agents Are Quietly Taking over Project Management",
+          "url": "https://news.ycombinator.com/item?id=45618229",
+          "snippet": "Project management used to mean spreadsheets, timelines, and endless updates. Now, AI agents built on LLMs and predictive analytics are starting to handle the repetitive work — scheduling, reporting, data entry, even resource allocation. They don’t just automate; they predict. Feed them historical data, and they’ll forecast risks, budgets, and timelines faster (and sometimes more accurately) than humans. We might be close to the first “AI project manager” — one that can plan, assign, and track tasks across teams with minimal oversight. Would you trust an AI to manage your next project if it could outperform a human PM?",
+          "published_at": "2025-10-17T15:58:20Z",
+          "engagement": {
+            "points": 3,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "trustedit",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-29T01:56:48.350098+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "The problem of scheduling life like a spreadsheet",
+          "url": "https://news.ycombinator.com/item?id=45006853",
+          "snippet": "Highly ambitious individuals often have lots of going on in their mind - they want to get things done, train hard, eat well, maintain social life (scientifically this can excel productivity), build relationships and push their limits. And what do they do? They optimize. But then it doesn't work, and it sucks. But why? While optimizing processes like cooking and cleaning can save time and make it look like your schedule is perfectly balanced (X hours working out, Y hours of social life, Z hours of rest...) this doesn't scale, neither work long-term, but why? The concept of Allostatic Load explains it - it's the mental stress, the every day pressure, and the physical load - all combined. It's ",
+          "published_at": "2025-08-24T19:16:59Z",
+          "engagement": {
+            "points": 3,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "mihailyonchev",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-29T01:56:48.350183+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "My Friend Raised Her Seed Round in 17 Days",
+          "url": "https://news.ycombinator.com/item?id=44112008",
+          "snippet": "Hey Hacker News, Quick context: My friend is the founder of an ed-tech company that aims to revolutionize learning experiences. She had to get creative to close her seed round in just 17 days, starting with zero investor contacts. Everyone kept telling her to \"schedule all your investor meetings in a 2-3 week window to create FOMO\" like in that classic YC post. Great advice if you already have a network. She didn't. So she got a bit desperate and tried something unconventional that ended up working: reverse-engineering her competitors' cap tables to build her target list. Here's what she did: First, she started by identifying her real competitors. Not just the obvious ones, but companies sol",
+          "published_at": "2025-05-28T01:17:11Z",
+          "engagement": {
+            "points": 7,
+            "comments": 4
+          },
+          "metadata": {
+            "author": "hgaddipa001",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-10-29T01:56:48.350361+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "scheduling spreadsheet",
+        "github_issues": "scheduling spreadsheet",
+        "google_news_rss": "scheduling spreadsheet manual",
+        "duckduckgo": "scheduling spreadsheet manual",
+        "reddit": "scheduling spreadsheet manual",
+        "hackernews_ask": "scheduling spreadsheet"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 20,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 4,
+        "discarded_count": 16,
+        "review_leads": [],
+        "competitor_references": [
+          {
+            "platform": "google_news_rss",
+            "title": "The Hidden Cost of Manual Contact Center Scheduling - CX Today",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ULUxRQ1MwQXN4MklnUnlDejEzUGhRVVFJRDBQQ1JmNHBCZVhSZWZHYlBlVGx4cXpkLUtmWjdpS0dHX3BEWG9CRWg3M2dFbjdQczUw?oc=5",
+            "snippet": "The Hidden Cost of Manual Contact Center Scheduling CX Today",
+            "published_at": "Fri, 16 Oct 2026 11:01:00 GMT",
+            "engagement": {},
+            "metadata": {},
+            "discovered_at": "2026-10-29T01:56:47.357225+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 32,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:manual,scheduling",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "manual",
+                "scheduling"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "google_news_rss",
+            "title": "Morrisons to Replace Manual Store Planning Spreadsheets with Logile Software - citybiz",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWxGUGtqdU1lMnhrd1h6Rk83b1hMbXc0b2gzODYwdndPeWZlN1MxUC12MV95OWNnR08yaGlFVjlSdzFzZDZhTk8tS1F5NWZaQXpiaDVYODR0YnpuZVdMMG5hbWt2NlNIWXU0eVlzNko4WUNnWTRCUmJUOUdjcVFlNWNKTWs1ZlpMMWF0S29fQzBleUN1THdxQS1Cb0xvLVA4TWVlS2ZDeUNIaXVJRTNqR3JHNmdyQQ?oc=5",
+            "snippet": "Morrisons to Replace Manual Store Planning Spreadsheets with Logile Software citybiz",
+            "published_at": "Wed, 14 Oct 2026 07:00:00 GMT",
+            "engagement": {},
+            "metadata": {},
+            "discovered_at": "2026-10-29T01:56:47.357319+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 34,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:manual",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "manual"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Acuity Scheduling: Online Booking & Appointment Scheduling Software",
+            "url": "https://acuityscheduling.com/",
+            "snippet": "Book appointments, take payments, and automate the busywork, so you can deliver standout service every time. From solo practitioners to multi-location teams, Acuity adapts to how you work. Set up any type of appointment and let clients easily self-schedule on your branded booking page.",
+            "published_at": "Wed, 28 Oct 2026 16:54:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-10-29T01:56:47.661142+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:scheduling",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "scheduling"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Meeting Scheduling Software and AI Meeting Tools | Calendly",
+            "url": "https://calendly.com/",
+            "snippet": "Calendly connects and simplifies all of the work around meetings, from scheduling, payments, and meeting prep to notetaking, contact management, and follow-up.",
+            "published_at": "Wed, 28 Oct 2026 22:16:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-10-29T01:56:47.661188+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:scheduling",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "scheduling"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/ReactorcoreGames/BlueskyAutoPoster",
+            "title": "ReactorcoreGames/BlueskyAutoPoster",
+            "score": 21,
+            "reasons": [
+              "query_terms:spreadsheet",
+              "commercial_or_tool_context",
+              "stale_over_one_year",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://github.com/waldo323/schedcsv",
+            "title": "waldo323/schedcsv",
+            "score": 19,
+            "reasons": [
+              "query_terms:scheduling,spreadsheet",
+              "stale_over_one_year",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://github.com/SolarisPKN/SolarisPKN-Transport",
+            "title": "SolarisPKN/SolarisPKN-Transport",
+            "score": 28,
+            "reasons": [
+              "query_terms:spreadsheet",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://github.com/Ashutoshkh43/Examination-Management-Portal-V2",
+            "title": "Ashutoshkh43/Examination-Management-Portal-V2",
+            "score": 34,
+            "reasons": [
+              "query_terms:manual",
+              "published_within_30_days",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://github.com/Orchestration-Maestro/maestro/issues/1760",
+            "title": "Finish native transcript and streaming components",
+            "score": 28,
+            "reasons": [
+              "commercial_or_tool_context",
+              "published_within_30_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/cbusillo/odoo-devkit/issues/277",
+            "title": "Move every Odoo instance to Odoo 20 Community (Q870)",
+            "score": 21,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/3066",
+            "title": "[TEAM NAYA] Coordination feed — successor to #2793",
+            "score": 37,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/shihab-tech04/NBR-Officemanagment-UI-V2/issues/106",
+            "title": "WS00 | NBR eReturn master integration & acceptance ledger | 2026-10-22",
+            "score": 49,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTWpSLXdaOFdTVEs1MHo2bDVFTXRMRHFEVkxDSHlBVWhlT3JPc0hVUzA0bXAzRHJIcmlCcnZNQno4allKSWRXcGc2R0hHbFVLdUhJbE5NdHVRRm1DTlljanVVdmNfSWdoTDZIXzgwaHNQWG55eE5rQ0Ewclo0TFZlS0FuTENjMHM?oc=5",
+            "title": "Morrisons picks Logile to overhaul workload planning - IT Brief UK",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOd0lxTXF4S2JnTHpJdTJBYTluQW1pSUNwVkpXZDZ5RE4wQTlMY04tOHlDOG16Ulk4Yi15MlFVaW4xZ2hNTVdQMDBCSzBiSE0xVmNSYVdTU1JiTDFTa0dCWUR4bFh5X1lfUUhHUkRYeHYxdVZsU0JWZVprS2NvYXBtSno0WGlwejEtQVc1WG1LOE90MXVnVDNqdVVBV0V1Y2Vvakd5S1FnWGhZOU5nUm9xYjdYYjk1b3pKeDFWQmNqUngybWlSWnBtTTV1ZmxQeG1la0dhSWNRR0hWYTUtZXc?oc=5",
+            "title": "From kegs to cases: the hidden planning complexity in alcohol and beverage supply chains - Kearney",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Scheduling_(computing)",
+            "title": "Scheduling (computing) - Wikipedia",
+            "score": 18,
+            "reasons": [
+              "query_terms:scheduling",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://calendar.google.com/",
+            "title": "Google Calendar - Easier Time Management, Appointments & Scheduling",
+            "score": 18,
+            "reasons": [
+              "query_terms:scheduling",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=46396889",
+            "title": "Ask HN: What's still broken in SoC 2 readiness and audit prep?",
+            "score": 58,
+            "reasons": [
+              "query_terms:manual",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=45618229",
+            "title": "AI Agents Are Quietly Taking over Project Management",
+            "score": 14,
+            "reasons": [
+              "query_terms:scheduling",
+              "stale_over_one_year",
+              "no_explicit_user_pain_in_snippet",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=45006853",
+            "title": "The problem of scheduling life like a spreadsheet",
+            "score": 40,
+            "reasons": [
+              "query_terms:scheduling,spreadsheet",
+              "problem_or_request_language",
+              "stale_over_one_year",
+              "firsthand_date_missing_or_older_than_180_days"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=44112008",
+            "title": "My Friend Raised Her Seed Round in 17 Days",
+            "score": 0,
+            "reasons": [
+              "stale_over_one_year",
+              "query_terms_not_found",
+              "no_explicit_user_pain_in_snippet",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "scheduling spreadsheet",
+        "market": "US",
+        "topic": "operations",
+        "intent": "manual_schedule_pain",
+        "locale": "en",
+        "kind": "specific_buyer_problem"
+      },
+      "repeat_links_across_queries": [
+        "https://github.com/Orchestration-Maestro/maestro/issues/1760"
+      ]
+    },
+    {
+      "query": "conciliação bancária manual",
+      "captured_at": "2026-10-29T01:56:48.355416+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 2,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "empty",
+          "count": 0,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "degraded",
+          "count": 0,
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "Gary-Rainer-Chumacero-Vanderlei/ledger-fpa",
+          "url": "https://github.com/Gary-Rainer-Chumacero-Vanderlei/ledger-fpa",
+          "snippet": "Sistema de contabilidade e FP&A em Python: lançamentos, conciliação bancária, DRE e orçamento.",
+          "published_at": "2026-10-08T17:37:19Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T23:32:56Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:48.841836+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "vittoralcan/sindesk_demo",
+          "url": "https://github.com/vittoralcan/sindesk_demo",
+          "snippet": "Showcase de um SaaS multi-tenant para sindicatos: cadastro de filiados/empresas, cobrança via Pix, conciliação bancária e análise de evolução. Roda 100% no navegador, com dados ficticios.",
+          "published_at": "2026-10-28T20:12:02Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:17:33Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:48.841880+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "orprocondigital-web/Orprocon-Gestao-Financeira-React",
+          "url": "https://github.com/orprocondigital-web/Orprocon-Gestao-Financeira-React",
+          "snippet": "Gestão Financeira da Orprocon em React + Tailwind: integração contábil com o SCI Único, conciliação bancária, ICMS, IBS/CBS, ISS, controle de horas do DP, vencimentos e Em Dia.",
+          "published_at": "2026-10-19T11:42:46Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T17:42:57Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:48.841937+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "hologram-gestao/auditoria-lancamentos",
+          "url": "https://github.com/hologram-gestao/auditoria-lancamentos",
+          "snippet": "Plataforma interna de conciliação bancária automatizada — integra Omie + IA (Claude) para auditoria dos lançamentos financeiros dos clientes BPO da Hologram.",
+          "published_at": "2026-04-24T17:59:49Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-27T18:50:55Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:48.841969+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "TAMÃO — demonstração funcional antes de buscar revendas (sem retrabalho)",
+          "url": "https://github.com/carloskk07/gassg/issues/493",
+          "snippet": "# TAMÃO — produto demonstrável e operacional antes de buscar revendas (decisão do proprietário, 27/10/2026) > **PRIORIDADE ABSOLUTA E EXPLÍCITA:** o proprietário NÃO deve ser orientado a procurar, convidar, cadastrar ou apresentar o TAMÃO a novas revendas enquanto a plataforma não for funcional, convincente, simples e demonstrada de ponta a ponta. Não condicionar evolução técnica, correções ou homologação isolada à obtenção de fornecedor, documento ou parceiro. Esta decisão substitui recomendações antigas de captação. Não inferir consentimento para abordar terceiros. ## Meta de entrega agora: DEMONSTRAÇÃO FUNCIONAL, ANTES DA VENDA REAL 1. **Auditar a experiência como usuário**, não contar co",
+          "published_at": "2026-10-18T21:40:13Z",
+          "engagement": {
+            "comments": 167
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T00:40:04Z",
+            "state": "open",
+            "author": "carloskk07"
+          },
+          "discovered_at": "2026-10-29T01:56:49.538004+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "PointVet — Continuidade oficial: PDV Unificado Multiempresa, Orçamentos e Crédito",
+          "url": "https://github.com/isaquesan7/sistema-pet/issues/37",
+          "snippet": "**M.5.12 — DIAGNÓSTICO DE INTEGRIDADE PÓS-PARECER CONCLUÍDO EM CI (15/10/2026):** HEAD `d5237f0ce75320bca92799b235935958b282e184` no PR #36 DRAFT. [GitHub Actions #38729173525](https://github.com/isaquesan7/sistema-pet/actions/runs/38729173525): **validate SUCCESS + isolated-postgres SUCCESS**, incluindo testes novos de adulteração de parcelas, valores, conta, referências, hashes e auditorias, E2E contra dados sintéticos reais do PostgreSQL, permissões de empresa/organização, regressões fiscal/financeiro/HTTP e backup/restore SINTÉTICO. Implementados `api/src/modules/pdv/pdv-unificado-diagnostico-pre-baixa.contract.js`, `pdv-unificado-diagnostico-pre-baixa-sandbox.service.js`, `api/tests/pdv",
+          "published_at": "2026-10-14T12:52:42Z",
+          "engagement": {
+            "comments": 110
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T21:07:49Z",
+            "state": "open",
+            "author": "isaquesan7"
+          },
+          "discovered_at": "2026-10-29T01:56:49.540201+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "ChatGPT",
+          "url": "https://chatgpt.com/",
+          "snippet": "You can still log in below.",
+          "published_at": "Wed, 28 Oct 2026 03:18:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:50.335426+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "OpenAI | Research & Deployment",
+          "url": "https://openai.com/",
+          "snippet": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems.",
+          "published_at": "Tue, 27 Oct 2026 18:50:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:50.335472+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Introducing ChatGPT - OpenAI",
+          "url": "https://openai.com/index/chatgpt",
+          "snippet": "ChatGPT has evolved substantially since then. We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.",
+          "published_at": "Wed, 28 Oct 2026 10:42:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:50.335517+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Advertise in ChatGPT | OpenAI Ads",
+          "url": "https://ads.openai.com/",
+          "snippet": "In ChatGPT, people share richer context, enabling advertising that is more relevant, personalized, and useful. Reach customers in an advertising environment built around conversation, context, and real-time decisions.",
+          "published_at": "Wed, 28 Oct 2026 10:42:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:50.335554+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "conciliação bancária",
+        "github_issues": "conciliação bancária",
+        "google_news_rss": "conciliação bancária manual",
+        "duckduckgo": "conciliação bancária manual",
+        "reddit": "conciliação bancária manual"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 10,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 4,
+        "discarded_count": 6,
+        "review_leads": [],
+        "competitor_references": [
+          {
+            "platform": "github_repositories",
+            "title": "Gary-Rainer-Chumacero-Vanderlei/ledger-fpa",
+            "url": "https://github.com/Gary-Rainer-Chumacero-Vanderlei/ledger-fpa",
+            "snippet": "Sistema de contabilidade e FP&A em Python: lançamentos, conciliação bancária, DRE e orçamento.",
+            "published_at": "2026-10-08T17:37:19Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-28T23:32:56Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:48.841836+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 72,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:bancária,conciliação",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "published_within_30_days",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "bancária",
+                "conciliação"
+              ],
+              "published_age_days": 20,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "vittoralcan/sindesk_demo",
+            "url": "https://github.com/vittoralcan/sindesk_demo",
+            "snippet": "Showcase de um SaaS multi-tenant para sindicatos: cadastro de filiados/empresas, cobrança via Pix, conciliação bancária e análise de evolução. Roda 100% no navegador, com dados ficticios.",
+            "published_at": "2026-10-28T20:12:02Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-29T01:17:33Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:48.841880+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 77,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:bancária,conciliação",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "published_within_7_days",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "bancária",
+                "conciliação"
+              ],
+              "published_age_days": 0,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "orprocondigital-web/Orprocon-Gestao-Financeira-React",
+            "url": "https://github.com/orprocondigital-web/Orprocon-Gestao-Financeira-React",
+            "snippet": "Gestão Financeira da Orprocon em React + Tailwind: integração contábil com o SCI Único, conciliação bancária, ICMS, IBS/CBS, ISS, controle de horas do DP, vencimentos e Em Dia.",
+            "published_at": "2026-10-19T11:42:46Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-28T17:42:57Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:48.841937+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 72,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:bancária,conciliação",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "published_within_30_days",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "bancária",
+                "conciliação"
+              ],
+              "published_age_days": 9,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "hologram-gestao/auditoria-lancamentos",
+            "url": "https://github.com/hologram-gestao/auditoria-lancamentos",
+            "snippet": "Plataforma interna de conciliação bancária automatizada — integra Omie + IA (Claude) para auditoria dos lançamentos financeiros dos clientes BPO da Hologram.",
+            "published_at": "2026-04-24T17:59:49Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-27T18:50:55Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:48.841969+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 63,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:bancária,conciliação",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "bancária",
+                "conciliação"
+              ],
+              "published_age_days": 187,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/carloskk07/gassg/issues/493",
+            "title": "TAMÃO — demonstração funcional antes de buscar revendas (sem retrabalho)",
+            "score": 28,
+            "reasons": [
+              "commercial_or_tool_context",
+              "published_within_30_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/isaquesan7/sistema-pet/issues/37",
+            "title": "PointVet — Continuidade oficial: PDV Unificado Multiempresa, Orçamentos e Crédito",
+            "score": 28,
+            "reasons": [
+              "commercial_or_tool_context",
+              "published_within_30_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://chatgpt.com/",
+            "title": "ChatGPT",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "very_short_title",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://openai.com/",
+            "title": "OpenAI | Research & Deployment",
+            "score": 9,
+            "reasons": [
+              "problem_or_request_language",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://openai.com/index/chatgpt",
+            "title": "Introducing ChatGPT - OpenAI",
+            "score": 9,
+            "reasons": [
+              "problem_or_request_language",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://ads.openai.com/",
+            "title": "Advertise in ChatGPT | OpenAI Ads",
+            "score": 5,
+            "reasons": [
+              "commercial_or_tool_context",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "conciliação bancária",
+        "market": "BR",
+        "topic": "finance_operations",
+        "intent": "manual_reconciliation",
+        "locale": "pt",
+        "kind": "specific_buyer_problem"
+      },
+      "repeat_links_across_queries": []
+    },
+    {
+      "query": "estoque integração falha",
+      "captured_at": "2026-10-29T01:56:50.729697+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 3,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "empty",
+          "count": 0,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "degraded",
+          "count": 0,
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "WillamesLima01/conferencia-de-material---app",
+          "url": "https://github.com/WillamesLima01/conferencia-de-material---app",
+          "snippet": "Sistema Full Stack para gestão patrimonial, conferência de materiais, estoque de feno e ração, transferências e integração mobile com React, Spring Boot, MySQL e Capacitor.",
+          "published_at": "2026-05-30T10:16:13Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T14:20:20Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:51.198497+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "ravelroot/Order-and-Inventory-System",
+          "url": "https://github.com/ravelroot/Order-and-Inventory-System",
+          "snippet": "Doca é uma plataforma de gestão de pedidos, compras e estoque multi-depósito, desenvolvida com Python e FastAPI. Oferece reserva transacional de estoque, custo médio ponderado, análises ABC, giro e reposição, além de painel web com controle de acesso, auditoria, PostgreSQL, Docker e integração contínua.",
+          "published_at": "2026-10-21T22:24:41Z",
+          "engagement": {
+            "stars": 1
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T13:09:36Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:51.198544+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "eduardomatheusok-crypto/view-planetaAnimal",
+          "url": "https://github.com/eduardomatheusok-crypto/view-planetaAnimal",
+          "snippet": "Sistema de gestão para cliente de pet shop com frontend em React e API em Spring Boot. Inclui controle de estoque e vendas, autenticação JWT com Redis, 189 testes automatizados e integração contínua.",
+          "published_at": "2026-10-28T03:03:11Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T04:51:54Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:51.198577+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "lvdamaceno/SendProductToVtexFromSnk",
+          "url": "https://github.com/lvdamaceno/SendProductToVtexFromSnk",
+          "snippet": "Este projeto realiza a integração de produtos da API Sankhya para a VTEX, permitindo sincronização de dados como estoque e identificação de SKUs entre os dois sistemas.",
+          "published_at": "2025-05-21T20:25:20Z",
+          "engagement": {
+            "stars": 1
+          },
+          "metadata": {
+            "updated_at": "2026-10-27T20:44:16Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:51.198605+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "P0 — Operação Independence: catálogo independente, reivindicação e consolidação de branches",
+          "url": "https://github.com/petertecnetdev/ecosystem-coordination/issues/10",
+          "snippet": "# OPERAÇÃO INDEPENDENCE — PRIORIDADE P0 Branch única de trabalho: `Independence` (frontend, API e coordenação), criada a partir de `main`. Suspender demandas antigas não essenciais; nenhuma branch paralela nova. W00 coordena claims exclusivos por arquivo, worklogs e revisão. Não fazer deploy sem autorização. ## Produto Permitir à equipe Cutinapp publicar fichas informativas de produções e eventos descobertos em fontes públicas, sem representar que o organizador autorizou ou endossou a publicação. Cadastro por conta institucional verificada e papéis de curadoria; não usar contas pessoais falsas nem assumir identidade de produtores. Identificar claramente 'Informações públicas — organizador nã",
+          "published_at": "2026-10-12T22:32:36Z",
+          "engagement": {
+            "comments": 192
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:46:53Z",
+            "state": "open",
+            "author": "petertecnetdev"
+          },
+          "discovered_at": "2026-10-29T01:56:51.865781+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Economia nova: plano em 6 etapas",
+          "url": "https://github.com/dabb3/colheita-feliz-public/issues/13",
+          "snippet": "A economia nova do `docs/game-rule.md` entra em seis etapas, cada uma num PR que parte da `main` já contendo as dependências da etapa. Os planos detalhados estão no pacote de handoff (`docs/superpowers/plans/2026-10-26-0N-*.md`). Os planos detalhados são locais e ignorados pelo Git; a fonte normativa `docs/game-rule.md` permanece versionada. Nenhuma versão da economia nova deve ser publicada antes das seis etapas estarem integradas. As entregas intermediárias são para desenvolvimento e revisão. ### Etapas e ordem - [x] #14 1/6 Fundação econômica, VIP e save: #11, mesclado - [x] #15 2/6 Cultivo, temporadas e catálogo: #12, mesclado - [x] #16 3/6 Fertilizantes por temporada: #20, mesclado; sav",
+          "published_at": "2026-10-27T00:22:07Z",
+          "engagement": {
+            "comments": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:45:53Z",
+            "state": "closed",
+            "author": "mrlptrc"
+          },
+          "discovered_at": "2026-10-29T01:56:51.866015+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Economia nova 6/6: furto e proteção (domínio e contrato)",
+          "url": "https://github.com/dabb3/colheita-feliz-public/issues/19",
+          "snippet": "Seções 4.3, 5.1 e 13. Só domínio local e contrato; a rede tem desenho separado. ### Critérios de aceite - [ ] Só se furta a temporada atual pronta e desprotegida. Uma unidade é transferida, sem XP e sem compensação, preservando moeda, custo e VIP. - [ ] Furto da temporada final deixa planta morta; furto de temporada intermediária reinicia com rega pendente. - [ ] Na operação local serializada, coleta e furto consomem a temporada uma única vez. Revalidar a revisão esperada antes de mutar; pedido repetido, inclusive após reabrir, não transfere outra unidade. Esses testes não comprovam concorrência entre máquinas. - [ ] A quantidade protegida é `min(N, teto(N × P / 5))`, com `N` igual ao número",
+          "published_at": "2026-10-27T00:22:22Z",
+          "engagement": {
+            "comments": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:24:06Z",
+            "state": "closed",
+            "author": "mrlptrc"
+          },
+          "discovered_at": "2026-10-29T01:56:51.866194+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "FedEx Global Home - Select Your Location",
+          "url": "https://www.fedex.com/",
+          "snippet": "Welcome to FedEx.com - Select your location to find services for shipping your package, package tracking, shipping rates, and tools to support shippers and small businesses",
+          "published_at": "Wed, 28 Oct 2026 10:35:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:52.522983+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Track & Ship Online or Find Nearby Locations | FedEx",
+          "url": "https://www.fedex.com/en-us/home.html",
+          "snippet": "Login to your account or learn more about how to become a better shipper, printing offers, or get inspiration for your small business.",
+          "published_at": "Tue, 27 Oct 2026 19:26:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:52.523047+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "FedEx",
+          "url": "https://my.fedex.com/en-us",
+          "snippet": "FedEx Sign Up or Log In",
+          "published_at": "Wed, 28 Oct 2026 10:56:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:52.523074+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "FedEx - Shipping and printing locations near you",
+          "url": "https://local.fedex.com/en-us",
+          "snippet": "Find solutions to all your shipping, drop off, pickup, packaging and printing needs at thousands of FedEx Office, Ship Center, Walgreens, Dollar General and Drop Box locations near you.",
+          "published_at": "Wed, 28 Oct 2026 01:45:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:52.523106+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "estoque integração",
+        "github_issues": "estoque integração",
+        "google_news_rss": "estoque integração falha",
+        "duckduckgo": "estoque integração falha",
+        "reddit": "estoque integração falha"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 11,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 4,
+        "discarded_count": 7,
+        "review_leads": [],
+        "competitor_references": [
+          {
+            "platform": "github_repositories",
+            "title": "WillamesLima01/conferencia-de-material---app",
+            "url": "https://github.com/WillamesLima01/conferencia-de-material---app",
+            "snippet": "Sistema Full Stack para gestão patrimonial, conferência de materiais, estoque de feno e ração, transferências e integração mobile com React, Spring Boot, MySQL e Capacitor.",
+            "published_at": "2026-05-30T10:16:13Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-28T14:20:20Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:51.198497+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 47,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:estoque,integração",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "estoque",
+                "integração"
+              ],
+              "published_age_days": 151,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "ravelroot/Order-and-Inventory-System",
+            "url": "https://github.com/ravelroot/Order-and-Inventory-System",
+            "snippet": "Doca é uma plataforma de gestão de pedidos, compras e estoque multi-depósito, desenvolvida com Python e FastAPI. Oferece reserva transacional de estoque, custo médio ponderado, análises ABC, giro e reposição, além de painel web com controle de acesso, auditoria, PostgreSQL, Docker e integração contínua.",
+            "published_at": "2026-10-21T22:24:41Z",
+            "engagement": {
+              "stars": 1
+            },
+            "metadata": {
+              "updated_at": "2026-10-28T13:09:36Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:51.198544+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 61,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:estoque,integração",
+                "commercial_or_tool_context",
+                "published_within_7_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "estoque",
+                "integração"
+              ],
+              "published_age_days": 7,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "eduardomatheusok-crypto/view-planetaAnimal",
+            "url": "https://github.com/eduardomatheusok-crypto/view-planetaAnimal",
+            "snippet": "Sistema de gestão para cliente de pet shop com frontend em React e API em Spring Boot. Inclui controle de estoque e vendas, autenticação JWT com Redis, 189 testes automatizados e integração contínua.",
+            "published_at": "2026-10-28T03:03:11Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-28T04:51:54Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:51.198577+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 77,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:estoque,integração",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "published_within_7_days",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "estoque",
+                "integração"
+              ],
+              "published_age_days": 0,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "lvdamaceno/SendProductToVtexFromSnk",
+            "url": "https://github.com/lvdamaceno/SendProductToVtexFromSnk",
+            "snippet": "Este projeto realiza a integração de produtos da API Sankhya para a VTEX, permitindo sincronização de dados como estoque e identificação de SKUs entre os dois sistemas.",
+            "published_at": "2025-05-21T20:25:20Z",
+            "engagement": {
+              "stars": 1
+            },
+            "metadata": {
+              "updated_at": "2026-10-27T20:44:16Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:51.198605+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 31,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:estoque,integração",
+                "commercial_or_tool_context",
+                "stale_over_one_year",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "estoque",
+                "integração"
+              ],
+              "published_age_days": 525,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/petertecnetdev/ecosystem-coordination/issues/10",
+            "title": "P0 — Operação Independence: catálogo independente, reivindicação e consolidação de branches",
+            "score": 28,
+            "reasons": [
+              "commercial_or_tool_context",
+              "published_within_30_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/dabb3/colheita-feliz-public/issues/13",
+            "title": "Economia nova: plano em 6 etapas",
+            "score": 21,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/dabb3/colheita-feliz-public/issues/19",
+            "title": "Economia nova 6/6: furto e proteção (domínio e contrato)",
+            "score": 21,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://www.fedex.com/",
+            "title": "FedEx Global Home - Select Your Location",
+            "score": 5,
+            "reasons": [
+              "commercial_or_tool_context",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.fedex.com/en-us/home.html",
+            "title": "Track & Ship Online or Find Nearby Locations | FedEx",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://my.fedex.com/en-us",
+            "title": "FedEx",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "very_short_title",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://local.fedex.com/en-us",
+            "title": "FedEx - Shipping and printing locations near you",
+            "score": 9,
+            "reasons": [
+              "problem_or_request_language",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "off_topic_contextual_reference"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "estoque integração",
+        "market": "BR",
+        "topic": "inventory",
+        "intent": "integration_pain",
+        "locale": "pt",
+        "kind": "specific_buyer_problem"
+      },
+      "repeat_links_across_queries": []
+    },
+    {
+      "query": "facturas SAT errores",
+      "captured_at": "2026-10-29T01:56:52.861477+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 2,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "ok",
+          "count": 1,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "degraded",
+          "count": 0,
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "sudestada93/auditor-facturas-sat",
+          "url": "https://github.com/sudestada93/auditor-facturas-sat",
+          "snippet": "verificador de facturas",
+          "published_at": "2026-03-19T15:08:45Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-26T16:41:35Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:53.365962+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "FiscalAPI/fiscalapi-net",
+          "url": "https://github.com/FiscalAPI/fiscalapi-net",
+          "snippet": "Crea facturas CFDI en .NET consumiendo el api de fiscalapi. Factura sin dolor!!",
+          "published_at": "2024-11-24T20:44:19Z",
+          "engagement": {
+            "stars": 69
+          },
+          "metadata": {
+            "updated_at": "2026-10-23T04:52:40Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:53.366005+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "msucedo/sat-facturas-ios",
+          "url": "https://github.com/msucedo/sat-facturas-ios",
+          "snippet": "Descarga masiva CFDI",
+          "published_at": "2026-10-21T23:27:30Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-21T23:28:46Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:53.366030+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "Short03/cfdi-validator",
+          "url": "https://github.com/Short03/cfdi-validator",
+          "snippet": "Validador de facturas electrónicas CFDI 4.0 del SAT. Revisa RFC, importes, método de pago y timbre con 17 reglas, y guarda un historial consultable. ASP.NET Core (.NET 10), Blazor, EF Core, SQL Server y xUnit.",
+          "published_at": "2026-10-21T05:47:49Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-21T05:48:37Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:53.366064+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Notas de crédito: emitir (POST/PATCH a Emitida) timbra el CFDI de egreso sin exigir E-FIN-FACTURAS, que timbrar/ sí exige",
+          "url": "https://github.com/DISTinTheHouse/nucleo-erp/issues/725",
+          "snippet": "## Resumen Emitir una nota de crédito (`POST /api/v1/finanzas/notas-credito/` con `estatus=Emitida`, o `PATCH` a `Emitida`) timbra un CFDI de egreso en Facturama **sin exigir** `PERMISO_CANCELAR_FACTURA` (`E-FIN-FACTURAS`). La acción `timbrar/`, que hace exactamente el mismo timbrado, sí lo exige. Un usuario sin ese permiso no puede usar `timbrar/`, pero puede timbrar igual emitiendo la nota. Revisado en `9a4392a` (= `origin/main`; `finanzas` sin cambios desde `cbf801e`). Solo lectura de código; no se probó en vivo con un usuario sin el permiso. ## Evidencia - `timbrar/` ([views.py:2593-2597](https://github.com/DISTinTheHouse/nucleo-erp/blob/9a4392a/finanzas/api/views.py#L2593-L2597)): `if n",
+          "published_at": "2026-10-28T22:14:05Z",
+          "engagement": {
+            "comments": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T22:14:22Z",
+            "state": "open",
+            "author": "LuisChavezz"
+          },
+          "discovered_at": "2026-10-29T01:56:54.230626+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker",
+          "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
+          "snippet": "# Zero Day Pulse > **Generated:** 2026-05-26 14:37 UTC | **Total:** 15 | 🔴 KEV: 0 | 🟠 Zero-Day: 13 | 🟡 High: 2 | ✨ Enriched: 10 --- ## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Compromise Utility Billing Software Provider **CVE:** `CVE-2024-57727` | **Source:** CISA US-CERT Alerts | **Published:** Thu, 12 Ju **Reference:** <https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-163a> > Summary The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this advisory in response to ransomware actors leveraging unpatched instances of a vulnerability in SimpleHelp Remote Monitoring and Management (RMM) to compromise c",
+          "published_at": "2026-05-26T14:37:26Z",
+          "engagement": {
+            "comments": 612
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T21:57:53Z",
+            "state": "open",
+            "author": "github-actions[bot]"
+          },
+          "discovered_at": "2026-10-29T01:56:54.231499+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "SAT duplica la recaudación por fiscalizar operaciones de comercio exterior - Expansión",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdnJPVDFuSlFyLUJFWkVIR2pVVUdwQTFYR0p3ZEhXWTJYckphVjVTelRfN3lzaENrR0dELXBPaXJNa3lsc0lNLUF1TmxFdDZMSmMxWFhpR2hSbDhXOUp3eGFieUlHSGZLcnJDMWdGZmFvOHBxSWtHRzUzc2luZW5mSThR0gGPAUFVX3lxTE5ZQi1rcF83WldUT3JZMnhsT28yRFUxMlhtMmR4UGxJNnlsUy1TZkJUQVVsOEktcF94NGZqVHB2T09lSlh2WktNTnhuWFVPS1Job0psWV80dzdUZ05RWnRMWDRPdG5WVFlHakdvcW5PcGVtT09ZZlNOMEdwR282bXV3Q1hMX3NPdzRGUWlKM3hV?oc=5",
+          "snippet": "SAT duplica la recaudación por fiscalizar operaciones de comercio exterior Expansión",
+          "published_at": "Wed, 28 Feb 2024 08:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:54.619839+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Portal de Trámites y Servicios del SAT",
+          "url": "https://www.sat.gob.mx/personas/factura-electronica",
+          "snippet": "Accede al portal del SAT para gestionar trámites y servicios relacionados con la factura electrónica de manera sencilla y eficiente.",
+          "published_at": "Mon, 26 Oct 2026 08:21:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:54.963485+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Portal de Trámites y Servicios del SAT",
+          "url": "https://www.sat.gob.mx/portal/public/tramites/factura-electronica",
+          "snippet": "Accede al portal del SAT para realizar trámites relacionados con la factura electrónica y obtener información sobre su emisión y recuperación.",
+          "published_at": "Tue, 27 Oct 2026 01:32:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:54.963546+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Factura electrónica - Portal de trámites y servicios - SAT",
+          "url": "https://wwwmat.sat.gob.mx/personas/factura-electronica",
+          "snippet": "Servicio de facturación CFDI versión 4.0 Verifica tus facturas Factura electrónica en Mis cuentas Genera facturas por tu actividad como persona física",
+          "published_at": "Mon, 26 Oct 2026 13:00:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:54.963584+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "100 plantillas de facturas gratis para imprimir o descargar en PDF",
+          "url": "https://invoicehome.com/?locale=es",
+          "snippet": "En Invoice Home podrás generar, guardar, imprimir y enviar tantas veces como necesites todas tus facturas. Además, también te ofrecemos plantillas para crear facturas proforma y otros documentos esenciales para tu negocio.",
+          "published_at": "Tue, 27 Oct 2026 21:20:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:54.963624+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "facturas SAT",
+        "github_issues": "facturas SAT",
+        "google_news_rss": "facturas SAT errores",
+        "duckduckgo": "facturas SAT errores",
+        "reddit": "facturas SAT errores"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 11,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 8,
+        "discarded_count": 3,
+        "review_leads": [],
+        "competitor_references": [
+          {
+            "platform": "github_repositories",
+            "title": "sudestada93/auditor-facturas-sat",
+            "url": "https://github.com/sudestada93/auditor-facturas-sat",
+            "snippet": "verificador de facturas",
+            "published_at": "2026-03-19T15:08:45Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-26T16:41:35Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:53.365962+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 47,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:facturas,sat",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "facturas",
+                "sat"
+              ],
+              "published_age_days": 223,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "msucedo/sat-facturas-ios",
+            "url": "https://github.com/msucedo/sat-facturas-ios",
+            "snippet": "Descarga masiva CFDI",
+            "published_at": "2026-10-21T23:27:30Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-21T23:28:46Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:53.366030+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 61,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:facturas,sat",
+                "commercial_or_tool_context",
+                "published_within_7_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "facturas",
+                "sat"
+              ],
+              "published_age_days": 7,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "Short03/cfdi-validator",
+            "url": "https://github.com/Short03/cfdi-validator",
+            "snippet": "Validador de facturas electrónicas CFDI 4.0 del SAT. Revisa RFC, importes, método de pago y timbre con 17 reglas, y guarda un historial consultable. ASP.NET Core (.NET 10), Blazor, EF Core, SQL Server y xUnit.",
+            "published_at": "2026-10-21T05:47:49Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-21T05:48:37Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:53.366064+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 61,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:facturas,sat",
+                "commercial_or_tool_context",
+                "published_within_7_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "facturas",
+                "sat"
+              ],
+              "published_age_days": 7,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "google_news_rss",
+            "title": "SAT duplica la recaudación por fiscalizar operaciones de comercio exterior - Expansión",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdnJPVDFuSlFyLUJFWkVIR2pVVUdwQTFYR0p3ZEhXWTJYckphVjVTelRfN3lzaENrR0dELXBPaXJNa3lsc0lNLUF1TmxFdDZMSmMxWFhpR2hSbDhXOUp3eGFieUlHSGZLcnJDMWdGZmFvOHBxSWtHRzUzc2luZW5mSThR0gGPAUFVX3lxTE5ZQi1rcF83WldUT3JZMnhsT28yRFUxMlhtMmR4UGxJNnlsUy1TZkJUQVVsOEktcF94NGZqVHB2T09lSlh2WktNTnhuWFVPS1Job0psWV80dzdUZ05RWnRMWDRPdG5WVFlHakdvcW5PcGVtT09ZZlNOMEdwR282bXV3Q1hMX3NPdzRGUWlKM3hV?oc=5",
+            "snippet": "SAT duplica la recaudación por fiscalizar operaciones de comercio exterior Expansión",
+            "published_at": "Wed, 28 Feb 2024 08:00:00 GMT",
+            "engagement": {},
+            "metadata": {},
+            "discovered_at": "2026-10-29T01:56:54.619839+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 34,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:sat",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "sat"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Portal de Trámites y Servicios del SAT",
+            "url": "https://www.sat.gob.mx/personas/factura-electronica",
+            "snippet": "Accede al portal del SAT para gestionar trámites y servicios relacionados con la factura electrónica de manera sencilla y eficiente.",
+            "published_at": "Mon, 26 Oct 2026 08:21:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-10-29T01:56:54.963485+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:sat",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "sat"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Portal de Trámites y Servicios del SAT",
+            "url": "https://www.sat.gob.mx/portal/public/tramites/factura-electronica",
+            "snippet": "Accede al portal del SAT para realizar trámites relacionados con la factura electrónica y obtener información sobre su emisión y recuperación.",
+            "published_at": "Tue, 27 Oct 2026 01:32:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-10-29T01:56:54.963546+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:sat",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "sat"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Factura electrónica - Portal de trámites y servicios - SAT",
+            "url": "https://wwwmat.sat.gob.mx/personas/factura-electronica",
+            "snippet": "Servicio de facturación CFDI versión 4.0 Verifica tus facturas Factura electrónica en Mis cuentas Genera facturas por tu actividad como persona física",
+            "published_at": "Mon, 26 Oct 2026 13:00:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-10-29T01:56:54.963584+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 40,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:facturas,sat",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "facturas",
+                "sat"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "100 plantillas de facturas gratis para imprimir o descargar en PDF",
+            "url": "https://invoicehome.com/?locale=es",
+            "snippet": "En Invoice Home podrás generar, guardar, imprimir y enviar tantas veces como necesites todas tus facturas. Además, también te ofrecemos plantillas para crear facturas proforma y otros documentos esenciales para tu negocio.",
+            "published_at": "Tue, 27 Oct 2026 21:20:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-10-29T01:56:54.963624+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 46,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:facturas",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "facturas"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/FiscalAPI/fiscalapi-net",
+            "title": "FiscalAPI/fiscalapi-net",
+            "score": 21,
+            "reasons": [
+              "query_terms:facturas",
+              "commercial_or_tool_context",
+              "stale_over_one_year",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://github.com/DISTinTheHouse/nucleo-erp/issues/725",
+            "title": "Notas de crédito: emitir (POST/PATCH a Emitida) timbra el CFDI de egreso sin exigir E-FIN-FACTURAS, que timbrar/ sí exige",
+            "score": 58,
+            "reasons": [
+              "query_terms:facturas",
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet"
+            ]
+          },
+          {
+            "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
+            "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker",
+            "score": 19,
+            "reasons": [
+              "commercial_or_tool_context",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "facturas SAT",
+        "market": "MX",
+        "topic": "tax_compliance",
+        "intent": "invoice_rejection",
+        "locale": "es",
+        "kind": "specific_buyer_problem"
+      },
+      "repeat_links_across_queries": []
+    },
+    {
+      "query": "inventario excel manual",
+      "captured_at": "2026-10-29T01:56:55.314959+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "empty",
+          "count": 0,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "degraded",
+          "count": 0,
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "MMedinacode/Minimarket-POS",
+          "url": "https://github.com/MMedinacode/Minimarket-POS",
+          "snippet": "Caja e inventario para minimarkets: POS con lector de códigos, stock crítico, gastos y Excel",
+          "published_at": "2026-09-24T01:14:51Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:31:20Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:55.730565+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "tommylaroso-cyber/auditoria-datos-excel-inventario-ti",
+          "url": "https://github.com/tommylaroso-cyber/auditoria-datos-excel-inventario-ti",
+          "snippet": "Laboratorio de auditoría de datos en Excel: detección de duplicados, vacíos e inconsistencias en un inventario ficticio de 100 activos TI, con tablas dinámicas, búsquedas e informe",
+          "published_at": "2026-10-28T20:29:41Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T20:47:23Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:55.730615+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "JonMRodrigues/Inventario-De-Devolu-o-PJ",
+          "url": "https://github.com/JonMRodrigues/Inventario-De-Devolu-o-PJ",
+          "snippet": "Sistema web de auditoria de devoluções. O auditor escolhe o PJ e bipa os códigos, que são validados (só letras e números) e checados contra duplicidade, com limite de 2.500 peças. Permite consultar a lista e, ao exportar, baixa Excel e PDF juntos e reinicia a auditoria. Dados salvos no navegador, visual Windows XP.",
+          "published_at": "2026-10-28T00:57:10Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T00:57:36Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:55.730656+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "JonMRodrigues/Inventario-De-Coletas",
+          "url": "https://github.com/JonMRodrigues/Inventario-De-Coletas",
+          "snippet": "Sistema web de inventário de coletas. O auditor escolhe seu nome e o embarcador, e bipa os códigos, que são validados (só letras e números) e checados contra duplicidade, com limite de 2.500 peças. Permite consultar a lista e exportar tudo em Excel ou PDF, reiniciando a auditoria. Dados salvos no navegador, visual Windows XP.",
+          "published_at": "2026-10-28T00:52:46Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T00:54:02Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-10-29T01:56:55.730695+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "CONTROLE MESTRE — FutStats IA | Progresso e continuidade entre chats",
+          "url": "https://github.com/azevedosouza22/futstats/issues/29",
+          "snippet": "# CONTROLE MESTRE — FUTSTATS IA **Checkpoint:** 2026-10-27 (Brasília) **Status de planejamento:** **96/100 pontos = 96% concluído, 4% restante** (estimativa por entregáveis, **não** porcentagem medida automaticamente por código) **Meta intermediária:** 60%, depois 70%, 85% e 100% sujeito a critérios de aceite. **Último PR confirmado:** [#72 — exportação de previsões originais pré-jogo para pesquisa](https://github.com/azevedosouza22/futstats/pull/72), branch `feat/v4-prekickoff-forecast-ledger`, HEAD `1c46eb54a74cda5159344d2a9e5f03e266c43f82`. **[GitHub Actions #40491124313](https://github.com/azevedosouza22/futstats/actions/runs/40491124313) VERDE:** 348 Vitest/53 arquivos, TypeScript/Vite,",
+          "published_at": "2026-10-25T15:01:35Z",
+          "engagement": {
+            "comments": 51
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:56:07Z",
+            "state": "open",
+            "author": "azevedosouza22"
+          },
+          "discovered_at": "2026-10-29T01:56:56.528173+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "ARCHIVED — Zion internal operations moved to private War Room",
+          "url": "https://github.com/Zion-support/zion-support.github.io/issues/71361",
+          "snippet": "## Public operations log retired — 28 October 2026 This public GitHub issue is **closed and read-only**. Zion's operational check-ins, agent state, customer/supplier records, service requests, dispatch decisions and internal handoffs belong in the **authorized private Zion Agent War Room in Notion**, not in public GitHub comments, branches, pages or workflow artifacts. Do not create a public successor issue or post operational details here. Public site information: https://ziontechgroup.com/ . Commercial inquiries: commercial@ziontechgroup.com. The historical public issue and Git revision history may still contain prior content. The security owner must separately assess old comments, search ",
+          "published_at": "2026-09-17T19:12:38Z",
+          "engagement": {
+            "comments": 2500
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:22:56Z",
+            "state": "closed",
+            "author": "Zion-support"
+          },
+          "discovered_at": "2026-10-29T01:56:56.528308+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "AirTrust — Estado operacional mestre das frentes",
+          "url": "https://github.com/Airtrust-Org/airtrust/issues/776",
+          "snippet": "# Estado operacional mestre <!-- f0-canonical-one-stage-per-conversation-20261022 --> ## Regra canônica F0 — uma etapa concluída por conversa (22/10/2026) **Decisão do proprietário, vinculante para F0:** cada conversa ou solicitação operacional deve selecionar **uma etapa técnica delimitada, com critério de aceite e evidência primária**, executá-la até conclusão comprovada, e **somente então** encerrar com o resultado. Não consumir turnos com sucessivos relatórios, reauditorias no mesmo SHA ou pedidos de “prossiga” após cada subpasso. Não declarar concluída uma etapa apenas por CI verde, comentário ou progresso parcial. Fazer testes focados, checks necessários, integrações e readback da próp",
+          "published_at": "2026-09-17T23:38:23Z",
+          "engagement": {
+            "comments": 1198
+          },
+          "metadata": {
+            "updated_at": "2026-10-29T01:07:12Z",
+            "state": "open",
+            "author": "isaeldaumas"
+          },
+          "discovered_at": "2026-10-29T01:56:56.528927+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "#45 R19 - Importación masiva desde Excel",
+          "url": "https://github.com/francescamassollo-ort/tpfinal-grupo2-ort/issues/47",
+          "snippet": "## Descripción Requisito indispensable del enunciado: cargar múltiples insumos desde un archivo Excel. ## Tareas - [ ] Agregar dependencia `excel` al pubspec.yaml - [ ] Crear `lib/services/importacion_service.dart` - [ ] Definir formato esperado del Excel: columnas nombre, código, fórmula, cantidad, categoría, ubicación - [ ] Parsear el archivo y crear los productos en Firestore - [ ] Mostrar resultado: X productos importados, Y errores con detalle - [ ] Agregar botón de importación en Inventario o Perfil (solo admin) ## Rama `feat/inventario` o issue separado",
+          "published_at": "2026-10-28T23:55:40Z",
+          "engagement": {
+            "comments": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T23:55:41Z",
+            "state": "open",
+            "author": "francescamassollo-ort"
+          },
+          "discovered_at": "2026-10-29T01:56:56.528984+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "New Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+          "url": "https://techcommunity.microsoft.com/blog/skills-hub-blog/new-microsoft-certified-azure-ai-apps-and-agents-developer-associate/4494126",
+          "snippet": "Ready to move from prototypes to production? Demonstrate your readiness to deliver scalable, real‑world AI apps and agents using Azure services and Microsoft...",
+          "published_at": "Wed, 28 Oct 2026 05:05:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:57.220650+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Released: September 2026 Exchange Server Security Updates | Microsoft ...",
+          "url": "https://techcommunity.microsoft.com/blog/exchange/released-september-2026-exchange-server-security-updates/4554411",
+          "snippet": "We have released Security Updates for Exchange Server SE. Exchange Server 2019 and 2016 ESU updates only.",
+          "published_at": "Wed, 28 Oct 2026 00:26:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:57.220697+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "What is SharePoint? | Microsoft Support",
+          "url": "https://support.microsoft.com/en-us/sharepoint/platform/what-is-sharepoint",
+          "snippet": "All you need is a web browser, such as Microsoft Edge, Chrome, or Firefox. Want to learn more? Get started with SharePoint. Take a look at the latest version of SharePoint. When you create a new team site, this is what you'll see for SharePoint and SharePoint Server 2019. What is SharePoint? SharePoint products and downloads",
+          "published_at": "Tue, 27 Oct 2026 18:14:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:57.220738+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Contact Microsoft customer support",
+          "url": "https://support.microsoft.com/en-au/support/index",
+          "snippet": "Contact Microsoft customer support The type of support Microsoft provides depends on the product you're calling about and if you have a product for home or for business use. It can also depend on if you want help for an issue with a service like OneDrive or Outlook.com, or help with Windows, but you don't have an existing Microsoft 365 ...",
+          "published_at": "Mon, 26 Oct 2026 05:22:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:57.220774+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "inventario excel",
+        "github_issues": "inventario excel",
+        "google_news_rss": "inventario excel manual",
+        "duckduckgo": "inventario excel manual",
+        "reddit": "inventario excel manual"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 12,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 4,
+        "discarded_count": 8,
+        "review_leads": [],
+        "competitor_references": [
+          {
+            "platform": "github_repositories",
+            "title": "MMedinacode/Minimarket-POS",
+            "url": "https://github.com/MMedinacode/Minimarket-POS",
+            "snippet": "Caja e inventario para minimarkets: POS con lector de códigos, stock crítico, gastos y Excel",
+            "published_at": "2026-09-24T01:14:51Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-29T01:31:20Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:55.730565+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 38,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:excel,inventario",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "excel",
+                "inventario"
+              ],
+              "published_age_days": 35,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "tommylaroso-cyber/auditoria-datos-excel-inventario-ti",
+            "url": "https://github.com/tommylaroso-cyber/auditoria-datos-excel-inventario-ti",
+            "snippet": "Laboratorio de auditoría de datos en Excel: detección de duplicados, vacíos e inconsistencias en un inventario ficticio de 100 activos TI, con tablas dinámicas, búsquedas e informe",
+            "published_at": "2026-10-28T20:29:41Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-28T20:47:23Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:55.730615+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 65,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:excel,inventario",
+                "problem_or_request_language",
+                "published_within_7_days",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "excel",
+                "inventario"
+              ],
+              "published_age_days": 0,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "JonMRodrigues/Inventario-De-Devolu-o-PJ",
+            "url": "https://github.com/JonMRodrigues/Inventario-De-Devolu-o-PJ",
+            "snippet": "Sistema web de auditoria de devoluções. O auditor escolhe o PJ e bipa os códigos, que são validados (só letras e números) e checados contra duplicidade, com limite de 2.500 peças. Permite consultar a lista e, ao exportar, baixa Excel e PDF juntos e reinicia a auditoria. Dados salvos no navegador, visual Windows XP.",
+            "published_at": "2026-10-28T00:57:10Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-28T00:57:36Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:55.730656+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 49,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:excel,inventario",
+                "published_within_7_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "excel",
+                "inventario"
+              ],
+              "published_age_days": 1,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "JonMRodrigues/Inventario-De-Coletas",
+            "url": "https://github.com/JonMRodrigues/Inventario-De-Coletas",
+            "snippet": "Sistema web de inventário de coletas. O auditor escolhe seu nome e o embarcador, e bipa os códigos, que são validados (só letras e números) e checados contra duplicidade, com limite de 2.500 peças. Permite consultar a lista e exportar tudo em Excel ou PDF, reiniciando a auditoria. Dados salvos no navegador, visual Windows XP.",
+            "published_at": "2026-10-28T00:52:46Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-28T00:54:02Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-10-29T01:56:55.730695+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 49,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:excel,inventario",
+                "published_within_7_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "excel",
+                "inventario"
+              ],
+              "published_age_days": 1,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/azevedosouza22/futstats/issues/29",
+            "title": "CONTROLE MESTRE — FutStats IA | Progresso e continuidade entre chats",
+            "score": 21,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/Zion-support/zion-support.github.io/issues/71361",
+            "title": "ARCHIVED — Zion internal operations moved to private War Room",
+            "score": 38,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/Airtrust-Org/airtrust/issues/776",
+            "title": "AirTrust — Estado operacional mestre das frentes",
+            "score": 22,
+            "reasons": [
+              "commercial_or_tool_context",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/francescamassollo-ort/tpfinal-grupo2-ort/issues/47",
+            "title": "#45 R19 - Importación masiva desde Excel",
+            "score": 84,
+            "reasons": [
+              "query_terms:excel,inventario",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "github_issue_without_explicit_customer_voice"
+            ]
+          },
+          {
+            "url": "https://techcommunity.microsoft.com/blog/skills-hub-blog/new-microsoft-certified-azure-ai-apps-and-agents-developer-associate/4494126",
+            "title": "New Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://techcommunity.microsoft.com/blog/exchange/released-september-2026-exchange-server-security-updates/4554411",
+            "title": "Released: September 2026 Exchange Server Security Updates | Microsoft ...",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://support.microsoft.com/en-us/sharepoint/platform/what-is-sharepoint",
+            "title": "What is SharePoint? | Microsoft Support",
+            "score": 21,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://support.microsoft.com/en-au/support/index",
+            "title": "Contact Microsoft customer support",
+            "score": 21,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "off_topic_contextual_reference"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "inventario excel",
+        "market": "MX",
+        "topic": "inventory",
+        "intent": "manual_inventory_pain",
+        "locale": "es",
+        "kind": "specific_buyer_problem"
+      },
+      "repeat_links_across_queries": []
+    },
+    {
+      "query": "ray edits capcut template",
+      "captured_at": "2026-10-29T01:56:57.652680+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "empty",
+          "count": 0,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "ok",
+          "count": 1,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "degraded",
+          "count": 0,
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      },
+      "items": [
+        {
+          "platform": "github_issues",
+          "title": "视频页每日补充报告 / Video page daily review",
+          "url": "https://github.com/zhuyansen/agent-skills-hub/issues/26",
+          "snippet": "每天 06:30 UTC(北京 14:30)由 `.github/workflows/video-daily.yml` 运行:找出新出现的视频类 skill 仓库,Jev 按页面规则评审,通过的加入 https://agentskillshub.top/best/claude-video-skills/ 和 https://github.com/zhuyansen/awesome-claude-video-skills,中文描述由 GPT 生成并经 Jev 核对。每次运行的报告会作为评论贴在这里。 规则:切题(做视频且给 agent 用);50 星以下还要过 README 质量线。线下的仓库会列出来,要加请点名。",
+          "published_at": "2026-10-03T04:30:05Z",
+          "engagement": {
+            "comments": 29
+          },
+          "metadata": {
+            "updated_at": "2026-10-28T15:56:27Z",
+            "state": "open",
+            "author": "zhuyansen"
+          },
+          "discovered_at": "2026-10-29T01:56:58.668338+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "[upstream] 上游网关调度、计费与账号问题跟踪 — 线索 2026-W43",
+          "url": "https://github.com/youxuanxue/sub2api/issues/2892",
+          "snippet": "<!-- watchdog-intel:v1 platform:upstream period:2026-W43 --> <!-- issue-watchdog:begin --> upstream 来源本期关键词线索；仅供排查参考。 这些条目**未经人工核验**，不是待办：勾选在此无效。 确认要做的请在 ops/issue-watchdog 账本登记判断，下一轮它会进入跟踪队列。 下一周期开启时本单自动关闭（不删除），历史可检索。 人工裁决 2026-10-26：本期无线索晋升；已关闭。 <!-- issue-watchdog:end -->",
+          "published_at": "2026-10-25T07:09:43Z",
+          "engagement": {
+            "comments": 68
+          },
+          "metadata": {
+            "updated_at": "2026-10-26T07:21:57Z",
+            "state": "closed",
+            "author": "youxuanxue"
+          },
+          "discovered_at": "2026-10-29T01:56:58.668388+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "[upstream] 上游网关调度、计费与账号问题跟踪",
+          "url": "https://github.com/youxuanxue/sub2api/issues/2769",
+          "snippet": "> **已归档。** 本单按旧规则（关键词命中即投递）累积，已不再被 watchdog 使用。 > 跟踪队列已改为只收「我们已判断且仍欠工作」的条目，关键词线索进按周轮转的情报单。 > 本单内容完整保留可检索；下方 marker 已移除，bot 不会再复用本单。 <!-- issue-watchdog:begin --> 每日追加新增及更新评论；upstream 来源共用此 Issue。 勾选即从队列移除；判断理由与修复证据记在 ledger 与 commit，不留在本单。 上游关闭或 PR 合并不代表 TokenKey 已解决，条目仍留在队列里。 当前待处理：7667 条。完成全部条目后自动关闭；新问题复用同一 Issue。 <!-- issue-watchdog:end -->",
+          "published_at": "2026-10-21T12:06:01Z",
+          "engagement": {
+            "comments": 78
+          },
+          "metadata": {
+            "updated_at": "2026-10-25T08:36:22Z",
+            "state": "closed",
+            "author": "youxuanxue"
+          },
+          "discovered_at": "2026-10-29T01:56:58.668426+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "After Effects vs Montagent: 905-entry capability audit with gap ratings and Adobe documentation",
+          "url": "https://github.com/MBehtemam/Montagent/issues/954",
+          "snippet": "# Adobe After Effects versus Montagent: rated capability inventory Research dates: 2026-10-11–12; completed 2026-10-12. Adobe baseline: stable After Effects 26.5 (September 2026), with beta and obsolete items explicitly marked. Source: [Adobe release overview](https://helpx.adobe.com/after-effects/desktop/what-s-new/whats-new.html). Compared the local implementation at `aab73941131087a4879407b2a262c23e77da21a2` and relevant public-main model/skill files at `3c3dc04931464351d3b05f3c43e6c6ae9dcf1085`. Public main's model difference adds font-licence evidence metadata, not new AE tools. No runtime parity tests were run: this is a source/schema/documentation audit. Consolidates all **862 rows** ",
+          "published_at": "2026-10-12T06:48:35Z",
+          "engagement": {
+            "comments": 15
+          },
+          "metadata": {
+            "updated_at": "2026-10-12T06:49:58Z",
+            "state": "open",
+            "author": "MBehtemam"
+          },
+          "discovered_at": "2026-10-29T01:56:58.668840+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Is CapCut in trouble? Google Photos just dropped a handful of new video editing upgrades, and it’s a serious upgrade - TechRadar",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUWpnX1p0WDJMX25ONUc1UGYwUU9zdUVwOHh3NDQtZ3lGanlPc2NDOHlwNVJtSW93Ni1XNVR2cThGV3MyMUczWDZYamhuVDZ0MlpEMmxUQk4taUxOVldaRkhfcmlWNG1QY2pRSUJadXBpY0UxWGFuQm8tLW1wOXJzUVFzQWhIUjI2a25yRUJ0UlpJTDR3R2wtaU5CZlZNaUVoREZzR1ZpdGFDTld1ajJEd3RJdlQwZWdjSVJ1b0NLaXpPRkJWZGJpeml1aExhWXNaZ3RZUE85dkI1S2tUaGxheW5ia1FrdGM?oc=5",
+          "snippet": "Is CapCut in trouble? Google Photos just dropped a handful of new video editing upgrades, and it’s a serious upgrade TechRadar",
+          "published_at": "Wed, 10 Dec 2025 08:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-10-29T01:56:59.195700+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Ray (film) - Wikipedia",
+          "url": "https://en.m.wikipedia.org/wiki/Ray_(film)",
+          "snippet": "Ray Charles Robinson is raised in poverty in Florida by his mother, Aretha. Learning to play piano at an early age, Ray is haunted by the accidental death of his younger brother George, who drowns in their mother's washbasin. Ray loses his vision by age seven and becomes completely blind.",
+          "published_at": "Tue, 27 Oct 2026 20:16:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:59.472164+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Ray (2004) - IMDb",
+          "url": "https://m.imdb.com/title/tt0350258",
+          "snippet": "The story of the life and career of the legendary rhythm and blues musician Ray Charles, from his humble beginnings in the South, where he went blind at age seven, to his meteoric rise to stardom during the 1950s and 1960s.",
+          "published_at": "Wed, 28 Oct 2026 10:20:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:59.472214+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Ray - YouTube",
+          "url": "https://m.youtube.com/watch?v=DS1BZNKbgMw",
+          "snippet": "Jamie Foxx stars as the one-of-a-kind innovator of soul, Ray Charles, who overcame impossible odds and humble beginnings to become an extraordinary music leg...",
+          "published_at": "Tue, 27 Oct 2026 20:59:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:59.472250+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Watch Ray (2004) - Free Movies | Tubi",
+          "url": "https://tubitv.com/movies/100000363/ray",
+          "snippet": "Chronicles the life of the one-of-a-kind innovator of soul, Ray Charles, who overcame impossible odds in his path to becoming a music legend.",
+          "published_at": "Wed, 28 Oct 2026 20:36:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-10-29T01:56:59.472283+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "ray edits capcut template",
+        "github_issues": "ray edits capcut template",
+        "google_news_rss": "ray edits capcut template",
+        "duckduckgo": "ray edits capcut template",
+        "reddit": "ray edits capcut template"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 9,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 0,
+        "discarded_count": 9,
+        "review_leads": [],
+        "competitor_references": [],
+        "discarded": [
+          {
+            "url": "https://github.com/zhuyansen/agent-skills-hub/issues/26",
+            "title": "视频页每日补充报告 / Video page daily review",
+            "score": 28,
+            "reasons": [
+              "commercial_or_tool_context",
+              "published_within_30_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/youxuanxue/sub2api/issues/2892",
+            "title": "[upstream] 上游网关调度、计费与账号问题跟踪 — 线索 2026-W43",
+            "score": 37,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/youxuanxue/sub2api/issues/2769",
+            "title": "[upstream] 上游网关调度、计费与账号问题跟踪",
+            "score": 37,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/MBehtemam/Montagent/issues/954",
+            "title": "After Effects vs Montagent: 905-entry capability audit with gap ratings and Adobe documentation",
+            "score": 28,
+            "reasons": [
+              "commercial_or_tool_context",
+              "published_within_30_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUWpnX1p0WDJMX25ONUc1UGYwUU9zdUVwOHh3NDQtZ3lGanlPc2NDOHlwNVJtSW93Ni1XNVR2cThGV3MyMUczWDZYamhuVDZ0MlpEMmxUQk4taUxOVldaRkhfcmlWNG1QY2pRSUJadXBpY0UxWGFuQm8tLW1wOXJzUVFzQWhIUjI2a25yRUJ0UlpJTDR3R2wtaU5CZlZNaUVoREZzR1ZpdGFDTld1ajJEd3RJdlQwZWdjSVJ1b0NLaXpPRkJWZGJpeml1aExhWXNaZ3RZUE85dkI1S2tUaGxheW5ia1FrdGM?oc=5",
+            "title": "Is CapCut in trouble? Google Photos just dropped a handful of new video editing upgrades, and it’s a serious upgrade - TechRadar",
+            "score": 20,
+            "reasons": [
+              "query_terms:capcut",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://en.m.wikipedia.org/wiki/Ray_(film)",
+            "title": "Ray (film) - Wikipedia",
+            "score": 16,
+            "reasons": [
+              "query_terms:ray",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://m.imdb.com/title/tt0350258",
+            "title": "Ray (2004) - IMDb",
+            "score": 16,
+            "reasons": [
+              "query_terms:ray",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://m.youtube.com/watch?v=DS1BZNKbgMw",
+            "title": "Ray - YouTube",
+            "score": 16,
+            "reasons": [
+              "query_terms:ray",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://tubitv.com/movies/100000363/ray",
+            "title": "Watch Ray (2004) - Free Movies | Tubi",
+            "score": 16,
+            "reasons": [
+              "query_terms:ray",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "ray edits capcut template",
+        "locale": "multi",
+        "market": "Worldwide",
+        "topic": "seed_rising",
+        "intent": "emerging_query",
+        "kind": "trend_lead_not_verified",
+        "trend_rise_value": 16250.0
+      },
+      "repeat_links_across_queries": []
+    }
+  ],
+  "unique_evidence_links_across_queries": 96,
+  "warnings": [
+    "Search occurrences, heuristic scores and user issues do not prove search volume or willingness to pay.",
+    "Article/news hits and competitor repositories are contextual leads, not verified buyer demand.",
+    "Do not modify existing keyword lists or bypass exact-query Trends gates."
+  ]
+}
