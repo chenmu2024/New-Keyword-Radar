@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-10-29T17:25:31.205131+00:00
+# V4 Social signal discovery — 2026-10-29T23:16:48.153816+00:00
 
-- Unique links this run: 64, newly seen: 21, history: 521
+- Unique links this run: 61, newly seen: 20, history: 541
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (6) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (3) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (34)
@@ -20,36 +20,33 @@
 
 ## Links (not validated project opportunities)
 
-- [Arco](https://www.producthunt.com/products/arco-4) — producthunt — direct_public_feed
-- [Voxel51 Multimodal](https://www.producthunt.com/products/voxel51) — producthunt — direct_public_feed
-- [TopAgent](https://www.producthunt.com/products/topmessage) — producthunt — direct_public_feed
-- [Gologin Cloud Browser](https://www.producthunt.com/products/gologin) — producthunt — direct_public_feed
-- [Suno MCP](https://www.producthunt.com/products/suno) — producthunt — direct_public_feed
-- [Gemini 4 Carbon](https://www.producthunt.com/products/gemini-4-carbon) — producthunt — direct_public_feed
-- [abidlabs/autoscale-qwen](https://huggingface.co/spaces/abidlabs/autoscale-qwen) — huggingface — direct_public_api
-- [abidlabs/autoscale-kokoro](https://huggingface.co/spaces/abidlabs/autoscale-kokoro) — huggingface — direct_public_api
-- [abidlabs/autoscale-python](https://huggingface.co/spaces/abidlabs/autoscale-python) — huggingface — direct_public_api
-- [rooe61/Gkk](https://huggingface.co/spaces/rooe61/Gkk) — huggingface — direct_public_api
-- [Rohan251103/Wan2.1](https://huggingface.co/spaces/Rohan251103/Wan2.1) — huggingface — direct_public_api
-- [Ubdale/my-chatbot-backend](https://huggingface.co/spaces/Ubdale/my-chatbot-backend) — huggingface — direct_public_api
-- [Sobrancelha sem mais um ano igual Continuar como está também custa. Medo de errar o desenho, mais um mês, mais um ano. Técnica de design: o outro caminho. https://soania.digital/](https://bsky.app/profile/newsmundoon.bsky.social/post/3myzrt7pcnt25) — bluesky — direct_public_post
-- [A própria esquerda já está anunciando isso, como é que pode fazer tanta propaganda assim, meu Deus!!!!](https://bsky.app/profile/alinecaettano.bsky.social/post/3myzrstoegc2a) — bluesky — direct_public_post
-- [Projetos de site sem template travado Dá para criar sites do zero, e sem template travado. São 64 páginas, lidas numa tarde — não é curso de seis meses que você abandona na tercei](https://bsky.app/profile/noticias-em-foco.bsky.social/post/3myzrrkmwng2d) — bluesky — direct_public_post — intent keyword found
-- [Renda extra sem mais um ano igual Continuar como está também custa. O salário não cobre as contas, mais um mês, mais um ano. Plano de renda extra: o outro caminho. https://soania](https://bsky.app/profile/fiqueligado.bsky.social/post/3myzrqitj3324) — bluesky — direct_public_post
-- [Capricórnio: em breve receberá aquilo que vinha desejando. Porém, nem tudo será como esperava e é preciso entender isso, para que você consiga se adaptar ao seu novo momento financ](https://bsky.app/profile/meiodeceu.bsky.social/post/3myzrm2iiw22f) — bluesky — direct_public_post
-- ["ah, mas você está MANDANDO eu fazer ou deixar de fazer algo?" eu não mando nem nos meu gatos, quem dirá dar ordem ou exigir algo de adultos. Estou implorando que como um moviment](https://bsky.app/profile/phalkmin.me/post/3myzrj7o3zt2f) — bluesky — direct_public_post
-- [Password Generator — Free password generator. Free, no signup. # webtools # free https://www. utiltools.net/tools/password-g enerator/?utm_source=mastodon](https://mastodon.social/@kglowreview/117516062250451855) — mastodon — direct_public_post — intent keyword found
-- [Regex Tester — Test a regular expression against your text and see every match and group highlighted live. Free, no signup. # webtools # free https://www. utiltools.net/tools/regex](https://mastodon.social/@kglowreview/117487750855414167) — mastodon — direct_public_post
-- [🌐 Meet Toolxone — useful online tools in one place. PDFs, images, text tools, converters, calculators & more. ⚡ Fast, simple, free, and no signup needed. https://www. toolxone.com/](https://mastodon.social/@toolxone/117480082352920404) — mastodon — direct_public_post
-- [JWT Decoder — Paste a JSON Web Token (JWT) to read its header and payload in plain JSON. Free, no signup. # webtools # free https://www. utiltools.net/tools/jwt-decode r/?utm_sourc](https://mastodon.social/@kglowreview/117476426149659735) — mastodon — direct_public_post
-- [🎡 We just joined Mastodon! LetsSpin is a free online spin-the-wheel - 60+ ready-made wheels for raffles, classroom name picking, "what should I eat" and every decision in between.](https://mastodon.social/@LetsSpin/117474839851200395) — mastodon — direct_public_post
-- [Saju Calculator — Free Korean saju calculator. Free, no signup. # webtools # free https://www. utiltools.net/tools/saju-calcu lator/?utm_source=mastodon](https://mastodon.social/@kglowreview/117465101555757751) — mastodon — direct_public_post
+- [MAO](https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool) — producthunt — direct_public_feed
+- [Kin](https://www.producthunt.com/products/kin-6) — producthunt — direct_public_feed
+- [Recall for Mac](https://www.producthunt.com/products/recall-for-mac) — producthunt — direct_public_feed
+- [IFTTT.ai](https://www.producthunt.com/products/ifttt) — producthunt — direct_public_feed
+- [AutoShelf 2.6](https://www.producthunt.com/products/autoshelf) — producthunt — direct_public_feed
+- [Smart Jelly](https://www.producthunt.com/products/smart-jelly) — producthunt — direct_public_feed
+- [Abdo777654/Docker5000](https://huggingface.co/spaces/Abdo777654/Docker5000) — huggingface — direct_public_api
+- [geradololiconkpol/worlgame-project](https://huggingface.co/spaces/geradololiconkpol/worlgame-project) — huggingface — direct_public_api
+- [Moiseraela-dev/matrixcall](https://huggingface.co/spaces/Moiseraela-dev/matrixcall) — huggingface — direct_public_api
+- [momoloide/m](https://huggingface.co/spaces/momoloide/m) — huggingface — direct_public_api
+- [Itsmedustint/nexus-e-scrap-salvage-full-site](https://huggingface.co/spaces/Itsmedustint/nexus-e-scrap-salvage-full-site) — huggingface — direct_public_api
+- [Skidmark1440/uncensored-imageTOimage2Ref](https://huggingface.co/spaces/Skidmark1440/uncensored-imageTOimage2Ref) — huggingface — direct_public_api
+- [Creo que se ha ido para siempre, porque no tengo ninguna intención de reinstalar a corto plazo. También te digo que si tú tienes tanto control sobre esa herramienta, perfecto (yo n](https://bsky.app/profile/mazapanes.bsky.social/post/3mz23wx4lsc2r) — bluesky — direct_public_post
+- [Necesito parar y analizar este "comunicado" que nos enviaron ayer en el condo... Ignoremos lo obvio, el mal uso de una herramienta que podría ser útil, pero que más bien se ha usad](https://bsky.app/profile/unodien.bsky.social/post/3myzkd562uc24) — bluesky — direct_public_post
+- [Can Yaman: hola amigos kebab cual es tu sabiduría Yo: La huelga general es la única herramienta capaz de hacer ceder al capital, Ganjaman. Juntos acabaremos con la opresión capit](https://bsky.app/profile/amigoskebab.bsky.social/post/3myzde5kfps2y) — bluesky — direct_public_post
+- [Eso es que te hacen falta HERRAMIENTAS. Que cómo se le llena la boca a esa gente con las herramientas. Una llave inglesa atravesando la cabeza del que te jode, esa es la herramient](https://bsky.app/profile/barbatang.eurosky.social/post/3mwl7d7hedk2r) — bluesky — direct_public_post
+- [O sea, es una herramienta que es capaz de hacer ciertas cosas muy concretas y sabiendo que tendrás que cogerlas con pinzas. Pero de ahí a hacerme creer que puede (y necesito!) que](https://bsky.app/profile/pollofrito22.bsky.social/post/3mve3hi655t2r) — bluesky — direct_public_post
+- [Si no sé hacer integrales y necesito hacer integrales, entonces delego esa tarea en una herramienta que yo asumo que puede resolver integrales. Hasta ahí bien.](https://bsky.app/profile/fernandoblancopsy.com/post/3mv2zj4yyk22a) — bluesky — direct_public_post
+- [The temptation shared by all forms of intelligence is cynicism. -- Albert Camus For more quotes, see https:// lzon.ca/quotes . # IndieWeb # PersonalWeb # Blog # Quotes](https://mastodon.social/@lzon/117525793319215595) — mastodon — direct_public_post
+- [Hey there, I made a new post talking about what I think about using AI. It's just my opinion, but you can read the post here: https:// merazi.github.io/posts/respons ible-use-of-ai](https://mastodon.social/@ttydweller/117525791547686382) — mastodon — direct_public_post
+- [Great New Blogs Added to the Community Page After someone reached out to me on Mastodon, I realized that I fell behind on updating my Community page. So, I spent a little time gett](https://mastodon.social/@readbeanicecream/117525440640694428) — mastodon — direct_public_post
+- [Ask HN: Opus 5.5 suddenly dumb as rocks?](https://news.ycombinator.com/item?id=50296367) — hackernews_ask — direct_public_post
+- [Ask HN: Are Knuth's Stanford Pages Down?](https://news.ycombinator.com/item?id=50294929) — hackernews_ask — direct_public_post
+- [Ask HN: Do you have side-projects that generate >$500 revenue/month?](https://news.ycombinator.com/item?id=50293459) — hackernews_ask — direct_public_post
+- [Tell HN: Claude Code adds your email to the prompt, the LLM sends it to websites](https://news.ycombinator.com/item?id=50286306) — hackernews_ask — direct_public_post
 - [Ask HN: Sitting on unused OpenAI / Anthropic / AWS credits that will expire?](https://news.ycombinator.com/item?id=50291687) — hackernews_ask — direct_public_post
 - [Ask HN: Is your leadership pushing you to skip dev review?](https://news.ycombinator.com/item?id=50291678) — hackernews_ask — direct_public_post
-- [Tell HN: Claude Code adds your email to the prompt, the LLM sends it to websites](https://news.ycombinator.com/item?id=50286306) — hackernews_ask — direct_public_post
-- [Ask HN: Why are there not more terminal apps?](https://news.ycombinator.com/item?id=50288662) — hackernews_ask — direct_public_post
-- [Ask HN: I Need Advice](https://news.ycombinator.com/item?id=50285134) — hackernews_ask — direct_public_post
-- [Tell HN: I know Firefox has update when it starts to glitch](https://news.ycombinator.com/item?id=50276099) — hackernews_ask — direct_public_post
 - [Dependency Dashboard](https://github.com/TryGhost/Ghost/issues/28155) — github_issue — direct_public_issue_api
 - [Finish native transcript and streaming components](https://github.com/Orchestration-Maestro/maestro/issues/1760) — github_issue — direct_public_issue_api — intent keyword found
 - [Mods - make Claude 10x more extensible](https://github.com/anthropics/claude-code/issues/91870) — github_issue — direct_public_issue_api
@@ -60,3 +57,6 @@
 - [Google Search Console Keyword Ranking: 0 to 1,300 Clicks a Day](https://www.reddit.com/r/AISEOInsider/comments/1xi5b7h/google_search_console_keyword_ranking_0_to_1300) — reddit — public_rss_excerpt
 - [Ask HN: Building KasirCepat, an offline-first POS for Indonesia](https://news.ycombinator.com/item?id=49692067) — hackernews_ask — indexed_public_post_excerpt
 - [Ask HN: Would a startup for young creatives who reject AI be feasible?](https://news.ycombinator.com/item?id=49689696) — hackernews_ask — indexed_public_post_excerpt
+- [Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk](https://news.ycombinator.com/item?id=49304986) — hackernews_ask — indexed_public_post_excerpt
+- [Do You Think OpenAI Is Apple Circa the 1980s?](https://news.ycombinator.com/item?id=49178393) — hackernews_ask — indexed_public_post_excerpt
+- [Move every Odoo instance to Odoo 20 Community (Q870)](https://github.com/cbusillo/odoo-devkit/issues/277) — github_issue — direct_public_issue_api
