@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-10-28T23:13:42.566866+00:00
+# V4 Social signal discovery — 2026-10-29T02:28:22.795689+00:00
 
-- Unique links this run: 60, newly seen: 15, history: 441
+- Unique links this run: 62, newly seen: 39, history: 480
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (2) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (4) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (34)
@@ -20,43 +20,43 @@
 
 ## Links (not validated project opportunities)
 
-- [Dotverse](https://www.producthunt.com/products/dotverse) — producthunt — direct_public_feed
+- [licenseal](https://www.producthunt.com/products/licenseal) — producthunt — direct_public_feed
+- [App Store Screenshots](https://www.producthunt.com/products/app-store-screenshots) — producthunt — direct_public_feed
+- [Zest](https://www.producthunt.com/products/zest-6) — producthunt — direct_public_feed
 - [OpenLLM](https://www.producthunt.com/products/openllm) — producthunt — direct_public_feed
-- [Dedica](https://www.producthunt.com/products/dedica) — producthunt — direct_public_feed
-- [bytemail](https://www.producthunt.com/products/bytemail) — producthunt — direct_public_feed
-- [Zro: Uncensored Security Models](https://www.producthunt.com/products/zro) — producthunt — direct_public_feed
 - [Genie 4](https://www.producthunt.com/products/gemini-1-5-pro) — producthunt — direct_public_feed
-- [danfiji/isema](https://huggingface.co/spaces/danfiji/isema) — huggingface — direct_public_api
-- [RishabhPande/know-your-agent-playground](https://huggingface.co/spaces/RishabhPande/know-your-agent-playground) — huggingface — direct_public_api
-- [13131Mihail/DarkLauncher-API](https://huggingface.co/spaces/13131Mihail/DarkLauncher-API) — huggingface — direct_public_api
-- [Culesko/Meh](https://huggingface.co/spaces/Culesko/Meh) — huggingface — direct_public_api
-- [hf6ur/clip-img](https://huggingface.co/spaces/hf6ur/clip-img) — huggingface — direct_public_api
-- [Fespitia337/Analisis_Sentimientos](https://huggingface.co/spaces/Fespitia337/Analisis_Sentimientos) — huggingface — direct_public_api
-- [Eso es que te hacen falta HERRAMIENTAS. Que cómo se le llena la boca a esa gente con las herramientas. Una llave inglesa atravesando la cabeza del que te jode, esa es la herramient](https://bsky.app/profile/barbatang.eurosky.social/post/3mwl7d7hedk2r) — bluesky — direct_public_post
-- [O sea, es una herramienta que es capaz de hacer ciertas cosas muy concretas y sabiendo que tendrás que cogerlas con pinzas. Pero de ahí a hacerme creer que puede (y necesito!) que](https://bsky.app/profile/pollofrito22.bsky.social/post/3mve3hi655t2r) — bluesky — direct_public_post
-- [Si no sé hacer integrales y necesito hacer integrales, entonces delego esa tarea en una herramienta que yo asumo que puede resolver integrales. Hasta ahí bien.](https://bsky.app/profile/fernandoblancopsy.com/post/3mv2zj4yyk22a) — bluesky — direct_public_post
-- [Se ha roto una herramienta que necesito para acabar mis últimas tareas Monkiflipn’t](https://bsky.app/profile/davidc4sas.bsky.social/post/3muec42dpp22m) — bluesky — direct_public_post
-- [.... esta vez fui al psiquiatra y me enseño, a asumir el tdah como si fuera corto de vista. Necesito samexid para funcionar (en esta sociedad) como necesitaría lentes si fuera cor](https://bsky.app/profile/showtimus.bsky.social/post/3muacskm3z22y) — bluesky — direct_public_post
-- [No me parece algo raro, me parece una herramienta útil. Yo tengo canciones que son mi lugar seguro, que sé exactamente qué emoción me van a despertar y que me las pongo cuando lo n](https://bsky.app/profile/lillusion.bsky.social/post/3mtsunkywn22t) — bluesky — direct_public_post
-- [Just to put it out there, if there are any Minneapolis based software communities I should check out then I definitely would love to know more. I've been enjoying meeting up with t](https://mastodon.social/@pierceputz/117521064306618969) — mastodon — direct_public_post
-- [Blessed is he who has found his work; Let him ask no other blessedness. -- Thomas Carlyle, Past and Present III For more quotes, see https:// lzon.ca/quotes . # IndieWeb # Personal](https://mastodon.social/@lzon/117520617609942745) — mastodon — direct_public_post
-- [Ask HN: Why is pagination gone on "Ask HN", and showing only 19 items?](https://news.ycombinator.com/item?id=50280719) — hackernews_ask — direct_public_post
+- [Open For sales](https://www.producthunt.com/products/open-for-sales) — producthunt — direct_public_feed
+- [dzakybd/open-urban-analysis](https://huggingface.co/spaces/dzakybd/open-urban-analysis) — huggingface — direct_public_api
+- [EduardoRuas04/First_agent_template](https://huggingface.co/spaces/EduardoRuas04/First_agent_template) — huggingface — direct_public_api
+- [akhaliq/ming-kokoro-tts](https://huggingface.co/spaces/akhaliq/ming-kokoro-tts) — huggingface — direct_public_api
+- [Infinix-io/Me](https://huggingface.co/spaces/Infinix-io/Me) — huggingface — direct_public_api
+- [mddalwai/whisper-small-edacc-demo](https://huggingface.co/spaces/mddalwai/whisper-small-edacc-demo) — huggingface — direct_public_api
+- [Yesh0423/lifetune-stems](https://huggingface.co/spaces/Yesh0423/lifetune-stems) — huggingface — direct_public_api
+- [robin’s tool tips, part ?? of ???: a set of nail dot art tools can be had for a couple of bucks ($2 store) and are useful for untangling knots, or putting dimples and channels into](https://bsky.app/profile/buzzyrobin.bsky.social/post/3myy5cfvhs22j) — bluesky — direct_public_post — intent keyword found
+- [My own stack has so many connectors I need a second tool just to reconcile which tool forgot to reconcile.](https://bsky.app/profile/brycereed.bsky.social/post/3myy3xmjkho2n) — bluesky — direct_public_post — intent keyword found
+- [Imagine listening to Brian Kilmeade, and thinking, you know what I need, is to read a book written by that tool.](https://bsky.app/profile/elbow-diablo.bsky.social/post/3myy3q7ihtc2f) — bluesky — direct_public_post — intent keyword found
+- [need to write a new small command line tool and I can either spend my evening - writing the tool OR - working on the hex logo which way western man](https://bsky.app/profile/markjrieke.bsky.social/post/3myy2jphi7s2e) — bluesky — direct_public_post — intent keyword found
+- [🎶I mean really, it's not that bloody complex The man's a complete fool You just called him a genius Yes, I lied, he's just a tool And for tools to get moving Then falsehood's the](https://bsky.app/profile/chrisberez.bsky.social/post/3myxzpzovyc2c) — bluesky — direct_public_post — intent keyword found
+- [IF YOU WANT TO FLIP AN IMAGE IN GOOGLE DOCS, YOU'LL NEED TO USE THE DRAWING TOOL. YOU CAN'T FLIP OR MIRROR A PHOTO IN THE DOCUMENT BY ITSELF. AFTER IMPORTING AN IMAGE INTO THE DRAW](https://bsky.app/profile/character-2.pipes.boston/post/3myxznnh5ps2w) — bluesky — direct_public_post — intent keyword found
+- [The gap between lab and product remains significant: Google acknowledges visual continuity and physics accuracy are still unfinished work, and the path from Genie 4 prototypes to f](https://mastodon.social/@schuler/117520399563832610) — mastodon — direct_public_post
+- [FragCut is featured on Awesome Indie! 🚀 Auto-Clip Gaming Highlights 10x Faster with AI Upvote it → https:// awesomeindie.com/product/frag- cut-1 # AIVideo # Games # SocialMedia](https://mastodon.social/@awesomeindie/117519758290123480) — mastodon — direct_public_post
+- [Better AI camera moves start with two frames, not one. Make a start frame. Edit that same image to a new angle (lower, closer or orbited). Load the original as the start frame and](https://mastodon.social/@axylusion/117519715391324058) — mastodon — direct_public_post
+- [iMideo is featured on Awesome Indie! 🚀 Create Stunning AI Videos with One Click Upvote it → https:// awesomeindie.com/product/i-mid eo # AIVideo # ArtificialIntelligence # Video](https://mastodon.social/@awesomeindie/117519679649240201) — mastodon — direct_public_post — intent keyword found
 - [Ask HN: What do you believe or not believe about AI?](https://news.ycombinator.com/item?id=50271004) — hackernews_ask — direct_public_post
-- [Old.reddit.com Gone](https://news.ycombinator.com/item?id=50275640) — hackernews_ask — direct_public_post
+- [Ask HN: Why is pagination gone on "Ask HN", and showing only 19 items?](https://news.ycombinator.com/item?id=50280719) — hackernews_ask — direct_public_post
 - [Expericencing an issue in Gmail where emails do not delete in Firefox](https://news.ycombinator.com/item?id=50259191) — hackernews_ask — direct_public_post
+- [Old.reddit.com Gone](https://news.ycombinator.com/item?id=50275640) — hackernews_ask — direct_public_post
 - [Ask HN: Do you still read clean code and software architecture books?](https://news.ycombinator.com/item?id=50248168) — hackernews_ask — direct_public_post
 - [Ask HN: Is it not possible to enroll for Apple Developer anymore?](https://news.ycombinator.com/item?id=50237680) — hackernews_ask — direct_public_post
-- [Revenue reset: prioritize verified cashflow over infrastructure](https://github.com/me-fake-you/clearsheet-offers/issues/3) — github_issue — direct_public_issue_api
-- [vNext experience release: premium Web/BFF redesign, mobile QA and guarded promotion](https://github.com/Fullworth-prod/FullWorth/issues/934) — github_issue — direct_public_issue_api
-- [SUCCESSOR Ω: Build the Next Discovery Lab — public integration checklist](https://github.com/MontrealAI/AGI-Alpha-Agent-v0/issues/4850) — github_issue — direct_public_issue_api
-- [Handoff 2026-10-28 — overnight 3 Kings verified checkpoints (READ-ONLY)](https://github.com/pkraiwit2614-web/3kings-site-report/issues/230) — github_issue — direct_public_issue_api
-- [Peur Marketplace](https://www.reddit.com/r/peur) — reddit — public_rss_excerpt
-- [Making Caspian has always seemed a silly plan to me. [spoilers present](https://www.reddit.com/r/PantheonShow/comments/1xhb69g/making_caspian_has_always_seemed_a_silly_plan_to) — reddit — public_rss_excerpt
-- [Round Bottle Labeling Machines: How Wrap-Around Labeling Works and How to Specify One](https://www.reddit.com/r/u_Gosunm/comments/1xhb61q/round_bottle_labeling_machines_how_wraparound) — reddit — public_rss_excerpt — intent keyword found
-- [Recent grad looking for resume feedback as I transition into larger-scale PM roles!](https://www.reddit.com/r/PMCareers/comments/1xhaue2/recent_grad_looking_for_resume_feedback_as_i) — reddit — public_rss_excerpt
-- [Zero-Knowledge Privacy Infrastructure for Solana](https://news.ycombinator.com/item?id=46854817) — hackernews_ask — indexed_public_post_excerpt
-- [Ask HN: ERP system suggestions](https://news.ycombinator.com/item?id=17709117) — hackernews_ask — indexed_public_post_excerpt
-- [Apply HN: HR Partner – human resource management for small businesses](https://news.ycombinator.com/item?id=11445068) — hackernews_ask — indexed_public_post_excerpt
-- [Ask HN: Small business bank account – who do you use?](https://news.ycombinator.com/item?id=11438973) — hackernews_ask — indexed_public_post_excerpt
-- [POC: AI自律開発の意思決定・人間介入ログ](https://github.com/ryohryp/crownless/issues/367) — github_issue — direct_public_issue_api
-- [bug(review): intended-untracked selection submission drops the committed-only --base-ref selector, widening a slice to the whole branch until lens_context_budget_exceeded (3.5.0 stable)](https://github.com/Gentleman-Programming/gentle-ai/issues/4890) — github_issue — direct_public_issue_api
+- [Dependency Dashboard](https://github.com/TryGhost/Ghost/issues/28155) — github_issue — direct_public_issue_api
+- [Finish native transcript and streaming components](https://github.com/Orchestration-Maestro/maestro/issues/1760) — github_issue — direct_public_issue_api — intent keyword found
+- [Mods - make Claude 10x more extensible](https://github.com/anthropics/claude-code/issues/91870) — github_issue — direct_public_issue_api
+- [Nolan Studio phase 2 — reference video to mastered effect and real-footage creative proof](https://github.com/CGProductionHouse/CG-Dynamics/issues/874) — github_issue — direct_public_issue_api
+- [Cleverence](https://www.reddit.com/r/Cleverence) — reddit — public_rss_excerpt
+- [TellyNest - Simple multi-currency accounting for small businesses](https://www.reddit.com/r/Microlaunch/comments/1xi6w6l/tellynest_simple_multicurrency_accounting_for) — reddit — public_rss_excerpt
+- [Pantry Calculator](https://www.reddit.com/r/prepping/comments/1xi5gdh/pantry_calculator) — reddit — public_rss_excerpt
+- [Google Search Console Keyword Ranking: 0 to 1,300 Clicks a Day](https://www.reddit.com/r/AISEOInsider/comments/1xi5b7h/google_search_console_keyword_ranking_0_to_1300) — reddit — public_rss_excerpt
+- [Ask HN: Building KasirCepat, an offline-first POS for Indonesia](https://news.ycombinator.com/item?id=49692067) — hackernews_ask — indexed_public_post_excerpt
+- [Ask HN: Would a startup for young creatives who reject AI be feasible?](https://news.ycombinator.com/item?id=49689696) — hackernews_ask — indexed_public_post_excerpt
+- [Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk](https://news.ycombinator.com/item?id=49304986) — hackernews_ask — indexed_public_post_excerpt
+- [Do You Think OpenAI Is Apple Circa the 1980s?](https://news.ycombinator.com/item?id=49178393) — hackernews_ask — indexed_public_post_excerpt
