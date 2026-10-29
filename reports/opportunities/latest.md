@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-29T16:53:08.716480+00:00
-- Historical candidates: 2009
-- Newly recorded from pending: 0
+- Updated (UTC): 2026-10-29T22:54:28.433638+00:00
+- Historical candidates: 2047
+- Newly recorded from pending: 38
 - Awaiting 7/14/30-day evidence review: 381
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- constructor championship [Global] — discovered — first 2026-10-29, last 2026-10-29
-- when is national first responders day [Global] — discovered — first 2026-10-29, last 2026-10-29
-- arnab cyclone [Global] — discovered — first 2026-10-29, last 2026-10-29
-- tracker season 4 [Global] — discovered — first 2026-10-29, last 2026-10-29
-- nba hoy [ES] — discovered — first 2026-10-29, last 2026-10-29
-- designer mehndi [Global] — discovered — first 2026-10-29, last 2026-10-29
-- wassce results checker [Global] — discovered — first 2026-10-29, last 2026-10-29
-- search engine evaluator [Global] — discovered — first 2026-10-29, last 2026-10-29
-- elona [Global] — discovered — first 2026-10-29, last 2026-10-29
-- ipswich disaster dashboard [Global] — discovered — first 2026-10-29, last 2026-10-29
-- pride and prejudice 2026 trailer [GB] — discovered — first 2026-10-29, last 2026-10-29
-- aquaria digital marketing [Global] — discovered — first 2026-10-29, last 2026-10-29
-- hawks - heat [ES] — discovered — first 2026-10-29, last 2026-10-29
-- evaluator anevar [Global] — discovered — first 2026-10-29, last 2026-10-29
-- notifier nfs-320 [Global] — discovered — first 2026-10-29, last 2026-10-29
-- rws [Global] — discovered — first 2026-10-29, last 2026-10-29
-- sprunki phase 3 remastered [Global] — discovered — first 2026-10-29, last 2026-10-29
-- sample ballot ohio [Global] — discovered — first 2026-10-29, last 2026-10-29
-- pacers - 76ers [ES] — discovered — first 2026-10-29, last 2026-10-29
-- verifier si on est inscrit sur les listes electorales [Global] — discovered — first 2026-10-29, last 2026-10-29
-- domain age checker regalseo [Global] — discovered — first 2026-10-29, last 2026-10-29
-- arnab [Global] — discovered — first 2026-10-29, last 2026-10-29
-- waddle [GB] — discovered — first 2026-10-29, last 2026-10-29
-- bengals game [Global] — discovered — first 2026-10-29, last 2026-10-29
-- shopify website builder [Global] — discovered — first 2026-10-29, last 2026-10-29
+- arnab cyclone live tracker [Global] — discovered — first 2026-10-30, last 2026-10-30
+- brewer game [Global] — discovered — first 2026-10-30, last 2026-10-30
+- brewers game today [Global] — discovered — first 2026-10-30, last 2026-10-30
+- bridge constructor portal apk [Global] — discovered — first 2026-10-30, last 2026-10-30
+- chand image [Global] — discovered — first 2026-10-30, last 2026-10-30
+- china ai bubble [Global] — discovered — first 2026-10-30, last 2026-10-30
+- china ai bubble burst [Global] — discovered — first 2026-10-30, last 2026-10-30
+- comparator anre [Global] — discovered — first 2026-10-30, last 2026-10-30
+- comparator circuit diagram [Global] — discovered — first 2026-10-30, last 2026-10-30
+- constructores [Global] — discovered — first 2026-10-30, last 2026-10-30
+- crack steam [Global] — discovered — first 2026-10-30, last 2026-10-30
+- cyclone tracker live [Global] — discovered — first 2026-10-30, last 2026-10-30
+- first responder appreciation day [Global] — discovered — first 2026-10-30, last 2026-10-30
+- google play services for ar [Global] — discovered — first 2026-10-30, last 2026-10-30
+- healthy cooking tools [Global] — discovered — first 2026-10-30, last 2026-10-30
+- hellzerg optimizer [Global] — discovered — first 2026-10-30, last 2026-10-30
+- jason chang solar tracker invention [Global] — discovered — first 2026-10-30, last 2026-10-30
+- jazmine hall assistant principal [Global] — discovered — first 2026-10-30, last 2026-10-30
+- linkedin post scheduler [Global] — discovered — first 2026-10-30, last 2026-10-30
+- lip syncer meaning [Global] — discovered — first 2026-10-30, last 2026-10-30
+- lm339 [Global] — discovered — first 2026-10-30, last 2026-10-30
+- moon image [Global] — discovered — first 2026-10-30, last 2026-10-30
+- muon optimizer [Global] — discovered — first 2026-10-30, last 2026-10-30
+- oilers game tonight [Global] — discovered — first 2026-10-30, last 2026-10-30
+- pick up notifier mod [Global] — discovered — first 2026-10-30, last 2026-10-30
 
 ## Due for follow-up
 

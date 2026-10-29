@@ -1,0 +1,87 @@
+{
+  "batch_id": "2026-10-29T22:43:44.080301+00:00-35-36-37-38-39",
+  "generated_at": "2026-10-29T22:43:44.080301+00:00",
+  "local_generated_at": "2026-10-30T06:43:44.080301+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "scheduler",
+    "converter",
+    "viewer",
+    "extractor",
+    "monitor"
+  ],
+  "seed_indices": [
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "start_index": 35,
+  "discoveries": [
+    {
+      "seed": "monitor",
+      "query": "colt monitor",
+      "rise_value": 1550.0,
+      "raw_value": 1550
+    },
+    {
+      "seed": "scheduler",
+      "query": "scheduler msoe",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "extractor",
+      "query": "nsp extractor",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scheduler",
+      "query": "linkedin post scheduler",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scheduler",
+      "query": "garvi appointment scheduler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "sign up for facebook",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "thumbnail downloader",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "uf scheduler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "wmt scheduler faa",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "prometric scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 10
+}
