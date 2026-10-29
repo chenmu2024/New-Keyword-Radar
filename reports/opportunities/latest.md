@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-28T22:53:38.450209+00:00
-- Historical candidates: 1933
-- Newly recorded from pending: 125
+- Updated (UTC): 2026-10-29T08:23:36.059229+00:00
+- Historical candidates: 2009
+- Newly recorded from pending: 76
 - Awaiting 7/14/30-day evidence review: 270
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 1 bit comparator [Global] — discovered — first 2026-10-29, last 2026-10-29
-- 2 bit comparator [Global] — discovered — first 2026-10-29, last 2026-10-29
-- 4 bit comparator [Global] — discovered — first 2026-10-29, last 2026-10-29
-- aadhaar download [Global] — discovered — first 2026-10-29, last 2026-10-29
-- addicted to my navigator ai bl [Global] — discovered — first 2026-10-29, last 2026-10-29
-- adobe stock [Global] — discovered — first 2026-10-29, last 2026-10-29
-- ai image enhancer [Global] — discovered — first 2026-10-29, last 2026-10-29
-- argon symbol [Global] — discovered — first 2026-10-29, last 2026-10-29
-- arnab cyclone [Global] — discovered — first 2026-10-29, last 2026-10-29
-- b501ap [Global] — discovered — first 2026-10-29, last 2026-10-29
-- badia slimming tea [Global] — discovered — first 2026-10-29, last 2026-10-29
-- bengals game [Global] — discovered — first 2026-10-29, last 2026-10-29
-- best social media scheduler [Global] — discovered — first 2026-10-29, last 2026-10-29
-- bob the builder costume [Global] — discovered — first 2026-10-29, last 2026-10-29
-- brewers game [Global] — discovered — first 2026-10-29, last 2026-10-29
-- buckeye scheduler [Global] — discovered — first 2026-10-29, last 2026-10-29
-- burning hot tea study findings [Global] — discovered — first 2026-10-29, last 2026-10-29
-- ceo of roblox [Global] — discovered — first 2026-10-29, last 2026-10-29
-- chelsea manager [Global] — discovered — first 2026-10-29, last 2026-10-29
-- colored part of the eye [Global] — discovered — first 2026-10-29, last 2026-10-29
 - constructor championship [Global] — discovered — first 2026-10-29, last 2026-10-29
-- constructor logiciel [Global] — discovered — first 2026-10-29, last 2026-10-29
-- council tax band checker [Global] — discovered — first 2026-10-29, last 2026-10-29
+- when is national first responders day [Global] — discovered — first 2026-10-29, last 2026-10-29
+- arnab cyclone [Global] — discovered — first 2026-10-29, last 2026-10-29
+- designer mehndi [Global] — discovered — first 2026-10-29, last 2026-10-29
+- wassce results checker [Global] — discovered — first 2026-10-29, last 2026-10-29
+- search engine evaluator [Global] — discovered — first 2026-10-29, last 2026-10-29
+- elona [Global] — discovered — first 2026-10-29, last 2026-10-29
+- ipswich disaster dashboard [Global] — discovered — first 2026-10-29, last 2026-10-29
+- evaluator anevar [Global] — discovered — first 2026-10-29, last 2026-10-29
+- notifier nfs-320 [Global] — discovered — first 2026-10-29, last 2026-10-29
+- rws [Global] — discovered — first 2026-10-29, last 2026-10-29
+- sprunki phase 3 remastered [Global] — discovered — first 2026-10-29, last 2026-10-29
+- sample ballot ohio [Global] — discovered — first 2026-10-29, last 2026-10-29
+- verifier si on est inscrit sur les listes electorales [Global] — discovered — first 2026-10-29, last 2026-10-29
+- bengals game [Global] — discovered — first 2026-10-29, last 2026-10-29
+- shopify website builder [Global] — discovered — first 2026-10-29, last 2026-10-29
+- superprofile [Global] — discovered — first 2026-10-29, last 2026-10-29
 - council tax checker [Global] — discovered — first 2026-10-29, last 2026-10-29
-- creative fabrica [Global] — discovered — first 2026-10-29, last 2026-10-29
+- is today national first responder day [Global] — discovered — first 2026-10-29, last 2026-10-29
+- addicted to my navigator ai bl [Global] — discovered — first 2026-10-29, last 2026-10-29
+- saints practice squad receiver changes [Global] — discovered — first 2026-10-29, last 2026-10-29
+- maps scraper [Global] — discovered — first 2026-10-29, last 2026-10-29
+- first responder day [Global] — discovered — first 2026-10-29, last 2026-10-29
+- digital side hustles [Global] — discovered — first 2026-10-29, last 2026-10-29
+- brewers game [Global] — discovered — first 2026-10-29, last 2026-10-29
 
 ## Due for follow-up
 
