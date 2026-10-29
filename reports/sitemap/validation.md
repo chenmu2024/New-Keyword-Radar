@@ -6,9 +6,9 @@ thresholds and the main radar candidate ranking are untouched.
 No URL finding or Trends spike alone establishes a new keyword,
 a winnable SERP, paid demand or monthly search volume.
 
-- Total distinct expressions researched: 42
-- Usable Google Trends time series: 17/42
-- Missing or failed Google Trends time series: 25/42
+- Total distinct expressions researched: 44
+- Usable Google Trends time series: 18/44
+- Missing or failed Google Trends time series: 26/44
 - Data coverage status: partial_coverage (not a keyword verdict)
 - Rate-limit safety backoff: inactive
 - 90-day + historical-interest passes: 1
@@ -16,6 +16,21 @@ a winnable SERP, paid demand or monthly search volume.
 - A zero relative Trends peak does NOT establish zero searches.
 
 ## Checked expressions
+
+### email domain checker (US)
+- Source: [apify-actors-a](https://apify.com/agents001/email-domain-checker)
+- Checked: 2026-10-29T16:51:54.553733+08:00 | Status: **older_interest**
+- Google Trends 90d baseline avg: 0.0; recent peak: 100; newness score: 88
+- Historical 5y gate: False
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+
+### openseo backlinks deploy openseo backlink checker (US)
+- Source: [railway-templates](https://railway.com/deploy/openseo-backlinks--deploy-openseo-backlink-checker)
+- Checked: 2026-10-29T16:51:54.553733+08:00 | Status: **error**
+- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
+- Historical 5y gate: not run
+- Search Volume/KD/CPC remains unverified; not a build recommendation.
+- Data error: BrowserError: Google Trends Explore did not render the interest-over-time chart, and no rate-limit message was shown — the page structure may have changed.  This usually means Google updated the Explo
 
 ### cors policy checker (US)
 - Source: [apify-actors-z](https://apify.com/scrappy_garden/cors-policy-checker)
@@ -300,22 +315,6 @@ a winnable SERP, paid demand or monthly search volume.
 ### dumpling backup (US)
 - Source: [railway-templates](https://railway.com/deploy/dumpling-backup)
 - Checked: 2026-10-19T10:12:37.098813+08:00 | Status: **error**
-- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
-- Historical 5y gate: not run
-- Search Volume/KD/CPC remains unverified; not a build recommendation.
-- Data error: Missing Google Trends observations
-
-### 2dehands scraper (US)
-- Source: [apify-actors-a](https://apify.com/aurenic/2dehands-scraper)
-- Checked: 2026-10-19T10:10:21.317064+08:00 | Status: **error**
-- Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
-- Historical 5y gate: not run
-- Search Volume/KD/CPC remains unverified; not a build recommendation.
-- Data error: Missing Google Trends observations
-
-### 4zida scraper (US)
-- Source: [apify-actors-a](https://apify.com/aurenic/4zida-scraper)
-- Checked: 2026-10-19T10:10:21.317064+08:00 | Status: **error**
 - Google Trends 90d baseline avg: None; recent peak: None; newness score: 0
 - Historical 5y gate: not run
 - Search Volume/KD/CPC remains unverified; not a build recommendation.
