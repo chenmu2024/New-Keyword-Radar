@@ -1,35 +1,35 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-30T02:14:18.374828+00:00
+Generated: 2026-10-30T02:25:58.514828+00:00
 
 ## Formal candidates
 
-### 1. onthel simulator indonesia
+### 1. groundwork simulator
 
 - Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-16T00:00:00+00:00, retention **41.0%**.
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-09-29T00:00:00+00:00, retention **31.0%**.
 - 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
 - Source seed-rising:simulator; geo Worldwide.
 
-### 2. ray edits capcut template
+### 2. ontel simulator indonesia
 
-- Newness **100/100**; money **86/100** (digital-product).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-24T00:00:00+00:00, retention **20.0%**.
-- 5y old-history gate: avg **0.03**, peak **7**, material ratio (>= 5) **0.004**; raw non-zero ratio **0.004**.
-- Source seed-rising:template; geo Worldwide.
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-17T00:00:00+00:00, retention **42.3%**.
+- 5y old-history gate: avg **0.02**, peak **5**, material ratio (>= 5) **0.004**; raw non-zero ratio **0.004**.
+- Source seed-rising:simulator; geo Worldwide.
 
 ## Watch / rejected
 
-- anime dimensions simulator codes — **old-history** — newness 100, money 100; 5y peak 100
-- cyberpunk build planner — **old-history** — newness 100, money 94; 5y peak 100
-- e bike scheme balloting result 2026 — **old-history** — newness 95, money 86; 5y peak 31
-- loaded tea discount codes — **commercial-watch** — newness 73, money 90
-- cyberpunk 2077 build planner — **commercial-watch** — newness 58, money 100
-- seaworld first responder discount — **reject** — newness 43, money 90
-- global simulator — **reject** — newness 36, money 100
-- warm home discount scheme — **reject** — newness 36, money 96
-- jackery solar generator — **reject** — newness 35, money 100
-- solar generator — **reject** — newness 35, money 100
-- solar powered generator — **reject** — newness 35, money 100
-- thumbnail downloader — **reject** — newness 35, money 100
-- cyberpunk builder — **reject** — newness 35, money 94
+- bob the builder costume — **old-history** — newness 100, money 100; 5y peak 100
+- papel picado template — **old-history** — newness 100, money 86; 5y peak 100
+- nba trade analyzer — **old-history** — newness 95, money 100; 5y peak 100
+- privacy.net analyzer — **history-unchecked** — newness 95, money 94
+- alo first responder discount — **history-unchecked** — newness 95, money 90
+- china ai bubble burst — **trend-watch** — newness 100, money 49
+- china ai bubble — **reject** — newness 82, money 49
+- onthel simulator indonesia mod — **commercial-watch** — newness 73, money 94
+- ku planner — **commercial-watch** — newness 53, money 94
+- poshan tracker dashboard — **reject** — newness 44, money 100
+- nuke simulator — **reject** — newness 34, money 100
+- chess move analyzer — **reject** — newness 33, money 94
+- generator for home — **reject** — newness 31, money 100
