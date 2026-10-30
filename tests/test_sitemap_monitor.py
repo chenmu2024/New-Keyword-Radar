@@ -2,6 +2,7 @@ import io
 import json
 import unittest
 from urllib.error import URLError
+from http.client import IncompleteRead
 from pathlib import Path
 import sys
 
@@ -73,6 +74,30 @@ class SitemapTests(unittest.TestCase):
         self.assertEqual(state, old)
         self.assertEqual(leads, [])
         self.assertEqual(status[0]["status"], "error")
+
+    def test_incomplete_http_chunk_must_not_abort_other_sources(self):
+        cfg = {"source_scan_workers": 2, "sources": [
+            {"id": "broken", "sitemap": "https://broken.example/sitemap.xml"},
+            {"id": "healthy", "sitemap": "https://healthy.example/sitemap.xml"},
+        ]}
+        def fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            if allowed == "broken.example":
+                raise IncompleteRead(b"", 200)
+            return urlset("https://healthy.example/game/valid-puzzle")
+        state, leads, rows = m.scan(cfg, {}, fetch, today="2026-10-30")
+        self.assertEqual(rows[0]["status"], "error")
+        self.assertIn("IncompleteRead", rows[0]["error"])
+        self.assertEqual(rows[1]["status"], "baseline")
+        self.assertEqual(leads, [])
+        self.assertIn("healthy", state)
+        self.assertNotIn("broken", state)
+
+    def test_incomplete_metadata_read_stays_a_per_page_annotation(self):
+        def fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            raise IncompleteRead(b"", 99)
+        meta = m.page_meta("https://example.com/game/dragon-rush", fetch)
+        self.assertEqual(meta["page_error"], "IncompleteRead")
+        self.assertEqual(meta["title"], "")
 
     def test_nested_sitemap_and_host_filter(self):
         base = "https://example.com/"
