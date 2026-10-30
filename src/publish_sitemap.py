@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from sitemap_monitor import MAX_QUEUE, merge_queue
-from sitemap_cross_signal import summarize as summarize_cross, render as render_cross
+from sitemap_cross_signal import summarize as summarize_cross, render as render_cross, summarize_coverage
 from sitemap_trends import render
 from sitemap_newwords import render as render_newwords, combine_launch_data
 
@@ -121,6 +121,8 @@ def publish():
                 cross = summarize_cross(live_queue, bounds,
                                         datetime.fromisoformat(stamp).date().isoformat())
                 cross["generated_at"] = stamp
+                cross["coverage"] = summarize_coverage(
+                    bounds, load(ROOT / "data/sitemap/latest.json", {}))
                 save(ROOT / "data/sitemap/cross_signals.json", cross)
                 (ROOT / "reports/sitemap/cross_signals.md").write_text(
                     render_cross(cross, load(ROOT / "data/sitemap/latest.json", {})),
