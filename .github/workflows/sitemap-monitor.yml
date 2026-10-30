@@ -9,6 +9,8 @@ on:
       - "src/sitemap_triage.py"
       - "src/sitemap_trends.py"
       - "src/sitemap_newwords.py"
+      - "src/sitemap_cross_signal.py"
+      - "tests/test_sitemap_cross_signal.py"
       - "data/sitemap/launch_evidence.json"
       - "tests/test_sitemap_newwords.py"
       - "src/publish_sitemap.py"
@@ -31,7 +33,7 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -53,29 +55,20 @@ jobs:
           enabled = cfg["trial_start"] <= day < cfg["trial_end_exclusive"]
           print("run=" + ("true" if enabled else "false"))
           PY
-      - name: Setup Chrome for Google Trends Explore fallback
-        if: steps.pilot.outputs.run == 'true'
-        uses: browser-actions/setup-chrome@v1
       - name: Offline regression tests
         if: steps.pilot.outputs.run == 'true'
         run: |
           python -m unittest discover -s tests -p 'test_sitemap_*.py' -v
-          python -m py_compile src/sitemap_monitor.py src/sitemap_triage.py src/sitemap_trends.py src/sitemap_newwords.py src/radar.py
+          python -m py_compile src/sitemap_monitor.py src/sitemap_triage.py src/sitemap_cross_signal.py src/sitemap_newwords.py src/radar.py
       - name: Collect competitor Sitemap deltas
         if: steps.pilot.outputs.run == 'true'
         run: python src/sitemap_monitor.py
       - name: Triage URL leads without changing keyword rules
         if: steps.pilot.outputs.run == 'true'
         run: python src/sitemap_triage.py
-      - name: Verify launch dates and shortlist newly launched words
+      - name: Summarize same-name cross-domain Sitemap delta signals
         if: steps.pilot.outputs.run == 'true'
-        run: python src/sitemap_newwords.py
-      - name: Install free Google Trends client for bounded candidate research
-        if: steps.pilot.outputs.run == 'true'
-        run: pip install -r requirements.txt
-      - name: Validate new names with 90-day and five-year Trends (max two per run)
-        if: steps.pilot.outputs.run == 'true'
-        run: python src/sitemap_trends.py
+        run: python src/sitemap_cross_signal.py
       - name: Publish isolated research outputs without overwriting other workflows
         if: steps.pilot.outputs.run == 'true'
         run: |
