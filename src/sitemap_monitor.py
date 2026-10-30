@@ -103,7 +103,7 @@ def xml_items(raw):
 
 def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000, max_bytes=MAX_BYTES,
                     include_prefixes=None, page_hosts=None, page_path_regex=None,
-                    exclude_prefixes=None):
+                    exclude_prefixes=None, sitemap_path_regex=None):
     """Reject incomplete scans: an incomplete set must never replace baseline."""
     allowed = host(root_url)
     # XML may live on a CDN, while its <loc> URLs point to the official product site.
@@ -113,6 +113,7 @@ def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000,
         if host("https://" + item + "/") != item:
             raise ValueError("Invalid explicit page host")
     path_pattern = re.compile(page_path_regex) if page_path_regex else None
+    sitemap_pattern = re.compile(sitemap_path_regex) if sitemap_path_regex else None
     blocked_prefixes = exclude_prefixes or []
     todo = [(root_url, 0)]
     fetched, pages, seen = 0, set(), set()
@@ -133,6 +134,8 @@ def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000,
                     continue
                 # Deliberately avoid image/video/news feeds, keep content sitemaps.
                 if re.search(r"image|video|news|author|tag-sitemap", urlsplit(link).path, re.I):
+                    continue
+                if sitemap_pattern and not sitemap_pattern.search(urlsplit(link).path):
                     continue
                 todo.append((link, depth + 1))
             if fetched + len(todo) > max_sitemaps:
@@ -231,7 +234,8 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
             collect_sitemap, source["sitemap"], fetch, max_files,
             int(source.get("max_urls", max_pages)), int(source.get("max_bytes", MAX_BYTES)),
             source.get("include_path_prefixes"), source.get("page_hosts"),
-            source.get("include_page_path_regex"), source.get("exclude_path_prefixes")
+            source.get("include_page_path_regex"), source.get("exclude_path_prefixes"),
+            source.get("include_sitemap_path_regex")
         ) for source in config["sources"]
     ] if pool is not None else None
     for source_index, source in enumerate(config["sources"]):
@@ -242,7 +246,8 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
                 url, fetch, max_files, int(source.get("max_urls", max_pages)),
                 int(source.get("max_bytes", MAX_BYTES)),
                 source.get("include_path_prefixes"), source.get("page_hosts"),
-                source.get("include_page_path_regex"), source.get("exclude_path_prefixes"))
+                source.get("include_page_path_regex"), source.get("exclude_path_prefixes"),
+                source.get("include_sitemap_path_regex"))
             hashes = {digest(link) for link in urls}
             old = set(previous_site["hashes"]) if previous_site and "hashes" in previous_site else None
             retired = set((previous_site or {}).get("retired_hashes", []))
@@ -258,6 +263,10 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
             chosen, eligible_count = select_novel_leads(
                 novel, int(source.get("max_new_urls_per_source", config.get("max_new_urls_per_source", 80))))
             for link, query in chosen:
+                # GamePost appends catalog identifiers, not a game version.
+                # Only strip >=5 trailing digits for this known publisher.
+                if name == "gamepost-games":
+                    query = re.sub(r"\s+\d{5,}$", "", query)
                 meta = page_meta(link, fetch) if enrich_budget and source.get("enrich_pages", True) else {"title": "", "h1": ""}
                 if enrich_budget and source.get("enrich_pages", True):
                     enrich_budget -= 1
