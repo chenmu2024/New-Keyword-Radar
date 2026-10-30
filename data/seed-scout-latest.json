@@ -1,26 +1,127 @@
 {
-  "batch_id": "2026-10-30T16:40:42.106262+00:00-32-33-34-35-36",
-  "generated_at": "2026-10-30T16:40:42.106262+00:00",
-  "local_generated_at": "2026-10-31T00:40:42.106262+08:00",
+  "batch_id": "2026-10-30T22:36:28.806882+00:00-33-34-35-36",
+  "generated_at": "2026-10-30T22:36:28.806882+00:00",
+  "local_generated_at": "2026-10-31T06:36:28.806882+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "tracker",
     "recorder",
     "optimizer",
     "scheduler",
     "converter"
   ],
   "seed_indices": [
-    32,
     33,
     34,
     35,
     36
   ],
-  "start_index": 32,
-  "discoveries": [],
-  "status": "error",
-  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+  "start_index": 33,
+  "discoveries": [
+    {
+      "seed": "recorder",
+      "query": "droid dashcam video recorder",
+      "rise_value": 32350.0,
+      "raw_value": 32350
+    },
+    {
+      "seed": "converter",
+      "query": "youtube to mp3 player converter app",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "optimizer",
+      "query": "process lasso",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "recorder",
+      "query": "skill recorder",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "optimizer",
+      "query": "cox-2 cybersomatic optimizer",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "optimizer",
+      "query": "octane optimizer",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "scheduler",
+      "query": "msoe scheduler",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "scheduler",
+      "query": "uf scheduler",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "optimizer",
+      "query": "muon optimizer",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "optimizer",
+      "query": "muon",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "wmt scheduler faa",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "optimizer",
+      "query": "edh optimizer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "linkedin post scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "garvi appointment scheduler",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "optimizer",
+      "query": "jpeg optimizer",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "optimizer",
+      "query": "nba starting lineups",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "scheduler",
+      "query": "prometric scheduler",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 17
 }

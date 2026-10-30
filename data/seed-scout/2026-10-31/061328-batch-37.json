@@ -1,0 +1,153 @@
+{
+  "batch_id": "2026-10-30T22:13:28.770309+00:00-37-38-39-40-41",
+  "generated_at": "2026-10-30T22:13:28.770309+00:00",
+  "local_generated_at": "2026-10-31T06:13:28.770309+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "viewer",
+    "extractor",
+    "monitor",
+    "notifier",
+    "verifier"
+  ],
+  "seed_indices": [
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "start_index": 37,
+  "discoveries": [
+    {
+      "seed": "verifier",
+      "query": "service public verifier ma situation electorale",
+      "rise_value": 18950.0,
+      "raw_value": 18950
+    },
+    {
+      "seed": "notifier",
+      "query": "zoomify",
+      "rise_value": 7700.0,
+      "raw_value": 7700
+    },
+    {
+      "seed": "verifier",
+      "query": "service public.fr",
+      "rise_value": 1000.0,
+      "raw_value": 1000
+    },
+    {
+      "seed": "verifier",
+      "query": "service public fr verifier inscription liste electorale",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier ma situation electorale",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
+      "seed": "verifier",
+      "query": "service public verifier liste electorale",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier situation electorale",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "verifier",
+      "query": "service public",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "monitor",
+      "query": "colt monitor",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "notifier",
+      "query": "appleskin",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier liste electorale",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier si je suis inscrit sur liste electorale",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier si on est inscrit sur les listes electorales",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier inscription liste electorale",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier inscription sur liste electorale",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "verifier",
+      "query": "liste electorale 2027",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "extractor",
+      "query": "nsp extractor",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "notifier",
+      "query": "ride a pet notifier",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier son inscription sur liste electorale",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "verifier",
+      "query": "comment verifier si sa carte cni est disponible",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "notifier",
+      "query": "pick up notifier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 21
+}

@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-30T16:41:09.705416+00:00
-- Historical candidates: 2506
-- Newly recorded from pending: 0
+- Updated (UTC): 2026-10-30T22:36:35.730395+00:00
+- Historical candidates: 2639
+- Newly recorded from pending: 133
 - Awaiting 7/14/30-day evidence review: 573
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- aaron wiggins [US] — discovered — first 2026-10-30, last 2026-10-30
-- jason chang solar tracker invention [Global] — discovered — first 2026-10-30, last 2026-10-30
-- 4patriots [Global] — discovered — first 2026-10-30, last 2026-10-30
-- sonia de noruega [ES] — discovered — first 2026-10-30, last 2026-10-30
-- luguentz dort [US] — discovered — first 2026-10-30, last 2026-10-30
-- oilers game tonight [Global] — discovered — first 2026-10-30, last 2026-10-30
-- ketty garat [ES] — discovered — first 2026-10-30, last 2026-10-30
-- rani lakshmi bai ki samadhi kis shahar mein hai [Global] — discovered — first 2026-10-30, last 2026-10-30
-- cyberpunk skill tree [Global] — discovered — first 2026-10-30, last 2026-10-30
-- solar generator for home [Global] — discovered — first 2026-10-30, last 2026-10-30
-- polymarket eleições [Global] — discovered — first 2026-10-30, last 2026-10-30
-- launch a nuke simulator [Global] — discovered — first 2026-10-30, last 2026-10-30
-- brawl stars codes [Global] — discovered — first 2026-10-30, last 2026-10-30
-- ground work simulator [Global] — discovered — first 2026-10-30, last 2026-10-30
-- eve voice template [US] — discovered — first 2026-10-30, last 2026-10-30
-- roti maker [Global] — discovered — first 2026-10-30, last 2026-10-30
-- derik queen [US] — discovered — first 2026-10-30, last 2026-10-30
-- israel elections [Global] — discovered — first 2026-10-30, last 2026-10-30
-- gremio vs paranaense [MX] — discovered — first 2026-10-30, last 2026-10-30
-- onthel simulator indonesia mod apk [Global] — discovered — first 2026-10-30, last 2026-10-30
-- poshan tracker dashboard beneficiary report new [Global] — discovered — first 2026-10-30, last 2026-10-30
-- bbc news [Global] — discovered — first 2026-10-30, last 2026-10-30
-- sign up for facebook [Global] — discovered — first 2026-10-30, last 2026-10-30
-- best creator code in brawl stars [Global] — discovered — first 2026-10-30, last 2026-10-30
-- kiarious marshun hall [Global] — discovered — first 2026-10-30, last 2026-10-30
+- 3d room planner ai [Global] — discovered — first 2026-10-31, last 2026-10-31
+- abcya [Global] — discovered — first 2026-10-31, last 2026-10-31
+- africa cup of nations biennial format [Global] — discovered — first 2026-10-31, last 2026-10-31
+- ai video generator [Global] — discovered — first 2026-10-31, last 2026-10-31
+- alan bolt composer [Global] — discovered — first 2026-10-31, last 2026-10-31
+- appleskin [Global] — discovered — first 2026-10-31, last 2026-10-31
+- ayushman bharat card [Global] — discovered — first 2026-10-31, last 2026-10-31
+- behance [Global] — discovered — first 2026-10-31, last 2026-10-31
+- blackrock tax evaluator tool [Global] — discovered — first 2026-10-31, last 2026-10-31
+- brawl star creator codes [Global] — discovered — first 2026-10-31, last 2026-10-31
+- brawl stars content creator codes [Global] — discovered — first 2026-10-31, last 2026-10-31
+- brewers manager [Global] — discovered — first 2026-10-31, last 2026-10-31
+- broncos game [Global] — discovered — first 2026-10-31, last 2026-10-31
+- calico font [Global] — discovered — first 2026-10-31, last 2026-10-31
+- calico meaning [Global] — discovered — first 2026-10-31, last 2026-10-31
+- chick fil a first responder discount [Global] — discovered — first 2026-10-31, last 2026-10-31
+- cloud composer [Global] — discovered — first 2026-10-31, last 2026-10-31
+- coin evaluator [Global] — discovered — first 2026-10-31, last 2026-10-31
+- comparator oferte-tip de furnizare a energiei electrice [Global] — discovered — first 2026-10-31, last 2026-10-31
+- comparator tarife energie electrica [Global] — discovered — first 2026-10-31, last 2026-10-31
+- constructor overloading [Global] — discovered — first 2026-10-31, last 2026-10-31
+- coyle hospitality evaluator [Global] — discovered — first 2026-10-31, last 2026-10-31
+- cpsc coffee maker safety recall [Global] — discovered — first 2026-10-31, last 2026-10-31
+- cyberpunk 2077 prototype in the scraper [Global] — discovered — first 2026-10-31, last 2026-10-31
+- details on salim said 30 year prison sentence for minnesota food fraud scheme [Global] — discovered — first 2026-10-31, last 2026-10-31
 
 ## Due for follow-up
 
