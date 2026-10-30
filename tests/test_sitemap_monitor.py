@@ -303,6 +303,71 @@ class SitemapTests(unittest.TestCase):
         self.assertEqual(status[0]["new_url_count"], 1)
         self.assertEqual([r["query"] for r in leads], ["dragon rush"])
 
+
+    def test_all_new_sitemap_url_signatures_survive_detail_sampling_cap(self):
+        root_a = "https://a.example/sitemap.xml"
+        root_b = "https://b.example/sitemap.xml"
+        version = [0]
+        def fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            base = "https://" + allowed
+            olds = [base + "/game/old-game"]
+            news = [base + "/game/dragon-rush", base + "/game/another-puzzle",
+                    base + "/game/unique-inventory"]
+            return urlset(*(olds if version[0] == 0 else olds + news))
+        cfg = {"max_new_urls_per_source": 1, "sources": [
+            {"id": "a", "sitemap": root_a, "geo": "US", "topic": "games"},
+            {"id": "b", "sitemap": root_b, "geo": "US", "topic": "games"},
+        ]}
+        baseline, _, status = m.scan(cfg, {}, fetch, today="2026-10-29")
+        self.assertTrue(all(x["status"] == "baseline" for x in status))
+        version[0] = 1
+        sink = []
+        _, chosen, status = m.scan(
+            cfg, baseline, fetch, today="2026-10-30", candidate_sink=sink)
+        self.assertEqual(len(chosen), 2)
+        self.assertEqual(len(sink), 6)
+        self.assertTrue(all(x["candidates_over_scan_cap"] == 2 for x in status))
+        ledger = m.merge_delta_ledger([], sink, "2026-10-30")
+        self.assertEqual(len(ledger), 6)
+        self.assertEqual({x["source_id"] for x in ledger if x["query"] == "dragon rush"},
+                         {"a", "b"})
+
+    def test_ledger_expiration_and_round_robin(self):
+        rows = [
+            {"query": "convert pdf to excel", "geo": "US", "source_id": "a",
+             "first_seen": "2026-10-29", "url": f"https://a.example/tools/convert-{i}"}
+            for i in range(4)
+        ]
+        rows += [
+            {"query": "convert pdf to excel", "geo": "US", "source_id": "b",
+             "first_seen": "2026-10-30", "url": "https://b.example/tools/convert"}]
+        rows += [
+            {"query": "obsolete", "geo": "US", "source_id": "c",
+             "first_seen": "2026-10-01", "url": "https://c.example/old"}]
+        kept = m.merge_delta_ledger(rows, rows, "2026-10-30", limit=2)
+        self.assertEqual(len(kept), 2)
+        self.assertEqual({row["source_id"] for row in kept}, {"a", "b"})
+        self.assertEqual(len(m.merge_delta_ledger(rows, [], "2026-11-08")), 0)
+
+    def test_reappearing_urls_never_enter_new_signature_ledger(self):
+        root = "https://example.com/sitemap.xml"
+        pages = [urlset("https://example.com/game/old-puzzle"),
+                 urlset(),
+                 urlset("https://example.com/game/old-puzzle")]
+        cfg = {"sources": [{"id": "site", "sitemap": root, "topic": "games"}]}
+        phase = [0]
+        def fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            return pages[phase[0]]
+        baseline, _, _ = m.scan(cfg, {}, fetch, today="2026-10-28")
+        phase[0] = 1
+        state, _, _ = m.scan(cfg, baseline, fetch, today="2026-10-29")
+        phase[0] = 2
+        sink = []
+        _, found, status = m.scan(cfg, state, fetch, today="2026-10-30", candidate_sink=sink)
+        self.assertEqual(status[0]["reappeared_url_count"], 1)
+        self.assertEqual(found, [])
+        self.assertEqual(sink, [])
+
     def test_aborts_incomplete_index(self):
         root = "https://example.com/sitemap.xml"
         def fetch(url, allowed, max_bytes=m.MAX_BYTES):
