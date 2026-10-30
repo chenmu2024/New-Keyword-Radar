@@ -107,5 +107,82 @@ class CrossSiteSignalTests(unittest.TestCase):
         self.assertEqual(m.summarize(rows, cfg, "2026-10-30")["group_counts"]["games"], 1)
 
 
+    def test_seven_category_classification_is_mutually_exclusive(self):
+        samples = {
+            "games": "games",
+            "saas-product-directory": "saas",
+            "ai-agent-directory": "ai",
+            "calculators": "calculators",
+            "pdf-tools": "files",
+            "developer-automation": "developer",
+            "brazilian-online-utilities": "brazil",
+            "paid-data-automation-actors-partial-sample": "developer",
+        }
+        for topic, expected in samples.items():
+            with self.subTest(topic=topic):
+                self.assertEqual(m.source_category({"topic": topic}), expected)
+
+    def test_same_product_in_different_categories_is_not_two_saas_sites(self):
+        config = {"sources": [
+            {"id": "saas", "topic": "saas-product-directory"},
+            {"id": "ai", "topic": "ai-tool-directory"},
+            {"id": "game", "topic": "games"},
+        ]}
+        rows = [{"query": "dream mint", "source_records": [
+            {"source_id": "saas", "url": "https://saas.example/p/dream-mint",
+             "first_seen": "2026-10-29"},
+            {"source_id": "ai", "url": "https://ai.example/p/dream-mint",
+             "first_seen": "2026-10-30"},
+        ]}]
+        got = m.summarize(rows, config, "2026-10-30")
+        self.assertEqual(got["group_counts"]["products"], 1)
+        self.assertEqual(got["by_type_counts"]["saas"], 0)
+        self.assertEqual(got["by_type_counts"]["ai"], 0)
+        self.assertEqual(got["by_type_counts"]["games"], 0)
+
+    def test_two_saas_publishers_count_only_in_saas_category(self):
+        config = {"sources": [
+            {"id": "one", "topic": "saas-launchpad"},
+            {"id": "two", "topic": "saas-product-directory"},
+            {"id": "three", "topic": "ai-tool-directory"},
+        ]}
+        rows = [{"query": "dream mint", "source_records": [
+            {"source_id": "one", "url": "https://startup.example/p/dream-mint",
+             "first_seen": "2026-10-29"},
+            {"source_id": "two", "url": "https://software.example/p/dream-mint",
+             "first_seen": "2026-10-30"},
+            {"source_id": "three", "url": "https://catalog.example/p/dream-mint",
+             "first_seen": "2026-10-30"},
+        ]}]
+        got = m.summarize(rows, config, "2026-10-30")
+        self.assertEqual(got["by_type_counts"]["saas"], 1)
+        self.assertEqual(got["by_type_counts"]["ai"], 0)
+        self.assertEqual(got["by_type"]["saas"][0]["independent_websites"], 2)
+
+    def test_coverage_reports_errors_and_omits_unscanned_sources(self):
+        config = {"sources": [
+            {"id": "a", "topic": "games", "sitemap": "https://www.game-a.example/sitemap.xml"},
+            {"id": "b", "topic": "games", "sitemap": "https://www.game-a.example/pt/sitemap.xml"},
+            {"id": "c", "topic": "games", "sitemap": "https://game-b.example/sitemap.xml"},
+            {"id": "d", "topic": "calculators", "sitemap": "https://math.example/sitemap.xml"},
+        ]}
+        latest = {"sources": [
+            {"source_id": "a", "status": "delta", "new_url_count": 8,
+             "candidates_over_scan_cap": 3},
+            {"source_id": "b", "status": "baseline", "new_url_count": 0},
+            {"source_id": "c", "status": "error", "error": "HTTP Error 403"},
+        ]}
+        coverage = m.summarize_coverage(config, latest)
+        self.assertEqual(coverage["games"]["configured_sources"], 3)
+        self.assertEqual(coverage["games"]["configured_domains"], 2)
+        self.assertEqual(coverage["games"]["successful"], 2)
+        self.assertEqual(coverage["games"]["failed"], 1)
+        self.assertEqual(coverage["games"]["baselines"], 1)
+        self.assertEqual(coverage["games"]["over_scan_cap"], 3)
+        self.assertEqual(coverage["calculators"]["successful"], 0)
+        self.assertEqual(coverage["calculators"]["reported"], 0)
+
+
+
 if __name__ == "__main__":
     unittest.main()
