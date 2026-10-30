@@ -1,29 +1,35 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-30T01:33:22.974076+00:00
+Generated: 2026-10-30T01:42:32.138196+00:00
 
 ## Formal candidates
 
-### 1. ragdoll simulator itch.io
+### 1. car mechanic simulator 2027
 
-- Newness **96/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-26T00:00:00+00:00, retention **7.3%**.
-- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
-- Source seed-rising:itch.io; geo Worldwide.
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-21T00:00:00+00:00, retention **31.3%**.
+- 5y old-history gate: avg **0.03**, peak **8**, material ratio (>= 5) **0.004**; raw non-zero ratio **0.004**.
+- Source seed-rising:simulator; geo Worldwide.
+
+### 2. mod ontel simulator indonesia
+
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-18T00:00:00+00:00, retention **35.7%**.
+- 5y old-history gate: avg **0.03**, peak **7**, material ratio (>= 5) **0.004**; raw non-zero ratio **0.004**.
+- Source seed-rising:simulator; geo Worldwide.
 
 ## Watch / rejected
 
-- cyclone tracker live — **old-history** — newness 100, money 100; 5y peak 100
-- dublin marathon 2026 tracker — **old-history** — newness 96, money 100; 5y peak 11
-- dublin marathon tracker — **old-history** — newness 96, money 100; 5y peak 70
-- storm boelo tracker — **old-history** — newness 96, money 94; 5y peak 9
-- cyclone arnab tracker live satellite — **history-unchecked** — newness 95, money 94
-- kmart usb charger tracker risks — **history-unchecked** — newness 93, money 94
-- tracker purification — **history-unchecked** — newness 90, money 100
-- ragdoll simulator itch.io themilitarylarper — **history-unchecked** — newness 88, money 94
-- jason chang solar tracker invention — **commercial-watch** — newness 83, money 94
-- arnab cyclone live tracker — **error** — newness 0, money 94 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
-- arnab cyclone tracker — **error** — newness 0, money 94 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
-- cyclone arnab tracker — **error** — newness 0, money 94 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
-- cyclone update cyclone arnab tracker — **error** — newness 0, money 94 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
-- ffcs planner — **error** — newness 0, money 94 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- anime dimensions simulator code — **old-history** — newness 100, money 100; 5y peak 100
+- brawl stars creator code — **old-history** — newness 100, money 92; 5y peak 6
+- brawl stars creator codes — **old-history** — newness 100, money 92; 5y peak 4
+- creator codes for brawl stars — **history-unchecked** — newness 100, money 92
+- php2shell checker — **history-unchecked** — newness 96, money 100
+- ai image generator magnific — **history-unchecked** — newness 96, money 94
+- brawlstars creator code — **history-unchecked** — newness 96, money 92
+- hunting simulator 3 — **history-unchecked** — newness 95, money 100
+- seaworld orlando first responder discount — **history-unchecked** — newness 95, money 90
+- iphone stock checker — **commercial-watch** — newness 88, money 100
+- council tax band checker — **commercial-watch** — newness 82, money 100
+- council tax checker — **commercial-watch** — newness 52, money 100
+- rideshare simulator — **reject** — newness 40, money 100
