@@ -184,5 +184,28 @@ class CrossSiteSignalTests(unittest.TestCase):
 
 
 
+    def test_uncapped_delta_proof_detects_game_absent_from_detail_queue(self):
+        config = {"sources": [
+            {"id": "gameA", "topic": "games"},
+            {"id": "gameB", "topic": "games"},
+        ]}
+        queue = [{"query": "different old game", "source_id": "gameA",
+                  "url": "https://a.example/game/different-old-game",
+                  "first_seen": "2026-10-29"}]
+        ledger = [
+            {"query": "dragon rush", "source_id": "gameA",
+             "url": "https://a.example/game/dragon-rush",
+             "first_seen": "2026-10-29"},
+            {"query": "dragon rush", "source_id": "gameB",
+             "url": "https://b.example/game/dragon-rush",
+             "first_seen": "2026-10-30"},
+        ]
+        self.assertEqual(m.summarize(queue, config, "2026-10-30")["group_counts"]["games"], 0)
+        result = m.summarize(queue + ledger, config, "2026-10-30")
+        self.assertEqual(result["group_counts"]["games"], 1)
+        self.assertEqual(result["groups"]["games"][0]["three_calendar_day_peak"], 2)
+        self.assertEqual(result["by_type_counts"]["games"], 1)
+
+
 if __name__ == "__main__":
     unittest.main()
