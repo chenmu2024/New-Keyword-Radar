@@ -313,7 +313,10 @@ def render(payload, latest):
         "；最新成功来源：" + str(latest.get("success_count", "未知")) + "/" +
         str(latest.get("source_count", "未知")) +
         "；数据生成：" + str(latest.get("generated_at", "未知")) +
-        "；保留候选：" + str(payload["queue_count"]) + "。", "",
+        "；详细候选：" + str(payload["queue_count"]) +
+        "；7日轻量URL证据：" + str(payload.get("delta_ledger_count", "未知")) +
+        "/" + str(payload.get("delta_ledger_limit", "未知")) +
+        "。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。", "",
     ]
     coverage = payload.get("coverage", {})
     for category, label in CATEGORY_TITLES.items():
@@ -385,10 +388,15 @@ def render(payload, latest):
 def run(root=ROOT):
     config = json.loads((root / "config/sitemap_sources.json").read_text(encoding="utf-8"))
     queue = json.loads((root / "data/sitemap/queue.json").read_text(encoding="utf-8"))
+    ledger_path = root / "data/sitemap/delta_ledger.json"
+    ledger = json.loads(ledger_path.read_text(encoding="utf-8")) if ledger_path.exists() else []
     latest = json.loads((root / "data/sitemap/latest.json").read_text(encoding="utf-8"))
     stamp = latest.get("generated_at")
     today = datetime.fromisoformat(stamp).date() if stamp else datetime.now(LOCAL_TZ).date()
-    result = summarize(queue, config, today)
+    result = summarize(queue + ledger, config, today)
+    result["queue_count"] = len(queue)
+    result["delta_ledger_count"] = len(ledger)
+    result["delta_ledger_limit"] = 30000
     result["coverage"] = summarize_coverage(config, latest)
     result["generated_at"] = stamp or datetime.now(LOCAL_TZ).isoformat()
     out = root / "data/sitemap/cross_signals.json"
