@@ -48,5 +48,64 @@ class CrossSiteSignalTests(unittest.TestCase):
         self.assertEqual(m.domain("https://www.example.com.br/a"), "example.com.br")
 
 
+    def test_explicit_conversion_equivalence_and_reversed_direction(self):
+        self.assertEqual(m.function_signature("convert pdf to excel"),
+                         "file conversion pdf to excel")
+        self.assertEqual(m.function_signature("PDF to XLSX converter"),
+                         "file conversion pdf to excel")
+        self.assertNotEqual(m.function_signature("Excel to PDF"),
+                            m.function_signature("PDF to XLSX"))
+        self.assertEqual(m.function_signature("PDF summary AI"), "")
+        self.assertEqual(m.function_signature("PDF to JPEG to PNG"), "")
+
+    def test_cross_type_file_conversion_signal_has_provenance(self):
+        cfg = {"sources": [
+            {"id": "file", "topic": "pdf-file-tools"},
+            {"id": "ai", "topic": "ai-tool-directory"},
+        ]}
+        rows = [
+            {"query": "PDF to XLSX", "source_records": [
+                {"source_id": "file", "url": "https://pdfsite.example/pdf-to-xlsx",
+                 "first_seen": "2026-10-29"}]},
+            {"query": "convert pdf to excel", "source_records": [
+                {"source_id": "ai", "url": "https://aitools.example/tool/convert-pdf-to-excel",
+                 "first_seen": "2026-10-30"}]},
+        ]
+        result = m.summarize(rows, cfg, "2026-10-30")
+        self.assertEqual(result["group_counts"]["functions"], 1)
+        item = result["groups"]["functions"][0]
+        self.assertEqual(item["independent_websites"], 2)
+        self.assertEqual(item["three_calendar_day_peak"], 2)
+        self.assertEqual({p["observed_query"] for p in item["evidence"]},
+                         {"PDF to XLSX", "convert pdf to excel"})
+
+    def test_peak_three_days_not_entire_seven_days(self):
+        dates = ["2026-10-24", "2026-10-28", "2026-10-29", "2026-10-30"]
+        cfg = {"sources": [{"id": str(i), "topic": "games"} for i in range(4)]}
+        rows = [{"query": "same-name-game", "source_records": [
+            {"source_id": str(i), "url": "https://game" + str(i) + ".example/game/same-name-game",
+             "first_seen": dates[i]} for i in range(4)
+        ]}]
+        item = m.summarize(rows, cfg, "2026-10-30")["groups"]["games"][0]
+        self.assertEqual(item["seven_calendar_day_total"], 4)
+        self.assertEqual(item["three_calendar_day_peak"], 3)
+        self.assertEqual(item["priority"], "high")
+
+    def test_gamepost_catalog_id_is_not_game_version(self):
+        cfg = {"sources": [
+            {"id": "gamepost-games", "topic": "games"},
+            {"id": "other", "topic": "games"},
+        ]}
+        rows = [
+            {"query": "dragon rush 279263", "source_records": [
+                {"source_id": "gamepost-games", "url": "https://www.gamepost.com/game/dragon-rush-279263",
+                 "first_seen": "2026-10-29"}]},
+            {"query": "dragon rush", "source_records": [
+                {"source_id": "other", "url": "https://www.gamepix.com/play/dragon-rush",
+                 "first_seen": "2026-10-30"}]},
+        ]
+        self.assertEqual(m.summarize(rows, cfg, "2026-10-30")["group_counts"]["games"], 1)
+
+
 if __name__ == "__main__":
     unittest.main()
