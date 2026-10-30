@@ -1,0 +1,40 @@
+{
+  "local_date": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "target_seed_count": 74,
+  "batches": [],
+  "errors": [
+    {
+      "generated_at": "2026-10-30T16:40:42.106262+00:00",
+      "local_generated_at": "2026-10-31T00:40:42.106262+08:00",
+      "start_index": 32,
+      "seed_indices": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "seed_batch": [
+        "tracker",
+        "recorder",
+        "optimizer",
+        "scheduler",
+        "converter"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    }
+  ],
+  "scanned_seeds": [],
+  "discoveries": [],
+  "updated_at": "2026-10-30T16:40:42.106262+00:00",
+  "scanned_seed_count": 0,
+  "batch_count": 0,
+  "attempted_seed_count": 5,
+  "complete_20_seeds": false,
+  "complete_daily_target": false,
+  "completion_pct": 0.0,
+  "failed_seed_count": 5
+}
