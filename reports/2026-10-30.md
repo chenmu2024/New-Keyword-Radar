@@ -1,35 +1,24 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-30T02:29:47.839389+00:00
+Generated: 2026-10-30T02:39:59.813769+00:00
 
 ## Formal candidates
 
-### 1. groundwork simulator
-
-- Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-09-29T00:00:00+00:00, retention **31.7%**.
-- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
-- Source seed-rising:simulator; geo Worldwide.
-
-### 2. ontel simulator indonesia
-
-- Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-17T00:00:00+00:00, retention **43.0%**.
-- 5y old-history gate: avg **0.02**, peak **5**, material ratio (>= 5) **0.004**; raw non-zero ratio **0.004**.
-- Source seed-rising:simulator; geo Worldwide.
-
+**今日无合格可变现新词。**
 ## Watch / rejected
 
 - bob the builder costume — **old-history** — newness 100, money 100; 5y peak 100
-- papel picado template — **old-history** — newness 100, money 86; 5y peak 100
-- nba trade analyzer — **old-history** — newness 95, money 94; 5y peak 100
-- privacy.net analyzer — **history-unchecked** — newness 95, money 94
-- alo first responder discount — **history-unchecked** — newness 95, money 90
-- china ai bubble burst — **trend-watch** — newness 100, money 49
-- china ai bubble — **reject** — newness 82, money 49
-- onthel simulator indonesia mod — **commercial-watch** — newness 78, money 100
-- ku planner — **commercial-watch** — newness 53, money 94
-- poshan tracker dashboard — **reject** — newness 44, money 100
-- nuke simulator — **reject** — newness 34, money 100
-- chess move analyzer — **reject** — newness 33, money 94
-- generator for home — **reject** — newness 31, money 100
+- global election simulator — **old-history** — newness 96, money 100; 5y peak 10
+- steam ai clone problems — **trend-watch** — newness 100, money 49
+- creator coffins — **trend-watch** — newness 100, money 32
+- creator coffins brawl stars — **trend-watch** — newness 100, money 32
+- cyclone arnab — **trend-watch** — newness 100, money 32
+- steam free games october 26 — **trend-watch** — newness 100, money 26
+- addicted to my navigator ai bl — **trend-watch** — newness 96, money 49
+- ai changing uk stem jobs — **trend-watch** — newness 93, money 49
+- election simulator — **reject** — newness 42, money 100
+- m4 editor — **reject** — newness 40, money 100
+- how to disable ai overview — **reject** — newness 40, money 49
+- ai image enhancer — **reject** — newness 35, money 49
+- howard email notifier — **reject** — newness 0, money 26
+- lip syncer meaning — **reject** — newness 0, money 26
