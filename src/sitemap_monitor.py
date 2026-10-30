@@ -6,6 +6,7 @@ The first successful scan of each source only establishes a baseline.
 from __future__ import annotations
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from hashlib import sha256
 from html.parser import HTMLParser
@@ -28,7 +29,7 @@ QUEUE = ROOT / "data/sitemap/queue.json"
 LATEST = ROOT / "data/sitemap/latest.json"
 REPORT = ROOT / "reports/sitemap/latest.md"
 MAX_BYTES = 7_000_000
-MAX_QUEUE = 2000  # Research leads, not the hashed Sitemap baseline. Bounded Git footprint.
+MAX_QUEUE = 12000  # Bounded cross-site queue, separate from hashed per-source baselines.
 MAX_REMOVED_HASHES = 10000  # Per source, bounded anti-churn memory.
 USER_AGENT = "NewKeywordRadar-SitemapResearch/1.0 (+public-sitemaps; polite daily checks)"
 SKIP = re.compile(
@@ -222,11 +223,22 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
     max_pages = int(config.get("max_urls_per_source", 50000))
     max_files = int(config.get("max_sitemaps_per_source", 18))
     enrich_budget = int(config.get("max_page_enrich_per_run", 8)) if enrich else 0
-    for source in config["sources"]:
+    # Concurrent network fetch; ordered processing preserves deterministic deltas.
+    workers = max(1, min(8, int(config.get("source_scan_workers", 1))))
+    pool = ThreadPoolExecutor(max_workers=workers) if workers > 1 else None
+    futures = [
+        pool.submit(
+            collect_sitemap, source["sitemap"], fetch, max_files,
+            int(source.get("max_urls", max_pages)), int(source.get("max_bytes", MAX_BYTES)),
+            source.get("include_path_prefixes"), source.get("page_hosts"),
+            source.get("include_page_path_regex"), source.get("exclude_path_prefixes")
+        ) for source in config["sources"]
+    ] if pool is not None else None
+    for source_index, source in enumerate(config["sources"]):
         name, url = source["id"], source["sitemap"]
         previous_site = states.get(name)
         try:
-            urls, nfiles = collect_sitemap(
+            urls, nfiles = futures[source_index].result() if futures is not None else collect_sitemap(
                 url, fetch, max_files, int(source.get("max_urls", max_pages)),
                 int(source.get("max_bytes", MAX_BYTES)),
                 source.get("include_path_prefixes"), source.get("page_hosts"),
@@ -244,7 +256,7 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
             retired.update(removed_hashes)
             stage = "baseline" if old is None else "delta"
             chosen, eligible_count = select_novel_leads(
-                novel, int(config.get("max_new_urls_per_source", 80)))
+                novel, int(source.get("max_new_urls_per_source", config.get("max_new_urls_per_source", 80))))
             for link, query in chosen:
                 meta = page_meta(link, fetch) if enrich_budget and source.get("enrich_pages", True) else {"title": "", "h1": ""}
                 if enrich_budget and source.get("enrich_pages", True):
@@ -267,6 +279,8 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
             # Fail closed: do NOT replace the previous snapshot or fabricate deltas.
             status.append({"source_id": name, "status": "error",
                            "error": type(exc).__name__ + ": " + str(exc)[:150]})
+    if pool is not None:
+        pool.shutdown(wait=True)
     return states, findings, status
 
 
@@ -281,21 +295,36 @@ def merge_queue(old, findings, limit=MAX_QUEUE):
         q = str(row.get("query", "")).strip().casefold()
         if q:
             key = (q, str(row.get("geo", "")).upper())
-            merged[key] = {**row, "additional_urls": list(row.get("additional_urls", []))}
+            proof = {"source_id": row.get("source_id"), "url": row.get("url"),
+                     "first_seen": row.get("first_seen")}
+            records = list(row.get("source_records", []))
+            if all(proof.get(field) for field in ("source_id", "url", "first_seen")) and not any(
+                r.get("source_id") == proof["source_id"] and r.get("url") == proof["url"] for r in records
+            ):
+                records.append(proof)
+            merged[key] = {**row, "additional_urls": list(row.get("additional_urls", [])),
+                           "source_records": records}
     for finding in findings:
         q = str(finding.get("query", "")).strip().casefold()
         if not q:
             continue
         key = (q, str(finding.get("geo", "")).upper())
         existing = merged.get(key)
+        proof = {"source_id": finding.get("source_id"), "url": finding.get("url"),
+                 "first_seen": finding.get("first_seen")}
         if existing is None:
-            merged[key] = dict(finding)
+            merged[key] = {**finding, "source_records": [proof]}
         else:
             existing["last_seen"] = finding.get("first_seen", "")
             links = existing.setdefault("additional_urls", [])
             url = finding.get("url", "")
             if url and url != existing.get("url") and url not in links:
                 links.append(url)
+            records = existing.setdefault("source_records", [])
+            if all(proof.get(field) for field in ("source_id", "url", "first_seen")) and not any(
+                r.get("source_id") == proof["source_id"] and r.get("url") == proof["url"] for r in records
+            ):
+                records.append(proof)
 
     groups = {}
     for row in merged.values():
