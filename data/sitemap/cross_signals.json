@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-30",
-  "window_start": "2026-10-24",
+  "date": "2026-10-31",
+  "window_start": "2026-10-25",
   "source_count": 135,
-  "queue_count": 2334,
+  "queue_count": 2697,
   "ignored_unverifiable_proofs": 0,
   "groups": {
     "games": [
@@ -17,9 +17,9 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-en",
+            "source_id": "gamepix-pt",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/monster-cafe-idle-tycoon",
+            "url": "https://www.gamepix.com/pt/play/monster-cafe-idle-tycoon",
             "first_seen": "2026-10-30",
             "observed_query": "monster cafe idle tycoon",
             "source_category": "games"
@@ -147,6 +147,62 @@
             "source_category": "saas"
           }
         ]
+      },
+      {
+        "query": "metricvia",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/metricvia",
+            "first_seen": "2026-10-30",
+            "observed_query": "metricvia",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/metricvia",
+            "first_seen": "2026-10-31",
+            "observed_query": "metricvia",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "ai suitup",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "futurepedia-tools",
+            "website": "futurepedia.io",
+            "url": "https://www.futurepedia.io/tool/ai-suitup",
+            "first_seen": "2026-10-27",
+            "observed_query": "ai suitup",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "toolveyor-tools",
+            "website": "toolveyor.com",
+            "url": "https://toolveyor.com/ai-suitup",
+            "first_seen": "2026-10-31",
+            "observed_query": "ai suitup",
+            "source_category": "ai"
+          }
+        ]
       }
     ],
     "tools": [],
@@ -154,7 +210,7 @@
   },
   "group_counts": {
     "games": 4,
-    "products": 1,
+    "products": 3,
     "tools": 0,
     "functions": 0
   },
@@ -229,9 +285,9 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-en",
+            "source_id": "gamepix-pt",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/monster-cafe-idle-tycoon",
+            "url": "https://www.gamepix.com/pt/play/monster-cafe-idle-tycoon",
             "first_seen": "2026-10-30",
             "observed_query": "monster cafe idle tycoon",
             "source_category": "games"
@@ -306,9 +362,68 @@
           }
         ],
         "cross_signal_origin": "products"
+      },
+      {
+        "query": "metricvia",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/metricvia",
+            "first_seen": "2026-10-30",
+            "observed_query": "metricvia",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/metricvia",
+            "first_seen": "2026-10-31",
+            "observed_query": "metricvia",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
       }
     ],
-    "ai": [],
+    "ai": [
+      {
+        "query": "ai suitup",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "futurepedia-tools",
+            "website": "futurepedia.io",
+            "url": "https://www.futurepedia.io/tool/ai-suitup",
+            "first_seen": "2026-10-27",
+            "observed_query": "ai suitup",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "toolveyor-tools",
+            "website": "toolveyor.com",
+            "url": "https://toolveyor.com/ai-suitup",
+            "first_seen": "2026-10-31",
+            "observed_query": "ai suitup",
+            "source_category": "ai"
+          }
+        ],
+        "cross_signal_origin": "products"
+      }
+    ],
     "calculators": [],
     "files": [],
     "developer": [],
@@ -316,16 +431,16 @@
   },
   "by_type_counts": {
     "games": 4,
-    "saas": 1,
-    "ai": 0,
+    "saas": 2,
+    "ai": 1,
     "calculators": 0,
     "files": 0,
     "developer": 0,
     "brazil": 0
   },
-  "delta_ledger_count": 228,
+  "delta_ledger_count": 1168,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-10-30T16:56:04.678085+08:00",
+  "generated_at": "2026-10-31T03:38:04.087804+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
@@ -335,7 +450,7 @@
       "baselines": 0,
       "delta_scans": 29,
       "failed": 4,
-      "new_urls": 88,
+      "new_urls": 63,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -364,7 +479,7 @@
       "baselines": 0,
       "delta_scans": 19,
       "failed": 1,
-      "new_urls": 145,
+      "new_urls": 45,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -377,18 +492,13 @@
       "configured_sources": 20,
       "configured_domains": 20,
       "reported": 20,
-      "successful": 19,
+      "successful": 20,
       "baselines": 0,
-      "delta_scans": 19,
-      "failed": 1,
-      "new_urls": 3,
+      "delta_scans": 20,
+      "failed": 0,
+      "new_urls": 46,
       "over_scan_cap": 0,
-      "failed_sources": [
-        {
-          "source_id": "aiapps-tools",
-          "error": "TimeoutError: The read operation timed out"
-        }
-      ]
+      "failed_sources": []
     },
     "calculators": {
       "configured_sources": 15,
@@ -436,21 +546,30 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 0,
-      "over_scan_cap": 0,
+      "new_urls": 797,
+      "over_scan_cap": 567,
       "failed_sources": []
     },
     "brazil": {
       "configured_sources": 10,
       "configured_domains": 10,
       "reported": 10,
-      "successful": 10,
+      "successful": 8,
       "baselines": 0,
-      "delta_scans": 10,
-      "failed": 0,
+      "delta_scans": 8,
+      "failed": 2,
       "new_urls": 0,
       "over_scan_cap": 0,
-      "failed_sources": []
+      "failed_sources": [
+        {
+          "source_id": "freedevs-br",
+          "error": "URLError: <urlopen error timed out>"
+        },
+        {
+          "source_id": "rankbox-br",
+          "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
+        }
+      ]
     }
   }
 }
