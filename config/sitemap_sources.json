@@ -5,7 +5,7 @@
   "max_sitemaps_per_source": 18,
   "max_new_urls_per_source": 80,
   "max_page_enrich_per_run": 8,
-  "notes": "2026-10-19: 7 websites/9 scoped feeds added after public sitemap verification. Apify covers first and last shards ONLY (not comprehensive); Product Hunt uses the exact public CloudFront CDN URL observed from its robots-declared sitemap redirect and accepts only www.producthunt.com/products/ page locations. Baseline first, never assume search volume or paid demand. All original seed/Trends thresholds unchanged. 2026-10-30: Added 16 independently branded game portals (bringing game platforms to 20 distinct domains) plus 3 software/tool directories for cross-platform first-seen corroboration; newly added sources must establish baseline before reporting delta. Sitemap availability from site-declared robots.txt / publicly accessible endpoints; GitHub runner fetch and match quality require next real run verification. Trial end unchanged. Existing seeds/Trends thresholds unchanged.",
+  "notes": "2026-10-19: 7 websites/9 scoped feeds added after public sitemap verification. Apify covers first and last shards ONLY (not comprehensive); Product Hunt uses the exact public CloudFront CDN URL observed from its robots-declared sitemap redirect and accepts only www.producthunt.com/products/ page locations. Baseline first, never assume search volume or paid demand. All original seed/Trends thresholds unchanged. 2026-10-30: Added 16 independently branded game portals (bringing game platforms to 20 distinct domains) plus 3 software/tool directories for cross-platform first-seen corroboration; newly added sources must establish baseline before reporting delta. Sitemap availability from site-declared robots.txt / publicly accessible endpoints; GitHub runner fetch and match quality require next real run verification. Trial end unchanged. Existing seeds/Trends thresholds unchanged. 2026-10-30 source expansion phase 2: added 16 verified public sitemap feeds across games (Poki, GameDistribution, GamePost), independently hosted SaaS/AI discovery (DevHunt, Fazier, AIApps, FindMyAITool, AIXploria, AIAgentsDirectory), calculators (OmniCalculator, Calculator.net, Calculator-Online), and browser file/media/PDF tools (TinyWow, EZGIF, Sejda, iLovePDF). Prefer per-item sitemap or filters over categories/multilingual variants. The first runner fetch of every new source is baseline only, NOT a discovery. Added sources are NOT yet proven GitHub Actions successful and may be incomplete due max_sitemaps/max_urls/queue caps. 14-day trial end, paid API policy, original sources and seed/Trends settings remain unchanged.",
   "sources": [
     {
       "id": "crazygames-en",
@@ -300,6 +300,132 @@
       "sitemap": "https://www.uneed.best/__sitemap__/tools.xml",
       "geo": "US",
       "topic": "saas-product-directory"
+    },
+    {
+      "id": "poki-en",
+      "sitemap": "https://poki.com/en/sitemaps/games.xml",
+      "geo": "US",
+      "topic": "games",
+      "include_path_prefixes": [
+        "/en/g/"
+      ]
+    },
+    {
+      "id": "gamedistribution-games",
+      "sitemap": "https://gamedistribution.com/sitemap-index.xml",
+      "geo": "US",
+      "topic": "games",
+      "include_path_prefixes": [
+        "/games/"
+      ]
+    },
+    {
+      "id": "gamepost-games",
+      "sitemap": "https://www.gamepost.com/sitemap.xml",
+      "geo": "US",
+      "topic": "games",
+      "include_path_prefixes": [
+        "/game/"
+      ]
+    },
+    {
+      "id": "devhunt-tools",
+      "sitemap": "https://devhunt.org/sitemaps/tools.xml",
+      "geo": "US",
+      "topic": "developer-product-directory",
+      "include_path_prefixes": [
+        "/tool/"
+      ]
+    },
+    {
+      "id": "fazier-launches",
+      "sitemap": "https://fazier.com/launches/sitemap.xml",
+      "geo": "US",
+      "topic": "saas-product-launches",
+      "include_path_prefixes": [
+        "/launches/"
+      ]
+    },
+    {
+      "id": "aiapps-tools",
+      "sitemap": "https://www.aiapps.com/sitemaps/tools.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/items/"
+      ]
+    },
+    {
+      "id": "findmyaitool-tools",
+      "sitemap": "https://findmyaitool.com/sitemap.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/tool/"
+      ]
+    },
+    {
+      "id": "aixploria-tools",
+      "sitemap": "https://www.aixploria.com/sitemap.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_page_path_regex": "^/[a-z0-9][a-z0-9-]*/?$"
+    },
+    {
+      "id": "aiagentsdirectory-agents",
+      "sitemap": "https://aiagentsdirectory.com/sitemap.xml",
+      "geo": "US",
+      "topic": "ai-agent-directory",
+      "include_path_prefixes": [
+        "/agents/"
+      ]
+    },
+    {
+      "id": "omnicalculator-tools",
+      "sitemap": "https://www.omnicalculator.com/sitemap-main.xml",
+      "geo": "US",
+      "topic": "calculators",
+      "include_page_path_regex": "^/(?![a-z]{2}/)[a-z0-9-]+/[a-z0-9-]+/?$"
+    },
+    {
+      "id": "calculatornet-tools",
+      "sitemap": "https://www.calculator.net/sitemap.xml",
+      "geo": "US",
+      "topic": "calculators",
+      "include_page_path_regex": "^/[^/]+-calculator\\.html$"
+    },
+    {
+      "id": "calculatoronline-tools",
+      "sitemap": "https://calculator-online.net/sitemap.xml",
+      "geo": "US",
+      "topic": "calculators"
+    },
+    {
+      "id": "tinywow-tools",
+      "sitemap": "https://tinywow.com/sitemap.xml",
+      "geo": "US",
+      "topic": "file-conversion-tools"
+    },
+    {
+      "id": "ezgif-tools",
+      "sitemap": "https://ezgif.com/sitemap.xml",
+      "geo": "US",
+      "topic": "image-video-tools",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "sejda-tools",
+      "sitemap": "https://www.sejda.com/sitemap.xml",
+      "geo": "US",
+      "topic": "pdf-tools",
+      "include_page_path_regex": "^/(?![a-z]{2}/)[^/]+/?$"
+    },
+    {
+      "id": "ilovepdf-tools",
+      "sitemap": "https://www.ilovepdf.com/sitemap.xml",
+      "geo": "US",
+      "topic": "pdf-tools",
+      "include_page_path_regex": "^/[^/]+/?$"
     }
   ]
 }
