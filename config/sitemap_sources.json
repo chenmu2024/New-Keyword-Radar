@@ -3,9 +3,9 @@
   "trial_end_exclusive": "2026-11-02",
   "max_urls_per_source": 50000,
   "max_sitemaps_per_source": 18,
-  "max_new_urls_per_source": 80,
+  "max_new_urls_per_source": 120,
   "max_page_enrich_per_run": 8,
-  "notes": "2026-10-19: 7 websites/9 scoped feeds added after public sitemap verification. Apify covers first and last shards ONLY (not comprehensive); Product Hunt uses the exact public CloudFront CDN URL observed from its robots-declared sitemap redirect and accepts only www.producthunt.com/products/ page locations. Baseline first, never assume search volume or paid demand. All original seed/Trends thresholds unchanged. 2026-10-30: Added 16 independently branded game portals (bringing game platforms to 20 distinct domains) plus 3 software/tool directories for cross-platform first-seen corroboration; newly added sources must establish baseline before reporting delta. Sitemap availability from site-declared robots.txt / publicly accessible endpoints; GitHub runner fetch and match quality require next real run verification. Trial end unchanged. Existing seeds/Trends thresholds unchanged. 2026-10-30 source expansion phase 2: added 16 verified public sitemap feeds across games (Poki, GameDistribution, GamePost), independently hosted SaaS/AI discovery (DevHunt, Fazier, AIApps, FindMyAITool, AIXploria, AIAgentsDirectory), calculators (OmniCalculator, Calculator.net, Calculator-Online), and browser file/media/PDF tools (TinyWow, EZGIF, Sejda, iLovePDF). Prefer per-item sitemap or filters over categories/multilingual variants. The first runner fetch of every new source is baseline only, NOT a discovery. Added sources are NOT yet proven GitHub Actions successful and may be incomplete due max_sitemaps/max_urls/queue caps. 14-day trial end, paid API policy, original sources and seed/Trends settings remain unchanged.",
+  "notes": "2026-10-19: 7 websites/9 scoped feeds added after public sitemap verification. Apify covers first and last shards ONLY (not comprehensive); Product Hunt uses the exact public CloudFront CDN URL observed from its robots-declared sitemap redirect and accepts only www.producthunt.com/products/ page locations. Baseline first, never assume search volume or paid demand. All original seed/Trends thresholds unchanged. 2026-10-30: Added 16 independently branded game portals (bringing game platforms to 20 distinct domains) plus 3 software/tool directories for cross-platform first-seen corroboration; newly added sources must establish baseline before reporting delta. Sitemap availability from site-declared robots.txt / publicly accessible endpoints; GitHub runner fetch and match quality require next real run verification. Trial end unchanged. Existing seeds/Trends thresholds unchanged. 2026-10-30 source expansion phase 2: added 16 verified public sitemap feeds across games (Poki, GameDistribution, GamePost), independently hosted SaaS/AI discovery (DevHunt, Fazier, AIApps, FindMyAITool, AIXploria, AIAgentsDirectory), calculators (OmniCalculator, Calculator.net, Calculator-Online), and browser file/media/PDF tools (TinyWow, EZGIF, Sejda, iLovePDF). Prefer per-item sitemap or filters over categories/multilingual variants. The first runner fetch of every new source is baseline only, NOT a discovery. Added sources are NOT yet proven GitHub Actions successful and may be incomplete due max_sitemaps/max_urls/queue caps. 14-day trial end, paid API policy, original sources and seed/Trends settings remain unchanged. 2026-10-30 cross-category expansion to 130 distinct configured source hostnames; initial scans of new sources are baseline only, do not report historic inventory as discoveries. Added names are NOT proof of successful GitHub Actions fetches. Cross-platform matching needs explicit per-site provenance. Topic-specific lists and cross-domain grouping must be checked against actual successful scans. Keep original trial end 2026-11-02, no paid APIs, and independent 08:00 radar unchanged.",
   "sources": [
     {
       "id": "crazygames-en",
@@ -426,6 +426,638 @@
       "geo": "US",
       "topic": "pdf-tools",
       "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "gamesnacks-en",
+      "sitemap": "https://gamesnacks.com/sitemap/dynamic_urlset.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "girlsgogames-en",
+      "sitemap": "https://www.girlsgogames.com/sitemaps/girlsgogames/en/sitemap_games.xml.gz",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "cokogames-es",
+      "sitemap": "https://www.cokogames.com/wp-sitemap.xml",
+      "geo": "ES",
+      "topic": "games"
+    },
+    {
+      "id": "jogos360-br",
+      "sitemap": "https://www.jogos360.com.br/sitemap_games.xml",
+      "geo": "BR",
+      "topic": "games"
+    },
+    {
+      "id": "yiv-games",
+      "sitemap": "https://www.yiv.com/sitemap.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "gamegame-en",
+      "sitemap": "https://game-game.com/sitemaps/sitemap_online_0_us-us.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "gamesfrog-en",
+      "sitemap": "https://gamesfrog.com/sitemap/0.xml",
+      "geo": "US",
+      "topic": "games",
+      "include_path_prefixes": [
+        "/games/"
+      ]
+    },
+    {
+      "id": "saasworthy-products",
+      "sitemap": "https://www.saasworthy.com/sitemaps/product_sitemap_google.xml",
+      "geo": "US",
+      "topic": "saas-product-directory",
+      "include_path_prefixes": [
+        "/product/",
+        "/products/"
+      ]
+    },
+    {
+      "id": "startupstash-tools",
+      "sitemap": "https://startupstash.com/tools-sitemap.xml",
+      "geo": "US",
+      "topic": "saas-product-directory",
+      "include_path_prefixes": [
+        "/tools/"
+      ]
+    },
+    {
+      "id": "microlaunch-products",
+      "sitemap": "https://microlaunch.net/server-sitemap.xml",
+      "geo": "US",
+      "topic": "saas-launchpad",
+      "notes": "Sitemap declared by site; prior read timed out; inspect runner result before counting successful"
+    },
+    {
+      "id": "smollaunch-products",
+      "sitemap": "https://smollaunch.com/sitemap.xml",
+      "geo": "US",
+      "topic": "saas-launchpad",
+      "include_path_prefixes": [
+        "/products/"
+      ]
+    },
+    {
+      "id": "startupsfyi-products",
+      "sitemap": "https://www.startups.fyi/sitemap.xml",
+      "geo": "US",
+      "topic": "saas-launchpad",
+      "include_path_prefixes": [
+        "/product/"
+      ]
+    },
+    {
+      "id": "openhunts-projects",
+      "sitemap": "https://openhunts.com/sitemap.xml",
+      "geo": "US",
+      "topic": "saas-launchpad",
+      "include_path_prefixes": [
+        "/projects/"
+      ]
+    },
+    {
+      "id": "toolfound-products",
+      "sitemap": "https://toolfound.com/sitemap.xml",
+      "geo": "US",
+      "topic": "saas-product-directory",
+      "include_path_prefixes": [
+        "/tool/"
+      ]
+    },
+    {
+      "id": "indieneed-products",
+      "sitemap": "https://www.indieneed.com/sitemap.xml",
+      "geo": "US",
+      "topic": "saas-launchpad",
+      "include_path_prefixes": [
+        "/products/"
+      ]
+    },
+    {
+      "id": "indietools-products",
+      "sitemap": "https://www.indietools.app/sitemap-products-1.xml",
+      "geo": "US",
+      "topic": "saas-launchpad",
+      "include_path_prefixes": [
+        "/products/"
+      ]
+    },
+    {
+      "id": "startupbase-products",
+      "sitemap": "https://startupbase.io/sitemap-products.xml",
+      "geo": "US",
+      "topic": "saas-launchpad",
+      "include_path_prefixes": [
+        "/products/"
+      ]
+    },
+    {
+      "id": "pitchwall-products",
+      "sitemap": "https://pitchwall.co/sitemaps/products_sitemap.xml",
+      "geo": "US",
+      "topic": "saas-launchpad",
+      "include_path_prefixes": [
+        "/product/"
+      ]
+    },
+    {
+      "id": "saascity-products",
+      "sitemap": "https://saascity.io/sitemap.xml",
+      "geo": "US",
+      "topic": "saas-product-directory",
+      "include_path_prefixes": [
+        "/live/"
+      ]
+    },
+    {
+      "id": "fridayhunt-projects",
+      "sitemap": "https://fridayhunt.com/sitemap.xml",
+      "geo": "US",
+      "topic": "saas-launchpad",
+      "include_path_prefixes": [
+        "/projects/"
+      ]
+    },
+    {
+      "id": "productperch-products",
+      "sitemap": "https://productperch.com/sitemap-dynamic.xml",
+      "geo": "US",
+      "topic": "saas-launchpad",
+      "include_path_prefixes": [
+        "/products/"
+      ]
+    },
+    {
+      "id": "launchscaler-products",
+      "sitemap": "https://www.launchscaler.com/sitemap/listings-0.xml",
+      "geo": "US",
+      "topic": "saas-launchpad",
+      "include_path_prefixes": [
+        "/products/"
+      ]
+    },
+    {
+      "id": "aitoolsdirectory-tools",
+      "sitemap": "https://aitoolsdirectory.com/sitemap.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/tool/"
+      ]
+    },
+    {
+      "id": "aitoolnet-tools",
+      "sitemap": "https://www.aitoolnet.com/sitemap.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "aitoptools-tools",
+      "sitemap": "https://aitoptools.com/sitemap.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/tool/"
+      ]
+    },
+    {
+      "id": "aitoolsinc-tools",
+      "sitemap": "https://aitools.inc/tools/sitemap.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/tools/"
+      ]
+    },
+    {
+      "id": "aiagentslist-agents",
+      "sitemap": "https://aiagentslist.com/api/sitemap-agents.xml",
+      "geo": "US",
+      "topic": "ai-agent-directory",
+      "include_path_prefixes": [
+        "/agents/"
+      ]
+    },
+    {
+      "id": "aiforwork-tools",
+      "sitemap": "https://aiforwork.co/sitemap.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/tools/"
+      ]
+    },
+    {
+      "id": "aitoolhouse-tools",
+      "sitemap": "https://www.aitoolhouse.com/sitemap_tools.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/tools/"
+      ]
+    },
+    {
+      "id": "nextool-tools",
+      "sitemap": "https://nextool.ai/functions/v1/sitemap?page=tools-1",
+      "geo": "US",
+      "topic": "ai-tool-directory"
+    },
+    {
+      "id": "aitoolboard-tools",
+      "sitemap": "https://aitoolboard.com/sitemap.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/tools/"
+      ],
+      "exclude_path_prefixes": [
+        "/tools/category/"
+      ]
+    },
+    {
+      "id": "aiagentstore-agents",
+      "sitemap": "https://aiagentstore.ai/sitemap-0.xml",
+      "geo": "US",
+      "topic": "ai-agent-directory",
+      "include_path_prefixes": [
+        "/agents/",
+        "/agent/",
+        "/get-ai-agent/"
+      ]
+    },
+    {
+      "id": "dangai-tools",
+      "sitemap": "https://dang.ai/sitemap.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/tool/"
+      ]
+    },
+    {
+      "id": "opentools-tools",
+      "sitemap": "https://opentools.ai/tools-sitemap.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/tools/"
+      ]
+    },
+    {
+      "id": "toolworthy-ai-tools",
+      "sitemap": "https://www.toolworthy.ai/sitemap.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/tool/"
+      ]
+    },
+    {
+      "id": "tooldirectory-ai-tools",
+      "sitemap": "https://tooldirectory.ai/sitemap.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_path_prefixes": [
+        "/tools/"
+      ]
+    },
+    {
+      "id": "toolveyor-tools",
+      "sitemap": "https://toolveyor.com/sitemap/tools.xml",
+      "geo": "US",
+      "topic": "ai-tool-directory",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "inchcalculator-tools",
+      "sitemap": "https://www.inchcalculator.com/post-sitemap.xml",
+      "geo": "US",
+      "topic": "calculators"
+    },
+    {
+      "id": "calculla-calculators",
+      "sitemap": "https://calculla.com/sitemap.xml",
+      "geo": "US",
+      "topic": "calculators"
+    },
+    {
+      "id": "calculatorsio-tools",
+      "sitemap": "https://calculators.io/page-sitemap.xml",
+      "geo": "US",
+      "topic": "calculators"
+    },
+    {
+      "id": "metricconversions-tools",
+      "sitemap": "https://www.metric-conversions.org/sitemapindex.xml",
+      "geo": "US",
+      "topic": "calculators"
+    },
+    {
+      "id": "calculatorweb-tools",
+      "sitemap": "https://www.calculatorweb.com/site/sitemap.xml",
+      "geo": "US",
+      "topic": "calculators"
+    },
+    {
+      "id": "calculatorultra-en",
+      "sitemap": "https://www.calculatorultra.com/sitemap-en.xml",
+      "geo": "US",
+      "topic": "calculators"
+    },
+    {
+      "id": "rapidtables-calculators",
+      "sitemap": "https://www.rapidtables.com/sitemap.xml",
+      "geo": "US",
+      "topic": "calculators",
+      "include_path_prefixes": [
+        "/calc/"
+      ]
+    },
+    {
+      "id": "allcalculators-tools",
+      "sitemap": "https://allcalculators.io/sitemap.xml",
+      "geo": "US",
+      "topic": "calculators"
+    },
+    {
+      "id": "listcalc-tools",
+      "sitemap": "https://listcalc.com/sitemap.xml",
+      "geo": "US",
+      "topic": "calculators"
+    },
+    {
+      "id": "numcalcx-tools",
+      "sitemap": "https://numcalcx.com/sitemap.xml",
+      "geo": "US",
+      "topic": "calculators"
+    },
+    {
+      "id": "simplemath-en",
+      "sitemap": "https://simplemath.online/sitemap.xml",
+      "geo": "US",
+      "topic": "calculators",
+      "include_path_prefixes": [
+        "/en/"
+      ]
+    },
+    {
+      "id": "smallpdf-tools",
+      "sitemap": "https://smallpdf.com/sitemap.xml",
+      "geo": "US",
+      "topic": "pdf-file-tools",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "pdfsimpli-tools",
+      "sitemap": "https://pdfsimpli.com/sitemap.xml",
+      "geo": "US",
+      "topic": "pdf-file-tools",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "pdfio-tools",
+      "sitemap": "https://pdf.io/sitemap.xml",
+      "geo": "US",
+      "topic": "pdf-file-tools",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "pdfaid-tools",
+      "sitemap": "https://pdfaid.com/sitemap/en.xml",
+      "geo": "US",
+      "topic": "pdf-file-tools",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "docfly-tools",
+      "sitemap": "https://s3-eu-west-1.amazonaws.com/docfly/sitemaps/sitemap.xml.gz",
+      "geo": "US",
+      "topic": "pdf-file-tools",
+      "page_hosts": [
+        "www.docfly.com"
+      ],
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "pdfresizer-tools",
+      "sitemap": "https://pdfresizer.com/sitemap.xml",
+      "geo": "US",
+      "topic": "pdf-file-tools",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "convertio-tools",
+      "sitemap": "https://convertio.co/sitemap/sitemap.01.xml",
+      "geo": "US",
+      "topic": "file-conversion-tools"
+    },
+    {
+      "id": "freeconvert-tools",
+      "sitemap": "https://www.freeconvert.com/sitemap.xml",
+      "geo": "US",
+      "topic": "file-conversion-tools",
+      "max_bytes": 15000000
+    },
+    {
+      "id": "convertfiles-tools",
+      "sitemap": "https://www.convertfiles.com/sitemap.xml",
+      "geo": "US",
+      "topic": "file-conversion-tools"
+    },
+    {
+      "id": "resizepixel-tools",
+      "sitemap": "https://www.resizepixel.com/sitemap.xml",
+      "geo": "US",
+      "topic": "image-video-tools",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "pixlr-tools",
+      "sitemap": "https://pixlr.com/sitemap-main.xml",
+      "geo": "US",
+      "topic": "image-video-tools"
+    },
+    {
+      "id": "fotor-features",
+      "sitemap": "https://www.fotor.com/sitemaps/v2/features_0.xml",
+      "geo": "US",
+      "topic": "image-video-tools"
+    },
+    {
+      "id": "redketchup-tools",
+      "sitemap": "https://redketchup.io/sitemap.xml",
+      "geo": "US",
+      "topic": "image-video-tools",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "pdfcandy-tools",
+      "sitemap": "https://pdfcandy.com/sitemap.xml",
+      "geo": "US",
+      "topic": "pdf-file-tools",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "iloveimg-tools",
+      "sitemap": "https://www.iloveimg.com/sitemap.xml",
+      "geo": "US",
+      "topic": "image-video-tools",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "pdfescape-tools",
+      "sitemap": "https://www.pdfescape.com/sitemap.xml",
+      "geo": "US",
+      "topic": "pdf-file-tools"
+    },
+    {
+      "id": "make-templates",
+      "sitemap": "https://www.make.com/sitemaps/templates.xml",
+      "geo": "US",
+      "topic": "developer-automation",
+      "include_path_prefixes": [
+        "/en/templates/",
+        "/templates/"
+      ]
+    },
+    {
+      "id": "pipedream-actions",
+      "sitemap": "https://pipedream.com/sitemap-actions.xml",
+      "geo": "US",
+      "topic": "developer-automation"
+    },
+    {
+      "id": "ifttt-services",
+      "sitemap": "https://ifttt.com/sitemap_services.xml",
+      "geo": "US",
+      "topic": "developer-automation",
+      "include_page_path_regex": "^/[^/]+/?$"
+    },
+    {
+      "id": "activepieces-pieces",
+      "sitemap": "https://www.activepieces.com/sitemap.xml",
+      "geo": "US",
+      "topic": "developer-automation",
+      "include_path_prefixes": [
+        "/pieces/",
+        "/piece/"
+      ]
+    },
+    {
+      "id": "trigger-product",
+      "sitemap": "https://trigger.dev/sitemap.xml",
+      "geo": "US",
+      "topic": "developer-products-saas",
+      "include_path_prefixes": [
+        "/product/",
+        "/changelog/"
+      ]
+    },
+    {
+      "id": "planetscale-changelog",
+      "sitemap": "https://planetscale.com/changelog/sitemap.xml",
+      "geo": "US",
+      "topic": "developer-product-updates"
+    },
+    {
+      "id": "neon-product",
+      "sitemap": "https://neon.com/sitemap-0.xml",
+      "geo": "US",
+      "topic": "developer-product-updates",
+      "include_path_prefixes": [
+        "/changelog/",
+        "/blog/"
+      ]
+    },
+    {
+      "id": "modal-changelog",
+      "sitemap": "https://modal.com/sitemap.xml",
+      "geo": "US",
+      "topic": "developer-product-updates",
+      "include_path_prefixes": [
+        "/changelog/",
+        "/blog/"
+      ]
+    },
+    {
+      "id": "replicate-models",
+      "sitemap": "https://replicate.com/sitemap-models.xml",
+      "geo": "US",
+      "topic": "developer-ai-models",
+      "max_bytes": 15000000
+    },
+    {
+      "id": "invertexto-br",
+      "sitemap": "https://www.invertexto.com/sitemap.xml",
+      "geo": "BR",
+      "topic": "brazilian-online-utilities"
+    },
+    {
+      "id": "4devs-br",
+      "sitemap": "https://www.4devs.com.br/sitemap.xml",
+      "geo": "BR",
+      "topic": "brazilian-online-utilities"
+    },
+    {
+      "id": "freedevs-br",
+      "sitemap": "https://freedevs.com.br/sitemap.xml",
+      "geo": "BR",
+      "topic": "brazilian-online-utilities"
+    },
+    {
+      "id": "pradev-br",
+      "sitemap": "https://pradev.com.br/sitemap-index.xml",
+      "geo": "BR",
+      "topic": "brazilian-online-utilities"
+    },
+    {
+      "id": "devdata4-br",
+      "sitemap": "https://devdata4.com.br/sitemap.xml",
+      "geo": "BR",
+      "topic": "brazilian-online-utilities"
+    },
+    {
+      "id": "ferramentasdodia-br",
+      "sitemap": "https://ferramentasdodia.com.br/sitemap.xml",
+      "geo": "BR",
+      "topic": "brazilian-online-utilities"
+    },
+    {
+      "id": "rankbox-br",
+      "sitemap": "https://rankbox.com.br/sitemap.xml",
+      "geo": "BR",
+      "topic": "brazilian-online-utilities",
+      "include_page_path_regex": "^/(?!en/)[^/]+/?$"
+    },
+    {
+      "id": "tautil-br",
+      "sitemap": "https://tautil.com.br/sitemap.xml",
+      "geo": "BR",
+      "topic": "brazilian-online-utilities",
+      "include_path_prefixes": [
+        "/ferramentas/"
+      ]
+    },
+    {
+      "id": "cicerotools-br",
+      "sitemap": "https://tools.cicerotcv.com.br/sitemap.xml",
+      "geo": "BR",
+      "topic": "brazilian-online-utilities",
+      "exclude_path_prefixes": [
+        "/en/"
+      ]
     }
-  ]
+  ],
+  "source_scan_workers": 8
 }
