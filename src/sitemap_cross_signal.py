@@ -1,7 +1,7 @@
-"""Conservative, evidence-only cross-domain Sitemap co-occurrence radar.
+"""Evidence-only Sitemap cross-domain co-occurrence radar.
 
-First successful Sitemap snapshots are baselines, never launches. This report
-only uses evidence retained from genuine per-source URL delta findings.
+New sources first establish baselines. A matching title/format is a lead, not
+proof of a genuine launch, shared ownership, search volume or revenue.
 """
 from __future__ import annotations
 
@@ -19,28 +19,43 @@ CATEGORIES = {
     "games": "游戏：同款名称跨站新收录",
     "products": "SaaS / AI：同名产品跨目录新收录",
     "tools": "在线工具：具体功能标题跨站新收录",
+    "functions": "跨类型：明确输入输出的同功能工具候选",
 }
 UTILITY_TOPICS = {
     "calculators", "brazilian-online-utilities", "pdf-file-tools",
     "file-conversion-tools", "image-video-tools",
 }
 LOCAL_SUFFIXES = {"com.br", "net.br", "org.br", "co.uk", "com.au", "com.mx", "co.jp"}
+FORMATS = {
+    "xlsx": "excel", "xls": "excel", "excel": "excel",
+    "doc": "word", "docx": "word", "word": "word",
+    "jpeg": "jpg", "jpg": "jpg",
+    "ppt": "powerpoint", "pptx": "powerpoint", "powerpoint": "powerpoint",
+    "heif": "heic", "heic": "heic",
+    "pdf": "pdf", "csv": "csv", "json": "json",
+    "png": "png", "webp": "webp", "svg": "svg",
+    "xml": "xml", "yaml": "yaml", "yml": "yaml",
+    "gif": "gif", "mp4": "mp4", "mp3": "mp3",
+    "wav": "wav", "zip": "zip", "epub": "epub",
+}
+CONVERSION_CUES = {
+    "convert", "converter", "conversion", "conversor", "from",
+    "file", "files", "online", "tool", "tools", "free", "batch",
+}
 
 
 def normalize(query):
-    """Normalize punctuation and case without erasing versions or keywords."""
     return re.sub(r"\s+", " ", re.sub(r"[^\w]+", " ", str(query).casefold())).strip()
 
 
 def domain(value):
-    """Distinct registered domain approximation for monitored public sites."""
     raw = str(value or "")
-    host = urlsplit(raw).hostname if "://" in raw else raw
-    host = (host or "").lower().removeprefix("www.")
-    parts = host.split(".")
+    h = urlsplit(raw).hostname if "://" in raw else raw
+    h = (h or "").lower().removeprefix("www.")
+    parts = h.split(".")
     if len(parts) >= 3 and ".".join(parts[-2:]) in LOCAL_SUFFIXES:
         return ".".join(parts[-3:])
-    return ".".join(parts[-2:]) if len(parts) >= 2 else host
+    return ".".join(parts[-2:]) if len(parts) >= 2 else h
 
 
 def topic_group(src):
@@ -52,126 +67,186 @@ def topic_group(src):
     return "products"
 
 
+def game_name(query, source_id):
+    cleaned = normalize(query)
+    if source_id == "gamepost-games":
+        # GamePost places a large numeric database ID after the game title.
+        # Retain small digits (version numbers, game sequels, etc.).
+        return re.sub(r"\s+\d{5,}$", "", cleaned)
+    return cleaned
+
+
+def function_signature(query):
+    """Only group explicit conversions with the same direction and file types.
+
+    No embedding, AI semantic guesswork or broad similarities. Output remains
+    a candidate requiring human review of the actual vendor/tool page.
+    """
+    tokens = normalize(query).split()
+    positions = [i for i, word in enumerate(tokens) if word in {"to", "into"}]
+    if len(positions) != 1:
+        return ""
+    index = positions[0]
+    left = {FORMATS[x] for x in tokens[:index] if x in FORMATS}
+    right = {FORMATS[x] for x in tokens[index + 1:] if x in FORMATS}
+    if len(left) != 1 or len(right) != 1 or left == right:
+        return ""
+    other = [x for x in tokens
+             if x not in FORMATS and x not in {"to", "into"} and x not in CONVERSION_CUES]
+    if other:
+        return ""
+    return "file conversion " + next(iter(left)) + " to " + next(iter(right))
+
+
+def count_periods(proofs):
+    """Use day-granularity windows; do NOT claim exact rolling 24-hour times."""
+    days = [date.fromisoformat(p["first_seen"]) for p in proofs]
+    return {
+        "same_calendar_day_peak": max((days.count(d) for d in set(days)), default=0),
+        "three_calendar_day_peak": max(
+            (sum(d >= start and d <= start + timedelta(days=2) for d in days)
+             for start in set(days)), default=0),
+        "seven_calendar_day_total": len(days),
+    }
+
+
 def summarize(queue, config, today):
-    """Use only authentic source_id + URL + first_seen evidence from the queue."""
     if isinstance(today, str):
         today = date.fromisoformat(today)
     cutoff = today - timedelta(days=6)
     sources = {row["id"]: row for row in config.get("sources", [])}
     buckets = defaultdict(dict)
     ignored = 0
+
     for row in queue:
-        name = str(row.get("query", "")).strip()
-        keyname = normalize(name)
-        if not keyname or len(keyname) < 4:
+        title = str(row.get("query", "")).strip()
+        if len(normalize(title)) < 4:
             continue
         records = row.get("source_records")
         if not isinstance(records, list):
             records = [{"source_id": row.get("source_id"),
-                        "url": row.get("url"), "first_seen": row.get("first_seen")}]
-        for rec in records:
-            if not isinstance(rec, dict):
+                        "url": row.get("url"),
+                        "first_seen": row.get("first_seen")}]
+        for proof in records:
+            if not isinstance(proof, dict):
                 ignored += 1
                 continue
-            source_id, url, stamp = rec.get("source_id"), rec.get("url"), rec.get("first_seen")
+            source_id = proof.get("source_id")
+            url = proof.get("url")
+            stamp = proof.get("first_seen")
             if not all((source_id, url, stamp)) or source_id not in sources:
                 ignored += 1
                 continue
             try:
-                first = date.fromisoformat(str(stamp)[:10])
+                day = date.fromisoformat(str(stamp)[:10])
             except ValueError:
                 ignored += 1
                 continue
-            if not (cutoff <= first <= today):
+            if not cutoff <= day <= today:
                 continue
-            src = sources[source_id]
-            # Prefer the actual observed page host, not a CDN hosting Sitemap XML.
             site = domain(url)
             if not site:
                 ignored += 1
                 continue
-            group = topic_group(src)
-            bucket = buckets[(group, keyname)]
-            ev = {"source_id": source_id, "website": site,
-                  "url": str(url), "first_seen": first.isoformat()}
-            prior = bucket.get(site)
-            if prior is None or ev["first_seen"] < prior["first_seen"]:
-                bucket[site] = ev
-    groups = {kind: [] for kind in CATEGORIES}
-    for (group, query), sites in buckets.items():
+            category = topic_group(sources[source_id])
+            original = str(proof.get("query") or title)
+            key = game_name(original, source_id) if category == "games" else normalize(original)
+            if len(key) < 4:
+                continue
+            event = {
+                "source_id": source_id, "website": site,
+                "url": str(url), "first_seen": day.isoformat(),
+                "observed_query": original,
+            }
+            matching_groups = [(category, key)]
+            function = function_signature(original) if category != "games" else ""
+            if function:
+                matching_groups.append(("functions", function))
+            for kind, label in matching_groups:
+                bucket = buckets[(kind, label)]
+                old = bucket.get(site)
+                if old is None or day.isoformat() < old["first_seen"]:
+                    bucket[site] = event
+
+    groups = {category: [] for category in CATEGORIES}
+    for (kind, query), sites in buckets.items():
         if len(sites) < 2:
             continue
-        evidence = sorted(sites.values(), key=lambda x: (x["first_seen"], x["website"]))
-        first = date.fromisoformat(evidence[0]["first_seen"])
-        last = date.fromisoformat(evidence[-1]["first_seen"])
-        span = (last - first).days
-        n = len(evidence)
-        if span <= 2 and n >= 3:
+        evidence = sorted(sites.values(), key=lambda p: (p["first_seen"], p["website"]))
+        span = (date.fromisoformat(evidence[-1]["first_seen"]) -
+                date.fromisoformat(evidence[0]["first_seen"])).days
+        periods = count_periods(evidence)
+        if periods["three_calendar_day_peak"] >= 3:
             priority = "high"
-        elif span <= 2 or (span <= 6 and n >= 3):
+        elif periods["three_calendar_day_peak"] >= 2 or len(evidence) >= 3:
             priority = "medium"
         else:
             priority = "watch"
-        groups[group].append({"query": query, "independent_websites": n,
-                              "date_span_days": span, "priority": priority,
-                              "match_basis": "normalized_exact_title_only",
-                              "evidence": evidence})
-    priority_score = {"high": 0, "medium": 1, "watch": 2}
-    for rows in groups.values():
-        rows.sort(key=lambda x: (priority_score[x["priority"]],
-                                 -x["independent_websites"],
-                                 x["date_span_days"], x["query"]))
-    return {"date": today.isoformat(), "window_start": cutoff.isoformat(),
-            "source_count": len(sources), "queue_count": len(queue),
-            "ignored_unverifiable_proofs": ignored,
-            "groups": groups,
-            "group_counts": {k: len(v) for k, v in groups.items()}}
+        groups[kind].append({
+            "query": query, "independent_websites": len(evidence),
+            "date_span_days": span, "priority": priority,
+            "match_basis": "same_direction_file_type_pair" if kind == "functions"
+                           else "normalized_exact_title_only",
+            **periods,
+            "evidence": evidence,
+        })
+    scores = {"high": 0, "medium": 1, "watch": 2}
+    for values in groups.values():
+        values.sort(key=lambda p: (
+            scores[p["priority"]], -p["three_calendar_day_peak"],
+            -p["independent_websites"], p["date_span_days"], p["query"]))
+    return {
+        "date": today.isoformat(), "window_start": cutoff.isoformat(),
+        "source_count": len(sources), "queue_count": len(queue),
+        "ignored_unverifiable_proofs": ignored, "groups": groups,
+        "group_counts": {key: len(items) for key, items in groups.items()},
+    }
 
 
 def render(payload, latest):
     lines = [
-        "# 跨独立网站 Sitemap 同步上新观察",
-        "",
-        "观察截止：" + payload["date"] + "（北京时间日期）；滚动窗口：" +
-        payload["window_start"] + "—" + payload["date"] + "（7个日历日）。",
-        "",
-        "**注意：Sitemap 首见不是产品首发或真实搜索量；标题相同不是同功能、同开发者或搜索需求的证明。**",
-        "只计具有源ID、明确URL及 first_seen 的真实 delta 记录；初次建基线、旧URL复现和语言镜像不计跨站新增。",
-        "不同URL语言路径按网站注册根域合并；不同域名是否由同一家运营公司控制，需要额外核实。",
-        "first_seen 只有日期精度，因此不宣称精确24小时同步上线。",
-        "",
-        "本次数据：配置来源 " + str(payload["source_count"]) +
-        "；最新扫描成功来源 " + str(latest.get("success_count", "未知")) +
-        "/" + str(latest.get("source_count", "未知")) +
-        "；最新数据时间 " + str(latest.get("generated_at", "未知")) +
-        "；当前队列 " + str(payload["queue_count"]) + "。",
-        "",
+        "# 跨独立网站 Sitemap 同步上新观察", "",
+        "观察截止：" + payload["date"] + "；滚动窗口：" +
+        payload["window_start"] + "—" + payload["date"] + "（均为北京时间日期）。", "",
+        "**Sitemap 首见并不等于首次发行、真实24小时内上架或搜索量；同名和文件格式归并必须人工核实。**",
+        "只有具备真实source_id、详情URL和first_seen的相对基线新增，才能成为候选。",
+        "同根域和语言镜像只算一个网站。不同根域也可能是同一运营主体，不自动等同独立厂商。",
+        "日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。",
+        "首次抓取建立基线，重新出现的旧URL不计新增。", "",
+        "配置Sitemap来源：" + str(payload["source_count"]) +
+        "；最新成功来源：" + str(latest.get("success_count", "未知")) + "/" +
+        str(latest.get("source_count", "未知")) +
+        "；数据生成：" + str(latest.get("generated_at", "未知")) +
+        "；保留候选：" + str(payload["queue_count"]) + "。", "",
     ]
-    for name, heading in CATEGORIES.items():
-        lines.extend(["## " + heading, ""])
-        candidates = payload["groups"].get(name, [])[:10]
-        if not candidates:
-            lines.extend(["**0：目前没有足够的两站以上独立 Sitemap 新增证据。**", ""])
+    for key, title in CATEGORIES.items():
+        lines.extend(["## " + title, ""])
+        selected = payload["groups"].get(key, [])[:10]
+        if not selected:
+            lines.extend(["**0：没有符合至少两个不同根域新增的候选。**", ""])
             continue
-        for row in candidates:
+        for group in selected:
             lines.append(
-                "- **" + row["query"] + "**：" + str(row["independent_websites"]) +
-                "家独立域名，相隔" + str(row["date_span_days"]) +
-                "个日历日；优先级 " + row["priority"] +
-                "；仅精确标题匹配，尚未确认同款或同功能。"
+                "- **" + group["query"] + "**：不同根域" +
+                str(group["independent_websites"]) + "家；同一天峰值" +
+                str(group["same_calendar_day_peak"]) + "家，连续3日峰值" +
+                str(group["three_calendar_day_peak"]) + "家，7日累计" +
+                str(group["seven_calendar_day_total"]) +
+                "家；优先级 " + group["priority"] +
+                "；证据匹配 " + group["match_basis"] + "。"
             )
-            for proof in row["evidence"][:12]:
-                lines.append("  - " + proof["website"] + " · " + proof["source_id"] +
-                             " · " + proof["first_seen"] + " · " + proof["url"])
+            for proof in group["evidence"][:12]:
+                lines.append("  - " + proof["website"] + " · " +
+                             proof["source_id"] + " · " + proof["first_seen"] +
+                             " · " + proof["url"] +
+                             " · 原始查询 " + proof["observed_query"])
         lines.append("")
     lines.extend([
-        "## 解释及排除",
-        "",
-        "结果不含 Trends / Volume / KD / CPC 验证，也不推断收入或排名。",
-        "同名跨站只是优先研究的供给/分发信号；需审阅页面确认是否相同游戏、相同产品或具体功能。",
-        "单站新增和无法核实真实 first_seen/source_id 的页面不进入跨站榜。",
-        "新增来源首次建立基线不计新 URL，原定14天试运行结束后不自行续期。",
-        "",
+        "## 排除与限制", "",
+        "精确同名仅是候选，不保证同款游戏或同一SaaS；跨类型文件格式相同，也不保证开发者不同。",
+        "不执行Trends、Semrush、KD、CPC和后续SERP验证；不推断流量或收入。",
+        "单站新增、失效源、缺失来源证据、旧URL复现、初次建基线均不能充当多站信号。",
+        "原14天试运行结束后不自行续期。", "",
     ])
     return "\n".join(lines)
 
