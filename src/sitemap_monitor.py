@@ -10,6 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from hashlib import sha256
 from html.parser import HTMLParser
+from http.client import HTTPException
 import gzip
 import io
 import json
@@ -218,7 +219,7 @@ def page_meta(url, fetch=safe_fetch):
         parser = HeadParser()
         parser.feed(fetch(url, host(url), 350_000).decode("utf-8", "replace"))
         return {"title": parser.title[:180], "h1": parser.h1[:180]}
-    except (OSError, ValueError, ET.ParseError, UnicodeError) as exc:
+    except (OSError, HTTPException, ValueError, ET.ParseError, UnicodeError) as exc:
         return {"title": "", "h1": "", "page_error": type(exc).__name__}
 
 
@@ -287,7 +288,7 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
                            "candidate_count": len(chosen),
                            "candidates_over_scan_cap": max(0, eligible_count - len(chosen)),
                            "sitemap_files": nfiles})
-        except (OSError, ValueError, ET.ParseError, HTTPError, URLError) as exc:
+        except (OSError, HTTPException, ValueError, ET.ParseError, HTTPError, URLError) as exc:
             # Fail closed: do NOT replace the previous snapshot or fabricate deltas.
             status.append({"source_id": name, "status": "error",
                            "error": type(exc).__name__ + ": " + str(exc)[:150]})
