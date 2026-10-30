@@ -4,14 +4,14 @@
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
-- Sitemap feeds succeeded: 127/135
-- URLs newly observed in the latest scan: 0
-- Candidate URL rows extracted in latest scan: 0
-- First-time keyword/geo research leads: 0
-- Previously removed URLs resurfacing: 39
-- Accumulated queue: 2111
-- Human keyword/topic review: 1214
-- Game/general watchlist: 882
+- Sitemap feeds succeeded: 126/135
+- URLs newly observed in the latest scan: 236
+- Candidate URL rows extracted in latest scan: 228
+- First-time keyword/geo research leads: 223
+- Previously removed URLs resurfacing: 54
+- Accumulated queue: 2334
+- Human keyword/topic review: 1235
+- Game/general watchlist: 1084
 - Low-quality page-name noise: 15
 - **Verified new keywords / search demand / business revenue: not established**
 
@@ -20,27 +20,136 @@ Raw queue and all main radar settings remain unchanged.
 - gamepix-en: 251
 - gamepix-pt: 249
 - apify-actors-a: 225
+- producthunt-products: 224
 - railway-templates: 210
 - apify-actors-z: 209
-- producthunt-products: 209
 - vercel-product-watch: 140
-- crazygames-br: 108
-- crazygames-en: 108
-- crazygames-es: 108
+- crazygames-br: 118
+- crazygames-es: 116
+- crazygames-en: 113
 - n8n-workflows: 82
 - futurepedia-tools: 81
 - onlinetools-br: 80
-- minijuegos-es: 40
-- nextool-tools: 4
+- fazier-launches: 44
+- y8-en: 42
+- minijuegos-es: 41
+- uneed-products: 40
+- startupbase-products: 16
+- productperch-products: 13
+- pitchwall-products: 12
+- playhop-en: 11
+- nextool-tools: 5
 - netlify-product-watch: 3
-- aitoptools-tools: 1
+- aitoptools-tools: 2
+- gamedistribution-games: 2
+- bgames-en: 1
 - calculator-soup: 1
+- dangai-tools: 1
 - fotor-features: 1
 - railway-changelog: 1
 
 ## Latest scan's leads (routing only)
 
-- None: a successful baseline scan does not create new-word alerts.
+- [skyfang dragon hunters](https://www.crazygames.com/game/skyfang-dragon-hunters) — watch / game-title-not-search-demand; source=crazygames-en
+- [runespire idle tower defense](https://www.crazygames.com/game/runespire-idle-tower-defense) — watch / game-title-not-search-demand; source=crazygames-en
+- [cooking blast](https://www.crazygames.com/game/cooking-blast) — watch / game-title-not-search-demand; source=crazygames-en
+- [stickman death fight](https://www.crazygames.com/game/stickman-death-fight) — watch / game-title-not-search-demand; source=crazygames-en
+- [miami rideout edt](https://www.crazygames.com/game/miami-rideout-edt) — watch / game-title-not-search-demand; source=crazygames-en
+- [egg o matic factory tycoon](https://www.crazygames.com/br/game/egg-o-matic-factory-tycoon) — watch / game-title-not-search-demand; source=crazygames-br
+- [fashion makeover spa dress up](https://www.crazygames.com/br/game/fashion-makeover-spa-dress-up) — watch / game-title-not-search-demand; source=crazygames-br
+- [hordewalkers](https://www.crazygames.com/br/game/hordewalkers) — watch / game-title-not-search-demand; source=crazygames-br
+- [skyfang dragon hunters](https://www.crazygames.com/br/game/skyfang-dragon-hunters) — watch / game-title-not-search-demand; source=crazygames-br
+- [nightz io jtj](https://www.crazygames.com/br/game/nightz-io-jtj) — watch / game-title-not-search-demand; source=crazygames-br
+- [runespire idle tower defense](https://www.crazygames.com/br/game/runespire-idle-tower-defense) — watch / game-title-not-search-demand; source=crazygames-br
+- [london black cab driver](https://www.crazygames.com/br/game/london-black-cab-driver) — watch / game-title-not-search-demand; source=crazygames-br
+- [cooking blast](https://www.crazygames.com/br/game/cooking-blast) — watch / game-title-not-search-demand; source=crazygames-br
+- [stickman death fight](https://www.crazygames.com/br/game/stickman-death-fight) — watch / game-title-not-search-demand; source=crazygames-br
+- [miami rideout edt](https://www.crazygames.com/br/game/miami-rideout-edt) — watch / game-title-not-search-demand; source=crazygames-br
+- [london black cab driver](https://www.crazygames.com/es/game/london-black-cab-driver) — watch / game-title-not-search-demand; source=crazygames-es
+- [cooking blast](https://www.crazygames.com/es/game/cooking-blast) — watch / game-title-not-search-demand; source=crazygames-es
+- [stickman death fight](https://www.crazygames.com/es/game/stickman-death-fight) — watch / game-title-not-search-demand; source=crazygames-es
+- [miami rideout edt](https://www.crazygames.com/es/game/miami-rideout-edt) — watch / game-title-not-search-demand; source=crazygames-es
+- [skyfang dragon hunters](https://www.crazygames.com/es/game/skyfang-dragon-hunters) — watch / game-title-not-search-demand; source=crazygames-es
+- [runespire idle tower defense](https://www.crazygames.com/es/game/runespire-idle-tower-defense) — watch / game-title-not-search-demand; source=crazygames-es
+- [nightz io jtj](https://www.crazygames.com/es/game/nightz-io-jtj) — watch / game-title-not-search-demand; source=crazygames-es
+- [fashion makeover spa dress up](https://www.crazygames.com/es/game/fashion-makeover-spa-dress-up) — watch / game-title-not-search-demand; source=crazygames-es
+- [escape the giant cat](https://www.minijuegos.com/juego/escape-the-giant-cat) — watch / game-title-not-search-demand; source=minijuegos-es
+- [sitesolide](https://www.producthunt.com/products/sitesolide) — review / product-content-not-search-demand; source=producthunt-products
+- [kestrix](https://www.producthunt.com/products/kestrix) — review / product-content-not-search-demand; source=producthunt-products
+- [cluinn](https://www.producthunt.com/products/cluinn) — review / product-content-not-search-demand; source=producthunt-products
+- [sparkbots ai analyze pages and pdfs](https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs) — review / product-content-not-search-demand; source=producthunt-products
+- [xwiki](https://www.producthunt.com/products/xwiki) — review / product-content-not-search-demand; source=producthunt-products
+- [chopstick](https://www.producthunt.com/products/chopstick) — review / product-content-not-search-demand; source=producthunt-products
+- [knocket ai](https://www.producthunt.com/products/knocket-ai) — review / product-content-not-search-demand; source=producthunt-products
+- [faylee](https://www.producthunt.com/products/faylee) — review / product-content-not-search-demand; source=producthunt-products
+- [stereolift live](https://www.producthunt.com/products/stereolift-live) — review / product-content-not-search-demand; source=producthunt-products
+- [vaani developer platfrom](https://www.producthunt.com/products/vaani-developer-platfrom) — review / product-content-not-search-demand; source=producthunt-products
+- [norah studio](https://www.producthunt.com/products/norah-studio) — review / product-content-not-search-demand; source=producthunt-products
+- [axonnic](https://www.producthunt.com/products/axonnic) — review / product-content-not-search-demand; source=producthunt-products
+- [fastbrowse](https://www.producthunt.com/products/fastbrowse) — review / product-content-not-search-demand; source=producthunt-products
+- [nocto](https://www.producthunt.com/products/nocto) — review / product-content-not-search-demand; source=producthunt-products
+- [isurge](https://www.producthunt.com/products/isurge) — review / product-content-not-search-demand; source=producthunt-products
+- [ball 2048](https://www.y8.com/games/ball_2048) — watch / generic-url-name-not-search-demand; source=y8-en
+- [dispatch panic](https://www.y8.com/games/dispatch_panic) — watch / generic-url-name-not-search-demand; source=y8-en
+- [b movie brawlers](https://www.y8.com/games/b-movie_brawlers) — watch / generic-url-name-not-search-demand; source=y8-en
+- [overdrive](https://www.y8.com/games/67_overdrive) — watch / generic-url-name-not-search-demand; source=y8-en
+- [safaritamu](https://www.y8.com/studios/safaritamu) — watch / generic-url-name-not-search-demand; source=y8-en
+- [pipewright](https://www.y8.com/games/pipewright) — watch / generic-url-name-not-search-demand; source=y8-en
+- [dominoes legend 2027](https://www.y8.com/games/dominoes_legend_2027) — watch / generic-url-name-not-search-demand; source=y8-en
+- [geckoflip](https://www.y8.com/games/geckoflip) — watch / generic-url-name-not-search-demand; source=y8-en
+- [street smart echoes of home](https://www.y8.com/games/street_smart_echoes_of_home) — watch / generic-url-name-not-search-demand; source=y8-en
+- [kingdom dawn](https://www.y8.com/games/kingdom_dawn) — watch / generic-url-name-not-search-demand; source=y8-en
+- [halloween tile tumble](https://www.y8.com/games/halloween_tile_tumble) — watch / generic-url-name-not-search-demand; source=y8-en
+- [safaritamu](https://www.y8.com/games/safaritamu) — watch / generic-url-name-not-search-demand; source=y8-en
+- [market dash](https://www.y8.com/games/market_dash) — watch / generic-url-name-not-search-demand; source=y8-en
+- [cave keepers td](https://www.y8.com/games/cave_keepers_td) — watch / generic-url-name-not-search-demand; source=y8-en
+- [avervorn studios](https://www.y8.com/studios/avervorn-studios) — watch / generic-url-name-not-search-demand; source=y8-en
+- [wobble haul](https://www.y8.com/games/wobble_haul) — watch / generic-url-name-not-search-demand; source=y8-en
+- [chrono spira](https://www.y8.com/games/chrono-spira) — watch / generic-url-name-not-search-demand; source=y8-en
+- [repair bench](https://www.y8.com/games/repair_bench) — watch / generic-url-name-not-search-demand; source=y8-en
+- [ikalab](https://www.y8.com/studios/ikalab) — watch / generic-url-name-not-search-demand; source=y8-en
+- [vivienne s lifestyle royal polo](https://www.y8.com/games/vivienne_s_lifestyle_royal_polo) — watch / generic-url-name-not-search-demand; source=y8-en
+- [igloo siege](https://www.y8.com/games/igloo_siege) — watch / generic-url-name-not-search-demand; source=y8-en
+- [monster cafe idle tycoon](https://www.y8.com/games/monster_cafe_idle_tycoon) — watch / generic-url-name-not-search-demand; source=y8-en
+- [reynolds studio](https://www.y8.com/studios/reynolds-studio) — watch / generic-url-name-not-search-demand; source=y8-en
+- [inkcoil](https://www.y8.com/games/inkcoil) — watch / generic-url-name-not-search-demand; source=y8-en
+- [plomp](https://www.y8.com/games/plomp) — watch / generic-url-name-not-search-demand; source=y8-en
+- [flawed by design](https://www.y8.com/studios/flawed-by-design) — watch / generic-url-name-not-search-demand; source=y8-en
+- [ika truck](https://www.y8.com/games/ika_truck) — watch / generic-url-name-not-search-demand; source=y8-en
+- [grandmaster s study learn to play pitch](https://www.y8.com/games/grandmaster_s_study_learn_to_play_pitch) — watch / generic-url-name-not-search-demand; source=y8-en
+- [emberline tactics roguelite](https://www.y8.com/games/emberline_tactics_roguelite) — watch / generic-url-name-not-search-demand; source=y8-en
+- [bridge dash](https://www.y8.com/games/bridge_dash) — watch / generic-url-name-not-search-demand; source=y8-en
+- [byte booth](https://www.y8.com/games/byte_booth) — watch / generic-url-name-not-search-demand; source=y8-en
+- [paws claws animal hospital](https://www.y8.com/games/paws_claws_animal_hospital) — watch / generic-url-name-not-search-demand; source=y8-en
+- [juice shot](https://www.y8.com/games/juice_shot) — watch / generic-url-name-not-search-demand; source=y8-en
+- [lapline](https://www.y8.com/games/lapline) — watch / generic-url-name-not-search-demand; source=y8-en
+- [dragonbound last stand](https://www.y8.com/games/dragonbound_last_stand) — watch / generic-url-name-not-search-demand; source=y8-en
+- [function battle](https://www.y8.com/games/function_battle) — watch / generic-url-name-not-search-demand; source=y8-en
+- [metal fury](https://www.y8.com/games/metal_fury) — watch / generic-url-name-not-search-demand; source=y8-en
+- [loop breaker 5000](https://www.y8.com/games/loop_breaker_5000) — watch / generic-url-name-not-search-demand; source=y8-en
+- [potoro](https://www.y8.com/studios/potoro) — watch / generic-url-name-not-search-demand; source=y8-en
+- [ramen corner](https://www.y8.com/games/ramen_corner) — watch / generic-url-name-not-search-demand; source=y8-en
+- [block sort pirate treasure](https://www.y8.com/games/block_sort_pirate_treasure) — watch / generic-url-name-not-search-demand; source=y8-en
+- [fischechka](https://www.y8.com/studios/fischechka) — watch / generic-url-name-not-search-demand; source=y8-en
+- [paint cannons](https://www.y8.com/games/paint_cannons) — watch / generic-url-name-not-search-demand; source=y8-en
+- [zombie guard defense](https://www.y8.com/games/zombie_guard_defense) — watch / generic-url-name-not-search-demand; source=y8-en
+- [axionry](https://www.y8.com/studios/axionry) — watch / generic-url-name-not-search-demand; source=y8-en
+- [algorithm escape](https://www.y8.com/games/algorithm_escape) — watch / generic-url-name-not-search-demand; source=y8-en
+- [sortica](https://www.bgames.com/game/sortica/) — watch / generic-url-name-not-search-demand; source=bgames-en
+- [block waves night of the dead 565696](https://playhop.com/app/block-waves-night-of-the-dead-565696) — watch / generic-url-name-not-search-demand; source=playhop-en
+- [mahjong super connect find pairs and connect tiles 606848](https://playhop.com/app/mahjong-super-connect-find-pairs-and-connect-tiles-606848) — watch / generic-url-name-not-search-demand; source=playhop-en
+- [poker online 442398](https://playhop.com/app/poker-online-442398) — watch / generic-url-name-not-search-demand; source=playhop-en
+- [find a cat search for cats 614720](https://playhop.com/app/find-a-cat-search-for-cats-614720) — watch / generic-url-name-not-search-demand; source=playhop-en
+- [kaser 613930](https://playhop.com/app/kaser-613930) — watch / generic-url-name-not-search-demand; source=playhop-en
+- [poker na kubikakh so vzroslymi devushkami 435006](https://playhop.com/app/poker-na-kubikakh-so-vzroslymi-devushkami-435006) — watch / generic-url-name-not-search-demand; source=playhop-en
+- [i mog you looksmaxing evolution 608937](https://playhop.com/app/i-mog-you-looksmaxing-evolution-608937) — watch / generic-url-name-not-search-demand; source=playhop-en
+- [destroy the two from the diary 592731](https://playhop.com/app/destroy-the-two-from-the-diary-592731) — watch / generic-url-name-not-search-demand; source=playhop-en
+- [bus n ball jam 620413](https://playhop.com/app/bus-n-ball-jam-620413) — watch / generic-url-name-not-search-demand; source=playhop-en
+- [coffee merge 628233](https://playhop.com/app/coffee-merge-628233) — watch / generic-url-name-not-search-demand; source=playhop-en
+- [war and peace penguins 3d 606512](https://playhop.com/app/war-and-peace-penguins-3d-606512) — watch / generic-url-name-not-search-demand; source=playhop-en
+- [ai image editor image to image ai](https://www.uneed.best/tool/ai-image-editor-image-to-image-ai) — review / tool-intent-wording-not-verified; source=uneed-products
+- [carruler](https://www.uneed.best/tool/carruler) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [sermonframer](https://www.uneed.best/tool/sermonframer) — watch / generic-url-name-not-search-demand; source=uneed-products
 
 ## Source interpretation
 

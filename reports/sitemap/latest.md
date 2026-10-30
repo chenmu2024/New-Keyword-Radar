@@ -1,17 +1,17 @@
 # Sitemap delta research — 2026-10-30
 
-Cross-site signature ledger: 0/30000 last-seven-day URL proof records; 0 new light-weight proofs; 0 still omitted by per-source safety limit.
+Cross-site signature ledger: 228/30000 last-seven-day URL proof records; 228 new light-weight proofs; 0 still omitted by per-source safety limit.
 Unverified leads only. Baseline URL snapshots are NOT discoveries.
-Sources succeeded: 127/135; new URLs: 0; candidate URL leads: 0; first-time keyword/geo research leads: 0; reappeared URLs: 39; retained queue: 2111. Neither URL changes nor leads establish search demand.
+Sources succeeded: 126/135; new URLs: 236; candidate URL leads: 228; first-time keyword/geo research leads: 223; reappeared URLs: 54; retained queue: 2334. Neither URL changes nor leads establish search demand.
 
 ## Sources
 
-- crazygames-en: delta; 0 new URLs; 5374 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- crazygames-br: delta; 0 new URLs; 5374 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- crazygames-es: delta; 0 new URLs; 5374 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- gamepix-en: delta; 0 new URLs; 19547 pages; removed 0; reappeared 34; candidate scan cap skipped 0
-- gamepix-pt: delta; 0 new URLs; 19495 pages; removed 52; reappeared 0; candidate scan cap skipped 0
-- minijuegos-es: delta; 0 new URLs; 27557 pages; removed 1; reappeared 0; candidate scan cap skipped 0
+- crazygames-en: delta; 6 new URLs; 5380 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-br: delta; 12 new URLs; 5386 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-es: delta; 9 new URLs; 5383 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- gamepix-en: delta; 0 new URLs; 19530 pages; removed 17; reappeared 0; candidate scan cap skipped 0
+- gamepix-pt: delta; 0 new URLs; 19519 pages; removed 26; reappeared 50; candidate scan cap skipped 0
+- minijuegos-es: delta; 1 new URLs; 27559 pages; removed 0; reappeared 1; candidate scan cap skipped 0
 - friv-en: delta; 0 new URLs; 1183 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculator-soup: delta; 0 new URLs; 502 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - vercel-product-watch: delta; 0 new URLs; 2697 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -23,8 +23,8 @@ Sources succeeded: 127/135; new URLs: 0; candidate URL leads: 0; first-time keyw
 - futurepedia-tools: delta; 0 new URLs; 2498 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - netlify-product-watch: delta; 0 new URLs; 758 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - onlinetools-br: delta; 0 new URLs; 109 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- producthunt-products: delta; 0 new URLs; 21721 pages; removed 1; reappeared 0; candidate scan cap skipped 0
-- y8-en: delta; 0 new URLs; 35088 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- producthunt-products: delta; 16 new URLs; 21737 pages; removed 1; reappeared 1; candidate scan cap skipped 0
+- y8-en: delta; 46 new URLs; 35129 pages; removed 5; reappeared 0; candidate scan cap skipped 0
 - silvergames-en: delta; 0 new URLs; 6408 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - kizi-en: delta; 0 new URLs; 6009 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - onlinegames-en: delta; 0 new URLs; 1286 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -35,20 +35,20 @@ Sources succeeded: 127/135; new URLs: 0; candidate URL leads: 0; first-time keyw
 - armorgames-en: delta; 0 new URLs; 4370 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - famobi-en: delta; 0 new URLs; 0 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamezop-en: delta; 0 new URLs; 257 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- bgames-en: delta; 0 new URLs; 4519 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- playhop-en: delta; 0 new URLs; 20652 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- bgames-en: delta; 1 new URLs; 4520 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- playhop-en: delta; 11 new URLs; 20661 pages; removed 2; reappeared 0; candidate scan cap skipped 0
 - gamecomets-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 403: Forbidden
 - gamenora-en: delta; 0 new URLs; 3702 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - 1001games-en: delta; 0 new URLs; 2401 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - toolify-products: delta; 0 new URLs; 2000 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - futuretools-products: delta; 0 new URLs; 4476 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- uneed-products: delta; 0 new URLs; 11420 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- uneed-products: delta; 42 new URLs; 11454 pages; removed 8; reappeared 0; candidate scan cap skipped 0
 - poki-en: delta; 0 new URLs; 1537 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- gamedistribution-games: delta; 0 new URLs; 30774 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- gamedistribution-games: delta; 2 new URLs; 30776 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamepost-games: delta; 0 new URLs; 12229 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - devhunt-tools: delta; 0 new URLs; 6586 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- fazier-launches: delta; 0 new URLs; 8960 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- aiapps-tools: delta; 0 new URLs; 2087 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- fazier-launches: delta; 45 new URLs; 9005 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- aiapps-tools: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; TimeoutError: The read operation timed out
 - findmyaitool-tools: delta; 0 new URLs; 500 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aixploria-tools: delta; 0 new URLs; 22 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aiagentsdirectory-agents: delta; 0 new URLs; 11 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -75,23 +75,23 @@ Sources succeeded: 127/135; new URLs: 0; candidate URL leads: 0; first-time keyw
 - toolfound-products: delta; 0 new URLs; 146 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - indieneed-products: delta; 0 new URLs; 606 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - indietools-products: delta; 0 new URLs; 200 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- startupbase-products: delta; 0 new URLs; 4631 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- pitchwall-products: delta; 0 new URLs; 500 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- startupbase-products: delta; 16 new URLs; 4647 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- pitchwall-products: delta; 12 new URLs; 500 pages; removed 12; reappeared 0; candidate scan cap skipped 0
 - saascity-products: delta; 0 new URLs; 1101 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - fridayhunt-projects: delta; 0 new URLs; 305 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- productperch-products: delta; 0 new URLs; 325 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- productperch-products: delta; 14 new URLs; 339 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - launchscaler-products: delta; 0 new URLs; 7 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- aitoolsdirectory-tools: delta; 0 new URLs; 771 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- aitoolsdirectory-tools: delta; 0 new URLs; 770 pages; removed 1; reappeared 0; candidate scan cap skipped 0
 - aitoolnet-tools: delta; 0 new URLs; 22981 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- aitoptools-tools: delta; 0 new URLs; 11241 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- aitoptools-tools: delta; 1 new URLs; 11242 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aitoolsinc-tools: delta; 0 new URLs; 2739 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aiagentslist-agents: delta; 0 new URLs; 636 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aiforwork-tools: delta; 0 new URLs; 10 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aitoolhouse-tools: delta; 0 new URLs; 3904 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- nextool-tools: delta; 0 new URLs; 1000 pages; removed 5; reappeared 5; candidate scan cap skipped 0
+- nextool-tools: delta; 1 new URLs; 1000 pages; removed 3; reappeared 2; candidate scan cap skipped 0
 - aitoolboard-tools: delta; 0 new URLs; 5480 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aiagentstore-agents: delta; 0 new URLs; 909 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- dangai-tools: delta; 0 new URLs; 7609 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- dangai-tools: delta; 1 new URLs; 7610 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - opentools-tools: delta; 0 new URLs; 6598 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - toolworthy-ai-tools: delta; 0 new URLs; 1892 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - tooldirectory-ai-tools: delta; 0 new URLs; 2827 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -144,6 +144,65 @@ Sources succeeded: 127/135; new URLs: 0; candidate URL leads: 0; first-time keyw
 
 ## New URL leads (not proven new keywords)
 
-None. First successful scans create baselines without alerts.
+- [skyfang dragon hunters](https://www.crazygames.com/game/skyfang-dragon-hunters) — crazygames-en / US
+- [runespire idle tower defense](https://www.crazygames.com/game/runespire-idle-tower-defense) — crazygames-en / US
+- [cooking blast](https://www.crazygames.com/game/cooking-blast) — crazygames-en / US
+- [stickman death fight](https://www.crazygames.com/game/stickman-death-fight) — crazygames-en / US
+- [miami rideout edt](https://www.crazygames.com/game/miami-rideout-edt) — crazygames-en / US
+- [egg o matic factory tycoon](https://www.crazygames.com/br/game/egg-o-matic-factory-tycoon) — crazygames-br / BR
+- [fashion makeover spa dress up](https://www.crazygames.com/br/game/fashion-makeover-spa-dress-up) — crazygames-br / BR
+- [hordewalkers](https://www.crazygames.com/br/game/hordewalkers) — crazygames-br / BR
+- [skyfang dragon hunters](https://www.crazygames.com/br/game/skyfang-dragon-hunters) — crazygames-br / BR
+- [nightz io jtj](https://www.crazygames.com/br/game/nightz-io-jtj) — crazygames-br / BR
+- [runespire idle tower defense](https://www.crazygames.com/br/game/runespire-idle-tower-defense) — crazygames-br / BR
+- [london black cab driver](https://www.crazygames.com/br/game/london-black-cab-driver) — crazygames-br / BR
+- [cooking blast](https://www.crazygames.com/br/game/cooking-blast) — crazygames-br / BR
+- [stickman death fight](https://www.crazygames.com/br/game/stickman-death-fight) — crazygames-br / BR
+- [miami rideout edt](https://www.crazygames.com/br/game/miami-rideout-edt) — crazygames-br / BR
+- [london black cab driver](https://www.crazygames.com/es/game/london-black-cab-driver) — crazygames-es / ES
+- [cooking blast](https://www.crazygames.com/es/game/cooking-blast) — crazygames-es / ES
+- [stickman death fight](https://www.crazygames.com/es/game/stickman-death-fight) — crazygames-es / ES
+- [miami rideout edt](https://www.crazygames.com/es/game/miami-rideout-edt) — crazygames-es / ES
+- [skyfang dragon hunters](https://www.crazygames.com/es/game/skyfang-dragon-hunters) — crazygames-es / ES
+- [runespire idle tower defense](https://www.crazygames.com/es/game/runespire-idle-tower-defense) — crazygames-es / ES
+- [nightz io jtj](https://www.crazygames.com/es/game/nightz-io-jtj) — crazygames-es / ES
+- [fashion makeover spa dress up](https://www.crazygames.com/es/game/fashion-makeover-spa-dress-up) — crazygames-es / ES
+- [escape the giant cat](https://www.minijuegos.com/juego/escape-the-giant-cat) — minijuegos-es / ES
+- [sitesolide](https://www.producthunt.com/products/sitesolide) — producthunt-products / US
+- [kestrix](https://www.producthunt.com/products/kestrix) — producthunt-products / US
+- [cluinn](https://www.producthunt.com/products/cluinn) — producthunt-products / US
+- [sparkbots ai analyze pages and pdfs](https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs) — producthunt-products / US
+- [xwiki](https://www.producthunt.com/products/xwiki) — producthunt-products / US
+- [chopstick](https://www.producthunt.com/products/chopstick) — producthunt-products / US
+- [knocket ai](https://www.producthunt.com/products/knocket-ai) — producthunt-products / US
+- [faylee](https://www.producthunt.com/products/faylee) — producthunt-products / US
+- [stereolift live](https://www.producthunt.com/products/stereolift-live) — producthunt-products / US
+- [vaani developer platfrom](https://www.producthunt.com/products/vaani-developer-platfrom) — producthunt-products / US
+- [norah studio](https://www.producthunt.com/products/norah-studio) — producthunt-products / US
+- [axonnic](https://www.producthunt.com/products/axonnic) — producthunt-products / US
+- [fastbrowse](https://www.producthunt.com/products/fastbrowse) — producthunt-products / US
+- [nocto](https://www.producthunt.com/products/nocto) — producthunt-products / US
+- [isurge](https://www.producthunt.com/products/isurge) — producthunt-products / US
+- [ball 2048](https://www.y8.com/games/ball_2048) — y8-en / US
+- [dispatch panic](https://www.y8.com/games/dispatch_panic) — y8-en / US
+- [b movie brawlers](https://www.y8.com/games/b-movie_brawlers) — y8-en / US
+- [overdrive](https://www.y8.com/games/67_overdrive) — y8-en / US
+- [safaritamu](https://www.y8.com/studios/safaritamu) — y8-en / US
+- [pipewright](https://www.y8.com/games/pipewright) — y8-en / US
+- [dominoes legend 2027](https://www.y8.com/games/dominoes_legend_2027) — y8-en / US
+- [geckoflip](https://www.y8.com/games/geckoflip) — y8-en / US
+- [street smart echoes of home](https://www.y8.com/games/street_smart_echoes_of_home) — y8-en / US
+- [kingdom dawn](https://www.y8.com/games/kingdom_dawn) — y8-en / US
+- [halloween tile tumble](https://www.y8.com/games/halloween_tile_tumble) — y8-en / US
+- [safaritamu](https://www.y8.com/games/safaritamu) — y8-en / US
+- [market dash](https://www.y8.com/games/market_dash) — y8-en / US
+- [cave keepers td](https://www.y8.com/games/cave_keepers_td) — y8-en / US
+- [avervorn studios](https://www.y8.com/studios/avervorn-studios) — y8-en / US
+- [wobble haul](https://www.y8.com/games/wobble_haul) — y8-en / US
+- [chrono spira](https://www.y8.com/games/chrono-spira) — y8-en / US
+- [repair bench](https://www.y8.com/games/repair_bench) — y8-en / US
+- [ikalab](https://www.y8.com/studios/ikalab) — y8-en / US
+- [vivienne s lifestyle royal polo](https://www.y8.com/games/vivienne_s_lifestyle_royal_polo) — y8-en / US
+- [igloo siege](https://www.y8.com/games/igloo_siege) — y8-en / US
 
 Next: cross-match the seven-day Sitemap URL delta ledger across independently monitored domains; report unresolved matching gaps.

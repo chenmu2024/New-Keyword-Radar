@@ -2,23 +2,312 @@
   "date": "2026-10-30",
   "window_start": "2026-10-24",
   "source_count": 135,
-  "queue_count": 2111,
+  "queue_count": 2334,
   "ignored_unverifiable_proofs": 0,
   "groups": {
-    "games": [],
-    "products": [],
+    "games": [
+      {
+        "query": "monster cafe idle tycoon",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/monster-cafe-idle-tycoon",
+            "first_seen": "2026-10-30",
+            "observed_query": "monster cafe idle tycoon",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/monster_cafe_idle_tycoon",
+            "first_seen": "2026-10-30",
+            "observed_query": "monster cafe idle tycoon",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "chrono spira",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/chrono-spira",
+            "first_seen": "2026-10-29",
+            "observed_query": "chrono spira",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/chrono-spira",
+            "first_seen": "2026-10-30",
+            "observed_query": "chrono spira",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "escape the giant cat",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/escape-the-giant-cat",
+            "first_seen": "2026-10-29",
+            "observed_query": "escape the giant cat",
+            "source_category": "games"
+          },
+          {
+            "source_id": "minijuegos-es",
+            "website": "minijuegos.com",
+            "url": "https://www.minijuegos.com/juego/escape-the-giant-cat",
+            "first_seen": "2026-10-30",
+            "observed_query": "escape the giant cat",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "street smart echoes of home",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/street-smart-echoes-of-home",
+            "first_seen": "2026-10-29",
+            "observed_query": "street smart echoes of home",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/street_smart_echoes_of_home",
+            "first_seen": "2026-10-30",
+            "observed_query": "street smart echoes of home",
+            "source_category": "games"
+          }
+        ]
+      }
+    ],
+    "products": [
+      {
+        "query": "distriova",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/distriova",
+            "first_seen": "2026-10-30",
+            "observed_query": "distriova",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/distriova/",
+            "first_seen": "2026-10-30",
+            "observed_query": "distriova",
+            "source_category": "saas"
+          }
+        ]
+      }
+    ],
     "tools": [],
     "functions": []
   },
   "group_counts": {
-    "games": 0,
-    "products": 0,
+    "games": 4,
+    "products": 1,
     "tools": 0,
     "functions": 0
   },
   "by_type": {
-    "games": [],
-    "saas": [],
+    "games": [
+      {
+        "query": "chrono spira",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/chrono-spira",
+            "first_seen": "2026-10-29",
+            "observed_query": "chrono spira",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/chrono-spira",
+            "first_seen": "2026-10-30",
+            "observed_query": "chrono spira",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "escape the giant cat",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/escape-the-giant-cat",
+            "first_seen": "2026-10-29",
+            "observed_query": "escape the giant cat",
+            "source_category": "games"
+          },
+          {
+            "source_id": "minijuegos-es",
+            "website": "minijuegos.com",
+            "url": "https://www.minijuegos.com/juego/escape-the-giant-cat",
+            "first_seen": "2026-10-30",
+            "observed_query": "escape the giant cat",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "monster cafe idle tycoon",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/monster-cafe-idle-tycoon",
+            "first_seen": "2026-10-30",
+            "observed_query": "monster cafe idle tycoon",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/monster_cafe_idle_tycoon",
+            "first_seen": "2026-10-30",
+            "observed_query": "monster cafe idle tycoon",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "street smart echoes of home",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/street-smart-echoes-of-home",
+            "first_seen": "2026-10-29",
+            "observed_query": "street smart echoes of home",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/street_smart_echoes_of_home",
+            "first_seen": "2026-10-30",
+            "observed_query": "street smart echoes of home",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      }
+    ],
+    "saas": [
+      {
+        "query": "distriova",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/distriova",
+            "first_seen": "2026-10-30",
+            "observed_query": "distriova",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/distriova/",
+            "first_seen": "2026-10-30",
+            "observed_query": "distriova",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      }
+    ],
     "ai": [],
     "calculators": [],
     "files": [],
@@ -26,17 +315,17 @@
     "brazil": []
   },
   "by_type_counts": {
-    "games": 0,
-    "saas": 0,
+    "games": 4,
+    "saas": 1,
     "ai": 0,
     "calculators": 0,
     "files": 0,
     "developer": 0,
     "brazil": 0
   },
-  "delta_ledger_count": 0,
+  "delta_ledger_count": 228,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-10-30T10:45:32.884410+08:00",
+  "generated_at": "2026-10-30T16:56:04.678085+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
@@ -46,7 +335,7 @@
       "baselines": 0,
       "delta_scans": 29,
       "failed": 4,
-      "new_urls": 0,
+      "new_urls": 88,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -75,7 +364,7 @@
       "baselines": 0,
       "delta_scans": 19,
       "failed": 1,
-      "new_urls": 0,
+      "new_urls": 145,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -88,13 +377,18 @@
       "configured_sources": 20,
       "configured_domains": 20,
       "reported": 20,
-      "successful": 20,
+      "successful": 19,
       "baselines": 0,
-      "delta_scans": 20,
-      "failed": 0,
-      "new_urls": 0,
+      "delta_scans": 19,
+      "failed": 1,
+      "new_urls": 3,
       "over_scan_cap": 0,
-      "failed_sources": []
+      "failed_sources": [
+        {
+          "source_id": "aiapps-tools",
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ]
     },
     "calculators": {
       "configured_sources": 15,
