@@ -315,27 +315,62 @@ def render(payload, latest):
         "；数据生成：" + str(latest.get("generated_at", "未知")) +
         "；保留候选：" + str(payload["queue_count"]) + "。", "",
     ]
-    for key, title in CATEGORIES.items():
-        lines.extend(["## " + title, ""])
-        selected = payload["groups"].get(key, [])[:10]
+    coverage = payload.get("coverage", {})
+    for category, label in CATEGORY_TITLES.items():
+        scan = coverage.get(category, {})
+        lines.extend([
+            "## " + label, "",
+            "采集：" + str(scan.get("successful", "未知")) + "/" +
+            str(scan.get("configured_sources", "未知")) +
+            "来源，配置根域 " + str(scan.get("configured_domains", "未知")) +
+            "，新建基线 " + str(scan.get("baselines", "未知")) +
+            "，失败 " + str(scan.get("failed", "未知")) +
+            "，新增 URL " + str(scan.get("new_urls", "未知")) +
+            "，采样上限遗漏 " + str(scan.get("over_scan_cap", "未知")) + "。", "",
+        ])
+        selected = payload.get("by_type", {}).get(category, [])[:10]
         if not selected:
-            lines.extend(["**0：没有符合至少两个不同根域新增的候选。**", ""])
+            lines.extend(["**0：本类尚无两家以上不同域名的同步新增证据。**", ""])
+        else:
+            for group in selected:
+                lines.append(
+                    "- **" + group["query"] + "**：不同根域 " +
+                    str(group["independent_websites"]) + " 家；同一天峰值 " +
+                    str(group["same_calendar_day_peak"]) + " 家、连续3日 " +
+                    str(group["three_calendar_day_peak"]) + " 家、7日共 " +
+                    str(group["seven_calendar_day_total"]) + " 家；匹配 " +
+                    group["match_basis"] +
+                    "，但仍须复核游戏/产品是否同款及运营主体。"
+                )
+                for proof in group["evidence"][:12]:
+                    lines.append("  - " + proof["website"] + " · " +
+                                 proof["source_id"] + " · " + proof["first_seen"] +
+                                 " · " + proof["url"] +
+                                 " · 原词 " + proof["observed_query"])
+            lines.append("")
+        if scan.get("failed_sources"):
+            lines.append("失败来源：" + "；".join(
+                x["source_id"] + " (" + x["error"][:100] + ")"
+                for x in scan["failed_sources"]))
+            lines.append("")
+
+    lines.extend(["## 跨类别同名或同向文件转换（仅作人工复核）", ""])
+    for key, label in [("products", "跨SaaS和AI的同名产品"),
+                       ("functions", "跨类别同向文件转换")]:
+        selected = [row for row in payload.get("groups", {}).get(key, [])
+                    if len({x.get("source_category") for x in row["evidence"]}) >= 2][:10]
+        lines.extend(["### " + label, ""])
+        if not selected:
+            lines.extend(["0条。", ""])
             continue
         for group in selected:
-            lines.append(
-                "- **" + group["query"] + "**：不同根域" +
-                str(group["independent_websites"]) + "家；同一天峰值" +
-                str(group["same_calendar_day_peak"]) + "家，连续3日峰值" +
-                str(group["three_calendar_day_peak"]) + "家，7日累计" +
-                str(group["seven_calendar_day_total"]) +
-                "家；优先级 " + group["priority"] +
-                "；证据匹配 " + group["match_basis"] + "。"
-            )
+            lines.append("- " + group["query"] + "：独立根域 " +
+                         str(group["independent_websites"]) + " 家；类别 " +
+                         ", ".join(sorted({x["source_category"] for x in group["evidence"]})))
             for proof in group["evidence"][:12]:
-                lines.append("  - " + proof["website"] + " · " +
+                lines.append("  - " + proof["source_category"] + " · " +
                              proof["source_id"] + " · " + proof["first_seen"] +
-                             " · " + proof["url"] +
-                             " · 原始查询 " + proof["observed_query"])
+                             " · " + proof["url"])
         lines.append("")
     lines.extend([
         "## 排除与限制", "",
