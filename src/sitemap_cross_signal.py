@@ -97,6 +97,98 @@ def function_signature(query):
         return ""
     return "file conversion " + next(iter(left)) + " to " + next(iter(right))
 
+CATEGORY_TITLES = {
+    "games": "游戏平台",
+    "saas": "SaaS 产品发布目录",
+    "ai": "AI 工具和 Agent 目录",
+    "calculators": "计算器",
+    "files": "PDF / 文件 / 图片工具",
+    "developer": "开发者和自动化",
+    "brazil": "巴西在线工具",
+}
+
+
+def source_category(src):
+    topic = src.get("topic", "")
+    if topic == "games":
+        return "games"
+    if topic == "brazilian-online-utilities":
+        return "brazil"
+    if topic == "calculators":
+        return "calculators"
+    if topic in {"pdf-tools", "pdf-file-tools", "file-conversion-tools", "image-video-tools"}:
+        return "files"
+    if topic.startswith("ai-"):
+        return "ai"
+    if topic in {"product-launches-saas", "saas-product-directory",
+                 "saas-product-launches", "saas-launchpad"}:
+        return "saas"
+    if "developer" in topic or "automation" in topic or "deployable" in topic or "actors" in topic:
+        return "developer"
+    return "saas"
+
+
+def summarize_coverage(config, latest):
+    entries = {src["id"]: src for src in config.get("sources", [])}
+    by_id = {row["source_id"]: row for row in latest.get("sources", [])
+             if isinstance(row, dict) and row.get("source_id")}
+    audit = {}
+    for key in CATEGORY_TITLES:
+        selected = [src for src in entries.values() if source_category(src) == key]
+        status = [by_id.get(src["id"]) for src in selected]
+        failures = [{"source_id": rec["source_id"], "error": rec.get("error", "unknown")}
+                    for rec in status if rec and rec.get("status") == "error"]
+        audit[key] = {
+            "configured_sources": len(selected),
+            "configured_domains": len({domain(
+                (src.get("page_hosts") or [src["sitemap"]])[0]) for src in selected}),
+            "reported": sum(row is not None for row in status),
+            "successful": sum(bool(row and row.get("status") in {"baseline", "delta"})
+                              for row in status),
+            "baselines": sum(bool(row and row.get("status") == "baseline") for row in status),
+            "delta_scans": sum(bool(row and row.get("status") == "delta") for row in status),
+            "failed": len(failures),
+            "new_urls": sum(int(row.get("new_url_count", 0)) for row in status if row),
+            "over_scan_cap": sum(int(row.get("candidates_over_scan_cap", 0))
+                                 for row in status if row),
+            "failed_sources": failures,
+        }
+    return audit
+
+
+def regroup_seven_types(groups):
+    by_type = {key: [] for key in CATEGORY_TITLES}
+    for group_name, matches in groups.items():
+        for row in matches:
+            for category in by_type:
+                proofs = [r for r in row["evidence"] if r.get("source_category") == category]
+                if len(proofs) < 2:
+                    continue
+                window = count_periods(proofs)
+                period = (date.fromisoformat(proofs[-1]["first_seen"]) -
+                          date.fromisoformat(proofs[0]["first_seen"])).days
+                if window["three_calendar_day_peak"] >= 3:
+                    priority = "high"
+                elif window["three_calendar_day_peak"] >= 2 or len(proofs) >= 3:
+                    priority = "medium"
+                else:
+                    priority = "watch"
+                by_type[category].append({
+                    **row, **window, "evidence": proofs,
+                    "independent_websites": len(proofs),
+                    "date_span_days": period,
+                    "priority": priority,
+                    "cross_signal_origin": group_name,
+                })
+    priority_score = {"high": 0, "medium": 1, "watch": 2}
+    for category in by_type:
+        by_type[category].sort(key=lambda row: (
+            priority_score[row["priority"]],
+            -row["three_calendar_day_peak"],
+            -row["independent_websites"], row["query"]))
+    return by_type
+
+
 
 def count_periods(proofs):
     """Use day-granularity windows; do NOT claim exact rolling 24-hour times."""
@@ -157,6 +249,7 @@ def summarize(queue, config, today):
                 "source_id": source_id, "website": site,
                 "url": str(url), "first_seen": day.isoformat(),
                 "observed_query": original,
+                "source_category": source_category(sources[source_id]),
             }
             matching_groups = [(category, key)]
             function = function_signature(original) if category != "games" else ""
@@ -195,11 +288,14 @@ def summarize(queue, config, today):
         values.sort(key=lambda p: (
             scores[p["priority"]], -p["three_calendar_day_peak"],
             -p["independent_websites"], p["date_span_days"], p["query"]))
+    by_type = regroup_seven_types(groups)
     return {
         "date": today.isoformat(), "window_start": cutoff.isoformat(),
         "source_count": len(sources), "queue_count": len(queue),
         "ignored_unverifiable_proofs": ignored, "groups": groups,
         "group_counts": {key: len(items) for key, items in groups.items()},
+        "by_type": by_type,
+        "by_type_counts": {key: len(items) for key, items in by_type.items()},
     }
 
 
@@ -258,6 +354,7 @@ def run(root=ROOT):
     stamp = latest.get("generated_at")
     today = datetime.fromisoformat(stamp).date() if stamp else datetime.now(LOCAL_TZ).date()
     result = summarize(queue, config, today)
+    result["coverage"] = summarize_coverage(config, latest)
     result["generated_at"] = stamp or datetime.now(LOCAL_TZ).isoformat()
     out = root / "data/sitemap/cross_signals.json"
     out.parent.mkdir(parents=True, exist_ok=True)
