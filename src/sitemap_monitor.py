@@ -501,8 +501,8 @@ def run(root=ROOT, enrich=True):
                      ") — " + finding["source_id"] + " / " + finding["geo"])
     if not findings:
         lines.append("None. First successful scans create baselines without alerts.")
-    lines.extend(["", "Next: verify original keyword age, country search demand, "
-                  "SERP and monetization independently."])
+    lines.extend(["", "Next: cross-match the seven-day Sitemap URL delta ledger "
+                  "across independently monitored domains; report unresolved matching gaps."])
     path = root / "reports/sitemap/latest.md"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
