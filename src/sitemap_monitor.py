@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import argparse
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
+from datetime import datetime, timedelta, date
 from hashlib import sha256
 from html.parser import HTMLParser
 from http.client import HTTPException
@@ -30,7 +30,9 @@ QUEUE = ROOT / "data/sitemap/queue.json"
 LATEST = ROOT / "data/sitemap/latest.json"
 REPORT = ROOT / "reports/sitemap/latest.md"
 MAX_BYTES = 7_000_000
-MAX_QUEUE = 12000  # Bounded cross-site queue, separate from hashed per-source baselines.
+MAX_QUEUE = 12000  # Bounded detailed research queue, NOT the cross-site signal ledger.
+MAX_DELTA_LEDGER = 30000  # Seven-day source-balanced lightweight new-URL proofs.
+MAX_SIGNATURES_PER_SOURCE = 2500  # Do not let a directory explosion exhaust memory.
 MAX_REMOVED_HASHES = 10000  # Per source, bounded anti-churn memory.
 USER_AGENT = "NewKeywordRadar-SitemapResearch/1.0 (+public-sitemaps; polite daily checks)"
 SKIP = re.compile(
@@ -164,7 +166,7 @@ def digest(url):
     return sha256(url.encode("utf-8")).hexdigest()[:24]
 
 
-def select_novel_leads(novel, limit):
+def select_novel_leads(novel, limit, all_eligible=None):
     """Evaluate all novel URLs before capping, with deterministic non-alphabetical sampling.
 
     Previously, only the first 80 lexicographically sorted URLs were inspected,
@@ -173,6 +175,9 @@ def select_novel_leads(novel, limit):
     eligible = [(link, candidate(link)) for link in novel]
     eligible = [(link, q) for link, q in eligible if q]
     eligible.sort(key=lambda pair: (-int(bool(CUE.search(pair[1]))), digest(pair[0])))
+    if all_eligible is not None:
+        # Light-weight proof extraction, not page enrichment or a search-demand check.
+        all_eligible.extend(eligible[:MAX_SIGNATURES_PER_SOURCE])
     cap = max(0, int(limit))
     return eligible[:cap], len(eligible)
 
@@ -223,7 +228,7 @@ def page_meta(url, fetch=safe_fetch):
         return {"title": "", "h1": "", "page_error": type(exc).__name__}
 
 
-def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
+def scan(config, previous, fetch=safe_fetch, enrich=False, today=None, candidate_sink=None):
     today = today or datetime.now(TZ).date().isoformat()
     states = dict(previous)
     findings, status = [], []
@@ -264,8 +269,19 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
             removed_count = len(removed_hashes)
             retired.update(removed_hashes)
             stage = "baseline" if old is None else "delta"
+            evidence_pairs = [] if candidate_sink is not None else None
             chosen, eligible_count = select_novel_leads(
-                novel, int(source.get("max_new_urls_per_source", config.get("max_new_urls_per_source", 80))))
+                novel, int(source.get("max_new_urls_per_source", config.get("max_new_urls_per_source", 80))),
+                evidence_pairs)
+            if candidate_sink is not None:
+                for link, query in evidence_pairs:
+                    if name == "gamepost-games":
+                        query = re.sub(r"\s+\d{5,}$", "", query)
+                    candidate_sink.append({
+                        "query": query, "url": link, "source_id": name,
+                        "geo": source.get("geo", ""), "topic": source.get("topic", ""),
+                        "first_seen": today,
+                    })
             for link, query in chosen:
                 # GamePost appends catalog identifiers, not a game version.
                 # Only strip >=5 trailing digits for this known publisher.
@@ -287,6 +303,7 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
                            "eligible_candidate_count": eligible_count,
                            "candidate_count": len(chosen),
                            "candidates_over_scan_cap": max(0, eligible_count - len(chosen)),
+                           "signatures_over_scan_cap": max(0, eligible_count - MAX_SIGNATURES_PER_SOURCE),
                            "sitemap_files": nfiles})
         except (OSError, HTTPException, ValueError, ET.ParseError, HTTPError, URLError) as exc:
             # Fail closed: do NOT replace the previous snapshot or fabricate deltas.
@@ -295,6 +312,52 @@ def scan(config, previous, fetch=safe_fetch, enrich=False, today=None):
     if pool is not None:
         pool.shutdown(wait=True)
     return states, findings, status
+
+
+def merge_delta_ledger(previous, new_records, today, limit=MAX_DELTA_LEDGER):
+    """Retain only authentic recent URL-delta provenance, balanced across sources.
+
+    This ledger is independent of the detailed research queue's 120 URL limit.
+    Baseline URLs and known reappearing URL hashes never enter new_records.
+    """
+    date_today = date.fromisoformat(today) if isinstance(today, str) else today
+    cutoff = date_today - timedelta(days=6)
+    unique = {}
+    for row in [*previous, *new_records]:
+        if not isinstance(row, dict):
+            continue
+        source = str(row.get("source_id") or "")
+        url = str(row.get("url") or "")
+        query = str(row.get("query") or "").strip()
+        try:
+            first = date.fromisoformat(str(row.get("first_seen", ""))[:10])
+        except ValueError:
+            continue
+        if not (source and query and url.startswith("https://") and cutoff <= first <= date_today):
+            continue
+        key = (source, url)
+        if key not in unique or str(row["first_seen"]) < str(unique[key]["first_seen"]):
+            unique[key] = dict(row)
+
+    by_source = {}
+    for row in unique.values():
+        by_source.setdefault(row["source_id"], []).append(row)
+    for group in by_source.values():
+        group.sort(key=lambda item: (item["first_seen"], digest(item["url"])), reverse=True)
+
+    remaining = sorted(by_source)
+    output = []
+    while remaining and len(output) < max(0, int(limit)):
+        still = []
+        for source in remaining:
+            batch = by_source[source]
+            if batch and len(output) < limit:
+                output.append(batch.pop(0))
+            if batch:
+                still.append(source)
+        remaining = still
+    output.sort(key=lambda item: (item["first_seen"], item["source_id"], item["url"]))
+    return output
 
 
 def merge_queue(old, findings, limit=MAX_QUEUE):
@@ -373,7 +436,9 @@ def run(root=ROOT, enrich=True):
     state_path = root / "state/sitemap/snapshots.json"
     queue_path = root / "data/sitemap/queue.json"
     previous = load_json(state_path, {})
-    updated, findings, status = scan(cfg, previous, enrich=enrich, today=day)
+    fresh_signatures = []
+    updated, findings, status = scan(
+        cfg, previous, enrich=enrich, today=day, candidate_sink=fresh_signatures)
     previous_queue = load_json(queue_path, [])
     known = {(str(row.get("query", "")).casefold(),
               str(row.get("geo", "")).upper()) for row in previous_queue}
@@ -381,6 +446,9 @@ def run(root=ROOT, enrich=True):
                    str(row.get("geo", "")).upper()) for row in findings}
     truly_new_research_leads = len(first_seen - known)
     queue = merge_queue(previous_queue, findings)
+    ledger = merge_delta_ledger(
+        load_json(root / "data/sitemap/delta_ledger.json", []),
+        fresh_signatures, day)
     success = sum(x["status"] != "error" for x in status)
     payload = {"generated_at": now.isoformat(), "date": day, "trial_start": cfg["trial_start"],
                "trial_end_exclusive": cfg["trial_end_exclusive"], "source_count": len(status),
@@ -391,6 +459,11 @@ def run(root=ROOT, enrich=True):
                "reappeared_url_count": sum(x.get("reappeared_url_count", 0) for x in status),
                "queue_size": len(queue),
                "queue_limit": MAX_QUEUE,
+               "new_delta_signatures": len(fresh_signatures),
+               "delta_ledger_size": len(ledger),
+               "delta_ledger_limit": MAX_DELTA_LEDGER,
+               "delta_signature_over_scan_cap": sum(
+                   x.get("signatures_over_scan_cap", 0) for x in status),
                "keyword_metrics_verified": False, "newness_verified": False,
                "sources": status, "candidates": findings[:100]}
     # Retain successful partial progress when other sources fail. Zero-success runs
@@ -399,9 +472,15 @@ def run(root=ROOT, enrich=True):
         raise RuntimeError("All Sitemap sources failed; state not overwritten")
     save_json(state_path, updated)
     save_json(queue_path, queue)
+    save_json(root / "data/sitemap/delta_ledger.json", ledger)
     save_json(root / "data/sitemap/latest.json", payload)
     save_json(root / ("data/sitemap/" + day + ".json"), payload)
     lines = ["# Sitemap delta research — " + day, "",
+             "Cross-site signature ledger: " + str(len(ledger)) +
+             "/" + str(MAX_DELTA_LEDGER) + " last-seven-day URL proof records; " +
+             str(len(fresh_signatures)) + " new light-weight proofs; " +
+             str(payload["delta_signature_over_scan_cap"]) +
+             " still omitted by per-source safety limit.",
              "Unverified leads only. Baseline URL snapshots are NOT discoveries.",
              f"Sources succeeded: {success}/{len(status)}; new URLs: {payload['new_url_count']}; "
              f"candidate URL leads: {len(findings)}; first-time keyword/geo research leads: "
