@@ -8,15 +8,15 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：125/135；数据生成：2026-10-30T10:37:07.150394+08:00；保留候选：2111。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-10-30T10:45:32.884410+08:00；详细候选：2111；7日轻量URL证据：0/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：28/33来源，配置根域 30，新建基线 0，失败 5，新增 URL 0，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
-失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；gamenora-en (HTTPError: HTTP Error 415: Unsupported Media Type)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
+失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
@@ -34,11 +34,11 @@
 
 ## 计算器
 
-采集：13/15来源，配置根域 15，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
+采集：14/15来源，配置根域 15，新建基线 0，失败 1，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
-失败来源：calculatorsio-tools (HTTPError: HTTP Error 415: Unsupported Media Type)；metricconversions-tools (ValueError: Response exceeds size limit)
+失败来源：metricconversions-tools (ValueError: Response exceeds size limit)
 
 ## PDF / 文件 / 图片工具
 

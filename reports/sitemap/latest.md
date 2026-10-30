@@ -1,16 +1,17 @@
 # Sitemap delta research — 2026-10-30
 
+Cross-site signature ledger: 0/30000 last-seven-day URL proof records; 0 new light-weight proofs; 0 still omitted by per-source safety limit.
 Unverified leads only. Baseline URL snapshots are NOT discoveries.
-Sources succeeded: 125/135; new URLs: 0; candidate URL leads: 0; first-time keyword/geo research leads: 0; reappeared URLs: 39; retained queue: 2111. Neither URL changes nor leads establish search demand.
+Sources succeeded: 127/135; new URLs: 0; candidate URL leads: 0; first-time keyword/geo research leads: 0; reappeared URLs: 39; retained queue: 2111. Neither URL changes nor leads establish search demand.
 
 ## Sources
 
 - crazygames-en: delta; 0 new URLs; 5374 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - crazygames-br: delta; 0 new URLs; 5374 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - crazygames-es: delta; 0 new URLs; 5374 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- gamepix-en: delta; 0 new URLs; 19513 pages; removed 34; reappeared 18; candidate scan cap skipped 0
-- gamepix-pt: delta; 0 new URLs; 19547 pages; removed 0; reappeared 20; candidate scan cap skipped 0
-- minijuegos-es: delta; 0 new URLs; 27558 pages; removed 0; reappeared 1; candidate scan cap skipped 0
+- gamepix-en: delta; 0 new URLs; 19547 pages; removed 0; reappeared 34; candidate scan cap skipped 0
+- gamepix-pt: delta; 0 new URLs; 19495 pages; removed 52; reappeared 0; candidate scan cap skipped 0
+- minijuegos-es: delta; 0 new URLs; 27557 pages; removed 1; reappeared 0; candidate scan cap skipped 0
 - friv-en: delta; 0 new URLs; 1183 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculator-soup: delta; 0 new URLs; 502 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - vercel-product-watch: delta; 0 new URLs; 2697 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -22,7 +23,7 @@ Sources succeeded: 125/135; new URLs: 0; candidate URL leads: 0; first-time keyw
 - futurepedia-tools: delta; 0 new URLs; 2498 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - netlify-product-watch: delta; 0 new URLs; 758 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - onlinetools-br: delta; 0 new URLs; 109 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- producthunt-products: delta; 0 new URLs; 21722 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- producthunt-products: delta; 0 new URLs; 21721 pages; removed 1; reappeared 0; candidate scan cap skipped 0
 - y8-en: delta; 0 new URLs; 35088 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - silvergames-en: delta; 0 new URLs; 6408 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - kizi-en: delta; 0 new URLs; 6009 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -37,7 +38,7 @@ Sources succeeded: 125/135; new URLs: 0; candidate URL leads: 0; first-time keyw
 - bgames-en: delta; 0 new URLs; 4519 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - playhop-en: delta; 0 new URLs; 20652 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamecomets-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 403: Forbidden
-- gamenora-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 415: Unsupported Media Type
+- gamenora-en: delta; 0 new URLs; 3702 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - 1001games-en: delta; 0 new URLs; 2401 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - toolify-products: delta; 0 new URLs; 2000 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - futuretools-products: delta; 0 new URLs; 4476 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -87,7 +88,7 @@ Sources succeeded: 125/135; new URLs: 0; candidate URL leads: 0; first-time keyw
 - aiagentslist-agents: delta; 0 new URLs; 636 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aiforwork-tools: delta; 0 new URLs; 10 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aitoolhouse-tools: delta; 0 new URLs; 3904 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- nextool-tools: delta; 0 new URLs; 1000 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- nextool-tools: delta; 0 new URLs; 1000 pages; removed 5; reappeared 5; candidate scan cap skipped 0
 - aitoolboard-tools: delta; 0 new URLs; 5480 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aiagentstore-agents: delta; 0 new URLs; 909 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - dangai-tools: delta; 0 new URLs; 7609 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -97,7 +98,7 @@ Sources succeeded: 125/135; new URLs: 0; candidate URL leads: 0; first-time keyw
 - toolveyor-tools: delta; 0 new URLs; 1232 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - inchcalculator-tools: delta; 0 new URLs; 144 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculla-calculators: delta; 0 new URLs; 1533 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- calculatorsio-tools: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 415: Unsupported Media Type
+- calculatorsio-tools: delta; 0 new URLs; 1 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - metricconversions-tools: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; ValueError: Response exceeds size limit
 - calculatorweb-tools: delta; 0 new URLs; 142 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculatorultra-en: delta; 0 new URLs; 10276 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -145,4 +146,4 @@ Sources succeeded: 125/135; new URLs: 0; candidate URL leads: 0; first-time keyw
 
 None. First successful scans create baselines without alerts.
 
-Next: verify original keyword age, country search demand, SERP and monetization independently.
+Next: cross-match the seven-day Sitemap URL delta ledger across independently monitored domains; report unresolved matching gaps.

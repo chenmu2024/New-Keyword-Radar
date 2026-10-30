@@ -4,7 +4,7 @@
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
-- Sitemap feeds succeeded: 125/135
+- Sitemap feeds succeeded: 127/135
 - URLs newly observed in the latest scan: 0
 - Candidate URL rows extracted in latest scan: 0
 - First-time keyword/geo research leads: 0

@@ -34,16 +34,18 @@
     "developer": 0,
     "brazil": 0
   },
-  "generated_at": "2026-10-30T10:37:07.150394+08:00",
+  "delta_ledger_count": 0,
+  "delta_ledger_limit": 30000,
+  "generated_at": "2026-10-30T10:45:32.884410+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
       "configured_domains": 30,
       "reported": 33,
-      "successful": 28,
+      "successful": 29,
       "baselines": 0,
-      "delta_scans": 28,
-      "failed": 5,
+      "delta_scans": 29,
+      "failed": 4,
       "new_urls": 0,
       "over_scan_cap": 0,
       "failed_sources": [
@@ -58,10 +60,6 @@
         {
           "source_id": "gamecomets-en",
           "error": "HTTPError: HTTP Error 403: Forbidden"
-        },
-        {
-          "source_id": "gamenora-en",
-          "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
         },
         {
           "source_id": "girlsgogames-en",
@@ -102,17 +100,13 @@
       "configured_sources": 15,
       "configured_domains": 15,
       "reported": 15,
-      "successful": 13,
+      "successful": 14,
       "baselines": 0,
-      "delta_scans": 13,
-      "failed": 2,
+      "delta_scans": 14,
+      "failed": 1,
       "new_urls": 0,
       "over_scan_cap": 0,
       "failed_sources": [
-        {
-          "source_id": "calculatorsio-tools",
-          "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
-        },
         {
           "source_id": "metricconversions-tools",
           "error": "ValueError: Response exceeds size limit"
