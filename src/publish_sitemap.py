@@ -7,7 +7,7 @@ import tempfile
 import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from sitemap_monitor import MAX_QUEUE, merge_queue
+from sitemap_monitor import MAX_QUEUE, MAX_DELTA_LEDGER, merge_queue, merge_delta_ledger
 from sitemap_cross_signal import summarize as summarize_cross, render as render_cross, summarize_coverage
 from sitemap_trends import render
 from sitemap_newwords import render as render_newwords, combine_launch_data
@@ -15,6 +15,7 @@ from sitemap_newwords import render as render_newwords, combine_launch_data
 
 ROOT = Path(__file__).resolve().parents[1]
 FILES = ["state/sitemap/snapshots.json", "data/sitemap/queue.json",
+         "data/sitemap/delta_ledger.json",
          "data/sitemap/latest.json", "reports/sitemap/latest.md", "reports/sitemap/triage.md",
          "data/sitemap/validation.json", "reports/sitemap/validation.md",
          "data/sitemap/release_dates.json", "reports/sitemap/newwords.md",
@@ -81,6 +82,16 @@ def publish():
             local_queue = load(backup / "data/sitemap/queue.json", [])
             save(ROOT / "data/sitemap/queue.json",
                  merge_queue(remote_queue, local_queue, limit=MAX_QUEUE))
+            # URL signature proof ledger is merged independently of the detailed queue.
+            # Preserve each source/url pair across overlapping scans and prune by date.
+            remote_ledger = load(ROOT / "data/sitemap/delta_ledger.json", [])
+            local_ledger = load(backup / "data/sitemap/delta_ledger.json", [])
+            ledger_day = datetime.fromisoformat(max(
+                local_latest["generated_at"], remote.get("generated_at", "")
+            )).date().isoformat()
+            save(ROOT / "data/sitemap/delta_ledger.json",
+                 merge_delta_ledger(remote_ledger, local_ledger, ledger_day,
+                                    limit=MAX_DELTA_LEDGER))
             # Reconcile validation independently: never drop a newer result
             # when overlapping scans publish against an older checkout.
             remote_checks = load(ROOT / "data/sitemap/validation.json", {})
@@ -118,8 +129,12 @@ def publish():
                                     datetime.fromisoformat(stamp).date().isoformat()),
                     encoding="utf-8")
                 # Recompute from the reconciled queue; no invented URL evidence.
-                cross = summarize_cross(live_queue, bounds,
+                live_ledger = load(ROOT / "data/sitemap/delta_ledger.json", [])
+                cross = summarize_cross(live_queue + live_ledger, bounds,
                                         datetime.fromisoformat(stamp).date().isoformat())
+                cross["queue_count"] = len(live_queue)
+                cross["delta_ledger_count"] = len(live_ledger)
+                cross["delta_ledger_limit"] = MAX_DELTA_LEDGER
                 cross["generated_at"] = stamp
                 cross["coverage"] = summarize_coverage(
                     bounds, load(ROOT / "data/sitemap/latest.json", {}))
