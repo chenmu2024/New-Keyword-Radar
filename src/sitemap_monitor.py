@@ -129,6 +129,7 @@ def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000,
         if tag == "sitemapindex":
             if depth >= 3:
                 raise ValueError("Nested sitemap index too deep")
+            todo_before = len(todo)
             for link in links:
                 if host(link) != allowed:
                     continue
@@ -138,6 +139,8 @@ def collect_sitemap(root_url, fetch=safe_fetch, max_sitemaps=18, max_urls=50000,
                 if sitemap_pattern and not sitemap_pattern.search(urlsplit(link).path):
                     continue
                 todo.append((link, depth + 1))
+            if sitemap_pattern and len(todo) == todo_before:
+                raise ValueError("Scoped sitemap index contains no matching child feed")
             if fetched + len(todo) > max_sitemaps:
                 raise ValueError("More sitemap files than safety cap; increase deliberately")
         else:
