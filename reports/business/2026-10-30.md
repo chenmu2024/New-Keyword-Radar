@@ -1,6 +1,6 @@
 # OPC-inspired business evidence review
 
-Generated: 2026-10-30T02:11:15.895657+00:00
+Generated: 2026-10-30T02:15:06.101820+00:00
 
 **Advisory only.** The module does not collect keyword metrics, prove demand,
 approve a launch, or change the radar's formal verdict.
