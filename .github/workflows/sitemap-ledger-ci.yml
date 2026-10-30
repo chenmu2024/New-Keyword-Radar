@@ -1,0 +1,33 @@
+name: Temporary Sitemap Delta Ledger CI
+on:
+  push:
+    branches:
+      - feat/sitemap-delta-ledger-20261030
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile updated modules
+        run: python -m py_compile src/sitemap_monitor.py src/sitemap_cross_signal.py src/publish_sitemap.py
+      - name: Run Sitemap unit tests
+        run: python -m unittest discover -s tests -p 'test_sitemap_*.py' -v
+      - name: Ensure pilot unchanged
+        run: |
+          python - <<'PY'
+          import json
+          from sys import path
+          path.insert(0, "src")
+          from sitemap_monitor import MAX_DELTA_LEDGER
+          cfg=json.load(open("config/sitemap_sources.json"))
+          assert cfg["trial_end_exclusive"] == "2026-11-02"
+          assert MAX_DELTA_LEDGER == 30000
+          assert len(cfg["sources"]) == 135
+          print("Trial and capacity verified.")
+          PY
