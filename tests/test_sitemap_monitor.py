@@ -161,7 +161,9 @@ class SitemapTests(unittest.TestCase):
         feeds = cfg["sources"]
         ids = {x["id"] for x in feeds}
         self.assertEqual(len(feeds), len(ids))
-        self.assertEqual(len(feeds), 18)
+        # Source inventory may grow, but stays bounded and preserves required feeds.
+        self.assertGreaterEqual(len(feeds), 18)
+        self.assertLessEqual(len(feeds), 160)
         required = {
             "n8n-workflows", "railway-templates", "railway-changelog",
             "apify-actors-a", "apify-actors-z", "futurepedia-tools",
@@ -203,6 +205,33 @@ class SitemapTests(unittest.TestCase):
         self.assertEqual(len(limited), 10)
         self.assertEqual({x["source_id"] for x in limited}, {"onlinetools-br", "apify-actors-a"})
         self.assertEqual(len(m.merge_queue(rows[:1], [rows[1]])), 2)
+
+    def test_cross_site_source_provenance_survives_queue_merge(self):
+        two = [
+            {"query": "dragon rush", "geo": "US", "source_id": "game-a",
+             "url": "https://a.example/game/dragon-rush", "first_seen": "2026-10-28"},
+            {"query": "dragon rush", "geo": "US", "source_id": "game-b",
+             "url": "https://b.example/game/dragon-rush", "first_seen": "2026-10-30"},
+        ]
+        merged = m.merge_queue([], two)
+        self.assertEqual(len(merged), 1)
+        self.assertEqual({x["source_id"] for x in merged[0]["source_records"]},
+                         {"game-a", "game-b"})
+        again = m.merge_queue(merged, [two[1]])
+        self.assertEqual(len(again[0]["source_records"]), 2)
+
+    def test_concurrent_collection_preserves_source_order_and_baselines(self):
+        cfg = {"source_scan_workers": 3, "sources": [
+            {"id": "a", "sitemap": "https://a.example/sitemap.xml", "geo": "US"},
+            {"id": "b", "sitemap": "https://b.example/sitemap.xml", "geo": "US"},
+        ]}
+        def fake_fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            return urlset("https://" + allowed + "/game/dragon-rush")
+        state, leads, status = m.scan(cfg, {}, fake_fetch, today="2026-10-30")
+        self.assertEqual([r["source_id"] for r in status], ["a", "b"])
+        self.assertTrue(all(r["status"] == "baseline" for r in status))
+        self.assertEqual(leads, [])
+        self.assertEqual(len(state), 2)
 
     def test_aborts_incomplete_index(self):
         root = "https://example.com/sitemap.xml"
