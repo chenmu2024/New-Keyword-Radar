@@ -1,35 +1,29 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-29T02:11:20.928239+00:00
+Generated: 2026-10-30T01:33:22.974076+00:00
 
 ## Formal candidates
 
-### 1. cyclone arnab tracker
+### 1. ragdoll simulator itch.io
 
-- Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-26T00:00:00+00:00, retention **78.7%**.
+- Newness **96/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-26T00:00:00+00:00, retention **7.3%**.
 - 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
-- Source seed-rising:tracker; geo Worldwide.
-
-### 2. cyclone arnab tracker live
-
-- Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-26T00:00:00+00:00, retention **74.7%**.
-- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
-- Source seed-rising:tracker; geo Worldwide.
+- Source seed-rising:itch.io; geo Worldwide.
 
 ## Watch / rejected
 
-- cyclone live tracker — **old-history** — newness 100, money 94; 5y peak 100
-- dublin marathon tracker — **old-history** — newness 96, money 100; 5y peak 54
-- tracker purification — **old-history** — newness 96, money 100; 5y peak 10
-- cyclone update cyclone arnab tracker — **history-unchecked** — newness 95, money 94
-- ffcs planner — **history-unchecked** — newness 95, money 94
-- interior designer sectional sofa alternatives — **history-unchecked** — newness 91, money 90
-- marine corps marathon tracker — **history-unchecked** — newness 90, money 100
-- kmart undetectable tracker stalking concerns — **history-unchecked** — newness 88, money 94
-- kmart usb charger tracker risks — **history-unchecked** — newness 88, money 94
+- cyclone tracker live — **old-history** — newness 100, money 100; 5y peak 100
+- dublin marathon 2026 tracker — **old-history** — newness 96, money 100; 5y peak 11
+- dublin marathon tracker — **old-history** — newness 96, money 100; 5y peak 70
+- storm boelo tracker — **old-history** — newness 96, money 94; 5y peak 9
+- cyclone arnab tracker live satellite — **history-unchecked** — newness 95, money 94
+- kmart usb charger tracker risks — **history-unchecked** — newness 93, money 94
+- tracker purification — **history-unchecked** — newness 90, money 100
 - ragdoll simulator itch.io themilitarylarper — **history-unchecked** — newness 88, money 94
-- dublin marathon 2026 tracker — **history-unchecked** — newness 85, money 100
-- storm boelo tracker — **commercial-watch** — newness 84, money 100
-- backlink checker regalseo — **reject** — newness 33, money 100
+- jason chang solar tracker invention — **commercial-watch** — newness 83, money 94
+- arnab cyclone live tracker — **error** — newness 0, money 94 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- arnab cyclone tracker — **error** — newness 0, money 94 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- cyclone arnab tracker — **error** — newness 0, money 94 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- cyclone update cyclone arnab tracker — **error** — newness 0, money 94 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- ffcs planner — **error** — newness 0, money 94 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
