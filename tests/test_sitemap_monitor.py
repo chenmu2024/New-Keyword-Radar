@@ -233,6 +233,51 @@ class SitemapTests(unittest.TestCase):
         self.assertEqual(leads, [])
         self.assertEqual(len(state), 2)
 
+
+    def test_scoped_dynamic_index_only_collects_games(self):
+        base = "https://example.com/"
+        root = base + "sitemap-index.xml"
+        child = base + "releases/20261030/sitemap-games-3.xml"
+        other = base + "releases/20261030/sitemap-static.xml"
+        mapping = {
+            root: sitemapindex(other, child),
+            other: urlset(base + "about-page"),
+            child: urlset(base + "game/dragon-rush", base + "fr/jeu/dragon-rush"),
+        }
+        def fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            return mapping[url]
+        links, count = m.collect_sitemap(
+            root, fetch, sitemap_path_regex=r"sitemap-games-3\.xml$",
+            page_path_regex=r"^/game/[^/]+/?$")
+        self.assertEqual(links, [base + "game/dragon-rush"])
+        self.assertEqual(count, 2)
+
+    def test_scoped_index_empty_match_rejected_without_baseline(self):
+        root = "https://example.com/index.xml"
+        def fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            return sitemapindex("https://example.com/sitemap-static.xml")
+        with self.assertRaisesRegex(ValueError, "no matching child feed"):
+            m.collect_sitemap(root, fetch,
+                              sitemap_path_regex=r"sitemap-games-3\.xml$")
+
+    def test_gamepost_numeric_catalog_suffix_not_game_name(self):
+        root = "https://www.gamepost.com/sitemap.xml"
+        pages = [
+            urlset("https://www.gamepost.com/game/old-puzzle-279262"),
+            urlset("https://www.gamepost.com/game/old-puzzle-279262",
+                   "https://www.gamepost.com/game/dragon-rush-279263"),
+        ]
+        index = [0]
+        def fetch(url, allowed, max_bytes=m.MAX_BYTES):
+            return pages[index[0]]
+        cfg = {"sources": [{"id": "gamepost-games", "sitemap": root,
+                            "topic": "games", "geo": "US"}]}
+        state, _, _ = m.scan(cfg, {}, fetch, today="2026-10-29")
+        index[0] = 1
+        _, leads, status = m.scan(cfg, state, fetch, today="2026-10-30")
+        self.assertEqual(status[0]["new_url_count"], 1)
+        self.assertEqual([r["query"] for r in leads], ["dragon rush"])
+
     def test_aborts_incomplete_index(self):
         root = "https://example.com/sitemap.xml"
         def fetch(url, allowed, max_bytes=m.MAX_BYTES):
