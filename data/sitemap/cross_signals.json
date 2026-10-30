@@ -16,5 +16,153 @@
     "tools": 0,
     "functions": 0
   },
-  "generated_at": "2026-10-30T10:26:24.141120+08:00"
+  "by_type": {
+    "games": [],
+    "saas": [],
+    "ai": [],
+    "calculators": [],
+    "files": [],
+    "developer": [],
+    "brazil": []
+  },
+  "by_type_counts": {
+    "games": 0,
+    "saas": 0,
+    "ai": 0,
+    "calculators": 0,
+    "files": 0,
+    "developer": 0,
+    "brazil": 0
+  },
+  "generated_at": "2026-10-30T10:37:07.150394+08:00",
+  "coverage": {
+    "games": {
+      "configured_sources": 33,
+      "configured_domains": 30,
+      "reported": 33,
+      "successful": 28,
+      "baselines": 0,
+      "delta_scans": 28,
+      "failed": 5,
+      "new_urls": 0,
+      "over_scan_cap": 0,
+      "failed_sources": [
+        {
+          "source_id": "gamesgames-en",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "source_id": "agame-en",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "source_id": "gamecomets-en",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "source_id": "gamenora-en",
+          "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
+        },
+        {
+          "source_id": "girlsgogames-en",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "saas": {
+      "configured_sources": 20,
+      "configured_domains": 20,
+      "reported": 20,
+      "successful": 19,
+      "baselines": 0,
+      "delta_scans": 19,
+      "failed": 1,
+      "new_urls": 0,
+      "over_scan_cap": 0,
+      "failed_sources": [
+        {
+          "source_id": "microlaunch-products",
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ]
+    },
+    "ai": {
+      "configured_sources": 20,
+      "configured_domains": 20,
+      "reported": 20,
+      "successful": 20,
+      "baselines": 0,
+      "delta_scans": 20,
+      "failed": 0,
+      "new_urls": 0,
+      "over_scan_cap": 0,
+      "failed_sources": []
+    },
+    "calculators": {
+      "configured_sources": 15,
+      "configured_domains": 15,
+      "reported": 15,
+      "successful": 13,
+      "baselines": 0,
+      "delta_scans": 13,
+      "failed": 2,
+      "new_urls": 0,
+      "over_scan_cap": 0,
+      "failed_sources": [
+        {
+          "source_id": "calculatorsio-tools",
+          "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
+        },
+        {
+          "source_id": "metricconversions-tools",
+          "error": "ValueError: Response exceeds size limit"
+        }
+      ]
+    },
+    "files": {
+      "configured_sources": 20,
+      "configured_domains": 20,
+      "reported": 20,
+      "successful": 18,
+      "baselines": 0,
+      "delta_scans": 18,
+      "failed": 2,
+      "new_urls": 0,
+      "over_scan_cap": 0,
+      "failed_sources": [
+        {
+          "source_id": "convertio-tools",
+          "error": "HTTPError: HTTP Error 404: Not Found"
+        },
+        {
+          "source_id": "freeconvert-tools",
+          "error": "ValueError: Response exceeds size limit"
+        }
+      ]
+    },
+    "developer": {
+      "configured_sources": 17,
+      "configured_domains": 15,
+      "reported": 17,
+      "successful": 17,
+      "baselines": 0,
+      "delta_scans": 17,
+      "failed": 0,
+      "new_urls": 0,
+      "over_scan_cap": 0,
+      "failed_sources": []
+    },
+    "brazil": {
+      "configured_sources": 10,
+      "configured_domains": 10,
+      "reported": 10,
+      "successful": 10,
+      "baselines": 0,
+      "delta_scans": 10,
+      "failed": 0,
+      "new_urls": 0,
+      "over_scan_cap": 0,
+      "failed_sources": []
+    }
+  }
 }

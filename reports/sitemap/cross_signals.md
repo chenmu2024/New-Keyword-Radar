@@ -8,23 +8,67 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-10-30T10:26:24.141120+08:00；保留候选：2111。
+配置Sitemap来源：135；最新成功来源：125/135；数据生成：2026-10-30T10:37:07.150394+08:00；保留候选：2111。
 
-## 游戏：同款名称跨站新收录
+## 游戏平台
 
-**0：没有符合至少两个不同根域新增的候选。**
+采集：28/33来源，配置根域 30，新建基线 0，失败 5，新增 URL 0，采样上限遗漏 0。
 
-## SaaS / AI：同名产品跨目录新收录
+**0：本类尚无两家以上不同域名的同步新增证据。**
 
-**0：没有符合至少两个不同根域新增的候选。**
+失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；gamenora-en (HTTPError: HTTP Error 415: Unsupported Media Type)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
-## 在线工具：具体功能标题跨站新收录
+## SaaS 产品发布目录
 
-**0：没有符合至少两个不同根域新增的候选。**
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 0，采样上限遗漏 0。
 
-## 跨类型：明确输入输出的同功能工具候选
+**0：本类尚无两家以上不同域名的同步新增证据。**
 
-**0：没有符合至少两个不同根域新增的候选。**
+失败来源：microlaunch-products (TimeoutError: The read operation timed out)
+
+## AI 工具和 Agent 目录
+
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
+
+**0：本类尚无两家以上不同域名的同步新增证据。**
+
+## 计算器
+
+采集：13/15来源，配置根域 15，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
+
+**0：本类尚无两家以上不同域名的同步新增证据。**
+
+失败来源：calculatorsio-tools (HTTPError: HTTP Error 415: Unsupported Media Type)；metricconversions-tools (ValueError: Response exceeds size limit)
+
+## PDF / 文件 / 图片工具
+
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
+
+**0：本类尚无两家以上不同域名的同步新增证据。**
+
+失败来源：convertio-tools (HTTPError: HTTP Error 404: Not Found)；freeconvert-tools (ValueError: Response exceeds size limit)
+
+## 开发者和自动化
+
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
+
+**0：本类尚无两家以上不同域名的同步新增证据。**
+
+## 巴西在线工具
+
+采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
+
+**0：本类尚无两家以上不同域名的同步新增证据。**
+
+## 跨类别同名或同向文件转换（仅作人工复核）
+
+### 跨SaaS和AI的同名产品
+
+0条。
+
+### 跨类别同向文件转换
+
+0条。
 
 ## 排除与限制
 

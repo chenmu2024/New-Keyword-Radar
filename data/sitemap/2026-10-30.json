@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-30T10:26:24.141120+08:00",
+  "generated_at": "2026-10-30T10:37:07.150394+08:00",
   "date": "2026-10-30",
   "trial_start": "2026-10-19",
   "trial_end_exclusive": "2026-11-02",
   "source_count": 135,
-  "success_count": 127,
-  "new_url_count": 1,
-  "new_candidate_count": 1,
-  "new_unique_research_lead_count": 1,
-  "reappeared_url_count": 1,
+  "success_count": 125,
+  "new_url_count": 0,
+  "new_candidate_count": 0,
+  "new_unique_research_lead_count": 0,
+  "reappeared_url_count": 39,
   "queue_size": 2111,
   "queue_limit": 12000,
   "keyword_metrics_verified": false,
@@ -53,10 +53,10 @@
     {
       "source_id": "gamepix-en",
       "status": "delta",
-      "page_count": 19529,
+      "page_count": 19513,
       "new_url_count": 0,
-      "removed_url_count": 18,
-      "reappeared_url_count": 1,
+      "removed_url_count": 34,
+      "reappeared_url_count": 18,
       "eligible_candidate_count": 0,
       "candidate_count": 0,
       "candidates_over_scan_cap": 0,
@@ -65,10 +65,10 @@
     {
       "source_id": "gamepix-pt",
       "status": "delta",
-      "page_count": 19527,
+      "page_count": 19547,
       "new_url_count": 0,
-      "removed_url_count": 20,
-      "reappeared_url_count": 0,
+      "removed_url_count": 0,
+      "reappeared_url_count": 20,
       "eligible_candidate_count": 0,
       "candidate_count": 0,
       "candidates_over_scan_cap": 0,
@@ -77,10 +77,10 @@
     {
       "source_id": "minijuegos-es",
       "status": "delta",
-      "page_count": 27557,
+      "page_count": 27558,
       "new_url_count": 0,
       "removed_url_count": 0,
-      "reappeared_url_count": 0,
+      "reappeared_url_count": 1,
       "eligible_candidate_count": 0,
       "candidate_count": 0,
       "candidates_over_scan_cap": 0,
@@ -138,11 +138,11 @@
       "source_id": "railway-templates",
       "status": "delta",
       "page_count": 7302,
-      "new_url_count": 1,
+      "new_url_count": 0,
       "removed_url_count": 0,
       "reappeared_url_count": 0,
-      "eligible_candidate_count": 1,
-      "candidate_count": 1,
+      "eligible_candidate_count": 0,
+      "candidate_count": 0,
       "candidates_over_scan_cap": 0,
       "sitemap_files": 1
     },
@@ -280,7 +280,7 @@
     },
     {
       "source_id": "playgama-en",
-      "status": "baseline",
+      "status": "delta",
       "page_count": 441,
       "new_url_count": 0,
       "removed_url_count": 0,
@@ -379,15 +379,8 @@
     },
     {
       "source_id": "gamenora-en",
-      "status": "delta",
-      "page_count": 3702,
-      "new_url_count": 0,
-      "removed_url_count": 0,
-      "reappeared_url_count": 0,
-      "eligible_candidate_count": 0,
-      "candidate_count": 0,
-      "candidates_over_scan_cap": 0,
-      "sitemap_files": 1
+      "status": "error",
+      "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
     },
     {
       "source_id": "1001games-en",
@@ -1085,15 +1078,8 @@
     },
     {
       "source_id": "calculatorsio-tools",
-      "status": "delta",
-      "page_count": 1,
-      "new_url_count": 0,
-      "removed_url_count": 0,
-      "reappeared_url_count": 0,
-      "eligible_candidate_count": 0,
-      "candidate_count": 0,
-      "candidates_over_scan_cap": 0,
-      "sitemap_files": 1
+      "status": "error",
+      "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
     },
     {
       "source_id": "metricconversions-tools",
@@ -1388,7 +1374,7 @@
     },
     {
       "source_id": "ifttt-services",
-      "status": "baseline",
+      "status": "delta",
       "page_count": 1069,
       "new_url_count": 0,
       "removed_url_count": 0,
@@ -1579,17 +1565,5 @@
       "sitemap_files": 1
     }
   ],
-  "candidates": [
-    {
-      "query": "rallytv stremio addon",
-      "url": "https://railway.com/deploy/rallytv-stremio-addon",
-      "source_id": "railway-templates",
-      "geo": "US",
-      "topic": "deployable-tools-saas",
-      "first_seen": "2026-10-30",
-      "tool_intent_hint": false,
-      "title": "Deploy & Host rallytv-stremio-addon | Railway",
-      "h1": "Deploy rallytv-stremio-addon"
-    }
-  ]
+  "candidates": []
 }

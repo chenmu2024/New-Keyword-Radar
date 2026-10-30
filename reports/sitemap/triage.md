@@ -4,11 +4,11 @@
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
-- Sitemap feeds succeeded: 127/135
-- URLs newly observed in the latest scan: 1
-- Candidate URL rows extracted in latest scan: 1
-- First-time keyword/geo research leads: 1
-- Previously removed URLs resurfacing: 1
+- Sitemap feeds succeeded: 125/135
+- URLs newly observed in the latest scan: 0
+- Candidate URL rows extracted in latest scan: 0
+- First-time keyword/geo research leads: 0
+- Previously removed URLs resurfacing: 39
 - Accumulated queue: 2111
 - Human keyword/topic review: 1214
 - Game/general watchlist: 882
@@ -40,7 +40,7 @@ Raw queue and all main radar settings remain unchanged.
 
 ## Latest scan's leads (routing only)
 
-- [rallytv stremio addon](https://railway.com/deploy/rallytv-stremio-addon) — review / deployment-topic-not-search-demand; source=railway-templates
+- None: a successful baseline scan does not create new-word alerts.
 
 ## Source interpretation
 

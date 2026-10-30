@@ -1,21 +1,21 @@
 # Sitemap delta research — 2026-10-30
 
 Unverified leads only. Baseline URL snapshots are NOT discoveries.
-Sources succeeded: 127/135; new URLs: 1; candidate URL leads: 1; first-time keyword/geo research leads: 1; reappeared URLs: 1; retained queue: 2111. Neither URL changes nor leads establish search demand.
+Sources succeeded: 125/135; new URLs: 0; candidate URL leads: 0; first-time keyword/geo research leads: 0; reappeared URLs: 39; retained queue: 2111. Neither URL changes nor leads establish search demand.
 
 ## Sources
 
 - crazygames-en: delta; 0 new URLs; 5374 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - crazygames-br: delta; 0 new URLs; 5374 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - crazygames-es: delta; 0 new URLs; 5374 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- gamepix-en: delta; 0 new URLs; 19529 pages; removed 18; reappeared 1; candidate scan cap skipped 0
-- gamepix-pt: delta; 0 new URLs; 19527 pages; removed 20; reappeared 0; candidate scan cap skipped 0
-- minijuegos-es: delta; 0 new URLs; 27557 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- gamepix-en: delta; 0 new URLs; 19513 pages; removed 34; reappeared 18; candidate scan cap skipped 0
+- gamepix-pt: delta; 0 new URLs; 19547 pages; removed 0; reappeared 20; candidate scan cap skipped 0
+- minijuegos-es: delta; 0 new URLs; 27558 pages; removed 0; reappeared 1; candidate scan cap skipped 0
 - friv-en: delta; 0 new URLs; 1183 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculator-soup: delta; 0 new URLs; 502 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - vercel-product-watch: delta; 0 new URLs; 2697 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - n8n-workflows: delta; 0 new URLs; 13776 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- railway-templates: delta; 1 new URLs; 7302 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- railway-templates: delta; 0 new URLs; 7302 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - railway-changelog: delta; 0 new URLs; 313 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - apify-actors-a: delta; 0 new URLs; 5956 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - apify-actors-z: delta; 0 new URLs; 5708 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -27,7 +27,7 @@ Sources succeeded: 127/135; new URLs: 1; candidate URL leads: 1; first-time keyw
 - silvergames-en: delta; 0 new URLs; 6408 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - kizi-en: delta; 0 new URLs; 6009 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - onlinegames-en: delta; 0 new URLs; 1286 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- playgama-en: baseline; 0 new URLs; 441 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- playgama-en: delta; 0 new URLs; 441 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamearter-en: delta; 0 new URLs; 2322 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamesgames-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 403: Forbidden
 - agame-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 403: Forbidden
@@ -37,7 +37,7 @@ Sources succeeded: 127/135; new URLs: 1; candidate URL leads: 1; first-time keyw
 - bgames-en: delta; 0 new URLs; 4519 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - playhop-en: delta; 0 new URLs; 20652 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamecomets-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 403: Forbidden
-- gamenora-en: delta; 0 new URLs; 3702 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- gamenora-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 415: Unsupported Media Type
 - 1001games-en: delta; 0 new URLs; 2401 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - toolify-products: delta; 0 new URLs; 2000 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - futuretools-products: delta; 0 new URLs; 4476 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -97,7 +97,7 @@ Sources succeeded: 127/135; new URLs: 1; candidate URL leads: 1; first-time keyw
 - toolveyor-tools: delta; 0 new URLs; 1232 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - inchcalculator-tools: delta; 0 new URLs; 144 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculla-calculators: delta; 0 new URLs; 1533 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- calculatorsio-tools: delta; 0 new URLs; 1 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- calculatorsio-tools: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 415: Unsupported Media Type
 - metricconversions-tools: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; ValueError: Response exceeds size limit
 - calculatorweb-tools: delta; 0 new URLs; 142 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculatorultra-en: delta; 0 new URLs; 10276 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -124,7 +124,7 @@ Sources succeeded: 127/135; new URLs: 1; candidate URL leads: 1; first-time keyw
 - pdfescape-tools: delta; 0 new URLs; 21 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - make-templates: delta; 0 new URLs; 7830 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - pipedream-actions: delta; 0 new URLs; 11669 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- ifttt-services: baseline; 0 new URLs; 1069 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- ifttt-services: delta; 0 new URLs; 1069 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - activepieces-pieces: delta; 0 new URLs; 3773 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - trigger-product: delta; 0 new URLs; 224 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - planetscale-changelog: delta; 0 new URLs; 372 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -143,6 +143,6 @@ Sources succeeded: 127/135; new URLs: 1; candidate URL leads: 1; first-time keyw
 
 ## New URL leads (not proven new keywords)
 
-- [rallytv stremio addon](https://railway.com/deploy/rallytv-stremio-addon) — railway-templates / US
+None. First successful scans create baselines without alerts.
 
 Next: verify original keyword age, country search demand, SERP and monetization independently.
