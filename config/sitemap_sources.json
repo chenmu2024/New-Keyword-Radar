@@ -5,7 +5,7 @@
   "max_sitemaps_per_source": 18,
   "max_new_urls_per_source": 80,
   "max_page_enrich_per_run": 8,
-  "notes": "2026-10-19: 7 websites/9 scoped feeds added after public sitemap verification. Apify covers first and last shards ONLY (not comprehensive); Product Hunt uses the exact public CloudFront CDN URL observed from its robots-declared sitemap redirect and accepts only www.producthunt.com/products/ page locations. Baseline first, never assume search volume or paid demand. All original seed/Trends thresholds unchanged.",
+  "notes": "2026-10-19: 7 websites/9 scoped feeds added after public sitemap verification. Apify covers first and last shards ONLY (not comprehensive); Product Hunt uses the exact public CloudFront CDN URL observed from its robots-declared sitemap redirect and accepts only www.producthunt.com/products/ page locations. Baseline first, never assume search volume or paid demand. All original seed/Trends thresholds unchanged. 2026-10-30: Added 16 independently branded game portals (bringing game platforms to 20 distinct domains) plus 3 software/tool directories for cross-platform first-seen corroboration; newly added sources must establish baseline before reporting delta. Sitemap availability from site-declared robots.txt / publicly accessible endpoints; GitHub runner fetch and match quality require next real run verification. Trial end unchanged. Existing seeds/Trends thresholds unchanged.",
   "sources": [
     {
       "id": "crazygames-en",
@@ -158,6 +158,148 @@
         "/products/"
       ],
       "enrich_pages": false
+    },
+    {
+      "id": "y8-en",
+      "sitemap": "https://www.y8.com/sitemaps/y8/en/sitemap.xml.gz",
+      "geo": "US",
+      "topic": "games",
+      "max_bytes": 25000000
+    },
+    {
+      "id": "silvergames-en",
+      "sitemap": "https://www.silvergames.com/sitemap.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "kizi-en",
+      "sitemap": "https://kizi.com/sitemaps/kizi/en/sitemap_games.xml.gz",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "onlinegames-en",
+      "sitemap": "https://www.onlinegames.io/sitemap.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "playgama-en",
+      "sitemap": "https://playgama.com/sitemaps/v1/sitemap-index.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "gamearter-en",
+      "sitemap": "https://www.gamearter.com/sitemap",
+      "geo": "US",
+      "topic": "games",
+      "exclude_path_prefixes": [
+        "/category/",
+        "/developers",
+        "/partners",
+        "/studio"
+      ]
+    },
+    {
+      "id": "gamesgames-en",
+      "sitemap": "https://www.gamesgames.com/sitemaps/gamesgames/en/sitemap_games.xml.gz",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "agame-en",
+      "sitemap": "https://www.agame.com/sitemaps/agame/en/sitemap_games.xml.gz",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "armorgames-en",
+      "sitemap": "https://armorgames.com/sitemap",
+      "geo": "US",
+      "topic": "games",
+      "exclude_path_prefixes": [
+        "/news/",
+        "/category/",
+        "/community/"
+      ]
+    },
+    {
+      "id": "famobi-en",
+      "sitemap": "https://play.famobi.com/sitemap.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "gamezop-en",
+      "sitemap": "https://www.gamezop.com/sitemap-games.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "bgames-en",
+      "sitemap": "https://www.bgames.com/games-sitemap.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "playhop-en",
+      "sitemap": "https://playhop.com/sitemaps/sitemap.apps.index.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "gamecomets-en",
+      "sitemap": "https://gamecomets.com/sitemap.xml",
+      "geo": "US",
+      "topic": "games",
+      "exclude_path_prefixes": [
+        "/category/",
+        "/tag/"
+      ]
+    },
+    {
+      "id": "gamenora-en",
+      "sitemap": "https://www.gamenora.com/sitemap.xml",
+      "geo": "US",
+      "topic": "games",
+      "exclude_path_prefixes": [
+        "/category/",
+        "/tag/"
+      ]
+    },
+    {
+      "id": "1001games-en",
+      "sitemap": "https://www.1001games.com/sitemap-games.xml",
+      "geo": "US",
+      "topic": "games"
+    },
+    {
+      "id": "toolify-products",
+      "sitemap": "https://www.toolify.ai/sitemap.xml",
+      "geo": "US",
+      "topic": "saas-product-directory",
+      "include_path_prefixes": [
+        "/ai/",
+        "/tool/"
+      ]
+    },
+    {
+      "id": "futuretools-products",
+      "sitemap": "https://futuretools.io/sitemap.xml",
+      "geo": "US",
+      "topic": "saas-product-directory",
+      "include_path_prefixes": [
+        "/tool/",
+        "/tools/"
+      ]
+    },
+    {
+      "id": "uneed-products",
+      "sitemap": "https://www.uneed.best/__sitemap__/tools.xml",
+      "geo": "US",
+      "topic": "saas-product-directory"
     }
   ]
 }
