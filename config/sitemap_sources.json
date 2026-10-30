@@ -5,7 +5,7 @@
   "max_sitemaps_per_source": 18,
   "max_new_urls_per_source": 120,
   "max_page_enrich_per_run": 8,
-  "notes": "2026-10-19: 7 websites/9 scoped feeds added after public sitemap verification. Apify covers first and last shards ONLY (not comprehensive); Product Hunt uses the exact public CloudFront CDN URL observed from its robots-declared sitemap redirect and accepts only www.producthunt.com/products/ page locations. Baseline first, never assume search volume or paid demand. All original seed/Trends thresholds unchanged. 2026-10-30: Added 16 independently branded game portals (bringing game platforms to 20 distinct domains) plus 3 software/tool directories for cross-platform first-seen corroboration; newly added sources must establish baseline before reporting delta. Sitemap availability from site-declared robots.txt / publicly accessible endpoints; GitHub runner fetch and match quality require next real run verification. Trial end unchanged. Existing seeds/Trends thresholds unchanged. 2026-10-30 source expansion phase 2: added 16 verified public sitemap feeds across games (Poki, GameDistribution, GamePost), independently hosted SaaS/AI discovery (DevHunt, Fazier, AIApps, FindMyAITool, AIXploria, AIAgentsDirectory), calculators (OmniCalculator, Calculator.net, Calculator-Online), and browser file/media/PDF tools (TinyWow, EZGIF, Sejda, iLovePDF). Prefer per-item sitemap or filters over categories/multilingual variants. The first runner fetch of every new source is baseline only, NOT a discovery. Added sources are NOT yet proven GitHub Actions successful and may be incomplete due max_sitemaps/max_urls/queue caps. 14-day trial end, paid API policy, original sources and seed/Trends settings remain unchanged. 2026-10-30 cross-category expansion to 130 distinct configured source hostnames; initial scans of new sources are baseline only, do not report historic inventory as discoveries. Added names are NOT proof of successful GitHub Actions fetches. Cross-platform matching needs explicit per-site provenance. Topic-specific lists and cross-domain grouping must be checked against actual successful scans. Keep original trial end 2026-11-02, no paid APIs, and independent 08:00 radar unchanged.",
+  "notes": "2026-10-19: 7 websites/9 scoped feeds added after public sitemap verification. Apify covers first and last shards ONLY (not comprehensive); Product Hunt uses the exact public CloudFront CDN URL observed from its robots-declared sitemap redirect and accepts only www.producthunt.com/products/ page locations. Baseline first, never assume search volume or paid demand. All original seed/Trends thresholds unchanged. 2026-10-30: Added 16 independently branded game portals (bringing game platforms to 20 distinct domains) plus 3 software/tool directories for cross-platform first-seen corroboration; newly added sources must establish baseline before reporting delta. Sitemap availability from site-declared robots.txt / publicly accessible endpoints; GitHub runner fetch and match quality require next real run verification. Trial end unchanged. Existing seeds/Trends thresholds unchanged. 2026-10-30 source expansion phase 2: added 16 verified public sitemap feeds across games (Poki, GameDistribution, GamePost), independently hosted SaaS/AI discovery (DevHunt, Fazier, AIApps, FindMyAITool, AIXploria, AIAgentsDirectory), calculators (OmniCalculator, Calculator.net, Calculator-Online), and browser file/media/PDF tools (TinyWow, EZGIF, Sejda, iLovePDF). Prefer per-item sitemap or filters over categories/multilingual variants. The first runner fetch of every new source is baseline only, NOT a discovery. Added sources are NOT yet proven GitHub Actions successful and may be incomplete due max_sitemaps/max_urls/queue caps. 14-day trial end, paid API policy, original sources and seed/Trends settings remain unchanged. 2026-10-30 cross-category expansion to 130 distinct configured source hostnames; initial scans of new sources are baseline only, do not report historic inventory as discoveries. Added names are NOT proof of successful GitHub Actions fetches. Cross-platform matching needs explicit per-site provenance. Topic-specific lists and cross-domain grouping must be checked against actual successful scans. Keep original trial end 2026-11-02, no paid APIs, and independent 08:00 radar unchanged. 2026-10-30 first production scan 116/135, 98 new baselines and 19 failed source feeds. Retry targeted sources using bounded content sizes and directly verified sub-sitemaps; 403/redirect-blocked sources are NOT bypassed and must remain visibly failed until verified.",
   "sources": [
     {
       "id": "crazygames-en",
@@ -188,7 +188,8 @@
       "id": "playgama-en",
       "sitemap": "https://playgama.com/sitemaps/v1/sitemap-index.xml",
       "geo": "US",
-      "topic": "games"
+      "topic": "games",
+      "max_bytes": 24000000
     },
     {
       "id": "gamearter-en",
@@ -235,7 +236,11 @@
       "id": "gamezop-en",
       "sitemap": "https://www.gamezop.com/sitemap-games.xml",
       "geo": "US",
-      "topic": "games"
+      "topic": "games",
+      "max_bytes": 25000000,
+      "include_path_prefixes": [
+        "/en/game/"
+      ]
     },
     {
       "id": "bgames-en",
@@ -277,13 +282,13 @@
     },
     {
       "id": "toolify-products",
-      "sitemap": "https://www.toolify.ai/sitemap.xml",
+      "sitemap": "https://www.toolify.ai/sitemap_tools_1.xml",
       "geo": "US",
       "topic": "saas-product-directory",
       "include_path_prefixes": [
-        "/ai/",
         "/tool/"
-      ]
+      ],
+      "notes": "partial first tools shard; other shards not covered"
     },
     {
       "id": "futuretools-products",
@@ -357,19 +362,21 @@
     },
     {
       "id": "findmyaitool-tools",
-      "sitemap": "https://findmyaitool.com/sitemap.xml",
+      "sitemap": "https://findmyaitool.com/sitemap/tools-1.xml",
       "geo": "US",
       "topic": "ai-tool-directory",
       "include_path_prefixes": [
         "/tool/"
-      ]
+      ],
+      "notes": "partial first tools shard"
     },
     {
       "id": "aixploria-tools",
-      "sitemap": "https://www.aixploria.com/sitemap.xml",
+      "sitemap": "https://www.aixploria.com/sitemap-posttype-post.202610.xml",
       "geo": "US",
       "topic": "ai-tool-directory",
-      "include_page_path_regex": "^/[a-z0-9][a-z0-9-]*/?$"
+      "include_page_path_regex": "^/[a-z0-9][a-z0-9-]*/?$",
+      "notes": "October 2026 publication shard, not whole site"
     },
     {
       "id": "aiagentsdirectory-agents",
@@ -385,7 +392,8 @@
       "sitemap": "https://www.omnicalculator.com/sitemap-main.xml",
       "geo": "US",
       "topic": "calculators",
-      "include_page_path_regex": "^/(?![a-z]{2}/)[a-z0-9-]+/[a-z0-9-]+/?$"
+      "include_page_path_regex": "^/(?![a-z]{2}/)[a-z0-9-]+/[a-z0-9-]+/?$",
+      "max_bytes": 24000000
     },
     {
       "id": "calculatornet-tools",
@@ -620,7 +628,8 @@
       "sitemap": "https://www.aitoolnet.com/sitemap.xml",
       "geo": "US",
       "topic": "ai-tool-directory",
-      "include_page_path_regex": "^/[^/]+/?$"
+      "include_page_path_regex": "^/[^/]+/?$",
+      "max_bytes": 19000000
     },
     {
       "id": "aitoptools-tools",
@@ -761,7 +770,8 @@
       "id": "metricconversions-tools",
       "sitemap": "https://www.metric-conversions.org/sitemapindex.xml",
       "geo": "US",
-      "topic": "calculators"
+      "topic": "calculators",
+      "max_bytes": 26000000
     },
     {
       "id": "calculatorweb-tools",
@@ -816,7 +826,8 @@
       "sitemap": "https://smallpdf.com/sitemap.xml",
       "geo": "US",
       "topic": "pdf-file-tools",
-      "include_page_path_regex": "^/[^/]+/?$"
+      "include_page_path_regex": "^/[^/]+/?$",
+      "max_bytes": 25000000
     },
     {
       "id": "pdfsimpli-tools",
@@ -860,7 +871,8 @@
       "id": "convertio-tools",
       "sitemap": "https://convertio.co/sitemap/sitemap.01.xml",
       "geo": "US",
-      "topic": "file-conversion-tools"
+      "topic": "file-conversion-tools",
+      "max_bytes": 17000000
     },
     {
       "id": "freeconvert-tools",
@@ -1023,9 +1035,10 @@
     },
     {
       "id": "devdata4-br",
-      "sitemap": "https://devdata4.com.br/sitemap.xml",
+      "sitemap": "https://devdata4.com.br/sitemap-trabalhista.xml",
       "geo": "BR",
-      "topic": "brazilian-online-utilities"
+      "topic": "brazilian-online-utilities",
+      "notes": "focused BR worker-calculator shard"
     },
     {
       "id": "ferramentasdodia-br",
