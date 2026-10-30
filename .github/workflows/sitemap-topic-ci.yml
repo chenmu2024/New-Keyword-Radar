@@ -1,0 +1,29 @@
+name: Temporary Sitemap Seven Category CI
+on:
+  push:
+    branches:
+      - feat/sitemap-seven-category-audit-20261030
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile
+        run: python -m py_compile src/sitemap_monitor.py src/sitemap_cross_signal.py src/publish_sitemap.py
+      - name: Unit tests
+        run: python -m unittest discover -s tests -p 'test_sitemap_*.py' -v
+      - name: Verify pilot and source limits
+        run: |
+          python - <<'PY'
+          import json
+          cfg=json.load(open("config/sitemap_sources.json"))
+          assert len(cfg["sources"])==135
+          assert cfg["trial_end_exclusive"]=="2026-11-02"
+          print("Valid.",len(cfg["sources"]))
+          PY
