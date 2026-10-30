@@ -158,6 +158,116 @@
       ],
       "discovery_count": 17,
       "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-30T08:31:58.963541+00:00-70-71-72-73-0",
+      "start_index": 70,
+      "seed_indices": [
+        70,
+        71,
+        72,
+        73,
+        0
+      ],
+      "generated_at": "2026-10-30T08:31:58.963541+00:00",
+      "local_generated_at": "2026-10-30T16:31:58.963541+08:00",
+      "seed_batch": [
+        "symbol",
+        "instagram",
+        "tea",
+        "download",
+        "translator"
+      ],
+      "discovery_count": 22,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-30T08:33:37.709527+00:00-1-2-3-4-5",
+      "start_index": 1,
+      "seed_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "generated_at": "2026-10-30T08:33:37.709527+00:00",
+      "local_generated_at": "2026-10-30T16:33:37.709527+08:00",
+      "seed_batch": [
+        "generator",
+        "example",
+        "convert",
+        "online",
+        "downloader"
+      ],
+      "discovery_count": 12,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-30T08:35:16.275450+00:00-6-7-8-9-10",
+      "start_index": 6,
+      "seed_indices": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "generated_at": "2026-10-30T08:35:16.275450+00:00",
+      "local_generated_at": "2026-10-30T16:35:16.275450+08:00",
+      "seed_batch": [
+        "maker",
+        "creator",
+        "editor",
+        "processor",
+        "designer"
+      ],
+      "discovery_count": 30,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-30T08:36:55.566419+00:00-11-12-13-14-15",
+      "start_index": 11,
+      "seed_indices": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "generated_at": "2026-10-30T08:36:55.566419+00:00",
+      "local_generated_at": "2026-10-30T16:36:55.566419+08:00",
+      "seed_batch": [
+        "compiler",
+        "analyzer",
+        "evaluator",
+        "sender",
+        "receiver"
+      ],
+      "discovery_count": 44,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-10-30T08:38:32.231741+00:00-16-17-18-19-20",
+      "start_index": 16,
+      "seed_indices": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "generated_at": "2026-10-30T08:38:32.231741+00:00",
+      "local_generated_at": "2026-10-30T16:38:32.231741+08:00",
+      "seed_batch": [
+        "interpreter",
+        "uploader",
+        "calculator",
+        "sample",
+        "template"
+      ],
+      "discovery_count": 38,
+      "status": "ok"
     }
   ],
   "errors": [
@@ -200,6 +310,26 @@
         "card"
       ],
       "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    },
+    {
+      "generated_at": "2026-10-30T08:40:10.382443+00:00",
+      "local_generated_at": "2026-10-30T16:40:10.382443+08:00",
+      "start_index": 21,
+      "seed_indices": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "seed_batch": [
+        "format",
+        "builder",
+        "scheme",
+        "pattern",
+        "checker"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
     }
   ],
   "scanned_seeds": [
@@ -237,7 +367,32 @@
     "itch.io",
     "roblox",
     "cocrea",
-    "cocrea world"
+    "cocrea world",
+    "symbol",
+    "instagram",
+    "tea",
+    "download",
+    "translator",
+    "generator",
+    "example",
+    "convert",
+    "online",
+    "downloader",
+    "maker",
+    "creator",
+    "editor",
+    "processor",
+    "designer",
+    "compiler",
+    "analyzer",
+    "evaluator",
+    "sender",
+    "receiver",
+    "interpreter",
+    "uploader",
+    "calculator",
+    "sample",
+    "template"
   ],
   "discoveries": [
     {
@@ -283,10 +438,28 @@
       "raw_value": 56800
     },
     {
+      "seed": "receiver",
+      "query": "jesse legree oregon state receiver ceremony",
+      "rise_value": 54150.0,
+      "raw_value": 54150
+    },
+    {
       "seed": "syncer",
       "query": "lip syncer meaning",
       "rise_value": 45400.0,
       "raw_value": 45400
+    },
+    {
+      "seed": "creator",
+      "query": "creator coffins",
+      "rise_value": 36300.0,
+      "raw_value": 36300
+    },
+    {
+      "seed": "receiver",
+      "query": "pittsburgh steelers wide receiver trade rumors",
+      "rise_value": 35700.0,
+      "raw_value": 35700
     },
     {
       "seed": "itch.io",
@@ -307,16 +480,58 @@
       "raw_value": 30200
     },
     {
+      "seed": "receiver",
+      "query": "patriots chargers trade rumors wide receiver",
+      "rise_value": 24350.0,
+      "raw_value": 24350
+    },
+    {
+      "seed": "receiver",
+      "query": "saints practice squad receiver changes",
+      "rise_value": 24050.0,
+      "raw_value": 24050
+    },
+    {
+      "seed": "uploader",
+      "query": "elona",
+      "rise_value": 23800.0,
+      "raw_value": 23800
+    },
+    {
       "seed": "navigator",
       "query": "addicted to my navigator bilibili",
       "rise_value": 21550.0,
       "raw_value": 21550
     },
     {
+      "seed": "designer",
+      "query": "interior designer sectional sofa alternatives",
+      "rise_value": 21100.0,
+      "raw_value": 21100
+    },
+    {
+      "seed": "creator",
+      "query": "brawl stars creator coffins",
+      "rise_value": 21050.0,
+      "raw_value": 21050
+    },
+    {
+      "seed": "template",
+      "query": "ray edits capcut template",
+      "rise_value": 20450.0,
+      "raw_value": 20450
+    },
+    {
       "seed": "flux",
       "query": "chumbkiya flux ghanatv ka si matrak",
       "rise_value": 18450.0,
       "raw_value": 18450
+    },
+    {
+      "seed": "uploader",
+      "query": "video uploader for discord",
+      "rise_value": 17900.0,
+      "raw_value": 17900
     },
     {
       "seed": "tracker",
@@ -331,10 +546,34 @@
       "raw_value": 17800
     },
     {
+      "seed": "evaluator",
+      "query": "rws group",
+      "rise_value": 17650.0,
+      "raw_value": 17650
+    },
+    {
+      "seed": "interpreter",
+      "query": "jackson chourio",
+      "rise_value": 16600.0,
+      "raw_value": 16600
+    },
+    {
+      "seed": "creator",
+      "query": "creator coffins code",
+      "rise_value": 16500.0,
+      "raw_value": 16500
+    },
+    {
       "seed": "responder",
       "query": "m50 first responder ryan mulroy",
       "rise_value": 14700.0,
       "raw_value": 14700
+    },
+    {
+      "seed": "uploader",
+      "query": "ko uploader",
+      "rise_value": 14050.0,
+      "raw_value": 14050
     },
     {
       "seed": "navigator",
@@ -367,10 +606,22 @@
       "raw_value": 9550
     },
     {
+      "seed": "receiver",
+      "query": "troy aikman cowboys receiver criticism",
+      "rise_value": 9500.0,
+      "raw_value": 9500
+    },
+    {
       "seed": "constructor",
       "query": "futurama robot",
       "rise_value": 9300.0,
       "raw_value": 9300
+    },
+    {
+      "seed": "creator",
+      "query": "brawl stars creator codes",
+      "rise_value": 8950.0,
+      "raw_value": 8950
     },
     {
       "seed": "ai",
@@ -385,10 +636,22 @@
       "raw_value": 8500
     },
     {
+      "seed": "creator",
+      "query": "creator code brawl stars",
+      "rise_value": 8350.0,
+      "raw_value": 8350
+    },
+    {
       "seed": "flux",
       "query": "flux redux glock",
       "rise_value": 8150.0,
       "raw_value": 8150
+    },
+    {
+      "seed": "online",
+      "query": "mawara.work",
+      "rise_value": 7850.0,
+      "raw_value": 7850
     },
     {
       "seed": "tracker",
@@ -415,10 +678,22 @@
       "raw_value": 6350
     },
     {
+      "seed": "creator",
+      "query": "creator codes for brawl stars",
+      "rise_value": 6250.0,
+      "raw_value": 6250
+    },
+    {
       "seed": "notifier",
       "query": "howard email notifier",
       "rise_value": 6200.0,
       "raw_value": 6200
+    },
+    {
+      "seed": "creator",
+      "query": "brawlstars creator code",
+      "rise_value": 5850.0,
+      "raw_value": 5850
     },
     {
       "seed": "constructor",
@@ -431,6 +706,18 @@
       "query": "dublin marathon tracker",
       "rise_value": 5550.0,
       "raw_value": 5550
+    },
+    {
+      "seed": "online",
+      "query": "buy mounjaro www.buymounjaroaustralia.co 🇦🇺",
+      "rise_value": 5350.0,
+      "raw_value": 5350
+    },
+    {
+      "seed": "processor",
+      "query": "alienware aurora gaming desktop act1250 intel core ultra 7 265kf processor",
+      "rise_value": 5300.0,
+      "raw_value": 5300
     },
     {
       "seed": "tracker",
@@ -457,6 +744,12 @@
       "raw_value": 4650
     },
     {
+      "seed": "interpreter",
+      "query": "william contreras interpreter",
+      "rise_value": 4650.0,
+      "raw_value": 4650
+    },
+    {
       "seed": "tracker",
       "query": "dublin marathon 2026",
       "rise_value": 4500.0,
@@ -467,6 +760,12 @@
       "query": "steam stuck on loading user data",
       "rise_value": 4000.0,
       "raw_value": 4000
+    },
+    {
+      "seed": "creator",
+      "query": "brawl stars",
+      "rise_value": 3950.0,
+      "raw_value": 3950
     },
     {
       "seed": "ai",
@@ -505,10 +804,52 @@
       "raw_value": 3200
     },
     {
+      "seed": "sample",
+      "query": "akai sample key",
+      "rise_value": 3050.0,
+      "raw_value": 3050
+    },
+    {
+      "seed": "interpreter",
+      "query": "william contreras",
+      "rise_value": 3050.0,
+      "raw_value": 3050
+    },
+    {
+      "seed": "sender",
+      "query": "ballon d'or 2026 sender",
+      "rise_value": 2750.0,
+      "raw_value": 2750
+    },
+    {
+      "seed": "sender",
+      "query": "barcelona real madrid welcher sender",
+      "rise_value": 2750.0,
+      "raw_value": 2750
+    },
+    {
+      "seed": "creator",
+      "query": "tyler the creator selena gomez tweets",
+      "rise_value": 2750.0,
+      "raw_value": 2750
+    },
+    {
       "seed": "responder",
       "query": "unforgotten",
       "rise_value": 2750.0,
       "raw_value": 2750
+    },
+    {
+      "seed": "processor",
+      "query": "apple iphone processor in macbook neo",
+      "rise_value": 2650.0,
+      "raw_value": 2650
+    },
+    {
+      "seed": "sender",
+      "query": "ballon d'or 2026 live",
+      "rise_value": 2500.0,
+      "raw_value": 2500
     },
     {
       "seed": "connector",
@@ -517,10 +858,28 @@
       "raw_value": 2400
     },
     {
+      "seed": "download",
+      "query": "free fire india download",
+      "rise_value": 2400.0,
+      "raw_value": 2400
+    },
+    {
       "seed": "game",
       "query": "world series game 5",
       "rise_value": 2400.0,
       "raw_value": 2400
+    },
+    {
+      "seed": "example",
+      "query": "老虎",
+      "rise_value": 2400.0,
+      "raw_value": 2400
+    },
+    {
+      "seed": "receiver",
+      "query": "week 8 wide receiver rankings",
+      "rise_value": 2250.0,
+      "raw_value": 2250
     },
     {
       "seed": "image",
@@ -535,10 +894,22 @@
       "raw_value": 2000
     },
     {
+      "seed": "creator",
+      "query": "eric lim content creator hawker",
+      "rise_value": 2000.0,
+      "raw_value": 2000
+    },
+    {
       "seed": "flux",
       "query": "chumbkiya flux ka si matrak",
       "rise_value": 1750.0,
       "raw_value": 1750
+    },
+    {
+      "seed": "tea",
+      "query": "fig tea nicolai",
+      "rise_value": 1650.0,
+      "raw_value": 1650
     },
     {
       "seed": "game",
@@ -571,6 +942,12 @@
       "raw_value": 1350
     },
     {
+      "seed": "sample",
+      "query": "infected tissue sample tarkov",
+      "rise_value": 1350.0,
+      "raw_value": 1350
+    },
+    {
       "seed": "responder",
       "query": "national first responder day",
       "rise_value": 1350.0,
@@ -595,6 +972,18 @@
       "raw_value": 1250
     },
     {
+      "seed": "uploader",
+      "query": "uploader jp サービス 終了",
+      "rise_value": 1150.0,
+      "raw_value": 1150
+    },
+    {
+      "seed": "creator",
+      "query": "noillirk",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
       "seed": "itch.io",
       "query": "time freeze itch.io",
       "rise_value": 1050.0,
@@ -607,10 +996,22 @@
       "raw_value": 1000
     },
     {
+      "seed": "receiver",
+      "query": "eagles rookie receiver makai lemon",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
       "seed": "steam",
       "query": "phantom blade zero",
       "rise_value": 950.0,
       "raw_value": 950
+    },
+    {
+      "seed": "interpreter",
+      "query": "daniel de mondesert",
+      "rise_value": 900.0,
+      "raw_value": 900
     },
     {
       "seed": "steam",
@@ -640,6 +1041,15 @@
       "seed": "image",
       "query": "ai image generator magnific",
       "rise_value": 800.0,
+      "raw_value": 800,
+      "also_from_seeds": [
+        "generator"
+      ]
+    },
+    {
+      "seed": "interpreter",
+      "query": "brewers interpreter",
+      "rise_value": 800.0,
       "raw_value": 800
     },
     {
@@ -653,6 +1063,18 @@
       "query": "first responders day",
       "rise_value": 800.0,
       "raw_value": 800
+    },
+    {
+      "seed": "sample",
+      "query": "barbour sample sale nyc",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "analyzer",
+      "query": "online toc analyzer",
+      "rise_value": 750.0,
+      "raw_value": 750
     },
     {
       "seed": "verifier",
@@ -705,6 +1127,12 @@
     {
       "seed": "itch.io",
       "query": "ender itch.io",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "receiver",
+      "query": "jesse legree",
       "rise_value": 550.0,
       "raw_value": 550
     },
@@ -781,6 +1209,12 @@
       "raw_value": 500
     },
     {
+      "seed": "example",
+      "query": "typical example crossword clue",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
       "seed": "assistant",
       "query": "viral tiktok trends",
       "rise_value": 500.0,
@@ -799,6 +1233,18 @@
       "raw_value": 450
     },
     {
+      "seed": "analyzer",
+      "query": "portable toc analyzer",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "tea",
+      "query": "tea tairović",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
       "seed": "assistant",
       "query": "trending beauty hacks",
       "rise_value": 450.0,
@@ -813,6 +1259,18 @@
     {
       "seed": "simulator",
       "query": "anime dimensions simulator codes",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "tea",
+      "query": "badia slimming tea",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "convert",
+      "query": "convert mp3 tiktok",
       "rise_value": 400.0,
       "raw_value": 400
     },
@@ -847,6 +1305,12 @@
       "raw_value": 350
     },
     {
+      "seed": "generator",
+      "query": "solar powered generator",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
       "seed": "itch.io",
       "query": "to eat a god itch.io",
       "rise_value": 350.0,
@@ -871,8 +1335,32 @@
       "raw_value": 300
     },
     {
+      "seed": "creator",
+      "query": "creator sathi",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "evaluator",
+      "query": "evaluator hsin",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "sample",
+      "query": "plant sample maplestory",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
       "seed": "optimizer",
       "query": "process lasso",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "template",
+      "query": "sims plumbob template",
       "rise_value": 300.0,
       "raw_value": 300
     },
@@ -895,8 +1383,20 @@
       "raw_value": 250
     },
     {
+      "seed": "tea",
+      "query": "loaded tea discount codes",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
       "seed": "syncer",
       "query": "lucid trading",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "sample",
+      "query": "nta",
       "rise_value": 250.0,
       "raw_value": 250
     },
@@ -907,8 +1407,20 @@
       "raw_value": 250
     },
     {
+      "seed": "sample",
+      "query": "sample ballot nyc",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
       "seed": "responder",
       "query": "seaworld first responder tickets",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "symbol",
+      "query": "tungsten symbol",
       "rise_value": 250.0,
       "raw_value": 250
     },
@@ -919,8 +1431,26 @@
       "raw_value": 250
     },
     {
+      "seed": "uploader",
+      "query": "アップローダー",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
       "seed": "planner",
       "query": "cyberpunk build planner",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "designer",
+      "query": "designer mehndi",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "generator",
+      "query": "jackery solar generator",
       "rise_value": 200.0,
       "raw_value": 200
     },
@@ -937,6 +1467,24 @@
       "raw_value": 200
     },
     {
+      "seed": "sample",
+      "query": "oklahoma sample ballot 2026",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "evaluator",
+      "query": "productive playhouse",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot michigan",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
       "seed": "responder",
       "query": "the missing",
       "rise_value": 200.0,
@@ -945,6 +1493,12 @@
     {
       "seed": "verifier",
       "query": "verifier liste electorale inscription",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "editor",
+      "query": "vikash editor",
       "rise_value": 200.0,
       "raw_value": 200
     },
@@ -965,6 +1519,12 @@
       "query": "tradify",
       "rise_value": 190.0,
       "raw_value": 190
+    },
+    {
+      "seed": "receiver",
+      "query": "josh downs",
+      "rise_value": 180.0,
+      "raw_value": 180
     },
     {
       "seed": "verifier",
@@ -1003,6 +1563,12 @@
       "raw_value": 170
     },
     {
+      "seed": "designer",
+      "query": "max alexander designer",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
       "seed": "simulator",
       "query": "mod ontel simulator indonesia",
       "rise_value": 170.0,
@@ -1011,6 +1577,12 @@
     {
       "seed": "simulator",
       "query": "polymarket",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "example",
+      "query": "石油",
       "rise_value": 170.0,
       "raw_value": 170
     },
@@ -1063,10 +1635,46 @@
       "raw_value": 150
     },
     {
+      "seed": "template",
+      "query": "pumpkin carving template",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "receiver",
+      "query": "vz61 receiver",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "symbol",
+      "query": "buddhist peace symbol",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "creator",
+      "query": "creator sathi ai",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "receiver",
+      "query": "oregon state receiver",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
       "seed": "verifier",
       "query": "verifier son inscription sur liste electorale",
       "rise_value": 140.0,
       "raw_value": 140
+    },
+    {
+      "seed": "uploader",
+      "query": "axfc uploader",
+      "rise_value": 130.0,
+      "raw_value": 130
     },
     {
       "seed": "simulator",
@@ -1089,6 +1697,30 @@
     {
       "seed": "simulator",
       "query": "rideshare simulator",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "generator",
+      "query": "solar generator",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "tea",
+      "query": "tea leoni husband",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "tea",
+      "query": "tim daly",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "editor",
+      "query": "vikas editor",
       "rise_value": 130.0,
       "raw_value": 130
     },
@@ -1129,6 +1761,12 @@
       "raw_value": 120
     },
     {
+      "seed": "tea",
+      "query": "tea earl grey hot",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
       "seed": "ai",
       "query": "abhyas ai",
       "rise_value": 110.0,
@@ -1141,8 +1779,32 @@
       "raw_value": 110
     },
     {
+      "seed": "creator",
+      "query": "cyberpunk creator",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
       "seed": "optimizer",
       "query": "edh optimizer",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "instagram",
+      "query": "flavio bolsonaro instagram",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "uploader",
+      "query": "getuploader",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "tea",
+      "query": "jamie lee curtis",
       "rise_value": 110.0,
       "raw_value": 110
     },
@@ -1153,14 +1815,32 @@
       "raw_value": 110
     },
     {
+      "seed": "tea",
+      "query": "tea leoni",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
       "seed": "responder",
       "query": "alo first responder discount",
       "rise_value": 100.0,
       "raw_value": 100
     },
     {
+      "seed": "symbol",
+      "query": "argon symbol",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
       "seed": "constructor",
       "query": "bridge constructor portal apk",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "uploader",
+      "query": "carelink uploader",
       "rise_value": 100.0,
       "raw_value": 100
     },
@@ -1177,8 +1857,56 @@
       "raw_value": 100
     },
     {
+      "seed": "creator",
+      "query": "golf tyler the creator",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
       "seed": "simulator",
       "query": "groundwork simulator",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "evaluator",
+      "query": "mioc evaluator",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "evaluator",
+      "query": "outlier ai",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "evaluator",
+      "query": "ppr trade evaluator",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "evaluator",
+      "query": "rws",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "tea",
+      "query": "tea tairovic",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "uploader",
+      "query": "uploader.jp",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "tea",
+      "query": "who is tea leoni married to",
       "rise_value": 100.0,
       "raw_value": 100
     },
@@ -1195,6 +1923,12 @@
       "raw_value": 90
     },
     {
+      "seed": "symbol",
+      "query": "fog light symbol",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
       "seed": "itch.io",
       "query": "helping your boyfriend itch.io",
       "rise_value": 90.0,
@@ -1203,6 +1937,12 @@
     {
       "seed": "cocrea world",
       "query": "itch io",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "evaluator",
+      "query": "monitor evaluator team role",
       "rise_value": 90.0,
       "raw_value": 90
     },
@@ -1225,14 +1965,44 @@
       "raw_value": 80
     },
     {
+      "seed": "compiler",
+      "query": "dart online compiler",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "evaluator",
+      "query": "evaluator meaning in hindi",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "constructor",
       "query": "f1 constructor championship",
       "rise_value": 80.0,
       "raw_value": 80
     },
     {
+      "seed": "generator",
+      "query": "generator for home",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "simulator",
       "query": "hunting simulator 3",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "tea",
+      "query": "nettle leaf tea",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "evaluator",
+      "query": "outlier",
       "rise_value": 80.0,
       "raw_value": 80
     },
@@ -1245,6 +2015,24 @@
     {
       "seed": "comparator",
       "query": "2 bit magnitude comparator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "evaluator",
+      "query": "best pizza near me",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "compiler",
+      "query": "chart gpt",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "evaluator",
+      "query": "coin evaluator near me",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -1263,6 +2051,12 @@
     {
       "seed": "constructor",
       "query": "disfraz constructor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "symbol",
+      "query": "font aesthetic symbol",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -1321,6 +2115,12 @@
       "raw_value": 70
     },
     {
+      "seed": "sample",
+      "query": "next toppers sample paper class 10 2027",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "notifier",
       "query": "notifier fsp-851",
       "rise_value": 70.0,
@@ -1333,14 +2133,38 @@
       "raw_value": 70
     },
     {
+      "seed": "template",
+      "query": "osm template",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "comparator",
       "query": "ppc",
       "rise_value": 70.0,
       "raw_value": 70
     },
     {
+      "seed": "evaluator",
+      "query": "search engine evaluator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "slope game",
       "query": "ski slope game",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "maker",
+      "query": "the scandal maker has returned",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "sender",
+      "query": "the sender won't see if you read their messages until you reply or add them as a contact.",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -1357,8 +2181,38 @@
       "raw_value": 60
     },
     {
+      "seed": "sender",
+      "query": "fernsehen heute 20.15 alle sender",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "sample",
+      "query": "florida sample ballot",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "scheduler",
       "query": "garvi appointment scheduler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "sender",
+      "query": "heute im tv 20.15 alle sender",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "evaluator",
+      "query": "integral evaluator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "analyzer",
+      "query": "jonathan taylor",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -1375,14 +2229,38 @@
       "raw_value": 60
     },
     {
+      "seed": "template",
+      "query": "papel picado template",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "dashboard",
       "query": "poshan tracker dashboard",
       "rise_value": 60.0,
       "raw_value": 60
     },
     {
+      "seed": "template",
+      "query": "pumpkin template",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "roblox",
       "query": "roblox music id",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot ohio",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "sender",
+      "query": "sender email marketing",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -1417,8 +2295,44 @@
       "raw_value": 60
     },
     {
+      "seed": "sample",
+      "query": "akai mpc sample",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "symbol",
+      "query": "batman symbol",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "designer",
+      "query": "billnass designer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "analyzer",
+      "query": "chess move analyzer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "constructor",
       "query": "constructores",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "designer",
+      "query": "designer whey esn",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "processor",
+      "query": "food processor near me",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -1435,8 +2349,20 @@
       "raw_value": 50
     },
     {
+      "seed": "sample",
+      "query": "mpc sample",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "optimizer",
       "query": "nba rotowire optimizer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "compiler",
+      "query": "online clipboard",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -1447,8 +2373,32 @@
       "raw_value": 50
     },
     {
+      "seed": "analyzer",
+      "query": "privacy.net analyzer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "scheduler",
       "query": "prometric scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "template",
+      "query": "pumpkin template printable",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "processor",
+      "query": "remote claims processor jobs",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "sample",
+      "query": "sample ballot florida",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -1465,8 +2415,44 @@
       "raw_value": 50
     },
     {
+      "seed": "tea",
+      "query": "tea light candles",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "designer",
+      "query": "york designer outlet",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "downloader",
+      "query": "youtube downloader free download fast video downloader application",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "analyzer",
+      "query": "best time to visit maldives",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "comparator",
       "query": "comparator anre",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "analyzer",
+      "query": "fantasy trade analyzer nba",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "sample",
+      "query": "florida sample ballot 2026",
       "rise_value": 40.0,
       "raw_value": 40
     },
@@ -1483,6 +2469,12 @@
       "raw_value": 40
     },
     {
+      "seed": "interpreter",
+      "query": "logo interpreter",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "syncer",
       "query": "lucid",
       "rise_value": 40.0,
@@ -1495,19 +2487,55 @@
       "raw_value": 40
     },
     {
+      "seed": "compiler",
+      "query": "online r compiler",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "notifier",
       "query": "pick up notifier mod",
       "rise_value": 40.0,
       "raw_value": 40
+    },
+    {
+      "seed": "maker",
+      "query": "roti maker",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "maker",
+      "query": "roti maker machine",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "tea",
+      "query": "tea lights",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "interpreter",
+      "query": "the interpreter of silence",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "analyzer",
+      "query": "trade analyzer nba",
+      "rise_value": 40.0,
+      "raw_value": 40
     }
   ],
-  "updated_at": "2026-10-29T22:53:25.690660+00:00",
-  "scanned_seed_count": 35,
-  "batch_count": 7,
-  "attempted_seed_count": 45,
+  "updated_at": "2026-10-30T08:40:10.382443+00:00",
+  "scanned_seed_count": 60,
+  "batch_count": 12,
+  "attempted_seed_count": 74,
   "complete_20_seeds": true,
   "complete_daily_target": false,
-  "completion_pct": 47.3,
-  "failed_seed_count": 10,
-  "discovery_count": 210
+  "completion_pct": 81.1,
+  "failed_seed_count": 14,
+  "discovery_count": 355
 }

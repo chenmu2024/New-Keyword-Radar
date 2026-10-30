@@ -1,0 +1,99 @@
+{
+  "batch_id": "2026-10-30T08:33:37.709527+00:00-1-2-3-4-5",
+  "generated_at": "2026-10-30T08:33:37.709527+00:00",
+  "local_generated_at": "2026-10-30T16:33:37.709527+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "generator",
+    "example",
+    "convert",
+    "online",
+    "downloader"
+  ],
+  "seed_indices": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "start_index": 1,
+  "discoveries": [
+    {
+      "seed": "online",
+      "query": "mawara.work",
+      "rise_value": 7850.0,
+      "raw_value": 7850
+    },
+    {
+      "seed": "online",
+      "query": "buy mounjaro www.buymounjaroaustralia.co 🇦🇺",
+      "rise_value": 5350.0,
+      "raw_value": 5350
+    },
+    {
+      "seed": "example",
+      "query": "老虎",
+      "rise_value": 2400.0,
+      "raw_value": 2400
+    },
+    {
+      "seed": "generator",
+      "query": "ai image generator magnific",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "example",
+      "query": "typical example crossword clue",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "convert",
+      "query": "convert mp3 tiktok",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "generator",
+      "query": "solar powered generator",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "generator",
+      "query": "jackery solar generator",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "example",
+      "query": "石油",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "generator",
+      "query": "solar generator",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "generator",
+      "query": "generator for home",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "downloader",
+      "query": "youtube downloader free download fast video downloader application",
+      "rise_value": 50.0,
+      "raw_value": 50
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 12
+}
