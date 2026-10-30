@@ -8,6 +8,7 @@ import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from sitemap_monitor import MAX_QUEUE, merge_queue
+from sitemap_cross_signal import summarize as summarize_cross, render as render_cross
 from sitemap_trends import render
 from sitemap_newwords import render as render_newwords, combine_launch_data
 
@@ -16,7 +17,8 @@ ROOT = Path(__file__).resolve().parents[1]
 FILES = ["state/sitemap/snapshots.json", "data/sitemap/queue.json",
          "data/sitemap/latest.json", "reports/sitemap/latest.md", "reports/sitemap/triage.md",
          "data/sitemap/validation.json", "reports/sitemap/validation.md",
-         "data/sitemap/release_dates.json", "reports/sitemap/newwords.md"]
+         "data/sitemap/release_dates.json", "reports/sitemap/newwords.md",
+         "data/sitemap/cross_signals.json", "reports/sitemap/cross_signals.md"]
 
 
 def cmd(*args, check=True):
@@ -60,7 +62,7 @@ def publish():
             remote = load(ROOT / "data/sitemap/latest.json", {})
             local_newer = local_latest["generated_at"] >= remote.get("generated_at", "")
             if local_newer:
-                for name in (daily, "data/sitemap/latest.json", "reports/sitemap/latest.md", "reports/sitemap/triage.md", "data/sitemap/validation.json", "reports/sitemap/validation.md", "data/sitemap/release_dates.json", "reports/sitemap/newwords.md"):
+                for name in (daily, "data/sitemap/latest.json", "reports/sitemap/latest.md", "reports/sitemap/triage.md", "data/sitemap/validation.json", "reports/sitemap/validation.md", "data/sitemap/release_dates.json", "reports/sitemap/newwords.md", "data/sitemap/cross_signals.json", "reports/sitemap/cross_signals.md"):
                     source = backup / name
                     if source.exists():
                         dest = ROOT / name
@@ -114,6 +116,14 @@ def publish():
                 (ROOT / "reports/sitemap/newwords.md").write_text(
                     render_newwords(live_queue, combined, main,
                                     datetime.fromisoformat(stamp).date().isoformat()),
+                    encoding="utf-8")
+                # Recompute from the reconciled queue; no invented URL evidence.
+                cross = summarize_cross(live_queue, bounds,
+                                        datetime.fromisoformat(stamp).date().isoformat())
+                cross["generated_at"] = stamp
+                save(ROOT / "data/sitemap/cross_signals.json", cross)
+                (ROOT / "reports/sitemap/cross_signals.md").write_text(
+                    render_cross(cross, load(ROOT / "data/sitemap/latest.json", {})),
                     encoding="utf-8")
             cmd("add", "--", "state/sitemap", "data/sitemap", "reports/sitemap")
             if cmd("diff", "--cached", "--quiet", check=False).returncode == 0:
