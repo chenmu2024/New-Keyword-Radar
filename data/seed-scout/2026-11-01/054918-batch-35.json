@@ -1,0 +1,97 @@
+{
+  "batch_id": "2026-10-31T21:49:18.118486+00:00-35-36-37-38",
+  "generated_at": "2026-10-31T21:49:18.118486+00:00",
+  "local_generated_at": "2026-11-01T05:49:18.118486+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "scheduler",
+    "converter",
+    "viewer",
+    "extractor"
+  ],
+  "seed_indices": [
+    35,
+    36,
+    37,
+    38
+  ],
+  "start_index": 35,
+  "discoveries": [
+    {
+      "seed": "converter",
+      "query": "youtube to mp3 player converter app",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "scheduler",
+      "query": "msoe scheduler",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scheduler",
+      "query": "uf scheduler",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "extractor",
+      "query": "nsp extractor",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "scheduler",
+      "query": "garvi appointment scheduler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "linkedin post scheduler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "wmt scheduler faa",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "capital one shopping",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "meeting scheduler time zones",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "web scheduler uc davis",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "converter",
+      "query": "converter dolar em real",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "converter",
+      "query": "jpeg to pdf converter i love pdf",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 12
+}

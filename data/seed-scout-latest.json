@@ -1,65 +1,35 @@
 {
-  "batch_id": "2026-10-30T22:36:28.806882+00:00-33-34-35-36",
-  "generated_at": "2026-10-30T22:36:28.806882+00:00",
-  "local_generated_at": "2026-10-31T06:36:28.806882+08:00",
+  "batch_id": "2026-10-31T21:49:18.118486+00:00-35-36-37-38",
+  "generated_at": "2026-10-31T21:49:18.118486+00:00",
+  "local_generated_at": "2026-11-01T05:49:18.118486+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "recorder",
-    "optimizer",
     "scheduler",
-    "converter"
+    "converter",
+    "viewer",
+    "extractor"
   ],
   "seed_indices": [
-    33,
-    34,
     35,
-    36
+    36,
+    37,
+    38
   ],
-  "start_index": 33,
+  "start_index": 35,
   "discoveries": [
-    {
-      "seed": "recorder",
-      "query": "droid dashcam video recorder",
-      "rise_value": 32350.0,
-      "raw_value": 32350
-    },
     {
       "seed": "converter",
       "query": "youtube to mp3 player converter app",
-      "rise_value": 600.0,
-      "raw_value": 600
-    },
-    {
-      "seed": "optimizer",
-      "query": "process lasso",
-      "rise_value": 400.0,
-      "raw_value": 400
-    },
-    {
-      "seed": "recorder",
-      "query": "skill recorder",
-      "rise_value": 350.0,
-      "raw_value": 350
-    },
-    {
-      "seed": "optimizer",
-      "query": "cox-2 cybersomatic optimizer",
-      "rise_value": 250.0,
-      "raw_value": 250
-    },
-    {
-      "seed": "optimizer",
-      "query": "octane optimizer",
-      "rise_value": 150.0,
-      "raw_value": 150
+      "rise_value": 800.0,
+      "raw_value": 800
     },
     {
       "seed": "scheduler",
       "query": "msoe scheduler",
-      "rise_value": 100.0,
-      "raw_value": 100
+      "rise_value": 90.0,
+      "raw_value": 90
     },
     {
       "seed": "scheduler",
@@ -68,14 +38,20 @@
       "raw_value": 90
     },
     {
-      "seed": "optimizer",
-      "query": "muon optimizer",
-      "rise_value": 70.0,
-      "raw_value": 70
+      "seed": "extractor",
+      "query": "nsp extractor",
+      "rise_value": 80.0,
+      "raw_value": 80
     },
     {
-      "seed": "optimizer",
-      "query": "muon",
+      "seed": "scheduler",
+      "query": "garvi appointment scheduler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "linkedin post scheduler",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -86,42 +62,36 @@
       "raw_value": 60
     },
     {
-      "seed": "optimizer",
-      "query": "edh optimizer",
+      "seed": "extractor",
+      "query": "capital one shopping",
       "rise_value": 50.0,
       "raw_value": 50
     },
     {
       "seed": "scheduler",
-      "query": "linkedin post scheduler",
+      "query": "meeting scheduler time zones",
       "rise_value": 50.0,
       "raw_value": 50
     },
     {
       "seed": "scheduler",
-      "query": "garvi appointment scheduler",
+      "query": "web scheduler uc davis",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "converter",
+      "query": "converter dolar em real",
       "rise_value": 40.0,
       "raw_value": 40
     },
     {
-      "seed": "optimizer",
-      "query": "jpeg optimizer",
-      "rise_value": 40.0,
-      "raw_value": 40
-    },
-    {
-      "seed": "optimizer",
-      "query": "nba starting lineups",
-      "rise_value": 40.0,
-      "raw_value": 40
-    },
-    {
-      "seed": "scheduler",
-      "query": "prometric scheduler",
+      "seed": "converter",
+      "query": "jpeg to pdf converter i love pdf",
       "rise_value": 40.0,
       "raw_value": 40
     }
   ],
   "status": "ok",
-  "discovery_count": 17
+  "discovery_count": 12
 }
