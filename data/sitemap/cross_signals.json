@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "window_start": "2026-10-25",
   "source_count": 135,
-  "queue_count": 2697,
+  "queue_count": 3219,
   "ignored_unverifiable_proofs": 0,
   "groups": {
     "games": [
@@ -17,9 +17,9 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-pt",
+            "source_id": "gamepix-en",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/monster-cafe-idle-tycoon",
+            "url": "https://www.gamepix.com/play/monster-cafe-idle-tycoon",
             "first_seen": "2026-10-30",
             "observed_query": "monster cafe idle tycoon",
             "source_category": "games"
@@ -30,6 +30,34 @@
             "url": "https://www.y8.com/games/monster_cafe_idle_tycoon",
             "first_seen": "2026-10-30",
             "observed_query": "monster cafe idle tycoon",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "pourline",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/pourline",
+            "first_seen": "2026-10-31",
+            "observed_query": "pourline",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/pourline",
+            "first_seen": "2026-10-31",
+            "observed_query": "pourline",
             "source_category": "games"
           }
         ]
@@ -117,9 +145,121 @@
             "source_category": "games"
           }
         ]
+      },
+      {
+        "query": "inkblade",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/inkblade",
+            "first_seen": "2026-10-29",
+            "observed_query": "inkblade",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/studios/inkblade",
+            "first_seen": "2026-10-31",
+            "observed_query": "inkblade",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "quantum catch",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/quantum-catch",
+            "first_seen": "2026-10-29",
+            "observed_query": "quantum catch",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/quantum_catch",
+            "first_seen": "2026-10-31",
+            "observed_query": "quantum catch",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "deep cast",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "crazygames-es",
+            "website": "crazygames.com",
+            "url": "https://www.crazygames.com/es/game/deep-cast",
+            "first_seen": "2026-10-25",
+            "observed_query": "deep cast",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/deep_cast",
+            "first_seen": "2026-10-31",
+            "observed_query": "deep cast",
+            "source_category": "games"
+          }
+        ]
       }
     ],
     "products": [
+      {
+        "query": "angleforge",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/angleforge",
+            "first_seen": "2026-10-31",
+            "observed_query": "angleforge",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/angleforge",
+            "first_seen": "2026-10-31",
+            "observed_query": "angleforge",
+            "source_category": "saas"
+          }
+        ]
+      },
       {
         "query": "distriova",
         "independent_websites": 2,
@@ -177,6 +317,62 @@
         ]
       },
       {
+        "query": "prettyup",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/prettyup",
+            "first_seen": "2026-10-30",
+            "observed_query": "prettyup",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/prettyup",
+            "first_seen": "2026-10-31",
+            "observed_query": "prettyup",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "afterlid",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/afterlid",
+            "first_seen": "2026-10-29",
+            "observed_query": "afterlid",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/afterlid",
+            "first_seen": "2026-10-31",
+            "observed_query": "afterlid",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "ai suitup",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -209,8 +405,8 @@
     "functions": []
   },
   "group_counts": {
-    "games": 4,
-    "products": 3,
+    "games": 8,
+    "products": 6,
     "tools": 0,
     "functions": 0
   },
@@ -275,6 +471,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "inkblade",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/inkblade",
+            "first_seen": "2026-10-29",
+            "observed_query": "inkblade",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/studios/inkblade",
+            "first_seen": "2026-10-31",
+            "observed_query": "inkblade",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "monster cafe idle tycoon",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -285,9 +510,9 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-pt",
+            "source_id": "gamepix-en",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/monster-cafe-idle-tycoon",
+            "url": "https://www.gamepix.com/play/monster-cafe-idle-tycoon",
             "first_seen": "2026-10-30",
             "observed_query": "monster cafe idle tycoon",
             "source_category": "games"
@@ -298,6 +523,64 @@
             "url": "https://www.y8.com/games/monster_cafe_idle_tycoon",
             "first_seen": "2026-10-30",
             "observed_query": "monster cafe idle tycoon",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "pourline",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/pourline",
+            "first_seen": "2026-10-31",
+            "observed_query": "pourline",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/pourline",
+            "first_seen": "2026-10-31",
+            "observed_query": "pourline",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "quantum catch",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/quantum-catch",
+            "first_seen": "2026-10-29",
+            "observed_query": "quantum catch",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/quantum_catch",
+            "first_seen": "2026-10-31",
+            "observed_query": "quantum catch",
             "source_category": "games"
           }
         ],
@@ -331,9 +614,96 @@
           }
         ],
         "cross_signal_origin": "games"
+      },
+      {
+        "query": "deep cast",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "crazygames-es",
+            "website": "crazygames.com",
+            "url": "https://www.crazygames.com/es/game/deep-cast",
+            "first_seen": "2026-10-25",
+            "observed_query": "deep cast",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/deep_cast",
+            "first_seen": "2026-10-31",
+            "observed_query": "deep cast",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
       }
     ],
     "saas": [
+      {
+        "query": "afterlid",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/afterlid",
+            "first_seen": "2026-10-29",
+            "observed_query": "afterlid",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/afterlid",
+            "first_seen": "2026-10-31",
+            "observed_query": "afterlid",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "angleforge",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/angleforge",
+            "first_seen": "2026-10-31",
+            "observed_query": "angleforge",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/angleforge",
+            "first_seen": "2026-10-31",
+            "observed_query": "angleforge",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
       {
         "query": "distriova",
         "independent_websites": 2,
@@ -391,6 +761,35 @@
           }
         ],
         "cross_signal_origin": "products"
+      },
+      {
+        "query": "prettyup",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/prettyup",
+            "first_seen": "2026-10-30",
+            "observed_query": "prettyup",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/prettyup",
+            "first_seen": "2026-10-31",
+            "observed_query": "prettyup",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
       }
     ],
     "ai": [
@@ -430,17 +829,17 @@
     "brazil": []
   },
   "by_type_counts": {
-    "games": 4,
-    "saas": 2,
+    "games": 8,
+    "saas": 5,
     "ai": 1,
     "calculators": 0,
     "files": 0,
     "developer": 0,
     "brazil": 0
   },
-  "delta_ledger_count": 1168,
+  "delta_ledger_count": 1743,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-10-31T03:38:04.087804+08:00",
+  "generated_at": "2026-10-31T16:48:26.799249+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
@@ -450,7 +849,7 @@
       "baselines": 0,
       "delta_scans": 29,
       "failed": 4,
-      "new_urls": 63,
+      "new_urls": 166,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -479,8 +878,8 @@
       "baselines": 0,
       "delta_scans": 19,
       "failed": 1,
-      "new_urls": 45,
-      "over_scan_cap": 0,
+      "new_urls": 308,
+      "over_scan_cap": 45,
       "failed_sources": [
         {
           "source_id": "microlaunch-products",
@@ -496,7 +895,7 @@
       "baselines": 0,
       "delta_scans": 20,
       "failed": 0,
-      "new_urls": 46,
+      "new_urls": 8,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -525,7 +924,7 @@
       "baselines": 0,
       "delta_scans": 18,
       "failed": 2,
-      "new_urls": 0,
+      "new_urls": 2,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -546,30 +945,21 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 797,
-      "over_scan_cap": 567,
+      "new_urls": 106,
+      "over_scan_cap": 0,
       "failed_sources": []
     },
     "brazil": {
       "configured_sources": 10,
       "configured_domains": 10,
       "reported": 10,
-      "successful": 8,
+      "successful": 10,
       "baselines": 0,
-      "delta_scans": 8,
-      "failed": 2,
-      "new_urls": 0,
+      "delta_scans": 10,
+      "failed": 0,
+      "new_urls": 1,
       "over_scan_cap": 0,
-      "failed_sources": [
-        {
-          "source_id": "freedevs-br",
-          "error": "URLError: <urlopen error timed out>"
-        },
-        {
-          "source_id": "rankbox-br",
-          "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
-        }
-      ]
+      "failed_sources": []
     }
   }
 }
