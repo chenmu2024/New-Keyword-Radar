@@ -1,13 +1,13 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-10-31T16:05:24.845156+00:00
-- Source last updated: 2026-10-31T16:05:24.845156+00:00
-- Trends archive: 2026-10-31 (74/74; complete=True)
-- Eligible multiword rising queries: 452
+- Generated: 2026-10-31T22:28:36.495810+00:00
+- Source last updated: 2026-10-31T22:28:36.495810+00:00
+- Trends archive: 2026-11-01 (74/74; complete=True)
+- Eligible multiword rising queries: 449
 - Cross-source matches within 72h review window: 1
-- Social current-run links: 70, prior recent sightings: 295
-- Search archives examined: 2026-10-31, 2026-10-30
-- Direct-post question-derived QUERY HYPOTHESES: 6
+- Social current-run links: 64, prior recent sightings: 295
+- Search archives examined: 2026-11-01, 2026-10-31, 2026-10-30
+- Direct-post question-derived QUERY HYPOTHESES: 5
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
@@ -22,9 +22,6 @@
 
 - Proposed query: **the 1200 lumens just yet**
   - Original public post: https://bsky.app/profile/jamienoguchi.bsky.social/post/3myvdl223gk2a
-  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
-- Proposed query: **atapi scsi cd dvd blu ray drives utm vms now with**
-  - Original public post: https://news.ycombinator.com/item?id=50260146
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **is to read a book written by that**
   - Original public post: https://bsky.app/profile/elbow-diablo.bsky.social/post/3myy3q7ihtc2f
