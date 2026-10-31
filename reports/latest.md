@@ -1,24 +1,35 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-10-30T02:51:06.282677+00:00
+Generated: 2026-10-31T02:05:12.704231+00:00
 
 ## Formal candidates
 
-**今日无合格可变现新词。**
+### 1. cyclone arnab tracker
+
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-26T00:00:00+00:00, retention **26.7%**.
+- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
+- Source seed-rising:tracker; geo Worldwide.
+
+### 2. buy mounjaro www.buymounjaroaustralia.co 🇦🇺
+
+- Newness **100/100**; money **90/100** (transactional).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-29T00:00:00+00:00, retention **33.3%**.
+- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
+- Source seed-rising:online; geo Worldwide.
+
 ## Watch / rejected
 
-- bob the builder costume — **old-history** — newness 100, money 100; 5y peak 100
-- arnab cyclone — **trend-watch** — newness 100, money 32
-- arnab cyclone update — **trend-watch** — newness 100, money 32
-- addicted to my navigator bilibili — **trend-watch** — newness 100, money 26
-- civil service pension scheme recovery plan — **trend-watch** — newness 100, money 26
-- endlagersuche navigator — **trend-watch** — newness 100, money 26
-- jazmine hall assistant principal — **trend-watch** — newness 100, money 26
-- steam free games october 2026 — **trend-watch** — newness 100, money 26
-- chumbkiya flux ghanatv ka si matrak — **trend-watch** — newness 96, money 26
-- colored part of the eye — **trend-watch** — newness 86, money 26
-- addicted to my navigator dailymotion — **reject** — newness 58, money 26
-- ek uttal lens ka upyog kiske roop mein kiya jata hai — **reject** — newness 54, money 26
-- ai bubble — **reject** — newness 40, money 49
-- core app dashboard — **reject** — newness 40, money 49
-- futurama robot — **error** — newness 0, money 26 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
+- cyclone tracker live — **old-history** — newness 100, money 100; 5y peak 100
+- jason chang solar tracker invention — **old-history** — newness 100, money 94; 5y peak 9
+- marine corps marathon tracker — **old-history** — newness 96, money 100; 5y peak 33
+- arnab cyclone live tracker — **history-unchecked** — newness 95, money 94
+- dublin marathon tracker — **history-unchecked** — newness 93, money 100
+- dublin marathon tracker 2026 — **history-unchecked** — newness 93, money 100
+- ragdoll simulator itch.io — **history-unchecked** — newness 93, money 100
+- tracker purification — **history-unchecked** — newness 90, money 100
+- ragdoll simulator itch.io themilitarylarper — **history-unchecked** — newness 88, money 94
+- interior designer sectional sofa alternatives — **history-unchecked** — newness 87, money 90
+- cyclone update cyclone arnab tracker — **history-unchecked** — newness 85, money 94
+- cyclone tracker — **commercial-watch** — newness 82, money 100
+- moon tracker live — **commercial-watch** — newness 65, money 100
