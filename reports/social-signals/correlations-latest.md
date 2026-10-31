@@ -1,17 +1,22 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-10-30T22:57:30.784994+00:00
-- Source last updated: 2026-10-30T22:57:30.784994+00:00
+- Generated: 2026-10-31T02:20:31.722704+00:00
+- Source last updated: 2026-10-31T02:20:31.722704+00:00
 - Trends archive: 2026-10-31 (74/74; complete=True)
 - Eligible multiword rising queries: 452
-- Cross-source matches within 72h review window: 0
-- Social current-run links: 62, prior recent sightings: 259
+- Cross-source matches within 72h review window: 1
+- Social current-run links: 65, prior recent sightings: 278
 - Search archives examined: 2026-10-31, 2026-10-30, 2026-10-29
-- Direct-post question-derived QUERY HYPOTHESES: 7
+- Direct-post question-derived QUERY HYPOTHESES: 5
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
-No reliable full-query cross-source overlap found in this scan.
+## ai video generator
+
+- Relative Trends rising value: 40.0 (NOT Volume)
+- Distinct matched platforms: 1
+- Direct public-post question hints: 0
+- mastodon: https://mastodon.social/@awesomeindie/117530532338356092 (direct_public_post)
 
 ## Original public-post question hints (NOT validated search keywords)
 
@@ -26,12 +31,6 @@ No reliable full-query cross-source overlap found in this scan.
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **a second just to reconcile which tool forgot to reconcile**
   - Original public post: https://bsky.app/profile/brycereed.bsky.social/post/3myy3xmjkho2n
-  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
-- Proposed query: **a textured brush**
-  - Original public post: https://bsky.app/profile/sersire.bsky.social/post/3myvnh25kb22c
-  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
-- Proposed query: **to see how something looks before committing**
-  - Original public post: https://bsky.app/profile/kypepe.etheirys.social/post/3myvm7xxxkc2q
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **reason the plot loves funeral homes so much**
   - Original public post: https://bsky.app/profile/joshadhd.com/post/3myx6qnjfws2k
