@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-30T22:36:35.730395+00:00
-- Historical candidates: 2639
-- Newly recorded from pending: 133
+- Updated (UTC): 2026-10-31T08:21:58.993171+00:00
+- Historical candidates: 2722
+- Newly recorded from pending: 83
 - Awaiting 7/14/30-day evidence review: 573
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 3d room planner ai [Global] — discovered — first 2026-10-31, last 2026-10-31
-- abcya [Global] — discovered — first 2026-10-31, last 2026-10-31
-- africa cup of nations biennial format [Global] — discovered — first 2026-10-31, last 2026-10-31
-- ai video generator [Global] — discovered — first 2026-10-31, last 2026-10-31
-- alan bolt composer [Global] — discovered — first 2026-10-31, last 2026-10-31
-- appleskin [Global] — discovered — first 2026-10-31, last 2026-10-31
-- ayushman bharat card [Global] — discovered — first 2026-10-31, last 2026-10-31
-- behance [Global] — discovered — first 2026-10-31, last 2026-10-31
-- blackrock tax evaluator tool [Global] — discovered — first 2026-10-31, last 2026-10-31
-- brawl star creator codes [Global] — discovered — first 2026-10-31, last 2026-10-31
-- brawl stars content creator codes [Global] — discovered — first 2026-10-31, last 2026-10-31
-- brewers manager [Global] — discovered — first 2026-10-31, last 2026-10-31
-- broncos game [Global] — discovered — first 2026-10-31, last 2026-10-31
-- calico font [Global] — discovered — first 2026-10-31, last 2026-10-31
-- calico meaning [Global] — discovered — first 2026-10-31, last 2026-10-31
-- chick fil a first responder discount [Global] — discovered — first 2026-10-31, last 2026-10-31
-- cloud composer [Global] — discovered — first 2026-10-31, last 2026-10-31
-- coin evaluator [Global] — discovered — first 2026-10-31, last 2026-10-31
-- comparator oferte-tip de furnizare a energiei electrice [Global] — discovered — first 2026-10-31, last 2026-10-31
-- comparator tarife energie electrica [Global] — discovered — first 2026-10-31, last 2026-10-31
-- constructor overloading [Global] — discovered — first 2026-10-31, last 2026-10-31
+- muon [Global] — discovered — first 2026-10-31, last 2026-10-31
+- jackery explorer 1000 v2 [Global] — discovered — first 2026-10-31, last 2026-10-31
+- swindon designer outlet [Global] — discovered — first 2026-10-31, last 2026-10-31
+- dune music composer [Global] — discovered — first 2026-10-31, last 2026-10-31
+- responder github [Global] — discovered — first 2026-10-31, last 2026-10-31
 - coyle hospitality evaluator [Global] — discovered — first 2026-10-31, last 2026-10-31
+- heated cake scraper [Global] — discovered — first 2026-10-31, last 2026-10-31
+- waec result checker [Global] — discovered — first 2026-10-31, last 2026-10-31
+- prime minister's youth programme [Global] — discovered — first 2026-10-31, last 2026-10-31
 - cpsc coffee maker safety recall [Global] — discovered — first 2026-10-31, last 2026-10-31
-- cyberpunk 2077 prototype in the scraper [Global] — discovered — first 2026-10-31, last 2026-10-31
-- details on salim said 30 year prison sentence for minnesota food fraud scheme [Global] — discovered — first 2026-10-31, last 2026-10-31
+- comparator tarife energie electrica [Global] — discovered — first 2026-10-31, last 2026-10-31
+- run3 [Global] — discovered — first 2026-10-31, last 2026-10-31
+- who is considered a first responder [Global] — discovered — first 2026-10-31, last 2026-10-31
+- pick up notifier [Global] — discovered — first 2026-10-31, last 2026-10-31
+- tiktokio video downloader [Global] — discovered — first 2026-10-31, last 2026-10-31
+- netlify [Global] — discovered — first 2026-10-31, last 2026-10-31
+- golf wang [Global] — discovered — first 2026-10-31, last 2026-10-31
+- calico meaning [Global] — discovered — first 2026-10-31, last 2026-10-31
+- superman symbol [Global] — discovered — first 2026-10-31, last 2026-10-31
+- ride a pet notifier [Global] — discovered — first 2026-10-31, last 2026-10-31
+- rws train ai [Global] — discovered — first 2026-10-31, last 2026-10-31
+- online casino 2026 🇩🇪 www.heinrichcasino.online [Global] — discovered — first 2026-10-31, last 2026-10-31
+- fake 49ers wide receiver [Global] — discovered — first 2026-10-31, last 2026-10-31
+- dia do designer de interiores [Global] — discovered — first 2026-10-31, last 2026-10-31
+- brewers manager [Global] — discovered — first 2026-10-31, last 2026-10-31
 
 ## Due for follow-up
 
