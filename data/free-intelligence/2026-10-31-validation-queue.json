@@ -1,0 +1,912 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T09:48:02.393240+08:00",
+  "schema_version": 1,
+  "status": "research_queue_not_approved_opportunities",
+  "total_topics": 7,
+  "firsthand_qualified_topics": 0,
+  "build_ready_count": 0,
+  "independent_discovery_urls": 40,
+  "market_counts": {
+    "BR": 2,
+    "MX": 2,
+    "US": 2,
+    "Worldwide": 1
+  },
+  "topics": [
+    {
+      "id": "59dfe7c679638b",
+      "market": "US",
+      "language": "en",
+      "research_topic": "finance_operations",
+      "research_intent": "manual_invoice_pain",
+      "query_used_for_discovery": "invoice reconciliation manual",
+      "keyword_candidate": null,
+      "keyword_is_validated": false,
+      "stage": "needs_firsthand_problem_evidence",
+      "priority": "source_research",
+      "firsthand_evidence_count": 0,
+      "attributable_independent_authors": 0,
+      "contextual_reference_count": 7,
+      "firsthand_evidence": [],
+      "contextual_references": [
+        {
+          "title": "Riyansh1329/invoice-payment-reconciliation",
+          "url": "https://github.com/Riyansh1329/invoice-payment-reconciliation",
+          "source": "github_repositories",
+          "published_at": "2026-10-30T21:35:21Z",
+          "author": null,
+          "heuristic_score": 77,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "HyVoid/shopify-cash-flow-forecast-excel-toolkit",
+          "url": "https://github.com/HyVoid/shopify-cash-flow-forecast-excel-toolkit",
+          "source": "github_repositories",
+          "published_at": "2026-07-09T03:26:33Z",
+          "author": null,
+          "heuristic_score": 63,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "SimardeepKullar/CH-Fuel-Operations",
+          "url": "https://github.com/SimardeepKullar/CH-Fuel-Operations",
+          "source": "github_repositories",
+          "published_at": "2026-09-26T21:57:16Z",
+          "author": null,
+          "heuristic_score": 66,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "Free Invoice Generator | Invoice Simple",
+          "url": "https://www.invoicesimple.com/invoice-generator",
+          "source": "bing_rss",
+          "published_at": "Fri, 30 Oct 2026 19:22:00 GMT",
+          "author": null,
+          "heuristic_score": 46,
+          "verified_willingness_to_pay": false
+        }
+      ],
+      "source_health": {
+        "github_repos": "ok",
+        "github_issues": "ok",
+        "google_news_rss": "error",
+        "duckduckgo": "degraded",
+        "reddit": "ok",
+        "hackernews_ask": "ok"
+      },
+      "unreliable_sources": [
+        "google_news_rss",
+        "duckduckgo"
+      ],
+      "evidence_gaps": [
+        "independent_firsthand_user_reports",
+        "exact_local_keyword_search_volume",
+        "keyword_difficulty",
+        "CPC_and_advertiser_demand",
+        "local_SERP_competitor_traffic_and_content_gap",
+        "willingness_to_pay_or_verified_ads_business_model"
+      ],
+      "metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc_usd": null,
+        "country": "US",
+        "data_source": null,
+        "checked_at": null,
+        "verified_by_human": false
+      },
+      "search_validation_actions": [
+        "Identify exact search query used by customers (not the discovery string).",
+        "Check country-specific Volume, KD, CPC and cite provider and date.",
+        "Verify local SERP type, target competitors, site traffic and feasibility.",
+        "Find >=2 attributable, independent firsthand accounts of the same problem.",
+        "Test ad/SaaS monetization and budget; do not propose a build before validation."
+      ],
+      "may_be_recommended_for_build": false,
+      "note": "No verified keyword or monetization data; query is a research prompt only.",
+      "keyword_research": {
+        "country": "US",
+        "language": "en",
+        "exact_terms_to_check": [
+          "invoice reconciliation software",
+          "invoice reconciliation automation",
+          "automated invoice matching"
+        ],
+        "hypotheses_only": true,
+        "original_website_keywords_unchanged": true,
+        "monthly_search_volumes": null,
+        "keyword_difficulties": null,
+        "cpc_values": null,
+        "evidence_provider": null,
+        "market_serp_checked": false,
+        "monetization_hypothesis": "B2B SaaS: reconciliation workflow; paid intent unverified",
+        "needs_manual_volume_kd_cpc_validation": true
+      },
+      "history": {
+        "history_window_days": 14,
+        "prior_archive_days_scanned": 14,
+        "previous_days_in_same_research_area": 7,
+        "previous_days_with_exact_query": 7,
+        "new_firsthand_urls_in_saved_sample": 0,
+        "returning_firsthand_urls_in_saved_sample": 0,
+        "new_context_urls_in_saved_sample": 3,
+        "returning_context_urls_in_saved_sample": 1,
+        "historical_firsthand_urls_in_saved_sample": 0,
+        "historical_context_urls_in_saved_sample": 18,
+        "is_repeat_user_demand_verified": false,
+        "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
+      }
+    },
+    {
+      "id": "5782333daba9da",
+      "market": "US",
+      "language": "en",
+      "research_topic": "payroll",
+      "research_intent": "integration_pain",
+      "query_used_for_discovery": "payroll integration error",
+      "keyword_candidate": null,
+      "keyword_is_validated": false,
+      "stage": "needs_firsthand_problem_evidence",
+      "priority": "source_research",
+      "firsthand_evidence_count": 0,
+      "attributable_independent_authors": 0,
+      "contextual_reference_count": 6,
+      "firsthand_evidence": [],
+      "contextual_references": [
+        {
+          "title": "api-evangelist/multiplier",
+          "url": "https://github.com/api-evangelist/multiplier",
+          "source": "github_repositories",
+          "published_at": "2026-06-21T15:48:52Z",
+          "author": null,
+          "heuristic_score": 47,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "api-evangelist/kombo",
+          "url": "https://github.com/api-evangelist/kombo",
+          "source": "github_repositories",
+          "published_at": "2026-03-03T13:14:20Z",
+          "author": null,
+          "heuristic_score": 47,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "dave14gr8/Mzansi_Payroll_System_Dawid_Ebersohn",
+          "url": "https://github.com/dave14gr8/Mzansi_Payroll_System_Dawid_Ebersohn",
+          "source": "github_repositories",
+          "published_at": "2026-10-30T09:22:09Z",
+          "author": null,
+          "heuristic_score": 61,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "Payroll, HR and Tax Services | ADP Official Site",
+          "url": "https://www.adp.com/",
+          "source": "bing_rss",
+          "published_at": "Thu, 29 Oct 2026 21:46:00 GMT",
+          "author": null,
+          "heuristic_score": 30,
+          "verified_willingness_to_pay": false
+        }
+      ],
+      "source_health": {
+        "github_repos": "ok",
+        "github_issues": "ok",
+        "google_news_rss": "error",
+        "duckduckgo": "degraded",
+        "reddit": "degraded",
+        "hackernews_ask": "ok"
+      },
+      "unreliable_sources": [
+        "google_news_rss",
+        "duckduckgo",
+        "reddit"
+      ],
+      "evidence_gaps": [
+        "independent_firsthand_user_reports",
+        "exact_local_keyword_search_volume",
+        "keyword_difficulty",
+        "CPC_and_advertiser_demand",
+        "local_SERP_competitor_traffic_and_content_gap",
+        "willingness_to_pay_or_verified_ads_business_model"
+      ],
+      "metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc_usd": null,
+        "country": "US",
+        "data_source": null,
+        "checked_at": null,
+        "verified_by_human": false
+      },
+      "search_validation_actions": [
+        "Identify exact search query used by customers (not the discovery string).",
+        "Check country-specific Volume, KD, CPC and cite provider and date.",
+        "Verify local SERP type, target competitors, site traffic and feasibility.",
+        "Find >=2 attributable, independent firsthand accounts of the same problem.",
+        "Test ad/SaaS monetization and budget; do not propose a build before validation."
+      ],
+      "may_be_recommended_for_build": false,
+      "note": "No verified keyword or monetization data; query is a research prompt only.",
+      "keyword_research": {
+        "country": "US",
+        "language": "en",
+        "exact_terms_to_check": [
+          "payroll integration software",
+          "payroll integration errors",
+          "payroll API integration"
+        ],
+        "hypotheses_only": true,
+        "original_website_keywords_unchanged": true,
+        "monthly_search_volumes": null,
+        "keyword_difficulties": null,
+        "cpc_values": null,
+        "evidence_provider": null,
+        "market_serp_checked": false,
+        "monetization_hypothesis": "B2B integrations or compliance tool; paid intent unverified",
+        "needs_manual_volume_kd_cpc_validation": true
+      },
+      "history": {
+        "history_window_days": 14,
+        "prior_archive_days_scanned": 14,
+        "previous_days_in_same_research_area": 6,
+        "previous_days_with_exact_query": 6,
+        "new_firsthand_urls_in_saved_sample": 0,
+        "returning_firsthand_urls_in_saved_sample": 0,
+        "new_context_urls_in_saved_sample": 3,
+        "returning_context_urls_in_saved_sample": 1,
+        "historical_firsthand_urls_in_saved_sample": 0,
+        "historical_context_urls_in_saved_sample": 14,
+        "is_repeat_user_demand_verified": false,
+        "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
+      }
+    },
+    {
+      "id": "cc8de5df3779a3",
+      "market": "BR",
+      "language": "pt",
+      "research_topic": "payroll",
+      "research_intent": "payroll_error",
+      "query_used_for_discovery": "folha pagamento erro",
+      "keyword_candidate": null,
+      "keyword_is_validated": false,
+      "stage": "needs_firsthand_problem_evidence",
+      "priority": "source_research",
+      "firsthand_evidence_count": 0,
+      "attributable_independent_authors": 0,
+      "contextual_reference_count": 8,
+      "firsthand_evidence": [],
+      "contextual_references": [
+        {
+          "title": "Gabrielmachado01gg/Trabalho",
+          "url": "https://github.com/Gabrielmachado01gg/Trabalho",
+          "source": "github_repositories",
+          "published_at": "2024-02-27T00:28:58Z",
+          "author": null,
+          "heuristic_score": 31,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "PedroFerrari01/Rh-Folha",
+          "url": "https://github.com/PedroFerrari01/Rh-Folha",
+          "source": "github_repositories",
+          "published_at": "2026-09-16T23:53:40Z",
+          "author": null,
+          "heuristic_score": 50,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "pittet5/Sistema-Simples-de-Folha-de-Pagamento",
+          "url": "https://github.com/pittet5/Sistema-Simples-de-Folha-de-Pagamento",
+          "source": "github_repositories",
+          "published_at": "2026-09-08T22:36:47Z",
+          "author": null,
+          "heuristic_score": 50,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "johnrosik/folha-pagamento-gqs",
+          "url": "https://github.com/johnrosik/folha-pagamento-gqs",
+          "source": "github_repositories",
+          "published_at": "2026-10-06T23:10:45Z",
+          "author": null,
+          "heuristic_score": 56,
+          "verified_willingness_to_pay": false
+        }
+      ],
+      "source_health": {
+        "github_repos": "ok",
+        "github_issues": "ok",
+        "google_news_rss": "error",
+        "duckduckgo": "degraded",
+        "reddit": "degraded"
+      },
+      "unreliable_sources": [
+        "google_news_rss",
+        "duckduckgo",
+        "reddit"
+      ],
+      "evidence_gaps": [
+        "independent_firsthand_user_reports",
+        "exact_local_keyword_search_volume",
+        "keyword_difficulty",
+        "CPC_and_advertiser_demand",
+        "local_SERP_competitor_traffic_and_content_gap",
+        "willingness_to_pay_or_verified_ads_business_model"
+      ],
+      "metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc_usd": null,
+        "country": "BR",
+        "data_source": null,
+        "checked_at": null,
+        "verified_by_human": false
+      },
+      "search_validation_actions": [
+        "Identify exact search query used by customers (not the discovery string).",
+        "Check country-specific Volume, KD, CPC and cite provider and date.",
+        "Verify local SERP type, target competitors, site traffic and feasibility.",
+        "Find >=2 attributable, independent firsthand accounts of the same problem.",
+        "Test ad/SaaS monetization and budget; do not propose a build before validation."
+      ],
+      "may_be_recommended_for_build": false,
+      "note": "No verified keyword or monetization data; query is a research prompt only.",
+      "keyword_research": {
+        "country": "BR",
+        "language": "pt-BR",
+        "exact_terms_to_check": [
+          "erro folha de pagamento",
+          "conferência folha de pagamento",
+          "cálculo folha de pagamento online"
+        ],
+        "hypotheses_only": true,
+        "original_website_keywords_unchanged": true,
+        "monthly_search_volumes": null,
+        "keyword_difficulties": null,
+        "cpc_values": null,
+        "evidence_provider": null,
+        "market_serp_checked": false,
+        "monetization_hypothesis": "Brazil payroll checker / B2B SaaS; paid intent unverified",
+        "needs_manual_volume_kd_cpc_validation": true
+      },
+      "history": {
+        "history_window_days": 14,
+        "prior_archive_days_scanned": 14,
+        "previous_days_in_same_research_area": 6,
+        "previous_days_with_exact_query": 6,
+        "new_firsthand_urls_in_saved_sample": 0,
+        "returning_firsthand_urls_in_saved_sample": 0,
+        "new_context_urls_in_saved_sample": 3,
+        "returning_context_urls_in_saved_sample": 1,
+        "historical_firsthand_urls_in_saved_sample": 0,
+        "historical_context_urls_in_saved_sample": 15,
+        "is_repeat_user_demand_verified": false,
+        "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
+      }
+    },
+    {
+      "id": "48806b59dcbbad",
+      "market": "BR",
+      "language": "pt",
+      "research_topic": "tax_compliance",
+      "research_intent": "manual_invoice_pain",
+      "query_used_for_discovery": "nota fiscal planilha",
+      "keyword_candidate": null,
+      "keyword_is_validated": false,
+      "stage": "needs_firsthand_problem_evidence",
+      "priority": "source_research",
+      "firsthand_evidence_count": 0,
+      "attributable_independent_authors": 0,
+      "contextual_reference_count": 4,
+      "firsthand_evidence": [],
+      "contextual_references": [
+        {
+          "title": "aaronscienceh-sudo/bot-fiscal",
+          "url": "https://github.com/aaronscienceh-sudo/bot-fiscal",
+          "source": "github_repositories",
+          "published_at": "2026-10-14T02:03:17Z",
+          "author": null,
+          "heuristic_score": 62,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "pedrohenrif/api-nota-fiscal",
+          "url": "https://github.com/pedrohenrif/api-nota-fiscal",
+          "source": "github_repositories",
+          "published_at": "2026-06-18T18:33:49Z",
+          "author": null,
+          "heuristic_score": 47,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "DaniloMaranha/fluxo-de-pagamento-de-nota-fiscal",
+          "url": "https://github.com/DaniloMaranha/fluxo-de-pagamento-de-nota-fiscal",
+          "source": "github_repositories",
+          "published_at": "2026-10-30T19:13:02Z",
+          "author": null,
+          "heuristic_score": 61,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "NOTA | M&T Bank - trustnota.com",
+          "url": "https://www.mtb.com/business/nota",
+          "source": "bing_rss",
+          "published_at": "Fri, 30 Oct 2026 05:39:00 GMT",
+          "author": null,
+          "heuristic_score": 30,
+          "verified_willingness_to_pay": false
+        }
+      ],
+      "source_health": {
+        "github_repos": "ok",
+        "github_issues": "ok",
+        "google_news_rss": "error",
+        "duckduckgo": "degraded",
+        "reddit": "degraded"
+      },
+      "unreliable_sources": [
+        "google_news_rss",
+        "duckduckgo",
+        "reddit"
+      ],
+      "evidence_gaps": [
+        "independent_firsthand_user_reports",
+        "exact_local_keyword_search_volume",
+        "keyword_difficulty",
+        "CPC_and_advertiser_demand",
+        "local_SERP_competitor_traffic_and_content_gap",
+        "willingness_to_pay_or_verified_ads_business_model"
+      ],
+      "metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc_usd": null,
+        "country": "BR",
+        "data_source": null,
+        "checked_at": null,
+        "verified_by_human": false
+      },
+      "search_validation_actions": [
+        "Identify exact search query used by customers (not the discovery string).",
+        "Check country-specific Volume, KD, CPC and cite provider and date.",
+        "Verify local SERP type, target competitors, site traffic and feasibility.",
+        "Find >=2 attributable, independent firsthand accounts of the same problem.",
+        "Test ad/SaaS monetization and budget; do not propose a build before validation."
+      ],
+      "may_be_recommended_for_build": false,
+      "note": "No verified keyword or monetization data; query is a research prompt only.",
+      "keyword_research": {
+        "country": "BR",
+        "language": "pt-BR",
+        "exact_terms_to_check": [
+          "controle de notas fiscais planilha",
+          "conciliação de notas fiscais",
+          "emissor de nota fiscal online"
+        ],
+        "hypotheses_only": true,
+        "original_website_keywords_unchanged": true,
+        "monthly_search_volumes": null,
+        "keyword_difficulties": null,
+        "cpc_values": null,
+        "evidence_provider": null,
+        "market_serp_checked": false,
+        "monetization_hypothesis": "Brazil compliance utility or SaaS; applicability unverified",
+        "needs_manual_volume_kd_cpc_validation": true
+      },
+      "history": {
+        "history_window_days": 14,
+        "prior_archive_days_scanned": 14,
+        "previous_days_in_same_research_area": 7,
+        "previous_days_with_exact_query": 7,
+        "new_firsthand_urls_in_saved_sample": 0,
+        "returning_firsthand_urls_in_saved_sample": 0,
+        "new_context_urls_in_saved_sample": 3,
+        "returning_context_urls_in_saved_sample": 1,
+        "historical_firsthand_urls_in_saved_sample": 0,
+        "historical_context_urls_in_saved_sample": 22,
+        "is_repeat_user_demand_verified": false,
+        "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
+      }
+    },
+    {
+      "id": "8d14902a14a01e",
+      "market": "MX",
+      "language": "es",
+      "research_topic": "payroll",
+      "research_intent": "manual_payroll_pain",
+      "query_used_for_discovery": "nómina excel errores",
+      "keyword_candidate": null,
+      "keyword_is_validated": false,
+      "stage": "needs_firsthand_problem_evidence",
+      "priority": "source_research",
+      "firsthand_evidence_count": 0,
+      "attributable_independent_authors": 0,
+      "contextual_reference_count": 4,
+      "firsthand_evidence": [],
+      "contextual_references": [
+        {
+          "title": "Camilo1408/Nomina-Xpress",
+          "url": "https://github.com/Camilo1408/Nomina-Xpress",
+          "source": "github_repositories",
+          "published_at": "2026-05-06T04:37:16Z",
+          "author": null,
+          "heuristic_score": 47,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "Ladydlozada/dashboard-rrhh-nomina",
+          "url": "https://github.com/Ladydlozada/dashboard-rrhh-nomina",
+          "source": "github_repositories",
+          "published_at": "2026-10-21T18:17:26Z",
+          "author": null,
+          "heuristic_score": 56,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "7Freeza/liquidador-nomina",
+          "url": "https://github.com/7Freeza/liquidador-nomina",
+          "source": "github_repositories",
+          "published_at": "2026-10-05T16:59:45Z",
+          "author": null,
+          "heuristic_score": 56,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "JesusAlonsoMorales/Automatizacion-partes-de-trabajo",
+          "url": "https://github.com/JesusAlonsoMorales/Automatizacion-partes-de-trabajo",
+          "source": "github_repositories",
+          "published_at": "2026-09-03T18:52:43Z",
+          "author": null,
+          "heuristic_score": 66,
+          "verified_willingness_to_pay": false
+        }
+      ],
+      "source_health": {
+        "github_repos": "ok",
+        "github_issues": "ok",
+        "google_news_rss": "error",
+        "duckduckgo": "degraded",
+        "reddit": "degraded"
+      },
+      "unreliable_sources": [
+        "google_news_rss",
+        "duckduckgo",
+        "reddit"
+      ],
+      "evidence_gaps": [
+        "independent_firsthand_user_reports",
+        "exact_local_keyword_search_volume",
+        "keyword_difficulty",
+        "CPC_and_advertiser_demand",
+        "local_SERP_competitor_traffic_and_content_gap",
+        "willingness_to_pay_or_verified_ads_business_model"
+      ],
+      "metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc_usd": null,
+        "country": "MX",
+        "data_source": null,
+        "checked_at": null,
+        "verified_by_human": false
+      },
+      "search_validation_actions": [
+        "Identify exact search query used by customers (not the discovery string).",
+        "Check country-specific Volume, KD, CPC and cite provider and date.",
+        "Verify local SERP type, target competitors, site traffic and feasibility.",
+        "Find >=2 attributable, independent firsthand accounts of the same problem.",
+        "Test ad/SaaS monetization and budget; do not propose a build before validation."
+      ],
+      "may_be_recommended_for_build": false,
+      "note": "No verified keyword or monetization data; query is a research prompt only.",
+      "keyword_research": {
+        "country": "MX",
+        "language": "es-MX",
+        "exact_terms_to_check": [
+          "nómina excel",
+          "calculadora de nómina México",
+          "errores de nómina"
+        ],
+        "hypotheses_only": true,
+        "original_website_keywords_unchanged": true,
+        "monthly_search_volumes": null,
+        "keyword_difficulties": null,
+        "cpc_values": null,
+        "evidence_provider": null,
+        "market_serp_checked": false,
+        "monetization_hypothesis": "Mexico payroll checker; paid intent unverified",
+        "needs_manual_volume_kd_cpc_validation": true
+      },
+      "history": {
+        "history_window_days": 14,
+        "prior_archive_days_scanned": 14,
+        "previous_days_in_same_research_area": 6,
+        "previous_days_with_exact_query": 6,
+        "new_firsthand_urls_in_saved_sample": 0,
+        "returning_firsthand_urls_in_saved_sample": 0,
+        "new_context_urls_in_saved_sample": 0,
+        "returning_context_urls_in_saved_sample": 4,
+        "historical_firsthand_urls_in_saved_sample": 0,
+        "historical_context_urls_in_saved_sample": 5,
+        "is_repeat_user_demand_verified": false,
+        "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
+      }
+    },
+    {
+      "id": "ef5e541f2debb5",
+      "market": "MX",
+      "language": "es",
+      "research_topic": "tax_compliance",
+      "research_intent": "invoice_validation",
+      "query_used_for_discovery": "CFDI conciliación errores",
+      "keyword_candidate": null,
+      "keyword_is_validated": false,
+      "stage": "needs_firsthand_problem_evidence",
+      "priority": "source_research",
+      "firsthand_evidence_count": 0,
+      "attributable_independent_authors": 0,
+      "contextual_reference_count": 7,
+      "firsthand_evidence": [],
+      "contextual_references": [
+        {
+          "title": "JAD3M/Cuadra",
+          "url": "https://github.com/JAD3M/Cuadra",
+          "source": "github_repositories",
+          "published_at": "2026-10-13T19:10:52Z",
+          "author": null,
+          "heuristic_score": 72,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "ScrumMastermx/jarvis-accounting-warehouse",
+          "url": "https://github.com/ScrumMastermx/jarvis-accounting-warehouse",
+          "source": "github_repositories",
+          "published_at": "2026-10-25T02:59:14Z",
+          "author": null,
+          "heuristic_score": 77,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "merolhack/sat-fiscal-toolkit",
+          "url": "https://github.com/merolhack/sat-fiscal-toolkit",
+          "source": "github_repositories",
+          "published_at": "2026-10-16T02:25:00Z",
+          "author": null,
+          "heuristic_score": 72,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "CONTPAQi CFDI Facturación en línea (CFDI9029)",
+          "url": "https://www.cfdi.com.mx/login",
+          "source": "bing_rss",
+          "published_at": "Fri, 30 Oct 2026 17:27:00 GMT",
+          "author": null,
+          "heuristic_score": 30,
+          "verified_willingness_to_pay": false
+        }
+      ],
+      "source_health": {
+        "github_repos": "ok",
+        "github_issues": "ok",
+        "google_news_rss": "error",
+        "duckduckgo": "degraded",
+        "reddit": "degraded"
+      },
+      "unreliable_sources": [
+        "google_news_rss",
+        "duckduckgo",
+        "reddit"
+      ],
+      "evidence_gaps": [
+        "independent_firsthand_user_reports",
+        "exact_local_keyword_search_volume",
+        "keyword_difficulty",
+        "CPC_and_advertiser_demand",
+        "local_SERP_competitor_traffic_and_content_gap",
+        "willingness_to_pay_or_verified_ads_business_model"
+      ],
+      "metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc_usd": null,
+        "country": "MX",
+        "data_source": null,
+        "checked_at": null,
+        "verified_by_human": false
+      },
+      "search_validation_actions": [
+        "Identify exact search query used by customers (not the discovery string).",
+        "Check country-specific Volume, KD, CPC and cite provider and date.",
+        "Verify local SERP type, target competitors, site traffic and feasibility.",
+        "Find >=2 attributable, independent firsthand accounts of the same problem.",
+        "Test ad/SaaS monetization and budget; do not propose a build before validation."
+      ],
+      "may_be_recommended_for_build": false,
+      "note": "No verified keyword or monetization data; query is a research prompt only.",
+      "keyword_research": {
+        "country": "MX",
+        "language": "es-MX",
+        "exact_terms_to_check": [
+          "conciliación de CFDI",
+          "validador CFDI SAT",
+          "errores CFDI SAT"
+        ],
+        "hypotheses_only": true,
+        "original_website_keywords_unchanged": true,
+        "monthly_search_volumes": null,
+        "keyword_difficulties": null,
+        "cpc_values": null,
+        "evidence_provider": null,
+        "market_serp_checked": false,
+        "monetization_hypothesis": "Mexican CFDI validation/checker; paid intent unverified",
+        "needs_manual_volume_kd_cpc_validation": true
+      },
+      "history": {
+        "history_window_days": 14,
+        "prior_archive_days_scanned": 14,
+        "previous_days_in_same_research_area": 7,
+        "previous_days_with_exact_query": 7,
+        "new_firsthand_urls_in_saved_sample": 0,
+        "returning_firsthand_urls_in_saved_sample": 0,
+        "new_context_urls_in_saved_sample": 1,
+        "returning_context_urls_in_saved_sample": 3,
+        "historical_firsthand_urls_in_saved_sample": 0,
+        "historical_context_urls_in_saved_sample": 5,
+        "is_repeat_user_demand_verified": false,
+        "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
+      }
+    },
+    {
+      "id": "6c9ea8bece4a2c",
+      "market": "Worldwide",
+      "language": "multi",
+      "research_topic": "seed_rising",
+      "research_intent": "emerging_query",
+      "query_used_for_discovery": "youtube to mp3 player converter app",
+      "keyword_candidate": "youtube to mp3 player converter app",
+      "keyword_is_validated": false,
+      "stage": "needs_firsthand_problem_evidence",
+      "priority": "source_research",
+      "firsthand_evidence_count": 0,
+      "attributable_independent_authors": 0,
+      "contextual_reference_count": 4,
+      "firsthand_evidence": [],
+      "contextual_references": [
+        {
+          "title": "Free YT to MP3 Converter - Download and install on Windows | Microsoft ...",
+          "url": "https://apps.microsoft.com/detail/xpff8bd2wh4f5x",
+          "source": "bing_rss",
+          "published_at": "Fri, 30 Oct 2026 01:28:00 GMT",
+          "author": null,
+          "heuristic_score": 32,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "YTMP3 YT Music Download - Free download and install on Windows ...",
+          "url": "https://apps.microsoft.com/detail/9nvcwszcj909?hl=en-US&gl=US",
+          "source": "bing_rss",
+          "published_at": "Fri, 30 Oct 2026 01:07:00 GMT",
+          "author": null,
+          "heuristic_score": 26,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "Best free YouTube to MP3 converter of 2026 - TechRadar",
+          "url": "https://www.techradar.com/best/youtube-to-mp3-converter",
+          "source": "bing_rss",
+          "published_at": "Thu, 29 Oct 2026 21:46:00 GMT",
+          "author": null,
+          "heuristic_score": 26,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "YouTube To Mp3 Converter APK for Android Download - APKPure.com",
+          "url": "https://apkpure.com/youtube-to-mp3-converter/com.youtubetomp3converterpro.youtubetomp3converter",
+          "source": "bing_rss",
+          "published_at": "Fri, 30 Oct 2026 02:40:00 GMT",
+          "author": null,
+          "heuristic_score": 32,
+          "verified_willingness_to_pay": false
+        }
+      ],
+      "source_health": {
+        "github_repos": "empty",
+        "github_issues": "ok",
+        "google_news_rss": "error",
+        "duckduckgo": "degraded",
+        "reddit": "ok"
+      },
+      "unreliable_sources": [
+        "google_news_rss",
+        "duckduckgo"
+      ],
+      "evidence_gaps": [
+        "independent_firsthand_user_reports",
+        "exact_local_keyword_search_volume",
+        "keyword_difficulty",
+        "CPC_and_advertiser_demand",
+        "local_SERP_competitor_traffic_and_content_gap",
+        "willingness_to_pay_or_verified_ads_business_model"
+      ],
+      "metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc_usd": null,
+        "country": "Worldwide",
+        "data_source": null,
+        "checked_at": null,
+        "verified_by_human": false
+      },
+      "search_validation_actions": [
+        "Identify exact search query used by customers (not the discovery string).",
+        "Check country-specific Volume, KD, CPC and cite provider and date.",
+        "Verify local SERP type, target competitors, site traffic and feasibility.",
+        "Find >=2 attributable, independent firsthand accounts of the same problem.",
+        "Test ad/SaaS monetization and budget; do not propose a build before validation."
+      ],
+      "may_be_recommended_for_build": false,
+      "note": "No verified keyword or monetization data; query is a research prompt only.",
+      "keyword_research": {
+        "country": "Worldwide",
+        "language": "multi",
+        "exact_terms_to_check": [],
+        "hypotheses_only": true,
+        "original_website_keywords_unchanged": true,
+        "monthly_search_volumes": null,
+        "keyword_difficulties": null,
+        "cpc_values": null,
+        "evidence_provider": null,
+        "market_serp_checked": false,
+        "monetization_hypothesis": "Undetermined; validate business model",
+        "needs_manual_volume_kd_cpc_validation": true
+      },
+      "history": {
+        "history_window_days": 14,
+        "prior_archive_days_scanned": 14,
+        "previous_days_in_same_research_area": 4,
+        "previous_days_with_exact_query": 0,
+        "new_firsthand_urls_in_saved_sample": 0,
+        "returning_firsthand_urls_in_saved_sample": 0,
+        "new_context_urls_in_saved_sample": 4,
+        "returning_context_urls_in_saved_sample": 0,
+        "historical_firsthand_urls_in_saved_sample": 0,
+        "historical_context_urls_in_saved_sample": 5,
+        "is_repeat_user_demand_verified": false,
+        "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
+      }
+    }
+  ],
+  "rules": [
+    "Never infer Volume/KD/CPC from free search or Trends relative indices.",
+    "Independent evidence requires distinct attributable originators, not links or repeated listings.",
+    "Even independent pain does not prove local organic demand or willingness to pay.",
+    "Continue scanning when no opportunity qualifies; never invent 1-3 candidates."
+  ],
+  "historical_analysis": {
+    "lookback_days": 14,
+    "prior_archive_days_found": 14,
+    "prior_archive_dates": [
+      "2026-10-17",
+      "2026-10-18",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30"
+    ],
+    "unreadable_archive_files": [],
+    "confidence": "observation_only",
+    "metrics_verified": false,
+    "independent_users_inferred_from_repeat_urls": 0
+  }
+}
