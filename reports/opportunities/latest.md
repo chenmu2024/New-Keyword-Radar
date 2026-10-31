@@ -1,8 +1,8 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-31T08:21:58.993171+00:00
+- Updated (UTC): 2026-10-31T15:42:42.195680+00:00
 - Historical candidates: 2722
-- Newly recorded from pending: 83
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 573
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
@@ -13,6 +13,7 @@
 - jackery explorer 1000 v2 [Global] — discovered — first 2026-10-31, last 2026-10-31
 - swindon designer outlet [Global] — discovered — first 2026-10-31, last 2026-10-31
 - dune music composer [Global] — discovered — first 2026-10-31, last 2026-10-31
+- binance criptomonedas [MX] — discovered — first 2026-10-31, last 2026-10-31
 - responder github [Global] — discovered — first 2026-10-31, last 2026-10-31
 - coyle hospitality evaluator [Global] — discovered — first 2026-10-31, last 2026-10-31
 - heated cake scraper [Global] — discovered — first 2026-10-31, last 2026-10-31
@@ -20,20 +21,19 @@
 - prime minister's youth programme [Global] — discovered — first 2026-10-31, last 2026-10-31
 - cpsc coffee maker safety recall [Global] — discovered — first 2026-10-31, last 2026-10-31
 - comparator tarife energie electrica [Global] — discovered — first 2026-10-31, last 2026-10-31
+- doordash instacart acquisition [Global] — discovered — first 2026-10-31, last 2026-10-31
+- dublin marathon 2026 times [Global] — discovered — first 2026-10-31, last 2026-10-31
 - run3 [Global] — discovered — first 2026-10-31, last 2026-10-31
 - who is considered a first responder [Global] — discovered — first 2026-10-31, last 2026-10-31
+- arnab cyclone tracker live [Global] — discovered — first 2026-10-31, last 2026-10-31
 - pick up notifier [Global] — discovered — first 2026-10-31, last 2026-10-31
 - tiktokio video downloader [Global] — discovered — first 2026-10-31, last 2026-10-31
 - netlify [Global] — discovered — first 2026-10-31, last 2026-10-31
 - golf wang [Global] — discovered — first 2026-10-31, last 2026-10-31
 - calico meaning [Global] — discovered — first 2026-10-31, last 2026-10-31
+- warriors - lakers [ES] — discovered — first 2026-10-31, last 2026-10-31
 - superman symbol [Global] — discovered — first 2026-10-31, last 2026-10-31
-- ride a pet notifier [Global] — discovered — first 2026-10-31, last 2026-10-31
-- rws train ai [Global] — discovered — first 2026-10-31, last 2026-10-31
-- online casino 2026 🇩🇪 www.heinrichcasino.online [Global] — discovered — first 2026-10-31, last 2026-10-31
-- fake 49ers wide receiver [Global] — discovered — first 2026-10-31, last 2026-10-31
-- dia do designer de interiores [Global] — discovered — first 2026-10-31, last 2026-10-31
-- brewers manager [Global] — discovered — first 2026-10-31, last 2026-10-31
+- winnita bonus 🇮🇹 casin4ita.site [Global] — discovered — first 2026-10-31, last 2026-10-31
 
 ## Due for follow-up
 
