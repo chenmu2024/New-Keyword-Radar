@@ -1,34 +1,34 @@
-# Sitemap delta research — 2026-10-31
+# Sitemap delta research — 2026-11-01
 
-Cross-site signature ledger: 1743/30000 last-seven-day URL proof records; 575 new light-weight proofs; 0 still omitted by per-source safety limit.
+Cross-site signature ledger: 1881/30000 last-seven-day URL proof records; 138 new light-weight proofs; 0 still omitted by per-source safety limit.
 Unverified leads only. Baseline URL snapshots are NOT discoveries.
-Sources succeeded: 127/135; new URLs: 591; candidate URL leads: 530; first-time keyword/geo research leads: 522; reappeared URLs: 3; retained queue: 3219. Neither URL changes nor leads establish search demand.
+Sources succeeded: 127/135; new URLs: 170; candidate URL leads: 138; first-time keyword/geo research leads: 133; reappeared URLs: 16; retained queue: 3352. Neither URL changes nor leads establish search demand.
 
 ## Sources
 
-- crazygames-en: delta; 11 new URLs; 5398 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- crazygames-br: delta; 2 new URLs; 5389 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- crazygames-es: delta; 2 new URLs; 5389 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- gamepix-en: delta; 0 new URLs; 19566 pages; removed 18; reappeared 0; candidate scan cap skipped 0
-- gamepix-pt: delta; 38 new URLs; 19584 pages; removed 1; reappeared 0; candidate scan cap skipped 0
-- minijuegos-es: delta; 2 new URLs; 27561 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-en: delta; 0 new URLs; 5398 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-br: delta; 9 new URLs; 5398 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-es: delta; 9 new URLs; 5398 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- gamepix-en: delta; 0 new URLs; 19524 pages; removed 54; reappeared 12; candidate scan cap skipped 0
+- gamepix-pt: delta; 0 new URLs; 19584 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- minijuegos-es: delta; 0 new URLs; 27560 pages; removed 1; reappeared 0; candidate scan cap skipped 0
 - friv-en: delta; 0 new URLs; 1183 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculator-soup: delta; 0 new URLs; 502 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- vercel-product-watch: delta; 1 new URLs; 2702 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- vercel-product-watch: delta; 0 new URLs; 2702 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - n8n-workflows: delta; 0 new URLs; 13766 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- railway-templates: delta; 91 new URLs; 7427 pages; removed 12; reappeared 0; candidate scan cap skipped 0
-- railway-changelog: delta; 1 new URLs; 314 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- railway-templates: delta; 68 new URLs; 7495 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- railway-changelog: delta; 0 new URLs; 314 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - apify-actors-a: delta; 0 new URLs; 5944 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - apify-actors-z: delta; 0 new URLs; 5484 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - futurepedia-tools: delta; 0 new URLs; 2499 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - netlify-product-watch: delta; 0 new URLs; 758 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - onlinetools-br: delta; 0 new URLs; 109 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- producthunt-products: delta; 19 new URLs; 21756 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- y8-en: delta; 50 new URLs; 35175 pages; removed 4; reappeared 0; candidate scan cap skipped 0
+- producthunt-products: delta; 0 new URLs; 21756 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- y8-en: delta; 0 new URLs; 35175 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - silvergames-en: delta; 0 new URLs; 6408 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - kizi-en: delta; 0 new URLs; 6009 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - onlinegames-en: delta; 0 new URLs; 1288 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- playgama-en: delta; 59 new URLs; 483 pages; removed 17; reappeared 0; candidate scan cap skipped 0
+- playgama-en: delta; 0 new URLs; 483 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamearter-en: delta; 0 new URLs; 2324 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamesgames-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 403: Forbidden
 - agame-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 403: Forbidden
@@ -36,18 +36,18 @@ Sources succeeded: 127/135; new URLs: 591; candidate URL leads: 530; first-time 
 - famobi-en: delta; 0 new URLs; 0 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamezop-en: delta; 0 new URLs; 257 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - bgames-en: delta; 0 new URLs; 4520 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- playhop-en: delta; 0 new URLs; 20660 pages; removed 1; reappeared 0; candidate scan cap skipped 0
+- playhop-en: delta; 0 new URLs; 20660 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamecomets-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 403: Forbidden
 - gamenora-en: delta; 0 new URLs; 3702 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - 1001games-en: delta; 0 new URLs; 2401 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - toolify-products: delta; 0 new URLs; 2000 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- futuretools-products: delta; 0 new URLs; 4486 pages; removed 3; reappeared 0; candidate scan cap skipped 0
-- uneed-products: delta; 30 new URLs; 11476 pages; removed 8; reappeared 0; candidate scan cap skipped 0
+- futuretools-products: delta; 10 new URLs; 4496 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- uneed-products: delta; 0 new URLs; 11476 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - poki-en: delta; 0 new URLs; 1503 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- gamedistribution-games: delta; 2 new URLs; 30788 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- gamedistribution-games: delta; 10 new URLs; 30798 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamepost-games: delta; 0 new URLs; 12229 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- devhunt-tools: delta; 9 new URLs; 6595 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- fazier-launches: delta; 38 new URLs; 9044 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- devhunt-tools: delta; 3 new URLs; 6598 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- fazier-launches: delta; 3 new URLs; 9047 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aiapps-tools: delta; 0 new URLs; 2087 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - findmyaitool-tools: delta; 0 new URLs; 500 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aixploria-tools: delta; 0 new URLs; 22 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -66,35 +66,35 @@ Sources succeeded: 127/135; new URLs: 591; candidate URL leads: 530; first-time 
 - yiv-games: delta; 0 new URLs; 5596 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamegame-en: delta; 0 new URLs; 1887 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamesfrog-en: delta; 0 new URLs; 5000 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- saasworthy-products: delta; 166 new URLs; 27111 pages; removed 0; reappeared 0; candidate scan cap skipped 45
+- saasworthy-products: delta; 0 new URLs; 27111 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - startupstash-tools: delta; 0 new URLs; 998 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - microlaunch-products: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; TimeoutError: The read operation timed out
 - smollaunch-products: delta; 0 new URLs; 1920 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - startupsfyi-products: delta; 0 new URLs; 1161 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - openhunts-projects: delta; 0 new URLs; 3903 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- toolfound-products: delta; 0 new URLs; 147 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- indieneed-products: delta; 12 new URLs; 618 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- indietools-products: delta; 3 new URLs; 200 pages; removed 3; reappeared 0; candidate scan cap skipped 0
-- startupbase-products: delta; 13 new URLs; 4660 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- pitchwall-products: delta; 9 new URLs; 500 pages; removed 9; reappeared 0; candidate scan cap skipped 0
-- saascity-products: delta; 5 new URLs; 1123 pages; removed 1; reappeared 0; candidate scan cap skipped 0
-- fridayhunt-projects: delta; 0 new URLs; 305 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- productperch-products: delta; 13 new URLs; 363 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- toolfound-products: delta; 2 new URLs; 149 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- indieneed-products: delta; 0 new URLs; 618 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- indietools-products: delta; 0 new URLs; 200 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- startupbase-products: delta; 0 new URLs; 4659 pages; removed 1; reappeared 0; candidate scan cap skipped 0
+- pitchwall-products: delta; 0 new URLs; 500 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- saascity-products: delta; 10 new URLs; 1134 pages; removed 0; reappeared 1; candidate scan cap skipped 0
+- fridayhunt-projects: delta; 9 new URLs; 314 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- productperch-products: delta; 9 new URLs; 372 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - launchscaler-products: delta; 0 new URLs; 7 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- aitoolsdirectory-tools: delta; 1 new URLs; 771 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- aitoolnet-tools: delta; 0 new URLs; 22988 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- aitoptools-tools: delta; 2 new URLs; 11245 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- aitoolsdirectory-tools: delta; 2 new URLs; 773 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- aitoolnet-tools: delta; 7 new URLs; 22995 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- aitoptools-tools: delta; 0 new URLs; 11245 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aitoolsinc-tools: delta; 0 new URLs; 2739 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aiagentslist-agents: delta; 0 new URLs; 636 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aiforwork-tools: delta; 0 new URLs; 10 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aitoolhouse-tools: delta; 0 new URLs; 3904 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - nextool-tools: delta; 0 new URLs; 1000 pages; removed 3; reappeared 3; candidate scan cap skipped 0
 - aitoolboard-tools: delta; 0 new URLs; 5480 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- aiagentstore-agents: delta; 2 new URLs; 908 pages; removed 3; reappeared 0; candidate scan cap skipped 0
-- dangai-tools: delta; 1 new URLs; 7600 pages; removed 19; reappeared 0; candidate scan cap skipped 0
-- opentools-tools: delta; 2 new URLs; 6600 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- aiagentstore-agents: delta; 0 new URLs; 908 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- dangai-tools: delta; 1 new URLs; 7601 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- opentools-tools: delta; 0 new URLs; 6600 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - toolworthy-ai-tools: delta; 0 new URLs; 1892 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- tooldirectory-ai-tools: delta; 0 new URLs; 2827 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- tooldirectory-ai-tools: delta; 17 new URLs; 2842 pages; removed 2; reappeared 0; candidate scan cap skipped 0
 - toolveyor-tools: delta; 0 new URLs; 1259 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - inchcalculator-tools: delta; 0 new URLs; 144 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculla-calculators: delta; 0 new URLs; 1533 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -118,20 +118,20 @@ Sources succeeded: 127/135; new URLs: 591; candidate URL leads: 530; first-time 
 - convertfiles-tools: delta; 0 new URLs; 26035 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - resizepixel-tools: delta; 0 new URLs; 49 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - pixlr-tools: delta; 0 new URLs; 138 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- fotor-features: delta; 2 new URLs; 2167 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- fotor-features: delta; 0 new URLs; 2167 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - redketchup-tools: delta; 0 new URLs; 13 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - pdfcandy-tools: delta; 0 new URLs; 125 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - iloveimg-tools: delta; 0 new URLs; 43 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - pdfescape-tools: delta; 0 new URLs; 21 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - make-templates: delta; 0 new URLs; 0 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - pipedream-actions: delta; 0 new URLs; 11665 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- ifttt-services: delta; 0 new URLs; 1069 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- ifttt-services: delta; 1 new URLs; 1070 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - activepieces-pieces: delta; 0 new URLs; 3773 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - trigger-product: delta; 0 new URLs; 226 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - planetscale-changelog: delta; 0 new URLs; 372 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - neon-product: delta; 0 new URLs; 0 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - modal-changelog: delta; 0 new URLs; 188 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- replicate-models: delta; 4 new URLs; 6166 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- replicate-models: delta; 0 new URLs; 6166 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - invertexto-br: delta; 0 new URLs; 150 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - 4devs-br: delta; 0 new URLs; 128 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - freedevs-br: delta; 0 new URLs; 67 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -140,69 +140,69 @@ Sources succeeded: 127/135; new URLs: 591; candidate URL leads: 530; first-time 
 - ferramentasdodia-br: delta; 0 new URLs; 133 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - rankbox-br: delta; 0 new URLs; 13 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - tautil-br: delta; 0 new URLs; 12 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- cicerotools-br: delta; 1 new URLs; 64 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- cicerotools-br: delta; 0 new URLs; 64 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 
 ## New URL leads (not proven new keywords)
 
-- [sky haulers mau](https://www.crazygames.com/game/sky-haulers-mau) — crazygames-en / US
-- [sort em quacks qlu](https://www.crazygames.com/game/sort-em-quacks-qlu) — crazygames-en / US
-- [dragon rider](https://www.crazygames.com/game/dragon-rider) — crazygames-en / US
-- [snowball rush tcp](https://www.crazygames.com/game/snowball-rush-tcp) — crazygames-en / US
-- [dualforce idle 2](https://www.crazygames.com/game/dualforce-idle-2) — crazygames-en / US
-- [pet fashion stylist](https://www.crazygames.com/game/pet-fashion-stylist) — crazygames-en / US
-- [glow up gym](https://www.crazygames.com/game/glow-up-gym) — crazygames-en / US
-- [sky isles flight sim 3d](https://www.crazygames.com/game/sky-isles-flight-sim-3d) — crazygames-en / US
-- [dragon rider](https://www.crazygames.com/br/game/dragon-rider) — crazygames-br / BR
-- [dualforce idle 2](https://www.crazygames.com/br/game/dualforce-idle-2) — crazygames-br / BR
-- [dualforce idle 2](https://www.crazygames.com/es/game/dualforce-idle-2) — crazygames-es / ES
-- [dragon rider](https://www.crazygames.com/es/game/dragon-rider) — crazygames-es / ES
-- [mosquito smash](https://www.gamepix.com/pt/play/mosquito-smash) — gamepix-pt / BR
-- [larrikin s leap](https://www.gamepix.com/pt/play/larrikin-s-leap) — gamepix-pt / BR
-- [sand color match](https://www.gamepix.com/pt/play/sand-color-match) — gamepix-pt / BR
-- [little monsters click merge battle](https://www.gamepix.com/pt/play/little-monsters-click-merge-battle) — gamepix-pt / BR
-- [pixel carousel](https://www.gamepix.com/pt/play/pixel-carousel) — gamepix-pt / BR
-- [runeheart](https://www.gamepix.com/pt/play/runeheart) — gamepix-pt / BR
-- [grove merge](https://www.gamepix.com/pt/play/grove-merge) — gamepix-pt / BR
-- [rodents chess](https://www.gamepix.com/pt/play/rodents-chess) — gamepix-pt / BR
-- [trick your brain puzzle](https://www.gamepix.com/pt/play/trick-your-brain-puzzle) — gamepix-pt / BR
-- [ghost lasso](https://www.gamepix.com/pt/play/ghost-lasso) — gamepix-pt / BR
-- [mobile phone case design diy](https://www.gamepix.com/pt/play/mobile-phone-case-design-diy) — gamepix-pt / BR
-- [color block escape](https://www.gamepix.com/pt/play/color-block-escape) — gamepix-pt / BR
-- [mahjong solitaire](https://www.gamepix.com/pt/play/mahjong-solitaire) — gamepix-pt / BR
-- [bloom circuit](https://www.gamepix.com/pt/play/bloom-circuit) — gamepix-pt / BR
-- [asmr girl livestream mukbang](https://www.gamepix.com/pt/play/asmr-girl-livestream-mukbang) — gamepix-pt / BR
-- [grill party](https://www.gamepix.com/pt/play/grill-party) — gamepix-pt / BR
-- [woolloop color puzzle](https://www.gamepix.com/pt/play/woolloop-color-puzzle) — gamepix-pt / BR
-- [underground circuit](https://www.gamepix.com/pt/play/underground-circuit) — gamepix-pt / BR
-- [spookily stylish duo](https://www.gamepix.com/pt/play/spookily-stylish-duo) — gamepix-pt / BR
-- [lumawild](https://www.gamepix.com/pt/play/lumawild) — gamepix-pt / BR
-- [lumen bastion](https://www.gamepix.com/pt/play/lumen-bastion) — gamepix-pt / BR
-- [ember moth](https://www.gamepix.com/pt/play/ember-moth) — gamepix-pt / BR
-- [glow sort](https://www.gamepix.com/pt/play/glow-sort) — gamepix-pt / BR
-- [lantern drift](https://www.gamepix.com/pt/play/lantern-drift) — gamepix-pt / BR
-- [mix match](https://www.gamepix.com/pt/play/mix-match) — gamepix-pt / BR
-- [supermarket tycoon](https://www.gamepix.com/pt/play/supermarket-tycoon) — gamepix-pt / BR
-- [kiki world](https://www.gamepix.com/pt/play/kiki-world) — gamepix-pt / BR
-- [pourline](https://www.gamepix.com/pt/play/pourline) — gamepix-pt / BR
-- [pulse shot](https://www.gamepix.com/pt/play/pulse-shot) — gamepix-pt / BR
-- [pack the bag](https://www.gamepix.com/pt/play/pack-the-bag) — gamepix-pt / BR
-- [antfall](https://www.gamepix.com/pt/play/antfall) — gamepix-pt / BR
-- [tailspin](https://www.gamepix.com/pt/play/tailspin) — gamepix-pt / BR
-- [workplace warfare](https://www.gamepix.com/pt/play/workplace-warfare) — gamepix-pt / BR
-- [sticker stack match](https://www.gamepix.com/pt/play/sticker-stack-match) — gamepix-pt / BR
-- [fieldpost](https://www.gamepix.com/pt/play/fieldpost) — gamepix-pt / BR
-- [anime couple avatar maker](https://www.gamepix.com/pt/play/anime-couple-avatar-maker) — gamepix-pt / BR
-- [paint escape](https://www.gamepix.com/pt/play/paint-escape) — gamepix-pt / BR
-- [the orange emperor](https://www.gamepix.com/pt/play/the-orange-emperor) — gamepix-pt / BR
-- [spooky halloween makeover](https://www.minijuegos.com/juego/spooky-halloween-makeover) — minijuegos-es / ES
-- [twilight onet connect](https://www.minijuegos.com/juego/twilight-onet-connect) — minijuegos-es / ES
-- [vercel daemons can now call services with bindings](https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings) — vercel-product-watch / US
-- [opengym v1 self hosted workout tracker](https://railway.com/deploy/opengym-v1-self-hosted-workout-tracker) — railway-templates / US
-- [dossier deploy dossier ai job search tracker](https://railway.com/deploy/dossier--deploy-dossier-ai-job-search-tracker) — railway-templates / US
-- [letta 1](https://railway.com/deploy/letta-1) — railway-templates / US
-- [elasticsearch 2](https://railway.com/deploy/elasticsearch-2) — railway-templates / US
-- [hermess](https://railway.com/deploy/hermess) — railway-templates / US
-- [vert 1](https://railway.com/deploy/vert-1) — railway-templates / US
-- [github release monitor github release mon 1](https://railway.com/deploy/github-release-monitor--github-release-mon-1) — railway-templates / US
+- [snowball rush tcp](https://www.crazygames.com/br/game/snowball-rush-tcp) — crazygames-br / BR
+- [sort em quacks qlu](https://www.crazygames.com/br/game/sort-em-quacks-qlu) — crazygames-br / BR
+- [sky haulers mau](https://www.crazygames.com/br/game/sky-haulers-mau) — crazygames-br / BR
+- [sky isles flight sim 3d](https://www.crazygames.com/br/game/sky-isles-flight-sim-3d) — crazygames-br / BR
+- [pet fashion stylist](https://www.crazygames.com/br/game/pet-fashion-stylist) — crazygames-br / BR
+- [glow up gym](https://www.crazygames.com/br/game/glow-up-gym) — crazygames-br / BR
+- [sky haulers mau](https://www.crazygames.com/es/game/sky-haulers-mau) — crazygames-es / ES
+- [snowball rush tcp](https://www.crazygames.com/es/game/snowball-rush-tcp) — crazygames-es / ES
+- [glow up gym](https://www.crazygames.com/es/game/glow-up-gym) — crazygames-es / ES
+- [sky isles flight sim 3d](https://www.crazygames.com/es/game/sky-isles-flight-sim-3d) — crazygames-es / ES
+- [pet fashion stylist](https://www.crazygames.com/es/game/pet-fashion-stylist) — crazygames-es / ES
+- [sort em quacks qlu](https://www.crazygames.com/es/game/sort-em-quacks-qlu) — crazygames-es / ES
+- [openseo ai visibility deploy openseo ai visibility tracker](https://railway.com/deploy/openseo-ai-visibility--deploy-openseo-ai-visibility-tracker) — railway-templates / US
+- [deploy sillytavern with deepseek](https://railway.com/deploy/deploy-sillytavern-with-deepseek) — railway-templates / US
+- [hyperswitch razorpay deploy hyperswitch with razorpay](https://railway.com/deploy/hyperswitch-razorpay--deploy-hyperswitch-with-razorpay) — railway-templates / US
+- [langfuse pydantic ai deploy langfuse for pydantic ai](https://railway.com/deploy/langfuse-pydantic-ai--deploy-langfuse-for-pydantic-ai) — railway-templates / US
+- [postiz threads deploy postiz for threads scheduling](https://railway.com/deploy/postiz-threads--deploy-postiz-for-threads-scheduling) — railway-templates / US
+- [deploy cap for customer support videos](https://railway.com/deploy/deploy-cap-for-customer-support-videos) — railway-templates / US
+- [openpanel vue deploy openpanel for vue apps](https://railway.com/deploy/openpanel-vue--deploy-openpanel-for-vue-apps) — railway-templates / US
+- [deploy redis ha for sidekiq jobs](https://railway.com/deploy/deploy-redis-ha-for-sidekiq-jobs) — railway-templates / US
+- [code server go deploy code server for go](https://railway.com/deploy/code-server-go--deploy-code-server-for-go) — railway-templates / US
+- [valkey 9 open source redis alternative](https://railway.com/deploy/valkey-9-open-source-redis-alternative) — railway-templates / US
+- [sure personal finance app maybe finance successor sure finance app](https://railway.com/deploy/sure-personal-finance-app-maybe-finance-successor--sure-finance-app) — railway-templates / US
+- [mem0 crewai deploy mem0 for crewai agents](https://railway.com/deploy/mem0-crewai--deploy-mem0-for-crewai-agents) — railway-templates / US
+- [claude code mcp deploy claude code with mcp servers](https://railway.com/deploy/claude-code-mcp--deploy-claude-code-with-mcp-servers) — railway-templates / US
+- [n8n v3](https://railway.com/deploy/n8n-v3) — railway-templates / US
+- [octop deploy octop multi agent ai assistant](https://railway.com/deploy/octop--deploy-octop-multi-agent-ai-assistant) — railway-templates / US
+- [ragflow gemini deploy ragflow with gemini models](https://railway.com/deploy/ragflow-gemini--deploy-ragflow-with-gemini-models) — railway-templates / US
+- [openmed medical ner and pii de identification api openmed api](https://railway.com/deploy/openmed-medical-ner-and-pii-de-identification-api--openmed-api) — railway-templates / US
+- [pterodactyl panel game server management mariadb redis pterodactyl server panel](https://railway.com/deploy/pterodactyl-panel-game-server-management-mariadb-redis--pterodactyl-server-panel) — railway-templates / US
+- [paperless ngx barcodes deploy paperless ngx barcode splitting](https://railway.com/deploy/paperless-ngx-barcodes--deploy-paperless-ngx-barcode-splitting) — railway-templates / US
+- [supabase cron deploy supabase cron jobs](https://railway.com/deploy/supabase-cron--deploy-supabase-cron-jobs) — railway-templates / US
+- [metabase databricks deploy metabase for databricks](https://railway.com/deploy/metabase-databricks--deploy-metabase-for-databricks) — railway-templates / US
+- [sillytavern ai character chat password protected sillytavern server](https://railway.com/deploy/sillytavern-ai-character-chat-password-protected--sillytavern-server) — railway-templates / US
+- [dossier resume tailoring deploy dossier ai resume tailoring](https://railway.com/deploy/dossier-resume-tailoring--deploy-dossier-ai-resume-tailoring) — railway-templates / US
+- [astralbeam](https://railway.com/deploy/astralbeam) — railway-templates / US
+- [typesense hugo deploy typesense for hugo sites](https://railway.com/deploy/typesense-hugo--deploy-typesense-for-hugo-sites) — railway-templates / US
+- [openclaw deepseek deploy openclaw with deepseek](https://railway.com/deploy/openclaw-deepseek--deploy-openclaw-with-deepseek) — railway-templates / US
+- [9router kilo code deploy 9router for kilo code](https://railway.com/deploy/9router-kilo-code--deploy-9router-for-kilo-code) — railway-templates / US
+- [opencode lsp deploy opencode with lsp servers](https://railway.com/deploy/opencode-lsp--deploy-opencode-with-lsp-servers) — railway-templates / US
+- [deploy languagetool for obsidian](https://railway.com/deploy/deploy-languagetool-for-obsidian) — railway-templates / US
+- [shannon oct 26](https://railway.com/deploy/shannon-oct-26) — railway-templates / US
+- [doory social graphics deploy doory social media post designer](https://railway.com/deploy/doory-social-graphics--deploy-doory-social-media-post-designer) — railway-templates / US
+- [immich shared albums deploy immich shared albums](https://railway.com/deploy/immich-shared-albums--deploy-immich-shared-albums) — railway-templates / US
+- [ctfd capture the flag platform with mariadb ctfd platform](https://railway.com/deploy/ctfd-capture-the-flag-platform-with-mariadb--ctfd-platform) — railway-templates / US
+- [harnessrouter deploy harnessrouter](https://railway.com/deploy/harnessrouter--deploy-harnessrouter) — railway-templates / US
+- [hoppscotch teams deploy hoppscotch team workspaces](https://railway.com/deploy/hoppscotch-teams--deploy-hoppscotch-team-workspaces) — railway-templates / US
+- [wordpress membership deploy wordpress membership site](https://railway.com/deploy/wordpress-membership--deploy-wordpress-membership-site) — railway-templates / US
+- [plausible webflow deploy plausible for webflow sites](https://railway.com/deploy/plausible-webflow--deploy-plausible-for-webflow-sites) — railway-templates / US
+- [deploy caddy static file server](https://railway.com/deploy/deploy-caddy-static-file-server) — railway-templates / US
+- [evolution api websocket deploy evolution api websocket events](https://railway.com/deploy/evolution-api-websocket--deploy-evolution-api-websocket-events) — railway-templates / US
+- [claude mem persistent memory server for claude code claude mem](https://railway.com/deploy/claude-mem-persistent-memory-server-for-claude-code--claude-mem) — railway-templates / US
+- [penpot prototypes deploy penpot interactive prototypes](https://railway.com/deploy/penpot-prototypes--deploy-penpot-interactive-prototypes) — railway-templates / US
+- [omniroute gemini cli deploy omniroute for gemini cli](https://railway.com/deploy/omniroute-gemini-cli--deploy-omniroute-for-gemini-cli) — railway-templates / US
+- [twenty csv import deploy twenty crm csv import](https://railway.com/deploy/twenty-csv-import--deploy-twenty-crm-csv-import) — railway-templates / US
+- [limesurvey 1](https://railway.com/deploy/limesurvey-1) — railway-templates / US
+- [hermes agent gemini deploy hermes agent with google gemini](https://railway.com/deploy/hermes-agent-gemini--deploy-hermes-agent-with-google-gemini) — railway-templates / US
+- [paperclip kimi deploy paperclip with kimi code agents](https://railway.com/deploy/paperclip-kimi--deploy-paperclip-with-kimi-code-agents) — railway-templates / US
+- [openmontage 7994066d](https://futuretools.io/tools/openmontage-7994066d) — futuretools-products / US
+- [taskeya 2d497508](https://futuretools.io/tools/taskeya-2d497508) — futuretools-products / US
 
 Next: cross-match the seven-day Sitemap URL delta ledger across independently monitored domains; report unresolved matching gaps.

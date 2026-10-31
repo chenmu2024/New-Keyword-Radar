@@ -1,6 +1,6 @@
 # 跨独立网站 Sitemap 同步上新观察
 
-观察截止：2026-10-31；滚动窗口：2026-10-25—2026-10-31（均为北京时间日期）。
+观察截止：2026-11-01；滚动窗口：2026-10-26—2026-11-01（均为北京时间日期）。
 
 **Sitemap 首见并不等于首次发行、真实24小时内上架或搜索量；同名和文件格式归并必须人工核实。**
 只有具备真实source_id、详情URL和first_seen的相对基线新增，才能成为候选。
@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-10-31T16:48:26.799249+08:00；详细候选：3219；7日轻量URL证据：1743/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-01T02:43:27.154827+08:00；详细候选：3352；7日轻量URL证据：1881/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 166，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 28，采样上限遗漏 0。
 
 - **chrono spira**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-pt · 2026-10-29 · https://www.gamepix.com/pt/play/chrono-spira · 原词 chrono spira
@@ -35,15 +35,12 @@
 - **street smart echoes of home**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-pt · 2026-10-29 · https://www.gamepix.com/pt/play/street-smart-echoes-of-home · 原词 street smart echoes of home
   - y8.com · y8-en · 2026-10-30 · https://www.y8.com/games/street_smart_echoes_of_home · 原词 street smart echoes of home
-- **deep cast**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - crazygames.com · crazygames-es · 2026-10-25 · https://www.crazygames.com/es/game/deep-cast · 原词 deep cast
-  - y8.com · y8-en · 2026-10-31 · https://www.y8.com/games/deep_cast · 原词 deep cast
 
 失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 308，采样上限遗漏 45。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 43，采样上限遗漏 0。
 
 - **afterlid**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - producthunt.com · producthunt-products · 2026-10-29 · https://www.producthunt.com/products/afterlid · 原词 afterlid
@@ -65,8 +62,12 @@
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 8，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 27，采样上限遗漏 0。
 
+- **kurodyne**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoptools.com · aitoptools-tools · 2026-10-31 · https://aitoptools.com/tool/kurodyne/ · 原词 kurodyne
+  - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-01 · https://aitoolsdirectory.com/tool/kurodyne · 原词 kurodyne
+  - tooldirectory.ai · tooldirectory-ai-tools · 2026-11-01 · https://tooldirectory.ai/tools/kurodyne · 原词 kurodyne
 - **ai suitup**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - futurepedia.io · futurepedia-tools · 2026-10-27 · https://www.futurepedia.io/tool/ai-suitup · 原词 ai suitup
   - toolveyor.com · toolveyor-tools · 2026-10-31 · https://toolveyor.com/ai-suitup · 原词 ai suitup
@@ -81,7 +82,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 2，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -89,13 +90,13 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 106，采样上限遗漏 0。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 72，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
 ## 巴西在线工具
 
-采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 1，采样上限遗漏 0。
+采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -103,7 +104,15 @@
 
 ### 跨SaaS和AI的同名产品
 
-0条。
+- numradar：独立根域 2 家；类别 developer, saas
+  - developer · devhunt-tools · 2026-11-01 · https://devhunt.org/tool/numradar
+  - saas · fazier-launches · 2026-11-01 · https://fazier.com/launches/numradar
+- topmessage：独立根域 2 家；类别 ai, saas
+  - saas · producthunt-products · 2026-10-30 · https://www.producthunt.com/products/topmessage
+  - ai · aitoolnet-tools · 2026-11-01 · https://www.aitoolnet.com/topmessage
+- flatbread：独立根域 2 家；类别 ai, saas
+  - saas · producthunt-products · 2026-10-29 · https://www.producthunt.com/products/flatbread
+  - ai · aitoolnet-tools · 2026-11-01 · https://www.aitoolnet.com/flatbread
 
 ### 跨类别同向文件转换
 

@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-31",
-  "window_start": "2026-10-25",
+  "date": "2026-11-01",
+  "window_start": "2026-10-26",
   "source_count": 135,
-  "queue_count": 3219,
+  "queue_count": 3352,
   "ignored_unverifiable_proofs": 0,
   "groups": {
     "games": [
@@ -201,37 +201,45 @@
             "source_category": "games"
           }
         ]
-      },
-      {
-        "query": "deep cast",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "crazygames-es",
-            "website": "crazygames.com",
-            "url": "https://www.crazygames.com/es/game/deep-cast",
-            "first_seen": "2026-10-25",
-            "observed_query": "deep cast",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/deep_cast",
-            "first_seen": "2026-10-31",
-            "observed_query": "deep cast",
-            "source_category": "games"
-          }
-        ]
       }
     ],
     "products": [
+      {
+        "query": "kurodyne",
+        "independent_websites": 3,
+        "date_span_days": 1,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 3,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "aitoptools-tools",
+            "website": "aitoptools.com",
+            "url": "https://aitoptools.com/tool/kurodyne/",
+            "first_seen": "2026-10-31",
+            "observed_query": "kurodyne",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "aitoolsdirectory-tools",
+            "website": "aitoolsdirectory.com",
+            "url": "https://aitoolsdirectory.com/tool/kurodyne",
+            "first_seen": "2026-11-01",
+            "observed_query": "kurodyne",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "tooldirectory-ai-tools",
+            "website": "tooldirectory.ai",
+            "url": "https://tooldirectory.ai/tools/kurodyne",
+            "first_seen": "2026-11-01",
+            "observed_query": "kurodyne",
+            "source_category": "ai"
+          }
+        ]
+      },
       {
         "query": "angleforge",
         "independent_websites": 2,
@@ -284,6 +292,34 @@
             "url": "https://productperch.com/products/distriova/",
             "first_seen": "2026-10-30",
             "observed_query": "distriova",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "numradar",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/numradar",
+            "first_seen": "2026-11-01",
+            "observed_query": "numradar",
+            "source_category": "developer"
+          },
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/numradar",
+            "first_seen": "2026-11-01",
+            "observed_query": "numradar",
             "source_category": "saas"
           }
         ]
@@ -373,6 +409,62 @@
         ]
       },
       {
+        "query": "topmessage",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/topmessage",
+            "first_seen": "2026-10-30",
+            "observed_query": "topmessage",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/topmessage",
+            "first_seen": "2026-11-01",
+            "observed_query": "topmessage",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
+        "query": "flatbread",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/flatbread",
+            "first_seen": "2026-10-29",
+            "observed_query": "flatbread",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/flatbread",
+            "first_seen": "2026-11-01",
+            "observed_query": "flatbread",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
         "query": "ai suitup",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -405,8 +497,8 @@
     "functions": []
   },
   "group_counts": {
-    "games": 8,
-    "products": 6,
+    "games": 7,
+    "products": 10,
     "tools": 0,
     "functions": 0
   },
@@ -614,35 +706,6 @@
           }
         ],
         "cross_signal_origin": "games"
-      },
-      {
-        "query": "deep cast",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "crazygames-es",
-            "website": "crazygames.com",
-            "url": "https://www.crazygames.com/es/game/deep-cast",
-            "first_seen": "2026-10-25",
-            "observed_query": "deep cast",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/deep_cast",
-            "first_seen": "2026-10-31",
-            "observed_query": "deep cast",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
       }
     ],
     "saas": [
@@ -794,6 +857,43 @@
     ],
     "ai": [
       {
+        "query": "kurodyne",
+        "independent_websites": 3,
+        "date_span_days": 1,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 3,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "aitoptools-tools",
+            "website": "aitoptools.com",
+            "url": "https://aitoptools.com/tool/kurodyne/",
+            "first_seen": "2026-10-31",
+            "observed_query": "kurodyne",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "aitoolsdirectory-tools",
+            "website": "aitoolsdirectory.com",
+            "url": "https://aitoolsdirectory.com/tool/kurodyne",
+            "first_seen": "2026-11-01",
+            "observed_query": "kurodyne",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "tooldirectory-ai-tools",
+            "website": "tooldirectory.ai",
+            "url": "https://tooldirectory.ai/tools/kurodyne",
+            "first_seen": "2026-11-01",
+            "observed_query": "kurodyne",
+            "source_category": "ai"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "ai suitup",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -829,17 +929,17 @@
     "brazil": []
   },
   "by_type_counts": {
-    "games": 8,
+    "games": 7,
     "saas": 5,
-    "ai": 1,
+    "ai": 2,
     "calculators": 0,
     "files": 0,
     "developer": 0,
     "brazil": 0
   },
-  "delta_ledger_count": 1743,
+  "delta_ledger_count": 1881,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-10-31T16:48:26.799249+08:00",
+  "generated_at": "2026-11-01T02:43:27.154827+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
@@ -849,7 +949,7 @@
       "baselines": 0,
       "delta_scans": 29,
       "failed": 4,
-      "new_urls": 166,
+      "new_urls": 28,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -878,8 +978,8 @@
       "baselines": 0,
       "delta_scans": 19,
       "failed": 1,
-      "new_urls": 308,
-      "over_scan_cap": 45,
+      "new_urls": 43,
+      "over_scan_cap": 0,
       "failed_sources": [
         {
           "source_id": "microlaunch-products",
@@ -895,7 +995,7 @@
       "baselines": 0,
       "delta_scans": 20,
       "failed": 0,
-      "new_urls": 8,
+      "new_urls": 27,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -924,7 +1024,7 @@
       "baselines": 0,
       "delta_scans": 18,
       "failed": 2,
-      "new_urls": 2,
+      "new_urls": 0,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -945,7 +1045,7 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 106,
+      "new_urls": 72,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -957,7 +1057,7 @@
       "baselines": 0,
       "delta_scans": 10,
       "failed": 0,
-      "new_urls": 1,
+      "new_urls": 0,
       "over_scan_cap": 0,
       "failed_sources": []
     }
