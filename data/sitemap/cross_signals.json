@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-01",
-  "window_start": "2026-10-26",
+  "date": "2026-11-02",
+  "window_start": "2026-10-27",
   "source_count": 135,
-  "queue_count": 3531,
+  "queue_count": 3709,
   "ignored_unverifiable_proofs": 0,
   "groups": {
     "games": [
@@ -229,6 +229,34 @@
             "source_category": "games"
           }
         ]
+      },
+      {
+        "query": "diggosaur",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/diggosaur",
+            "first_seen": "2026-10-27",
+            "observed_query": "diggosaur",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/diggosaur/",
+            "first_seen": "2026-11-02",
+            "observed_query": "diggosaur",
+            "source_category": "games"
+          }
+        ]
       }
     ],
     "products": [
@@ -381,6 +409,34 @@
         ]
       },
       {
+        "query": "dropdrop habittracker todo",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/dropdrop-habittracker-todo",
+            "first_seen": "2026-11-01",
+            "observed_query": "dropdrop habittracker todo",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/dropdrop-habittracker-todo",
+            "first_seen": "2026-11-02",
+            "observed_query": "dropdrop habittracker todo",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "metricvia",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -493,6 +549,34 @@
         ]
       },
       {
+        "query": "peptides vietnam",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "indietools-products",
+            "website": "indietools.app",
+            "url": "https://www.indietools.app/products/peptides-vietnam",
+            "first_seen": "2026-10-31",
+            "observed_query": "peptides vietnam",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/peptides-vietnam",
+            "first_seen": "2026-11-02",
+            "observed_query": "peptides vietnam",
+            "source_category": "developer"
+          }
+        ]
+      },
+      {
         "query": "topmessage",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -581,8 +665,8 @@
     "functions": []
   },
   "group_counts": {
-    "games": 8,
-    "products": 12,
+    "games": 9,
+    "products": 14,
     "tools": 0,
     "functions": 0
   },
@@ -819,6 +903,35 @@
           }
         ],
         "cross_signal_origin": "games"
+      },
+      {
+        "query": "diggosaur",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/diggosaur",
+            "first_seen": "2026-10-27",
+            "observed_query": "diggosaur",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/diggosaur/",
+            "first_seen": "2026-11-02",
+            "observed_query": "diggosaur",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
       }
     ],
     "saas": [
@@ -933,6 +1046,35 @@
             "url": "https://productperch.com/products/distriova/",
             "first_seen": "2026-10-30",
             "observed_query": "distriova",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "dropdrop habittracker todo",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/dropdrop-habittracker-todo",
+            "first_seen": "2026-11-01",
+            "observed_query": "dropdrop habittracker todo",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/dropdrop-habittracker-todo",
+            "first_seen": "2026-11-02",
+            "observed_query": "dropdrop habittracker todo",
             "source_category": "saas"
           }
         ],
@@ -1071,27 +1213,27 @@
     "brazil": []
   },
   "by_type_counts": {
-    "games": 8,
-    "saas": 6,
+    "games": 9,
+    "saas": 7,
     "ai": 2,
     "calculators": 0,
     "files": 0,
     "developer": 0,
     "brazil": 0
   },
-  "delta_ledger_count": 2067,
+  "delta_ledger_count": 2248,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-11-01T17:38:45.100038+08:00",
+  "generated_at": "2026-11-02T07:18:17.573206+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
       "configured_domains": 30,
       "reported": 33,
-      "successful": 29,
+      "successful": 28,
       "baselines": 0,
-      "delta_scans": 29,
-      "failed": 4,
-      "new_urls": 51,
+      "delta_scans": 28,
+      "failed": 5,
+      "new_urls": 15,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -1107,6 +1249,10 @@
           "error": "HTTPError: HTTP Error 403: Forbidden"
         },
         {
+          "source_id": "gamenora-en",
+          "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
+        },
+        {
           "source_id": "girlsgogames-en",
           "error": "HTTPError: HTTP Error 403: Forbidden"
         }
@@ -1120,7 +1266,7 @@
       "baselines": 0,
       "delta_scans": 19,
       "failed": 1,
-      "new_urls": 133,
+      "new_urls": 27,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -1137,7 +1283,7 @@
       "baselines": 0,
       "delta_scans": 20,
       "failed": 0,
-      "new_urls": 1,
+      "new_urls": 29,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -1145,13 +1291,17 @@
       "configured_sources": 15,
       "configured_domains": 15,
       "reported": 15,
-      "successful": 14,
+      "successful": 13,
       "baselines": 0,
-      "delta_scans": 14,
-      "failed": 1,
+      "delta_scans": 13,
+      "failed": 2,
       "new_urls": 0,
       "over_scan_cap": 0,
       "failed_sources": [
+        {
+          "source_id": "calculatorsio-tools",
+          "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
+        },
         {
           "source_id": "metricconversions-tools",
           "error": "ValueError: Response exceeds size limit"
@@ -1187,7 +1337,7 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 6,
+      "new_urls": 122,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -1195,13 +1345,26 @@
       "configured_sources": 10,
       "configured_domains": 10,
       "reported": 10,
-      "successful": 10,
+      "successful": 7,
       "baselines": 0,
-      "delta_scans": 10,
-      "failed": 0,
+      "delta_scans": 7,
+      "failed": 3,
       "new_urls": 0,
       "over_scan_cap": 0,
-      "failed_sources": []
+      "failed_sources": [
+        {
+          "source_id": "freedevs-br",
+          "error": "URLError: <urlopen error timed out>"
+        },
+        {
+          "source_id": "devdata4-br",
+          "error": "HTTPError: HTTP Error 429: Too Many Requests"
+        },
+        {
+          "source_id": "rankbox-br",
+          "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
+        }
+      ]
     }
   }
 }

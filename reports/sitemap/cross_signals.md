@@ -1,6 +1,6 @@
 # 跨独立网站 Sitemap 同步上新观察
 
-观察截止：2026-11-01；滚动窗口：2026-10-26—2026-11-01（均为北京时间日期）。
+观察截止：2026-11-02；滚动窗口：2026-10-27—2026-11-02（均为北京时间日期）。
 
 **Sitemap 首见并不等于首次发行、真实24小时内上架或搜索量；同名和文件格式归并必须人工核实。**
 只有具备真实source_id、详情URL和first_seen的相对基线新增，才能成为候选。
@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-01T17:38:45.100038+08:00；详细候选：3531；7日轻量URL证据：2067/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：122/135；数据生成：2026-11-02T07:18:17.573206+08:00；详细候选：3709；7日轻量URL证据：2248/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 51，采样上限遗漏 0。
+采集：28/33来源，配置根域 30，新建基线 0，失败 5，新增 URL 15，采样上限遗漏 0。
 
 - **chrono spira**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-pt · 2026-10-29 · https://www.gamepix.com/pt/play/chrono-spira · 原词 chrono spira
@@ -38,12 +38,15 @@
 - **street smart echoes of home**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-pt · 2026-10-29 · https://www.gamepix.com/pt/play/street-smart-echoes-of-home · 原词 street smart echoes of home
   - y8.com · y8-en · 2026-10-30 · https://www.y8.com/games/street_smart_echoes_of_home · 原词 street smart echoes of home
+- **diggosaur**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamepix.com · gamepix-pt · 2026-10-27 · https://www.gamepix.com/pt/play/diggosaur · 原词 diggosaur
+  - gamedistribution.com · gamedistribution-games · 2026-11-02 · https://gamedistribution.com/games/diggosaur/ · 原词 diggosaur
 
-失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
+失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；gamenora-en (HTTPError: HTTP Error 415: Unsupported Media Type)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 133，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 27，采样上限遗漏 0。
 
 - **afterlid**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - producthunt.com · producthunt-products · 2026-10-29 · https://www.producthunt.com/products/afterlid · 原词 afterlid
@@ -57,6 +60,9 @@
 - **distriova**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-10-30 · https://fazier.com/launches/distriova · 原词 distriova
   - productperch.com · productperch-products · 2026-10-30 · https://productperch.com/products/distriova/ · 原词 distriova
+- **dropdrop habittracker todo**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - fazier.com · fazier-launches · 2026-11-01 · https://fazier.com/launches/dropdrop-habittracker-todo · 原词 dropdrop habittracker todo
+  - saascity.io · saascity-products · 2026-11-02 · https://saascity.io/live/dropdrop-habittracker-todo · 原词 dropdrop habittracker todo
 - **metricvia**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-10-30 · https://fazier.com/launches/metricvia · 原词 metricvia
   - saascity.io · saascity-products · 2026-10-31 · https://saascity.io/live/metricvia · 原词 metricvia
@@ -68,7 +74,7 @@
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 1，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 29，采样上限遗漏 0。
 
 - **kurodyne**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoptools.com · aitoptools-tools · 2026-10-31 · https://aitoptools.com/tool/kurodyne/ · 原词 kurodyne
@@ -80,11 +86,11 @@
 
 ## 计算器
 
-采集：14/15来源，配置根域 15，新建基线 0，失败 1，新增 URL 0，采样上限遗漏 0。
+采集：13/15来源，配置根域 15，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
-失败来源：metricconversions-tools (ValueError: Response exceeds size limit)
+失败来源：calculatorsio-tools (HTTPError: HTTP Error 415: Unsupported Media Type)；metricconversions-tools (ValueError: Response exceeds size limit)
 
 ## PDF / 文件 / 图片工具
 
@@ -96,15 +102,17 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 6，采样上限遗漏 0。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 122，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
 ## 巴西在线工具
 
-采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
+采集：7/10来源，配置根域 10，新建基线 0，失败 3，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
+
+失败来源：freedevs-br (URLError: <urlopen error timed out>)；devdata4-br (HTTPError: HTTP Error 429: Too Many Requests)；rankbox-br (URLError: <urlopen error [Errno 101] Network is unreachable>)
 
 ## 跨类别同名或同向文件转换（仅作人工复核）
 
@@ -116,6 +124,9 @@
 - words into music：独立根域 2 家；类别 ai, saas
   - ai · toolveyor-tools · 2026-10-31 · https://toolveyor.com/words-into-music
   - saas · productperch-products · 2026-11-01 · https://productperch.com/products/words-into-music/
+- peptides vietnam：独立根域 2 家；类别 developer, saas
+  - saas · indietools-products · 2026-10-31 · https://www.indietools.app/products/peptides-vietnam
+  - developer · devhunt-tools · 2026-11-02 · https://devhunt.org/tool/peptides-vietnam
 - topmessage：独立根域 2 家；类别 ai, saas
   - saas · producthunt-products · 2026-10-30 · https://www.producthunt.com/products/topmessage
   - ai · aitoolnet-tools · 2026-11-01 · https://www.aitoolnet.com/topmessage
