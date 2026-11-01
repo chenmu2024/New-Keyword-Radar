@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-10-31T21:49:23.634507+00:00
+- Updated (UTC): 2026-11-01T01:02:14.719457+00:00
 - Historical candidates: 2845
-- Newly recorded from pending: 123
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 1140
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 1955 burger mcdonalds [Global] — discovered — first 2026-11-01, last 2026-11-01
-- 500 kb pdf compressor [Global] — discovered — first 2026-11-01, last 2026-11-01
-- ai overview [Global] — discovered — first 2026-11-01, last 2026-11-01
-- aia life planner portal login [Global] — discovered — first 2026-11-01, last 2026-11-01
-- android developer verifier adalah [Global] — discovered — first 2026-11-01, last 2026-11-01
-- anhängerkupplung [Global] — discovered — first 2026-11-01, last 2026-11-01
-- aniimo homeland optimizer [Global] — discovered — first 2026-11-01, last 2026-11-01
-- asian water monitor [Global] — discovered — first 2026-11-01, last 2026-11-01
-- asian water monitor captured maryland [Global] — discovered — first 2026-11-01, last 2026-11-01
-- auf kollisionskurs netflix [Global] — discovered — first 2026-11-01, last 2026-11-01
-- behringer kick [Global] — discovered — first 2026-11-01, last 2026-11-01
-- best paint color for living room [Global] — discovered — first 2026-11-01, last 2026-11-01
-- buy mounjaro online www.buymounjaroaustralia.co 🇦🇺 [Global] — discovered — first 2026-11-01, last 2026-11-01
-- cake scraper [Global] — discovered — first 2026-11-01, last 2026-11-01
-- calico [Global] — discovered — first 2026-11-01, last 2026-11-01
-- candy corn [Global] — discovered — first 2026-11-01, last 2026-11-01
-- canelo fight card [Global] — discovered — first 2026-11-01, last 2026-11-01
-- canelo vs mbilli fight card [Global] — discovered — first 2026-11-01, last 2026-11-01
-- capital one shopping [Global] — discovered — first 2026-11-01, last 2026-11-01
-- city of london police cyclist scheme [Global] — discovered — first 2026-11-01, last 2026-11-01
+- gs uploader [Global] — discovered — first 2026-11-01, last 2026-11-01
+- dora the explorer [Global] — discovered — first 2026-11-01, last 2026-11-01
+- dropbox [Global] — discovered — first 2026-11-01, last 2026-11-01
+- skorpion sternzeichen [Global] — discovered — first 2026-11-01, last 2026-11-01
+- tin symbol [Global] — discovered — first 2026-11-01, last 2026-11-01
+- jackery explorer [Global] — discovered — first 2026-11-01, last 2026-11-01
+- ifi audio up travel bluetooth transmitter & receiver [Global] — discovered — first 2026-11-01, last 2026-11-01
+- nightmare before christmas composer [Global] — discovered — first 2026-11-01, last 2026-11-01
+- toughbuilt scraper utility knife [Global] — discovered — first 2026-11-01, last 2026-11-01
+- ff beta dashboard [Global] — discovered — first 2026-11-01, last 2026-11-01
+- mortuary assistant [Global] — discovered — first 2026-11-01, last 2026-11-01
+- sabarimala online booking [Global] — discovered — first 2026-11-01, last 2026-11-01
+- fc bayern haaland [Global] — discovered — first 2026-11-01, last 2026-11-01
+- jackery explorer 2000 [Global] — discovered — first 2026-11-01, last 2026-11-01
+- meeting scheduler time zones [Global] — discovered — first 2026-11-01, last 2026-11-01
+- flux unlock [Global] — discovered — first 2026-11-01, last 2026-11-01
+- sprunki hyper shifted phase 5 [Global] — discovered — first 2026-11-01, last 2026-11-01
 - contact manager with herroyalguardian [Global] — discovered — first 2026-11-01, last 2026-11-01
-- converter dolar em real [Global] — discovered — first 2026-11-01, last 2026-11-01
-- cook county recorder of deeds property search [Global] — discovered — first 2026-11-01, last 2026-11-01
-- creator codes brawl stars [Global] — discovered — first 2026-11-01, last 2026-11-01
-- cron evaluator [Global] — discovered — first 2026-11-01, last 2026-11-01
+- auf kollisionskurs netflix [Global] — discovered — first 2026-11-01, last 2026-11-01
+- socmed evaluator [Global] — discovered — first 2026-11-01, last 2026-11-01
+- scary fonts [Global] — discovered — first 2026-11-01, last 2026-11-01
+- pesu dashboard [Global] — discovered — first 2026-11-01, last 2026-11-01
+- asian water monitor captured maryland [Global] — discovered — first 2026-11-01, last 2026-11-01
+- jpeg to pdf converter i love pdf [Global] — discovered — first 2026-11-01, last 2026-11-01
+- lekhpal dashboard [Global] — discovered — first 2026-11-01, last 2026-11-01
 
 ## Due for follow-up
 
