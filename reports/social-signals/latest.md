@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-01T10:25:40.735303+00:00
+# V4 Social signal discovery — 2026-11-01T17:07:10.431013+00:00
 
-- Unique links this run: 62, newly seen: 20, history: 767
+- Unique links this run: 66, newly seen: 22, history: 789
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (2) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (6) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (36)
@@ -20,32 +20,36 @@
 
 ## Links (not validated project opportunities)
 
-- [Modelpeers](https://www.producthunt.com/products/modelpeers) — producthunt — direct_public_feed
-- [agentmash](https://www.producthunt.com/products/agentmash) — producthunt — direct_public_feed
-- [Click](https://www.producthunt.com/products/click-6) — producthunt — direct_public_feed
-- [Yuzu Sync](https://www.producthunt.com/products/yuzu-sync) — producthunt — direct_public_feed
-- [Embage](https://www.producthunt.com/products/embage) — producthunt — direct_public_feed
-- [CutCat](https://www.producthunt.com/products/cutcat) — producthunt — direct_public_feed
-- [GTO83/qwen-image-2-1-realtime](https://huggingface.co/spaces/GTO83/qwen-image-2-1-realtime) — huggingface — direct_public_api
-- [gurmisin/Finances](https://huggingface.co/spaces/gurmisin/Finances) — huggingface — direct_public_api
-- [Deep20102002/quantum-ai-engine](https://huggingface.co/spaces/Deep20102002/quantum-ai-engine) — huggingface — direct_public_api
-- [mbmarchisysteme/maquiglobal-marketplace-maquinaria-con-pago-protegido](https://huggingface.co/spaces/mbmarchisysteme/maquiglobal-marketplace-maquinaria-con-pago-protegido) — huggingface — direct_public_api
-- [sheenagilani/finshield-fraud-engine](https://huggingface.co/spaces/sheenagilani/finshield-fraud-engine) — huggingface — direct_public_api
-- [kushan1988/qwen3-coder-api](https://huggingface.co/spaces/kushan1988/qwen3-coder-api) — huggingface — direct_public_api
-- [Happy Halloween @artfuck.bsky.social @glitchisbroken.bsky.social @alienpuppy.bsky.social @sporkbot.bsky.social #afengage #TeamRub #dbd #demons #deerhuntnsfw #nsfwart #furrynsfw](https://bsky.app/profile/coastalfreakture.bsky.social/post/3mza5rhqmwk2s) — bluesky — direct_public_post
-- [Let's say you have a report generator. Its job is to generate reports on a database. You are driving all development with AI. Every day you open your bug reports and there are like](https://bsky.app/profile/darklock.com/post/3mz7ig3tip22j) — bluesky — direct_public_post — intent keyword found
-- [as long as possible from the Yin iron piece in the Cold Pond cave. The OC names are per the Xianxia Name Generator; some checked with a Chinese to English dictionary, & some w/ B](https://bsky.app/profile/silvergrass.myatproto.social/post/3mz7eqsazmc2w) — bluesky — direct_public_post — intent keyword found
-- [The Eerie True Story of The Nightmare Face Haunting The Internet ->ScienceAlert | More on "AI-generated imagery and internet phenomena" at BigEarthData.ai](https://bsky.app/profile/bigearthdata.ai/post/3mz7bpcezzh2f) — bluesky — direct_public_post
-- [I recommend listening to the videos he posted. No wonder there is a huge backlash against datacenters. It's the gas generator plants outside the data center that cause the noise po](https://bsky.app/profile/fabianjoya.bsky.social/post/3mz5ohfc5mk2a) — bluesky — direct_public_post — intent keyword found
-- [Ok, I’ve run out of cash for fixing the generator after all these storms, is there a please fund me for geriatrics?](https://bsky.app/profile/jeromyo.bsky.social/post/3mz4w3y4kwc2n) — bluesky — direct_public_post — intent keyword found
-- [Ever painted in my pixel gallery? If not, now's the time 👀 Share your work, I'd love to see it ✨ https:// iskropixel.neocities.org/ # pixelart # fediart # mastoart # neocities # sm](https://mastodon.social/@iskropixel/117537976304465075) — mastodon — direct_public_post
-- [The internet used to be full of strange little sites nobody was trying to sell you. They're still out there. I made a button that takes you to one. Last time it sent me to a room b](https://mastodon.social/@HobbyBuilder/117535977020419063) — mastodon — direct_public_post
+- [ClawsGO Science](https://www.producthunt.com/products/clawsgo-science) — producthunt — direct_public_feed
+- [Fluent 2](https://www.producthunt.com/products/fluent-ai-writing-assistant-for-macos) — producthunt — direct_public_feed
+- [BeeBranch](https://www.producthunt.com/products/beebranch) — producthunt — direct_public_feed
+- [Riverside Agents](https://www.producthunt.com/products/riverside-fm) — producthunt — direct_public_feed
+- [Usage for Claude + ChatGPT 4.0](https://www.producthunt.com/products/usage-for-claude) — producthunt — direct_public_feed
+- [Screen Studio 4.0](https://www.producthunt.com/products/screen-studio) — producthunt — direct_public_feed
+- [teachanybot/imgkits](https://huggingface.co/spaces/teachanybot/imgkits) — huggingface — direct_public_api
+- [Sanele457/Lumora](https://huggingface.co/spaces/Sanele457/Lumora) — huggingface — direct_public_api
+- [super8k-cinema/super8k-cinema](https://huggingface.co/spaces/super8k-cinema/super8k-cinema) — huggingface — direct_public_api
+- [sprinriver/tributary](https://huggingface.co/spaces/sprinriver/tributary) — huggingface — direct_public_api
+- [Fblanc/First_agent_template](https://huggingface.co/spaces/Fblanc/First_agent_template) — huggingface — direct_public_api
+- [shaleentripathi/First_agent_template](https://huggingface.co/spaces/shaleentripathi/First_agent_template) — huggingface — direct_public_api
+- [waos, como hideaki anno con su fan film de ultraman hecho durante la era vacia (los 16 años donde ultraman se fue a hiatus) www.youtube.com/watch?v=fVul...](https://bsky.app/profile/camilanumeritos.bsky.social/post/3mzbbva5q3k2h) — bluesky — direct_public_post
+- [Tipo, o papo “mãe de menino”. Tem uma mãe solo de um dos meu alunos (ele tem 14 anos) e ela simplesmente fez o menino começar a fazer depilação a laser. E assim, mais uma vez eu nã](https://bsky.app/profile/ellitu.bsky.social/post/3mzbb5jl3ys2z) — bluesky — direct_public_post
+- [Vc não tem culpa nenhuma, essas coisas não temos como saber :( não tá escrito na testa da pessoa se ela presta ou não, os crimes que fez ou deixou de fazer. 🥺](https://bsky.app/profile/odroyals.bsky.social/post/3mzbb4mgk7c27) — bluesky — direct_public_post
+- [uma vibe meio pesquisa de campo fotografia arquivo e impressoras térmicas como memória que se desgasta tô reunindo uns materiais legais nessa viagem, animada pra diagramar e faze](https://bsky.app/profile/luanagm.bsky.social/post/3mzbb3q24uk27) — bluesky — direct_public_post
+- [amo como competição pessoal funciona no kylian ele vê um mano marcando mais gol que ele e entra em campo no próximo jogo decidido a fazer todos](https://bsky.app/profile/lesbiansatur.bsky.social/post/3mzbasq7oik27) — bluesky — direct_public_post
+- [Não tenho como provar, mas acho que fazer 13 repetições na academia ajudou a reeleger lully](https://bsky.app/profile/luiigi.bsky.social/post/3mzbaoprrvc2h) — bluesky — direct_public_post
+- [A quick walkthrough showcasing what this platform has to offer! Check out the video to see it in action. 🔗 Explore here: https:// x1t2j95djtz1-d.space-z.ai # AI # Tech # WebTools #](https://mastodon.social/@yssryaae/117541937804636972) — mastodon — direct_public_post
+- [We built a robot that swaps tools for every job. The tools are real, all 1,122 of them: https:// a2z.tools What job would you give it first? # OnlineTools # Productivity # FreeSoft](https://mastodon.social/@a2z_tools/117541654684851057) — mastodon — direct_public_post
+- [Need dice for game night, your next D&D session, or a classroom activity? 🎲 Roll D4, D6, D8, D10, D12, D20, or D100 dice online - up to 10 at once. Fast, fair, completely free, and](https://mastodon.social/@LetsSpin/117540514612973437) — mastodon — direct_public_post
+- [Heads or tails? 🪙 Settle your next 50/50 call with a smooth spin - free, no signup, and no coin rolling under the couch. https:// letsspin.app/wheel/coin-flip # CoinFlip # SpinWhee](https://mastodon.social/@LetsSpin/117536208406301055) — mastodon — direct_public_post
+- [Countdown Timer — Set a timer that counts down and rings at zero. Free, no signup. # webtools # free https://www. utiltools.net/tools/countdown- timer/?utm_source=mastodon](https://mastodon.social/@kglowreview/117527386878422258) — mastodon — direct_public_post
+- [Password Generator — Free password generator. Free, no signup. # webtools # free https://www. utiltools.net/tools/password-g enerator/?utm_source=mastodon](https://mastodon.social/@kglowreview/117516062250451855) — mastodon — direct_public_post — intent keyword found
+- [Anthropic's Mythos-class model allegedly leaked on Hugging Face](https://news.ycombinator.com/item?id=50326727) — hackernews_ask — direct_public_post
 - [Tell HN: Scribd Breached](https://news.ycombinator.com/item?id=50312756) — hackernews_ask — direct_public_post — intent keyword found
 - [Ask HN: Anyone here still writing code for reasons other than fun or learning?](https://news.ycombinator.com/item?id=50322477) — hackernews_ask — direct_public_post
-- [Ask HN: Old experimental website that made photos sing?](https://news.ycombinator.com/item?id=50321871) — hackernews_ask — direct_public_post
 - [Tell HN: X is opening any tweet link in a webview whether you press it or not](https://news.ycombinator.com/item?id=50312174) — hackernews_ask — direct_public_post
-- [Ask HN: I'd like to request Microsoft open source Windows XP](https://news.ycombinator.com/item?id=50318141) — hackernews_ask — direct_public_post — intent keyword found
 - [Ask HN: What's it like working at Google nowadays? Core teams like Search, Ads?](https://news.ycombinator.com/item?id=50306776) — hackernews_ask — direct_public_post
+- [Ask HN: Old experimental website that made photos sing?](https://news.ycombinator.com/item?id=50321871) — hackernews_ask — direct_public_post
 - [[KAIOS AU WINDOW Digital Ant｜AI Ant Company CEO・接案與神經突觸公開窗口](https://github.com/klineodyssey/kline-odyssey/issues/577) — github_issue — direct_public_issue_api
 - [P0 | Five hourly cycles — real deliverables and unfinished-work carryover](https://github.com/mojtabarozegar11-ship-it/Saeit/issues/1514) — github_issue — direct_public_issue_api
 - [EduOS Whole-System Integration & QA — procurement → stock → asset → facility → Finance](https://github.com/cseashrafulislam/EduOS/issues/108) — github_issue — direct_public_issue_api
@@ -56,7 +60,3 @@
 - [i had to get a comptia certification urgently without any prep, here's how i did it](https://www.reddit.com/r/CertificationsAWS/comments/1xkqap5/i_had_to_get_a_comptia_certification_urgently) — reddit — public_rss_excerpt
 - [Ask HN: Are we putting pricing on things too quickly?](https://news.ycombinator.com/item?id=47220001) — hackernews_ask — indexed_public_post_excerpt
 - [Zero-Knowledge Privacy Infrastructure for Solana](https://news.ycombinator.com/item?id=46854817) — hackernews_ask — indexed_public_post_excerpt
-- [I built an AI health scanner for dogs would love your feedback](https://news.ycombinator.com/item?id=44838374) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
-- [Idea – machine learning algorithm that browses the web?](https://news.ycombinator.com/item?id=38569843) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
-- [Make local player-data protection and lifecycle recovery usable in Desktop](https://github.com/boburning/portcove/issues/4155) — github_issue — direct_public_issue_api — intent keyword found
-- [[SYNC Rejoining after map events can loop in catch-up indefinitely](https://github.com/Bannerlord-Coop-Team/BannerlordCoop/issues/2936) — github_issue — direct_public_issue_api — intent keyword found
