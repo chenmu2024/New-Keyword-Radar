@@ -1,0 +1,404 @@
+{
+  "local_date": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "target_seed_count": 74,
+  "batches": [
+    {
+      "batch_id": "2026-11-01T16:46:15.916859+00:00-46-47-48-49-50",
+      "start_index": 46,
+      "seed_indices": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "generated_at": "2026-11-01T16:46:15.916859+00:00",
+      "local_generated_at": "2026-11-02T00:46:15.916859+08:00",
+      "seed_batch": [
+        "navigator",
+        "syncer",
+        "connector",
+        "cataloger",
+        "responder"
+      ],
+      "discovery_count": 29,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-01T16:47:53.859381+00:00-51-52-53-54-55",
+      "start_index": 51,
+      "seed_indices": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "generated_at": "2026-11-01T16:47:53.859381+00:00",
+      "local_generated_at": "2026-11-02T00:47:53.859381+08:00",
+      "seed_batch": [
+        "color",
+        "image",
+        "flux",
+        "ai",
+        "gumroad"
+      ],
+      "discovery_count": 22,
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "generated_at": "2026-11-01T16:49:33.291900+00:00",
+      "local_generated_at": "2026-11-02T00:49:33.291900+08:00",
+      "start_index": 56,
+      "seed_indices": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "seed_batch": [
+        "steam",
+        "game",
+        "poki",
+        "slope game",
+        "crazy games"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    }
+  ],
+  "scanned_seeds": [
+    "navigator",
+    "syncer",
+    "connector",
+    "cataloger",
+    "responder",
+    "color",
+    "image",
+    "flux",
+    "ai",
+    "gumroad"
+  ],
+  "discoveries": [
+    {
+      "seed": "syncer",
+      "query": "lip syncer meaning",
+      "rise_value": 34600.0,
+      "raw_value": 34600
+    },
+    {
+      "seed": "navigator",
+      "query": "endlagersuche navigator",
+      "rise_value": 24700.0,
+      "raw_value": 24700
+    },
+    {
+      "seed": "ai",
+      "query": "china ai bubble",
+      "rise_value": 12250.0,
+      "raw_value": 12250
+    },
+    {
+      "seed": "ai",
+      "query": "china ai bubble burst",
+      "rise_value": 9800.0,
+      "raw_value": 9800
+    },
+    {
+      "seed": "color",
+      "query": "serena williams new hair color",
+      "rise_value": 3950.0,
+      "raw_value": 3950
+    },
+    {
+      "seed": "responder",
+      "query": "unforgotten",
+      "rise_value": 3450.0,
+      "raw_value": 3450
+    },
+    {
+      "seed": "responder",
+      "query": "is today national first responder day",
+      "rise_value": 3250.0,
+      "raw_value": 3250
+    },
+    {
+      "seed": "connector",
+      "query": "cfmeu coomera connector dispute",
+      "rise_value": 2650.0,
+      "raw_value": 2650
+    },
+    {
+      "seed": "responder",
+      "query": "when is national first responder day",
+      "rise_value": 1750.0,
+      "raw_value": 1750
+    },
+    {
+      "seed": "responder",
+      "query": "national first responder day",
+      "rise_value": 1550.0,
+      "raw_value": 1550
+    },
+    {
+      "seed": "responder",
+      "query": "national first responders day",
+      "rise_value": 1500.0,
+      "raw_value": 1500
+    },
+    {
+      "seed": "ai",
+      "query": "how to disable ai overview",
+      "rise_value": 1350.0,
+      "raw_value": 1350
+    },
+    {
+      "seed": "responder",
+      "query": "first responders day",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "ai",
+      "query": "ai bubble",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "responder",
+      "query": "first responder day",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "connector",
+      "query": "james island connector run",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "color",
+      "query": "best paint color for living room",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "responder",
+      "query": "national first responders day 2026",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "responder",
+      "query": "que responder cuando te dicen dulce o truco",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "flux",
+      "query": "chumbkiya flux ghanatv ka si matrak",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "flux",
+      "query": "ek uttal lens ka upyog kiske roop mein kiya jata hai",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "flux",
+      "query": "chumbkiya flux ka matrak",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "flux",
+      "query": "chumbkiya flux ka si matrak",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "responder",
+      "query": "the missing",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "responder",
+      "query": "first responder appreciation day",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "flux",
+      "query": "adrian flux arena",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "syncer",
+      "query": "tradify",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "syncer",
+      "query": "tradecopia",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "navigator",
+      "query": "addicted to my navigator bilibili",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "flux",
+      "query": "si unit of magnetic flux density",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "image",
+      "query": "moon image",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "gumroad",
+      "query": "adobe stock contributor",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "responder",
+      "query": "alo first responder discount",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "flux",
+      "query": "flux redux",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "navigator",
+      "query": "guild navigator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "flux",
+      "query": "si unit of magnetic flux",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "navigator",
+      "query": "dune navigator",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "gumroad",
+      "query": "superprofile",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "responder",
+      "query": "who is considered a first responder",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "navigator",
+      "query": "addicted to my navigator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "gumroad",
+      "query": "adobe stock",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "responder",
+      "query": "chick fil a first responder discount",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "flux",
+      "query": "flux redux glock",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "syncer",
+      "query": "lucid trading",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "navigator",
+      "query": "shark navigator deluxe upright vacuum nv360",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "syncer",
+      "query": "tradingview",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "responder",
+      "query": "first responder mortgage",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "flux",
+      "query": "flux unlock",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "flux",
+      "query": "neon flux",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "navigator",
+      "query": "shark navigator robot vacuum",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "gumroad",
+      "query": "canva login",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "discovery_count": 51,
+  "updated_at": "2026-11-01T16:49:33.291900+00:00",
+  "scanned_seed_count": 10,
+  "batch_count": 2,
+  "attempted_seed_count": 15,
+  "complete_20_seeds": false,
+  "complete_daily_target": false,
+  "completion_pct": 13.5,
+  "failed_seed_count": 5
+}

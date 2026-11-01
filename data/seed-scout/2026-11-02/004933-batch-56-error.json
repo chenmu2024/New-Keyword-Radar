@@ -1,0 +1,26 @@
+{
+  "batch_id": "2026-11-01T16:49:33.291900+00:00-56-57-58-59-60",
+  "generated_at": "2026-11-01T16:49:33.291900+00:00",
+  "local_generated_at": "2026-11-02T00:49:33.291900+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "steam",
+    "game",
+    "poki",
+    "slope game",
+    "crazy games"
+  ],
+  "seed_indices": [
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "start_index": 56,
+  "discoveries": [],
+  "status": "error",
+  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+}
