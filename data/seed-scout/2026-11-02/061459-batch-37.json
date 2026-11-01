@@ -1,0 +1,183 @@
+{
+  "batch_id": "2026-11-01T22:14:59.246589+00:00-37-38-39-40-41",
+  "generated_at": "2026-11-01T22:14:59.246589+00:00",
+  "local_generated_at": "2026-11-02T06:14:59.246589+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "viewer",
+    "extractor",
+    "monitor",
+    "notifier",
+    "verifier"
+  ],
+  "seed_indices": [
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "start_index": 37,
+  "discoveries": [
+    {
+      "seed": "monitor",
+      "query": "asian water monitor captured maryland",
+      "rise_value": 12000.0,
+      "raw_value": 12000
+    },
+    {
+      "seed": "notifier",
+      "query": "outlook change notifier",
+      "rise_value": 10050.0,
+      "raw_value": 10050
+    },
+    {
+      "seed": "notifier",
+      "query": "appleskin",
+      "rise_value": 8550.0,
+      "raw_value": 8550
+    },
+    {
+      "seed": "notifier",
+      "query": "roblox item notifier",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "notifier",
+      "query": "roblox limited notifier",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "monitor",
+      "query": "asian water monitor",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier si on est inscrit sur les listes electorales",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "notifier",
+      "query": "zoomify",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier ma situation electorale",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "verifier",
+      "query": "service public verifier ma situation electorale",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "verifier",
+      "query": "service public.fr",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "notifier",
+      "query": "fruit notifier script",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier situation electorale",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "verifier",
+      "query": "service public",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier liste electorale",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "extractor",
+      "query": "nsp extractor",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "notifier",
+      "query": "pick up notifier mod",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "notifier",
+      "query": "e-mail notifier",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier synonyme",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "verifier",
+      "query": "service public fr verifier inscription liste electorale",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "capital one shopping",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "impots gouv",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier liste electorale inscription",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier mon inscription electorale",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "comment verifier si sa carte cni est disponible",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier inscription sur liste electorale",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 26
+}

@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-01T16:49:44.363726+00:00
-- Historical candidates: 2934
-- Newly recorded from pending: 5
+- Updated (UTC): 2026-11-01T22:18:21.498342+00:00
+- Historical candidates: 3040
+- Newly recorded from pending: 106
 - Awaiting 7/14/30-day evidence review: 1386
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- adrian flux arena [Global] — discovered — first 2026-11-02, last 2026-11-02
-- canva login [Global] — discovered — first 2026-11-02, last 2026-11-02
 - first responder mortgage [Global] — discovered — first 2026-11-02, last 2026-11-02
+- canva login [Global] — discovered — first 2026-11-02, last 2026-11-02
 - que responder cuando te dicen dulce o truco [Global] — discovered — first 2026-11-02, last 2026-11-02
 - shark navigator robot vacuum [Global] — discovered — first 2026-11-02, last 2026-11-02
-- flux unlock [Global] — discovered — first 2026-11-01, last 2026-11-02
-- tradingview [Global] — discovered — first 2026-11-01, last 2026-11-02
-- guild navigator [Global] — discovered — first 2026-11-01, last 2026-11-02
-- best paint color for living room [Global] — discovered — first 2026-11-01, last 2026-11-02
-- james island connector run [Global] — discovered — first 2026-11-01, last 2026-11-02
-- who is considered a first responder [Global] — discovered — first 2026-10-31, last 2026-11-02
-- serena williams new hair color [Global] — discovered — first 2026-10-31, last 2026-11-02
-- shark navigator deluxe upright vacuum nv360 [Global] — discovered — first 2026-10-31, last 2026-11-02
-- dune navigator [Global] — discovered — first 2026-10-31, last 2026-11-02
-- chick fil a first responder discount [Global] — discovered — first 2026-10-31, last 2026-11-02
-- tradify [Global] — discovered — first 2026-10-30, last 2026-11-02
-- first responder appreciation day [Global] — discovered — first 2026-10-30, last 2026-11-02
-- moon image [Global] — discovered — first 2026-10-30, last 2026-11-02
-- china ai bubble burst [Global] — discovered — first 2026-10-30, last 2026-11-02
-- lip syncer meaning [Global] — discovered — first 2026-10-30, last 2026-11-02
-- china ai bubble [Global] — discovered — first 2026-10-30, last 2026-11-02
-- superprofile [Global] — discovered — first 2026-10-29, last 2026-11-02
-- is today national first responder day [Global] — discovered — first 2026-10-29, last 2026-11-02
-- first responder day [Global] — discovered — first 2026-10-29, last 2026-11-02
-- national first responders day 2026 [Global] — discovered — first 2026-10-29, last 2026-11-02
+- adrian flux arena [Global] — discovered — first 2026-11-02, last 2026-11-02
+- adu builder [Global] — discovered — first 2026-11-02, last 2026-11-02
+- android sicherheitslücke [Global] — discovered — first 2026-11-02, last 2026-11-02
+- anre [Global] — discovered — first 2026-11-02, last 2026-11-02
+- apple creator studio [Global] — discovered — first 2026-11-02, last 2026-11-02
+- baseball bros [Global] — discovered — first 2026-11-02, last 2026-11-02
+- cheap food processor [Global] — discovered — first 2026-11-02, last 2026-11-02
+- chiefs wide receiver trade [Global] — discovered — first 2026-11-02, last 2026-11-02
+- christian watson [Global] — discovered — first 2026-11-02, last 2026-11-02
+- chrome compressor [Global] — discovered — first 2026-11-02, last 2026-11-02
+- chrome compressor cyberpunk [Global] — discovered — first 2026-11-02, last 2026-11-02
+- coffee maker near me [Global] — discovered — first 2026-11-02, last 2026-11-02
+- composer zimmer nyt [Global] — discovered — first 2026-11-02, last 2026-11-02
+- composer zimmer nyt crossword clue [Global] — discovered — first 2026-11-02, last 2026-11-02
+- constructor overloading in java [Global] — discovered — first 2026-11-02, last 2026-11-02
+- constructor university germany [Global] — discovered — first 2026-11-02, last 2026-11-02
+- constructores vente venezuela [Global] — discovered — first 2026-11-02, last 2026-11-02
+- cowboys game today [Global] — discovered — first 2026-11-02, last 2026-11-02
+- date converter [Global] — discovered — first 2026-11-02, last 2026-11-02
+- designer outlet wolfsburg [Global] — discovered — first 2026-11-02, last 2026-11-02
+- dropbox uploader [Global] — discovered — first 2026-11-02, last 2026-11-02
 
 ## Due for follow-up
 
