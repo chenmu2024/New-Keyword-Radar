@@ -1,4 +1,4 @@
-name: Sitemap Delta Research (14-day pilot)
+name: Sitemap Delta Research (ongoing)
 
 on:
   workflow_dispatch:
@@ -41,7 +41,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Check research pilot date window
+      - name: Check authorized Sitemap monitoring mode
         id: pilot
         shell: bash
         run: |
@@ -52,7 +52,7 @@ jobs:
           from zoneinfo import ZoneInfo
           cfg = json.loads(Path("config/sitemap_sources.json").read_text())
           day = datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
-          enabled = cfg["trial_start"] <= day < cfg["trial_end_exclusive"]
+          enabled = bool(cfg.get("continuous_monitoring", False)) or (cfg["trial_start"] <= day < cfg["trial_end_exclusive"])
           print("run=" + ("true" if enabled else "false"))
           PY
       - name: Offline regression tests

@@ -38,8 +38,8 @@ def save(path, val):
 def publish():
     bounds = load(ROOT / "config/sitemap_sources.json", {})
     today = datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
-    if not (bounds["trial_start"] <= today < bounds["trial_end_exclusive"]):
-        print("Outside 14-day Sitemap pilot: no publish.")
+    if not (bounds.get("continuous_monitoring", False) or (bounds["trial_start"] <= today < bounds["trial_end_exclusive"])):
+        print("Sitemap monitoring disabled or outside authorized window: no publish.")
         return
     if not (ROOT / ".git").exists():
         raise RuntimeError("Must run from GitHub Actions checkout")

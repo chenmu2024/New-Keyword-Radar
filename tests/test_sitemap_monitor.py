@@ -181,7 +181,7 @@ class SitemapTests(unittest.TestCase):
                          "convert images to pdf")
 
     def test_production_watchlist_stays_bounded(self):
-        # Guard the approved 18-source inventory and the 14-day pilot cutoff.
+        # Guard source inventory and preserve historical pilot dates while ongoing monitoring is authorized.
         cfg = json.loads((m.ROOT / "config/sitemap_sources.json").read_text(encoding="utf-8"))
         feeds = cfg["sources"]
         ids = {x["id"] for x in feeds}
@@ -201,6 +201,7 @@ class SitemapTests(unittest.TestCase):
         self.assertEqual(producthunt["include_path_prefixes"], ["/products/"])
         self.assertTrue(all(x["sitemap"].startswith("https://") for x in feeds))
         self.assertEqual(cfg["trial_end_exclusive"], "2026-11-02")
+        self.assertIs(cfg.get("continuous_monitoring"), True)
 
     def test_large_delta_samples_all_urls_not_lexicographic_first_page(self):
         urls = [f"https://example.com/tools/alpha-{i:04d}" for i in range(100)]

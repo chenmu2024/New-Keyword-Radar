@@ -430,8 +430,8 @@ def run(root=ROOT, enrich=True):
     day = now.date().isoformat()
     if not cfg.get("sources"):
         raise ValueError("No Sitemap sources configured")
-    if not (cfg["trial_start"] <= day < cfg["trial_end_exclusive"]):
-        print("Outside 14-day research pilot; no collection and no writes.")
+    if not (cfg.get("continuous_monitoring", False) or (cfg["trial_start"] <= day < cfg["trial_end_exclusive"])):
+        print("Sitemap monitoring disabled or outside authorized date window; no collection and no writes.")
         return {"status": "outside_trial", "date": day}
     state_path = root / "state/sitemap/snapshots.json"
     queue_path = root / "data/sitemap/queue.json"
@@ -451,7 +451,7 @@ def run(root=ROOT, enrich=True):
         fresh_signatures, day)
     success = sum(x["status"] != "error" for x in status)
     payload = {"generated_at": now.isoformat(), "date": day, "trial_start": cfg["trial_start"],
-               "trial_end_exclusive": cfg["trial_end_exclusive"], "source_count": len(status),
+               "trial_end_exclusive": cfg["trial_end_exclusive"], "continuous_monitoring": bool(cfg.get("continuous_monitoring", False)), "source_count": len(status),
                "success_count": success, "new_url_count": sum(
                    x.get("new_url_count", 0) for x in status),
                "new_candidate_count": len(findings),
