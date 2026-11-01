@@ -2,7 +2,7 @@
   "date": "2026-11-01",
   "window_start": "2026-10-26",
   "source_count": 135,
-  "queue_count": 3352,
+  "queue_count": 3531,
   "ignored_unverifiable_proofs": 0,
   "groups": {
     "games": [
@@ -175,6 +175,34 @@
         ]
       },
       {
+        "query": "matchstick master",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/matchstick-master",
+            "first_seen": "2026-10-30",
+            "observed_query": "matchstick master",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/matchstick_master",
+            "first_seen": "2026-11-01",
+            "observed_query": "matchstick master",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "quantum catch",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -325,6 +353,34 @@
         ]
       },
       {
+        "query": "cadcraft",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/cadcraft",
+            "first_seen": "2026-10-31",
+            "observed_query": "cadcraft",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "indietools-products",
+            "website": "indietools.app",
+            "url": "https://www.indietools.app/products/cadcraft",
+            "first_seen": "2026-11-01",
+            "observed_query": "cadcraft",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "metricvia",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -376,6 +432,34 @@
             "url": "https://saascity.io/live/prettyup",
             "first_seen": "2026-10-31",
             "observed_query": "prettyup",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "words into music",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "toolveyor-tools",
+            "website": "toolveyor.com",
+            "url": "https://toolveyor.com/words-into-music",
+            "first_seen": "2026-10-31",
+            "observed_query": "words into music",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/words-into-music/",
+            "first_seen": "2026-11-01",
+            "observed_query": "words into music",
             "source_category": "saas"
           }
         ]
@@ -497,8 +581,8 @@
     "functions": []
   },
   "group_counts": {
-    "games": 7,
-    "products": 10,
+    "games": 8,
+    "products": 12,
     "tools": 0,
     "functions": 0
   },
@@ -586,6 +670,35 @@
             "url": "https://www.y8.com/studios/inkblade",
             "first_seen": "2026-10-31",
             "observed_query": "inkblade",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "matchstick master",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/matchstick-master",
+            "first_seen": "2026-10-30",
+            "observed_query": "matchstick master",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/matchstick_master",
+            "first_seen": "2026-11-01",
+            "observed_query": "matchstick master",
             "source_category": "games"
           }
         ],
@@ -768,6 +881,35 @@
         "cross_signal_origin": "products"
       },
       {
+        "query": "cadcraft",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/cadcraft",
+            "first_seen": "2026-10-31",
+            "observed_query": "cadcraft",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "indietools-products",
+            "website": "indietools.app",
+            "url": "https://www.indietools.app/products/cadcraft",
+            "first_seen": "2026-11-01",
+            "observed_query": "cadcraft",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "distriova",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -929,17 +1071,17 @@
     "brazil": []
   },
   "by_type_counts": {
-    "games": 7,
-    "saas": 5,
+    "games": 8,
+    "saas": 6,
     "ai": 2,
     "calculators": 0,
     "files": 0,
     "developer": 0,
     "brazil": 0
   },
-  "delta_ledger_count": 1881,
+  "delta_ledger_count": 2067,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-11-01T02:43:27.154827+08:00",
+  "generated_at": "2026-11-01T17:38:45.100038+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
@@ -949,7 +1091,7 @@
       "baselines": 0,
       "delta_scans": 29,
       "failed": 4,
-      "new_urls": 28,
+      "new_urls": 51,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -978,7 +1120,7 @@
       "baselines": 0,
       "delta_scans": 19,
       "failed": 1,
-      "new_urls": 43,
+      "new_urls": 133,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -995,7 +1137,7 @@
       "baselines": 0,
       "delta_scans": 20,
       "failed": 0,
-      "new_urls": 27,
+      "new_urls": 1,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -1045,7 +1187,7 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 72,
+      "new_urls": 6,
       "over_scan_cap": 0,
       "failed_sources": []
     },

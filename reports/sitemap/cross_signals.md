@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-01T02:43:27.154827+08:00；详细候选：3352；7日轻量URL证据：1881/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-01T17:38:45.100038+08:00；详细候选：3531；7日轻量URL证据：2067/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 28，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 51，采样上限遗漏 0。
 
 - **chrono spira**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-pt · 2026-10-29 · https://www.gamepix.com/pt/play/chrono-spira · 原词 chrono spira
@@ -23,6 +23,9 @@
 - **inkblade**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-pt · 2026-10-29 · https://www.gamepix.com/pt/play/inkblade · 原词 inkblade
   - y8.com · y8-en · 2026-10-31 · https://www.y8.com/studios/inkblade · 原词 inkblade
+- **matchstick master**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamepix.com · gamepix-en · 2026-10-30 · https://www.gamepix.com/play/matchstick-master · 原词 matchstick master
+  - y8.com · y8-en · 2026-11-01 · https://www.y8.com/games/matchstick_master · 原词 matchstick master
 - **monster cafe idle tycoon**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-en · 2026-10-30 · https://www.gamepix.com/play/monster-cafe-idle-tycoon · 原词 monster cafe idle tycoon
   - y8.com · y8-en · 2026-10-30 · https://www.y8.com/games/monster_cafe_idle_tycoon · 原词 monster cafe idle tycoon
@@ -40,7 +43,7 @@
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 43，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 133，采样上限遗漏 0。
 
 - **afterlid**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - producthunt.com · producthunt-products · 2026-10-29 · https://www.producthunt.com/products/afterlid · 原词 afterlid
@@ -48,6 +51,9 @@
 - **angleforge**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-10-31 · https://fazier.com/launches/angleforge · 原词 angleforge
   - saascity.io · saascity-products · 2026-10-31 · https://saascity.io/live/angleforge · 原词 angleforge
+- **cadcraft**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - saascity.io · saascity-products · 2026-10-31 · https://saascity.io/live/cadcraft · 原词 cadcraft
+  - indietools.app · indietools-products · 2026-11-01 · https://www.indietools.app/products/cadcraft · 原词 cadcraft
 - **distriova**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-10-30 · https://fazier.com/launches/distriova · 原词 distriova
   - productperch.com · productperch-products · 2026-10-30 · https://productperch.com/products/distriova/ · 原词 distriova
@@ -62,7 +68,7 @@
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 27，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 1，采样上限遗漏 0。
 
 - **kurodyne**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoptools.com · aitoptools-tools · 2026-10-31 · https://aitoptools.com/tool/kurodyne/ · 原词 kurodyne
@@ -90,7 +96,7 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 72，采样上限遗漏 0。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 6，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -107,6 +113,9 @@
 - numradar：独立根域 2 家；类别 developer, saas
   - developer · devhunt-tools · 2026-11-01 · https://devhunt.org/tool/numradar
   - saas · fazier-launches · 2026-11-01 · https://fazier.com/launches/numradar
+- words into music：独立根域 2 家；类别 ai, saas
+  - ai · toolveyor-tools · 2026-10-31 · https://toolveyor.com/words-into-music
+  - saas · productperch-products · 2026-11-01 · https://productperch.com/products/words-into-music/
 - topmessage：独立根域 2 家；类别 ai, saas
   - saas · producthunt-products · 2026-10-30 · https://www.producthunt.com/products/topmessage
   - ai · aitoolnet-tools · 2026-11-01 · https://www.aitoolnet.com/topmessage
