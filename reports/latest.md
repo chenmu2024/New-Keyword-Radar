@@ -1,29 +1,29 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-11-01T23:21:17.563342+00:00
+Generated: 2026-11-02T02:11:06.218658+00:00
 
 ## Formal candidates
 
-### 1. cyclone arnab tracker live
+### 1. creator codes for brawl stars
 
-- Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-26T00:00:00+00:00, retention **15.3%**.
-- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
-- Source seed-rising:tracker; geo Worldwide.
+- Newness **96/100**; money **92/100** (repeat-data).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-26T00:00:00+00:00, retention **1.0%**.
+- 5y old-history gate: avg **0.09**, peak **8**, material ratio (>= 5) **0.012**; raw non-zero ratio **0.012**.
+- Source seed-rising:creator; geo Worldwide.
 
 ## Watch / rejected
 
-- new york city marathon tracker — **old-history** — newness 100, money 100; 5y peak 10
-- nyc marathon tracker — **old-history** — newness 100, money 100; 5y peak 9
-- syumra simulator — **old-history** — newness 100, money 100; 5y peak 33
-- wide receiver rankings week 8 — **old-history** — newness 100, money 92; 5y peak 96
-- cyclone arnab tracker — **history-unchecked** — newness 96, money 100
-- ragdoll simulator itch.io — **history-unchecked** — newness 96, money 100
-- jason chang solar tracker invention — **history-unchecked** — newness 96, money 94
-- creator codes brawl stars — **history-unchecked** — newness 96, money 92
-- murasu cyclone tracker live — **history-unchecked** — newness 95, money 94
-- new york marathon 2026 tracker — **history-unchecked** — newness 95, money 94
-- new york marathon tracker — **history-unchecked** — newness 95, money 94
-- nyc marathon bib tracker — **history-unchecked** — newness 95, money 94
-- ragdoll simulator itch.io themilitarylarper — **history-unchecked** — newness 88, money 94
-- buy mounjaro online www.buymounjaroaustralia.co 🇦🇺 — **history-unchecked** — newness 88, money 90
+- ffcs planner — **old-history** — newness 100, money 100; 5y peak 70
+- youtube to mp3 player converter app — **old-history** — newness 100, money 100; 5y peak 10
+- cyclone update cyclone arnab tracker — **old-history** — newness 96, money 94; 5y peak 9
+- brawl stars creator code — **old-history** — newness 96, money 86; 5y peak 7
+- jackery explorer 1500 v2 solar generator with solar panel 100air — **history-unchecked** — newness 95, money 94
+- brawlstars creator code — **history-unchecked** — newness 93, money 92
+- creator coffins code — **history-unchecked** — newness 93, money 92
+- cyclone live tracker — **history-unchecked** — newness 92, money 94
+- brawl star creator codes — **history-unchecked** — newness 88, money 86
+- council tax band checker — **commercial-watch** — newness 78, money 100
+- cyclone tracker — **commercial-watch** — newness 72, money 100
+- food processor comparison — **commercial-watch** — newness 53, money 90
+- council tax checker — **reject** — newness 42, money 100
+- premium bonds prize checker — **reject** — newness 35, money 100
