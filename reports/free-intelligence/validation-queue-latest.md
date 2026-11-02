@@ -1,41 +1,41 @@
-# SaaS / new-keyword validation queue — 2026-11-01
+# SaaS / new-keyword validation queue — 2026-11-02
 
 **RESEARCH ONLY. 0 build-ready opportunities unless separately validated.**
 
-Topics: 7 · Topics with first-person leads: 0 · Ready to build: 0
+Topics: 6 · Topics with first-person leads: 0 · Ready to build: 0
 
 Volume / KD / CPC: **not available**. These discovery queries are not necessarily commercially searched keywords.
 
 History: 14 archived days in the prior 14 days. Observations are not distinct customer reports.
 
-## US · payroll
+## US · operations
 
-Search for user pain: `payroll integration error`
+Search for user pain: `scheduling spreadsheet manual`
 
 Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
 
-Source limitations: duckduckgo
+Source limitations: duckduckgo, reddit
 
 **Firsthand requests**
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
-- [api-evangelist/kombo](https://github.com/api-evangelist/kombo) (github_repositories)
-- [api-evangelist/sage-accounting](https://github.com/api-evangelist/sage-accounting) (github_repositories)
-- [BrightHR Launches Xero Payroll Integration to Tackle Wage Theft and Simplify Compliance - techbusinessnews.com.au](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaU11QTBOMXdvUG9scENfUUdiUVBBTHNuVnk4MG1WTlFwOHR0dHA2RlV2bHhGOFk2X2o2Zi1kQ2JlUDhhMnFmeE5FbGs4cjFyQ0lpVEtlQ2pZT2lwTXVfYXM2VmV0SGRnaVRIV0IxLUlqZkpGczZ4UHAwUlpBbFhfYmhrcHkxYWppWXhVU043cnpDQkNJNUtRTGtwRVZLOFpnY1IzRzBGNTdYek9ZM2hqbXpVVmNOdE8wYVVGV2h3OXo1T3ZjbmpNZw?oc=5) (google_news_rss)
-- [The payroll problem often starts long before payday - ITWeb](https://news.google.com/rss/articles/CBMiogFBVV95cUxPU1YtYUExb1NjdE5TVEhkTEFUMzdyTEpqYTk5ajBjQzlycmVRaWFSeC1mX0FxbUtDc3dzbHZPTXQwWWFHU0pUYmJjSm1FcWpzaXZNb3RoVl9lRW9BYkR1bkNzVmRUTkc4UUFVOXN1UzFkczVGRnR6OXpWZ2w2SVBFWUVmWEZZVFRsUTMzVnQxZ0ZuZDdCUGp0WlJ4N1JLZVN1Umc?oc=5) (google_news_rss)
+- [The Hidden Cost of Manual Contact Center Scheduling - CX Today](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ULUxRQ1MwQXN4MklnUnlDejEzUGhRVVFJRDBQQ1JmNHBCZVhSZWZHYlBlVGx4cXpkLUtmWjdpS0dHX3BEWG9CRWg3M2dFbjdQczUw?oc=5) (google_news_rss)
+- [Morrisons to Replace Manual Store Planning Spreadsheets with Logile Software - citybiz](https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWxGUGtqdU1lMnhrd1h6Rk83b1hMbXc0b2gzODYwdndPeWZlN1MxUC12MV95OWNnR08yaGlFVjlSdzFzZDZhTk8tS1F5NWZaQXpiaDVYODR0YnpuZVdMMG5hbWt2NlNIWXU0eVlzNko4WUNnWTRCUmJUOUdjcVFlNWNKTWs1ZlpMMWF0S29fQzBleUN1THdxQS1Cb0xvLVA4TWVlS2ZDeUNIaXVJRTNqR3JHNmdyQQ?oc=5) (google_news_rss)
+- [Acuity Scheduling: Online Booking & Appointment Scheduling Software](https://acuityscheduling.com/) (bing_rss)
+- [Meeting Scheduling Software and AI Meeting Tools | Calendly](https://calendly.com/) (bing_rss)
 
 **Exact keyword hypotheses to verify (en):**
-- `payroll integration software` — Volume: unknown; KD: unknown; CPC: unknown
-- `payroll integration errors` — Volume: unknown; KD: unknown; CPC: unknown
-- `payroll API integration` — Volume: unknown; KD: unknown; CPC: unknown
+- `employee scheduling spreadsheet` — Volume: unknown; KD: unknown; CPC: unknown
+- `schedule automation software` — Volume: unknown; KD: unknown; CPC: unknown
+- `staff rota generator` — Volume: unknown; KD: unknown; CPC: unknown
 
-Monetization hypothesis: B2B integrations or compliance tool; paid intent unverified
+Monetization hypothesis: Staff planning tool / subscription; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 7 (the same topic is not independent demand)
+- Earlier days this research area was covered: 6 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 2
+- Repeated context links (saved sample): 4
 
 **Next checks:**
 - Check the exact terms above for US Volume/KD/CPC, noting provider and date.
@@ -49,15 +49,15 @@ Search for user pain: `inventory sync spreadsheet`
 
 Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
 
-Source limitations: duckduckgo, reddit
+Source limitations: duckduckgo
 
 **Firsthand requests**
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
+- [Smith-Mountain-Lake-Resale/flipdesk](https://github.com/Smith-Mountain-Lake-Resale/flipdesk) (github_repositories)
+- [ladykirsah/Kira.office](https://github.com/ladykirsah/Kira.office) (github_repositories)
 - [berberbernis21-create/webflow-sync-server](https://github.com/berberbernis21-create/webflow-sync-server) (github_repositories)
-- [nishidoubi1/feishu-inventory-sync](https://github.com/nishidoubi1/feishu-inventory-sync) (github_repositories)
-- [dazgsmith/kroll-inventory-sync](https://github.com/dazgsmith/kroll-inventory-sync) (github_repositories)
 - [Inventory Sheet Template With Examples - Forbes](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZMUtvTUt0T3ZpaTMzcmQ4SUVFaVpJTXQyempma2NtaDFzWXNMbjZjYkcxSGZCTU8xTmhETkRBMHpOMmREeHNNQjFfWksyZDh6ZkFzc0FvMXVyc0dySGY2RVNTMTJJeXc?oc=5) (google_news_rss)
 
 **Exact keyword hypotheses to verify (en):**
@@ -68,9 +68,9 @@ Source limitations: duckduckgo, reddit
 Monetization hypothesis: B2B inventory synchronization; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 6 (the same topic is not independent demand)
+- Earlier days this research area was covered: 7 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 1
+- Repeated context links (saved sample): 2
 
 **Next checks:**
 - Check the exact terms above for US Volume/KD/CPC, noting provider and date.
@@ -103,79 +103,78 @@ Source limitations: duckduckgo, reddit
 Monetization hypothesis: Brazil bookkeeping reconciliation; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 6 (the same topic is not independent demand)
-- Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 2
-
-**Next checks:**
-- Check the exact terms above for BR Volume/KD/CPC, noting provider and date.
-- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
-- Confirm independent, attributable recent problem reports.
-- Test ad/SaaS monetization and zero-fixed-cost feasibility.
-
-## BR · payroll
-
-Search for user pain: `folha pagamento erro`
-
-Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
-
-Source limitations: duckduckgo, reddit
-
-**Firsthand requests**
-- No qualifying public first-person request yet.
-
-**Competitor / context references (not demand validation)**
-- [hellisonvidal/Vorticis](https://github.com/hellisonvidal/Vorticis) (github_repositories)
-- [projetoagis/sigavoce](https://github.com/projetoagis/sigavoce) (github_repositories)
-- [Edukkkkkkjj/folha-de-pagamento](https://github.com/Edukkkkkkjj/folha-de-pagamento) (github_repositories)
-- [KRennison/Sistema-de-folha-de-pagamento-python-](https://github.com/KRennison/Sistema-de-folha-de-pagamento-python-) (github_repositories)
-
-**Exact keyword hypotheses to verify (pt-BR):**
-- `erro folha de pagamento` — Volume: unknown; KD: unknown; CPC: unknown
-- `conferência folha de pagamento` — Volume: unknown; KD: unknown; CPC: unknown
-- `cálculo folha de pagamento online` — Volume: unknown; KD: unknown; CPC: unknown
-
-Monetization hypothesis: Brazil payroll checker / B2B SaaS; paid intent unverified
-
-**14-day cross-report observations**
-- Earlier days this research area was covered: 7 (the same topic is not independent demand)
-- Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 1
-
-**Next checks:**
-- Check the exact terms above for BR Volume/KD/CPC, noting provider and date.
-- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
-- Confirm independent, attributable recent problem reports.
-- Test ad/SaaS monetization and zero-fixed-cost feasibility.
-
-## MX · payroll
-
-Search for user pain: `nómina excel errores`
-
-Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
-
-Source limitations: duckduckgo, reddit
-
-**Firsthand requests**
-- No qualifying public first-person request yet.
-
-**Competitor / context references (not demand validation)**
-- [Camilo1408/Nomina-Xpress](https://github.com/Camilo1408/Nomina-Xpress) (github_repositories)
-- [Ladydlozada/dashboard-rrhh-nomina](https://github.com/Ladydlozada/dashboard-rrhh-nomina) (github_repositories)
-- [7Freeza/liquidador-nomina](https://github.com/7Freeza/liquidador-nomina) (github_repositories)
-- [JesusAlonsoMorales/Automatizacion-partes-de-trabajo](https://github.com/JesusAlonsoMorales/Automatizacion-partes-de-trabajo) (github_repositories)
-
-**Exact keyword hypotheses to verify (es-MX):**
-- `nómina excel` — Volume: unknown; KD: unknown; CPC: unknown
-- `calculadora de nómina México` — Volume: unknown; KD: unknown; CPC: unknown
-- `errores de nómina` — Volume: unknown; KD: unknown; CPC: unknown
-
-Monetization hypothesis: Mexico payroll checker; paid intent unverified
-
-**14-day cross-report observations**
 - Earlier days this research area was covered: 7 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
 - Repeated context links (saved sample): 4
+
+**Next checks:**
+- Check the exact terms above for BR Volume/KD/CPC, noting provider and date.
+- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
+- Confirm independent, attributable recent problem reports.
+- Test ad/SaaS monetization and zero-fixed-cost feasibility.
+
+## BR · inventory
+
+Search for user pain: `estoque integração falha`
+
+Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
+
+Source limitations: duckduckgo, reddit
+
+**Firsthand requests**
+- No qualifying public first-person request yet.
+
+**Competitor / context references (not demand validation)**
+- [protecaoveicularhelios-art/Helios](https://github.com/protecaoveicularhelios-art/Helios) (github_repositories)
+- [ravelroot/Order-and-Inventory-System](https://github.com/ravelroot/Order-and-Inventory-System) (github_repositories)
+- [felgoes/parts-erp](https://github.com/felgoes/parts-erp) (github_repositories)
+- [WillamesLima01/conferencia-de-material---app](https://github.com/WillamesLima01/conferencia-de-material---app) (github_repositories)
+
+**Exact keyword hypotheses to verify (pt-BR):**
+- `controle de estoque online` — Volume: unknown; KD: unknown; CPC: unknown
+- `integração de estoque` — Volume: unknown; KD: unknown; CPC: unknown
+- `sincronização de estoque` — Volume: unknown; KD: unknown; CPC: unknown
+
+Monetization hypothesis: Inventory integration utility; paid intent unverified
+
+**14-day cross-report observations**
+- Earlier days this research area was covered: 6 (the same topic is not independent demand)
+- Repeated firsthand links (saved sample): 0
+- Repeated context links (saved sample): 3
+
+**Next checks:**
+- Check the exact terms above for BR Volume/KD/CPC, noting provider and date.
+- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
+- Confirm independent, attributable recent problem reports.
+- Test ad/SaaS monetization and zero-fixed-cost feasibility.
+
+## MX · inventory
+
+Search for user pain: `inventario excel manual`
+
+Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
+
+Source limitations: duckduckgo, reddit
+
+**Firsthand requests**
+- No qualifying public first-person request yet.
+
+**Competitor / context references (not demand validation)**
+- [AnaMaria1799/AromaDeCafe](https://github.com/AnaMaria1799/AromaDeCafe) (github_repositories)
+- [andres05tmm/bot-ventas-ferreteria](https://github.com/andres05tmm/bot-ventas-ferreteria) (github_repositories)
+- [CrabF-ui/WoodTrack](https://github.com/CrabF-ui/WoodTrack) (github_repositories)
+
+**Exact keyword hypotheses to verify (es-MX):**
+- `control de inventarios excel` — Volume: unknown; KD: unknown; CPC: unknown
+- `inventario en línea` — Volume: unknown; KD: unknown; CPC: unknown
+- `sistema de inventarios en excel` — Volume: unknown; KD: unknown; CPC: unknown
+
+Monetization hypothesis: Small business inventory tool; paid intent unverified
+
+**14-day cross-report observations**
+- Earlier days this research area was covered: 6 (the same topic is not independent demand)
+- Repeated firsthand links (saved sample): 0
+- Repeated context links (saved sample): 2
 
 **Next checks:**
 - Check the exact terms above for MX Volume/KD/CPC, noting provider and date.
@@ -208,43 +207,12 @@ Source limitations: duckduckgo, reddit
 Monetization hypothesis: Mexico invoice compliance utility; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 6 (the same topic is not independent demand)
+- Earlier days this research area was covered: 7 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
 - Repeated context links (saved sample): 4
 
 **Next checks:**
 - Check the exact terms above for MX Volume/KD/CPC, noting provider and date.
-- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
-- Confirm independent, attributable recent problem reports.
-- Test ad/SaaS monetization and zero-fixed-cost feasibility.
-
-## Worldwide · seed_rising
-
-Search for user pain: `youtube to mp3 player converter app`
-
-Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
-
-Source limitations: duckduckgo, reddit
-
-**Firsthand requests**
-- No qualifying public first-person request yet.
-
-**Competitor / context references (not demand validation)**
-- [YouTube Music in MP3: What You Need to Know - Spliiit](https://news.google.com/rss/articles/CBMic0FVX3lxTFB2cXVEU1Y5LVZxdTg1Y2xEc09aUGgtZDhYZ3hlRHBqZU5jQkdUdVZHcFZRRlpVbDRobENqSWZOMmhEUEljY2hKWnAyN2hKU3BzWlJSb2RseGhmV1JRT1pXQmR4aVJZbzVSUW9EREVuZktXMGs?oc=5) (google_news_rss)
-- [YouTube to MP3: Legal Methods and Alternatives - Spliiit](https://news.google.com/rss/articles/CBMifEFVX3lxTE81aUFrSUIzRnVNU2cwd0tadWFvQldOS3pZYjZ6aURVVHBNRDVucjRtbmJrdXdRRmVqS2hLTHJ5LUlWYUg5V1V0aDVKeWNOZTNQUWc4Z3BQRTZ3R0tHOTJEdTd2cmJSQlVkYjdzTjNRM0M0V3ZVNXgwTFgwZ2s?oc=5) (google_news_rss)
-
-**Exact keyword hypotheses to verify (multi):**
-- No curated exact keywords yet; derive from actual customer wording.
-
-Monetization hypothesis: Undetermined; validate business model
-
-**14-day cross-report observations**
-- Earlier days this research area was covered: 5 (the same topic is not independent demand)
-- Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 0
-
-**Next checks:**
-- Check the exact terms above for Worldwide Volume/KD/CPC, noting provider and date.
 - Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
 - Confirm independent, attributable recent problem reports.
 - Test ad/SaaS monetization and zero-fixed-cost feasibility.
