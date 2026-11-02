@@ -1,34 +1,34 @@
 # Sitemap delta research — 2026-11-02
 
-Cross-site signature ledger: 2248/30000 last-seven-day URL proof records; 181 new light-weight proofs; 0 still omitted by per-source safety limit.
+Cross-site signature ledger: 4769/30000 last-seven-day URL proof records; 2521 new light-weight proofs; 0 still omitted by per-source safety limit.
 Unverified leads only. Baseline URL snapshots are NOT discoveries.
-Sources succeeded: 122/135; new URLs: 193; candidate URL leads: 181; first-time keyword/geo research leads: 178; reappeared URLs: 4; retained queue: 3709. Neither URL changes nor leads establish search demand.
+Sources succeeded: 127/135; new URLs: 2538; candidate URL leads: 652; first-time keyword/geo research leads: 628; reappeared URLs: 7; retained queue: 4337. Neither URL changes nor leads establish search demand.
 
 ## Sources
 
-- crazygames-en: delta; 0 new URLs; 5402 pages; removed 1; reappeared 0; candidate scan cap skipped 0
-- crazygames-br: delta; 0 new URLs; 5402 pages; removed 1; reappeared 0; candidate scan cap skipped 0
-- crazygames-es: delta; 3 new URLs; 5402 pages; removed 1; reappeared 0; candidate scan cap skipped 0
-- gamepix-en: delta; 0 new URLs; 19584 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- gamepix-pt: delta; 0 new URLs; 19584 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-en: delta; 11 new URLs; 5413 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-br: delta; 11 new URLs; 5413 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- crazygames-es: delta; 11 new URLs; 5413 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- gamepix-en: delta; 2 new URLs; 19584 pages; removed 2; reappeared 0; candidate scan cap skipped 0
+- gamepix-pt: delta; 2 new URLs; 19584 pages; removed 2; reappeared 0; candidate scan cap skipped 0
 - minijuegos-es: delta; 0 new URLs; 27561 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - friv-en: delta; 0 new URLs; 1183 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculator-soup: delta; 0 new URLs; 502 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - vercel-product-watch: delta; 0 new URLs; 2702 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - n8n-workflows: delta; 0 new URLs; 13766 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- railway-templates: delta; 106 new URLs; 7552 pages; removed 51; reappeared 0; candidate scan cap skipped 0
+- railway-templates: delta; 39 new URLs; 7540 pages; removed 51; reappeared 0; candidate scan cap skipped 0
 - railway-changelog: delta; 0 new URLs; 314 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- apify-actors-a: delta; 0 new URLs; 5944 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- apify-actors-z: delta; 0 new URLs; 5484 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- apify-actors-a: delta; 235 new URLs; 5950 pages; removed 229; reappeared 0; candidate scan cap skipped 115
+- apify-actors-z: delta; 1758 new URLs; 5268 pages; removed 1974; reappeared 0; candidate scan cap skipped 1636
 - futurepedia-tools: delta; 0 new URLs; 2499 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - netlify-product-watch: delta; 0 new URLs; 758 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- onlinetools-br: delta; 0 new URLs; 109 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- producthunt-products: delta; 0 new URLs; 21770 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- y8-en: delta; 0 new URLs; 35203 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- silvergames-en: delta; 0 new URLs; 6408 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- onlinetools-br: delta; 18 new URLs; 127 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- producthunt-products: delta; 11 new URLs; 21780 pages; removed 1; reappeared 0; candidate scan cap skipped 0
+- y8-en: delta; 15 new URLs; 35218 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- silvergames-en: delta; 3 new URLs; 6411 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - kizi-en: delta; 0 new URLs; 6009 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - onlinegames-en: delta; 0 new URLs; 1288 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- playgama-en: delta; 0 new URLs; 483 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- playgama-en: delta; 7 new URLs; 483 pages; removed 9; reappeared 2; candidate scan cap skipped 0
 - gamearter-en: delta; 0 new URLs; 2324 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamesgames-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 403: Forbidden
 - agame-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 403: Forbidden
@@ -38,16 +38,16 @@ Sources succeeded: 122/135; new URLs: 193; candidate URL leads: 181; first-time 
 - bgames-en: delta; 0 new URLs; 4520 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - playhop-en: delta; 0 new URLs; 20658 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamecomets-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 403: Forbidden
-- gamenora-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 415: Unsupported Media Type
+- gamenora-en: delta; 0 new URLs; 3702 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - 1001games-en: delta; 0 new URLs; 2401 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - toolify-products: delta; 0 new URLs; 2000 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- futuretools-products: delta; 5 new URLs; 4501 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- uneed-products: delta; 0 new URLs; 11501 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- poki-en: delta; 0 new URLs; 1503 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- gamedistribution-games: delta; 11 new URLs; 30809 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- futuretools-products: delta; 0 new URLs; 4501 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- uneed-products: delta; 16 new URLs; 11513 pages; removed 5; reappeared 1; candidate scan cap skipped 0
+- poki-en: delta; 1 new URLs; 1504 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- gamedistribution-games: delta; 3 new URLs; 30812 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamepost-games: delta; 0 new URLs; 12229 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- devhunt-tools: delta; 16 new URLs; 6614 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- fazier-launches: delta; 3 new URLs; 9084 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- devhunt-tools: delta; 0 new URLs; 6614 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- fazier-launches: delta; 31 new URLs; 9115 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aiapps-tools: delta; 0 new URLs; 2087 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - findmyaitool-tools: delta; 0 new URLs; 500 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aixploria-tools: delta; 0 new URLs; 22 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -63,42 +63,42 @@ Sources succeeded: 122/135; new URLs: 193; candidate URL leads: 181; first-time 
 - girlsgogames-en: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 403: Forbidden
 - cokogames-es: delta; 1 new URLs; 2323 pages; removed 1; reappeared 0; candidate scan cap skipped 0
 - jogos360-br: delta; 0 new URLs; 2128 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- yiv-games: delta; 0 new URLs; 5596 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- yiv-games: delta; 1 new URLs; 5597 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamegame-en: delta; 0 new URLs; 1887 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - gamesfrog-en: delta; 0 new URLs; 5000 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- saasworthy-products: delta; 0 new URLs; 27111 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- saasworthy-products: delta; 242 new URLs; 25751 pages; removed 1602; reappeared 0; candidate scan cap skipped 118
 - startupstash-tools: delta; 0 new URLs; 998 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - microlaunch-products: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; TimeoutError: The read operation timed out
 - smollaunch-products: delta; 0 new URLs; 1923 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - startupsfyi-products: delta; 0 new URLs; 1161 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - openhunts-projects: delta; 0 new URLs; 3903 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- toolfound-products: delta; 3 new URLs; 152 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- indieneed-products: delta; 0 new URLs; 630 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- indietools-products: delta; 0 new URLs; 200 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- startupbase-products: delta; 0 new URLs; 4670 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- pitchwall-products: delta; 0 new URLs; 500 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- saascity-products: delta; 6 new URLs; 1139 pages; removed 1; reappeared 0; candidate scan cap skipped 0
+- toolfound-products: delta; 0 new URLs; 152 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- indieneed-products: delta; 12 new URLs; 642 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- indietools-products: delta; 1 new URLs; 200 pages; removed 1; reappeared 0; candidate scan cap skipped 0
+- startupbase-products: delta; 14 new URLs; 4684 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- pitchwall-products: delta; 12 new URLs; 500 pages; removed 12; reappeared 0; candidate scan cap skipped 0
+- saascity-products: delta; 9 new URLs; 1148 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - fridayhunt-projects: delta; 0 new URLs; 314 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- productperch-products: delta; 10 new URLs; 400 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- productperch-products: delta; 15 new URLs; 415 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - launchscaler-products: delta; 0 new URLs; 7 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- aitoolsdirectory-tools: delta; 3 new URLs; 777 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- aitoolsdirectory-tools: delta; 1 new URLs; 777 pages; removed 1; reappeared 0; candidate scan cap skipped 0
 - aitoolnet-tools: delta; 0 new URLs; 22995 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- aitoptools-tools: delta; 2 new URLs; 11247 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- aitoptools-tools: delta; 3 new URLs; 11250 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aitoolsinc-tools: delta; 0 new URLs; 2739 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aiagentslist-agents: delta; 0 new URLs; 636 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aiforwork-tools: delta; 0 new URLs; 10 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - aitoolhouse-tools: delta; 0 new URLs; 3904 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- nextool-tools: delta; 0 new URLs; 1000 pages; removed 4; reappeared 4; candidate scan cap skipped 0
+- nextool-tools: delta; 1 new URLs; 1000 pages; removed 5; reappeared 4; candidate scan cap skipped 0
 - aitoolboard-tools: delta; 0 new URLs; 5480 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- aiagentstore-agents: delta; 4 new URLs; 912 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- dangai-tools: delta; 4 new URLs; 7595 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- aiagentstore-agents: delta; 0 new URLs; 908 pages; removed 4; reappeared 0; candidate scan cap skipped 0
+- dangai-tools: delta; 0 new URLs; 7587 pages; removed 8; reappeared 0; candidate scan cap skipped 0
 - opentools-tools: delta; 0 new URLs; 6600 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - toolworthy-ai-tools: delta; 0 new URLs; 1892 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- tooldirectory-ai-tools: delta; 16 new URLs; 2858 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- toolveyor-tools: delta; 0 new URLs; 1259 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- tooldirectory-ai-tools: delta; 0 new URLs; 2858 pages; removed 0; reappeared 0; candidate scan cap skipped 0
+- toolveyor-tools: delta; 52 new URLs; 1311 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - inchcalculator-tools: delta; 0 new URLs; 144 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculla-calculators: delta; 0 new URLs; 1533 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- calculatorsio-tools: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 415: Unsupported Media Type
+- calculatorsio-tools: delta; 0 new URLs; 1 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - metricconversions-tools: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; ValueError: Response exceeds size limit
 - calculatorweb-tools: delta; 0 new URLs; 142 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - calculatorultra-en: delta; 0 new URLs; 10276 pages; removed 0; reappeared 0; candidate scan cap skipped 0
@@ -134,75 +134,75 @@ Sources succeeded: 122/135; new URLs: 193; candidate URL leads: 181; first-time 
 - replicate-models: delta; 0 new URLs; 6170 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - invertexto-br: delta; 0 new URLs; 150 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - 4devs-br: delta; 0 new URLs; 128 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- freedevs-br: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; URLError: <urlopen error timed out>
+- freedevs-br: delta; 0 new URLs; 67 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - pradev-br: delta; 0 new URLs; 187 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- devdata4-br: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; HTTPError: HTTP Error 429: Too Many Requests
+- devdata4-br: delta; 0 new URLs; 261 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - ferramentasdodia-br: delta; 0 new URLs; 133 pages; removed 0; reappeared 0; candidate scan cap skipped 0
-- rankbox-br: error; 0 new URLs; ? pages; removed ?; reappeared ?; candidate scan cap skipped ?; URLError: <urlopen error [Errno 101] Network is unreachable>
+- rankbox-br: delta; 0 new URLs; 13 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - tautil-br: delta; 0 new URLs; 12 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 - cicerotools-br: delta; 0 new URLs; 64 pages; removed 0; reappeared 0; candidate scan cap skipped 0
 
 ## New URL leads (not proven new keywords)
 
-- [beauty makeover clinic](https://www.crazygames.com/es/game/beauty-makeover-clinic) — crazygames-es / ES
-- [canteen rush](https://www.crazygames.com/es/game/canteen-rush) — crazygames-es / ES
-- [paperclip http agents deploy paperclip with custom http agents](https://railway.com/deploy/paperclip-http-agents--deploy-paperclip-with-custom-http-agents) — railway-templates / US
-- [cobalt tools updated nov 26 cobalt tools setup](https://railway.com/deploy/cobalt-tools-updated-nov-26--cobalt-tools-setup) — railway-templates / US
-- [postiz updated nov 26 postiz updated jul 26](https://railway.com/deploy/postiz-updated-nov-26--postiz-updated-jul-26) — railway-templates / US
-- [flask updated nov 26 flask updated jul 26](https://railway.com/deploy/flask-updated-nov-26--flask-updated-jul-26) — railway-templates / US
-- [ubuntu python uv deploy ubuntu for python with uv](https://railway.com/deploy/ubuntu-python-uv--deploy-ubuntu-for-python-with-uv) — railway-templates / US
-- [sillytavern updated nov 26 sillytavern llm](https://railway.com/deploy/sillytavern-updated-nov-26--sillytavern-llm) — railway-templates / US
-- [metabase updated nov 26 metabase updated jul 26](https://railway.com/deploy/metabase-updated-nov-26--metabase-updated-jul-26) — railway-templates / US
-- [appsmith updated nov 26 appsmith](https://railway.com/deploy/appsmith-updated-nov-26--appsmith) — railway-templates / US
-- [chatwoot updated nov26 chatwoot 1](https://railway.com/deploy/chatwoot-updated-nov26--chatwoot-1) — railway-templates / US
-- [cvengine](https://railway.com/deploy/cvengine) — railway-templates / US
-- [evolution api updated nov 26 evolution api updated jul 26](https://railway.com/deploy/evolution-api-updated-nov-26--evolution-api-updated-jul-26) — railway-templates / US
-- [ragflow python sdk deploy ragflow with the python sdk](https://railway.com/deploy/ragflow-python-sdk--deploy-ragflow-with-the-python-sdk) — railway-templates / US
-- [openseo vs ahrefs deploy openseo ahrefs alternative](https://railway.com/deploy/openseo-vs-ahrefs--deploy-openseo-ahrefs-alternative) — railway-templates / US
-- [immich takeout import deploy immich google takeout import](https://railway.com/deploy/immich-takeout-import--deploy-immich-google-takeout-import) — railway-templates / US
-- [qdrant updated nov 26 qdrant 1](https://railway.com/deploy/qdrant-updated-nov-26--qdrant-1) — railway-templates / US
-- [supabase webhooks deploy supabase database webhooks](https://railway.com/deploy/supabase-webhooks--deploy-supabase-database-webhooks) — railway-templates / US
-- [9router aider deploy 9router for aider](https://railway.com/deploy/9router-aider--deploy-9router-for-aider) — railway-templates / US
-- [excalidraw plus community edition](https://railway.com/deploy/excalidraw-plus-community-edition) — railway-templates / US
-- [rocketchat cms updated nov 26 rocketchat cms](https://railway.com/deploy/rocketchat-cms-updated-nov-26--rocketchat-cms) — railway-templates / US
-- [calcom updated nov 26 calcom updated may 26](https://railway.com/deploy/calcom-updated-nov-26--calcom-updated-may-26) — railway-templates / US
-- [vaultwarden updated nov 26 vaultwarden 7](https://railway.com/deploy/vaultwarden-updated-nov-26--vaultwarden-7) — railway-templates / US
-- [openclaw cron deploy openclaw cron jobs](https://railway.com/deploy/openclaw-cron--deploy-openclaw-cron-jobs) — railway-templates / US
-- [flowiseai updated nov 26 flowiseai](https://railway.com/deploy/flowiseai-updated-nov-26--flowiseai) — railway-templates / US
-- [meilisearch updated nov 26 meilisearch 3](https://railway.com/deploy/meilisearch-updated-nov-26--meilisearch-3) — railway-templates / US
-- [openpanel astro deploy openpanel for astro sites](https://railway.com/deploy/openpanel-astro--deploy-openpanel-for-astro-sites) — railway-templates / US
-- [gatus clone](https://railway.com/deploy/gatus-clone) — railway-templates / US
-- [superset updated nov 26 superset apache](https://railway.com/deploy/superset-updated-nov-26--superset-apache) — railway-templates / US
-- [doory mcp deploy doory design mcp server](https://railway.com/deploy/doory-mcp--deploy-doory-design-mcp-server) — railway-templates / US
-- [debian updated nov 26 debian xfce](https://railway.com/deploy/debian-updated-nov-26--debian-xfce) — railway-templates / US
-- [debian rclone deploy debian with rclone cloud sync](https://railway.com/deploy/debian-rclone--deploy-debian-with-rclone-cloud-sync) — railway-templates / US
-- [sillytavern multi user deploy sillytavern multi user accounts](https://railway.com/deploy/sillytavern-multi-user--deploy-sillytavern-multi-user-accounts) — railway-templates / US
-- [mautic updated nov 26 mautic 1](https://railway.com/deploy/mautic-updated-nov-26--mautic-1) — railway-templates / US
-- [pterodactyl panel updated nov 26 pterodactyl game s 1](https://railway.com/deploy/pterodactyl-panel-updated-nov-26--pterodactyl-game-s-1) — railway-templates / US
-- [paperless ngx share links deploy paperless ngx share links](https://railway.com/deploy/paperless-ngx-share-links--deploy-paperless-ngx-share-links) — railway-templates / US
-- [postgres ha django deploy postgres ha for django apps](https://railway.com/deploy/postgres-ha-django--deploy-postgres-ha-for-django-apps) — railway-templates / US
-- [outline cms updated nov 26 outline cms](https://railway.com/deploy/outline-cms-updated-nov-26--outline-cms) — railway-templates / US
-- [cap windows linux deploy cap for windows and linux](https://railway.com/deploy/cap-windows-linux--deploy-cap-for-windows-and-linux) — railway-templates / US
-- [hyperswitch braintree deploy hyperswitch with braintree](https://railway.com/deploy/hyperswitch-braintree--deploy-hyperswitch-with-braintree) — railway-templates / US
-- [waha updated nov 26 waha whatsapp api](https://railway.com/deploy/waha-updated-nov-26--waha-whatsapp-api) — railway-templates / US
-- [langfuse crewai deploy langfuse for crewai tracing](https://railway.com/deploy/langfuse-crewai--deploy-langfuse-for-crewai-tracing) — railway-templates / US
-- [wordpress lms deploy wordpress online course site](https://railway.com/deploy/wordpress-lms--deploy-wordpress-online-course-site) — railway-templates / US
-- [convex updated nov 26 convex self hosted](https://railway.com/deploy/convex-updated-nov-26--convex-self-hosted) — railway-templates / US
-- [geoinflow](https://railway.com/deploy/geoinflow) — railway-templates / US
-- [mariadb flanger](https://railway.com/deploy/mariadb-flanger) — railway-templates / US
-- [mysql flanger](https://railway.com/deploy/mysql-flanger) — railway-templates / US
-- [bank mcp updated nov 26 bank mcp](https://railway.com/deploy/bank-mcp-updated-nov-26--bank-mcp) — railway-templates / US
-- [codra](https://railway.com/deploy/codra) — railway-templates / US
-- [inventree nov26](https://railway.com/deploy/inventree-nov26) — railway-templates / US
-- [librechat updated nov 26 librechat open source](https://railway.com/deploy/librechat-updated-nov-26--librechat-open-source) — railway-templates / US
-- [affine updated nov 26 affine open source](https://railway.com/deploy/affine-updated-nov-26--affine-open-source) — railway-templates / US
-- [mobius updated nov 26 mobius ai](https://railway.com/deploy/mobius-updated-nov-26--mobius-ai) — railway-templates / US
-- [code server rust deploy code server for rust](https://railway.com/deploy/code-server-rust--deploy-code-server-for-rust) — railway-templates / US
-- [caddy redirects deploy caddy redirect server](https://railway.com/deploy/caddy-redirects--deploy-caddy-redirect-server) — railway-templates / US
-- [twenty webhooks deploy twenty crm webhooks](https://railway.com/deploy/twenty-webhooks--deploy-twenty-crm-webhooks) — railway-templates / US
-- [minecraft server updated nov 26 minecraft server](https://railway.com/deploy/minecraft-server-updated-nov-26--minecraft-server) — railway-templates / US
-- [plausible squarespace deploy plausible for squarespace sites](https://railway.com/deploy/plausible-squarespace--deploy-plausible-for-squarespace-sites) — railway-templates / US
-- [timescaledb updated nov 26 timescaledb 1](https://railway.com/deploy/timescaledb-updated-nov-26--timescaledb-1) — railway-templates / US
-- [octop telegram deploy octop telegram ai assistant](https://railway.com/deploy/octop-telegram--deploy-octop-telegram-ai-assistant) — railway-templates / US
+- [the great warlords ugz](https://www.crazygames.com/game/the-great-warlords-ugz) — crazygames-en / US
+- [cricket red](https://www.crazygames.com/game/cricket-red) — crazygames-en / US
+- [retakes io zhd](https://www.crazygames.com/game/retakes-io-zhd) — crazygames-en / US
+- [pole to flag bgq](https://www.crazygames.com/game/pole-to-flag-bgq) — crazygames-en / US
+- [nothing2lose](https://www.crazygames.com/game/nothing2lose) — crazygames-en / US
+- [break a wall mining tycoon lkg](https://www.crazygames.com/game/break-a-wall-mining-tycoon-lkg) — crazygames-en / US
+- [streamer rise](https://www.crazygames.com/game/streamer-rise) — crazygames-en / US
+- [little sushi port](https://www.crazygames.com/game/little-sushi-port) — crazygames-en / US
+- [snake showdown ojq](https://www.crazygames.com/game/snake-showdown-ojq) — crazygames-en / US
+- [sunrise mall tycoon](https://www.crazygames.com/game/sunrise-mall-tycoon) — crazygames-en / US
+- [little sushi port](https://www.crazygames.com/br/game/little-sushi-port) — crazygames-br / BR
+- [snake showdown ojq](https://www.crazygames.com/br/game/snake-showdown-ojq) — crazygames-br / BR
+- [the great warlords ugz](https://www.crazygames.com/br/game/the-great-warlords-ugz) — crazygames-br / BR
+- [streamer rise](https://www.crazygames.com/br/game/streamer-rise) — crazygames-br / BR
+- [pole to flag bgq](https://www.crazygames.com/br/game/pole-to-flag-bgq) — crazygames-br / BR
+- [sunrise mall tycoon](https://www.crazygames.com/br/game/sunrise-mall-tycoon) — crazygames-br / BR
+- [nothing2lose](https://www.crazygames.com/br/game/nothing2lose) — crazygames-br / BR
+- [cricket red](https://www.crazygames.com/br/game/cricket-red) — crazygames-br / BR
+- [break a wall mining tycoon lkg](https://www.crazygames.com/br/game/break-a-wall-mining-tycoon-lkg) — crazygames-br / BR
+- [retakes io zhd](https://www.crazygames.com/br/game/retakes-io-zhd) — crazygames-br / BR
+- [sunrise mall tycoon](https://www.crazygames.com/es/game/sunrise-mall-tycoon) — crazygames-es / ES
+- [nothing2lose](https://www.crazygames.com/es/game/nothing2lose) — crazygames-es / ES
+- [snake showdown ojq](https://www.crazygames.com/es/game/snake-showdown-ojq) — crazygames-es / ES
+- [little sushi port](https://www.crazygames.com/es/game/little-sushi-port) — crazygames-es / ES
+- [cricket red](https://www.crazygames.com/es/game/cricket-red) — crazygames-es / ES
+- [retakes io zhd](https://www.crazygames.com/es/game/retakes-io-zhd) — crazygames-es / ES
+- [the great warlords ugz](https://www.crazygames.com/es/game/the-great-warlords-ugz) — crazygames-es / ES
+- [pole to flag bgq](https://www.crazygames.com/es/game/pole-to-flag-bgq) — crazygames-es / ES
+- [streamer rise](https://www.crazygames.com/es/game/streamer-rise) — crazygames-es / ES
+- [break a wall mining tycoon lkg](https://www.crazygames.com/es/game/break-a-wall-mining-tycoon-lkg) — crazygames-es / ES
+- [nine men s morris](https://www.gamepix.com/play/nine-men-s-morris) — gamepix-en / US
+- [meow sudoku](https://www.gamepix.com/play/meow-sudoku) — gamepix-en / US
+- [meow sudoku](https://www.gamepix.com/pt/play/meow-sudoku) — gamepix-pt / BR
+- [nine men s morris](https://www.gamepix.com/pt/play/nine-men-s-morris) — gamepix-pt / BR
+- [trek travel planner deploy trek travel planner](https://railway.com/deploy/trek-travel-planner--deploy-trek-travel-planner) — railway-templates / US
+- [yuvomi deploy yuvomi family planner](https://railway.com/deploy/yuvomi--deploy-yuvomi-family-planner) — railway-templates / US
+- [atproto qrapp](https://railway.com/deploy/atproto-qrapp) — railway-templates / US
+- [magpie deploy magpie ai coding agent gateway](https://railway.com/deploy/magpie--deploy-magpie-ai-coding-agent-gateway) — railway-templates / US
+- [utopia deploy utopia enterprise world model](https://railway.com/deploy/utopia--deploy-utopia-enterprise-world-model) — railway-templates / US
+- [nonibot](https://railway.com/deploy/nonibot) — railway-templates / US
+- [dumpling](https://railway.com/deploy/dumpling) — railway-templates / US
+- [stump clone](https://railway.com/deploy/stump-clone) — railway-templates / US
+- [sorry cypress clone](https://railway.com/deploy/sorry-cypress-clone) — railway-templates / US
+- [seerr clone](https://railway.com/deploy/seerr-clone) — railway-templates / US
+- [classicpress lightweight wordpress fork without blocks classicpress cms](https://railway.com/deploy/classicpress-lightweight-wordpress-fork-without-blocks--classicpress-cms) — railway-templates / US
+- [cryptpad encrypted docs sheets slides google docs alternative cryptpad office](https://railway.com/deploy/cryptpad-encrypted-docs-sheets-slides-google-docs-alternative--cryptpad-office) — railway-templates / US
+- [paperclip w admin login](https://railway.com/deploy/paperclip-w-admin-login) — railway-templates / US
+- [warmbly deploy warmbly cold email platform](https://railway.com/deploy/warmbly--deploy-warmbly-cold-email-platform) — railway-templates / US
+- [antirion deploy antirion ai gateway](https://railway.com/deploy/antirion--deploy-antirion-ai-gateway) — railway-templates / US
+- [rustxng deploy rustxng search for ai agents](https://railway.com/deploy/rustxng--deploy-rustxng-search-for-ai-agents) — railway-templates / US
+- [myhot aihot fork deploy aihot ai news digest](https://railway.com/deploy/myhot-aihot-fork--deploy-aihot-ai-news-digest) — railway-templates / US
+- [qdrant lite clone](https://railway.com/deploy/qdrant-lite-clone) — railway-templates / US
+- [cpa manager plus cliproxyapi deploy cpa manager plus with cliproxyapi](https://railway.com/deploy/cpa-manager-plus-cliproxyapi--deploy-cpa-manager-plus-with-cliproxyapi) — railway-templates / US
+- [castopod clone](https://railway.com/deploy/castopod-clone) — railway-templates / US
+- [tillkit lite](https://railway.com/deploy/tillkit-lite) — railway-templates / US
+- [word processor libreoffice writer in the cloud libreoffice](https://railway.com/deploy/word-processor-libreoffice-writer-in-the-cloud--libreoffice) — railway-templates / US
+- [wastebin clone](https://railway.com/deploy/wastebin-clone) — railway-templates / US
+- [audiobookshelf clone](https://railway.com/deploy/audiobookshelf-clone) — railway-templates / US
+- [spliit clone](https://railway.com/deploy/spliit-clone) — railway-templates / US
+- [astrbot 2](https://railway.com/deploy/astrbot-2) — railway-templates / US
 
 Next: cross-match the seven-day Sitemap URL delta ledger across independently monitored domains; report unresolved matching gaps.
