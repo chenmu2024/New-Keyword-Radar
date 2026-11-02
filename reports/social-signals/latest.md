@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-02T02:29:24.213064+00:00
+# V4 Social signal discovery — 2026-11-02T10:59:39.628141+00:00
 
-- Unique links this run: 60, newly seen: 34, history: 833
+- Unique links this run: 57, newly seen: 20, history: 853
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,42 +12,38 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (4) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: empty (0) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (32)
-- targeted_github_issues: empty (0)
+- targeted_github_issues: ok (1)
 
 ## Links (not validated project opportunities)
 
-- [Screen Studio 4.0](https://www.producthunt.com/products/screen-studio) — producthunt — direct_public_feed
-- [Usage for Claude + ChatGPT 4.0](https://www.producthunt.com/products/usage-for-claude) — producthunt — direct_public_feed
-- [Yuzu Sync](https://www.producthunt.com/products/yuzu-sync) — producthunt — direct_public_feed
-- [Click](https://www.producthunt.com/products/click-6) — producthunt — direct_public_feed
-- [Modelpeers](https://www.producthunt.com/products/modelpeers) — producthunt — direct_public_feed
-- [agentmash](https://www.producthunt.com/products/agentmash) — producthunt — direct_public_feed
-- [ShayPachi/lab10-make-it-say-no](https://huggingface.co/spaces/ShayPachi/lab10-make-it-say-no) — huggingface — direct_public_api
-- [ranabtawi/surfacemap](https://huggingface.co/spaces/ranabtawi/surfacemap) — huggingface — direct_public_api
-- [Binueapen89/CaseStudy](https://huggingface.co/spaces/Binueapen89/CaseStudy) — huggingface — direct_public_api
-- [AliceMarch26/FireRed-Image-Edit-1.0-Fast-2K](https://huggingface.co/spaces/AliceMarch26/FireRed-Image-Edit-1.0-Fast-2K) — huggingface — direct_public_api
-- [RussianCremationServiceAffordable/customclosetsdesignedforthewaymanhattanlives](https://huggingface.co/spaces/RussianCremationServiceAffordable/customclosetsdesignedforthewaymanhattanlives) — huggingface — direct_public_api
-- [gois1977/studio1](https://huggingface.co/spaces/gois1977/studio1) — huggingface — direct_public_api
-- [Gold leaf is cheap. A packet is probably 10$ and enough leaf to cover all the ornamentation in the oval. You need a a little one row hair tool to touch and lift a 5" x5" sheet. We](https://bsky.app/profile/bravojuneau.bsky.social/post/3mzcbizjfxk2h) — bluesky — direct_public_post — intent keyword found
-- [Welcome to Chiiro, the handyman of the Rito Village! He helps around wherever he can but also can engage in combat. He can shoot with a bow like other Ritos, but prefers his triden](https://bsky.app/profile/championer.bsky.social/post/3mzcbhx4ihs2q) — bluesky — direct_public_post — intent keyword found
-- [Dear Slack. We need to have a talk. Stop trying to be my friend. You aren't my friend. Quit the chummy and cutesy act. You are now the tool I dread opening in the morning, with 80](https://bsky.app/profile/dacut.bsky.social/post/3mzc5fgndic2j) — bluesky — direct_public_post — intent keyword found
-- [How to Apply the B.L.E.S.S. Model to Your Life The B.L.E.S.S model stands for Begin with Prayer, Listen, Eat, Serve, and Share. It’s a simple but powerful methodology for supporti](https://bsky.app/profile/agapaoallelon.bsky.social/post/3mzbx7ltafd27) — bluesky — direct_public_post — intent keyword found
-- [Abuse of power is their MO, and propaganda is a central tool. We need enforceable good-government legislation, with consequences.](https://bsky.app/profile/jeffreyhf.bsky.social/post/3mzbvuufaqk2b) — bluesky — direct_public_post — intent keyword found
-- [UNACCEPTABLE. We need Federal voting rules & protocols for all 50 states for ALL elections: Number of polling places based on population of a District. Vote by Mail. Early Voting;](https://bsky.app/profile/1967honoredqueen.bsky.social/post/3mzbviocx5k2p) — bluesky — direct_public_post — intent keyword found
-- [One app for every kind of AI video 🎥 Movie trailers, mini dramas, kids stories, talking avatars and product ads, all from one dashboard. Which one would you make first? 👇 Want Vide](https://mastodon.social/@rankmarket99/117544138079164015) — mastodon — direct_public_post
-- [A story in, a full AI music video out 🎶 Describe a story and the AI writes the lyrics, picks the music, casts the stars and plans every scene of the music video. Whose story would](https://mastodon.social/@rankmarket99/117543430656871058) — mastodon — direct_public_post
-- [Resolve Studio 21.1 can take Claude edits over MCP, with AssemblyAI for the transcript. Mo posted a 21-second vertical cut from the prompt "wow me". Live preview in Resolve instead](https://mastodon.social/@axylusion/117541644599303840) — mastodon — direct_public_post
-- [🎬 Google Veo is moving beyond one-shot AI video. Veo 3.1 can generate video with sound, use character and style references, extend scenes and offer more camera control. The bigger](https://mastodon.social/@nexthorizon/117541529933795507) — mastodon — direct_public_post
+- [Agent Inbox](https://www.producthunt.com/products/agent-inbox) — producthunt — direct_public_feed
+- [Linkly AI Clipper](https://www.producthunt.com/products/linkly-ai-clipper) — producthunt — direct_public_feed
+- [Help](https://www.producthunt.com/products/help-381) — producthunt — direct_public_feed
+- [Clayzo](https://www.producthunt.com/products/clayzo) — producthunt — direct_public_feed
+- [Self-Growing Websites by Greta.sh](https://www.producthunt.com/products/gretabyquestera) — producthunt — direct_public_feed
+- [Display 1.0](https://www.producthunt.com/products/display-dev) — producthunt — direct_public_feed
+- [chandrashekar37/house-price-predictor](https://huggingface.co/spaces/chandrashekar37/house-price-predictor) — huggingface — direct_public_api
+- [SimoesBia/lily-tasks-demo](https://huggingface.co/spaces/SimoesBia/lily-tasks-demo) — huggingface — direct_public_api
+- [HalfDemon09I/trashpanzee-demo](https://huggingface.co/spaces/HalfDemon09I/trashpanzee-demo) — huggingface — direct_public_api
+- [haitifree/sharelink](https://huggingface.co/spaces/haitifree/sharelink) — huggingface — direct_public_api
+- [UpperEastSideNYCHighlights/dimensional-color](https://huggingface.co/spaces/UpperEastSideNYCHighlights/dimensional-color) — huggingface — direct_public_api
+- [Office-Solutions/Tableau_to_Databricks_Accelerator](https://huggingface.co/spaces/Office-Solutions/Tableau_to_Databricks_Accelerator) — huggingface — direct_public_api
+- [So AI envisioned the idea and then a 3D model generator was used (which has likely been trained on other 3D artists' work with no compensation). There is 0 creative soul to this.](https://bsky.app/profile/fluffdragon.net/post/3mzcxlxprsc2z) — bluesky — direct_public_post — intent keyword found
+- [Dungeonfog! It is pretty laggy and sometimes annoying, but they have a lot of props you can use and sorta kitbash them together to make something cool. Like the generator room dow](https://bsky.app/profile/vegashasfrozenover.bsky.social/post/3mzco72ipjs22) — bluesky — direct_public_post — intent keyword found
+- [Yes it is exactly that. As a friend of mine put it - it is a "probable sentence generator". I agree with this 100%. But I believe humans are the same. The fact that it's not perfec](https://bsky.app/profile/conorokane.bsky.social/post/3mzcfscmtxc2s) — bluesky — direct_public_post — intent keyword found
+- [There is a psychic generator somewhere I stg](https://bsky.app/profile/dexarooni.bsky.social/post/3mzb6fmj2u22l) — bluesky — direct_public_post — intent keyword found
+- [Happy Halloween @artfuck.bsky.social @glitchisbroken.bsky.social @alienpuppy.bsky.social @sporkbot.bsky.social #afengage #TeamRub #dbd #demons #deerhuntnsfw #nsfwart #furrynsfw](https://bsky.app/profile/coastalfreakture.bsky.social/post/3mza5rhqmwk2s) — bluesky — direct_public_post
+- [Let's say you have a report generator. Its job is to generate reports on a database. You are driving all development with AI. Every day you open your bug reports and there are like](https://bsky.app/profile/darklock.com/post/3mz7ig3tip22j) — bluesky — direct_public_post — intent keyword found
 - [Ask HN: Which TV do you recommend for privacy?](https://news.ycombinator.com/item?id=50328896) — hackernews_ask — direct_public_post
 - [In LLM era, can software startup survive?](https://news.ycombinator.com/item?id=50331001) — hackernews_ask — direct_public_post
+- [Do you have a Plan B?](https://news.ycombinator.com/item?id=50334841) — hackernews_ask — direct_public_post
+- [Pepperwind, a fictional company dataset with 223 tables and 79M rows](https://news.ycombinator.com/item?id=50333045) — hackernews_ask — direct_public_post — intent keyword found
+- [Swedish grocery chain refrigerators and freezers hacked overnight](https://news.ycombinator.com/item?id=50334210) — hackernews_ask — direct_public_post
 - [Tell HN: Scribd Breached](https://news.ycombinator.com/item?id=50312756) — hackernews_ask — direct_public_post — intent keyword found
-- [Heretic 2.0 Released: Training-free language model modification](https://news.ycombinator.com/item?id=50328567) — hackernews_ask — direct_public_post — intent keyword found
-- [Tell HN: X is opening any tweet link in a webview whether you press it or not](https://news.ycombinator.com/item?id=50312174) — hackernews_ask — direct_public_post
-- [Ask HN: Anyone here still writing code for reasons other than fun or learning?](https://news.ycombinator.com/item?id=50322477) — hackernews_ask — direct_public_post
 - [Homelab Dependency Dashboard](https://github.com/prymost/homelab/issues/11) — github_issue — direct_public_issue_api — intent keyword found
 - [Native mod API: hook and feature coverage](https://github.com/horizon-rust/horizon/issues/4953) — github_issue — direct_public_issue_api
 - [Cleverence](https://www.reddit.com/r/Cleverence) — reddit — public_rss_excerpt
@@ -60,3 +56,7 @@
 - [Do You Think OpenAI Is Apple Circa the 1980s?](https://news.ycombinator.com/item?id=49178393) — hackernews_ask — indexed_public_post_excerpt
 - [COMMS — Lucifer ↔ Chad shared log (READ FIRST; post status here)](https://github.com/lionzion86-commits/ARIA/issues/443) — github_issue — direct_public_issue_api
 - [Control Tower Hub — cross-lane handoffs (nondeploy / HOLD)](https://github.com/Terry4410/field-visit-mileage-system/issues/41) — github_issue — direct_public_issue_api
+- [P0 | Five hourly cycles — real deliverables and unfinished-work carryover](https://github.com/mojtabarozegar11-ship-it/Saeit/issues/1514) — github_issue — direct_public_issue_api
+- [Master Development Dispatcher — Rolling Six-Hour Queue](https://github.com/mrcalzon02/HB-TTRPG-tools/issues/19) — github_issue — direct_public_issue_api
+- [Ask HN: What's still broken in SoC 2 readiness and audit prep?](https://news.ycombinator.com/item?id=46396889) — hackernews_ask — indexed_public_post_excerpt
+- [AI Agents Are Quietly Taking over Project Management](https://news.ycombinator.com/item?id=45618229) — hackernews_ask — indexed_public_post_excerpt
