@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-01T22:47:34.912432+00:00
+# V4 Social signal discovery — 2026-11-02T02:29:24.213064+00:00
 
-- Unique links this run: 60, newly seen: 10, history: 799
+- Unique links this run: 60, newly seen: 34, history: 833
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,51 +12,51 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: empty (0) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (4) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
-- existing_free_intelligence_bridge: ok (36)
+- existing_free_intelligence_bridge: ok (32)
 - targeted_github_issues: empty (0)
 
 ## Links (not validated project opportunities)
 
-- [Usage for Claude + ChatGPT 4.0](https://www.producthunt.com/products/usage-for-claude) — producthunt — direct_public_feed
 - [Screen Studio 4.0](https://www.producthunt.com/products/screen-studio) — producthunt — direct_public_feed
-- [agentmash](https://www.producthunt.com/products/agentmash) — producthunt — direct_public_feed
-- [Click](https://www.producthunt.com/products/click-6) — producthunt — direct_public_feed
-- [ernd](https://www.producthunt.com/products/ernd) — producthunt — direct_public_feed
+- [Usage for Claude + ChatGPT 4.0](https://www.producthunt.com/products/usage-for-claude) — producthunt — direct_public_feed
 - [Yuzu Sync](https://www.producthunt.com/products/yuzu-sync) — producthunt — direct_public_feed
-- [diaryafford563/wan777](https://huggingface.co/spaces/diaryafford563/wan777) — huggingface — direct_public_api
-- [nihar-damera/commit-suggestor-demo](https://huggingface.co/spaces/nihar-damera/commit-suggestor-demo) — huggingface — direct_public_api
-- [sofia442/dmad-video-studio](https://huggingface.co/spaces/sofia442/dmad-video-studio) — huggingface — direct_public_api
-- [diaryafford563/wav2lip](https://huggingface.co/spaces/diaryafford563/wav2lip) — huggingface — direct_public_api
-- [Pie104/SPORTBOOK](https://huggingface.co/spaces/Pie104/SPORTBOOK) — huggingface — direct_public_api
-- [lucasheinrichsb/readoutbench](https://huggingface.co/spaces/lucasheinrichsb/readoutbench) — huggingface — direct_public_api
-- [Si os dijera que estoy pensando compartir la herramienta que he creado autores ¿Qué os parecería? Estoy pensando en dejársela probar a algunas personas para comprobar que lo que a](https://bsky.app/profile/piramidedeespejo.bsky.social/post/3mzboeus6ik2a) — bluesky — direct_public_post
-- [Yo no necesito valoración sobre el tamaño de mi "herramienta" está muy bien, no he tenido quejas ni las tengo yo.. hay quien dice que es grande, para mí es medio normal, también es](https://bsky.app/profile/brokench.bsky.social/post/3mz3trit4622f) — bluesky — direct_public_post
-- [Creo que se ha ido para siempre, porque no tengo ninguna intención de reinstalar a corto plazo. También te digo que si tú tienes tanto control sobre esa herramienta, perfecto (yo n](https://bsky.app/profile/mazapanes.bsky.social/post/3mz23wx4lsc2r) — bluesky — direct_public_post
-- [Necesito parar y analizar este "comunicado" que nos enviaron ayer en el condo... Ignoremos lo obvio, el mal uso de una herramienta que podría ser útil, pero que más bien se ha usad](https://bsky.app/profile/unodien.bsky.social/post/3myzkd562uc24) — bluesky — direct_public_post
-- [Can Yaman: hola amigos kebab cual es tu sabiduría Yo: La huelga general es la única herramienta capaz de hacer ceder al capital, Ganjaman. Juntos acabaremos con la opresión capit](https://bsky.app/profile/amigoskebab.bsky.social/post/3myzde5kfps2y) — bluesky — direct_public_post
-- [Eso es que te hacen falta HERRAMIENTAS. Que cómo se le llena la boca a esa gente con las herramientas. Una llave inglesa atravesando la cabeza del que te jode, esa es la herramient](https://bsky.app/profile/barbatang.eurosky.social/post/3mwl7d7hedk2r) — bluesky — direct_public_post
+- [Click](https://www.producthunt.com/products/click-6) — producthunt — direct_public_feed
+- [Modelpeers](https://www.producthunt.com/products/modelpeers) — producthunt — direct_public_feed
+- [agentmash](https://www.producthunt.com/products/agentmash) — producthunt — direct_public_feed
+- [ShayPachi/lab10-make-it-say-no](https://huggingface.co/spaces/ShayPachi/lab10-make-it-say-no) — huggingface — direct_public_api
+- [ranabtawi/surfacemap](https://huggingface.co/spaces/ranabtawi/surfacemap) — huggingface — direct_public_api
+- [Binueapen89/CaseStudy](https://huggingface.co/spaces/Binueapen89/CaseStudy) — huggingface — direct_public_api
+- [AliceMarch26/FireRed-Image-Edit-1.0-Fast-2K](https://huggingface.co/spaces/AliceMarch26/FireRed-Image-Edit-1.0-Fast-2K) — huggingface — direct_public_api
+- [RussianCremationServiceAffordable/customclosetsdesignedforthewaymanhattanlives](https://huggingface.co/spaces/RussianCremationServiceAffordable/customclosetsdesignedforthewaymanhattanlives) — huggingface — direct_public_api
+- [gois1977/studio1](https://huggingface.co/spaces/gois1977/studio1) — huggingface — direct_public_api
+- [Gold leaf is cheap. A packet is probably 10$ and enough leaf to cover all the ornamentation in the oval. You need a a little one row hair tool to touch and lift a 5" x5" sheet. We](https://bsky.app/profile/bravojuneau.bsky.social/post/3mzcbizjfxk2h) — bluesky — direct_public_post — intent keyword found
+- [Welcome to Chiiro, the handyman of the Rito Village! He helps around wherever he can but also can engage in combat. He can shoot with a bow like other Ritos, but prefers his triden](https://bsky.app/profile/championer.bsky.social/post/3mzcbhx4ihs2q) — bluesky — direct_public_post — intent keyword found
+- [Dear Slack. We need to have a talk. Stop trying to be my friend. You aren't my friend. Quit the chummy and cutesy act. You are now the tool I dread opening in the morning, with 80](https://bsky.app/profile/dacut.bsky.social/post/3mzc5fgndic2j) — bluesky — direct_public_post — intent keyword found
+- [How to Apply the B.L.E.S.S. Model to Your Life The B.L.E.S.S model stands for Begin with Prayer, Listen, Eat, Serve, and Share. It’s a simple but powerful methodology for supporti](https://bsky.app/profile/agapaoallelon.bsky.social/post/3mzbx7ltafd27) — bluesky — direct_public_post — intent keyword found
+- [Abuse of power is their MO, and propaganda is a central tool. We need enforceable good-government legislation, with consequences.](https://bsky.app/profile/jeffreyhf.bsky.social/post/3mzbvuufaqk2b) — bluesky — direct_public_post — intent keyword found
+- [UNACCEPTABLE. We need Federal voting rules & protocols for all 50 states for ALL elections: Number of polling places based on population of a District. Vote by Mail. Early Voting;](https://bsky.app/profile/1967honoredqueen.bsky.social/post/3mzbviocx5k2p) — bluesky — direct_public_post — intent keyword found
+- [One app for every kind of AI video 🎥 Movie trailers, mini dramas, kids stories, talking avatars and product ads, all from one dashboard. Which one would you make first? 👇 Want Vide](https://mastodon.social/@rankmarket99/117544138079164015) — mastodon — direct_public_post
+- [A story in, a full AI music video out 🎶 Describe a story and the AI writes the lyrics, picks the music, casts the stars and plans every scene of the music video. Whose story would](https://mastodon.social/@rankmarket99/117543430656871058) — mastodon — direct_public_post
+- [Resolve Studio 21.1 can take Claude edits over MCP, with AssemblyAI for the transcript. Mo posted a 21-second vertical cut from the prompt "wow me". Live preview in Resolve instead](https://mastodon.social/@axylusion/117541644599303840) — mastodon — direct_public_post
+- [🎬 Google Veo is moving beyond one-shot AI video. Veo 3.1 can generate video with sound, use character and style references, extend scenes and offer more camera control. The bigger](https://mastodon.social/@nexthorizon/117541529933795507) — mastodon — direct_public_post
 - [Ask HN: Which TV do you recommend for privacy?](https://news.ycombinator.com/item?id=50328896) — hackernews_ask — direct_public_post
-- [Heretic 2.0 Released: Training-free language model modification](https://news.ycombinator.com/item?id=50328567) — hackernews_ask — direct_public_post — intent keyword found
+- [In LLM era, can software startup survive?](https://news.ycombinator.com/item?id=50331001) — hackernews_ask — direct_public_post
 - [Tell HN: Scribd Breached](https://news.ycombinator.com/item?id=50312756) — hackernews_ask — direct_public_post — intent keyword found
+- [Heretic 2.0 Released: Training-free language model modification](https://news.ycombinator.com/item?id=50328567) — hackernews_ask — direct_public_post — intent keyword found
 - [Tell HN: X is opening any tweet link in a webview whether you press it or not](https://news.ycombinator.com/item?id=50312174) — hackernews_ask — direct_public_post
 - [Ask HN: Anyone here still writing code for reasons other than fun or learning?](https://news.ycombinator.com/item?id=50322477) — hackernews_ask — direct_public_post
-- [Ask HN: What's it like working at Google nowadays? Core teams like Search, Ads?](https://news.ycombinator.com/item?id=50306776) — hackernews_ask — direct_public_post
-- [[KAIOS AU WINDOW Digital Ant｜AI Ant Company CEO・接案與神經突觸公開窗口](https://github.com/klineodyssey/kline-odyssey/issues/577) — github_issue — direct_public_issue_api
-- [P0 | Five hourly cycles — real deliverables and unfinished-work carryover](https://github.com/mojtabarozegar11-ship-it/Saeit/issues/1514) — github_issue — direct_public_issue_api
-- [EduOS Whole-System Integration & QA — procurement → stock → asset → facility → Finance](https://github.com/cseashrafulislam/EduOS/issues/108) — github_issue — direct_public_issue_api
-- [Frontend and runtime completion — Tuhin/Codex takeover](https://github.com/Muzaffar-codes07/sunshine/issues/44) — github_issue — direct_public_issue_api
-- [Peur Marketplace](https://www.reddit.com/r/peur) — reddit — public_rss_excerpt
-- [Installing mods to GTA games in 2026 is almost impossible](https://www.reddit.com/r/GTA/comments/1xkqdmr/installing_mods_to_gta_games_in_2026_is_almost) — reddit — public_rss_excerpt
-- [What's the best AI for creating a massive game overhaul? ChatGPT, Claude or something else?](https://www.reddit.com/r/aigamedev/comments/1xkqb2p/whats_the_best_ai_for_creating_a_massive_game) — reddit — public_rss_excerpt
-- [i had to get a comptia certification urgently without any prep, here's how i did it](https://www.reddit.com/r/CertificationsAWS/comments/1xkqap5/i_had_to_get_a_comptia_certification_urgently) — reddit — public_rss_excerpt
-- [Ask HN: Are we putting pricing on things too quickly?](https://news.ycombinator.com/item?id=47220001) — hackernews_ask — indexed_public_post_excerpt
-- [Zero-Knowledge Privacy Infrastructure for Solana](https://news.ycombinator.com/item?id=46854817) — hackernews_ask — indexed_public_post_excerpt
-- [I built an AI health scanner for dogs would love your feedback](https://news.ycombinator.com/item?id=44838374) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
-- [Idea – machine learning algorithm that browses the web?](https://news.ycombinator.com/item?id=38569843) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
-- [Make local player-data protection and lifecycle recovery usable in Desktop](https://github.com/boburning/portcove/issues/4155) — github_issue — direct_public_issue_api — intent keyword found
-- [[SYNC Rejoining after map events can loop in catch-up indefinitely](https://github.com/Bannerlord-Coop-Team/BannerlordCoop/issues/2936) — github_issue — direct_public_issue_api — intent keyword found
-- [Audit ComicPile API and replace action-shaped routes with resource GET/POST/PATCH/DELETE](https://github.com/JoshCLWren/comic-pile/issues/4456) — github_issue — direct_public_issue_api
-- [공동 작업큐 — Song · Claude Code · Codex](https://github.com/SongRoute/pitcheezy/issues/37) — github_issue — direct_public_issue_api
+- [Homelab Dependency Dashboard](https://github.com/prymost/homelab/issues/11) — github_issue — direct_public_issue_api — intent keyword found
+- [Native mod API: hook and feature coverage](https://github.com/horizon-rust/horizon/issues/4953) — github_issue — direct_public_issue_api
+- [Cleverence](https://www.reddit.com/r/Cleverence) — reddit — public_rss_excerpt
+- [DLC - Tiki Paralogue](https://www.reddit.com/r/FEEngage/comments/1xli43q/dlc_tiki_paralogue) — reddit — public_rss_excerpt
+- [[WTS Rainbow Morgan, Germany, Prussia, Cuba, Other World & US Base Metal & Silver, Ancients](https://www.reddit.com/r/CoinSales/comments/1xlhihw/wts_rainbow_morgan_germany_prussia_cuba_other) — reddit — public_rss_excerpt
+- [I made a companion tool for NTE: Chiz.Pink](https://www.reddit.com/r/NevernessToEverness/comments/1xlgysz/i_made_a_companion_tool_for_nte_chizpink) — reddit — public_rss_excerpt — intent keyword found
+- [Ask HN: Building KasirCepat, an offline-first POS for Indonesia](https://news.ycombinator.com/item?id=49692067) — hackernews_ask — indexed_public_post_excerpt
+- [Ask HN: Would a startup for young creatives who reject AI be feasible?](https://news.ycombinator.com/item?id=49689696) — hackernews_ask — indexed_public_post_excerpt
+- [Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk](https://news.ycombinator.com/item?id=49304986) — hackernews_ask — indexed_public_post_excerpt
+- [Do You Think OpenAI Is Apple Circa the 1980s?](https://news.ycombinator.com/item?id=49178393) — hackernews_ask — indexed_public_post_excerpt
+- [COMMS — Lucifer ↔ Chad shared log (READ FIRST; post status here)](https://github.com/lionzion86-commits/ARIA/issues/443) — github_issue — direct_public_issue_api
+- [Control Tower Hub — cross-lane handoffs (nondeploy / HOLD)](https://github.com/Terry4410/field-visit-mileage-system/issues/41) — github_issue — direct_public_issue_api

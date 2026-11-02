@@ -1,11 +1,11 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-01T22:47:34.912432+00:00
-- Source last updated: 2026-11-01T22:47:34.912432+00:00
+- Generated: 2026-11-02T02:29:24.213064+00:00
+- Source last updated: 2026-11-02T02:29:24.213064+00:00
 - Trends archive: 2026-11-02 (74/74; complete=True)
 - Eligible multiword rising queries: 450
 - Cross-source matches within 72h review window: 1
-- Social current-run links: 60, prior recent sightings: 284
+- Social current-run links: 60, prior recent sightings: 281
 - Search archives examined: 2026-11-02, 2026-11-01, 2026-10-31
 - Direct-post question-derived QUERY HYPOTHESES: 3
 - Direct-post author self-reported payments (NOT processor verified): 0
