@@ -1,22 +1,17 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-02T10:59:39.628141+00:00
-- Source last updated: 2026-11-02T10:59:39.628141+00:00
-- Trends archive: 2026-11-02 (74/74; complete=True)
-- Eligible multiword rising queries: 450
-- Cross-source matches within 72h review window: 1
-- Social current-run links: 57, prior recent sightings: 284
-- Search archives examined: 2026-11-02, 2026-11-01, 2026-10-31
+- Generated: 2026-11-02T20:45:10.220996+00:00
+- Source last updated: 2026-11-02T20:45:10.220996+00:00
+- Trends archive: 2026-11-03 (5/74; complete=False)
+- Eligible multiword rising queries: 36
+- Cross-source matches within 72h review window: 0
+- Social current-run links: 59, prior recent sightings: 281
+- Search archives examined: 2026-11-03, 2026-11-02, 2026-11-01
 - Direct-post question-derived QUERY HYPOTHESES: 2
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
-## ai video generator
-
-- Relative Trends rising value: 40.0 (NOT Volume)
-- Distinct matched platforms: 1
-- Direct public-post question hints: 0
-- mastodon: https://mastodon.social/@awesomeindie/117530532338356092 (direct_public_post)
+No reliable full-query cross-source overlap found in this scan.
 
 ## Original public-post question hints (NOT validated search keywords)
 
