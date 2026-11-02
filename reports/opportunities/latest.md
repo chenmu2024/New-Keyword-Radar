@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-01T22:18:21.498342+00:00
-- Historical candidates: 3040
-- Newly recorded from pending: 106
+- Updated (UTC): 2026-11-02T01:28:33.961013+00:00
+- Historical candidates: 3080
+- Newly recorded from pending: 40
 - Awaiting 7/14/30-day evidence review: 1386
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- first responder mortgage [Global] — discovered — first 2026-11-02, last 2026-11-02
-- canva login [Global] — discovered — first 2026-11-02, last 2026-11-02
-- que responder cuando te dicen dulce o truco [Global] — discovered — first 2026-11-02, last 2026-11-02
-- shark navigator robot vacuum [Global] — discovered — first 2026-11-02, last 2026-11-02
-- adrian flux arena [Global] — discovered — first 2026-11-02, last 2026-11-02
-- adu builder [Global] — discovered — first 2026-11-02, last 2026-11-02
-- android sicherheitslücke [Global] — discovered — first 2026-11-02, last 2026-11-02
-- anre [Global] — discovered — first 2026-11-02, last 2026-11-02
-- apple creator studio [Global] — discovered — first 2026-11-02, last 2026-11-02
-- baseball bros [Global] — discovered — first 2026-11-02, last 2026-11-02
-- cheap food processor [Global] — discovered — first 2026-11-02, last 2026-11-02
-- chiefs wide receiver trade [Global] — discovered — first 2026-11-02, last 2026-11-02
-- christian watson [Global] — discovered — first 2026-11-02, last 2026-11-02
-- chrome compressor [Global] — discovered — first 2026-11-02, last 2026-11-02
-- chrome compressor cyberpunk [Global] — discovered — first 2026-11-02, last 2026-11-02
+- english to bengali translator [Global] — discovered — first 2026-11-02, last 2026-11-02
 - coffee maker near me [Global] — discovered — first 2026-11-02, last 2026-11-02
-- composer zimmer nyt [Global] — discovered — first 2026-11-02, last 2026-11-02
+- neutrino detector [Global] — discovered — first 2026-11-02, last 2026-11-02
+- new york marathon tracker [Global] — discovered — first 2026-11-02, last 2026-11-02
+- online casino 🇳🇱 www.casinonoud.com [Global] — discovered — first 2026-11-02, last 2026-11-02
 - composer zimmer nyt crossword clue [Global] — discovered — first 2026-11-02, last 2026-11-02
-- constructor overloading in java [Global] — discovered — first 2026-11-02, last 2026-11-02
-- constructor university germany [Global] — discovered — first 2026-11-02, last 2026-11-02
-- constructores vente venezuela [Global] — discovered — first 2026-11-02, last 2026-11-02
+- meesho creator club [Global] — discovered — first 2026-11-02, last 2026-11-02
 - cowboys game today [Global] — discovered — first 2026-11-02, last 2026-11-02
-- date converter [Global] — discovered — first 2026-11-02, last 2026-11-02
-- designer outlet wolfsburg [Global] — discovered — first 2026-11-02, last 2026-11-02
-- dropbox uploader [Global] — discovered — first 2026-11-02, last 2026-11-02
+- image optimizer online [Global] — discovered — first 2026-11-02, last 2026-11-02
+- itch.io dummylab [Global] — discovered — first 2026-11-02, last 2026-11-02
+- son of seth [Global] — discovered — first 2026-11-02, last 2026-11-02
+- wetransfer [Global] — discovered — first 2026-11-02, last 2026-11-02
+- nyc marathon bib tracker [Global] — discovered — first 2026-11-02, last 2026-11-02
+- three musketeers [Global] — discovered — first 2026-11-02, last 2026-11-02
+- murasu cyclone tracker live [Global] — discovered — first 2026-11-02, last 2026-11-02
+- google cloud scheduler [Global] — discovered — first 2026-11-02, last 2026-11-02
+- new york marathon 2026 [Global] — discovered — first 2026-11-02, last 2026-11-02
+- ziegler [Global] — discovered — first 2026-11-02, last 2026-11-02
+- reading rainbow [Global] — discovered — first 2026-11-02, last 2026-11-02
+- composer zimmer nyt [Global] — discovered — first 2026-11-02, last 2026-11-02
+- nyc marathon tracker [Global] — discovered — first 2026-11-02, last 2026-11-02
+- vri interpreter [Global] — discovered — first 2026-11-02, last 2026-11-02
+- pomp and circumstance composer [Global] — discovered — first 2026-11-02, last 2026-11-02
+- adu builder [Global] — discovered — first 2026-11-02, last 2026-11-02
+- cheap food processor [Global] — discovered — first 2026-11-02, last 2026-11-02
 
 ## Due for follow-up
 
