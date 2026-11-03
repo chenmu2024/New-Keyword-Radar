@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-03T03:55:25.920654+00:00
+# V4 Social signal discovery — 2026-11-03T15:05:37.938809+00:00
 
-- Unique links this run: 62, newly seen: 36, history: 907
+- Unique links this run: 60, newly seen: 20, history: 927
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -16,35 +16,35 @@
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (35)
-- targeted_github_issues: ok (2)
+- targeted_github_issues: empty (0)
 
 ## Links (not validated project opportunities)
 
-- [Xmind 2027](https://www.producthunt.com/products/xmind) — producthunt — direct_public_feed
-- [Help](https://www.producthunt.com/products/help-381) — producthunt — direct_public_feed
-- [diff-tour](https://www.producthunt.com/products/diff-tour) — producthunt — direct_public_feed
-- [beacon.sh](https://www.producthunt.com/products/asymptotelabs) — producthunt — direct_public_feed
-- [Self-Growing Websites by Greta.sh](https://www.producthunt.com/products/gretabyquestera) — producthunt — direct_public_feed
-- [Hyperresearch](https://www.producthunt.com/products/hyperresearch) — producthunt — direct_public_feed
-- [Erlinkbonilla/Tablero_trello](https://huggingface.co/spaces/Erlinkbonilla/Tablero_trello) — huggingface — direct_public_api
-- [nhamid289/decision_boundary-b](https://huggingface.co/spaces/nhamid289/decision_boundary-b) — huggingface — direct_public_api
-- [nhamid289/decision_boundary-a](https://huggingface.co/spaces/nhamid289/decision_boundary-a) — huggingface — direct_public_api
-- [Siiberra/siimatchmind-ai](https://huggingface.co/spaces/Siiberra/siimatchmind-ai) — huggingface — direct_public_api
-- [zjushine/flora-action-captioner](https://huggingface.co/spaces/zjushine/flora-action-captioner) — huggingface — direct_public_api
-- [ahmada13q/free-flux-ai-generator](https://huggingface.co/spaces/ahmada13q/free-flux-ai-generator) — huggingface — direct_public_api — intent keyword found
-- [New WTFA: The truth is out there. Somewhere. wtfacomic.com/wtfa.2026110... Support me on Patreon! patreon.com/crywalt or ko-fi! ko-fi.com/crywalt](https://bsky.app/profile/crywalt.bsky.social/post/3mzeudgajis2r) — bluesky — direct_public_post
-- [Incredibly niche and nerdy but.... Really good tools. Whether a simple screwdriver or something like a digital multimeter. Spending the grown up money on a tool that I will never](https://bsky.app/profile/kittehofdovrefjel.bsky.social/post/3mzeth3twzc2j) — bluesky — direct_public_post — intent keyword found
-- [Our political and economic systems are cracking and failing under the strain of colossal supersonic growth. But we can wake up. Growth is a tool. We need to use it to serve people](https://bsky.app/profile/mrmurphy.dev/post/3mzetfucyyw25) — bluesky — direct_public_post — intent keyword found
-- [a highly specialized tool you use like twice a year at best but that is PRECISELY correct for when you need it instead of kludging with with, e.g., a kitchen knife and an adjustabl](https://bsky.app/profile/berserkercoach.bsky.social/post/3mzetcgbzm22r) — bluesky — direct_public_post — intent keyword found
-- [US researchers have developed AI that compares a woman’s 3D mammograms over several years to predict her five-year breast cancer risk more accurately than current methods, which co](https://bsky.app/profile/gihanperera.bsky.social/post/3mzes7yjdja2y) — bluesky — direct_public_post
-- [To help ensure Native and non-native voters have what they need to vote, we’re providing folks with this voter engagement tool. Want to see what’s on your ballot or find your polli](https://bsky.app/profile/saveam.bsky.social/post/3mzep7q66fc2g) — bluesky — direct_public_post — intent keyword found
-- [Hello Mastodon 👋 TalkPix turns a photo into a talking video: a portrait, a pet or a product says your script. New this week: it also works inside Claude and ChatGPT as an MCP conne](https://mastodon.social/@talkpix/117548790775948523) — mastodon — direct_public_post
+- [Videco](https://www.producthunt.com/products/videco) — producthunt — direct_public_feed
+- [AgentKit (by Scalekit)](https://www.producthunt.com/products/scalekit) — producthunt — direct_public_feed
+- [Testifly](https://www.producthunt.com/products/testifly-launch) — producthunt — direct_public_feed
+- [Teamily AI](https://www.producthunt.com/products/teamily-ai-human-ai-social-network) — producthunt — direct_public_feed
+- [Flockbay](https://www.producthunt.com/products/flockbay) — producthunt — direct_public_feed
+- [Wavefunction](https://www.producthunt.com/products/wavefunction) — producthunt — direct_public_feed
+- [smatari/aura-research-agent](https://huggingface.co/spaces/smatari/aura-research-agent) — huggingface — direct_public_api
+- [x-hunter123345/skry-detector](https://huggingface.co/spaces/x-hunter123345/skry-detector) — huggingface — direct_public_api
+- [TOLIKLOL777/kubica](https://huggingface.co/spaces/TOLIKLOL777/kubica) — huggingface — direct_public_api
+- [maxmcd/wan2.2_14b_i2v_480p_lightning_nsfw_diffusers](https://huggingface.co/spaces/maxmcd/wan2.2_14b_i2v_480p_lightning_nsfw_diffusers) — huggingface — direct_public_api
+- [Tobe66de/wan777](https://huggingface.co/spaces/Tobe66de/wan777) — huggingface — direct_public_api
+- [krithi30/llm_transformer_model](https://huggingface.co/spaces/krithi30/llm_transformer_model) — huggingface — direct_public_api
+- [Find the root cause on one page. In CogniAtlas, switch any map to the Fishbone layout: the problem sits at the head, the causes on the bones. Or start from the Cause & Effect templ](https://bsky.app/profile/powerm365.bsky.social/post/3mzce7t6fcc2n) — bluesky — direct_public_post — intent keyword found
+- [📌 Before any of this: the resume that gets you the outside offer in the first place: Download my ATS-friendly resume template (Word format): lookingforresume.com/free-resour...](https://bsky.app/profile/hrswati.bsky.social/post/3mz5asgtejn2p) — bluesky — direct_public_post — intent keyword found
+- [Author Resources Full discloser, I am not affiliated or sponsored by any of the things I share below! I've been slowly working on different resources to share (but also for improv](https://bsky.app/profile/atkumagai.bsky.social/post/3mz4l2inq3n24) — bluesky — direct_public_post
+- [If you want to send @protonprivacy an email about this recent bullshit, you can do something like I did and send the Proton Foundation an email (full text is in the Alt Text).](https://bsky.app/profile/chiraag.mastodon.online.ap.brid.gy/post/3mz2q63d7mht2) — bluesky — direct_public_post
+- [any images in your template in place or whatever. my very neglected blog runs hugo. blog.purplepanda.gay wordpress is, like I said, totally fit for purpose and would 100% work f](https://bsky.app/profile/meimeimeixie.purplepanda.gay/post/3mz2hclmrzl2m) — bluesky — direct_public_post — intent keyword found
+- [Got a bad review? I wrote a free 3-sentence template for what to say back to any customer review. Copy, paste, done. https://dev.to/lilnickyai/got-a-bad-review-here-is-exactly-what](https://bsky.app/profile/lilnickyai.bsky.social/post/3myys6ubxyr26) — bluesky — direct_public_post — intent keyword found
+- [Elephant-goldfish-model just jumped +1,677 stars to 10.6k total. Open-source skills to design and review software with AI agents—worth a look if you're building with LLMs. https://](https://mastodon.social/@opensourceaitech/117553108222471216) — mastodon — direct_public_post
 - [Ask HN: Who is hiring? (November 2026)](https://news.ycombinator.com/item?id=50338728) — hackernews_ask — direct_public_post
+- [OpenAI seems to be silently re-enabling model training on Codex chats](https://news.ycombinator.com/item?id=50352757) — hackernews_ask — direct_public_post
 - [Ask HN: Does anyone have a contact with Cleveland-area Ham club?](https://news.ycombinator.com/item?id=50346164) — hackernews_ask — direct_public_post
-- [WorkOS reports security breach](https://news.ycombinator.com/item?id=50345712) — hackernews_ask — direct_public_post
 - [Ask HN: Which TV do you recommend for privacy?](https://news.ycombinator.com/item?id=50328896) — hackernews_ask — direct_public_post
-- [Ask HN: What hardware are you using to run local LLMs?](https://news.ycombinator.com/item?id=50337431) — hackernews_ask — direct_public_post
-- [Ask HN: Are Tenstorrent cards better than Nvidia?](https://news.ycombinator.com/item?id=50346540) — hackernews_ask — direct_public_post
+- [WorkOS reports security breach](https://news.ycombinator.com/item?id=50345712) — hackernews_ask — direct_public_post
+- [Tell HN: Scribd Breached](https://news.ycombinator.com/item?id=50312756) — hackernews_ask — direct_public_post — intent keyword found
 - [Agent message board — Bob ↔ Codex](https://github.com/BobertNeek/A-Life/issues/2) — github_issue — direct_public_issue_api
 - [[Feature: Add support for exporting monitoring analytics to CSV/JSON](https://github.com/Albert-Weasker/niubigeo/issues/191) — github_issue — direct_public_issue_api — intent keyword found
 - [COMMS — Lucifer ↔ Chad shared log (READ FIRST; post status here)](https://github.com/lionzion86-commits/ARIA/issues/443) — github_issue — direct_public_issue_api

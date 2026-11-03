@@ -1,11 +1,11 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-03T03:55:25.920654+00:00
-- Source last updated: 2026-11-03T03:55:25.920654+00:00
+- Generated: 2026-11-03T15:05:37.938809+00:00
+- Source last updated: 2026-11-03T15:05:37.938809+00:00
 - Trends archive: 2026-11-03 (74/74; complete=True)
 - Eligible multiword rising queries: 456
 - Cross-source matches within 72h review window: 1
-- Social current-run links: 62, prior recent sightings: 263
+- Social current-run links: 60, prior recent sightings: 271
 - Search archives examined: 2026-11-03, 2026-11-02, 2026-11-01
 - Direct-post question-derived QUERY HYPOTHESES: 4
 - Direct-post author self-reported payments (NOT processor verified): 0
@@ -23,11 +23,11 @@
 - Proposed query: **exporting monitoring analytics to csv json what problem should this solve**
   - Original public post: https://github.com/Albert-Weasker/niubigeo/issues/191
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
-- Proposed query: **or a discussion topic bug description after updating signal on iphone**
-  - Original public post: https://github.com/signalapp/Signal-iOS/issues/6232
-  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **to take these boxes out to the trash**
   - Original public post: https://bsky.app/profile/blaqbear.bsky.social/post/3mz7kd63mx22d
+  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
+- Proposed query: **or a discussion topic bug description after updating signal on iphone**
+  - Original public post: https://github.com/signalapp/Signal-iOS/issues/6232
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **please fund me for geriatrics**
   - Original public post: https://bsky.app/profile/jeromyo.bsky.social/post/3mz4w3y4kwc2n
