@@ -1,6 +1,6 @@
 # 跨独立网站 Sitemap 同步上新观察
 
-观察截止：2026-11-03；滚动窗口：2026-10-28—2026-11-03（均为北京时间日期）。
+观察截止：2026-11-04；滚动窗口：2026-10-29—2026-11-04（均为北京时间日期）。
 
 **Sitemap 首见并不等于首次发行、真实24小时内上架或搜索量；同名和文件格式归并必须人工核实。**
 只有具备真实source_id、详情URL和first_seen的相对基线新增，才能成为候选。
@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：126/135；数据生成：2026-11-03T17:57:56.584107+08:00；详细候选：5309；7日轻量URL证据：6591/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：126/135；数据生成：2026-11-04T04:36:22.642929+08:00；详细候选：5639；7日轻量URL证据：7166/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 173，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 127，采样上限遗漏 0。
 
 - **escape the giant cat**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-pt · 2026-10-29 · https://www.gamepix.com/pt/play/escape-the-giant-cat · 原词 escape the giant cat
@@ -37,17 +37,20 @@
   - gamepix.com · gamepix-pt · 2026-10-29 · https://www.gamepix.com/pt/play/quantum-catch · 原词 quantum catch
   - y8.com · y8-en · 2026-10-31 · https://www.y8.com/games/quantum_catch · 原词 quantum catch
 - **street smart echoes of home**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamepix.com · gamepix-en · 2026-10-29 · https://www.gamepix.com/play/street-smart-echoes-of-home · 原词 street smart echoes of home
+  - gamepix.com · gamepix-pt · 2026-10-29 · https://www.gamepix.com/pt/play/street-smart-echoes-of-home · 原词 street smart echoes of home
   - y8.com · y8-en · 2026-10-30 · https://www.y8.com/games/street_smart_echoes_of_home · 原词 street smart echoes of home
-- **punch through**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamepix.com · gamepix-en · 2026-10-30 · https://www.gamepix.com/play/punch-through · 原词 punch through
-  - playgama.com · playgama-en · 2026-11-03 · https://playgama.com/game/punch-through · 原词 punch through
+- **gem voyage**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - y8.com · y8-en · 2026-10-31 · https://www.y8.com/games/gem_voyage · 原词 gem voyage
+  - gamepix.com · gamepix-pt · 2026-11-04 · https://www.gamepix.com/pt/play/gem-voyage · 原词 gem voyage
+- **hexa drop**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - y8.com · y8-en · 2026-10-31 · https://www.y8.com/games/hexa_drop · 原词 hexa drop
+  - gamepix.com · gamepix-pt · 2026-11-04 · https://www.gamepix.com/pt/play/hexa-drop · 原词 hexa drop
 
 失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 179，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 53，采样上限遗漏 0。
 
 - **tapmap**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-02 · https://fazier.com/launches/tapmap · 原词 tapmap
@@ -88,7 +91,7 @@
 
 ## AI 工具和 Agent 目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 12，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 21，采样上限遗漏 0。
 
 - **kurodyne**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoptools.com · aitoptools-tools · 2026-10-31 · https://aitoptools.com/tool/kurodyne/ · 原词 kurodyne
@@ -113,7 +116,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 2，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -121,13 +124,13 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 831，采样上限遗漏 590。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 377，采样上限遗漏 223。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
 ## 巴西在线工具
 
-采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
+采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 2，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -140,6 +143,11 @@
   - saas · fazier-launches · 2026-11-02 · https://fazier.com/launches/tapmap
   - saas · saascity-products · 2026-11-03 · https://saascity.io/live/tapmap
   - saas · startupbase-products · 2026-11-03 · https://startupbase.io/products/tapmap
+- haipay：独立根域 4 家；类别 developer, saas
+  - saas · fazier-launches · 2026-10-31 · https://fazier.com/launches/haipay
+  - saas · uneed-products · 2026-11-02 · https://www.uneed.best/tool/haipay
+  - saas · smollaunch-products · 2026-11-03 · https://smollaunch.com/products/haipay
+  - developer · devhunt-tools · 2026-11-04 · https://devhunt.org/tool/haipay
 - le scribe audio：独立根域 3 家；类别 ai, saas
   - saas · productperch-products · 2026-11-01 · https://productperch.com/products/le-scribe-audio/
   - saas · saasworthy-products · 2026-11-02 · https://www.saasworthy.com/product/le-scribe-audio
@@ -167,9 +175,6 @@
 - agentmash：独立根域 2 家；类别 ai, saas
   - saas · producthunt-products · 2026-11-01 · https://www.producthunt.com/products/agentmash
   - ai · aitoolnet-tools · 2026-11-03 · https://www.aitoolnet.com/agentmash
-- british accent generator：独立根域 2 家；类别 ai, saas
-  - saas · productperch-products · 2026-11-01 · https://productperch.com/products/british-accent-generator/
-  - ai · aitoolnet-tools · 2026-11-03 · https://www.aitoolnet.com/british-accent-generator
 
 ### 跨类别同向文件转换
 

@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-03",
-  "window_start": "2026-10-28",
+  "date": "2026-11-04",
+  "window_start": "2026-10-29",
   "source_count": 135,
-  "queue_count": 5309,
+  "queue_count": 5639,
   "ignored_unverifiable_proofs": 0,
   "groups": {
     "games": [
@@ -137,9 +137,9 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-en",
+            "source_id": "gamepix-pt",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/street-smart-echoes-of-home",
+            "url": "https://www.gamepix.com/pt/play/street-smart-echoes-of-home",
             "first_seen": "2026-10-29",
             "observed_query": "street smart echoes of home",
             "source_category": "games"
@@ -239,6 +239,62 @@
         ]
       },
       {
+        "query": "gem voyage",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/gem_voyage",
+            "first_seen": "2026-10-31",
+            "observed_query": "gem voyage",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/gem-voyage",
+            "first_seen": "2026-11-04",
+            "observed_query": "gem voyage",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "hexa drop",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/hexa_drop",
+            "first_seen": "2026-10-31",
+            "observed_query": "hexa drop",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/hexa-drop",
+            "first_seen": "2026-11-04",
+            "observed_query": "hexa drop",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "punch through",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -309,6 +365,50 @@
             "first_seen": "2026-11-03",
             "observed_query": "tapmap",
             "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "haipay",
+        "independent_websites": 4,
+        "date_span_days": 4,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 3,
+        "seven_calendar_day_total": 4,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/haipay",
+            "first_seen": "2026-10-31",
+            "observed_query": "haipay",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/haipay",
+            "first_seen": "2026-11-02",
+            "observed_query": "haipay",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/haipay",
+            "first_seen": "2026-11-03",
+            "observed_query": "haipay",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/haipay",
+            "first_seen": "2026-11-04",
+            "observed_query": "haipay",
+            "source_category": "developer"
           }
         ]
       },
@@ -488,42 +588,6 @@
             "url": "https://saascity.io/live/amw-suite",
             "first_seen": "2026-11-03",
             "observed_query": "amw suite",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "haipay",
-        "independent_websites": 3,
-        "date_span_days": 3,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/haipay",
-            "first_seen": "2026-10-31",
-            "observed_query": "haipay",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/haipay",
-            "first_seen": "2026-11-02",
-            "observed_query": "haipay",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/haipay",
-            "first_seen": "2026-11-03",
-            "observed_query": "haipay",
             "source_category": "saas"
           }
         ]
@@ -1349,6 +1413,34 @@
         ]
       },
       {
+        "query": "unleashx",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/unleashx",
+            "first_seen": "2026-11-02",
+            "observed_query": "unleashx",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/unleashx",
+            "first_seen": "2026-11-04",
+            "observed_query": "unleashx",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
         "query": "alook",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -1373,6 +1465,34 @@
             "first_seen": "2026-11-03",
             "observed_query": "alook",
             "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "clawsgo science",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/clawsgo-science",
+            "first_seen": "2026-11-01",
+            "observed_query": "clawsgo science",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/clawsgo-science",
+            "first_seen": "2026-11-04",
+            "observed_query": "clawsgo science",
+            "source_category": "ai"
           }
         ]
       },
@@ -1683,14 +1803,42 @@
             "source_category": "saas"
           }
         ]
+      },
+      {
+        "query": "discoverlaunches",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/discoverlaunches",
+            "first_seen": "2026-10-30",
+            "observed_query": "discoverlaunches",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/discoverlaunches/",
+            "first_seen": "2026-11-04",
+            "observed_query": "discoverlaunches",
+            "source_category": "saas"
+          }
+        ]
       }
     ],
     "tools": [],
     "functions": []
   },
   "group_counts": {
-    "games": 9,
-    "products": 48,
+    "games": 11,
+    "products": 51,
     "tools": 0,
     "functions": 0
   },
@@ -1918,9 +2066,9 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-en",
+            "source_id": "gamepix-pt",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/street-smart-echoes-of-home",
+            "url": "https://www.gamepix.com/pt/play/street-smart-echoes-of-home",
             "first_seen": "2026-10-29",
             "observed_query": "street smart echoes of home",
             "source_category": "games"
@@ -1931,6 +2079,64 @@
             "url": "https://www.y8.com/games/street_smart_echoes_of_home",
             "first_seen": "2026-10-30",
             "observed_query": "street smart echoes of home",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "gem voyage",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/gem_voyage",
+            "first_seen": "2026-10-31",
+            "observed_query": "gem voyage",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/gem-voyage",
+            "first_seen": "2026-11-04",
+            "observed_query": "gem voyage",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "hexa drop",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/hexa_drop",
+            "first_seen": "2026-10-31",
+            "observed_query": "hexa drop",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/hexa-drop",
+            "first_seen": "2026-11-04",
+            "observed_query": "hexa drop",
             "source_category": "games"
           }
         ],
@@ -2725,6 +2931,35 @@
         "cross_signal_origin": "products"
       },
       {
+        "query": "discoverlaunches",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/discoverlaunches",
+            "first_seen": "2026-10-30",
+            "observed_query": "discoverlaunches",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/discoverlaunches/",
+            "first_seen": "2026-11-04",
+            "observed_query": "discoverlaunches",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "flux 3",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -3031,17 +3266,17 @@
     "brazil": []
   },
   "by_type_counts": {
-    "games": 9,
-    "saas": 32,
+    "games": 11,
+    "saas": 33,
     "ai": 3,
     "calculators": 0,
     "files": 0,
     "developer": 0,
     "brazil": 0
   },
-  "delta_ledger_count": 6591,
+  "delta_ledger_count": 7166,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-11-03T17:57:56.584107+08:00",
+  "generated_at": "2026-11-04T04:36:22.642929+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
@@ -3051,7 +3286,7 @@
       "baselines": 0,
       "delta_scans": 29,
       "failed": 4,
-      "new_urls": 173,
+      "new_urls": 127,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -3080,7 +3315,7 @@
       "baselines": 0,
       "delta_scans": 19,
       "failed": 1,
-      "new_urls": 179,
+      "new_urls": 53,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -3097,7 +3332,7 @@
       "baselines": 0,
       "delta_scans": 19,
       "failed": 1,
-      "new_urls": 12,
+      "new_urls": 21,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -3131,7 +3366,7 @@
       "baselines": 0,
       "delta_scans": 18,
       "failed": 2,
-      "new_urls": 2,
+      "new_urls": 0,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -3152,8 +3387,8 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 831,
-      "over_scan_cap": 590,
+      "new_urls": 377,
+      "over_scan_cap": 223,
       "failed_sources": []
     },
     "brazil": {
@@ -3164,7 +3399,7 @@
       "baselines": 0,
       "delta_scans": 10,
       "failed": 0,
-      "new_urls": 0,
+      "new_urls": 2,
       "over_scan_cap": 0,
       "failed_sources": []
     }
