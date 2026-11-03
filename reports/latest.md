@@ -1,29 +1,35 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-11-02T02:11:06.218658+00:00
+Generated: 2026-11-03T03:53:54.267429+00:00
 
 ## Formal candidates
 
-### 1. creator codes for brawl stars
+### 1. murasu cyclone tracker
 
-- Newness **96/100**; money **92/100** (repeat-data).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-26T00:00:00+00:00, retention **1.0%**.
-- 5y old-history gate: avg **0.09**, peak **8**, material ratio (>= 5) **0.012**; raw non-zero ratio **0.012**.
-- Source seed-rising:creator; geo Worldwide.
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.09**, recent peak **100**, first rise 2026-11-01T00:00:00+00:00, retention **65.7%**.
+- 5y old-history gate: avg **0.01**, peak **1**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.008**.
+- Source seed-rising:tracker; geo Worldwide.
+
+### 2. nyc marathon 2026 tracker
+
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-01T00:00:00+00:00, retention **42.0%**.
+- 5y old-history gate: avg **0.02**, peak **4**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.012**.
+- Source seed-rising:tracker; geo Worldwide.
 
 ## Watch / rejected
 
-- ffcs planner — **old-history** — newness 100, money 100; 5y peak 70
-- youtube to mp3 player converter app — **old-history** — newness 100, money 100; 5y peak 10
-- cyclone update cyclone arnab tracker — **old-history** — newness 96, money 94; 5y peak 9
-- brawl stars creator code — **old-history** — newness 96, money 86; 5y peak 7
-- jackery explorer 1500 v2 solar generator with solar panel 100air — **history-unchecked** — newness 95, money 94
-- brawlstars creator code — **history-unchecked** — newness 93, money 92
-- creator coffins code — **history-unchecked** — newness 93, money 92
-- cyclone live tracker — **history-unchecked** — newness 92, money 94
-- brawl star creator codes — **history-unchecked** — newness 88, money 86
-- council tax band checker — **commercial-watch** — newness 78, money 100
-- cyclone tracker — **commercial-watch** — newness 72, money 100
-- food processor comparison — **commercial-watch** — newness 53, money 90
-- council tax checker — **reject** — newness 42, money 100
-- premium bonds prize checker — **reject** — newness 35, money 100
+- new york city marathon tracker — **old-history** — newness 100, money 100; 5y peak 19
+- new york marathon tracker — **old-history** — newness 100, money 100; 5y peak 15
+- nyc marathon tracker — **old-history** — newness 100, money 100; 5y peak 18
+- murasu cyclone tracker live — **history-unchecked** — newness 100, money 94
+- esphome device builder model context protocol — **history-unchecked** — newness 95, money 94
+- route du rhum 2026 tracker — **history-unchecked** — newness 95, money 94
+- new york marathon 2026 tracker — **history-unchecked** — newness 94, money 100
+- jason chang solar tracker invention — **history-unchecked** — newness 93, money 94
+- buy mounjaro online www.buymounjaroaustralia.co 🇦🇺 — **history-unchecked** — newness 88, money 90
+- tracker s4e5 — **commercial-watch** — newness 83, money 94
+- moon tracker live — **commercial-watch** — newness 74, money 100
+- meri ₹80,000 salary hai. rent, kharche aur investments ka ek budget planner bana do — **commercial-watch** — newness 73, money 94
+- council tax band checker — **commercial-watch** — newness 68, money 100

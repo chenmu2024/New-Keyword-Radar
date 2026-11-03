@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-02T02:11:54.654989+00:00",
-  "source_radar_generated_at": "2026-11-02T02:11:06.218658+00:00",
-  "formal_candidate_count": 1,
+  "generated_at": "2026-11-03T03:54:56.538250+00:00",
+  "source_radar_generated_at": "2026-11-03T03:53:54.267429+00:00",
+  "formal_candidate_count": 2,
   "assessments": [
     {
-      "keyword": "creator codes for brawl stars",
+      "keyword": "murasu cyclone tracker",
       "geo": "",
       "radar_verdict": "formal",
-      "newness_score": 96,
-      "money_score": 92,
+      "newness_score": 100,
+      "money_score": 100,
       "volume": null,
       "kd": null,
       "cpc": null,
@@ -37,12 +37,49 @@
         "estimated monthly fixed cost (USD)"
       ],
       "reasons": [],
-      "evidence_key": "creator codes for brawl stars|",
+      "evidence_key": "murasu cyclone tracker|",
+      "advisory_only": true
+    },
+    {
+      "keyword": "nyc marathon 2026 tracker",
+      "geo": "",
+      "radar_verdict": "formal",
+      "newness_score": 100,
+      "money_score": 100,
+      "volume": null,
+      "kd": null,
+      "cpc": null,
+      "six_dimensions": {
+        "pain": null,
+        "leverage": null,
+        "timing": null,
+        "resource_fit": null,
+        "standardization": null,
+        "cashflow": null
+      },
+      "score_total": null,
+      "status": "needs-evidence",
+      "missing": [
+        "dated Volume/KD and source",
+        "dated SERP inspection and notes",
+        "dated reference-site traffic or verified recent-game signal",
+        "evidence-backed score: pain",
+        "evidence-backed score: leverage",
+        "evidence-backed score: timing",
+        "evidence-backed score: resource_fit",
+        "evidence-backed score: standardization",
+        "evidence-backed score: cashflow",
+        "monetization model",
+        "acquisition channel",
+        "estimated monthly fixed cost (USD)"
+      ],
+      "reasons": [],
+      "evidence_key": "nyc marathon 2026 tracker|",
       "advisory_only": true
     }
   ],
   "status_counts": {
-    "needs-evidence": 1
+    "needs-evidence": 2
   },
   "policy": "Evidence-first, human-reviewed; never infer Volume/KD/CPC or auto-launch."
 }
