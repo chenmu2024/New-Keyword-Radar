@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-03T03:48:37.359225+00:00
-- Historical candidates: 3319
-- Newly recorded from pending: 153
+- Updated (UTC): 2026-11-03T14:02:35.092890+00:00
+- Historical candidates: 3416
+- Newly recorded from pending: 97
 - Awaiting 7/14/30-day evidence review: 1595
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- phantom blade zero steam key [Global] — discovered — first 2026-11-03, last 2026-11-03
-- tim sweeney valve steam criticism [Global] — discovered — first 2026-11-03, last 2026-11-03
-- is gumroad legit [Global] — discovered — first 2026-11-03, last 2026-11-03
-- acid flux [Global] — discovered — first 2026-11-03, last 2026-11-03
-- esty [Global] — discovered — first 2026-11-03, last 2026-11-03
-- deviantart [Global] — discovered — first 2026-11-03, last 2026-11-03
-- bills game [Global] — discovered — first 2026-11-03, last 2026-11-03
-- gumr [Global] — discovered — first 2026-11-03, last 2026-11-03
-- 2027 color of the year [Global] — discovered — first 2026-11-03, last 2026-11-03
-- 49ers wide receiver trade rumors [Global] — discovered — first 2026-11-03, last 2026-11-03
-- 49ers wide receiver trade targets [Global] — discovered — first 2026-11-03, last 2026-11-03
+- sprunki phase 5 cocrea world [Global] — discovered — first 2026-11-03, last 2026-11-03
+- sample ballot chicago 2026 [Global] — discovered — first 2026-11-03, last 2026-11-03
+- gelbe tonne [Global] — discovered — first 2026-11-03, last 2026-11-03
+- niemphat online [Global] — discovered — first 2026-11-03, last 2026-11-03
+- y2mate mp3 converter app download [Global] — discovered — first 2026-11-03, last 2026-11-03
+- nkanyeziyethu malunga ganu fashion designer [Global] — discovered — first 2026-11-03, last 2026-11-03
+- monitor salur bansos [Global] — discovered — first 2026-11-03, last 2026-11-03
+- ticker symbol for harley davidson [Global] — discovered — first 2026-11-03, last 2026-11-03
+- ohio sample ballot 2026 [Global] — discovered — first 2026-11-03, last 2026-11-03
+- tracker s4e5 [Global] — discovered — first 2026-11-03, last 2026-11-03
+- speed uploader for google drive [Global] — discovered — first 2026-11-03, last 2026-11-03
+- home builder near me [Global] — discovered — first 2026-11-03, last 2026-11-03
+- online casino ohne limit 🇩🇪 toni-bauer.sbs [Global] — discovered — first 2026-11-03, last 2026-11-03
+- south africa licence card validity extension [Global] — discovered — first 2026-11-03, last 2026-11-03
+- custom home builder near me [Global] — discovered — first 2026-11-03, last 2026-11-03
+- figma hello kitty [Global] — discovered — first 2026-11-03, last 2026-11-03
+- color blind glasses [Global] — discovered — first 2026-11-03, last 2026-11-03
 - aao avatar optimizer [Global] — discovered — first 2026-11-03, last 2026-11-03
-- alabama sample ballot [Global] — discovered — first 2026-11-03, last 2026-11-03
-- analyze my 12 months of credit card bills' spending pattern and suggest ways to save. [Global] — discovered — first 2026-11-03, last 2026-11-03
-- android system key verifier o que é [Global] — discovered — first 2026-11-03, last 2026-11-03
-- ardupilot mission planner [Global] — discovered — first 2026-11-03, last 2026-11-03
-- au access [Global] — discovered — first 2026-11-03, last 2026-11-03
-- auburn tiger scheduler [Global] — discovered — first 2026-11-03, last 2026-11-03
-- aura web uploader [Global] — discovered — first 2026-11-03, last 2026-11-03
-- austrian composer arnold [Global] — discovered — first 2026-11-03, last 2026-11-03
-- be a soccer manager codes [Global] — discovered — first 2026-11-03, last 2026-11-03
+- snozzcumber [Global] — discovered — first 2026-11-03, last 2026-11-03
+- comparator preturi energie electrica [Global] — discovered — first 2026-11-03, last 2026-11-03
+- fragrance evaluator [Global] — discovered — first 2026-11-03, last 2026-11-03
+- 49ers wide receiver trade targets [Global] — discovered — first 2026-11-03, last 2026-11-03
 - beige like color nyt [Global] — discovered — first 2026-11-03, last 2026-11-03
-- beverage container return scheme [Global] — discovered — first 2026-11-03, last 2026-11-03
-- blox fruit calculator [Global] — discovered — first 2026-11-03, last 2026-11-03
-- blox fruits calculator [Global] — discovered — first 2026-11-03, last 2026-11-03
+- phantom blade zero steam key [Global] — discovered — first 2026-11-03, last 2026-11-03
+- ticker symbol for harley davidson nyt [Global] — discovered — first 2026-11-03, last 2026-11-03
 
 ## Due for follow-up
 
