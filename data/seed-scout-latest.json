@@ -1,61 +1,26 @@
 {
-  "batch_id": "2026-11-03T03:48:32.081875+00:00-59-60-61-62",
-  "generated_at": "2026-11-03T03:48:32.081875+00:00",
-  "local_generated_at": "2026-11-03T11:48:32.081875+08:00",
+  "batch_id": "2026-11-03T20:29:47.493594+00:00-60-61-62-63-64",
+  "generated_at": "2026-11-03T20:29:47.493594+00:00",
+  "local_generated_at": "2026-11-04T04:29:47.493594+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "slope game",
     "crazy games",
     "itch.io",
-    "roblox"
+    "roblox",
+    "cocrea",
+    "cocrea world"
   ],
   "seed_indices": [
-    59,
     60,
     61,
-    62
+    62,
+    63,
+    64
   ],
-  "start_index": 59,
-  "discoveries": [
-    {
-      "seed": "itch.io",
-      "query": "dummywar itch.io",
-      "rise_value": 1150.0,
-      "raw_value": 1150
-    },
-    {
-      "seed": "itch.io",
-      "query": "itch.io dummylab",
-      "rise_value": 190.0,
-      "raw_value": 190
-    },
-    {
-      "seed": "itch.io",
-      "query": "dummy lab",
-      "rise_value": 110.0,
-      "raw_value": 110
-    },
-    {
-      "seed": "slope game",
-      "query": "polytrack",
-      "rise_value": 50.0,
-      "raw_value": 50
-    },
-    {
-      "seed": "roblox",
-      "query": "roblox stock",
-      "rise_value": 50.0,
-      "raw_value": 50
-    },
-    {
-      "seed": "slope game",
-      "query": "slope plus",
-      "rise_value": 40.0,
-      "raw_value": 40
-    }
-  ],
-  "status": "ok",
-  "discovery_count": 6
+  "start_index": 60,
+  "discoveries": [],
+  "status": "error",
+  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
 }
