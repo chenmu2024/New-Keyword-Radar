@@ -1,0 +1,61 @@
+{
+  "batch_id": "2026-11-03T03:48:32.081875+00:00-59-60-61-62",
+  "generated_at": "2026-11-03T03:48:32.081875+00:00",
+  "local_generated_at": "2026-11-03T11:48:32.081875+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "slope game",
+    "crazy games",
+    "itch.io",
+    "roblox"
+  ],
+  "seed_indices": [
+    59,
+    60,
+    61,
+    62
+  ],
+  "start_index": 59,
+  "discoveries": [
+    {
+      "seed": "itch.io",
+      "query": "dummywar itch.io",
+      "rise_value": 1150.0,
+      "raw_value": 1150
+    },
+    {
+      "seed": "itch.io",
+      "query": "itch.io dummylab",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "itch.io",
+      "query": "dummy lab",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "slope game",
+      "query": "polytrack",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "roblox",
+      "query": "roblox stock",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "slope game",
+      "query": "slope plus",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 6
+}
