@@ -5,180 +5,183 @@ not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidenc
 Raw queue and all main radar settings remain unchanged.
 
 - Sitemap feeds succeeded: 126/135
-- URLs newly observed in the latest scan: 835
-- Candidate URL rows extracted in latest scan: 477
-- First-time keyword/geo research leads: 411
-- Previously removed URLs resurfacing: 8
-- Accumulated queue: 4748
-- Human keyword/topic review: 2154
-- Game/general watchlist: 2502
-- Low-quality page-name noise: 92
+- URLs newly observed in the latest scan: 1197
+- Candidate URL rows extracted in latest scan: 584
+- First-time keyword/geo research leads: 561
+- Previously removed URLs resurfacing: 25
+- Accumulated queue: 5309
+- Human keyword/topic review: 2389
+- Game/general watchlist: 2826
+- Low-quality page-name noise: 94
 - **Verified new keywords / search demand / business revenue: not established**
 
 ## Queue composition (by Sitemap source)
 
-- apify-actors-z: 538
-- railway-templates: 537
-- apify-actors-a: 437
-- gamepix-en: 301
-- gamepix-pt: 301
-- producthunt-products: 266
+- apify-actors-z: 644
+- railway-templates: 566
+- apify-actors-a: 480
+- producthunt-products: 311
+- gamepix-pt: 306
+- gamepix-en: 303
 - saasworthy-products: 238
-- fazier-launches: 154
-- vercel-product-watch: 151
-- crazygames-br: 140
-- crazygames-en: 140
-- crazygames-es: 140
-- y8-en: 128
-- uneed-products: 112
+- fazier-launches: 209
+- vercel-product-watch: 152
+- playgama-en: 150
+- y8-en: 150
+- crazygames-es: 149
+- crazygames-br: 146
+- crazygames-en: 143
+- uneed-products: 122
+- productperch-products: 117
 - n8n-workflows: 108
 - onlinetools-br: 103
 - smollaunch-products: 99
-- productperch-products: 96
-- futurepedia-tools: 85
+- futurepedia-tools: 86
 - toolveyor-tools: 78
-- playgama-en: 76
-- saascity-products: 55
-- startupbase-products: 52
+- startupbase-products: 67
+- devhunt-tools: 60
+- saascity-products: 59
+- gamedistribution-games: 43
+- indieneed-products: 43
 - minijuegos-es: 43
-- devhunt-tools: 38
-- gamedistribution-games: 37
-- indieneed-products: 35
+- pitchwall-products: 40
+- playhop-en: 38
 - futuretools-products: 33
-- pitchwall-products: 32
 - tooldirectory-ai-tools: 30
 - aitoolnet-tools: 23
-- dangai-tools: 19
+- dangai-tools: 23
+- pipedream-actions: 15
 - indietools-products: 13
+- aiagentstore-agents: 12
 - toolfound-products: 12
-- playhop-en: 11
 - aitoptools-tools: 10
 - fridayhunt-projects: 9
-- aiagentstore-agents: 8
+- aitoolsdirectory-tools: 8
 - replicate-models: 8
-- aitoolsdirectory-tools: 7
+- gamearter-en: 7
 - nextool-tools: 7
-- gamearter-en: 5
-- onlinegames-en: 4
-- cokogames-es: 3
-- fotor-features: 3
+- 1001games-en: 5
+- fotor-features: 5
+- onlinegames-en: 5
+- cokogames-es: 4
 - netlify-product-watch: 3
 - silvergames-en: 3
+- yiv-games: 3
 - bgames-en: 2
 - jogos360-br: 2
 - opentools-tools: 2
+- poki-en: 2
 - railway-changelog: 2
 - trigger-product: 2
+- activepieces-pieces: 1
 - aiagentslist-agents: 1
 - calculator-soup: 1
 - ifttt-services: 1
 - modal-changelog: 1
-- poki-en: 1
 - toolworthy-ai-tools: 1
-- yiv-games: 1
 
 ## Latest scan's leads (routing only)
 
-- [pumpkin tower night edition](https://www.gamepix.com/play/pumpkin-tower-night-edition) — watch / game-title-not-search-demand; source=gamepix-en
-- [pulsefront](https://www.gamepix.com/play/pulsefront) — watch / game-title-not-search-demand; source=gamepix-en
-- [king of boxer](https://www.gamepix.com/play/king-of-boxer) — watch / game-title-not-search-demand; source=gamepix-en
-- [last mob war](https://www.gamepix.com/play/last-mob-war) — watch / game-title-not-search-demand; source=gamepix-en
-- [broodfall](https://www.gamepix.com/play/broodfall) — watch / game-title-not-search-demand; source=gamepix-en
-- [hadal signal](https://www.gamepix.com/play/hadal-signal) — watch / game-title-not-search-demand; source=gamepix-en
-- [anti spider run](https://www.gamepix.com/play/anti-spider-run) — watch / game-title-not-search-demand; source=gamepix-en
-- [switch tracks](https://www.gamepix.com/play/switch-tracks) — watch / game-title-not-search-demand; source=gamepix-en
-- [meowdoku brain puzzle](https://www.gamepix.com/play/meowdoku-brain-puzzle) — watch / game-title-not-search-demand; source=gamepix-en
-- [sand vault](https://www.gamepix.com/play/sand-vault) — watch / game-title-not-search-demand; source=gamepix-en
-- [switch tracks](https://www.gamepix.com/pt/play/switch-tracks) — watch / game-title-not-search-demand; source=gamepix-pt
-- [hadal signal](https://www.gamepix.com/pt/play/hadal-signal) — watch / game-title-not-search-demand; source=gamepix-pt
-- [broodfall](https://www.gamepix.com/pt/play/broodfall) — watch / game-title-not-search-demand; source=gamepix-pt
-- [meowdoku brain puzzle](https://www.gamepix.com/pt/play/meowdoku-brain-puzzle) — watch / game-title-not-search-demand; source=gamepix-pt
-- [king of boxer](https://www.gamepix.com/pt/play/king-of-boxer) — watch / game-title-not-search-demand; source=gamepix-pt
-- [cinderline](https://www.gamepix.com/pt/play/cinderline) — watch / game-title-not-search-demand; source=gamepix-pt
-- [echo vault threads of the unwritten](https://www.gamepix.com/pt/play/echo-vault-threads-of-the-unwritten) — watch / game-title-not-search-demand; source=gamepix-pt
-- [anti spider run](https://www.gamepix.com/pt/play/anti-spider-run) — watch / game-title-not-search-demand; source=gamepix-pt
-- [pulsefront](https://www.gamepix.com/pt/play/pulsefront) — watch / game-title-not-search-demand; source=gamepix-pt
-- [sand vault](https://www.gamepix.com/pt/play/sand-vault) — watch / game-title-not-search-demand; source=gamepix-pt
-- [last mob war](https://www.gamepix.com/pt/play/last-mob-war) — watch / game-title-not-search-demand; source=gamepix-pt
-- [pumpkin tower night edition](https://www.gamepix.com/pt/play/pumpkin-tower-night-edition) — watch / game-title-not-search-demand; source=gamepix-pt
-- [monitor vercel deployments in chatgpt](https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt) — review / product-content-not-search-demand; source=vercel-product-watch
-- [blocking malicious npm packages before and during installation](https://vercel.com/changelog/blocking-malicious-npm-packages-before-and-during-installation) — review / product-content-not-search-demand; source=vercel-product-watch
-- [evaluate vercel flags from another project without sharing sdk keys](https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys) — review / product-content-not-search-demand; source=vercel-product-watch
-- [vercel mcp now supports client id metadata documents](https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents) — review / product-content-not-search-demand; source=vercel-product-watch
-- [longcat 2 5 now available on ai gateway](https://vercel.com/changelog/longcat-2-5-now-available-on-ai-gateway) — review / product-content-not-search-demand; source=vercel-product-watch
-- [flags explorer redesigned for easier override sharing](https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing) — review / product-content-not-search-demand; source=vercel-product-watch
-- [triage appointment requests with openai supabase gmail and webhooks](https://n8n.io/workflows/22158-triage-appointment-requests-with-openai-supabase-gmail-and-webhooks/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [book doctolib appointments with reduck and gmail](https://n8n.io/workflows/22225-book-doctolib-appointments-with-reduck-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [create spaced repetition line book quizzes with claude sonnet 5](https://n8n.io/workflows/22166-create-spaced-repetition-line-book-quizzes-with-claude-sonnet-5/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [triage dependency cves with osvdev cisa kev claude and gmail](https://n8n.io/workflows/22103-triage-dependency-cves-with-osvdev-cisa-kev-claude-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [generate live meeting minutes webpages with openai uploadtourl and gmail](https://n8n.io/workflows/22030-generate-live-meeting-minutes-webpages-with-openai-uploadtourl-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [sync approved google sheets menu items with orbitpage native menus](https://n8n.io/workflows/22130-sync-approved-google-sheets-menu-items-with-orbitpage-native-menus/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [generate qualified 3d visualization email leads with serper and qwen](https://n8n.io/workflows/21625-generate-qualified-3d-visualization-email-leads-with-serper-and-qwen/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [schedule and validate social posts from google sheets with preflight](https://n8n.io/workflows/22245-schedule-and-validate-social-posts-from-google-sheets-with-preflight/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [control invoice reminders and escalations with google sheets and gmail](https://n8n.io/workflows/22171-control-invoice-reminders-and-escalations-with-google-sheets-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [deduplicate webhook enquiries with data tables and telegram notifications](https://n8n.io/workflows/22199-deduplicate-webhook-enquiries-with-data-tables-and-telegram-notifications/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [create tiktok and reels style videos from photos with trendswap](https://n8n.io/workflows/22017-create-tiktok-and-reels-style-videos-from-photos-with-trendswap/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send a daily unanswered leads digest with gmail and openai](https://n8n.io/workflows/22239-send-a-daily-unanswered-leads-digest-with-gmail-and-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [create faceless youtube shorts in any language with genmagic ai](https://n8n.io/workflows/22097-create-faceless-youtube-shorts-in-any-language-with-genmagic-ai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send horse racing odds movement alerts with apify and telegram](https://n8n.io/workflows/22126-send-horse-racing-odds-movement-alerts-with-apify-and-telegram/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [deliver paddle digital product purchases with signed links and gmail](https://n8n.io/workflows/22032-deliver-paddle-digital-product-purchases-with-signed-links-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [track solar project milestones with google sheets gmail and deepseek](https://n8n.io/workflows/21988-track-solar-project-milestones-with-google-sheets-gmail-and-deepseek/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [manage employee offboarding with deepseek sheets gmail and telegram alerts](https://n8n.io/workflows/18362-manage-employee-offboarding-with-deepseek-sheets-gmail-and-telegram-alerts/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send daily ai briefings from postgres to telegram with openai](https://n8n.io/workflows/22186-send-daily-ai-briefings-from-postgres-to-telegram-with-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [qualify bilingual leads with openai google sheets and gmail](https://n8n.io/workflows/22038-qualify-bilingual-leads-with-openai-google-sheets-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [triage clientify contact emails with gmail openai and slack](https://n8n.io/workflows/22115-triage-clientify-contact-emails-with-gmail-openai-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [tag zoom webinar attendance and engagement levels in klicktipp](https://n8n.io/workflows/22010-tag-zoom-webinar-attendance-and-engagement-levels-in-klicktipp/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [answer website chat questions about attached documents with openai](https://n8n.io/workflows/22144-answer-website-chat-questions-about-attached-documents-with-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [collect xero invoice payments with stripe payment links via whatsapp](https://n8n.io/workflows/22205-collect-xero-invoice-payments-with-stripe-payment-links-via-whatsapp/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [publish new youtube videos to orbitpage with optional email approval](https://n8n.io/workflows/22127-publish-new-youtube-videos-to-orbitpage-with-optional-email-approval/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [qualify inbound website leads from forms using gaffa and hubspot](https://n8n.io/workflows/20831-qualify-inbound-website-leads-from-forms-using-gaffa-and-hubspot/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send and track human approved faxes with fax for agents](https://n8n.io/workflows/22137-send-and-track-human-approved-faxes-with-fax-for-agents/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [nocodb clone](https://railway.com/deploy/nocodb-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [musebot clone](https://railway.com/deploy/musebot-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [miniflux lite clone](https://railway.com/deploy/miniflux-lite-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [linkwarden clone](https://railway.com/deploy/linkwarden-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [actual budget clone](https://railway.com/deploy/actual-budget-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [backrest clone](https://railway.com/deploy/backrest-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [duplicati clone](https://railway.com/deploy/duplicati-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [sftpgo clone](https://railway.com/deploy/sftpgo-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [calnode clone](https://railway.com/deploy/calnode-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [emailflare api](https://railway.com/deploy/emailflare-api) — review / deployment-topic-not-search-demand; source=railway-templates
-- [allure server clone](https://railway.com/deploy/allure-server-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [swarm clone](https://railway.com/deploy/swarm-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [woodpecker ci lite clone](https://railway.com/deploy/woodpecker-ci-lite-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [jevos clone](https://railway.com/deploy/jevos-clone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [google ads advertiser checker](https://apify.com/apisamurai/google-ads-advertiser-checker) — review / tool-intent-wording-not-verified; source=apify-actors-a
-- [myntra scraper price tracker](https://apify.com/apisamurai/myntra-scraper-price-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-a
-- [ai visibility tracker](https://apify.com/agarwoods/ai-visibility-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-a
-- [ajio scraper price tracker](https://apify.com/apisamurai/ajio-scraper-price-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-a
-- [review aggregator](https://apify.com/alaudinburki/review-aggregator) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [image scraper](https://apify.com/actor-forge/image-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [google maps scraper](https://apify.com/apisamurai/google-maps-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [youtube transcript api](https://apify.com/apisamurai/youtube-transcript-api) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [youtube scraper](https://apify.com/apisamurai/youtube-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [linkedin scraper](https://apify.com/apisamurai/linkedin-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [telegram channel scraper](https://apify.com/apisamurai/telegram-channel-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [aliexpress reviews](https://apify.com/actor-forge/aliexpress-reviews) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [us cpsc consumer product recall supply chain monitor](https://apify.com/afkdigital/us-cpsc-consumer-product-recall-supply-chain-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [itch io scraper](https://apify.com/anyxsolutions/itch-io-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [tiktok scraper](https://apify.com/apisamurai/tiktok-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [reddit comments scraper](https://apify.com/apisamurai/reddit-comments-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [facebook scraper](https://apify.com/apisamurai/facebook-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [gelbe seiten leads](https://apify.com/actor-forge/gelbe-seiten-leads) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [shopify store analyzer](https://apify.com/apisamurai/shopify-store-analyzer) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [instagram scraper](https://apify.com/apisamurai/instagram-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [people search](https://apify.com/aidenix/people-search) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [tvmaze scraper](https://apify.com/anyxsolutions/tvmaze-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [career site jobs scraper](https://apify.com/agarwoods/career-site-jobs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [trustpilot scraper](https://apify.com/apisamurai/trustpilot-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [website screenshot pdf](https://apify.com/apisamurai/website-screenshot-pdf) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [x twitter scraper](https://apify.com/apisamurai/x-twitter-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [telegram channel search](https://apify.com/apisamurai/telegram-channel-search) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [career site jobs scraper](https://apify.com/apisamurai/career-site-jobs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [google trends scraper](https://apify.com/apisamurai/google-trends-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [company jobs scraper](https://apify.com/agentsgearbox/company-jobs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [app store google play scraper](https://apify.com/apisamurai/app-store-google-play-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [united states property owner address parcel records scraper](https://apify.com/ai-lead-gen-tools/united-states-property-owner-address-parcel-records-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [wordquarium sort merge](https://www.crazygames.com/game/wordquarium-sort-merge) — watch / game-title-not-search-demand; source=crazygames-en
+- [banana infinity grow a banana](https://www.crazygames.com/game/banana-infinity-grow-a-banana) — watch / game-title-not-search-demand; source=crazygames-en
+- [drift car racing game](https://www.crazygames.com/game/drift-car-racing-game) — watch / game-title-not-search-demand; source=crazygames-en
+- [voidrush erc](https://www.crazygames.com/br/game/voidrush-erc) — watch / game-title-not-search-demand; source=crazygames-br
+- [wordquarium sort merge](https://www.crazygames.com/br/game/wordquarium-sort-merge) — watch / game-title-not-search-demand; source=crazygames-br
+- [internet cafe tycoon vjb](https://www.crazygames.com/br/game/internet-cafe-tycoon-vjb) — watch / game-title-not-search-demand; source=crazygames-br
+- [boxing tycoon](https://www.crazygames.com/br/game/boxing-tycoon) — watch / game-title-not-search-demand; source=crazygames-br
+- [drift car racing game](https://www.crazygames.com/br/game/drift-car-racing-game) — watch / game-title-not-search-demand; source=crazygames-br
+- [banana infinity grow a banana](https://www.crazygames.com/br/game/banana-infinity-grow-a-banana) — watch / game-title-not-search-demand; source=crazygames-br
+- [european basketball championship](https://www.crazygames.com/es/game/european-basketball-championship) — watch / game-title-not-search-demand; source=crazygames-es
+- [voidrush erc](https://www.crazygames.com/es/game/voidrush-erc) — watch / game-title-not-search-demand; source=crazygames-es
+- [whack strike sling slam](https://www.crazygames.com/es/game/whack-strike---sling-slam) — watch / game-title-not-search-demand; source=crazygames-es
+- [drift car racing game](https://www.crazygames.com/es/game/drift-car-racing-game) — watch / game-title-not-search-demand; source=crazygames-es
+- [banana infinity grow a banana](https://www.crazygames.com/es/game/banana-infinity-grow-a-banana) — watch / game-title-not-search-demand; source=crazygames-es
+- [angels pact reversal world kps](https://www.crazygames.com/es/game/angels-pact-reversal-world-kps) — watch / game-title-not-search-demand; source=crazygames-es
+- [boxing tycoon](https://www.crazygames.com/es/game/boxing-tycoon) — watch / game-title-not-search-demand; source=crazygames-es
+- [internet cafe tycoon vjb](https://www.crazygames.com/es/game/internet-cafe-tycoon-vjb) — watch / game-title-not-search-demand; source=crazygames-es
+- [wordquarium sort merge](https://www.crazygames.com/es/game/wordquarium-sort-merge) — watch / game-title-not-search-demand; source=crazygames-es
+- [echo vault threads of the unwritten](https://www.gamepix.com/play/echo-vault-threads-of-the-unwritten) — watch / game-title-not-search-demand; source=gamepix-en
+- [cinderline](https://www.gamepix.com/play/cinderline) — watch / game-title-not-search-demand; source=gamepix-en
+- [the heart of the mountain](https://www.gamepix.com/pt/play/the-heart-of-the-mountain) — watch / game-title-not-search-demand; source=gamepix-pt
+- [the child of tomorrow](https://www.gamepix.com/pt/play/the-child-of-tomorrow) — watch / game-title-not-search-demand; source=gamepix-pt
+- [the invisible heiress](https://www.gamepix.com/pt/play/the-invisible-heiress) — watch / game-title-not-search-demand; source=gamepix-pt
+- [beneath the roses](https://www.gamepix.com/pt/play/beneath-the-roses) — watch / game-title-not-search-demand; source=gamepix-pt
+- [what i did not see](https://www.gamepix.com/pt/play/what-i-did-not-see) — watch / game-title-not-search-demand; source=gamepix-pt
+- [projects can now be configured with vercel toml](https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml) — review / product-content-not-search-demand; source=vercel-product-watch
+- [xoxn payload cms template xoxn payload cms t 1](https://railway.com/deploy/xoxn-payload-cms-template--xoxn-payload-cms-t-1) — low / numbered-deploy-template; source=railway-templates
+- [snipe it lite clone](https://railway.com/deploy/snipe-it-lite-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [mongodb 90](https://railway.com/deploy/mongodb-90) — low / numbered-deploy-template; source=railway-templates
+- [ffmpeg lite clone](https://railway.com/deploy/ffmpeg-lite-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [shopware clone](https://railway.com/deploy/shopware-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [filegator](https://railway.com/deploy/filegator) — review / deployment-topic-not-search-demand; source=railway-templates
+- [wizarr clone](https://railway.com/deploy/wizarr-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [nats clone](https://railway.com/deploy/nats-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [treg clone](https://railway.com/deploy/treg-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [jev lite clone](https://railway.com/deploy/jev-lite-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [kopia clone](https://railway.com/deploy/kopia-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [listmonk clone](https://railway.com/deploy/listmonk-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [jev trader cpu clone](https://railway.com/deploy/jev-trader-cpu-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [victoriametrics clone](https://railway.com/deploy/victoriametrics-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [x402 facilitator lite clone](https://railway.com/deploy/x402-facilitator-lite-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [nanoclaw clone](https://railway.com/deploy/nanoclaw-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [dendrite clone](https://railway.com/deploy/dendrite-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [tianji clone](https://railway.com/deploy/tianji-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [moltbook bot clone](https://railway.com/deploy/moltbook-bot-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [surrealdb clone](https://railway.com/deploy/surrealdb-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [chatwoot clone](https://railway.com/deploy/chatwoot-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [adscope](https://railway.com/deploy/adscope) — review / deployment-topic-not-search-demand; source=railway-templates
+- [unorouter clone](https://railway.com/deploy/unorouter-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [openbot lite clone](https://railway.com/deploy/openbot-lite-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [openwa clone](https://railway.com/deploy/openwa-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [trivy clone](https://railway.com/deploy/trivy-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [rackpad clone](https://railway.com/deploy/rackpad-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [meilisearch clone](https://railway.com/deploy/meilisearch-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [sharely clone](https://railway.com/deploy/sharely-clone) — review / deployment-topic-not-search-demand; source=railway-templates
+- [google events scraper](https://apify.com/aboo.script/google-events-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [ikea scraper lite](https://apify.com/abotapi/ikea-scraper-lite) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [epa echo facility compliance monitor](https://apify.com/apex-nexus/epa-echo-facility-compliance-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [shopify ecommerce brand founder leads scraper](https://apify.com/amitabh_312/shopify-ecommerce-brand-founder-leads-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [youtube transcript](https://apify.com/andronixmd/youtube-transcript) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [coinpaprika crypto market radar](https://apify.com/adaptive_nightmare/coinpaprika-crypto-market-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [auto ru scraper](https://apify.com/abotapi/auto-ru-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [adsrepository scraper](https://apify.com/aboo.script/adsrepository-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [us manufacturer procurement leads scraper](https://apify.com/amitabh_312/us-manufacturer-procurement-leads-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [kamernet search lookup](https://apify.com/accountable_eel/kamernet-search-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [fda recall delta monitor](https://apify.com/apex-nexus/fda-recall-delta-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [google sheets sync](https://apify.com/1coastmedia/google-sheets-sync) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [tiktok transcript scraper](https://apify.com/apihq/tiktok-transcript-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [sec edgar agent extractor](https://apify.com/apex-nexus/sec-edgar-agent-extractor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [chi traffic crashes crashes](https://apify.com/alauddinburki/chi-traffic-crashes-crashes) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [career site jobs scraper](https://apify.com/alaathr/career-site-jobs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [tw gcis company lookup](https://apify.com/accountable_eel/tw-gcis-company-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [amazon stores scraper](https://apify.com/aboo.script/amazon-stores-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [immojeune scraper](https://apify.com/ahmed_jasarevic/immojeune-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [citybikes global networks radar](https://apify.com/adaptive_nightmare/citybikes-global-networks-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [facebook ads library scraper](https://apify.com/alkausari_mujahid/facebook-ads-library-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [local contractor home services leads scraper](https://apify.com/amitabh_312/local-contractor-home-services-leads-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [happycow scraper](https://apify.com/ahmed_jasarevic/happycow-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [ads temu scraper](https://apify.com/aboo.script/ads-temu-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [chi business licenses](https://apify.com/alauddinburki/chi-business-licenses) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [company data enrichment](https://apify.com/aidenix/company-data-enrichment) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [uniplaces scraper](https://apify.com/ahmed_jasarevic/uniplaces-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [openfda device events](https://apify.com/alaudinburki/openfda-device-events) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [theiconic com au scraper](https://apify.com/abotapi/theiconic-com-au-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [wikipedia page change delta monitor](https://apify.com/apex-nexus/wikipedia-page-change-delta-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [transfermarkt player value lookup](https://apify.com/accountable_eel/transfermarkt-player-value-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [sellpy search lookup](https://apify.com/accountable_eel/sellpy-search-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [k12jobspot scraper](https://apify.com/ahmed_jasarevic/k12jobspot-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [us treasury fiscal data radar](https://apify.com/adaptive_nightmare/us-treasury-fiscal-data-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [open food facts nutrition radar](https://apify.com/adaptive_nightmare/open-food-facts-nutrition-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [cook medical examiner case archive](https://apify.com/alauddinburki/cook-medical-examiner-case-archive) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [tiktok video lookup](https://apify.com/accountable_eel/tiktok-video-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [studapart scraper](https://apify.com/ahmed_jasarevic/studapart-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [dental medical practice leads scraper](https://apify.com/amitabh_312/dental-medical-practice-leads-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [facebook ad library scraper](https://apify.com/apivault_labs/facebook-ad-library-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [gbif species biodiversity radar](https://apify.com/adaptive_nightmare/gbif-species-biodiversity-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [tiktok video scraper](https://apify.com/apihq/tiktok-video-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [fitness gym pilates studio leads scraper](https://apify.com/amitabh_312/fitness-gym-pilates-studio-leads-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [un comtrade trade](https://apify.com/alaudinburki/un-comtrade-trade) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [amazon deals scraper](https://apify.com/aboo.script/amazon-deals-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
 
 ## Source interpretation
 
