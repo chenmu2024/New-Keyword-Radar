@@ -200,6 +200,26 @@
         "dashboard"
       ],
       "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    },
+    {
+      "generated_at": "2026-11-04T14:22:25.026188+00:00",
+      "local_generated_at": "2026-11-04T22:22:25.026188+08:00",
+      "start_index": 31,
+      "seed_indices": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "seed_batch": [
+        "planner",
+        "tracker",
+        "recorder",
+        "optimizer",
+        "scheduler"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
     }
   ],
   "scanned_seeds": [
@@ -1810,13 +1830,13 @@
       "raw_value": 40
     }
   ],
-  "updated_at": "2026-11-04T02:23:58.068221+00:00",
+  "updated_at": "2026-11-04T14:22:25.026188+00:00",
   "scanned_seed_count": 35,
   "batch_count": 7,
-  "attempted_seed_count": 45,
+  "attempted_seed_count": 50,
   "complete_20_seeds": true,
   "complete_daily_target": false,
   "completion_pct": 47.3,
-  "failed_seed_count": 10,
+  "failed_seed_count": 15,
   "discovery_count": 261
 }
