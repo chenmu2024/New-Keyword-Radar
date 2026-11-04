@@ -1,25 +1,25 @@
 {
-  "batch_id": "2026-11-03T20:29:47.493594+00:00-60-61-62-63-64",
-  "generated_at": "2026-11-03T20:29:47.493594+00:00",
-  "local_generated_at": "2026-11-04T04:29:47.493594+08:00",
+  "batch_id": "2026-11-04T02:23:58.068221+00:00-26-27-28-29-30",
+  "generated_at": "2026-11-04T02:23:58.068221+00:00",
+  "local_generated_at": "2026-11-04T10:23:58.068221+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "crazy games",
-    "itch.io",
-    "roblox",
-    "cocrea",
-    "cocrea world"
+    "detector",
+    "scraper",
+    "manager",
+    "explorer",
+    "dashboard"
   ],
   "seed_indices": [
-    60,
-    61,
-    62,
-    63,
-    64
+    26,
+    27,
+    28,
+    29,
+    30
   ],
-  "start_index": 60,
+  "start_index": 26,
   "discoveries": [],
   "status": "error",
   "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
