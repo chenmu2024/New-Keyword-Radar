@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-11-03T20:58:56.398976+00:00",
-  "social_generated_at": "2026-11-03T20:58:56.398976+00:00",
+  "generated_at": "2026-11-04T02:59:59.477251+00:00",
+  "social_generated_at": "2026-11-04T02:59:59.477251+00:00",
   "trends_coverage": {
-    "archive_date": "2026-11-03",
-    "scanned_seed_count": 74,
+    "archive_date": "2026-11-04",
+    "scanned_seed_count": 35,
     "target_seed_count": 74,
-    "complete_daily_target": true,
-    "rising_total": 510,
-    "eligible_exact_queries": 456
+    "complete_daily_target": false,
+    "rising_total": 261,
+    "eligible_exact_queries": 227
   },
-  "social_unique_in_run": 61,
+  "social_unique_in_run": 54,
   "review_window": {
     "trend_days_evaluated": [
+      {
+        "archive_date": "2026-11-04",
+        "scanned_seed_count": 35,
+        "target_seed_count": 74,
+        "complete_daily_target": false,
+        "rising_total": 261,
+        "eligible_exact_queries": 227
+      },
       {
         "archive_date": "2026-11-03",
         "scanned_seed_count": 74,
@@ -29,15 +37,15 @@
         "eligible_exact_queries": 450
       }
     ],
-    "exact_queries_in_window": 626,
-    "social_current_run": 61,
-    "social_prior_sightings_72h": 264,
-    "social_reviewable_72h": 325,
+    "exact_queries_in_window": 695,
+    "social_current_run": 54,
+    "social_prior_sightings_72h": 240,
+    "social_reviewable_72h": 294,
     "window_hours": 72,
     "not_new_discoveries_warning": "Window includes older links recently re-seen. Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."
   },
   "cross_matches": 1,
-  "public_question_hypotheses": 4,
+  "public_question_hypotheses": 3,
   "query_hypotheses": [
     {
       "proposed_query": "exporting monitoring analytics to csv json what problem should this solve",
@@ -45,19 +53,6 @@
       "original_platform": "github_issue",
       "original_post_text": "[Feature]: Add support for exporting monitoring analytics to CSV/JSON ### What problem should this solve? Hi, thanks for building this tool! It would be really helpful to have an option to export the visibility monitoring reports/analytics into CSV or JSON format. This would allow developers to integrate the tracked data into custom dashboard tools",
       "published_at": "2026-10-10T14:08:35+00:00",
-      "demand_status": "unverified_question_hint",
-      "search_volume": null,
-      "keyword_difficulty": null,
-      "actual_user_paid": false,
-      "ready_to_build": false,
-      "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
-    },
-    {
-      "proposed_query": "to take these boxes out to the trash",
-      "original_post_url": "https://bsky.app/profile/blaqbear.bsky.social/post/3mz7kd63mx22d",
-      "original_platform": "bluesky",
-      "original_post_text": "I really need to take these boxes out to the trash. Oh, I can use these screws to rehang that towel hanger the fell. But first, I need to get a tool from the garage. Bah, I need to cycle the laundry. Why haven't I taken out these boxes yet? What was I doing? I should post about this on bsky.",
-      "published_at": "2026-11-01T00:25:49.700000+00:00",
       "demand_status": "unverified_question_hint",
       "search_volume": null,
       "keyword_difficulty": null,
@@ -100,9 +95,19 @@
       "relative_rising_value": 60.0,
       "seed": "uploader",
       "sources": {
-        "github_issue": 1
+        "github_issue": 2
       },
       "links": [
+        {
+          "platform": "github_issue",
+          "url": "https://github.com/StegVerse-Labs/.github/issues/3402",
+          "title": "[RECORD] Muse StegOS Node / KV session — 2026-10-29",
+          "published_at": "2026-10-29T10:29:53+00:00",
+          "evidence_type": "direct_public_issue_api",
+          "potential_first_person_question": false,
+          "verified_customer_demand": false,
+          "original_comments_verified": false
+        },
         {
           "platform": "github_issue",
           "url": "https://github.com/conectatech-ec/conectatech-ec.github.io/issues/91",
@@ -115,7 +120,7 @@
         }
       ],
       "independent_platforms": 1,
-      "distinct_urls": 1,
+      "distinct_urls": 2,
       "original_post_question_hints": 0,
       "ready_to_build": false,
       "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
