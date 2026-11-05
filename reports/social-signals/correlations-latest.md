@@ -1,34 +1,31 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-05T10:51:42.407937+00:00
-- Source last updated: 2026-11-05T10:51:42.407937+00:00
-- Trends archive: 2026-11-05 (74/74; complete=True)
-- Eligible multiword rising queries: 421
-- Cross-source matches within 72h review window: 1
-- Social current-run links: 52, prior recent sightings: 255
-- Search archives examined: 2026-11-05, 2026-11-04, 2026-11-03
-- Direct-post question-derived QUERY HYPOTHESES: 4
+- Generated: 2026-11-05T18:43:43.577621+00:00
+- Source last updated: 2026-11-05T18:43:43.577621+00:00
+- Trends archive: 2026-11-06 (10/74; complete=False)
+- Eligible multiword rising queries: 46
+- Cross-source matches within 72h review window: 0
+- Social current-run links: 55, prior recent sightings: 255
+- Search archives examined: 2026-11-06, 2026-11-05, 2026-11-04
+- Direct-post question-derived QUERY HYPOTHESES: 5
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
-## google drive
-
-- Relative Trends rising value: 60.0 (NOT Volume)
-- Distinct matched platforms: 1
-- Direct public-post question hints: 0
-- github_issue: https://github.com/StegVerse-Labs/.github/issues/3402 (direct_public_issue_api)
-- github_issue: https://github.com/conectatech-ec/conectatech-ec.github.io/issues/91 (direct_public_issue_api)
+No reliable full-query cross-source overlap found in this scan.
 
 ## Original public-post question hints (NOT validated search keywords)
 
-- Proposed query: **proposes expanding the current export copy capabilities in dial chat to**
-  - Original public post: https://github.com/epam/ai-dial-chat/issues/7227
+- Proposed query: **response of ai at one particular step now i am using**
+  - Original public post: https://news.ycombinator.com/item?id=50382039
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **exporting monitoring analytics to csv json what problem should this solve**
   - Original public post: https://github.com/Albert-Weasker/niubigeo/issues/191
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **a reason for more desk clutter**
   - Original public post: https://bsky.app/profile/emmawilson-ai.bsky.social/post/3mzji7a74ex27
+  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
+- Proposed query: **proposes expanding the current export copy capabilities in dial chat to**
+  - Original public post: https://github.com/epam/ai-dial-chat/issues/7227
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **or a discussion topic bug description after updating signal on iphone**
   - Original public post: https://github.com/signalapp/Signal-iOS/issues/6232
