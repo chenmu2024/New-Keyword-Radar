@@ -1,64 +1,64 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-04T14:22:53.297190+00:00
-- Historical candidates: 3567
-- Newly recorded from pending: 83
-- Awaiting 7/14/30-day evidence review: 1810
+- Updated (UTC): 2026-11-05T00:00:08.426377+00:00
+- Historical candidates: 3707
+- Newly recorded from pending: 140
+- Awaiting 7/14/30-day evidence review: 2010
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- lemniscate symbol [Global] — discovered — first 2026-11-04, last 2026-11-04
-- bert mizusawa [Global] — discovered — first 2026-11-04, last 2026-11-04
-- mercor [Global] — discovered — first 2026-11-04, last 2026-11-04
-- youtube video download online mp4 format [Global] — discovered — first 2026-11-04, last 2026-11-04
-- mahjongg.party [Global] — discovered — first 2026-11-04, last 2026-11-04
-- what do i need to bring to vote [Global] — discovered — first 2026-11-04, last 2026-11-04
-- casino ohne limit 🇩🇪 toni-bauer.sbs [Global] — discovered — first 2026-11-04, last 2026-11-04
-- our interpreter chinese drama [Global] — discovered — first 2026-11-04, last 2026-11-04
-- tnpsc sign compressor [Global] — discovered — first 2026-11-04, last 2026-11-04
-- sample ballot south dakota [Global] — discovered — first 2026-11-04, last 2026-11-04
-- take the place of 7 little words [Global] — discovered — first 2026-11-04, last 2026-11-04
-- alabama sample ballot 2026 [Global] — discovered — first 2026-11-04, last 2026-11-04
-- poppy template [Global] — discovered — first 2026-11-04, last 2026-11-04
-- china tape maker stock debut [Global] — discovered — first 2026-11-04, last 2026-11-04
-- crs calculator [Global] — discovered — first 2026-11-04, last 2026-11-04
-- nebelscheinwerfer symbol [Global] — discovered — first 2026-11-04, last 2026-11-04
-- accidental in a good way 7 little words [Global] — discovered — first 2026-11-04, last 2026-11-04
-- extensions [Global] — discovered — first 2026-11-04, last 2026-11-04
-- lowy interpreter [Global] — discovered — first 2026-11-04, last 2026-11-04
-- mineworkers pension scheme [Global] — discovered — first 2026-11-04, last 2026-11-04
-- bestes online casino 🇩🇪 jackpotknacker.sbs [Global] — discovered — first 2026-11-04, last 2026-11-04
-- amnesty scheme [Global] — discovered — first 2026-11-04, last 2026-11-04
-- jesus owono instagram [Global] — discovered — first 2026-11-04, last 2026-11-04
-- not appropriate 7 little words [Global] — discovered — first 2026-11-04, last 2026-11-04
-- nigeria rice prices 50kg bag [Global] — discovered — first 2026-11-04, last 2026-11-04
+- 1 winner bet verifier ticket [Global] — discovered — first 2026-11-05, last 2026-11-05
+- adi [Global] — discovered — first 2026-11-05, last 2026-11-05
+- aful explorer [Global] — discovered — first 2026-11-05, last 2026-11-05
+- aggie schedule builder [Global] — discovered — first 2026-11-05, last 2026-11-05
+- anarchy symbol [Global] — discovered — first 2026-11-05, last 2026-11-05
+- android developer verifier que es [Global] — discovered — first 2026-11-05, last 2026-11-05
+- anre comparator [Global] — discovered — first 2026-11-05, last 2026-11-05
+- anre comparator preturi [Global] — discovered — first 2026-11-05, last 2026-11-05
+- avl scheduler [Global] — discovered — first 2026-11-05, last 2026-11-05
+- az games [Global] — discovered — first 2026-11-05, last 2026-11-05
+- bambu scraper [Global] — discovered — first 2026-11-05, last 2026-11-05
+- be a soccer manager roblox codes [Global] — discovered — first 2026-11-05, last 2026-11-05
+- bni dashboard bgn [Global] — discovered — first 2026-11-05, last 2026-11-05
+- bob el constructor en ingles [Global] — discovered — first 2026-11-05, last 2026-11-05
+- bucs game [Global] — discovered — first 2026-11-05, last 2026-11-05
+- business development manager [Global] — discovered — first 2026-11-05, last 2026-11-05
+- cantadas para responder story [Global] — discovered — first 2026-11-05, last 2026-11-05
+- carvertical [Global] — discovered — first 2026-11-05, last 2026-11-05
+- casino online österreich 🇦🇹 zockercheck.sbs 🇦🇹 [Global] — discovered — first 2026-11-05, last 2026-11-05
+- christmas fonts [Global] — discovered — first 2026-11-05, last 2026-11-05
+- christmas list maker [Global] — discovered — first 2026-11-05, last 2026-11-05
+- color of the year 2027 [Global] — discovered — first 2026-11-05, last 2026-11-05
+- colorado connector [Global] — discovered — first 2026-11-05, last 2026-11-05
+- commanders game [Global] — discovered — first 2026-11-05, last 2026-11-05
+- corea [Global] — discovered — first 2026-11-05, last 2026-11-05
 
 ## Due for follow-up
 
-- D+7 online casino ohne oasis 🇩🇪 www.spieltresor.com (age 8d)
-- D+7 jesse legree oregon state receiver ceremony (age 9d)
-- D+7 casino portugal online 🇵🇹 www.pooky.live (age 12d)
-- D+7 proxyscrape (age 13d)
-- D+7 elijah mitchell (age 8d)
-- D+7 rutgers webreg (age 10d)
-- D+14 fantasy basketball trade analyzer (age 16d)
-- D+7 chromebook scheme apply online (age 9d)
-- D+7 champi typhoon tracker (age 10d)
-- D+7 octane optimizer (age 13d)
-- D+7 creator coffins (age 8d)
-- D+14 muscle bone connector nyt (age 15d)
-- D+7 malaysia singapore police joint operation (age 10d)
-- D+7 imd cyclone (age 7d)
-- D+7 composer update (age 10d)
-- D+7 mediaset infinity (age 8d)
-- D+7 itch io (age 10d)
-- D+7 micro1 (age 12d)
-- D+7 troy aikman cowboys receiver criticism (age 9d)
-- D+7 steam down detector (age 8d)
-- D+7 astronomer crossword clue (age 8d)
-- D+7 clover legends codes (age 10d)
-- D+7 tap simulator reborn (age 13d)
-- D+7 bosch cast (age 12d)
-- D+7 blackpool weather (age 10d)
+- D+7 online casino ohne oasis 🇩🇪 www.spieltresor.com (age 9d)
+- D+7 jesse legree oregon state receiver ceremony (age 10d)
+- D+7 casino portugal online 🇵🇹 www.pooky.live (age 13d)
+- D+14 proxyscrape (age 14d)
+- D+7 elijah mitchell (age 9d)
+- D+7 rutgers webreg (age 11d)
+- D+14 fantasy basketball trade analyzer (age 17d)
+- D+7 chromebook scheme apply online (age 10d)
+- D+7 champi typhoon tracker (age 11d)
+- D+14 octane optimizer (age 14d)
+- D+7 creator coffins (age 9d)
+- D+14 muscle bone connector nyt (age 16d)
+- D+7 malaysia singapore police joint operation (age 11d)
+- D+7 imd cyclone (age 8d)
+- D+7 composer update (age 11d)
+- D+7 mediaset infinity (age 9d)
+- D+7 itch io (age 11d)
+- D+7 micro1 (age 13d)
+- D+7 troy aikman cowboys receiver criticism (age 10d)
+- D+7 steam down detector (age 9d)
+- D+7 astronomer crossword clue (age 9d)
+- D+7 clover legends codes (age 11d)
+- D+14 tap simulator reborn (age 14d)
+- D+7 bosch cast (age 13d)
+- D+7 blackpool weather (age 11d)
