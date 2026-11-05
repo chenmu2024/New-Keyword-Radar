@@ -1,6 +1,6 @@
 # 跨独立网站 Sitemap 同步上新观察
 
-观察截止：2026-11-05；滚动窗口：2026-10-30—2026-11-05（均为北京时间日期）。
+观察截止：2026-11-06；滚动窗口：2026-10-31—2026-11-06（均为北京时间日期）。
 
 **Sitemap 首见并不等于首次发行、真实24小时内上架或搜索量；同名和文件格式归并必须人工核实。**
 只有具备真实source_id、详情URL和first_seen的相对基线新增，才能成为候选。
@@ -8,16 +8,12 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：126/135；数据生成：2026-11-05T17:47:27.678308+08:00；详细候选：6974；7日轻量URL证据：9740/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：126/135；数据生成：2026-11-06T05:12:01.101771+08:00；详细候选：7588；7日轻量URL证据：12085/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 241，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 63，采样上限遗漏 0。
 
-- **punch through**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamepix.com · gamepix-en · 2026-10-30 · https://www.gamepix.com/play/punch-through · 原词 punch through
-  - playgama.com · playgama-en · 2026-11-03 · https://playgama.com/game/punch-through · 原词 punch through
-  - y8.com · y8-en · 2026-11-04 · https://www.y8.com/games/punch_through_ · 原词 punch through
 - **diamond blast egypt**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-03 · https://gamedistribution.com/games/diamond-blast-egypt/ · 原词 diamond blast egypt
   - kizi.com · kizi-en · 2026-11-05 · https://kizi.com/games/diamond-blast-egypt · 原词 diamond blast egypt
@@ -30,12 +26,9 @@
 - **hot pot chef**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - 1001games.com · 1001games-en · 2026-11-03 · https://www.1001games.com/think/hot-pot-chef · 原词 hot pot chef
   - kizi.com · kizi-en · 2026-11-05 · https://kizi.com/games/hot-pot-chef · 原词 hot pot chef
-- **matchstick master**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamepix.com · gamepix-en · 2026-10-30 · https://www.gamepix.com/play/matchstick-master · 原词 matchstick master
-  - y8.com · y8-en · 2026-11-01 · https://www.y8.com/games/matchstick_master · 原词 matchstick master
-- **monster cafe idle tycoon**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamepix.com · gamepix-en · 2026-10-30 · https://www.gamepix.com/play/monster-cafe-idle-tycoon · 原词 monster cafe idle tycoon
-  - y8.com · y8-en · 2026-10-30 · https://www.y8.com/games/monster_cafe_idle_tycoon · 原词 monster cafe idle tycoon
+- **hyper cars stunt racing**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - kizi.com · kizi-en · 2026-11-05 · https://kizi.com/games/hyper-cars-stunt-racing · 原词 hyper cars stunt racing
+  - bgames.com · bgames-en · 2026-11-06 · https://www.bgames.com/game/hyper-cars-stunt-racing/ · 原词 hyper cars stunt racing
 - **parkour block maker**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - bgames.com · bgames-en · 2026-11-03 · https://www.bgames.com/game/parkour-block-maker/ · 原词 parkour block maker
   - kizi.com · kizi-en · 2026-11-05 · https://kizi.com/games/parkour-block-maker · 原词 parkour block maker
@@ -45,12 +38,18 @@
 - **pourline**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-en · 2026-10-31 · https://www.gamepix.com/play/pourline · 原词 pourline
   - y8.com · y8-en · 2026-10-31 · https://www.y8.com/games/pourline · 原词 pourline
+- **punch through**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - playgama.com · playgama-en · 2026-11-03 · https://playgama.com/game/punch-through · 原词 punch through
+  - y8.com · y8-en · 2026-11-04 · https://www.y8.com/games/punch_through_ · 原词 punch through
+- **solitaire story tripeaks 7**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - bgames.com · bgames-en · 2026-11-04 · https://www.bgames.com/game/solitaire-story-tripeaks-7/ · 原词 solitaire story tripeaks 7
+  - kizi.com · kizi-en · 2026-11-05 · https://kizi.com/games/solitaire-story-tripeaks-7 · 原词 solitaire story tripeaks 7
 
 失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 183，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 159，采样上限遗漏 0。
 
 - **wabutton**：不同根域 4 家；同一天峰值 2 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-01 · https://fazier.com/launches/wabutton · 原词 wabutton
@@ -97,27 +96,45 @@
 
 ## AI 工具和 Agent 目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 14，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 1504，采样上限遗漏 1279。
 
 - **kurodyne**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoptools.com · aitoptools-tools · 2026-10-31 · https://aitoptools.com/tool/kurodyne/ · 原词 kurodyne
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-01 · https://aitoolsdirectory.com/tool/kurodyne · 原词 kurodyne
   - tooldirectory.ai · tooldirectory-ai-tools · 2026-11-01 · https://tooldirectory.ai/tools/kurodyne · 原词 kurodyne
+- **ai clothes changer**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - dang.ai · dangai-tools · 2026-11-05 · https://dang.ai/tool/ai-clothes-changer · 原词 ai clothes changer
+  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/ai-clothes-changer · 原词 ai clothes changer
+- **cloudbrowser**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolnet.com · aitoolnet-tools · 2026-11-05 · https://www.aitoolnet.com/cloudbrowser · 原词 cloudbrowser
+  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/cloudbrowser · 原词 cloudbrowser
 - **empacer**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolnet.com · aitoolnet-tools · 2026-11-03 · https://www.aitoolnet.com/empacer · 原词 empacer
   - aitoptools.com · aitoptools-tools · 2026-11-03 · https://aitoptools.com/tool/empacer/ · 原词 empacer
+- **livefaceswap ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolnet.com · aitoolnet-tools · 2026-11-05 · https://www.aitoolnet.com/livefaceswap-ai · 原词 livefaceswap ai
+  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/livefaceswap-ai · 原词 livefaceswap ai
+- **moveframe**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolnet.com · aitoolnet-tools · 2026-11-04 · https://www.aitoolnet.com/moveframe · 原词 moveframe
+  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/moveframe · 原词 moveframe
+- **plimo**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo · 原词 plimo
+  - aitoolnet.com · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/plimo · 原词 plimo
 - **verli**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoptools.com · aitoptools-tools · 2026-11-02 · https://aitoptools.com/tool/verli/ · 原词 verli
   - aitoolnet.com · aitoolnet-tools · 2026-11-03 · https://www.aitoolnet.com/verli · 原词 verli
 - **vmaker ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - toolveyor.com · toolveyor-tools · 2026-11-02 · https://toolveyor.com/vmaker-ai · 原词 vmaker ai
   - aitoolhouse.com · aitoolhouse-tools · 2026-11-04 · https://www.aitoolhouse.com/tools/vmaker-ai · 原词 vmaker ai
+- **british accent generator**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolnet.com · aitoolnet-tools · 2026-11-03 · https://www.aitoolnet.com/british-accent-generator · 原词 british accent generator
+  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/british-accent-generator · 原词 british accent generator
 
 失败来源：aiapps-tools (TimeoutError: The read operation timed out)
 
 ## 计算器
 
-采集：14/15来源，配置根域 15，新建基线 0，失败 1，新增 URL 0，采样上限遗漏 0。
+采集：14/15来源，配置根域 15，新建基线 0，失败 1，新增 URL 2，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -125,7 +142,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 28，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -133,7 +150,7 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 443，采样上限遗漏 252。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 868，采样上限遗漏 636。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -167,33 +184,39 @@
   - saas · uneed-products · 2026-11-02 · https://www.uneed.best/tool/haipay
   - saas · smollaunch-products · 2026-11-03 · https://smollaunch.com/products/haipay
   - developer · devhunt-tools · 2026-11-04 · https://devhunt.org/tool/haipay
-- le scribe audio：独立根域 3 家；类别 ai, saas
+- le scribe audio：独立根域 4 家；类别 ai, saas
   - saas · productperch-products · 2026-11-01 · https://productperch.com/products/le-scribe-audio/
   - saas · saasworthy-products · 2026-11-02 · https://www.saasworthy.com/product/le-scribe-audio
   - ai · toolveyor-tools · 2026-11-02 · https://toolveyor.com/le-scribe-audio
+  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/le-scribe-audio
+- uncensoredlabs：独立根域 4 家；类别 ai, developer, saas
+  - saas · productperch-products · 2026-11-02 · https://productperch.com/products/uncensoredlabs/
+  - developer · devhunt-tools · 2026-11-03 · https://devhunt.org/tool/uncensoredlabs
+  - saas · openhunts-projects · 2026-11-05 · https://openhunts.com/projects/uncensoredlabs
+  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/uncensoredlabs
+- british accent generator：独立根域 4 家；类别 ai, saas
+  - saas · productperch-products · 2026-11-01 · https://productperch.com/products/british-accent-generator/
+  - ai · aitoolnet-tools · 2026-11-03 · https://www.aitoolnet.com/british-accent-generator
+  - saas · openhunts-projects · 2026-11-05 · https://openhunts.com/projects/british-accent-generator
+  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/british-accent-generator
 - numradar：独立根域 3 家；类别 developer, saas
   - developer · devhunt-tools · 2026-11-01 · https://devhunt.org/tool/numradar
   - saas · fazier-launches · 2026-11-01 · https://fazier.com/launches/numradar
   - saas · uneed-products · 2026-11-04 · https://www.uneed.best/tool/numradar
-- uncensoredlabs：独立根域 3 家；类别 developer, saas
-  - saas · productperch-products · 2026-11-02 · https://productperch.com/products/uncensoredlabs/
-  - developer · devhunt-tools · 2026-11-03 · https://devhunt.org/tool/uncensoredlabs
-  - saas · openhunts-projects · 2026-11-05 · https://openhunts.com/projects/uncensoredlabs
-- british accent generator：独立根域 3 家；类别 ai, saas
-  - saas · productperch-products · 2026-11-01 · https://productperch.com/products/british-accent-generator/
-  - ai · aitoolnet-tools · 2026-11-03 · https://www.aitoolnet.com/british-accent-generator
-  - saas · openhunts-projects · 2026-11-05 · https://openhunts.com/projects/british-accent-generator
+- plimo：独立根域 3 家；类别 ai, developer
+  - developer · devhunt-tools · 2026-11-03 · https://devhunt.org/tool/plimo
+  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo
+  - ai · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/plimo
 - alook：独立根域 3 家；类别 ai, saas
   - ai · aitoolnet-tools · 2026-10-31 · https://www.aitoolnet.com/alook
   - saas · smollaunch-products · 2026-11-03 · https://smollaunch.com/products/alook
   - saas · openhunts-projects · 2026-11-05 · https://openhunts.com/projects/alook
-- ai email writer：独立根域 2 家；类别 ai, developer
-  - ai · aitoolhouse-tools · 2026-11-04 · https://www.aitoolhouse.com/tools/ai-email-writer
-  - developer · apify-actors-z · 2026-11-05 · https://apify.com/ryanclinton/ai-email-writer
 
 ### 跨类别同向文件转换
 
-0条。
+- file conversion pdf to excel：独立根域 2 家；类别 ai, saas
+  - saas · fazier-launches · 2026-11-01 · https://fazier.com/launches/pdf-to-excel
+  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/pdf-to-excel
 
 ## 排除与限制
 
