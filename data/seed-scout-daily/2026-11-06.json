@@ -1,0 +1,434 @@
+{
+  "local_date": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "target_seed_count": 74,
+  "batches": [
+    {
+      "batch_id": "2026-11-05T17:58:27.493565+00:00-0-1-2-3-4",
+      "start_index": 0,
+      "seed_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "generated_at": "2026-11-05T17:58:27.493565+00:00",
+      "local_generated_at": "2026-11-06T01:58:27.493565+08:00",
+      "seed_batch": [
+        "translator",
+        "generator",
+        "example",
+        "convert",
+        "online"
+      ],
+      "discovery_count": 24,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-05T18:00:09.873249+00:00-5-6-7-8-9",
+      "start_index": 5,
+      "seed_indices": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "generated_at": "2026-11-05T18:00:09.873249+00:00",
+      "local_generated_at": "2026-11-06T02:00:09.873249+08:00",
+      "seed_batch": [
+        "downloader",
+        "maker",
+        "creator",
+        "editor",
+        "processor"
+      ],
+      "discovery_count": 32,
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "generated_at": "2026-11-05T18:01:49.492494+00:00",
+      "local_generated_at": "2026-11-06T02:01:49.492494+08:00",
+      "start_index": 10,
+      "seed_indices": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "seed_batch": [
+        "designer",
+        "compiler",
+        "analyzer",
+        "evaluator",
+        "sender"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    }
+  ],
+  "scanned_seeds": [
+    "translator",
+    "generator",
+    "example",
+    "convert",
+    "online",
+    "downloader",
+    "maker",
+    "creator",
+    "editor",
+    "processor"
+  ],
+  "discoveries": [
+    {
+      "seed": "maker",
+      "query": "china tape maker stock debut",
+      "rise_value": 126400.0,
+      "raw_value": 126400
+    },
+    {
+      "seed": "online",
+      "query": "online casino österreich 🇦🇹 zockercheck.sbs",
+      "rise_value": 44500.0,
+      "raw_value": 44500
+    },
+    {
+      "seed": "online",
+      "query": "online casino ohne limit zockercheck.sbs 🇩🇪",
+      "rise_value": 34950.0,
+      "raw_value": 34950
+    },
+    {
+      "seed": "online",
+      "query": "casino online 🇩🇪 toni-bauer.sbs",
+      "rise_value": 30100.0,
+      "raw_value": 30100
+    },
+    {
+      "seed": "online",
+      "query": "online casino 🇦🇹 toni-bauer.sbs",
+      "rise_value": 18250.0,
+      "raw_value": 18250
+    },
+    {
+      "seed": "online",
+      "query": "online casino 🇩🇪 www.zockerfuchs.sbs",
+      "rise_value": 17450.0,
+      "raw_value": 17450
+    },
+    {
+      "seed": "online",
+      "query": "mahjongg.party",
+      "rise_value": 12850.0,
+      "raw_value": 12850
+    },
+    {
+      "seed": "processor",
+      "query": "va claims processor jobs",
+      "rise_value": 12750.0,
+      "raw_value": 12750
+    },
+    {
+      "seed": "online",
+      "query": "online casino 🇳🇱 www.casinonoud.com",
+      "rise_value": 12100.0,
+      "raw_value": 12100
+    },
+    {
+      "seed": "online",
+      "query": "online casino österreich 🇦🇹 www.casinopilot.one",
+      "rise_value": 11400.0,
+      "raw_value": 11400
+    },
+    {
+      "seed": "online",
+      "query": "online casino ohne limit 🇩🇪 toni-bauer.sbs",
+      "rise_value": 9750.0,
+      "raw_value": 9750
+    },
+    {
+      "seed": "online",
+      "query": "online casino belgium 🇧🇪 palmy.cfd",
+      "rise_value": 9000.0,
+      "raw_value": 9000
+    },
+    {
+      "seed": "processor",
+      "query": "va claims processor salary",
+      "rise_value": 6950.0,
+      "raw_value": 6950
+    },
+    {
+      "seed": "maker",
+      "query": "cpsc coffee maker safety recall",
+      "rise_value": 5900.0,
+      "raw_value": 5900
+    },
+    {
+      "seed": "creator",
+      "query": "dragon ball creator home demolition",
+      "rise_value": 4100.0,
+      "raw_value": 4100
+    },
+    {
+      "seed": "processor",
+      "query": "galaxy s27 ultra processor rumors",
+      "rise_value": 3800.0,
+      "raw_value": 3800
+    },
+    {
+      "seed": "processor",
+      "query": "samsung galaxy s27 pro processor",
+      "rise_value": 2150.0,
+      "raw_value": 2150
+    },
+    {
+      "seed": "creator",
+      "query": "eric lim content creator hawker",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "processor",
+      "query": "food processor comparison",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "processor",
+      "query": "food processor deals",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "example",
+      "query": "new pf deduction rules 2026 with example",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "processor",
+      "query": "cheap food processor",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "maker",
+      "query": "caraway coffee maker",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "processor",
+      "query": "food processor for sale",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "creator",
+      "query": "paris creator week",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "processor",
+      "query": "food processor reviews",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "processor",
+      "query": "food processor near me",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "downloader",
+      "query": "youtube downloader to mp4 player",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "generator",
+      "query": "jackery solar generator",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "generator",
+      "query": "harbor freight",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "generator",
+      "query": "solar powered generator",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "editor",
+      "query": "tnpsc",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "editor",
+      "query": "tnpsc photo editor",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "generator",
+      "query": "wow forever name generator",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "generator",
+      "query": "wow name generator",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "maker",
+      "query": "key maker",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "example",
+      "query": "example ballot for my area",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "maker",
+      "query": "key maker near me",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "generator",
+      "query": "solar power generator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "maker",
+      "query": "the scandal maker has returned",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "processor",
+      "query": "motorola g57 power 5g snapdragon 6s gen 4 processor",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "generator",
+      "query": "solar generator",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "generator",
+      "query": "solar generator for home",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "translator",
+      "query": "youtube video translator & dubbing autodub",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "processor",
+      "query": "ninja prepi",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "editor",
+      "query": "vs editor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "maker",
+      "query": "coffee maker near me",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "processor",
+      "query": "food processor price",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "generator",
+      "query": "predator generator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "creator",
+      "query": "shein creator center",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "maker",
+      "query": "plastic free coffee maker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "generator",
+      "query": "secret santa generator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "maker",
+      "query": "stylish name maker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "downloader",
+      "query": "tiktok downloader mp4",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "maker",
+      "query": "christmas list maker",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "generator",
+      "query": "portable generator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "discovery_count": 56,
+  "updated_at": "2026-11-05T18:01:49.492494+00:00",
+  "scanned_seed_count": 10,
+  "batch_count": 2,
+  "attempted_seed_count": 15,
+  "complete_20_seeds": false,
+  "complete_daily_target": false,
+  "completion_pct": 13.5,
+  "failed_seed_count": 5
+}

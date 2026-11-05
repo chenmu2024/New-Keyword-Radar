@@ -1,163 +1,26 @@
 {
-  "batch_id": "2026-11-05T00:00:03.644639+00:00-63-64-65-66",
-  "generated_at": "2026-11-05T00:00:03.644639+00:00",
-  "local_generated_at": "2026-11-05T08:00:03.644639+08:00",
+  "batch_id": "2026-11-05T18:01:49.492494+00:00-10-11-12-13-14",
+  "generated_at": "2026-11-05T18:01:49.492494+00:00",
+  "local_generated_at": "2026-11-06T02:01:49.492494+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "cocrea",
-    "cocrea world",
-    "compressor",
-    "figma"
+    "designer",
+    "compiler",
+    "analyzer",
+    "evaluator",
+    "sender"
   ],
   "seed_indices": [
-    63,
-    64,
-    65,
-    66
+    10,
+    11,
+    12,
+    13,
+    14
   ],
-  "start_index": 63,
-  "discoveries": [
-    {
-      "seed": "figma",
-      "query": "figma hello kitty",
-      "rise_value": 2350.0,
-      "raw_value": 2350
-    },
-    {
-      "seed": "figma",
-      "query": "figma alternatives",
-      "rise_value": 350.0,
-      "raw_value": 350
-    },
-    {
-      "seed": "figma",
-      "query": "figma earnings",
-      "rise_value": 300.0,
-      "raw_value": 300
-    },
-    {
-      "seed": "cocrea",
-      "query": "corea",
-      "rise_value": 200.0,
-      "raw_value": 200
-    },
-    {
-      "seed": "compressor",
-      "query": "tnpsc group 4 photo compressor",
-      "rise_value": 140.0,
-      "raw_value": 140
-    },
-    {
-      "seed": "compressor",
-      "query": "group 4 apply",
-      "rise_value": 120.0,
-      "raw_value": 120
-    },
-    {
-      "seed": "cocrea",
-      "query": "sprunkin",
-      "rise_value": 120.0,
-      "raw_value": 120
-    },
-    {
-      "seed": "compressor",
-      "query": "tnpsc group 4",
-      "rise_value": 120.0,
-      "raw_value": 120
-    },
-    {
-      "seed": "compressor",
-      "query": "tnpsc group 4 apply online 2026",
-      "rise_value": 120.0,
-      "raw_value": 120
-    },
-    {
-      "seed": "compressor",
-      "query": "tnpsc photo compressor",
-      "rise_value": 110.0,
-      "raw_value": 110
-    },
-    {
-      "seed": "cocrea",
-      "query": "sprunki anti shifted",
-      "rise_value": 100.0,
-      "raw_value": 100
-    },
-    {
-      "seed": "compressor",
-      "query": "tnpsc",
-      "rise_value": 100.0,
-      "raw_value": 100
-    },
-    {
-      "seed": "compressor",
-      "query": "tnpsc compressor",
-      "rise_value": 100.0,
-      "raw_value": 100
-    },
-    {
-      "seed": "compressor",
-      "query": "tnpsc login",
-      "rise_value": 100.0,
-      "raw_value": 100
-    },
-    {
-      "seed": "compressor",
-      "query": "tnpsc photo editor",
-      "rise_value": 100.0,
-      "raw_value": 100
-    },
-    {
-      "seed": "compressor",
-      "query": "tnpsc signature compressor",
-      "rise_value": 100.0,
-      "raw_value": 100
-    },
-    {
-      "seed": "compressor",
-      "query": "chrome compressor cyberpunk",
-      "rise_value": 90.0,
-      "raw_value": 90
-    },
-    {
-      "seed": "compressor",
-      "query": "signature compressor",
-      "rise_value": 80.0,
-      "raw_value": 80
-    },
-    {
-      "seed": "cocrea",
-      "query": "sprunki phase 8 definitive cocrea",
-      "rise_value": 70.0,
-      "raw_value": 70
-    },
-    {
-      "seed": "compressor",
-      "query": "tnpsc sign compressor",
-      "rise_value": 70.0,
-      "raw_value": 70
-    },
-    {
-      "seed": "compressor",
-      "query": "chrome compressor",
-      "rise_value": 60.0,
-      "raw_value": 60
-    },
-    {
-      "seed": "compressor",
-      "query": "photo resizer",
-      "rise_value": 60.0,
-      "raw_value": 60
-    },
-    {
-      "seed": "cocrea",
-      "query": "spruted remastered cocrea",
-      "rise_value": 60.0,
-      "raw_value": 60
-    }
-  ],
-  "status": "ok",
-  "discovery_count": 23
+  "start_index": 10,
+  "discoveries": [],
+  "status": "error",
+  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
 }
