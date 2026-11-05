@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-05T18:02:11.847291+00:00
-- Historical candidates: 3781
-- Newly recorded from pending: 9
+- Updated (UTC): 2026-11-05T23:54:20.086354+00:00
+- Historical candidates: 3866
+- Newly recorded from pending: 85
 - Awaiting 7/14/30-day evidence review: 2507
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- dragon ball creator home demolition [Global] — discovered — first 2026-11-06, last 2026-11-06
 - new pf deduction rules 2026 with example [Global] — discovered — first 2026-11-06, last 2026-11-06
-- online casino belgium 🇧🇪 palmy.cfd [Global] — discovered — first 2026-11-06, last 2026-11-06
-- online casino 🇩🇪 www.zockerfuchs.sbs [Global] — discovered — first 2026-11-06, last 2026-11-06
-- plastic free coffee maker [Global] — discovered — first 2026-11-06, last 2026-11-06
 - tiktok downloader mp4 [Global] — discovered — first 2026-11-06, last 2026-11-06
+- online casino belgium 🇧🇪 palmy.cfd [Global] — discovered — first 2026-11-06, last 2026-11-06
 - va claims processor salary [Global] — discovered — first 2026-11-06, last 2026-11-06
-- wow forever name generator [Global] — discovered — first 2026-11-06, last 2026-11-06
+- plastic free coffee maker [Global] — discovered — first 2026-11-06, last 2026-11-06
+- online casino 🇩🇪 www.zockerfuchs.sbs [Global] — discovered — first 2026-11-06, last 2026-11-06
+- dragon ball creator home demolition [Global] — discovered — first 2026-11-06, last 2026-11-06
 - wow name generator [Global] — discovered — first 2026-11-06, last 2026-11-06
-- key maker near me [Global] — discovered — first 2026-11-05, last 2026-11-06
-- stylish name maker [Global] — discovered — first 2026-11-05, last 2026-11-06
-- online casino ohne limit zockercheck.sbs 🇩🇪 [Global] — discovered — first 2026-11-05, last 2026-11-06
-- paris creator week [Global] — discovered — first 2026-11-05, last 2026-11-06
-- ninja prepi [Global] — discovered — first 2026-11-05, last 2026-11-06
-- samsung galaxy s27 pro processor [Global] — discovered — first 2026-11-05, last 2026-11-06
-- key maker [Global] — discovered — first 2026-11-05, last 2026-11-06
-- online casino österreich 🇦🇹 zockercheck.sbs [Global] — discovered — first 2026-11-05, last 2026-11-06
-- christmas list maker [Global] — discovered — first 2026-11-05, last 2026-11-06
-- secret santa generator [Global] — discovered — first 2026-11-05, last 2026-11-06
-- mahjongg.party [Global] — discovered — first 2026-11-04, last 2026-11-06
-- china tape maker stock debut [Global] — discovered — first 2026-11-04, last 2026-11-06
-- example ballot for my area [Global] — discovered — first 2026-11-04, last 2026-11-06
-- shein creator center [Global] — discovered — first 2026-11-04, last 2026-11-06
-- predator generator [Global] — discovered — first 2026-11-04, last 2026-11-06
-- online casino ohne limit 🇩🇪 toni-bauer.sbs [Global] — discovered — first 2026-11-03, last 2026-11-06
+- wow forever name generator [Global] — discovered — first 2026-11-06, last 2026-11-06
+- abc color [Global] — discovered — first 2026-11-06, last 2026-11-06
+- abv notifier [Global] — discovered — first 2026-11-06, last 2026-11-06
+- ade scheduler [Global] — discovered — first 2026-11-06, last 2026-11-06
+- adobe journey optimizer [Global] — discovered — first 2026-11-06, last 2026-11-06
+- agnipath scheme [Global] — discovered — first 2026-11-06, last 2026-11-06
+- agniveer scheme [Global] — discovered — first 2026-11-06, last 2026-11-06
+- alex eala game today [Global] — discovered — first 2026-11-06, last 2026-11-06
+- bears game [Global] — discovered — first 2026-11-06, last 2026-11-06
+- bears game today [Global] — discovered — first 2026-11-06, last 2026-11-06
+- better f3 [Global] — discovered — first 2026-11-06, last 2026-11-06
+- bob el constructor meme [Global] — discovered — first 2026-11-06, last 2026-11-06
+- brotx optimizer [Global] — discovered — first 2026-11-06, last 2026-11-06
+- c++ explicit constructor [Global] — discovered — first 2026-11-06, last 2026-11-06
+- casio cmk 100 rolex explorer alternative [Global] — discovered — first 2026-11-06, last 2026-11-06
+- chevy first responder discount [Global] — discovered — first 2026-11-06, last 2026-11-06
+- comparator anre energie electrica [Global] — discovered — first 2026-11-06, last 2026-11-06
 
 ## Due for follow-up
 

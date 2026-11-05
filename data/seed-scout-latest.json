@@ -1,26 +1,193 @@
 {
-  "batch_id": "2026-11-05T18:01:49.492494+00:00-10-11-12-13-14",
-  "generated_at": "2026-11-05T18:01:49.492494+00:00",
-  "local_generated_at": "2026-11-06T02:01:49.492494+08:00",
+  "batch_id": "2026-11-05T23:54:13.492069+00:00-11-12-13-14",
+  "generated_at": "2026-11-05T23:54:13.492069+00:00",
+  "local_generated_at": "2026-11-06T07:54:13.492069+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "designer",
     "compiler",
     "analyzer",
     "evaluator",
     "sender"
   ],
   "seed_indices": [
-    10,
     11,
     12,
     13,
     14
   ],
-  "start_index": 10,
-  "discoveries": [],
-  "status": "error",
-  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+  "start_index": 11,
+  "discoveries": [
+    {
+      "seed": "sender",
+      "query": "sender sport1 vodafone",
+      "rise_value": 53350.0,
+      "raw_value": 53350
+    },
+    {
+      "seed": "sender",
+      "query": "lufthansa flugbegleiter stirbt in indien",
+      "rise_value": 45350.0,
+      "raw_value": 45350
+    },
+    {
+      "seed": "sender",
+      "query": "sender sport1 bei vodafone",
+      "rise_value": 37300.0,
+      "raw_value": 37300
+    },
+    {
+      "seed": "sender",
+      "query": "sms des todes android",
+      "rise_value": 29700.0,
+      "raw_value": 29700
+    },
+    {
+      "seed": "sender",
+      "query": "flugzeugabsturz florida",
+      "rise_value": 21400.0,
+      "raw_value": 21400
+    },
+    {
+      "seed": "sender",
+      "query": "ziegler",
+      "rise_value": 19850.0,
+      "raw_value": 19850
+    },
+    {
+      "seed": "sender",
+      "query": "verfassungsgericht in polen",
+      "rise_value": 15900.0,
+      "raw_value": 15900
+    },
+    {
+      "seed": "sender",
+      "query": "android sicherheitslücke",
+      "rise_value": 13200.0,
+      "raw_value": 13200
+    },
+    {
+      "seed": "sender",
+      "query": "polarwirbel",
+      "rise_value": 12400.0,
+      "raw_value": 12400
+    },
+    {
+      "seed": "sender",
+      "query": "hostinger discount",
+      "rise_value": 11550.0,
+      "raw_value": 11550
+    },
+    {
+      "seed": "sender",
+      "query": "gaststätte sender eck",
+      "rise_value": 11400.0,
+      "raw_value": 11400
+    },
+    {
+      "seed": "sender",
+      "query": "el nino bolivien",
+      "rise_value": 10950.0,
+      "raw_value": 10950
+    },
+    {
+      "seed": "sender",
+      "query": "fc bayern haaland",
+      "rise_value": 10250.0,
+      "raw_value": 10250
+    },
+    {
+      "seed": "sender",
+      "query": "trabzonspor freiburg welcher sender",
+      "rise_value": 9150.0,
+      "raw_value": 9150
+    },
+    {
+      "seed": "sender",
+      "query": "skorpion sternzeichen",
+      "rise_value": 8400.0,
+      "raw_value": 8400
+    },
+    {
+      "seed": "analyzer",
+      "query": "online toc analyzer",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "analyzer",
+      "query": "portable toc analyzer",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "evaluator",
+      "query": "dbt project evaluator",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "compiler",
+      "query": "pbinfo",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "evaluator",
+      "query": "mercor",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "evaluator",
+      "query": "akc cgc evaluator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "evaluator",
+      "query": "fantasy basketball trade evaluator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "evaluator",
+      "query": "oneforma",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "evaluator",
+      "query": "fantasy trade calculator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "evaluator",
+      "query": "outlier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "evaluator",
+      "query": "personal message to your evaluator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "evaluator",
+      "query": "regex evaluator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "analyzer",
+      "query": "wifi analyzer windows",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 28
 }
