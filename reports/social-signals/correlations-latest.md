@@ -1,13 +1,13 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-04T18:38:55.339325+00:00
-- Source last updated: 2026-11-04T18:38:55.339325+00:00
-- Trends archive: 2026-11-04 (35/74; complete=False)
-- Eligible multiword rising queries: 227
+- Generated: 2026-11-05T00:22:23.968452+00:00
+- Source last updated: 2026-11-05T00:22:23.968452+00:00
+- Trends archive: 2026-11-05 (74/74; complete=True)
+- Eligible multiword rising queries: 421
 - Cross-source matches within 72h review window: 1
-- Social current-run links: 60, prior recent sightings: 243
-- Search archives examined: 2026-11-04, 2026-11-03
-- Direct-post question-derived QUERY HYPOTHESES: 2
+- Social current-run links: 59, prior recent sightings: 239
+- Search archives examined: 2026-11-05, 2026-11-04, 2026-11-03
+- Direct-post question-derived QUERY HYPOTHESES: 3
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
@@ -21,6 +21,9 @@
 
 ## Original public-post question hints (NOT validated search keywords)
 
+- Proposed query: **a reason for more desk clutter**
+  - Original public post: https://bsky.app/profile/emmawilson-ai.bsky.social/post/3mzji7a74ex27
+  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **exporting monitoring analytics to csv json what problem should this solve**
   - Original public post: https://github.com/Albert-Weasker/niubigeo/issues/191
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)

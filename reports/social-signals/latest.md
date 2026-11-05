@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-04T18:38:55.339325+00:00
+# V4 Social signal discovery — 2026-11-05T00:22:23.968452+00:00
 
-- Unique links this run: 60, newly seen: 25, history: 1022
+- Unique links this run: 59, newly seen: 23, history: 1045
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (6) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (5) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (30)
@@ -20,36 +20,35 @@
 
 ## Links (not validated project opportunities)
 
-- [Wanaka Studio](https://www.producthunt.com/products/wanaka-studio) — producthunt — direct_public_feed
-- [Hindsight Models and Inference API](https://www.producthunt.com/products/vectorize) — producthunt — direct_public_feed
+- [PasteGuard for Mac](https://www.producthunt.com/products/pasteguard-2) — producthunt — direct_public_feed
+- [Datashake MCP](https://www.producthunt.com/products/datashake-hub) — producthunt — direct_public_feed
 - [Virelo](https://www.producthunt.com/products/virelo) — producthunt — direct_public_feed
+- [Hashference](https://www.producthunt.com/products/hashference) — producthunt — direct_public_feed
 - [TrackEdge](https://www.producthunt.com/products/trackedge-2) — producthunt — direct_public_feed
-- [Hira](https://www.producthunt.com/products/hira) — producthunt — direct_public_feed
-- [Chorus Weather](https://www.producthunt.com/products/chorus-weather) — producthunt — direct_public_feed
-- [pablocas87/text2midi](https://huggingface.co/spaces/pablocas87/text2midi) — huggingface — direct_public_api
-- [GlitchyBuddy/HeavenWorld](https://huggingface.co/spaces/GlitchyBuddy/HeavenWorld) — huggingface — direct_public_api
-- [Kuvveee/Resim-yazi-silme](https://huggingface.co/spaces/Kuvveee/Resim-yazi-silme) — huggingface — direct_public_api
-- [Alihsuwh2/reshiq-bot](https://huggingface.co/spaces/Alihsuwh2/reshiq-bot) — huggingface — direct_public_api
-- [priyapandey4/qwen-image-2-1-realtime](https://huggingface.co/spaces/priyapandey4/qwen-image-2-1-realtime) — huggingface — direct_public_api
-- [Andres811/First_agent_template](https://huggingface.co/spaces/Andres811/First_agent_template) — huggingface — direct_public_api
-- [A postagem chegou como um tijolo na minha cara. Eu já estava pensando em fazer "a chata, fala chata!" Obama espionagem Dilma etc., mas é isso, por enquanto comemorar e nutrir essa](https://bsky.app/profile/caospisita.bsky.social/post/3mziyeqrcnk27) — bluesky — direct_public_post
-- [Como vai funcionar o Black November e Natal da Alquimista esse ano pra vcs se prepararem Eu já comecei a produção de Natal. Não quero fazer pré-venda esse ano, vai ser tudo pront](https://bsky.app/profile/mulhertamarindo.bsky.social/post/3mziyahdga22f) — bluesky — direct_public_post
-- [Ansioso, vou tentar fazer o enem nesse ano e vc como tá? 🫂](https://bsky.app/profile/pensayw.bsky.social/post/3mzixtfrfbc2t) — bluesky — direct_public_post
-- [Sim, claro, pensando friamente, vc tem razão (embora, mesmo como pato manco, ele pode fazer estrago). Falei mais pela galhofa, não espero q ele faça nada do tipo😅](https://bsky.app/profile/cyrusafa.bsky.social/post/3mzixodxgwk23) — bluesky — direct_public_post
-- [(e nem dá pra dizer que não tem como, se é algo que temos experiência é com vacinação, bastava se organizar e fazer campanha junto com a da gripe, mas né... )](https://bsky.app/profile/denisemillenia.bsky.social/post/3mzixmwj3uk26) — bluesky — direct_public_post
-- [como pode né, vejo o tom holland performando umbrella e imediatamente quero fazer um filho com ele](https://bsky.app/profile/wtfbea.bsky.social/post/3mzixjybfw223) — bluesky — direct_public_post
-- [Quick tip: Tucas PDF Merge & Split is useful for Extract pages from a larger PDF. Standardize page sizes with Canvas. # PDF # WebTools https:// tucastools.com/en/pdf-merge-an d-spl](https://mastodon.social/@tucas/117556852304714963) — mastodon — direct_public_post
-- [QR Code Generator — Turn text or a link into a QR code you can scan with a phone — free, made in your browser, nothing uploaded. Free, no signup. # webtools # free https://www. uti](https://mastodon.social/@kglowreview/117555698573361211) — mastodon — direct_public_post — intent keyword found
-- [Check your public IP, reverse DNS, browser details, and HTTP headers with our free IP tool. No logging, no signup required. Part of our privacy-focused browser toolkit. # PrivacyTo](https://mastodon.social/@cyberpods/117552297458830562) — mastodon — direct_public_post — intent keyword found
-- [Nossa página central de recursos, links úteis e referências do setor de reformas e gesso. 🔗 https:// start.me/u/gGrYpy/gesso-e-dryw al-rj # Organizacao # WebTools # Construcao # Pr](https://mastodon.social/@gessoedrywall/117548743312348077) — mastodon — direct_public_post
-- [We've built a collection of privacy-friendly browser tools at kilaz.com. Compress and resize images, generate QR codes, and play IPTV playlists—all in your browser, nothing uploade](https://mastodon.social/@cyberpods/117545679901487034) — mastodon — direct_public_post — intent keyword found
-- [Percentage Calculator — Free percentage calculator. Free, no signup. # webtools # free https://www. utiltools.net/tools/percentage -calculator/?utm_source=mastodon](https://mastodon.social/@kglowreview/117544373766843068) — mastodon — direct_public_post
+- [Sonari](https://www.producthunt.com/products/sonari) — producthunt — direct_public_feed
+- [rustam-circle/app-5e475b42-0766-4202-b99d-616fc452c8ba](https://huggingface.co/spaces/rustam-circle/app-5e475b42-0766-4202-b99d-616fc452c8ba) — huggingface — direct_public_api
+- [ulugbektradingfx/fx-bot](https://huggingface.co/spaces/ulugbektradingfx/fx-bot) — huggingface — direct_public_api
+- [rustam-circle/app-9dab77ae-a690-4071-a42f-bd7d1ef3d6c2](https://huggingface.co/spaces/rustam-circle/app-9dab77ae-a690-4071-a42f-bd7d1ef3d6c2) — huggingface — direct_public_api
+- [LvHung1/moss-image-nsfw-uncensored-demo](https://huggingface.co/spaces/LvHung1/moss-image-nsfw-uncensored-demo) — huggingface — direct_public_api
+- [Hunyuaniwen/tmp-pax-20261105-d8f5b311](https://huggingface.co/spaces/Hunyuaniwen/tmp-pax-20261105-d8f5b311) — huggingface — direct_public_api
+- [EsonFN/AethelAI](https://huggingface.co/spaces/EsonFN/AethelAI) — huggingface — direct_public_api
+- [nothing says its screenless ai tool ships in december. i need a reason for more desk clutter. my test: one task faster than my phone, what's yours? https://techcrunch.com/2026/11/0](https://bsky.app/profile/emmawilson-ai.bsky.social/post/3mzji7a74ex27) — bluesky — direct_public_post — intent keyword found
+- [I want retribution, accountability, consequences, etc. I want retribution bc there must be a sense of fear in every last treasonous tool. They need to get the squirts thinking abou](https://bsky.app/profile/efanaticann.bsky.social/post/3mzjfgasjec2r) — bluesky — direct_public_post — intent keyword found
+- [This tweet appeared under this Techmeme headline: Josh Pigford / @shpigford: i'm both EXTREMELY pumped for Charlie and Co, but exceedingly bummed i'll need to find a new tool. 😭](https://bsky.app/profile/xchatter.techmeme.com/post/3mzjebdrd6m2i) — bluesky — direct_public_post — intent keyword found
+- [My cohost on Smart Bear Live E12, @tmaker.io, co-founded and sold TweetHunter and Taplio for $8M, once tried to buy Post Bridge, and now builds a direct competitor. He still spent](https://bsky.app/profile/asmartbear.com/post/3mzje6xaek225) — bluesky — direct_public_post
+- [You don't need a strategy retreat to start with AI. You need one task, one tool, and twenty minutes. The people who win this shift started embarrassingly small.](https://bsky.app/profile/natural-100.bsky.social/post/3mzjcbpmhln2m) — bluesky — direct_public_post — intent keyword found
+- [Do not send because a tool can. Define what happened, what the person may need, and why the next step helps now.Do not send because a tool can. Define what happened, what the perso](https://bsky.app/profile/g4ghonolulu.bsky.social/post/3mzjc4xtsvs2m) — bluesky — direct_public_post — intent keyword found
+- [POV: your first time in a fancy café ☕ but it's you and your friend 😅 (AI-generated video.) Upload two faces, pick matching suits, add your cafe's logo for the wall (optional) and](https://mastodon.social/@talkpix/117559782449870862) — mastodon — direct_public_post
+- [Out of AI video credits again? Before: "daily limit reached, try again in 4 hours". After: idea after idea with no credit counter. Which AI video tool keeps running out on you? 👇 W](https://mastodon.social/@rankmarket99/117559473737709887) — mastodon — direct_public_post — intent keyword found
+- [3 things you can make with AI VideoSongs 1. Pre-wedding music videos 2. Kids cartoon songs 3. Original song lyrics Which would you make first? 👇 Want AI VideoSongs at a low price?](https://mastodon.social/@rankmarket99/117559238365284119) — mastodon — direct_public_post
+- [3 tools inside GeminAI 4.0 1. AI Director for recurring characters 2. WatchTower for competitor and trend alerts 3. AI web design for sites and funnels Which one would you use? 👇 W](https://mastodon.social/@rankmarket99/117559002481028455) — mastodon — direct_public_post
+- [Layer is featured on Awesome Indie! 🚀 Creative Automation For High-Velocity Entertainment Brands Upvote it → https:// awesomeindie.com/product/layer # AIImage # AIVideo # Artificia](https://mastodon.social/@awesomeindie/117558930426379539) — mastodon — direct_public_post
+- [Ask HN: What's your current AI agentic setup?](https://news.ycombinator.com/item?id=50366117) — hackernews_ask — direct_public_post
+- [Ask HN: What cryptography book do you recommend for reading with 10 year olds?](https://news.ycombinator.com/item?id=50347425) — hackernews_ask — direct_public_post
 - [Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)](https://news.ycombinator.com/item?id=50363461) — hackernews_ask — direct_public_post
+- [Ask HN: What your experience with the monthly "who wants to be hired" thread?](https://news.ycombinator.com/item?id=50372294) — hackernews_ask — direct_public_post
+- [Canva lays off 22% of its workforce; 1,270 people](https://news.ycombinator.com/item?id=50372381) — hackernews_ask — direct_public_post
 - [Tell HN: Don't use Postman, they proxy your info without your permission](https://news.ycombinator.com/item?id=50360947) — hackernews_ask — direct_public_post — intent keyword found
-- [OpenAI seems to be silently re-enabling model training on Codex chats](https://news.ycombinator.com/item?id=50352757) — hackernews_ask — direct_public_post
-- [Gitbook Breached](https://news.ycombinator.com/item?id=50354336) — hackernews_ask — direct_public_post
-- [Ask HN: What's on Your Learning List?](https://news.ycombinator.com/item?id=50366661) — hackernews_ask — direct_public_post
-- [Ask HN: Is AI good enough for math exercises?](https://news.ycombinator.com/item?id=50366147) — hackernews_ask — direct_public_post
 - [October ERPNext — journal/GL readback and duplicate exclusion (no Bank Transaction endpoint)](https://github.com/antonvdberg-bit/corpflow-ai-command-center/issues/1557) — github_issue — direct_public_issue_api
 - [[RECORD Muse StegOS Node / KV session — 2026-10-29](https://github.com/StegVerse-Labs/.github/issues/3402) — github_issue — direct_public_issue_api
 - [Arcana stabilization control plan — baseline, CI, integration queue, usage safety](https://github.com/AARMOU/arcana_table/issues/81) — github_issue — direct_public_issue_api
@@ -60,3 +59,4 @@
 - [[Student [Software Engineering [US Looking for resume reviews for internships](https://www.reddit.com/r/EngineeringResumes/comments/1xnc18v/student_software_engineering_us_looking_for) — reddit — public_rss_excerpt
 - [Invoice OCR API for Logistics Expense Tracking Automation](https://news.ycombinator.com/item?id=47362152) — hackernews_ask — indexed_public_post_excerpt
 - [Invoice OCR API for Automated GST Data Extraction in India](https://news.ycombinator.com/item?id=47348462) — hackernews_ask — indexed_public_post_excerpt
+- [FinCrew: Multi-Agent AI Financial Intelligence](https://news.ycombinator.com/item?id=47148718) — hackernews_ask — indexed_public_post_excerpt
