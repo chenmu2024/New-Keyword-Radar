@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-05T00:00:08.426377+00:00
-- Historical candidates: 3707
-- Newly recorded from pending: 140
+- Updated (UTC): 2026-11-05T09:23:08.068970+00:00
+- Historical candidates: 3772
+- Newly recorded from pending: 65
 - Awaiting 7/14/30-day evidence review: 2010
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 1 winner bet verifier ticket [Global] — discovered — first 2026-11-05, last 2026-11-05
-- adi [Global] — discovered — first 2026-11-05, last 2026-11-05
-- aful explorer [Global] — discovered — first 2026-11-05, last 2026-11-05
+- gumroad – how to make your first short film in blender [Global] — discovered — first 2026-11-05, last 2026-11-05
+- west ham manager [Global] — discovered — first 2026-11-05, last 2026-11-05
 - aggie schedule builder [Global] — discovered — first 2026-11-05, last 2026-11-05
-- anarchy symbol [Global] — discovered — first 2026-11-05, last 2026-11-05
-- android developer verifier que es [Global] — discovered — first 2026-11-05, last 2026-11-05
-- anre comparator [Global] — discovered — first 2026-11-05, last 2026-11-05
-- anre comparator preturi [Global] — discovered — first 2026-11-05, last 2026-11-05
-- avl scheduler [Global] — discovered — first 2026-11-05, last 2026-11-05
-- az games [Global] — discovered — first 2026-11-05, last 2026-11-05
-- bambu scraper [Global] — discovered — first 2026-11-05, last 2026-11-05
-- be a soccer manager roblox codes [Global] — discovered — first 2026-11-05, last 2026-11-05
-- bni dashboard bgn [Global] — discovered — first 2026-11-05, last 2026-11-05
-- bob el constructor en ingles [Global] — discovered — first 2026-11-05, last 2026-11-05
-- bucs game [Global] — discovered — first 2026-11-05, last 2026-11-05
-- business development manager [Global] — discovered — first 2026-11-05, last 2026-11-05
-- cantadas para responder story [Global] — discovered — first 2026-11-05, last 2026-11-05
 - carvertical [Global] — discovered — first 2026-11-05, last 2026-11-05
-- casino online österreich 🇦🇹 zockercheck.sbs 🇦🇹 [Global] — discovered — first 2026-11-05, last 2026-11-05
-- christmas fonts [Global] — discovered — first 2026-11-05, last 2026-11-05
-- christmas list maker [Global] — discovered — first 2026-11-05, last 2026-11-05
-- color of the year 2027 [Global] — discovered — first 2026-11-05, last 2026-11-05
-- colorado connector [Global] — discovered — first 2026-11-05, last 2026-11-05
-- commanders game [Global] — discovered — first 2026-11-05, last 2026-11-05
-- corea [Global] — discovered — first 2026-11-05, last 2026-11-05
+- nysc portal login dashboard [Global] — discovered — first 2026-11-05, last 2026-11-05
+- mission planner [Global] — discovered — first 2026-11-05, last 2026-11-05
+- difference between interpreter and translator [Global] — discovered — first 2026-11-05, last 2026-11-05
+- mission planner download [Global] — discovered — first 2026-11-05, last 2026-11-05
+- election day 2026 tracker [Global] — discovered — first 2026-11-05, last 2026-11-05
+- missouri sample ballot [Global] — discovered — first 2026-11-05, last 2026-11-05
+- bni dashboard bgn [Global] — discovered — first 2026-11-05, last 2026-11-05
+- hellhades optimizer [Global] — discovered — first 2026-11-05, last 2026-11-05
+- nysc my dashboard login [Global] — discovered — first 2026-11-05, last 2026-11-05
+- help me practice for my interview by asking me questions like you're a hiring manager [Global] — discovered — first 2026-11-05, last 2026-11-05
+- business development manager [Global] — discovered — first 2026-11-05, last 2026-11-05
+- yes yes i love you template [Global] — discovered — first 2026-11-05, last 2026-11-05
+- jinxy [Global] — discovered — first 2026-11-05, last 2026-11-05
+- figma earnings [Global] — discovered — first 2026-11-05, last 2026-11-05
+- valve steam free game giveaway [Global] — discovered — first 2026-11-05, last 2026-11-05
+- gta 6 steam [Global] — discovered — first 2026-11-05, last 2026-11-05
+- quest game optimizer [Global] — discovered — first 2026-11-05, last 2026-11-05
+- rope light connector [Global] — discovered — first 2026-11-05, last 2026-11-05
+- 1 winner bet verifier ticket [Global] — discovered — first 2026-11-05, last 2026-11-05
+- anre comparator preturi [Global] — discovered — first 2026-11-05, last 2026-11-05
+- nysc login [Global] — discovered — first 2026-11-05, last 2026-11-05
 
 ## Due for follow-up
 
