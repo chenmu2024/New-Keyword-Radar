@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T00:13:58.265149+00:00",
-  "social_generated_at": "2026-11-06T00:13:58.265149+00:00",
+  "generated_at": "2026-11-06T10:50:26.582590+00:00",
+  "social_generated_at": "2026-11-06T10:50:26.582590+00:00",
   "trends_coverage": {
     "archive_date": "2026-11-06",
     "scanned_seed_count": 74,
@@ -9,7 +9,7 @@
     "rising_total": 472,
     "eligible_exact_queries": 415
   },
-  "social_unique_in_run": 50,
+  "social_unique_in_run": 60,
   "review_window": {
     "trend_days_evaluated": [
       {
@@ -38,14 +38,14 @@
       }
     ],
     "exact_queries_in_window": 591,
-    "social_current_run": 50,
-    "social_prior_sightings_72h": 245,
-    "social_reviewable_72h": 295,
+    "social_current_run": 60,
+    "social_prior_sightings_72h": 260,
+    "social_reviewable_72h": 320,
     "window_hours": 72,
     "not_new_discoveries_warning": "Window includes older links recently re-seen. Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."
   },
-  "cross_matches": 1,
-  "public_question_hypotheses": 5,
+  "cross_matches": 2,
+  "public_question_hypotheses": 4,
   "query_hypotheses": [
     {
       "proposed_query": "response of ai at one particular step now i am using",
@@ -98,19 +98,6 @@
       "actual_user_paid": false,
       "ready_to_build": false,
       "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
-    },
-    {
-      "proposed_query": "or a discussion topic bug description after updating signal on iphone",
-      "original_post_url": "https://github.com/signalapp/Signal-iOS/issues/6232",
-      "original_platform": "github_issue",
-      "original_post_text": "Downloaded documents/files are incorrectly getting a .txt & .bin extension (iOS, iPadOS) Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ones [x] accordingly. --> - [x] I have searched open and closed issues for duplicates - [x] I am submitting a bug report for existing functionality that does not work as intended ",
-      "published_at": "2026-04-01T06:09:49+00:00",
-      "demand_status": "unverified_question_hint",
-      "search_volume": null,
-      "keyword_difficulty": null,
-      "actual_user_paid": false,
-      "ready_to_build": false,
-      "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
     }
   ],
   "self_reported_buyer_feedback_count": 0,
@@ -147,6 +134,31 @@
       ],
       "independent_platforms": 1,
       "distinct_urls": 2,
+      "original_post_question_hints": 0,
+      "ready_to_build": false,
+      "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
+    },
+    {
+      "query": "portable generator",
+      "relative_rising_value": 60.0,
+      "seed": "generator",
+      "sources": {
+        "bluesky": 1
+      },
+      "links": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/sciencelizard.bsky.social/post/3mzmfiymcds2a",
+          "title": "Even a portable generator is good for the fridge ! There are models that aren’t impossible to move and function as inverters (reduce risk of frying your laptop if your fridge comp",
+          "published_at": "2026-11-06T03:04:13.166000+00:00",
+          "evidence_type": "direct_public_post",
+          "potential_first_person_question": false,
+          "verified_customer_demand": false,
+          "original_comments_verified": false
+        }
+      ],
+      "independent_platforms": 1,
+      "distinct_urls": 1,
       "original_post_question_hints": 0,
       "ready_to_build": false,
       "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."

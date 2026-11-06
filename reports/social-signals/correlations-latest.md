@@ -1,13 +1,13 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-06T00:13:58.265149+00:00
-- Source last updated: 2026-11-06T00:13:58.265149+00:00
+- Generated: 2026-11-06T10:50:26.582590+00:00
+- Source last updated: 2026-11-06T10:50:26.582590+00:00
 - Trends archive: 2026-11-06 (74/74; complete=True)
 - Eligible multiword rising queries: 415
-- Cross-source matches within 72h review window: 1
-- Social current-run links: 50, prior recent sightings: 245
+- Cross-source matches within 72h review window: 2
+- Social current-run links: 60, prior recent sightings: 260
 - Search archives examined: 2026-11-06, 2026-11-05, 2026-11-04
-- Direct-post question-derived QUERY HYPOTHESES: 5
+- Direct-post question-derived QUERY HYPOTHESES: 4
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
@@ -18,6 +18,13 @@
 - Direct public-post question hints: 0
 - github_issue: https://github.com/StegVerse-Labs/.github/issues/3402 (direct_public_issue_api)
 - github_issue: https://github.com/conectatech-ec/conectatech-ec.github.io/issues/91 (direct_public_issue_api)
+
+## portable generator
+
+- Relative Trends rising value: 60.0 (NOT Volume)
+- Distinct matched platforms: 1
+- Direct public-post question hints: 0
+- bluesky: https://bsky.app/profile/sciencelizard.bsky.social/post/3mzmfiymcds2a (direct_public_post)
 
 ## Original public-post question hints (NOT validated search keywords)
 
@@ -32,9 +39,6 @@
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **proposes expanding the current export copy capabilities in dial chat to**
   - Original public post: https://github.com/epam/ai-dial-chat/issues/7227
-  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
-- Proposed query: **or a discussion topic bug description after updating signal on iphone**
-  - Original public post: https://github.com/signalapp/Signal-iOS/issues/6232
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 
 ## First-person payment mentions (author reports, NOT verified orders)
