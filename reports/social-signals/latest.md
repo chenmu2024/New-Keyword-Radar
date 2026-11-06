@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-06T17:56:45.121107+00:00
+# V4 Social signal discovery — 2026-11-06T23:43:24.631276+00:00
 
-- Unique links this run: 63, newly seen: 22, history: 1183
+- Unique links this run: 59, newly seen: 17, history: 1200
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (5) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (1) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (34)
@@ -20,35 +20,31 @@
 
 ## Links (not validated project opportunities)
 
-- [Turnstone](https://www.producthunt.com/products/turnstone) — producthunt — direct_public_feed
-- [Rankfender v3.0](https://www.producthunt.com/products/rankfender) — producthunt — direct_public_feed
-- [Tobira Site Agent](https://www.producthunt.com/products/tobira-ai) — producthunt — direct_public_feed
-- [Enhanced for Todoist](https://www.producthunt.com/products/enhanced-for-todoist) — producthunt — direct_public_feed
-- [chalk](https://www.producthunt.com/products/chalk-546d9cf8-cdc3-4b80-9b88-f441167c8f6e) — producthunt — direct_public_feed
-- [DALI AI by SupplyzPro](https://www.producthunt.com/products/supplyzpro-the-conversational-erp) — producthunt — direct_public_feed
-- [davidchen412/idol-benefit-system](https://huggingface.co/spaces/davidchen412/idol-benefit-system) — huggingface — direct_public_api
-- [ks-abhishek/LTX-2.5](https://huggingface.co/spaces/ks-abhishek/LTX-2.5) — huggingface — direct_public_api
-- [EnzoDaddy/Enzouser](https://huggingface.co/spaces/EnzoDaddy/Enzouser) — huggingface — direct_public_api
-- [hkblockchaintechnology/explainers-desk-yue](https://huggingface.co/spaces/hkblockchaintechnology/explainers-desk-yue) — huggingface — direct_public_api
-- [JustViping/wathba-blog](https://huggingface.co/spaces/JustViping/wathba-blog) — huggingface — direct_public_api
-- [youssecadek/llama44](https://huggingface.co/spaces/youssecadek/llama44) — huggingface — direct_public_api
-- [VÍDEO: Como capturar um jacaré gigante? Seis agentes mostram como fazer](https://bsky.app/profile/rtbrasil.bsky.social/post/3mznxdjdguh2c) — bluesky — direct_public_post — intent keyword found
-- [Como disse noutro comentário, até nós podemos fazer imposições a nós próprios. Não é simples.](https://bsky.app/profile/paulocarrasco.bsky.social/post/3mznxbae2dc2x) — bluesky — direct_public_post
-- [Criação de sites para quem quer fazer sites Para quem quer fazer sites: projetos de site com os exemplos que você reconhece e as palavras que você usa, não as de quem já sabe tudo](https://bsky.app/profile/awaynes.bsky.social/post/3mznx54pncx2n) — bluesky — direct_public_post
-- [Nutrição sem mais um ano igual Continuar como está também custa. Não saber montar o prato, mais um mês, mais um ano. Cardápio semanal: o outro caminho. https://soania.digital/p/p](https://bsky.app/profile/sylpi67.bsky.social/post/3mznx3462kd2y) — bluesky — direct_public_post
-- [Estudando aqui pra tirar a carteira de motorista e rindo fininho, porque meu pai O SENHOR motorista só comete infração de grave a gravíssima Até hoje não sei como ele nunca teve qu](https://bsky.app/profile/miaulien.bsky.social/post/3mznwzbsdak24) — bluesky — direct_public_post
-- [odeio eles como que tu vais me falar que eles tavam podendo fazer música assim e escolheram fazer favorite record e stay frosty royal milk tea](https://bsky.app/profile/thejenney.bsky.social/post/3mznwz2dml22d) — bluesky — direct_public_post
-- [Convert, compress, resize, and do more with your images—fast, easy, and online! No software, no limits. Start converting now at https://www. digitoly.com/image-converter 🚀✨ # Image](https://mastodon.social/@digitoly/117570615906826602) — mastodon — direct_public_post
-- [Tucas PDF Image Extractor: Lossless PNG and image dimensions + Automatic duplicate removal. # PDF # WebTools https:// tucastools.com/en/pdf-image-ex tractor/](https://mastodon.social/@tucas/117568697467753308) — mastodon — direct_public_post
-- [A browser-based tool worth knowing: Tucas Flatten PDF. Reduce casual editing of page objects. Convert PDF pages into rasterized PDFs in your browser while preserving original page](https://mastodon.social/@tucas/117565710982570915) — mastodon — direct_public_post — intent keyword found
-- [Turn images into PDF in seconds! 📄⚡ 🖼️ Supports JPG, PNG, WEBP, BMP & GIF 📑 Combine multiple files into one PDF 🔒 100% Secure & works on any device 👉 Convert now: https:// digitoly](https://mastodon.social/@digitoly/117564380324014798) — mastodon — direct_public_post
-- [Quick tip: Tucas Document Scanner is useful for Digitize paperwork, notes and study materials. Stretch or compress horizontally and vertically with Distort. # DocumentTools # WebTo](https://mastodon.social/@tucas/117562783181065626) — mastodon — direct_public_post
+- [Meadow](https://www.producthunt.com/products/meadow-3) — producthunt — direct_public_feed
+- [pwned.coffee](https://www.producthunt.com/products/pwned-coffee) — producthunt — direct_public_feed
+- [PostMyPace](https://www.producthunt.com/products/postmypace) — producthunt — direct_public_feed
+- [Openroster](https://www.producthunt.com/products/openroster) — producthunt — direct_public_feed
+- [Textwhisk](https://www.producthunt.com/products/textwhisk) — producthunt — direct_public_feed
+- [axel.md](https://www.producthunt.com/products/axel-3) — producthunt — direct_public_feed
+- [oldmenloverx/C.Ai](https://huggingface.co/spaces/oldmenloverx/C.Ai) — huggingface — direct_public_api
+- [prm42195/butthole](https://huggingface.co/spaces/prm42195/butthole) — huggingface — direct_public_api
+- [darkexploits/www.darkexploits.is](https://huggingface.co/spaces/darkexploits/www.darkexploits.is) — huggingface — direct_public_api
+- [dev-willbird1936/lyra-2-water-bear](https://huggingface.co/spaces/dev-willbird1936/lyra-2-water-bear) — huggingface — direct_public_api
+- [JohnVeds15/voice-preserving-translator](https://huggingface.co/spaces/JohnVeds15/voice-preserving-translator) — huggingface — direct_public_api
+- [JohnVeds15/prompt-ambiguity-detector](https://huggingface.co/spaces/JohnVeds15/prompt-ambiguity-detector) — huggingface — direct_public_api
+- [Con dinero de la empresa. Vamos, que no le pido herramienta al jefe, compro lo que necesito y le paso la factura.](https://bsky.app/profile/infilanak.satan.social/post/3mzizkmmrz22e) — bluesky — direct_public_post
+- [Si os dijera que estoy pensando compartir la herramienta que he creado autores ¿Qué os parecería? Estoy pensando en dejársela probar a algunas personas para comprobar que lo que a](https://bsky.app/profile/piramidedeespejo.bsky.social/post/3mzboeus6ik2a) — bluesky — direct_public_post
+- [Yo no necesito valoración sobre el tamaño de mi "herramienta" está muy bien, no he tenido quejas ni las tengo yo.. hay quien dice que es grande, para mí es medio normal, también es](https://bsky.app/profile/brokench.bsky.social/post/3mz3trit4622f) — bluesky — direct_public_post
+- [Creo que se ha ido para siempre, porque no tengo ninguna intención de reinstalar a corto plazo. También te digo que si tú tienes tanto control sobre esa herramienta, perfecto (yo n](https://bsky.app/profile/mazapanes.bsky.social/post/3mz23wx4lsc2r) — bluesky — direct_public_post
+- [Necesito parar y analizar este "comunicado" que nos enviaron ayer en el condo... Ignoremos lo obvio, el mal uso de una herramienta que podría ser útil, pero que más bien se ha usad](https://bsky.app/profile/unodien.bsky.social/post/3myzkd562uc24) — bluesky — direct_public_post
+- [Can Yaman: hola amigos kebab cual es tu sabiduría Yo: La huelga general es la única herramienta capaz de hacer ceder al capital, Ganjaman. Juntos acabaremos con la opresión capit](https://bsky.app/profile/amigoskebab.bsky.social/post/3myzde5kfps2y) — bluesky — direct_public_post
+- [There is a proper measure in all things, certain limits beyond which and short of which right is not to be found. -- Horace, Satires I For more quotes, see https:// lzon.ca/quotes](https://mastodon.social/@lzon/117571297898315298) — mastodon — direct_public_post
 - [Ask HN: What in the world is taking Ubuntu so long?](https://news.ycombinator.com/item?id=50393105) — hackernews_ask — direct_public_post
-- [Ask HN: What fun things to do with an iPhone 11?](https://news.ycombinator.com/item?id=50393262) — hackernews_ask — direct_public_post
+- [Tell HN: Be Careful with Stripe Connect](https://news.ycombinator.com/item?id=50398646) — hackernews_ask — direct_public_post
 - [Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)](https://news.ycombinator.com/item?id=50363461) — hackernews_ask — direct_public_post
+- [Slickdeals.net Is Compromised](https://news.ycombinator.com/item?id=50397121) — hackernews_ask — direct_public_post
 - [Ask HN: What's your current AI agentic setup?](https://news.ycombinator.com/item?id=50366117) — hackernews_ask — direct_public_post
-- [Ask HN: What are forgotten topics in computing that deserve a new revisit?](https://news.ycombinator.com/item?id=50387483) — hackernews_ask — direct_public_post
-- [Ask HN: What cryptography book do you recommend for reading with 10 year olds?](https://news.ycombinator.com/item?id=50347425) — hackernews_ask — direct_public_post
+- [A new protocol and software suite for AIs](https://news.ycombinator.com/item?id=50397008) — hackernews_ask — direct_public_post
 - [Cleverence](https://www.reddit.com/r/Cleverence) — reddit — public_rss_excerpt
 - [Pasture and Livestock Management App](https://www.reddit.com/r/Ranching/comments/1xp1lfd/pasture_and_livestock_management_app) — reddit — public_rss_excerpt
 - [Pasture and Livestock Management App](https://www.reddit.com/r/livestock/comments/1xp1jfo/pasture_and_livestock_management_app) — reddit — public_rss_excerpt
@@ -60,3 +56,7 @@
 - [Move every Odoo instance to Odoo 20 Community (Q870)](https://github.com/cbusillo/odoo-devkit/issues/277) — github_issue — direct_public_issue_api
 - [M1 coverage: expand EN/RU subjects and evaluate identity and signal counterexamples](https://github.com/drevendev/Dayflare/issues/14) — github_issue — direct_public_issue_api
 - [[WORKBENCH FLEET[INTEGRATION ASSESSMENT First-party reliable multi-host operator experience — reuse existing owners](https://github.com/mastermindx-market-intelligence/Mastermind/issues/539) — github_issue — direct_public_issue_api — intent keyword found
+- [Coordination — Zoinks ↔ Claude](https://github.com/Sevorcer/loop/issues/337) — github_issue — direct_public_issue_api
+- [Ask HN: What's still broken in SoC 2 readiness and audit prep?](https://news.ycombinator.com/item?id=46396889) — hackernews_ask — indexed_public_post_excerpt
+- [AI Agents Are Quietly Taking over Project Management](https://news.ycombinator.com/item?id=45618229) — hackernews_ask — indexed_public_post_excerpt
+- [The problem of scheduling life like a spreadsheet](https://news.ycombinator.com/item?id=45006853) — hackernews_ask — indexed_public_post_excerpt

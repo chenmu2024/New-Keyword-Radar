@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T17:56:45.121107+00:00",
-  "social_generated_at": "2026-11-06T17:56:45.121107+00:00",
+  "generated_at": "2026-11-06T23:43:24.631276+00:00",
+  "social_generated_at": "2026-11-06T23:43:24.631276+00:00",
   "trends_coverage": {
     "archive_date": "2026-11-07",
     "scanned_seed_count": 74,
@@ -9,7 +9,7 @@
     "rising_total": 477,
     "eligible_exact_queries": 426
   },
-  "social_unique_in_run": 63,
+  "social_unique_in_run": 59,
   "review_window": {
     "trend_days_evaluated": [
       {
@@ -38,14 +38,14 @@
       }
     ],
     "exact_queries_in_window": 626,
-    "social_current_run": 63,
-    "social_prior_sightings_72h": 260,
-    "social_reviewable_72h": 323,
+    "social_current_run": 59,
+    "social_prior_sightings_72h": 241,
+    "social_reviewable_72h": 300,
     "window_hours": 72,
     "not_new_discoveries_warning": "Window includes older links recently re-seen. Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."
   },
   "cross_matches": 2,
-  "public_question_hypotheses": 4,
+  "public_question_hypotheses": 3,
   "query_hypotheses": [
     {
       "proposed_query": "response of ai at one particular step now i am using",
@@ -53,19 +53,6 @@
       "original_platform": "hackernews_ask",
       "original_post_text": "like im working on this app currently a website so in my product basically i need response of ai at one particular step now i am using openrouter for that now either the response is false man a times or it takes too long to respond and sends an error i have been working on this issue past few days now and this is the only element i am stuck on how ",
       "published_at": "2026-11-05T17:47:57+00:00",
-      "demand_status": "unverified_question_hint",
-      "search_volume": null,
-      "keyword_difficulty": null,
-      "actual_user_paid": false,
-      "ready_to_build": false,
-      "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
-    },
-    {
-      "proposed_query": "exporting monitoring analytics to csv json what problem should this solve",
-      "original_post_url": "https://github.com/Albert-Weasker/niubigeo/issues/191",
-      "original_platform": "github_issue",
-      "original_post_text": "[Feature]: Add support for exporting monitoring analytics to CSV/JSON ### What problem should this solve? Hi, thanks for building this tool! It would be really helpful to have an option to export the visibility monitoring reports/analytics into CSV or JSON format. This would allow developers to integrate the tracked data into custom dashboard tools",
-      "published_at": "2026-10-10T14:08:35+00:00",
       "demand_status": "unverified_question_hint",
       "search_volume": null,
       "keyword_difficulty": null,
@@ -104,41 +91,6 @@
   "self_reported_buyer_feedback": [],
   "candidates": [
     {
-      "query": "google drive",
-      "relative_rising_value": 40.0,
-      "seed": "uploader",
-      "sources": {
-        "github_issue": 2
-      },
-      "links": [
-        {
-          "platform": "github_issue",
-          "url": "https://github.com/StegVerse-Labs/.github/issues/3402",
-          "title": "[RECORD] Muse StegOS Node / KV session — 2026-10-29",
-          "published_at": "2026-10-29T10:29:53+00:00",
-          "evidence_type": "direct_public_issue_api",
-          "potential_first_person_question": false,
-          "verified_customer_demand": false,
-          "original_comments_verified": false
-        },
-        {
-          "platform": "github_issue",
-          "url": "https://github.com/conectatech-ec/conectatech-ec.github.io/issues/91",
-          "title": "Data Hub 593: completar sincronización de PDF, banners, SIGNATURE y canales externos",
-          "published_at": "2026-10-23T03:33:11+00:00",
-          "evidence_type": "direct_public_issue_api",
-          "potential_first_person_question": false,
-          "verified_customer_demand": false,
-          "original_comments_verified": false
-        }
-      ],
-      "independent_platforms": 1,
-      "distinct_urls": 2,
-      "original_post_question_hints": 0,
-      "ready_to_build": false,
-      "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
-    },
-    {
       "query": "portable generator",
       "relative_rising_value": 50.0,
       "seed": "generator",
@@ -152,6 +104,31 @@
           "title": "Even a portable generator is good for the fridge ! There are models that aren’t impossible to move and function as inverters (reduce risk of frying your laptop if your fridge comp",
           "published_at": "2026-11-06T03:04:13.166000+00:00",
           "evidence_type": "direct_public_post",
+          "potential_first_person_question": false,
+          "verified_customer_demand": false,
+          "original_comments_verified": false
+        }
+      ],
+      "independent_platforms": 1,
+      "distinct_urls": 1,
+      "original_post_question_hints": 0,
+      "ready_to_build": false,
+      "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
+    },
+    {
+      "query": "google drive",
+      "relative_rising_value": 40.0,
+      "seed": "uploader",
+      "sources": {
+        "github_issue": 1
+      },
+      "links": [
+        {
+          "platform": "github_issue",
+          "url": "https://github.com/StegVerse-Labs/.github/issues/3402",
+          "title": "[RECORD] Muse StegOS Node / KV session — 2026-10-29",
+          "published_at": "2026-10-29T10:29:53+00:00",
+          "evidence_type": "direct_public_issue_api",
           "potential_first_person_question": false,
           "verified_customer_demand": false,
           "original_comments_verified": false
