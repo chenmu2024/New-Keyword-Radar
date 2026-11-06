@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-06T17:51:03.352404+00:00
+- Updated (UTC): 2026-11-06T23:01:18.780943+00:00
 - Historical candidates: 4066
-- Newly recorded from pending: 89
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 2723
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 911 responder crossword clue [Global] — discovered — first 2026-11-07, last 2026-11-07
-- active comparator [Global] — discovered — first 2026-11-07, last 2026-11-07
-- ai stocks [Global] — discovered — first 2026-11-07, last 2026-11-07
+- premier bet verifier ticket [Global] — discovered — first 2026-11-07, last 2026-11-07
 - ar 15 lower receiver [Global] — discovered — first 2026-11-07, last 2026-11-07
-- beste online casino 2026 zockercheck.sbs 🇩🇪 [Global] — discovered — first 2026-11-07, last 2026-11-07
-- blox fruit values [Global] — discovered — first 2026-11-07, last 2026-11-07
-- blox fruits values [Global] — discovered — first 2026-11-07, last 2026-11-07
-- bsek chromebook scheme merit list [Global] — discovered — first 2026-11-07, last 2026-11-07
-- cabin crew simulator codes [Global] — discovered — first 2026-11-07, last 2026-11-07
-- casino 2026 zockercheck.sbs 🇩🇪 [Global] — discovered — first 2026-11-07, last 2026-11-07
-- casino 2026 🇩🇪 www.stefancasino.online [Global] — discovered — first 2026-11-07, last 2026-11-07
-- casino online bonus 🇩🇪 www.stefancasino.online [Global] — discovered — first 2026-11-07, last 2026-11-07
+- online casino ohne limit 🇩🇪 www.stefancasino.online [Global] — discovered — first 2026-11-07, last 2026-11-07
+- premier bet [Global] — discovered — first 2026-11-07, last 2026-11-07
+- verifier nom de domaine [Global] — discovered — first 2026-11-07, last 2026-11-07
+- pinterest login [Global] — discovered — first 2026-11-07, last 2026-11-07
+- data annotation [Global] — discovered — first 2026-11-07, last 2026-11-07
+- is bob the builder stop motion [Global] — discovered — first 2026-11-07, last 2026-11-07
 - cat admit card [Global] — discovered — first 2026-11-07, last 2026-11-07
-- cat admit card 2026 [Global] — discovered — first 2026-11-07, last 2026-11-07
-- cataloger jake [Global] — discovered — first 2026-11-07, last 2026-11-07
-- christmas stocking pattern [Global] — discovered — first 2026-11-07, last 2026-11-07
+- casino 2026 🇩🇪 www.stefancasino.online [Global] — discovered — first 2026-11-07, last 2026-11-07
+- patriots game today [Global] — discovered — first 2026-11-07, last 2026-11-07
 - comparator mhm [Global] — discovered — first 2026-11-07, last 2026-11-07
-- comparator 中文 [Global] — discovered — first 2026-11-07, last 2026-11-07
-- constructor f1 [Global] — discovered — first 2026-11-07, last 2026-11-07
-- course explorer [Global] — discovered — first 2026-11-07, last 2026-11-07
-- court interpreter certification [Global] — discovered — first 2026-11-07, last 2026-11-07
-- crazygames [Global] — discovered — first 2026-11-07, last 2026-11-07
-- criminal simulator codes [Global] — discovered — first 2026-11-07, last 2026-11-07
-- crochet poppy pattern [Global] — discovered — first 2026-11-07, last 2026-11-07
+- dhanteras image [Global] — discovered — first 2026-11-07, last 2026-11-07
+- luntian color [Global] — discovered — first 2026-11-07, last 2026-11-07
+- blox fruits values [Global] — discovered — first 2026-11-07, last 2026-11-07
+- gumroad inc [Global] — discovered — first 2026-11-07, last 2026-11-07
+- casino 2026 zockercheck.sbs 🇩🇪 [Global] — discovered — first 2026-11-07, last 2026-11-07
 - crochet snowflake pattern [Global] — discovered — first 2026-11-07, last 2026-11-07
+- fortnite chest tracker [Global] — discovered — first 2026-11-07, last 2026-11-07
+- comparator 中文 [Global] — discovered — first 2026-11-07, last 2026-11-07
+- the wonderful puppet circus itch.io [Global] — discovered — first 2026-11-07, last 2026-11-07
+- election dashboard [Global] — discovered — first 2026-11-07, last 2026-11-07
+- gogeta theme composer [Global] — discovered — first 2026-11-07, last 2026-11-07
+- quebec medical appointment scheduler [Global] — discovered — first 2026-11-07, last 2026-11-07
+- kasyno 🇵🇱 www.kasynoklub.blog [Global] — discovered — first 2026-11-07, last 2026-11-07
 
 ## Due for follow-up
 
