@@ -1,12 +1,12 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-06T10:50:26.582590+00:00
-- Source last updated: 2026-11-06T10:50:26.582590+00:00
-- Trends archive: 2026-11-06 (74/74; complete=True)
-- Eligible multiword rising queries: 415
+- Generated: 2026-11-06T17:56:45.121107+00:00
+- Source last updated: 2026-11-06T17:56:45.121107+00:00
+- Trends archive: 2026-11-07 (74/74; complete=True)
+- Eligible multiword rising queries: 426
 - Cross-source matches within 72h review window: 2
-- Social current-run links: 60, prior recent sightings: 260
-- Search archives examined: 2026-11-06, 2026-11-05, 2026-11-04
+- Social current-run links: 63, prior recent sightings: 260
+- Search archives examined: 2026-11-07, 2026-11-06, 2026-11-05
 - Direct-post question-derived QUERY HYPOTHESES: 4
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
@@ -21,7 +21,7 @@
 
 ## portable generator
 
-- Relative Trends rising value: 60.0 (NOT Volume)
+- Relative Trends rising value: 50.0 (NOT Volume)
 - Distinct matched platforms: 1
 - Direct public-post question hints: 0
 - bluesky: https://bsky.app/profile/sciencelizard.bsky.social/post/3mzmfiymcds2a (direct_public_post)
