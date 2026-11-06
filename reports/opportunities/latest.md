@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-05T23:54:20.086354+00:00
-- Historical candidates: 3866
-- Newly recorded from pending: 85
+- Updated (UTC): 2026-11-06T09:17:52.988886+00:00
+- Historical candidates: 3977
+- Newly recorded from pending: 111
 - Awaiting 7/14/30-day evidence review: 2507
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
+- sigma metalytics precious metal verifier [Global] — discovered — first 2026-11-06, last 2026-11-06
+- egyptian key of life symbol [Global] — discovered — first 2026-11-06, last 2026-11-06
 - new pf deduction rules 2026 with example [Global] — discovered — first 2026-11-06, last 2026-11-06
-- tiktok downloader mp4 [Global] — discovered — first 2026-11-06, last 2026-11-06
-- online casino belgium 🇧🇪 palmy.cfd [Global] — discovered — first 2026-11-06, last 2026-11-06
-- va claims processor salary [Global] — discovered — first 2026-11-06, last 2026-11-06
-- plastic free coffee maker [Global] — discovered — first 2026-11-06, last 2026-11-06
-- online casino 🇩🇪 www.zockerfuchs.sbs [Global] — discovered — first 2026-11-06, last 2026-11-06
-- dragon ball creator home demolition [Global] — discovered — first 2026-11-06, last 2026-11-06
-- wow name generator [Global] — discovered — first 2026-11-06, last 2026-11-06
-- wow forever name generator [Global] — discovered — first 2026-11-06, last 2026-11-06
-- abc color [Global] — discovered — first 2026-11-06, last 2026-11-06
-- abv notifier [Global] — discovered — first 2026-11-06, last 2026-11-06
-- ade scheduler [Global] — discovered — first 2026-11-06, last 2026-11-06
-- adobe journey optimizer [Global] — discovered — first 2026-11-06, last 2026-11-06
-- agnipath scheme [Global] — discovered — first 2026-11-06, last 2026-11-06
-- agniveer scheme [Global] — discovered — first 2026-11-06, last 2026-11-06
-- alex eala game today [Global] — discovered — first 2026-11-06, last 2026-11-06
+- course explorer uiuc [Global] — discovered — first 2026-11-06, last 2026-11-06
 - bears game [Global] — discovered — first 2026-11-06, last 2026-11-06
-- bears game today [Global] — discovered — first 2026-11-06, last 2026-11-06
-- better f3 [Global] — discovered — first 2026-11-06, last 2026-11-06
-- bob el constructor meme [Global] — discovered — first 2026-11-06, last 2026-11-06
-- brotx optimizer [Global] — discovered — first 2026-11-06, last 2026-11-06
-- c++ explicit constructor [Global] — discovered — first 2026-11-06, last 2026-11-06
-- casio cmk 100 rolex explorer alternative [Global] — discovered — first 2026-11-06, last 2026-11-06
-- chevy first responder discount [Global] — discovered — first 2026-11-06, last 2026-11-06
-- comparator anre energie electrica [Global] — discovered — first 2026-11-06, last 2026-11-06
+- jefferson county clerk and recorder [Global] — discovered — first 2026-11-06, last 2026-11-06
+- tea light candle [Global] — discovered — first 2026-11-06, last 2026-11-06
+- tiktok downloader mp4 [Global] — discovered — first 2026-11-06, last 2026-11-06
+- krillion [Global] — discovered — first 2026-11-06, last 2026-11-06
+- dia do designer gráfico [Global] — discovered — first 2026-11-06, last 2026-11-06
+- iec dashboard results 2026 [Global] — discovered — first 2026-11-06, last 2026-11-06
+- ns and i prize checker [Global] — discovered — first 2026-11-06, last 2026-11-06
+- agnipath scheme [Global] — discovered — first 2026-11-06, last 2026-11-06
+- granny [Global] — discovered — first 2026-11-06, last 2026-11-06
+- scott parker manager [Global] — discovered — first 2026-11-06, last 2026-11-06
+- abc color [Global] — discovered — first 2026-11-06, last 2026-11-06
+- el paso county clerk and recorder [Global] — discovered — first 2026-11-06, last 2026-11-06
+- iec [Global] — discovered — first 2026-11-06, last 2026-11-06
+- online casino belgium 🇧🇪 palmy.cfd [Global] — discovered — first 2026-11-06, last 2026-11-06
+- abv notifier [Global] — discovered — first 2026-11-06, last 2026-11-06
+- iec dashboard [Global] — discovered — first 2026-11-06, last 2026-11-06
+- turkey feather template [Global] — discovered — first 2026-11-06, last 2026-11-06
+- delima 3.0 [Global] — discovered — first 2026-11-06, last 2026-11-06
+- xnx detector 2025 [Global] — discovered — first 2026-11-06, last 2026-11-06
+- linktree [Global] — discovered — first 2026-11-06, last 2026-11-06
 
 ## Due for follow-up
 
