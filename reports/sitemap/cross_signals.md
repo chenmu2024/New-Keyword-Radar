@@ -1,6 +1,6 @@
 # 跨独立网站 Sitemap 同步上新观察
 
-观察截止：2026-11-07；滚动窗口：2026-11-01—2026-11-07（均为北京时间日期）。
+观察截止：2026-11-08；滚动窗口：2026-11-02—2026-11-08（均为北京时间日期）。
 
 **Sitemap 首见并不等于首次发行、真实24小时内上架或搜索量；同名和文件格式归并必须人工核实。**
 只有具备真实source_id、详情URL和first_seen的相对基线新增，才能成为候选。
@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-07T17:10:47.909802+08:00；详细候选：8868；7日轻量URL证据：12444/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-08T03:00:17.387242+08:00；详细候选：9196；7日轻量URL证据：13107/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 158，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 13，采样上限遗漏 0。
 
 - **kingmoon**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - y8.com · y8-en · 2026-11-02 · https://www.y8.com/games/kingmoon · 原词 kingmoon
@@ -51,18 +51,13 @@
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 142，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 19，采样上限遗漏 0。
 
 - **tapmap**：不同根域 4 家；同一天峰值 2 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-02 · https://fazier.com/launches/tapmap · 原词 tapmap
   - saascity.io · saascity-products · 2026-11-03 · https://saascity.io/live/tapmap · 原词 tapmap
   - startupbase.io · startupbase-products · 2026-11-03 · https://startupbase.io/products/tapmap · 原词 tapmap
   - uneed.best · uneed-products · 2026-11-06 · https://www.uneed.best/tool/tapmap · 原词 tapmap
-- **wabutton**：不同根域 4 家；同一天峰值 2 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - fazier.com · fazier-launches · 2026-11-01 · https://fazier.com/launches/wabutton · 原词 wabutton
-  - saasworthy.com · saasworthy-products · 2026-11-02 · https://www.saasworthy.com/product/wabutton · 原词 wabutton
-  - uneed.best · uneed-products · 2026-11-02 · https://www.uneed.best/tool/wabutton · 原词 wabutton
-  - saascity.io · saascity-products · 2026-11-05 · https://saascity.io/live/wabutton · 原词 wabutton
 - **everstamp**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - pitchwall.co · pitchwall-products · 2026-11-02 · https://pitchwall.co/product/everstamp · 原词 everstamp
   - startupbase.io · startupbase-products · 2026-11-02 · https://startupbase.io/products/everstamp · 原词 everstamp
@@ -87,6 +82,10 @@
   - fazier.com · fazier-launches · 2026-11-02 · https://fazier.com/launches/scenemixer · 原词 scenemixer
   - startupbase.io · startupbase-products · 2026-11-03 · https://startupbase.io/products/scenemixer · 原词 scenemixer
   - uneed.best · uneed-products · 2026-11-05 · https://www.uneed.best/tool/scenemixer · 原词 scenemixer
+- **wabutton**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - saasworthy.com · saasworthy-products · 2026-11-02 · https://www.saasworthy.com/product/wabutton · 原词 wabutton
+  - uneed.best · uneed-products · 2026-11-02 · https://www.uneed.best/tool/wabutton · 原词 wabutton
+  - saascity.io · saascity-products · 2026-11-05 · https://saascity.io/live/wabutton · 原词 wabutton
 - **alook**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - smollaunch.com · smollaunch-products · 2026-11-03 · https://smollaunch.com/products/alook · 原词 alook
   - openhunts.com · openhunts-projects · 2026-11-05 · https://openhunts.com/projects/alook · 原词 alook
@@ -98,7 +97,7 @@
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 13，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 21，采样上限遗漏 0。
 
 - **ai clothes changer**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - dang.ai · dangai-tools · 2026-11-05 · https://dang.ai/tool/ai-clothes-changer · 原词 ai clothes changer
@@ -106,12 +105,12 @@
 - **cloudbrowser**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolnet.com · aitoolnet-tools · 2026-11-05 · https://www.aitoolnet.com/cloudbrowser · 原词 cloudbrowser
   - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/cloudbrowser · 原词 cloudbrowser
+- **cuddler**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/cuddler · 原词 cuddler
+  - aitoolnet.com · aitoolnet-tools · 2026-11-08 · https://www.aitoolnet.com/cuddler · 原词 cuddler
 - **empacer**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolnet.com · aitoolnet-tools · 2026-11-03 · https://www.aitoolnet.com/empacer · 原词 empacer
   - aitoptools.com · aitoptools-tools · 2026-11-03 · https://aitoptools.com/tool/empacer/ · 原词 empacer
-- **kurodyne**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-01 · https://aitoolsdirectory.com/tool/kurodyne · 原词 kurodyne
-  - tooldirectory.ai · tooldirectory-ai-tools · 2026-11-01 · https://tooldirectory.ai/tools/kurodyne · 原词 kurodyne
 - **livefaceswap ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolnet.com · aitoolnet-tools · 2026-11-05 · https://www.aitoolnet.com/livefaceswap-ai · 原词 livefaceswap ai
   - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/livefaceswap-ai · 原词 livefaceswap ai
@@ -141,7 +140,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 12，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 5，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -149,13 +148,27 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 51，采样上限遗漏 0。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 948，采样上限遗漏 629。
 
-**0：本类尚无两家以上不同域名的同步新增证据。**
+- **amazon redshift**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - activepieces.com · activepieces-pieces · 2026-11-03 · https://www.activepieces.com/pieces/amazon-redshift · 原词 amazon redshift
+  - devhunt.org · devhunt-tools · 2026-11-08 · https://devhunt.org/tool/amazon-redshift · 原词 amazon redshift
+- **gemini**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - apify.com · apify-actors-z · 2026-11-02 · https://apify.com/scrapeai/gemini · 原词 gemini
+  - devhunt.org · devhunt-tools · 2026-11-08 · https://devhunt.org/tool/gemini · 原词 gemini
+- **google docs**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - apify.com · apify-actors-z · 2026-11-02 · https://apify.com/scrapeai/google-docs · 原词 google docs
+  - devhunt.org · devhunt-tools · 2026-11-08 · https://devhunt.org/tool/google-docs · 原词 google docs
+- **google forms**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - apify.com · apify-actors-z · 2026-11-02 · https://apify.com/scrapeai/google-forms · 原词 google forms
+  - devhunt.org · devhunt-tools · 2026-11-08 · https://devhunt.org/tool/google-forms · 原词 google forms
+- **google meet**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - apify.com · apify-actors-z · 2026-11-02 · https://apify.com/scrapeai/google-meet · 原词 google meet
+  - devhunt.org · devhunt-tools · 2026-11-08 · https://devhunt.org/tool/google-meet · 原词 google meet
 
 ## 巴西在线工具
 
-采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
+采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 1，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -184,11 +197,11 @@
   - ai · aitoptools-tools · 2026-11-05 · https://aitoptools.com/tool/aeo-action/
   - saas · fazier-launches · 2026-11-06 · https://fazier.com/launches/aeo-action
   - saas · uneed-products · 2026-11-07 · https://www.uneed.best/tool/aeo-action
-- le scribe audio：独立根域 4 家；类别 ai, saas
-  - saas · productperch-products · 2026-11-01 · https://productperch.com/products/le-scribe-audio/
-  - saas · saasworthy-products · 2026-11-02 · https://www.saasworthy.com/product/le-scribe-audio
-  - ai · toolveyor-tools · 2026-11-02 · https://toolveyor.com/le-scribe-audio
-  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/le-scribe-audio
+- plimo：独立根域 4 家；类别 ai, developer, saas
+  - developer · devhunt-tools · 2026-11-03 · https://devhunt.org/tool/plimo
+  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo
+  - ai · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/plimo
+  - saas · saascity-products · 2026-11-08 · https://saascity.io/live/plimo
 - haipay：独立根域 3 家；类别 developer, saas
   - saas · uneed-products · 2026-11-02 · https://www.uneed.best/tool/haipay
   - saas · smollaunch-products · 2026-11-03 · https://smollaunch.com/products/haipay
@@ -198,25 +211,22 @@
   - developer · devhunt-tools · 2026-11-03 · https://devhunt.org/tool/uncensoredlabs
   - saas · openhunts-projects · 2026-11-05 · https://openhunts.com/projects/uncensoredlabs
   - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/uncensoredlabs
-- british accent generator：独立根域 4 家；类别 ai, saas
-  - saas · productperch-products · 2026-11-01 · https://productperch.com/products/british-accent-generator/
+- british accent generator：独立根域 3 家；类别 ai, saas
   - ai · aitoolnet-tools · 2026-11-03 · https://www.aitoolnet.com/british-accent-generator
   - saas · openhunts-projects · 2026-11-05 · https://openhunts.com/projects/british-accent-generator
   - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/british-accent-generator
-- numradar：独立根域 3 家；类别 developer, saas
-  - developer · devhunt-tools · 2026-11-01 · https://devhunt.org/tool/numradar
-  - saas · fazier-launches · 2026-11-01 · https://fazier.com/launches/numradar
-  - saas · uneed-products · 2026-11-04 · https://www.uneed.best/tool/numradar
-- plimo：独立根域 3 家；类别 ai, developer
-  - developer · devhunt-tools · 2026-11-03 · https://devhunt.org/tool/plimo
-  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo
-  - ai · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/plimo
+- le scribe audio：独立根域 3 家；类别 ai, saas
+  - saas · saasworthy-products · 2026-11-02 · https://www.saasworthy.com/product/le-scribe-audio
+  - ai · toolveyor-tools · 2026-11-02 · https://toolveyor.com/le-scribe-audio
+  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/le-scribe-audio
+- genjutsu ai：独立根域 3 家；类别 ai, saas
+  - ai · toolveyor-tools · 2026-11-02 · https://toolveyor.com/genjutsu-ai
+  - saas · fazier-launches · 2026-11-07 · https://fazier.com/launches/genjutsu-ai
+  - saas · uneed-products · 2026-11-07 · https://www.uneed.best/tool/genjutsu-ai
 
 ### 跨类别同向文件转换
 
-- file conversion pdf to excel：独立根域 2 家；类别 ai, saas
-  - saas · fazier-launches · 2026-11-01 · https://fazier.com/launches/pdf-to-excel
-  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/pdf-to-excel
+0条。
 
 ## 排除与限制
 

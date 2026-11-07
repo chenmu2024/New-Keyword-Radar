@@ -1,63 +1,63 @@
-# Sitemap lead triage — 2026-11-07
+# Sitemap lead triage — 2026-11-08
 
 **Important:** These are *unverified URL leads*, not proven new keywords,
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
 - Sitemap feeds succeeded: 127/135
-- URLs newly observed in the latest scan: 376
+- URLs newly observed in the latest scan: 1007
 - Candidate URL rows extracted in latest scan: 358
 - First-time keyword/geo research leads: 328
-- Previously removed URLs resurfacing: 50
-- Accumulated queue: 8868
-- Human keyword/topic review: 3658
-- Game/general watchlist: 5072
+- Previously removed URLs resurfacing: 6
+- Accumulated queue: 9196
+- Human keyword/topic review: 3823
+- Game/general watchlist: 5235
 - Low-quality page-name noise: 138
 - **Verified new keywords / search demand / business revenue: not established**
 
 ## Queue composition (by Sitemap source)
 
-- apify-actors-z: 1264
-- apify-actors-a: 758
+- apify-actors-z: 1379
+- apify-actors-a: 806
 - railway-templates: 707
 - gamepix-pt: 567
 - gamepix-en: 562
 - producthunt-products: 423
-- fazier-launches: 384
+- fazier-launches: 385
 - playgama-en: 337
 - saasworthy-products: 263
 - y8-en: 242
 - uneed-products: 236
-- productperch-products: 215
+- productperch-products: 216
+- devhunt-tools: 211
 - crazygames-br: 189
 - crazygames-en: 189
-- crazygames-es: 184
+- crazygames-es: 189
 - vercel-product-watch: 168
 - toolveyor-tools: 153
-- saascity-products: 146
+- saascity-products: 150
 - startupbase-products: 129
 - startupstash-tools: 121
 - aitoolboard-tools: 113
 - n8n-workflows: 108
 - onlinetools-br: 103
 - smollaunch-products: 99
-- devhunt-tools: 98
 - futurepedia-tools: 93
-- dangai-tools: 82
+- dangai-tools: 89
 - indieneed-products: 82
 - playhop-en: 78
+- gamedistribution-games: 71
+- futuretools-products: 69
 - pitchwall-products: 67
-- gamedistribution-games: 64
 - minijuegos-es: 63
-- futuretools-products: 61
-- aitoolnet-tools: 52
+- aitoolnet-tools: 59
 - openhunts-projects: 49
 - tooldirectory-ai-tools: 34
 - fotor-features: 32
-- aitoptools-tools: 25
+- aitoptools-tools: 27
+- toolfound-products: 25
 - gamearter-en: 22
 - pipedream-actions: 22
-- toolfound-products: 22
 - pdfresizer-tools: 20
 - aiagentstore-agents: 19
 - fridayhunt-projects: 17
@@ -75,14 +75,15 @@ Raw queue and all main radar settings remain unchanged.
 - jogos360-br: 7
 - nextool-tools: 7
 - bgames-en: 6
+- ezgif-tools: 6
 - poki-en: 6
 - activepieces-pieces: 5
+- ifttt-services: 5
 - launchscaler-products: 5
 - planetscale-changelog: 5
 - silvergames-en: 5
 - aiagentslist-agents: 4
 - gamenora-en: 4
-- ifttt-services: 4
 - railway-changelog: 3
 - aiapps-tools: 2
 - calculator-soup: 2
@@ -91,112 +92,112 @@ Raw queue and all main radar settings remain unchanged.
 - tautil-br: 2
 - toolworthy-ai-tools: 2
 - trigger-product: 2
-- ezgif-tools: 1
+- cicerotools-br: 1
 - gamesnacks-en: 1
 - gamezop-en: 1
 
 ## Latest scan's leads (routing only)
 
-- [chunk miner 3d dof](https://www.crazygames.com/game/chunk-miner-3d-dof) — watch / game-title-not-search-demand; source=crazygames-en
-- [space survivors bug swarm](https://www.crazygames.com/game/space-survivors-bug-swarm) — watch / game-title-not-search-demand; source=crazygames-en
-- [slideways rally hsv](https://www.crazygames.com/game/slideways-rally-hsv) — watch / game-title-not-search-demand; source=crazygames-en
-- [unochess yvj](https://www.crazygames.com/game/unochess-yvj) — watch / game-title-not-search-demand; source=crazygames-en
-- [don t trust the tutorial igy](https://www.crazygames.com/game/don-t-trust-the-tutorial-igy) — watch / game-title-not-search-demand; source=crazygames-en
-- [chest captain idle rpg](https://www.crazygames.com/game/chest-captain-idle-rpg) — watch / game-title-not-search-demand; source=crazygames-en
-- [moto racing championship](https://www.crazygames.com/game/moto-racing-championship) — watch / game-title-not-search-demand; source=crazygames-en
-- [bouncetron opj](https://www.crazygames.com/game/bouncetron-opj) — watch / game-title-not-search-demand; source=crazygames-en
-- [reboot shop](https://www.crazygames.com/game/reboot-shop) — watch / game-title-not-search-demand; source=crazygames-en
-- [blockdown vak](https://www.crazygames.com/game/blockdown-vak) — watch / game-title-not-search-demand; source=crazygames-en
-- [blockdown vak](https://www.crazygames.com/br/game/blockdown-vak) — watch / game-title-not-search-demand; source=crazygames-br
-- [moto racing championship](https://www.crazygames.com/br/game/moto-racing-championship) — watch / game-title-not-search-demand; source=crazygames-br
-- [chunk miner 3d dof](https://www.crazygames.com/br/game/chunk-miner-3d-dof) — watch / game-title-not-search-demand; source=crazygames-br
-- [slideways rally hsv](https://www.crazygames.com/br/game/slideways-rally-hsv) — watch / game-title-not-search-demand; source=crazygames-br
-- [reboot shop](https://www.crazygames.com/br/game/reboot-shop) — watch / game-title-not-search-demand; source=crazygames-br
-- [unochess yvj](https://www.crazygames.com/br/game/unochess-yvj) — watch / game-title-not-search-demand; source=crazygames-br
-- [don t trust the tutorial igy](https://www.crazygames.com/br/game/don-t-trust-the-tutorial-igy) — watch / game-title-not-search-demand; source=crazygames-br
-- [chest captain idle rpg](https://www.crazygames.com/br/game/chest-captain-idle-rpg) — watch / game-title-not-search-demand; source=crazygames-br
-- [space survivors bug swarm](https://www.crazygames.com/br/game/space-survivors-bug-swarm) — watch / game-title-not-search-demand; source=crazygames-br
-- [bouncetron opj](https://www.crazygames.com/br/game/bouncetron-opj) — watch / game-title-not-search-demand; source=crazygames-br
-- [space survivors bug swarm](https://www.crazygames.com/es/game/space-survivors-bug-swarm) — watch / game-title-not-search-demand; source=crazygames-es
-- [chest captain idle rpg](https://www.crazygames.com/es/game/chest-captain-idle-rpg) — watch / game-title-not-search-demand; source=crazygames-es
-- [moto racing championship](https://www.crazygames.com/es/game/moto-racing-championship) — watch / game-title-not-search-demand; source=crazygames-es
-- [blockdown vak](https://www.crazygames.com/es/game/blockdown-vak) — watch / game-title-not-search-demand; source=crazygames-es
-- [chunk miner 3d dof](https://www.crazygames.com/es/game/chunk-miner-3d-dof) — watch / game-title-not-search-demand; source=crazygames-es
-- [puck twist](https://www.gamepix.com/pt/play/puck-twist) — watch / game-title-not-search-demand; source=gamepix-pt
-- [marsh defense hold the house](https://www.gamepix.com/pt/play/marsh-defense-hold-the-house) — watch / game-title-not-search-demand; source=gamepix-pt
-- [collect million coins](https://www.gamepix.com/pt/play/collect-million-coins) — watch / game-title-not-search-demand; source=gamepix-pt
-- [trash smash](https://www.gamepix.com/pt/play/trash-smash) — watch / game-title-not-search-demand; source=gamepix-pt
-- [squeak lab 3d](https://www.gamepix.com/pt/play/squeak-lab-3d) — watch / game-title-not-search-demand; source=gamepix-pt
-- [nockout archers](https://www.gamepix.com/pt/play/nockout-archers) — watch / game-title-not-search-demand; source=gamepix-pt
-- [parcel pulse](https://www.gamepix.com/pt/play/parcel-pulse) — watch / game-title-not-search-demand; source=gamepix-pt
-- [dino incubator](https://www.gamepix.com/pt/play/dino-incubator) — watch / game-title-not-search-demand; source=gamepix-pt
-- [mahjong mates](https://www.gamepix.com/pt/play/mahjong-mates) — watch / game-title-not-search-demand; source=gamepix-pt
-- [wild arrows](https://www.gamepix.com/pt/play/wild-arrows) — watch / game-title-not-search-demand; source=gamepix-pt
-- [glowbug rush](https://www.gamepix.com/pt/play/glowbug-rush) — watch / game-title-not-search-demand; source=gamepix-pt
-- [cappuccina clicker tap upgrade](https://www.gamepix.com/pt/play/cappuccina-clicker-tap-upgrade) — watch / game-title-not-search-demand; source=gamepix-pt
-- [jelly fruit](https://www.gamepix.com/pt/play/jelly-fruit) — watch / game-title-not-search-demand; source=gamepix-pt
-- [was word association solitaire](https://www.gamepix.com/pt/play/was-word-association-solitaire) — watch / game-title-not-search-demand; source=gamepix-pt
-- [roll and escape](https://www.gamepix.com/pt/play/roll-and-escape) — watch / game-title-not-search-demand; source=gamepix-pt
-- [spin stack](https://www.gamepix.com/pt/play/spin-stack) — watch / game-title-not-search-demand; source=gamepix-pt
-- [klak magnetic stones](https://www.gamepix.com/pt/play/klak-magnetic-stones) — watch / game-title-not-search-demand; source=gamepix-pt
-- [walnut rush](https://www.gamepix.com/pt/play/walnut-rush) — watch / game-title-not-search-demand; source=gamepix-pt
-- [thermomorphs](https://www.gamepix.com/pt/play/thermomorphs) — watch / game-title-not-search-demand; source=gamepix-pt
-- [peg hero daily drop](https://www.gamepix.com/pt/play/peg-hero-daily-drop) — watch / game-title-not-search-demand; source=gamepix-pt
-- [break ice](https://www.gamepix.com/pt/play/break-ice) — watch / game-title-not-search-demand; source=gamepix-pt
-- [golazo shootout](https://www.gamepix.com/pt/play/golazo-shootout) — watch / game-title-not-search-demand; source=gamepix-pt
-- [harbor escape](https://www.gamepix.com/pt/play/harbor-escape) — watch / game-title-not-search-demand; source=gamepix-pt
-- [still wet](https://www.gamepix.com/pt/play/still-wet) — watch / game-title-not-search-demand; source=gamepix-pt
-- [le gardien du savoir](https://www.gamepix.com/pt/play/le-gardien-du-savoir) — watch / game-title-not-search-demand; source=gamepix-pt
-- [flag rush](https://www.gamepix.com/pt/play/flag-rush) — watch / game-title-not-search-demand; source=gamepix-pt
-- [soda hamster](https://www.gamepix.com/pt/play/soda-hamster) — watch / game-title-not-search-demand; source=gamepix-pt
-- [jamcutter](https://www.gamepix.com/pt/play/jamcutter) — watch / game-title-not-search-demand; source=gamepix-pt
-- [monster steps](https://www.gamepix.com/pt/play/monster-steps) — watch / game-title-not-search-demand; source=gamepix-pt
-- [cini tile puzzle](https://www.gamepix.com/pt/play/cini-tile-puzzle) — watch / game-title-not-search-demand; source=gamepix-pt
-- [ricochet rush soccer](https://www.gamepix.com/pt/play/ricochet-rush-soccer) — watch / game-title-not-search-demand; source=gamepix-pt
-- [snake switch](https://www.gamepix.com/pt/play/snake-switch) — watch / game-title-not-search-demand; source=gamepix-pt
-- [connect game](https://www.gamepix.com/pt/play/connect-game) — watch / game-title-not-search-demand; source=gamepix-pt
-- [wall bounce](https://www.gamepix.com/pt/play/wall-bounce) — watch / game-title-not-search-demand; source=gamepix-pt
-- [neon blade runner](https://www.gamepix.com/pt/play/neon-blade-runner) — watch / game-title-not-search-demand; source=gamepix-pt
-- [fumbleby junction](https://www.gamepix.com/pt/play/fumbleby-junction) — watch / game-title-not-search-demand; source=gamepix-pt
-- [pelt palace](https://www.gamepix.com/pt/play/pelt-palace) — watch / game-title-not-search-demand; source=gamepix-pt
-- [2d hockey](https://www.gamepix.com/pt/play/2d-hockey) — watch / game-title-not-search-demand; source=gamepix-pt
-- [json render and chat sdk agents](https://vercel.com/changelog/json-render-and-chat-sdk-agents) — review / product-content-not-search-demand; source=vercel-product-watch
-- [humans and ampersand now available on ai gateway](https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway) — review / product-content-not-search-demand; source=vercel-product-watch
-- [ai gateway adds deepseek search and fetch tools](https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools) — review / product-content-not-search-demand; source=vercel-product-watch
-- [caveman proxy unofficial](https://railway.com/deploy/caveman-proxy-unofficial) — review / deployment-topic-not-search-demand; source=railway-templates
-- [openmaic 2](https://railway.com/deploy/openmaic-2) — low / numbered-deploy-template; source=railway-templates
-- [cron worker primitives](https://railway.com/deploy/cron-worker-primitives) — review / deployment-topic-not-search-demand; source=railway-templates
-- [storypane](https://railway.com/deploy/storypane) — review / deployment-topic-not-search-demand; source=railway-templates
-- [evolution api 7](https://railway.com/deploy/evolution-api-7) — low / numbered-deploy-template; source=railway-templates
-- [iac job processing guide](https://railway.com/deploy/iac-job-processing-guide) — review / deployment-topic-not-search-demand; source=railway-templates
-- [pg pinecone](https://railway.com/deploy/pg-pinecone) — review / deployment-topic-not-search-demand; source=railway-templates
-- [anythingmcp 1](https://railway.com/deploy/anythingmcp-1) — low / numbered-deploy-template; source=railway-templates
-- [erpnext 1](https://railway.com/deploy/erpnext-1) — low / numbered-deploy-template; source=railway-templates
-- [open notebook kokoro](https://railway.com/deploy/open-notebook-kokoro) — review / deployment-topic-not-search-demand; source=railway-templates
-- [ollama open webui 1](https://railway.com/deploy/ollama-open-webui-1) — low / numbered-deploy-template; source=railway-templates
-- [kafka native](https://railway.com/deploy/kafka-native) — review / deployment-topic-not-search-demand; source=railway-templates
-- [kali linux kali](https://railway.com/deploy/kali-linux--kali) — review / deployment-topic-not-search-demand; source=railway-templates
-- [bullet bot development](https://railway.com/deploy/bullet-bot-development) — review / deployment-topic-not-search-demand; source=railway-templates
-- [debian 1](https://railway.com/deploy/debian-1) — low / numbered-deploy-template; source=railway-templates
-- [dify 119](https://railway.com/deploy/dify-119) — low / numbered-deploy-template; source=railway-templates
-- [fleetms](https://railway.com/deploy/fleetms) — review / deployment-topic-not-search-demand; source=railway-templates
-- [nodejs 26 typescript starter](https://railway.com/deploy/nodejs-26-typescript-starter) — review / deployment-topic-not-search-demand; source=railway-templates
-- [fastapi metered api](https://railway.com/deploy/fastapi-metered-api) — review / deployment-topic-not-search-demand; source=railway-templates
-- [databunker](https://railway.com/deploy/databunker) — review / deployment-topic-not-search-demand; source=railway-templates
-- [carnet de combat](https://railway.com/deploy/carnet-de-combat) — review / deployment-topic-not-search-demand; source=railway-templates
-- [11 06 workspace token management](https://railway.com/changelog/2026-11-06-workspace-token-management) — review / product-content-not-search-demand; source=railway-changelog
-- [standflow](https://www.producthunt.com/products/standflow) — review / product-content-not-search-demand; source=producthunt-products
-- [deal pilot](https://www.producthunt.com/products/deal-pilot) — review / product-content-not-search-demand; source=producthunt-products
-- [switchy](https://www.producthunt.com/products/switchy) — review / product-content-not-search-demand; source=producthunt-products
-- [google omni 1 2 flash](https://www.producthunt.com/products/google-omni-1-2-flash) — review / product-content-not-search-demand; source=producthunt-products
-- [the writer s quarter](https://www.producthunt.com/products/the-writer-s-quarter) — review / product-content-not-search-demand; source=producthunt-products
-- [fleeep](https://www.producthunt.com/products/fleeep) — review / product-content-not-search-demand; source=producthunt-products
-- [livereview](https://www.producthunt.com/products/livereview) — review / product-content-not-search-demand; source=producthunt-products
-- [sequence tool](https://www.producthunt.com/products/sequence-tool) — review / product-content-not-search-demand; source=producthunt-products
-- [duly life organizer](https://www.producthunt.com/products/duly-life-organizer) — review / product-content-not-search-demand; source=producthunt-products
-- [capnot](https://www.producthunt.com/products/capnot) — review / product-content-not-search-demand; source=producthunt-products
-- [dino kids](https://www.producthunt.com/products/dino-kids) — review / product-content-not-search-demand; source=producthunt-products
-- [quest d8e9c4e8 cc0d 4b07 baee e3dbf712c279](https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279) — review / product-content-not-search-demand; source=producthunt-products
+- [unochess yvj](https://www.crazygames.com/es/game/unochess-yvj) — watch / game-title-not-search-demand; source=crazygames-es
+- [slideways rally hsv](https://www.crazygames.com/es/game/slideways-rally-hsv) — watch / game-title-not-search-demand; source=crazygames-es
+- [reboot shop](https://www.crazygames.com/es/game/reboot-shop) — watch / game-title-not-search-demand; source=crazygames-es
+- [don t trust the tutorial igy](https://www.crazygames.com/es/game/don-t-trust-the-tutorial-igy) — watch / game-title-not-search-demand; source=crazygames-es
+- [bouncetron opj](https://www.crazygames.com/es/game/bouncetron-opj) — watch / game-title-not-search-demand; source=crazygames-es
+- [bulk url status checker](https://apify.com/actor-forge/bulk-url-status-checker) — review / tool-intent-wording-not-verified; source=apify-actors-a
+- [pinterest search scraper](https://apify.com/anuarbakty/pinterest-search-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [chi arrests](https://apify.com/alauddinburki/chi-arrests) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [dewu poizon scraper](https://apify.com/ahmed_jasarevic/dewu-poizon-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [dal police arrests](https://apify.com/alauddinburki/dal-police-arrests) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [google ads library scraper](https://apify.com/anuarbakty/google-ads-library-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [yc jobs scraper](https://apify.com/angelrxdriguez/yc-jobs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [product hunt launches](https://apify.com/ailu_studio/product-hunt-launches) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [nasa images](https://apify.com/alaudinburki/nasa-images) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [stackexchange question monitor](https://apify.com/accountable_eel/stackexchange-question-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [xing jobs scraper](https://apify.com/angelrxdriguez/xing-jobs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [bulk file downloader](https://apify.com/actor-forge/bulk-file-downloader) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [discourse forum monitor](https://apify.com/accountable_eel/discourse-forum-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [bulk image downloader](https://apify.com/actor-forge/bulk-image-downloader) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [youtube transcript scraper](https://apify.com/agentflow/youtube-transcript-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [http request runner](https://apify.com/actor-forge/http-request-runner) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [nasa exoplanet archive radar](https://apify.com/adaptive_nightmare/nasa-exoplanet-archive-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [open meteo marine](https://apify.com/alaudinburki/open-meteo-marine) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [eventbrite scraper](https://apify.com/aboo.script/eventbrite-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [remote jobs aggregator](https://apify.com/angadseth/remote-jobs-aggregator) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [cardmarket com scraper](https://apify.com/abotapi/cardmarket-com-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [b2b hiring intent lead pipeline](https://apify.com/apexsignal/b2b-hiring-intent-lead-pipeline) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [google trends fast json](https://apify.com/andque/google-trends-fast-json) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [coinbase market products radar](https://apify.com/adaptive_nightmare/coinbase-market-products-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [nyc tlc approved labcorp patient services drug test](https://apify.com/alauddinburki/nyc-tlc-approved-labcorp-patient-services-drug-test) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [groupon ae scraper](https://apify.com/aboo.script/groupon-ae-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [uk gender pay gap lookup](https://apify.com/accountable_eel/uk-gender-pay-gap-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [domain email stack lookup](https://apify.com/andque/domain-email-stack-lookup) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [google trends scraper](https://apify.com/alhadikhan/google-trends-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [website contact enricher](https://apify.com/angadseth/website-contact-enricher) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [shopify store products](https://apify.com/ailu_studio/shopify-store-products) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [govdeals scraper](https://apify.com/ahmed_jasarevic/govdeals-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [met museum artworks radar](https://apify.com/adaptive_nightmare/met-museum-artworks-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [restaurant leads](https://apify.com/actor-forge/restaurant-leads) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [doha tickets scraper](https://apify.com/aboo.script/doha-tickets-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [rss feed reader](https://apify.com/ailu_studio/rss-feed-reader) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [open meteo archive](https://apify.com/alaudinburki/open-meteo-archive) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [uniprot protein database radar](https://apify.com/adaptive_nightmare/uniprot-protein-database-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [uspto trademark application monitor](https://apify.com/apex-nexus/uspto-trademark-application-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [dubaichambers scraper](https://apify.com/aboo.script/dubaichambers-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [google trends scraper](https://apify.com/angelrxdriguez/google-trends-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [swiss jobs scraper](https://apify.com/angelrxdriguez/swiss-jobs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [smb ats jobs api](https://apify.com/ailu_studio/smb-ats-jobs-api) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [pdf text extractor](https://apify.com/angadseth/pdf-text-extractor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [ncbi pubmed papers radar](https://apify.com/adaptive_nightmare/ncbi-pubmed-papers-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [getmyboat scraper](https://apify.com/ahmed_jasarevic/getmyboat-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [homelight scraper](https://apify.com/ahmed_jasarevic/homelight-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [art institute artworks](https://apify.com/alaudinburki/art-institute-artworks) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [my actor](https://apify.com/absolute_frost/my-actor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [workday jobs scraper](https://apify.com/angelrxdriguez/workday-jobs-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [ats jobs delta feed](https://apify.com/andque/ats-jobs-delta-feed) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [tiktok audience demographics](https://apify.com/ahmed_jasarevic/tiktok-audience-demographics) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [fourvenues scraper](https://apify.com/aboo.script/fourvenues-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [bluesky posts search](https://apify.com/ailu_studio/bluesky-posts-search) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [sportsbet au scraper](https://apify.com/abotapi/sportsbet-au-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [nyc dob now build approved permits](https://apify.com/alauddinburki/nyc-dob-now-build-approved-permits) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [vendor status incident alerts](https://apify.com/accountable_eel/vendor-status-incident-alerts) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [website screenshot](https://apify.com/angadseth/website-screenshot) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [remote jobs aggregator](https://apify.com/adhistory/remote-jobs-aggregator) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [huggingface model release monitor](https://apify.com/accountable_eel/huggingface-model-release-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [bulk url redirect status ssl health checker](https://apify.com/reaperoak/bulk-url-redirect-status-ssl-health-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [url status ssl checker](https://apify.com/redfoxscout/url-status-ssl-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [ai crawler robots txt access checker](https://apify.com/reaperoak/ai-crawler-robots-txt-access-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [realtor mortgage calculator](https://apify.com/realtorscraper/realtor-mortgage-calculator) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [seo meta checker](https://apify.com/redfoxscout/seo-meta-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [ai lead generator apollo alternative google maps scraper](https://apify.com/redoubtable_bubble/ai-lead-generator---apollo-alternative-google-maps-scraper) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [realtor refinance calculator](https://apify.com/realtorscraper/realtor-refinance-calculator) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [rss feed converter](https://apify.com/ryumoon-data/rss-feed-converter) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [texas bar receipts tracker](https://apify.com/recordstack/texas-bar-receipts-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [property lead generator properties and details scraper](https://apify.com/realestateapi/property-lead-generator-properties-and-details-scraper) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [bunnings stock checker](https://apify.com/s_actors/bunnings-stock-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [google maps geo grid rank tracker](https://apify.com/scrapebench/google-maps-geo-grid-rank-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [email security checker](https://apify.com/redfoxscout/email-security-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [app store top charts tracker by category](https://apify.com/reaperoak/app-store-top-charts-tracker-by-category) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [bulk domain authority checker](https://apify.com/rt-solutions/bulk-domain-authority-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [app store google play keyword rank tracker](https://apify.com/reaperoak/app-store-google-play-keyword-rank-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [currys stock checker](https://apify.com/s_actors/currys-stock-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [realtor buy vs rent calculator](https://apify.com/realtorscraper/realtor-buy-vs-rent-calculator) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [instagram download scraper](https://apify.com/reapx/instagram-download-scraper) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [sec form 4 insider tracker](https://apify.com/red.cars/sec-form-4-insider-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [texas restaurant inspection tracker](https://apify.com/recordstack/texas-restaurant-inspection-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [uspto trademark checker bulk](https://apify.com/reaperoak/uspto-trademark-checker-bulk) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [yc new founders tracker](https://apify.com/red.cars/yc-new-founders-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [sahpra medicines register](https://apify.com/sa-registers/sahpra-medicines-register) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [sanctions pep screening api ofac eu uk](https://apify.com/reclarative_kernel/sanctions-pep-screening-api-ofac-eu-uk) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [telegram search scraper](https://apify.com/reapx/telegram-search-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [kalshi perps funding rate scraper](https://apify.com/scrapebench/kalshi-perps-funding-rate-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [pinterest board scraper](https://apify.com/red.cars/pinterest-board-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [web page to markdown](https://apify.com/rocketyard/web-page-to-markdown) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [realtor foreclosure properties](https://apify.com/realtorscraper/realtor-foreclosure-properties) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [vndb visual novel scraper](https://apify.com/recordsdata/vndb-visual-novel-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [rednote data scraper](https://apify.com/reapx/rednote-data-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [mastodon federation intelligence pro](https://apify.com/red.cars/mastodon-federation-intelligence-pro) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [mgfimoveis br scraper](https://apify.com/recordsdata/mgfimoveis-br-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [lento properties and details scraper](https://apify.com/realestateapi/lento-properties-and-details-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
 
 ## Source interpretation
 
