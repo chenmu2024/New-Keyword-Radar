@@ -8,12 +8,16 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：126/135；数据生成：2026-11-07T04:31:52.772909+08:00；详细候选：8540；7日轻量URL证据：12086/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-07T17:10:47.909802+08:00；详细候选：8868；7日轻量URL证据：12444/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：28/33来源，配置根域 30，新建基线 0，失败 5，新增 URL 138，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 158，采样上限遗漏 0。
 
+- **kingmoon**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - y8.com · y8-en · 2026-11-02 · https://www.y8.com/games/kingmoon · 原词 kingmoon
+  - gamedistribution.com · gamedistribution-games · 2026-11-07 · https://gamedistribution.com/games/kingmoon/ · 原词 kingmoon
+  - gamepix.com · gamepix-pt · 2026-11-07 · https://www.gamepix.com/pt/play/kingmoon · 原词 kingmoon
 - **ninja sword dash**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - 1001games.com · 1001games-en · 2026-11-03 · https://www.1001games.com/arcade/ninja-sword-dash · 原词 ninja sword dash
   - bgames.com · bgames-en · 2026-11-06 · https://www.bgames.com/game/ninja-sword-dash/ · 原词 ninja sword dash
@@ -30,6 +34,9 @@
 - **geometry vibes 2 online**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - playgama.com · playgama-en · 2026-11-04 · https://playgama.com/game/geometry-vibes-2-online · 原词 geometry vibes 2 online
   - kizi.com · kizi-en · 2026-11-05 · https://kizi.com/games/geometry-vibes-2-online · 原词 geometry vibes 2 online
+- **glowball**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamepix.com · gamepix-pt · 2026-11-05 · https://www.gamepix.com/pt/play/glowball · 原词 glowball
+  - playgama.com · playgama-en · 2026-11-07 · https://playgama.com/game/glowball · 原词 glowball
 - **hot pot chef**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - 1001games.com · 1001games-en · 2026-11-03 · https://www.1001games.com/think/hot-pot-chef · 原词 hot pot chef
   - kizi.com · kizi-en · 2026-11-05 · https://kizi.com/games/hot-pot-chef · 原词 hot pot chef
@@ -39,18 +46,12 @@
 - **parkour block maker**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - bgames.com · bgames-en · 2026-11-03 · https://www.bgames.com/game/parkour-block-maker/ · 原词 parkour block maker
   - kizi.com · kizi-en · 2026-11-05 · https://kizi.com/games/parkour-block-maker · 原词 parkour block maker
-- **playdough school**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamedistribution.com · gamedistribution-games · 2026-11-02 · https://gamedistribution.com/games/playdough-school/ · 原词 playdough school
-  - y8.com · y8-en · 2026-11-04 · https://www.y8.com/games/playdough_school · 原词 playdough school
-- **punch through**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - playgama.com · playgama-en · 2026-11-03 · https://playgama.com/game/punch-through · 原词 punch through
-  - y8.com · y8-en · 2026-11-04 · https://www.y8.com/games/punch_through_ · 原词 punch through
 
-失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；gamedistribution-games (HTTPError: HTTP Error 502: Bad Gateway)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
+失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 40，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 142，采样上限遗漏 0。
 
 - **tapmap**：不同根域 4 家；同一天峰值 2 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-02 · https://fazier.com/launches/tapmap · 原词 tapmap
@@ -70,6 +71,14 @@
   - producthunt.com · producthunt-products · 2026-11-04 · https://www.producthunt.com/products/prelulu · 原词 prelulu
   - productperch.com · productperch-products · 2026-11-04 · https://productperch.com/products/prelulu/ · 原词 prelulu
   - startupbase.io · startupbase-products · 2026-11-04 · https://startupbase.io/products/prelulu · 原词 prelulu
+- **aeo action**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - saasworthy.com · saasworthy-products · 2026-11-02 · https://www.saasworthy.com/product/aeo-action · 原词 aeo action
+  - fazier.com · fazier-launches · 2026-11-06 · https://fazier.com/launches/aeo-action · 原词 aeo action
+  - uneed.best · uneed-products · 2026-11-07 · https://www.uneed.best/tool/aeo-action · 原词 aeo action
+- **doremi**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - productperch.com · productperch-products · 2026-11-03 · https://productperch.com/products/doremi/ · 原词 doremi
+  - uneed.best · uneed-products · 2026-11-04 · https://www.uneed.best/tool/doremi · 原词 doremi
+  - indieneed.com · indieneed-products · 2026-11-07 · https://www.indieneed.com/products/doremi · 原词 doremi
 - **gleeday**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - saasworthy.com · saasworthy-products · 2026-11-02 · https://www.saasworthy.com/product/gleeday · 原词 gleeday
   - fazier.com · fazier-launches · 2026-11-05 · https://fazier.com/launches/gleeday · 原词 gleeday
@@ -84,18 +93,12 @@
 - **amw suite**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - startupbase.io · startupbase-products · 2026-11-02 · https://startupbase.io/products/amw-suite · 原词 amw suite
   - saascity.io · saascity-products · 2026-11-03 · https://saascity.io/live/amw-suite · 原词 amw suite
-- **anyfeat**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - fazier.com · fazier-launches · 2026-11-05 · https://fazier.com/launches/anyfeat · 原词 anyfeat
-  - uneed.best · uneed-products · 2026-11-05 · https://www.uneed.best/tool/anyfeat · 原词 anyfeat
-- **automater ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - productperch.com · productperch-products · 2026-11-04 · https://productperch.com/products/automater-ai/ · 原词 automater ai
-  - pitchwall.co · pitchwall-products · 2026-11-05 · https://pitchwall.co/product/automater-ai · 原词 automater ai
 
 失败来源：microlaunch-products (TimeoutError: The read operation timed out)
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 32，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 13，采样上限遗漏 0。
 
 - **ai clothes changer**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - dang.ai · dangai-tools · 2026-11-05 · https://dang.ai/tool/ai-clothes-changer · 原词 ai clothes changer
@@ -138,7 +141,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 1，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 12，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -146,7 +149,7 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 329，采样上限遗漏 171。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 51，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -176,6 +179,11 @@
   - saas · fazier-launches · 2026-11-02 · https://fazier.com/launches/scenemixer
   - saas · startupbase-products · 2026-11-03 · https://startupbase.io/products/scenemixer
   - saas · uneed-products · 2026-11-05 · https://www.uneed.best/tool/scenemixer
+- aeo action：独立根域 4 家；类别 ai, saas
+  - saas · saasworthy-products · 2026-11-02 · https://www.saasworthy.com/product/aeo-action
+  - ai · aitoptools-tools · 2026-11-05 · https://aitoptools.com/tool/aeo-action/
+  - saas · fazier-launches · 2026-11-06 · https://fazier.com/launches/aeo-action
+  - saas · uneed-products · 2026-11-07 · https://www.uneed.best/tool/aeo-action
 - le scribe audio：独立根域 4 家；类别 ai, saas
   - saas · productperch-products · 2026-11-01 · https://productperch.com/products/le-scribe-audio/
   - saas · saasworthy-products · 2026-11-02 · https://www.saasworthy.com/product/le-scribe-audio
@@ -203,10 +211,6 @@
   - developer · devhunt-tools · 2026-11-03 · https://devhunt.org/tool/plimo
   - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo
   - ai · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/plimo
-- aeo action：独立根域 3 家；类别 ai, saas
-  - saas · saasworthy-products · 2026-11-02 · https://www.saasworthy.com/product/aeo-action
-  - ai · aitoptools-tools · 2026-11-05 · https://aitoptools.com/tool/aeo-action/
-  - saas · fazier-launches · 2026-11-06 · https://fazier.com/launches/aeo-action
 
 ### 跨类别同向文件转换
 
