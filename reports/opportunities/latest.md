@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-07T16:44:41.508078+00:00
+- Updated (UTC): 2026-11-07T21:44:14.300244+00:00
 - Historical candidates: 4273
-- Newly recorded from pending: 122
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 2969
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 5dplanner [Global] — discovered — first 2026-11-08, last 2026-11-08
-- amnesty scheme mvd kerala [Global] — discovered — first 2026-11-08, last 2026-11-08
-- asset creation failed. uploader is not id verified. [Global] — discovered — first 2026-11-08, last 2026-11-08
-- basketball stars [Global] — discovered — first 2026-11-08, last 2026-11-08
-- beckett sennecke instagram story [Global] — discovered — first 2026-11-08, last 2026-11-08
-- brian benson balla manager [Global] — discovered — first 2026-11-08, last 2026-11-08
+- zoom uploader [Global] — discovered — first 2026-11-08, last 2026-11-08
+- online casino ohne limit 🇩🇪 www.stefancasino.com [Global] — discovered — first 2026-11-08, last 2026-11-08
+- hostinger discount code [Global] — discovered — first 2026-11-08, last 2026-11-08
 - casino online casinod.pw 🇦🇹 [Global] — discovered — first 2026-11-08, last 2026-11-08
-- casino online zockercheck.sbs 🇩🇪 [Global] — discovered — first 2026-11-08, last 2026-11-08
+- led light connector [Global] — discovered — first 2026-11-08, last 2026-11-08
+- ps4 explorer [Global] — discovered — first 2026-11-08, last 2026-11-08
 - casino online österreich 🇦🇹 zockercheck.sbs [Global] — discovered — first 2026-11-08, last 2026-11-08
-- casino online 🇩🇪 www.stefancasino.online [Global] — discovered — first 2026-11-08, last 2026-11-08
-- cat 2026 admit card [Global] — discovered — first 2026-11-08, last 2026-11-08
-- chess com [Global] — discovered — first 2026-11-08, last 2026-11-08
-- cod reducere carvertical [Global] — discovered — first 2026-11-08, last 2026-11-08
-- code interpreter と は [Global] — discovered — first 2026-11-08, last 2026-11-08
-- codetantra [Global] — discovered — first 2026-11-08, last 2026-11-08
-- connector for string light [Global] — discovered — first 2026-11-08, last 2026-11-08
-- crochet christmas tree pattern [Global] — discovered — first 2026-11-08, last 2026-11-08
-- disguise a turkey template [Global] — discovered — first 2026-11-08, last 2026-11-08
-- doors gamemode creator [Global] — discovered — first 2026-11-08, last 2026-11-08
-- dragon ball composer [Global] — discovered — first 2026-11-08, last 2026-11-08
-- dressmaker steam indie game success [Global] — discovered — first 2026-11-08, last 2026-11-08
+- mgi zip navigator [Global] — discovered — first 2026-11-08, last 2026-11-08
+- floor scraper machine [Global] — discovered — first 2026-11-08, last 2026-11-08
+- jeevan pramaan life certificate download [Global] — discovered — first 2026-11-08, last 2026-11-08
+- nordpass password manager [Global] — discovered — first 2026-11-08, last 2026-11-08
 - eala game today [Global] — discovered — first 2026-11-08, last 2026-11-08
-- education planner bc [Global] — discovered — first 2026-11-08, last 2026-11-08
-- egyptian symbol key of life [Global] — discovered — first 2026-11-08, last 2026-11-08
-- egyptian symbol known as the key of life [Global] — discovered — first 2026-11-08, last 2026-11-08
+- jackery explorer 600v2 [Global] — discovered — first 2026-11-08, last 2026-11-08
+- ocarina of time treasure chest game pattern [Global] — discovered — first 2026-11-08, last 2026-11-08
+- online casino 🇦🇹 zockercheck.sbs 🇦🇹 [Global] — discovered — first 2026-11-08, last 2026-11-08
+- naf cockpit voice recorder found [Global] — discovered — first 2026-11-08, last 2026-11-08
+- î€‡what are ai guardrails in software developmentî ‡ [Global] — discovered — first 2026-11-08, last 2026-11-08
+- why compact discs read from the inside out [Global] — discovered — first 2026-11-08, last 2026-11-08
+- wilderness first responder course [Global] — discovered — first 2026-11-08, last 2026-11-08
+- ltk creator login [Global] — discovered — first 2026-11-08, last 2026-11-08
+- 노드 vpn [Global] — discovered — first 2026-11-08, last 2026-11-08
+- tnpsc apply online [Global] — discovered — first 2026-11-08, last 2026-11-08
+- json comparator [Global] — discovered — first 2026-11-08, last 2026-11-08
+- linkedin post date extractor [Global] — discovered — first 2026-11-08, last 2026-11-08
+- eldorado roblox [Global] — discovered — first 2026-11-08, last 2026-11-08
 
 ## Due for follow-up
 
