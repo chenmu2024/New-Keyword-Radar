@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-11-07T10:03:22.832357+00:00",
-  "social_generated_at": "2026-11-07T10:03:22.832357+00:00",
+  "generated_at": "2026-11-07T16:49:50.971814+00:00",
+  "social_generated_at": "2026-11-07T16:49:50.971814+00:00",
   "trends_coverage": {
-    "archive_date": "2026-11-07",
+    "archive_date": "2026-11-08",
     "scanned_seed_count": 74,
     "target_seed_count": 74,
     "complete_daily_target": true,
-    "rising_total": 477,
-    "eligible_exact_queries": 426
+    "rising_total": 501,
+    "eligible_exact_queries": 444
   },
-  "social_unique_in_run": 59,
+  "social_unique_in_run": 63,
   "review_window": {
     "trend_days_evaluated": [
+      {
+        "archive_date": "2026-11-08",
+        "scanned_seed_count": 74,
+        "target_seed_count": 74,
+        "complete_daily_target": true,
+        "rising_total": 501,
+        "eligible_exact_queries": 444
+      },
       {
         "archive_date": "2026-11-07",
         "scanned_seed_count": 74,
@@ -27,20 +35,12 @@
         "complete_daily_target": true,
         "rising_total": 472,
         "eligible_exact_queries": 415
-      },
-      {
-        "archive_date": "2026-11-05",
-        "scanned_seed_count": 74,
-        "target_seed_count": 74,
-        "complete_daily_target": true,
-        "rising_total": 478,
-        "eligible_exact_queries": 421
       }
     ],
-    "exact_queries_in_window": 626,
-    "social_current_run": 59,
-    "social_prior_sightings_72h": 265,
-    "social_reviewable_72h": 324,
+    "exact_queries_in_window": 645,
+    "social_current_run": 63,
+    "social_prior_sightings_72h": 266,
+    "social_reviewable_72h": 329,
     "window_hours": 72,
     "not_new_discoveries_warning": "Window includes older links recently re-seen. Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."
   },
@@ -91,31 +91,6 @@
   "self_reported_buyer_feedback": [],
   "candidates": [
     {
-      "query": "portable generator",
-      "relative_rising_value": 50.0,
-      "seed": "generator",
-      "sources": {
-        "bluesky": 1
-      },
-      "links": [
-        {
-          "platform": "bluesky",
-          "url": "https://bsky.app/profile/sciencelizard.bsky.social/post/3mzmfiymcds2a",
-          "title": "Even a portable generator is good for the fridge ! There are models that aren’t impossible to move and function as inverters (reduce risk of frying your laptop if your fridge comp",
-          "published_at": "2026-11-06T03:04:13.166000+00:00",
-          "evidence_type": "direct_public_post",
-          "potential_first_person_question": false,
-          "verified_customer_demand": false,
-          "original_comments_verified": false
-        }
-      ],
-      "independent_platforms": 1,
-      "distinct_urls": 1,
-      "original_post_question_hints": 0,
-      "ready_to_build": false,
-      "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
-    },
-    {
       "query": "google drive",
       "relative_rising_value": 40.0,
       "seed": "uploader",
@@ -129,6 +104,31 @@
           "title": "[RECORD] Muse StegOS Node / KV session — 2026-10-29",
           "published_at": "2026-10-29T10:29:53+00:00",
           "evidence_type": "direct_public_issue_api",
+          "potential_first_person_question": false,
+          "verified_customer_demand": false,
+          "original_comments_verified": false
+        }
+      ],
+      "independent_platforms": 1,
+      "distinct_urls": 1,
+      "original_post_question_hints": 0,
+      "ready_to_build": false,
+      "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
+    },
+    {
+      "query": "portable generator",
+      "relative_rising_value": 40.0,
+      "seed": "generator",
+      "sources": {
+        "bluesky": 1
+      },
+      "links": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/sciencelizard.bsky.social/post/3mzmfiymcds2a",
+          "title": "Even a portable generator is good for the fridge ! There are models that aren’t impossible to move and function as inverters (reduce risk of frying your laptop if your fridge comp",
+          "published_at": "2026-11-06T03:04:13.166000+00:00",
+          "evidence_type": "direct_public_post",
           "potential_first_person_question": false,
           "verified_customer_demand": false,
           "original_comments_verified": false

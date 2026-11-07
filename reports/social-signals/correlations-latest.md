@@ -1,22 +1,15 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-07T10:03:22.832357+00:00
-- Source last updated: 2026-11-07T10:03:22.832357+00:00
-- Trends archive: 2026-11-07 (74/74; complete=True)
-- Eligible multiword rising queries: 426
+- Generated: 2026-11-07T16:49:50.971814+00:00
+- Source last updated: 2026-11-07T16:49:50.971814+00:00
+- Trends archive: 2026-11-08 (74/74; complete=True)
+- Eligible multiword rising queries: 444
 - Cross-source matches within 72h review window: 2
-- Social current-run links: 59, prior recent sightings: 265
-- Search archives examined: 2026-11-07, 2026-11-06, 2026-11-05
+- Social current-run links: 63, prior recent sightings: 266
+- Search archives examined: 2026-11-08, 2026-11-07, 2026-11-06
 - Direct-post question-derived QUERY HYPOTHESES: 3
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
-
-## portable generator
-
-- Relative Trends rising value: 50.0 (NOT Volume)
-- Distinct matched platforms: 1
-- Direct public-post question hints: 0
-- bluesky: https://bsky.app/profile/sciencelizard.bsky.social/post/3mzmfiymcds2a (direct_public_post)
 
 ## google drive
 
@@ -24,6 +17,13 @@
 - Distinct matched platforms: 1
 - Direct public-post question hints: 0
 - github_issue: https://github.com/StegVerse-Labs/.github/issues/3402 (direct_public_issue_api)
+
+## portable generator
+
+- Relative Trends rising value: 40.0 (NOT Volume)
+- Distinct matched platforms: 1
+- Direct public-post question hints: 0
+- bluesky: https://bsky.app/profile/sciencelizard.bsky.social/post/3mzmfiymcds2a (direct_public_post)
 
 ## Original public-post question hints (NOT validated search keywords)
 
