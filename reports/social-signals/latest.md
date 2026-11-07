@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-06T23:43:24.631276+00:00
+# V4 Social signal discovery — 2026-11-07T10:03:22.832357+00:00
 
-- Unique links this run: 59, newly seen: 17, history: 1200
+- Unique links this run: 59, newly seen: 40, history: 1240
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -11,52 +11,52 @@
 - x: empty (0) — Search-index-only coverage. Original post/comments unverified.
 - producthunt: ok (6)
 - huggingface: ok (6)
-- bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
+- bluesky: ok (5) — Direct public post text, not verified customer payment or SEO demand.
 - mastodon: ok (1) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
-- existing_free_intelligence_bridge: ok (34)
+- existing_free_intelligence_bridge: ok (35)
 - targeted_github_issues: empty (0)
 
 ## Links (not validated project opportunities)
 
-- [Meadow](https://www.producthunt.com/products/meadow-3) — producthunt — direct_public_feed
-- [pwned.coffee](https://www.producthunt.com/products/pwned-coffee) — producthunt — direct_public_feed
-- [PostMyPace](https://www.producthunt.com/products/postmypace) — producthunt — direct_public_feed
-- [Openroster](https://www.producthunt.com/products/openroster) — producthunt — direct_public_feed
-- [Textwhisk](https://www.producthunt.com/products/textwhisk) — producthunt — direct_public_feed
-- [axel.md](https://www.producthunt.com/products/axel-3) — producthunt — direct_public_feed
-- [oldmenloverx/C.Ai](https://huggingface.co/spaces/oldmenloverx/C.Ai) — huggingface — direct_public_api
-- [prm42195/butthole](https://huggingface.co/spaces/prm42195/butthole) — huggingface — direct_public_api
-- [darkexploits/www.darkexploits.is](https://huggingface.co/spaces/darkexploits/www.darkexploits.is) — huggingface — direct_public_api
-- [dev-willbird1936/lyra-2-water-bear](https://huggingface.co/spaces/dev-willbird1936/lyra-2-water-bear) — huggingface — direct_public_api
-- [JohnVeds15/voice-preserving-translator](https://huggingface.co/spaces/JohnVeds15/voice-preserving-translator) — huggingface — direct_public_api
-- [JohnVeds15/prompt-ambiguity-detector](https://huggingface.co/spaces/JohnVeds15/prompt-ambiguity-detector) — huggingface — direct_public_api
-- [Con dinero de la empresa. Vamos, que no le pido herramienta al jefe, compro lo que necesito y le paso la factura.](https://bsky.app/profile/infilanak.satan.social/post/3mzizkmmrz22e) — bluesky — direct_public_post
-- [Si os dijera que estoy pensando compartir la herramienta que he creado autores ¿Qué os parecería? Estoy pensando en dejársela probar a algunas personas para comprobar que lo que a](https://bsky.app/profile/piramidedeespejo.bsky.social/post/3mzboeus6ik2a) — bluesky — direct_public_post
-- [Yo no necesito valoración sobre el tamaño de mi "herramienta" está muy bien, no he tenido quejas ni las tengo yo.. hay quien dice que es grande, para mí es medio normal, también es](https://bsky.app/profile/brokench.bsky.social/post/3mz3trit4622f) — bluesky — direct_public_post
-- [Creo que se ha ido para siempre, porque no tengo ninguna intención de reinstalar a corto plazo. También te digo que si tú tienes tanto control sobre esa herramienta, perfecto (yo n](https://bsky.app/profile/mazapanes.bsky.social/post/3mz23wx4lsc2r) — bluesky — direct_public_post
-- [Necesito parar y analizar este "comunicado" que nos enviaron ayer en el condo... Ignoremos lo obvio, el mal uso de una herramienta que podría ser útil, pero que más bien se ha usad](https://bsky.app/profile/unodien.bsky.social/post/3myzkd562uc24) — bluesky — direct_public_post
-- [Can Yaman: hola amigos kebab cual es tu sabiduría Yo: La huelga general es la única herramienta capaz de hacer ceder al capital, Ganjaman. Juntos acabaremos con la opresión capit](https://bsky.app/profile/amigoskebab.bsky.social/post/3myzde5kfps2y) — bluesky — direct_public_post
-- [There is a proper measure in all things, certain limits beyond which and short of which right is not to be found. -- Horace, Satires I For more quotes, see https:// lzon.ca/quotes](https://mastodon.social/@lzon/117571297898315298) — mastodon — direct_public_post
+- [ClarifierAI for Chrome](https://www.producthunt.com/products/clarifierai-rewrite-text-2) — producthunt — direct_public_feed
+- [Duly](https://www.producthunt.com/products/duly-life-organizer) — producthunt — direct_public_feed
+- [Deal Pilot](https://www.producthunt.com/products/deal-pilot) — producthunt — direct_public_feed
+- [LiveReview](https://www.producthunt.com/products/livereview) — producthunt — direct_public_feed
+- [Dino Kids](https://www.producthunt.com/products/dino-kids) — producthunt — direct_public_feed
+- [Google Omni 1.2 Flash](https://www.producthunt.com/products/google-omni-1-2-flash) — producthunt — direct_public_feed
+- [bhanuprakashg/First_agent_template](https://huggingface.co/spaces/bhanuprakashg/First_agent_template) — huggingface — direct_public_api
+- [Masumbd55555/gemini-demo](https://huggingface.co/spaces/Masumbd55555/gemini-demo) — huggingface — direct_public_api
+- [FaisalALMallah/team-012-nutri-trackio](https://huggingface.co/spaces/FaisalALMallah/team-012-nutri-trackio) — huggingface — direct_public_api
+- [milindkamat0507/demo_gradio](https://huggingface.co/spaces/milindkamat0507/demo_gradio) — huggingface — direct_public_api
+- [realnatlus/qatar-scam-shield](https://huggingface.co/spaces/realnatlus/qatar-scam-shield) — huggingface — direct_public_api
+- [intsoft/comenta-webhooks-hmac](https://huggingface.co/spaces/intsoft/comenta-webhooks-hmac) — huggingface — direct_public_api
+- [I'm not sure you can say that California has been a generator of stellar candidates in the 20 years they've had top 2. Somewhat is doing a lot of work there.](https://bsky.app/profile/pdxpolyscijunkie.bsky.social/post/3mzp6ieowj22p) — bluesky — direct_public_post — intent keyword found
+- [no kidding this is most fun I had with the create mod and it doesn't stop there, there's ways to make a full on generator by taking rotational force to make electricity from say: w](https://bsky.app/profile/ar-bubblecat.bsky.social/post/3mzoujgcwf22d) — bluesky — direct_public_post — intent keyword found
+- [Free Monogram Generator: Create Custom Designs Instantly](https://bsky.app/profile/bloglink.bsky.social/post/3mzotay5geq24) — bluesky — direct_public_post — intent keyword found
+- [⚠️ HostAway is reporting an Incident since 00:15 UTC "Running on generator" Affects: Colocation Power Live timeline → https://pingoru.io/providers/hostaway/incidents/12474089 #](https://bsky.app/profile/pingoru.bsky.social/post/3mzomvp7tlb2y) — bluesky — direct_public_post — intent keyword found
+- [Don't be distracted by it. Miller is there to be the random chaos generator. He's awful, and has his own evil agenda, but we really ought to be watching Russell Vought. Vought w](https://bsky.app/profile/seeker47.bsky.social/post/3mzo7ag32mk2h) — bluesky — direct_public_post — intent keyword found
+- [# Development # Approaches Just put some HTML on the web · “It’s a good idea to have less stuff that can be hacked.” https:// ilo.im/16hcub _____ # Websites # IndieWeb # SmallWeb #](https://mastodon.social/@inautilo/117573736640795402) — mastodon — direct_public_post
 - [Ask HN: What in the world is taking Ubuntu so long?](https://news.ycombinator.com/item?id=50393105) — hackernews_ask — direct_public_post
-- [Tell HN: Be Careful with Stripe Connect](https://news.ycombinator.com/item?id=50398646) — hackernews_ask — direct_public_post
+- [Claude usage credits purchased after Dec 7 will expire 12 months after purchase](https://news.ycombinator.com/item?id=50399909) — hackernews_ask — direct_public_post
 - [Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)](https://news.ycombinator.com/item?id=50363461) — hackernews_ask — direct_public_post
-- [Slickdeals.net Is Compromised](https://news.ycombinator.com/item?id=50397121) — hackernews_ask — direct_public_post
 - [Ask HN: What's your current AI agentic setup?](https://news.ycombinator.com/item?id=50366117) — hackernews_ask — direct_public_post
-- [A new protocol and software suite for AIs](https://news.ycombinator.com/item?id=50397008) — hackernews_ask — direct_public_post
-- [Cleverence](https://www.reddit.com/r/Cleverence) — reddit — public_rss_excerpt
-- [Pasture and Livestock Management App](https://www.reddit.com/r/Ranching/comments/1xp1lfd/pasture_and_livestock_management_app) — reddit — public_rss_excerpt
-- [Pasture and Livestock Management App](https://www.reddit.com/r/livestock/comments/1xp1jfo/pasture_and_livestock_management_app) — reddit — public_rss_excerpt
-- [Pasture and Livestock Management App](https://www.reddit.com/r/homestead/comments/1xp1ijc/pasture_and_livestock_management_app) — reddit — public_rss_excerpt
-- [Ask HN: Building KasirCepat, an offline-first POS for Indonesia](https://news.ycombinator.com/item?id=49692067) — hackernews_ask — indexed_public_post_excerpt
-- [A 30 Year OG Application Developer Available](https://news.ycombinator.com/item?id=48668766) — hackernews_ask — indexed_public_post_excerpt
-- [Ask HN: Will we ever do something about patent trolls?](https://news.ycombinator.com/item?id=47718079) — hackernews_ask — indexed_public_post_excerpt
-- [Wine Registry Seeks Co-Founder](https://news.ycombinator.com/item?id=47461759) — hackernews_ask — indexed_public_post_excerpt
-- [Move every Odoo instance to Odoo 20 Community (Q870)](https://github.com/cbusillo/odoo-devkit/issues/277) — github_issue — direct_public_issue_api
-- [M1 coverage: expand EN/RU subjects and evaluate identity and signal counterexamples](https://github.com/drevendev/Dayflare/issues/14) — github_issue — direct_public_issue_api
-- [[WORKBENCH FLEET[INTEGRATION ASSESSMENT First-party reliable multi-host operator experience — reuse existing owners](https://github.com/mastermindx-market-intelligence/Mastermind/issues/539) — github_issue — direct_public_issue_api — intent keyword found
-- [Coordination — Zoinks ↔ Claude](https://github.com/Sevorcer/loop/issues/337) — github_issue — direct_public_issue_api
+- [Ask HN: What cryptography book do you recommend for reading with 10 year olds?](https://news.ycombinator.com/item?id=50347425) — hackernews_ask — direct_public_post
+- [Tell HN: Be Careful with Stripe Connect](https://news.ycombinator.com/item?id=50398646) — hackernews_ask — direct_public_post
+- [cli-messaging: merges into main and release runs — announce here first](https://github.com/WireCatLabs/cli-core/issues/849) — github_issue — direct_public_issue_api
+- [CI incident 2026-10-20: residual test failures + jobless workflows (production recovered)](https://github.com/andylitvinov-design/books/issues/1419) — github_issue — direct_public_issue_api
+- [Roadmap 2: from first slices to competitor-depth process and task intelligence](https://github.com/KAVentures/openworkgraph/issues/326) — github_issue — direct_public_issue_api
+- [[TEAM NAYA Coordination feed — successor to #2793](https://github.com/SoulSchoolAcademy/NayaPOWER/issues/3066) — github_issue — direct_public_issue_api
+- [Reddit's favorite Sport V](https://www.reddit.com/r/SVRiders) — reddit — public_rss_excerpt
+- [[Hiring Student Housing Monitor & Auto-Checkout Bot - $100](https://www.reddit.com/r/ForHireFreelance/comments/1xpuq3r/hiring_student_housing_monitor_autocheckout_bot) — reddit — public_rss_excerpt
+- [[Hiring Student Housing Monitor & Auto-Checkout Bot - $100](https://www.reddit.com/r/forhire/comments/1xpuo2w/hiring_student_housing_monitor_autocheckout_bot) — reddit — public_rss_excerpt
+- [Daily Questions Megathread November 07, 2026](https://www.reddit.com/r/BlueArchive/comments/1xpumcb/daily_questions_megathread_november_07_2026) — reddit — public_rss_excerpt
 - [Ask HN: What's still broken in SoC 2 readiness and audit prep?](https://news.ycombinator.com/item?id=46396889) — hackernews_ask — indexed_public_post_excerpt
 - [AI Agents Are Quietly Taking over Project Management](https://news.ycombinator.com/item?id=45618229) — hackernews_ask — indexed_public_post_excerpt
 - [The problem of scheduling life like a spreadsheet](https://news.ycombinator.com/item?id=45006853) — hackernews_ask — indexed_public_post_excerpt
+- [My Friend Raised Her Seed Round in 17 Days](https://news.ycombinator.com/item?id=44112008) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
+- [🧭 AGENT BOARD: claim, update, pause and finish here (all agents, all TAKATAK repos)](https://github.com/takatakca/foodhubca/issues/105) — github_issue — direct_public_issue_api
+- [Hanouty Master Easy Code — five-track continuous modernization work board](https://github.com/hmasprod-a11y/LOGICA-Recovery/issues/94) — github_issue — direct_public_issue_api
+- [Launch the Mingla Sites foundation with the Gogi pilot](https://github.com/Mingla-LLC/mingla-main/issues/2830) — github_issue — direct_public_issue_api — intent keyword found
+- [Invoice OCR API for Logistics Expense Tracking Automation](https://news.ycombinator.com/item?id=47362152) — hackernews_ask — indexed_public_post_excerpt
