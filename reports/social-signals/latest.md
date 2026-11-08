@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-08T02:28:11.752294+00:00
+# V4 Social signal discovery — 2026-11-08T10:17:23.270514+00:00
 
-- Unique links this run: 55, newly seen: 32, history: 1304
+- Unique links this run: 54, newly seen: 15, history: 1319
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -11,7 +11,7 @@
 - x: empty (0) — Search-index-only coverage. Original post/comments unverified.
 - producthunt: ok (6)
 - huggingface: ok (6)
-- bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
+- bluesky: ok (5) — Direct public post text, not verified customer payment or SEO demand.
 - mastodon: ok (1) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
@@ -20,31 +20,30 @@
 
 ## Links (not validated project opportunities)
 
-- [Quest](https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279) — producthunt — direct_public_feed
-- [Fleeep](https://www.producthunt.com/products/fleeep) — producthunt — direct_public_feed
-- [Sequence Tool](https://www.producthunt.com/products/sequence-tool) — producthunt — direct_public_feed — intent keyword found
-- [GPT‑6 Cyber](https://www.producthunt.com/products/openai) — producthunt — direct_public_feed
-- [Capnot](https://www.producthunt.com/products/capnot) — producthunt — direct_public_feed
-- [Exa Monitors v2](https://www.producthunt.com/products/exa-ai) — producthunt — direct_public_feed
-- [marhh/file](https://huggingface.co/spaces/marhh/file) — huggingface — direct_public_api
-- [bsulivn/First_agent_template](https://huggingface.co/spaces/bsulivn/First_agent_template) — huggingface — direct_public_api
-- [ersaytech/errs](https://huggingface.co/spaces/ersaytech/errs) — huggingface — direct_public_api
-- [WellmatixGenAI/ai-material-card-poc](https://huggingface.co/spaces/WellmatixGenAI/ai-material-card-poc) — huggingface — direct_public_api
-- [Bonghit/grok-gpu-mcp](https://huggingface.co/spaces/Bonghit/grok-gpu-mcp) — huggingface — direct_public_api
-- [marhh/filetofilebot](https://huggingface.co/spaces/marhh/filetofilebot) — huggingface — direct_public_api
-- [check out thprac, they give you a customizable practice mode github.com/touhouworldc... (you need the beta version to use it with New Classic currently)](https://bsky.app/profile/asriel.balloon.moe/post/3mzrdfvhb2c2l) — bluesky — direct_public_post
-- [The transactional part is what I'd want to know more about. If a script calls three tools and the third one fails, do the first two roll back, or does each tool need its own undo?](https://bsky.app/profile/dhanushkumarsivaji.bsky.social/post/3mzrc2ppze22t) — bluesky — direct_public_post — intent keyword found
-- [He knew the data was bad; election officials told him so. MS law says that when you kick someone off voter rolls, you need to inform them...so he had a single notice mailed to the](https://bsky.app/profile/roguesecunit.bsky.social/post/3mzrbavfbf22m) — bluesky — direct_public_post
-- [I decided long ago not to. Loomer didnt sit in the Sit Room, or just walk into the Oval. Someone in the building pointed the knife. The knife doesn’t need to understand the hand. I](https://bsky.app/profile/juliacurlee.bsky.social/post/3mzr7sxoiz22w) — bluesky — direct_public_post — intent keyword found
-- [Give it a minute to render and it will drop the audio only M4A file in the same folder. Enjoy! And if you need to convert a movie file from a different format to MP4 for this, I hi](https://bsky.app/profile/scottmarshall.bsky.social/post/3mzr4iimmv22n) — bluesky — direct_public_post — intent keyword found
-- [I'd argue that one need not disclose their methods because you're not entitled to their process in the first place. It's also a discriminatory ask, because you're not demanding the](https://bsky.app/profile/ecutruin.bsky.social/post/3mzr4genld22j) — bluesky — direct_public_post — intent keyword found
-- [One viral video, remade for a different niche Before: a viral relationship-advice clip. After: the same hook and pacing, with a new character and a diet script. What niche would yo](https://mastodon.social/@rankmarket99/117576224558624094) — mastodon — direct_public_post
+- [Deduplication](https://www.producthunt.com/products/hacker-noon) — producthunt — direct_public_feed
+- [Zigzag Browser](https://www.producthunt.com/products/zigzag-3) — producthunt — direct_public_feed
+- [NotchX](https://www.producthunt.com/products/notch-11) — producthunt — direct_public_feed
+- [Textly](https://www.producthunt.com/products/textly-capture-copy-paste) — producthunt — direct_public_feed
+- [Frameboy by World Labs](https://www.producthunt.com/products/marble-by-world-labs) — producthunt — direct_public_feed
+- [NotchIsland](https://www.producthunt.com/products/notchisland-2) — producthunt — direct_public_feed
+- [hhyhah/newbot](https://huggingface.co/spaces/hhyhah/newbot) — huggingface — direct_public_api
+- [MbappeStgall/MbappeDeStGallDetecteur](https://huggingface.co/spaces/MbappeStgall/MbappeDeStGallDetecteur) — huggingface — direct_public_api
+- [xtiangarcia/DERMAVISION](https://huggingface.co/spaces/xtiangarcia/DERMAVISION) — huggingface — direct_public_api
+- [Ivan006/Asena-ESP32](https://huggingface.co/spaces/Ivan006/Asena-ESP32) — huggingface — direct_public_api
+- [Ahmedramizant/video-tool](https://huggingface.co/spaces/Ahmedramizant/video-tool) — huggingface — direct_public_api — intent keyword found
+- [quandaica/webgis-hcm](https://huggingface.co/spaces/quandaica/webgis-hcm) — huggingface — direct_public_api
+- [Earlier today I discovered that the command line argument that causes CMake with the MSVC generator to build a 64-bit build will 100% of the time result in an unrecoverable error o](https://bsky.app/profile/dryad.technology/post/3mzqyanaf5s2w) — bluesky — direct_public_post — intent keyword found
+- [Sci-fi Fan: "That piece there is a Zolan Micro-shield generator. It absorbed the majority of the wave pulse generator grenade's destructive power, keeping the hero safe." Writer a](https://bsky.app/profile/lizzy3d.bsky.social/post/3mzqqdhgzsk2z) — bluesky — direct_public_post — intent keyword found
+- [I'm not sure you can say that California has been a generator of stellar candidates in the 20 years they've had top 2. Somewhat is doing a lot of work there.](https://bsky.app/profile/pdxpolyscijunkie.bsky.social/post/3mzp6ieowj22p) — bluesky — direct_public_post — intent keyword found
+- [no kidding this is most fun I had with the create mod and it doesn't stop there, there's ways to make a full on generator by taking rotational force to make electricity from say: w](https://bsky.app/profile/ar-bubblecat.bsky.social/post/3mzoujgcwf22d) — bluesky — direct_public_post — intent keyword found
+- [Free Monogram Generator: Create Custom Designs Instantly](https://bsky.app/profile/bloglink.bsky.social/post/3mzotay5geq24) — bluesky — direct_public_post — intent keyword found
+- [made a little site that collects the weird, wonderful corners of the web. one click and you're somewhere strange. no ads, no accounts. https:// culdesac.site # indieweb # smallweb](https://mastodon.social/@HobbyBuilder/117579148664170621) — mastodon — direct_public_post
 - [Ask HN: How did you convince family and friends to join your XMPP/Matrix server?](https://news.ycombinator.com/item?id=50405250) — hackernews_ask — direct_public_post
-- [Ask HN: If LLM reverse engineering is deemed illegal, is that precedent for OSS?](https://news.ycombinator.com/item?id=50409438) — hackernews_ask — direct_public_post
-- [Is YouTube starting to protect channel RSS feeds?](https://news.ycombinator.com/item?id=50409244) — hackernews_ask — direct_public_post
 - [Ask HN: What in the world is taking Ubuntu so long?](https://news.ycombinator.com/item?id=50393105) — hackernews_ask — direct_public_post
 - [Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)](https://news.ycombinator.com/item?id=50363461) — hackernews_ask — direct_public_post
 - [Ask HN: What's your current AI agentic setup?](https://news.ycombinator.com/item?id=50366117) — hackernews_ask — direct_public_post
+- [Ask HN: If LLM reverse engineering is deemed illegal, is that precedent for OSS?](https://news.ycombinator.com/item?id=50409438) — hackernews_ask — direct_public_post
+- [Is YouTube starting to protect channel RSS feeds?](https://news.ycombinator.com/item?id=50409244) — hackernews_ask — direct_public_post
 - [[PTYSD-NATIVE OpenCode dispatch and receipts](https://github.com/PT-Original-Point/ptysd-autonomous-factory/issues/407) — github_issue — direct_public_issue_api
 - [Integration coordinator: recurring PR, version and merge coordination](https://github.com/StealthCat/MrPatchy/issues/222) — github_issue — direct_public_issue_api
 - [Master tracker: v10 labeling campaign and remaining release work](https://github.com/Exios66/Mailroom-Corpus-EDA/issues/51) — github_issue — direct_public_issue_api
@@ -60,3 +59,4 @@
 - [Master Control — open items carried forward from #3](https://github.com/Presidente49/gatorbait-media-redesign/issues/34) — github_issue — direct_public_issue_api
 - [CODEX — M28 production analytics / BI hardening, real PG18.6 and five-screen acceptance (30 checks; exclusive lane)](https://github.com/exerateanalytical/synqoria/issues/131) — github_issue — direct_public_issue_api
 - [feat(auth): add safe PostgreSQL production owner bootstrap](https://github.com/mohammedpalash1990-a11y/Fast-Food-Pos/issues/27) — github_issue — direct_public_issue_api — intent keyword found
+- [🧭 AGENT BOARD: claim, update, pause and finish here (all agents, all TAKATAK repos)](https://github.com/takatakca/foodhubca/issues/105) — github_issue — direct_public_issue_api
