@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-08T17:01:31.628672+00:00
+- Updated (UTC): 2026-11-08T21:58:10.927361+00:00
 - Historical candidates: 4480
-- Newly recorded from pending: 121
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 3158
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- a new ore sample [Global] — discovered — first 2026-11-09, last 2026-11-09
-- a new ore sample wow forever [Global] — discovered — first 2026-11-09, last 2026-11-09
-- adeyemi barcelona [Global] — discovered — first 2026-11-09, last 2026-11-09
-- agency navigator [Global] — discovered — first 2026-11-09, last 2026-11-09
-- ai girlfriend simulator [Global] — discovered — first 2026-11-09, last 2026-11-09
-- anti wide leg jeans bilder [Global] — discovered — first 2026-11-09, last 2026-11-09
-- army air force game [Global] — discovered — first 2026-11-09, last 2026-11-09
-- at&t first responder discount [Global] — discovered — first 2026-11-09, last 2026-11-09
-- athena murray fake baby scheme [Global] — discovered — first 2026-11-09, last 2026-11-09
-- aurora viewer [Global] — discovered — first 2026-11-09, last 2026-11-09
-- back to the future the flux cut [Global] — discovered — first 2026-11-09, last 2026-11-09
-- bengals game today [Global] — discovered — first 2026-11-09, last 2026-11-09
-- blox fruit value [Global] — discovered — first 2026-11-09, last 2026-11-09
-- brainfuck interpreter [Global] — discovered — first 2026-11-09, last 2026-11-09
-- brandon aiyuk [Global] — discovered — first 2026-11-09, last 2026-11-09
-- byu utah game [Global] — discovered — first 2026-11-09, last 2026-11-09
-- capcut template diwali [Global] — discovered — first 2026-11-09, last 2026-11-09
+- old three level galley 7 little words [Global] — discovered — first 2026-11-09, last 2026-11-09
+- imgur [Global] — discovered — first 2026-11-09, last 2026-11-09
+- saggy boob scarf crochet pattern [Global] — discovered — first 2026-11-09, last 2026-11-09
+- sbrunga cocrea [Global] — discovered — first 2026-11-09, last 2026-11-09
+- sprunki phase 8 [Global] — discovered — first 2026-11-09, last 2026-11-09
+- delta herrschaft pokemon [Global] — discovered — first 2026-11-09, last 2026-11-09
 - casino online 🇦🇹 zockercheck.sbs [Global] — discovered — first 2026-11-09, last 2026-11-09
-- chess game analyzer [Global] — discovered — first 2026-11-09, last 2026-11-09
-- chest tracker [Global] — discovered — first 2026-11-09, last 2026-11-09
-- chest tracker fortnite [Global] — discovered — first 2026-11-09, last 2026-11-09
-- clever [Global] — discovered — first 2026-11-09, last 2026-11-09
-- columbia first responder discount [Global] — discovered — first 2026-11-09, last 2026-11-09
+- how to use portable extractor fortnite [Global] — discovered — first 2026-11-09, last 2026-11-09
+- bengals game today [Global] — discovered — first 2026-11-09, last 2026-11-09
 - composer of west side story [Global] — discovered — first 2026-11-09, last 2026-11-09
-- crafter recipe [Global] — discovered — first 2026-11-09, last 2026-11-09
+- plätzchen [Global] — discovered — first 2026-11-09, last 2026-11-09
+- sample ballot by address [Global] — discovered — first 2026-11-09, last 2026-11-09
+- chest tracker [Global] — discovered — first 2026-11-09, last 2026-11-09
+- lsu game [Global] — discovered — first 2026-11-09, last 2026-11-09
+- diwali image [Global] — discovered — first 2026-11-09, last 2026-11-09
+- fruit notifier blox fruits script [Global] — discovered — first 2026-11-09, last 2026-11-09
+- wave rider game [Global] — discovered — first 2026-11-09, last 2026-11-09
+- turkey body template [Global] — discovered — first 2026-11-09, last 2026-11-09
+- protocol explorer alpha [Global] — discovered — first 2026-11-09, last 2026-11-09
+- rob run steam [Global] — discovered — first 2026-11-09, last 2026-11-09
+- columbia first responder discount [Global] — discovered — first 2026-11-09, last 2026-11-09
+- live poll tracker [Global] — discovered — first 2026-11-09, last 2026-11-09
+- tnpsc photo editor with name and date online [Global] — discovered — first 2026-11-09, last 2026-11-09
+- clever [Global] — discovered — first 2026-11-09, last 2026-11-09
+- toyota first responder discount [Global] — discovered — first 2026-11-09, last 2026-11-09
 
 ## Due for follow-up
 
