@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-08T03:00:17.387242+08:00；详细候选：9196；7日轻量URL证据：13107/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-08T17:25:24.979273+08:00；详细候选：9515；7日轻量URL证据：13470/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 13，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 68，采样上限遗漏 0。
 
 - **kingmoon**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - y8.com · y8-en · 2026-11-02 · https://www.y8.com/games/kingmoon · 原词 kingmoon
@@ -51,7 +51,7 @@
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 19，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 120，采样上限遗漏 0。
 
 - **tapmap**：不同根域 4 家；同一天峰值 2 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-02 · https://fazier.com/launches/tapmap · 原词 tapmap
@@ -97,8 +97,12 @@
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 21，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 124，采样上限遗漏 0。
 
+- **plimo**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo · 原词 plimo
+  - aitoolnet.com · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/plimo · 原词 plimo
+  - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-08 · https://aitoolsdirectory.com/tool/plimo · 原词 plimo
 - **ai clothes changer**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - dang.ai · dangai-tools · 2026-11-05 · https://dang.ai/tool/ai-clothes-changer · 原词 ai clothes changer
   - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/ai-clothes-changer · 原词 ai clothes changer
@@ -117,18 +121,15 @@
 - **moveframe**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolnet.com · aitoolnet-tools · 2026-11-04 · https://www.aitoolnet.com/moveframe · 原词 moveframe
   - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/moveframe · 原词 moveframe
-- **plimo**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo · 原词 plimo
-  - aitoolnet.com · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/plimo · 原词 plimo
+- **songifted**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/songifted · 原词 songifted
+  - toolveyor.com · toolveyor-tools · 2026-11-08 · https://toolveyor.com/songifted · 原词 songifted
 - **verli**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoptools.com · aitoptools-tools · 2026-11-02 · https://aitoptools.com/tool/verli/ · 原词 verli
   - aitoolnet.com · aitoolnet-tools · 2026-11-03 · https://www.aitoolnet.com/verli · 原词 verli
 - **vmaker ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - toolveyor.com · toolveyor-tools · 2026-11-02 · https://toolveyor.com/vmaker-ai · 原词 vmaker ai
   - aitoolhouse.com · aitoolhouse-tools · 2026-11-04 · https://www.aitoolhouse.com/tools/vmaker-ai · 原词 vmaker ai
-- **willow voice**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/willow-voice · 原词 willow voice
-  - tooldirectory.ai · tooldirectory-ai-tools · 2026-11-07 · https://tooldirectory.ai/tools/willow-voice · 原词 willow voice
 
 ## 计算器
 
@@ -140,7 +141,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 5，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -148,7 +149,7 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 948，采样上限遗漏 629。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 83，采样上限遗漏 0。
 
 - **amazon redshift**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - activepieces.com · activepieces-pieces · 2026-11-03 · https://www.activepieces.com/pieces/amazon-redshift · 原词 amazon redshift
@@ -168,7 +169,7 @@
 
 ## 巴西在线工具
 
-采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 1，采样上限遗漏 0。
+采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 2，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -182,6 +183,12 @@
   - saas · saascity-products · 2026-11-03 · https://saascity.io/live/tapmap
   - saas · startupbase-products · 2026-11-03 · https://startupbase.io/products/tapmap
   - saas · uneed-products · 2026-11-06 · https://www.uneed.best/tool/tapmap
+- plimo：独立根域 5 家；类别 ai, developer, saas
+  - developer · devhunt-tools · 2026-11-03 · https://devhunt.org/tool/plimo
+  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo
+  - ai · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/plimo
+  - ai · aitoolsdirectory-tools · 2026-11-08 · https://aitoolsdirectory.com/tool/plimo
+  - saas · saascity-products · 2026-11-08 · https://saascity.io/live/plimo
 - gleeday：独立根域 4 家；类别 ai, saas
   - saas · saasworthy-products · 2026-11-02 · https://www.saasworthy.com/product/gleeday
   - ai · dangai-tools · 2026-11-05 · https://dang.ai/tool/gleeday
@@ -197,11 +204,6 @@
   - ai · aitoptools-tools · 2026-11-05 · https://aitoptools.com/tool/aeo-action/
   - saas · fazier-launches · 2026-11-06 · https://fazier.com/launches/aeo-action
   - saas · uneed-products · 2026-11-07 · https://www.uneed.best/tool/aeo-action
-- plimo：独立根域 4 家；类别 ai, developer, saas
-  - developer · devhunt-tools · 2026-11-03 · https://devhunt.org/tool/plimo
-  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo
-  - ai · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/plimo
-  - saas · saascity-products · 2026-11-08 · https://saascity.io/live/plimo
 - haipay：独立根域 3 家；类别 developer, saas
   - saas · uneed-products · 2026-11-02 · https://www.uneed.best/tool/haipay
   - saas · smollaunch-products · 2026-11-03 · https://smollaunch.com/products/haipay
