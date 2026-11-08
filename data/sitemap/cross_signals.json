@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-08",
-  "window_start": "2026-11-02",
+  "date": "2026-11-09",
+  "window_start": "2026-11-03",
   "source_count": 135,
-  "queue_count": 9515,
+  "queue_count": 9628,
   "ignored_unverifiable_proofs": 0,
   "groups": {
     "games": [
@@ -44,22 +44,14 @@
       },
       {
         "query": "kingmoon",
-        "independent_websites": 3,
-        "date_span_days": 5,
+        "independent_websites": 2,
+        "date_span_days": 0,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 2,
         "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
+        "seven_calendar_day_total": 2,
         "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/kingmoon",
-            "first_seen": "2026-11-02",
-            "observed_query": "kingmoon",
-            "source_category": "games"
-          },
           {
             "source_id": "gamedistribution-games",
             "website": "gamedistribution.com",
@@ -471,34 +463,6 @@
         ]
       },
       {
-        "query": "playdough school",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/playdough-school/",
-            "first_seen": "2026-11-02",
-            "observed_query": "playdough school",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/playdough_school",
-            "first_seen": "2026-11-04",
-            "observed_query": "playdough school",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "recoil",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -555,6 +519,34 @@
         ]
       },
       {
+        "query": "slalomissimo",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/slalomissimo_",
+            "first_seen": "2026-11-07",
+            "observed_query": "slalomissimo",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/slalomissimo!/",
+            "first_seen": "2026-11-09",
+            "observed_query": "slalomissimo!",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "splash rivals",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -578,42 +570,6 @@
             "url": "https://gamedistribution.com/games/splash-rivals/",
             "first_seen": "2026-11-08",
             "observed_query": "splash rivals",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "paint or hunt",
-        "independent_websites": 3,
-        "date_span_days": 6,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/paint-or-hunt/",
-            "first_seen": "2026-11-02",
-            "observed_query": "paint or hunt",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/paint-or-hunt",
-            "first_seen": "2026-11-05",
-            "observed_query": "paint or hunt",
-            "source_category": "games"
-          },
-          {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/paint-or-hunt/",
-            "first_seen": "2026-11-08",
-            "observed_query": "paint or hunt",
             "source_category": "games"
           }
         ]
@@ -670,6 +626,34 @@
             "url": "https://www.jogos360.com.br/nothing_2_lose.html",
             "first_seen": "2026-11-07",
             "observed_query": "nothing 2 lose",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "paint or hunt",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/paint-or-hunt",
+            "first_seen": "2026-11-05",
+            "observed_query": "paint or hunt",
+            "source_category": "games"
+          },
+          {
+            "source_id": "bgames-en",
+            "website": "bgames.com",
+            "url": "https://www.bgames.com/game/paint-or-hunt/",
+            "first_seen": "2026-11-08",
+            "observed_query": "paint or hunt",
             "source_category": "games"
           }
         ]
@@ -787,34 +771,6 @@
         ]
       },
       {
-        "query": "mustang strike",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/mustang-strike/",
-            "first_seen": "2026-11-02",
-            "observed_query": "mustang strike",
-            "source_category": "games"
-          },
-          {
-            "source_id": "minijuegos-es",
-            "website": "minijuegos.com",
-            "url": "https://www.minijuegos.com/juego/mustang-strike",
-            "first_seen": "2026-11-06",
-            "observed_query": "mustang strike",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "needle quest haystack secrets",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -869,117 +825,9 @@
             "source_category": "games"
           }
         ]
-      },
-      {
-        "query": "zombie hill racing",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/zombie-hill-racing/",
-            "first_seen": "2026-11-02",
-            "observed_query": "zombie hill racing",
-            "source_category": "games"
-          },
-          {
-            "source_id": "1001games-en",
-            "website": "1001games.com",
-            "url": "https://www.1001games.com/race/zombie-hill-racing",
-            "first_seen": "2026-11-06",
-            "observed_query": "zombie hill racing",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "stickman skybow",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/stickman_skybow",
-            "first_seen": "2026-11-02",
-            "observed_query": "stickman skybow",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/stickman-skybow/",
-            "first_seen": "2026-11-07",
-            "observed_query": "stickman skybow",
-            "source_category": "games"
-          }
-        ]
       }
     ],
     "products": [
-      {
-        "query": "tapmap",
-        "independent_websites": 5,
-        "date_span_days": 4,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 4,
-        "seven_calendar_day_total": 5,
-        "evidence": [
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/tapmap",
-            "first_seen": "2026-11-02",
-            "observed_query": "tapmap",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/tapmap",
-            "first_seen": "2026-11-02",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/tapmap",
-            "first_seen": "2026-11-03",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/tapmap",
-            "first_seen": "2026-11-03",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/tapmap",
-            "first_seen": "2026-11-06",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          }
-        ]
-      },
       {
         "query": "plimo",
         "independent_websites": 5,
@@ -1034,22 +882,14 @@
       },
       {
         "query": "gleeday",
-        "independent_websites": 4,
-        "date_span_days": 3,
+        "independent_websites": 3,
+        "date_span_days": 0,
         "priority": "high",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 3,
         "three_calendar_day_peak": 3,
-        "seven_calendar_day_total": 4,
+        "seven_calendar_day_total": 3,
         "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/gleeday",
-            "first_seen": "2026-11-02",
-            "observed_query": "gleeday",
-            "source_category": "saas"
-          },
           {
             "source_id": "dangai-tools",
             "website": "dang.ai",
@@ -1072,94 +912,6 @@
             "url": "https://startupbase.io/products/gleeday",
             "first_seen": "2026-11-05",
             "observed_query": "gleeday",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "scenemixer",
-        "independent_websites": 4,
-        "date_span_days": 3,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 3,
-        "seven_calendar_day_total": 4,
-        "evidence": [
-          {
-            "source_id": "aitoptools-tools",
-            "website": "aitoptools.com",
-            "url": "https://aitoptools.com/tool/scenemixer/",
-            "first_seen": "2026-11-02",
-            "observed_query": "scenemixer",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/scenemixer",
-            "first_seen": "2026-11-02",
-            "observed_query": "scenemixer",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/scenemixer",
-            "first_seen": "2026-11-03",
-            "observed_query": "scenemixer",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/scenemixer",
-            "first_seen": "2026-11-05",
-            "observed_query": "scenemixer",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "aeo action",
-        "independent_websites": 4,
-        "date_span_days": 5,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 3,
-        "seven_calendar_day_total": 4,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/aeo-action",
-            "first_seen": "2026-11-02",
-            "observed_query": "aeo action",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoptools-tools",
-            "website": "aitoptools.com",
-            "url": "https://aitoptools.com/tool/aeo-action/",
-            "first_seen": "2026-11-05",
-            "observed_query": "aeo action",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/aeo-action",
-            "first_seen": "2026-11-06",
-            "observed_query": "aeo action",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/aeo-action",
-            "first_seen": "2026-11-07",
-            "observed_query": "aeo action",
             "source_category": "saas"
           }
         ]
@@ -1201,43 +953,7 @@
         ]
       },
       {
-        "query": "everstamp",
-        "independent_websites": 3,
-        "date_span_days": 2,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 3,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "pitchwall-products",
-            "website": "pitchwall.co",
-            "url": "https://pitchwall.co/product/everstamp",
-            "first_seen": "2026-11-02",
-            "observed_query": "everstamp",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/everstamp",
-            "first_seen": "2026-11-02",
-            "observed_query": "everstamp",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/everstamp",
-            "first_seen": "2026-11-04",
-            "observed_query": "everstamp",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "haipay",
+        "query": "aeo action",
         "independent_websites": 3,
         "date_span_days": 2,
         "priority": "high",
@@ -1247,72 +963,28 @@
         "seven_calendar_day_total": 3,
         "evidence": [
           {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/haipay",
-            "first_seen": "2026-11-02",
-            "observed_query": "haipay",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/haipay",
-            "first_seen": "2026-11-03",
-            "observed_query": "haipay",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/haipay",
-            "first_seen": "2026-11-04",
-            "observed_query": "haipay",
-            "source_category": "developer"
-          }
-        ]
-      },
-      {
-        "query": "uncensoredlabs",
-        "independent_websites": 4,
-        "date_span_days": 4,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 4,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/uncensoredlabs/",
-            "first_seen": "2026-11-02",
-            "observed_query": "uncensoredlabs",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/uncensoredlabs",
-            "first_seen": "2026-11-03",
-            "observed_query": "uncensoredlabs",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "openhunts-projects",
-            "website": "openhunts.com",
-            "url": "https://openhunts.com/projects/uncensoredlabs",
+            "source_id": "aitoptools-tools",
+            "website": "aitoptools.com",
+            "url": "https://aitoptools.com/tool/aeo-action/",
             "first_seen": "2026-11-05",
-            "observed_query": "uncensoredlabs",
+            "observed_query": "aeo action",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/aeo-action",
+            "first_seen": "2026-11-06",
+            "observed_query": "aeo action",
             "source_category": "saas"
           },
           {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/uncensoredlabs",
-            "first_seen": "2026-11-06",
-            "observed_query": "uncensoredlabs",
-            "source_category": "ai"
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/aeo-action",
+            "first_seen": "2026-11-07",
+            "observed_query": "aeo action",
+            "source_category": "saas"
           }
         ]
       },
@@ -1353,7 +1025,7 @@
         ]
       },
       {
-        "query": "wabutton",
+        "query": "tapmap",
         "independent_websites": 3,
         "date_span_days": 3,
         "priority": "medium",
@@ -1363,28 +1035,64 @@
         "seven_calendar_day_total": 3,
         "evidence": [
           {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/wabutton",
-            "first_seen": "2026-11-02",
-            "observed_query": "wabutton",
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/tapmap",
+            "first_seen": "2026-11-03",
+            "observed_query": "tapmap",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/tapmap",
+            "first_seen": "2026-11-03",
+            "observed_query": "tapmap",
             "source_category": "saas"
           },
           {
             "source_id": "uneed-products",
             "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/wabutton",
-            "first_seen": "2026-11-02",
-            "observed_query": "wabutton",
+            "url": "https://www.uneed.best/tool/tapmap",
+            "first_seen": "2026-11-06",
+            "observed_query": "tapmap",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "uncensoredlabs",
+        "independent_websites": 3,
+        "date_span_days": 3,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/uncensoredlabs",
+            "first_seen": "2026-11-03",
+            "observed_query": "uncensoredlabs",
+            "source_category": "developer"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/uncensoredlabs",
+            "first_seen": "2026-11-05",
+            "observed_query": "uncensoredlabs",
             "source_category": "saas"
           },
           {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/wabutton",
-            "first_seen": "2026-11-05",
-            "observed_query": "wabutton",
-            "source_category": "saas"
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/uncensoredlabs",
+            "first_seen": "2026-11-06",
+            "observed_query": "uncensoredlabs",
+            "source_category": "ai"
           }
         ]
       },
@@ -1420,114 +1128,6 @@
             "url": "https://www.indieneed.com/products/doremi",
             "first_seen": "2026-11-07",
             "observed_query": "doremi",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "le scribe audio",
-        "independent_websites": 3,
-        "date_span_days": 4,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/le-scribe-audio",
-            "first_seen": "2026-11-02",
-            "observed_query": "le scribe audio",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/le-scribe-audio",
-            "first_seen": "2026-11-02",
-            "observed_query": "le scribe audio",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/le-scribe-audio",
-            "first_seen": "2026-11-06",
-            "observed_query": "le scribe audio",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "genjutsu ai",
-        "independent_websites": 3,
-        "date_span_days": 5,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/genjutsu-ai",
-            "first_seen": "2026-11-02",
-            "observed_query": "genjutsu ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/genjutsu-ai",
-            "first_seen": "2026-11-07",
-            "observed_query": "genjutsu ai",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/genjutsu-ai",
-            "first_seen": "2026-11-07",
-            "observed_query": "genjutsu ai",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "quizfromtext",
-        "independent_websites": 3,
-        "date_span_days": 5,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/quizfromtext",
-            "first_seen": "2026-11-02",
-            "observed_query": "quizfromtext",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/quizfromtext",
-            "first_seen": "2026-11-06",
-            "observed_query": "quizfromtext",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/quizfromtext/",
-            "first_seen": "2026-11-07",
-            "observed_query": "quizfromtext",
             "source_category": "saas"
           }
         ]
@@ -1617,34 +1217,6 @@
         ]
       },
       {
-        "query": "builtbyindies",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/builtbyindies",
-            "first_seen": "2026-11-02",
-            "observed_query": "builtbyindies",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/builtbyindies",
-            "first_seen": "2026-11-02",
-            "observed_query": "builtbyindies",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "empacer",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -1696,6 +1268,34 @@
             "url": "https://productperch.com/products/fabbo/",
             "first_seen": "2026-11-06",
             "observed_query": "fabbo",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "genjutsu ai",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/genjutsu-ai",
+            "first_seen": "2026-11-07",
+            "observed_query": "genjutsu ai",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/genjutsu-ai",
+            "first_seen": "2026-11-07",
+            "observed_query": "genjutsu ai",
             "source_category": "saas"
           }
         ]
@@ -2009,34 +1609,6 @@
         ]
       },
       {
-        "query": "amw suite",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/amw-suite",
-            "first_seen": "2026-11-02",
-            "observed_query": "amw suite",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/amw-suite",
-            "first_seen": "2026-11-03",
-            "observed_query": "amw suite",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "apogee ads",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -2144,34 +1716,6 @@
             "url": "https://pitchwall.co/product/automater-ai",
             "first_seen": "2026-11-05",
             "observed_query": "automater ai",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "buzzyx",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/buzzyx",
-            "first_seen": "2026-11-02",
-            "observed_query": "buzzyx",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/buzzyx",
-            "first_seen": "2026-11-03",
-            "observed_query": "buzzyx",
             "source_category": "saas"
           }
         ]
@@ -2397,6 +1941,34 @@
             "first_seen": "2026-11-07",
             "observed_query": "gemini omni 1 2 flash",
             "source_category": "ai"
+          }
+        ]
+      },
+      {
+        "query": "haipay",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/haipay",
+            "first_seen": "2026-11-03",
+            "observed_query": "haipay",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/haipay",
+            "first_seen": "2026-11-04",
+            "observed_query": "haipay",
+            "source_category": "developer"
           }
         ]
       },
@@ -2653,7 +2225,7 @@
         ]
       },
       {
-        "query": "ordogrid",
+        "query": "quizfromtext",
         "independent_websites": 2,
         "date_span_days": 1,
         "priority": "medium",
@@ -2663,47 +2235,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/ordogrid",
-            "first_seen": "2026-11-02",
-            "observed_query": "ordogrid",
-            "source_category": "saas"
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/quizfromtext",
+            "first_seen": "2026-11-06",
+            "observed_query": "quizfromtext",
+            "source_category": "ai"
           },
           {
             "source_id": "productperch-products",
             "website": "productperch.com",
-            "url": "https://productperch.com/products/ordogrid/",
-            "first_seen": "2026-11-03",
-            "observed_query": "ordogrid",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "raileon business checkup",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "pitchwall-products",
-            "website": "pitchwall.co",
-            "url": "https://pitchwall.co/product/raileon-business-checkup",
-            "first_seen": "2026-11-02",
-            "observed_query": "raileon business checkup",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/raileon-business-checkup",
-            "first_seen": "2026-11-03",
-            "observed_query": "raileon business checkup",
+            "url": "https://productperch.com/products/quizfromtext/",
+            "first_seen": "2026-11-07",
+            "observed_query": "quizfromtext",
             "source_category": "saas"
           }
         ]
@@ -2956,34 +2500,6 @@
             "url": "https://aitoolboard.com/tools/uppersearch",
             "first_seen": "2026-11-06",
             "observed_query": "uppersearch",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "verli",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "aitoptools-tools",
-            "website": "aitoptools.com",
-            "url": "https://aitoptools.com/tool/verli/",
-            "first_seen": "2026-11-02",
-            "observed_query": "verli",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/verli",
-            "first_seen": "2026-11-03",
-            "observed_query": "verli",
             "source_category": "ai"
           }
         ]
@@ -3717,34 +3233,6 @@
         ]
       },
       {
-        "query": "ice signage",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/ice-signage",
-            "first_seen": "2026-11-02",
-            "observed_query": "ice signage",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/ice-signage",
-            "first_seen": "2026-11-04",
-            "observed_query": "ice signage",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "jotform",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -4249,34 +3737,6 @@
         ]
       },
       {
-        "query": "psl rating",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/psl-rating",
-            "first_seen": "2026-11-02",
-            "observed_query": "psl rating",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/psl-rating",
-            "first_seen": "2026-11-04",
-            "observed_query": "psl rating",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "ramsa speech",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -4328,6 +3788,34 @@
             "url": "https://www.uneed.best/tool/rfpg-reley-fast-property-guru",
             "first_seen": "2026-11-05",
             "observed_query": "rfpg reley fast property guru",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "scenemixer",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/scenemixer",
+            "first_seen": "2026-11-03",
+            "observed_query": "scenemixer",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/scenemixer",
+            "first_seen": "2026-11-05",
+            "observed_query": "scenemixer",
             "source_category": "saas"
           }
         ]
@@ -4557,34 +4045,6 @@
         ]
       },
       {
-        "query": "unleashx",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "producthunt-products",
-            "website": "producthunt.com",
-            "url": "https://www.producthunt.com/products/unleashx",
-            "first_seen": "2026-11-02",
-            "observed_query": "unleashx",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/unleashx",
-            "first_seen": "2026-11-04",
-            "observed_query": "unleashx",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
         "query": "virocraft ai",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -4609,34 +4069,6 @@
             "first_seen": "2026-11-08",
             "observed_query": "virocraft ai",
             "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "vmaker ai",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/vmaker-ai",
-            "first_seen": "2026-11-02",
-            "observed_query": "vmaker ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolhouse-tools",
-            "website": "aitoolhouse.com",
-            "url": "https://www.aitoolhouse.com/tools/vmaker-ai",
-            "first_seen": "2026-11-04",
-            "observed_query": "vmaker ai",
-            "source_category": "ai"
           }
         ]
       },
@@ -4809,34 +4241,6 @@
         ]
       },
       {
-        "query": "aureum",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/aureum",
-            "first_seen": "2026-11-02",
-            "observed_query": "aureum",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/aureum",
-            "first_seen": "2026-11-05",
-            "observed_query": "aureum",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "better",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -4861,62 +4265,6 @@
             "first_seen": "2026-11-06",
             "observed_query": "better",
             "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "coinfinhub",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/coinfinhub",
-            "first_seen": "2026-11-02",
-            "observed_query": "coinfinhub",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "openhunts-projects",
-            "website": "openhunts.com",
-            "url": "https://openhunts.com/projects/coinfinhub",
-            "first_seen": "2026-11-05",
-            "observed_query": "coinfinhub",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "curiouslm",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "producthunt-products",
-            "website": "producthunt.com",
-            "url": "https://www.producthunt.com/products/curiouslm",
-            "first_seen": "2026-11-02",
-            "observed_query": "curiouslm",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/curiouslm",
-            "first_seen": "2026-11-05",
-            "observed_query": "curiouslm",
-            "source_category": "ai"
           }
         ]
       },
@@ -4977,7 +4325,7 @@
         ]
       },
       {
-        "query": "learnx",
+        "query": "lurkapi",
         "independent_websites": 2,
         "date_span_days": 3,
         "priority": "watch",
@@ -4987,20 +4335,20 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/learnx",
-            "first_seen": "2026-11-02",
-            "observed_query": "learnx",
-            "source_category": "saas"
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/lurkapi",
+            "first_seen": "2026-11-06",
+            "observed_query": "lurkapi",
+            "source_category": "ai"
           },
           {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/learnx",
-            "first_seen": "2026-11-05",
-            "observed_query": "learnx",
-            "source_category": "saas"
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/lurkapi",
+            "first_seen": "2026-11-09",
+            "observed_query": "lurkapi",
+            "source_category": "ai"
           }
         ]
       },
@@ -5117,6 +4465,34 @@
         ]
       },
       {
+        "query": "presentation to video",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/presentation-to-video",
+            "first_seen": "2026-11-06",
+            "observed_query": "presentation to video",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/presentation-to-video",
+            "first_seen": "2026-11-09",
+            "observed_query": "presentation to video",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "promptclay",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -5201,6 +4577,34 @@
         ]
       },
       {
+        "query": "the humanizer",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/the-humanizer",
+            "first_seen": "2026-11-06",
+            "observed_query": "the humanizer",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "indietools-products",
+            "website": "indietools.app",
+            "url": "https://www.indietools.app/products/the-humanizer",
+            "first_seen": "2026-11-09",
+            "observed_query": "the humanizer",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "thegametake",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -5257,258 +4661,6 @@
         ]
       },
       {
-        "query": "ai rap video generator",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/ai-rap-video-generator",
-            "first_seen": "2026-11-02",
-            "observed_query": "ai rap video generator",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/ai-rap-video-generator",
-            "first_seen": "2026-11-06",
-            "observed_query": "ai rap video generator",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "aireiter",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/aireiter",
-            "first_seen": "2026-11-02",
-            "observed_query": "aireiter",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/aireiter",
-            "first_seen": "2026-11-06",
-            "observed_query": "aireiter",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "bankstatementmate",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "pitchwall-products",
-            "website": "pitchwall.co",
-            "url": "https://pitchwall.co/product/bankstatementmate",
-            "first_seen": "2026-11-02",
-            "observed_query": "bankstatementmate",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/bankstatementmate",
-            "first_seen": "2026-11-06",
-            "observed_query": "bankstatementmate",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "bulk barcode generator",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "apify-actors-z",
-            "website": "apify.com",
-            "url": "https://apify.com/scrapemint/bulk-barcode-generator",
-            "first_seen": "2026-11-02",
-            "observed_query": "bulk barcode generator",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/bulk-barcode-generator",
-            "first_seen": "2026-11-06",
-            "observed_query": "bulk barcode generator",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "bulk qr code generator",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "apify-actors-z",
-            "website": "apify.com",
-            "url": "https://apify.com/scrapemint/bulk-qr-code-generator",
-            "first_seen": "2026-11-02",
-            "observed_query": "bulk qr code generator",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/bulk-qr-code-generator",
-            "first_seen": "2026-11-06",
-            "observed_query": "bulk qr code generator",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "connectvault",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/connectvault",
-            "first_seen": "2026-11-02",
-            "observed_query": "connectvault",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/connectvault",
-            "first_seen": "2026-11-06",
-            "observed_query": "connectvault",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "deco my tree",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/deco-my-tree",
-            "first_seen": "2026-11-02",
-            "observed_query": "deco my tree",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/deco-my-tree",
-            "first_seen": "2026-11-06",
-            "observed_query": "deco my tree",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "eidora",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/eidora",
-            "first_seen": "2026-11-02",
-            "observed_query": "eidora",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/eidora",
-            "first_seen": "2026-11-06",
-            "observed_query": "eidora",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "face atlas",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/face-atlas",
-            "first_seen": "2026-11-02",
-            "observed_query": "face atlas",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/face-atlas",
-            "first_seen": "2026-11-06",
-            "observed_query": "face atlas",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
         "query": "getplus ai",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -5537,7 +4689,7 @@
         ]
       },
       {
-        "query": "girlfilter",
+        "query": "hmdia login and registration",
         "independent_websites": 2,
         "date_span_days": 4,
         "priority": "watch",
@@ -5547,48 +4699,20 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/girlfilter",
-            "first_seen": "2026-11-02",
-            "observed_query": "girlfilter",
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/hmdia-login-and-registration",
+            "first_seen": "2026-11-05",
+            "observed_query": "hmdia login and registration",
             "source_category": "saas"
           },
           {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/girlfilter",
-            "first_seen": "2026-11-06",
-            "observed_query": "girlfilter",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "higgsfield ai",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/higgsfield-ai",
-            "first_seen": "2026-11-02",
-            "observed_query": "higgsfield ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/higgsfield-ai",
-            "first_seen": "2026-11-06",
-            "observed_query": "higgsfield ai",
-            "source_category": "ai"
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/hmdia-login-and-registration",
+            "first_seen": "2026-11-09",
+            "observed_query": "hmdia login and registration",
+            "source_category": "saas"
           }
         ]
       },
@@ -5621,146 +4745,6 @@
         ]
       },
       {
-        "query": "invoice number generator",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/invoice-number-generator",
-            "first_seen": "2026-11-02",
-            "observed_query": "invoice number generator",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/invoice-number-generator",
-            "first_seen": "2026-11-06",
-            "observed_query": "invoice number generator",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "lawasked",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/lawasked",
-            "first_seen": "2026-11-02",
-            "observed_query": "lawasked",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/lawasked",
-            "first_seen": "2026-11-06",
-            "observed_query": "lawasked",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "modelflare",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/modelflare",
-            "first_seen": "2026-11-02",
-            "observed_query": "modelflare",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/modelflare",
-            "first_seen": "2026-11-06",
-            "observed_query": "modelflare",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "motifdeck",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/motifdeck",
-            "first_seen": "2026-11-02",
-            "observed_query": "motifdeck",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/motifdeck",
-            "first_seen": "2026-11-06",
-            "observed_query": "motifdeck",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "nestmaxx",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/nestmaxx",
-            "first_seen": "2026-11-02",
-            "observed_query": "nestmaxx",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/nestmaxx",
-            "first_seen": "2026-11-06",
-            "observed_query": "nestmaxx",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "opusclip",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -5789,34 +4773,6 @@
         ]
       },
       {
-        "query": "pipefire",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/pipefire",
-            "first_seen": "2026-11-02",
-            "observed_query": "pipefire",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/pipefire",
-            "first_seen": "2026-11-06",
-            "observed_query": "pipefire",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
         "query": "reelai",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -5841,342 +4797,6 @@
             "first_seen": "2026-11-07",
             "observed_query": "reelai",
             "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "refvid",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/refvid",
-            "first_seen": "2026-11-02",
-            "observed_query": "refvid",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/refvid",
-            "first_seen": "2026-11-06",
-            "observed_query": "refvid",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "resleap",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "indietools-products",
-            "website": "indietools.app",
-            "url": "https://www.indietools.app/products/resleap",
-            "first_seen": "2026-11-02",
-            "observed_query": "resleap",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/resleap",
-            "first_seen": "2026-11-06",
-            "observed_query": "resleap",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "sightradar",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/sightradar",
-            "first_seen": "2026-11-02",
-            "observed_query": "sightradar",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/sightradar",
-            "first_seen": "2026-11-06",
-            "observed_query": "sightradar",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "softsync ai",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/softsync-ai",
-            "first_seen": "2026-11-02",
-            "observed_query": "softsync ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/softsync-ai",
-            "first_seen": "2026-11-06",
-            "observed_query": "softsync ai",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "sumi ai manga translator",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/sumi-ai-manga-translator",
-            "first_seen": "2026-11-02",
-            "observed_query": "sumi ai manga translator",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/sumi-ai-manga-translator",
-            "first_seen": "2026-11-06",
-            "observed_query": "sumi ai manga translator",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "talkpix ai",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/talkpix-ai",
-            "first_seen": "2026-11-02",
-            "observed_query": "talkpix ai",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "dangai-tools",
-            "website": "dang.ai",
-            "url": "https://dang.ai/tool/talkpix-ai",
-            "first_seen": "2026-11-06",
-            "observed_query": "talkpix ai",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "tapetide",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/tapetide",
-            "first_seen": "2026-11-02",
-            "observed_query": "tapetide",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/tapetide",
-            "first_seen": "2026-11-06",
-            "observed_query": "tapetide",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "telewizard",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/telewizard",
-            "first_seen": "2026-11-02",
-            "observed_query": "telewizard",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/telewizard",
-            "first_seen": "2026-11-06",
-            "observed_query": "telewizard",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "text to video",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/text-to-video",
-            "first_seen": "2026-11-02",
-            "observed_query": "text to video",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/text-to-video",
-            "first_seen": "2026-11-06",
-            "observed_query": "text to video",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "token360",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/token360",
-            "first_seen": "2026-11-02",
-            "observed_query": "token360",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/token360",
-            "first_seen": "2026-11-06",
-            "observed_query": "token360",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "toolspad",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/toolspad",
-            "first_seen": "2026-11-02",
-            "observed_query": "toolspad",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/toolspad/",
-            "first_seen": "2026-11-06",
-            "observed_query": "toolspad",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "voice cleaner",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/voice-cleaner",
-            "first_seen": "2026-11-02",
-            "observed_query": "voice cleaner",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/voice-cleaner",
-            "first_seen": "2026-11-06",
-            "observed_query": "voice cleaner",
-            "source_category": "ai"
           }
         ]
       },
@@ -6237,34 +4857,6 @@
         ]
       },
       {
-        "query": "google translate",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "apify-actors-z",
-            "website": "apify.com",
-            "url": "https://apify.com/scrapeai/google-translate",
-            "first_seen": "2026-11-02",
-            "observed_query": "google translate",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "dangai-tools",
-            "website": "dang.ai",
-            "url": "https://dang.ai/tool/google-translate",
-            "first_seen": "2026-11-07",
-            "observed_query": "google translate",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
         "query": "palmread online",
         "independent_websites": 2,
         "date_span_days": 5,
@@ -6321,9 +4913,9 @@
         ]
       },
       {
-        "query": "schedulin",
+        "query": "redu cloud",
         "independent_websites": 2,
-        "date_span_days": 5,
+        "date_span_days": 6,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -6331,243 +4923,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/schedulin",
-            "first_seen": "2026-11-02",
-            "observed_query": "schedulin",
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/redu-cloud",
+            "first_seen": "2026-11-03",
+            "observed_query": "redu cloud",
             "source_category": "saas"
           },
           {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/schedulin",
-            "first_seen": "2026-11-07",
-            "observed_query": "schedulin",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "vocal separator",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/vocal-separator",
-            "first_seen": "2026-11-02",
-            "observed_query": "vocal separator",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/vocal-separator",
-            "first_seen": "2026-11-07",
-            "observed_query": "vocal separator",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "amazon q developer",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "tooldirectory-ai-tools",
-            "website": "tooldirectory.ai",
-            "url": "https://tooldirectory.ai/tools/amazon-q-developer",
-            "first_seen": "2026-11-02",
-            "observed_query": "amazon q developer",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/amazon-q-developer",
-            "first_seen": "2026-11-08",
-            "observed_query": "amazon q developer",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "customgpt ai",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "dangai-tools",
-            "website": "dang.ai",
-            "url": "https://dang.ai/tool/customgpt-ai",
-            "first_seen": "2026-11-02",
-            "observed_query": "customgpt ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/customgpt-ai",
-            "first_seen": "2026-11-08",
-            "observed_query": "customgpt ai",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "gemini",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "apify-actors-z",
-            "website": "apify.com",
-            "url": "https://apify.com/scrapeai/gemini",
-            "first_seen": "2026-11-02",
-            "observed_query": "gemini",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/gemini",
-            "first_seen": "2026-11-08",
-            "observed_query": "gemini",
-            "source_category": "developer"
-          }
-        ]
-      },
-      {
-        "query": "google docs",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "apify-actors-z",
-            "website": "apify.com",
-            "url": "https://apify.com/scrapeai/google-docs",
-            "first_seen": "2026-11-02",
-            "observed_query": "google docs",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/google-docs",
-            "first_seen": "2026-11-08",
-            "observed_query": "google docs",
-            "source_category": "developer"
-          }
-        ]
-      },
-      {
-        "query": "google forms",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "apify-actors-z",
-            "website": "apify.com",
-            "url": "https://apify.com/scrapeai/google-forms",
-            "first_seen": "2026-11-02",
-            "observed_query": "google forms",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/google-forms",
-            "first_seen": "2026-11-08",
-            "observed_query": "google forms",
-            "source_category": "developer"
-          }
-        ]
-      },
-      {
-        "query": "google meet",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "apify-actors-z",
-            "website": "apify.com",
-            "url": "https://apify.com/scrapeai/google-meet",
-            "first_seen": "2026-11-02",
-            "observed_query": "google meet",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/google-meet",
-            "first_seen": "2026-11-08",
-            "observed_query": "google meet",
-            "source_category": "developer"
-          }
-        ]
-      },
-      {
-        "query": "zoivu",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/zoivu",
-            "first_seen": "2026-11-02",
-            "observed_query": "zoivu",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/zoivu",
-            "first_seen": "2026-11-08",
-            "observed_query": "zoivu",
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/redu-cloud",
+            "first_seen": "2026-11-09",
+            "observed_query": "redu cloud",
             "source_category": "ai"
           }
         ]
@@ -6577,50 +4945,13 @@
     "functions": []
   },
   "group_counts": {
-    "games": 32,
-    "products": 195,
+    "games": 29,
+    "products": 144,
     "tools": 0,
     "functions": 0
   },
   "by_type": {
     "games": [
-      {
-        "query": "kingmoon",
-        "independent_websites": 3,
-        "date_span_days": 5,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/kingmoon",
-            "first_seen": "2026-11-02",
-            "observed_query": "kingmoon",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/kingmoon/",
-            "first_seen": "2026-11-07",
-            "observed_query": "kingmoon",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/kingmoon",
-            "first_seen": "2026-11-07",
-            "observed_query": "kingmoon",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
       {
         "query": "ninja sword dash",
         "independent_websites": 3,
@@ -6862,6 +5193,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "kingmoon",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/kingmoon/",
+            "first_seen": "2026-11-07",
+            "observed_query": "kingmoon",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/kingmoon",
+            "first_seen": "2026-11-07",
+            "observed_query": "kingmoon",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "parkour block maker",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -6885,35 +5245,6 @@
             "url": "https://kizi.com/games/parkour-block-maker",
             "first_seen": "2026-11-05",
             "observed_query": "parkour block maker",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "playdough school",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/playdough-school/",
-            "first_seen": "2026-11-02",
-            "observed_query": "playdough school",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/playdough_school",
-            "first_seen": "2026-11-04",
-            "observed_query": "playdough school",
             "source_category": "games"
           }
         ],
@@ -7001,6 +5332,35 @@
             "url": "https://www.1001games.com/puzzle/sea-of-words",
             "first_seen": "2026-11-06",
             "observed_query": "sea of words",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "slalomissimo",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/slalomissimo_",
+            "first_seen": "2026-11-07",
+            "observed_query": "slalomissimo",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/slalomissimo!/",
+            "first_seen": "2026-11-09",
+            "observed_query": "slalomissimo!",
             "source_category": "games"
           }
         ],
@@ -7181,43 +5541,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "paint or hunt",
-        "independent_websites": 3,
-        "date_span_days": 6,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/paint-or-hunt/",
-            "first_seen": "2026-11-02",
-            "observed_query": "paint or hunt",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/paint-or-hunt",
-            "first_seen": "2026-11-05",
-            "observed_query": "paint or hunt",
-            "source_category": "games"
-          },
-          {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/paint-or-hunt/",
-            "first_seen": "2026-11-08",
-            "observed_query": "paint or hunt",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "badminton arena",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -7305,35 +5628,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "mustang strike",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/mustang-strike/",
-            "first_seen": "2026-11-02",
-            "observed_query": "mustang strike",
-            "source_category": "games"
-          },
-          {
-            "source_id": "minijuegos-es",
-            "website": "minijuegos.com",
-            "url": "https://www.minijuegos.com/juego/mustang-strike",
-            "first_seen": "2026-11-06",
-            "observed_query": "mustang strike",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "needle quest haystack secrets",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -7386,6 +5680,35 @@
             "url": "https://www.jogos360.com.br/nothing_2_lose.html",
             "first_seen": "2026-11-07",
             "observed_query": "nothing 2 lose",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "paint or hunt",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/paint-or-hunt",
+            "first_seen": "2026-11-05",
+            "observed_query": "paint or hunt",
+            "source_category": "games"
+          },
+          {
+            "source_id": "bgames-en",
+            "website": "bgames.com",
+            "url": "https://www.bgames.com/game/paint-or-hunt/",
+            "first_seen": "2026-11-08",
+            "observed_query": "paint or hunt",
             "source_category": "games"
           }
         ],
@@ -7477,149 +5800,9 @@
           }
         ],
         "cross_signal_origin": "games"
-      },
-      {
-        "query": "stickman skybow",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/stickman_skybow",
-            "first_seen": "2026-11-02",
-            "observed_query": "stickman skybow",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/stickman-skybow/",
-            "first_seen": "2026-11-07",
-            "observed_query": "stickman skybow",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "zombie hill racing",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/zombie-hill-racing/",
-            "first_seen": "2026-11-02",
-            "observed_query": "zombie hill racing",
-            "source_category": "games"
-          },
-          {
-            "source_id": "1001games-en",
-            "website": "1001games.com",
-            "url": "https://www.1001games.com/race/zombie-hill-racing",
-            "first_seen": "2026-11-06",
-            "observed_query": "zombie hill racing",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
       }
     ],
     "saas": [
-      {
-        "query": "tapmap",
-        "independent_websites": 4,
-        "date_span_days": 4,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 3,
-        "seven_calendar_day_total": 4,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/tapmap",
-            "first_seen": "2026-11-02",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/tapmap",
-            "first_seen": "2026-11-03",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/tapmap",
-            "first_seen": "2026-11-03",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/tapmap",
-            "first_seen": "2026-11-06",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "everstamp",
-        "independent_websites": 3,
-        "date_span_days": 2,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 3,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "pitchwall-products",
-            "website": "pitchwall.co",
-            "url": "https://pitchwall.co/product/everstamp",
-            "first_seen": "2026-11-02",
-            "observed_query": "everstamp",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/everstamp",
-            "first_seen": "2026-11-02",
-            "observed_query": "everstamp",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/everstamp",
-            "first_seen": "2026-11-04",
-            "observed_query": "everstamp",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
       {
         "query": "prelulu",
         "independent_websites": 3,
@@ -7652,43 +5835,6 @@
             "url": "https://startupbase.io/products/prelulu",
             "first_seen": "2026-11-04",
             "observed_query": "prelulu",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "aeo action",
-        "independent_websites": 3,
-        "date_span_days": 5,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/aeo-action",
-            "first_seen": "2026-11-02",
-            "observed_query": "aeo action",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/aeo-action",
-            "first_seen": "2026-11-06",
-            "observed_query": "aeo action",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/aeo-action",
-            "first_seen": "2026-11-07",
-            "observed_query": "aeo action",
             "source_category": "saas"
           }
         ],
@@ -7732,7 +5878,7 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "gleeday",
+        "query": "tapmap",
         "independent_websites": 3,
         "date_span_days": 3,
         "priority": "medium",
@@ -7742,101 +5888,56 @@
         "seven_calendar_day_total": 3,
         "evidence": [
           {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/gleeday",
-            "first_seen": "2026-11-02",
-            "observed_query": "gleeday",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/gleeday",
-            "first_seen": "2026-11-05",
-            "observed_query": "gleeday",
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/tapmap",
+            "first_seen": "2026-11-03",
+            "observed_query": "tapmap",
             "source_category": "saas"
           },
           {
             "source_id": "startupbase-products",
             "website": "startupbase.io",
-            "url": "https://startupbase.io/products/gleeday",
-            "first_seen": "2026-11-05",
-            "observed_query": "gleeday",
+            "url": "https://startupbase.io/products/tapmap",
+            "first_seen": "2026-11-03",
+            "observed_query": "tapmap",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/tapmap",
+            "first_seen": "2026-11-06",
+            "observed_query": "tapmap",
             "source_category": "saas"
           }
         ],
         "cross_signal_origin": "products"
       },
       {
-        "query": "scenemixer",
-        "independent_websites": 3,
-        "date_span_days": 3,
+        "query": "aeo action",
+        "independent_websites": 2,
+        "date_span_days": 1,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
         "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
+        "seven_calendar_day_total": 2,
         "evidence": [
           {
             "source_id": "fazier-launches",
             "website": "fazier.com",
-            "url": "https://fazier.com/launches/scenemixer",
-            "first_seen": "2026-11-02",
-            "observed_query": "scenemixer",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/scenemixer",
-            "first_seen": "2026-11-03",
-            "observed_query": "scenemixer",
+            "url": "https://fazier.com/launches/aeo-action",
+            "first_seen": "2026-11-06",
+            "observed_query": "aeo action",
             "source_category": "saas"
           },
           {
             "source_id": "uneed-products",
             "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/scenemixer",
-            "first_seen": "2026-11-05",
-            "observed_query": "scenemixer",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "wabutton",
-        "independent_websites": 3,
-        "date_span_days": 3,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/wabutton",
-            "first_seen": "2026-11-02",
-            "observed_query": "wabutton",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/wabutton",
-            "first_seen": "2026-11-02",
-            "observed_query": "wabutton",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/wabutton",
-            "first_seen": "2026-11-05",
-            "observed_query": "wabutton",
+            "url": "https://www.uneed.best/tool/aeo-action",
+            "first_seen": "2026-11-07",
+            "observed_query": "aeo action",
             "source_category": "saas"
           }
         ],
@@ -7866,35 +5967,6 @@
             "url": "https://openhunts.com/projects/alook",
             "first_seen": "2026-11-05",
             "observed_query": "alook",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "amw suite",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/amw-suite",
-            "first_seen": "2026-11-02",
-            "observed_query": "amw suite",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/amw-suite",
-            "first_seen": "2026-11-03",
-            "observed_query": "amw suite",
             "source_category": "saas"
           }
         ],
@@ -7982,64 +6054,6 @@
             "url": "https://pitchwall.co/product/automater-ai",
             "first_seen": "2026-11-05",
             "observed_query": "automater ai",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "builtbyindies",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/builtbyindies",
-            "first_seen": "2026-11-02",
-            "observed_query": "builtbyindies",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/builtbyindies",
-            "first_seen": "2026-11-02",
-            "observed_query": "builtbyindies",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "buzzyx",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/buzzyx",
-            "first_seen": "2026-11-02",
-            "observed_query": "buzzyx",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/buzzyx",
-            "first_seen": "2026-11-03",
-            "observed_query": "buzzyx",
             "source_category": "saas"
           }
         ],
@@ -8162,58 +6176,29 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "haipay",
+        "query": "gleeday",
         "independent_websites": 2,
-        "date_span_days": 1,
+        "date_span_days": 0,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
+        "same_calendar_day_peak": 2,
         "three_calendar_day_peak": 2,
         "seven_calendar_day_total": 2,
         "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/haipay",
-            "first_seen": "2026-11-02",
-            "observed_query": "haipay",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/haipay",
-            "first_seen": "2026-11-03",
-            "observed_query": "haipay",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "ice signage",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/ice-signage",
-            "first_seen": "2026-11-02",
-            "observed_query": "ice signage",
-            "source_category": "saas"
-          },
           {
             "source_id": "fazier-launches",
             "website": "fazier.com",
-            "url": "https://fazier.com/launches/ice-signage",
-            "first_seen": "2026-11-04",
-            "observed_query": "ice signage",
+            "url": "https://fazier.com/launches/gleeday",
+            "first_seen": "2026-11-05",
+            "observed_query": "gleeday",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/gleeday",
+            "first_seen": "2026-11-05",
+            "observed_query": "gleeday",
             "source_category": "saas"
           }
         ],
@@ -8330,93 +6315,6 @@
             "url": "https://www.uneed.best/tool/myzucoins",
             "first_seen": "2026-11-07",
             "observed_query": "myzucoins",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "ordogrid",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/ordogrid",
-            "first_seen": "2026-11-02",
-            "observed_query": "ordogrid",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/ordogrid/",
-            "first_seen": "2026-11-03",
-            "observed_query": "ordogrid",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "psl rating",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/psl-rating",
-            "first_seen": "2026-11-02",
-            "observed_query": "psl rating",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/psl-rating",
-            "first_seen": "2026-11-04",
-            "observed_query": "psl rating",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "raileon business checkup",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "pitchwall-products",
-            "website": "pitchwall.co",
-            "url": "https://pitchwall.co/product/raileon-business-checkup",
-            "first_seen": "2026-11-02",
-            "observed_query": "raileon business checkup",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/raileon-business-checkup",
-            "first_seen": "2026-11-03",
-            "observed_query": "raileon business checkup",
             "source_category": "saas"
           }
         ],
@@ -8562,6 +6460,35 @@
             "url": "https://toolfound.com/tool/safrom",
             "first_seen": "2026-11-06",
             "observed_query": "safrom",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "scenemixer",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/scenemixer",
+            "first_seen": "2026-11-03",
+            "observed_query": "scenemixer",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/scenemixer",
+            "first_seen": "2026-11-05",
+            "observed_query": "scenemixer",
             "source_category": "saas"
           }
         ],
@@ -8742,35 +6669,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "aureum",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/aureum",
-            "first_seen": "2026-11-02",
-            "observed_query": "aureum",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/aureum",
-            "first_seen": "2026-11-05",
-            "observed_query": "aureum",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "better",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -8794,35 +6692,6 @@
             "url": "https://startupstash.com/tools/better/",
             "first_seen": "2026-11-06",
             "observed_query": "better",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "coinfinhub",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/coinfinhub",
-            "first_seen": "2026-11-02",
-            "observed_query": "coinfinhub",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "openhunts-projects",
-            "website": "openhunts.com",
-            "url": "https://openhunts.com/projects/coinfinhub",
-            "first_seen": "2026-11-05",
-            "observed_query": "coinfinhub",
             "source_category": "saas"
           }
         ],
@@ -8858,36 +6727,7 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "learnx",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/learnx",
-            "first_seen": "2026-11-02",
-            "observed_query": "learnx",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/learnx",
-            "first_seen": "2026-11-05",
-            "observed_query": "learnx",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "nestmaxx",
+        "query": "hmdia login and registration",
         "independent_websites": 2,
         "date_span_days": 4,
         "priority": "watch",
@@ -8897,19 +6737,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/nestmaxx",
-            "first_seen": "2026-11-02",
-            "observed_query": "nestmaxx",
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/hmdia-login-and-registration",
+            "first_seen": "2026-11-05",
+            "observed_query": "hmdia login and registration",
             "source_category": "saas"
           },
           {
             "source_id": "saascity-products",
             "website": "saascity.io",
-            "url": "https://saascity.io/live/nestmaxx",
-            "first_seen": "2026-11-06",
-            "observed_query": "nestmaxx",
+            "url": "https://saascity.io/live/hmdia-login-and-registration",
+            "first_seen": "2026-11-09",
+            "observed_query": "hmdia login and registration",
             "source_category": "saas"
           }
         ],
@@ -9032,35 +6872,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "quizfromtext",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/quizfromtext",
-            "first_seen": "2026-11-02",
-            "observed_query": "quizfromtext",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/quizfromtext/",
-            "first_seen": "2026-11-07",
-            "observed_query": "quizfromtext",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "reelai",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -9084,122 +6895,6 @@
             "url": "https://productperch.com/products/reelai/",
             "first_seen": "2026-11-07",
             "observed_query": "reelai",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "schedulin",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/schedulin",
-            "first_seen": "2026-11-02",
-            "observed_query": "schedulin",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/schedulin",
-            "first_seen": "2026-11-07",
-            "observed_query": "schedulin",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "sumi ai manga translator",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/sumi-ai-manga-translator",
-            "first_seen": "2026-11-02",
-            "observed_query": "sumi ai manga translator",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/sumi-ai-manga-translator",
-            "first_seen": "2026-11-06",
-            "observed_query": "sumi ai manga translator",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "toolspad",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/toolspad",
-            "first_seen": "2026-11-02",
-            "observed_query": "toolspad",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/toolspad/",
-            "first_seen": "2026-11-06",
-            "observed_query": "toolspad",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "uncensoredlabs",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/uncensoredlabs/",
-            "first_seen": "2026-11-02",
-            "observed_query": "uncensoredlabs",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "openhunts-projects",
-            "website": "openhunts.com",
-            "url": "https://openhunts.com/projects/uncensoredlabs",
-            "first_seen": "2026-11-05",
-            "observed_query": "uncensoredlabs",
             "source_category": "saas"
           }
         ],
@@ -9448,64 +7143,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "verli",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "aitoptools-tools",
-            "website": "aitoptools.com",
-            "url": "https://aitoptools.com/tool/verli/",
-            "first_seen": "2026-11-02",
-            "observed_query": "verli",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/verli",
-            "first_seen": "2026-11-03",
-            "observed_query": "verli",
-            "source_category": "ai"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "vmaker ai",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/vmaker-ai",
-            "first_seen": "2026-11-02",
-            "observed_query": "vmaker ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolhouse-tools",
-            "website": "aitoolhouse.com",
-            "url": "https://www.aitoolhouse.com/tools/vmaker-ai",
-            "first_seen": "2026-11-04",
-            "observed_query": "vmaker ai",
-            "source_category": "ai"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "willow voice",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -9529,35 +7166,6 @@
             "url": "https://tooldirectory.ai/tools/willow-voice",
             "first_seen": "2026-11-07",
             "observed_query": "willow voice",
-            "source_category": "ai"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "amazon q developer",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "tooldirectory-ai-tools",
-            "website": "tooldirectory.ai",
-            "url": "https://tooldirectory.ai/tools/amazon-q-developer",
-            "first_seen": "2026-11-02",
-            "observed_query": "amazon q developer",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/amazon-q-developer",
-            "first_seen": "2026-11-08",
-            "observed_query": "amazon q developer",
             "source_category": "ai"
           }
         ],
@@ -9593,174 +7201,29 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "customgpt ai",
+        "query": "lurkapi",
         "independent_websites": 2,
-        "date_span_days": 6,
+        "date_span_days": 3,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
         "three_calendar_day_peak": 1,
         "seven_calendar_day_total": 2,
         "evidence": [
-          {
-            "source_id": "dangai-tools",
-            "website": "dang.ai",
-            "url": "https://dang.ai/tool/customgpt-ai",
-            "first_seen": "2026-11-02",
-            "observed_query": "customgpt ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/customgpt-ai",
-            "first_seen": "2026-11-08",
-            "observed_query": "customgpt ai",
-            "source_category": "ai"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "eidora",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/eidora",
-            "first_seen": "2026-11-02",
-            "observed_query": "eidora",
-            "source_category": "ai"
-          },
           {
             "source_id": "aitoolboard-tools",
             "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/eidora",
+            "url": "https://aitoolboard.com/tools/lurkapi",
             "first_seen": "2026-11-06",
-            "observed_query": "eidora",
-            "source_category": "ai"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "higgsfield ai",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/higgsfield-ai",
-            "first_seen": "2026-11-02",
-            "observed_query": "higgsfield ai",
+            "observed_query": "lurkapi",
             "source_category": "ai"
           },
           {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/higgsfield-ai",
-            "first_seen": "2026-11-06",
-            "observed_query": "higgsfield ai",
-            "source_category": "ai"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "lawasked",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/lawasked",
-            "first_seen": "2026-11-02",
-            "observed_query": "lawasked",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/lawasked",
-            "first_seen": "2026-11-06",
-            "observed_query": "lawasked",
-            "source_category": "ai"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "le scribe audio",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/le-scribe-audio",
-            "first_seen": "2026-11-02",
-            "observed_query": "le scribe audio",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/le-scribe-audio",
-            "first_seen": "2026-11-06",
-            "observed_query": "le scribe audio",
-            "source_category": "ai"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "softsync ai",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/softsync-ai",
-            "first_seen": "2026-11-02",
-            "observed_query": "softsync ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/softsync-ai",
-            "first_seen": "2026-11-06",
-            "observed_query": "softsync ai",
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/lurkapi",
+            "first_seen": "2026-11-09",
+            "observed_query": "lurkapi",
             "source_category": "ai"
           }
         ],
@@ -9798,138 +7261,22 @@
           }
         ],
         "cross_signal_origin": "products"
-      },
-      {
-        "query": "gemini",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "apify-actors-z",
-            "website": "apify.com",
-            "url": "https://apify.com/scrapeai/gemini",
-            "first_seen": "2026-11-02",
-            "observed_query": "gemini",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/gemini",
-            "first_seen": "2026-11-08",
-            "observed_query": "gemini",
-            "source_category": "developer"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "google docs",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "apify-actors-z",
-            "website": "apify.com",
-            "url": "https://apify.com/scrapeai/google-docs",
-            "first_seen": "2026-11-02",
-            "observed_query": "google docs",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/google-docs",
-            "first_seen": "2026-11-08",
-            "observed_query": "google docs",
-            "source_category": "developer"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "google forms",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "apify-actors-z",
-            "website": "apify.com",
-            "url": "https://apify.com/scrapeai/google-forms",
-            "first_seen": "2026-11-02",
-            "observed_query": "google forms",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/google-forms",
-            "first_seen": "2026-11-08",
-            "observed_query": "google forms",
-            "source_category": "developer"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "google meet",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "apify-actors-z",
-            "website": "apify.com",
-            "url": "https://apify.com/scrapeai/google-meet",
-            "first_seen": "2026-11-02",
-            "observed_query": "google meet",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/google-meet",
-            "first_seen": "2026-11-08",
-            "observed_query": "google meet",
-            "source_category": "developer"
-          }
-        ],
-        "cross_signal_origin": "products"
       }
     ],
     "brazil": []
   },
   "by_type_counts": {
-    "games": 32,
-    "saas": 55,
-    "ai": 19,
+    "games": 29,
+    "saas": 37,
+    "ai": 11,
     "calculators": 0,
     "files": 0,
-    "developer": 5,
+    "developer": 1,
     "brazil": 0
   },
-  "delta_ledger_count": 13470,
+  "delta_ledger_count": 10889,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-11-08T17:25:24.979273+08:00",
+  "generated_at": "2026-11-09T03:02:22.184235+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
@@ -9939,7 +7286,7 @@
       "baselines": 0,
       "delta_scans": 29,
       "failed": 4,
-      "new_urls": 68,
+      "new_urls": 4,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -9968,7 +7315,7 @@
       "baselines": 0,
       "delta_scans": 19,
       "failed": 1,
-      "new_urls": 120,
+      "new_urls": 28,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -9985,7 +7332,7 @@
       "baselines": 0,
       "delta_scans": 20,
       "failed": 0,
-      "new_urls": 124,
+      "new_urls": 35,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -10014,7 +7361,7 @@
       "baselines": 0,
       "delta_scans": 18,
       "failed": 2,
-      "new_urls": 0,
+      "new_urls": 10,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -10035,7 +7382,7 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 83,
+      "new_urls": 62,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -10043,13 +7390,18 @@
       "configured_sources": 10,
       "configured_domains": 10,
       "reported": 10,
-      "successful": 10,
+      "successful": 9,
       "baselines": 0,
-      "delta_scans": 10,
-      "failed": 0,
-      "new_urls": 2,
+      "delta_scans": 9,
+      "failed": 1,
+      "new_urls": 0,
       "over_scan_cap": 0,
-      "failed_sources": []
+      "failed_sources": [
+        {
+          "source_id": "devdata4-br",
+          "error": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      ]
     }
   }
 }
