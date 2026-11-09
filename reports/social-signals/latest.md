@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-09T11:27:22.558412+00:00
+# V4 Social signal discovery — 2026-11-09T23:46:56.345023+00:00
 
-- Unique links this run: 56, newly seen: 20, history: 1399
+- Unique links this run: 55, newly seen: 12, history: 1411
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -11,8 +11,8 @@
 - x: empty (0) — Search-index-only coverage. Original post/comments unverified.
 - producthunt: ok (6)
 - huggingface: ok (6)
-- bluesky: ok (5) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (2) — Direct public post text, not verified customer payment or SEO demand.
+- bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: empty (0) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (31)
@@ -20,31 +20,30 @@
 
 ## Links (not validated project opportunities)
 
-- [skuttr](https://www.producthunt.com/products/skuttr) — producthunt — direct_public_feed
-- [ClipsPal](https://www.producthunt.com/products/clipspal) — producthunt — direct_public_feed
-- [ProtoMap](https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2) — producthunt — direct_public_feed
-- [CozyZip](https://www.producthunt.com/products/cozyzip) — producthunt — direct_public_feed
-- [Sign Language by Panda Video](https://www.producthunt.com/products/panda-video) — producthunt — direct_public_feed
+- [Egoist AI Passport](https://www.producthunt.com/products/egoist-ai-passport) — producthunt — direct_public_feed
 - [Terse - Durable Actors](https://www.producthunt.com/products/terse-durable-actors) — producthunt — direct_public_feed
-- [Vikas-789/ai-agent-bot](https://huggingface.co/spaces/Vikas-789/ai-agent-bot) — huggingface — direct_public_api
-- [Makanmak/Mak](https://huggingface.co/spaces/Makanmak/Mak) — huggingface — direct_public_api
-- [daapsaak/Daapsaak](https://huggingface.co/spaces/daapsaak/Daapsaak) — huggingface — direct_public_api
-- [Muthu88/pymasters-ai-lesson-generator](https://huggingface.co/spaces/Muthu88/pymasters-ai-lesson-generator) — huggingface — direct_public_api — intent keyword found
-- [Danil2014/Mzad.com](https://huggingface.co/spaces/Danil2014/Mzad.com) — huggingface — direct_public_api
-- [Suduarshan/sv-forecast-ml](https://huggingface.co/spaces/Suduarshan/sv-forecast-ml) — huggingface — direct_public_api
-- [Then there are contracts for difference- a govt run scheme which guarantees a fixed price for some renewables sites. All suppliers essentially pay into a pot for this. If the whole](https://bsky.app/profile/beardybanjo.bsky.social/post/3mzufpuiqg22s) — bluesky — direct_public_post — intent keyword found
-- [A reasonable recast! I don't think it was the wrong research to do to be clear, but I do think the only thing that makes sense is mixed-initiative tools for anything with a human a](https://bsky.app/profile/matthewguz.bsky.social/post/3mztrxj6rgk2o) — bluesky — direct_public_post — intent keyword found
-- [Earlier today I discovered that the command line argument that causes CMake with the MSVC generator to build a 64-bit build will 100% of the time result in an unrecoverable error o](https://bsky.app/profile/dryad.technology/post/3mzqyanaf5s2w) — bluesky — direct_public_post — intent keyword found
-- [Sci-fi Fan: "That piece there is a Zolan Micro-shield generator. It absorbed the majority of the wave pulse generator grenade's destructive power, keeping the hero safe." Writer a](https://bsky.app/profile/lizzy3d.bsky.social/post/3mzqqdhgzsk2z) — bluesky — direct_public_post — intent keyword found
-- [I'm not sure you can say that California has been a generator of stellar candidates in the 20 years they've had top 2. Somewhat is doing a lot of work there.](https://bsky.app/profile/pdxpolyscijunkie.bsky.social/post/3mzp6ieowj22p) — bluesky — direct_public_post — intent keyword found
-- [a spinning 3d cube. seven divs and some css, no javascript. just transforms and keyframes 🔥 # css # html # webdev # smallweb](https://mastodon.social/@HotPage/117581194559567453) — mastodon — direct_public_post
-- [made a little site that collects the weird, wonderful corners of the web. one click and you're somewhere strange. no ads, no accounts. https:// culdesac.site # indieweb # smallweb](https://mastodon.social/@HobbyBuilder/117579148664170621) — mastodon — direct_public_post
+- [skuttr](https://www.producthunt.com/products/skuttr) — producthunt — direct_public_feed
+- [MCP1](https://www.producthunt.com/products/appwrite) — producthunt — direct_public_feed
+- [Pawse.ai](https://www.producthunt.com/products/pawse-ai) — producthunt — direct_public_feed
+- [GitHub New PR Overview](https://www.producthunt.com/products/github) — producthunt — direct_public_feed
+- [migold/arboters-nlu](https://huggingface.co/spaces/migold/arboters-nlu) — huggingface — direct_public_api
+- [Dluengas/sarangoweb](https://huggingface.co/spaces/Dluengas/sarangoweb) — huggingface — direct_public_api
+- [Grobim/hustle-intro-h3-optimized](https://huggingface.co/spaces/Grobim/hustle-intro-h3-optimized) — huggingface — direct_public_api
+- [rya6irth9/strangers-bot](https://huggingface.co/spaces/rya6irth9/strangers-bot) — huggingface — direct_public_api
+- [oralsurgeryandtoothextraction/oralsurgeryandtoothextractionnj](https://huggingface.co/spaces/oralsurgeryandtoothextraction/oralsurgeryandtoothextractionnj) — huggingface — direct_public_api
+- [Scrappy-Doo/SDK](https://huggingface.co/spaces/Scrappy-Doo/SDK) — huggingface — direct_public_api
+- [Con dinero de la empresa. Vamos, que no le pido herramienta al jefe, compro lo que necesito y le paso la factura.](https://bsky.app/profile/infilanak.satan.social/post/3mzizkmmrz22e) — bluesky — direct_public_post
+- [Si os dijera que estoy pensando compartir la herramienta que he creado autores ¿Qué os parecería? Estoy pensando en dejársela probar a algunas personas para comprobar que lo que a](https://bsky.app/profile/piramidedeespejo.bsky.social/post/3mzboeus6ik2a) — bluesky — direct_public_post
+- [Yo no necesito valoración sobre el tamaño de mi "herramienta" está muy bien, no he tenido quejas ni las tengo yo.. hay quien dice que es grande, para mí es medio normal, también es](https://bsky.app/profile/brokench.bsky.social/post/3mz3trit4622f) — bluesky — direct_public_post
+- [Creo que se ha ido para siempre, porque no tengo ninguna intención de reinstalar a corto plazo. También te digo que si tú tienes tanto control sobre esa herramienta, perfecto (yo n](https://bsky.app/profile/mazapanes.bsky.social/post/3mz23wx4lsc2r) — bluesky — direct_public_post
+- [Necesito parar y analizar este "comunicado" que nos enviaron ayer en el condo... Ignoremos lo obvio, el mal uso de una herramienta que podría ser útil, pero que más bien se ha usad](https://bsky.app/profile/unodien.bsky.social/post/3myzkd562uc24) — bluesky — direct_public_post
+- [Can Yaman: hola amigos kebab cual es tu sabiduría Yo: La huelga general es la única herramienta capaz de hacer ceder al capital, Ganjaman. Juntos acabaremos con la opresión capit](https://bsky.app/profile/amigoskebab.bsky.social/post/3myzde5kfps2y) — bluesky — direct_public_post
 - [ChatGPT Desktop forwards your SSH agent to remote machines](https://news.ycombinator.com/item?id=50422628) — hackernews_ask — direct_public_post
 - [Ask HN: What are you working on? (November 2026)](https://news.ycombinator.com/item?id=50417407) — hackernews_ask — direct_public_post
 - [Ask HN: Do you still enjoy coding in C++?](https://news.ycombinator.com/item?id=50423371) — hackernews_ask — direct_public_post
-- [Ask HN: How your SEO traffic doing? Up or down?](https://news.ycombinator.com/item?id=50423535) — hackernews_ask — direct_public_post
+- [Tell HN: Another GitHub Major Outage](https://news.ycombinator.com/item?id=50429551) — hackernews_ask — direct_public_post
 - [Ask HN: How do you manage your AI agents' context across clients and projects?](https://news.ycombinator.com/item?id=50403153) — hackernews_ask — direct_public_post — intent keyword found
-- [Ask HN: Will Humans Become Useless?](https://news.ycombinator.com/item?id=50422486) — hackernews_ask — direct_public_post
+- [Ask HN: How do you evaluate the skills your AI agents use?](https://news.ycombinator.com/item?id=50426070) — hackernews_ask — direct_public_post
 - [Night crew Nov 8: CTO and coordinator](https://github.com/lamontaes/Political-Game-Git/issues/7365) — github_issue — direct_public_issue_api
 - [SYNQORIA overnight production queue — four agents, exclusive next modules and non-overlap gates](https://github.com/exerateanalytical/synqoria/issues/132) — github_issue — direct_public_issue_api
 - [Revenue reset: prioritize verified cashflow over infrastructure](https://github.com/me-fake-you/clearsheet-offers/issues/3) — github_issue — direct_public_issue_api
@@ -60,3 +59,4 @@
 - [Coordinate DevContainer UAT holding branch and staging-to-review synchronization](https://github.com/OXY7O/KAORI/issues/2227) — github_issue — direct_public_issue_api
 - [[U6-04 Front end, restart menu and the last bridge calls; delete navigation_abi.rs and app::bridge; split uqm-content and uqm-modes](https://github.com/acoliver/uqm/issues/694) — github_issue — direct_public_issue_api
 - [PlanReader agent coordination hub continuation — #3462 reached GitHub 2,500-comment limit](https://github.com/BryceCurran86/PlanReader-3D/issues/4135) — github_issue — direct_public_issue_api
+- [[全11担当・唯一のCLAIM正本 協調開発10枠＋既存オーケストレータ1・公開前統合ゲート](https://github.com/Satofumi-Goto/Satofumi-Goto.github.io/issues/74) — github_issue — direct_public_issue_api
