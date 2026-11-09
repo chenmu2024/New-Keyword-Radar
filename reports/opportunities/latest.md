@@ -1,6 +1,6 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-08T21:58:10.927361+00:00
+- Updated (UTC): 2026-11-09T01:40:33.396887+00:00
 - Historical candidates: 4480
 - Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 3158
