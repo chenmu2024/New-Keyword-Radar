@@ -1,47 +1,11 @@
 {
-  "date": "2026-11-09",
-  "window_start": "2026-11-03",
+  "date": "2026-11-10",
+  "window_start": "2026-11-04",
   "source_count": 135,
-  "queue_count": 10007,
+  "queue_count": 10598,
   "ignored_unverifiable_proofs": 0,
   "groups": {
     "games": [
-      {
-        "query": "ninja sword dash",
-        "independent_websites": 3,
-        "date_span_days": 3,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "1001games-en",
-            "website": "1001games.com",
-            "url": "https://www.1001games.com/arcade/ninja-sword-dash",
-            "first_seen": "2026-11-03",
-            "observed_query": "ninja sword dash",
-            "source_category": "games"
-          },
-          {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/ninja-sword-dash/",
-            "first_seen": "2026-11-06",
-            "observed_query": "ninja sword dash",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/ninja-sword-dash",
-            "first_seen": "2026-11-06",
-            "observed_query": "ninja sword dash",
-            "source_category": "games"
-          }
-        ]
-      },
       {
         "query": "kingmoon",
         "independent_websites": 2,
@@ -71,6 +35,34 @@
         ]
       },
       {
+        "query": "ninja sword dash",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "bgames-en",
+            "website": "bgames.com",
+            "url": "https://www.bgames.com/game/ninja-sword-dash/",
+            "first_seen": "2026-11-06",
+            "observed_query": "ninja sword dash",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/ninja-sword-dash",
+            "first_seen": "2026-11-06",
+            "observed_query": "ninja sword dash",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "wild arrows",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -94,6 +86,34 @@
             "url": "https://playgama.com/game/wild-arrows",
             "first_seen": "2026-11-07",
             "observed_query": "wild arrows",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "bogatyrs",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/bogatyrs/",
+            "first_seen": "2026-11-09",
+            "observed_query": "bogatyrs",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/bogatyrs",
+            "first_seen": "2026-11-10",
+            "observed_query": "bogatyrs",
             "source_category": "games"
           }
         ]
@@ -150,34 +170,6 @@
             "url": "https://www.bgames.com/game/hyper-cars-stunt-racing/",
             "first_seen": "2026-11-06",
             "observed_query": "hyper cars stunt racing",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "punch through",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "playgama-en",
-            "website": "playgama.com",
-            "url": "https://playgama.com/game/punch-through",
-            "first_seen": "2026-11-03",
-            "observed_query": "punch through",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/punch_through_",
-            "first_seen": "2026-11-04",
-            "observed_query": "punch through",
             "source_category": "games"
           }
         ]
@@ -323,34 +315,6 @@
         ]
       },
       {
-        "query": "diamond blast egypt",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/diamond-blast-egypt/",
-            "first_seen": "2026-11-03",
-            "observed_query": "diamond blast egypt",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/diamond-blast-egypt",
-            "first_seen": "2026-11-05",
-            "observed_query": "diamond blast egypt",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "dx ball",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -374,34 +338,6 @@
             "url": "https://www.minijuegos.com/juego/dx-ball",
             "first_seen": "2026-11-07",
             "observed_query": "dx ball",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "fruity 2048",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/fruity-2048/",
-            "first_seen": "2026-11-03",
-            "observed_query": "fruity 2048",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/fruity-2048",
-            "first_seen": "2026-11-05",
-            "observed_query": "fruity 2048",
             "source_category": "games"
           }
         ]
@@ -435,62 +371,6 @@
         ]
       },
       {
-        "query": "hot pot chef",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "1001games-en",
-            "website": "1001games.com",
-            "url": "https://www.1001games.com/think/hot-pot-chef",
-            "first_seen": "2026-11-03",
-            "observed_query": "hot pot chef",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/hot-pot-chef",
-            "first_seen": "2026-11-05",
-            "observed_query": "hot pot chef",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "parkour block maker",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/parkour-block-maker/",
-            "first_seen": "2026-11-03",
-            "observed_query": "parkour block maker",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/parkour-block-maker",
-            "first_seen": "2026-11-05",
-            "observed_query": "parkour block maker",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "recoil",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -501,9 +381,9 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-pt",
+            "source_id": "gamepix-en",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/recoil",
+            "url": "https://www.gamepix.com/play/recoil",
             "first_seen": "2026-11-06",
             "observed_query": "recoil",
             "source_category": "games"
@@ -799,7 +679,7 @@
         ]
       },
       {
-        "query": "klak magnetic stones",
+        "query": "obby plane power challenge fly",
         "independent_websites": 2,
         "date_span_days": 4,
         "priority": "watch",
@@ -808,48 +688,20 @@
         "three_calendar_day_peak": 1,
         "seven_calendar_day_total": 2,
         "evidence": [
-          {
-            "source_id": "playgama-en",
-            "website": "playgama.com",
-            "url": "https://playgama.com/game/klak-magnetic-stones",
-            "first_seen": "2026-11-03",
-            "observed_query": "klak magnetic stones",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/klak-magnetic-stones",
-            "first_seen": "2026-11-07",
-            "observed_query": "klak magnetic stones",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "needle quest haystack secrets",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "playgama-en",
-            "website": "playgama.com",
-            "url": "https://playgama.com/game/needle-quest-haystack-secrets",
-            "first_seen": "2026-11-03",
-            "observed_query": "needle quest haystack secrets",
-            "source_category": "games"
-          },
           {
             "source_id": "minijuegos-es",
             "website": "minijuegos.com",
-            "url": "https://www.minijuegos.com/juego/needle-quest-haystack-secrets",
-            "first_seen": "2026-11-07",
-            "observed_query": "needle quest haystack secrets",
+            "url": "https://www.minijuegos.com/juego/obby-plane-power-challenge-fly",
+            "first_seen": "2026-11-06",
+            "observed_query": "obby plane power challenge fly",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamenora-en",
+            "website": "gamenora.com",
+            "url": "https://www.gamenora.com/game/obby-plane-power-challenge-fly/",
+            "first_seen": "2026-11-10",
+            "observed_query": "obby plane power challenge fly",
             "source_category": "games"
           }
         ]
@@ -883,7 +735,91 @@
         ]
       },
       {
-        "query": "garden tales 5",
+        "query": "guts berserker chop",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "minijuegos-es",
+            "website": "minijuegos.com",
+            "url": "https://www.minijuegos.com/juego/guts-berserker-chop",
+            "first_seen": "2026-11-05",
+            "observed_query": "guts berserker chop",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamenora-en",
+            "website": "gamenora.com",
+            "url": "https://www.gamenora.com/game/guts-berserker-chop/",
+            "first_seen": "2026-11-10",
+            "observed_query": "guts berserker chop",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "restorake restore the ruins",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/restorake-restore-the-ruins",
+            "first_seen": "2026-11-05",
+            "observed_query": "restorake restore the ruins",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/restorake-restore-the-ruins",
+            "first_seen": "2026-11-10",
+            "observed_query": "restorake restore the ruins",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "wall digger",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/wall_digger",
+            "first_seen": "2026-11-05",
+            "observed_query": "wall digger",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/wall-digger",
+            "first_seen": "2026-11-10",
+            "observed_query": "wall digger",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "cage ballers football",
         "independent_websites": 2,
         "date_span_days": 6,
         "priority": "watch",
@@ -893,19 +829,47 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "1001games-en",
-            "website": "1001games.com",
-            "url": "https://www.1001games.com/match-3/garden-tales-5",
-            "first_seen": "2026-11-03",
-            "observed_query": "garden tales 5",
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/cage-ballers-football",
+            "first_seen": "2026-11-04",
+            "observed_query": "cage ballers football",
             "source_category": "games"
           },
           {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/garden-tales-5/",
-            "first_seen": "2026-11-09",
-            "observed_query": "garden tales 5",
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/cage-ballers-football",
+            "first_seen": "2026-11-10",
+            "observed_query": "cage ballers football",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "style senpai anime dress up",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/style-senpai-anime-dress-up",
+            "first_seen": "2026-11-04",
+            "observed_query": "style senpai anime dress up",
+            "source_category": "games"
+          },
+          {
+            "source_id": "jogos360-br",
+            "website": "jogos360.com.br",
+            "url": "https://www.jogos360.com.br/style_senpai_anime_dress_up.html",
+            "first_seen": "2026-11-10",
+            "observed_query": "style senpai anime dress up",
             "source_category": "games"
           }
         ]
@@ -915,21 +879,13 @@
       {
         "query": "plimo",
         "independent_websites": 5,
-        "date_span_days": 5,
+        "date_span_days": 4,
         "priority": "high",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 2,
         "three_calendar_day_peak": 4,
         "seven_calendar_day_total": 5,
         "evidence": [
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/plimo",
-            "first_seen": "2026-11-03",
-            "observed_query": "plimo",
-            "source_category": "developer"
-          },
           {
             "source_id": "aitoolboard-tools",
             "website": "aitoolboard.com",
@@ -960,6 +916,58 @@
             "url": "https://saascity.io/live/plimo",
             "first_seen": "2026-11-08",
             "observed_query": "plimo",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/plimo",
+            "first_seen": "2026-11-10",
+            "observed_query": "plimo",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "vidsembly",
+        "independent_websites": 4,
+        "date_span_days": 1,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 3,
+        "three_calendar_day_peak": 4,
+        "seven_calendar_day_total": 4,
+        "evidence": [
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/vidsembly",
+            "first_seen": "2026-11-09",
+            "observed_query": "vidsembly",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/vidsembly",
+            "first_seen": "2026-11-10",
+            "observed_query": "vidsembly",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/vidsembly",
+            "first_seen": "2026-11-10",
+            "observed_query": "vidsembly",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/vidsembly",
+            "first_seen": "2026-11-10",
+            "observed_query": "vidsembly",
             "source_category": "saas"
           }
         ]
@@ -1073,114 +1081,6 @@
         ]
       },
       {
-        "query": "british accent generator",
-        "independent_websites": 3,
-        "date_span_days": 3,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/british-accent-generator",
-            "first_seen": "2026-11-03",
-            "observed_query": "british accent generator",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "openhunts-projects",
-            "website": "openhunts.com",
-            "url": "https://openhunts.com/projects/british-accent-generator",
-            "first_seen": "2026-11-05",
-            "observed_query": "british accent generator",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/british-accent-generator",
-            "first_seen": "2026-11-06",
-            "observed_query": "british accent generator",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "tapmap",
-        "independent_websites": 3,
-        "date_span_days": 3,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/tapmap",
-            "first_seen": "2026-11-03",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/tapmap",
-            "first_seen": "2026-11-03",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/tapmap",
-            "first_seen": "2026-11-06",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "uncensoredlabs",
-        "independent_websites": 3,
-        "date_span_days": 3,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/uncensoredlabs",
-            "first_seen": "2026-11-03",
-            "observed_query": "uncensoredlabs",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "openhunts-projects",
-            "website": "openhunts.com",
-            "url": "https://openhunts.com/projects/uncensoredlabs",
-            "first_seen": "2026-11-05",
-            "observed_query": "uncensoredlabs",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/uncensoredlabs",
-            "first_seen": "2026-11-06",
-            "observed_query": "uncensoredlabs",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
         "query": "convertlyft",
         "independent_websites": 3,
         "date_span_days": 4,
@@ -1217,9 +1117,45 @@
         ]
       },
       {
-        "query": "doremi",
+        "query": "tapmap",
         "independent_websites": 3,
         "date_span_days": 4,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/tapmap",
+            "first_seen": "2026-11-06",
+            "observed_query": "tapmap",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/tapmap",
+            "first_seen": "2026-11-10",
+            "observed_query": "tapmap",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/tapmap",
+            "first_seen": "2026-11-10",
+            "observed_query": "tapmap",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "myzucoins",
+        "independent_websites": 3,
+        "date_span_days": 5,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -1227,27 +1163,99 @@
         "seven_calendar_day_total": 3,
         "evidence": [
           {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/doremi/",
-            "first_seen": "2026-11-03",
-            "observed_query": "doremi",
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/myzucoins",
+            "first_seen": "2026-11-05",
+            "observed_query": "myzucoins",
             "source_category": "saas"
           },
           {
             "source_id": "uneed-products",
             "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/doremi",
-            "first_seen": "2026-11-04",
-            "observed_query": "doremi",
+            "url": "https://www.uneed.best/tool/myzucoins",
+            "first_seen": "2026-11-07",
+            "observed_query": "myzucoins",
             "source_category": "saas"
           },
           {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/doremi",
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/myzucoins",
+            "first_seen": "2026-11-10",
+            "observed_query": "myzucoins",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "secretpass",
+        "independent_websites": 3,
+        "date_span_days": 5,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/secretpass",
+            "first_seen": "2026-11-05",
+            "observed_query": "secretpass",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/secretpass",
             "first_seen": "2026-11-07",
-            "observed_query": "doremi",
+            "observed_query": "secretpass",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/secretpass",
+            "first_seen": "2026-11-10",
+            "observed_query": "secretpass",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "trustedaiagencies",
+        "independent_websites": 3,
+        "date_span_days": 5,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/trustedaiagencies",
+            "first_seen": "2026-11-05",
+            "observed_query": "trustedaiagencies",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/trustedaiagencies",
+            "first_seen": "2026-11-06",
+            "observed_query": "trustedaiagencies",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/trustedaiagencies",
+            "first_seen": "2026-11-10",
+            "observed_query": "trustedaiagencies",
             "source_category": "saas"
           }
         ]
@@ -1337,34 +1345,6 @@
         ]
       },
       {
-        "query": "empacer",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/empacer",
-            "first_seen": "2026-11-03",
-            "observed_query": "empacer",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoptools-tools",
-            "website": "aitoptools.com",
-            "url": "https://aitoptools.com/tool/empacer/",
-            "first_seen": "2026-11-03",
-            "observed_query": "empacer",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
         "query": "fabbo",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -1388,6 +1368,34 @@
             "url": "https://productperch.com/products/fabbo/",
             "first_seen": "2026-11-06",
             "observed_query": "fabbo",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "fitdesk",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/fitdesk",
+            "first_seen": "2026-11-10",
+            "observed_query": "fitdesk",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/fitdesk",
+            "first_seen": "2026-11-10",
+            "observed_query": "fitdesk",
             "source_category": "saas"
           }
         ]
@@ -1500,34 +1508,6 @@
             "url": "https://www.indieneed.com/products/rapglow",
             "first_seen": "2026-11-06",
             "observed_query": "rapglow",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "revamp",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "pitchwall-products",
-            "website": "pitchwall.co",
-            "url": "https://pitchwall.co/product/revamp",
-            "first_seen": "2026-11-03",
-            "observed_query": "revamp",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/revamp",
-            "first_seen": "2026-11-03",
-            "observed_query": "revamp",
             "source_category": "saas"
           }
         ]
@@ -1841,6 +1821,34 @@
         ]
       },
       {
+        "query": "british accent generator",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/british-accent-generator",
+            "first_seen": "2026-11-05",
+            "observed_query": "british accent generator",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/british-accent-generator",
+            "first_seen": "2026-11-06",
+            "observed_query": "british accent generator",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
         "query": "capafy ai",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -2061,34 +2069,6 @@
             "first_seen": "2026-11-07",
             "observed_query": "gemini omni 1 2 flash",
             "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "haipay",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/haipay",
-            "first_seen": "2026-11-03",
-            "observed_query": "haipay",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/haipay",
-            "first_seen": "2026-11-04",
-            "observed_query": "haipay",
-            "source_category": "developer"
           }
         ]
       },
@@ -2345,6 +2325,34 @@
         ]
       },
       {
+        "query": "planart",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/planart",
+            "first_seen": "2026-11-09",
+            "observed_query": "planart",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/planart",
+            "first_seen": "2026-11-10",
+            "observed_query": "planart",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "quizfromtext",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -2569,7 +2577,7 @@
         ]
       },
       {
-        "query": "trustedaiagencies",
+        "query": "uncensoredlabs",
         "independent_websites": 2,
         "date_span_days": 1,
         "priority": "medium",
@@ -2579,19 +2587,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/trustedaiagencies",
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/uncensoredlabs",
             "first_seen": "2026-11-05",
-            "observed_query": "trustedaiagencies",
+            "observed_query": "uncensoredlabs",
             "source_category": "saas"
           },
           {
             "source_id": "aitoolboard-tools",
             "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/trustedaiagencies",
+            "url": "https://aitoolboard.com/tools/uncensoredlabs",
             "first_seen": "2026-11-06",
-            "observed_query": "trustedaiagencies",
+            "observed_query": "uncensoredlabs",
             "source_category": "ai"
           }
         ]
@@ -2849,34 +2857,6 @@
         ]
       },
       {
-        "query": "alook",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/alook",
-            "first_seen": "2026-11-03",
-            "observed_query": "alook",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "openhunts-projects",
-            "website": "openhunts.com",
-            "url": "https://openhunts.com/projects/alook",
-            "first_seen": "2026-11-05",
-            "observed_query": "alook",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "anime selfie",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -2928,6 +2908,34 @@
             "url": "https://fazier.com/launches/appscreenshoot",
             "first_seen": "2026-11-08",
             "observed_query": "appscreenshoot",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "arkwarden",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/arkwarden",
+            "first_seen": "2026-11-08",
+            "observed_query": "arkwarden",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/arkwarden",
+            "first_seen": "2026-11-10",
+            "observed_query": "arkwarden",
             "source_category": "saas"
           }
         ]
@@ -3013,34 +3021,6 @@
             "first_seen": "2026-11-08",
             "observed_query": "brevo",
             "source_category": "developer"
-          }
-        ]
-      },
-      {
-        "query": "clicktray",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/clicktray",
-            "first_seen": "2026-11-03",
-            "observed_query": "clicktray",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/clicktray",
-            "first_seen": "2026-11-05",
-            "observed_query": "clicktray",
-            "source_category": "saas"
           }
         ]
       },
@@ -3185,34 +3165,6 @@
         ]
       },
       {
-        "query": "fabricate",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/fabricate",
-            "first_seen": "2026-11-03",
-            "observed_query": "fabricate",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/fabricate",
-            "first_seen": "2026-11-05",
-            "observed_query": "fabricate",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "fino3d",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -3293,6 +3245,34 @@
             "first_seen": "2026-11-06",
             "observed_query": "free app logo",
             "source_category": "ai"
+          }
+        ]
+      },
+      {
+        "query": "goldstarred",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/goldstarred",
+            "first_seen": "2026-11-08",
+            "observed_query": "goldstarred",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/goldstarred",
+            "first_seen": "2026-11-10",
+            "observed_query": "goldstarred",
+            "source_category": "saas"
           }
         ]
       },
@@ -3437,34 +3417,6 @@
         ]
       },
       {
-        "query": "launchdog",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/launchdog",
-            "first_seen": "2026-11-03",
-            "observed_query": "launchdog",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "openhunts-projects",
-            "website": "openhunts.com",
-            "url": "https://openhunts.com/projects/launchdog",
-            "first_seen": "2026-11-05",
-            "observed_query": "launchdog",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "lookroll",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -3601,34 +3553,6 @@
             "first_seen": "2026-11-06",
             "observed_query": "moveframe",
             "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "myzucoins",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/myzucoins",
-            "first_seen": "2026-11-05",
-            "observed_query": "myzucoins",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/myzucoins",
-            "first_seen": "2026-11-07",
-            "observed_query": "myzucoins",
-            "source_category": "saas"
           }
         ]
       },
@@ -3857,118 +3781,6 @@
         ]
       },
       {
-        "query": "ramsa speech",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/ramsa-speech/",
-            "first_seen": "2026-11-03",
-            "observed_query": "ramsa speech",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/ramsa-speech",
-            "first_seen": "2026-11-05",
-            "observed_query": "ramsa speech",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "rfpg reley fast property guru",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/rfpg-reley-fast-property-guru",
-            "first_seen": "2026-11-03",
-            "observed_query": "rfpg reley fast property guru",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/rfpg-reley-fast-property-guru",
-            "first_seen": "2026-11-05",
-            "observed_query": "rfpg reley fast property guru",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "scenemixer",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/scenemixer",
-            "first_seen": "2026-11-03",
-            "observed_query": "scenemixer",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/scenemixer",
-            "first_seen": "2026-11-05",
-            "observed_query": "scenemixer",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "secretpass",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/secretpass",
-            "first_seen": "2026-11-05",
-            "observed_query": "secretpass",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/secretpass",
-            "first_seen": "2026-11-07",
-            "observed_query": "secretpass",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "solarxlist",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -4021,62 +3833,6 @@
             "first_seen": "2026-11-08",
             "observed_query": "songifted",
             "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "spinshare",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/spinshare",
-            "first_seen": "2026-11-03",
-            "observed_query": "spinshare",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/spinshare",
-            "first_seen": "2026-11-05",
-            "observed_query": "spinshare",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "svgformat",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/svgformat",
-            "first_seen": "2026-11-03",
-            "observed_query": "svgformat",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/svgformat",
-            "first_seen": "2026-11-05",
-            "observed_query": "svgformat",
-            "source_category": "saas"
           }
         ]
       },
@@ -4333,62 +4089,6 @@
         ]
       },
       {
-        "query": "zentor",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/zentor",
-            "first_seen": "2026-11-03",
-            "observed_query": "zentor",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "futurepedia-tools",
-            "website": "futurepedia.io",
-            "url": "https://www.futurepedia.io/tool/zentor",
-            "first_seen": "2026-11-05",
-            "observed_query": "zentor",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "better",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/better",
-            "first_seen": "2026-11-03",
-            "observed_query": "better",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupstash-tools",
-            "website": "startupstash.com",
-            "url": "https://startupstash.com/tools/better/",
-            "first_seen": "2026-11-06",
-            "observed_query": "better",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "blockskinlab",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -4445,7 +4145,7 @@
         ]
       },
       {
-        "query": "cveezi",
+        "query": "doremi",
         "independent_websites": 2,
         "date_span_days": 3,
         "priority": "watch",
@@ -4457,17 +4157,17 @@
           {
             "source_id": "uneed-products",
             "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/cveezi",
-            "first_seen": "2026-11-03",
-            "observed_query": "cveezi",
+            "url": "https://www.uneed.best/tool/doremi",
+            "first_seen": "2026-11-04",
+            "observed_query": "doremi",
             "source_category": "saas"
           },
           {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/cveezi",
-            "first_seen": "2026-11-06",
-            "observed_query": "cveezi",
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/doremi",
+            "first_seen": "2026-11-07",
+            "observed_query": "doremi",
             "source_category": "saas"
           }
         ]
@@ -4497,34 +4197,6 @@
             "first_seen": "2026-11-09",
             "observed_query": "ip proxy",
             "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "jolene pro",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/jolene-pro/",
-            "first_seen": "2026-11-03",
-            "observed_query": "jolene pro",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/jolene-pro",
-            "first_seen": "2026-11-06",
-            "observed_query": "jolene pro",
-            "source_category": "ai"
           }
         ]
       },
@@ -4585,6 +4257,34 @@
         ]
       },
       {
+        "query": "markdown preview",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fridayhunt-projects",
+            "website": "fridayhunt.com",
+            "url": "https://fridayhunt.com/projects/markdown-preview",
+            "first_seen": "2026-11-07",
+            "observed_query": "markdown preview",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/markdown-preview",
+            "first_seen": "2026-11-10",
+            "observed_query": "markdown preview",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "nano banana cn",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -4641,34 +4341,6 @@
         ]
       },
       {
-        "query": "new year ai",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/2027-new-year-ai",
-            "first_seen": "2026-11-03",
-            "observed_query": "new year ai",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/2027-new-year-ai",
-            "first_seen": "2026-11-06",
-            "observed_query": "new year ai",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "olva ai",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -4692,34 +4364,6 @@
             "url": "https://productperch.com/products/olva-ai/",
             "first_seen": "2026-11-08",
             "observed_query": "olva ai",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "pdf4u",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/pdf4u",
-            "first_seen": "2026-11-03",
-            "observed_query": "pdf4u",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/pdf4u",
-            "first_seen": "2026-11-06",
-            "observed_query": "pdf4u",
             "source_category": "saas"
           }
         ]
@@ -4753,90 +4397,6 @@
         ]
       },
       {
-        "query": "promptclay",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/promptclay",
-            "first_seen": "2026-11-03",
-            "observed_query": "promptclay",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/promptclay",
-            "first_seen": "2026-11-06",
-            "observed_query": "promptclay",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "scale ova",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/scale-ova",
-            "first_seen": "2026-11-03",
-            "observed_query": "scale ova",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/scale-ova",
-            "first_seen": "2026-11-06",
-            "observed_query": "scale ova",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "sickle",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/sickle",
-            "first_seen": "2026-11-03",
-            "observed_query": "sickle",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/sickle",
-            "first_seen": "2026-11-06",
-            "observed_query": "sickle",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "the humanizer",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -4865,7 +4425,7 @@
         ]
       },
       {
-        "query": "thegametake",
+        "query": "toklab",
         "independent_websites": 2,
         "date_span_days": 3,
         "priority": "watch",
@@ -4875,20 +4435,20 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/thegametake",
-            "first_seen": "2026-11-03",
-            "observed_query": "thegametake",
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/toklab",
+            "first_seen": "2026-11-07",
+            "observed_query": "toklab",
             "source_category": "saas"
           },
           {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/thegametake",
-            "first_seen": "2026-11-06",
-            "observed_query": "thegametake",
-            "source_category": "ai"
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/toklab",
+            "first_seen": "2026-11-10",
+            "observed_query": "toklab",
+            "source_category": "saas"
           }
         ]
       },
@@ -4921,7 +4481,7 @@
         ]
       },
       {
-        "query": "trirank",
+        "query": "wheel of names picker",
         "independent_websites": 2,
         "date_span_days": 3,
         "priority": "watch",
@@ -4931,20 +4491,20 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/trirank/",
-            "first_seen": "2026-11-03",
-            "observed_query": "trirank",
-            "source_category": "saas"
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/wheel-of-names-picker",
+            "first_seen": "2026-11-07",
+            "observed_query": "wheel of names picker",
+            "source_category": "developer"
           },
           {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/trirank",
-            "first_seen": "2026-11-06",
-            "observed_query": "trirank",
-            "source_category": "ai"
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/wheel-of-names-picker",
+            "first_seen": "2026-11-10",
+            "observed_query": "wheel of names picker",
+            "source_category": "saas"
           }
         ]
       },
@@ -4972,6 +4532,174 @@
             "url": "https://www.indieneed.com/products/yike-ai",
             "first_seen": "2026-11-09",
             "observed_query": "yike ai",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "ai rap video generator",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/ai-rap-video-generator",
+            "first_seen": "2026-11-06",
+            "observed_query": "ai rap video generator",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "dangai-tools",
+            "website": "dang.ai",
+            "url": "https://dang.ai/tool/ai-rap-video-generator",
+            "first_seen": "2026-11-10",
+            "observed_query": "ai rap video generator",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
+        "query": "apiko",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/apiko",
+            "first_seen": "2026-11-06",
+            "observed_query": "apiko",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/apiko",
+            "first_seen": "2026-11-10",
+            "observed_query": "apiko",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "beatmotion",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/beatmotion",
+            "first_seen": "2026-11-06",
+            "observed_query": "beatmotion",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/beatmotion",
+            "first_seen": "2026-11-10",
+            "observed_query": "beatmotion",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "cadcraft",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/cadcraft",
+            "first_seen": "2026-11-06",
+            "observed_query": "cadcraft",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/cadcraft",
+            "first_seen": "2026-11-10",
+            "observed_query": "cadcraft",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "ediroo",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/ediroo",
+            "first_seen": "2026-11-06",
+            "observed_query": "ediroo",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/ediroo/",
+            "first_seen": "2026-11-10",
+            "observed_query": "ediroo",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "enhance my photo",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/enhance-my-photo",
+            "first_seen": "2026-11-06",
+            "observed_query": "enhance my photo",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/enhance-my-photo",
+            "first_seen": "2026-11-10",
+            "observed_query": "enhance my photo",
             "source_category": "saas"
           }
         ]
@@ -5061,6 +4789,62 @@
         ]
       },
       {
+        "query": "in 8 billion",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/1-in-8-billion",
+            "first_seen": "2026-11-06",
+            "observed_query": "in 8 billion",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/1-in-8-billion",
+            "first_seen": "2026-11-10",
+            "observed_query": "in 8 billion",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "new year ai",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/2027-new-year-ai",
+            "first_seen": "2026-11-06",
+            "observed_query": "new year ai",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/2027-new-year-ai",
+            "first_seen": "2026-11-10",
+            "observed_query": "new year ai",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "opusclip",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -5089,7 +4873,7 @@
         ]
       },
       {
-        "query": "reelai",
+        "query": "seek ai",
         "independent_websites": 2,
         "date_span_days": 4,
         "priority": "watch",
@@ -5099,27 +4883,27 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/reelai",
-            "first_seen": "2026-11-03",
-            "observed_query": "reelai",
-            "source_category": "saas"
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/seek-ai",
+            "first_seen": "2026-11-06",
+            "observed_query": "seek ai",
+            "source_category": "ai"
           },
           {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/reelai/",
-            "first_seen": "2026-11-07",
-            "observed_query": "reelai",
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/seek-ai",
+            "first_seen": "2026-11-10",
+            "observed_query": "seek ai",
             "source_category": "saas"
           }
         ]
       },
       {
-        "query": "wheel of names picker",
+        "query": "tinty",
         "independent_websites": 2,
-        "date_span_days": 4,
+        "date_span_days": 5,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -5129,107 +4913,23 @@
           {
             "source_id": "saascity-products",
             "website": "saascity.io",
-            "url": "https://saascity.io/live/wheel-of-names-picker",
-            "first_seen": "2026-11-03",
-            "observed_query": "wheel of names picker",
+            "url": "https://saascity.io/live/tinty",
+            "first_seen": "2026-11-05",
+            "observed_query": "tinty",
             "source_category": "saas"
           },
           {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/wheel-of-names-picker",
-            "first_seen": "2026-11-07",
-            "observed_query": "wheel of names picker",
-            "source_category": "developer"
-          }
-        ]
-      },
-      {
-        "query": "amazon redshift",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "activepieces-pieces",
-            "website": "activepieces.com",
-            "url": "https://www.activepieces.com/pieces/amazon-redshift",
-            "first_seen": "2026-11-03",
-            "observed_query": "amazon redshift",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/amazon-redshift",
-            "first_seen": "2026-11-08",
-            "observed_query": "amazon redshift",
-            "source_category": "developer"
-          }
-        ]
-      },
-      {
-        "query": "palmread online",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "toolfound-products",
-            "website": "toolfound.com",
-            "url": "https://toolfound.com/tool/palmread-online",
-            "first_seen": "2026-11-03",
-            "observed_query": "palmread online",
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/tinty",
+            "first_seen": "2026-11-10",
+            "observed_query": "tinty",
             "source_category": "saas"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/palmread-online",
-            "first_seen": "2026-11-08",
-            "observed_query": "palmread online",
-            "source_category": "ai"
           }
         ]
       },
       {
-        "query": "reqode",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/reqode/",
-            "first_seen": "2026-11-03",
-            "observed_query": "reqode",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/reqode",
-            "first_seen": "2026-11-08",
-            "observed_query": "reqode",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "redu cloud",
+        "query": "gmail filters",
         "independent_websites": 2,
         "date_span_days": 6,
         "priority": "watch",
@@ -5239,20 +4939,132 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "producthunt-products",
-            "website": "producthunt.com",
-            "url": "https://www.producthunt.com/products/redu-cloud",
-            "first_seen": "2026-11-03",
-            "observed_query": "redu cloud",
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/gmail-filters",
+            "first_seen": "2026-11-04",
+            "observed_query": "gmail filters",
             "source_category": "saas"
           },
           {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/gmail-filters",
+            "first_seen": "2026-11-10",
+            "observed_query": "gmail filters",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "kadmo",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/kadmo",
+            "first_seen": "2026-11-04",
+            "observed_query": "kadmo",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/kadmo",
+            "first_seen": "2026-11-10",
+            "observed_query": "kadmo",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "maxmerce",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
             "source_id": "aitoolnet-tools",
             "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/redu-cloud",
-            "first_seen": "2026-11-09",
-            "observed_query": "redu cloud",
+            "url": "https://www.aitoolnet.com/maxmerce",
+            "first_seen": "2026-11-04",
+            "observed_query": "maxmerce",
             "source_category": "ai"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/maxmerce",
+            "first_seen": "2026-11-10",
+            "observed_query": "maxmerce",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "pageradar",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/pageradar",
+            "first_seen": "2026-11-04",
+            "observed_query": "pageradar",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/pageradar",
+            "first_seen": "2026-11-10",
+            "observed_query": "pageradar",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "prolifik",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/prolifik",
+            "first_seen": "2026-11-04",
+            "observed_query": "prolifik",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/prolifik",
+            "first_seen": "2026-11-10",
+            "observed_query": "prolifik",
+            "source_category": "saas"
           }
         ]
       }
@@ -5261,45 +5073,37 @@
     "functions": []
   },
   "group_counts": {
-    "games": 32,
-    "products": 152,
+    "games": 31,
+    "products": 146,
     "tools": 0,
     "functions": 0
   },
   "by_type": {
     "games": [
       {
-        "query": "ninja sword dash",
-        "independent_websites": 3,
-        "date_span_days": 3,
+        "query": "bogatyrs",
+        "independent_websites": 2,
+        "date_span_days": 1,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
+        "same_calendar_day_peak": 1,
         "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
+        "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "1001games-en",
-            "website": "1001games.com",
-            "url": "https://www.1001games.com/arcade/ninja-sword-dash",
-            "first_seen": "2026-11-03",
-            "observed_query": "ninja sword dash",
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/bogatyrs/",
+            "first_seen": "2026-11-09",
+            "observed_query": "bogatyrs",
             "source_category": "games"
           },
           {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/ninja-sword-dash/",
-            "first_seen": "2026-11-06",
-            "observed_query": "ninja sword dash",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/ninja-sword-dash",
-            "first_seen": "2026-11-06",
-            "observed_query": "ninja sword dash",
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/bogatyrs",
+            "first_seen": "2026-11-10",
+            "observed_query": "bogatyrs",
             "source_category": "games"
           }
         ],
@@ -5335,35 +5139,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "diamond blast egypt",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/diamond-blast-egypt/",
-            "first_seen": "2026-11-03",
-            "observed_query": "diamond blast egypt",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/diamond-blast-egypt",
-            "first_seen": "2026-11-05",
-            "observed_query": "diamond blast egypt",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "dx ball",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -5387,35 +5162,6 @@
             "url": "https://www.minijuegos.com/juego/dx-ball",
             "first_seen": "2026-11-07",
             "observed_query": "dx ball",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "fruity 2048",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/fruity-2048/",
-            "first_seen": "2026-11-03",
-            "observed_query": "fruity 2048",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/fruity-2048",
-            "first_seen": "2026-11-05",
-            "observed_query": "fruity 2048",
             "source_category": "games"
           }
         ],
@@ -5480,35 +5226,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "hot pot chef",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "1001games-en",
-            "website": "1001games.com",
-            "url": "https://www.1001games.com/think/hot-pot-chef",
-            "first_seen": "2026-11-03",
-            "observed_query": "hot pot chef",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/hot-pot-chef",
-            "first_seen": "2026-11-05",
-            "observed_query": "hot pot chef",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "hyper cars stunt racing",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -5567,58 +5284,29 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "parkour block maker",
+        "query": "ninja sword dash",
         "independent_websites": 2,
-        "date_span_days": 2,
+        "date_span_days": 0,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
+        "same_calendar_day_peak": 2,
         "three_calendar_day_peak": 2,
         "seven_calendar_day_total": 2,
         "evidence": [
           {
             "source_id": "bgames-en",
             "website": "bgames.com",
-            "url": "https://www.bgames.com/game/parkour-block-maker/",
-            "first_seen": "2026-11-03",
-            "observed_query": "parkour block maker",
+            "url": "https://www.bgames.com/game/ninja-sword-dash/",
+            "first_seen": "2026-11-06",
+            "observed_query": "ninja sword dash",
             "source_category": "games"
           },
           {
             "source_id": "kizi-en",
             "website": "kizi.com",
-            "url": "https://kizi.com/games/parkour-block-maker",
-            "first_seen": "2026-11-05",
-            "observed_query": "parkour block maker",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "punch through",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "playgama-en",
-            "website": "playgama.com",
-            "url": "https://playgama.com/game/punch-through",
-            "first_seen": "2026-11-03",
-            "observed_query": "punch through",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/punch_through_",
-            "first_seen": "2026-11-04",
-            "observed_query": "punch through",
+            "url": "https://kizi.com/games/ninja-sword-dash",
+            "first_seen": "2026-11-06",
+            "observed_query": "ninja sword dash",
             "source_category": "games"
           }
         ],
@@ -5635,9 +5323,9 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-pt",
+            "source_id": "gamepix-en",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/recoil",
+            "url": "https://www.gamepix.com/play/recoil",
             "first_seen": "2026-11-06",
             "observed_query": "recoil",
             "source_category": "games"
@@ -5944,7 +5632,7 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "garden tales 5",
+        "query": "cage ballers football",
         "independent_websites": 2,
         "date_span_days": 6,
         "priority": "watch",
@@ -5954,19 +5642,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "1001games-en",
-            "website": "1001games.com",
-            "url": "https://www.1001games.com/match-3/garden-tales-5",
-            "first_seen": "2026-11-03",
-            "observed_query": "garden tales 5",
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/cage-ballers-football",
+            "first_seen": "2026-11-04",
+            "observed_query": "cage ballers football",
             "source_category": "games"
           },
           {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/garden-tales-5/",
-            "first_seen": "2026-11-09",
-            "observed_query": "garden tales 5",
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/cage-ballers-football",
+            "first_seen": "2026-11-10",
+            "observed_query": "cage ballers football",
             "source_category": "games"
           }
         ],
@@ -6002,58 +5690,29 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "klak magnetic stones",
+        "query": "guts berserker chop",
         "independent_websites": 2,
-        "date_span_days": 4,
+        "date_span_days": 5,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
         "three_calendar_day_peak": 1,
         "seven_calendar_day_total": 2,
         "evidence": [
-          {
-            "source_id": "playgama-en",
-            "website": "playgama.com",
-            "url": "https://playgama.com/game/klak-magnetic-stones",
-            "first_seen": "2026-11-03",
-            "observed_query": "klak magnetic stones",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/klak-magnetic-stones",
-            "first_seen": "2026-11-07",
-            "observed_query": "klak magnetic stones",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "needle quest haystack secrets",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "playgama-en",
-            "website": "playgama.com",
-            "url": "https://playgama.com/game/needle-quest-haystack-secrets",
-            "first_seen": "2026-11-03",
-            "observed_query": "needle quest haystack secrets",
-            "source_category": "games"
-          },
           {
             "source_id": "minijuegos-es",
             "website": "minijuegos.com",
-            "url": "https://www.minijuegos.com/juego/needle-quest-haystack-secrets",
-            "first_seen": "2026-11-07",
-            "observed_query": "needle quest haystack secrets",
+            "url": "https://www.minijuegos.com/juego/guts-berserker-chop",
+            "first_seen": "2026-11-05",
+            "observed_query": "guts berserker chop",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamenora-en",
+            "website": "gamenora.com",
+            "url": "https://www.gamenora.com/game/guts-berserker-chop/",
+            "first_seen": "2026-11-10",
+            "observed_query": "guts berserker chop",
             "source_category": "games"
           }
         ],
@@ -6089,6 +5748,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "obby plane power challenge fly",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "minijuegos-es",
+            "website": "minijuegos.com",
+            "url": "https://www.minijuegos.com/juego/obby-plane-power-challenge-fly",
+            "first_seen": "2026-11-06",
+            "observed_query": "obby plane power challenge fly",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamenora-en",
+            "website": "gamenora.com",
+            "url": "https://www.gamenora.com/game/obby-plane-power-challenge-fly/",
+            "first_seen": "2026-11-10",
+            "observed_query": "obby plane power challenge fly",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "paint or hunt",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -6112,6 +5800,35 @@
             "url": "https://www.bgames.com/game/paint-or-hunt/",
             "first_seen": "2026-11-08",
             "observed_query": "paint or hunt",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "restorake restore the ruins",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/restorake-restore-the-ruins",
+            "first_seen": "2026-11-05",
+            "observed_query": "restorake restore the ruins",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/restorake-restore-the-ruins",
+            "first_seen": "2026-11-10",
+            "observed_query": "restorake restore the ruins",
             "source_category": "games"
           }
         ],
@@ -6203,6 +5920,64 @@
           }
         ],
         "cross_signal_origin": "games"
+      },
+      {
+        "query": "style senpai anime dress up",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/style-senpai-anime-dress-up",
+            "first_seen": "2026-11-04",
+            "observed_query": "style senpai anime dress up",
+            "source_category": "games"
+          },
+          {
+            "source_id": "jogos360-br",
+            "website": "jogos360.com.br",
+            "url": "https://www.jogos360.com.br/style_senpai_anime_dress_up.html",
+            "first_seen": "2026-11-10",
+            "observed_query": "style senpai anime dress up",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "wall digger",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/wall_digger",
+            "first_seen": "2026-11-05",
+            "observed_query": "wall digger",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/wall-digger",
+            "first_seen": "2026-11-10",
+            "observed_query": "wall digger",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
       }
     ],
     "saas": [
@@ -6238,6 +6013,43 @@
             "url": "https://startupbase.io/products/prelulu",
             "first_seen": "2026-11-04",
             "observed_query": "prelulu",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "vidsembly",
+        "independent_websites": 3,
+        "date_span_days": 1,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 3,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/vidsembly",
+            "first_seen": "2026-11-09",
+            "observed_query": "vidsembly",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/vidsembly",
+            "first_seen": "2026-11-10",
+            "observed_query": "vidsembly",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/vidsembly",
+            "first_seen": "2026-11-10",
+            "observed_query": "vidsembly",
             "source_category": "saas"
           }
         ],
@@ -6281,9 +6093,9 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "doremi",
+        "query": "myzucoins",
         "independent_websites": 3,
-        "date_span_days": 4,
+        "date_span_days": 5,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -6291,27 +6103,64 @@
         "seven_calendar_day_total": 3,
         "evidence": [
           {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/doremi/",
-            "first_seen": "2026-11-03",
-            "observed_query": "doremi",
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/myzucoins",
+            "first_seen": "2026-11-05",
+            "observed_query": "myzucoins",
             "source_category": "saas"
           },
           {
             "source_id": "uneed-products",
             "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/doremi",
-            "first_seen": "2026-11-04",
-            "observed_query": "doremi",
+            "url": "https://www.uneed.best/tool/myzucoins",
+            "first_seen": "2026-11-07",
+            "observed_query": "myzucoins",
             "source_category": "saas"
           },
           {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/doremi",
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/myzucoins",
+            "first_seen": "2026-11-10",
+            "observed_query": "myzucoins",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "secretpass",
+        "independent_websites": 3,
+        "date_span_days": 5,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/secretpass",
+            "first_seen": "2026-11-05",
+            "observed_query": "secretpass",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/secretpass",
             "first_seen": "2026-11-07",
-            "observed_query": "doremi",
+            "observed_query": "secretpass",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/secretpass",
+            "first_seen": "2026-11-10",
+            "observed_query": "secretpass",
             "source_category": "saas"
           }
         ],
@@ -6320,7 +6169,7 @@
       {
         "query": "tapmap",
         "independent_websites": 3,
-        "date_span_days": 3,
+        "date_span_days": 4,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 2,
@@ -6328,26 +6177,26 @@
         "seven_calendar_day_total": 3,
         "evidence": [
           {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/tapmap",
-            "first_seen": "2026-11-03",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/tapmap",
-            "first_seen": "2026-11-03",
-            "observed_query": "tapmap",
-            "source_category": "saas"
-          },
-          {
             "source_id": "uneed-products",
             "website": "uneed.best",
             "url": "https://www.uneed.best/tool/tapmap",
             "first_seen": "2026-11-06",
+            "observed_query": "tapmap",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/tapmap",
+            "first_seen": "2026-11-10",
+            "observed_query": "tapmap",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/tapmap",
+            "first_seen": "2026-11-10",
             "observed_query": "tapmap",
             "source_category": "saas"
           }
@@ -6378,35 +6227,6 @@
             "url": "https://www.uneed.best/tool/aeo-action",
             "first_seen": "2026-11-07",
             "observed_query": "aeo action",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "alook",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/alook",
-            "first_seen": "2026-11-03",
-            "observed_query": "alook",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "openhunts-projects",
-            "website": "openhunts.com",
-            "url": "https://openhunts.com/projects/alook",
-            "first_seen": "2026-11-05",
-            "observed_query": "alook",
             "source_category": "saas"
           }
         ],
@@ -6471,6 +6291,35 @@
         "cross_signal_origin": "products"
       },
       {
+        "query": "arkwarden",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/arkwarden",
+            "first_seen": "2026-11-08",
+            "observed_query": "arkwarden",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/arkwarden",
+            "first_seen": "2026-11-10",
+            "observed_query": "arkwarden",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "automater ai",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -6529,58 +6378,29 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "clicktray",
+        "query": "fitdesk",
         "independent_websites": 2,
-        "date_span_days": 2,
+        "date_span_days": 0,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
+        "same_calendar_day_peak": 2,
         "three_calendar_day_peak": 2,
         "seven_calendar_day_total": 2,
         "evidence": [
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/fitdesk",
+            "first_seen": "2026-11-10",
+            "observed_query": "fitdesk",
+            "source_category": "saas"
+          },
           {
             "source_id": "saascity-products",
             "website": "saascity.io",
-            "url": "https://saascity.io/live/clicktray",
-            "first_seen": "2026-11-03",
-            "observed_query": "clicktray",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/clicktray",
-            "first_seen": "2026-11-05",
-            "observed_query": "clicktray",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "fabricate",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/fabricate",
-            "first_seen": "2026-11-03",
-            "observed_query": "fabricate",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/fabricate",
-            "first_seen": "2026-11-05",
-            "observed_query": "fabricate",
+            "url": "https://saascity.io/live/fitdesk",
+            "first_seen": "2026-11-10",
+            "observed_query": "fitdesk",
             "source_category": "saas"
           }
         ],
@@ -6645,7 +6465,7 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "launchdog",
+        "query": "goldstarred",
         "independent_websites": 2,
         "date_span_days": 2,
         "priority": "medium",
@@ -6655,19 +6475,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/launchdog",
-            "first_seen": "2026-11-03",
-            "observed_query": "launchdog",
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/goldstarred",
+            "first_seen": "2026-11-08",
+            "observed_query": "goldstarred",
             "source_category": "saas"
           },
           {
-            "source_id": "openhunts-projects",
-            "website": "openhunts.com",
-            "url": "https://openhunts.com/projects/launchdog",
-            "first_seen": "2026-11-05",
-            "observed_query": "launchdog",
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/goldstarred",
+            "first_seen": "2026-11-10",
+            "observed_query": "goldstarred",
             "source_category": "saas"
           }
         ],
@@ -6732,36 +6552,36 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "myzucoins",
+        "query": "planart",
         "independent_websites": 2,
-        "date_span_days": 2,
+        "date_span_days": 1,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
         "three_calendar_day_peak": 2,
         "seven_calendar_day_total": 2,
         "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/myzucoins",
-            "first_seen": "2026-11-05",
-            "observed_query": "myzucoins",
-            "source_category": "saas"
-          },
           {
             "source_id": "uneed-products",
             "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/myzucoins",
-            "first_seen": "2026-11-07",
-            "observed_query": "myzucoins",
+            "url": "https://www.uneed.best/tool/planart",
+            "first_seen": "2026-11-09",
+            "observed_query": "planart",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/planart",
+            "first_seen": "2026-11-10",
+            "observed_query": "planart",
             "source_category": "saas"
           }
         ],
         "cross_signal_origin": "products"
       },
       {
-        "query": "ramsa speech",
+        "query": "plimo",
         "independent_websites": 2,
         "date_span_days": 2,
         "priority": "medium",
@@ -6771,48 +6591,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/ramsa-speech/",
-            "first_seen": "2026-11-03",
-            "observed_query": "ramsa speech",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/ramsa-speech",
-            "first_seen": "2026-11-05",
-            "observed_query": "ramsa speech",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "revamp",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "pitchwall-products",
-            "website": "pitchwall.co",
-            "url": "https://pitchwall.co/product/revamp",
-            "first_seen": "2026-11-03",
-            "observed_query": "revamp",
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/plimo",
+            "first_seen": "2026-11-08",
+            "observed_query": "plimo",
             "source_category": "saas"
           },
           {
             "source_id": "smollaunch-products",
             "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/revamp",
-            "first_seen": "2026-11-03",
-            "observed_query": "revamp",
+            "url": "https://smollaunch.com/products/plimo",
+            "first_seen": "2026-11-10",
+            "observed_query": "plimo",
             "source_category": "saas"
           }
         ],
@@ -6848,35 +6639,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "rfpg reley fast property guru",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/rfpg-reley-fast-property-guru",
-            "first_seen": "2026-11-03",
-            "observed_query": "rfpg reley fast property guru",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/rfpg-reley-fast-property-guru",
-            "first_seen": "2026-11-05",
-            "observed_query": "rfpg reley fast property guru",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "safrom",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -6900,64 +6662,6 @@
             "url": "https://toolfound.com/tool/safrom",
             "first_seen": "2026-11-06",
             "observed_query": "safrom",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "scenemixer",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/scenemixer",
-            "first_seen": "2026-11-03",
-            "observed_query": "scenemixer",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/scenemixer",
-            "first_seen": "2026-11-05",
-            "observed_query": "scenemixer",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "secretpass",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/secretpass",
-            "first_seen": "2026-11-05",
-            "observed_query": "secretpass",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/secretpass",
-            "first_seen": "2026-11-07",
-            "observed_query": "secretpass",
             "source_category": "saas"
           }
         ],
@@ -7022,64 +6726,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "spinshare",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/spinshare",
-            "first_seen": "2026-11-03",
-            "observed_query": "spinshare",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/spinshare",
-            "first_seen": "2026-11-05",
-            "observed_query": "spinshare",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "svgformat",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/svgformat",
-            "first_seen": "2026-11-03",
-            "observed_query": "svgformat",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/svgformat",
-            "first_seen": "2026-11-05",
-            "observed_query": "svgformat",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "the launch directory",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -7109,36 +6755,7 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "better",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/better",
-            "first_seen": "2026-11-03",
-            "observed_query": "better",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupstash-tools",
-            "website": "startupstash.com",
-            "url": "https://startupstash.com/tools/better/",
-            "first_seen": "2026-11-06",
-            "observed_query": "better",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "cveezi",
+        "query": "doremi",
         "independent_websites": 2,
         "date_span_days": 3,
         "priority": "watch",
@@ -7150,17 +6767,46 @@
           {
             "source_id": "uneed-products",
             "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/cveezi",
-            "first_seen": "2026-11-03",
-            "observed_query": "cveezi",
+            "url": "https://www.uneed.best/tool/doremi",
+            "first_seen": "2026-11-04",
+            "observed_query": "doremi",
             "source_category": "saas"
           },
           {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/cveezi",
-            "first_seen": "2026-11-06",
-            "observed_query": "cveezi",
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/doremi",
+            "first_seen": "2026-11-07",
+            "observed_query": "doremi",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "gmail filters",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/gmail-filters",
+            "first_seen": "2026-11-04",
+            "observed_query": "gmail filters",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/gmail-filters",
+            "first_seen": "2026-11-10",
+            "observed_query": "gmail filters",
             "source_category": "saas"
           }
         ],
@@ -7225,6 +6871,64 @@
         "cross_signal_origin": "products"
       },
       {
+        "query": "kadmo",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/kadmo",
+            "first_seen": "2026-11-04",
+            "observed_query": "kadmo",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/kadmo",
+            "first_seen": "2026-11-10",
+            "observed_query": "kadmo",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "markdown preview",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fridayhunt-projects",
+            "website": "fridayhunt.com",
+            "url": "https://fridayhunt.com/projects/markdown-preview",
+            "first_seen": "2026-11-07",
+            "observed_query": "markdown preview",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/markdown-preview",
+            "first_seen": "2026-11-10",
+            "observed_query": "markdown preview",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "neverapply",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -7256,7 +6960,7 @@
       {
         "query": "new year ai",
         "independent_websites": 2,
-        "date_span_days": 3,
+        "date_span_days": 4,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -7264,18 +6968,18 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/2027-new-year-ai",
-            "first_seen": "2026-11-03",
-            "observed_query": "new year ai",
-            "source_category": "saas"
-          },
-          {
             "source_id": "uneed-products",
             "website": "uneed.best",
             "url": "https://www.uneed.best/tool/2027-new-year-ai",
             "first_seen": "2026-11-06",
+            "observed_query": "new year ai",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/2027-new-year-ai",
+            "first_seen": "2026-11-10",
             "observed_query": "new year ai",
             "source_category": "saas"
           }
@@ -7312,7 +7016,94 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "pdf4u",
+        "query": "pageradar",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/pageradar",
+            "first_seen": "2026-11-04",
+            "observed_query": "pageradar",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/pageradar",
+            "first_seen": "2026-11-10",
+            "observed_query": "pageradar",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "prolifik",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/prolifik",
+            "first_seen": "2026-11-04",
+            "observed_query": "prolifik",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/prolifik",
+            "first_seen": "2026-11-10",
+            "observed_query": "prolifik",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "tinty",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/tinty",
+            "first_seen": "2026-11-05",
+            "observed_query": "tinty",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/tinty",
+            "first_seen": "2026-11-10",
+            "observed_query": "tinty",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "toklab",
         "independent_websites": 2,
         "date_span_days": 3,
         "priority": "watch",
@@ -7324,26 +7115,26 @@
           {
             "source_id": "uneed-products",
             "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/pdf4u",
-            "first_seen": "2026-11-03",
-            "observed_query": "pdf4u",
+            "url": "https://www.uneed.best/tool/toklab",
+            "first_seen": "2026-11-07",
+            "observed_query": "toklab",
             "source_category": "saas"
           },
           {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/pdf4u",
-            "first_seen": "2026-11-06",
-            "observed_query": "pdf4u",
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/toklab",
+            "first_seen": "2026-11-10",
+            "observed_query": "toklab",
             "source_category": "saas"
           }
         ],
         "cross_signal_origin": "products"
       },
       {
-        "query": "reelai",
+        "query": "trustedaiagencies",
         "independent_websites": 2,
-        "date_span_days": 4,
+        "date_span_days": 5,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -7351,19 +7142,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/reelai",
-            "first_seen": "2026-11-03",
-            "observed_query": "reelai",
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/trustedaiagencies",
+            "first_seen": "2026-11-05",
+            "observed_query": "trustedaiagencies",
             "source_category": "saas"
           },
           {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/reelai/",
-            "first_seen": "2026-11-07",
-            "observed_query": "reelai",
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/trustedaiagencies",
+            "first_seen": "2026-11-10",
+            "observed_query": "trustedaiagencies",
             "source_category": "saas"
           }
         ],
@@ -7496,35 +7287,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "empacer",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/empacer",
-            "first_seen": "2026-11-03",
-            "observed_query": "empacer",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoptools-tools",
-            "website": "aitoptools.com",
-            "url": "https://aitoptools.com/tool/empacer/",
-            "first_seen": "2026-11-03",
-            "observed_query": "empacer",
-            "source_category": "ai"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "livefaceswap ai",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -7641,9 +7403,9 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "british accent generator",
+        "query": "ai rap video generator",
         "independent_websites": 2,
-        "date_span_days": 3,
+        "date_span_days": 4,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -7651,19 +7413,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/british-accent-generator",
-            "first_seen": "2026-11-03",
-            "observed_query": "british accent generator",
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/ai-rap-video-generator",
+            "first_seen": "2026-11-06",
+            "observed_query": "ai rap video generator",
             "source_category": "ai"
           },
           {
-            "source_id": "aitoolboard-tools",
-            "website": "aitoolboard.com",
-            "url": "https://aitoolboard.com/tools/british-accent-generator",
-            "first_seen": "2026-11-06",
-            "observed_query": "british accent generator",
+            "source_id": "dangai-tools",
+            "website": "dang.ai",
+            "url": "https://dang.ai/tool/ai-rap-video-generator",
+            "first_seen": "2026-11-10",
+            "observed_query": "ai rap video generator",
             "source_category": "ai"
           }
         ],
@@ -7701,51 +7463,21 @@
     ],
     "calculators": [],
     "files": [],
-    "developer": [
-      {
-        "query": "amazon redshift",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "activepieces-pieces",
-            "website": "activepieces.com",
-            "url": "https://www.activepieces.com/pieces/amazon-redshift",
-            "first_seen": "2026-11-03",
-            "observed_query": "amazon redshift",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/amazon-redshift",
-            "first_seen": "2026-11-08",
-            "observed_query": "amazon redshift",
-            "source_category": "developer"
-          }
-        ],
-        "cross_signal_origin": "products"
-      }
-    ],
+    "developer": [],
     "brazil": []
   },
   "by_type_counts": {
-    "games": 32,
+    "games": 31,
     "saas": 39,
-    "ai": 11,
+    "ai": 10,
     "calculators": 0,
     "files": 0,
-    "developer": 1,
+    "developer": 0,
     "brazil": 0
   },
-  "delta_ledger_count": 12454,
+  "delta_ledger_count": 11404,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-11-09T18:14:10.803674+08:00",
+  "generated_at": "2026-11-10T07:32:58.007307+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
@@ -7755,7 +7487,7 @@
       "baselines": 0,
       "delta_scans": 29,
       "failed": 4,
-      "new_urls": 80,
+      "new_urls": 144,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -7780,17 +7512,13 @@
       "configured_sources": 20,
       "configured_domains": 20,
       "reported": 20,
-      "successful": 18,
+      "successful": 19,
       "baselines": 0,
-      "delta_scans": 18,
-      "failed": 2,
-      "new_urls": 101,
-      "over_scan_cap": 0,
+      "delta_scans": 19,
+      "failed": 1,
+      "new_urls": 288,
+      "over_scan_cap": 11,
       "failed_sources": [
-        {
-          "source_id": "fazier-launches",
-          "error": "TimeoutError: The read operation timed out"
-        },
         {
           "source_id": "microlaunch-products",
           "error": "TimeoutError: The read operation timed out"
@@ -7801,17 +7529,13 @@
       "configured_sources": 20,
       "configured_domains": 20,
       "reported": 20,
-      "successful": 18,
+      "successful": 19,
       "baselines": 0,
-      "delta_scans": 18,
-      "failed": 2,
-      "new_urls": 15,
+      "delta_scans": 19,
+      "failed": 1,
+      "new_urls": 23,
       "over_scan_cap": 0,
       "failed_sources": [
-        {
-          "source_id": "aitoptools-tools",
-          "error": "TimeoutError: The read operation timed out"
-        },
         {
           "source_id": "nextool-tools",
           "error": "HTTPError: HTTP Error 503: Service Unavailable"
@@ -7843,7 +7567,7 @@
       "baselines": 0,
       "delta_scans": 18,
       "failed": 2,
-      "new_urls": 1,
+      "new_urls": 0,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -7864,21 +7588,26 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 1396,
-      "over_scan_cap": 1145,
+      "new_urls": 341,
+      "over_scan_cap": 116,
       "failed_sources": []
     },
     "brazil": {
       "configured_sources": 10,
       "configured_domains": 10,
       "reported": 10,
-      "successful": 10,
+      "successful": 9,
       "baselines": 0,
-      "delta_scans": 10,
-      "failed": 0,
-      "new_urls": 3,
+      "delta_scans": 9,
+      "failed": 1,
+      "new_urls": 7,
       "over_scan_cap": 0,
-      "failed_sources": []
+      "failed_sources": [
+        {
+          "source_id": "devdata4-br",
+          "error": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      ]
     }
   }
 }
