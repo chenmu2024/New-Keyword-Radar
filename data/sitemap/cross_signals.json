@@ -2,7 +2,7 @@
   "date": "2026-11-09",
   "window_start": "2026-11-03",
   "source_count": 135,
-  "queue_count": 9628,
+  "queue_count": 10007,
   "ignored_unverifiable_proofs": 0,
   "groups": {
     "games": [
@@ -290,6 +290,34 @@
             "url": "https://playgama.com/game/tower-siege",
             "first_seen": "2026-11-06",
             "observed_query": "tower siege",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "brick breaker worlds",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/brick_breaker_worlds",
+            "first_seen": "2026-11-07",
+            "observed_query": "brick breaker worlds",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/brick-breaker-worlds",
+            "first_seen": "2026-11-09",
+            "observed_query": "brick breaker worlds",
             "source_category": "games"
           }
         ]
@@ -715,6 +743,34 @@
         ]
       },
       {
+        "query": "bike idle tycoon",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/bike_idle_tycoon",
+            "first_seen": "2026-11-05",
+            "observed_query": "bike idle tycoon",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/bike-idle-tycoon",
+            "first_seen": "2026-11-09",
+            "observed_query": "bike idle tycoon",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "genesis forge",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -822,6 +878,34 @@
             "url": "https://www.y8.com/games/sky_marble",
             "first_seen": "2026-11-08",
             "observed_query": "sky marble",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "garden tales 5",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "1001games-en",
+            "website": "1001games.com",
+            "url": "https://www.1001games.com/match-3/garden-tales-5",
+            "first_seen": "2026-11-03",
+            "observed_query": "garden tales 5",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/garden-tales-5/",
+            "first_seen": "2026-11-09",
+            "observed_query": "garden tales 5",
             "source_category": "games"
           }
         ]
@@ -1093,6 +1177,42 @@
             "first_seen": "2026-11-06",
             "observed_query": "uncensoredlabs",
             "source_category": "ai"
+          }
+        ]
+      },
+      {
+        "query": "convertlyft",
+        "independent_websites": 3,
+        "date_span_days": 4,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/convertlyft",
+            "first_seen": "2026-11-05",
+            "observed_query": "convertlyft",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/convertlyft/",
+            "first_seen": "2026-11-09",
+            "observed_query": "convertlyft",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/convertlyft",
+            "first_seen": "2026-11-09",
+            "observed_query": "convertlyft",
+            "source_category": "saas"
           }
         ]
       },
@@ -4269,6 +4389,62 @@
         ]
       },
       {
+        "query": "blockskinlab",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/blockskinlab",
+            "first_seen": "2026-11-06",
+            "observed_query": "blockskinlab",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/blockskinlab/",
+            "first_seen": "2026-11-09",
+            "observed_query": "blockskinlab",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "cantian ai",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/cantian-ai",
+            "first_seen": "2026-11-06",
+            "observed_query": "cantian ai",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/cantian-ai",
+            "first_seen": "2026-11-09",
+            "observed_query": "cantian ai",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "cveezi",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -4292,6 +4468,34 @@
             "url": "https://saascity.io/live/cveezi",
             "first_seen": "2026-11-06",
             "observed_query": "cveezi",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "ip proxy",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/ip-proxy",
+            "first_seen": "2026-11-06",
+            "observed_query": "ip proxy",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/ip-proxy",
+            "first_seen": "2026-11-09",
+            "observed_query": "ip proxy",
             "source_category": "saas"
           }
         ]
@@ -4325,6 +4529,34 @@
         ]
       },
       {
+        "query": "litak",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/litak",
+            "first_seen": "2026-11-06",
+            "observed_query": "litak",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/litak",
+            "first_seen": "2026-11-09",
+            "observed_query": "litak",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "lurkapi",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -4349,6 +4581,34 @@
             "first_seen": "2026-11-09",
             "observed_query": "lurkapi",
             "source_category": "ai"
+          }
+        ]
+      },
+      {
+        "query": "nano banana cn",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/nano-banana-cn",
+            "first_seen": "2026-11-06",
+            "observed_query": "nano banana cn",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/nano-banana-cn",
+            "first_seen": "2026-11-09",
+            "observed_query": "nano banana cn",
+            "source_category": "saas"
           }
         ]
       },
@@ -4633,6 +4893,34 @@
         ]
       },
       {
+        "query": "topview t1",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/topview-t1",
+            "first_seen": "2026-11-06",
+            "observed_query": "topview t1",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/topview-t1",
+            "first_seen": "2026-11-09",
+            "observed_query": "topview t1",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "trirank",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -4657,6 +4945,34 @@
             "first_seen": "2026-11-06",
             "observed_query": "trirank",
             "source_category": "ai"
+          }
+        ]
+      },
+      {
+        "query": "yike ai",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/yike-ai",
+            "first_seen": "2026-11-06",
+            "observed_query": "yike ai",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/yike-ai",
+            "first_seen": "2026-11-09",
+            "observed_query": "yike ai",
+            "source_category": "saas"
           }
         ]
       },
@@ -4945,8 +5261,8 @@
     "functions": []
   },
   "group_counts": {
-    "games": 29,
-    "products": 144,
+    "games": 32,
+    "products": 152,
     "tools": 0,
     "functions": 0
   },
@@ -4984,6 +5300,35 @@
             "url": "https://kizi.com/games/ninja-sword-dash",
             "first_seen": "2026-11-06",
             "observed_query": "ninja sword dash",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "brick breaker worlds",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/brick_breaker_worlds",
+            "first_seen": "2026-11-07",
+            "observed_query": "brick breaker worlds",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/brick-breaker-worlds",
+            "first_seen": "2026-11-09",
+            "observed_query": "brick breaker worlds",
             "source_category": "games"
           }
         ],
@@ -5570,6 +5915,64 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "bike idle tycoon",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/bike_idle_tycoon",
+            "first_seen": "2026-11-05",
+            "observed_query": "bike idle tycoon",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/bike-idle-tycoon",
+            "first_seen": "2026-11-09",
+            "observed_query": "bike idle tycoon",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "garden tales 5",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "1001games-en",
+            "website": "1001games.com",
+            "url": "https://www.1001games.com/match-3/garden-tales-5",
+            "first_seen": "2026-11-03",
+            "observed_query": "garden tales 5",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/garden-tales-5/",
+            "first_seen": "2026-11-09",
+            "observed_query": "garden tales 5",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "genesis forge",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -5835,6 +6238,43 @@
             "url": "https://startupbase.io/products/prelulu",
             "first_seen": "2026-11-04",
             "observed_query": "prelulu",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "convertlyft",
+        "independent_websites": 3,
+        "date_span_days": 4,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "openhunts-projects",
+            "website": "openhunts.com",
+            "url": "https://openhunts.com/projects/convertlyft",
+            "first_seen": "2026-11-05",
+            "observed_query": "convertlyft",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/convertlyft/",
+            "first_seen": "2026-11-09",
+            "observed_query": "convertlyft",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/convertlyft",
+            "first_seen": "2026-11-09",
+            "observed_query": "convertlyft",
             "source_category": "saas"
           }
         ],
@@ -6756,6 +7196,35 @@
         "cross_signal_origin": "products"
       },
       {
+        "query": "ip proxy",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/ip-proxy",
+            "first_seen": "2026-11-06",
+            "observed_query": "ip proxy",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/ip-proxy",
+            "first_seen": "2026-11-09",
+            "observed_query": "ip proxy",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "neverapply",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -7266,17 +7735,17 @@
     "brazil": []
   },
   "by_type_counts": {
-    "games": 29,
-    "saas": 37,
+    "games": 32,
+    "saas": 39,
     "ai": 11,
     "calculators": 0,
     "files": 0,
     "developer": 1,
     "brazil": 0
   },
-  "delta_ledger_count": 10889,
+  "delta_ledger_count": 12454,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-11-09T03:02:22.184235+08:00",
+  "generated_at": "2026-11-09T18:14:10.803674+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
@@ -7286,7 +7755,7 @@
       "baselines": 0,
       "delta_scans": 29,
       "failed": 4,
-      "new_urls": 4,
+      "new_urls": 80,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -7311,13 +7780,17 @@
       "configured_sources": 20,
       "configured_domains": 20,
       "reported": 20,
-      "successful": 19,
+      "successful": 18,
       "baselines": 0,
-      "delta_scans": 19,
-      "failed": 1,
-      "new_urls": 28,
+      "delta_scans": 18,
+      "failed": 2,
+      "new_urls": 101,
       "over_scan_cap": 0,
       "failed_sources": [
+        {
+          "source_id": "fazier-launches",
+          "error": "TimeoutError: The read operation timed out"
+        },
         {
           "source_id": "microlaunch-products",
           "error": "TimeoutError: The read operation timed out"
@@ -7328,13 +7801,22 @@
       "configured_sources": 20,
       "configured_domains": 20,
       "reported": 20,
-      "successful": 20,
+      "successful": 18,
       "baselines": 0,
-      "delta_scans": 20,
-      "failed": 0,
-      "new_urls": 35,
+      "delta_scans": 18,
+      "failed": 2,
+      "new_urls": 15,
       "over_scan_cap": 0,
-      "failed_sources": []
+      "failed_sources": [
+        {
+          "source_id": "aitoptools-tools",
+          "error": "TimeoutError: The read operation timed out"
+        },
+        {
+          "source_id": "nextool-tools",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ]
     },
     "calculators": {
       "configured_sources": 15,
@@ -7349,7 +7831,7 @@
       "failed_sources": [
         {
           "source_id": "metricconversions-tools",
-          "error": "ValueError: Response exceeds size limit"
+          "error": "ValueError: More sitemap files than safety cap; increase deliberately"
         }
       ]
     },
@@ -7361,7 +7843,7 @@
       "baselines": 0,
       "delta_scans": 18,
       "failed": 2,
-      "new_urls": 10,
+      "new_urls": 1,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -7382,26 +7864,21 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 62,
-      "over_scan_cap": 0,
+      "new_urls": 1396,
+      "over_scan_cap": 1145,
       "failed_sources": []
     },
     "brazil": {
       "configured_sources": 10,
       "configured_domains": 10,
       "reported": 10,
-      "successful": 9,
+      "successful": 10,
       "baselines": 0,
-      "delta_scans": 9,
-      "failed": 1,
-      "new_urls": 0,
+      "delta_scans": 10,
+      "failed": 0,
+      "new_urls": 3,
       "over_scan_cap": 0,
-      "failed_sources": [
-        {
-          "source_id": "devdata4-br",
-          "error": "HTTPError: HTTP Error 429: Too Many Requests"
-        }
-      ]
+      "failed_sources": []
     }
   }
 }
