@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-09T02:39:21.929977+00:00
+# V4 Social signal discovery — 2026-11-09T11:27:22.558412+00:00
 
-- Unique links this run: 57, newly seen: 29, history: 1379
+- Unique links this run: 56, newly seen: 20, history: 1399
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -11,7 +11,7 @@
 - x: empty (0) — Search-index-only coverage. Original post/comments unverified.
 - producthunt: ok (6)
 - huggingface: ok (6)
-- bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
+- bluesky: ok (5) — Direct public post text, not verified customer payment or SEO demand.
 - mastodon: ok (2) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
@@ -20,32 +20,31 @@
 
 ## Links (not validated project opportunities)
 
-- [Memorias](https://www.producthunt.com/products/memorias-3) — producthunt — direct_public_feed
-- [Deduplication](https://www.producthunt.com/products/hacker-noon) — producthunt — direct_public_feed
-- [Agent Clan](https://www.producthunt.com/products/agent-clan) — producthunt — direct_public_feed
-- [Textly](https://www.producthunt.com/products/textly-capture-copy-paste) — producthunt — direct_public_feed
-- [Frameboy by World Labs](https://www.producthunt.com/products/marble-by-world-labs) — producthunt — direct_public_feed
-- [AXL](https://www.producthunt.com/products/axl-2) — producthunt — direct_public_feed
-- [blackdragon1938/marshmallow-obby](https://huggingface.co/spaces/blackdragon1938/marshmallow-obby) — huggingface — direct_public_api
-- [Mobius-AGI/mobius-tokenizer](https://huggingface.co/spaces/Mobius-AGI/mobius-tokenizer) — huggingface — direct_public_api
-- [MrCamay/MAXIntelligence](https://huggingface.co/spaces/MrCamay/MAXIntelligence) — huggingface — direct_public_api
-- [kpk-devil1209/KPK-DEVIL-TOPPER-HUB-8th](https://huggingface.co/spaces/kpk-devil1209/KPK-DEVIL-TOPPER-HUB-8th) — huggingface — direct_public_api
-- [Chris08102003/CustomerCompliantAssistant](https://huggingface.co/spaces/Chris08102003/CustomerCompliantAssistant) — huggingface — direct_public_api
-- [Perspicacity/bicycle-rental-hezekiah](https://huggingface.co/spaces/Perspicacity/bicycle-rental-hezekiah) — huggingface — direct_public_api
-- [it generally does help sometimes, especially if you're using something like a crease tool and need it to sorta taper in intensity, but i'm fine workin like this for the time](https://bsky.app/profile/galileogb.bsky.social/post/3mztufeycyk2i) — bluesky — direct_public_post — intent keyword found
-- [We need a Supreme Court which doesn’t legislate from the bench, we need to add judges to the Supreme Court who really understand stand interpretation of the constitution and throws](https://bsky.app/profile/suamicoiceman.bsky.social/post/3mzttylcvzc2h) — bluesky — direct_public_post — intent keyword found
-- [I built the tool that didn’t exist so kids could finally have the access to supports they need to be included at school. It doesn’t solve all the challenges getting our kiddos with](https://bsky.app/profile/drkristynsommer.bsky.social/post/3mztszulmkm2b) — bluesky — direct_public_post — intent keyword found
-- [We Need Your Help! Understand Your Values From Reed Galen of Civic Forum, Closing the Civic Gap This week I want to hand you a tool for the question that matters most before Tuesd](https://bsky.app/profile/jointheunionus.bsky.social/post/3mztsm6f7qk26) — bluesky — direct_public_post — intent keyword found
-- [Every tool now ships an 'agent mode.' Most tasks don't need an agent — they need a script that runs the same way every time. Agents are for judgment calls, not repeatable chores. C](https://bsky.app/profile/skillstack.bsky.social/post/3mztrrrpuc22z) — bluesky — direct_public_post — intent keyword found
-- [New post in r/SAP by u/UnusualGrowth2561: 🔗 Link: https://www.reddit.com/r/SAP/comments/1xremzc/suser_needed_for_ai_tool/](https://bsky.app/profile/sap-reddit-bot.marianzeis.de/post/3mztramnanl26) — bluesky — direct_public_post
-- [Turn your own photo into a reusable cartoon character 🦊 Upload a photo, pick a style, type a name and click Draw. Your toon character is ready to star in every video you make. Woul](https://mastodon.social/@rankmarket99/117583774120799922) — mastodon — direct_public_post
-- [What if my dog were the size of a cave? One pet photo. The dog stays a dog, just colossal. Cave sound and breathing generated. (AI-generated video.) The "Colossal Companion" templa](https://mastodon.social/@talkpix/117581481518740455) — mastodon — direct_public_post — intent keyword found
+- [skuttr](https://www.producthunt.com/products/skuttr) — producthunt — direct_public_feed
+- [ClipsPal](https://www.producthunt.com/products/clipspal) — producthunt — direct_public_feed
+- [ProtoMap](https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2) — producthunt — direct_public_feed
+- [CozyZip](https://www.producthunt.com/products/cozyzip) — producthunt — direct_public_feed
+- [Sign Language by Panda Video](https://www.producthunt.com/products/panda-video) — producthunt — direct_public_feed
+- [Terse - Durable Actors](https://www.producthunt.com/products/terse-durable-actors) — producthunt — direct_public_feed
+- [Vikas-789/ai-agent-bot](https://huggingface.co/spaces/Vikas-789/ai-agent-bot) — huggingface — direct_public_api
+- [Makanmak/Mak](https://huggingface.co/spaces/Makanmak/Mak) — huggingface — direct_public_api
+- [daapsaak/Daapsaak](https://huggingface.co/spaces/daapsaak/Daapsaak) — huggingface — direct_public_api
+- [Muthu88/pymasters-ai-lesson-generator](https://huggingface.co/spaces/Muthu88/pymasters-ai-lesson-generator) — huggingface — direct_public_api — intent keyword found
+- [Danil2014/Mzad.com](https://huggingface.co/spaces/Danil2014/Mzad.com) — huggingface — direct_public_api
+- [Suduarshan/sv-forecast-ml](https://huggingface.co/spaces/Suduarshan/sv-forecast-ml) — huggingface — direct_public_api
+- [Then there are contracts for difference- a govt run scheme which guarantees a fixed price for some renewables sites. All suppliers essentially pay into a pot for this. If the whole](https://bsky.app/profile/beardybanjo.bsky.social/post/3mzufpuiqg22s) — bluesky — direct_public_post — intent keyword found
+- [A reasonable recast! I don't think it was the wrong research to do to be clear, but I do think the only thing that makes sense is mixed-initiative tools for anything with a human a](https://bsky.app/profile/matthewguz.bsky.social/post/3mztrxj6rgk2o) — bluesky — direct_public_post — intent keyword found
+- [Earlier today I discovered that the command line argument that causes CMake with the MSVC generator to build a 64-bit build will 100% of the time result in an unrecoverable error o](https://bsky.app/profile/dryad.technology/post/3mzqyanaf5s2w) — bluesky — direct_public_post — intent keyword found
+- [Sci-fi Fan: "That piece there is a Zolan Micro-shield generator. It absorbed the majority of the wave pulse generator grenade's destructive power, keeping the hero safe." Writer a](https://bsky.app/profile/lizzy3d.bsky.social/post/3mzqqdhgzsk2z) — bluesky — direct_public_post — intent keyword found
+- [I'm not sure you can say that California has been a generator of stellar candidates in the 20 years they've had top 2. Somewhat is doing a lot of work there.](https://bsky.app/profile/pdxpolyscijunkie.bsky.social/post/3mzp6ieowj22p) — bluesky — direct_public_post — intent keyword found
+- [a spinning 3d cube. seven divs and some css, no javascript. just transforms and keyframes 🔥 # css # html # webdev # smallweb](https://mastodon.social/@HotPage/117581194559567453) — mastodon — direct_public_post
+- [made a little site that collects the weird, wonderful corners of the web. one click and you're somewhere strange. no ads, no accounts. https:// culdesac.site # indieweb # smallweb](https://mastodon.social/@HobbyBuilder/117579148664170621) — mastodon — direct_public_post
+- [ChatGPT Desktop forwards your SSH agent to remote machines](https://news.ycombinator.com/item?id=50422628) — hackernews_ask — direct_public_post
 - [Ask HN: What are you working on? (November 2026)](https://news.ycombinator.com/item?id=50417407) — hackernews_ask — direct_public_post
-- [Tell HN: A flood of reports of Opus 5.5 being nerfed](https://news.ycombinator.com/item?id=50419019) — hackernews_ask — direct_public_post
-- [Ask HN: How did you convince family and friends to join your XMPP/Matrix server?](https://news.ycombinator.com/item?id=50405250) — hackernews_ask — direct_public_post
-- [Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)](https://news.ycombinator.com/item?id=50363461) — hackernews_ask — direct_public_post
-- [Ask HN: What in the world is taking Ubuntu so long?](https://news.ycombinator.com/item?id=50393105) — hackernews_ask — direct_public_post
-- [Ask HN: What's your current AI agentic setup?](https://news.ycombinator.com/item?id=50366117) — hackernews_ask — direct_public_post
+- [Ask HN: Do you still enjoy coding in C++?](https://news.ycombinator.com/item?id=50423371) — hackernews_ask — direct_public_post
+- [Ask HN: How your SEO traffic doing? Up or down?](https://news.ycombinator.com/item?id=50423535) — hackernews_ask — direct_public_post
+- [Ask HN: How do you manage your AI agents' context across clients and projects?](https://news.ycombinator.com/item?id=50403153) — hackernews_ask — direct_public_post — intent keyword found
+- [Ask HN: Will Humans Become Useless?](https://news.ycombinator.com/item?id=50422486) — hackernews_ask — direct_public_post
 - [Night crew Nov 8: CTO and coordinator](https://github.com/lamontaes/Political-Game-Git/issues/7365) — github_issue — direct_public_issue_api
 - [SYNQORIA overnight production queue — four agents, exclusive next modules and non-overlap gates](https://github.com/exerateanalytical/synqoria/issues/132) — github_issue — direct_public_issue_api
 - [Revenue reset: prioritize verified cashflow over infrastructure](https://github.com/me-fake-you/clearsheet-offers/issues/3) — github_issue — direct_public_issue_api
@@ -60,3 +59,4 @@
 - [Ask HN: Small business bank account – who do you use?](https://news.ycombinator.com/item?id=11438973) — hackernews_ask — indexed_public_post_excerpt
 - [Coordinate DevContainer UAT holding branch and staging-to-review synchronization](https://github.com/OXY7O/KAORI/issues/2227) — github_issue — direct_public_issue_api
 - [[U6-04 Front end, restart menu and the last bridge calls; delete navigation_abi.rs and app::bridge; split uqm-content and uqm-modes](https://github.com/acoliver/uqm/issues/694) — github_issue — direct_public_issue_api
+- [PlanReader agent coordination hub continuation — #3462 reached GitHub 2,500-comment limit](https://github.com/BryceCurran86/PlanReader-3D/issues/4135) — github_issue — direct_public_issue_api
