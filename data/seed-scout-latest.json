@@ -1,26 +1,193 @@
 {
-  "batch_id": "2026-11-09T20:41:29.894802+00:00-33-34-35-36-37",
-  "generated_at": "2026-11-09T20:41:29.894802+00:00",
-  "local_generated_at": "2026-11-10T04:41:29.894802+08:00",
+  "batch_id": "2026-11-10T04:26:56.114221+00:00-34-35-36-37",
+  "generated_at": "2026-11-10T04:26:56.114221+00:00",
+  "local_generated_at": "2026-11-10T12:26:56.114221+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "recorder",
     "optimizer",
     "scheduler",
     "converter",
     "viewer"
   ],
   "seed_indices": [
-    33,
     34,
     35,
     36,
     37
   ],
-  "start_index": 33,
-  "discoveries": [],
-  "status": "error",
-  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+  "start_index": 34,
+  "discoveries": [
+    {
+      "seed": "optimizer",
+      "query": "kingshot optimizer tool",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "scheduler",
+      "query": "au access",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "optimizer",
+      "query": "radiant optimizer x",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "scheduler",
+      "query": "telehealth scheduler jobs",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "scheduler",
+      "query": "tiger scheduler",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "scheduler",
+      "query": "aus scheduler",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scheduler",
+      "query": "rate my professor auburn",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scheduler",
+      "query": "tiger scheduler auburn",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "optimizer",
+      "query": "adobe journey optimizer",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "optimizer",
+      "query": "radiant optimizer twitter",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "scheduler",
+      "query": "ut course scheduler",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "optimizer",
+      "query": "mace optimizer",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "converter",
+      "query": "y2mate mp3 converter app download",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "viewer",
+      "query": "aurora viewer",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "optimizer",
+      "query": "octane optimizer",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "optimizer",
+      "query": "optimizer duck",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "telehealth scheduler remote jobs",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "optimizer",
+      "query": "vel.gg/bo1z",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "optimizer",
+      "query": "exitlag",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "optimizer",
+      "query": "hell hades optimizer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "optimizer",
+      "query": "neuro optimizer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "quebec medical appointment scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "scheduler msoe",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "surgical scheduler jobs",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "calendly",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "scheduler",
+      "query": "liheap appointment scheduler",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "optimizer",
+      "query": "rammap",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "optimizer",
+      "query": "wlan optimizer",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 28
 }
