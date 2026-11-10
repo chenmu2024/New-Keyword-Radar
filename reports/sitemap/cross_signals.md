@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：125/135；数据生成：2026-11-10T07:32:58.007307+08:00；详细候选：10598；7日轻量URL证据：11404/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：126/135；数据生成：2026-11-10T18:19:05.691349+08:00；详细候选：11136；7日轻量URL证据：12499/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 144，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 107，采样上限遗漏 0。
 
 - **bogatyrs**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-09 · https://gamedistribution.com/games/bogatyrs/ · 原词 bogatyrs
@@ -49,16 +49,26 @@
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 288，采样上限遗漏 11。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 201，采样上限遗漏 0。
 
-- **prelulu**：不同根域 3 家；同一天峰值 3 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+- **prelulu**：不同根域 4 家；同一天峰值 3 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - producthunt.com · producthunt-products · 2026-11-04 · https://www.producthunt.com/products/prelulu · 原词 prelulu
   - productperch.com · productperch-products · 2026-11-04 · https://productperch.com/products/prelulu/ · 原词 prelulu
   - startupbase.io · startupbase-products · 2026-11-04 · https://startupbase.io/products/prelulu · 原词 prelulu
+  - uneed.best · uneed-products · 2026-11-10 · https://www.uneed.best/tool/prelulu · 原词 prelulu
+- **plimo**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - saascity.io · saascity-products · 2026-11-08 · https://saascity.io/live/plimo · 原词 plimo
+  - smollaunch.com · smollaunch-products · 2026-11-10 · https://smollaunch.com/products/plimo · 原词 plimo
+  - startupbase.io · startupbase-products · 2026-11-10 · https://startupbase.io/products/plimo · 原词 plimo
 - **vidsembly**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - startupbase.io · startupbase-products · 2026-11-09 · https://startupbase.io/products/vidsembly · 原词 vidsembly
   - fazier.com · fazier-launches · 2026-11-10 · https://fazier.com/launches/vidsembly · 原词 vidsembly
   - openhunts.com · openhunts-projects · 2026-11-10 · https://openhunts.com/projects/vidsembly · 原词 vidsembly
+- **secretpass**：不同根域 4 家；同一天峰值 2 家、连续3日 2 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - fazier.com · fazier-launches · 2026-11-05 · https://fazier.com/launches/secretpass · 原词 secretpass
+  - uneed.best · uneed-products · 2026-11-07 · https://www.uneed.best/tool/secretpass · 原词 secretpass
+  - saascity.io · saascity-products · 2026-11-10 · https://saascity.io/live/secretpass · 原词 secretpass
+  - smollaunch.com · smollaunch-products · 2026-11-10 · https://smollaunch.com/products/secretpass · 原词 secretpass
 - **convertlyft**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - openhunts.com · openhunts-projects · 2026-11-05 · https://openhunts.com/projects/convertlyft · 原词 convertlyft
   - productperch.com · productperch-products · 2026-11-09 · https://productperch.com/products/convertlyft/ · 原词 convertlyft
@@ -67,10 +77,6 @@
   - fazier.com · fazier-launches · 2026-11-05 · https://fazier.com/launches/myzucoins · 原词 myzucoins
   - uneed.best · uneed-products · 2026-11-07 · https://www.uneed.best/tool/myzucoins · 原词 myzucoins
   - smollaunch.com · smollaunch-products · 2026-11-10 · https://smollaunch.com/products/myzucoins · 原词 myzucoins
-- **secretpass**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - fazier.com · fazier-launches · 2026-11-05 · https://fazier.com/launches/secretpass · 原词 secretpass
-  - uneed.best · uneed-products · 2026-11-07 · https://www.uneed.best/tool/secretpass · 原词 secretpass
-  - smollaunch.com · smollaunch-products · 2026-11-10 · https://smollaunch.com/products/secretpass · 原词 secretpass
 - **tapmap**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - uneed.best · uneed-products · 2026-11-06 · https://www.uneed.best/tool/tapmap · 原词 tapmap
   - openhunts.com · openhunts-projects · 2026-11-10 · https://openhunts.com/projects/tapmap · 原词 tapmap
@@ -84,15 +90,12 @@
 - **apogee ads**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - saascity.io · saascity-products · 2026-11-06 · https://saascity.io/live/apogee-ads · 原词 apogee ads
   - uneed.best · uneed-products · 2026-11-07 · https://www.uneed.best/tool/apogee-ads · 原词 apogee ads
-- **arkwarden**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - saascity.io · saascity-products · 2026-11-08 · https://saascity.io/live/arkwarden · 原词 arkwarden
-  - smollaunch.com · smollaunch-products · 2026-11-10 · https://smollaunch.com/products/arkwarden · 原词 arkwarden
 
 失败来源：microlaunch-products (TimeoutError: The read operation timed out)
 
 ## AI 工具和 Agent 目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 23，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 27，采样上限遗漏 0。
 
 - **plimo**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo · 原词 plimo
@@ -122,9 +125,9 @@
 - **ai rap video generator**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/ai-rap-video-generator · 原词 ai rap video generator
   - dang.ai · dangai-tools · 2026-11-10 · https://dang.ai/tool/ai-rap-video-generator · 原词 ai rap video generator
-- **lurkapi**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/lurkapi · 原词 lurkapi
-  - aitoolnet.com · aitoolnet-tools · 2026-11-09 · https://www.aitoolnet.com/lurkapi · 原词 lurkapi
+- **edit image text online**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/edit-image-text-online · 原词 edit image text online
+  - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-10 · https://aitoolsdirectory.com/tool/edit-image-text-online · 原词 edit image text online
 
 失败来源：nextool-tools (HTTPError: HTTP Error 503: Service Unavailable)
 
@@ -138,7 +141,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 3，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -146,28 +149,27 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 341，采样上限遗漏 116。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 867，采样上限遗漏 505。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
 ## 巴西在线工具
 
-采集：9/10来源，配置根域 10，新建基线 0，失败 1，新增 URL 7，采样上限遗漏 0。
+采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
-
-失败来源：devdata4-br (HTTPError: HTTP Error 429: Too Many Requests)
 
 ## 跨类别同名或同向文件转换（仅作人工复核）
 
 ### 跨SaaS和AI的同名产品
 
-- plimo：独立根域 5 家；类别 ai, saas
+- plimo：独立根域 6 家；类别 ai, saas
   - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo
   - ai · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/plimo
   - ai · aitoolsdirectory-tools · 2026-11-08 · https://aitoolsdirectory.com/tool/plimo
   - saas · saascity-products · 2026-11-08 · https://saascity.io/live/plimo
   - saas · smollaunch-products · 2026-11-10 · https://smollaunch.com/products/plimo
+  - saas · startupbase-products · 2026-11-10 · https://startupbase.io/products/plimo
 - vidsembly：独立根域 4 家；类别 ai, saas
   - saas · startupbase-products · 2026-11-09 · https://startupbase.io/products/vidsembly
   - ai · aitoolnet-tools · 2026-11-10 · https://www.aitoolnet.com/vidsembly
@@ -181,6 +183,10 @@
   - ai · aitoptools-tools · 2026-11-05 · https://aitoptools.com/tool/aeo-action/
   - saas · fazier-launches · 2026-11-06 · https://fazier.com/launches/aeo-action
   - saas · uneed-products · 2026-11-07 · https://www.uneed.best/tool/aeo-action
+- fino3d：独立根域 3 家；类别 ai, saas
+  - ai · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/fino3d
+  - saas · fazier-launches · 2026-11-08 · https://fazier.com/launches/fino3d
+  - ai · aitoolsdirectory-tools · 2026-11-10 · https://aitoolsdirectory.com/tool/fino3d
 - trustedaiagencies：独立根域 3 家；类别 ai, saas
   - saas · saascity-products · 2026-11-05 · https://saascity.io/live/trustedaiagencies
   - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/trustedaiagencies
@@ -197,9 +203,6 @@
 - gmb scraper：独立根域 2 家；类别 ai, developer
   - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/gmb-scraper
   - developer · apify-actors-z · 2026-11-06 · https://apify.com/rodexco/gmb-scraper
-- inreel：独立根域 2 家；类别 ai, saas
-  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/inreel
-  - saas · productperch-products · 2026-11-06 · https://productperch.com/products/inreel/
 
 ### 跨类别同向文件转换
 

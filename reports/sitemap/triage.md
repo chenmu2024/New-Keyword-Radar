@@ -4,83 +4,83 @@
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
-- Sitemap feeds succeeded: 125/135
-- URLs newly observed in the latest scan: 803
-- Candidate URL rows extracted in latest scan: 645
-- First-time keyword/geo research leads: 591
-- Previously removed URLs resurfacing: 3
-- Accumulated queue: 10598
-- Human keyword/topic review: 4348
-- Game/general watchlist: 6091
-- Low-quality page-name noise: 159
+- Sitemap feeds succeeded: 126/135
+- URLs newly observed in the latest scan: 1205
+- Candidate URL rows extracted in latest scan: 590
+- First-time keyword/geo research leads: 538
+- Previously removed URLs resurfacing: 21
+- Accumulated queue: 11136
+- Human keyword/topic review: 4623
+- Game/general watchlist: 6353
+- Low-quality page-name noise: 160
 - **Verified new keywords / search demand / business revenue: not established**
 
 ## Queue composition (by Sitemap source)
 
-- apify-actors-z: 1598
-- apify-actors-a: 932
+- apify-actors-z: 1702
+- apify-actors-a: 997
 - railway-templates: 802
-- gamepix-pt: 647
+- gamepix-pt: 659
 - gamepix-en: 633
-- fazier-launches: 469
-- producthunt-products: 461
-- playgama-en: 337
-- uneed-products: 290
-- y8-en: 288
-- productperch-products: 278
+- fazier-launches: 528
+- producthunt-products: 504
+- playgama-en: 370
+- y8-en: 307
+- uneed-products: 306
+- productperch-products: 305
 - saasworthy-products: 263
 - toolveyor-tools: 249
 - devhunt-tools: 235
-- crazygames-br: 205
-- crazygames-en: 205
-- crazygames-es: 205
+- crazygames-br: 213
+- crazygames-es: 213
+- crazygames-en: 212
 - smollaunch-products: 193
 - vercel-product-watch: 177
-- saascity-products: 161
-- startupbase-products: 156
-- dangai-tools: 130
+- n8n-workflows: 173
+- startupbase-products: 172
+- saascity-products: 165
+- dangai-tools: 137
 - startupstash-tools: 121
-- n8n-workflows: 118
 - aitoolboard-tools: 113
+- indieneed-products: 106
 - onlinetools-br: 103
-- indieneed-products: 98
-- futurepedia-tools: 96
+- futurepedia-tools: 98
 - openhunts-projects: 91
-- gamedistribution-games: 83
+- gamedistribution-games: 86
+- playhop-en: 82
+- pitchwall-products: 81
 - aitoolnet-tools: 79
 - futuretools-products: 78
-- playhop-en: 78
-- pitchwall-products: 71
 - minijuegos-es: 63
 - tooldirectory-ai-tools: 38
-- fotor-features: 32
-- aitoptools-tools: 30
+- fotor-features: 34
+- aitoptools-tools: 33
 - toolfound-products: 30
 - gamearter-en: 29
-- indietools-products: 25
-- pipedream-actions: 22
-- aiagentstore-agents: 20
+- indietools-products: 29
+- aitoolsdirectory-tools: 27
+- pipedream-actions: 23
+- aiagentstore-agents: 22
 - pdfresizer-tools: 20
-- aitoolsdirectory-tools: 17
 - fridayhunt-projects: 17
+- replicate-models: 17
 - cokogames-es: 15
 - netlify-product-watch: 15
-- replicate-models: 14
 - kizi-en: 12
 - onlinegames-en: 11
+- ezgif-tools: 10
 - gamegame-en: 10
 - yiv-games: 10
-- ezgif-tools: 9
 - launchscaler-products: 9
 - jogos360-br: 8
+- poki-en: 8
 - 1001games-en: 7
 - aitoolhouse-tools: 7
+- bgames-en: 7
 - gamenora-en: 7
 - nextool-tools: 7
-- poki-en: 7
 - activepieces-pieces: 6
 - aiagentslist-agents: 6
-- bgames-en: 6
 - invertexto-br: 6
 - planetscale-changelog: 6
 - ifttt-services: 5
@@ -99,106 +99,106 @@ Raw queue and all main radar settings remain unchanged.
 
 ## Latest scan's leads (routing only)
 
-- [ragdoll racing extreme downhill](https://www.crazygames.com/game/ragdoll-racing-extreme-downhill) — watch / game-title-not-search-demand; source=crazygames-en
-- [coconut tycoon](https://www.crazygames.com/game/coconut-tycoon) — watch / game-title-not-search-demand; source=crazygames-en
-- [coconut tycoon](https://www.crazygames.com/br/game/coconut-tycoon) — watch / game-title-not-search-demand; source=crazygames-br
-- [coconut tycoon](https://www.crazygames.com/es/game/coconut-tycoon) — watch / game-title-not-search-demand; source=crazygames-es
-- [ragdoll racing extreme downhill](https://www.crazygames.com/es/game/ragdoll-racing-extreme-downhill) — watch / game-title-not-search-demand; source=crazygames-es
-- [broxy cities island builder](https://www.gamepix.com/play/broxy-cities-island-builder) — review / tool-intent-wording-not-verified; source=gamepix-en
-- [cage ballers football](https://www.gamepix.com/play/cage-ballers-football) — watch / game-title-not-search-demand; source=gamepix-en
-- [darkdawn](https://www.gamepix.com/play/darkdawn) — watch / game-title-not-search-demand; source=gamepix-en
-- [visual novel](https://www.gamepix.com/t/visual-novel) — watch / game-title-not-search-demand; source=gamepix-en
-- [petalcraft](https://www.gamepix.com/play/petalcraft) — watch / game-title-not-search-demand; source=gamepix-en
-- [core run](https://www.gamepix.com/play/core-run) — watch / game-title-not-search-demand; source=gamepix-en
-- [merge dice arena](https://www.gamepix.com/play/merge-dice-arena) — watch / game-title-not-search-demand; source=gamepix-en
-- [flop par](https://www.gamepix.com/play/flop-par) — watch / game-title-not-search-demand; source=gamepix-en
-- [cyber dash neon rhythm jump](https://www.gamepix.com/play/cyber-dash-neon-rhythm-jump) — watch / game-title-not-search-demand; source=gamepix-en
-- [proxima 268](https://www.gamepix.com/play/proxima-268) — watch / game-title-not-search-demand; source=gamepix-en
-- [bogatyrs](https://www.gamepix.com/play/bogatyrs) — watch / game-title-not-search-demand; source=gamepix-en
-- [split pea](https://www.gamepix.com/play/split-pea) — watch / game-title-not-search-demand; source=gamepix-en
-- [sort storm](https://www.gamepix.com/play/sort-storm) — watch / game-title-not-search-demand; source=gamepix-en
-- [hedgehold](https://www.gamepix.com/play/hedgehold) — watch / game-title-not-search-demand; source=gamepix-en
-- [homicidy](https://www.gamepix.com/play/homicidy) — watch / game-title-not-search-demand; source=gamepix-en
-- [slip past](https://www.gamepix.com/play/slip-past) — watch / game-title-not-search-demand; source=gamepix-en
-- [birak](https://www.gamepix.com/play/birak) — watch / game-title-not-search-demand; source=gamepix-en
-- [sprout duel](https://www.gamepix.com/play/sprout-duel) — watch / game-title-not-search-demand; source=gamepix-en
-- [cosmo colony](https://www.gamepix.com/play/cosmo-colony) — watch / game-title-not-search-demand; source=gamepix-en
-- [petal pull](https://www.gamepix.com/play/petal-pull) — watch / game-title-not-search-demand; source=gamepix-en
-- [sky lantern mahjong](https://www.gamepix.com/play/sky-lantern-mahjong) — watch / game-title-not-search-demand; source=gamepix-en
-- [ancient warriors order of the seal](https://www.gamepix.com/play/ancient-warriors-order-of-the-seal) — watch / game-title-not-search-demand; source=gamepix-en
-- [bloomburst](https://www.gamepix.com/play/bloomburst) — watch / game-title-not-search-demand; source=gamepix-en
-- [flip stack](https://www.gamepix.com/play/flip-stack) — watch / game-title-not-search-demand; source=gamepix-en
-- [bloomfront](https://www.gamepix.com/play/bloomfront) — watch / game-title-not-search-demand; source=gamepix-en
-- [fusion rush](https://www.gamepix.com/play/fusion-rush) — watch / game-title-not-search-demand; source=gamepix-en
-- [cloud pillar javelin](https://www.gamepix.com/play/cloud-pillar-javelin) — watch / game-title-not-search-demand; source=gamepix-en
-- [void slime harves](https://www.gamepix.com/play/void-slime-harves) — watch / game-title-not-search-demand; source=gamepix-en
-- [bramble rush](https://www.gamepix.com/play/bramble-rush) — watch / game-title-not-search-demand; source=gamepix-en
-- [hatchfort](https://www.gamepix.com/play/hatchfort) — watch / game-title-not-search-demand; source=gamepix-en
-- [nutty rush kart](https://www.gamepix.com/play/nutty-rush-kart) — watch / game-title-not-search-demand; source=gamepix-en
-- [wall digger](https://www.gamepix.com/play/wall-digger) — watch / game-title-not-search-demand; source=gamepix-en
-- [stack seven](https://www.gamepix.com/play/stack-seven) — watch / game-title-not-search-demand; source=gamepix-en
-- [spell to the beats](https://www.gamepix.com/play/spell-to-the-beats) — watch / game-title-not-search-demand; source=gamepix-en
-- [dungeon run](https://www.gamepix.com/play/dungeon-run) — watch / game-title-not-search-demand; source=gamepix-en
-- [perfect stack](https://www.gamepix.com/play/perfect-stack) — watch / game-title-not-search-demand; source=gamepix-en
-- [robostrike 3d](https://www.gamepix.com/play/robostrike-3d) — watch / game-title-not-search-demand; source=gamepix-en
-- [edgy fox](https://www.gamepix.com/play/edgy-fox) — watch / game-title-not-search-demand; source=gamepix-en
-- [letter legion](https://www.gamepix.com/play/letter-legion) — watch / game-title-not-search-demand; source=gamepix-en
-- [fortress merge tower defense](https://www.gamepix.com/play/fortress-merge-tower-defense) — watch / game-title-not-search-demand; source=gamepix-en
-- [emberhaul relics below](https://www.gamepix.com/play/emberhaul-relics-below) — watch / game-title-not-search-demand; source=gamepix-en
-- [block combo](https://www.gamepix.com/play/block-combo) — watch / game-title-not-search-demand; source=gamepix-en
-- [shatterbloom](https://www.gamepix.com/play/shatterbloom) — watch / game-title-not-search-demand; source=gamepix-en
-- [wobbly delivery](https://www.gamepix.com/play/wobbly-delivery) — watch / game-title-not-search-demand; source=gamepix-en
-- [lucky bastion](https://www.gamepix.com/play/lucky-bastion) — watch / game-title-not-search-demand; source=gamepix-en
-- [ref doesn t exist](https://www.gamepix.com/play/ref-doesn-t-exist) — watch / game-title-not-search-demand; source=gamepix-en
-- [sparksprint](https://www.gamepix.com/play/sparksprint) — watch / game-title-not-search-demand; source=gamepix-en
-- [nutty rush world](https://www.gamepix.com/play/nutty-rush-world) — watch / game-title-not-search-demand; source=gamepix-en
-- [sunny acres market](https://www.gamepix.com/play/sunny-acres-market) — watch / game-title-not-search-demand; source=gamepix-en
-- [oxy arena](https://www.gamepix.com/play/oxy-arena) — watch / game-title-not-search-demand; source=gamepix-en
-- [bureau of wonders](https://www.gamepix.com/play/bureau-of-wonders) — watch / game-title-not-search-demand; source=gamepix-en
-- [snooze fort](https://www.gamepix.com/play/snooze-fort) — watch / game-title-not-search-demand; source=gamepix-en
-- [shadow swarm infinite survivor](https://www.gamepix.com/play/shadow-swarm-infinite-survivor) — watch / game-title-not-search-demand; source=gamepix-en
-- [cube drift](https://www.gamepix.com/play/cube-drift) — watch / game-title-not-search-demand; source=gamepix-en
-- [pizza panic](https://www.gamepix.com/play/pizza-panic) — watch / game-title-not-search-demand; source=gamepix-en
-- [turbo soccer chaos](https://www.gamepix.com/play/turbo-soccer-chaos) — watch / game-title-not-search-demand; source=gamepix-en
-- [ragdoll swing rush](https://www.gamepix.com/play/ragdoll-swing-rush) — watch / game-title-not-search-demand; source=gamepix-en
-- [snug s thaw](https://www.gamepix.com/play/snug-s-thaw) — watch / game-title-not-search-demand; source=gamepix-en
-- [cake it up](https://www.gamepix.com/play/cake-it-up) — watch / game-title-not-search-demand; source=gamepix-en
-- [guinea pig cottage rally](https://www.gamepix.com/play/guinea-pig-cottage-rally) — watch / game-title-not-search-demand; source=gamepix-en
-- [super worms](https://www.gamepix.com/play/super-worms) — watch / game-title-not-search-demand; source=gamepix-en
-- [10key survival](https://www.gamepix.com/play/10key-survival) — watch / game-title-not-search-demand; source=gamepix-en
-- [restorake restore the ruins](https://www.gamepix.com/play/restorake-restore-the-ruins) — watch / game-title-not-search-demand; source=gamepix-en
-- [broxy cities island builder](https://www.gamepix.com/pt/play/broxy-cities-island-builder) — review / tool-intent-wording-not-verified; source=gamepix-pt
-- [darkdawn](https://www.gamepix.com/pt/play/darkdawn) — watch / game-title-not-search-demand; source=gamepix-pt
-- [core run](https://www.gamepix.com/pt/play/core-run) — watch / game-title-not-search-demand; source=gamepix-pt
-- [ancient warriors order of the seal](https://www.gamepix.com/pt/play/ancient-warriors-order-of-the-seal) — watch / game-title-not-search-demand; source=gamepix-pt
-- [flip stack](https://www.gamepix.com/pt/play/flip-stack) — watch / game-title-not-search-demand; source=gamepix-pt
-- [cube drift](https://www.gamepix.com/pt/play/cube-drift) — watch / game-title-not-search-demand; source=gamepix-pt
-- [bloomfront](https://www.gamepix.com/pt/play/bloomfront) — watch / game-title-not-search-demand; source=gamepix-pt
-- [wall digger](https://www.gamepix.com/pt/play/wall-digger) — watch / game-title-not-search-demand; source=gamepix-pt
-- [ref doesn t exist](https://www.gamepix.com/pt/play/ref-doesn-t-exist) — watch / game-title-not-search-demand; source=gamepix-pt
-- [wobbly delivery](https://www.gamepix.com/pt/play/wobbly-delivery) — watch / game-title-not-search-demand; source=gamepix-pt
-- [block combo](https://www.gamepix.com/pt/play/block-combo) — watch / game-title-not-search-demand; source=gamepix-pt
-- [oxy arena](https://www.gamepix.com/pt/play/oxy-arena) — watch / game-title-not-search-demand; source=gamepix-pt
-- [bramble rush](https://www.gamepix.com/pt/play/bramble-rush) — watch / game-title-not-search-demand; source=gamepix-pt
-- [pizza panic](https://www.gamepix.com/pt/play/pizza-panic) — watch / game-title-not-search-demand; source=gamepix-pt
-- [cloud pillar javelin](https://www.gamepix.com/pt/play/cloud-pillar-javelin) — watch / game-title-not-search-demand; source=gamepix-pt
-- [homicidy](https://www.gamepix.com/pt/play/homicidy) — watch / game-title-not-search-demand; source=gamepix-pt
-- [split pea](https://www.gamepix.com/pt/play/split-pea) — watch / game-title-not-search-demand; source=gamepix-pt
-- [cake it up](https://www.gamepix.com/pt/play/cake-it-up) — watch / game-title-not-search-demand; source=gamepix-pt
-- [proxima 268](https://www.gamepix.com/pt/play/proxima-268) — watch / game-title-not-search-demand; source=gamepix-pt
-- [edgy fox](https://www.gamepix.com/pt/play/edgy-fox) — watch / game-title-not-search-demand; source=gamepix-pt
-- [petalcraft](https://www.gamepix.com/pt/play/petalcraft) — watch / game-title-not-search-demand; source=gamepix-pt
-- [sparksprint](https://www.gamepix.com/pt/play/sparksprint) — watch / game-title-not-search-demand; source=gamepix-pt
-- [birak](https://www.gamepix.com/pt/play/birak) — watch / game-title-not-search-demand; source=gamepix-pt
-- [fusion rush](https://www.gamepix.com/pt/play/fusion-rush) — watch / game-title-not-search-demand; source=gamepix-pt
-- [sky lantern mahjong](https://www.gamepix.com/pt/play/sky-lantern-mahjong) — watch / game-title-not-search-demand; source=gamepix-pt
-- [stack seven](https://www.gamepix.com/pt/play/stack-seven) — watch / game-title-not-search-demand; source=gamepix-pt
-- [perfect stack](https://www.gamepix.com/pt/play/perfect-stack) — watch / game-title-not-search-demand; source=gamepix-pt
-- [sort storm](https://www.gamepix.com/pt/play/sort-storm) — watch / game-title-not-search-demand; source=gamepix-pt
-- [sunny acres market](https://www.gamepix.com/pt/play/sunny-acres-market) — watch / game-title-not-search-demand; source=gamepix-pt
-- [visual novel](https://www.gamepix.com/pt/t/visual-novel) — watch / game-title-not-search-demand; source=gamepix-pt
-- [snooze fort](https://www.gamepix.com/pt/play/snooze-fort) — watch / game-title-not-search-demand; source=gamepix-pt
-- [emberhaul relics below](https://www.gamepix.com/pt/play/emberhaul-relics-below) — watch / game-title-not-search-demand; source=gamepix-pt
+- [mouse vs stick](https://www.crazygames.com/game/mouse-vs-stick) — watch / game-title-not-search-demand; source=crazygames-en
+- [hexa arrow jam](https://www.crazygames.com/game/hexa-arrow-jam) — watch / game-title-not-search-demand; source=crazygames-en
+- [slime miner](https://www.crazygames.com/game/slime-miner) — watch / game-title-not-search-demand; source=crazygames-en
+- [obby build a car farm](https://www.crazygames.com/game/obby-build-a-car-farm) — watch / game-title-not-search-demand; source=crazygames-en
+- [clutch soccer](https://www.crazygames.com/game/clutch-soccer) — watch / game-title-not-search-demand; source=crazygames-en
+- [snow plow tycoon ewm](https://www.crazygames.com/game/snow-plow-tycoon-ewm) — watch / game-title-not-search-demand; source=crazygames-en
+- [knockabout golf](https://www.crazygames.com/game/knockabout-golf) — watch / game-title-not-search-demand; source=crazygames-en
+- [tidebound salvage](https://www.crazygames.com/game/tidebound-salvage) — watch / game-title-not-search-demand; source=crazygames-en
+- [snow plow tycoon ewm](https://www.crazygames.com/br/game/snow-plow-tycoon-ewm) — watch / game-title-not-search-demand; source=crazygames-br
+- [clutch soccer](https://www.crazygames.com/br/game/clutch-soccer) — watch / game-title-not-search-demand; source=crazygames-br
+- [knockabout golf](https://www.crazygames.com/br/game/knockabout-golf) — watch / game-title-not-search-demand; source=crazygames-br
+- [hexa arrow jam](https://www.crazygames.com/br/game/hexa-arrow-jam) — watch / game-title-not-search-demand; source=crazygames-br
+- [obby build a car farm](https://www.crazygames.com/br/game/obby-build-a-car-farm) — watch / game-title-not-search-demand; source=crazygames-br
+- [slime miner](https://www.crazygames.com/br/game/slime-miner) — watch / game-title-not-search-demand; source=crazygames-br
+- [tidebound salvage](https://www.crazygames.com/br/game/tidebound-salvage) — watch / game-title-not-search-demand; source=crazygames-br
+- [mouse vs stick](https://www.crazygames.com/br/game/mouse-vs-stick) — watch / game-title-not-search-demand; source=crazygames-br
+- [mouse vs stick](https://www.crazygames.com/es/game/mouse-vs-stick) — watch / game-title-not-search-demand; source=crazygames-es
+- [hexa arrow jam](https://www.crazygames.com/es/game/hexa-arrow-jam) — watch / game-title-not-search-demand; source=crazygames-es
+- [tidebound salvage](https://www.crazygames.com/es/game/tidebound-salvage) — watch / game-title-not-search-demand; source=crazygames-es
+- [knockabout golf](https://www.crazygames.com/es/game/knockabout-golf) — watch / game-title-not-search-demand; source=crazygames-es
+- [obby build a car farm](https://www.crazygames.com/es/game/obby-build-a-car-farm) — watch / game-title-not-search-demand; source=crazygames-es
+- [slime miner](https://www.crazygames.com/es/game/slime-miner) — watch / game-title-not-search-demand; source=crazygames-es
+- [clutch soccer](https://www.crazygames.com/es/game/clutch-soccer) — watch / game-title-not-search-demand; source=crazygames-es
+- [snow plow tycoon ewm](https://www.crazygames.com/es/game/snow-plow-tycoon-ewm) — watch / game-title-not-search-demand; source=crazygames-es
+- [bolt run scrap sprint](https://www.gamepix.com/pt/play/bolt-run-scrap-sprint) — watch / game-title-not-search-demand; source=gamepix-pt
+- [chagok tiles](https://www.gamepix.com/pt/play/chagok-tiles) — watch / game-title-not-search-demand; source=gamepix-pt
+- [alien bloom](https://www.gamepix.com/pt/play/alien-bloom) — watch / game-title-not-search-demand; source=gamepix-pt
+- [yarn unravel](https://www.gamepix.com/pt/play/yarn-unravel) — watch / game-title-not-search-demand; source=gamepix-pt
+- [sinkhole](https://www.gamepix.com/pt/play/sinkhole) — watch / game-title-not-search-demand; source=gamepix-pt
+- [gargantua](https://www.gamepix.com/pt/play/gargantua) — watch / game-title-not-search-demand; source=gamepix-pt
+- [be a hygiene doctor](https://www.gamepix.com/pt/play/be-a-hygiene-doctor) — watch / game-title-not-search-demand; source=gamepix-pt
+- [prism runner](https://www.gamepix.com/pt/play/prism-runner) — watch / game-title-not-search-demand; source=gamepix-pt
+- [axolotl clicker](https://www.gamepix.com/pt/play/axolotl-clicker) — watch / game-title-not-search-demand; source=gamepix-pt
+- [george the cat](https://www.gamepix.com/pt/play/george-the-cat) — watch / game-title-not-search-demand; source=gamepix-pt
+- [cozy scale](https://www.gamepix.com/pt/play/cozy-scale) — watch / game-title-not-search-demand; source=gamepix-pt
+- [mochi stretch](https://www.gamepix.com/pt/play/mochi-stretch) — watch / game-title-not-search-demand; source=gamepix-pt
+- [enrich linkedin profiles in google sheets with envoapi](https://n8n.io/workflows/22510-enrich-linkedin-profiles-in-google-sheets-with-envoapi/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [qualify website leads with claude gohighlevel slack and gmail](https://n8n.io/workflows/22576-qualify-website-leads-with-claude-gohighlevel-slack-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [handle idempotent shopify order webhooks with fast 200 ok responses](https://n8n.io/workflows/22373-handle-idempotent-shopify-order-webhooks-with-fast-200-ok-responses/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [create client project workspaces with google drive sheets and gmail](https://n8n.io/workflows/22428-create-client-project-workspaces-with-google-drive-sheets-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [route accessible dubai travel requests with telegram whatsapp and openai](https://n8n.io/workflows/22446-route-accessible-dubai-travel-requests-with-telegram-whatsapp-and-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [announce new gumroad products with openai on facebook and instagram](https://n8n.io/workflows/20161-announce-new-gumroad-products-with-openai-on-facebook-and-instagram/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [prufe behinderungsanzeigen nach 6 vobb mit telegram gemini und notion](https://n8n.io/workflows/22541-prufe-behinderungsanzeigen-nach-6-vobb-mit-telegram-gemini-und-notion/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [qualify gmail leads and draft replies with openai and hubspot](https://n8n.io/workflows/22458-qualify-gmail-leads-and-draft-replies-with-openai-and-hubspot/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [track target company job postings with apify and google sheets](https://n8n.io/workflows/22539-track-target-company-job-postings-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [verify scraped lead emails with apify and google sheets](https://n8n.io/workflows/22514-verify-scraped-lead-emails-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [build linkedin sales call briefs with apify openai and slack](https://n8n.io/workflows/22454-build-linkedin-sales-call-briefs-with-apify-openai-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [score and route website leads with openai and hubspot](https://n8n.io/workflows/22463-score-and-route-website-leads-with-openai-and-hubspot/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [compare minecraft world prices for real locations with mapmc](https://n8n.io/workflows/22515-compare-minecraft-world-prices-for-real-locations-with-mapmc/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [run budget checked scientific gpu experiments with emt compute](https://n8n.io/workflows/22426-run-budget-checked-scientific-gpu-experiments-with-emt-compute/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [send high value quote emails with orvanta approvals and gmail](https://n8n.io/workflows/22470-send-high-value-quote-emails-with-orvanta-approvals-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [analyze youtube niche trends with apify and openai](https://n8n.io/workflows/22467-analyze-youtube-niche-trends-with-apify-and-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [transcribe video and podcast links to google sheets with apify](https://n8n.io/workflows/22572-transcribe-video-and-podcast-links-to-google-sheets-with-apify/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [localize wordpress posts with claude and slack qa approvals](https://n8n.io/workflows/22418-localize-wordpress-posts-with-claude-and-slack-qa-approvals/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [monitor self hosted n8n uptime and workflow failures with vivere](https://n8n.io/workflows/22556-monitor-self-hosted-n8n-uptime-and-workflow-failures-with-vivere/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [find and shortlist weekly role candidates with sourcegeek and slack](https://n8n.io/workflows/22531-find-and-shortlist-weekly-role-candidates-with-sourcegeek-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [summarize company profiles from domains with replynodes and openai](https://n8n.io/workflows/22432-summarize-company-profiles-from-domains-with-replynodes-and-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [send aurora visibility alerts with noaa open meteo and slack](https://n8n.io/workflows/22519-send-aurora-visibility-alerts-with-noaa-open-meteo-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [send daily invoice due reminders with google sheets and email](https://n8n.io/workflows/22530-send-daily-invoice-due-reminders-with-google-sheets-and-email/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [track new workday job postings in google sheets using apify](https://n8n.io/workflows/22409-track-new-workday-job-postings-in-google-sheets-using-apify/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [send uk bookmaker price move alerts with oddsrelay and telegram](https://n8n.io/workflows/22500-send-uk-bookmaker-price-move-alerts-with-oddsrelay-and-telegram/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [fetch daily german construction tenders with gaeb data using apify](https://n8n.io/workflows/22267-fetch-daily-german-construction-tenders-with-gaeb-data-using-apify/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [validate contact form submissions and return json responses via webhook](https://n8n.io/workflows/22535-validate-contact-form-submissions-and-return-json-responses-via-webhook/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [validate and normalize product feeds with contentsweep feeds api](https://n8n.io/workflows/20893-validate-and-normalize-product-feeds-with-contentsweep-feeds-api/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [fulfil woocommerce orders with cj dropshipping and 17track tracking](https://n8n.io/workflows/22412-fulfil-woocommerce-orders-with-cj-dropshipping-and-17track-tracking/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [scrape nsr specialist data and log results to google sheets](https://n8n.io/workflows/18014-scrape-nsr-specialist-data-and-log-results-to-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [generate and email pdf invoices from google sheets with documol](https://n8n.io/workflows/22490-generate-and-email-pdf-invoices-from-google-sheets-with-documol/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [verify lead emails from websites with apify and google sheets](https://n8n.io/workflows/22104-verify-lead-emails-from-websites-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [prioritize ai search seo keywords with dataforseo and google sheets](https://n8n.io/workflows/22548-prioritize-ai-search-seo-keywords-with-dataforseo-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [create reviewed instagram carousel pngs with openai and bannerbear v5](https://n8n.io/workflows/22321-create-reviewed-instagram-carousel-pngs-with-openai-and-bannerbear-v5/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [clean ukrainian crm client csvs with openai and web forms](https://n8n.io/workflows/22499-clean-ukrainian-crm-client-csvs-with-openai-and-web-forms/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [build weekly payment runs with google sheets and gmail](https://n8n.io/workflows/22460-build-weekly-payment-runs-with-google-sheets-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [compare supplier price lists from csv and generate margin reports](https://n8n.io/workflows/22465-compare-supplier-price-lists-from-csv-and-generate-margin-reports/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [score inbound leads with openai google sheets and slack alerts](https://n8n.io/workflows/22474-score-inbound-leads-with-openai-google-sheets-and-slack-alerts/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [route gmail support emails with google gemini openai and supabase](https://n8n.io/workflows/22477-route-gmail-support-emails-with-google-gemini-openai-and-supabase/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [route synap marking and moderation requests to reviewers in slack](https://n8n.io/workflows/22410-route-synap-marking-and-moderation-requests-to-reviewers-in-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [generate korean payslip excel files with the xboss payroll api](https://n8n.io/workflows/22207-generate-korean-payslip-excel-files-with-the-xboss-payroll-api/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [upload gmail invoice and receipt attachments to lexware office xl](https://n8n.io/workflows/22444-upload-gmail-invoice-and-receipt-attachments-to-lexware-office-xl/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [review regional price observations with apify and magneticproxy](https://n8n.io/workflows/22486-review-regional-price-observations-with-apify-and-magneticproxy/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [give sourced chatwork opinions with claude haiku when mentioned](https://n8n.io/workflows/22471-give-sourced-chatwork-opinions-with-claude-haiku-when-mentioned/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [audit product feed quality with reach dog and google sheets](https://n8n.io/workflows/22575-audit-product-feed-quality-with-reach-dog-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [send solana token price alerts with jupiter and telegram](https://n8n.io/workflows/18598-send-solana-token-price-alerts-with-jupiter-and-telegram/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [verify email contacts in google sheets with emailawesome](https://n8n.io/workflows/22483-verify-email-contacts-in-google-sheets-with-emailawesome/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [generate bulk flux images from google sheets prompts with apify](https://n8n.io/workflows/21304-generate-bulk-flux-images-from-google-sheets-prompts-with-apify/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [qualify landscaping quotes and visits with scoring and duplicate checks](https://n8n.io/workflows/22430-qualify-landscaping-quotes-and-visits-with-scoring-and-duplicate-checks/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [review insurance claims with deepseek forms and telegram](https://n8n.io/workflows/22491-review-insurance-claims-with-deepseek-forms-and-telegram/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [transcribe and summarize russian audio with speech expert forms](https://n8n.io/workflows/22511-transcribe-and-summarize-russian-audio-with-speech-expert-forms/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [file employee expenses from telegram receipts with openai and xero](https://n8n.io/workflows/22542-file-employee-expenses-from-telegram-receipts-with-openai-and-xero/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [summarize facebook and instagram campaign comments with apify and claude](https://n8n.io/workflows/22566-summarize-facebook-and-instagram-campaign-comments-with-apify-and-claude/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [find google maps business leads with apify and google sheets](https://n8n.io/workflows/22413-find-google-maps-business-leads-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [monitor linkedin ad library ads with apify and google sheets](https://n8n.io/workflows/22557-monitor-linkedin-ad-library-ads-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [image converter](https://apify.com/actor-forge/image-converter) — review / tool-intent-wording-not-verified; source=apify-actors-a
+- [rag document change tracker](https://apify.com/ailu_studio/rag-document-change-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-a
+- [bulk domain authority checker](https://apify.com/alexmorain/bulk-domain-authority-checker) — review / tool-intent-wording-not-verified; source=apify-actors-a
+- [naukri jobs search](https://apify.com/anshumanatrey/naukri-jobs-search) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [google maps review change monitor](https://apify.com/ailu_studio/google-maps-review-change-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [coinmarketcap trending crypto radar](https://apify.com/adaptive_nightmare/coinmarketcap-trending-crypto-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [wordpress posts api](https://apify.com/ailu_studio/wordpress-posts-api) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [keyword volume scraper](https://apify.com/alexmorain/keyword-volume-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [wikipedia daily pageviews radar](https://apify.com/adaptive_nightmare/wikipedia-daily-pageviews-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
 
 ## Source interpretation
 
