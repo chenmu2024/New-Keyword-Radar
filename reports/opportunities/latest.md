@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-10T04:27:01.801653+00:00
-- Historical candidates: 4702
-- Newly recorded from pending: 140
+- Updated (UTC): 2026-11-10T14:46:41.118752+00:00
+- Historical candidates: 4776
+- Newly recorded from pending: 74
 - Awaiting 7/14/30-day evidence review: 3416
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- night manager [Global] — discovered — first 2026-11-10, last 2026-11-10
-- dashboard confessional tour [Global] — discovered — first 2026-11-10, last 2026-11-10
-- medical tracker login [Global] — discovered — first 2026-11-10, last 2026-11-10
-- is tracker on tonight [Global] — discovered — first 2026-11-10, last 2026-11-10
-- crystal palace manager [Global] — discovered — first 2026-11-10, last 2026-11-10
-- the night manager [Global] — discovered — first 2026-11-10, last 2026-11-10
-- aberdeen fc manager stephen robinson [Global] — discovered — first 2026-11-10, last 2026-11-10
-- best password manager [Global] — discovered — first 2026-11-10, last 2026-11-10
-- zelda switch 2 restock tracker [Global] — discovered — first 2026-11-10, last 2026-11-10
-- 24 team playoff format [Global] — discovered — first 2026-11-10, last 2026-11-10
+- immature crossword clue [Global] — discovered — first 2026-11-10, last 2026-11-10
+- everygen ai [Global] — discovered — first 2026-11-10, last 2026-11-10
+- gel constructor uñas [Global] — discovered — first 2026-11-10, last 2026-11-10
+- hell hades optimizer [Global] — discovered — first 2026-11-10, last 2026-11-10
+- db bahn [Global] — discovered — first 2026-11-10, last 2026-11-10
+- online casinos 🇬🇧 www.casinominister.blog [Global] — discovered — first 2026-11-10, last 2026-11-10
 - aam updates notifier [Global] — discovered — first 2026-11-10, last 2026-11-10
-- abc color py [Global] — discovered — first 2026-11-10, last 2026-11-10
-- ahr0chm6ly9tzwdhlm56l2zvbgrlci9hrmtrqvfesynhyw05umztsja4ow52rhzrtmzxyxjn [Global] — discovered — first 2026-11-10, last 2026-11-10
-- ai dream interpreter [Global] — discovered — first 2026-11-10, last 2026-11-10
-- air bud golden receiver [Global] — discovered — first 2026-11-10, last 2026-11-10
-- antique pattern library [Global] — discovered — first 2026-11-10, last 2026-11-10
-- aqi monitor [Global] — discovered — first 2026-11-10, last 2026-11-10
-- arizona cardinals wide receiver depth chart [Global] — discovered — first 2026-11-10, last 2026-11-10
-- bitter crossword clue [Global] — discovered — first 2026-11-10, last 2026-11-10
-- bootcut [Global] — discovered — first 2026-11-10, last 2026-11-10
-- calendly [Global] — discovered — first 2026-11-10, last 2026-11-10
-- card shark [Global] — discovered — first 2026-11-10, last 2026-11-10
-- card shark meaning [Global] — discovered — first 2026-11-10, last 2026-11-10
-- cardinals wide receiver depth chart [Global] — discovered — first 2026-11-10, last 2026-11-10
-- casino online [Global] — discovered — first 2026-11-10, last 2026-11-10
+- chicken farm minecraft [Global] — discovered — first 2026-11-10, last 2026-11-10
+- cpu comparator [Global] — discovered — first 2026-11-10, last 2026-11-10
+- enade [Global] — discovered — first 2026-11-10, last 2026-11-10
+- potbelly crossword [Global] — discovered — first 2026-11-10, last 2026-11-10
+- goverdhan image [Global] — discovered — first 2026-11-10, last 2026-11-10
+- exam builder [Global] — discovered — first 2026-11-10, last 2026-11-10
+- govardhan image [Global] — discovered — first 2026-11-10, last 2026-11-10
+- nup extractor [Global] — discovered — first 2026-11-10, last 2026-11-10
+- small shop crossword clue [Global] — discovered — first 2026-11-10, last 2026-11-10
+- example domain [Global] — discovered — first 2026-11-10, last 2026-11-10
+- fun sponge [Global] — discovered — first 2026-11-10, last 2026-11-10
+- dmarc checker [Global] — discovered — first 2026-11-10, last 2026-11-10
+- ticketmaster simulator [Global] — discovered — first 2026-11-10, last 2026-11-10
+- necessitate crossword [Global] — discovered — first 2026-11-10, last 2026-11-10
+- logitech mx master 4 creator edition [Global] — discovered — first 2026-11-10, last 2026-11-10
+- sand dollar for example crossword [Global] — discovered — first 2026-11-10, last 2026-11-10
+- night manager [Global] — discovered — first 2026-11-10, last 2026-11-10
+- mint leaf [Global] — discovered — first 2026-11-10, last 2026-11-10
 
 ## Due for follow-up
 
