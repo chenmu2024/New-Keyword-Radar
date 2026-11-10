@@ -1,6 +1,6 @@
 # 跨独立网站 Sitemap 同步上新观察
 
-观察截止：2026-11-10；滚动窗口：2026-11-04—2026-11-10（均为北京时间日期）。
+观察截止：2026-11-11；滚动窗口：2026-11-05—2026-11-11（均为北京时间日期）。
 
 **Sitemap 首见并不等于首次发行、真实24小时内上架或搜索量；同名和文件格式归并必须人工核实。**
 只有具备真实source_id、详情URL和first_seen的相对基线新增，才能成为候选。
@@ -8,12 +8,20 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：126/135；数据生成：2026-11-10T18:19:05.691349+08:00；详细候选：11136；7日轻量URL证据：12499/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：126/135；数据生成：2026-11-11T04:58:36.407852+08:00；详细候选：11518；7日轻量URL证据：12104/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 107，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 32，采样上限遗漏 0。
 
+- **battlecross**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - playgama.com · playgama-en · 2026-11-05 · https://playgama.com/game/battlecross · 原词 battlecross
+  - jogos360.com.br · jogos360-br · 2026-11-11 · https://www.jogos360.com.br/battlecross.html · 原词 battlecross
+  - minijuegos.com · minijuegos-es · 2026-11-11 · https://www.minijuegos.com/juego/battlecross · 原词 battlecross
+- **obby world squid escape**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamedistribution.com · gamedistribution-games · 2026-11-06 · https://gamedistribution.com/games/obby-world%3A-squid-escape/ · 原词 obby world: squid escape
+  - bgames.com · bgames-en · 2026-11-11 · https://www.bgames.com/game/obby-world-squid-escape/ · 原词 obby world squid escape
+  - minijuegos.com · minijuegos-es · 2026-11-11 · https://www.minijuegos.com/juego/obby-world-squid-escape · 原词 obby world squid escape
 - **bogatyrs**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-09 · https://gamedistribution.com/games/bogatyrs/ · 原词 bogatyrs
   - gamepix.com · gamepix-pt · 2026-11-10 · https://www.gamepix.com/pt/play/bogatyrs · 原词 bogatyrs
@@ -23,9 +31,9 @@
 - **dx ball**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamenora.com · gamenora-en · 2026-11-05 · https://www.gamenora.com/game/dx-ball/ · 原词 dx ball
   - minijuegos.com · minijuegos-es · 2026-11-07 · https://www.minijuegos.com/juego/dx-ball · 原词 dx ball
-- **geometry vibes 2 online**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - playgama.com · playgama-en · 2026-11-04 · https://playgama.com/game/geometry-vibes-2-online · 原词 geometry vibes 2 online
-  - kizi.com · kizi-en · 2026-11-05 · https://kizi.com/games/geometry-vibes-2-online · 原词 geometry vibes 2 online
+- **garden tales 5**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamedistribution.com · gamedistribution-games · 2026-11-09 · https://gamedistribution.com/games/garden-tales-5/ · 原词 garden tales 5
+  - bgames.com · bgames-en · 2026-11-11 · https://www.bgames.com/game/garden-tales-5/ · 原词 garden tales 5
 - **glowball**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-pt · 2026-11-05 · https://www.gamepix.com/pt/play/glowball · 原词 glowball
   - playgama.com · playgama-en · 2026-11-07 · https://playgama.com/game/glowball · 原词 glowball
@@ -38,24 +46,13 @@
 - **ninja sword dash**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - bgames.com · bgames-en · 2026-11-06 · https://www.bgames.com/game/ninja-sword-dash/ · 原词 ninja sword dash
   - kizi.com · kizi-en · 2026-11-06 · https://kizi.com/games/ninja-sword-dash · 原词 ninja sword dash
-- **recoil**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamepix.com · gamepix-en · 2026-11-06 · https://www.gamepix.com/play/recoil · 原词 recoil
-  - gamedistribution.com · gamedistribution-games · 2026-11-08 · https://gamedistribution.com/games/recoil/ · 原词 recoil
-- **sea of words**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamedistribution.com · gamedistribution-games · 2026-11-04 · https://gamedistribution.com/games/sea-of-words/ · 原词 sea of words
-  - 1001games.com · 1001games-en · 2026-11-06 · https://www.1001games.com/puzzle/sea-of-words · 原词 sea of words
 
 失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 201，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 42，采样上限遗漏 0。
 
-- **prelulu**：不同根域 4 家；同一天峰值 3 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - producthunt.com · producthunt-products · 2026-11-04 · https://www.producthunt.com/products/prelulu · 原词 prelulu
-  - productperch.com · productperch-products · 2026-11-04 · https://productperch.com/products/prelulu/ · 原词 prelulu
-  - startupbase.io · startupbase-products · 2026-11-04 · https://startupbase.io/products/prelulu · 原词 prelulu
-  - uneed.best · uneed-products · 2026-11-10 · https://www.uneed.best/tool/prelulu · 原词 prelulu
 - **plimo**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - saascity.io · saascity-products · 2026-11-08 · https://saascity.io/live/plimo · 原词 plimo
   - smollaunch.com · smollaunch-products · 2026-11-10 · https://smollaunch.com/products/plimo · 原词 plimo
@@ -90,17 +87,21 @@
 - **apogee ads**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - saascity.io · saascity-products · 2026-11-06 · https://saascity.io/live/apogee-ads · 原词 apogee ads
   - uneed.best · uneed-products · 2026-11-07 · https://www.uneed.best/tool/apogee-ads · 原词 apogee ads
+- **arkwarden**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - saascity.io · saascity-products · 2026-11-08 · https://saascity.io/live/arkwarden · 原词 arkwarden
+  - smollaunch.com · smollaunch-products · 2026-11-10 · https://smollaunch.com/products/arkwarden · 原词 arkwarden
 
 失败来源：microlaunch-products (TimeoutError: The read operation timed out)
 
 ## AI 工具和 Agent 目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 27，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 78，采样上限遗漏 0。
 
-- **plimo**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+- **plimo**：不同根域 4 家；同一天峰值 2 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo · 原词 plimo
   - aitoolnet.com · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/plimo · 原词 plimo
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-08 · https://aitoolsdirectory.com/tool/plimo · 原词 plimo
+  - aiapps.com · aiapps-tools · 2026-11-11 · https://www.aiapps.com/items/plimo/ · 原词 plimo
 - **ai clothes changer**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - dang.ai · dangai-tools · 2026-11-05 · https://dang.ai/tool/ai-clothes-changer · 原词 ai clothes changer
   - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/ai-clothes-changer · 原词 ai clothes changer
@@ -110,12 +111,12 @@
 - **cuddler**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/cuddler · 原词 cuddler
   - aitoolnet.com · aitoolnet-tools · 2026-11-08 · https://www.aitoolnet.com/cuddler · 原词 cuddler
+- **hotel lobby ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolnet.com · aitoolnet-tools · 2026-11-09 · https://www.aitoolnet.com/hotel-lobby-ai · 原词 hotel lobby ai
+  - toolveyor.com · toolveyor-tools · 2026-11-11 · https://toolveyor.com/hotel-lobby-ai · 原词 hotel lobby ai
 - **livefaceswap ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolnet.com · aitoolnet-tools · 2026-11-05 · https://www.aitoolnet.com/livefaceswap-ai · 原词 livefaceswap ai
   - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/livefaceswap-ai · 原词 livefaceswap ai
-- **moveframe**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - aitoolnet.com · aitoolnet-tools · 2026-11-04 · https://www.aitoolnet.com/moveframe · 原词 moveframe
-  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/moveframe · 原词 moveframe
 - **songifted**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/songifted · 原词 songifted
   - toolveyor.com · toolveyor-tools · 2026-11-08 · https://toolveyor.com/songifted · 原词 songifted
@@ -125,9 +126,9 @@
 - **ai rap video generator**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/ai-rap-video-generator · 原词 ai rap video generator
   - dang.ai · dangai-tools · 2026-11-10 · https://dang.ai/tool/ai-rap-video-generator · 原词 ai rap video generator
-- **edit image text online**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/edit-image-text-online · 原词 edit image text online
-  - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-10 · https://aitoolsdirectory.com/tool/edit-image-text-online · 原词 edit image text online
+- **dime dime baby ai**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolboard.com · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/dime-dime-baby-ai · 原词 dime dime baby ai
+  - toolveyor.com · toolveyor-tools · 2026-11-11 · https://toolveyor.com/dime-dime-baby-ai · 原词 dime dime baby ai
 
 失败来源：nextool-tools (HTTPError: HTTP Error 503: Service Unavailable)
 
@@ -141,7 +142,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 3，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 56，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -149,9 +150,11 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 867，采样上限遗漏 505。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 396，采样上限遗漏 144。
 
-**0：本类尚无两家以上不同域名的同步新增证据。**
+- **activecampaign**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - devhunt.org · devhunt-tools · 2026-11-08 · https://devhunt.org/tool/activecampaign · 原词 activecampaign
+  - activepieces.com · activepieces-pieces · 2026-11-11 · https://www.activepieces.com/pieces/beehiiv/activecampaign · 原词 activecampaign
 
 ## 巴西在线工具
 
@@ -163,13 +166,14 @@
 
 ### 跨SaaS和AI的同名产品
 
-- plimo：独立根域 6 家；类别 ai, saas
+- plimo：独立根域 7 家；类别 ai, saas
   - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/plimo
   - ai · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/plimo
   - ai · aitoolsdirectory-tools · 2026-11-08 · https://aitoolsdirectory.com/tool/plimo
   - saas · saascity-products · 2026-11-08 · https://saascity.io/live/plimo
   - saas · smollaunch-products · 2026-11-10 · https://smollaunch.com/products/plimo
   - saas · startupbase-products · 2026-11-10 · https://startupbase.io/products/plimo
+  - ai · aiapps-tools · 2026-11-11 · https://www.aiapps.com/items/plimo/
 - vidsembly：独立根域 4 家；类别 ai, saas
   - saas · startupbase-products · 2026-11-09 · https://startupbase.io/products/vidsembly
   - ai · aitoolnet-tools · 2026-11-10 · https://www.aitoolnet.com/vidsembly
@@ -187,6 +191,10 @@
   - ai · aitoolnet-tools · 2026-11-06 · https://www.aitoolnet.com/fino3d
   - saas · fazier-launches · 2026-11-08 · https://fazier.com/launches/fino3d
   - ai · aitoolsdirectory-tools · 2026-11-10 · https://aitoolsdirectory.com/tool/fino3d
+- activecampaign：独立根域 3 家；类别 ai, developer
+  - ai · dangai-tools · 2026-11-06 · https://dang.ai/tool/activecampaign
+  - developer · devhunt-tools · 2026-11-08 · https://devhunt.org/tool/activecampaign
+  - developer · activepieces-pieces · 2026-11-11 · https://www.activepieces.com/pieces/beehiiv/activecampaign
 - trustedaiagencies：独立根域 3 家；类别 ai, saas
   - saas · saascity-products · 2026-11-05 · https://saascity.io/live/trustedaiagencies
   - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/trustedaiagencies
@@ -200,9 +208,6 @@
 - fabbo：独立根域 2 家；类别 ai, saas
   - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/fabbo
   - saas · productperch-products · 2026-11-06 · https://productperch.com/products/fabbo/
-- gmb scraper：独立根域 2 家；类别 ai, developer
-  - ai · aitoolboard-tools · 2026-11-06 · https://aitoolboard.com/tools/gmb-scraper
-  - developer · apify-actors-z · 2026-11-06 · https://apify.com/rodexco/gmb-scraper
 
 ### 跨类别同向文件转换
 

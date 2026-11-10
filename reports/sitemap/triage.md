@@ -1,204 +1,205 @@
-# Sitemap lead triage — 2026-11-10
+# Sitemap lead triage — 2026-11-11
 
 **Important:** These are *unverified URL leads*, not proven new keywords,
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
 - Sitemap feeds succeeded: 126/135
-- URLs newly observed in the latest scan: 1205
-- Candidate URL rows extracted in latest scan: 590
-- First-time keyword/geo research leads: 538
-- Previously removed URLs resurfacing: 21
-- Accumulated queue: 11136
-- Human keyword/topic review: 4623
-- Game/general watchlist: 6353
-- Low-quality page-name noise: 160
+- URLs newly observed in the latest scan: 604
+- Candidate URL rows extracted in latest scan: 446
+- First-time keyword/geo research leads: 382
+- Previously removed URLs resurfacing: 23
+- Accumulated queue: 11518
+- Human keyword/topic review: 4785
+- Game/general watchlist: 6565
+- Low-quality page-name noise: 168
 - **Verified new keywords / search demand / business revenue: not established**
 
 ## Queue composition (by Sitemap source)
 
-- apify-actors-z: 1702
-- apify-actors-a: 997
-- railway-templates: 802
+- apify-actors-z: 1801
+- apify-actors-a: 1012
+- railway-templates: 838
 - gamepix-pt: 659
 - gamepix-en: 633
-- fazier-launches: 528
+- fazier-launches: 534
 - producthunt-products: 504
 - playgama-en: 370
+- productperch-products: 320
 - y8-en: 307
 - uneed-products: 306
-- productperch-products: 305
+- toolveyor-tools: 296
 - saasworthy-products: 263
-- toolveyor-tools: 249
-- devhunt-tools: 235
-- crazygames-br: 213
-- crazygames-es: 213
-- crazygames-en: 212
+- devhunt-tools: 262
+- crazygames-br: 214
+- crazygames-es: 214
+- crazygames-en: 213
 - smollaunch-products: 193
-- vercel-product-watch: 177
+- vercel-product-watch: 179
+- saascity-products: 175
 - n8n-workflows: 173
 - startupbase-products: 172
-- saascity-products: 165
-- dangai-tools: 137
+- dangai-tools: 148
 - startupstash-tools: 121
 - aitoolboard-tools: 113
 - indieneed-products: 106
 - onlinetools-br: 103
-- futurepedia-tools: 98
+- futurepedia-tools: 100
 - openhunts-projects: 91
-- gamedistribution-games: 86
+- gamedistribution-games: 89
+- futuretools-products: 84
 - playhop-en: 82
+- aitoolnet-tools: 81
 - pitchwall-products: 81
-- aitoolnet-tools: 79
-- futuretools-products: 78
-- minijuegos-es: 63
+- minijuegos-es: 74
+- pdfaid-tools: 56
 - tooldirectory-ai-tools: 38
+- aitoptools-tools: 35
 - fotor-features: 34
-- aitoptools-tools: 33
-- toolfound-products: 30
+- toolfound-products: 33
+- indietools-products: 30
 - gamearter-en: 29
-- indietools-products: 29
 - aitoolsdirectory-tools: 27
+- aiagentstore-agents: 24
 - pipedream-actions: 23
-- aiagentstore-agents: 22
 - pdfresizer-tools: 20
+- netlify-product-watch: 19
+- cokogames-es: 17
 - fridayhunt-projects: 17
 - replicate-models: 17
-- cokogames-es: 15
-- netlify-product-watch: 15
 - kizi-en: 12
 - onlinegames-en: 11
 - ezgif-tools: 10
 - gamegame-en: 10
 - yiv-games: 10
+- jogos360-br: 9
 - launchscaler-products: 9
-- jogos360-br: 8
+- bgames-en: 8
 - poki-en: 8
 - 1001games-en: 7
 - aitoolhouse-tools: 7
-- bgames-en: 7
 - gamenora-en: 7
 - nextool-tools: 7
+- planetscale-changelog: 7
+- silvergames-en: 7
 - activepieces-pieces: 6
 - aiagentslist-agents: 6
+- ifttt-services: 6
 - invertexto-br: 6
-- planetscale-changelog: 6
-- ifttt-services: 5
-- silvergames-en: 5
+- gamesnacks-en: 5
+- toolworthy-ai-tools: 5
 - cicerotools-br: 4
+- gamezop-en: 4
+- trigger-product: 4
 - railway-changelog: 3
-- trigger-product: 3
 - aiapps-tools: 2
 - calculator-soup: 2
 - modal-changelog: 2
 - opentools-tools: 2
 - tautil-br: 2
-- toolworthy-ai-tools: 2
-- gamesnacks-en: 1
-- gamezop-en: 1
 
 ## Latest scan's leads (routing only)
 
-- [mouse vs stick](https://www.crazygames.com/game/mouse-vs-stick) — watch / game-title-not-search-demand; source=crazygames-en
-- [hexa arrow jam](https://www.crazygames.com/game/hexa-arrow-jam) — watch / game-title-not-search-demand; source=crazygames-en
-- [slime miner](https://www.crazygames.com/game/slime-miner) — watch / game-title-not-search-demand; source=crazygames-en
-- [obby build a car farm](https://www.crazygames.com/game/obby-build-a-car-farm) — watch / game-title-not-search-demand; source=crazygames-en
-- [clutch soccer](https://www.crazygames.com/game/clutch-soccer) — watch / game-title-not-search-demand; source=crazygames-en
-- [snow plow tycoon ewm](https://www.crazygames.com/game/snow-plow-tycoon-ewm) — watch / game-title-not-search-demand; source=crazygames-en
-- [knockabout golf](https://www.crazygames.com/game/knockabout-golf) — watch / game-title-not-search-demand; source=crazygames-en
-- [tidebound salvage](https://www.crazygames.com/game/tidebound-salvage) — watch / game-title-not-search-demand; source=crazygames-en
-- [snow plow tycoon ewm](https://www.crazygames.com/br/game/snow-plow-tycoon-ewm) — watch / game-title-not-search-demand; source=crazygames-br
-- [clutch soccer](https://www.crazygames.com/br/game/clutch-soccer) — watch / game-title-not-search-demand; source=crazygames-br
-- [knockabout golf](https://www.crazygames.com/br/game/knockabout-golf) — watch / game-title-not-search-demand; source=crazygames-br
-- [hexa arrow jam](https://www.crazygames.com/br/game/hexa-arrow-jam) — watch / game-title-not-search-demand; source=crazygames-br
-- [obby build a car farm](https://www.crazygames.com/br/game/obby-build-a-car-farm) — watch / game-title-not-search-demand; source=crazygames-br
-- [slime miner](https://www.crazygames.com/br/game/slime-miner) — watch / game-title-not-search-demand; source=crazygames-br
-- [tidebound salvage](https://www.crazygames.com/br/game/tidebound-salvage) — watch / game-title-not-search-demand; source=crazygames-br
-- [mouse vs stick](https://www.crazygames.com/br/game/mouse-vs-stick) — watch / game-title-not-search-demand; source=crazygames-br
-- [mouse vs stick](https://www.crazygames.com/es/game/mouse-vs-stick) — watch / game-title-not-search-demand; source=crazygames-es
-- [hexa arrow jam](https://www.crazygames.com/es/game/hexa-arrow-jam) — watch / game-title-not-search-demand; source=crazygames-es
-- [tidebound salvage](https://www.crazygames.com/es/game/tidebound-salvage) — watch / game-title-not-search-demand; source=crazygames-es
-- [knockabout golf](https://www.crazygames.com/es/game/knockabout-golf) — watch / game-title-not-search-demand; source=crazygames-es
-- [obby build a car farm](https://www.crazygames.com/es/game/obby-build-a-car-farm) — watch / game-title-not-search-demand; source=crazygames-es
-- [slime miner](https://www.crazygames.com/es/game/slime-miner) — watch / game-title-not-search-demand; source=crazygames-es
-- [clutch soccer](https://www.crazygames.com/es/game/clutch-soccer) — watch / game-title-not-search-demand; source=crazygames-es
-- [snow plow tycoon ewm](https://www.crazygames.com/es/game/snow-plow-tycoon-ewm) — watch / game-title-not-search-demand; source=crazygames-es
-- [bolt run scrap sprint](https://www.gamepix.com/pt/play/bolt-run-scrap-sprint) — watch / game-title-not-search-demand; source=gamepix-pt
-- [chagok tiles](https://www.gamepix.com/pt/play/chagok-tiles) — watch / game-title-not-search-demand; source=gamepix-pt
-- [alien bloom](https://www.gamepix.com/pt/play/alien-bloom) — watch / game-title-not-search-demand; source=gamepix-pt
-- [yarn unravel](https://www.gamepix.com/pt/play/yarn-unravel) — watch / game-title-not-search-demand; source=gamepix-pt
-- [sinkhole](https://www.gamepix.com/pt/play/sinkhole) — watch / game-title-not-search-demand; source=gamepix-pt
-- [gargantua](https://www.gamepix.com/pt/play/gargantua) — watch / game-title-not-search-demand; source=gamepix-pt
-- [be a hygiene doctor](https://www.gamepix.com/pt/play/be-a-hygiene-doctor) — watch / game-title-not-search-demand; source=gamepix-pt
-- [prism runner](https://www.gamepix.com/pt/play/prism-runner) — watch / game-title-not-search-demand; source=gamepix-pt
-- [axolotl clicker](https://www.gamepix.com/pt/play/axolotl-clicker) — watch / game-title-not-search-demand; source=gamepix-pt
-- [george the cat](https://www.gamepix.com/pt/play/george-the-cat) — watch / game-title-not-search-demand; source=gamepix-pt
-- [cozy scale](https://www.gamepix.com/pt/play/cozy-scale) — watch / game-title-not-search-demand; source=gamepix-pt
-- [mochi stretch](https://www.gamepix.com/pt/play/mochi-stretch) — watch / game-title-not-search-demand; source=gamepix-pt
-- [enrich linkedin profiles in google sheets with envoapi](https://n8n.io/workflows/22510-enrich-linkedin-profiles-in-google-sheets-with-envoapi/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [qualify website leads with claude gohighlevel slack and gmail](https://n8n.io/workflows/22576-qualify-website-leads-with-claude-gohighlevel-slack-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [handle idempotent shopify order webhooks with fast 200 ok responses](https://n8n.io/workflows/22373-handle-idempotent-shopify-order-webhooks-with-fast-200-ok-responses/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [create client project workspaces with google drive sheets and gmail](https://n8n.io/workflows/22428-create-client-project-workspaces-with-google-drive-sheets-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [route accessible dubai travel requests with telegram whatsapp and openai](https://n8n.io/workflows/22446-route-accessible-dubai-travel-requests-with-telegram-whatsapp-and-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [announce new gumroad products with openai on facebook and instagram](https://n8n.io/workflows/20161-announce-new-gumroad-products-with-openai-on-facebook-and-instagram/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [prufe behinderungsanzeigen nach 6 vobb mit telegram gemini und notion](https://n8n.io/workflows/22541-prufe-behinderungsanzeigen-nach-6-vobb-mit-telegram-gemini-und-notion/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [qualify gmail leads and draft replies with openai and hubspot](https://n8n.io/workflows/22458-qualify-gmail-leads-and-draft-replies-with-openai-and-hubspot/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [track target company job postings with apify and google sheets](https://n8n.io/workflows/22539-track-target-company-job-postings-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [verify scraped lead emails with apify and google sheets](https://n8n.io/workflows/22514-verify-scraped-lead-emails-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [build linkedin sales call briefs with apify openai and slack](https://n8n.io/workflows/22454-build-linkedin-sales-call-briefs-with-apify-openai-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [score and route website leads with openai and hubspot](https://n8n.io/workflows/22463-score-and-route-website-leads-with-openai-and-hubspot/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [compare minecraft world prices for real locations with mapmc](https://n8n.io/workflows/22515-compare-minecraft-world-prices-for-real-locations-with-mapmc/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [run budget checked scientific gpu experiments with emt compute](https://n8n.io/workflows/22426-run-budget-checked-scientific-gpu-experiments-with-emt-compute/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send high value quote emails with orvanta approvals and gmail](https://n8n.io/workflows/22470-send-high-value-quote-emails-with-orvanta-approvals-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [analyze youtube niche trends with apify and openai](https://n8n.io/workflows/22467-analyze-youtube-niche-trends-with-apify-and-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [transcribe video and podcast links to google sheets with apify](https://n8n.io/workflows/22572-transcribe-video-and-podcast-links-to-google-sheets-with-apify/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [localize wordpress posts with claude and slack qa approvals](https://n8n.io/workflows/22418-localize-wordpress-posts-with-claude-and-slack-qa-approvals/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [monitor self hosted n8n uptime and workflow failures with vivere](https://n8n.io/workflows/22556-monitor-self-hosted-n8n-uptime-and-workflow-failures-with-vivere/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [find and shortlist weekly role candidates with sourcegeek and slack](https://n8n.io/workflows/22531-find-and-shortlist-weekly-role-candidates-with-sourcegeek-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [summarize company profiles from domains with replynodes and openai](https://n8n.io/workflows/22432-summarize-company-profiles-from-domains-with-replynodes-and-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send aurora visibility alerts with noaa open meteo and slack](https://n8n.io/workflows/22519-send-aurora-visibility-alerts-with-noaa-open-meteo-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send daily invoice due reminders with google sheets and email](https://n8n.io/workflows/22530-send-daily-invoice-due-reminders-with-google-sheets-and-email/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [track new workday job postings in google sheets using apify](https://n8n.io/workflows/22409-track-new-workday-job-postings-in-google-sheets-using-apify/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send uk bookmaker price move alerts with oddsrelay and telegram](https://n8n.io/workflows/22500-send-uk-bookmaker-price-move-alerts-with-oddsrelay-and-telegram/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [fetch daily german construction tenders with gaeb data using apify](https://n8n.io/workflows/22267-fetch-daily-german-construction-tenders-with-gaeb-data-using-apify/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [validate contact form submissions and return json responses via webhook](https://n8n.io/workflows/22535-validate-contact-form-submissions-and-return-json-responses-via-webhook/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [validate and normalize product feeds with contentsweep feeds api](https://n8n.io/workflows/20893-validate-and-normalize-product-feeds-with-contentsweep-feeds-api/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [fulfil woocommerce orders with cj dropshipping and 17track tracking](https://n8n.io/workflows/22412-fulfil-woocommerce-orders-with-cj-dropshipping-and-17track-tracking/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [scrape nsr specialist data and log results to google sheets](https://n8n.io/workflows/18014-scrape-nsr-specialist-data-and-log-results-to-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [generate and email pdf invoices from google sheets with documol](https://n8n.io/workflows/22490-generate-and-email-pdf-invoices-from-google-sheets-with-documol/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [verify lead emails from websites with apify and google sheets](https://n8n.io/workflows/22104-verify-lead-emails-from-websites-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [prioritize ai search seo keywords with dataforseo and google sheets](https://n8n.io/workflows/22548-prioritize-ai-search-seo-keywords-with-dataforseo-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [create reviewed instagram carousel pngs with openai and bannerbear v5](https://n8n.io/workflows/22321-create-reviewed-instagram-carousel-pngs-with-openai-and-bannerbear-v5/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [clean ukrainian crm client csvs with openai and web forms](https://n8n.io/workflows/22499-clean-ukrainian-crm-client-csvs-with-openai-and-web-forms/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [build weekly payment runs with google sheets and gmail](https://n8n.io/workflows/22460-build-weekly-payment-runs-with-google-sheets-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [compare supplier price lists from csv and generate margin reports](https://n8n.io/workflows/22465-compare-supplier-price-lists-from-csv-and-generate-margin-reports/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [score inbound leads with openai google sheets and slack alerts](https://n8n.io/workflows/22474-score-inbound-leads-with-openai-google-sheets-and-slack-alerts/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [route gmail support emails with google gemini openai and supabase](https://n8n.io/workflows/22477-route-gmail-support-emails-with-google-gemini-openai-and-supabase/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [route synap marking and moderation requests to reviewers in slack](https://n8n.io/workflows/22410-route-synap-marking-and-moderation-requests-to-reviewers-in-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [generate korean payslip excel files with the xboss payroll api](https://n8n.io/workflows/22207-generate-korean-payslip-excel-files-with-the-xboss-payroll-api/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [upload gmail invoice and receipt attachments to lexware office xl](https://n8n.io/workflows/22444-upload-gmail-invoice-and-receipt-attachments-to-lexware-office-xl/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [review regional price observations with apify and magneticproxy](https://n8n.io/workflows/22486-review-regional-price-observations-with-apify-and-magneticproxy/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [give sourced chatwork opinions with claude haiku when mentioned](https://n8n.io/workflows/22471-give-sourced-chatwork-opinions-with-claude-haiku-when-mentioned/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [audit product feed quality with reach dog and google sheets](https://n8n.io/workflows/22575-audit-product-feed-quality-with-reach-dog-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send solana token price alerts with jupiter and telegram](https://n8n.io/workflows/18598-send-solana-token-price-alerts-with-jupiter-and-telegram/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [verify email contacts in google sheets with emailawesome](https://n8n.io/workflows/22483-verify-email-contacts-in-google-sheets-with-emailawesome/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [generate bulk flux images from google sheets prompts with apify](https://n8n.io/workflows/21304-generate-bulk-flux-images-from-google-sheets-prompts-with-apify/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [qualify landscaping quotes and visits with scoring and duplicate checks](https://n8n.io/workflows/22430-qualify-landscaping-quotes-and-visits-with-scoring-and-duplicate-checks/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [review insurance claims with deepseek forms and telegram](https://n8n.io/workflows/22491-review-insurance-claims-with-deepseek-forms-and-telegram/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [transcribe and summarize russian audio with speech expert forms](https://n8n.io/workflows/22511-transcribe-and-summarize-russian-audio-with-speech-expert-forms/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [file employee expenses from telegram receipts with openai and xero](https://n8n.io/workflows/22542-file-employee-expenses-from-telegram-receipts-with-openai-and-xero/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [summarize facebook and instagram campaign comments with apify and claude](https://n8n.io/workflows/22566-summarize-facebook-and-instagram-campaign-comments-with-apify-and-claude/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [find google maps business leads with apify and google sheets](https://n8n.io/workflows/22413-find-google-maps-business-leads-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [monitor linkedin ad library ads with apify and google sheets](https://n8n.io/workflows/22557-monitor-linkedin-ad-library-ads-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [image converter](https://apify.com/actor-forge/image-converter) — review / tool-intent-wording-not-verified; source=apify-actors-a
-- [rag document change tracker](https://apify.com/ailu_studio/rag-document-change-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-a
-- [bulk domain authority checker](https://apify.com/alexmorain/bulk-domain-authority-checker) — review / tool-intent-wording-not-verified; source=apify-actors-a
-- [naukri jobs search](https://apify.com/anshumanatrey/naukri-jobs-search) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [google maps review change monitor](https://apify.com/ailu_studio/google-maps-review-change-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [coinmarketcap trending crypto radar](https://apify.com/adaptive_nightmare/coinmarketcap-trending-crypto-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [wordpress posts api](https://apify.com/ailu_studio/wordpress-posts-api) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [keyword volume scraper](https://apify.com/alexmorain/keyword-volume-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
-- [wikipedia daily pageviews radar](https://apify.com/adaptive_nightmare/wikipedia-daily-pageviews-radar) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [merge wizards td](https://www.crazygames.com/game/merge-wizards-td) — watch / game-title-not-search-demand; source=crazygames-en
+- [merge wizards td](https://www.crazygames.com/br/game/merge-wizards-td) — watch / game-title-not-search-demand; source=crazygames-br
+- [merge wizards td](https://www.crazygames.com/es/game/merge-wizards-td) — watch / game-title-not-search-demand; source=crazygames-es
+- [real surgeon simulator game](https://www.minijuegos.com/juego/real-surgeon-simulator-game) — review / tool-intent-wording-not-verified; source=minijuegos-es
+- [car wash simulator](https://www.minijuegos.com/juego/car-wash-simulator) — review / tool-intent-wording-not-verified; source=minijuegos-es
+- [troll the king](https://www.minijuegos.com/juego/troll-the-king) — watch / game-title-not-search-demand; source=minijuegos-es
+- [snakearea io](https://www.minijuegos.com/juego/snakearea-io) — watch / game-title-not-search-demand; source=minijuegos-es
+- [hex crash racing](https://www.minijuegos.com/juego/hex-crash-racing) — watch / game-title-not-search-demand; source=minijuegos-es
+- [battlecross](https://www.minijuegos.com/juego/battlecross) — watch / game-title-not-search-demand; source=minijuegos-es
+- [obby world squid escape](https://www.minijuegos.com/juego/obby-world-squid-escape) — watch / game-title-not-search-demand; source=minijuegos-es
+- [gun spin](https://www.minijuegos.com/juego/gun-spin) — watch / game-title-not-search-demand; source=minijuegos-es
+- [stealth shooter](https://www.minijuegos.com/juego/stealth-shooter) — watch / game-title-not-search-demand; source=minijuegos-es
+- [chase road](https://www.minijuegos.com/juego/chase-road) — watch / game-title-not-search-demand; source=minijuegos-es
+- [stackapult](https://www.minijuegos.com/juego/stackapult) — watch / game-title-not-search-demand; source=minijuegos-es
+- [speed insights and web analytics now support custom environments](https://vercel.com/changelog/speed-insights-and-web-analytics-now-support-custom-environments) — review / product-content-not-search-demand; source=vercel-product-watch
+- [gemini 4 carbon now available on ai gateway](https://vercel.com/changelog/gemini-4-carbon-now-available-on-ai-gateway) — review / product-content-not-search-demand; source=vercel-product-watch
+- [plain week deploy plain week weekly planner](https://railway.com/deploy/plain-week--deploy-plain-week-weekly-planner) — review / tool-intent-wording-not-verified; source=railway-templates
+- [reading tracker bookplate based deploy self hosted reading tracker](https://railway.com/deploy/reading-tracker-bookplate-based--deploy-self-hosted-reading-tracker) — review / tool-intent-wording-not-verified; source=railway-templates
+- [neo4j llm graph builder 087](https://railway.com/deploy/neo4j-llm-graph-builder-087) — low / numbered-deploy-template; source=railway-templates
+- [kwant deploy kwant ai bot team](https://railway.com/deploy/kwant--deploy-kwant-ai-bot-team) — review / deployment-topic-not-search-demand; source=railway-templates
+- [alma relay deploy alma relay remote access](https://railway.com/deploy/alma-relay--deploy-alma-relay-remote-access) — review / deployment-topic-not-search-demand; source=railway-templates
+- [txtai 914](https://railway.com/deploy/txtai-914) — low / numbered-deploy-template; source=railway-templates
+- [falkordb 604](https://railway.com/deploy/falkordb-604) — low / numbered-deploy-template; source=railway-templates
+- [ubuntu mate desktop in your browser](https://railway.com/deploy/ubuntu-mate-desktop-in-your-browser) — review / deployment-topic-not-search-demand; source=railway-templates
+- [laravel ai sdk starter](https://railway.com/deploy/laravel-ai-sdk-starter) — review / deployment-topic-not-search-demand; source=railway-templates
+- [lalabase deploy lalabase project management](https://railway.com/deploy/lalabase--deploy-lalabase-project-management) — review / deployment-topic-not-search-demand; source=railway-templates
+- [dgraph 255](https://railway.com/deploy/dgraph-255) — low / numbered-deploy-template; source=railway-templates
+- [geoinflow deploy geoinflow ai crawler analytics](https://railway.com/deploy/geoinflow--deploy-geoinflow-ai-crawler-analytics) — review / deployment-topic-not-search-demand; source=railway-templates
+- [homelab atlas deploy homelab atlas network diagrams](https://railway.com/deploy/homelab-atlas--deploy-homelab-atlas-network-diagrams) — review / deployment-topic-not-search-demand; source=railway-templates
+- [graphiti 031 mcp neo4j](https://railway.com/deploy/graphiti-031-mcp-neo4j) — review / deployment-topic-not-search-demand; source=railway-templates
+- [puppygraph 118 postgres](https://railway.com/deploy/puppygraph-118-postgres) — review / deployment-topic-not-search-demand; source=railway-templates
+- [foldergram deploy foldergram photo gallery](https://railway.com/deploy/foldergram--deploy-foldergram-photo-gallery) — review / deployment-topic-not-search-demand; source=railway-templates
+- [obsidian arc deploy obsidian arc ai chat gateway](https://railway.com/deploy/obsidian-arc--deploy-obsidian-arc-ai-chat-gateway) — review / deployment-topic-not-search-demand; source=railway-templates
+- [codeotter](https://railway.com/deploy/codeotter) — review / deployment-topic-not-search-demand; source=railway-templates
+- [overlook deploy overlook homelab dashboard](https://railway.com/deploy/overlook--deploy-overlook-homelab-dashboard) — review / deployment-topic-not-search-demand; source=railway-templates
+- [thingport deploy thingport 3d print model library](https://railway.com/deploy/thingport--deploy-thingport-3d-print-model-library) — review / deployment-topic-not-search-demand; source=railway-templates
+- [neo4j mcp 21](https://railway.com/deploy/neo4j-mcp-21) — low / numbered-deploy-template; source=railway-templates
+- [firefox browser in the cloud](https://railway.com/deploy/firefox-browser-in-the-cloud) — review / deployment-topic-not-search-demand; source=railway-templates
+- [graphiti 031 mcp falkordb](https://railway.com/deploy/graphiti-031-mcp-falkordb) — review / deployment-topic-not-search-demand; source=railway-templates
+- [agentcase lab deploy agentcase lab ai agent debugger](https://railway.com/deploy/agentcase-lab--deploy-agentcase-lab-ai-agent-debugger) — review / deployment-topic-not-search-demand; source=railway-templates
+- [brave browser in the cloud](https://railway.com/deploy/brave-browser-in-the-cloud) — review / deployment-topic-not-search-demand; source=railway-templates
+- [boltdiy bolt diy server](https://railway.com/deploy/boltdiy--bolt-diy-server) — review / deployment-topic-not-search-demand; source=railway-templates
+- [hob deploy hob personal ai assistant](https://railway.com/deploy/hob--deploy-hob-personal-ai-assistant) — review / deployment-topic-not-search-demand; source=railway-templates
+- [haben deploy haben german bookkeeping](https://railway.com/deploy/haben--deploy-haben-german-bookkeeping) — review / deployment-topic-not-search-demand; source=railway-templates
+- [open net worth deploy open net worth ai finance ledger](https://railway.com/deploy/open-net-worth--deploy-open-net-worth-ai-finance-ledger) — review / deployment-topic-not-search-demand; source=railway-templates
+- [memgraph 314 lab](https://railway.com/deploy/memgraph-314-lab) — review / deployment-topic-not-search-demand; source=railway-templates
+- [anythingllm server](https://railway.com/deploy/anythingllm-server) — review / deployment-topic-not-search-demand; source=railway-templates
+- [saltmd deploy saltmd team docs with mcp](https://railway.com/deploy/saltmd--deploy-saltmd-team-docs-with-mcp) — review / deployment-topic-not-search-demand; source=railway-templates
+- [sazabi log forwarder](https://railway.com/deploy/sazabi-log-forwarder) — review / deployment-topic-not-search-demand; source=railway-templates
+- [ragflow 100](https://railway.com/deploy/ragflow-100) — low / numbered-deploy-template; source=railway-templates
+- [notesd deploy notesd markdown notes server](https://railway.com/deploy/notesd--deploy-notesd-markdown-notes-server) — review / deployment-topic-not-search-demand; source=railway-templates
+- [chromium browser in the cloud](https://railway.com/deploy/chromium-browser-in-the-cloud) — review / deployment-topic-not-search-demand; source=railway-templates
+- [contract renewal notice tracker](https://apify.com/afkdigital/contract-renewal-notice-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-a
+- [google maps places](https://apify.com/alaudinburki/google-maps-places) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [us doctors medical clinics scraper](https://apify.com/apexscrapers/us-doctors-medical-clinics-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [foundit jobs](https://apify.com/aolmo/foundit-jobs) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [insider trades for agents](https://apify.com/accquantic/insider-trades-for-agents) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [website gap leads](https://apify.com/aitorsm/website-gap-leads) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [company check card for agents](https://apify.com/accquantic/company-check-card-for-agents) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [purchase order confirmation diff](https://apify.com/afkdigital/purchase-order-confirmation-diff) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [duplicate vendor invoice finder](https://apify.com/afkdigital/duplicate-vendor-invoice-finder) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [infojobs jobs](https://apify.com/aolmo/infojobs-jobs) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [vendor bank detail change review](https://apify.com/afkdigital/vendor-bank-detail-change-review) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [workday jobs](https://apify.com/aolmo/workday-jobs) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [xing jobs](https://apify.com/aolmo/xing-jobs) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [reed jobs](https://apify.com/aolmo/reed-jobs) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [saas seat waste auditor](https://apify.com/afkdigital/saas-seat-waste-auditor) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [reelsaid](https://apify.com/aimansour/reelsaid) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [website traffic checker](https://apify.com/pumpkinapi/website-traffic-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [domain email security checker](https://apify.com/quicktools/domain-email-security-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [aso keyword tracker](https://apify.com/robertosan16/aso-keyword-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [company jobs checker](https://apify.com/pulselab/company-jobs-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [vietnam address converter](https://apify.com/puk.ora/vietnam-address-converter) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [broken link checker](https://apify.com/rjmacarthy/broken-link-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [serp rank checker](https://apify.com/publicrows/serp-rank-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [us legislation tracker](https://apify.com/pushbuild/us-legislation-tracker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [llm vram calculator](https://apify.com/punkjazz-labs/llm-vram-calculator) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [domain rating checker](https://apify.com/pumpkinapi/domain-rating-checker) — review / tool-intent-wording-not-verified; source=apify-actors-z
+- [snapchat ads library scraper](https://apify.com/pulsedata/snapchat-ads-library-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [product barcodes](https://apify.com/pushbuild/product-barcodes) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [vivino wines scraper](https://apify.com/santamaria-automations/vivino-wines-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [us federal contracts](https://apify.com/pushbuild/us-federal-contracts) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [backlink monitor](https://apify.com/rowfeed/backlink-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [uae fta regulatory monitor](https://apify.com/punkjazz-labs/uae-fta-regulatory-monitor) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [us corporate actions](https://apify.com/pushbuild/us-corporate-actions) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [dubai esupply tenders](https://apify.com/punkjazz-labs/dubai-esupply-tenders) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [facebook ad library scraper](https://apify.com/pulsedata/facebook-ad-library-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [aliexpress reviews scraper](https://apify.com/pumpkinapi/aliexpress-reviews-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [instagram likers scraper](https://apify.com/publicsignallabs/instagram-likers-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [yandex music scraper](https://apify.com/sashaebashu/yandex-music-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [golfbox dk scraper](https://apify.com/rainminer/golfbox-dk-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [google trends trending](https://apify.com/rasareka/google-trends-trending) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [mca company master](https://apify.com/publicrows/mca-company-master) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [jobbird scraper](https://apify.com/puhmeisterluka/jobbird-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [uae mof tenders](https://apify.com/punkjazz-labs/uae-mof-tenders) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [shopify woocommerce scraper](https://apify.com/pulselab/shopify-woocommerce-scraper) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [irs 527 political organizations](https://apify.com/pushbuild/irs-527-political-organizations) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [substack outreach leads](https://apify.com/pure_matai/substack-outreach-leads) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [instagram profile posts reels](https://apify.com/publicsignallabs/instagram-profile-posts-reels) — review / workflow-problem-not-search-demand; source=apify-actors-z
+- [federal register](https://apify.com/pushbuild/federal-register) — review / workflow-problem-not-search-demand; source=apify-actors-z
 
 ## Source interpretation
 
