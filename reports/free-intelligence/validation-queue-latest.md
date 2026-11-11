@@ -1,4 +1,4 @@
-# SaaS / new-keyword validation queue — 2026-11-10
+# SaaS / new-keyword validation queue — 2026-11-11
 
 **RESEARCH ONLY. 0 build-ready opportunities unless separately validated.**
 
@@ -7,6 +7,41 @@ Topics: 6 · Topics with first-person leads: 0 · Ready to build: 0
 Volume / KD / CPC: **not available**. These discovery queries are not necessarily commercially searched keywords.
 
 History: 14 archived days in the prior 14 days. Observations are not distinct customer reports.
+
+## US · finance_operations
+
+Search for user pain: `invoice reconciliation manual`
+
+Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
+
+Source limitations: duckduckgo, reddit
+
+**Firsthand requests**
+- No qualifying public first-person request yet.
+
+**Competitor / context references (not demand validation)**
+- [Alemarpapa/docuflow-extractor](https://github.com/Alemarpapa/docuflow-extractor) (github_repositories)
+- [Oussamanakhil/margevia](https://github.com/Oussamanakhil/margevia) (github_repositories)
+- [Chammin00/invoice-bol-reconciliation](https://github.com/Chammin00/invoice-bol-reconciliation) (github_repositories)
+- [amir-moaied/Auto-Allocate](https://github.com/amir-moaied/Auto-Allocate) (github_repositories)
+
+**Exact keyword hypotheses to verify (en):**
+- `invoice reconciliation software` — Volume: unknown; KD: unknown; CPC: unknown
+- `invoice reconciliation automation` — Volume: unknown; KD: unknown; CPC: unknown
+- `automated invoice matching` — Volume: unknown; KD: unknown; CPC: unknown
+
+Monetization hypothesis: B2B SaaS: reconciliation workflow; paid intent unverified
+
+**14-day cross-report observations**
+- Earlier days this research area was covered: 6 (the same topic is not independent demand)
+- Repeated firsthand links (saved sample): 0
+- Repeated context links (saved sample): 1
+
+**Next checks:**
+- Check the exact terms above for US Volume/KD/CPC, noting provider and date.
+- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
+- Confirm independent, attributable recent problem reports.
+- Test ad/SaaS monetization and zero-fixed-cost feasibility.
 
 ## US · operations
 
@@ -22,6 +57,8 @@ Source limitations: duckduckgo, reddit
 **Competitor / context references (not demand validation)**
 - [The Hidden Cost of Manual Contact Center Scheduling - CX Today](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ULUxRQ1MwQXN4MklnUnlDejEzUGhRVVFJRDBQQ1JmNHBCZVhSZWZHYlBlVGx4cXpkLUtmWjdpS0dHX3BEWG9CRWg3M2dFbjdQczUw?oc=5) (google_news_rss)
 - [Morrisons to Replace Manual Store Planning Spreadsheets with Logile Software - citybiz](https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWxGUGtqdU1lMnhrd1h6Rk83b1hMbXc0b2gzODYwdndPeWZlN1MxUC12MV95OWNnR08yaGlFVjlSdzFzZDZhTk8tS1F5NWZaQXpiaDVYODR0YnpuZVdMMG5hbWt2NlNIWXU0eVlzNko4WUNnWTRCUmJUOUdjcVFlNWNKTWs1ZlpMMWF0S29fQzBleUN1THdxQS1Cb0xvLVA4TWVlS2ZDeUNIaXVJRTNqR3JHNmdyQQ?oc=5) (google_news_rss)
+- [Acuity Scheduling: Online Booking & Appointment Scheduling Software](https://acuityscheduling.com/) (bing_rss)
+- [Meeting Scheduling Software and AI Meeting Tools | Calendly](https://calendly.com/) (bing_rss)
 
 **Exact keyword hypotheses to verify (en):**
 - `employee scheduling spreadsheet` — Volume: unknown; KD: unknown; CPC: unknown
@@ -31,80 +68,12 @@ Source limitations: duckduckgo, reddit
 Monetization hypothesis: Staff planning tool / subscription; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 6 (the same topic is not independent demand)
-- Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 2
-
-**Next checks:**
-- Check the exact terms above for US Volume/KD/CPC, noting provider and date.
-- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
-- Confirm independent, attributable recent problem reports.
-- Test ad/SaaS monetization and zero-fixed-cost feasibility.
-
-## US · retail_operations
-
-Search for user pain: `inventory sync spreadsheet`
-
-Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
-
-Source limitations: duckduckgo
-
-**Firsthand requests**
-- No qualifying public first-person request yet.
-
-**Competitor / context references (not demand validation)**
-- [RR45-dev/order-inventory-sync](https://github.com/RR45-dev/order-inventory-sync) (github_repositories)
-- [Inventory Sheet Template With Examples - Forbes](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZMUtvTUt0T3ZpaTMzcmQ4SUVFaVpJTXQyempma2NtaDFzWXNMbjZjYkcxSGZCTU8xTmhETkRBMHpOMmREeHNNQjFfWksyZDh6ZkFzc0FvMXVyc0dySGY2RVNTMTJJeXc?oc=5) (google_news_rss)
-
-**Exact keyword hypotheses to verify (en):**
-- `inventory sync software` — Volume: unknown; KD: unknown; CPC: unknown
-- `inventory spreadsheet integration` — Volume: unknown; KD: unknown; CPC: unknown
-- `stock synchronization tool` — Volume: unknown; KD: unknown; CPC: unknown
-
-Monetization hypothesis: B2B inventory synchronization; paid intent unverified
-
-**14-day cross-report observations**
-- Earlier days this research area was covered: 7 (the same topic is not independent demand)
-- Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 1
-
-**Next checks:**
-- Check the exact terms above for US Volume/KD/CPC, noting provider and date.
-- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
-- Confirm independent, attributable recent problem reports.
-- Test ad/SaaS monetization and zero-fixed-cost feasibility.
-
-## BR · finance_operations
-
-Search for user pain: `conciliação bancária manual`
-
-Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
-
-Source limitations: duckduckgo, reddit
-
-**Firsthand requests**
-- No qualifying public first-person request yet.
-
-**Competitor / context references (not demand validation)**
-- [orprocondigital-web/Orprocon-Gestao-Financeira-React](https://github.com/orprocondigital-web/Orprocon-Gestao-Financeira-React) (github_repositories)
-- [Gary-Rainer-Chumacero-Vanderlei/ledger-fpa](https://github.com/Gary-Rainer-Chumacero-Vanderlei/ledger-fpa) (github_repositories)
-- [afsilva3021/FinCore](https://github.com/afsilva3021/FinCore) (github_repositories)
-- [LucasFGiraldo/conciliacao-bot](https://github.com/LucasFGiraldo/conciliacao-bot) (github_repositories)
-
-**Exact keyword hypotheses to verify (pt-BR):**
-- `conciliação bancária online` — Volume: unknown; KD: unknown; CPC: unknown
-- `conciliação bancária automática` — Volume: unknown; KD: unknown; CPC: unknown
-- `planilha conciliação bancária` — Volume: unknown; KD: unknown; CPC: unknown
-
-Monetization hypothesis: Brazil bookkeeping reconciliation; paid intent unverified
-
-**14-day cross-report observations**
 - Earlier days this research area was covered: 7 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
 - Repeated context links (saved sample): 4
 
 **Next checks:**
-- Check the exact terms above for BR Volume/KD/CPC, noting provider and date.
+- Check the exact terms above for US Volume/KD/CPC, noting provider and date.
 - Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
 - Confirm independent, attributable recent problem reports.
 - Test ad/SaaS monetization and zero-fixed-cost feasibility.
@@ -134,9 +103,43 @@ Source limitations: duckduckgo, reddit
 Monetization hypothesis: Inventory integration utility; paid intent unverified
 
 **14-day cross-report observations**
+- Earlier days this research area was covered: 7 (the same topic is not independent demand)
+- Repeated firsthand links (saved sample): 0
+- Repeated context links (saved sample): 4
+
+**Next checks:**
+- Check the exact terms above for BR Volume/KD/CPC, noting provider and date.
+- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
+- Confirm independent, attributable recent problem reports.
+- Test ad/SaaS monetization and zero-fixed-cost feasibility.
+
+## BR · tax_compliance
+
+Search for user pain: `nota fiscal planilha`
+
+Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
+
+Source limitations: duckduckgo, reddit
+
+**Firsthand requests**
+- No qualifying public first-person request yet.
+
+**Competitor / context references (not demand validation)**
+- [jaison/OpenNfse](https://github.com/jaison/OpenNfse) (github_repositories)
+- [RicardoAndersonJC/api-automacao-fiscal](https://github.com/RicardoAndersonJC/api-automacao-fiscal) (github_repositories)
+- [viniciusjardimcosta-beep/notas-do-mercado](https://github.com/viniciusjardimcosta-beep/notas-do-mercado) (github_repositories)
+
+**Exact keyword hypotheses to verify (pt-BR):**
+- `controle de notas fiscais planilha` — Volume: unknown; KD: unknown; CPC: unknown
+- `conciliação de notas fiscais` — Volume: unknown; KD: unknown; CPC: unknown
+- `emissor de nota fiscal online` — Volume: unknown; KD: unknown; CPC: unknown
+
+Monetization hypothesis: Brazil compliance utility or SaaS; applicability unverified
+
+**14-day cross-report observations**
 - Earlier days this research area was covered: 6 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 1
+- Repeated context links (saved sample): 3
 
 **Next checks:**
 - Check the exact terms above for BR Volume/KD/CPC, noting provider and date.
@@ -156,10 +159,10 @@ Source limitations: duckduckgo, reddit
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
-- [mauriciosoaresd/conciliador-inventario-web](https://github.com/mauriciosoaresd/conciliador-inventario-web) (github_repositories)
 - [CrabF-ui/WoodTrack](https://github.com/CrabF-ui/WoodTrack) (github_repositories)
+- [guadalupe182/pos-lite](https://github.com/guadalupe182/pos-lite) (github_repositories)
+- [AnaMaria1799/AromaDeCafe](https://github.com/AnaMaria1799/AromaDeCafe) (github_repositories)
 - [carranzapinzon55/AssetGuard_2620](https://github.com/carranzapinzon55/AssetGuard_2620) (github_repositories)
-- [¿Qué es el inventario? Tipos, ejemplos y consejos para gestionarlo](https://economipedia.com/definiciones/inventario.html) (bing_rss)
 
 **Exact keyword hypotheses to verify (es-MX):**
 - `control de inventarios excel` — Volume: unknown; KD: unknown; CPC: unknown
@@ -169,7 +172,7 @@ Source limitations: duckduckgo, reddit
 Monetization hypothesis: Small business inventory tool; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 6 (the same topic is not independent demand)
+- Earlier days this research area was covered: 7 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
 - Repeated context links (saved sample): 3
 
@@ -181,7 +184,7 @@ Monetization hypothesis: Small business inventory tool; paid intent unverified
 
 ## MX · tax_compliance
 
-Search for user pain: `facturas SAT errores`
+Search for user pain: `CFDI conciliación errores`
 
 Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
 
@@ -191,21 +194,22 @@ Source limitations: duckduckgo, reddit
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
-- [epalencia-2025050/AutomatizacionConIA](https://github.com/epalencia-2025050/AutomatizacionConIA) (github_repositories)
-- [Pablo-Gomez-Perez/visor-cfdi-xml](https://github.com/Pablo-Gomez-Perez/visor-cfdi-xml) (github_repositories)
-- [SAT duplica la recaudación por fiscalizar operaciones de comercio exterior - Expansión](https://news.google.com/rss/articles/CBMiggFBVV95cUxNdnJPVDFuSlFyLUJFWkVIR2pVVUdwQTFYR0p3ZEhXWTJYckphVjVTelRfN3lzaENrR0dELXBPaXJNa3lsc0lNLUF1TmxFdDZMSmMxWFhpR2hSbDhXOUp3eGFieUlHSGZLcnJDMWdGZmFvOHBxSWtHRzUzc2luZW5mSThR0gGPAUFVX3lxTE5ZQi1rcF83WldUT3JZMnhsT28yRFUxMlhtMmR4UGxJNnlsUy1TZkJUQVVsOEktcF94NGZqVHB2T09lSlh2WktNTnhuWFVPS1Job0psWV80dzdUZ05RWnRMWDRPdG5WVFlHakdvcW5PcGVtT09ZZlNOMEdwR282bXV3Q1hMX3NPdzRGUWlKM3hV?oc=5) (google_news_rss)
+- [Fintecia/fintecia-mcp](https://github.com/Fintecia/fintecia-mcp) (github_repositories)
+- [merolhack/sat-fiscal-toolkit](https://github.com/merolhack/sat-fiscal-toolkit) (github_repositories)
+- [EduardoPecina/conciliacion-honorarios](https://github.com/EduardoPecina/conciliacion-honorarios) (github_repositories)
+- [JAD3M/Cuadra](https://github.com/JAD3M/Cuadra) (github_repositories)
 
 **Exact keyword hypotheses to verify (es-MX):**
-- `validar facturas SAT` — Volume: unknown; KD: unknown; CPC: unknown
-- `errores de facturación SAT` — Volume: unknown; KD: unknown; CPC: unknown
-- `verificador de facturas CFDI` — Volume: unknown; KD: unknown; CPC: unknown
+- `conciliación de CFDI` — Volume: unknown; KD: unknown; CPC: unknown
+- `validador CFDI SAT` — Volume: unknown; KD: unknown; CPC: unknown
+- `errores CFDI SAT` — Volume: unknown; KD: unknown; CPC: unknown
 
-Monetization hypothesis: Mexico invoice compliance utility; paid intent unverified
+Monetization hypothesis: Mexican CFDI validation/checker; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 7 (the same topic is not independent demand)
+- Earlier days this research area was covered: 6 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 3
+- Repeated context links (saved sample): 2
 
 **Next checks:**
 - Check the exact terms above for MX Volume/KD/CPC, noting provider and date.
