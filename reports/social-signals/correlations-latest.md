@@ -1,21 +1,28 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-10T18:39:51.026015+00:00
-- Source last updated: 2026-11-10T18:39:51.026015+00:00
-- Trends archive: 2026-11-10 (74/74; complete=True)
-- Eligible multiword rising queries: 456
-- Cross-source matches within 72h review window: 0
-- Social current-run links: 64, prior recent sightings: 230
-- Search archives examined: 2026-11-10, 2026-11-09
-- Direct-post question-derived QUERY HYPOTHESES: 0
+- Generated: 2026-11-11T00:02:06.569687+00:00
+- Source last updated: 2026-11-11T00:02:06.569687+00:00
+- Trends archive: 2026-11-11 (55/74; complete=False)
+- Eligible multiword rising queries: 271
+- Cross-source matches within 72h review window: 1
+- Social current-run links: 64, prior recent sightings: 219
+- Search archives examined: 2026-11-11, 2026-11-10, 2026-11-09
+- Direct-post question-derived QUERY HYPOTHESES: 1
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
-No reliable full-query cross-source overlap found in this scan.
+## time freeze
+
+- Relative Trends rising value: 50.0 (NOT Volume)
+- Distinct matched platforms: 1
+- Direct public-post question hints: 0
+- mastodon: https://mastodon.social/@talkpix/117592829682449253 (direct_public_post)
 
 ## Original public-post question hints (NOT validated search keywords)
 
-- No qualifying public-post question hints in this scan.
+- Proposed query: **to learn but more i d like to forget i thought**
+  - Original public post: https://bsky.app/profile/altheoua.bsky.social/post/3mzyhj4zqnk2j
+  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 
 ## First-person payment mentions (author reports, NOT verified orders)
 

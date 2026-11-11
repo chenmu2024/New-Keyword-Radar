@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-11-10T18:39:51.026015+00:00",
-  "social_generated_at": "2026-11-10T18:39:51.026015+00:00",
+  "generated_at": "2026-11-11T00:02:06.569687+00:00",
+  "social_generated_at": "2026-11-11T00:02:06.569687+00:00",
   "trends_coverage": {
-    "archive_date": "2026-11-10",
-    "scanned_seed_count": 74,
+    "archive_date": "2026-11-11",
+    "scanned_seed_count": 55,
     "target_seed_count": 74,
-    "complete_daily_target": true,
-    "rising_total": 504,
-    "eligible_exact_queries": 456
+    "complete_daily_target": false,
+    "rising_total": 318,
+    "eligible_exact_queries": 271
   },
   "social_unique_in_run": 64,
   "review_window": {
     "trend_days_evaluated": [
+      {
+        "archive_date": "2026-11-11",
+        "scanned_seed_count": 55,
+        "target_seed_count": 74,
+        "complete_daily_target": false,
+        "rising_total": 318,
+        "eligible_exact_queries": 271
+      },
       {
         "archive_date": "2026-11-10",
         "scanned_seed_count": 74,
@@ -29,18 +37,58 @@
         "eligible_exact_queries": 455
       }
     ],
-    "exact_queries_in_window": 652,
+    "exact_queries_in_window": 718,
     "social_current_run": 64,
-    "social_prior_sightings_72h": 230,
-    "social_reviewable_72h": 294,
+    "social_prior_sightings_72h": 219,
+    "social_reviewable_72h": 283,
     "window_hours": 72,
     "not_new_discoveries_warning": "Window includes older links recently re-seen. Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."
   },
-  "cross_matches": 0,
-  "public_question_hypotheses": 0,
-  "query_hypotheses": [],
+  "cross_matches": 1,
+  "public_question_hypotheses": 1,
+  "query_hypotheses": [
+    {
+      "proposed_query": "to learn but more i d like to forget i thought",
+      "original_post_url": "https://bsky.app/profile/altheoua.bsky.social/post/3mzyhj4zqnk2j",
+      "original_platform": "bluesky",
+      "original_post_text": "A life of purpose without choice is that of a tool There is so much I need to learn, but more I'd like to forget I thought the choices I made would make me a fool But of my past, I'll never regret #MHA #MHARP #BNHA #SFW #RP #SFWRP",
+      "published_at": "2026-11-10T22:12:02.151000+00:00",
+      "demand_status": "unverified_question_hint",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "actual_user_paid": false,
+      "ready_to_build": false,
+      "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
+    }
+  ],
   "self_reported_buyer_feedback_count": 0,
   "self_reported_buyer_feedback": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "query": "time freeze",
+      "relative_rising_value": 50.0,
+      "seed": "itch.io",
+      "sources": {
+        "mastodon": 1
+      },
+      "links": [
+        {
+          "platform": "mastodon",
+          "url": "https://mastodon.social/@talkpix/117592829682449253",
+          "title": "The whole street freezes. Except one sheet of paper. Text only, no camera. Street noise, dead silence, then the crash. (AI-generated video.) The \"Time Freeze\" template on TalkPix:",
+          "published_at": "2026-11-10T15:23:03.391000+00:00",
+          "evidence_type": "direct_public_post",
+          "potential_first_person_question": false,
+          "verified_customer_demand": false,
+          "original_comments_verified": false
+        }
+      ],
+      "independent_platforms": 1,
+      "distinct_urls": 1,
+      "original_post_question_hints": 0,
+      "ready_to_build": false,
+      "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
+    }
+  ],
   "caveat": "Exact multiword overlap is only a research lead, not verified demand, traffic, money, recent trend trajectory, or easy SERP. No automatic recommendation or modification of pending keywords."
 }
