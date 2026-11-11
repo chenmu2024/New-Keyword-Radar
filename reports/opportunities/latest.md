@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-10T23:30:26.446413+00:00
-- Historical candidates: 4838
-- Newly recorded from pending: 62
+- Updated (UTC): 2026-11-11T09:20:56.917327+00:00
+- Historical candidates: 4965
+- Newly recorded from pending: 127
 - Awaiting 7/14/30-day evidence review: 3567
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- ai writing assistant [Global] — discovered — first 2026-11-11, last 2026-11-11
-- anonyig.com instagram [Global] — discovered — first 2026-11-11, last 2026-11-11
-- are the chiefs going to trade for a wide receiver [Global] — discovered — first 2026-11-11, last 2026-11-11
-- best online pokies in australia right now? r/instagraminsider [Global] — discovered — first 2026-11-11, last 2026-11-11
-- bj77 connector price [Global] — discovered — first 2026-11-11, last 2026-11-11
-- blackrock tax evaluator [Global] — discovered — first 2026-11-11, last 2026-11-11
-- blooket join [Global] — discovered — first 2026-11-11, last 2026-11-11
-- c# primary constructor [Global] — discovered — first 2026-11-11, last 2026-11-11
-- casino online 2026 zockercheck.sbs 🇩🇪 [Global] — discovered — first 2026-11-11, last 2026-11-11
-- casino online 🇦🇹 casinod.pw [Global] — discovered — first 2026-11-11, last 2026-11-11
-- casino online 🇩🇪 www.zockerfuchs.sbs [Global] — discovered — first 2026-11-11, last 2026-11-11
 - casino utan svensk licens 🇸🇪 2026 tagecasino.sbs 🇸🇪 [Global] — discovered — first 2026-11-11, last 2026-11-11
-- codedpad [Global] — discovered — first 2026-11-11, last 2026-11-11
-- comparator crafting [Global] — discovered — first 2026-11-11, last 2026-11-11
-- compiler explorer [Global] — discovered — first 2026-11-11, last 2026-11-11
-- elementary particle with the symbol q [Global] — discovered — first 2026-11-11, last 2026-11-11
-- elgar composer [Global] — discovered — first 2026-11-11, last 2026-11-11
 - email extractor 1.6.1 [Global] — discovered — first 2026-11-11, last 2026-11-11
-- emergent.sh [Global] — discovered — first 2026-11-11, last 2026-11-11
-- figma hello kitty pop up [Global] — discovered — first 2026-11-11, last 2026-11-11
-- fleet frontier gumroad [Global] — discovered — first 2026-11-11, last 2026-11-11
+- planner5d [Global] — discovered — first 2026-11-11, last 2026-11-11
 - garmin first responder discount [Global] — discovered — first 2026-11-11, last 2026-11-11
-- gestalt language processor [Global] — discovered — first 2026-11-11, last 2026-11-11
-- great pacific garbage patch color change [Global] — discovered — first 2026-11-11, last 2026-11-11
+- elgar composer [Global] — discovered — first 2026-11-11, last 2026-11-11
+- best online pokies in australia right now? r/instagraminsider [Global] — discovered — first 2026-11-11, last 2026-11-11
+- shell game [Global] — discovered — first 2026-11-11, last 2026-11-11
+- fleet frontier gumroad [Global] — discovered — first 2026-11-11, last 2026-11-11
+- meta creator affiliate program [Global] — discovered — first 2026-11-11, last 2026-11-11
+- saints game [Global] — discovered — first 2026-11-11, last 2026-11-11
+- sprunki peppers take [Global] — discovered — first 2026-11-11, last 2026-11-11
+- pacman [Global] — discovered — first 2026-11-11, last 2026-11-11
+- surfshark login [Global] — discovered — first 2026-11-11, last 2026-11-11
+- winner [Global] — discovered — first 2026-11-11, last 2026-11-11
+- casino online 2026 zockercheck.sbs 🇩🇪 [Global] — discovered — first 2026-11-11, last 2026-11-11
+- minecraftdle [Global] — discovered — first 2026-11-11, last 2026-11-11
+- online casino österreich casinod.works 🇦🇹 [Global] — discovered — first 2026-11-11, last 2026-11-11
+- sprunki phase 14 [Global] — discovered — first 2026-11-11, last 2026-11-11
+- emergent.sh [Global] — discovered — first 2026-11-11, last 2026-11-11
 - is fruit notifier worth it [Global] — discovered — first 2026-11-11, last 2026-11-11
+- sprunki pyramixed cocrea [Global] — discovered — first 2026-11-11, last 2026-11-11
+- oakley first responder discount [Global] — discovered — first 2026-11-11, last 2026-11-11
+- nicl ao admit card 2026 [Global] — discovered — first 2026-11-11, last 2026-11-11
+- sprunki phase 5 [Global] — discovered — first 2026-11-11, last 2026-11-11
+- casino online 🇦🇹 casinod.pw [Global] — discovered — first 2026-11-11, last 2026-11-11
 
 ## Due for follow-up
 

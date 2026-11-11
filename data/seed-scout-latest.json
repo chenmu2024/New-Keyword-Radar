@@ -1,26 +1,283 @@
 {
-  "batch_id": "2026-11-10T23:30:12.889436+00:00-16-17-18-19-20",
-  "generated_at": "2026-11-10T23:30:12.889436+00:00",
-  "local_generated_at": "2026-11-11T07:30:12.889436+08:00",
+  "batch_id": "2026-11-11T09:20:50.379362+00:00-17-18-19-20",
+  "generated_at": "2026-11-11T09:20:50.379362+00:00",
+  "local_generated_at": "2026-11-11T17:20:50.379362+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "interpreter",
     "uploader",
     "calculator",
     "sample",
     "template"
   ],
   "seed_indices": [
-    16,
     17,
     18,
     19,
     20
   ],
-  "start_index": 16,
-  "discoveries": [],
-  "status": "error",
-  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+  "start_index": 17,
+  "discoveries": [
+    {
+      "seed": "uploader",
+      "query": "gt7 decal uploader",
+      "rise_value": 17100.0,
+      "raw_value": 17100
+    },
+    {
+      "seed": "sample",
+      "query": "a new ore sample wow forever",
+      "rise_value": 6950.0,
+      "raw_value": 6950
+    },
+    {
+      "seed": "uploader",
+      "query": "skindex",
+      "rise_value": 6150.0,
+      "raw_value": 6150
+    },
+    {
+      "seed": "sample",
+      "query": "a new ore sample",
+      "rise_value": 5750.0,
+      "raw_value": 5750
+    },
+    {
+      "seed": "sample",
+      "query": "unrefined ore sample",
+      "rise_value": 5650.0,
+      "raw_value": 5650
+    },
+    {
+      "seed": "sample",
+      "query": "blackwood fruit sample",
+      "rise_value": 4550.0,
+      "raw_value": 4550
+    },
+    {
+      "seed": "uploader",
+      "query": "gif uploader for discord",
+      "rise_value": 4450.0,
+      "raw_value": 4450
+    },
+    {
+      "seed": "sample",
+      "query": "sample snapjaw shell",
+      "rise_value": 3600.0,
+      "raw_value": 3600
+    },
+    {
+      "seed": "sample",
+      "query": "unrefined ore sample wow forever",
+      "rise_value": 3350.0,
+      "raw_value": 3350
+    },
+    {
+      "seed": "template",
+      "query": "capcut template diwali",
+      "rise_value": 2200.0,
+      "raw_value": 2200
+    },
+    {
+      "seed": "sample",
+      "query": "givenchy sample sale",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "template",
+      "query": "disguise a turkey template",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "template",
+      "query": "diwali template",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "template",
+      "query": "disguise a turkey",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "sample",
+      "query": "prenatal sample sale",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "template",
+      "query": "turkey disguise template",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "uploader",
+      "query": "getuploader",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "sample",
+      "query": "sephora mens cologne sample set",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "template",
+      "query": "turkey body template",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "uploader",
+      "query": "fotosoft image uploader",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "uploader",
+      "query": "speed uploader for google drive",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "template",
+      "query": "turkey template",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "template",
+      "query": "poppy template",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "sample",
+      "query": "samsoe samsoe sample sale",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "template",
+      "query": "santa letter template",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "uploader",
+      "query": "youtube video downloader",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "template",
+      "query": "turkey feather template",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "uploader",
+      "query": "ff logs uploader",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "uploader",
+      "query": "glooko",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "uploader",
+      "query": "video uploader for discord",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "template",
+      "query": "christmas list template",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "sample",
+      "query": "eclipse sample sale",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "uploader",
+      "query": "glooko uploader",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "sample",
+      "query": "sample lover",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "uploader",
+      "query": "screenshot uploader",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "sample",
+      "query": "authorization letter sample",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "uploader",
+      "query": "fflogs uploader",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "sample",
+      "query": "acknowledgement receipt sample",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "sample",
+      "query": "asos sample sale",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "uploader",
+      "query": "clip uploader",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "template",
+      "query": "vn template code",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "uploader",
+      "query": "easy uploader",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "template",
+      "query": "vn template",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 43
 }

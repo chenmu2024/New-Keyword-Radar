@@ -246,6 +246,92 @@
       ],
       "discovery_count": 51,
       "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-11T09:15:54.751125+00:00-21-22-23-24-25",
+      "start_index": 21,
+      "seed_indices": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "generated_at": "2026-11-11T09:15:54.751125+00:00",
+      "local_generated_at": "2026-11-11T17:15:54.751125+08:00",
+      "seed_batch": [
+        "format",
+        "builder",
+        "scheme",
+        "pattern",
+        "checker"
+      ],
+      "discovery_count": 48,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-11T09:17:34.979117+00:00-26-27-28-29-30",
+      "start_index": 26,
+      "seed_indices": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "generated_at": "2026-11-11T09:17:34.979117+00:00",
+      "local_generated_at": "2026-11-11T17:17:34.979117+08:00",
+      "seed_batch": [
+        "detector",
+        "scraper",
+        "manager",
+        "explorer",
+        "dashboard"
+      ],
+      "discovery_count": 43,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-11T09:19:13.090863+00:00-31-32-33-34-16",
+      "start_index": 31,
+      "seed_indices": [
+        31,
+        32,
+        33,
+        34,
+        16
+      ],
+      "generated_at": "2026-11-11T09:19:13.090863+00:00",
+      "local_generated_at": "2026-11-11T17:19:13.090863+08:00",
+      "seed_batch": [
+        "planner",
+        "tracker",
+        "recorder",
+        "optimizer",
+        "interpreter"
+      ],
+      "discovery_count": 53,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-11T09:20:50.379362+00:00-17-18-19-20",
+      "start_index": 17,
+      "seed_indices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "generated_at": "2026-11-11T09:20:50.379362+00:00",
+      "local_generated_at": "2026-11-11T17:20:50.379362+08:00",
+      "seed_batch": [
+        "uploader",
+        "calculator",
+        "sample",
+        "template"
+      ],
+      "discovery_count": 43,
+      "status": "ok"
     }
   ],
   "errors": [
@@ -325,9 +411,34 @@
     "analyzer",
     "evaluator",
     "sender",
-    "receiver"
+    "receiver",
+    "format",
+    "builder",
+    "scheme",
+    "pattern",
+    "checker",
+    "detector",
+    "scraper",
+    "manager",
+    "explorer",
+    "dashboard",
+    "planner",
+    "tracker",
+    "recorder",
+    "optimizer",
+    "interpreter",
+    "uploader",
+    "calculator",
+    "sample",
+    "template"
   ],
   "discoveries": [
+    {
+      "seed": "scheme",
+      "query": "bsek chromebook scheme merit list",
+      "rise_value": 175350.0,
+      "raw_value": 175350
+    },
     {
       "seed": "online",
       "query": "online casino 🇩🇪 casinod.works 🇩🇪",
@@ -341,10 +452,34 @@
       "raw_value": 36350
     },
     {
+      "seed": "dashboard",
+      "query": "iec results dashboard",
+      "rise_value": 35600.0,
+      "raw_value": 35600
+    },
+    {
+      "seed": "dashboard",
+      "query": "iec results",
+      "rise_value": 34450.0,
+      "raw_value": 34450
+    },
+    {
+      "seed": "scheme",
+      "query": "trusted employer scheme approved companies",
+      "rise_value": 32900.0,
+      "raw_value": 32900
+    },
+    {
       "seed": "notifier",
       "query": "abv notifier",
       "rise_value": 31650.0,
       "raw_value": 31650
+    },
+    {
+      "seed": "builder",
+      "query": "hookshot builder",
+      "rise_value": 28300.0,
+      "raw_value": 28300
     },
     {
       "seed": "composer",
@@ -377,16 +512,46 @@
       "raw_value": 24050
     },
     {
+      "seed": "dashboard",
+      "query": "iec results dashboard 2026",
+      "rise_value": 21900.0,
+      "raw_value": 21900
+    },
+    {
+      "seed": "scheme",
+      "query": "singapore fraudulent mortgage scheme charges",
+      "rise_value": 21300.0,
+      "raw_value": 21300
+    },
+    {
       "seed": "cocrea",
       "query": "sbrunga cocrea",
       "rise_value": 19550.0,
       "raw_value": 19550
     },
     {
+      "seed": "dashboard",
+      "query": "iec",
+      "rise_value": 19350.0,
+      "raw_value": 19350
+    },
+    {
+      "seed": "dashboard",
+      "query": "iec dashboard",
+      "rise_value": 19150.0,
+      "raw_value": 19150
+    },
+    {
       "seed": "symbol",
       "query": "egyptian symbol key of life",
       "rise_value": 19050.0,
       "raw_value": 19050
+    },
+    {
+      "seed": "recorder",
+      "query": "earthquake recorder crossword",
+      "rise_value": 18950.0,
+      "raw_value": 18950
     },
     {
       "seed": "online",
@@ -399,6 +564,12 @@
       "query": "online casinos uk 🇬🇧 www.casinominister.blog",
       "rise_value": 17150.0,
       "raw_value": 17150
+    },
+    {
+      "seed": "uploader",
+      "query": "gt7 decal uploader",
+      "rise_value": 17100.0,
+      "raw_value": 17100
     },
     {
       "seed": "online",
@@ -431,6 +602,12 @@
       "raw_value": 14500
     },
     {
+      "seed": "tracker",
+      "query": "owain tracker",
+      "rise_value": 14200.0,
+      "raw_value": 14200
+    },
+    {
       "seed": "itch.io",
       "query": "time freeze на itch.io",
       "rise_value": 14000.0,
@@ -461,6 +638,18 @@
       "raw_value": 11600
     },
     {
+      "seed": "manager",
+      "query": "fc lausanne sport manager sacked",
+      "rise_value": 11500.0,
+      "raw_value": 11500
+    },
+    {
+      "seed": "manager",
+      "query": "ineos manager dismissal lausanne sport",
+      "rise_value": 11200.0,
+      "raw_value": 11200
+    },
+    {
       "seed": "navigator",
       "query": "danish navigator",
       "rise_value": 11100.0,
@@ -485,6 +674,24 @@
       "raw_value": 10200
     },
     {
+      "seed": "dashboard",
+      "query": "iec dashboard 2026",
+      "rise_value": 10200.0,
+      "raw_value": 10200
+    },
+    {
+      "seed": "checker",
+      "query": "domain age checker regalseo",
+      "rise_value": 9500.0,
+      "raw_value": 9500
+    },
+    {
+      "seed": "recorder",
+      "query": "championing crossword clue",
+      "rise_value": 9400.0,
+      "raw_value": 9400
+    },
+    {
       "seed": "analyzer",
       "query": "graphology analyzer",
       "rise_value": 9350.0,
@@ -495,6 +702,12 @@
       "query": "fun sponge",
       "rise_value": 9300.0,
       "raw_value": 9300
+    },
+    {
+      "seed": "recorder",
+      "query": "immature crossword clue",
+      "rise_value": 8850.0,
+      "raw_value": 8850
     },
     {
       "seed": "navigator",
@@ -563,16 +776,40 @@
       "raw_value": 7350
     },
     {
+      "seed": "recorder",
+      "query": "charity crossword clue",
+      "rise_value": 7200.0,
+      "raw_value": 7200
+    },
+    {
       "seed": "instagram",
       "query": "beckett sennecke instagram story",
       "rise_value": 7150.0,
       "raw_value": 7150
     },
     {
+      "seed": "sample",
+      "query": "a new ore sample wow forever",
+      "rise_value": 6950.0,
+      "raw_value": 6950
+    },
+    {
       "seed": "processor",
       "query": "samsung s27 ultra processor leaks",
       "rise_value": 6900.0,
       "raw_value": 6900
+    },
+    {
+      "seed": "explorer",
+      "query": "protocol explorer vercel",
+      "rise_value": 6600.0,
+      "raw_value": 6600
+    },
+    {
+      "seed": "dashboard",
+      "query": "dashboard confessional unplugged tour",
+      "rise_value": 6500.0,
+      "raw_value": 6500
     },
     {
       "seed": "game",
@@ -585,6 +822,18 @@
       "query": "dressmaker steam indie game success",
       "rise_value": 6200.0,
       "raw_value": 6200
+    },
+    {
+      "seed": "uploader",
+      "query": "skindex",
+      "rise_value": 6150.0,
+      "raw_value": 6150
+    },
+    {
+      "seed": "scheme",
+      "query": "vetri laptop scheme tamil nadu",
+      "rise_value": 6000.0,
+      "raw_value": 6000
     },
     {
       "seed": "composer",
@@ -605,14 +854,38 @@
       "raw_value": 5950
     },
     {
+      "seed": "sample",
+      "query": "a new ore sample",
+      "rise_value": 5750.0,
+      "raw_value": 5750
+    },
+    {
       "seed": "steam",
       "query": "steam free games november 4",
       "rise_value": 5650.0,
       "raw_value": 5650
     },
     {
+      "seed": "sample",
+      "query": "unrefined ore sample",
+      "rise_value": 5650.0,
+      "raw_value": 5650
+    },
+    {
+      "seed": "scheme",
+      "query": "hdfc bank capital gains accounts scheme",
+      "rise_value": 5300.0,
+      "raw_value": 5300
+    },
+    {
       "seed": "game",
       "query": "gamma ray",
+      "rise_value": 5250.0,
+      "raw_value": 5250
+    },
+    {
+      "seed": "dashboard",
+      "query": "iec election dashboard",
       "rise_value": 5250.0,
       "raw_value": 5250
     },
@@ -641,16 +914,40 @@
       "raw_value": 4600
     },
     {
+      "seed": "sample",
+      "query": "blackwood fruit sample",
+      "rise_value": 4550.0,
+      "raw_value": 4550
+    },
+    {
+      "seed": "checker",
+      "query": "domain expiry checker regalseo",
+      "rise_value": 4500.0,
+      "raw_value": 4500
+    },
+    {
       "seed": "composer",
       "query": "dragon ball composer",
       "rise_value": 4500.0,
       "raw_value": 4500
     },
     {
+      "seed": "uploader",
+      "query": "gif uploader for discord",
+      "rise_value": 4450.0,
+      "raw_value": 4450
+    },
+    {
       "seed": "ai",
       "query": "whatsapp beta meta ai update features",
       "rise_value": 4350.0,
       "raw_value": 4350
+    },
+    {
+      "seed": "recorder",
+      "query": "naf cockpit voice recorder found ondo",
+      "rise_value": 4300.0,
+      "raw_value": 4300
     },
     {
       "seed": "game",
@@ -660,6 +957,18 @@
       "also_from_seeds": [
         "card"
       ]
+    },
+    {
+      "seed": "checker",
+      "query": "backlink checker regalseo",
+      "rise_value": 4200.0,
+      "raw_value": 4200
+    },
+    {
+      "seed": "explorer",
+      "query": "protocol explorer alpha vercel",
+      "rise_value": 4200.0,
+      "raw_value": 4200
     },
     {
       "seed": "roblox",
@@ -692,14 +1001,38 @@
       "raw_value": 3650
     },
     {
+      "seed": "sample",
+      "query": "sample snapjaw shell",
+      "rise_value": 3600.0,
+      "raw_value": 3600
+    },
+    {
       "seed": "card",
       "query": "ibps rrb po prelims admit card download",
       "rise_value": 3400.0,
       "raw_value": 3400
     },
     {
+      "seed": "explorer",
+      "query": "protocol explorer alpha vercel app",
+      "rise_value": 3350.0,
+      "raw_value": 3350
+    },
+    {
+      "seed": "sample",
+      "query": "unrefined ore sample wow forever",
+      "rise_value": 3350.0,
+      "raw_value": 3350
+    },
+    {
       "seed": "symbol",
       "query": "key of life symbol",
+      "rise_value": 3250.0,
+      "raw_value": 3250
+    },
+    {
+      "seed": "explorer",
+      "query": "protocol explorer alpha",
       "rise_value": 3250.0,
       "raw_value": 3250
     },
@@ -716,6 +1049,36 @@
       "raw_value": 3200
     },
     {
+      "seed": "format",
+      "query": "interval exercise format crossword clue",
+      "rise_value": 3150.0,
+      "raw_value": 3150
+    },
+    {
+      "seed": "recorder",
+      "query": "earthquake recorder",
+      "rise_value": 2950.0,
+      "raw_value": 2950
+    },
+    {
+      "seed": "tracker",
+      "query": "zelda switch 2 restock tracker",
+      "rise_value": 2950.0,
+      "raw_value": 2950
+    },
+    {
+      "seed": "format",
+      "query": "interval exercise format crossword",
+      "rise_value": 2800.0,
+      "raw_value": 2800
+    },
+    {
+      "seed": "manager",
+      "query": "brian benson balla manager",
+      "rise_value": 2700.0,
+      "raw_value": 2700
+    },
+    {
       "seed": "image",
       "query": "goverdhan image",
       "rise_value": 2700.0,
@@ -724,6 +1087,12 @@
     {
       "seed": "image",
       "query": "gpt image 2.6",
+      "rise_value": 2700.0,
+      "raw_value": 2700
+    },
+    {
+      "seed": "explorer",
+      "query": "protocol explorer",
       "rise_value": 2700.0,
       "raw_value": 2700
     },
@@ -746,10 +1115,34 @@
       "raw_value": 2500
     },
     {
+      "seed": "template",
+      "query": "capcut template diwali",
+      "rise_value": 2200.0,
+      "raw_value": 2200
+    },
+    {
       "seed": "sender",
       "query": "trabzonspor freiburg welcher sender",
       "rise_value": 2150.0,
       "raw_value": 2150
+    },
+    {
+      "seed": "recorder",
+      "query": "inscribed tablet crossword",
+      "rise_value": 2050.0,
+      "raw_value": 2050
+    },
+    {
+      "seed": "checker",
+      "query": "meta tag checker regalseo",
+      "rise_value": 2050.0,
+      "raw_value": 2050
+    },
+    {
+      "seed": "manager",
+      "query": "pochettino",
+      "rise_value": 2000.0,
+      "raw_value": 2000
     },
     {
       "seed": "receiver",
@@ -764,10 +1157,31 @@
       "raw_value": 1850
     },
     {
+      "seed": "pattern",
+      "query": "ocarina of time treasure chest game pattern",
+      "rise_value": 1850.0,
+      "raw_value": 1850
+    },
+    {
+      "seed": "tracker",
+      "query": "nfl trade deadline",
+      "rise_value": 1800.0,
+      "raw_value": 1800,
+      "also_from_seeds": [
+        "analyzer"
+      ]
+    },
+    {
       "seed": "example",
       "query": "sand dollar for example crossword",
       "rise_value": 1750.0,
       "raw_value": 1750
+    },
+    {
+      "seed": "tracker",
+      "query": "nfl trade deadline tracker",
+      "rise_value": 1700.0,
+      "raw_value": 1700
     },
     {
       "seed": "extractor",
@@ -794,6 +1208,12 @@
       "raw_value": 1450
     },
     {
+      "seed": "tracker",
+      "query": "fortnite chest tracker",
+      "rise_value": 1350.0,
+      "raw_value": 1350
+    },
+    {
       "seed": "simulator",
       "query": "nfl offseason simulator",
       "rise_value": 1350.0,
@@ -818,6 +1238,12 @@
       "raw_value": 1200
     },
     {
+      "seed": "builder",
+      "query": "is bob the builder stop motion",
+      "rise_value": 1150.0,
+      "raw_value": 1150
+    },
+    {
       "seed": "composer",
       "query": "marty o'donnell",
       "rise_value": 1150.0,
@@ -826,6 +1252,12 @@
     {
       "seed": "flux",
       "query": "back to the future flux cut",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
+      "seed": "tracker",
+      "query": "nfl trade tracker",
       "rise_value": 1050.0,
       "raw_value": 1050
     },
@@ -842,8 +1274,20 @@
       "raw_value": 1000
     },
     {
+      "seed": "format",
+      "query": "texting format for short",
+      "rise_value": 1000.0,
+      "raw_value": 1000
+    },
+    {
       "seed": "flux",
       "query": "back to the future the flux cut",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "builder",
+      "query": "deadlock item builder",
       "rise_value": 950.0,
       "raw_value": 950
     },
@@ -866,6 +1310,18 @@
       "raw_value": 900
     },
     {
+      "seed": "tracker",
+      "query": "chest tracker",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "dashboard",
+      "query": "dashboard confessional tour",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
       "seed": "sender",
       "query": "emergent.sh",
       "rise_value": 800.0,
@@ -878,8 +1334,32 @@
       "raw_value": 800
     },
     {
+      "seed": "pattern",
+      "query": "sound pattern crossword clue",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "tracker",
+      "query": "nfl trades",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "format",
+      "query": "24 team playoff format",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
       "seed": "generator",
       "query": "nord password generator",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
+      "seed": "explorer",
+      "query": "protocol explorer luggage",
       "rise_value": 700.0,
       "raw_value": 700
     },
@@ -908,8 +1388,20 @@
       "raw_value": 600
     },
     {
+      "seed": "sample",
+      "query": "givenchy sample sale",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
       "seed": "composer",
       "query": "halo composer",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "explorer",
+      "query": "the protocol explorer",
       "rise_value": 600.0,
       "raw_value": 600
     },
@@ -920,10 +1412,40 @@
       "raw_value": 600
     },
     {
+      "seed": "scheme",
+      "query": "agniveer scheme",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "scraper",
+      "query": "proxy scraper premium",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
       "seed": "tea",
       "query": "tea with mussolini",
       "rise_value": 550.0,
       "raw_value": 550
+    },
+    {
+      "seed": "template",
+      "query": "disguise a turkey template",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "template",
+      "query": "diwali template",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "scheme",
+      "query": "pm youth loan scheme 2026",
+      "rise_value": 500.0,
+      "raw_value": 500
     },
     {
       "seed": "steam",
@@ -952,6 +1474,12 @@
     {
       "seed": "connector",
       "query": "connector for string light",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "template",
+      "query": "disguise a turkey",
       "rise_value": 450.0,
       "raw_value": 450
     },
@@ -992,6 +1520,12 @@
       "raw_value": 450
     },
     {
+      "seed": "sample",
+      "query": "prenatal sample sale",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
       "seed": "receiver",
       "query": "week 9 wide receiver rankings",
       "rise_value": 450.0,
@@ -1012,6 +1546,12 @@
     {
       "seed": "evaluator",
       "query": "dbt project evaluator",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "tracker",
+      "query": "is tracker on tonight",
       "rise_value": 400.0,
       "raw_value": 400
     },
@@ -1046,10 +1586,28 @@
       "raw_value": 400
     },
     {
+      "seed": "planner",
+      "query": "planner 5d login",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "template",
+      "query": "turkey disguise template",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
       "seed": "assistant",
       "query": "video assistant referee",
       "rise_value": 400.0,
       "raw_value": 400
+    },
+    {
+      "seed": "scheme",
+      "query": "agnipath scheme",
+      "rise_value": 350.0,
+      "raw_value": 350
     },
     {
       "seed": "monitor",
@@ -1094,14 +1652,32 @@
       "raw_value": 350
     },
     {
+      "seed": "builder",
+      "query": "aggie schedule builder",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
       "seed": "receiver",
       "query": "are the chiefs going to trade for a wide receiver",
       "rise_value": 300.0,
       "raw_value": 300
     },
     {
+      "seed": "explorer",
+      "query": "casio cmk 100 rolex explorer alternative",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
       "seed": "figma",
       "query": "figma hello kitty",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "uploader",
+      "query": "getuploader",
       "rise_value": 300.0,
       "raw_value": 300
     },
@@ -1118,8 +1694,20 @@
       "raw_value": 300
     },
     {
+      "seed": "scheme",
+      "query": "pm youth loan scheme",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
       "seed": "analyzer",
       "query": "reels analyzer",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "sample",
+      "query": "sephora mens cologne sample set",
       "rise_value": 300.0,
       "raw_value": 300
     },
@@ -1154,14 +1742,38 @@
       "raw_value": 250
     },
     {
+      "seed": "planner",
+      "query": "ardupilot mission planner",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
       "seed": "receiver",
       "query": "arizona cardinals wide receiver depth chart",
       "rise_value": 250.0,
       "raw_value": 250
     },
     {
+      "seed": "manager",
+      "query": "crystal palace manager",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
       "seed": "designer",
       "query": "dia do designer",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "manager",
+      "query": "football manager 2027 mobile",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "manager",
+      "query": "football manager 27 mobile",
       "rise_value": 250.0,
       "raw_value": 250
     },
@@ -1178,13 +1790,28 @@
       "raw_value": 250
     },
     {
-      "seed": "receiver",
-      "query": "nfl trade deadline",
+      "seed": "recorder",
+      "query": "learjet voice recorder",
       "rise_value": 250.0,
-      "raw_value": 250,
-      "also_from_seeds": [
-        "analyzer"
-      ]
+      "raw_value": 250
+    },
+    {
+      "seed": "manager",
+      "query": "next man utd manager odds",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "scheme",
+      "query": "prime minister youth loan scheme 2026 online apply",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "scraper",
+      "query": "proxy scraper japanese video",
+      "rise_value": 250.0,
+      "raw_value": 250
     },
     {
       "seed": "receiver",
@@ -1193,8 +1820,20 @@
       "raw_value": 250
     },
     {
+      "seed": "pattern",
+      "query": "saggy boob scarf crochet pattern",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
       "seed": "connector",
       "query": "string light connector",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "template",
+      "query": "turkey body template",
       "rise_value": 250.0,
       "raw_value": 250
     },
@@ -1211,6 +1850,12 @@
       "raw_value": 250
     },
     {
+      "seed": "scheme",
+      "query": "youth loan scheme",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
       "seed": "card",
       "query": "delta reign card list",
       "rise_value": 200.0,
@@ -1223,14 +1868,62 @@
       "raw_value": 200
     },
     {
+      "seed": "planner",
+      "query": "education planner bc",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "uploader",
+      "query": "fotosoft image uploader",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
       "seed": "composer",
       "query": "mark bradshaw composer",
       "rise_value": 200.0,
       "raw_value": 200
     },
     {
+      "seed": "manager",
+      "query": "nordpass password manager",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "scheme",
+      "query": "prime minister youth loan scheme",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "uploader",
+      "query": "speed uploader for google drive",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "template",
+      "query": "turkey template",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "recorder",
+      "query": "cockpit voice recorder",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
       "seed": "simulator",
       "query": "criminal simulator codes",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "scheme",
+      "query": "e bike scheme balloting result 2026",
       "rise_value": 190.0,
       "raw_value": 190
     },
@@ -1247,8 +1940,26 @@
       "raw_value": 190
     },
     {
+      "seed": "scheme",
+      "query": "prime minister loan scheme 2026",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "pattern",
+      "query": "rangoli pattern",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
       "seed": "scheduler",
       "query": "telehealth scheduler jobs",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "dashboard",
+      "query": "unlock ff beta dashboard apk",
       "rise_value": 190.0,
       "raw_value": 190
     },
@@ -1271,16 +1982,46 @@
       "raw_value": 180
     },
     {
+      "seed": "scheme",
+      "query": "national family benefit scheme",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "template",
+      "query": "poppy template",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "explorer",
+      "query": "salesforce administrator explorer",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
       "seed": "cocrea",
       "query": "sprunki comic studio",
       "rise_value": 180.0,
       "raw_value": 180
     },
     {
+      "seed": "scraper",
+      "query": "chatgpt scraper api",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
       "seed": "extractor",
       "query": "spunky email extractor",
       "rise_value": 170.0,
       "raw_value": 170
+    },
+    {
+      "seed": "planner",
+      "query": "course schedule planner rutgers",
+      "rise_value": 160.0,
+      "raw_value": 160
     },
     {
       "seed": "navigator",
@@ -1295,8 +2036,26 @@
       "raw_value": 160
     },
     {
+      "seed": "scraper",
+      "query": "proxy scraper duck duckduckgo",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
       "seed": "roblox",
       "query": "roblox is unbreakable codes",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "sample",
+      "query": "samsoe samsoe sample sale",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "template",
+      "query": "santa letter template",
       "rise_value": 160.0,
       "raw_value": 160
     },
@@ -1331,6 +2090,12 @@
       "raw_value": 150
     },
     {
+      "seed": "optimizer",
+      "query": "radiant optimizer x",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
       "seed": "game",
       "query": "saints game",
       "rise_value": 150.0,
@@ -1349,6 +2114,12 @@
       "raw_value": 140
     },
     {
+      "seed": "tracker",
+      "query": "medical tracker login",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
       "seed": "receiver",
       "query": "miami receiver",
       "rise_value": 140.0,
@@ -1357,6 +2128,18 @@
     {
       "seed": "game",
       "query": "michigan game",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "planner",
+      "query": "mission planner",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "optimizer",
+      "query": "vel.gg/bo1z",
       "rise_value": 140.0,
       "raw_value": 140
     },
@@ -1385,6 +2168,24 @@
       "raw_value": 130
     },
     {
+      "seed": "planner",
+      "query": "mission planner download",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "planner",
+      "query": "myeducation planner",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "optimizer",
+      "query": "radiant optimizer twitter",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
       "seed": "cocrea",
       "query": "sprunki peppers take",
       "rise_value": 130.0,
@@ -1399,6 +2200,24 @@
     {
       "seed": "scheduler",
       "query": "aus scheduler",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "planner",
+      "query": "course schedule planner",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "dashboard",
+      "query": "dashboard confessional",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "checker",
+      "query": "dmarc checker",
       "rise_value": 120.0,
       "raw_value": 120
     },
@@ -1433,6 +2252,12 @@
       "raw_value": 120
     },
     {
+      "seed": "checker",
+      "query": "spf checker",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
       "seed": "cocrea",
       "query": "sprunki phase 8 remastered",
       "rise_value": 120.0,
@@ -1457,8 +2282,32 @@
       "raw_value": 110
     },
     {
+      "seed": "dashboard",
+      "query": "election dashboard",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "tracker",
+      "query": "fortnite",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
       "seed": "steam",
       "query": "gta 6 steam",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "explorer",
+      "query": "hypernet explorer",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "interpreter",
+      "query": "interpreter intelligence login",
       "rise_value": 110.0,
       "raw_value": 110
     },
@@ -1489,6 +2338,12 @@
     {
       "seed": "verifier",
       "query": "verifier mon inscription electorale",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "uploader",
+      "query": "youtube video downloader",
       "rise_value": 110.0,
       "raw_value": 110
     },
@@ -1535,8 +2390,20 @@
       "raw_value": 100
     },
     {
+      "seed": "manager",
+      "query": "michael carrick man utd manager",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
       "seed": "processor",
       "query": "ninja prepi",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "optimizer",
+      "query": "octane optimizer",
       "rise_value": 100.0,
       "raw_value": 100
     },
@@ -1553,6 +2420,12 @@
       "raw_value": 100
     },
     {
+      "seed": "template",
+      "query": "turkey feather template",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
       "seed": "creator",
       "query": "walmart creator program",
       "rise_value": 100.0,
@@ -1563,6 +2436,12 @@
       "query": "what color is democrats",
       "rise_value": 100.0,
       "raw_value": 100
+    },
+    {
+      "seed": "optimizer",
+      "query": "adobe journey optimizer",
+      "rise_value": 90.0,
+      "raw_value": 90
     },
     {
       "seed": "simulator",
@@ -1583,14 +2462,26 @@
       "raw_value": 90
     },
     {
-      "seed": "navigator",
-      "query": "course schedule planner",
+      "seed": "evaluator",
+      "query": "dynasty trade evaluator",
       "rise_value": 90.0,
       "raw_value": 90
     },
     {
-      "seed": "evaluator",
-      "query": "dynasty trade evaluator",
+      "seed": "uploader",
+      "query": "ff logs uploader",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "tracker",
+      "query": "fortnite gg",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "tracker",
+      "query": "fortnite tracker",
       "rise_value": 90.0,
       "raw_value": 90
     },
@@ -1615,6 +2506,12 @@
     {
       "seed": "download",
       "query": "life certificate download",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "manager",
+      "query": "man utd manager",
       "rise_value": 90.0,
       "raw_value": 90
     },
@@ -1655,10 +2552,22 @@
       "raw_value": 90
     },
     {
+      "seed": "tracker",
+      "query": "tracker episodes",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
       "seed": "syncer",
       "query": "tradingview",
       "rise_value": 90.0,
       "raw_value": 90
+    },
+    {
+      "seed": "manager",
+      "query": "best password manager",
+      "rise_value": 80.0,
+      "raw_value": 80
     },
     {
       "seed": "navigator",
@@ -1685,8 +2594,26 @@
       "raw_value": 80
     },
     {
+      "seed": "tracker",
+      "query": "fornite tracker",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "uploader",
+      "query": "glooko",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "receiver",
       "query": "josh downs",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "optimizer",
+      "query": "kingshot optimizer tool",
       "rise_value": 80.0,
       "raw_value": 80
     },
@@ -1727,8 +2654,20 @@
       "raw_value": 80
     },
     {
+      "seed": "builder",
+      "query": "ttu schedule builder",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "assistant",
       "query": "uphesc assistant professor",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "uploader",
+      "query": "video uploader for discord",
       "rise_value": 80.0,
       "raw_value": 80
     },
@@ -1745,8 +2684,26 @@
       "raw_value": 70
     },
     {
+      "seed": "pattern",
+      "query": "antique pattern library",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "template",
+      "query": "christmas list template",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "evaluator",
       "query": "coyle hospitality evaluator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "sample",
+      "query": "eclipse sample sale",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -1763,8 +2720,26 @@
       "raw_value": 70
     },
     {
+      "seed": "recorder",
+      "query": "flight recorder",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "uploader",
+      "query": "glooko uploader",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "assistant",
       "query": "home assistant 2026.11",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "builder",
+      "query": "hostinger ai builder",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -1781,8 +2756,26 @@
       "raw_value": 70
     },
     {
+      "seed": "manager",
+      "query": "manager of the year mlb",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "download",
       "query": "movie box download app",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "sample",
+      "query": "sample lover",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "uploader",
+      "query": "screenshot uploader",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -1805,6 +2798,12 @@
       "raw_value": 60
     },
     {
+      "seed": "sample",
+      "query": "authorization letter sample",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "slope game",
       "query": "basketball stars",
       "rise_value": 60.0,
@@ -1823,8 +2822,62 @@
       "raw_value": 60
     },
     {
+      "seed": "interpreter",
+      "query": "brainfuck interpreter",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "fonts",
       "query": "christmas fonts",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "pattern",
+      "query": "christmas pattern",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "pattern",
+      "query": "christmas stocking pattern",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "interpreter",
+      "query": "court interpreter salary",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "pattern",
+      "query": "crochet poppy pattern",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "pattern",
+      "query": "crochet snowflake pattern",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "pattern",
+      "query": "data pattern share",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "interpreter",
+      "query": "dream interpreter ai",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "uploader",
+      "query": "fflogs uploader",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -1835,8 +2888,26 @@
       "raw_value": 60
     },
     {
+      "seed": "builder",
+      "query": "hostinger",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "comparator",
       "query": "how does a redstone comparator work",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "interpreter",
+      "query": "interpreter แปล ว่า",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "interpreter",
+      "query": "martti interpreter",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -1883,6 +2954,12 @@
       "raw_value": 60
     },
     {
+      "seed": "pattern",
+      "query": "stocking pattern",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "color",
       "query": "ultima hora",
       "rise_value": 60.0,
@@ -1919,6 +2996,18 @@
       "raw_value": 60
     },
     {
+      "seed": "format",
+      "query": "youtube video download online mp4 format",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "sample",
+      "query": "acknowledgement receipt sample",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "verifier",
       "query": "android developer verifier adalah",
       "rise_value": 50.0,
@@ -1927,6 +3016,12 @@
     {
       "seed": "instagram",
       "query": "anonyig.com instagram",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "sample",
+      "query": "asos sample sale",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -1951,6 +3046,12 @@
     {
       "seed": "maker",
       "query": "christmas list maker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "uploader",
+      "query": "clip uploader",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -2027,6 +3128,18 @@
       "raw_value": 50
     },
     {
+      "seed": "interpreter",
+      "query": "lionbridge interpreter",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "optimizer",
+      "query": "mace optimizer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "designer",
       "query": "max alexander designer",
       "rise_value": 50.0,
@@ -2039,8 +3152,20 @@
       "raw_value": 50
     },
     {
+      "seed": "manager",
+      "query": "mlb manager of the year 2026",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "slope game",
       "query": "neal fun",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "manager",
+      "query": "night manager",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -2059,6 +3184,12 @@
     {
       "seed": "analyzer",
       "query": "privacy.net analyzer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "optimizer",
+      "query": "radian optimizer",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -2111,6 +3242,12 @@
       "raw_value": 50
     },
     {
+      "seed": "template",
+      "query": "vn template code",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "verifier",
       "query": "winner",
       "rise_value": 50.0,
@@ -2131,6 +3268,12 @@
     {
       "seed": "slope game",
       "query": "2048",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "planner",
+      "query": "3d room planner ai",
       "rise_value": 40.0,
       "raw_value": 40
     },
@@ -2159,6 +3302,30 @@
       "raw_value": 40
     },
     {
+      "seed": "detector",
+      "query": "detector de ia gratis y confiable",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "checker",
+      "query": "domain age checker",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "uploader",
+      "query": "easy uploader",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "builder",
+      "query": "exam builder",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "constructor",
       "query": "gel constructor de uñas",
       "rise_value": 40.0,
@@ -2173,6 +3340,30 @@
     {
       "seed": "slope game",
       "query": "geoguessr",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "interpreter",
+      "query": "interpreter of maladies pdf",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "planner",
+      "query": "meri ₹80,000 salary hai. rent, kharche aur investments ka ek budget planner bana do",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "optimizer",
+      "query": "neuro optimizer",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "builder",
+      "query": "nhl hut builder",
       "rise_value": 40.0,
       "raw_value": 40
     },
@@ -2207,6 +3398,12 @@
       "raw_value": 40
     },
     {
+      "seed": "dashboard",
+      "query": "sandisk dashboard",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "creator",
       "query": "shein creator center",
       "rise_value": 40.0,
@@ -2219,14 +3416,32 @@
       "raw_value": 40
     },
     {
+      "seed": "interpreter",
+      "query": "tis interpreter",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "evaluator",
       "query": "top tourist attractions in paris",
       "rise_value": 40.0,
       "raw_value": 40
     },
     {
+      "seed": "builder",
+      "query": "uc davis schedule builder",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "assistant",
       "query": "up assistant professor",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "template",
+      "query": "vn template",
       "rise_value": 40.0,
       "raw_value": 40
     },
@@ -2243,13 +3458,13 @@
       "raw_value": 40
     }
   ],
-  "discovery_count": 318,
-  "updated_at": "2026-11-10T23:30:12.889436+00:00",
-  "scanned_seed_count": 55,
-  "batch_count": 11,
-  "attempted_seed_count": 60,
+  "discovery_count": 503,
+  "updated_at": "2026-11-11T09:20:50.379362+00:00",
+  "scanned_seed_count": 74,
+  "batch_count": 15,
+  "attempted_seed_count": 74,
   "complete_20_seeds": true,
-  "complete_daily_target": false,
-  "completion_pct": 74.3,
-  "failed_seed_count": 5
+  "complete_daily_target": true,
+  "completion_pct": 100.0,
+  "failed_seed_count": 0
 }
