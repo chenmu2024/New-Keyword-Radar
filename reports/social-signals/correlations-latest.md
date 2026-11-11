@@ -1,13 +1,13 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-11T00:02:06.569687+00:00
-- Source last updated: 2026-11-11T00:02:06.569687+00:00
-- Trends archive: 2026-11-11 (55/74; complete=False)
-- Eligible multiword rising queries: 271
+- Generated: 2026-11-11T10:53:55.580566+00:00
+- Source last updated: 2026-11-11T10:53:55.580566+00:00
+- Trends archive: 2026-11-11 (74/74; complete=True)
+- Eligible multiword rising queries: 448
 - Cross-source matches within 72h review window: 1
-- Social current-run links: 64, prior recent sightings: 219
+- Social current-run links: 51, prior recent sightings: 233
 - Search archives examined: 2026-11-11, 2026-11-10, 2026-11-09
-- Direct-post question-derived QUERY HYPOTHESES: 1
+- Direct-post question-derived QUERY HYPOTHESES: 2
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
@@ -20,6 +20,9 @@
 
 ## Original public-post question hints (NOT validated search keywords)
 
+- Proposed query: **ai style image that doesnt use absurd amounts of energy and**
+  - Original public post: https://bsky.app/profile/averycutedog.bsky.social/post/3mzxwd7gt2k2n
+  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **to learn but more i d like to forget i thought**
   - Original public post: https://bsky.app/profile/altheoua.bsky.social/post/3mzyhj4zqnk2j
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
