@@ -7,6 +7,78 @@
   "groups": {
     "games": [
       {
+        "query": "stealth shooter",
+        "independent_websites": 3,
+        "date_span_days": 2,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 3,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/stealth-shooter/",
+            "first_seen": "2026-11-10",
+            "observed_query": "stealth shooter",
+            "source_category": "games"
+          },
+          {
+            "source_id": "minijuegos-es",
+            "website": "minijuegos.com",
+            "url": "https://www.minijuegos.com/juego/stealth-shooter",
+            "first_seen": "2026-11-11",
+            "observed_query": "stealth shooter",
+            "source_category": "games"
+          },
+          {
+            "source_id": "1001games-en",
+            "website": "1001games.com",
+            "url": "https://www.1001games.com/arcade/stealth-shooter",
+            "first_seen": "2026-11-12",
+            "observed_query": "stealth shooter",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "garden tales 5",
+        "independent_websites": 3,
+        "date_span_days": 3,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/garden-tales-5/",
+            "first_seen": "2026-11-09",
+            "observed_query": "garden tales 5",
+            "source_category": "games"
+          },
+          {
+            "source_id": "bgames-en",
+            "website": "bgames.com",
+            "url": "https://www.bgames.com/game/garden-tales-5/",
+            "first_seen": "2026-11-11",
+            "observed_query": "garden tales 5",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/garden-tales-5",
+            "first_seen": "2026-11-12",
+            "observed_query": "garden tales 5",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "obby world squid escape",
         "independent_websites": 3,
         "date_span_days": 5,
@@ -38,6 +110,42 @@
             "url": "https://www.minijuegos.com/juego/obby-world-squid-escape",
             "first_seen": "2026-11-11",
             "observed_query": "obby world squid escape",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "fashion world tour",
+        "independent_websites": 3,
+        "date_span_days": 6,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/fashion_world_tour",
+            "first_seen": "2026-11-06",
+            "observed_query": "fashion world tour",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/fashion-world-tour/",
+            "first_seen": "2026-11-12",
+            "observed_query": "fashion world tour",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/fashion-world-tour",
+            "first_seen": "2026-11-12",
+            "observed_query": "fashion world tour",
             "source_category": "games"
           }
         ]
@@ -117,9 +225,9 @@
             "source_category": "games"
           },
           {
-            "source_id": "crazygames-br",
+            "source_id": "crazygames-en",
             "website": "crazygames.com",
-            "url": "https://www.crazygames.com/br/game/jelly-run-2048",
+            "url": "https://www.crazygames.com/game/jelly-run-2048",
             "first_seen": "2026-11-11",
             "observed_query": "jelly run 2048",
             "source_category": "games"
@@ -379,6 +487,62 @@
         ]
       },
       {
+        "query": "cozy cafe",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/cozy-cafe",
+            "first_seen": "2026-11-11",
+            "observed_query": "cozy cafe",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/cozy_cafe",
+            "first_seen": "2026-11-12",
+            "observed_query": "cozy cafe",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "fillwords word search",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/fillwords%3A-word-search/",
+            "first_seen": "2026-11-11",
+            "observed_query": "fillwords: word search",
+            "source_category": "games"
+          },
+          {
+            "source_id": "1001games-en",
+            "website": "1001games.com",
+            "url": "https://www.1001games.com/puzzle/fillwords-word-search",
+            "first_seen": "2026-11-12",
+            "observed_query": "fillwords word search",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "glowball",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -463,34 +627,6 @@
         ]
       },
       {
-        "query": "stealth shooter",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/stealth-shooter/",
-            "first_seen": "2026-11-10",
-            "observed_query": "stealth shooter",
-            "source_category": "games"
-          },
-          {
-            "source_id": "minijuegos-es",
-            "website": "minijuegos.com",
-            "url": "https://www.minijuegos.com/juego/stealth-shooter",
-            "first_seen": "2026-11-11",
-            "observed_query": "stealth shooter",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "brick breaker worlds",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -514,34 +650,6 @@
             "url": "https://www.gamepix.com/pt/play/brick-breaker-worlds",
             "first_seen": "2026-11-09",
             "observed_query": "brick breaker worlds",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "garden tales 5",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/garden-tales-5/",
-            "first_seen": "2026-11-09",
-            "observed_query": "garden tales 5",
-            "source_category": "games"
-          },
-          {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/garden-tales-5/",
-            "first_seen": "2026-11-11",
-            "observed_query": "garden tales 5",
             "source_category": "games"
           }
         ]
@@ -715,6 +823,34 @@
         ]
       },
       {
+        "query": "frozen lake ice fishing empire",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/frozen-lake-ice-fishing-empire/",
+            "first_seen": "2026-11-08",
+            "observed_query": "frozen lake ice fishing empire",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/frozen-lake-ice-fishing-empire",
+            "first_seen": "2026-11-12",
+            "observed_query": "frozen lake ice fishing empire",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "fumbleby junction",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -738,6 +874,34 @@
             "url": "https://playgama.com/game/fumbleby-junction",
             "first_seen": "2026-11-11",
             "observed_query": "fumbleby junction",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "keyboard rush",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/keyboard-rush/",
+            "first_seen": "2026-11-08",
+            "observed_query": "keyboard rush",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/keyboard-rush",
+            "first_seen": "2026-11-12",
+            "observed_query": "keyboard rush",
             "source_category": "games"
           }
         ]
@@ -799,6 +963,90 @@
         ]
       },
       {
+        "query": "trap the bear",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/trap-the-bear/",
+            "first_seen": "2026-11-08",
+            "observed_query": "trap the bear",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/trap-the-bear",
+            "first_seen": "2026-11-12",
+            "observed_query": "trap the bear",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "trending aesthetic fashion wheels",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/trending-aesthetic-fashion-wheels/",
+            "first_seen": "2026-11-08",
+            "observed_query": "trending aesthetic fashion wheels",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/trending-aesthetic-fashion-wheels",
+            "first_seen": "2026-11-12",
+            "observed_query": "trending aesthetic fashion wheels",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "black friday mystery sale",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/black-friday-mystery-sale/",
+            "first_seen": "2026-11-07",
+            "observed_query": "black friday mystery sale",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/black-friday-mystery-sale",
+            "first_seen": "2026-11-12",
+            "observed_query": "black friday mystery sale",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "city gas station simulator",
         "independent_websites": 2,
         "date_span_days": 5,
@@ -822,6 +1070,34 @@
             "url": "https://www.minijuegos.com/juego/city-gas-station-simulator",
             "first_seen": "2026-11-12",
             "observed_query": "city gas station simulator",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "dino incubator",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/dino-incubator",
+            "first_seen": "2026-11-07",
+            "observed_query": "dino incubator",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/dino_incubator",
+            "first_seen": "2026-11-12",
+            "observed_query": "dino incubator",
             "source_category": "games"
           }
         ]
@@ -883,7 +1159,35 @@
         ]
       },
       {
-        "query": "fashion world tour",
+        "query": "villadash",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/villadash",
+            "first_seen": "2026-11-07",
+            "observed_query": "villadash",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/villadash",
+            "first_seen": "2026-11-12",
+            "observed_query": "villadash",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "chain pop lab",
         "independent_websites": 2,
         "date_span_days": 6,
         "priority": "watch",
@@ -893,19 +1197,75 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/fashion_world_tour",
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/chain-pop-lab",
             "first_seen": "2026-11-06",
-            "observed_query": "fashion world tour",
+            "observed_query": "chain pop lab",
             "source_category": "games"
           },
           {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/fashion-world-tour",
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/chain_pop_lab",
             "first_seen": "2026-11-12",
-            "observed_query": "fashion world tour",
+            "observed_query": "chain pop lab",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "hidden shop hunt",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/hidden-shop-hunt",
+            "first_seen": "2026-11-06",
+            "observed_query": "hidden shop hunt",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/hidden_shop_hunt",
+            "first_seen": "2026-11-12",
+            "observed_query": "hidden shop hunt",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "not the hero",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/not-the-hero/",
+            "first_seen": "2026-11-06",
+            "observed_query": "not the hero",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/not-the-hero",
+            "first_seen": "2026-11-12",
+            "observed_query": "not the hero",
             "source_category": "games"
           }
         ]
@@ -966,13 +1326,13 @@
       },
       {
         "query": "plimo",
-        "independent_websites": 7,
-        "date_span_days": 5,
+        "independent_websites": 8,
+        "date_span_days": 6,
         "priority": "high",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 2,
         "three_calendar_day_peak": 4,
-        "seven_calendar_day_total": 7,
+        "seven_calendar_day_total": 8,
         "evidence": [
           {
             "source_id": "aitoolboard-tools",
@@ -1027,6 +1387,14 @@
             "website": "aiapps.com",
             "url": "https://www.aiapps.com/items/plimo/",
             "first_seen": "2026-11-11",
+            "observed_query": "plimo",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "aiagentslist-agents",
+            "website": "aiagentslist.com",
+            "url": "https://aiagentslist.com/agents/plimo",
+            "first_seen": "2026-11-12",
             "observed_query": "plimo",
             "source_category": "ai"
           }
@@ -1628,6 +1996,34 @@
             "url": "https://www.saasworthy.com/product/weekorbit",
             "first_seen": "2026-11-06",
             "observed_query": "weekorbit",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "yogurt",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/yogurt",
+            "first_seen": "2026-11-12",
+            "observed_query": "yogurt",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/yogurt/",
+            "first_seen": "2026-11-12",
+            "observed_query": "yogurt",
             "source_category": "saas"
           }
         ]
@@ -2361,6 +2757,34 @@
         ]
       },
       {
+        "query": "alook",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/alook",
+            "first_seen": "2026-11-10",
+            "observed_query": "alook",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/alook",
+            "first_seen": "2026-11-12",
+            "observed_query": "alook",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "anime selfie",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -2921,6 +3345,34 @@
         ]
       },
       {
+        "query": "quotedpart",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/quotedpart",
+            "first_seen": "2026-11-10",
+            "observed_query": "quotedpart",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saasworthy-products",
+            "website": "saasworthy.com",
+            "url": "https://www.saasworthy.com/product/quotedpart",
+            "first_seen": "2026-11-12",
+            "observed_query": "quotedpart",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "seedance ai dev",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -3005,6 +3457,34 @@
         ]
       },
       {
+        "query": "tinty",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/tinty",
+            "first_seen": "2026-11-10",
+            "observed_query": "tinty",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/tinty",
+            "first_seen": "2026-11-12",
+            "observed_query": "tinty",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "tracex",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -3084,6 +3564,34 @@
             "url": "https://www.indieneed.com/products/virocraft-ai",
             "first_seen": "2026-11-08",
             "observed_query": "virocraft ai",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "viso now",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/viso-now",
+            "first_seen": "2026-11-10",
+            "observed_query": "viso now",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saasworthy-products",
+            "website": "saasworthy.com",
+            "url": "https://www.saasworthy.com/product/viso-now",
+            "first_seen": "2026-11-12",
+            "observed_query": "viso now",
             "source_category": "saas"
           }
         ]
@@ -4189,6 +4697,34 @@
         ]
       },
       {
+        "query": "seedance 30",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/seedance-30",
+            "first_seen": "2026-11-08",
+            "observed_query": "seedance 30",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "indietools-products",
+            "website": "indietools.app",
+            "url": "https://www.indietools.app/products/seedance-30",
+            "first_seen": "2026-11-12",
+            "observed_query": "seedance 30",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "seek ai",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -4665,6 +5201,146 @@
         ]
       },
       {
+        "query": "ai genjutsu",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/ai-genjutsu",
+            "first_seen": "2026-11-06",
+            "observed_query": "ai genjutsu",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/ai-genjutsu/",
+            "first_seen": "2026-11-12",
+            "observed_query": "ai genjutsu",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "ai rap video cc",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/ai-rap-video-cc",
+            "first_seen": "2026-11-06",
+            "observed_query": "ai rap video cc",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/ai-rap-video-cc",
+            "first_seen": "2026-11-12",
+            "observed_query": "ai rap video cc",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "ainav",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/ainav",
+            "first_seen": "2026-11-06",
+            "observed_query": "ainav",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/ainav",
+            "first_seen": "2026-11-12",
+            "observed_query": "ainav",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "audio to text",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/audio-to-text",
+            "first_seen": "2026-11-06",
+            "observed_query": "audio to text",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "apify-actors-z",
+            "website": "apify.com",
+            "url": "https://apify.com/practical_ophthalmologist_iuq/audio-to-text",
+            "first_seen": "2026-11-12",
+            "observed_query": "audio to text",
+            "source_category": "developer"
+          }
+        ]
+      },
+      {
+        "query": "backlnk",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/backlnk",
+            "first_seen": "2026-11-06",
+            "observed_query": "backlnk",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/backlnk",
+            "first_seen": "2026-11-12",
+            "observed_query": "backlnk",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "create ai tattoo",
         "independent_websites": 2,
         "date_span_days": 6,
@@ -4721,6 +5397,202 @@
         ]
       },
       {
+        "query": "get mcp ads",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/get-mcp-ads",
+            "first_seen": "2026-11-06",
+            "observed_query": "get mcp ads",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/get-mcp-ads",
+            "first_seen": "2026-11-12",
+            "observed_query": "get mcp ads",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "gta 6 cheat codes",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/gta-6-cheat-codes",
+            "first_seen": "2026-11-06",
+            "observed_query": "gta 6 cheat codes",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/gta-6-cheat-codes",
+            "first_seen": "2026-11-12",
+            "observed_query": "gta 6 cheat codes",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "hodeishield",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/hodeishield",
+            "first_seen": "2026-11-06",
+            "observed_query": "hodeishield",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/hodeishield",
+            "first_seen": "2026-11-12",
+            "observed_query": "hodeishield",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "lesson dino",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/lesson-dino",
+            "first_seen": "2026-11-06",
+            "observed_query": "lesson dino",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/lesson-dino",
+            "first_seen": "2026-11-12",
+            "observed_query": "lesson dino",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "localcmo",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/localcmo",
+            "first_seen": "2026-11-06",
+            "observed_query": "localcmo",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "saasworthy-products",
+            "website": "saasworthy.com",
+            "url": "https://www.saasworthy.com/product/localcmo",
+            "first_seen": "2026-11-12",
+            "observed_query": "localcmo",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "nautis",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/nautis",
+            "first_seen": "2026-11-06",
+            "observed_query": "nautis",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/nautis",
+            "first_seen": "2026-11-12",
+            "observed_query": "nautis",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "oneprofile",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/oneprofile",
+            "first_seen": "2026-11-06",
+            "observed_query": "oneprofile",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "saasworthy-products",
+            "website": "saasworthy.com",
+            "url": "https://www.saasworthy.com/product/oneprofile",
+            "first_seen": "2026-11-12",
+            "observed_query": "oneprofile",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "prohoster",
         "independent_websites": 2,
         "date_span_days": 6,
@@ -4744,6 +5616,146 @@
             "url": "https://fazier.com/launches/prohoster",
             "first_seen": "2026-11-12",
             "observed_query": "prohoster",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "quorum",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/quorum",
+            "first_seen": "2026-11-06",
+            "observed_query": "quorum",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/quorum",
+            "first_seen": "2026-11-12",
+            "observed_query": "quorum",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "sightradar",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/sightradar",
+            "first_seen": "2026-11-06",
+            "observed_query": "sightradar",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/sightradar",
+            "first_seen": "2026-11-12",
+            "observed_query": "sightradar",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "unitpost",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/unitpost",
+            "first_seen": "2026-11-06",
+            "observed_query": "unitpost",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/unitpost",
+            "first_seen": "2026-11-12",
+            "observed_query": "unitpost",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "vidbreak",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolboard-tools",
+            "website": "aitoolboard.com",
+            "url": "https://aitoolboard.com/tools/vidbreak",
+            "first_seen": "2026-11-06",
+            "observed_query": "vidbreak",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "saasworthy-products",
+            "website": "saasworthy.com",
+            "url": "https://www.saasworthy.com/product/vidbreak",
+            "first_seen": "2026-11-12",
+            "observed_query": "vidbreak",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "workmonitor",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/workmonitor/",
+            "first_seen": "2026-11-06",
+            "observed_query": "workmonitor",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saasworthy-products",
+            "website": "saasworthy.com",
+            "url": "https://www.saasworthy.com/product/workmonitor",
+            "first_seen": "2026-11-12",
+            "observed_query": "workmonitor",
             "source_category": "saas"
           }
         ]
@@ -4782,13 +5794,124 @@
     ]
   },
   "group_counts": {
-    "games": 32,
-    "products": 133,
+    "games": 44,
+    "products": 156,
     "tools": 0,
     "functions": 1
   },
   "by_type": {
     "games": [
+      {
+        "query": "stealth shooter",
+        "independent_websites": 3,
+        "date_span_days": 2,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 3,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/stealth-shooter/",
+            "first_seen": "2026-11-10",
+            "observed_query": "stealth shooter",
+            "source_category": "games"
+          },
+          {
+            "source_id": "minijuegos-es",
+            "website": "minijuegos.com",
+            "url": "https://www.minijuegos.com/juego/stealth-shooter",
+            "first_seen": "2026-11-11",
+            "observed_query": "stealth shooter",
+            "source_category": "games"
+          },
+          {
+            "source_id": "1001games-en",
+            "website": "1001games.com",
+            "url": "https://www.1001games.com/arcade/stealth-shooter",
+            "first_seen": "2026-11-12",
+            "observed_query": "stealth shooter",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "fashion world tour",
+        "independent_websites": 3,
+        "date_span_days": 6,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/fashion_world_tour",
+            "first_seen": "2026-11-06",
+            "observed_query": "fashion world tour",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/fashion-world-tour/",
+            "first_seen": "2026-11-12",
+            "observed_query": "fashion world tour",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/fashion-world-tour",
+            "first_seen": "2026-11-12",
+            "observed_query": "fashion world tour",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "garden tales 5",
+        "independent_websites": 3,
+        "date_span_days": 3,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/garden-tales-5/",
+            "first_seen": "2026-11-09",
+            "observed_query": "garden tales 5",
+            "source_category": "games"
+          },
+          {
+            "source_id": "bgames-en",
+            "website": "bgames.com",
+            "url": "https://www.bgames.com/game/garden-tales-5/",
+            "first_seen": "2026-11-11",
+            "observed_query": "garden tales 5",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/garden-tales-5",
+            "first_seen": "2026-11-12",
+            "observed_query": "garden tales 5",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
       {
         "query": "obby world squid escape",
         "independent_websites": 3,
@@ -4943,6 +6066,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "cozy cafe",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/cozy-cafe",
+            "first_seen": "2026-11-11",
+            "observed_query": "cozy cafe",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/cozy_cafe",
+            "first_seen": "2026-11-12",
+            "observed_query": "cozy cafe",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "dead throttle",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -4972,9 +6124,9 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "garden tales 5",
+        "query": "fillwords word search",
         "independent_websites": 2,
-        "date_span_days": 2,
+        "date_span_days": 1,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -4984,17 +6136,17 @@
           {
             "source_id": "gamedistribution-games",
             "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/garden-tales-5/",
-            "first_seen": "2026-11-09",
-            "observed_query": "garden tales 5",
+            "url": "https://gamedistribution.com/games/fillwords%3A-word-search/",
+            "first_seen": "2026-11-11",
+            "observed_query": "fillwords: word search",
             "source_category": "games"
           },
           {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/garden-tales-5/",
-            "first_seen": "2026-11-11",
-            "observed_query": "garden tales 5",
+            "source_id": "1001games-en",
+            "website": "1001games.com",
+            "url": "https://www.1001games.com/puzzle/fillwords-word-search",
+            "first_seen": "2026-11-12",
+            "observed_query": "fillwords word search",
             "source_category": "games"
           }
         ],
@@ -5048,9 +6200,9 @@
             "source_category": "games"
           },
           {
-            "source_id": "crazygames-br",
+            "source_id": "crazygames-en",
             "website": "crazygames.com",
-            "url": "https://www.crazygames.com/br/game/jelly-run-2048",
+            "url": "https://www.crazygames.com/game/jelly-run-2048",
             "first_seen": "2026-11-11",
             "observed_query": "jelly run 2048",
             "source_category": "games"
@@ -5291,35 +6443,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "stealth shooter",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/stealth-shooter/",
-            "first_seen": "2026-11-10",
-            "observed_query": "stealth shooter",
-            "source_category": "games"
-          },
-          {
-            "source_id": "minijuegos-es",
-            "website": "minijuegos.com",
-            "url": "https://www.minijuegos.com/juego/stealth-shooter",
-            "first_seen": "2026-11-11",
-            "observed_query": "stealth shooter",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "sunny acres market",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -5465,6 +6588,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "black friday mystery sale",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/black-friday-mystery-sale/",
+            "first_seen": "2026-11-07",
+            "observed_query": "black friday mystery sale",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/black-friday-mystery-sale",
+            "first_seen": "2026-11-12",
+            "observed_query": "black friday mystery sale",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "blockfront",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -5488,6 +6640,35 @@
             "url": "https://www.y8.com/games/blockfront",
             "first_seen": "2026-11-10",
             "observed_query": "blockfront",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "chain pop lab",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/chain-pop-lab",
+            "first_seen": "2026-11-06",
+            "observed_query": "chain pop lab",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/chain_pop_lab",
+            "first_seen": "2026-11-12",
+            "observed_query": "chain pop lab",
             "source_category": "games"
           }
         ],
@@ -5523,9 +6704,9 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "fashion world tour",
+        "query": "dino incubator",
         "independent_websites": 2,
-        "date_span_days": 6,
+        "date_span_days": 5,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -5533,19 +6714,48 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/fashion_world_tour",
-            "first_seen": "2026-11-06",
-            "observed_query": "fashion world tour",
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/dino-incubator",
+            "first_seen": "2026-11-07",
+            "observed_query": "dino incubator",
             "source_category": "games"
           },
           {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/fashion-world-tour",
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/dino_incubator",
             "first_seen": "2026-11-12",
-            "observed_query": "fashion world tour",
+            "observed_query": "dino incubator",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "frozen lake ice fishing empire",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/frozen-lake-ice-fishing-empire/",
+            "first_seen": "2026-11-08",
+            "observed_query": "frozen lake ice fishing empire",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/frozen-lake-ice-fishing-empire",
+            "first_seen": "2026-11-12",
+            "observed_query": "frozen lake ice fishing empire",
             "source_category": "games"
           }
         ],
@@ -5575,6 +6785,64 @@
             "url": "https://playgama.com/game/fumbleby-junction",
             "first_seen": "2026-11-11",
             "observed_query": "fumbleby junction",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "hidden shop hunt",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/hidden-shop-hunt",
+            "first_seen": "2026-11-06",
+            "observed_query": "hidden shop hunt",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/hidden_shop_hunt",
+            "first_seen": "2026-11-12",
+            "observed_query": "hidden shop hunt",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "keyboard rush",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/keyboard-rush/",
+            "first_seen": "2026-11-08",
+            "observed_query": "keyboard rush",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/keyboard-rush",
+            "first_seen": "2026-11-12",
+            "observed_query": "keyboard rush",
             "source_category": "games"
           }
         ],
@@ -5633,6 +6901,35 @@
             "url": "https://www.y8.com/games/neon_blade_runner",
             "first_seen": "2026-11-10",
             "observed_query": "neon blade runner",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "not the hero",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/not-the-hero/",
+            "first_seen": "2026-11-06",
+            "observed_query": "not the hero",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/not-the-hero",
+            "first_seen": "2026-11-12",
+            "observed_query": "not the hero",
             "source_category": "games"
           }
         ],
@@ -5720,6 +7017,93 @@
             "url": "https://www.y8.com/games/space_survivors_bug_swarm",
             "first_seen": "2026-11-11",
             "observed_query": "space survivors bug swarm",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "trap the bear",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/trap-the-bear/",
+            "first_seen": "2026-11-08",
+            "observed_query": "trap the bear",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/trap-the-bear",
+            "first_seen": "2026-11-12",
+            "observed_query": "trap the bear",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "trending aesthetic fashion wheels",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/trending-aesthetic-fashion-wheels/",
+            "first_seen": "2026-11-08",
+            "observed_query": "trending aesthetic fashion wheels",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/trending-aesthetic-fashion-wheels",
+            "first_seen": "2026-11-12",
+            "observed_query": "trending aesthetic fashion wheels",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "villadash",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-pt",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/pt/play/villadash",
+            "first_seen": "2026-11-07",
+            "observed_query": "villadash",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/villadash",
+            "first_seen": "2026-11-12",
+            "observed_query": "villadash",
             "source_category": "games"
           }
         ],
@@ -5907,6 +7291,35 @@
             "url": "https://www.uneed.best/tool/aeo-action",
             "first_seen": "2026-11-07",
             "observed_query": "aeo action",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "alook",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/alook",
+            "first_seen": "2026-11-10",
+            "observed_query": "alook",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/alook",
+            "first_seen": "2026-11-12",
+            "observed_query": "alook",
             "source_category": "saas"
           }
         ],
@@ -6290,6 +7703,35 @@
         "cross_signal_origin": "products"
       },
       {
+        "query": "quotedpart",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/quotedpart",
+            "first_seen": "2026-11-10",
+            "observed_query": "quotedpart",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saasworthy-products",
+            "website": "saasworthy.com",
+            "url": "https://www.saasworthy.com/product/quotedpart",
+            "first_seen": "2026-11-12",
+            "observed_query": "quotedpart",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "seedance ai dev",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -6342,6 +7784,93 @@
             "url": "https://fazier.com/launches/the-local-list",
             "first_seen": "2026-11-10",
             "observed_query": "the local list",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "tinty",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/tinty",
+            "first_seen": "2026-11-10",
+            "observed_query": "tinty",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/tinty",
+            "first_seen": "2026-11-12",
+            "observed_query": "tinty",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "viso now",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/viso-now",
+            "first_seen": "2026-11-10",
+            "observed_query": "viso now",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saasworthy-products",
+            "website": "saasworthy.com",
+            "url": "https://www.saasworthy.com/product/viso-now",
+            "first_seen": "2026-11-12",
+            "observed_query": "viso now",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "yogurt",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/yogurt",
+            "first_seen": "2026-11-12",
+            "observed_query": "yogurt",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/yogurt/",
+            "first_seen": "2026-11-12",
+            "observed_query": "yogurt",
             "source_category": "saas"
           }
         ],
@@ -6522,6 +8051,35 @@
         "cross_signal_origin": "products"
       },
       {
+        "query": "seedance 30",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/seedance-30",
+            "first_seen": "2026-11-08",
+            "observed_query": "seedance 30",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "indietools-products",
+            "website": "indietools.app",
+            "url": "https://www.indietools.app/products/seedance-30",
+            "first_seen": "2026-11-12",
+            "observed_query": "seedance 30",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "toklab",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -6578,18 +8136,47 @@
           }
         ],
         "cross_signal_origin": "products"
+      },
+      {
+        "query": "workmonitor",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/workmonitor/",
+            "first_seen": "2026-11-06",
+            "observed_query": "workmonitor",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "saasworthy-products",
+            "website": "saasworthy.com",
+            "url": "https://www.saasworthy.com/product/workmonitor",
+            "first_seen": "2026-11-12",
+            "observed_query": "workmonitor",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
       }
     ],
     "ai": [
       {
         "query": "plimo",
-        "independent_websites": 4,
-        "date_span_days": 5,
+        "independent_websites": 5,
+        "date_span_days": 6,
         "priority": "high",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 2,
         "three_calendar_day_peak": 3,
-        "seven_calendar_day_total": 4,
+        "seven_calendar_day_total": 5,
         "evidence": [
           {
             "source_id": "aitoolboard-tools",
@@ -6620,6 +8207,14 @@
             "website": "aiapps.com",
             "url": "https://www.aiapps.com/items/plimo/",
             "first_seen": "2026-11-11",
+            "observed_query": "plimo",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "aiagentslist-agents",
+            "website": "aiagentslist.com",
+            "url": "https://aiagentslist.com/agents/plimo",
+            "first_seen": "2026-11-12",
             "observed_query": "plimo",
             "source_category": "ai"
           }
@@ -7019,17 +8614,17 @@
     "brazil": []
   },
   "by_type_counts": {
-    "games": 32,
-    "saas": 28,
+    "games": 44,
+    "saas": 35,
     "ai": 13,
     "calculators": 0,
     "files": 0,
     "developer": 1,
     "brazil": 0
   },
-  "delta_ledger_count": 11870,
+  "delta_ledger_count": 13196,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-11-12T05:30:41.592848+08:00",
+  "generated_at": "2026-11-12T18:12:41.900277+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
@@ -7039,7 +8634,7 @@
       "baselines": 0,
       "delta_scans": 29,
       "failed": 4,
-      "new_urls": 121,
+      "new_urls": 178,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -7068,8 +8663,8 @@
       "baselines": 0,
       "delta_scans": 19,
       "failed": 1,
-      "new_urls": 67,
-      "over_scan_cap": 0,
+      "new_urls": 389,
+      "over_scan_cap": 97,
       "failed_sources": [
         {
           "source_id": "microlaunch-products",
@@ -7081,16 +8676,20 @@
       "configured_sources": 20,
       "configured_domains": 20,
       "reported": 20,
-      "successful": 19,
+      "successful": 18,
       "baselines": 0,
-      "delta_scans": 19,
-      "failed": 1,
-      "new_urls": 25,
+      "delta_scans": 18,
+      "failed": 2,
+      "new_urls": 15,
       "over_scan_cap": 0,
       "failed_sources": [
         {
           "source_id": "nextool-tools",
           "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        },
+        {
+          "source_id": "aitoolboard-tools",
+          "error": "TimeoutError: The read operation timed out"
         }
       ]
     },
@@ -7119,7 +8718,7 @@
       "baselines": 0,
       "delta_scans": 18,
       "failed": 2,
-      "new_urls": 0,
+      "new_urls": 7,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -7140,26 +8739,21 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 296,
-      "over_scan_cap": 36,
+      "new_urls": 769,
+      "over_scan_cap": 460,
       "failed_sources": []
     },
     "brazil": {
       "configured_sources": 10,
       "configured_domains": 10,
       "reported": 10,
-      "successful": 9,
+      "successful": 10,
       "baselines": 0,
-      "delta_scans": 9,
-      "failed": 1,
+      "delta_scans": 10,
+      "failed": 0,
       "new_urls": 0,
       "over_scan_cap": 0,
-      "failed_sources": [
-        {
-          "source_id": "devdata4-br",
-          "error": "HTTPError: HTTP Error 429: Too Many Requests"
-        }
-      ]
+      "failed_sources": []
     }
   }
 }
