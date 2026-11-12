@@ -1,0 +1,159 @@
+{
+  "batch_id": "2026-11-12T18:33:31.610666+00:00-35-36-37-38-39",
+  "generated_at": "2026-11-12T18:33:31.610666+00:00",
+  "local_generated_at": "2026-11-13T02:33:31.610666+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "scheduler",
+    "converter",
+    "viewer",
+    "extractor",
+    "monitor"
+  ],
+  "seed_indices": [
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "start_index": 35,
+  "discoveries": [
+    {
+      "seed": "monitor",
+      "query": "monitor k hernímu počítači",
+      "rise_value": 8750.0,
+      "raw_value": 8750
+    },
+    {
+      "seed": "scheduler",
+      "query": "ut course scheduler",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "extractor",
+      "query": "nup extractor",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "monitor",
+      "query": "aqi monitor",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "scheduler",
+      "query": "telehealth scheduler jobs",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "scheduler",
+      "query": "mymsoe",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "scheduler",
+      "query": "telehealth scheduler remote jobs",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "scheduler",
+      "query": "aus scheduler",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "scheduler",
+      "query": "labcorp appointment scheduler",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scheduler",
+      "query": "msoe scheduler",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scheduler",
+      "query": "aba scheduler",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "scheduler",
+      "query": "cornell scheduler",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scheduler",
+      "query": "exam scheduler iitk",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scheduler",
+      "query": "gator scheduler",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "how to use portable extractor fortnite",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "email extractor 1.6.1",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "rapids appointment scheduler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "extractor",
+      "query": "spunky email extractor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "remote scheduler jobs",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "course scheduler",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "scheduler",
+      "query": "free meeting scheduler",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "viewer",
+      "query": "instagram story viewer iganony",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 22
+}
