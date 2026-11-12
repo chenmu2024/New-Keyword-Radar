@@ -1,8 +1,8 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-11T18:00:38.714658+00:00
-- Historical candidates: 4992
-- Newly recorded from pending: 27
+- Updated (UTC): 2026-11-12T00:48:02.251370+00:00
+- Historical candidates: 5083
+- Newly recorded from pending: 91
 - Awaiting 7/14/30-day evidence review: 3772
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
@@ -10,30 +10,30 @@
 ## Recent tracked queries (not build recommendations)
 
 - bodycam steam [Global] — discovered — first 2026-11-12, last 2026-11-12
-- crocs first responder discount [Global] — discovered — first 2026-11-12, last 2026-11-12
 - electude simulator challenge [Global] — discovered — first 2026-11-12, last 2026-11-12
-- flux capacitor meaning [Global] — discovered — first 2026-11-12, last 2026-11-12
-- giants game [Global] — discovered — first 2026-11-12, last 2026-11-12
-- glorybound roblox codes [Global] — discovered — first 2026-11-12, last 2026-11-12
-- gum road [Global] — discovered — first 2026-11-12, last 2026-11-12
-- hmrc ai chatbot tax rules [Global] — discovered — first 2026-11-12, last 2026-11-12
-- how does a comparator work [Global] — discovered — first 2026-11-12, last 2026-11-12
-- jensen huang fake leather jacket image [Global] — discovered — first 2026-11-12, last 2026-11-12
-- luxify assistant [Global] — discovered — first 2026-11-12, last 2026-11-12
-- new balance first responder discount [Global] — discovered — first 2026-11-12, last 2026-11-12
 - nike first responder discount [Global] — discovered — first 2026-11-12, last 2026-11-12
-- north face first responder discount [Global] — discovered — first 2026-11-12, last 2026-11-12
-- period cramp simulator [Global] — discovered — first 2026-11-12, last 2026-11-12
-- pirate token simulator [Global] — discovered — first 2026-11-12, last 2026-11-12
+- jensen huang fake leather jacket image [Global] — discovered — first 2026-11-12, last 2026-11-12
 - roblox wrapped [Global] — discovered — first 2026-11-12, last 2026-11-12
 - ryobi air compressor [Global] — discovered — first 2026-11-12, last 2026-11-12
-- simulator electude [Global] — discovered — first 2026-11-12, last 2026-11-12
-- slope rider 3d [Global] — discovered — first 2026-11-12, last 2026-11-12
-- steam black friday sale [Global] — discovered — first 2026-11-12, last 2026-11-12
-- string comparator [Global] — discovered — first 2026-11-12, last 2026-11-12
+- veterans day image [Global] — discovered — first 2026-11-12, last 2026-11-12
+- gum road [Global] — discovered — first 2026-11-12, last 2026-11-12
 - t mobile first responder plans [Global] — discovered — first 2026-11-12, last 2026-11-12
-- teachable [Global] — discovered — first 2026-11-12, last 2026-11-12
+- hmrc ai chatbot tax rules [Global] — discovered — first 2026-11-12, last 2026-11-12
 - texans game [Global] — discovered — first 2026-11-12, last 2026-11-12
+- slope rider 3d [Global] — discovered — first 2026-11-12, last 2026-11-12
+- under armour first responder discount [Global] — discovered — first 2026-11-12, last 2026-11-12
+- string comparator [Global] — discovered — first 2026-11-12, last 2026-11-12
+- period cramp simulator [Global] — discovered — first 2026-11-12, last 2026-11-12
+- how does a comparator work [Global] — discovered — first 2026-11-12, last 2026-11-12
+- flux capacitor meaning [Global] — discovered — first 2026-11-12, last 2026-11-12
+- pirate token simulator [Global] — discovered — first 2026-11-12, last 2026-11-12
+- teachable [Global] — discovered — first 2026-11-12, last 2026-11-12
+- north face first responder discount [Global] — discovered — first 2026-11-12, last 2026-11-12
+- luxify assistant [Global] — discovered — first 2026-11-12, last 2026-11-12
+- giants game [Global] — discovered — first 2026-11-12, last 2026-11-12
+- crocs first responder discount [Global] — discovered — first 2026-11-12, last 2026-11-12
+- steam black friday sale [Global] — discovered — first 2026-11-12, last 2026-11-12
+- simulator electude [Global] — discovered — first 2026-11-12, last 2026-11-12
 
 ## Due for follow-up
 
