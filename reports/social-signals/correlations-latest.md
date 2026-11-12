@@ -1,19 +1,26 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-12T11:02:00.787635+00:00
-- Source last updated: 2026-11-12T11:02:00.787635+00:00
-- Trends archive: 2026-11-12 (74/74; complete=True)
-- Eligible multiword rising queries: 464
-- Cross-source matches within 72h review window: 1
-- Social current-run links: 52, prior recent sightings: 232
-- Search archives examined: 2026-11-12, 2026-11-11, 2026-11-10
+- Generated: 2026-11-12T18:53:29.145184+00:00
+- Source last updated: 2026-11-12T18:53:29.145184+00:00
+- Trends archive: 2026-11-13 (74/74; complete=True)
+- Eligible multiword rising queries: 450
+- Cross-source matches within 72h review window: 2
+- Social current-run links: 56, prior recent sightings: 235
+- Search archives examined: 2026-11-13, 2026-11-12, 2026-11-11
 - Direct-post question-derived QUERY HYPOTHESES: 2
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
+## minimax h3 image
+
+- Relative Trends rising value: 350.0 (NOT Volume)
+- Distinct matched platforms: 1
+- Direct public-post question hints: 0
+- producthunt: https://www.producthunt.com/products/minimax (direct_public_feed)
+
 ## time freeze
 
-- Relative Trends rising value: 50.0 (NOT Volume)
+- Relative Trends rising value: 130.0 (NOT Volume)
 - Distinct matched platforms: 1
 - Direct public-post question hints: 0
 - mastodon: https://mastodon.social/@talkpix/117592829682449253 (direct_public_post)

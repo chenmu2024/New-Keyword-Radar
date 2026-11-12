@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-11-12T11:02:00.787635+00:00",
-  "social_generated_at": "2026-11-12T11:02:00.787635+00:00",
+  "generated_at": "2026-11-12T18:53:29.145184+00:00",
+  "social_generated_at": "2026-11-12T18:53:29.145184+00:00",
   "trends_coverage": {
-    "archive_date": "2026-11-12",
+    "archive_date": "2026-11-13",
     "scanned_seed_count": 74,
     "target_seed_count": 74,
     "complete_daily_target": true,
-    "rising_total": 515,
-    "eligible_exact_queries": 464
+    "rising_total": 489,
+    "eligible_exact_queries": 450
   },
-  "social_unique_in_run": 52,
+  "social_unique_in_run": 56,
   "review_window": {
     "trend_days_evaluated": [
+      {
+        "archive_date": "2026-11-13",
+        "scanned_seed_count": 74,
+        "target_seed_count": 74,
+        "complete_daily_target": true,
+        "rising_total": 489,
+        "eligible_exact_queries": 450
+      },
       {
         "archive_date": "2026-11-12",
         "scanned_seed_count": 74,
@@ -27,24 +35,16 @@
         "complete_daily_target": true,
         "rising_total": 503,
         "eligible_exact_queries": 448
-      },
-      {
-        "archive_date": "2026-11-10",
-        "scanned_seed_count": 74,
-        "target_seed_count": 74,
-        "complete_daily_target": true,
-        "rising_total": 504,
-        "eligible_exact_queries": 456
       }
     ],
-    "exact_queries_in_window": 733,
-    "social_current_run": 52,
-    "social_prior_sightings_72h": 232,
-    "social_reviewable_72h": 284,
+    "exact_queries_in_window": 719,
+    "social_current_run": 56,
+    "social_prior_sightings_72h": 235,
+    "social_reviewable_72h": 291,
     "window_hours": 72,
     "not_new_discoveries_warning": "Window includes older links recently re-seen. Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."
   },
-  "cross_matches": 1,
+  "cross_matches": 2,
   "public_question_hypotheses": 2,
   "query_hypotheses": [
     {
@@ -78,8 +78,33 @@
   "self_reported_buyer_feedback": [],
   "candidates": [
     {
+      "query": "minimax h3 image",
+      "relative_rising_value": 350.0,
+      "seed": "image",
+      "sources": {
+        "producthunt": 1
+      },
+      "links": [
+        {
+          "platform": "producthunt",
+          "url": "https://www.producthunt.com/products/minimax",
+          "title": "MiniMax H3-Image",
+          "published_at": "2026-11-10T16:35:28+00:00",
+          "evidence_type": "direct_public_feed",
+          "potential_first_person_question": false,
+          "verified_customer_demand": false,
+          "original_comments_verified": false
+        }
+      ],
+      "independent_platforms": 1,
+      "distinct_urls": 1,
+      "original_post_question_hints": 0,
+      "ready_to_build": false,
+      "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
+    },
+    {
       "query": "time freeze",
-      "relative_rising_value": 50.0,
+      "relative_rising_value": 130.0,
       "seed": "itch.io",
       "sources": {
         "mastodon": 1
