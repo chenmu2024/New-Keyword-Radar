@@ -1,6 +1,6 @@
 # OPC-inspired business evidence review
 
-Generated: 2026-11-12T03:43:25.065072+00:00
+Generated: 2026-11-13T03:13:55.873459+00:00
 
 **Advisory only.** The module does not collect keyword metrics, prove demand,
 approve a launch, or change the radar's formal verdict.
@@ -8,7 +8,7 @@ approve a launch, or change the radar's formal verdict.
 Formal radar candidates: 3.
 No candidate may be recommended for development without external source evidence.
 
-## hookshot builder (Worldwide)
+## fortnite tracker chest (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
