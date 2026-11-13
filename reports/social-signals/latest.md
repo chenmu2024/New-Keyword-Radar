@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-13T10:55:57.467748+00:00
+# V4 Social signal discovery — 2026-11-13T18:30:23.995650+00:00
 
-- Unique links this run: 55, newly seen: 38, history: 1682
+- Unique links this run: 60, newly seen: 22, history: 1704
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (1) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (6) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (30)
@@ -20,31 +20,36 @@
 
 ## Links (not validated project opportunities)
 
-- [StockRip](https://www.producthunt.com/products/stockrip) — producthunt — direct_public_feed
-- [qorqbot](https://www.producthunt.com/products/qorqbot) — producthunt — direct_public_feed
-- [Aven App Agent](https://www.producthunt.com/products/aven-app-agent) — producthunt — direct_public_feed
+- [WHOOP Humans](https://www.producthunt.com/products/whoop) — producthunt — direct_public_feed
 - [Filament by Galaxy](https://www.producthunt.com/products/galaxy) — producthunt — direct_public_feed
-- [Google Pixel Tag](https://www.producthunt.com/products/google) — producthunt — direct_public_feed
+- [Burnstate](https://www.producthunt.com/products/burnstate) — producthunt — direct_public_feed
 - [Replicate](https://www.producthunt.com/products/replicate-10) — producthunt — direct_public_feed
-- [TarekHossam/nasa](https://huggingface.co/spaces/TarekHossam/nasa) — huggingface — direct_public_api
-- [Sam-medlin/MEDLIN-AI](https://huggingface.co/spaces/Sam-medlin/MEDLIN-AI) — huggingface — direct_public_api
-- [namssuh1/deepseek-v4-flash-jang-crack-explorer](https://huggingface.co/spaces/namssuh1/deepseek-v4-flash-jang-crack-explorer) — huggingface — direct_public_api
-- [NiharikaNikki/demo](https://huggingface.co/spaces/NiharikaNikki/demo) — huggingface — direct_public_api
-- [khelomfreefire/omniroute](https://huggingface.co/spaces/khelomfreefire/omniroute) — huggingface — direct_public_api
-- [Vijayarv07/grounding-checker](https://huggingface.co/spaces/Vijayarv07/grounding-checker) — huggingface — direct_public_api
-- [Yeah, I can deal with the cold as long as it doesnt get to where it will damage equipment or freeze pipes if the electric goes out (although there is a generator i just always hope](https://bsky.app/profile/amygann.bsky.social/post/3n26szj2rr22j) — bluesky — direct_public_post — intent keyword found
-- [Daylit stairwells seems very forward-thinking IMO. I live in a 15 story highrise and the stairwells have no windows; when the power goes out there is no generator to keep the ligh](https://bsky.app/profile/stcecile.bsky.social/post/3n26sak6db223) — bluesky — direct_public_post — intent keyword found
-- [Ouch: My research shows that AI channels on YT are "Stealing" my Audience: AI-driven fancy slop channels aren't just copying my topics; they are copying my STYLE & TONE. They take](https://bsky.app/profile/futuristgerd.com/post/3n26ovud4zs2b) — bluesky — direct_public_post — intent keyword found
-- ["A small team will be able to build worlds that today demand hundreds of developers" - Microsoft's Asha Sharma Also Microsoft execs: *forget you need HUNDREDS OF DEVELOPERS TODAY](https://bsky.app/profile/sam-animeherald.northsky.social/post/3n26gzatews2p) — bluesky — direct_public_post — intent keyword found
-- [Machine learning models being used to identify cancer isnt the same as sexy grok so please stop citing it! Using gen ai is saying you don't respect the artform you are prompting it](https://bsky.app/profile/ornevelder.bsky.social/post/3n25zhzbbwc27) — bluesky — direct_public_post — intent keyword found
-- [There is a very basic random road generator, which is VERY prone to intersections atm. It works by creating a random string of valid pacenotes. No complex logic. My plan is to have](https://bsky.app/profile/abdoubouam.bsky.social/post/3n24oplx3a223) — bluesky — direct_public_post — intent keyword found
-- [I’m keeping a list of blog aggregators, discovery engines and blog directories. if something is missing, let me know, and I’ll update it. https:// danielprindii.com/blog/blog-ag gr](https://mastodon.social/@klausblog/117603881887595829) — mastodon — direct_public_post
+- [GAtrends](https://www.producthunt.com/products/gatrends) — producthunt — direct_public_feed
+- [Kairos](https://www.producthunt.com/products/kairos-18) — producthunt — direct_public_feed
+- [aakashdandekar2006/Qwen-Coli-1.5B](https://huggingface.co/spaces/aakashdandekar2006/Qwen-Coli-1.5B) — huggingface — direct_public_api
+- [marcioklepacz/geb-characters-sentence](https://huggingface.co/spaces/marcioklepacz/geb-characters-sentence) — huggingface — direct_public_api
+- [fdsfaf3434/zz-sm-a05aa7](https://huggingface.co/spaces/fdsfaf3434/zz-sm-a05aa7) — huggingface — direct_public_api
+- [simshi/seedvr2-image](https://huggingface.co/spaces/simshi/seedvr2-image) — huggingface — direct_public_api
+- [Asomibmn/jsskks](https://huggingface.co/spaces/Asomibmn/jsskks) — huggingface — direct_public_api
+- [Seifu-9014/SEIFU-AI-GENERETOR](https://huggingface.co/spaces/Seifu-9014/SEIFU-AI-GENERETOR) — huggingface — direct_public_api
+- [Em 2013 um senhor chamado Álvaro Amaro candidatou-se (e infelizmente ganhou) a presidente da Câmara da Guarda. Na campanha, meteram nas caixas do correio folhetos a pedir sugestões](https://bsky.app/profile/ruimssousa.bsky.social/post/3n27lwo4n5k2j) — bluesky — direct_public_post
+- [como fazer render o trabalho na sexta quando vc não quer trabalhar: tenha um grupo de suporte onde vc possa dizer nao quero trabalha a cada vez que não quer trabalhar](https://bsky.app/profile/cintcha.bsky.social/post/3n27lvbijwk2p) — bluesky — direct_public_post — intent keyword found
+- [⚠️ QUEM AINDA ESTIVER NO EXÉRCITO É PARA DEIXAR EMOJI DE TEAOURA ✂️ NAS MENSAGENS Motivo: mostrar para o Janones que o pessoal não quer corte de gastos como tá se desenhando e te](https://bsky.app/profile/montanahannah.bsky.social/post/3n27lq4msos2k) — bluesky — direct_public_post
+- [Pra agora mudar a meta de inflação pra algo realista (5 p.p), não precisa de Congresso pra isso e acabaria com qualquer base pro BC manter os juros atuais. Pros próximos 4 anos re](https://bsky.app/profile/georgeafg.bsky.social/post/3n27lp2jygs2t) — bluesky — direct_public_post
+- [eu to num grande dilema existencial agora q posso sair de artesanal pra Artesanal® eu quero fazer marketing de verdade pra Alquimista e não só no boca a boca nas minhas redes, como](https://bsky.app/profile/mulhertamarindo.bsky.social/post/3n27lncxmac2y) — bluesky — direct_public_post
+- [O pior da data fifa é que o povo do TNT sports parece q fica sem pauta e acha uma boa fazer montagens na linha "como seria se o Zico tivesse jogado no 13 da Paraíba?"](https://bsky.app/profile/debsss.bsky.social/post/3n27lhwqgss2k) — bluesky — direct_public_post
+- [Quick look at my qr code generator website. https:// qrcodestation.com # FreeQRGenerator # QRCodeGenerator # QR # QRGenerator # CreateQRCode # QRTools # FreeOnlineTools # OnlineToo](https://mastodon.social/@bstha/117610046166451855) — mastodon — direct_public_post — intent keyword found
+- [📌 Discover VidSave.co – Pinterest Video, Image & GIF Downloader Looking for a convenient way to save Pinterest content? VidSave.co provides a straightforward way to download Pinter](https://mastodon.social/@99tools/117609408531653048) — mastodon — direct_public_post — intent keyword found
+- [How Tucas PDF Watermark can help: Preview branding on each page. Adjust opacity, rotation, position and repetition. # PDF # WebTools https:// tucastools.com/en/pdf-watermar k/](https://mastodon.social/@tucas/117608622036645726) — mastodon — direct_public_post
+- [Cron Expression Parser — Paste a cron expression and see what it means in plain English, plus its next 5 run times. Free, no signup. # webtools # free https://www. utiltools.net/to](https://mastodon.social/@kglowreview/117606659300850996) — mastodon — direct_public_post
+- [Quick tip: Tucas Batch PDF Watermark is useful for Mark drafts or confidential copies. Apply the same text, image or handwritten signature to multiple PDFs. # PDF # WebTools https:](https://mastodon.social/@tucas/117604203082234467) — mastodon — direct_public_post
+- [Drop. Convert. Done! 🖼️⚡ Convert, compress, resize, enhance images, and edit PDFs—all in your browser with Digitoly Image Converter. Convert smarter. Work faster. Start for free to](https://mastodon.social/@digitoly/117601469548323686) — mastodon — direct_public_post
+- [U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years](https://news.ycombinator.com/item?id=50484421) — hackernews_ask — direct_public_post
 - [Ask HN: Do you see a human written book more valuable than an AI written one?](https://news.ycombinator.com/item?id=50481227) — hackernews_ask — direct_public_post
 - [Ask HN: Claude – OAuth request failed Temporarily unable to authenticate](https://news.ycombinator.com/item?id=50481201) — hackernews_ask — direct_public_post — intent keyword found
+- [Ask HN: What are you working on? (November 2026)](https://news.ycombinator.com/item?id=50417407) — hackernews_ask — direct_public_post
+- [Claude OAuth Failures](https://news.ycombinator.com/item?id=50480936) — hackernews_ask — direct_public_post
 - [Claude AI Is Down](https://news.ycombinator.com/item?id=50480941) — hackernews_ask — direct_public_post
-- [Ask HN: What are you doing now that Claude is down?](https://news.ycombinator.com/item?id=50481347) — hackernews_ask — direct_public_post
-- [Tell HN: Claude Code Is Down](https://news.ycombinator.com/item?id=50480909) — hackernews_ask — direct_public_post
-- [Google search hides Nvidia stock graph](https://news.ycombinator.com/item?id=50478730) — hackernews_ask — direct_public_post
 - [Owner control center: live dispatcher/Muse status, visible approvals, natural-language instructions](https://github.com/killbill2792/aicafe/issues/411) — github_issue — direct_public_issue_api
 - [Crew line 2 (from Nov 12, 2026)](https://github.com/lamontaes/Political-Game-Git/issues/8928) — github_issue — direct_public_issue_api
 - [Revenue reset: prioritize verified cashflow over infrastructure](https://github.com/me-fake-you/clearsheet-offers/issues/3) — github_issue — direct_public_issue_api
@@ -55,8 +60,3 @@
 - [Ask HN: Small business bank account – who do you use?](https://news.ycombinator.com/item?id=11438973) — hackernews_ask — indexed_public_post_excerpt
 - [Plan 00 — First runnable version (setup + starter scene)](https://github.com/the-pushh/traffic-sim/issues/1) — github_issue — direct_public_issue_api — intent keyword found
 - [Provision isolated automation user-data and forward fenced save-profile operations](https://github.com/AI-Ascension/sts2-gateway/issues/51) — github_issue — direct_public_issue_api
-- [[Research[UX Hourly espresso evidence audit and Log Shot → Rate → Recommendation improvements](https://github.com/Schulzet3/The-Dial-In-Collective/issues/455) — github_issue — direct_public_issue_api — intent keyword found
-- [Place-history overlays filter and select wrongly: state_fips compared to state abbreviations, reverse ranges return nothing, current_districts drops ongoing seats, active_at double-counts handover day](https://github.com/siege-analytics/siege_utilities/issues/1466) — github_issue — direct_public_issue_api — intent keyword found
-- [Ask HN: Building KasirCepat, an offline-first POS for Indonesia](https://news.ycombinator.com/item?id=49692067) — hackernews_ask — indexed_public_post_excerpt
-- [A 30 Year OG Application Developer Available](https://news.ycombinator.com/item?id=48668766) — hackernews_ask — indexed_public_post_excerpt
-- [Ask HN: Will we ever do something about patent trolls?](https://news.ycombinator.com/item?id=47718079) — hackernews_ask — indexed_public_post_excerpt
