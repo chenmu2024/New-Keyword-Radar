@@ -1,13 +1,13 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-12T18:53:29.145184+00:00
-- Source last updated: 2026-11-12T18:53:29.145184+00:00
+- Generated: 2026-11-13T00:19:53.757547+00:00
+- Source last updated: 2026-11-13T00:19:53.757547+00:00
 - Trends archive: 2026-11-13 (74/74; complete=True)
 - Eligible multiword rising queries: 450
 - Cross-source matches within 72h review window: 2
-- Social current-run links: 56, prior recent sightings: 235
+- Social current-run links: 55, prior recent sightings: 218
 - Search archives examined: 2026-11-13, 2026-11-12, 2026-11-11
-- Direct-post question-derived QUERY HYPOTHESES: 2
+- Direct-post question-derived QUERY HYPOTHESES: 3
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
@@ -27,6 +27,9 @@
 
 ## Original public-post question hints (NOT validated search keywords)
 
+- Proposed query: **do it without it being basically cops to harass poc please**
+  - Original public post: https://bsky.app/profile/bradiscranky.bsky.social/post/3n25omxms5c26
+  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **ai style image that doesnt use absurd amounts of energy and**
   - Original public post: https://bsky.app/profile/averycutedog.bsky.social/post/3mzxwd7gt2k2n
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
