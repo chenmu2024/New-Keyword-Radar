@@ -1,0 +1,93 @@
+{
+  "batch_id": "2026-11-13T23:49:55.359233+00:00-47-48-49-50-51",
+  "generated_at": "2026-11-13T23:49:55.359233+00:00",
+  "local_generated_at": "2026-11-14T07:49:55.359233+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "syncer",
+    "connector",
+    "cataloger",
+    "responder",
+    "color"
+  ],
+  "seed_indices": [
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "start_index": 47,
+  "discoveries": [
+    {
+      "seed": "syncer",
+      "query": "trade copia",
+      "rise_value": 127600.0,
+      "raw_value": 127600
+    },
+    {
+      "seed": "connector",
+      "query": "iphone 17 pro max charging connector flex cable",
+      "rise_value": 5650.0,
+      "raw_value": 5650
+    },
+    {
+      "seed": "syncer",
+      "query": "tradeify",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "responder",
+      "query": "goodsam responder",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "color",
+      "query": "puce color",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "responder",
+      "query": "alo first responder discount",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "cataloger",
+      "query": "fast video cataloger",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "syncer",
+      "query": "lip syncer",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "syncer",
+      "query": "tradesyncer",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "responder",
+      "query": "north face first responder discount",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "responder",
+      "query": "ugg first responder discount",
+      "rise_value": 50.0,
+      "raw_value": 50
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 11
+}
