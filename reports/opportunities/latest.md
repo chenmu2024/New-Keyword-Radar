@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-12T18:36:50.805598+00:00
+- Updated (UTC): 2026-11-13T02:34:13.421265+00:00
 - Historical candidates: 5263
-- Newly recorded from pending: 102
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 3977
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- aba scheduler [Global] — discovered — first 2026-11-13, last 2026-11-13
-- adidas first responder discount [Global] — discovered — first 2026-11-13, last 2026-11-13
-- amd ryzen 5 2600 six-core processor [Global] — discovered — first 2026-11-13, last 2026-11-13
-- app builder agent [Global] — discovered — first 2026-11-13, last 2026-11-13
-- apple verifier numero de serie [Global] — discovered — first 2026-11-13, last 2026-11-13
-- bionote example [Global] — discovered — first 2026-11-13, last 2026-11-13
-- cand intra pensiile pe card in noiembrie [Global] — discovered — first 2026-11-13, last 2026-11-13
-- capcut template trending [Global] — discovered — first 2026-11-13, last 2026-11-13
-- capture card [Global] — discovered — first 2026-11-13, last 2026-11-13
-- casino online österreich www.casinod.works 🇦🇹 [Global] — discovered — first 2026-11-13, last 2026-11-13
-- casino online österreich 🇦🇹 www.casinod.works 🇦🇹 [Global] — discovered — first 2026-11-13, last 2026-11-13
-- charity evaluator [Global] — discovered — first 2026-11-13, last 2026-11-13
-- code promo nordvpn [Global] — discovered — first 2026-11-13, last 2026-11-13
-- comparator pulse extender [Global] — discovered — first 2026-11-13, last 2026-11-13
-- composer thomas [Global] — discovered — first 2026-11-13, last 2026-11-13
+- man utd new manager [Global] — discovered — first 2026-11-13, last 2026-11-13
+- mx master 4 creator edition [Global] — discovered — first 2026-11-13, last 2026-11-13
+- the uploader has not made this video available in your country. [Global] — discovered — first 2026-11-13, last 2026-11-13
+- surprise symphony composer [Global] — discovered — first 2026-11-13, last 2026-11-13
+- minimax h3 image [Global] — discovered — first 2026-11-13, last 2026-11-13
+- hsr optimizer [Global] — discovered — first 2026-11-13, last 2026-11-13
 - composer thomas 4 letters [Global] — discovered — first 2026-11-13, last 2026-11-13
-- composer thomas crossword [Global] — discovered — first 2026-11-13, last 2026-11-13
-- constructor championship f1 2025 [Global] — discovered — first 2026-11-13, last 2026-11-13
-- constructor de horario urbe [Global] — discovered — first 2026-11-13, last 2026-11-13
-- constructor 中文 [Global] — discovered — first 2026-11-13, last 2026-11-13
-- copper tongue scraper [Global] — discovered — first 2026-11-13, last 2026-11-13
-- credito constructor [Global] — discovered — first 2026-11-13, last 2026-11-13
-- dior [Global] — discovered — first 2026-11-13, last 2026-11-13
+- lucca simulator [Global] — discovered — first 2026-11-13, last 2026-11-13
+- patoot meaning [Global] — discovered — first 2026-11-13, last 2026-11-13
+- puka nacua injury [Global] — discovered — first 2026-11-13, last 2026-11-13
+- tractor supply first responder discount [Global] — discovered — first 2026-11-13, last 2026-11-13
 - doc brown flux capacitor [Global] — discovered — first 2026-11-13, last 2026-11-13
-- dog breed from wales [Global] — discovered — first 2026-11-13, last 2026-11-13
+- vin checker [Global] — discovered — first 2026-11-13, last 2026-11-13
+- outlook down detector [Global] — discovered — first 2026-11-13, last 2026-11-13
+- free sample baby [Global] — discovered — first 2026-11-13, last 2026-11-13
+- pit boss navigator 1000 [Global] — discovered — first 2026-11-13, last 2026-11-13
+- synonym for example [Global] — discovered — first 2026-11-13, last 2026-11-13
+- professor layton and the new world of steam [Global] — discovered — first 2026-11-13, last 2026-11-13
+- adidas first responder discount [Global] — discovered — first 2026-11-13, last 2026-11-13
+- what is considered a first responder [Global] — discovered — first 2026-11-13, last 2026-11-13
+- code promo nordvpn [Global] — discovered — first 2026-11-13, last 2026-11-13
+- sunrise symphony composer [Global] — discovered — first 2026-11-13, last 2026-11-13
+- online casino nl 🇳🇱 www.jeroencasino.com [Global] — discovered — first 2026-11-13, last 2026-11-13
+- ticket maker [Global] — discovered — first 2026-11-13, last 2026-11-13
+- fn chest tracker [Global] — discovered — first 2026-11-13, last 2026-11-13
 
 ## Due for follow-up
 
