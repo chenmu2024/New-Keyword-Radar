@@ -1,11 +1,11 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-13T00:19:53.757547+00:00
-- Source last updated: 2026-11-13T00:19:53.757547+00:00
+- Generated: 2026-11-13T10:55:57.467748+00:00
+- Source last updated: 2026-11-13T10:55:57.467748+00:00
 - Trends archive: 2026-11-13 (74/74; complete=True)
 - Eligible multiword rising queries: 450
 - Cross-source matches within 72h review window: 2
-- Social current-run links: 55, prior recent sightings: 218
+- Social current-run links: 55, prior recent sightings: 261
 - Search archives examined: 2026-11-13, 2026-11-12, 2026-11-11
 - Direct-post question-derived QUERY HYPOTHESES: 3
 - Direct-post author self-reported payments (NOT processor verified): 0
@@ -27,14 +27,14 @@
 
 ## Original public-post question hints (NOT validated search keywords)
 
-- Proposed query: **do it without it being basically cops to harass poc please**
-  - Original public post: https://bsky.app/profile/bradiscranky.bsky.social/post/3n25omxms5c26
-  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **ai style image that doesnt use absurd amounts of energy and**
   - Original public post: https://bsky.app/profile/averycutedog.bsky.social/post/3mzxwd7gt2k2n
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **to learn but more i d like to forget i thought**
   - Original public post: https://bsky.app/profile/altheoua.bsky.social/post/3mzyhj4zqnk2j
+  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
+- Proposed query: **do it without it being basically cops to harass poc please**
+  - Original public post: https://bsky.app/profile/bradiscranky.bsky.social/post/3n25omxms5c26
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 
 ## First-person payment mentions (author reports, NOT verified orders)
