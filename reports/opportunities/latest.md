@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-13T23:51:37.566986+00:00
-- Historical candidates: 5527
-- Newly recorded from pending: 141
+- Updated (UTC): 2026-11-14T08:54:22.052489+00:00
+- Historical candidates: 5631
+- Newly recorded from pending: 104
 - Awaiting 7/14/30-day evidence review: 4151
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 6 day star blanket crochet pattern [Global] — discovered — first 2026-11-14, last 2026-11-14
-- a green sample wow forever [Global] — discovered — first 2026-11-14, last 2026-11-14
-- amd ryzen 7 5700x 8-core processor [Global] — discovered — first 2026-11-14, last 2026-11-14
-- android system key verifier para que sirve [Global] — discovered — first 2026-11-14, last 2026-11-14
-- anre comparator gaze [Global] — discovered — first 2026-11-14, last 2026-11-14
-- apa itu android developer verifier [Global] — discovered — first 2026-11-14, last 2026-11-14
-- apna khet apna rozgar scheme apply online [Global] — discovered — first 2026-11-14, last 2026-11-14
+- puce color [Global] — discovered — first 2026-11-14, last 2026-11-14
+- malmö designer village [Global] — discovered — first 2026-11-14, last 2026-11-14
+- steam black friday [Global] — discovered — first 2026-11-14, last 2026-11-14
+- packers game [Global] — discovered — first 2026-11-14, last 2026-11-14
+- tinytask [Global] — discovered — first 2026-11-14, last 2026-11-14
+- toy meant to be looked into nyt [Global] — discovered — first 2026-11-14, last 2026-11-14
+- designer jewelry [Global] — discovered — first 2026-11-14, last 2026-11-14
 - arctic char [Global] — discovered — first 2026-11-14, last 2026-11-14
-- arctic char back to the future [Global] — discovered — first 2026-11-14, last 2026-11-14
-- arctic char meaning [Global] — discovered — first 2026-11-14, last 2026-11-14
-- as salamu alaykum [Global] — discovered — first 2026-11-14, last 2026-11-14
-- as-salamu alaykum meaning [Global] — discovered — first 2026-11-14, last 2026-11-14
-- back to the future moonlight sonata [Global] — discovered — first 2026-11-14, last 2026-11-14
-- best ice scraper for car [Global] — discovered — first 2026-11-14, last 2026-11-14
-- best monitor for ps5 [Global] — discovered — first 2026-11-14, last 2026-11-14
-- brio builder [Global] — discovered — first 2026-11-14, last 2026-11-14
 - capcut template all [Global] — discovered — first 2026-11-14, last 2026-11-14
-- car scraper [Global] — discovered — first 2026-11-14, last 2026-11-14
-- casa del constructor [Global] — discovered — first 2026-11-14, last 2026-11-14
-- casino online 🇩🇪 www.casinod.works [Global] — discovered — first 2026-11-14, last 2026-11-14
-- casino 🇳🇱 www.jeroencasino.sbs [Global] — discovered — first 2026-11-14, last 2026-11-14
-- cbs marshals tracker return schedule [Global] — discovered — first 2026-11-14, last 2026-11-14
+- as salamu alaykum [Global] — discovered — first 2026-11-14, last 2026-11-14
+- wow forever a new ore sample [Global] — discovered — first 2026-11-14, last 2026-11-14
 - cbse sample paper [Global] — discovered — first 2026-11-14, last 2026-11-14
+- stress checker [Global] — discovered — first 2026-11-14, last 2026-11-14
 - cfb lineup optimizer [Global] — discovered — first 2026-11-14, last 2026-11-14
-- change purse [Global] — discovered — first 2026-11-14, last 2026-11-14
+- microsoft 365 service health dashboard [Global] — discovered — first 2026-11-14, last 2026-11-14
+- casa del constructor [Global] — discovered — first 2026-11-14, last 2026-11-14
+- marlows crystal optimizer [Global] — discovered — first 2026-11-14, last 2026-11-14
+- rams [Global] — discovered — first 2026-11-14, last 2026-11-14
+- arctic char back to the future [Global] — discovered — first 2026-11-14, last 2026-11-14
+- online casino österreich 🇦🇹 www.casinod.works [Global] — discovered — first 2026-11-14, last 2026-11-14
+- sonata meaning [Global] — discovered — first 2026-11-14, last 2026-11-14
+- surfshark review [Global] — discovered — first 2026-11-14, last 2026-11-14
+- as-salamu alaykum meaning [Global] — discovered — first 2026-11-14, last 2026-11-14
+- dashboard confessional chicago [Global] — discovered — first 2026-11-14, last 2026-11-14
+- video unavailable the uploader has not made this video available in your country [Global] — discovered — first 2026-11-14, last 2026-11-14
 
 ## Due for follow-up
 
