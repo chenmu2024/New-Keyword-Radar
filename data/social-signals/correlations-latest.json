@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-11-13T18:30:23.995650+00:00",
-  "social_generated_at": "2026-11-13T18:30:23.995650+00:00",
+  "generated_at": "2026-11-14T00:19:43.320955+00:00",
+  "social_generated_at": "2026-11-14T00:19:43.320955+00:00",
   "trends_coverage": {
-    "archive_date": "2026-11-13",
+    "archive_date": "2026-11-14",
     "scanned_seed_count": 74,
     "target_seed_count": 74,
     "complete_daily_target": true,
-    "rising_total": 489,
-    "eligible_exact_queries": 450
+    "rising_total": 514,
+    "eligible_exact_queries": 464
   },
-  "social_unique_in_run": 60,
+  "social_unique_in_run": 58,
   "review_window": {
     "trend_days_evaluated": [
+      {
+        "archive_date": "2026-11-14",
+        "scanned_seed_count": 74,
+        "target_seed_count": 74,
+        "complete_daily_target": true,
+        "rising_total": 514,
+        "eligible_exact_queries": 464
+      },
       {
         "archive_date": "2026-11-13",
         "scanned_seed_count": 74,
@@ -29,29 +37,16 @@
         "eligible_exact_queries": 464
       }
     ],
-    "exact_queries_in_window": 607,
-    "social_current_run": 60,
-    "social_prior_sightings_72h": 259,
-    "social_reviewable_72h": 319,
+    "exact_queries_in_window": 767,
+    "social_current_run": 58,
+    "social_prior_sightings_72h": 216,
+    "social_reviewable_72h": 274,
     "window_hours": 72,
     "not_new_discoveries_warning": "Window includes older links recently re-seen. Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."
   },
   "cross_matches": 2,
-  "public_question_hypotheses": 4,
+  "public_question_hypotheses": 3,
   "query_hypotheses": [
-    {
-      "proposed_query": "a convenient save pinterest content",
-      "original_post_url": "https://mastodon.social/@99tools/117609408531653048",
-      "original_platform": "mastodon",
-      "original_post_text": "📌 Discover VidSave.co – Pinterest Video, Image & GIF Downloader Looking for a convenient way to save Pinterest content? VidSave.co provides a straightforward way to download Pinterest videos, images, and animated GIFs using a Pinterest link. ✨ Video downloading ✨ Image saving ✨ GIF downloading ✨ Easy-to-use online interface Explore the tool: https:",
-      "published_at": "2026-11-13T13:39:16.551000+00:00",
-      "demand_status": "unverified_question_hint",
-      "search_volume": null,
-      "keyword_difficulty": null,
-      "actual_user_paid": false,
-      "ready_to_build": false,
-      "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
-    },
     {
       "proposed_query": "ai style image that doesnt use absurd amounts of energy and",
       "original_post_url": "https://bsky.app/profile/averycutedog.bsky.social/post/3mzxwd7gt2k2n",
@@ -66,11 +61,11 @@
       "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
     },
     {
-      "proposed_query": "to learn but more i d like to forget i thought",
-      "original_post_url": "https://bsky.app/profile/altheoua.bsky.social/post/3mzyhj4zqnk2j",
-      "original_platform": "bluesky",
-      "original_post_text": "A life of purpose without choice is that of a tool There is so much I need to learn, but more I'd like to forget I thought the choices I made would make me a fool But of my past, I'll never regret #MHA #MHARP #BNHA #SFW #RP #SFWRP",
-      "published_at": "2026-11-10T22:12:02.151000+00:00",
+      "proposed_query": "a convenient save pinterest content",
+      "original_post_url": "https://mastodon.social/@99tools/117609408531653048",
+      "original_platform": "mastodon",
+      "original_post_text": "📌 Discover VidSave.co – Pinterest Video, Image & GIF Downloader Looking for a convenient way to save Pinterest content? VidSave.co provides a straightforward way to download Pinterest videos, images, and animated GIFs using a Pinterest link. ✨ Video downloading ✨ Image saving ✨ GIF downloading ✨ Easy-to-use online interface Explore the tool: https:",
+      "published_at": "2026-11-13T13:39:16.551000+00:00",
       "demand_status": "unverified_question_hint",
       "search_volume": null,
       "keyword_difficulty": null,
@@ -96,13 +91,49 @@
   "self_reported_buyer_feedback": [],
   "candidates": [
     {
+      "query": "gif downloader",
+      "relative_rising_value": 40.0,
+      "seed": "downloader",
+      "sources": {
+        "mastodon": 1
+      },
+      "links": [
+        {
+          "platform": "mastodon",
+          "url": "https://mastodon.social/@99tools/117609408531653048",
+          "title": "📌 Discover VidSave.co – Pinterest Video, Image & GIF Downloader Looking for a convenient way to save Pinterest content? VidSave.co provides a straightforward way to download Pinter",
+          "published_at": "2026-11-13T13:39:16.551000+00:00",
+          "evidence_type": "direct_public_post",
+          "potential_first_person_question": true,
+          "verified_customer_demand": false,
+          "original_comments_verified": false
+        }
+      ],
+      "independent_platforms": 1,
+      "distinct_urls": 1,
+      "original_post_question_hints": 1,
+      "ready_to_build": false,
+      "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
+    },
+    {
       "query": "minimax h3 image",
-      "relative_rising_value": 350.0,
+      "relative_rising_value": 450.0,
       "seed": "image",
       "sources": {
+        "huggingface": 1,
         "producthunt": 1
       },
       "links": [
+        {
+          "platform": "huggingface",
+          "url": "https://huggingface.co/spaces/yingzhac/MiniMax-H3-Image-INT8",
+          "title": "yingzhac/MiniMax-H3-Image-INT8",
+          "published_at": "2026-11-14T00:01:43+00:00",
+          "evidence_type": "direct_public_api",
+          "potential_first_person_question": false,
+          "verified_customer_demand": false,
+          "original_comments_verified": false
+        },
         {
           "platform": "producthunt",
           "url": "https://www.producthunt.com/products/minimax",
@@ -114,33 +145,8 @@
           "original_comments_verified": false
         }
       ],
-      "independent_platforms": 1,
-      "distinct_urls": 1,
-      "original_post_question_hints": 0,
-      "ready_to_build": false,
-      "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
-    },
-    {
-      "query": "time freeze",
-      "relative_rising_value": 130.0,
-      "seed": "itch.io",
-      "sources": {
-        "mastodon": 1
-      },
-      "links": [
-        {
-          "platform": "mastodon",
-          "url": "https://mastodon.social/@talkpix/117592829682449253",
-          "title": "The whole street freezes. Except one sheet of paper. Text only, no camera. Street noise, dead silence, then the crash. (AI-generated video.) The \"Time Freeze\" template on TalkPix:",
-          "published_at": "2026-11-10T15:23:03.391000+00:00",
-          "evidence_type": "direct_public_post",
-          "potential_first_person_question": false,
-          "verified_customer_demand": false,
-          "original_comments_verified": false
-        }
-      ],
-      "independent_platforms": 1,
-      "distinct_urls": 1,
+      "independent_platforms": 2,
+      "distinct_urls": 2,
       "original_post_question_hints": 0,
       "ready_to_build": false,
       "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."

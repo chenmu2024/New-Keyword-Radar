@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-13T18:30:23.995650+00:00
+# V4 Social signal discovery — 2026-11-14T00:19:43.320955+00:00
 
-- Unique links this run: 60, newly seen: 22, history: 1704
+- Unique links this run: 58, newly seen: 22, history: 1726
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (6) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (4) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (30)
@@ -20,36 +20,34 @@
 
 ## Links (not validated project opportunities)
 
-- [WHOOP Humans](https://www.producthunt.com/products/whoop) — producthunt — direct_public_feed
-- [Filament by Galaxy](https://www.producthunt.com/products/galaxy) — producthunt — direct_public_feed
-- [Burnstate](https://www.producthunt.com/products/burnstate) — producthunt — direct_public_feed
-- [Replicate](https://www.producthunt.com/products/replicate-10) — producthunt — direct_public_feed
+- [Templify AI](https://www.producthunt.com/products/templify) — producthunt — direct_public_feed
 - [GAtrends](https://www.producthunt.com/products/gatrends) — producthunt — direct_public_feed
-- [Kairos](https://www.producthunt.com/products/kairos-18) — producthunt — direct_public_feed
-- [aakashdandekar2006/Qwen-Coli-1.5B](https://huggingface.co/spaces/aakashdandekar2006/Qwen-Coli-1.5B) — huggingface — direct_public_api
-- [marcioklepacz/geb-characters-sentence](https://huggingface.co/spaces/marcioklepacz/geb-characters-sentence) — huggingface — direct_public_api
-- [fdsfaf3434/zz-sm-a05aa7](https://huggingface.co/spaces/fdsfaf3434/zz-sm-a05aa7) — huggingface — direct_public_api
-- [simshi/seedvr2-image](https://huggingface.co/spaces/simshi/seedvr2-image) — huggingface — direct_public_api
-- [Asomibmn/jsskks](https://huggingface.co/spaces/Asomibmn/jsskks) — huggingface — direct_public_api
-- [Seifu-9014/SEIFU-AI-GENERETOR](https://huggingface.co/spaces/Seifu-9014/SEIFU-AI-GENERETOR) — huggingface — direct_public_api
-- [Em 2013 um senhor chamado Álvaro Amaro candidatou-se (e infelizmente ganhou) a presidente da Câmara da Guarda. Na campanha, meteram nas caixas do correio folhetos a pedir sugestões](https://bsky.app/profile/ruimssousa.bsky.social/post/3n27lwo4n5k2j) — bluesky — direct_public_post
-- [como fazer render o trabalho na sexta quando vc não quer trabalhar: tenha um grupo de suporte onde vc possa dizer nao quero trabalha a cada vez que não quer trabalhar](https://bsky.app/profile/cintcha.bsky.social/post/3n27lvbijwk2p) — bluesky — direct_public_post — intent keyword found
-- [⚠️ QUEM AINDA ESTIVER NO EXÉRCITO É PARA DEIXAR EMOJI DE TEAOURA ✂️ NAS MENSAGENS Motivo: mostrar para o Janones que o pessoal não quer corte de gastos como tá se desenhando e te](https://bsky.app/profile/montanahannah.bsky.social/post/3n27lq4msos2k) — bluesky — direct_public_post
-- [Pra agora mudar a meta de inflação pra algo realista (5 p.p), não precisa de Congresso pra isso e acabaria com qualquer base pro BC manter os juros atuais. Pros próximos 4 anos re](https://bsky.app/profile/georgeafg.bsky.social/post/3n27lp2jygs2t) — bluesky — direct_public_post
-- [eu to num grande dilema existencial agora q posso sair de artesanal pra Artesanal® eu quero fazer marketing de verdade pra Alquimista e não só no boca a boca nas minhas redes, como](https://bsky.app/profile/mulhertamarindo.bsky.social/post/3n27lncxmac2y) — bluesky — direct_public_post
-- [O pior da data fifa é que o povo do TNT sports parece q fica sem pauta e acha uma boa fazer montagens na linha "como seria se o Zico tivesse jogado no 13 da Paraíba?"](https://bsky.app/profile/debsss.bsky.social/post/3n27lhwqgss2k) — bluesky — direct_public_post
-- [Quick look at my qr code generator website. https:// qrcodestation.com # FreeQRGenerator # QRCodeGenerator # QR # QRGenerator # CreateQRCode # QRTools # FreeOnlineTools # OnlineToo](https://mastodon.social/@bstha/117610046166451855) — mastodon — direct_public_post — intent keyword found
-- [📌 Discover VidSave.co – Pinterest Video, Image & GIF Downloader Looking for a convenient way to save Pinterest content? VidSave.co provides a straightforward way to download Pinter](https://mastodon.social/@99tools/117609408531653048) — mastodon — direct_public_post — intent keyword found
-- [How Tucas PDF Watermark can help: Preview branding on each page. Adjust opacity, rotation, position and repetition. # PDF # WebTools https:// tucastools.com/en/pdf-watermar k/](https://mastodon.social/@tucas/117608622036645726) — mastodon — direct_public_post
-- [Cron Expression Parser — Paste a cron expression and see what it means in plain English, plus its next 5 run times. Free, no signup. # webtools # free https://www. utiltools.net/to](https://mastodon.social/@kglowreview/117606659300850996) — mastodon — direct_public_post
-- [Quick tip: Tucas Batch PDF Watermark is useful for Mark drafts or confidential copies. Apply the same text, image or handwritten signature to multiple PDFs. # PDF # WebTools https:](https://mastodon.social/@tucas/117604203082234467) — mastodon — direct_public_post
-- [Drop. Convert. Done! 🖼️⚡ Convert, compress, resize, enhance images, and edit PDFs—all in your browser with Digitoly Image Converter. Convert smarter. Work faster. Start for free to](https://mastodon.social/@digitoly/117601469548323686) — mastodon — direct_public_post
+- [Trainn MCP](https://www.producthunt.com/products/trainn) — producthunt — direct_public_feed
+- [WHOOP Humans](https://www.producthunt.com/products/whoop) — producthunt — direct_public_feed
+- [qorqbot](https://www.producthunt.com/products/qorqbot) — producthunt — direct_public_feed
+- [Google Pixel Tag](https://www.producthunt.com/products/google) — producthunt — direct_public_feed
+- [dsa222ffd/fidesflix-timestral](https://huggingface.co/spaces/dsa222ffd/fidesflix-timestral) — huggingface — direct_public_api
+- [abderrahmane11/gguf-quant-picker](https://huggingface.co/spaces/abderrahmane11/gguf-quant-picker) — huggingface — direct_public_api
+- [sdadadfras/wan777](https://huggingface.co/spaces/sdadadfras/wan777) — huggingface — direct_public_api
+- [analysisreports/macro-assistant](https://huggingface.co/spaces/analysisreports/macro-assistant) — huggingface — direct_public_api
+- [yingzhac/MiniMax-H3-Image-INT8](https://huggingface.co/spaces/yingzhac/MiniMax-H3-Image-INT8) — huggingface — direct_public_api
+- [sambarsa20/samir-prime](https://huggingface.co/spaces/sambarsa20/samir-prime) — huggingface — direct_public_api
+- [this has been a week for AI put that shit back in the can. we don't need it. we don't want it](https://bsky.app/profile/funsizela.bsky.social/post/3n2a7ahv2hc2c) — bluesky — direct_public_post
+- [Whatever the root cause, today is a stark reminder that the people doing the operational work need to be involved in building and testing major new technology from day one. They kn](https://bsky.app/profile/matthewdhealy.bsky.social/post/3n2a763o4km2i) — bluesky — direct_public_post — intent keyword found
+- [Dante on data ethics. 🕯️ Wikipedia. OpenStreetMap. WHO outbreak tracking. Ghana's cocoa cooperatives. SQL is a tool for memory. Use it for the people who need to be remembered.](https://bsky.app/profile/studybreakhouse2.bsky.social/post/3n2a757lstj2j) — bluesky — direct_public_post — intent keyword found
+- [laws need to be written to assign fault when using AI. its a tool like a car, if you kill someone with a car, there is a law that can be applied. we need to make sure that law cove](https://bsky.app/profile/cruxothebiscuit.bsky.social/post/3n2a5ndhyss2v) — bluesky — direct_public_post — intent keyword found
+- [It's #BugFixFriday! This week's #HelpWanted #Inkscape issue: the Spiral tool forgets your chosen style. To reproduce: Style a spiral, then create another. The new one resets to t](https://bsky.app/profile/rolandixor.bsky.social/post/3n2a4weeqoc24) — bluesky — direct_public_post — intent keyword found
+- [Math skills build on themselves yearly. So to help students learn, "math teachers need a way to see how math learning connects from grade to grade. That tool is called a skill map](https://bsky.app/profile/teachplus.bsky.social/post/3n2a377vqtx2g) — bluesky — direct_public_post — intent keyword found
+- [AI Video Generators 2025: Best Tools, Trends, and Side Hustle Opportunities The digital world is evolving rapidly in 2025, and AI Video Generators are at the forefront of this tran](https://mastodon.social/@kehkashanjaved/117611849488851462) — mastodon — direct_public_post
+- [nixm is featured on Awesome Indie! 🚀 Cinematic AI video with native sound, paid per clip & private Upvote it → https:// awesomeindie.com/product/nixm # AIImage # AIVideo # Image](https://mastodon.social/@awesomeindie/117610842829830216) — mastodon — direct_public_post
+- [AI short films are pulling millions of views. The comments say more than the headlines. Have you read them? # AI # AIFilm # AIVideo # BeginnersInAI](https://mastodon.social/@BeginnersInAi/117610661646034078) — mastodon — direct_public_post
+- [Text to cartoon video is featured on Awesome Indie! 🚀 Text to cartoon video,fast, high-quality, and easy to use. Upvote it → https:// awesomeindie.com/product/text- to-cartoon-vide](https://mastodon.social/@awesomeindie/117610587206679250) — mastodon — direct_public_post
+- [Ask HN: What is the state of self-hosting email in 2026?](https://news.ycombinator.com/item?id=50488230) — hackernews_ask — direct_public_post
+- [Tell HN: Google Search to start locking down search behind a login wall](https://news.ycombinator.com/item?id=50491617) — hackernews_ask — direct_public_post
+- [Tell HN: Cloudflare's abuse report form is a blank page](https://news.ycombinator.com/item?id=50491285) — hackernews_ask — direct_public_post
 - [U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years](https://news.ycombinator.com/item?id=50484421) — hackernews_ask — direct_public_post
-- [Ask HN: Do you see a human written book more valuable than an AI written one?](https://news.ycombinator.com/item?id=50481227) — hackernews_ask — direct_public_post
-- [Ask HN: Claude – OAuth request failed Temporarily unable to authenticate](https://news.ycombinator.com/item?id=50481201) — hackernews_ask — direct_public_post — intent keyword found
+- [Ask HN: Advice for those who want to build stuff but don't know where to start](https://news.ycombinator.com/item?id=50486909) — hackernews_ask — direct_public_post
 - [Ask HN: What are you working on? (November 2026)](https://news.ycombinator.com/item?id=50417407) — hackernews_ask — direct_public_post
-- [Claude OAuth Failures](https://news.ycombinator.com/item?id=50480936) — hackernews_ask — direct_public_post
-- [Claude AI Is Down](https://news.ycombinator.com/item?id=50480941) — hackernews_ask — direct_public_post
 - [Owner control center: live dispatcher/Muse status, visible approvals, natural-language instructions](https://github.com/killbill2792/aicafe/issues/411) — github_issue — direct_public_issue_api
 - [Crew line 2 (from Nov 12, 2026)](https://github.com/lamontaes/Political-Game-Git/issues/8928) — github_issue — direct_public_issue_api
 - [Revenue reset: prioritize verified cashflow over infrastructure](https://github.com/me-fake-you/clearsheet-offers/issues/3) — github_issue — direct_public_issue_api
@@ -60,3 +58,5 @@
 - [Ask HN: Small business bank account – who do you use?](https://news.ycombinator.com/item?id=11438973) — hackernews_ask — indexed_public_post_excerpt
 - [Plan 00 — First runnable version (setup + starter scene)](https://github.com/the-pushh/traffic-sim/issues/1) — github_issue — direct_public_issue_api — intent keyword found
 - [Provision isolated automation user-data and forward fenced save-profile operations](https://github.com/AI-Ascension/sts2-gateway/issues/51) — github_issue — direct_public_issue_api
+- [[Research[UX Hourly espresso evidence audit and Log Shot → Rate → Recommendation improvements](https://github.com/Schulzet3/The-Dial-In-Collective/issues/455) — github_issue — direct_public_issue_api — intent keyword found
+- [Place-history overlays filter and select wrongly: state_fips compared to state abbreviations, reverse ranges return nothing, current_districts drops ongoing seats, active_at double-counts handover day](https://github.com/siege-analytics/siege_utilities/issues/1466) — github_issue — direct_public_issue_api — intent keyword found
