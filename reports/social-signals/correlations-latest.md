@@ -1,11 +1,11 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-14T00:19:43.320955+00:00
-- Source last updated: 2026-11-14T00:19:43.320955+00:00
+- Generated: 2026-11-14T10:22:21.035551+00:00
+- Source last updated: 2026-11-14T10:22:21.035551+00:00
 - Trends archive: 2026-11-14 (74/74; complete=True)
 - Eligible multiword rising queries: 464
 - Cross-source matches within 72h review window: 2
-- Social current-run links: 58, prior recent sightings: 216
+- Social current-run links: 54, prior recent sightings: 261
 - Search archives examined: 2026-11-14, 2026-11-13, 2026-11-12
 - Direct-post question-derived QUERY HYPOTHESES: 3
 - Direct-post author self-reported payments (NOT processor verified): 0
@@ -23,8 +23,8 @@
 - Relative Trends rising value: 450.0 (NOT Volume)
 - Distinct matched platforms: 2
 - Direct public-post question hints: 0
-- huggingface: https://huggingface.co/spaces/yingzhac/MiniMax-H3-Image-INT8 (direct_public_api)
 - producthunt: https://www.producthunt.com/products/minimax (direct_public_feed)
+- huggingface: https://huggingface.co/spaces/yingzhac/MiniMax-H3-Image-INT8 (direct_public_api)
 
 ## Original public-post question hints (NOT validated search keywords)
 
