@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-14T16:56:39.271489+00:00
+- Updated (UTC): 2026-11-14T22:16:39.995251+00:00
 - Historical candidates: 5739
-- Newly recorded from pending: 108
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 4359
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- a new ore sample wow classic [Global] — discovered — first 2026-11-15, last 2026-11-15
-- activetk [Global] — discovered — first 2026-11-15, last 2026-11-15
-- aibe admit card [Global] — discovered — first 2026-11-15, last 2026-11-15
-- apna khet apna rozgar scheme apply online 2026 [Global] — discovered — first 2026-11-15, last 2026-11-15
-- arkanyst evaluator [Global] — discovered — first 2026-11-15, last 2026-11-15
-- black friday steam [Global] — discovered — first 2026-11-15, last 2026-11-15
-- bob golden goal deposit scheme returns [Global] — discovered — first 2026-11-15, last 2026-11-15
-- cabelas first responder discount [Global] — discovered — first 2026-11-15, last 2026-11-15
-- cannes attendees [Global] — discovered — first 2026-11-15, last 2026-11-15
-- capcut template download apk [Global] — discovered — first 2026-11-15, last 2026-11-15
-- casino online 🇩🇪 casinod.cfd 🇩🇪 [Global] — discovered — first 2026-11-15, last 2026-11-15
-- casino utan spelpaus 🇸🇪 casinonisse.sbs [Global] — discovered — first 2026-11-15, last 2026-11-15
-- casino utan spelstopp 🇸🇪 casinonisse.sbs [Global] — discovered — first 2026-11-15, last 2026-11-15
-- casino utan svensk licens 🇸🇪 casinonisse.sbs [Global] — discovered — first 2026-11-15, last 2026-11-15
-- casino utan svensk spelpaus 🇸🇪 casinonisse.sbs 🇸🇪 [Global] — discovered — first 2026-11-15, last 2026-11-15
-- celestron starsense explorer 150mm tabletop dobsonian telescope [Global] — discovered — first 2026-11-15, last 2026-11-15
-- clickbank [Global] — discovered — first 2026-11-15, last 2026-11-15
-- code super loto vendredi 13 [Global] — discovered — first 2026-11-15, last 2026-11-15
-- comparator and comparable in java [Global] — discovered — first 2026-11-15, last 2026-11-15
-- comparator crafting recipe [Global] — discovered — first 2026-11-15, last 2026-11-15
-- constructor io [Global] — discovered — first 2026-11-15, last 2026-11-15
-- constructor theory [Global] — discovered — first 2026-11-15, last 2026-11-15
-- crochet beanie pattern [Global] — discovered — first 2026-11-15, last 2026-11-15
-- cup cat template [Global] — discovered — first 2026-11-15, last 2026-11-15
+- tirage super loto vendredi 13 [Global] — discovered — first 2026-11-15, last 2026-11-15
+- sender ne demek [Global] — discovered — first 2026-11-15, last 2026-11-15
 - curve rush [Global] — discovered — first 2026-11-15, last 2026-11-15
+- in future instances [Global] — discovered — first 2026-11-15, last 2026-11-15
+- arkanyst evaluator [Global] — discovered — first 2026-11-15, last 2026-11-15
+- trade analyzer fantasy baseball [Global] — discovered — first 2026-11-15, last 2026-11-15
+- comparator crafting recipe [Global] — discovered — first 2026-11-15, last 2026-11-15
+- mlb trade evaluator [Global] — discovered — first 2026-11-15, last 2026-11-15
+- trib meaning [Global] — discovered — first 2026-11-15, last 2026-11-15
+- rtl live stream [Global] — discovered — first 2026-11-15, last 2026-11-15
+- casino utan svensk spelpaus 🇸🇪 casinonisse.sbs 🇸🇪 [Global] — discovered — first 2026-11-15, last 2026-11-15
+- middle eastern confection crossword clue [Global] — discovered — first 2026-11-15, last 2026-11-15
+- payoneer [Global] — discovered — first 2026-11-15, last 2026-11-15
+- webreg rutgers [Global] — discovered — first 2026-11-15, last 2026-11-15
+- activetk [Global] — discovered — first 2026-11-15, last 2026-11-15
+- rtl responder [Global] — discovered — first 2026-11-15, last 2026-11-15
+- gta 6 online [Global] — discovered — first 2026-11-15, last 2026-11-15
+- fdj [Global] — discovered — first 2026-11-15, last 2026-11-15
+- euromillions [Global] — discovered — first 2026-11-15, last 2026-11-15
+- celestron starsense explorer 150mm tabletop dobsonian telescope [Global] — discovered — first 2026-11-15, last 2026-11-15
+- stratego [Global] — discovered — first 2026-11-15, last 2026-11-15
+- casino utan spelstopp 🇸🇪 casinonisse.sbs [Global] — discovered — first 2026-11-15, last 2026-11-15
+- stratego game [Global] — discovered — first 2026-11-15, last 2026-11-15
+- radio sender [Global] — discovered — first 2026-11-15, last 2026-11-15
+- doc brown marty mcfly flux capacitor [Global] — discovered — first 2026-11-15, last 2026-11-15
 
 ## Due for follow-up
 
