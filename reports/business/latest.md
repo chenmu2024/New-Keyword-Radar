@@ -1,6 +1,6 @@
 # OPC-inspired business evidence review
 
-Generated: 2026-11-13T03:13:55.873459+00:00
+Generated: 2026-11-14T02:58:50.968125+00:00
 
 **Advisory only.** The module does not collect keyword metrics, prove demand,
 approve a launch, or change the radar's formal verdict.
@@ -8,7 +8,7 @@ approve a launch, or change the radar's formal verdict.
 Formal radar candidates: 3.
 No candidate may be recommended for development without external source evidence.
 
-## fortnite tracker chest (Worldwide)
+## hookshot builder (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
@@ -16,7 +16,7 @@ No candidate may be recommended for development without external source evidence
 - Missing evidence: dated Volume/KD and source, dated SERP inspection and notes, dated reference-site traffic or verified recent-game signal, evidence-backed score: pain, evidence-backed score: leverage, evidence-backed score: timing, evidence-backed score: resource_fit, evidence-backed score: standardization, evidence-backed score: cashflow, monetization model, acquisition channel, estimated monthly fixed cost (USD)
 - Notes: Requires human decision
 
-## owain tracker (Worldwide)
+## hookshot builder github (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
@@ -24,7 +24,7 @@ No candidate may be recommended for development without external source evidence
 - Missing evidence: dated Volume/KD and source, dated SERP inspection and notes, dated reference-site traffic or verified recent-game signal, evidence-backed score: pain, evidence-backed score: leverage, evidence-backed score: timing, evidence-backed score: resource_fit, evidence-backed score: standardization, evidence-backed score: cashflow, monetization model, acquisition channel, estimated monthly fixed cost (USD)
 - Notes: Requires human decision
 
-## pirate token simulator (Worldwide)
+## warung life simulator (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
