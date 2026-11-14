@@ -1,13 +1,13 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-14T10:22:21.035551+00:00
-- Source last updated: 2026-11-14T10:22:21.035551+00:00
-- Trends archive: 2026-11-14 (74/74; complete=True)
-- Eligible multiword rising queries: 464
+- Generated: 2026-11-14T17:04:59.972017+00:00
+- Source last updated: 2026-11-14T17:04:59.972017+00:00
+- Trends archive: 2026-11-15 (74/74; complete=True)
+- Eligible multiword rising queries: 459
 - Cross-source matches within 72h review window: 2
-- Social current-run links: 54, prior recent sightings: 261
-- Search archives examined: 2026-11-14, 2026-11-13, 2026-11-12
-- Direct-post question-derived QUERY HYPOTHESES: 3
+- Social current-run links: 59, prior recent sightings: 265
+- Search archives examined: 2026-11-15, 2026-11-14, 2026-11-13
+- Direct-post question-derived QUERY HYPOTHESES: 2
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
@@ -20,7 +20,7 @@
 
 ## minimax h3 image
 
-- Relative Trends rising value: 450.0 (NOT Volume)
+- Relative Trends rising value: 500.0 (NOT Volume)
 - Distinct matched platforms: 2
 - Direct public-post question hints: 0
 - producthunt: https://www.producthunt.com/products/minimax (direct_public_feed)
@@ -28,9 +28,6 @@
 
 ## Original public-post question hints (NOT validated search keywords)
 
-- Proposed query: **ai style image that doesnt use absurd amounts of energy and**
-  - Original public post: https://bsky.app/profile/averycutedog.bsky.social/post/3mzxwd7gt2k2n
-  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **a convenient save pinterest content**
   - Original public post: https://mastodon.social/@99tools/117609408531653048
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
