@@ -1,6 +1,6 @@
 # 跨独立网站 Sitemap 同步上新观察
 
-观察截止：2026-11-14；滚动窗口：2026-11-08—2026-11-14（均为北京时间日期）。
+观察截止：2026-11-15；滚动窗口：2026-11-09—2026-11-15（均为北京时间日期）。
 
 **Sitemap 首见并不等于首次发行、真实24小时内上架或搜索量；同名和文件格式归并必须人工核实。**
 只有具备真实source_id、详情URL和first_seen的相对基线新增，才能成为候选。
@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-14T17:20:51.834842+08:00；详细候选：12000；7日轻量URL证据：11007/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：124/135；数据生成：2026-11-15T03:26:25.358432+08:00；详细候选：12000；7日轻量URL证据：9857/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：31/33来源，配置根域 30，新建基线 0，失败 2，新增 URL 108，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 26，采样上限遗漏 0。
 
 - **fashion world tour**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-12 · https://gamedistribution.com/games/fashion-world-tour/ · 原词 fashion world tour
@@ -48,21 +48,17 @@
   - y8.com · y8-en · 2026-11-12 · https://www.y8.com/games/dodge_one_life · 原词 dodge one life
   - gamepix.com · gamepix-pt · 2026-11-13 · https://www.gamepix.com/pt/play/dodge-one-life · 原词 dodge one life
 
-失败来源：armorgames-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)
+失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 155，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 49，采样上限遗漏 0。
 
 - **vidsembly**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - startupbase.io · startupbase-products · 2026-11-09 · https://startupbase.io/products/vidsembly · 原词 vidsembly
   - fazier.com · fazier-launches · 2026-11-10 · https://fazier.com/launches/vidsembly · 原词 vidsembly
   - openhunts.com · openhunts-projects · 2026-11-10 · https://openhunts.com/projects/vidsembly · 原词 vidsembly
   - uneed.best · uneed-products · 2026-11-11 · https://www.uneed.best/tool/vidsembly · 原词 vidsembly
-- **plimo**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - saascity.io · saascity-products · 2026-11-08 · https://saascity.io/live/plimo · 原词 plimo
-  - smollaunch.com · smollaunch-products · 2026-11-10 · https://smollaunch.com/products/plimo · 原词 plimo
-  - startupbase.io · startupbase-products · 2026-11-10 · https://startupbase.io/products/plimo · 原词 plimo
 - **aeo armory**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - saasworthy.com · saasworthy-products · 2026-11-12 · https://www.saasworthy.com/product/aeo-armory · 原词 aeo armory
   - saascity.io · saascity-products · 2026-11-13 · https://saascity.io/live/aeo-armory · 原词 aeo armory
@@ -72,9 +68,6 @@
 - **alook**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - startupbase.io · startupbase-products · 2026-11-10 · https://startupbase.io/products/alook · 原词 alook
   - saascity.io · saascity-products · 2026-11-12 · https://saascity.io/live/alook · 原词 alook
-- **arkwarden**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - saascity.io · saascity-products · 2026-11-08 · https://saascity.io/live/arkwarden · 原词 arkwarden
-  - smollaunch.com · smollaunch-products · 2026-11-10 · https://smollaunch.com/products/arkwarden · 原词 arkwarden
 - **bella and pan**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - productperch.com · productperch-products · 2026-11-11 · https://productperch.com/products/bella-and-pan/ · 原词 bella and pan
   - indietools.app · indietools-products · 2026-11-12 · https://www.indietools.app/products/bella-and-pan · 原词 bella and pan
@@ -87,33 +80,38 @@
 - **codexfuse solution**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - saascity.io · saascity-products · 2026-11-12 · https://saascity.io/live/codexfuse-solution · 原词 codexfuse solution
   - fazier.com · fazier-launches · 2026-11-13 · https://fazier.com/launches/codexfuse-solution · 原词 codexfuse solution
+- **convertlyft**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - productperch.com · productperch-products · 2026-11-09 · https://productperch.com/products/convertlyft/ · 原词 convertlyft
+  - saascity.io · saascity-products · 2026-11-09 · https://saascity.io/live/convertlyft · 原词 convertlyft
+- **country days tracker geostay**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - saascity.io · saascity-products · 2026-11-12 · https://saascity.io/live/country-days-tracker-geostay · 原词 country days tracker geostay
+  - indietools.app · indietools-products · 2026-11-14 · https://www.indietools.app/products/country-days-tracker-geostay · 原词 country days tracker geostay
 
-失败来源：startupstash-tools (HTTPError: HTTP Error 403: Forbidden)；microlaunch-products (TimeoutError: The read operation timed out)
+失败来源：microlaunch-products (TimeoutError: The read operation timed out)
 
 ## AI 工具和 Agent 目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 22，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 20，采样上限遗漏 0。
 
 - **wearai**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-11 · https://aitoolsdirectory.com/tool/wearai · 原词 wearai
   - aitoptools.com · aitoptools-tools · 2026-11-11 · https://aitoptools.com/tool/wearai/ · 原词 wearai
   - aiagentslist.com · aiagentslist-agents · 2026-11-12 · https://aiagentslist.com/agents/wearai · 原词 wearai
   - aitoolnet.com · aitoolnet-tools · 2026-11-13 · https://www.aitoolnet.com/wearai · 原词 wearai
-- **plimo**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-08 · https://aitoolsdirectory.com/tool/plimo · 原词 plimo
-  - aiapps.com · aiapps-tools · 2026-11-11 · https://www.aiapps.com/items/plimo/ · 原词 plimo
-  - aiagentslist.com · aiagentslist-agents · 2026-11-12 · https://aiagentslist.com/agents/plimo · 原词 plimo
 - **autosheet**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-13 · https://aitoolsdirectory.com/tool/autosheet · 原词 autosheet
   - futurepedia.io · futurepedia-tools · 2026-11-13 · https://www.futurepedia.io/tool/autosheet · 原词 autosheet
 - **hotel lobby ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolnet.com · aitoolnet-tools · 2026-11-09 · https://www.aitoolnet.com/hotel-lobby-ai · 原词 hotel lobby ai
   - toolveyor.com · toolveyor-tools · 2026-11-11 · https://toolveyor.com/hotel-lobby-ai · 原词 hotel lobby ai
+- **plimo**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aiapps.com · aiapps-tools · 2026-11-11 · https://www.aiapps.com/items/plimo/ · 原词 plimo
+  - aiagentslist.com · aiagentslist-agents · 2026-11-12 · https://aiagentslist.com/agents/plimo · 原词 plimo
 - **yellow ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - dang.ai · dangai-tools · 2026-11-12 · https://dang.ai/tool/yellow-ai · 原词 yellow ai
   - toolveyor.com · toolveyor-tools · 2026-11-13 · https://toolveyor.com/yellow-ai · 原词 yellow ai
 
-失败来源：nextool-tools (HTTPError: HTTP Error 503: Service Unavailable)
+失败来源：aiapps-tools (TimeoutError: The read operation timed out)；nextool-tools (HTTPError: HTTP Error 503: Service Unavailable)
 
 ## 计算器
 
@@ -125,7 +123,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 20，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -133,17 +131,17 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 92，采样上限遗漏 0。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 127，采样上限遗漏 0。
 
-- **activecampaign**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - devhunt.org · devhunt-tools · 2026-11-08 · https://devhunt.org/tool/activecampaign · 原词 activecampaign
-  - activepieces.com · activepieces-pieces · 2026-11-11 · https://www.activepieces.com/pieces/beehiiv/activecampaign · 原词 activecampaign
+**0：本类尚无两家以上不同域名的同步新增证据。**
 
 ## 巴西在线工具
 
-采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
+采集：9/10来源，配置根域 10，新建基线 0，失败 1，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
+
+失败来源：devdata4-br (HTTPError: HTTP Error 429: Too Many Requests)
 
 ## 跨类别同名或同向文件转换（仅作人工复核）
 
@@ -155,9 +153,7 @@
   - saas · fazier-launches · 2026-11-10 · https://fazier.com/launches/vidsembly
   - saas · openhunts-projects · 2026-11-10 · https://openhunts.com/projects/vidsembly
   - saas · uneed-products · 2026-11-11 · https://www.uneed.best/tool/vidsembly
-- plimo：独立根域 6 家；类别 ai, saas
-  - ai · aitoolsdirectory-tools · 2026-11-08 · https://aitoolsdirectory.com/tool/plimo
-  - saas · saascity-products · 2026-11-08 · https://saascity.io/live/plimo
+- plimo：独立根域 4 家；类别 ai, saas
   - saas · smollaunch-products · 2026-11-10 · https://smollaunch.com/products/plimo
   - saas · startupbase-products · 2026-11-10 · https://startupbase.io/products/plimo
   - ai · aiapps-tools · 2026-11-11 · https://www.aiapps.com/items/plimo/
@@ -184,9 +180,9 @@
 - ste80 humanizer：独立根域 2 家；类别 ai, saas
   - saas · productperch-products · 2026-11-10 · https://productperch.com/products/ste80-humanizer/
   - ai · aitoolnet-tools · 2026-11-11 · https://www.aitoolnet.com/ste80-humanizer
-- fino3d：独立根域 2 家；类别 ai, saas
-  - saas · fazier-launches · 2026-11-08 · https://fazier.com/launches/fino3d
-  - ai · aitoolsdirectory-tools · 2026-11-10 · https://aitoolsdirectory.com/tool/fino3d
+- marketstory：独立根域 2 家；类别 developer, saas
+  - developer · devhunt-tools · 2026-11-12 · https://devhunt.org/tool/marketstory
+  - saas · uneed-products · 2026-11-14 · https://www.uneed.best/tool/marketstory
 
 ### 跨类别同向文件转换
 
