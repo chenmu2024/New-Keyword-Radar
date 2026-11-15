@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-15T17:42:30.249015+00:00
+# V4 Social signal discovery — 2026-11-15T23:22:34.144279+00:00
 
-- Unique links this run: 56, newly seen: 18, history: 1865
+- Unique links this run: 52, newly seen: 10, history: 1875
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (5) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (1) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (27)
@@ -20,35 +20,31 @@
 
 ## Links (not validated project opportunities)
 
+- [Frevana Multiplayer](https://www.producthunt.com/products/frevana-2) — producthunt — direct_public_feed
+- [Canvas by AgentGrid.io](https://www.producthunt.com/products/agentgrid-io) — producthunt — direct_public_feed
+- [Tulvo](https://www.producthunt.com/products/tulvo) — producthunt — direct_public_feed
 - [Talyn](https://www.producthunt.com/products/talyn) — producthunt — direct_public_feed
 - [Rakazo](https://www.producthunt.com/products/rakazo) — producthunt — direct_public_feed
-- [Tulvo](https://www.producthunt.com/products/tulvo) — producthunt — direct_public_feed
 - [TwoBucket](https://www.producthunt.com/products/twobucket) — producthunt — direct_public_feed
-- [Canvas by AgentGrid.io](https://www.producthunt.com/products/agentgrid-io) — producthunt — direct_public_feed
-- [Spiik](https://www.producthunt.com/products/spiik) — producthunt — direct_public_feed
-- [Asma-141414/Concrete-Quantity-Estimator](https://huggingface.co/spaces/Asma-141414/Concrete-Quantity-Estimator) — huggingface — direct_public_api
-- [thoughtspot-demoprep/baker-hughes](https://huggingface.co/spaces/thoughtspot-demoprep/baker-hughes) — huggingface — direct_public_api
-- [joakodashing/sonicCD-Web](https://huggingface.co/spaces/joakodashing/sonicCD-Web) — huggingface — direct_public_api
-- [Ackwnswb/Bahia-comoda](https://huggingface.co/spaces/Ackwnswb/Bahia-comoda) — huggingface — direct_public_api
-- [ijohn07/ava](https://huggingface.co/spaces/ijohn07/ava) — huggingface — direct_public_api
-- [Giridhar143/hf_spaces](https://huggingface.co/spaces/Giridhar143/hf_spaces) — huggingface — direct_public_api
-- [Instagram para negócios sem mais um ano igual Continuar como está também custa. Postar e não vender, mais um mês, mais um ano. Estratégia de conteúdo: o outro caminho. https://so](https://bsky.app/profile/nauroluz.bsky.social/post/3n2ekqm4owm2f) — bluesky — direct_public_post
-- [Vídeo com poucas visualizações? Fazer vídeos que viralizam Vídeo com poucas visualizações? Isso já dura tempo demais para continuar sendo tratado como falta de vontade. Roteiros p](https://bsky.app/profile/ideabook.bsky.social/post/3n2eko2iuqz2q) — bluesky — direct_public_post
-- [🚨 O Barcelona identificou o defensor do Manchester City, Josko Gvardiol, como um alvo principal para fazer parceria com Pau Cubarsi. O croata de 24 anos pode ficar disponível se o](https://bsky.app/profile/matheusfutebol.bsky.social/post/3n2ejsqr3t22j) — bluesky — direct_public_post
-- ["Nesse caos informacional de disputas narrativas, acho que o melhor a fazer para se esclarecer é ouvir o Thiago Resiste". Não, né, galera? Porra, se a esta altura vocês ainda não](https://bsky.app/profile/donpatito.bsky.social/post/3n2ejsbh72s25) — bluesky — direct_public_post
-- [i could fix jesse pinkman e a jane. o jesse eu abriria uma conta no bsky p ele ensinaria ele sobre os furries e como fazer zines a Jane eu ia apresentar o estudio de tatu dos viado](https://bsky.app/profile/jujuthekid.bsky.social/post/3n2ejqmyjc22o) — bluesky — direct_public_post — intent keyword found
-- [Ronaldinho Gaúcho voltou a fazer o que mais ama: jogar futebol! Com 46 anos, ele iniciou como titular no Ravenna na Série C italiana, 11 anos após sua última partida profissional.](https://bsky.app/profile/tdtnews.bsky.social/post/3n2ejml4zrl2z) — bluesky — direct_public_post
-- [Worth bookmarking: Tucas Flatten PDF. Keep visible page appearance. # PDF # WebTools https:// tucastools.com/en/flatten-pdf/](https://mastodon.social/@tucas/117620394439138635) — mastodon — direct_public_post
-- [Tucas Document Scanner workflow: Setting: Use Auto for Document, manual Perspective, Color, Adjust and Distort to refine your document → Distort handles: After Apply, drag these ha](https://mastodon.social/@tucas/117617523580881497) — mastodon — direct_public_post
-- [How Tucas Simple PDF Editor can help: Reduce casual editing of page objects. Export editable or flattened PDF locally. # PDF # WebTools https:// tucastools.com/en/simple-pdf-e dito](https://mastodon.social/@tucas/117614591749903681) — mastodon — direct_public_post — intent keyword found
-- [Tucas PDF Merge & Split workflow: Choose PDF, image, design, or document files supported by the current policy → Arrange pages in the desired order; remove any unwanted pages → Use](https://mastodon.social/@tucas/117611541286357492) — mastodon — direct_public_post
-- [Quick overview at my qr code generator website. https:// qrcodestation.com # FreeQRGenerator # QRCodeGenerator # QR # QRGenerator # CreateQRCode # QRTools # FreeOnlineTools # Onlin](https://mastodon.social/@bstha/117610046166451855) — mastodon — direct_public_post — intent keyword found
+- [Ghariba/My.voice.stidio](https://huggingface.co/spaces/Ghariba/My.voice.stidio) — huggingface — direct_public_api
+- [indahl/yo-demo](https://huggingface.co/spaces/indahl/yo-demo) — huggingface — direct_public_api
+- [andersonagostinho/Astro_Skill_IA](https://huggingface.co/spaces/andersonagostinho/Astro_Skill_IA) — huggingface — direct_public_api
+- [mariychuks/moto-match](https://huggingface.co/spaces/mariychuks/moto-match) — huggingface — direct_public_api
+- [Ludding/NUBECALLEORBITA](https://huggingface.co/spaces/Ludding/NUBECALLEORBITA) — huggingface — direct_public_api
+- [aa333333455/Aaa](https://huggingface.co/spaces/aa333333455/Aaa) — huggingface — direct_public_api
+- [Antes de recomendarte una solución, necesito saber esto. Muchos negocios compran la herramienta antes de entender el problema. 3 preguntas clave: tiempo, clientes, tareas a mano.](https://bsky.app/profile/byledifj.bsky.social/post/3mzx5g3lf5u25) — bluesky — direct_public_post
+- [Con dinero de la empresa. Vamos, que no le pido herramienta al jefe, compro lo que necesito y le paso la factura.](https://bsky.app/profile/infilanak.satan.social/post/3mzizkmmrz22e) — bluesky — direct_public_post
+- [Si os dijera que estoy pensando compartir la herramienta que he creado autores ¿Qué os parecería? Estoy pensando en dejársela probar a algunas personas para comprobar que lo que a](https://bsky.app/profile/piramidedeespejo.bsky.social/post/3mzboeus6ik2a) — bluesky — direct_public_post
+- [Yo no necesito valoración sobre el tamaño de mi "herramienta" está muy bien, no he tenido quejas ni las tengo yo.. hay quien dice que es grande, para mí es medio normal, también es](https://bsky.app/profile/brokench.bsky.social/post/3mz3trit4622f) — bluesky — direct_public_post
+- [Creo que se ha ido para siempre, porque no tengo ninguna intención de reinstalar a corto plazo. También te digo que si tú tienes tanto control sobre esa herramienta, perfecto (yo n](https://bsky.app/profile/mazapanes.bsky.social/post/3mz23wx4lsc2r) — bluesky — direct_public_post
+- [Necesito parar y analizar este "comunicado" que nos enviaron ayer en el condo... Ignoremos lo obvio, el mal uso de una herramienta que podría ser útil, pero que más bien se ha usad](https://bsky.app/profile/unodien.bsky.social/post/3myzkd562uc24) — bluesky — direct_public_post
+- [Nothing But Time I recently read a blog post about the Cost of Blogging. There were some great points there and it made me wonder if I am doing this right? https:// readbeanicecrea](https://mastodon.social/@readbeanicecream/117622633113671784) — mastodon — direct_public_post
+- [Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence](https://news.ycombinator.com/item?id=50510042) — hackernews_ask — direct_public_post
+- [Ask HN: What do coding interviews look like in the age of AI?](https://news.ycombinator.com/item?id=50510540) — hackernews_ask — direct_public_post
 - [Ask HN: What does building hardware with AI look like?](https://news.ycombinator.com/item?id=50508089) — hackernews_ask — direct_public_post
-- [Ask HN: Which open source LLM works best locally, and on what hardware?](https://news.ycombinator.com/item?id=50508142) — hackernews_ask — direct_public_post
-- [Ask HN: Dropbox privacy policy, cause for concern?](https://news.ycombinator.com/item?id=50504514) — hackernews_ask — direct_public_post
+- [Ask HN: What are you working on? (November 2026)](https://news.ycombinator.com/item?id=50417407) — hackernews_ask — direct_public_post
 - [Vercel should fork and maintain Deno](https://news.ycombinator.com/item?id=50497196) — hackernews_ask — direct_public_post
 - [Tell HN: Google Search to start locking down search behind a login wall](https://news.ycombinator.com/item?id=50491617) — hackernews_ask — direct_public_post
-- [Ask HN: What are you working on? (November 2026)](https://news.ycombinator.com/item?id=50417407) — hackernews_ask — direct_public_post
 - [MOTHERSHIP: coordinate AXOM development and operations](https://github.com/jaclose/AXOM/issues/106) — github_issue — direct_public_issue_api
 - [APEX: Autonomous Job-to-Cash Engine — discovery → winning → execution → payout](https://github.com/ldavis2700/ai-revenue-agent/issues/85) — github_issue — direct_public_issue_api
 - [Diamond Gate Graphics Engine — AI-entry source capability inventory and closure register (Checkpoint 01)](https://github.com/smansfield635-create/smansfield635-create.github.io/issues/7108) — github_issue — direct_public_issue_api — intent keyword found
@@ -60,3 +56,7 @@
 - [O’Pip V6 — ChatGPT ↔ Claude engineering connection (isolated relay)](https://github.com/Opr1130/OHM-Trade-Agent-v1/issues/569) — github_issue — direct_public_issue_api
 - [[Warehouse EPIC: P4 — India statutory & compliance](https://github.com/neetub1508/warehouse-issues/issues/8) — github_issue — direct_public_issue_api
 - [Integration coordinator: recurring PR, version and merge coordination](https://github.com/StealthCat/MrPatchy/issues/222) — github_issue — direct_public_issue_api
+- [Invoice OCR API for Logistics Expense Tracking Automation](https://news.ycombinator.com/item?id=47362152) — hackernews_ask — indexed_public_post_excerpt
+- [Invoice OCR API for Automated GST Data Extraction in India](https://news.ycombinator.com/item?id=47348462) — hackernews_ask — indexed_public_post_excerpt
+- [FinCrew: Multi-Agent AI Financial Intelligence](https://news.ycombinator.com/item?id=47148718) — hackernews_ask — indexed_public_post_excerpt
+- [GodHands – Deterministic Desktop Automation via MCP](https://news.ycombinator.com/item?id=46996023) — hackernews_ask — indexed_public_post_excerpt
