@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T22:58:02.729505+00:00",
-  "social_generated_at": "2026-11-14T22:58:02.729505+00:00",
+  "generated_at": "2026-11-15T02:38:15.010222+00:00",
+  "social_generated_at": "2026-11-15T02:38:15.010222+00:00",
   "trends_coverage": {
     "archive_date": "2026-11-15",
     "scanned_seed_count": 74,
@@ -39,14 +39,40 @@
     ],
     "exact_queries_in_window": 734,
     "social_current_run": 53,
-    "social_prior_sightings_72h": 263,
-    "social_reviewable_72h": 316,
+    "social_prior_sightings_72h": 254,
+    "social_reviewable_72h": 307,
     "window_hours": 72,
     "not_new_discoveries_warning": "Window includes older links recently re-seen. Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."
   },
   "cross_matches": 2,
-  "public_question_hypotheses": 2,
+  "public_question_hypotheses": 4,
   "query_hypotheses": [
+    {
+      "proposed_query": "them for flashbacks a manga cat that s not proprietary and",
+      "original_post_url": "https://bsky.app/profile/jmitsu.bsky.social/post/3n2cwzgqjz225",
+      "original_platform": "bluesky",
+      "original_post_text": "-Files that don't periodically disappear off the servers--for some publishers, I buy my own books because I know the older volumes will be taken down and I need them for flashbacks -A manga CAT tool that's not proprietary and doesn't require uploading files",
+      "published_at": "2026-11-15T02:16:12.710000+00:00",
+      "demand_status": "unverified_question_hint",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "actual_user_paid": false,
+      "ready_to_build": false,
+      "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
+    },
+    {
+      "proposed_query": "it can easily be misused",
+      "original_post_url": "https://bsky.app/profile/realeyesseelies.bsky.social/post/3n2clvtdbis2l",
+      "original_platform": "bluesky",
+      "original_post_text": "AI is a tool, and like any tool it can easily be misused. Data centers are an imminent threat to the environment and need to be shut down immediately. When local officials routinely sign NDAs then vote for these centers to be built, it's time to break out the cuffs.",
+      "published_at": "2026-11-14T22:57:20.531000+00:00",
+      "demand_status": "unverified_question_hint",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "actual_user_paid": false,
+      "ready_to_build": false,
+      "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
+    },
     {
       "proposed_query": "a convenient save pinterest content",
       "original_post_url": "https://mastodon.social/@99tools/117609408531653048",
@@ -107,20 +133,9 @@
       "relative_rising_value": 500.0,
       "seed": "image",
       "sources": {
-        "producthunt": 1,
         "huggingface": 1
       },
       "links": [
-        {
-          "platform": "producthunt",
-          "url": "https://www.producthunt.com/products/minimax",
-          "title": "MiniMax H3-Image",
-          "published_at": "2026-11-10T16:35:28+00:00",
-          "evidence_type": "direct_public_feed",
-          "potential_first_person_question": false,
-          "verified_customer_demand": false,
-          "original_comments_verified": false
-        },
         {
           "platform": "huggingface",
           "url": "https://huggingface.co/spaces/yingzhac/MiniMax-H3-Image-INT8",
@@ -132,8 +147,8 @@
           "original_comments_verified": false
         }
       ],
-      "independent_platforms": 2,
-      "distinct_urls": 2,
+      "independent_platforms": 1,
+      "distinct_urls": 1,
       "original_post_question_hints": 0,
       "ready_to_build": false,
       "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
