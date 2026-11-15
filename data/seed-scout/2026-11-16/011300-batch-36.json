@@ -1,0 +1,105 @@
+{
+  "batch_id": "2026-11-15T17:13:00.122304+00:00-36-37-38-39-40",
+  "generated_at": "2026-11-15T17:13:00.122304+00:00",
+  "local_generated_at": "2026-11-16T01:13:00.122304+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "converter",
+    "viewer",
+    "extractor",
+    "monitor",
+    "notifier"
+  ],
+  "seed_indices": [
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "start_index": 36,
+  "discoveries": [
+    {
+      "seed": "notifier",
+      "query": "x notifier firefox",
+      "rise_value": 11100.0,
+      "raw_value": 11100
+    },
+    {
+      "seed": "monitor",
+      "query": "monitor k hernímu počítači",
+      "rise_value": 9050.0,
+      "raw_value": 9050
+    },
+    {
+      "seed": "monitor",
+      "query": "thomas markle ankle monitor escape",
+      "rise_value": 2750.0,
+      "raw_value": 2750
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier définition",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "monitor",
+      "query": "aqi monitor",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "extractor",
+      "query": "honey extractor",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier for gmail",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier grade 12 cevap anahtarı",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "notifier",
+      "query": "gmail notifier",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "scs extractor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "monitor",
+      "query": "best monitor for ps5",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "extractor",
+      "query": "hdmi arc audio extractor",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "monitor",
+      "query": "sceptre monitor",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 13
+}
