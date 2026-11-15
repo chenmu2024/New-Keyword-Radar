@@ -1,6 +1,6 @@
 # 跨独立网站 Sitemap 同步上新观察
 
-观察截止：2026-11-15；滚动窗口：2026-11-09—2026-11-15（均为北京时间日期）。
+观察截止：2026-11-16；滚动窗口：2026-11-10—2026-11-16（均为北京时间日期）。
 
 **Sitemap 首见并不等于首次发行、真实24小时内上架或搜索量；同名和文件格式归并必须人工核实。**
 只有具备真实source_id、详情URL和first_seen的相对基线新增，才能成为候选。
@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-15T17:50:22.852137+08:00；详细候选：12000；7日轻量URL证据：10140/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：125/135；数据生成：2026-11-16T03:55:43.743975+08:00；详细候选：12000；7日轻量URL证据：10294/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：30/33来源，配置根域 30，新建基线 0，失败 3，新增 URL 76，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 11，采样上限遗漏 0。
 
 - **fashion world tour**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-12 · https://gamedistribution.com/games/fashion-world-tour/ · 原词 fashion world tour
@@ -22,16 +22,13 @@
   - gamedistribution.com · gamedistribution-games · 2026-11-10 · https://gamedistribution.com/games/stealth-shooter/ · 原词 stealth shooter
   - minijuegos.com · minijuegos-es · 2026-11-11 · https://www.minijuegos.com/juego/stealth-shooter · 原词 stealth shooter
   - 1001games.com · 1001games-en · 2026-11-12 · https://www.1001games.com/arcade/stealth-shooter · 原词 stealth shooter
-- **garden tales 5**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamedistribution.com · gamedistribution-games · 2026-11-09 · https://gamedistribution.com/games/garden-tales-5/ · 原词 garden tales 5
-  - bgames.com · bgames-en · 2026-11-11 · https://www.bgames.com/game/garden-tales-5/ · 原词 garden tales 5
-  - kizi.com · kizi-en · 2026-11-12 · https://kizi.com/games/garden-tales-5 · 原词 garden tales 5
+- **juice sort**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamepix.com · gamepix-en · 2026-11-13 · https://www.gamepix.com/play/juice-sort · 原词 juice sort
+  - playgama.com · playgama-en · 2026-11-14 · https://playgama.com/game/juice-sort · 原词 juice sort
+  - gamedistribution.com · gamedistribution-games · 2026-11-16 · https://gamedistribution.com/games/juice-sort/ · 原词 juice sort
 - **battlecross**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - jogos360.com.br · jogos360-br · 2026-11-11 · https://www.jogos360.com.br/battlecross.html · 原词 battlecross
   - minijuegos.com · minijuegos-es · 2026-11-11 · https://www.minijuegos.com/juego/battlecross · 原词 battlecross
-- **bogatyrs**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamedistribution.com · gamedistribution-games · 2026-11-09 · https://gamedistribution.com/games/bogatyrs/ · 原词 bogatyrs
-  - gamepix.com · gamepix-pt · 2026-11-10 · https://www.gamepix.com/pt/play/bogatyrs · 原词 bogatyrs
 - **car wash simulator**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - minijuegos.com · minijuegos-es · 2026-11-11 · https://www.minijuegos.com/juego/car-wash-simulator · 原词 car wash simulator
   - gamepix.com · gamepix-pt · 2026-11-12 · https://www.gamepix.com/pt/play/car-wash-simulator · 原词 car wash simulator
@@ -47,15 +44,17 @@
 - **dodge one life**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - y8.com · y8-en · 2026-11-12 · https://www.y8.com/games/dodge_one_life · 原词 dodge one life
   - gamepix.com · gamepix-pt · 2026-11-13 · https://www.gamepix.com/pt/play/dodge-one-life · 原词 dodge one life
+- **fillwords word search**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamedistribution.com · gamedistribution-games · 2026-11-11 · https://gamedistribution.com/games/fillwords%3A-word-search/ · 原词 fillwords: word search
+  - 1001games.com · 1001games-en · 2026-11-12 · https://www.1001games.com/puzzle/fillwords-word-search · 原词 fillwords word search
 
-失败来源：armorgames-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；gamenora-en (HTTPError: HTTP Error 415: Unsupported Media Type)
+失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 141，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 37，采样上限遗漏 0。
 
-- **vidsembly**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - startupbase.io · startupbase-products · 2026-11-09 · https://startupbase.io/products/vidsembly · 原词 vidsembly
+- **vidsembly**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-10 · https://fazier.com/launches/vidsembly · 原词 vidsembly
   - openhunts.com · openhunts-projects · 2026-11-10 · https://openhunts.com/projects/vidsembly · 原词 vidsembly
   - uneed.best · uneed-products · 2026-11-11 · https://www.uneed.best/tool/vidsembly · 原词 vidsembly
@@ -74,24 +73,24 @@
 - **bella and pan**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - productperch.com · productperch-products · 2026-11-11 · https://productperch.com/products/bella-and-pan/ · 原词 bella and pan
   - indietools.app · indietools-products · 2026-11-12 · https://www.indietools.app/products/bella-and-pan · 原词 bella and pan
-- **breakly screen time limit**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - indietools.app · indietools-products · 2026-11-09 · https://www.indietools.app/products/breakly-screen-time-limit · 原词 breakly screen time limit
-  - indieneed.com · indieneed-products · 2026-11-10 · https://www.indieneed.com/products/breakly-screen-time-limit · 原词 breakly screen time limit
 - **calzivo**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - indietools.app · indietools-products · 2026-11-12 · https://www.indietools.app/products/calzivo · 原词 calzivo
   - productperch.com · productperch-products · 2026-11-12 · https://productperch.com/products/calzivo/ · 原词 calzivo
+- **camera wedding**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - productperch.com · productperch-products · 2026-11-15 · https://productperch.com/products/camera-wedding/ · 原词 camera wedding
+  - indietools.app · indietools-products · 2026-11-16 · https://www.indietools.app/products/camera-wedding · 原词 camera wedding
 - **codexfuse solution**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - saascity.io · saascity-products · 2026-11-12 · https://saascity.io/live/codexfuse-solution · 原词 codexfuse solution
   - fazier.com · fazier-launches · 2026-11-13 · https://fazier.com/launches/codexfuse-solution · 原词 codexfuse solution
-- **convertlyft**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - productperch.com · productperch-products · 2026-11-09 · https://productperch.com/products/convertlyft/ · 原词 convertlyft
-  - saascity.io · saascity-products · 2026-11-09 · https://saascity.io/live/convertlyft · 原词 convertlyft
+- **country days tracker geostay**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - saascity.io · saascity-products · 2026-11-12 · https://saascity.io/live/country-days-tracker-geostay · 原词 country days tracker geostay
+  - indietools.app · indietools-products · 2026-11-14 · https://www.indietools.app/products/country-days-tracker-geostay · 原词 country days tracker geostay
 
-失败来源：startupstash-tools (HTTPError: HTTP Error 403: Forbidden)；microlaunch-products (TimeoutError: The read operation timed out)
+失败来源：fazier-launches (HTTPError: HTTP Error 502: Bad Gateway)；microlaunch-products (TimeoutError: The read operation timed out)
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 72，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 49，采样上限遗漏 0。
 
 - **wearai**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-11 · https://aitoolsdirectory.com/tool/wearai · 原词 wearai
@@ -101,15 +100,15 @@
 - **autosheet**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-13 · https://aitoolsdirectory.com/tool/autosheet · 原词 autosheet
   - futurepedia.io · futurepedia-tools · 2026-11-13 · https://www.futurepedia.io/tool/autosheet · 原词 autosheet
-- **hotel lobby ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - aitoolnet.com · aitoolnet-tools · 2026-11-09 · https://www.aitoolnet.com/hotel-lobby-ai · 原词 hotel lobby ai
-  - toolveyor.com · toolveyor-tools · 2026-11-11 · https://toolveyor.com/hotel-lobby-ai · 原词 hotel lobby ai
 - **plimo**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aiapps.com · aiapps-tools · 2026-11-11 · https://www.aiapps.com/items/plimo/ · 原词 plimo
   - aiagentslist.com · aiagentslist-agents · 2026-11-12 · https://aiagentslist.com/agents/plimo · 原词 plimo
 - **yellow ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - dang.ai · dangai-tools · 2026-11-12 · https://dang.ai/tool/yellow-ai · 原词 yellow ai
   - toolveyor.com · toolveyor-tools · 2026-11-13 · https://toolveyor.com/yellow-ai · 原词 yellow ai
+- **ai rap video generator**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - dang.ai · dangai-tools · 2026-11-10 · https://dang.ai/tool/ai-rap-video-generator · 原词 ai rap video generator
+  - toolveyor.com · toolveyor-tools · 2026-11-16 · https://toolveyor.com/ai-rap-video-generator · 原词 ai rap video generator
 
 ## 计算器
 
@@ -129,22 +128,23 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 2，采样上限遗漏 0。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 1775，采样上限遗漏 1541。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
 ## 巴西在线工具
 
-采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
+采集：9/10来源，配置根域 10，新建基线 0，失败 1，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
+
+失败来源：devdata4-br (HTTPError: HTTP Error 429: Too Many Requests)
 
 ## 跨类别同名或同向文件转换（仅作人工复核）
 
 ### 跨SaaS和AI的同名产品
 
-- vidsembly：独立根域 5 家；类别 ai, saas
-  - saas · startupbase-products · 2026-11-09 · https://startupbase.io/products/vidsembly
+- vidsembly：独立根域 4 家；类别 ai, saas
   - ai · aitoolnet-tools · 2026-11-10 · https://www.aitoolnet.com/vidsembly
   - saas · fazier-launches · 2026-11-10 · https://fazier.com/launches/vidsembly
   - saas · openhunts-projects · 2026-11-10 · https://openhunts.com/projects/vidsembly

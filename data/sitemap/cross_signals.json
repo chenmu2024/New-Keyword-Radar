@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-15",
-  "window_start": "2026-11-09",
+  "date": "2026-11-16",
+  "window_start": "2026-11-10",
   "source_count": 135,
   "queue_count": 12000,
   "ignored_unverifiable_proofs": 0,
@@ -79,7 +79,7 @@
         ]
       },
       {
-        "query": "garden tales 5",
+        "query": "juice sort",
         "independent_websites": 3,
         "date_span_days": 3,
         "priority": "medium",
@@ -89,27 +89,27 @@
         "seven_calendar_day_total": 3,
         "evidence": [
           {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/juice-sort",
+            "first_seen": "2026-11-13",
+            "observed_query": "juice sort",
+            "source_category": "games"
+          },
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/juice-sort",
+            "first_seen": "2026-11-14",
+            "observed_query": "juice sort",
+            "source_category": "games"
+          },
+          {
             "source_id": "gamedistribution-games",
             "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/garden-tales-5/",
-            "first_seen": "2026-11-09",
-            "observed_query": "garden tales 5",
-            "source_category": "games"
-          },
-          {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/garden-tales-5/",
-            "first_seen": "2026-11-11",
-            "observed_query": "garden tales 5",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/garden-tales-5",
-            "first_seen": "2026-11-12",
-            "observed_query": "garden tales 5",
+            "url": "https://gamedistribution.com/games/juice-sort/",
+            "first_seen": "2026-11-16",
+            "observed_query": "juice sort",
             "source_category": "games"
           }
         ]
@@ -339,34 +339,6 @@
         ]
       },
       {
-        "query": "bogatyrs",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/bogatyrs/",
-            "first_seen": "2026-11-09",
-            "observed_query": "bogatyrs",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/bogatyrs",
-            "first_seen": "2026-11-10",
-            "observed_query": "bogatyrs",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "car wash simulator",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -479,7 +451,7 @@
         ]
       },
       {
-        "query": "juice sort",
+        "query": "garden tales 5",
         "independent_websites": 2,
         "date_span_days": 1,
         "priority": "medium",
@@ -489,19 +461,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/juice-sort",
-            "first_seen": "2026-11-13",
-            "observed_query": "juice sort",
+            "source_id": "bgames-en",
+            "website": "bgames.com",
+            "url": "https://www.bgames.com/game/garden-tales-5/",
+            "first_seen": "2026-11-11",
+            "observed_query": "garden tales 5",
             "source_category": "games"
           },
           {
-            "source_id": "playgama-en",
-            "website": "playgama.com",
-            "url": "https://playgama.com/game/juice-sort",
-            "first_seen": "2026-11-14",
-            "observed_query": "juice sort",
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/garden-tales-5",
+            "first_seen": "2026-11-12",
+            "observed_query": "garden tales 5",
             "source_category": "games"
           }
         ]
@@ -1011,6 +983,34 @@
         ]
       },
       {
+        "query": "obby sail for egg",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/obby-sail-for-egg",
+            "first_seen": "2026-11-12",
+            "observed_query": "obby sail for egg",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/obby-sail-for-egg/",
+            "first_seen": "2026-11-16",
+            "observed_query": "obby sail for egg",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "oxy arena",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -1235,9 +1235,9 @@
         ]
       },
       {
-        "query": "ant empire colony clash",
+        "query": "pop arrow",
         "independent_websites": 2,
-        "date_span_days": 6,
+        "date_span_days": 5,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -1245,19 +1245,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/ant-empire%3A-colony-clash/",
-            "first_seen": "2026-11-09",
-            "observed_query": "ant empire: colony clash",
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/pop-arrow",
+            "first_seen": "2026-11-11",
+            "observed_query": "pop arrow",
             "source_category": "games"
           },
           {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/ant_empire_colony_clash",
-            "first_seen": "2026-11-15",
-            "observed_query": "ant empire colony clash",
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/pop-arrow/",
+            "first_seen": "2026-11-16",
+            "observed_query": "pop arrow",
             "source_category": "games"
           }
         ]
@@ -1266,22 +1266,14 @@
     "products": [
       {
         "query": "vidsembly",
-        "independent_websites": 5,
-        "date_span_days": 2,
+        "independent_websites": 4,
+        "date_span_days": 1,
         "priority": "high",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 3,
-        "three_calendar_day_peak": 5,
-        "seven_calendar_day_total": 5,
+        "three_calendar_day_peak": 4,
+        "seven_calendar_day_total": 4,
         "evidence": [
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/vidsembly",
-            "first_seen": "2026-11-09",
-            "observed_query": "vidsembly",
-            "source_category": "saas"
-          },
           {
             "source_id": "aitoolnet-tools",
             "website": "aitoolnet.com",
@@ -1533,34 +1525,6 @@
         ]
       },
       {
-        "query": "convertlyft",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/convertlyft/",
-            "first_seen": "2026-11-09",
-            "observed_query": "convertlyft",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/convertlyft",
-            "first_seen": "2026-11-09",
-            "observed_query": "convertlyft",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "dusty",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -1757,7 +1721,7 @@
         ]
       },
       {
-        "query": "breakly screen time limit",
+        "query": "camera wedding",
         "independent_websites": 2,
         "date_span_days": 1,
         "priority": "medium",
@@ -1767,19 +1731,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "indietools-products",
-            "website": "indietools.app",
-            "url": "https://www.indietools.app/products/breakly-screen-time-limit",
-            "first_seen": "2026-11-09",
-            "observed_query": "breakly screen time limit",
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/camera-wedding/",
+            "first_seen": "2026-11-15",
+            "observed_query": "camera wedding",
             "source_category": "saas"
           },
           {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/breakly-screen-time-limit",
-            "first_seen": "2026-11-10",
-            "observed_query": "breakly screen time limit",
+            "source_id": "indietools-products",
+            "website": "indietools.app",
+            "url": "https://www.indietools.app/products/camera-wedding",
+            "first_seen": "2026-11-16",
+            "observed_query": "camera wedding",
             "source_category": "saas"
           }
         ]
@@ -2037,34 +2001,6 @@
         ]
       },
       {
-        "query": "planart",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/planart",
-            "first_seen": "2026-11-09",
-            "observed_query": "planart",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "openhunts-projects",
-            "website": "openhunts.com",
-            "url": "https://openhunts.com/projects/planart",
-            "first_seen": "2026-11-10",
-            "observed_query": "planart",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "ste80 humanizer",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -2313,34 +2249,6 @@
             "first_seen": "2026-11-14",
             "observed_query": "country days tracker geostay",
             "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "hotel lobby ai",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/hotel-lobby-ai",
-            "first_seen": "2026-11-09",
-            "observed_query": "hotel lobby ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/hotel-lobby-ai",
-            "first_seen": "2026-11-11",
-            "observed_query": "hotel lobby ai",
-            "source_category": "ai"
           }
         ]
       },
@@ -2681,34 +2589,6 @@
         ]
       },
       {
-        "query": "topview t1",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/topview-t1",
-            "first_seen": "2026-11-09",
-            "observed_query": "topview t1",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "indietools-products",
-            "website": "indietools.app",
-            "url": "https://www.indietools.app/products/topview-t1",
-            "first_seen": "2026-11-12",
-            "observed_query": "topview t1",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "draftout",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -2761,6 +2641,34 @@
             "first_seen": "2026-11-14",
             "observed_query": "drawpic edit text in image",
             "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "loopforge",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/loopforge",
+            "first_seen": "2026-11-12",
+            "observed_query": "loopforge",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "railway-templates",
+            "website": "railway.com",
+            "url": "https://railway.com/deploy/loopforge",
+            "first_seen": "2026-11-16",
+            "observed_query": "loopforge",
+            "source_category": "developer"
           }
         ]
       },
@@ -2877,34 +2785,6 @@
         ]
       },
       {
-        "query": "gifnobg",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/gifnobg",
-            "first_seen": "2026-11-09",
-            "observed_query": "gifnobg",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/gifnobg",
-            "first_seen": "2026-11-14",
-            "observed_query": "gifnobg",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "publishyoursaas",
         "independent_websites": 2,
         "date_span_days": 5,
@@ -2933,7 +2813,7 @@
         ]
       },
       {
-        "query": "nano banana cn",
+        "query": "ai rap video generator",
         "independent_websites": 2,
         "date_span_days": 6,
         "priority": "watch",
@@ -2943,20 +2823,104 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/nano-banana-cn",
-            "first_seen": "2026-11-09",
-            "observed_query": "nano banana cn",
+            "source_id": "dangai-tools",
+            "website": "dang.ai",
+            "url": "https://dang.ai/tool/ai-rap-video-generator",
+            "first_seen": "2026-11-10",
+            "observed_query": "ai rap video generator",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "toolveyor-tools",
+            "website": "toolveyor.com",
+            "url": "https://toolveyor.com/ai-rap-video-generator",
+            "first_seen": "2026-11-16",
+            "observed_query": "ai rap video generator",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
+        "query": "background remover",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/background-remover",
+            "first_seen": "2026-11-10",
+            "observed_query": "background remover",
             "source_category": "saas"
           },
           {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/nano-banana-cn",
-            "first_seen": "2026-11-15",
-            "observed_query": "nano banana cn",
+            "source_id": "apify-actors-z",
+            "website": "apify.com",
+            "url": "https://apify.com/plotpointtech/background-remover",
+            "first_seen": "2026-11-16",
+            "observed_query": "background remover",
+            "source_category": "developer"
+          }
+        ]
+      },
+      {
+        "query": "everygen ai",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "pitchwall-products",
+            "website": "pitchwall.co",
+            "url": "https://pitchwall.co/product/everygen-ai",
+            "first_seen": "2026-11-10",
+            "observed_query": "everygen ai",
             "source_category": "saas"
+          },
+          {
+            "source_id": "toolveyor-tools",
+            "website": "toolveyor.com",
+            "url": "https://toolveyor.com/everygen-ai",
+            "first_seen": "2026-11-16",
+            "observed_query": "everygen ai",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
+        "query": "gitlab",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/gitlab",
+            "first_seen": "2026-11-10",
+            "observed_query": "gitlab",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/gitlab",
+            "first_seen": "2026-11-16",
+            "observed_query": "gitlab",
+            "source_category": "developer"
           }
         ]
       }
@@ -2966,7 +2930,7 @@
   },
   "group_counts": {
     "games": 44,
-    "products": 58,
+    "products": 57,
     "tools": 0,
     "functions": 0
   },
@@ -3047,7 +3011,7 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "garden tales 5",
+        "query": "juice sort",
         "independent_websites": 3,
         "date_span_days": 3,
         "priority": "medium",
@@ -3057,27 +3021,27 @@
         "seven_calendar_day_total": 3,
         "evidence": [
           {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/juice-sort",
+            "first_seen": "2026-11-13",
+            "observed_query": "juice sort",
+            "source_category": "games"
+          },
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/juice-sort",
+            "first_seen": "2026-11-14",
+            "observed_query": "juice sort",
+            "source_category": "games"
+          },
+          {
             "source_id": "gamedistribution-games",
             "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/garden-tales-5/",
-            "first_seen": "2026-11-09",
-            "observed_query": "garden tales 5",
-            "source_category": "games"
-          },
-          {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/garden-tales-5/",
-            "first_seen": "2026-11-11",
-            "observed_query": "garden tales 5",
-            "source_category": "games"
-          },
-          {
-            "source_id": "kizi-en",
-            "website": "kizi.com",
-            "url": "https://kizi.com/games/garden-tales-5",
-            "first_seen": "2026-11-12",
-            "observed_query": "garden tales 5",
+            "url": "https://gamedistribution.com/games/juice-sort/",
+            "first_seen": "2026-11-16",
+            "observed_query": "juice sort",
             "source_category": "games"
           }
         ],
@@ -3107,35 +3071,6 @@
             "url": "https://www.minijuegos.com/juego/battlecross",
             "first_seen": "2026-11-11",
             "observed_query": "battlecross",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "bogatyrs",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/bogatyrs/",
-            "first_seen": "2026-11-09",
-            "observed_query": "bogatyrs",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/bogatyrs",
-            "first_seen": "2026-11-10",
-            "observed_query": "bogatyrs",
             "source_category": "games"
           }
         ],
@@ -3316,6 +3251,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "garden tales 5",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "bgames-en",
+            "website": "bgames.com",
+            "url": "https://www.bgames.com/game/garden-tales-5/",
+            "first_seen": "2026-11-11",
+            "observed_query": "garden tales 5",
+            "source_category": "games"
+          },
+          {
+            "source_id": "kizi-en",
+            "website": "kizi.com",
+            "url": "https://kizi.com/games/garden-tales-5",
+            "first_seen": "2026-11-12",
+            "observed_query": "garden tales 5",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "ika survivor",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -3368,35 +3332,6 @@
             "url": "https://www.crazygames.com/br/game/jelly-run-2048",
             "first_seen": "2026-11-11",
             "observed_query": "jelly run 2048",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "juice sort",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/juice-sort",
-            "first_seen": "2026-11-13",
-            "observed_query": "juice sort",
-            "source_category": "games"
-          },
-          {
-            "source_id": "playgama-en",
-            "website": "playgama.com",
-            "url": "https://playgama.com/game/juice-sort",
-            "first_seen": "2026-11-14",
-            "observed_query": "juice sort",
             "source_category": "games"
           }
         ],
@@ -3867,35 +3802,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "ant empire colony clash",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/ant-empire%3A-colony-clash/",
-            "first_seen": "2026-11-09",
-            "observed_query": "ant empire: colony clash",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/ant_empire_colony_clash",
-            "first_seen": "2026-11-15",
-            "observed_query": "ant empire colony clash",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "bramble rush",
         "independent_websites": 2,
         "date_span_days": 5,
@@ -4128,6 +4034,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "obby sail for egg",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/obby-sail-for-egg",
+            "first_seen": "2026-11-12",
+            "observed_query": "obby sail for egg",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/obby-sail-for-egg/",
+            "first_seen": "2026-11-16",
+            "observed_query": "obby sail for egg",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "oxy arena",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -4215,6 +4150,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "pop arrow",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/pop-arrow",
+            "first_seen": "2026-11-11",
+            "observed_query": "pop arrow",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/pop-arrow/",
+            "first_seen": "2026-11-16",
+            "observed_query": "pop arrow",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "scoops in the shade",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -4276,22 +4240,14 @@
     "saas": [
       {
         "query": "vidsembly",
-        "independent_websites": 4,
-        "date_span_days": 2,
+        "independent_websites": 3,
+        "date_span_days": 1,
         "priority": "high",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 4,
-        "seven_calendar_day_total": 4,
+        "three_calendar_day_peak": 3,
+        "seven_calendar_day_total": 3,
         "evidence": [
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/vidsembly",
-            "first_seen": "2026-11-09",
-            "observed_query": "vidsembly",
-            "source_category": "saas"
-          },
           {
             "source_id": "fazier-launches",
             "website": "fazier.com",
@@ -4465,35 +4421,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "breakly screen time limit",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "indietools-products",
-            "website": "indietools.app",
-            "url": "https://www.indietools.app/products/breakly-screen-time-limit",
-            "first_seen": "2026-11-09",
-            "observed_query": "breakly screen time limit",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/breakly-screen-time-limit",
-            "first_seen": "2026-11-10",
-            "observed_query": "breakly screen time limit",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "calzivo",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -4523,6 +4450,35 @@
         "cross_signal_origin": "products"
       },
       {
+        "query": "camera wedding",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/camera-wedding/",
+            "first_seen": "2026-11-15",
+            "observed_query": "camera wedding",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "indietools-products",
+            "website": "indietools.app",
+            "url": "https://www.indietools.app/products/camera-wedding",
+            "first_seen": "2026-11-16",
+            "observed_query": "camera wedding",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "codexfuse solution",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -4546,35 +4502,6 @@
             "url": "https://fazier.com/launches/codexfuse-solution",
             "first_seen": "2026-11-13",
             "observed_query": "codexfuse solution",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "convertlyft",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/convertlyft/",
-            "first_seen": "2026-11-09",
-            "observed_query": "convertlyft",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/convertlyft",
-            "first_seen": "2026-11-09",
-            "observed_query": "convertlyft",
             "source_category": "saas"
           }
         ],
@@ -4836,35 +4763,6 @@
             "url": "https://productperch.com/products/mailveri/",
             "first_seen": "2026-11-14",
             "observed_query": "mailveri",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "planart",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/planart",
-            "first_seen": "2026-11-09",
-            "observed_query": "planart",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "openhunts-projects",
-            "website": "openhunts.com",
-            "url": "https://openhunts.com/projects/planart",
-            "first_seen": "2026-11-10",
-            "observed_query": "planart",
             "source_category": "saas"
           }
         ],
@@ -5277,35 +5175,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "gifnobg",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/gifnobg",
-            "first_seen": "2026-11-09",
-            "observed_query": "gifnobg",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/gifnobg",
-            "first_seen": "2026-11-14",
-            "observed_query": "gifnobg",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "namebento",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -5329,35 +5198,6 @@
             "url": "https://www.uneed.best/tool/namebento",
             "first_seen": "2026-11-14",
             "observed_query": "namebento",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "nano banana cn",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/nano-banana-cn",
-            "first_seen": "2026-11-09",
-            "observed_query": "nano banana cn",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/nano-banana-cn",
-            "first_seen": "2026-11-15",
-            "observed_query": "nano banana cn",
             "source_category": "saas"
           }
         ],
@@ -5507,35 +5347,6 @@
           }
         ],
         "cross_signal_origin": "products"
-      },
-      {
-        "query": "topview t1",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/topview-t1",
-            "first_seen": "2026-11-09",
-            "observed_query": "topview t1",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "indietools-products",
-            "website": "indietools.app",
-            "url": "https://www.indietools.app/products/topview-t1",
-            "first_seen": "2026-11-12",
-            "observed_query": "topview t1",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
       }
     ],
     "ai": [
@@ -5614,35 +5425,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "hotel lobby ai",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/hotel-lobby-ai",
-            "first_seen": "2026-11-09",
-            "observed_query": "hotel lobby ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/hotel-lobby-ai",
-            "first_seen": "2026-11-11",
-            "observed_query": "hotel lobby ai",
-            "source_category": "ai"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "plimo",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -5699,6 +5481,35 @@
           }
         ],
         "cross_signal_origin": "products"
+      },
+      {
+        "query": "ai rap video generator",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "dangai-tools",
+            "website": "dang.ai",
+            "url": "https://dang.ai/tool/ai-rap-video-generator",
+            "first_seen": "2026-11-10",
+            "observed_query": "ai rap video generator",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "toolveyor-tools",
+            "website": "toolveyor.com",
+            "url": "https://toolveyor.com/ai-rap-video-generator",
+            "first_seen": "2026-11-16",
+            "observed_query": "ai rap video generator",
+            "source_category": "ai"
+          }
+        ],
+        "cross_signal_origin": "products"
       }
     ],
     "calculators": [],
@@ -5708,30 +5519,34 @@
   },
   "by_type_counts": {
     "games": 44,
-    "saas": 43,
+    "saas": 38,
     "ai": 5,
     "calculators": 0,
     "files": 0,
     "developer": 0,
     "brazil": 0
   },
-  "delta_ledger_count": 10140,
+  "delta_ledger_count": 10294,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-11-15T17:50:22.852137+08:00",
+  "generated_at": "2026-11-16T03:55:43.743975+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
       "configured_domains": 30,
       "reported": 33,
-      "successful": 30,
+      "successful": 29,
       "baselines": 0,
-      "delta_scans": 30,
-      "failed": 3,
-      "new_urls": 76,
+      "delta_scans": 29,
+      "failed": 4,
+      "new_urls": 11,
       "over_scan_cap": 0,
       "failed_sources": [
         {
-          "source_id": "armorgames-en",
+          "source_id": "gamesgames-en",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "source_id": "agame-en",
           "error": "HTTPError: HTTP Error 403: Forbidden"
         },
         {
@@ -5739,8 +5554,8 @@
           "error": "HTTPError: HTTP Error 403: Forbidden"
         },
         {
-          "source_id": "gamenora-en",
-          "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
+          "source_id": "girlsgogames-en",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
         }
       ]
     },
@@ -5752,12 +5567,12 @@
       "baselines": 0,
       "delta_scans": 18,
       "failed": 2,
-      "new_urls": 141,
+      "new_urls": 37,
       "over_scan_cap": 0,
       "failed_sources": [
         {
-          "source_id": "startupstash-tools",
-          "error": "HTTPError: HTTP Error 403: Forbidden"
+          "source_id": "fazier-launches",
+          "error": "HTTPError: HTTP Error 502: Bad Gateway"
         },
         {
           "source_id": "microlaunch-products",
@@ -5773,7 +5588,7 @@
       "baselines": 0,
       "delta_scans": 20,
       "failed": 0,
-      "new_urls": 72,
+      "new_urls": 49,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -5823,21 +5638,26 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 2,
-      "over_scan_cap": 0,
+      "new_urls": 1775,
+      "over_scan_cap": 1541,
       "failed_sources": []
     },
     "brazil": {
       "configured_sources": 10,
       "configured_domains": 10,
       "reported": 10,
-      "successful": 10,
+      "successful": 9,
       "baselines": 0,
-      "delta_scans": 10,
-      "failed": 0,
+      "delta_scans": 9,
+      "failed": 1,
       "new_urls": 0,
       "over_scan_cap": 0,
-      "failed_sources": []
+      "failed_sources": [
+        {
+          "source_id": "devdata4-br",
+          "error": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      ]
     }
   }
 }
