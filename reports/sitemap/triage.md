@@ -4,51 +4,51 @@
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
-- Sitemap feeds succeeded: 124/135
-- URLs newly observed in the latest scan: 222
-- Candidate URL rows extracted in latest scan: 200
-- First-time keyword/geo research leads: 181
-- Previously removed URLs resurfacing: 7
+- Sitemap feeds succeeded: 127/135
+- URLs newly observed in the latest scan: 291
+- Candidate URL rows extracted in latest scan: 283
+- First-time keyword/geo research leads: 260
+- Previously removed URLs resurfacing: 69
 - Accumulated queue: 12000
-- Human keyword/topic review: 3483
-- Game/general watchlist: 8345
-- Low-quality page-name noise: 172
+- Human keyword/topic review: 3388
+- Game/general watchlist: 8450
+- Low-quality page-name noise: 162
 - **Verified new keywords / search demand / business revenue: not established**
 
 ## Queue composition (by Sitemap source)
 
-- apify-actors-a: 721
-- apify-actors-z: 720
-- fazier-launches: 720
-- gamepix-en: 720
-- gamepix-pt: 720
-- railway-templates: 720
+- apify-actors-a: 685
+- apify-actors-z: 685
+- fazier-launches: 685
+- gamepix-en: 685
+- gamepix-pt: 684
+- railway-templates: 684
 - producthunt-products: 583
 - playgama-en: 572
-- y8-en: 489
-- productperch-products: 464
-- uneed-products: 417
+- y8-en: 534
+- productperch-products: 482
+- uneed-products: 450
 - saasworthy-products: 404
-- toolveyor-tools: 344
-- devhunt-tools: 295
-- crazygames-br: 249
-- crazygames-es: 249
-- crazygames-en: 248
-- dangai-tools: 245
-- startupbase-products: 226
+- toolveyor-tools: 380
+- devhunt-tools: 297
+- crazygames-br: 256
+- crazygames-es: 256
+- crazygames-en: 255
+- dangai-tools: 254
+- startupbase-products: 240
 - vercel-product-watch: 195
 - smollaunch-products: 193
 - saascity-products: 192
 - n8n-workflows: 177
-- indieneed-products: 146
+- indieneed-products: 157
 - startupstash-tools: 121
+- aitoolnet-tools: 118
 - aitoolboard-tools: 113
-- gamedistribution-games: 112
+- gamedistribution-games: 113
 - pitchwall-products: 112
 - futuretools-products: 111
 - futurepedia-tools: 105
 - onlinetools-br: 103
-- aitoolnet-tools: 100
 - playhop-en: 96
 - openhunts-projects: 91
 - minijuegos-es: 88
@@ -68,11 +68,11 @@ Raw queue and all main radar settings remain unchanged.
 - netlify-product-watch: 21
 - replicate-models: 21
 - pdfresizer-tools: 20
-- poki-en: 15
+- poki-en: 16
+- launchscaler-products: 15
 - yiv-games: 15
 - jogos360-br: 13
 - kizi-en: 12
-- launchscaler-products: 12
 - activepieces-pieces: 11
 - onlinegames-en: 11
 - planetscale-changelog: 11
@@ -82,10 +82,10 @@ Raw queue and all main radar settings remain unchanged.
 - aixploria-tools: 9
 - bgames-en: 9
 - invertexto-br: 9
+- toolworthy-ai-tools: 9
 - aitoolhouse-tools: 8
 - ifttt-services: 8
 - modal-changelog: 8
-- toolworthy-ai-tools: 8
 - gamenora-en: 7
 - nextool-tools: 7
 - trigger-product: 7
@@ -101,106 +101,106 @@ Raw queue and all main radar settings remain unchanged.
 
 ## Latest scan's leads (routing only)
 
-- [train simulator steel express](https://www.crazygames.com/br/game/train-simulator-steel-express) — review / tool-intent-wording-not-verified; source=crazygames-br
-- [stack shop](https://www.crazygames.com/br/game/stack-shop) — watch / game-title-not-search-demand; source=crazygames-br
-- [collateral hero](https://www.crazygames.com/br/game/collateral-hero) — watch / game-title-not-search-demand; source=crazygames-br
-- [kaiju rampage obx](https://www.crazygames.com/br/game/kaiju-rampage-obx) — watch / game-title-not-search-demand; source=crazygames-br
-- [cube strike ofh](https://www.crazygames.com/br/game/cube-strike-ofh) — watch / game-title-not-search-demand; source=crazygames-br
-- [pocket fishing](https://www.crazygames.com/br/game/pocket-fishing) — watch / game-title-not-search-demand; source=crazygames-br
-- [formula racing championship](https://www.crazygames.com/br/game/formula-racing-championship) — watch / game-title-not-search-demand; source=crazygames-br
-- [scope showdown](https://www.crazygames.com/br/game/scope-showdown) — watch / game-title-not-search-demand; source=crazygames-br
-- [train simulator steel express](https://www.crazygames.com/es/game/train-simulator-steel-express) — review / tool-intent-wording-not-verified; source=crazygames-es
-- [formula racing championship](https://www.crazygames.com/es/game/formula-racing-championship) — watch / game-title-not-search-demand; source=crazygames-es
-- [stack shop](https://www.crazygames.com/es/game/stack-shop) — watch / game-title-not-search-demand; source=crazygames-es
-- [pocket fishing](https://www.crazygames.com/es/game/pocket-fishing) — watch / game-title-not-search-demand; source=crazygames-es
-- [cube strike ofh](https://www.crazygames.com/es/game/cube-strike-ofh) — watch / game-title-not-search-demand; source=crazygames-es
-- [kaiju rampage obx](https://www.crazygames.com/es/game/kaiju-rampage-obx) — watch / game-title-not-search-demand; source=crazygames-es
-- [collateral hero](https://www.crazygames.com/es/game/collateral-hero) — watch / game-title-not-search-demand; source=crazygames-es
-- [scope showdown](https://www.crazygames.com/es/game/scope-showdown) — watch / game-title-not-search-demand; source=crazygames-es
-- [flowiseai updated nov 26 visual llm workflow builder flowise](https://railway.com/deploy/flowiseai-updated-nov-26-visual-llm-workflow-builder--flowise) — review / tool-intent-wording-not-verified; source=railway-templates
-- [zabbix updated nov 26 zabbix](https://railway.com/deploy/zabbix-updated-nov-26--zabbix) — review / deployment-topic-not-search-demand; source=railway-templates
-- [exponential](https://railway.com/deploy/exponential) — review / deployment-topic-not-search-demand; source=railway-templates
-- [paperclip updated nov 26 paperclip ai](https://railway.com/deploy/paperclip-updated-nov-26--paperclip-ai) — review / deployment-topic-not-search-demand; source=railway-templates
-- [cloudreve updated nov 26 cloudreve storage](https://railway.com/deploy/cloudreve-updated-nov-26--cloudreve-storage) — review / deployment-topic-not-search-demand; source=railway-templates
-- [appsmith updated nov 26 appsmith latest](https://railway.com/deploy/appsmith-updated-nov-26--appsmith-latest) — review / deployment-topic-not-search-demand; source=railway-templates
-- [label studio updated nov 26 label studio](https://railway.com/deploy/label-studio-updated-nov-26--label-studio) — review / deployment-topic-not-search-demand; source=railway-templates
-- [loki grafana updated nov 26 loki](https://railway.com/deploy/loki-grafana-updated-nov-26--loki) — review / deployment-topic-not-search-demand; source=railway-templates
-- [cobalt tools updated nov 26 cobalt](https://railway.com/deploy/cobalt-tools-updated-nov-26--cobalt) — review / deployment-topic-not-search-demand; source=railway-templates
-- [bolt diy updated nov 26 boltdiy](https://railway.com/deploy/bolt-diy-updated-nov-26--boltdiy) — review / deployment-topic-not-search-demand; source=railway-templates
-- [mixpost updated nov 26 mixpost](https://railway.com/deploy/mixpost-updated-nov-26--mixpost) — review / deployment-topic-not-search-demand; source=railway-templates
-- [vert updated nov 26 vertsh](https://railway.com/deploy/vert-updated-nov-26--vertsh) — review / deployment-topic-not-search-demand; source=railway-templates
-- [metabase updated nov 26 metabase latest](https://railway.com/deploy/metabase-updated-nov-26--metabase-latest) — review / deployment-topic-not-search-demand; source=railway-templates
-- [websurfer updated nov 26 websurfer](https://railway.com/deploy/websurfer-updated-nov-26--websurfer) — review / deployment-topic-not-search-demand; source=railway-templates
-- [pocketbase updated nov 26 pocketbase](https://railway.com/deploy/pocketbase-updated-nov-26--pocketbase) — review / deployment-topic-not-search-demand; source=railway-templates
-- [turbovec updated nov 26 turbovec](https://railway.com/deploy/turbovec-updated-nov-26--turbovec) — review / deployment-topic-not-search-demand; source=railway-templates
-- [virtual vscode code server updated nov 26 virtual vscode](https://railway.com/deploy/virtual-vscode-code-server-updated-nov-26--virtual-vscode) — review / deployment-topic-not-search-demand; source=railway-templates
-- [bigcapital updated nov 26 bigcapital](https://railway.com/deploy/bigcapital-updated-nov-26--bigcapital) — review / deployment-topic-not-search-demand; source=railway-templates
-- [pi pocket deploy pi pocket](https://railway.com/deploy/pi-pocket--deploy-pi-pocket) — review / deployment-topic-not-search-demand; source=railway-templates
-- [budibase updated nov 26 budibase latest](https://railway.com/deploy/budibase-updated-nov-26--budibase-latest) — review / deployment-topic-not-search-demand; source=railway-templates
-- [readyset updated nov 26 readyset](https://railway.com/deploy/readyset-updated-nov-26--readyset) — review / deployment-topic-not-search-demand; source=railway-templates
-- [docmost updated nov 26 docmost](https://railway.com/deploy/docmost-updated-nov-26--docmost) — review / deployment-topic-not-search-demand; source=railway-templates
-- [rsshub updated nov 26 rsshub](https://railway.com/deploy/rsshub-updated-nov-26--rsshub) — review / deployment-topic-not-search-demand; source=railway-templates
-- [grist updated nov 26 grist](https://railway.com/deploy/grist-updated-nov-26--grist) — review / deployment-topic-not-search-demand; source=railway-templates
-- [webhook buffer](https://railway.com/deploy/webhook-buffer) — review / deployment-topic-not-search-demand; source=railway-templates
-- [orbit workspace deploy orbit workspace](https://railway.com/deploy/orbit-workspace--deploy-orbit-workspace) — review / deployment-topic-not-search-demand; source=railway-templates
-- [deep research web ui](https://railway.com/deploy/deep-research-web-ui) — review / deployment-topic-not-search-demand; source=railway-templates
-- [postgresus updated nov 26 postgresus db backup](https://railway.com/deploy/postgresus-updated-nov-26--postgresus-db-backup) — review / deployment-topic-not-search-demand; source=railway-templates
-- [super agent party](https://railway.com/deploy/super-agent-party) — review / deployment-topic-not-search-demand; source=railway-templates
-- [openwebui updated nov 26 open webui](https://railway.com/deploy/openwebui-updated-nov-26--open-webui) — review / deployment-topic-not-search-demand; source=railway-templates
-- [wigolo web search for ai agents](https://railway.com/deploy/wigolo-web-search-for-ai-agents) — review / deployment-topic-not-search-demand; source=railway-templates
-- [langflow updated nov 26 langflow](https://railway.com/deploy/langflow-updated-nov-26--langflow) — review / deployment-topic-not-search-demand; source=railway-templates
-- [chroma updated nov 26 chroma](https://railway.com/deploy/chroma-updated-nov-26--chroma) — review / deployment-topic-not-search-demand; source=railway-templates
-- [openseo w team accounts](https://railway.com/deploy/openseo-w-team-accounts) — review / deployment-topic-not-search-demand; source=railway-templates
-- [audiomuse ai](https://railway.com/deploy/audiomuse-ai) — review / deployment-topic-not-search-demand; source=railway-templates
-- [paperless ngx self hosted document manager paperless ngx self 1](https://railway.com/deploy/paperless-ngx-self-hosted-document-manager--paperless-ngx-self-1) — low / numbered-deploy-template; source=railway-templates
-- [paisa updated nov 26 paisa](https://railway.com/deploy/paisa-updated-nov-26--paisa) — review / deployment-topic-not-search-demand; source=railway-templates
-- [zipkin updated nov 26 zipkin](https://railway.com/deploy/zipkin-updated-nov-26--zipkin) — review / deployment-topic-not-search-demand; source=railway-templates
-- [leantime updated nov 26 leantime](https://railway.com/deploy/leantime-updated-nov-26--leantime) — review / deployment-topic-not-search-demand; source=railway-templates
-- [umami updated nov 26 umami](https://railway.com/deploy/umami-updated-nov-26--umami) — review / deployment-topic-not-search-demand; source=railway-templates
-- [firecrawl updated nov 26 firecrawl](https://railway.com/deploy/firecrawl-updated-nov-26--firecrawl) — review / deployment-topic-not-search-demand; source=railway-templates
-- [goose updated nov 26 goose](https://railway.com/deploy/goose-updated-nov-26--goose) — review / deployment-topic-not-search-demand; source=railway-templates
-- [ubuntu 2604 web terminal browser shell](https://railway.com/deploy/ubuntu-2604-web-terminal-browser-shell) — review / deployment-topic-not-search-demand; source=railway-templates
-- [portainer updated nov 26 portainer](https://railway.com/deploy/portainer-updated-nov-26--portainer) — review / deployment-topic-not-search-demand; source=railway-templates
-- [openclaw updated nov 26 open claw](https://railway.com/deploy/openclaw-updated-nov-26--open-claw) — review / deployment-topic-not-search-demand; source=railway-templates
-- [invoice ninja updated nov 26 invoiceninja](https://railway.com/deploy/invoice-ninja-updated-nov-26--invoiceninja) — review / deployment-topic-not-search-demand; source=railway-templates
-- [matilda updated nov 26 matilda project manager](https://railway.com/deploy/matilda-updated-nov-26--matilda-project-manager) — review / deployment-topic-not-search-demand; source=railway-templates
-- [pgadmin updated nov 26 pgadmin](https://railway.com/deploy/pgadmin-updated-nov-26--pgadmin) — review / deployment-topic-not-search-demand; source=railway-templates
-- [heym ai workflows](https://railway.com/deploy/heym-ai-workflows) — review / deployment-topic-not-search-demand; source=railway-templates
-- [meteroid updated nov 26 meteroid](https://railway.com/deploy/meteroid-updated-nov-26--meteroid) — review / deployment-topic-not-search-demand; source=railway-templates
-- [odysseus pewdiepie updated nov 26 odysseus pewdiepie](https://railway.com/deploy/odysseus-pewdiepie-updated-nov-26--odysseus-pewdiepie) — review / deployment-topic-not-search-demand; source=railway-templates
-- [octopus llm api gateway](https://railway.com/deploy/octopus-llm-api-gateway) — review / deployment-topic-not-search-demand; source=railway-templates
-- [mailflare updated nov 26 mailflare](https://railway.com/deploy/mailflare-updated-nov-26--mailflare) — review / deployment-topic-not-search-demand; source=railway-templates
-- [jenkins updated nov 26 jenkins](https://railway.com/deploy/jenkins-updated-nov-26--jenkins) — review / deployment-topic-not-search-demand; source=railway-templates
-- [deepseek parser](https://railway.com/deploy/deepseek-parser) — review / deployment-topic-not-search-demand; source=railway-templates
-- [pgvector updated nov 26 pgvector latest](https://railway.com/deploy/pgvector-updated-nov-26--pgvector-latest) — review / deployment-topic-not-search-demand; source=railway-templates
-- [wordpress latest updated nov 26 latest wordpress](https://railway.com/deploy/wordpress-latest-updated-nov-26--latest-wordpress) — review / deployment-topic-not-search-demand; source=railway-templates
-- [tesserae deploy tesserae](https://railway.com/deploy/tesserae--deploy-tesserae) — review / deployment-topic-not-search-demand; source=railway-templates
-- [drizzle studio gateway updated nov 26 drizzle](https://railway.com/deploy/drizzle-studio-gateway-updated-nov-26--drizzle) — review / deployment-topic-not-search-demand; source=railway-templates
-- [outline updated nov 26 outline](https://railway.com/deploy/outline-updated-nov-26--outline) — review / deployment-topic-not-search-demand; source=railway-templates
-- [paymenter updated nov 26 paymenter](https://railway.com/deploy/paymenter-updated-nov-26--paymenter) — review / deployment-topic-not-search-demand; source=railway-templates
-- [pgweb updated nov 26 pgweb](https://railway.com/deploy/pgweb-updated-nov-26--pgweb) — review / deployment-topic-not-search-demand; source=railway-templates
-- [kirocrew ai agent gateway](https://railway.com/deploy/kirocrew-ai-agent-gateway) — review / deployment-topic-not-search-demand; source=railway-templates
-- [skillbox deploy skillbox](https://railway.com/deploy/skillbox--deploy-skillbox) — review / deployment-topic-not-search-demand; source=railway-templates
-- [deepseek voice api](https://railway.com/deploy/deepseek-voice-api) — review / deployment-topic-not-search-demand; source=railway-templates
-- [netdata updated nov 26 netdata](https://railway.com/deploy/netdata-updated-nov-26--netdata) — review / deployment-topic-not-search-demand; source=railway-templates
-- [openanalytics updated nov 26 openanalytics](https://railway.com/deploy/openanalytics-updated-nov-26--openanalytics) — review / deployment-topic-not-search-demand; source=railway-templates
-- [rocketchat updated nov 26 rocketchat](https://railway.com/deploy/rocketchat-updated-nov-26--rocketchat) — review / deployment-topic-not-search-demand; source=railway-templates
-- [mattermost updated nov 26 mattermost](https://railway.com/deploy/mattermost-updated-nov-26--mattermost) — review / deployment-topic-not-search-demand; source=railway-templates
-- [anythingllm updated nov 26 anything llm](https://railway.com/deploy/anythingllm-updated-nov-26--anything-llm) — review / deployment-topic-not-search-demand; source=railway-templates
-- [documize updated nov 26 documize](https://railway.com/deploy/documize-updated-nov-26--documize) — review / deployment-topic-not-search-demand; source=railway-templates
-- [statewave agent memory](https://railway.com/deploy/statewave-agent-memory) — review / deployment-topic-not-search-demand; source=railway-templates
-- [fair vast](https://railway.com/deploy/fair-vast) — review / deployment-topic-not-search-demand; source=railway-templates
-- [homarr updated nov 26 homarr](https://railway.com/deploy/homarr-updated-nov-26--homarr) — review / deployment-topic-not-search-demand; source=railway-templates
-- [hermes agent updated nov 26 hermes](https://railway.com/deploy/hermes-agent-updated-nov-26--hermes) — review / deployment-topic-not-search-demand; source=railway-templates
-- [matomo updated nov 26 matomo](https://railway.com/deploy/matomo-updated-nov-26--matomo) — review / deployment-topic-not-search-demand; source=railway-templates
-- [photoprism updated nov 26 photoprism](https://railway.com/deploy/photoprism-updated-nov-26--photoprism) — review / deployment-topic-not-search-demand; source=railway-templates
-- [cap v4 self hosted captcha proof of work](https://railway.com/deploy/cap-v4-self-hosted-captcha-proof-of-work) — review / deployment-topic-not-search-demand; source=railway-templates
-- [kestra updated nov 26 kestra](https://railway.com/deploy/kestra-updated-nov-26--kestra) — review / deployment-topic-not-search-demand; source=railway-templates
-- [openlist updated nov 26 openlist storage](https://railway.com/deploy/openlist-updated-nov-26--openlist-storage) — review / deployment-topic-not-search-demand; source=railway-templates
-- [deepseek research](https://railway.com/deploy/deepseek-research) — review / deployment-topic-not-search-demand; source=railway-templates
-- [flexprice updated nov 26 flexprice](https://railway.com/deploy/flexprice-updated-nov-26--flexprice) — review / deployment-topic-not-search-demand; source=railway-templates
-- [agency orchestrator ai team](https://railway.com/deploy/agency-orchestrator-ai-team) — review / deployment-topic-not-search-demand; source=railway-templates
-- [trading ledger deploy trading ledger journal app](https://railway.com/deploy/trading-ledger--deploy-trading-ledger-journal-app) — review / deployment-topic-not-search-demand; source=railway-templates
+- [flip merge throw](https://www.crazygames.com/game/flip-merge-throw) — watch / game-title-not-search-demand; source=crazygames-en
+- [speedboy crazy chase at recess](https://www.crazygames.com/game/speedboy-crazy-chase-at-recess) — watch / game-title-not-search-demand; source=crazygames-en
+- [trust me kpu](https://www.crazygames.com/game/trust-me-kpu) — watch / game-title-not-search-demand; source=crazygames-en
+- [setup tycoon](https://www.crazygames.com/game/setup-tycoon) — watch / game-title-not-search-demand; source=crazygames-en
+- [in the army rp](https://www.crazygames.com/game/in-the-army-rp) — watch / game-title-not-search-demand; source=crazygames-en
+- [anime brawl heros](https://www.crazygames.com/game/anime-brawl-heros) — watch / game-title-not-search-demand; source=crazygames-en
+- [rocket prospector](https://www.crazygames.com/game/rocket-prospector) — watch / game-title-not-search-demand; source=crazygames-en
+- [setup tycoon](https://www.crazygames.com/br/game/setup-tycoon) — watch / game-title-not-search-demand; source=crazygames-br
+- [in the army rp](https://www.crazygames.com/br/game/in-the-army-rp) — watch / game-title-not-search-demand; source=crazygames-br
+- [flip merge throw](https://www.crazygames.com/br/game/flip-merge-throw) — watch / game-title-not-search-demand; source=crazygames-br
+- [trust me kpu](https://www.crazygames.com/br/game/trust-me-kpu) — watch / game-title-not-search-demand; source=crazygames-br
+- [speedboy crazy chase at recess](https://www.crazygames.com/br/game/speedboy-crazy-chase-at-recess) — watch / game-title-not-search-demand; source=crazygames-br
+- [anime brawl heros](https://www.crazygames.com/br/game/anime-brawl-heros) — watch / game-title-not-search-demand; source=crazygames-br
+- [rocket prospector](https://www.crazygames.com/br/game/rocket-prospector) — watch / game-title-not-search-demand; source=crazygames-br
+- [speedboy crazy chase at recess](https://www.crazygames.com/es/game/speedboy-crazy-chase-at-recess) — watch / game-title-not-search-demand; source=crazygames-es
+- [anime brawl heros](https://www.crazygames.com/es/game/anime-brawl-heros) — watch / game-title-not-search-demand; source=crazygames-es
+- [trust me kpu](https://www.crazygames.com/es/game/trust-me-kpu) — watch / game-title-not-search-demand; source=crazygames-es
+- [flip merge throw](https://www.crazygames.com/es/game/flip-merge-throw) — watch / game-title-not-search-demand; source=crazygames-es
+- [in the army rp](https://www.crazygames.com/es/game/in-the-army-rp) — watch / game-title-not-search-demand; source=crazygames-es
+- [rocket prospector](https://www.crazygames.com/es/game/rocket-prospector) — watch / game-title-not-search-demand; source=crazygames-es
+- [setup tycoon](https://www.crazygames.com/es/game/setup-tycoon) — watch / game-title-not-search-demand; source=crazygames-es
+- [ship smash simulator](https://www.y8.com/games/ship_smash_simulator) — review / tool-intent-wording-not-verified; source=y8-en
+- [cloudbay](https://www.y8.com/games/cloudbay) — watch / generic-url-name-not-search-demand; source=y8-en
+- [color carve 3d](https://www.y8.com/games/color_carve_3d) — watch / generic-url-name-not-search-demand; source=y8-en
+- [one line courier](https://www.y8.com/games/one_line_courier) — watch / generic-url-name-not-search-demand; source=y8-en
+- [necromancer idle defense](https://www.y8.com/games/necromancer_idle_defense) — watch / generic-url-name-not-search-demand; source=y8-en
+- [presidents arena](https://www.y8.com/games/presidents_arena) — watch / generic-url-name-not-search-demand; source=y8-en
+- [cosmic chain](https://www.y8.com/games/cosmic_chain) — watch / generic-url-name-not-search-demand; source=y8-en
+- [fountain idle tycoon](https://www.y8.com/games/fountain_idle_tycoon) — watch / generic-url-name-not-search-demand; source=y8-en
+- [ant empire colony clash](https://www.y8.com/games/ant_empire_colony_clash) — watch / generic-url-name-not-search-demand; source=y8-en
+- [singletongames](https://www.y8.com/studios/singletongames) — watch / generic-url-name-not-search-demand; source=y8-en
+- [wake chase](https://www.y8.com/games/wake_chase) — watch / generic-url-name-not-search-demand; source=y8-en
+- [shellforge defense](https://www.y8.com/games/shellforge_defense) — watch / generic-url-name-not-search-demand; source=y8-en
+- [merge dice arena](https://www.y8.com/games/merge_dice_arena) — watch / generic-url-name-not-search-demand; source=y8-en
+- [lumen s paths](https://www.y8.com/games/lumen_s_paths) — watch / generic-url-name-not-search-demand; source=y8-en
+- [flying ants quest](https://www.y8.com/games/flying_ants_quest) — watch / generic-url-name-not-search-demand; source=y8-en
+- [pitaya pixel studios](https://www.y8.com/studios/pitaya-pixel-studios) — watch / generic-url-name-not-search-demand; source=y8-en
+- [arrows flows](https://www.y8.com/games/arrows_flows) — watch / generic-url-name-not-search-demand; source=y8-en
+- [dicey paws idle](https://www.y8.com/games/dicey_paws_idle) — watch / generic-url-name-not-search-demand; source=y8-en
+- [bogatyrs battle for the thrice nine kingdom](https://www.y8.com/games/bogatyrs_battle_for_the_thrice-nine_kingdom) — watch / generic-url-name-not-search-demand; source=y8-en
+- [monster tile feast](https://www.y8.com/games/monster_tile_feast) — watch / generic-url-name-not-search-demand; source=y8-en
+- [ball merge](https://www.y8.com/games/ball_merge) — watch / generic-url-name-not-search-demand; source=y8-en
+- [bestie sleepover party](https://www.y8.com/games/bestie_sleepover_party) — watch / generic-url-name-not-search-demand; source=y8-en
+- [light serpent](https://www.y8.com/games/light_serpent) — watch / generic-url-name-not-search-demand; source=y8-en
+- [highwayhavoc](https://www.y8.com/games/highwayhavoc) — watch / generic-url-name-not-search-demand; source=y8-en
+- [jelly dye color flow](https://www.y8.com/games/jelly_dye_color_flow) — watch / generic-url-name-not-search-demand; source=y8-en
+- [chroma](https://www.y8.com/games/chroma) — watch / generic-url-name-not-search-demand; source=y8-en
+- [who is lying who is lying mystery cases](https://www.y8.com/games/who_is_lying_who_is_lying_mystery_cases) — watch / generic-url-name-not-search-demand; source=y8-en
+- [scoops in the shade](https://www.y8.com/games/scoops_in_the_shade) — watch / generic-url-name-not-search-demand; source=y8-en
+- [moonfall](https://www.y8.com/games/moonfall) — watch / generic-url-name-not-search-demand; source=y8-en
+- [still sulking](https://www.y8.com/games/still_sulking) — watch / generic-url-name-not-search-demand; source=y8-en
+- [don t touch that](https://www.y8.com/games/don_t_touch_that_) — watch / generic-url-name-not-search-demand; source=y8-en
+- [echo maze](https://www.y8.com/games/_echo_maze) — watch / generic-url-name-not-search-demand; source=y8-en
+- [pitaya dash](https://www.y8.com/games/pitaya_dash) — watch / generic-url-name-not-search-demand; source=y8-en
+- [gravrail](https://www.y8.com/games/gravrail) — watch / generic-url-name-not-search-demand; source=y8-en
+- [car master transform race](https://www.y8.com/games/car_master_transform_race) — watch / generic-url-name-not-search-demand; source=y8-en
+- [timber beaver](https://www.y8.com/games/timber_beaver) — watch / generic-url-name-not-search-demand; source=y8-en
+- [sumo pets](https://www.y8.com/games/sumo_pets) — watch / generic-url-name-not-search-demand; source=y8-en
+- [suika studio](https://www.y8.com/studios/suika-studio) — watch / generic-url-name-not-search-demand; source=y8-en
+- [sacred breaker](https://www.y8.com/games/sacred_breaker) — watch / generic-url-name-not-search-demand; source=y8-en
+- [stained glass garden](https://www.y8.com/games/stained_glass_garden) — watch / generic-url-name-not-search-demand; source=y8-en
+- [last limb standing](https://www.y8.com/games/last_limb_standing) — watch / generic-url-name-not-search-demand; source=y8-en
+- [watermelon combination](https://www.y8.com/games/watermelon_combination) — watch / generic-url-name-not-search-demand; source=y8-en
+- [bagel store superstar](https://www.y8.com/games/bagel_store_superstar) — watch / generic-url-name-not-search-demand; source=y8-en
+- [beesbuglasoftware](https://www.y8.com/studios/beesbuglasoftware) — watch / generic-url-name-not-search-demand; source=y8-en
+- [fast food universe webgl](https://www.y8.com/games/fast_food_universe_webgl) — watch / generic-url-name-not-search-demand; source=y8-en
+- [lastlight](https://www.y8.com/games/lastlight) — watch / generic-url-name-not-search-demand; source=y8-en
+- [snacky bees](https://www.y8.com/games/snacky_bees) — watch / generic-url-name-not-search-demand; source=y8-en
+- [edgy fox](https://www.y8.com/games/edgy_fox) — watch / generic-url-name-not-search-demand; source=y8-en
+- [bramble rush](https://www.y8.com/games/bramble_rush) — watch / generic-url-name-not-search-demand; source=y8-en
+- [lumen rain](https://www.y8.com/games/lumen_rain) — watch / generic-url-name-not-search-demand; source=y8-en
+- [orbit golf solar championship](https://www.y8.com/games/orbit_golf_solar_championship) — watch / generic-url-name-not-search-demand; source=y8-en
+- [ai scientific figure generator](https://www.uneed.best/tool/ai-scientific-figure-generator) — review / tool-intent-wording-not-verified; source=uneed-products
+- [ecom agent tools](https://www.uneed.best/tool/ecom-agent-tools) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [asterisks](https://www.uneed.best/tool/asterisks) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [mazalpos](https://www.uneed.best/tool/mazalpos) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [magical share](https://www.uneed.best/tool/magical-share) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [anvendor com](https://www.uneed.best/tool/anvendor-com) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [cleanyourtv ai](https://www.uneed.best/tool/cleanyourtv-ai) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [learn sql](https://www.uneed.best/tool/learn-sql) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [utm drift guard](https://www.uneed.best/tool/utm-drift-guard) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [nooked](https://www.uneed.best/tool/nooked) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [cookieboss](https://www.uneed.best/tool/cookieboss) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [hostpayout](https://www.uneed.best/tool/hostpayout) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [docmaker ai](https://www.uneed.best/tool/docmaker-ai) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [nano banana cn](https://www.uneed.best/tool/nano-banana-cn) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [image to layers](https://www.uneed.best/tool/image-to-layers) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [linkbunny shooter](https://www.uneed.best/tool/linkbunny-shooter) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [synthesia](https://www.uneed.best/tool/synthesia) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [draftout](https://www.uneed.best/tool/draftout) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [gpt plus recharge](https://www.uneed.best/tool/gpt-plus-recharge) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [cityplanai](https://www.uneed.best/tool/cityplanai) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [digestseo](https://www.uneed.best/tool/digestseo) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [thryvate](https://www.uneed.best/tool/thryvate) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [dataminimal](https://www.uneed.best/tool/dataminimal) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [novawire](https://www.uneed.best/tool/novawire) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [better sheets](https://www.uneed.best/tool/better-sheets) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [aeo footnotes](https://www.uneed.best/tool/aeo-footnotes) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [expert consilium](https://www.uneed.best/tool/expert-consilium) — watch / generic-url-name-not-search-demand; source=uneed-products
+- [dealoft](https://www.uneed.best/tool/dealoft) — watch / generic-url-name-not-search-demand; source=uneed-products
 
 ## Source interpretation
 
