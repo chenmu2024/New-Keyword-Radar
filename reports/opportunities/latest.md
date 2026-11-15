@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-15T17:22:49.527752+00:00
+- Updated (UTC): 2026-11-15T22:44:41.532058+00:00
 - Historical candidates: 5905
-- Newly recorded from pending: 86
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 4553
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- academy first responder discount [Global] — discovered — first 2026-11-16, last 2026-11-16
-- ai 안경 [Global] — discovered — first 2026-11-16, last 2026-11-16
-- amd ryzen 5 5600x 6-core processor [Global] — discovered — first 2026-11-16, last 2026-11-16
-- assistant commissioner of police [Global] — discovered — first 2026-11-16, last 2026-11-16
-- aws compute optimizer [Global] — discovered — first 2026-11-16, last 2026-11-16
-- back to the future flux capacitor [Global] — discovered — first 2026-11-16, last 2026-11-16
-- board of tea experts [Global] — discovered — first 2026-11-16, last 2026-11-16
-- bodycam steam key [Global] — discovered — first 2026-11-16, last 2026-11-16
-- boob scarf knitting pattern [Global] — discovered — first 2026-11-16, last 2026-11-16
-- capcut all template [Global] — discovered — first 2026-11-16, last 2026-11-16
-- casino utan spelpaus 🇸🇪 casinonisse.com [Global] — discovered — first 2026-11-16, last 2026-11-16
-- casino utan spelpaus 🇸🇪 casinonisse.com 🇸🇪 [Global] — discovered — first 2026-11-16, last 2026-11-16
-- casino 🇬🇧 www.casinobino.com 🇬🇧 [Global] — discovered — first 2026-11-16, last 2026-11-16
-- cathedral assets optimizer [Global] — discovered — first 2026-11-16, last 2026-11-16
-- cbse sample paper 2026-27 [Global] — discovered — first 2026-11-16, last 2026-11-16
-- char meaning [Global] — discovered — first 2026-11-16, last 2026-11-16
+- uphesc assistant professor admit card [Global] — discovered — first 2026-11-16, last 2026-11-16
+- sephora sample set [Global] — discovered — first 2026-11-16, last 2026-11-16
 - cheyutha pension scheme telangana beneficiary list [Global] — discovered — first 2026-11-16, last 2026-11-16
-- designer outlet york [Global] — discovered — first 2026-11-16, last 2026-11-16
-- drag bike simulator [Global] — discovered — first 2026-11-16, last 2026-11-16
-- dune guild navigator [Global] — discovered — first 2026-11-16, last 2026-11-16
-- enigma variations composer crossword [Global] — discovered — first 2026-11-16, last 2026-11-16
-- fairy agent evaluator [Global] — discovered — first 2026-11-16, last 2026-11-16
-- fantasy baseball trade analyzer [Global] — discovered — first 2026-11-16, last 2026-11-16
-- flightaware tracker [Global] — discovered — first 2026-11-16, last 2026-11-16
+- nations championship format [Global] — discovered — first 2026-11-16, last 2026-11-16
+- othello [Global] — discovered — first 2026-11-16, last 2026-11-16
+- week 10 wide receiver rankings [Global] — discovered — first 2026-11-16, last 2026-11-16
+- amd ryzen 5 5600x 6-core processor [Global] — discovered — first 2026-11-16, last 2026-11-16
+- tcp optimizer windows 11 [Global] — discovered — first 2026-11-16, last 2026-11-16
+- ninja waffle maker [Global] — discovered — first 2026-11-16, last 2026-11-16
+- gumroad cli [Global] — discovered — first 2026-11-16, last 2026-11-16
+- program evaluator jobs [Global] — discovered — first 2026-11-16, last 2026-11-16
+- karcher ice scraper [Global] — discovered — first 2026-11-16, last 2026-11-16
+- heated ice scraper [Global] — discovered — first 2026-11-16, last 2026-11-16
+- scheduler jobs [Global] — discovered — first 2026-11-16, last 2026-11-16
+- hdmi arc audio extractor [Global] — discovered — first 2026-11-16, last 2026-11-16
+- next united manager odds [Global] — discovered — first 2026-11-16, last 2026-11-16
 - frank williams [Global] — discovered — first 2026-11-16, last 2026-11-16
+- sodimac constructor antofagasta [Global] — discovered — first 2026-11-16, last 2026-11-16
+- board of tea experts [Global] — discovered — first 2026-11-16, last 2026-11-16
+- online casinos 🇩🇪 www.casinobino.sbs [Global] — discovered — first 2026-11-16, last 2026-11-16
+- verifier imei apple [Global] — discovered — first 2026-11-16, last 2026-11-16
+- assistant commissioner of police [Global] — discovered — first 2026-11-16, last 2026-11-16
+- tea leoni tim daly interview [Global] — discovered — first 2026-11-16, last 2026-11-16
+- aws compute optimizer [Global] — discovered — first 2026-11-16, last 2026-11-16
+- online casinos 🇬🇧 casinobino.sbs [Global] — discovered — first 2026-11-16, last 2026-11-16
 
 ## Due for follow-up
 
