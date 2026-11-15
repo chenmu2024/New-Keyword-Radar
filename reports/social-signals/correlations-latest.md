@@ -1,12 +1,12 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-15T10:49:53.813105+00:00
-- Source last updated: 2026-11-15T10:49:53.813105+00:00
-- Trends archive: 2026-11-15 (74/74; complete=True)
+- Generated: 2026-11-15T17:42:30.249015+00:00
+- Source last updated: 2026-11-15T17:42:30.249015+00:00
+- Trends archive: 2026-11-16 (74/74; complete=True)
 - Eligible multiword rising queries: 459
 - Cross-source matches within 72h review window: 2
-- Social current-run links: 58, prior recent sightings: 275
-- Search archives examined: 2026-11-15, 2026-11-14, 2026-11-13
+- Social current-run links: 56, prior recent sightings: 274
+- Search archives examined: 2026-11-16, 2026-11-15, 2026-11-14
 - Direct-post question-derived QUERY HYPOTHESES: 4
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
@@ -20,7 +20,7 @@
 
 ## minimax h3 image
 
-- Relative Trends rising value: 500.0 (NOT Volume)
+- Relative Trends rising value: 600.0 (NOT Volume)
 - Distinct matched platforms: 1
 - Direct public-post question hints: 0
 - huggingface: https://huggingface.co/spaces/yingzhac/MiniMax-H3-Image-INT8 (direct_public_api)
