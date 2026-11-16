@@ -1,51 +1,51 @@
-# Sitemap lead triage — 2026-11-16
+# Sitemap lead triage — 2026-11-17
 
 **Important:** These are *unverified URL leads*, not proven new keywords,
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
-- Sitemap feeds succeeded: 127/135
-- URLs newly observed in the latest scan: 1336
-- Candidate URL rows extracted in latest scan: 708
-- First-time keyword/geo research leads: 667
-- Previously removed URLs resurfacing: 24
+- Sitemap feeds succeeded: 126/135
+- URLs newly observed in the latest scan: 782
+- Candidate URL rows extracted in latest scan: 549
+- First-time keyword/geo research leads: 504
+- Previously removed URLs resurfacing: 30
 - Accumulated queue: 12000
-- Human keyword/topic review: 3305
-- Game/general watchlist: 8536
-- Low-quality page-name noise: 159
+- Human keyword/topic review: 3214
+- Game/general watchlist: 8616
+- Low-quality page-name noise: 170
 - **Verified new keywords / search demand / business revenue: not established**
 
 ## Queue composition (by Sitemap source)
 
-- apify-actors-a: 625
-- apify-actors-z: 625
-- fazier-launches: 625
-- gamepix-en: 624
-- gamepix-pt: 624
-- producthunt-products: 624
-- railway-templates: 624
+- apify-actors-a: 598
+- apify-actors-z: 598
+- fazier-launches: 598
+- gamepix-en: 598
+- gamepix-pt: 598
+- producthunt-products: 598
+- railway-templates: 597
 - y8-en: 574
 - playgama-en: 572
-- productperch-products: 510
+- productperch-products: 526
 - uneed-products: 470
-- toolveyor-tools: 408
+- toolveyor-tools: 431
 - saasworthy-products: 404
 - devhunt-tools: 315
-- dangai-tools: 275
+- dangai-tools: 288
+- smollaunch-products: 284
+- crazygames-br: 264
 - crazygames-es: 264
-- crazygames-br: 263
 - crazygames-en: 263
 - startupbase-products: 250
-- n8n-workflows: 221
-- saascity-products: 203
-- vercel-product-watch: 196
-- smollaunch-products: 193
+- n8n-workflows: 230
+- saascity-products: 204
+- vercel-product-watch: 201
 - indieneed-products: 167
-- aitoolnet-tools: 133
+- aitoolnet-tools: 138
 - gamedistribution-games: 124
 - pitchwall-products: 122
 - startupstash-tools: 121
-- futuretools-products: 115
+- futuretools-products: 119
 - aitoolboard-tools: 113
 - futurepedia-tools: 105
 - onlinetools-br: 105
@@ -55,39 +55,39 @@ Raw queue and all main radar settings remain unchanged.
 - ezgif-tools: 67
 - fotor-features: 63
 - pdfaid-tools: 58
+- toolfound-products: 52
 - indietools-products: 51
-- toolfound-products: 48
-- aitoptools-tools: 40
+- aitoptools-tools: 41
 - tooldirectory-ai-tools: 38
 - aitoolsdirectory-tools: 36
 - aiagentstore-agents: 30
 - pipedream-actions: 30
 - gamearter-en: 29
+- cokogames-es: 28
 - fridayhunt-projects: 28
-- cokogames-es: 26
-- netlify-product-watch: 21
+- netlify-product-watch: 22
 - replicate-models: 21
 - pdfresizer-tools: 20
 - poki-en: 17
 - yiv-games: 17
 - launchscaler-products: 16
-- jogos360-br: 13
+- jogos360-br: 14
+- onlinegames-en: 13
+- planetscale-changelog: 13
 - kizi-en: 12
-- onlinegames-en: 12
 - activepieces-pieces: 11
-- planetscale-changelog: 11
+- gamenora-en: 11
 - silvergames-en: 11
 - 1001games-en: 10
 - gamegame-en: 10
+- invertexto-br: 10
 - toolworthy-ai-tools: 10
 - aixploria-tools: 9
 - bgames-en: 9
-- invertexto-br: 9
+- modal-changelog: 9
 - aitoolhouse-tools: 8
 - ifttt-services: 8
-- modal-changelog: 8
 - nextool-tools: 8
-- gamenora-en: 7
 - trigger-product: 7
 - aiagentslist-agents: 6
 - gamesnacks-en: 5
@@ -101,106 +101,106 @@ Raw queue and all main radar settings remain unchanged.
 
 ## Latest scan's leads (routing only)
 
-- [totally legal driving](https://www.crazygames.com/game/totally-legal-driving) — watch / game-title-not-search-demand; source=crazygames-en
-- [your military](https://www.crazygames.com/game/your-military) — watch / game-title-not-search-demand; source=crazygames-en
-- [blockforge ypb](https://www.crazygames.com/game/blockforge-ypb) — watch / game-title-not-search-demand; source=crazygames-en
-- [obby cut trees](https://www.crazygames.com/game/obby-cut-trees) — watch / game-title-not-search-demand; source=crazygames-en
-- [my farm](https://www.crazygames.com/game/my-farm) — watch / game-title-not-search-demand; source=crazygames-en
-- [hoard sweeper](https://www.crazygames.com/game/hoard-sweeper) — watch / game-title-not-search-demand; source=crazygames-en
-- [destroy stickman city](https://www.crazygames.com/game/destroy-stickman-city) — watch / game-title-not-search-demand; source=crazygames-en
-- [obby fly for egg](https://www.crazygames.com/game/obby-fly-for-egg) — watch / game-title-not-search-demand; source=crazygames-en
-- [destroy stickman city](https://www.crazygames.com/br/game/destroy-stickman-city) — watch / game-title-not-search-demand; source=crazygames-br
-- [my farm](https://www.crazygames.com/br/game/my-farm) — watch / game-title-not-search-demand; source=crazygames-br
-- [obby fly for egg](https://www.crazygames.com/br/game/obby-fly-for-egg) — watch / game-title-not-search-demand; source=crazygames-br
-- [totally legal driving](https://www.crazygames.com/br/game/totally-legal-driving) — watch / game-title-not-search-demand; source=crazygames-br
-- [obby cut trees](https://www.crazygames.com/br/game/obby-cut-trees) — watch / game-title-not-search-demand; source=crazygames-br
-- [hoard sweeper](https://www.crazygames.com/br/game/hoard-sweeper) — watch / game-title-not-search-demand; source=crazygames-br
-- [blockforge ypb](https://www.crazygames.com/br/game/blockforge-ypb) — watch / game-title-not-search-demand; source=crazygames-br
-- [obby fly for egg](https://www.crazygames.com/es/game/obby-fly-for-egg) — watch / game-title-not-search-demand; source=crazygames-es
-- [your military](https://www.crazygames.com/es/game/your-military) — watch / game-title-not-search-demand; source=crazygames-es
-- [totally legal driving](https://www.crazygames.com/es/game/totally-legal-driving) — watch / game-title-not-search-demand; source=crazygames-es
-- [hoard sweeper](https://www.crazygames.com/es/game/hoard-sweeper) — watch / game-title-not-search-demand; source=crazygames-es
-- [destroy stickman city](https://www.crazygames.com/es/game/destroy-stickman-city) — watch / game-title-not-search-demand; source=crazygames-es
-- [obby cut trees](https://www.crazygames.com/es/game/obby-cut-trees) — watch / game-title-not-search-demand; source=crazygames-es
-- [my farm](https://www.crazygames.com/es/game/my-farm) — watch / game-title-not-search-demand; source=crazygames-es
-- [blockforge ypb](https://www.crazygames.com/es/game/blockforge-ypb) — watch / game-title-not-search-demand; source=crazygames-es
-- [tundra trek](https://www.gamepix.com/pt/play/tundra-trek) — watch / game-title-not-search-demand; source=gamepix-pt
-- [qwen4 max now available on ai gateway](https://vercel.com/changelog/qwen4-max-now-available-on-ai-gateway) — review / product-content-not-search-demand; source=vercel-product-watch
-- [monitor whatsapp template health with openai gmail and slack alerts](https://n8n.io/workflows/22805-monitor-whatsapp-template-health-with-openai-gmail-and-slack-alerts/) — review / tool-intent-wording-not-verified; source=n8n-workflows
-- [recover high value meetings with calendly hubspot openai and slack](https://n8n.io/workflows/22742-recover-high-value-meetings-with-calendly-hubspot-openai-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [validate shopify product csvs and generate issue reports with rapidapi](https://n8n.io/workflows/22762-validate-shopify-product-csvs-and-generate-issue-reports-with-rapidapi/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [diagnose failed workflows with openai and send throttled telegram alerts](https://n8n.io/workflows/22869-diagnose-failed-workflows-with-openai-and-send-throttled-telegram-alerts/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [detect sitemap url changes with http and json diffing](https://n8n.io/workflows/22598-detect-sitemap-url-changes-with-http-and-json-diffing/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [collect customer feedback with whatsapp google sheets and slack](https://n8n.io/workflows/22663-collect-customer-feedback-with-whatsapp-google-sheets-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [authorize hierarchical access requests with webhooks and whatsapp alerts](https://n8n.io/workflows/22681-authorize-hierarchical-access-requests-with-webhooks-and-whatsapp-alerts/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [reconcile shopify orders with stripe payouts and ecb fx rates](https://n8n.io/workflows/22620-reconcile-shopify-orders-with-stripe-payouts-and-ecb-fx-rates/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [get recaptcha and turnstile tokens with capguru](https://n8n.io/workflows/22733-get-recaptcha-and-turnstile-tokens-with-capguru/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [share new rss blog articles to social queues with rizamo](https://n8n.io/workflows/22823-share-new-rss-blog-articles-to-social-queues-with-rizamo/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [write real estate listing descriptions with claude and slack](https://n8n.io/workflows/22791-write-real-estate-listing-descriptions-with-claude-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [create daily slack decision digests in notion with openai](https://n8n.io/workflows/22442-create-daily-slack-decision-digests-in-notion-with-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [convert documentation urls to markdown for rag with apify](https://n8n.io/workflows/22476-convert-documentation-urls-to-markdown-for-rag-with-apify/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [run bulk pagespeed audits with apify and google sheets](https://n8n.io/workflows/22738-run-bulk-pagespeed-audits-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [alert on consecutive empty workflow runs with email and slack](https://n8n.io/workflows/22841-alert-on-consecutive-empty-workflow-runs-with-email-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [triage google play reviews with apify claude and slack](https://n8n.io/workflows/22848-triage-google-play-reviews-with-apify-claude-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [route home warranty claims with openai gmail and google sheets](https://n8n.io/workflows/21942-route-home-warranty-claims-with-openai-gmail-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [guard vessel telemetry with claude openai gmail and google sheets](https://n8n.io/workflows/21913-guard-vessel-telemetry-with-claude-openai-gmail-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send stock news sentiment digests to slack with apify](https://n8n.io/workflows/22764-send-stock-news-sentiment-digests-to-slack-with-apify/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [recover failed stripe payments with syncmate whatsapp and google sheets](https://n8n.io/workflows/22750-recover-failed-stripe-payments-with-syncmate-whatsapp-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [skip weekends and public holidays in schedules with nagerdate](https://n8n.io/workflows/22810-skip-weekends-and-public-holidays-in-schedules-with-nagerdate/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [ingest and vectorize documents with gemini and postgresql pgvector](https://n8n.io/workflows/22333-ingest-and-vectorize-documents-with-gemini-and-postgresql-pgvector/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [approve invoices with gmail google sheets and weekly pay runs](https://n8n.io/workflows/22665-approve-invoices-with-gmail-google-sheets-and-weekly-pay-runs/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [triage jira bug reports and request missing details with openai](https://n8n.io/workflows/22447-triage-jira-bug-reports-and-request-missing-details-with-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [reply to arabic sales inquiries with gmail and ollama](https://n8n.io/workflows/22755-reply-to-arabic-sales-inquiries-with-gmail-and-ollama/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send weekly app store review digests with apify and slack](https://n8n.io/workflows/22468-send-weekly-app-store-review-digests-with-apify-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [reply to customer emails with gmail openai and orvanta approvals](https://n8n.io/workflows/22789-reply-to-customer-emails-with-gmail-openai-and-orvanta-approvals/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [fetch and split room inspection data with http request](https://n8n.io/workflows/22911-fetch-and-split-room-inspection-data-with-http-request/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send new shopify order alerts to telegram](https://n8n.io/workflows/22845-send-new-shopify-order-alerts-to-telegram/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [index youtube channel transcripts in pinecone with apify and openai](https://n8n.io/workflows/22744-index-youtube-channel-transcripts-in-pinecone-with-apify-and-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [publish notion posts to linkedin from task webhooks](https://n8n.io/workflows/20815-publish-notion-posts-to-linkedin-from-task-webhooks/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send monthly stripe invoice csv reports via gmail](https://n8n.io/workflows/20613-send-monthly-stripe-invoice-csv-reports-via-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [audit and enrich hubspot contact phone data with quietpass](https://n8n.io/workflows/22217-audit-and-enrich-hubspot-contact-phone-data-with-quietpass/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send weekly ar aging summaries from quickbooks online to slack](https://n8n.io/workflows/22234-send-weekly-ar-aging-summaries-from-quickbooks-online-to-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [generate technical linkedin posts with tavily ollama and telegram](https://n8n.io/workflows/20307-generate-technical-linkedin-posts-with-tavily-ollama-and-telegram/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [shortlist linkedin candidates from competitors with apify openai and slack](https://n8n.io/workflows/22769-shortlist-linkedin-candidates-from-competitors-with-apify-openai-and-slack/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [create weekly content briefs in notion with mentionbirdai and openai](https://n8n.io/workflows/22752-create-weekly-content-briefs-in-notion-with-mentionbirdai-and-openai/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send monthly japanese support inquiry reviews with openai and gmail](https://n8n.io/workflows/22749-send-monthly-japanese-support-inquiry-reviews-with-openai-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [manage fitness class bookings with telegram and data tables](https://n8n.io/workflows/22827-manage-fitness-class-bookings-with-telegram-and-data-tables/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [track outperforming youtube competitor videos with apify claude and telegram](https://n8n.io/workflows/22853-track-outperforming-youtube-competitor-videos-with-apify-claude-and-telegram/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [score inbound b2b leads with openai gmail and google sheets](https://n8n.io/workflows/22819-score-inbound-b2b-leads-with-openai-gmail-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [collect b2b leads with dievio and google sheets](https://n8n.io/workflows/22761-collect-b2b-leads-with-dievio-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [send daily slack job digests with apify and google sheets](https://n8n.io/workflows/22831-send-daily-slack-job-digests-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [create consistent character story videos with genmagic json2video and sheets](https://n8n.io/workflows/22846-create-consistent-character-story-videos-with-genmagic-json2video-and-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
-- [trek travel planner](https://railway.com/deploy/trek-travel-planner) — review / tool-intent-wording-not-verified; source=railway-templates
-- [laravel starter kit react blank mariadb laravel react blank mariadb](https://railway.com/deploy/laravel-starter-kit-react-blank-mariadb--laravel-react-blank-mariadb) — review / deployment-topic-not-search-demand; source=railway-templates
-- [laravel starter kit react postgresql laravel react postgresql](https://railway.com/deploy/laravel-starter-kit-react-postgresql--laravel-react-postgresql) — review / deployment-topic-not-search-demand; source=railway-templates
-- [activepieces 6](https://railway.com/deploy/activepieces-6) — low / numbered-deploy-template; source=railway-templates
-- [komga comic server](https://railway.com/deploy/komga-comic-server) — review / deployment-topic-not-search-demand; source=railway-templates
-- [hermes agent 12](https://railway.com/deploy/hermes-agent-12) — low / numbered-deploy-template; source=railway-templates
-- [laravel starter kit svelte teams mariadb laravel svelte teams mariadb](https://railway.com/deploy/laravel-starter-kit-svelte-teams-mariadb--laravel-svelte-teams-mariadb) — review / deployment-topic-not-search-demand; source=railway-templates
-- [laravel starter kit vue postgresql laravel vue postgresql](https://railway.com/deploy/laravel-starter-kit-vue-postgresql--laravel-vue-postgresql) — review / deployment-topic-not-search-demand; source=railway-templates
-- [apache kafka 1](https://railway.com/deploy/apache-kafka-1) — low / numbered-deploy-template; source=railway-templates
-- [pgbouncer 1](https://railway.com/deploy/pgbouncer-1) — low / numbered-deploy-template; source=railway-templates
-- [supabase 2](https://railway.com/deploy/supabase-2) — low / numbered-deploy-template; source=railway-templates
-- [pgvector 1](https://railway.com/deploy/pgvector-1) — low / numbered-deploy-template; source=railway-templates
-- [tinyauth deploy tinyauth auth server](https://railway.com/deploy/tinyauth--deploy-tinyauth-auth-server) — review / deployment-topic-not-search-demand; source=railway-templates
-- [lago 2](https://railway.com/deploy/lago-2) — low / numbered-deploy-template; source=railway-templates
-- [grist spreadsheet database](https://railway.com/deploy/grist-spreadsheet-database) — review / deployment-topic-not-search-demand; source=railway-templates
-- [weaviate 2](https://railway.com/deploy/weaviate-2) — low / numbered-deploy-template; source=railway-templates
-- [postiz 2](https://railway.com/deploy/postiz-2) — low / numbered-deploy-template; source=railway-templates
-- [laravel blade mariadb redis](https://railway.com/deploy/laravel-blade-mariadb-redis) — review / deployment-topic-not-search-demand; source=railway-templates
-- [gotenberg 3](https://railway.com/deploy/gotenberg-3) — low / numbered-deploy-template; source=railway-templates
-- [qdrant 3](https://railway.com/deploy/qdrant-3) — low / numbered-deploy-template; source=railway-templates
-- [postgis 1](https://railway.com/deploy/postgis-1) — low / numbered-deploy-template; source=railway-templates
-- [laravel starter kit vue teams mysql laravel vue teams mysql](https://railway.com/deploy/laravel-starter-kit-vue-teams-mysql--laravel-vue-teams-mysql) — review / deployment-topic-not-search-demand; source=railway-templates
-- [doory canva alternative](https://railway.com/deploy/doory-canva-alternative) — review / deployment-topic-not-search-demand; source=railway-templates
-- [laravel starter kit svelte mysql laravel svelte mysql](https://railway.com/deploy/laravel-starter-kit-svelte-mysql--laravel-svelte-mysql) — review / deployment-topic-not-search-demand; source=railway-templates
-- [n8n 11](https://railway.com/deploy/n8n-11) — low / numbered-deploy-template; source=railway-templates
-- [laravel starter kit react postgresql redis laravel react postgresql redis](https://railway.com/deploy/laravel-starter-kit-react-postgresql-redis--laravel-react-postgresql-redis) — review / deployment-topic-not-search-demand; source=railway-templates
-- [laravel starter kit vue blank mysql laravel vue blank mysql](https://railway.com/deploy/laravel-starter-kit-vue-blank-mysql--laravel-vue-blank-mysql) — review / deployment-topic-not-search-demand; source=railway-templates
-- [rocketride deploy rocketride ai pipelines](https://railway.com/deploy/rocketride--deploy-rocketride-ai-pipelines) — review / deployment-topic-not-search-demand; source=railway-templates
-- [laravel starter kit livewire blank postgresql laravel livewire blank postgresql](https://railway.com/deploy/laravel-starter-kit-livewire-blank-postgresql--laravel-livewire-blank-postgresql) — review / deployment-topic-not-search-demand; source=railway-templates
-- [crawl4ai 3](https://railway.com/deploy/crawl4ai-3) — low / numbered-deploy-template; source=railway-templates
-- [mage ai 1](https://railway.com/deploy/mage-ai-1) — low / numbered-deploy-template; source=railway-templates
+- [your military](https://www.crazygames.com/br/game/your-military) — watch / game-title-not-search-demand; source=crazygames-br
+- [bubble tea idrink simulator](https://www.gamepix.com/play/bubble-tea-idrink-simulator) — review / tool-intent-wording-not-verified; source=gamepix-en
+- [pixel sand color](https://www.gamepix.com/play/pixel-sand-color) — watch / game-title-not-search-demand; source=gamepix-en
+- [tundra trek](https://www.gamepix.com/play/tundra-trek) — watch / game-title-not-search-demand; source=gamepix-en
+- [cute aquarium triple match](https://www.gamepix.com/play/cute-aquarium-triple-match) — watch / game-title-not-search-demand; source=gamepix-en
+- [squeak out](https://www.gamepix.com/play/squeak-out) — watch / game-title-not-search-demand; source=gamepix-en
+- [gravebound the last watch](https://www.gamepix.com/play/gravebound-the-last-watch) — watch / game-title-not-search-demand; source=gamepix-en
+- [piggy muncher](https://www.gamepix.com/play/piggy-muncher) — watch / game-title-not-search-demand; source=gamepix-en
+- [ring unhook](https://www.gamepix.com/play/ring-unhook) — watch / game-title-not-search-demand; source=gamepix-en
+- [cutopia](https://www.gamepix.com/play/cutopia) — watch / game-title-not-search-demand; source=gamepix-en
+- [gecko go](https://www.gamepix.com/play/gecko-go) — watch / game-title-not-search-demand; source=gamepix-en
+- [nuts and bolts sort](https://www.gamepix.com/play/nuts-and-bolts-sort) — watch / game-title-not-search-demand; source=gamepix-en
+- [brainy rebirth](https://www.gamepix.com/play/brainy-rebirth) — watch / game-title-not-search-demand; source=gamepix-en
+- [granma s crossing](https://www.gamepix.com/play/granma-s-crossing) — watch / game-title-not-search-demand; source=gamepix-en
+- [mini pool for kids 2](https://www.gamepix.com/play/mini-pool-for-kids-2) — watch / game-title-not-search-demand; source=gamepix-en
+- [pet rescue draw to save](https://www.gamepix.com/play/pet-rescue-draw-to-save) — watch / game-title-not-search-demand; source=gamepix-en
+- [zombie onslaught](https://www.gamepix.com/play/zombie-onslaught) — watch / game-title-not-search-demand; source=gamepix-en
+- [arrow out](https://www.gamepix.com/play/arrow-out) — watch / game-title-not-search-demand; source=gamepix-en
+- [super pop it 2](https://www.gamepix.com/play/super-pop-it-2) — watch / game-title-not-search-demand; source=gamepix-en
+- [skeinfast](https://www.gamepix.com/play/skeinfast) — watch / game-title-not-search-demand; source=gamepix-en
+- [touch the different](https://www.gamepix.com/play/touch-the-different) — watch / game-title-not-search-demand; source=gamepix-en
+- [floe penguin slide](https://www.gamepix.com/play/floe-penguin-slide) — watch / game-title-not-search-demand; source=gamepix-en
+- [frost bridge rivals](https://www.gamepix.com/play/frost-bridge-rivals) — watch / game-title-not-search-demand; source=gamepix-en
+- [shoot a cube](https://www.gamepix.com/play/shoot-a-cube) — watch / game-title-not-search-demand; source=gamepix-en
+- [cat a gory 2](https://www.gamepix.com/play/cat-a-gory-2) — watch / game-title-not-search-demand; source=gamepix-en
+- [pixel recall](https://www.gamepix.com/play/pixel-recall) — watch / game-title-not-search-demand; source=gamepix-en
+- [bubble tea idrink simulator](https://www.gamepix.com/pt/play/bubble-tea-idrink-simulator) — review / tool-intent-wording-not-verified; source=gamepix-pt
+- [pixel recall](https://www.gamepix.com/pt/play/pixel-recall) — watch / game-title-not-search-demand; source=gamepix-pt
+- [super pop it 2](https://www.gamepix.com/pt/play/super-pop-it-2) — watch / game-title-not-search-demand; source=gamepix-pt
+- [gravebound the last watch](https://www.gamepix.com/pt/play/gravebound-the-last-watch) — watch / game-title-not-search-demand; source=gamepix-pt
+- [ring unhook](https://www.gamepix.com/pt/play/ring-unhook) — watch / game-title-not-search-demand; source=gamepix-pt
+- [pet rescue draw to save](https://www.gamepix.com/pt/play/pet-rescue-draw-to-save) — watch / game-title-not-search-demand; source=gamepix-pt
+- [gecko go](https://www.gamepix.com/pt/play/gecko-go) — watch / game-title-not-search-demand; source=gamepix-pt
+- [squeak out](https://www.gamepix.com/pt/play/squeak-out) — watch / game-title-not-search-demand; source=gamepix-pt
+- [shoot a cube](https://www.gamepix.com/pt/play/shoot-a-cube) — watch / game-title-not-search-demand; source=gamepix-pt
+- [zombie onslaught](https://www.gamepix.com/pt/play/zombie-onslaught) — watch / game-title-not-search-demand; source=gamepix-pt
+- [mini pool for kids 2](https://www.gamepix.com/pt/play/mini-pool-for-kids-2) — watch / game-title-not-search-demand; source=gamepix-pt
+- [brainy rebirth](https://www.gamepix.com/pt/play/brainy-rebirth) — watch / game-title-not-search-demand; source=gamepix-pt
+- [cute aquarium triple match](https://www.gamepix.com/pt/play/cute-aquarium-triple-match) — watch / game-title-not-search-demand; source=gamepix-pt
+- [cutopia](https://www.gamepix.com/pt/play/cutopia) — watch / game-title-not-search-demand; source=gamepix-pt
+- [floe penguin slide](https://www.gamepix.com/pt/play/floe-penguin-slide) — watch / game-title-not-search-demand; source=gamepix-pt
+- [piggy muncher](https://www.gamepix.com/pt/play/piggy-muncher) — watch / game-title-not-search-demand; source=gamepix-pt
+- [arrow out](https://www.gamepix.com/pt/play/arrow-out) — watch / game-title-not-search-demand; source=gamepix-pt
+- [touch the different](https://www.gamepix.com/pt/play/touch-the-different) — watch / game-title-not-search-demand; source=gamepix-pt
+- [cat a gory 2](https://www.gamepix.com/pt/play/cat-a-gory-2) — watch / game-title-not-search-demand; source=gamepix-pt
+- [frost bridge rivals](https://www.gamepix.com/pt/play/frost-bridge-rivals) — watch / game-title-not-search-demand; source=gamepix-pt
+- [pixel sand color](https://www.gamepix.com/pt/play/pixel-sand-color) — watch / game-title-not-search-demand; source=gamepix-pt
+- [nuts and bolts sort](https://www.gamepix.com/pt/play/nuts-and-bolts-sort) — watch / game-title-not-search-demand; source=gamepix-pt
+- [granma s crossing](https://www.gamepix.com/pt/play/granma-s-crossing) — watch / game-title-not-search-demand; source=gamepix-pt
+- [skeinfast](https://www.gamepix.com/pt/play/skeinfast) — watch / game-title-not-search-demand; source=gamepix-pt
+- [hy4 flash now available on ai gateway for 50 off](https://vercel.com/changelog/hy4-flash-now-available-on-ai-gateway-for-50-off) — review / product-content-not-search-demand; source=vercel-product-watch
+- [set budgets for projects and products in spend management](https://vercel.com/changelog/set-budgets-for-projects-and-products-in-spend-management) — review / product-content-not-search-demand; source=vercel-product-watch
+- [ai gateway now supports private inference](https://vercel.com/changelog/ai-gateway-now-supports-private-inference) — review / product-content-not-search-demand; source=vercel-product-watch
+- [agent evals](https://vercel.com/blog/agent-evals) — review / product-content-not-search-demand; source=vercel-product-watch
+- [seedance 2 5 flash now available on ai gateway](https://vercel.com/changelog/seedance-2-5-flash-now-available-on-ai-gateway) — review / product-content-not-search-demand; source=vercel-product-watch
+- [run website seo audits with apify and google sheets](https://n8n.io/workflows/22963-run-website-seo-audits-with-apify-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [generate invoice pdfs from workflow data with bitavu](https://n8n.io/workflows/22793-generate-invoice-pdfs-from-workflow-data-with-bitavu/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [schedule apartment unit turnovers with openai gmail and google sheets](https://n8n.io/workflows/22978-schedule-apartment-unit-turnovers-with-openai-gmail-and-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [classify company descriptions in batches with apify lanseq](https://n8n.io/workflows/22901-classify-company-descriptions-in-batches-with-apify-lanseq/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [send daily proxmox ve health reports to any webhook](https://n8n.io/workflows/22989-send-daily-proxmox-ve-health-reports-to-any-webhook/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [recognize text captchas from images with capguru](https://n8n.io/workflows/22965-recognize-text-captchas-from-images-with-capguru/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [send weekly unpaid invoice summaries with google sheets and gmail](https://n8n.io/workflows/22728-send-weekly-unpaid-invoice-summaries-with-google-sheets-and-gmail/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [compare image models and generate variations with genmagic and google](https://n8n.io/workflows/22976-compare-image-models-and-generate-variations-with-genmagic-and-google/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [log new french company registrations from bodacc to google sheets](https://n8n.io/workflows/22906-log-new-french-company-registrations-from-bodacc-to-google-sheets/) — review / workflow-problem-not-search-demand; source=n8n-workflows
+- [speedtest tracker 1](https://railway.com/deploy/speedtest-tracker-1) — low / numbered-deploy-template; source=railway-templates
+- [commafeed 1](https://railway.com/deploy/commafeed-1) — low / numbered-deploy-template; source=railway-templates
+- [double commander in your browser](https://railway.com/deploy/double-commander-in-your-browser) — review / deployment-topic-not-search-demand; source=railway-templates
+- [kafka ui 1](https://railway.com/deploy/kafka-ui-1) — low / numbered-deploy-template; source=railway-templates
+- [trek nomad](https://railway.com/deploy/trek--nomad) — review / deployment-topic-not-search-demand; source=railway-templates
+- [inngest 1](https://railway.com/deploy/inngest-1) — low / numbered-deploy-template; source=railway-templates
+- [koel 1](https://railway.com/deploy/koel-1) — low / numbered-deploy-template; source=railway-templates
+- [sonarqube](https://railway.com/deploy/sonarqube) — review / deployment-topic-not-search-demand; source=railway-templates
+- [funkwhale 1](https://railway.com/deploy/funkwhale-1) — low / numbered-deploy-template; source=railway-templates
+- [pghero](https://railway.com/deploy/pghero) — review / deployment-topic-not-search-demand; source=railway-templates
+- [kalasiri karnataka](https://railway.com/deploy/kalasiri-karnataka) — review / deployment-topic-not-search-demand; source=railway-templates
+- [mailchannels](https://railway.com/deploy/mailchannels) — review / deployment-topic-not-search-demand; source=railway-templates
+- [authorizer 2](https://railway.com/deploy/authorizer-2) — low / numbered-deploy-template; source=railway-templates
+- [rawtherapee in your browser](https://railway.com/deploy/rawtherapee-in-your-browser) — review / deployment-topic-not-search-demand; source=railway-templates
+- [yaak in your browser](https://railway.com/deploy/yaak-in-your-browser) — review / deployment-topic-not-search-demand; source=railway-templates
+- [onlyoffice in your browser](https://railway.com/deploy/onlyoffice-in-your-browser) — review / deployment-topic-not-search-demand; source=railway-templates
+- [mazanoke](https://railway.com/deploy/mazanoke) — review / deployment-topic-not-search-demand; source=railway-templates
+- [rustdesk in your browser](https://railway.com/deploy/rustdesk-in-your-browser) — review / deployment-topic-not-search-demand; source=railway-templates
+- [kaneo 2](https://railway.com/deploy/kaneo-2) — low / numbered-deploy-template; source=railway-templates
+- [revolt](https://railway.com/deploy/revolt) — review / deployment-topic-not-search-demand; source=railway-templates
+- [automem 1](https://railway.com/deploy/automem-1) — low / numbered-deploy-template; source=railway-templates
+- [mission control 2](https://railway.com/deploy/mission-control-2) — low / numbered-deploy-template; source=railway-templates
+- [xwiki 1](https://railway.com/deploy/xwiki-1) — low / numbered-deploy-template; source=railway-templates
+- [intellij idea in your browser](https://railway.com/deploy/intellij-idea-in-your-browser) — review / deployment-topic-not-search-demand; source=railway-templates
+- [photoview](https://railway.com/deploy/photoview) — review / deployment-topic-not-search-demand; source=railway-templates
+- [zabbix 1](https://railway.com/deploy/zabbix-1) — low / numbered-deploy-template; source=railway-templates
+- [psitransfer](https://railway.com/deploy/psitransfer) — review / deployment-topic-not-search-demand; source=railway-templates
+- [continuwuity 1](https://railway.com/deploy/continuwuity-1) — low / numbered-deploy-template; source=railway-templates
+- [defectdojo](https://railway.com/deploy/defectdojo) — review / deployment-topic-not-search-demand; source=railway-templates
+- [happy server](https://railway.com/deploy/happy-server) — review / deployment-topic-not-search-demand; source=railway-templates
+- [lowcoder 1](https://railway.com/deploy/lowcoder-1) — low / numbered-deploy-template; source=railway-templates
+- [gramps web 1](https://railway.com/deploy/gramps-web-1) — low / numbered-deploy-template; source=railway-templates
+- [dependency track 1](https://railway.com/deploy/dependency-track-1) — low / numbered-deploy-template; source=railway-templates
+- [chamilo 1](https://railway.com/deploy/chamilo-1) — low / numbered-deploy-template; source=railway-templates
+- [emqx 1](https://railway.com/deploy/emqx-1) — low / numbered-deploy-template; source=railway-templates
+- [mongo express 1](https://railway.com/deploy/mongo-express-1) — low / numbered-deploy-template; source=railway-templates
 
 ## Source interpretation
 
