@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-11-16T11:12:07.884609+00:00",
-  "social_generated_at": "2026-11-16T11:12:07.884609+00:00",
+  "generated_at": "2026-11-16T21:02:26.860501+00:00",
+  "social_generated_at": "2026-11-16T21:02:26.860501+00:00",
   "trends_coverage": {
-    "archive_date": "2026-11-16",
+    "archive_date": "2026-11-17",
     "scanned_seed_count": 74,
     "target_seed_count": 74,
     "complete_daily_target": true,
-    "rising_total": 505,
-    "eligible_exact_queries": 459
+    "rising_total": 515,
+    "eligible_exact_queries": 463
   },
-  "social_unique_in_run": 56,
+  "social_unique_in_run": 54,
   "review_window": {
     "trend_days_evaluated": [
+      {
+        "archive_date": "2026-11-17",
+        "scanned_seed_count": 74,
+        "target_seed_count": 74,
+        "complete_daily_target": true,
+        "rising_total": 515,
+        "eligible_exact_queries": 463
+      },
       {
         "archive_date": "2026-11-16",
         "scanned_seed_count": 74,
@@ -27,39 +35,18 @@
         "complete_daily_target": true,
         "rising_total": 519,
         "eligible_exact_queries": 459
-      },
-      {
-        "archive_date": "2026-11-14",
-        "scanned_seed_count": 74,
-        "target_seed_count": 74,
-        "complete_daily_target": true,
-        "rising_total": 514,
-        "eligible_exact_queries": 464
       }
     ],
-    "exact_queries_in_window": 699,
-    "social_current_run": 56,
-    "social_prior_sightings_72h": 233,
-    "social_reviewable_72h": 289,
+    "exact_queries_in_window": 721,
+    "social_current_run": 54,
+    "social_prior_sightings_72h": 227,
+    "social_reviewable_72h": 281,
     "window_hours": 72,
     "not_new_discoveries_warning": "Window includes older links recently re-seen. Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."
   },
-  "cross_matches": 2,
+  "cross_matches": 1,
   "public_question_hypotheses": 4,
   "query_hypotheses": [
-    {
-      "proposed_query": "j09 j12 chat list sharing offline view and accessibility personal data",
-      "original_post_url": "https://github.com/LamHeiKit230208993/CS3383-Project/issues/21",
-      "original_platform": "github_issue",
-      "original_post_text": "Feature request: J09–J12 chat, list sharing, offline view, and accessibility/personal data ### What problem should this solve? The first two milestones are in place: the search → compare → list baseline (J01–J04, PR #15) and the tracking/alerts/budgets/reminders batch (J05–J08, PR #18). A shopper can now search, compare one exact product, keep a sa",
-      "published_at": "2026-11-15T00:23:59+00:00",
-      "demand_status": "unverified_question_hint",
-      "search_volume": null,
-      "keyword_difficulty": null,
-      "actual_user_paid": false,
-      "ready_to_build": false,
-      "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
-    },
     {
       "proposed_query": "it can easily be misused",
       "original_post_url": "https://bsky.app/profile/realeyesseelies.bsky.social/post/3n2clvtdbis2l",
@@ -98,39 +85,27 @@
       "actual_user_paid": false,
       "ready_to_build": false,
       "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
+    },
+    {
+      "proposed_query": "j09 j12 chat list sharing offline view and accessibility personal data",
+      "original_post_url": "https://github.com/LamHeiKit230208993/CS3383-Project/issues/21",
+      "original_platform": "github_issue",
+      "original_post_text": "Feature request: J09–J12 chat, list sharing, offline view, and accessibility/personal data ### What problem should this solve? The first two milestones are in place: the search → compare → list baseline (J01–J04, PR #15) and the tracking/alerts/budgets/reminders batch (J05–J08, PR #18). A shopper can now search, compare one exact product, keep a sa",
+      "published_at": "2026-11-15T00:23:59+00:00",
+      "demand_status": "unverified_question_hint",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "actual_user_paid": false,
+      "ready_to_build": false,
+      "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
     }
   ],
   "self_reported_buyer_feedback_count": 0,
   "self_reported_buyer_feedback": [],
   "candidates": [
     {
-      "query": "gif downloader",
-      "relative_rising_value": 40.0,
-      "seed": "downloader",
-      "sources": {
-        "mastodon": 1
-      },
-      "links": [
-        {
-          "platform": "mastodon",
-          "url": "https://mastodon.social/@99tools/117609408531653048",
-          "title": "📌 Discover VidSave.co – Pinterest Video, Image & GIF Downloader Looking for a convenient way to save Pinterest content? VidSave.co provides a straightforward way to download Pinter",
-          "published_at": "2026-11-13T13:39:16.551000+00:00",
-          "evidence_type": "direct_public_post",
-          "potential_first_person_question": true,
-          "verified_customer_demand": false,
-          "original_comments_verified": false
-        }
-      ],
-      "independent_platforms": 1,
-      "distinct_urls": 1,
-      "original_post_question_hints": 1,
-      "ready_to_build": false,
-      "requires": "Human verification of an explicit user need, complete-query SEO history and current SERP; no API cost."
-    },
-    {
       "query": "minimax h3 image",
-      "relative_rising_value": 600.0,
+      "relative_rising_value": 650.0,
       "seed": "image",
       "sources": {
         "huggingface": 1
