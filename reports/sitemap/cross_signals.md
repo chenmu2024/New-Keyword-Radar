@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：125/135；数据生成：2026-11-16T03:55:43.743975+08:00；详细候选：12000；7日轻量URL证据：10294/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-16T18:07:13.317323+08:00；详细候选：12000；7日轻量URL证据：11464/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 11，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 87，采样上限遗漏 0。
 
 - **fashion world tour**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-12 · https://gamedistribution.com/games/fashion-world-tour/ · 原词 fashion world tour
@@ -52,7 +52,7 @@
 
 ## SaaS 产品发布目录
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 37，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 185，采样上限遗漏 0。
 
 - **vidsembly**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-10 · https://fazier.com/launches/vidsembly · 原词 vidsembly
@@ -86,11 +86,11 @@
   - saascity.io · saascity-products · 2026-11-12 · https://saascity.io/live/country-days-tracker-geostay · 原词 country days tracker geostay
   - indietools.app · indietools-products · 2026-11-14 · https://www.indietools.app/products/country-days-tracker-geostay · 原词 country days tracker geostay
 
-失败来源：fazier-launches (HTTPError: HTTP Error 502: Bad Gateway)；microlaunch-products (TimeoutError: The read operation timed out)
+失败来源：microlaunch-products (TimeoutError: The read operation timed out)
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 49，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 34，采样上限遗漏 0。
 
 - **wearai**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-11 · https://aitoolsdirectory.com/tool/wearai · 原词 wearai
@@ -103,12 +103,18 @@
 - **plimo**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aiapps.com · aiapps-tools · 2026-11-11 · https://www.aiapps.com/items/plimo/ · 原词 plimo
   - aiagentslist.com · aiagentslist-agents · 2026-11-12 · https://aiagentslist.com/agents/plimo · 原词 plimo
+- **triverse ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aixploria.com · aixploria-tools · 2026-11-14 · https://www.aixploria.com/triverse-ai/ · 原词 triverse ai
+  - dang.ai · dangai-tools · 2026-11-16 · https://dang.ai/tool/triverse-ai · 原词 triverse ai
 - **yellow ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - dang.ai · dangai-tools · 2026-11-12 · https://dang.ai/tool/yellow-ai · 原词 yellow ai
   - toolveyor.com · toolveyor-tools · 2026-11-13 · https://toolveyor.com/yellow-ai · 原词 yellow ai
 - **ai rap video generator**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - dang.ai · dangai-tools · 2026-11-10 · https://dang.ai/tool/ai-rap-video-generator · 原词 ai rap video generator
   - toolveyor.com · toolveyor-tools · 2026-11-16 · https://toolveyor.com/ai-rap-video-generator · 原词 ai rap video generator
+- **ezmaker ai**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoptools.com · aitoptools-tools · 2026-11-11 · https://aitoptools.com/tool/ezmaker-ai/ · 原词 ezmaker ai
+  - aitoolnet.com · aitoolnet-tools · 2026-11-16 · https://www.aitoolnet.com/ezmaker-ai · 原词 ezmaker ai
 
 ## 计算器
 
@@ -120,7 +126,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 1，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -128,17 +134,15 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 1775，采样上限遗漏 1541。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 1027，采样上限遗漏 462。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
 ## 巴西在线工具
 
-采集：9/10来源，配置根域 10，新建基线 0，失败 1，新增 URL 0，采样上限遗漏 0。
+采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 2，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
-
-失败来源：devdata4-br (HTTPError: HTTP Error 429: Too Many Requests)
 
 ## 跨类别同名或同向文件转换（仅作人工复核）
 
@@ -162,6 +166,9 @@
   - saas · producthunt-products · 2026-11-12 · https://www.producthunt.com/products/yogurt
   - saas · productperch-products · 2026-11-12 · https://productperch.com/products/yogurt/
   - ai · aitoolnet-tools · 2026-11-15 · https://www.aitoolnet.com/yogurt
+- aisma：独立根域 2 家；类别 developer, saas
+  - developer · devhunt-tools · 2026-11-16 · https://devhunt.org/tool/aisma
+  - saas · fazier-launches · 2026-11-16 · https://fazier.com/launches/aisma
 - aircad：独立根域 2 家；类别 ai, saas
   - saas · productperch-products · 2026-11-11 · https://productperch.com/products/aircad/
   - ai · aitoolnet-tools · 2026-11-12 · https://www.aitoolnet.com/aircad
@@ -177,9 +184,6 @@
 - nova buddy ai：独立根域 2 家；类别 ai, saas
   - saas · saasworthy-products · 2026-11-12 · https://www.saasworthy.com/product/nova-buddy-ai
   - ai · aitoolnet-tools · 2026-11-13 · https://www.aitoolnet.com/nova-buddy-ai
-- ste80 humanizer：独立根域 2 家；类别 ai, saas
-  - saas · productperch-products · 2026-11-10 · https://productperch.com/products/ste80-humanizer/
-  - ai · aitoolnet-tools · 2026-11-11 · https://www.aitoolnet.com/ste80-humanizer
 
 ### 跨类别同向文件转换
 
