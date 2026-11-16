@@ -1,11 +1,11 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-15T23:22:34.144279+00:00
-- Source last updated: 2026-11-15T23:22:34.144279+00:00
+- Generated: 2026-11-16T11:12:07.884609+00:00
+- Source last updated: 2026-11-16T11:12:07.884609+00:00
 - Trends archive: 2026-11-16 (74/74; complete=True)
 - Eligible multiword rising queries: 459
 - Cross-source matches within 72h review window: 2
-- Social current-run links: 52, prior recent sightings: 266
+- Social current-run links: 56, prior recent sightings: 233
 - Search archives examined: 2026-11-16, 2026-11-15, 2026-11-14
 - Direct-post question-derived QUERY HYPOTHESES: 4
 - Direct-post author self-reported payments (NOT processor verified): 0
@@ -27,14 +27,14 @@
 
 ## Original public-post question hints (NOT validated search keywords)
 
+- Proposed query: **j09 j12 chat list sharing offline view and accessibility personal data**
+  - Original public post: https://github.com/LamHeiKit230208993/CS3383-Project/issues/21
+  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **it can easily be misused**
   - Original public post: https://bsky.app/profile/realeyesseelies.bsky.social/post/3n2clvtdbis2l
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **a convenient save pinterest content**
   - Original public post: https://mastodon.social/@99tools/117609408531653048
-  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
-- Proposed query: **do it without it being basically cops to harass poc please**
-  - Original public post: https://bsky.app/profile/bradiscranky.bsky.social/post/3n25omxms5c26
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **them for flashbacks a manga cat that s not proprietary and**
   - Original public post: https://bsky.app/profile/jmitsu.bsky.social/post/3n2cwzgqjz225
