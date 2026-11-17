@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-16T20:43:30.943230+00:00
+- Updated (UTC): 2026-11-17T04:26:24.695537+00:00
 - Historical candidates: 6073
-- Newly recorded from pending: 103
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 4776
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 94fbr capcut template [Global] — discovered — first 2026-11-17, last 2026-11-17
-- amd ryzen 7 9850x3d processor 4.7 ghz 96 mb l3 tray [Global] — discovered — first 2026-11-17, last 2026-11-17
-- android switch [Global] — discovered — first 2026-11-17, last 2026-11-17
-- android system intelligence [Global] — discovered — first 2026-11-17, last 2026-11-17
-- anthropic claude code creator engineer [Global] — discovered — first 2026-11-17, last 2026-11-17
-- apb optimizer [Global] — discovered — first 2026-11-17, last 2026-11-17
-- apboptimizer [Global] — discovered — first 2026-11-17, last 2026-11-17
-- apk drag bike riding simulator [Global] — discovered — first 2026-11-17, last 2026-11-17
-- apna khet apna rozgar scheme [Global] — discovered — first 2026-11-17, last 2026-11-17
-- ard live [Global] — discovered — first 2026-11-17, last 2026-11-17
-- auraone human data [Global] — discovered — first 2026-11-17, last 2026-11-17
-- aws health dashboard [Global] — discovered — first 2026-11-17, last 2026-11-17
-- barry wong generator purchase bbc [Global] — discovered — first 2026-11-17, last 2026-11-17
-- best ice scraper [Global] — discovered — first 2026-11-17, last 2026-11-17
-- bloukrans bridge builder concor rescue [Global] — discovered — first 2026-11-17, last 2026-11-17
-- bowl projections [Global] — discovered — first 2026-11-17, last 2026-11-17
-- bridge builder [Global] — discovered — first 2026-11-17, last 2026-11-17
-- casino online 🇩🇪 www.casinod.cfd 🇩🇪 [Global] — discovered — first 2026-11-17, last 2026-11-17
-- casino utan licens 🇸🇪 casinonisse.sbs [Global] — discovered — first 2026-11-17, last 2026-11-17
-- casino 🇳🇱 casinobino.com [Global] — discovered — first 2026-11-17, last 2026-11-17
-- cauldron contents crossword clue [Global] — discovered — first 2026-11-17, last 2026-11-17
-- chase brown [Global] — discovered — first 2026-11-17, last 2026-11-17
+- tracker blind spot [Global] — discovered — first 2026-11-17, last 2026-11-17
+- welcher sender überträgt heute fussball [Global] — discovered — first 2026-11-17, last 2026-11-17
+- dohnte meyers [Global] — discovered — first 2026-11-17, last 2026-11-17
+- game killer [Global] — discovered — first 2026-11-17, last 2026-11-17
+- maestro constructor [Global] — discovered — first 2026-11-17, last 2026-11-17
+- national disability insurance scheme [Global] — discovered — first 2026-11-17, last 2026-11-17
+- gumroad sign up [Global] — discovered — first 2026-11-17, last 2026-11-17
+- ps5 monitor [Global] — discovered — first 2026-11-17, last 2026-11-17
+- ugc creator это [Global] — discovered — first 2026-11-17, last 2026-11-17
+- social media evaluator [Global] — discovered — first 2026-11-17, last 2026-11-17
 - chiefs new receiver [Global] — discovered — first 2026-11-17, last 2026-11-17
-- chinese greeting [Global] — discovered — first 2026-11-17, last 2026-11-17
-- chinese greeting crossword [Global] — discovered — first 2026-11-17, last 2026-11-17
+- divide fairly crossword clue [Global] — discovered — first 2026-11-17, last 2026-11-17
+- amd ryzen 7 9850x3d processor 4.7 ghz 96 mb l3 tray [Global] — discovered — first 2026-11-17, last 2026-11-17
+- shift dress back to the future [Global] — discovered — first 2026-11-17, last 2026-11-17
+- deutschland niederlande welcher sender [Global] — discovered — first 2026-11-17, last 2026-11-17
+- auraone human data [Global] — discovered — first 2026-11-17, last 2026-11-17
+- bridge builder [Global] — discovered — first 2026-11-17, last 2026-11-17
+- drew sample stats [Global] — discovered — first 2026-11-17, last 2026-11-17
+- gpu [Global] — discovered — first 2026-11-17, last 2026-11-17
+- samaje perine [Global] — discovered — first 2026-11-17, last 2026-11-17
+- intel core i5-14600kf processor 24 mb [Global] — discovered — first 2026-11-17, last 2026-11-17
+- elevator constructor [Global] — discovered — first 2026-11-17, last 2026-11-17
+- ice scraper car [Global] — discovered — first 2026-11-17, last 2026-11-17
+- how to get ice off windshield without scraper [Global] — discovered — first 2026-11-17, last 2026-11-17
+- comparable and comparator in java [Global] — discovered — first 2026-11-17, last 2026-11-17
 
 ## Due for follow-up
 
