@@ -1,8 +1,8 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-17T04:26:24.695537+00:00
-- Historical candidates: 6073
-- Newly recorded from pending: 0
+- Updated (UTC): 2026-11-17T15:53:54.203156+00:00
+- Historical candidates: 6155
+- Newly recorded from pending: 82
 - Awaiting 7/14/30-day evidence review: 4776
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
