@@ -1,12 +1,12 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-17T05:04:07.984188+00:00
-- Source last updated: 2026-11-17T05:04:07.984188+00:00
+- Generated: 2026-11-17T16:52:28.612817+00:00
+- Source last updated: 2026-11-17T16:52:28.612817+00:00
 - Trends archive: 2026-11-17 (74/74; complete=True)
 - Eligible multiword rising queries: 463
 - Cross-source matches within 72h review window: 0
-- Social current-run links: 54, prior recent sightings: 226
-- Search archives examined: 2026-11-17, 2026-11-16, 2026-11-15
+- Social current-run links: 56, prior recent sightings: 235
+- Search archives examined: 2026-11-17, 2026-11-16
 - Direct-post question-derived QUERY HYPOTHESES: 5
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
