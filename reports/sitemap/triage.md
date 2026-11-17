@@ -1,93 +1,93 @@
-# Sitemap lead triage — 2026-11-17
+# Sitemap lead triage — 2026-11-18
 
 **Important:** These are *unverified URL leads*, not proven new keywords,
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
-- Sitemap feeds succeeded: 127/135
-- URLs newly observed in the latest scan: 656
-- Candidate URL rows extracted in latest scan: 633
-- First-time keyword/geo research leads: 572
-- Previously removed URLs resurfacing: 20
+- Sitemap feeds succeeded: 126/135
+- URLs newly observed in the latest scan: 2391
+- Candidate URL rows extracted in latest scan: 482
+- First-time keyword/geo research leads: 453
+- Previously removed URLs resurfacing: 111
 - Accumulated queue: 12000
-- Human keyword/topic review: 3080
-- Game/general watchlist: 8754
-- Low-quality page-name noise: 166
+- Human keyword/topic review: 3036
+- Game/general watchlist: 8801
+- Low-quality page-name noise: 163
 - **Verified new keywords / search demand / business revenue: not established**
 
 ## Queue composition (by Sitemap source)
 
-- apify-actors-a: 561
-- apify-actors-z: 560
-- fazier-launches: 560
-- gamepix-en: 560
-- gamepix-pt: 560
-- playgama-en: 560
-- producthunt-products: 560
-- railway-templates: 560
-- y8-en: 560
-- productperch-products: 537
+- apify-actors-a: 539
+- apify-actors-z: 539
+- fazier-launches: 539
+- gamepix-en: 538
+- gamepix-pt: 538
+- playgama-en: 538
+- producthunt-products: 538
+- productperch-products: 538
+- railway-templates: 538
+- y8-en: 538
 - uneed-products: 484
 - toolveyor-tools: 466
 - saasworthy-products: 405
 - devhunt-tools: 357
-- dangai-tools: 296
+- dangai-tools: 311
 - smollaunch-products: 284
 - crazygames-br: 273
 - crazygames-es: 273
 - crazygames-en: 272
 - startupbase-products: 262
 - n8n-workflows: 230
-- saascity-products: 204
-- vercel-product-watch: 201
+- saascity-products: 213
+- vercel-product-watch: 208
 - indieneed-products: 176
-- aitoolnet-tools: 138
+- aiagentstore-agents: 148
+- aitoolnet-tools: 147
 - openhunts-projects: 136
 - pitchwall-products: 132
 - gamedistribution-games: 131
+- futuretools-products: 127
 - startupstash-tools: 121
-- futuretools-products: 119
 - aitoolboard-tools: 113
+- futurepedia-tools: 107
 - playhop-en: 107
-- futurepedia-tools: 106
 - onlinetools-br: 105
 - minijuegos-es: 98
 - ezgif-tools: 67
 - fotor-features: 64
 - tooldirectory-ai-tools: 61
 - pdfaid-tools: 58
+- toolfound-products: 54
 - indietools-products: 52
-- toolfound-products: 52
-- aitoptools-tools: 42
+- aitoptools-tools: 44
 - aitoolsdirectory-tools: 37
 - pipedream-actions: 33
-- aiagentstore-agents: 31
+- cokogames-es: 30
 - gamearter-en: 29
-- cokogames-es: 28
 - fridayhunt-projects: 28
-- netlify-product-watch: 22
+- netlify-product-watch: 25
 - replicate-models: 22
 - pdfresizer-tools: 20
 - poki-en: 18
 - yiv-games: 18
+- jogos360-br: 17
+- planetscale-changelog: 17
+- silvergames-en: 17
 - startupsfyi-products: 17
 - launchscaler-products: 16
-- jogos360-br: 15
-- onlinegames-en: 13
-- planetscale-changelog: 13
+- onlinegames-en: 15
+- toolworthy-ai-tools: 13
 - kizi-en: 12
 - 1001games-en: 11
 - activepieces-pieces: 11
 - gamenora-en: 11
-- silvergames-en: 11
+- ifttt-services: 11
 - gamegame-en: 10
 - invertexto-br: 10
-- toolworthy-ai-tools: 10
 - aixploria-tools: 9
 - bgames-en: 9
 - modal-changelog: 9
 - aitoolhouse-tools: 8
-- ifttt-services: 8
 - nextool-tools: 8
 - trigger-product: 7
 - aiagentslist-agents: 6
@@ -102,106 +102,106 @@ Raw queue and all main radar settings remain unchanged.
 
 ## Latest scan's leads (routing only)
 
-- [style battle dress up](https://www.crazygames.com/game/style-battle-dress-up) — watch / game-title-not-search-demand; source=crazygames-en
-- [kart racing championship](https://www.crazygames.com/game/kart-racing-championship) — watch / game-title-not-search-demand; source=crazygames-en
-- [slowmo sniper](https://www.crazygames.com/game/slowmo-sniper) — watch / game-title-not-search-demand; source=crazygames-en
-- [swat ops body camera](https://www.crazygames.com/game/swat-ops-body-camera) — watch / game-title-not-search-demand; source=crazygames-en
-- [winter loop](https://www.crazygames.com/game/winter-loop) — watch / game-title-not-search-demand; source=crazygames-en
-- [catdoku meow brain puzzle](https://www.crazygames.com/game/catdoku-meow-brain-puzzle) — watch / game-title-not-search-demand; source=crazygames-en
-- [the king lqh](https://www.crazygames.com/game/the-king-lqh) — watch / game-title-not-search-demand; source=crazygames-en
-- [zero gravity battleground](https://www.crazygames.com/game/zero-gravity-battleground) — watch / game-title-not-search-demand; source=crazygames-en
-- [hair stylist live](https://www.crazygames.com/game/hair-stylist-live) — watch / game-title-not-search-demand; source=crazygames-en
-- [dead don t stop](https://www.crazygames.com/game/dead-don-t-stop) — watch / game-title-not-search-demand; source=crazygames-en
-- [kart racing championship](https://www.crazygames.com/br/game/kart-racing-championship) — watch / game-title-not-search-demand; source=crazygames-br
-- [zero gravity battleground](https://www.crazygames.com/br/game/zero-gravity-battleground) — watch / game-title-not-search-demand; source=crazygames-br
-- [style battle dress up](https://www.crazygames.com/br/game/style-battle-dress-up) — watch / game-title-not-search-demand; source=crazygames-br
-- [dead don t stop](https://www.crazygames.com/br/game/dead-don-t-stop) — watch / game-title-not-search-demand; source=crazygames-br
-- [catdoku meow brain puzzle](https://www.crazygames.com/br/game/catdoku-meow-brain-puzzle) — watch / game-title-not-search-demand; source=crazygames-br
-- [slowmo sniper](https://www.crazygames.com/br/game/slowmo-sniper) — watch / game-title-not-search-demand; source=crazygames-br
-- [the king lqh](https://www.crazygames.com/br/game/the-king-lqh) — watch / game-title-not-search-demand; source=crazygames-br
-- [winter loop](https://www.crazygames.com/br/game/winter-loop) — watch / game-title-not-search-demand; source=crazygames-br
-- [swat ops body camera](https://www.crazygames.com/br/game/swat-ops-body-camera) — watch / game-title-not-search-demand; source=crazygames-br
-- [hair stylist live](https://www.crazygames.com/br/game/hair-stylist-live) — watch / game-title-not-search-demand; source=crazygames-br
-- [zero gravity battleground](https://www.crazygames.com/es/game/zero-gravity-battleground) — watch / game-title-not-search-demand; source=crazygames-es
-- [winter loop](https://www.crazygames.com/es/game/winter-loop) — watch / game-title-not-search-demand; source=crazygames-es
-- [catdoku meow brain puzzle](https://www.crazygames.com/es/game/catdoku-meow-brain-puzzle) — watch / game-title-not-search-demand; source=crazygames-es
-- [kart racing championship](https://www.crazygames.com/es/game/kart-racing-championship) — watch / game-title-not-search-demand; source=crazygames-es
-- [hair stylist live](https://www.crazygames.com/es/game/hair-stylist-live) — watch / game-title-not-search-demand; source=crazygames-es
-- [swat ops body camera](https://www.crazygames.com/es/game/swat-ops-body-camera) — watch / game-title-not-search-demand; source=crazygames-es
-- [dead don t stop](https://www.crazygames.com/es/game/dead-don-t-stop) — watch / game-title-not-search-demand; source=crazygames-es
-- [style battle dress up](https://www.crazygames.com/es/game/style-battle-dress-up) — watch / game-title-not-search-demand; source=crazygames-es
-- [slowmo sniper](https://www.crazygames.com/es/game/slowmo-sniper) — watch / game-title-not-search-demand; source=crazygames-es
-- [the king lqh](https://www.crazygames.com/es/game/the-king-lqh) — watch / game-title-not-search-demand; source=crazygames-es
-- [aura farming master](https://www.minijuegos.com/juego/aura-farming-master) — watch / game-title-not-search-demand; source=minijuegos-es
-- [pvz fusion cheats](https://www.minijuegos.com/juego/pvz-fusion-cheats) — watch / game-title-not-search-demand; source=minijuegos-es
-- [vet tycoon pet hospital](https://www.minijuegos.com/juego/vet-tycoon-pet-hospital) — watch / game-title-not-search-demand; source=minijuegos-es
-- [mosaic mender restore puzzle](https://www.minijuegos.com/juego/mosaic-mender-restore-puzzle) — watch / game-title-not-search-demand; source=minijuegos-es
-- [octagon hype arena](https://www.minijuegos.com/juego/octagon-hype-arena) — watch / game-title-not-search-demand; source=minijuegos-es
-- [waste to wow](https://www.minijuegos.com/juego/waste-to-wow) — watch / game-title-not-search-demand; source=minijuegos-es
-- [space racing warriors](https://www.minijuegos.com/juego/space-racing-warriors) — watch / game-title-not-search-demand; source=minijuegos-es
-- [edwins misadventure](https://www.minijuegos.com/juego/edwins-misadventure) — watch / game-title-not-search-demand; source=minijuegos-es
-- [salty seas](https://www.minijuegos.com/juego/salty-seas) — watch / game-title-not-search-demand; source=minijuegos-es
-- [gangsta rage](https://www.minijuegos.com/juego/gangsta-rage) — watch / game-title-not-search-demand; source=minijuegos-es
-- [pickle rally](https://www.minijuegos.com/juego/pickle-rally) — watch / game-title-not-search-demand; source=minijuegos-es
-- [illa builder](https://railway.com/deploy/illa-builder) — review / tool-intent-wording-not-verified; source=railway-templates
-- [local deep research local deep researc 1](https://railway.com/deploy/local-deep-research--local-deep-researc-1) — low / numbered-deploy-template; source=railway-templates
-- [onlyoffice docs 1](https://railway.com/deploy/onlyoffice-docs-1) — low / numbered-deploy-template; source=railway-templates
-- [hollo](https://railway.com/deploy/hollo) — review / deployment-topic-not-search-demand; source=railway-templates
-- [openlist 2](https://railway.com/deploy/openlist-2) — low / numbered-deploy-template; source=railway-templates
-- [donsetch deploy donsetch web search mcp](https://railway.com/deploy/donsetch--deploy-donsetch-web-search-mcp) — review / deployment-topic-not-search-demand; source=railway-templates
-- [paradedb 1](https://railway.com/deploy/paradedb-1) — low / numbered-deploy-template; source=railway-templates
-- [tronbyt 1](https://railway.com/deploy/tronbyt-1) — low / numbered-deploy-template; source=railway-templates
-- [libsql server](https://railway.com/deploy/libsql-server) — review / deployment-topic-not-search-demand; source=railway-templates
-- [signoz 3](https://railway.com/deploy/signoz-3) — low / numbered-deploy-template; source=railway-templates
-- [miniflux 1](https://railway.com/deploy/miniflux-1) — low / numbered-deploy-template; source=railway-templates
-- [falkordb 3](https://railway.com/deploy/falkordb-3) — low / numbered-deploy-template; source=railway-templates
-- [fider 1](https://railway.com/deploy/fider-1) — low / numbered-deploy-template; source=railway-templates
-- [kibana 1](https://railway.com/deploy/kibana-1) — low / numbered-deploy-template; source=railway-templates
-- [materialious modern youtube client on your own invidious youtube](https://railway.com/deploy/materialious-modern-youtube-client-on-your-own-invidious--youtube) — review / deployment-topic-not-search-demand; source=railway-templates
-- [postmill](https://railway.com/deploy/postmill) — review / deployment-topic-not-search-demand; source=railway-templates
-- [filestash 2](https://railway.com/deploy/filestash-2) — low / numbered-deploy-template; source=railway-templates
-- [novu 1](https://railway.com/deploy/novu-1) — low / numbered-deploy-template; source=railway-templates
-- [termix 1](https://railway.com/deploy/termix-1) — low / numbered-deploy-template; source=railway-templates
-- [sftpgo 2](https://railway.com/deploy/sftpgo-2) — low / numbered-deploy-template; source=railway-templates
-- [freebie radar cn deals deploy freebie radar cn deals](https://railway.com/deploy/freebie-radar-cn-deals--deploy-freebie-radar-cn-deals) — review / deployment-topic-not-search-demand; source=railway-templates
-- [adminer 1](https://railway.com/deploy/adminer-1) — low / numbered-deploy-template; source=railway-templates
-- [nofx 3](https://railway.com/deploy/nofx-3) — low / numbered-deploy-template; source=railway-templates
-- [eclipse mosquitto](https://railway.com/deploy/eclipse-mosquitto) — review / deployment-topic-not-search-demand; source=railway-templates
-- [openconstructionerp deploy openconstructionerp](https://railway.com/deploy/openconstructionerp--deploy-openconstructionerp) — review / deployment-topic-not-search-demand; source=railway-templates
-- [harness open source harness open sourc 1](https://railway.com/deploy/harness-open-source--harness-open-sourc-1) — low / numbered-deploy-template; source=railway-templates
-- [proton mail bridge](https://railway.com/deploy/proton-mail-bridge) — review / deployment-topic-not-search-demand; source=railway-templates
-- [juggleim deploy juggleim chat server](https://railway.com/deploy/juggleim--deploy-juggleim-chat-server) — review / deployment-topic-not-search-demand; source=railway-templates
-- [maxun 1](https://railway.com/deploy/maxun-1) — low / numbered-deploy-template; source=railway-templates
-- [reactive resume 1](https://railway.com/deploy/reactive-resume-1) — low / numbered-deploy-template; source=railway-templates
-- [quantdinger](https://railway.com/deploy/quantdinger) — review / deployment-topic-not-search-demand; source=railway-templates
-- [nightingale 1](https://railway.com/deploy/nightingale-1) — low / numbered-deploy-template; source=railway-templates
-- [certimate 1](https://railway.com/deploy/certimate-1) — low / numbered-deploy-template; source=railway-templates
-- [elizaos](https://railway.com/deploy/elizaos) — review / deployment-topic-not-search-demand; source=railway-templates
-- [whatomate 1](https://railway.com/deploy/whatomate-1) — low / numbered-deploy-template; source=railway-templates
-- [surfsense 1](https://railway.com/deploy/surfsense-1) — low / numbered-deploy-template; source=railway-templates
-- [deepwiki open 1](https://railway.com/deploy/deepwiki-open-1) — low / numbered-deploy-template; source=railway-templates
-- [freescout 1](https://railway.com/deploy/freescout-1) — low / numbered-deploy-template; source=railway-templates
-- [pancakeslicer deploy pancakeslicer 3d slicer](https://railway.com/deploy/pancakeslicer--deploy-pancakeslicer-3d-slicer) — review / deployment-topic-not-search-demand; source=railway-templates
-- [angelq](https://www.futurepedia.io/tool/angelq) — review / product-content-not-search-demand; source=futurepedia-tools
-- [trulata](https://www.producthunt.com/products/trulata) — review / product-content-not-search-demand; source=producthunt-products
-- [glass page](https://www.producthunt.com/products/glass-page) — review / product-content-not-search-demand; source=producthunt-products
-- [continuo 4](https://www.producthunt.com/products/continuo-4) — review / product-content-not-search-demand; source=producthunt-products
-- [clamor 2](https://www.producthunt.com/products/clamor-2) — review / product-content-not-search-demand; source=producthunt-products
-- [polyroom](https://www.producthunt.com/products/polyroom) — review / product-content-not-search-demand; source=producthunt-products
-- [ekline](https://www.producthunt.com/products/ekline) — review / product-content-not-search-demand; source=producthunt-products
-- [skiss](https://www.producthunt.com/products/skiss) — review / product-content-not-search-demand; source=producthunt-products
-- [base studio](https://www.producthunt.com/products/base-studio) — review / product-content-not-search-demand; source=producthunt-products
-- [gatherhq agent research](https://www.producthunt.com/products/gatherhq-agent-research) — review / product-content-not-search-demand; source=producthunt-products
-- [bezzle](https://www.producthunt.com/products/bezzle) — review / product-content-not-search-demand; source=producthunt-products
-- [thebold](https://www.producthunt.com/products/thebold) — review / product-content-not-search-demand; source=producthunt-products
-- [link bio](https://www.producthunt.com/products/link-bio) — review / product-content-not-search-demand; source=producthunt-products
-- [manufact](https://www.producthunt.com/products/manufact) — review / product-content-not-search-demand; source=producthunt-products
-- [onlinecompiler io](https://www.producthunt.com/products/onlinecompiler-io) — review / product-content-not-search-demand; source=producthunt-products
-- [seshka](https://www.producthunt.com/products/seshka) — review / product-content-not-search-demand; source=producthunt-products
-- [infaiw](https://www.producthunt.com/products/infaiw) — review / product-content-not-search-demand; source=producthunt-products
-- [versine](https://www.producthunt.com/products/versine) — review / product-content-not-search-demand; source=producthunt-products
-- [inbox hero 2](https://www.producthunt.com/products/inbox-hero-2) — review / product-content-not-search-demand; source=producthunt-products
-- [ridian](https://www.producthunt.com/products/ridian) — review / product-content-not-search-demand; source=producthunt-products
+- [pallet drop](https://www.gamepix.com/play/pallet-drop) — watch / game-title-not-search-demand; source=gamepix-en
+- [jigpic solitaire](https://www.gamepix.com/play/jigpic-solitaire) — watch / game-title-not-search-demand; source=gamepix-en
+- [wordtide](https://www.gamepix.com/play/wordtide) — watch / game-title-not-search-demand; source=gamepix-en
+- [secret hall hidden objects](https://www.gamepix.com/play/secret-hall-hidden-objects) — watch / game-title-not-search-demand; source=gamepix-en
+- [scrib dies a lot](https://www.gamepix.com/play/scrib-dies-a-lot) — watch / game-title-not-search-demand; source=gamepix-en
+- [crazy plinko](https://www.gamepix.com/play/crazy-plinko) — watch / game-title-not-search-demand; source=gamepix-en
+- [dungeon loot 3d](https://www.gamepix.com/play/dungeon-loot-3d) — watch / game-title-not-search-demand; source=gamepix-en
+- [alderun](https://www.gamepix.com/play/alderun) — watch / game-title-not-search-demand; source=gamepix-en
+- [ink sort world tour](https://www.gamepix.com/play/ink-sort-world-tour) — watch / game-title-not-search-demand; source=gamepix-en
+- [clean alchemy](https://www.gamepix.com/play/clean-alchemy) — watch / game-title-not-search-demand; source=gamepix-en
+- [stamp slam border officer](https://www.gamepix.com/play/stamp-slam-border-officer) — watch / game-title-not-search-demand; source=gamepix-en
+- [guildless](https://www.gamepix.com/play/guildless) — watch / game-title-not-search-demand; source=gamepix-en
+- [arm yourself](https://www.gamepix.com/play/arm-yourself) — watch / game-title-not-search-demand; source=gamepix-en
+- [mergecamp](https://www.gamepix.com/play/mergecamp) — watch / game-title-not-search-demand; source=gamepix-en
+- [wreck kings car](https://www.gamepix.com/play/wreck-kings-car) — watch / game-title-not-search-demand; source=gamepix-en
+- [steamwright](https://www.gamepix.com/play/steamwright) — watch / game-title-not-search-demand; source=gamepix-en
+- [cat astrophe](https://www.gamepix.com/play/cat-astrophe) — watch / game-title-not-search-demand; source=gamepix-en
+- [golu gang merge drop](https://www.gamepix.com/play/golu-gang-merge-drop) — watch / game-title-not-search-demand; source=gamepix-en
+- [road to president](https://www.gamepix.com/play/road-to-president) — watch / game-title-not-search-demand; source=gamepix-en
+- [meow sudoku mania](https://www.gamepix.com/play/meow-sudoku-mania) — watch / game-title-not-search-demand; source=gamepix-en
+- [buzz blaster](https://www.gamepix.com/play/buzz-blaster) — watch / game-title-not-search-demand; source=gamepix-en
+- [pulse drift](https://www.gamepix.com/play/pulse-drift) — watch / game-title-not-search-demand; source=gamepix-en
+- [cone orbit](https://www.gamepix.com/play/cone-orbit) — watch / game-title-not-search-demand; source=gamepix-en
+- [one line labyrinth](https://www.gamepix.com/play/one-line-labyrinth) — watch / game-title-not-search-demand; source=gamepix-en
+- [candy bubble 2](https://www.gamepix.com/play/candy-bubble-2) — watch / game-title-not-search-demand; source=gamepix-en
+- [orbit hop 2026](https://www.gamepix.com/play/orbit-hop-2026) — watch / game-title-not-search-demand; source=gamepix-en
+- [minutes to die](https://www.gamepix.com/play/10-minutes-to-die) — watch / game-title-not-search-demand; source=gamepix-en
+- [super stock 500](https://www.gamepix.com/play/super-stock-500) — watch / game-title-not-search-demand; source=gamepix-en
+- [zombie drop 2](https://www.gamepix.com/play/zombie-drop-2) — watch / game-title-not-search-demand; source=gamepix-en
+- [frontline strike](https://www.gamepix.com/play/frontline-strike) — watch / game-title-not-search-demand; source=gamepix-en
+- [food truck crew co op cooking](https://www.gamepix.com/play/food-truck-crew-co-op-cooking) — watch / game-title-not-search-demand; source=gamepix-en
+- [pulseshift arrow puzzle](https://www.gamepix.com/play/pulseshift-arrow-puzzle) — watch / game-title-not-search-demand; source=gamepix-en
+- [size showdown](https://www.gamepix.com/play/size-showdown) — watch / game-title-not-search-demand; source=gamepix-en
+- [robot sumo](https://www.gamepix.com/play/robot-sumo) — watch / game-title-not-search-demand; source=gamepix-en
+- [santa drop 2](https://www.gamepix.com/play/santa-drop-2) — watch / game-title-not-search-demand; source=gamepix-en
+- [lipas from longkang to luxury](https://www.gamepix.com/play/lipas-from-longkang-to-luxury) — watch / game-title-not-search-demand; source=gamepix-en
+- [water sort quest](https://www.gamepix.com/play/water-sort-quest) — watch / game-title-not-search-demand; source=gamepix-en
+- [drillosaur](https://www.gamepix.com/play/drillosaur) — watch / game-title-not-search-demand; source=gamepix-en
+- [newbz io](https://www.gamepix.com/play/newbz-io) — watch / game-title-not-search-demand; source=gamepix-en
+- [italian brainrot tung tung tung sahur](https://www.gamepix.com/play/italian-brainrot-tung-tung-tung-sahur) — watch / game-title-not-search-demand; source=gamepix-en
+- [throttlewake](https://www.gamepix.com/play/throttlewake) — watch / game-title-not-search-demand; source=gamepix-en
+- [star stamp](https://www.gamepix.com/play/star-stamp) — watch / game-title-not-search-demand; source=gamepix-en
+- [warden rush mong kok ticket blitz](https://www.gamepix.com/play/warden-rush-mong-kok-ticket-blitz) — watch / game-title-not-search-demand; source=gamepix-en
+- [4x4 fury offroad jeep](https://www.gamepix.com/play/4x4-fury-offroad-jeep) — watch / game-title-not-search-demand; source=gamepix-en
+- [blueprint tower](https://www.gamepix.com/play/blueprint-tower) — watch / game-title-not-search-demand; source=gamepix-en
+- [drillosaur](https://www.gamepix.com/pt/play/drillosaur) — watch / game-title-not-search-demand; source=gamepix-pt
+- [guildless](https://www.gamepix.com/pt/play/guildless) — watch / game-title-not-search-demand; source=gamepix-pt
+- [minutes to die](https://www.gamepix.com/pt/play/10-minutes-to-die) — watch / game-title-not-search-demand; source=gamepix-pt
+- [cat astrophe](https://www.gamepix.com/pt/play/cat-astrophe) — watch / game-title-not-search-demand; source=gamepix-pt
+- [lipas from longkang to luxury](https://www.gamepix.com/pt/play/lipas-from-longkang-to-luxury) — watch / game-title-not-search-demand; source=gamepix-pt
+- [mergecamp](https://www.gamepix.com/pt/play/mergecamp) — watch / game-title-not-search-demand; source=gamepix-pt
+- [one line labyrinth](https://www.gamepix.com/pt/play/one-line-labyrinth) — watch / game-title-not-search-demand; source=gamepix-pt
+- [italian brainrot tung tung tung sahur](https://www.gamepix.com/pt/play/italian-brainrot-tung-tung-tung-sahur) — watch / game-title-not-search-demand; source=gamepix-pt
+- [star stamp](https://www.gamepix.com/pt/play/star-stamp) — watch / game-title-not-search-demand; source=gamepix-pt
+- [steamwright](https://www.gamepix.com/pt/play/steamwright) — watch / game-title-not-search-demand; source=gamepix-pt
+- [secret hall hidden objects](https://www.gamepix.com/pt/play/secret-hall-hidden-objects) — watch / game-title-not-search-demand; source=gamepix-pt
+- [pulseshift arrow puzzle](https://www.gamepix.com/pt/play/pulseshift-arrow-puzzle) — watch / game-title-not-search-demand; source=gamepix-pt
+- [candy bubble 2](https://www.gamepix.com/pt/play/candy-bubble-2) — watch / game-title-not-search-demand; source=gamepix-pt
+- [newbz io](https://www.gamepix.com/pt/play/newbz-io) — watch / game-title-not-search-demand; source=gamepix-pt
+- [cone orbit](https://www.gamepix.com/pt/play/cone-orbit) — watch / game-title-not-search-demand; source=gamepix-pt
+- [food truck crew co op cooking](https://www.gamepix.com/pt/play/food-truck-crew-co-op-cooking) — watch / game-title-not-search-demand; source=gamepix-pt
+- [zombie drop 2](https://www.gamepix.com/pt/play/zombie-drop-2) — watch / game-title-not-search-demand; source=gamepix-pt
+- [dungeon loot 3d](https://www.gamepix.com/pt/play/dungeon-loot-3d) — watch / game-title-not-search-demand; source=gamepix-pt
+- [super stock 500](https://www.gamepix.com/pt/play/super-stock-500) — watch / game-title-not-search-demand; source=gamepix-pt
+- [stamp slam border officer](https://www.gamepix.com/pt/play/stamp-slam-border-officer) — watch / game-title-not-search-demand; source=gamepix-pt
+- [frontline strike](https://www.gamepix.com/pt/play/frontline-strike) — watch / game-title-not-search-demand; source=gamepix-pt
+- [orbit hop 2026](https://www.gamepix.com/pt/play/orbit-hop-2026) — watch / game-title-not-search-demand; source=gamepix-pt
+- [arm yourself](https://www.gamepix.com/pt/play/arm-yourself) — watch / game-title-not-search-demand; source=gamepix-pt
+- [alderun](https://www.gamepix.com/pt/play/alderun) — watch / game-title-not-search-demand; source=gamepix-pt
+- [throttlewake](https://www.gamepix.com/pt/play/throttlewake) — watch / game-title-not-search-demand; source=gamepix-pt
+- [wreck kings car](https://www.gamepix.com/pt/play/wreck-kings-car) — watch / game-title-not-search-demand; source=gamepix-pt
+- [ink sort world tour](https://www.gamepix.com/pt/play/ink-sort-world-tour) — watch / game-title-not-search-demand; source=gamepix-pt
+- [clean alchemy](https://www.gamepix.com/pt/play/clean-alchemy) — watch / game-title-not-search-demand; source=gamepix-pt
+- [blueprint tower](https://www.gamepix.com/pt/play/blueprint-tower) — watch / game-title-not-search-demand; source=gamepix-pt
+- [road to president](https://www.gamepix.com/pt/play/road-to-president) — watch / game-title-not-search-demand; source=gamepix-pt
+- [jigpic solitaire](https://www.gamepix.com/pt/play/jigpic-solitaire) — watch / game-title-not-search-demand; source=gamepix-pt
+- [meow sudoku mania](https://www.gamepix.com/pt/play/meow-sudoku-mania) — watch / game-title-not-search-demand; source=gamepix-pt
+- [robot sumo](https://www.gamepix.com/pt/play/robot-sumo) — watch / game-title-not-search-demand; source=gamepix-pt
+- [size showdown](https://www.gamepix.com/pt/play/size-showdown) — watch / game-title-not-search-demand; source=gamepix-pt
+- [water sort quest](https://www.gamepix.com/pt/play/water-sort-quest) — watch / game-title-not-search-demand; source=gamepix-pt
+- [crazy plinko](https://www.gamepix.com/pt/play/crazy-plinko) — watch / game-title-not-search-demand; source=gamepix-pt
+- [pallet drop](https://www.gamepix.com/pt/play/pallet-drop) — watch / game-title-not-search-demand; source=gamepix-pt
+- [buzz blaster](https://www.gamepix.com/pt/play/buzz-blaster) — watch / game-title-not-search-demand; source=gamepix-pt
+- [golu gang merge drop](https://www.gamepix.com/pt/play/golu-gang-merge-drop) — watch / game-title-not-search-demand; source=gamepix-pt
+- [warden rush mong kok ticket blitz](https://www.gamepix.com/pt/play/warden-rush-mong-kok-ticket-blitz) — watch / game-title-not-search-demand; source=gamepix-pt
+- [4x4 fury offroad jeep](https://www.gamepix.com/pt/play/4x4-fury-offroad-jeep) — watch / game-title-not-search-demand; source=gamepix-pt
+- [scrib dies a lot](https://www.gamepix.com/pt/play/scrib-dies-a-lot) — watch / game-title-not-search-demand; source=gamepix-pt
+- [wordtide](https://www.gamepix.com/pt/play/wordtide) — watch / game-title-not-search-demand; source=gamepix-pt
+- [santa drop 2](https://www.gamepix.com/pt/play/santa-drop-2) — watch / game-title-not-search-demand; source=gamepix-pt
+- [pulse drift](https://www.gamepix.com/pt/play/pulse-drift) — watch / game-title-not-search-demand; source=gamepix-pt
+- [single second static deployments now support more assets](https://vercel.com/changelog/single-second-static-deployments-now-support-more-assets) — review / product-content-not-search-demand; source=vercel-product-watch
+- [decision 1 1 now available on ai gateway](https://vercel.com/changelog/decision-1-1-now-available-on-ai-gateway) — review / product-content-not-search-demand; source=vercel-product-watch
+- [eve is now generally available](https://vercel.com/blog/eve-is-now-generally-available) — review / product-content-not-search-demand; source=vercel-product-watch
+- [standard build billing new teams](https://vercel.com/changelog/standard-build-billing-new-teams) — review / product-content-not-search-demand; source=vercel-product-watch
+- [pull request only preset now available for preview builds](https://vercel.com/changelog/pull-request-only-preset-now-available-for-preview-builds) — review / product-content-not-search-demand; source=vercel-product-watch
+- [vercel blob now supports ttls for automatic deletion](https://vercel.com/changelog/vercel-blob-now-supports-ttls-for-automatic-deletion) — review / product-content-not-search-demand; source=vercel-product-watch
+- [vercel sandbox python sdk 1 0 is now available](https://vercel.com/changelog/vercel-sandbox-python-sdk-1-0-is-now-available) — review / product-content-not-search-demand; source=vercel-product-watch
+- [bulk image converter](https://apify.com/agentoprimus/bulk-image-converter) — review / tool-intent-wording-not-verified; source=apify-actors-a
+- [computrabajo jobs](https://apify.com/4denov/computrabajo-jobs) — review / workflow-problem-not-search-demand; source=apify-actors-a
+- [necc egg price scrap222](https://apify.com/akash9078/necc-egg-price-scrap222) — review / workflow-problem-not-search-demand; source=apify-actors-a
 
 ## Source interpretation
 
