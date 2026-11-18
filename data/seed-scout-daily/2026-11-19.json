@@ -1,0 +1,1700 @@
+{
+  "local_date": "2026-11-19",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "target_seed_count": 74,
+  "batches": [
+    {
+      "batch_id": "2026-11-18T18:48:57.845353+00:00-17-18-19-20-21",
+      "start_index": 17,
+      "seed_indices": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "generated_at": "2026-11-18T18:48:57.845353+00:00",
+      "local_generated_at": "2026-11-19T02:48:57.845353+08:00",
+      "seed_batch": [
+        "uploader",
+        "calculator",
+        "sample",
+        "template",
+        "format"
+      ],
+      "discovery_count": 37,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-18T18:50:36.699692+00:00-22-23-24-25-26",
+      "start_index": 22,
+      "seed_indices": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "generated_at": "2026-11-18T18:50:36.699692+00:00",
+      "local_generated_at": "2026-11-19T02:50:36.699692+08:00",
+      "seed_batch": [
+        "builder",
+        "scheme",
+        "pattern",
+        "checker",
+        "detector"
+      ],
+      "discovery_count": 59,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-18T18:52:15.857314+00:00-27-28-29-30-31",
+      "start_index": 27,
+      "seed_indices": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "generated_at": "2026-11-18T18:52:15.857314+00:00",
+      "local_generated_at": "2026-11-19T02:52:15.857314+08:00",
+      "seed_batch": [
+        "scraper",
+        "manager",
+        "explorer",
+        "dashboard",
+        "planner"
+      ],
+      "discovery_count": 41,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-18T18:54:54.480853+00:00-32-33-34-35-36",
+      "start_index": 32,
+      "seed_indices": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "generated_at": "2026-11-18T18:54:54.480853+00:00",
+      "local_generated_at": "2026-11-19T02:54:54.480853+08:00",
+      "seed_batch": [
+        "tracker",
+        "recorder",
+        "optimizer",
+        "scheduler",
+        "converter"
+      ],
+      "discovery_count": 34,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-18T18:57:21.278485+00:00-37-38-39-40-41",
+      "start_index": 37,
+      "seed_indices": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "generated_at": "2026-11-18T18:57:21.278485+00:00",
+      "local_generated_at": "2026-11-19T02:57:21.278485+08:00",
+      "seed_batch": [
+        "viewer",
+        "extractor",
+        "monitor",
+        "notifier",
+        "verifier"
+      ],
+      "discovery_count": 26,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-18T18:58:58.116342+00:00-42-43-44-45-46",
+      "start_index": 42,
+      "seed_indices": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "generated_at": "2026-11-18T18:58:58.116342+00:00",
+      "local_generated_at": "2026-11-19T02:58:58.116342+08:00",
+      "seed_batch": [
+        "simulator",
+        "assistant",
+        "constructor",
+        "comparator",
+        "navigator"
+      ],
+      "discovery_count": 52,
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "generated_at": "2026-11-18T19:00:36.950079+00:00",
+      "local_generated_at": "2026-11-19T03:00:36.950079+08:00",
+      "start_index": 47,
+      "seed_indices": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "seed_batch": [
+        "syncer",
+        "connector",
+        "cataloger",
+        "responder",
+        "color"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    }
+  ],
+  "scanned_seeds": [
+    "uploader",
+    "calculator",
+    "sample",
+    "template",
+    "format",
+    "builder",
+    "scheme",
+    "pattern",
+    "checker",
+    "detector",
+    "scraper",
+    "manager",
+    "explorer",
+    "dashboard",
+    "planner",
+    "tracker",
+    "recorder",
+    "optimizer",
+    "scheduler",
+    "converter",
+    "viewer",
+    "extractor",
+    "monitor",
+    "notifier",
+    "verifier",
+    "simulator",
+    "assistant",
+    "constructor",
+    "comparator",
+    "navigator"
+  ],
+  "discoveries": [
+    {
+      "seed": "optimizer",
+      "query": "apb optimizer",
+      "rise_value": 331400.0,
+      "raw_value": 331400
+    },
+    {
+      "seed": "uploader",
+      "query": "wed uploader",
+      "rise_value": 29700.0,
+      "raw_value": 29700
+    },
+    {
+      "seed": "optimizer",
+      "query": "apboptimizer",
+      "rise_value": 27750.0,
+      "raw_value": 27750
+    },
+    {
+      "seed": "detector",
+      "query": "down detector outlook",
+      "rise_value": 20250.0,
+      "raw_value": 20250
+    },
+    {
+      "seed": "detector",
+      "query": "microsoft outlook down detector",
+      "rise_value": 18650.0,
+      "raw_value": 18650
+    },
+    {
+      "seed": "optimizer",
+      "query": "apb optimizer descargar",
+      "rise_value": 17250.0,
+      "raw_value": 17250
+    },
+    {
+      "seed": "tracker",
+      "query": "microsoft outage tracker",
+      "rise_value": 14150.0,
+      "raw_value": 14150
+    },
+    {
+      "seed": "scheduler",
+      "query": "walgreens pharmacy scheduler job",
+      "rise_value": 13650.0,
+      "raw_value": 13650
+    },
+    {
+      "seed": "scheme",
+      "query": "labour pension for life scheme risks",
+      "rise_value": 13000.0,
+      "raw_value": 13000
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier grade 12 cevap anahtarı",
+      "rise_value": 11250.0,
+      "raw_value": 11250
+    },
+    {
+      "seed": "tracker",
+      "query": "tracker blind spot",
+      "rise_value": 11050.0,
+      "raw_value": 11050
+    },
+    {
+      "seed": "tracker",
+      "query": "cbs marshals tracker return schedule",
+      "rise_value": 10600.0,
+      "raw_value": 10600
+    },
+    {
+      "seed": "format",
+      "query": "icc 2027 world cup qualifier format",
+      "rise_value": 9850.0,
+      "raw_value": 9850
+    },
+    {
+      "seed": "detector",
+      "query": "down detector 365",
+      "rise_value": 9600.0,
+      "raw_value": 9600
+    },
+    {
+      "seed": "tracker",
+      "query": "amy aquino",
+      "rise_value": 9550.0,
+      "raw_value": 9550
+    },
+    {
+      "seed": "detector",
+      "query": "microsoft down detector",
+      "rise_value": 9450.0,
+      "raw_value": 9450
+    },
+    {
+      "seed": "detector",
+      "query": "microsoft down",
+      "rise_value": 9100.0,
+      "raw_value": 9100
+    },
+    {
+      "seed": "tracker",
+      "query": "tracker s4e6",
+      "rise_value": 8200.0,
+      "raw_value": 8200
+    },
+    {
+      "seed": "scheduler",
+      "query": "gillece lawsuit",
+      "rise_value": 6150.0,
+      "raw_value": 6150
+    },
+    {
+      "seed": "builder",
+      "query": "bloukrans bridge builder concor rescue",
+      "rise_value": 5750.0,
+      "raw_value": 5750
+    },
+    {
+      "seed": "dashboard",
+      "query": "dashboard spr",
+      "rise_value": 5000.0,
+      "raw_value": 5000
+    },
+    {
+      "seed": "sample",
+      "query": "with jean sample sale",
+      "rise_value": 4850.0,
+      "raw_value": 4850
+    },
+    {
+      "seed": "assistant",
+      "query": "home assistant aux 2",
+      "rise_value": 4700.0,
+      "raw_value": 4700
+    },
+    {
+      "seed": "calculator",
+      "query": "geekzilla.io podcast",
+      "rise_value": 4350.0,
+      "raw_value": 4350
+    },
+    {
+      "seed": "tracker",
+      "query": "akvan cyclone tracker live today",
+      "rise_value": 4300.0,
+      "raw_value": 4300
+    },
+    {
+      "seed": "assistant",
+      "query": "home assistant connect aux 2",
+      "rise_value": 3900.0,
+      "raw_value": 3900
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier def",
+      "rise_value": 3350.0,
+      "raw_value": 3350
+    },
+    {
+      "seed": "format",
+      "query": "le passage au format carte de crédit est désormais sans frais avant la fin de validité",
+      "rise_value": 3300.0,
+      "raw_value": 3300
+    },
+    {
+      "seed": "dashboard",
+      "query": "microsoft 365 service health dashboard",
+      "rise_value": 3300.0,
+      "raw_value": 3300
+    },
+    {
+      "seed": "navigator",
+      "query": "lexus lm",
+      "rise_value": 3000.0,
+      "raw_value": 3000
+    },
+    {
+      "seed": "scheme",
+      "query": "national student financial aid scheme",
+      "rise_value": 1850.0,
+      "raw_value": 1850
+    },
+    {
+      "seed": "tracker",
+      "query": "akwan cyclone tracker",
+      "rise_value": 1700.0,
+      "raw_value": 1700
+    },
+    {
+      "seed": "scheme",
+      "query": "bob golden goal deposit scheme returns",
+      "rise_value": 1550.0,
+      "raw_value": 1550
+    },
+    {
+      "seed": "sample",
+      "query": "dohnte meyers",
+      "rise_value": 1450.0,
+      "raw_value": 1450
+    },
+    {
+      "seed": "checker",
+      "query": "doomsday postcode checker",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "detector",
+      "query": "down detector website",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "uploader",
+      "query": "zero uploader",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "detector",
+      "query": "down detector canada",
+      "rise_value": 1300.0,
+      "raw_value": 1300
+    },
+    {
+      "seed": "explorer",
+      "query": "the explorer of duck",
+      "rise_value": 1300.0,
+      "raw_value": 1300
+    },
+    {
+      "seed": "builder",
+      "query": "google forms alternatives",
+      "rise_value": 1250.0,
+      "raw_value": 1250
+    },
+    {
+      "seed": "format",
+      "query": "nations league format",
+      "rise_value": 1250.0,
+      "raw_value": 1250
+    },
+    {
+      "seed": "detector",
+      "query": "outage detector",
+      "rise_value": 1150.0,
+      "raw_value": 1150
+    },
+    {
+      "seed": "simulator",
+      "query": "warung life simulator",
+      "rise_value": 1150.0,
+      "raw_value": 1150
+    },
+    {
+      "seed": "detector",
+      "query": "apple down detector",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
+      "seed": "builder",
+      "query": "typeform alternatives",
+      "rise_value": 1100.0,
+      "raw_value": 1100
+    },
+    {
+      "seed": "format",
+      "query": "uefa nations league format",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
+      "seed": "planner",
+      "query": "poe atlas planner",
+      "rise_value": 1000.0,
+      "raw_value": 1000
+    },
+    {
+      "seed": "assistant",
+      "query": "icar technical assistant recruitment",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "builder",
+      "query": "jotform alternatives",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "detector",
+      "query": "downtime detector",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "tracker",
+      "query": "akvan cyclone tracker live",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "assistant",
+      "query": "icar technical assistant recruitment 2026",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "tracker",
+      "query": "outage tracker",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
+      "seed": "builder",
+      "query": "squarespace alternatives",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
+      "seed": "detector",
+      "query": "claude down detector",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "tracker",
+      "query": "gta 6 sales tracker",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "builder",
+      "query": "wix alternatives",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "checker",
+      "query": "aquaria digital",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "checker",
+      "query": "aquaria digital marketing agency",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "sample",
+      "query": "chase brown",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "scraper",
+      "query": "how to get ice off windshield without scraper",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "calculator",
+      "query": "snow day calculator",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "simulator",
+      "query": "winter resort simulator 3",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "sample",
+      "query": "drew sample",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "detector",
+      "query": "down detector",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "detector",
+      "query": "downdetector",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "simulator",
+      "query": "euro truck simulator 2 coaches",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "pattern",
+      "query": "scalping pattern breakout ideas",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "assistant",
+      "query": "ssb junior assistant admit card",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "builder",
+      "query": "typeform",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "scraper",
+      "query": "windscreen scraper",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "planner",
+      "query": "poe planner",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "tracker",
+      "query": "project 2025 tracker",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "sample",
+      "query": "samaje perine",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier ticket loto",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "uploader",
+      "query": "wwe2k image uploader",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "scheme",
+      "query": "apna khet apna rozgar scheme apply online 2026",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "tracker",
+      "query": "cyclone tracker live",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "dashboard",
+      "query": "dashboard abm",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "scheme",
+      "query": "national disability insurance scheme",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "assistant",
+      "query": "ssb junior assistant admit card 2026",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "checker",
+      "query": "stress checker",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "notifier",
+      "query": "symfony notifier",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "template",
+      "query": "94fbr capcut template",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "scheme",
+      "query": "apna khet apna rozgar scheme apply online",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "calculator",
+      "query": "arcana calculator",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "tracker",
+      "query": "cyclone tracker",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "manager",
+      "query": "man u new manager",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "optimizer",
+      "query": "metaprompt ai prompt engineer & optimizer for chatgpt & claude",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "sample",
+      "query": "mike gesicki",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "uploader",
+      "query": "scs workshop uploader",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "builder",
+      "query": "shopify alternatives",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "detector",
+      "query": "smoke detector installation",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "scheme",
+      "query": "apna khet apna rozgar scheme",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "constructor",
+      "query": "constructor de horario urbe",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "tracker",
+      "query": "flightaware flight tracker",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "sample",
+      "query": "hammitt sample sale",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "simulator",
+      "query": "lucca simulator",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "scheme",
+      "query": "stand up india scheme",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "detector",
+      "query": "steam down detector",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "simulator",
+      "query": "drag bike 201m sunmori",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "tracker",
+      "query": "flight tracker map",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "simulator",
+      "query": "apk drag bike riding simulator",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "builder",
+      "query": "blank builder",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "scraper",
+      "query": "car ice scraper",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "simulator",
+      "query": "drag bike simulator",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "scheduler",
+      "query": "exam scheduler iitk",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "optimizer",
+      "query": "optimizer duck github",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "scraper",
+      "query": "karcher ice scraper",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "scheme",
+      "query": "cheyutha pension scheme telangana beneficiary list",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "simulator",
+      "query": "crumb circuit simulator",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "scraper",
+      "query": "ice scraper for car",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "builder",
+      "query": "jotform",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "builder",
+      "query": "pool builder",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "builder",
+      "query": "purple schedule builder",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "assistant",
+      "query": "assistant commissioner of police",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "simulator",
+      "query": "drag bike 201m simulator",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier synonyme",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "optimizer",
+      "query": "optimizer duck",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "scraper",
+      "query": "best ice scraper",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier for gmail",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "manager",
+      "query": "scotland manager",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "assistant",
+      "query": "ssb junior assistant",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "assistant",
+      "query": "uphesc assistant professor admit card",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "scraper",
+      "query": "car scraper",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "simulator",
+      "query": "drag drive simulator codes",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "manager",
+      "query": "mister download manager",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "scheme",
+      "query": "msbte",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "scraper",
+      "query": "proxy scraper free web",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier loto",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "checker",
+      "query": "backlink checker regalseo",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scheme",
+      "query": "bernie madoff",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "builder",
+      "query": "custom home builder",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scraper",
+      "query": "heated ice scraper",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "navigator",
+      "query": "kredit navigator",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scheme",
+      "query": "mera ghar mere naam scheme punjab",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scheme",
+      "query": "msbte previous year question paper k scheme",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "format",
+      "query": "nations championship format",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "manager",
+      "query": "pochettino",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "assistant",
+      "query": "up assistant professor admit card",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scraper",
+      "query": "windshield ice scraper",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "constructor",
+      "query": "constructor careers",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "checker",
+      "query": "domain age checker regalseo",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "scraper",
+      "query": "electric ice scraper",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "scheduler",
+      "query": "garvi appointment scheduler",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "extractor",
+      "query": "honey extractor",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "optimizer",
+      "query": "hsr optimizer",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "scraper",
+      "query": "ice scraper",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "scheme",
+      "query": "k scheme syllabus",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "dashboard",
+      "query": "lekhpal dashboard",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "explorer",
+      "query": "tango explorer",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "scraper",
+      "query": "windshield scraper",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "comparator",
+      "query": "2 bit magnitude comparator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scraper",
+      "query": "best ice scraper for car",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "optimizer",
+      "query": "cathedral assets optimizer",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "simulator",
+      "query": "code in drag drive simulator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "recorder",
+      "query": "dive recorder",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "checker",
+      "query": "domain expiry checker regalseo",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "sample",
+      "query": "drew sample stats",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "simulator",
+      "query": "hunger games simulator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scheme",
+      "query": "ktu notes 2019 scheme",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "checker",
+      "query": "meta tag checker regalseo",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "manager",
+      "query": "mister download manager github",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "uploader",
+      "query": "tandem uploader",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "uploader",
+      "query": "url uploader",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scheduler",
+      "query": "aba scheduler",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "sample",
+      "query": "alice and olivia sample sale",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator with hysteresis",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "simulator",
+      "query": "digital combat simulator",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "builder",
+      "query": "ecommerce website builder",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "uploader",
+      "query": "glooko uploader",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "uploader",
+      "query": "img uploader",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "manager",
+      "query": "man utd new manager",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "navigator",
+      "query": "pit boss navigator 1000",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "comparator",
+      "query": "poople",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "pattern",
+      "query": "ssc cpo exam pattern",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "comparator",
+      "query": "surface roughness comparator",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "notifier",
+      "query": "wa notifier",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "notifier",
+      "query": "x notifier firefox",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "constructor",
+      "query": "c++ compiler",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "constructor",
+      "query": "constructor overloading in java",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "constructor",
+      "query": "constructor theory",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scraper",
+      "query": "electric ice scraper for car",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "uploader",
+      "query": "ftp uploader",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "explorer",
+      "query": "jackery explorer 1000 v2 portable power station",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "verifier",
+      "query": "loto quebec verifier un billet",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "magnitude comparator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier définition",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "explorer",
+      "query": "pi explorer",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "template",
+      "query": "santa letter template",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "verifier",
+      "query": "sigma metalytics precious metal verifier",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "constructor",
+      "query": "trabajo constructor civil",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "constructor",
+      "query": "types of constructor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "constructor",
+      "query": "types of constructor in java",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "comparator",
+      "query": "4 bit magnitude comparator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "dashboard",
+      "query": "aws health dashboard",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator vs comparable",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scheduler",
+      "query": "cornell scheduler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "checker",
+      "query": "domain age checker",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "constructor",
+      "query": "eichhorn constructor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "comparator",
+      "query": "how to craft a redstone comparator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "verifier",
+      "query": "json verifier",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "template",
+      "query": "letter to santa template",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "manager",
+      "query": "man u manager",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "constructor",
+      "query": "manny el constructor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier fire alarm distributors",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "dashboard",
+      "query": "nss dashboard",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "navigator",
+      "query": "pit boss navigator 1000 wood pellet grill",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "optimizer",
+      "query": "adobe journey optimizer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "sample",
+      "query": "cbse sample paper 2026-27",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "sample",
+      "query": "class 12 sample paper 2026-27",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "comment verifier si sa carte cni est disponible",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator and comparable in java",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "comparator oferte-tip de furnizare a energiei electrice",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "comparitor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "manager",
+      "query": "contact manager networkfinds blog",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "planner",
+      "query": "dailee planner 2027",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "dashboard",
+      "query": "dashboard confessional",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "derektime.com",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "template",
+      "query": "disguise a turkey",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "calculator",
+      "query": "final grade calculator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "sample",
+      "query": "free sample baby",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "gmail notifier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "dashboard",
+      "query": "gst portal login dashboard",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "builder",
+      "query": "hostinger hosting",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "mass comparator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "medical scheduler jobs",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "checker",
+      "query": "ncc checker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "pattern",
+      "query": "pattern styling cream",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "monitor",
+      "query": "playstation monitor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "precious metal verifier",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "monitor",
+      "query": "ps5 monitor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "sample",
+      "query": "sample paper",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "sample",
+      "query": "sample paper class 12",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "sample",
+      "query": "sample paper class 12 cbse 2026-27",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "constructor",
+      "query": "sodimac constructor rancagua",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "planner",
+      "query": "stil planner",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "comparator",
+      "query": "tire size comparator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "verifier",
+      "query": "verifier numero tva",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "monitor",
+      "query": "4k oled monitor",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "checker",
+      "query": "ai humanizer free",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "simulator",
+      "query": "euro truck simulator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "dashboard",
+      "query": "gst portal",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "extractor",
+      "query": "hdmi audio extractor",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier 3030",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "monitor",
+      "query": "oled tv",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "extractor",
+      "query": "scs extractor",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "scheduler",
+      "query": "task scheduler leetcode",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "dashboard",
+      "query": "vahan dashboard",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "discovery_count": 249,
+  "updated_at": "2026-11-18T19:00:36.950079+00:00",
+  "scanned_seed_count": 30,
+  "batch_count": 6,
+  "attempted_seed_count": 35,
+  "complete_20_seeds": true,
+  "complete_daily_target": false,
+  "completion_pct": 40.5,
+  "failed_seed_count": 5
+}
