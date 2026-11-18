@@ -1,55 +1,26 @@
 {
-  "batch_id": "2026-11-16T20:43:24.065529+00:00-73-0-1-2",
-  "generated_at": "2026-11-16T20:43:24.065529+00:00",
-  "local_generated_at": "2026-11-17T04:43:24.065529+08:00",
+  "batch_id": "2026-11-18T01:14:55.386563+00:00-60-61-62-63-64",
+  "generated_at": "2026-11-18T01:14:55.386563+00:00",
+  "local_generated_at": "2026-11-18T09:14:55.386563+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "download",
-    "translator",
-    "generator",
-    "example"
+    "crazy games",
+    "itch.io",
+    "roblox",
+    "cocrea",
+    "cocrea world"
   ],
   "seed_indices": [
-    73,
-    0,
-    1,
-    2
+    60,
+    61,
+    62,
+    63,
+    64
   ],
-  "start_index": 73,
-  "discoveries": [
-    {
-      "seed": "generator",
-      "query": "barry wong generator purchase bbc",
-      "rise_value": 12000.0,
-      "raw_value": 12000
-    },
-    {
-      "seed": "download",
-      "query": "happymod download",
-      "rise_value": 100.0,
-      "raw_value": 100
-    },
-    {
-      "seed": "translator",
-      "query": "binary code translator",
-      "rise_value": 60.0,
-      "raw_value": 60
-    },
-    {
-      "seed": "translator",
-      "query": "binary translator",
-      "rise_value": 50.0,
-      "raw_value": 50
-    },
-    {
-      "seed": "translator",
-      "query": "sign language translator",
-      "rise_value": 50.0,
-      "raw_value": 50
-    }
-  ],
-  "status": "ok",
-  "discovery_count": 5
+  "start_index": 60,
+  "discoveries": [],
+  "status": "error",
+  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
 }
