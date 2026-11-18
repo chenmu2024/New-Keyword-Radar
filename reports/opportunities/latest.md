@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-18T01:15:27.310057+00:00
-- Historical candidates: 6269
-- Newly recorded from pending: 114
+- Updated (UTC): 2026-11-18T10:11:42.660975+00:00
+- Historical candidates: 6369
+- Newly recorded from pending: 100
 - Awaiting 7/14/30-day evidence review: 4966
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 49ers new receiver [Global] — discovered — first 2026-11-18, last 2026-11-18
-- absolutely crossword clue [Global] — discovered — first 2026-11-18, last 2026-11-18
-- akvan cyclone tracker live [Global] — discovered — first 2026-11-18, last 2026-11-18
-- akwan cyclone tracker [Global] — discovered — first 2026-11-18, last 2026-11-18
-- anre comparator energie electrica [Global] — discovered — first 2026-11-18, last 2026-11-18
-- apple down detector [Global] — discovered — first 2026-11-18, last 2026-11-18
-- arcana calculator [Global] — discovered — first 2026-11-18, last 2026-11-18
-- beacons [Global] — discovered — first 2026-11-18, last 2026-11-18
-- bernie madoff [Global] — discovered — first 2026-11-18, last 2026-11-18
-- blank builder [Global] — discovered — first 2026-11-18, last 2026-11-18
-- broadcast crossword clue [Global] — discovered — first 2026-11-18, last 2026-11-18
-- chase meeting scheduler [Global] — discovered — first 2026-11-18, last 2026-11-18
-- chiefs new wide receiver [Global] — discovered — first 2026-11-18, last 2026-11-18
+- steam is down [Global] — discovered — first 2026-11-18, last 2026-11-18
+- telus digital [Global] — discovered — first 2026-11-18, last 2026-11-18
+- document uploader utsa [Global] — discovered — first 2026-11-18, last 2026-11-18
+- gm first responder [Global] — discovered — first 2026-11-18, last 2026-11-18
+- is steam down? [Global] — discovered — first 2026-11-18, last 2026-11-18
+- hunger games simulator [Global] — discovered — first 2026-11-18, last 2026-11-18
+- typeform alternatives [Global] — discovered — first 2026-11-18, last 2026-11-18
+- the interpreter cast [Global] — discovered — first 2026-11-18, last 2026-11-18
+- free bulk email verifier [Global] — discovered — first 2026-11-18, last 2026-11-18
+- dinarcoin deposit scheme prosecution malaysia [Global] — discovered — first 2026-11-18, last 2026-11-18
+- steelers trade deadline receiver analysis [Global] — discovered — first 2026-11-18, last 2026-11-18
+- project 2025 tracker [Global] — discovered — first 2026-11-18, last 2026-11-18
+- football manager 27 pc [Global] — discovered — first 2026-11-18, last 2026-11-18
+- lexus lm [Global] — discovered — first 2026-11-18, last 2026-11-18
+- gst dashboard [Global] — discovered — first 2026-11-18, last 2026-11-18
+- блокировка steam [Global] — discovered — first 2026-11-18, last 2026-11-18
+- nucleus notifier [Global] — discovered — first 2026-11-18, last 2026-11-18
+- ford edge [Global] — discovered — first 2026-11-18, last 2026-11-18
+- portent crossword clue [Global] — discovered — first 2026-11-18, last 2026-11-18
+- oled monitor 4k [Global] — discovered — first 2026-11-18, last 2026-11-18
+- game of the year nominees 2026 [Global] — discovered — first 2026-11-18, last 2026-11-18
+- steam maintenance [Global] — discovered — first 2026-11-18, last 2026-11-18
 - chipgenius [Global] — discovered — first 2026-11-18, last 2026-11-18
-- codecanyon [Global] — discovered — first 2026-11-18, last 2026-11-18
 - comparable vs comparator java [Global] — discovered — first 2026-11-18, last 2026-11-18
-- complacency crossword clue [Global] — discovered — first 2026-11-18, last 2026-11-18
-- constructor and destructor in c++ [Global] — discovered — first 2026-11-18, last 2026-11-18
-- cork 7 [Global] — discovered — first 2026-11-18, last 2026-11-18
-- crumb circuit simulator [Global] — discovered — first 2026-11-18, last 2026-11-18
-- dailee planner 2027 [Global] — discovered — first 2026-11-18, last 2026-11-18
-- dashboard abm [Global] — discovered — first 2026-11-18, last 2026-11-18
-- designer outlets wolfsburg [Global] — discovered — first 2026-11-18, last 2026-11-18
-- deutschland niederlande [Global] — discovered — first 2026-11-18, last 2026-11-18
-- digital combat simulator [Global] — discovered — first 2026-11-18, last 2026-11-18
+- สล็อต เว็บ ตรง image tuwa co files [Global] — discovered — first 2026-11-18, last 2026-11-18
 
 ## Due for follow-up
 
