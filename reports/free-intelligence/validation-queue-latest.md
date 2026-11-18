@@ -1,41 +1,41 @@
-# SaaS / new-keyword validation queue — 2026-11-17
+# SaaS / new-keyword validation queue — 2026-11-18
 
 **RESEARCH ONLY. 0 build-ready opportunities unless separately validated.**
 
-Topics: 7 · Topics with first-person leads: 0 · Ready to build: 0
+Topics: 6 · Topics with first-person leads: 0 · Ready to build: 0
 
 Volume / KD / CPC: **not available**. These discovery queries are not necessarily commercially searched keywords.
 
 History: 14 archived days in the prior 14 days. Observations are not distinct customer reports.
 
-## US · payroll
+## US · operations
 
-Search for user pain: `payroll integration error`
+Search for user pain: `scheduling spreadsheet manual`
 
 Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
 
-Source limitations: google_news_rss, duckduckgo, reddit
+Source limitations: duckduckgo, reddit
 
 **Firsthand requests**
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
-- [Knowlexit09/employee-id-studio](https://github.com/Knowlexit09/employee-id-studio) (github_repositories)
-- [adebowalep/nyc-payroll-adf-pipeline](https://github.com/adebowalep/nyc-payroll-adf-pipeline) (github_repositories)
-- [omujad/Employee-Payroll-Management-System](https://github.com/omujad/Employee-Payroll-Management-System) (github_repositories)
-- [Payroll, Tax, HR and HCM solutions | ADP](https://www.adp.com/) (bing_rss)
+- [The Hidden Cost of Manual Contact Center Scheduling - CX Today](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ULUxRQ1MwQXN4MklnUnlDejEzUGhRVVFJRDBQQ1JmNHBCZVhSZWZHYlBlVGx4cXpkLUtmWjdpS0dHX3BEWG9CRWg3M2dFbjdQczUw?oc=5) (google_news_rss)
+- [Morrisons to Replace Manual Store Planning Spreadsheets with Logile Software - citybiz](https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWxGUGtqdU1lMnhrd1h6Rk83b1hMbXc0b2gzODYwdndPeWZlN1MxUC12MV95OWNnR08yaGlFVjlSdzFzZDZhTk8tS1F5NWZaQXpiaDVYODR0YnpuZVdMMG5hbWt2NlNIWXU0eVlzNko4WUNnWTRCUmJUOUdjcVFlNWNKTWs1ZlpMMWF0S29fQzBleUN1THdxQS1Cb0xvLVA4TWVlS2ZDeUNIaXVJRTNqR3JHNmdyQQ?oc=5) (google_news_rss)
+- [Acuity Scheduling: Online Booking & Appointment Scheduling Software](https://acuityscheduling.com/) (bing_rss)
+- [Meeting Scheduling Software and AI Meeting Tools | Calendly](https://calendly.com/) (bing_rss)
 
 **Exact keyword hypotheses to verify (en):**
-- `payroll integration software` — Volume: unknown; KD: unknown; CPC: unknown
-- `payroll integration errors` — Volume: unknown; KD: unknown; CPC: unknown
-- `payroll API integration` — Volume: unknown; KD: unknown; CPC: unknown
+- `employee scheduling spreadsheet` — Volume: unknown; KD: unknown; CPC: unknown
+- `schedule automation software` — Volume: unknown; KD: unknown; CPC: unknown
+- `staff rota generator` — Volume: unknown; KD: unknown; CPC: unknown
 
-Monetization hypothesis: B2B integrations or compliance tool; paid intent unverified
+Monetization hypothesis: Staff planning tool / subscription; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 7 (the same topic is not independent demand)
+- Earlier days this research area was covered: 6 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 0
+- Repeated context links (saved sample): 4
 
 **Next checks:**
 - Check the exact terms above for US Volume/KD/CPC, noting provider and date.
@@ -55,10 +55,10 @@ Source limitations: duckduckgo, reddit
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
-- [JoeHun0/user-role-inventory](https://github.com/JoeHun0/user-role-inventory) (github_repositories)
+- [HENTAIXHUNTER/counter-strike-drop-manager](https://github.com/HENTAIXHUNTER/counter-strike-drop-manager) (github_repositories)
 - [somrudeebanthao09/OnHand-Inventory-Planner](https://github.com/somrudeebanthao09/OnHand-Inventory-Planner) (github_repositories)
-- [ladykirsah/Kira.office](https://github.com/ladykirsah/Kira.office) (github_repositories)
-- [amitavrchy/small-shop-pos](https://github.com/amitavrchy/small-shop-pos) (github_repositories)
+- [spanthetree/iasync](https://github.com/spanthetree/iasync) (github_repositories)
+- [anndrox/GillionsGameSync](https://github.com/anndrox/GillionsGameSync) (github_repositories)
 
 **Exact keyword hypotheses to verify (en):**
 - `inventory sync software` — Volume: unknown; KD: unknown; CPC: unknown
@@ -68,9 +68,9 @@ Source limitations: duckduckgo, reddit
 Monetization hypothesis: B2B inventory synchronization; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 6 (the same topic is not independent demand)
+- Earlier days this research area was covered: 7 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 0
+- Repeated context links (saved sample): 1
 
 **Next checks:**
 - Check the exact terms above for US Volume/KD/CPC, noting provider and date.
@@ -90,10 +90,10 @@ Source limitations: duckduckgo, reddit
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
+- [Mauricio-G-Oliveira/makerpixel-central-contabil](https://github.com/Mauricio-G-Oliveira/makerpixel-central-contabil) (github_repositories)
 - [fabiuniz/ledger-reconciliation-api](https://github.com/fabiuniz/ledger-reconciliation-api) (github_repositories)
 - [Gary-Rainer-Chumacero-Vanderlei/ledger-fpa](https://github.com/Gary-Rainer-Chumacero-Vanderlei/ledger-fpa) (github_repositories)
 - [orprocondigital-web/Orprocon-Gestao-Financeira-React](https://github.com/orprocondigital-web/Orprocon-Gestao-Financeira-React) (github_repositories)
-- [hologram-gestao/auditoria-lancamentos](https://github.com/hologram-gestao/auditoria-lancamentos) (github_repositories)
 
 **Exact keyword hypotheses to verify (pt-BR):**
 - `conciliação bancária online` — Volume: unknown; KD: unknown; CPC: unknown
@@ -103,7 +103,7 @@ Source limitations: duckduckgo, reddit
 Monetization hypothesis: Brazil bookkeeping reconciliation; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 6 (the same topic is not independent demand)
+- Earlier days this research area was covered: 7 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
 - Repeated context links (saved sample): 3
 
@@ -113,9 +113,9 @@ Monetization hypothesis: Brazil bookkeeping reconciliation; paid intent unverifi
 - Confirm independent, attributable recent problem reports.
 - Test ad/SaaS monetization and zero-fixed-cost feasibility.
 
-## BR · payroll
+## BR · inventory
 
-Search for user pain: `folha pagamento erro`
+Search for user pain: `estoque integração falha`
 
 Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
 
@@ -125,22 +125,22 @@ Source limitations: duckduckgo, reddit
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
-- [hellisonvidal/Vorticis](https://github.com/hellisonvidal/Vorticis) (github_repositories)
-- [kimberllyja-hue/sistema-gerenciamento-funcionarios](https://github.com/kimberllyja-hue/sistema-gerenciamento-funcionarios) (github_repositories)
-- [MauroGMinossi/Atividade-AP2](https://github.com/MauroGMinossi/Atividade-AP2) (github_repositories)
-- [alessondornelles/Acme2HR](https://github.com/alessondornelles/Acme2HR) (github_repositories)
+- [jeff0062/orion-system-backend](https://github.com/jeff0062/orion-system-backend) (github_repositories)
+- [ravelroot/Order-and-Inventory-System](https://github.com/ravelroot/Order-and-Inventory-System) (github_repositories)
+- [vskkfael/proj-sa-estoque](https://github.com/vskkfael/proj-sa-estoque) (github_repositories)
+- [iamLucasDev/almoxarifado](https://github.com/iamLucasDev/almoxarifado) (github_repositories)
 
 **Exact keyword hypotheses to verify (pt-BR):**
-- `erro folha de pagamento` — Volume: unknown; KD: unknown; CPC: unknown
-- `conferência folha de pagamento` — Volume: unknown; KD: unknown; CPC: unknown
-- `cálculo folha de pagamento online` — Volume: unknown; KD: unknown; CPC: unknown
+- `controle de estoque online` — Volume: unknown; KD: unknown; CPC: unknown
+- `integração de estoque` — Volume: unknown; KD: unknown; CPC: unknown
+- `sincronização de estoque` — Volume: unknown; KD: unknown; CPC: unknown
 
-Monetization hypothesis: Brazil payroll checker / B2B SaaS; paid intent unverified
+Monetization hypothesis: Inventory integration utility; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 7 (the same topic is not independent demand)
+- Earlier days this research area was covered: 6 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 0
+- Repeated context links (saved sample): 2
 
 **Next checks:**
 - Check the exact terms above for BR Volume/KD/CPC, noting provider and date.
@@ -148,9 +148,9 @@ Monetization hypothesis: Brazil payroll checker / B2B SaaS; paid intent unverifi
 - Confirm independent, attributable recent problem reports.
 - Test ad/SaaS monetization and zero-fixed-cost feasibility.
 
-## MX · payroll
+## MX · inventory
 
-Search for user pain: `nómina excel errores`
+Search for user pain: `inventario excel manual`
 
 Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
 
@@ -160,21 +160,22 @@ Source limitations: duckduckgo, reddit
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
-- [frankbuitrago3-code/control-asistencia](https://github.com/frankbuitrago3-code/control-asistencia) (github_repositories)
-- [Camilo1408/Nomina-Xpress](https://github.com/Camilo1408/Nomina-Xpress) (github_repositories)
-- [Ladydlozada/dashboard-rrhh-nomina](https://github.com/Ladydlozada/dashboard-rrhh-nomina) (github_repositories)
+- [L0rdWave/inventario_project_mrebori](https://github.com/L0rdWave/inventario_project_mrebori) (github_repositories)
+- [Claudioquatro/inventario-mobili](https://github.com/Claudioquatro/inventario-mobili) (github_repositories)
+- [DINAMHACK/Digitalizador-DEMUNA-v3-final](https://github.com/DINAMHACK/Digitalizador-DEMUNA-v3-final) (github_repositories)
+- [DINAMHACK/cuadre-inventario-](https://github.com/DINAMHACK/cuadre-inventario-) (github_repositories)
 
 **Exact keyword hypotheses to verify (es-MX):**
-- `nómina excel` — Volume: unknown; KD: unknown; CPC: unknown
-- `calculadora de nómina México` — Volume: unknown; KD: unknown; CPC: unknown
-- `errores de nómina` — Volume: unknown; KD: unknown; CPC: unknown
+- `control de inventarios excel` — Volume: unknown; KD: unknown; CPC: unknown
+- `inventario en línea` — Volume: unknown; KD: unknown; CPC: unknown
+- `sistema de inventarios en excel` — Volume: unknown; KD: unknown; CPC: unknown
 
-Monetization hypothesis: Mexico payroll checker; paid intent unverified
+Monetization hypothesis: Small business inventory tool; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 7 (the same topic is not independent demand)
+- Earlier days this research area was covered: 6 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 3
+- Repeated context links (saved sample): 0
 
 **Next checks:**
 - Check the exact terms above for MX Volume/KD/CPC, noting provider and date.
@@ -188,14 +189,16 @@ Search for user pain: `facturas SAT errores`
 
 Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
 
-Source limitations: google_news_rss, duckduckgo, reddit
+Source limitations: duckduckgo, reddit
 
 **Firsthand requests**
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
 - [Pablo-Gomez-Perez/visor-cfdi-xml](https://github.com/Pablo-Gomez-Perez/visor-cfdi-xml) (github_repositories)
+- [BEG-lag/facturas-cfdi](https://github.com/BEG-lag/facturas-cfdi) (github_repositories)
 - [eduardorito/lector-xml-sat](https://github.com/eduardorito/lector-xml-sat) (github_repositories)
+- [SAT duplica la recaudación por fiscalizar operaciones de comercio exterior - Expansión](https://news.google.com/rss/articles/CBMiggFBVV95cUxNdnJPVDFuSlFyLUJFWkVIR2pVVUdwQTFYR0p3ZEhXWTJYckphVjVTelRfN3lzaENrR0dELXBPaXJNa3lsc0lNLUF1TmxFdDZMSmMxWFhpR2hSbDhXOUp3eGFieUlHSGZLcnJDMWdGZmFvOHBxSWtHRzUzc2luZW5mSThR0gGPAUFVX3lxTE5ZQi1rcF83WldUT3JZMnhsT28yRFUxMlhtMmR4UGxJNnlsUy1TZkJUQVVsOEktcF94NGZqVHB2T09lSlh2WktNTnhuWFVPS1Job0psWV80dzdUZ05RWnRMWDRPdG5WVFlHakdvcW5PcGVtT09ZZlNOMEdwR282bXV3Q1hMX3NPdzRGUWlKM3hV?oc=5) (google_news_rss)
 
 **Exact keyword hypotheses to verify (es-MX):**
 - `validar facturas SAT` — Volume: unknown; KD: unknown; CPC: unknown
@@ -205,44 +208,12 @@ Source limitations: google_news_rss, duckduckgo, reddit
 Monetization hypothesis: Mexico invoice compliance utility; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 6 (the same topic is not independent demand)
+- Earlier days this research area was covered: 7 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 2
+- Repeated context links (saved sample): 3
 
 **Next checks:**
 - Check the exact terms above for MX Volume/KD/CPC, noting provider and date.
-- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
-- Confirm independent, attributable recent problem reports.
-- Test ad/SaaS monetization and zero-fixed-cost feasibility.
-
-## Worldwide · seed_rising
-
-Search for user pain: `barry wong generator purchase bbc`
-
-Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
-
-Source limitations: google_news_rss, duckduckgo, reddit
-
-**Firsthand requests**
-- No qualifying public first-person request yet.
-
-**Competitor / context references (not demand validation)**
-- [I bought a generator following government's disaster warning ... - BBC](https://www.bbc.com/news/articles/cq0mdn473mygo) (bing_rss)
-- [I bought a generator following government's disaster warning ... - MSN](https://www.msn.com/en-xl/news/other/i-bought-a-generator-following-government-s-disaster-warning-says-dad/ar-AA2hwgyv) (bing_rss)
-- [I bought a generator following government - Worldnews.com](https://article.wn.com/view/2026/11/16/I_bought_a_generator_following_government) (bing_rss)
-
-**Exact keyword hypotheses to verify (multi):**
-- No curated exact keywords yet; derive from actual customer wording.
-
-Monetization hypothesis: Undetermined; validate business model
-
-**14-day cross-report observations**
-- Earlier days this research area was covered: 6 (the same topic is not independent demand)
-- Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 0
-
-**Next checks:**
-- Check the exact terms above for Worldwide Volume/KD/CPC, noting provider and date.
 - Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
 - Confirm independent, attributable recent problem reports.
 - Test ad/SaaS monetization and zero-fixed-cost feasibility.
