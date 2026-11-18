@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-18T01:36:13.854777+00:00
+# V4 Social signal discovery — 2026-11-18T11:37:48.067147+00:00
 
-- Unique links this run: 51, newly seen: 19, history: 2004
+- Unique links this run: 53, newly seen: 36, history: 2040
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,51 +12,51 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (1) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (2) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
-- existing_free_intelligence_bridge: ok (26)
+- existing_free_intelligence_bridge: ok (27)
 - targeted_github_issues: empty (0)
 
 ## Links (not validated project opportunities)
 
-- [OnlineCompiler.io](https://www.producthunt.com/products/onlinecompiler-io) — producthunt — direct_public_feed
-- [Link.bio](https://www.producthunt.com/products/link-bio) — producthunt — direct_public_feed
-- [AI Visibility by TruLata](https://www.producthunt.com/products/trulata) — producthunt — direct_public_feed
-- [Lasso](https://www.producthunt.com/products/lasso-11) — producthunt — direct_public_feed
-- [Clamor](https://www.producthunt.com/products/clamor-2) — producthunt — direct_public_feed
-- [Creatify Max](https://www.producthunt.com/products/creatify) — producthunt — direct_public_feed
-- [Luisfl007/Nova_YT](https://huggingface.co/spaces/Luisfl007/Nova_YT) — huggingface — direct_public_api
-- [A9leads/kling-ai-video-watermark-remover](https://huggingface.co/spaces/A9leads/kling-ai-video-watermark-remover) — huggingface — direct_public_api
-- [tamanadevi/personal-ai-assistant](https://huggingface.co/spaces/tamanadevi/personal-ai-assistant) — huggingface — direct_public_api
-- [tronplex/First_agent_template](https://huggingface.co/spaces/tronplex/First_agent_template) — huggingface — direct_public_api
-- [KOTETSU7/app-bd2da786-f412-4d42-bfb6-7772e413e9cd](https://huggingface.co/spaces/KOTETSU7/app-bd2da786-f412-4d42-bfb6-7772e413e9cd) — huggingface — direct_public_api
-- [gpt20x/chatgpt-xinwen](https://huggingface.co/spaces/gpt20x/chatgpt-xinwen) — huggingface — direct_public_api
-- [NotebookLM is the one tool I keep telling coworkers about: you upload your own documents, and it answers only from those, with citations you can click. So when I need to find "whe](https://bsky.app/profile/seohyun0903.bsky.social/post/3n2ke6e24232p) — bluesky — direct_public_post — intent keyword found
-- [Let’s be clear what ARTEX is- it’s a pen testing tool, wrapped with an agentic harness. They’re overselling what it does, because if you are a bunch of clueless asshats, you need](https://bsky.app/profile/aciumaficionado.bsky.social/post/3n2kbmvayc22t) — bluesky — direct_public_post — intent keyword found
-- [Welcome to the club, big congrats! The most important tool you’ll need is a shop-vac, don’t let anyone tell you otherwise](https://bsky.app/profile/thejawnoftime.bsky.social/post/3n2kbgedplc25) — bluesky — direct_public_post — intent keyword found
-- [THE BOZOS OF BIGOTRY onenesswarrior.substack.com/p/the-bozos-...](https://bsky.app/profile/bluesgypsy.bsky.social/post/3n2karpxxr22l) — bluesky — direct_public_post
-- [need to find a better "liquid" tool for the squirt cause the spit has too many bubbles in it](https://bsky.app/profile/raiounsfw.bsky.social/post/3n2k7rq5r522i) — bluesky — direct_public_post — intent keyword found
-- [paging: @badmedicaltakes.bsky.social](https://bsky.app/profile/britculpsapp.bsky.social/post/3n2k7oqyczs2e) — bluesky — direct_public_post
-- [Deepfakeai is featured on Awesome Indie! 🚀 AI Video Generator & AI Image Generator Upvote it → https:// awesomeindie.com/product/deepf akeai # AIImage # AIVideo # ArtificialIntelli](https://mastodon.social/@awesomeindie/117632969123869887) — mastodon — direct_public_post — intent keyword found
+- [Dippr](https://www.producthunt.com/products/dippr) — producthunt — direct_public_feed
+- [Microsoft IQ](https://www.producthunt.com/products/microsoft-365) — producthunt — direct_public_feed
+- [S.Space](https://www.producthunt.com/products/s-space) — producthunt — direct_public_feed
+- [kwatch](https://www.producthunt.com/products/kwatch) — producthunt — direct_public_feed
+- [AssemblyAI-STT-3.7](https://www.producthunt.com/products/assemblyai) — producthunt — direct_public_feed
+- [Bluedot Phone Calls](https://www.producthunt.com/products/bluedot-2) — producthunt — direct_public_feed
+- [ivin-baiju/metal-predict](https://huggingface.co/spaces/ivin-baiju/metal-predict) — huggingface — direct_public_api
+- [davanstrien/iiif-botany-demo](https://huggingface.co/spaces/davanstrien/iiif-botany-demo) — huggingface — direct_public_api
+- [kirankai/test](https://huggingface.co/spaces/kirankai/test) — huggingface — direct_public_api
+- [cltsangwork/Topic5APIC](https://huggingface.co/spaces/cltsangwork/Topic5APIC) — huggingface — direct_public_api
+- [Harshitasharma013/Sleep-lifestyle-predictor](https://huggingface.co/spaces/Harshitasharma013/Sleep-lifestyle-predictor) — huggingface — direct_public_api
+- [Navigam/procureflow](https://huggingface.co/spaces/Navigam/procureflow) — huggingface — direct_public_api
+- [#Question Running #Linux and #GrapheneOS only as #Desktop and #Mobile. #Banking is done with #CardTAN Generator. Now one of my bank wants to stop CardTAN . Others continue to suppo](https://bsky.app/profile/kmj.mastodon.ctseuro.com.ap.brid.gy/post/3n2l5ypym5uc2) — bluesky — direct_public_post — intent keyword found
+- [MOST ARE MINE by caffeineZombie $4.49 · Early Access AI disclosure: “This game includes content that was made with the help of AI tools during development. Nothing is generated by](https://bsky.app/profile/aifullsteamgames.bsky.social/post/3n2knve6xx62t) — bluesky — direct_public_post — intent keyword found
+- [And the new era estate which is currently being demolished although I fear we’ll end up with a supermarket on the ground floor there which will be a big new car-trip generator even](https://bsky.app/profile/hoxtonrich.bsky.social/post/3n2jynbevdr2o) — bluesky — direct_public_post — intent keyword found
+- [Hosting internet infrastructure takes up a miniscule fraction of the power requirements of a hyperscaled datacenter. So, is there a gas-powered generator or an aircraft engine stat](https://bsky.app/profile/ihearthaggis.bsky.social/post/3n2jw75nec22n) — bluesky — direct_public_post — intent keyword found
+- [🚨SOS🚨 My friend Kayla is currently homeless and living out of a car in MSP (MN). I got her OK to post this as she really needs help NOW. She needs at least $10 for gas for her g](https://bsky.app/profile/dravenheart.bsky.social/post/3n2jw6ivdbc27) — bluesky — direct_public_post — intent keyword found
+- [This is why every landfill should have an attached methane generator. Use the gas before it becomes a problem. Better to compost organics, but until we get there, just letting it](https://bsky.app/profile/quirkyhndl.bsky.social/post/3n2js3bepnk22) — bluesky — direct_public_post — intent keyword found
+- [Most online random number generators are buried under pop-ups and clutter, so I built a clean, single-purpose alternative: a browser-based spinning number wheel. 🎡 No sign-ups, no](https://mastodon.social/@yesno00/117636419217778448) — mastodon — direct_public_post
+- [SeeYouHere is live. A social network with nothing in it — no feed, no posts, no chat. Just one list of everyone who's here today, and tapping each other's names. 24 taps a day. You](https://mastodon.social/@uqinzen/117636065922812338) — mastodon — direct_public_post
+- [Claude Gets Hella Paranoid](https://news.ycombinator.com/item?id=50543947) — hackernews_ask — direct_public_post
+- [Interesting Learnings Working for a Startup](https://news.ycombinator.com/item?id=50542361) — hackernews_ask — direct_public_post
+- [Codeberg seems to have vanished from DNS](https://news.ycombinator.com/item?id=50542948) — hackernews_ask — direct_public_post
 - [Ask HN: If AI tools are so good, why isn't your bug backlog empty?](https://news.ycombinator.com/item?id=50520076) — hackernews_ask — direct_public_post — intent keyword found
-- [Ask HN: UK Equivalent for Power Switch Tail/IoT Power Relay?](https://news.ycombinator.com/item?id=50538108) — hackernews_ask — direct_public_post
+- [Microsoft disabled API permissions seemingly overnight](https://news.ycombinator.com/item?id=50541430) — hackernews_ask — direct_public_post
 - [Ask HN: Are We in a Cyberwar?](https://news.ycombinator.com/item?id=50537206) — hackernews_ask — direct_public_post
-- [Ask HN: Anyone else blurting?](https://news.ycombinator.com/item?id=50537272) — hackernews_ask — direct_public_post
-- [Ask HN: What was your weirdest or funniest job rejection?](https://news.ycombinator.com/item?id=50528707) — hackernews_ask — direct_public_post
-- [Ask HN: Are the more software malfunctions now than before?](https://news.ycombinator.com/item?id=50526822) — hackernews_ask — direct_public_post
-- [Owner control center: live dispatcher/Muse status, visible approvals, natural-language instructions](https://github.com/killbill2792/aicafe/issues/411) — github_issue — direct_public_issue_api
-- [Launch register 2026-11-15: one entry per lane](https://github.com/bandymuks1-stack/labourmarketai/issues/3265) — github_issue — direct_public_issue_api
-- [Open work for Antigravity, other agents and people](https://github.com/Mahan-film/roxira-platform/issues/592) — github_issue — direct_public_issue_api
-- [Story thread: English engine, scenes, director (from Nov 16)](https://github.com/lamontaes/Political-Game-Git/issues/9750) — github_issue — direct_public_issue_api
-- [Zero-Knowledge Privacy Infrastructure for Solana](https://news.ycombinator.com/item?id=46854817) — hackernews_ask — indexed_public_post_excerpt
-- [Ask HN: ERP system suggestions](https://news.ycombinator.com/item?id=17709117) — hackernews_ask — indexed_public_post_excerpt
-- [Apply HN: HR Partner – human resource management for small businesses](https://news.ycombinator.com/item?id=11445068) — hackernews_ask — indexed_public_post_excerpt
-- [Ask HN: Small business bank account – who do you use?](https://news.ycombinator.com/item?id=11438973) — hackernews_ask — indexed_public_post_excerpt
-- [PLASMA AI development orchestration — Gate 1 A approved (bootstrap pending)](https://github.com/physicslu/plasma/issues/981) — github_issue — direct_public_issue_api
+- [[PM seat triage (objectstack-wide) — 🟢 hotlong · session_01Q4EjjMnyLqJdzuktEmRPXH · trig_01377heGw9UoChYTLnz93qjo (hourly) · state = body + the round records newer than it](https://github.com/objectstack-ai/objectstack/issues/6015) — github_issue — direct_public_issue_api
 - [Ask HN: Building KasirCepat, an offline-first POS for Indonesia](https://news.ycombinator.com/item?id=49692067) — hackernews_ask — indexed_public_post_excerpt
 - [Ask HN: Would a startup for young creatives who reject AI be feasible?](https://news.ycombinator.com/item?id=49689696) — hackernews_ask — indexed_public_post_excerpt
 - [Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk](https://news.ycombinator.com/item?id=49304986) — hackernews_ask — indexed_public_post_excerpt
 - [Do You Think OpenAI Is Apple Circa the 1980s?](https://news.ycombinator.com/item?id=49178393) — hackernews_ask — indexed_public_post_excerpt
+- [Plan](https://github.com/inferal-oss/semblance/issues/8) — github_issue — direct_public_issue_api
+- [[Research[UX Hourly espresso evidence audit and Log Shot → Rate → Recommendation improvements](https://github.com/Schulzet3/The-Dial-In-Collective/issues/455) — github_issue — direct_public_issue_api
+- [MOTHERSHIP: coordinate AXOM development and operations](https://github.com/jaclose/AXOM/issues/106) — github_issue — direct_public_issue_api
+- [Coordination: Codex workers alongside Grok team — TC Coordinator assignments](https://github.com/Johnathan-u/trust-copilot/issues/85) — github_issue — direct_public_issue_api
+- [Ask HN: What's still broken in SoC 2 readiness and audit prep?](https://news.ycombinator.com/item?id=46396889) — hackernews_ask — indexed_public_post_excerpt
+- [AI Agents Are Quietly Taking over Project Management](https://news.ycombinator.com/item?id=45618229) — hackernews_ask — indexed_public_post_excerpt
+- [The problem of scheduling life like a spreadsheet](https://news.ycombinator.com/item?id=45006853) — hackernews_ask — indexed_public_post_excerpt
+- [My Friend Raised Her Seed Round in 17 Days](https://news.ycombinator.com/item?id=44112008) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
 - [TAMÃO — AUDITORIA INTEGRAL, CORREÇÕES E SUPORTE CONTÍNUO](https://github.com/carloskk07/gassg/issues/493) — github_issue — direct_public_issue_api
-- [feat(finance): Conciliação Inteligente de Faturas de Cartão de Crédito com Ciclos e Parcelamento](https://github.com/leozizz/dinheirizz/issues/53) — github_issue — direct_public_issue_api
