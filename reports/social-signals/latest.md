@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-18T22:35:26.734123+00:00
+# V4 Social signal discovery — 2026-11-19T04:10:30.708832+00:00
 
-- Unique links this run: 52, newly seen: 17, history: 2057
+- Unique links this run: 57, newly seen: 40, history: 2097
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,51 +12,51 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (1) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (3) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
-- existing_free_intelligence_bridge: ok (27)
+- existing_free_intelligence_bridge: ok (30)
 - targeted_github_issues: empty (0)
 
 ## Links (not validated project opportunities)
 
+- [Polylane for CI](https://www.producthunt.com/products/polylane) — producthunt — direct_public_feed
+- [S.Space](https://www.producthunt.com/products/s-space) — producthunt — direct_public_feed
+- [Waldo by Wherobots](https://www.producthunt.com/products/waldo-by-wherobots) — producthunt — direct_public_feed
+- [Happo animation testing](https://www.producthunt.com/products/happo-2) — producthunt — direct_public_feed
+- [SaaS Toolkit MCP](https://www.producthunt.com/products/saas-toolkit-mcp) — producthunt — direct_public_feed
 - [SoreQen Code](https://www.producthunt.com/products/soreqen-code) — producthunt — direct_public_feed
-- [Pitch Avatar HR Suite](https://www.producthunt.com/products/pitchavatar) — producthunt — direct_public_feed
-- [Kino](https://www.producthunt.com/products/kino-2) — producthunt — direct_public_feed
-- [AI Canvas](https://www.producthunt.com/products/ai-canvas-2) — producthunt — direct_public_feed
-- [GPT-6.2 Astra and Sol](https://www.producthunt.com/products/openai) — producthunt — direct_public_feed
-- [Incredible Agents](https://www.producthunt.com/products/incredible) — producthunt — direct_public_feed
-- [XZakariyaX/rag-assistant](https://huggingface.co/spaces/XZakariyaX/rag-assistant) — huggingface — direct_public_api
-- [Jattt6789/moonlight-chat](https://huggingface.co/spaces/Jattt6789/moonlight-chat) — huggingface — direct_public_api
-- [MattyPst/NSFW-Uncensored-video2](https://huggingface.co/spaces/MattyPst/NSFW-Uncensored-video2) — huggingface — direct_public_api
-- [menna5/rafiq-voice-chat](https://huggingface.co/spaces/menna5/rafiq-voice-chat) — huggingface — direct_public_api
-- [UnknownTestAccount/pixel-sprite-styler](https://huggingface.co/spaces/UnknownTestAccount/pixel-sprite-styler) — huggingface — direct_public_api
-- [Alvirtech/alvir-doc-intelligence-demo](https://huggingface.co/spaces/Alvirtech/alvir-doc-intelligence-demo) — huggingface — direct_public_api
-- [Yo he escrito un PFC, un TFM, una tesis y una docena de artículos científicos. Diría que como herramienta es válida. Mejorable como cualquiera, pero cumplió su propósito. No necesi](https://bsky.app/profile/felixstdp.bsky.social/post/3n2m73jw4ac2m) — bluesky — direct_public_post
-- [Antes de recomendarte una solución, necesito saber esto. Muchos negocios compran la herramienta antes de entender el problema. 3 preguntas clave: tiempo, clientes, tareas a mano.](https://bsky.app/profile/byledifj.bsky.social/post/3mzx5g3lf5u25) — bluesky — direct_public_post
-- [Con dinero de la empresa. Vamos, que no le pido herramienta al jefe, compro lo que necesito y le paso la factura.](https://bsky.app/profile/infilanak.satan.social/post/3mzizkmmrz22e) — bluesky — direct_public_post
-- [Si os dijera que estoy pensando compartir la herramienta que he creado autores ¿Qué os parecería? Estoy pensando en dejársela probar a algunas personas para comprobar que lo que a](https://bsky.app/profile/piramidedeespejo.bsky.social/post/3mzboeus6ik2a) — bluesky — direct_public_post
-- [Yo no necesito valoración sobre el tamaño de mi "herramienta" está muy bien, no he tenido quejas ni las tengo yo.. hay quien dice que es grande, para mí es medio normal, también es](https://bsky.app/profile/brokench.bsky.social/post/3mz3trit4622f) — bluesky — direct_public_post
-- [Creo que se ha ido para siempre, porque no tengo ninguna intención de reinstalar a corto plazo. También te digo que si tú tienes tanto control sobre esa herramienta, perfecto (yo n](https://bsky.app/profile/mazapanes.bsky.social/post/3mz23wx4lsc2r) — bluesky — direct_public_post
-- [I’m not leaving TikTok right now. That’s where people are. But I’m building toward something better, here on the # fediverse where nobody’s selling my attention. # POSSE # IndieWeb](https://mastodon.social/@marti/117638835026360035) — mastodon — direct_public_post
-- [Ask HN: Are we all tired of all these skybreaking CVEs/RCEs?](https://news.ycombinator.com/item?id=50552918) — hackernews_ask — direct_public_post
+- [chazmazzota/cartographer](https://huggingface.co/spaces/chazmazzota/cartographer) — huggingface — direct_public_api
+- [Nataniel011/Chamine-Lanches](https://huggingface.co/spaces/Nataniel011/Chamine-Lanches) — huggingface — direct_public_api
+- [MuhammadKafeelmunir/nexora](https://huggingface.co/spaces/MuhammadKafeelmunir/nexora) — huggingface — direct_public_api
+- [Shanmathi-G/public-grievance-intelligence](https://huggingface.co/spaces/Shanmathi-G/public-grievance-intelligence) — huggingface — direct_public_api
+- [locday123/CPS_Self_Service_Samsung](https://huggingface.co/spaces/locday123/CPS_Self_Service_Samsung) — huggingface — direct_public_api
+- [jblast94/flow](https://huggingface.co/spaces/jblast94/flow) — huggingface — direct_public_api
+- [I do not understand why one Stephen Wilson Jr.—not to be confused with Steven Wilson—is suddenly being shoved in my face everywhere and I would love to know how to make it stop.](https://bsky.app/profile/tcote.bsky.social/post/3n2n74pywsk26) — bluesky — direct_public_post — intent keyword found
+- [i fucking LOVE ML wdym i can give my computer a ton of information about one thing and its able to learn how to detect/do/make that thing????????????](https://bsky.app/profile/coah80.com/post/3n2n72ulac42a) — bluesky — direct_public_post — intent keyword found
+- [YALL I HAVE VERY SHALLOW STYROS FRESH TODAY AND HOW DO I MAKE THEM HEAL AS QUICKLY AS POSSIBLE I HAVE A WEDDING IN 3 FUCKING DAYS BRO OH MY GODDDDDD](https://bsky.app/profile/cerealmaterial.bsky.social/post/3n2n6diaej22d) — bluesky — direct_public_post — intent keyword found
+- [Do you know HOW much I learned about atmospheric science editing this, so that Bill and I could make sure the physics of climate and weather were understandable by the general read](https://bsky.app/profile/msatris.bsky.social/post/3n2n5uozm5k26) — bluesky — direct_public_post
+- [I like how unlike most characters in OoTR, giving adult Ruto a bigger nose wasn't really backing down from 3D to make it more accurate to N64 or anything they were just like "let's](https://bsky.app/profile/jazzyfuture.bsky.social/post/3n2n5eqvf5k2f) — bluesky — direct_public_post
+- [what do people use to make gifs from videos i never learned how in all my years of being on the internet](https://bsky.app/profile/cytricacid.art/post/3n2n567nhmk2c) — bluesky — direct_public_post
+- [I made a puzzle platformer where you can only flip gravity a few times per level, so every flip counts. 40 levels across 8 worlds, with hidden hazards, free in your browser with no](https://mastodon.social/@nithin040806/117641071267047945) — mastodon — direct_public_post — intent keyword found
+- [the sillier the mod, the more fun it is to build. The one I'm putting together right now makes things get weird with the townspeople whenever you spend money. GTA 6 isn't out on PC](https://mastodon.social/@ryotadev/117640930905950795) — mastodon — direct_public_post
+- [🕹️ Games Heaven https:// gamesheaven.wtnet9.site # videogames # gaming # videogames # gamedev](https://mastodon.social/@coa100/117640865011405592) — mastodon — direct_public_post
+- [Ask HN: Cheapest CPU Vms](https://news.ycombinator.com/item?id=50554381) — hackernews_ask — direct_public_post
+- [Ask HN: When does your app need its own UI vs. using it via MCP?](https://news.ycombinator.com/item?id=50554686) — hackernews_ask — direct_public_post
+- [Ask HN: Tips for transitioning from web development to embedded/firmware?](https://news.ycombinator.com/item?id=50555002) — hackernews_ask — direct_public_post
+- [Tell HN: /tmp is hogging your RAM on Ubuntu 26](https://news.ycombinator.com/item?id=50554756) — hackernews_ask — direct_public_post
+- [I open-sourced an AI loop for RISC-V CPU design months prior to OpenAI](https://news.ycombinator.com/item?id=50553802) — hackernews_ask — direct_public_post
 - [Developing Browser Extensions](https://news.ycombinator.com/item?id=50551501) — hackernews_ask — direct_public_post
-- [Ask HN: If AI tools are so good, why isn't your bug backlog empty?](https://news.ycombinator.com/item?id=50520076) — hackernews_ask — direct_public_post — intent keyword found
-- [Interesting Learnings Working for a Startup](https://news.ycombinator.com/item?id=50542361) — hackernews_ask — direct_public_post
-- [Ask HN: How do you reach the flow with vibe coding?](https://news.ycombinator.com/item?id=50548343) — hackernews_ask — direct_public_post
-- [Ask HN: How do you use AI to get more relevant content?](https://news.ycombinator.com/item?id=50548260) — hackernews_ask — direct_public_post
-- [[PM seat triage (objectstack-wide) — 🟢 hotlong · session_01Q4EjjMnyLqJdzuktEmRPXH · trig_01377heGw9UoChYTLnz93qjo (hourly) · state = body + the round records newer than it](https://github.com/objectstack-ai/objectstack/issues/6015) — github_issue — direct_public_issue_api
-- [Ask HN: Building KasirCepat, an offline-first POS for Indonesia](https://news.ycombinator.com/item?id=49692067) — hackernews_ask — indexed_public_post_excerpt
-- [Ask HN: Would a startup for young creatives who reject AI be feasible?](https://news.ycombinator.com/item?id=49689696) — hackernews_ask — indexed_public_post_excerpt
-- [Wikipedia: List of predictions for autonomous Tesla vehicles by Elon Musk](https://news.ycombinator.com/item?id=49304986) — hackernews_ask — indexed_public_post_excerpt
-- [Do You Think OpenAI Is Apple Circa the 1980s?](https://news.ycombinator.com/item?id=49178393) — hackernews_ask — indexed_public_post_excerpt
-- [Plan](https://github.com/inferal-oss/semblance/issues/8) — github_issue — direct_public_issue_api
-- [[Research[UX Hourly espresso evidence audit and Log Shot → Rate → Recommendation improvements](https://github.com/Schulzet3/The-Dial-In-Collective/issues/455) — github_issue — direct_public_issue_api
-- [MOTHERSHIP: coordinate AXOM development and operations](https://github.com/jaclose/AXOM/issues/106) — github_issue — direct_public_issue_api
-- [Coordination: Codex workers alongside Grok team — TC Coordinator assignments](https://github.com/Johnathan-u/trust-copilot/issues/85) — github_issue — direct_public_issue_api
+- [Master roadmap: coordinate ReefVision 1.0–2.0 across five hourly development tracks](https://github.com/Rafael-Del-Valle/ReefVision/issues/76) — github_issue — direct_public_issue_api
+- [Fork sync: upstream and community fixes for pdf-inspector and AnyDoc (Mac + Windows hubs)](https://github.com/lawkitt/mdoc/issues/925) — github_issue — direct_public_issue_api
+- [Review: release/2026.08 vs main — intensive review findings and corrections needed (2026-11-08)](https://github.com/carlos-emr/carlos/issues/5830) — github_issue — direct_public_issue_api
+- [[Umbrella Dependency/docs/tooling maintenance sweep](https://github.com/carlos-emr/carlos/issues/3053) — github_issue — direct_public_issue_api
 - [Ask HN: What's still broken in SoC 2 readiness and audit prep?](https://news.ycombinator.com/item?id=46396889) — hackernews_ask — indexed_public_post_excerpt
 - [AI Agents Are Quietly Taking over Project Management](https://news.ycombinator.com/item?id=45618229) — hackernews_ask — indexed_public_post_excerpt
 - [The problem of scheduling life like a spreadsheet](https://news.ycombinator.com/item?id=45006853) — hackernews_ask — indexed_public_post_excerpt
 - [My Friend Raised Her Seed Round in 17 Days](https://news.ycombinator.com/item?id=44112008) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
-- [TAMÃO — AUDITORIA INTEGRAL, CORREÇÕES E SUPORTE CONTÍNUO](https://github.com/carloskk07/gassg/issues/493) — github_issue — direct_public_issue_api
-- [Implementar assinaturas na versão completa de produção](https://github.com/AnderCSilva84/pontov3/issues/9) — github_issue — direct_public_issue_api — intent keyword found
+- [Shop 2 — 5-day implementation-first Personalized POD sprint (API plugin excluded)](https://github.com/subvicco12/digiforge/issues/1266) — github_issue — direct_public_issue_api
+- [PlanReader agent coordination hub continuation — #3462 reached GitHub 2,500-comment limit](https://github.com/BryceCurran86/PlanReader-3D/issues/4135) — github_issue — direct_public_issue_api
+- [ERP readiness: integrate AP/AR, inventory, production, HR and management reporting](https://github.com/akvisomr-eng/BANYU-AGUNG/issues/24) — github_issue — direct_public_issue_api
+- [Invoice OCR API for Logistics Expense Tracking Automation](https://news.ycombinator.com/item?id=47362152) — hackernews_ask — indexed_public_post_excerpt
+- [Invoice OCR API for Automated GST Data Extraction in India](https://news.ycombinator.com/item?id=47348462) — hackernews_ask — indexed_public_post_excerpt
