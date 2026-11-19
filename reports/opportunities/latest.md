@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-19T03:31:20.751697+00:00
-- Historical candidates: 6475
-- Newly recorded from pending: 61
+- Updated (UTC): 2026-11-19T15:39:13.926930+00:00
+- Historical candidates: 6543
+- Newly recorded from pending: 68
 - Awaiting 7/14/30-day evidence review: 5162
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
+- residential proxies [Global] — discovered — first 2026-11-19, last 2026-11-19
 - national student financial aid scheme [Global] — discovered — first 2026-11-19, last 2026-11-19
+- doc brown marty mcfly flux capacitor nyt [Global] — discovered — first 2026-11-19, last 2026-11-19
+- nord vpn free [Global] — discovered — first 2026-11-19, last 2026-11-19
+- nord vpn discount code [Global] — discovered — first 2026-11-19, last 2026-11-19
+- week 11 wide receiver rankings [Global] — discovered — first 2026-11-19, last 2026-11-19
+- lemon squeezy [Global] — discovered — first 2026-11-19, last 2026-11-19
 - 4k oled monitor [Global] — discovered — first 2026-11-19, last 2026-11-19
 - sample paper class 12 cbse 2026-27 [Global] — discovered — first 2026-11-19, last 2026-11-19
+- logo interpreter online [Global] — discovered — first 2026-11-19, last 2026-11-19
+- australia card surcharge ban cash use [Global] — discovered — first 2026-11-19, last 2026-11-19
+- console translator [Global] — discovered — first 2026-11-19, last 2026-11-19
 - verifier numero tva [Global] — discovered — first 2026-11-19, last 2026-11-19
+- aws migration evaluator [Global] — discovered — first 2026-11-19, last 2026-11-19
+- anthropic ticker symbol [Global] — discovered — first 2026-11-19, last 2026-11-19
+- crossy road [Global] — discovered — first 2026-11-19, last 2026-11-19
+- marty mcfly [Global] — discovered — first 2026-11-19, last 2026-11-19
 - jotform [Global] — discovered — first 2026-11-19, last 2026-11-19
+- symphony known as eroica [Global] — discovered — first 2026-11-19, last 2026-11-19
 - apb optimizer descargar [Global] — discovered — first 2026-11-19, last 2026-11-19
 - mass comparator [Global] — discovered — first 2026-11-19, last 2026-11-19
 - pool builder [Global] — discovered — first 2026-11-19, last 2026-11-19
 - typeform [Global] — discovered — first 2026-11-19, last 2026-11-19
-- wwe2k image uploader [Global] — discovered — first 2026-11-19, last 2026-11-19
-- msbte [Global] — discovered — first 2026-11-19, last 2026-11-19
-- squarespace alternatives [Global] — discovered — first 2026-11-19, last 2026-11-19
-- ssc cpo exam pattern [Global] — discovered — first 2026-11-19, last 2026-11-19
-- wix alternatives [Global] — discovered — first 2026-11-19, last 2026-11-19
-- trabajo constructor civil [Global] — discovered — first 2026-11-19, last 2026-11-19
-- ai humanizer free [Global] — discovered — first 2026-11-19, last 2026-11-19
-- constructor careers [Global] — discovered — first 2026-11-19, last 2026-11-19
-- wa notifier [Global] — discovered — first 2026-11-19, last 2026-11-19
-- smoke detector installation [Global] — discovered — first 2026-11-19, last 2026-11-19
-- stil planner [Global] — discovered — first 2026-11-19, last 2026-11-19
-- loto quebec verifier un billet [Global] — discovered — first 2026-11-19, last 2026-11-19
-- comparitor [Global] — discovered — first 2026-11-19, last 2026-11-19
-- k scheme syllabus [Global] — discovered — first 2026-11-19, last 2026-11-19
-- url uploader [Global] — discovered — first 2026-11-19, last 2026-11-19
-- windshield ice scraper [Global] — discovered — first 2026-11-19, last 2026-11-19
+- asics first responder discount [Global] — discovered — first 2026-11-19, last 2026-11-19
+- online casino 🇩🇪 www.casinod.cfd 🇩🇪 [Global] — discovered — first 2026-11-19, last 2026-11-19
 
 ## Due for follow-up
 
