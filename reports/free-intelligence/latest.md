@@ -1,29 +1,7 @@
-# Free SaaS pain and new-keyword intelligence — 2026-11-18
+# Free SaaS pain and new-keyword intelligence — 2026-11-19
 
 Research only. **Volume / KD / CPC: unverified, not zero.**
 Sources can be rate-limited. A zero-lead day is not evidence of zero demand.
-
-## inventory sync spreadsheet
-
-Market: US · Topic: retail_operations · Intent: manual_sync_pain · Category: specific_buyer_problem
-
-Queries by source: github_repos = inventory sync, github_issues = inventory sync, google_news_rss = inventory sync spreadsheet, duckduckgo = inventory sync spreadsheet, reddit = inventory sync spreadsheet, hackernews_ask = inventory sync
-
-Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
-
-**Buyer-pain review leads:** 0 / 17 raw unique links. Filtered, not verified.
-
-- No qualifying buyer-pain evidence. Do not infer absence of demand.
-
-Competitor / contextual references: 5
-
-- [HENTAIXHUNTER/counter-strike-drop-manager](https://github.com/HENTAIXHUNTER/counter-strike-drop-manager)
-- [somrudeebanthao09/OnHand-Inventory-Planner](https://github.com/somrudeebanthao09/OnHand-Inventory-Planner)
-- [spanthetree/iasync](https://github.com/spanthetree/iasync)
-
-Discarded/noise: 12; repeated URLs across queries: 0
-
-Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
 ## scheduling spreadsheet manual
 
@@ -41,31 +19,31 @@ Competitor / contextual references: 4
 
 - [The Hidden Cost of Manual Contact Center Scheduling - CX Today](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ULUxRQ1MwQXN4MklnUnlDejEzUGhRVVFJRDBQQ1JmNHBCZVhSZWZHYlBlVGx4cXpkLUtmWjdpS0dHX3BEWG9CRWg3M2dFbjdQczUw?oc=5)
 - [Morrisons to Replace Manual Store Planning Spreadsheets with Logile Software - citybiz](https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWxGUGtqdU1lMnhrd1h6Rk83b1hMbXc0b2gzODYwdndPeWZlN1MxUC12MV95OWNnR08yaGlFVjlSdzFzZDZhTk8tS1F5NWZaQXpiaDVYODR0YnpuZVdMMG5hbWt2NlNIWXU0eVlzNko4WUNnWTRCUmJUOUdjcVFlNWNKTWs1ZlpMMWF0S29fQzBleUN1THdxQS1Cb0xvLVA4TWVlS2ZDeUNIaXVJRTNqR3JHNmdyQQ?oc=5)
-- [Acuity Scheduling: Online Booking & Appointment Scheduling Software](https://acuityscheduling.com/)
+- [Acuity Scheduling: Online Booking & Appointment Scheduling ...](https://acuityscheduling.com/)
 
 Discarded/noise: 16; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
-## conciliação bancária manual
+## invoice reconciliation manual
 
-Market: BR · Topic: finance_operations · Intent: manual_reconciliation · Category: specific_buyer_problem
+Market: US · Topic: finance_operations · Intent: manual_invoice_pain · Category: specific_buyer_problem
 
-Queries by source: github_repos = conciliação bancária, github_issues = conciliação bancária, google_news_rss = conciliação bancária manual, duckduckgo = conciliação bancária manual, reddit = conciliação bancária manual
+Queries by source: github_repos = invoice reconciliation, github_issues = invoice reconciliation, google_news_rss = invoice reconciliation manual, duckduckgo = invoice reconciliation manual, reddit = invoice reconciliation manual, hackernews_ask = invoice reconciliation
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 10 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 19 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
 Competitor / contextual references: 8
 
-- [Mauricio-G-Oliveira/makerpixel-central-contabil](https://github.com/Mauricio-G-Oliveira/makerpixel-central-contabil)
-- [fabiuniz/ledger-reconciliation-api](https://github.com/fabiuniz/ledger-reconciliation-api)
-- [Gary-Rainer-Chumacero-Vanderlei/ledger-fpa](https://github.com/Gary-Rainer-Chumacero-Vanderlei/ledger-fpa)
+- [yusufthecoder474/ReconDesk-Final](https://github.com/yusufthecoder474/ReconDesk-Final)
+- [Chammin00/invoice-bol-reconciliation](https://github.com/Chammin00/invoice-bol-reconciliation)
+- [Service Job Cards to Invoices: How a Dealer Management System Eliminates Manual Billing Errors - Nasscom](https://news.google.com/rss/articles/CBMixAFBVV95cUxNTGRGTUJFOGJlNWRuNHE4TUhVeEx4a1V0SUU4NEJ3QzB3OVZnQkthS25jdWtXQXFkc2R6OXljVXhwZURCZDlvOE8teFl4Q3laWVVodV9jZV95OFJEY2hiX2RtRGpFeXVxY3ZoeDBrUWZOY1RoZmJZMjdjangwX2RzNVBlUVRwdWdwcTQyZ2JWbTR0M21IZEhfenZVbVYxcnV1cklJNXEtRS1wLUl2cWxsQTdnYnZQdm9JUWtFdGg4ZDA2cXB2?oc=5)
 
-Discarded/noise: 2; repeated URLs across queries: 0
+Discarded/noise: 11; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -83,33 +61,33 @@ Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=de
 
 Competitor / contextual references: 4
 
+- [PietroTamanini/Zokyo](https://github.com/PietroTamanini/Zokyo)
+- [K0dama-png/estoque-verde](https://github.com/K0dama-png/estoque-verde)
 - [jeff0062/orion-system-backend](https://github.com/jeff0062/orion-system-backend)
-- [ravelroot/Order-and-Inventory-System](https://github.com/ravelroot/Order-and-Inventory-System)
-- [vskkfael/proj-sa-estoque](https://github.com/vskkfael/proj-sa-estoque)
 
 Discarded/noise: 8; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
-## facturas SAT errores
+## nota fiscal planilha
 
-Market: MX · Topic: tax_compliance · Intent: invoice_rejection · Category: specific_buyer_problem
+Market: BR · Topic: tax_compliance · Intent: manual_invoice_pain · Category: specific_buyer_problem
 
-Queries by source: github_repos = facturas SAT, github_issues = facturas SAT, google_news_rss = facturas SAT errores, duckduckgo = facturas SAT errores, reddit = facturas SAT errores
+Queries by source: github_repos = nota fiscal, github_issues = nota fiscal, google_news_rss = nota fiscal planilha, duckduckgo = nota fiscal planilha, reddit = nota fiscal planilha
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded
+Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
 
-**Buyer-pain review leads:** 0 / 13 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 12 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 8
+Competitor / contextual references: 5
 
-- [Pablo-Gomez-Perez/visor-cfdi-xml](https://github.com/Pablo-Gomez-Perez/visor-cfdi-xml)
-- [BEG-lag/facturas-cfdi](https://github.com/BEG-lag/facturas-cfdi)
-- [eduardorito/lector-xml-sat](https://github.com/eduardorito/lector-xml-sat)
+- [edersonrds/nota-fiscal-api](https://github.com/edersonrds/nota-fiscal-api)
+- [nfe/client-nodejs](https://github.com/nfe/client-nodejs)
+- [RicardoAndersonJC/api-automacao-fiscal](https://github.com/RicardoAndersonJC/api-automacao-fiscal)
 
-Discarded/noise: 5; repeated URLs across queries: 0
+Discarded/noise: 7; repeated URLs across queries: 1
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -125,11 +103,33 @@ Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=de
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
+Competitor / contextual references: 6
+
+- [JHOSEPEMC/Sistema-de-Venta-Y-Inventario](https://github.com/JHOSEPEMC/Sistema-de-Venta-Y-Inventario)
+- [CrabF-ui/WoodTrack](https://github.com/CrabF-ui/WoodTrack)
+- [carranzapinzon55/AssetGuard_2620](https://github.com/carranzapinzon55/AssetGuard_2620)
+
+Discarded/noise: 6; repeated URLs across queries: 0
+
+Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
+
+## CFDI conciliación errores
+
+Market: MX · Topic: tax_compliance · Intent: invoice_validation · Category: specific_buyer_problem
+
+Queries by source: github_repos = CFDI conciliación, github_issues = CFDI conciliación, google_news_rss = CFDI conciliación errores, duckduckgo = CFDI conciliación errores, reddit = CFDI conciliación errores
+
+Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
+
+**Buyer-pain review leads:** 0 / 12 raw unique links. Filtered, not verified.
+
+- No qualifying buyer-pain evidence. Do not infer absence of demand.
+
 Competitor / contextual references: 7
 
-- [L0rdWave/inventario_project_mrebori](https://github.com/L0rdWave/inventario_project_mrebori)
-- [Claudioquatro/inventario-mobili](https://github.com/Claudioquatro/inventario-mobili)
-- [DINAMHACK/Digitalizador-DEMUNA-v3-final](https://github.com/DINAMHACK/Digitalizador-DEMUNA-v3-final)
+- [Roque98/Auxiliar-Contable](https://github.com/Roque98/Auxiliar-Contable)
+- [Fintecia/fintecia-mcp](https://github.com/Fintecia/fintecia-mcp)
+- [merolhack/sat-fiscal-toolkit](https://github.com/merolhack/sat-fiscal-toolkit)
 
 Discarded/noise: 5; repeated URLs across queries: 0
 
