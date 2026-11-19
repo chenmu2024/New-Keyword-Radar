@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-18T19:00:51.638288+00:00
-- Historical candidates: 6414
-- Newly recorded from pending: 45
+- Updated (UTC): 2026-11-19T03:31:20.751697+00:00
+- Historical candidates: 6475
+- Newly recorded from pending: 61
 - Awaiting 7/14/30-day evidence review: 5162
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 4k oled monitor [Global] — discovered — first 2026-11-19, last 2026-11-19
-- ai humanizer free [Global] — discovered — first 2026-11-19, last 2026-11-19
-- apb optimizer descargar [Global] — discovered — first 2026-11-19, last 2026-11-19
-- c++ compiler [Global] — discovered — first 2026-11-19, last 2026-11-19
-- class 12 sample paper 2026-27 [Global] — discovered — first 2026-11-19, last 2026-11-19
-- code in drag drive simulator [Global] — discovered — first 2026-11-19, last 2026-11-19
-- comparator vs comparable [Global] — discovered — first 2026-11-19, last 2026-11-19
-- comparitor [Global] — discovered — first 2026-11-19, last 2026-11-19
-- constructor careers [Global] — discovered — first 2026-11-19, last 2026-11-19
-- contact manager networkfinds blog [Global] — discovered — first 2026-11-19, last 2026-11-19
-- custom home builder [Global] — discovered — first 2026-11-19, last 2026-11-19
-- euro truck simulator [Global] — discovered — first 2026-11-19, last 2026-11-19
-- geekzilla.io podcast [Global] — discovered — first 2026-11-19, last 2026-11-19
-- google forms alternatives [Global] — discovered — first 2026-11-19, last 2026-11-19
-- hdmi audio extractor [Global] — discovered — first 2026-11-19, last 2026-11-19
-- home assistant connect aux 2 [Global] — discovered — first 2026-11-19, last 2026-11-19
-- jotform [Global] — discovered — first 2026-11-19, last 2026-11-19
-- jotform alternatives [Global] — discovered — first 2026-11-19, last 2026-11-19
-- k scheme syllabus [Global] — discovered — first 2026-11-19, last 2026-11-19
-- ktu notes 2019 scheme [Global] — discovered — first 2026-11-19, last 2026-11-19
-- loto quebec verifier un billet [Global] — discovered — first 2026-11-19, last 2026-11-19
-- manny el constructor [Global] — discovered — first 2026-11-19, last 2026-11-19
-- mass comparator [Global] — discovered — first 2026-11-19, last 2026-11-19
-- msbte [Global] — discovered — first 2026-11-19, last 2026-11-19
 - national student financial aid scheme [Global] — discovered — first 2026-11-19, last 2026-11-19
+- 4k oled monitor [Global] — discovered — first 2026-11-19, last 2026-11-19
+- sample paper class 12 cbse 2026-27 [Global] — discovered — first 2026-11-19, last 2026-11-19
+- verifier numero tva [Global] — discovered — first 2026-11-19, last 2026-11-19
+- jotform [Global] — discovered — first 2026-11-19, last 2026-11-19
+- apb optimizer descargar [Global] — discovered — first 2026-11-19, last 2026-11-19
+- mass comparator [Global] — discovered — first 2026-11-19, last 2026-11-19
+- pool builder [Global] — discovered — first 2026-11-19, last 2026-11-19
+- typeform [Global] — discovered — first 2026-11-19, last 2026-11-19
+- wwe2k image uploader [Global] — discovered — first 2026-11-19, last 2026-11-19
+- msbte [Global] — discovered — first 2026-11-19, last 2026-11-19
+- squarespace alternatives [Global] — discovered — first 2026-11-19, last 2026-11-19
+- ssc cpo exam pattern [Global] — discovered — first 2026-11-19, last 2026-11-19
+- wix alternatives [Global] — discovered — first 2026-11-19, last 2026-11-19
+- trabajo constructor civil [Global] — discovered — first 2026-11-19, last 2026-11-19
+- ai humanizer free [Global] — discovered — first 2026-11-19, last 2026-11-19
+- constructor careers [Global] — discovered — first 2026-11-19, last 2026-11-19
+- wa notifier [Global] — discovered — first 2026-11-19, last 2026-11-19
+- smoke detector installation [Global] — discovered — first 2026-11-19, last 2026-11-19
+- stil planner [Global] — discovered — first 2026-11-19, last 2026-11-19
+- loto quebec verifier un billet [Global] — discovered — first 2026-11-19, last 2026-11-19
+- comparitor [Global] — discovered — first 2026-11-19, last 2026-11-19
+- k scheme syllabus [Global] — discovered — first 2026-11-19, last 2026-11-19
+- url uploader [Global] — discovered — first 2026-11-19, last 2026-11-19
+- windshield ice scraper [Global] — discovered — first 2026-11-19, last 2026-11-19
 
 ## Due for follow-up
 

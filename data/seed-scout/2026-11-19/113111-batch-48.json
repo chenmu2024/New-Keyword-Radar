@@ -1,0 +1,121 @@
+{
+  "batch_id": "2026-11-19T03:31:11.964382+00:00-48-49-50-51",
+  "generated_at": "2026-11-19T03:31:11.964382+00:00",
+  "local_generated_at": "2026-11-19T11:31:11.964382+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "connector",
+    "cataloger",
+    "responder",
+    "color"
+  ],
+  "seed_indices": [
+    48,
+    49,
+    50,
+    51
+  ],
+  "start_index": 48,
+  "discoveries": [
+    {
+      "seed": "connector",
+      "query": "meet your users where they are with muse connector platform",
+      "rise_value": 3550.0,
+      "raw_value": 3550
+    },
+    {
+      "seed": "responder",
+      "query": "chinese greeting crossword",
+      "rise_value": 2750.0,
+      "raw_value": 2750
+    },
+    {
+      "seed": "connector",
+      "query": "muse — your personal ai agent",
+      "rise_value": 2700.0,
+      "raw_value": 2700
+    },
+    {
+      "seed": "responder",
+      "query": "cauldron contents crossword clue",
+      "rise_value": 2100.0,
+      "raw_value": 2100
+    },
+    {
+      "seed": "responder",
+      "query": "italian playhouse crossword",
+      "rise_value": 2000.0,
+      "raw_value": 2000
+    },
+    {
+      "seed": "connector",
+      "query": "iphone 17 pro max charging connector flex cable",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "connector",
+      "query": "fitness ai connector",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "color",
+      "query": "best paint color for living room",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "responder",
+      "query": "first responder bowl",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "color",
+      "query": "puce color",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "color",
+      "query": "read your color",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "connector",
+      "query": "health connector payment",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "responder",
+      "query": "asics first responder discount",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "responder",
+      "query": "gm first responder",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "responder",
+      "query": "gm first responder discount",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "responder",
+      "query": "rtl responder",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 16
+}
