@@ -1,22 +1,17 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-19T04:10:30.708832+00:00
-- Source last updated: 2026-11-19T04:10:30.708832+00:00
+- Generated: 2026-11-19T16:32:28.190781+00:00
+- Source last updated: 2026-11-19T16:32:28.190781+00:00
 - Trends archive: 2026-11-19 (74/74; complete=True)
 - Eligible multiword rising queries: 433
-- Cross-source matches within 72h review window: 1
-- Social current-run links: 57, prior recent sightings: 219
-- Search archives examined: 2026-11-19, 2026-11-18, 2026-11-17
-- Direct-post question-derived QUERY HYPOTHESES: 5
+- Cross-source matches within 72h review window: 0
+- Social current-run links: 60, prior recent sightings: 223
+- Search archives examined: 2026-11-19, 2026-11-18
+- Direct-post question-derived QUERY HYPOTHESES: 4
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
-## marty mcfly
-
-- Relative Trends rising value: 750.0 (NOT Volume)
-- Distinct matched platforms: 1
-- Direct public-post question hints: 0
-- mastodon: https://mastodon.social/@eastvancanuck/117621764513102044 (direct_public_post)
+No reliable full-query cross-source overlap found in this scan.
 
 ## Original public-post question hints (NOT validated search keywords)
 
@@ -31,9 +26,6 @@
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **gas powered or an aircraft engine stationed outside the datacenter to**
   - Original public post: https://bsky.app/profile/ihearthaggis.bsky.social/post/3n2jw75nec22n
-  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
-- Proposed query: **j09 j12 chat list sharing offline view and accessibility personal data**
-  - Original public post: https://github.com/LamHeiKit230208993/CS3383-Project/issues/21
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 
 ## First-person payment mentions (author reports, NOT verified orders)
