@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-20T11:34:09.991966+00:00
+# V4 Social signal discovery — 2026-11-20T22:14:32.802684+00:00
 
-- Unique links this run: 55, newly seen: 35, history: 2186
+- Unique links this run: 55, newly seen: 17, history: 2203
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -20,32 +20,32 @@
 
 ## Links (not validated project opportunities)
 
-- [Dozy](https://www.producthunt.com/products/dozy) — producthunt — direct_public_feed
-- [Kuc-kuc](https://www.producthunt.com/products/kuc-kuc) — producthunt — direct_public_feed
-- [FFMPA Kids News](https://www.producthunt.com/products/ffmpa-kids-news) — producthunt — direct_public_feed
-- [tripps](https://www.producthunt.com/products/tripps) — producthunt — direct_public_feed
-- [Groundwork](https://www.producthunt.com/products/groundwork-6) — producthunt — direct_public_feed
-- [Fack’d](https://www.producthunt.com/products/fack-d) — producthunt — direct_public_feed
-- [Shwe-Li-Ai/shwe-li-ai-video](https://huggingface.co/spaces/Shwe-Li-Ai/shwe-li-ai-video) — huggingface — direct_public_api
-- [GUOCHENG53/UM-Fit-Buddy](https://huggingface.co/spaces/GUOCHENG53/UM-Fit-Buddy) — huggingface — direct_public_api
-- [pankajjindalbharat/jindalspace](https://huggingface.co/spaces/pankajjindalbharat/jindalspace) — huggingface — direct_public_api
-- [ngocrongpro17/kokoro-tts](https://huggingface.co/spaces/ngocrongpro17/kokoro-tts) — huggingface — direct_public_api
-- [userwanted/minimax-h3-character-swap-lora](https://huggingface.co/spaces/userwanted/minimax-h3-character-swap-lora) — huggingface — direct_public_api
-- [ajaysi22soil/prnu-server](https://huggingface.co/spaces/ajaysi22soil/prnu-server) — huggingface — direct_public_api
-- [Interacting to the world you live in. Some scientists describe it as a reality generator. There is a sliding scale from bacteria up to us. We happen to be self aware and there ar](https://bsky.app/profile/stardust1618.bsky.social/post/3n2pgce24pk2l) — bluesky — direct_public_post — intent keyword found
-- [By barge, by ship, by giant truck-- After a journey around the world, the giant rotor that powers the generator at our Pulsed Field Facility has made it to Los Alamos! Soon it will](https://bsky.app/profile/nationalmaglab.bsky.social/post/3n2ooxqmvzx2g) — bluesky — direct_public_post — intent keyword found
-- [It doesn't help that to the public all they see is the free to use pointless chat bot or uncanny vally image generator based purely on theft. There was never a reason to offer tho](https://bsky.app/profile/dj9898.bsky.social/post/3n2omtpokr22p) — bluesky — direct_public_post — intent keyword found
-- [found a pretty big gaff in Silent Hill 2. If you look at the map for the hospital, it says the basement is a tiny area with a storage area and a morgue and a generator. But then wh](https://bsky.app/profile/bapaf.bsky.social/post/3n2nbypfkws2x) — bluesky — direct_public_post — intent keyword found
-- [But you wouldn't have Woman (hot take, Randy is the strongest track) or Hyperdrama (The End with Thundercat is a strong finish to the album, but Generator, Incognito, and One Night](https://bsky.app/profile/haymarketatdawn.bsky.social/post/3n2n5bprsrc2h) — bluesky — direct_public_post — intent keyword found
-- [Electric is so much more responsive. I absolutely love my current car (Volvo XC60 Black edition). The best I've ever "owned" (lease). Think my next car will be a extended range](https://bsky.app/profile/mrmurgsmaths.bsky.social/post/3n2ml5ok4sk2t) — bluesky — direct_public_post — intent keyword found
-- [I think it’s starting to hit me that i miss pre-covid life, i feel like we were all a little more connected to each other and less connected to our phones? short form media wasn’t](https://mastodon.social/@sashkacheburashka/117645806582028528) — mastodon — direct_public_post
-- [Most platforms raise money and promise to grow fast. We didn’t. Investors need a return. The return comes from ads. Ads pay for targeting, not page views. Targeting needs tracking.](https://mastodon.social/@Europe_Vibes/117645573660494401) — mastodon — direct_public_post
-- [Ask HN: Did books that went viral on HN publish their manuscript?](https://news.ycombinator.com/item?id=50572342) — hackernews_ask — direct_public_post
+- [tinytldr](https://www.producthunt.com/products/tinytldr) — producthunt — direct_public_feed
+- [pickfit](https://www.producthunt.com/products/pickfit) — producthunt — direct_public_feed
+- [Cup of Sugar](https://www.producthunt.com/products/cup-of-sugar-2) — producthunt — direct_public_feed
+- [DWaste](https://www.producthunt.com/products/deep-waste) — producthunt — direct_public_feed
+- [ThreadLore](https://www.producthunt.com/products/threadlore) — producthunt — direct_public_feed
+- [Tamekoshi](https://www.producthunt.com/products/tamekoshi) — producthunt — direct_public_feed
+- [pedrogarciar13/sentimiento-melisa-beto](https://huggingface.co/spaces/pedrogarciar13/sentimiento-melisa-beto) — huggingface — direct_public_api
+- [MAYA2590/pamplona-gastronomic-assistant](https://huggingface.co/spaces/MAYA2590/pamplona-gastronomic-assistant) — huggingface — direct_public_api
+- [Trap7271/Auto-reels](https://huggingface.co/spaces/Trap7271/Auto-reels) — huggingface — direct_public_api
+- [ayajaouher/prj-face-recognition-demo](https://huggingface.co/spaces/ayajaouher/prj-face-recognition-demo) — huggingface — direct_public_api
+- [devmaher/AetherAi](https://huggingface.co/spaces/devmaher/AetherAi) — huggingface — direct_public_api
+- [digest0r/Video-to-SoundFX](https://huggingface.co/spaces/digest0r/Video-to-SoundFX) — huggingface — direct_public_api
+- [Yo he escrito un PFC, un TFM, una tesis y una docena de artículos científicos. Diría que como herramienta es válida. Mejorable como cualquiera, pero cumplió su propósito. No necesi](https://bsky.app/profile/felixstdp.bsky.social/post/3n2m73jw4ac2m) — bluesky — direct_public_post
+- [Antes de recomendarte una solución, necesito saber esto. Muchos negocios compran la herramienta antes de entender el problema. 3 preguntas clave: tiempo, clientes, tareas a mano.](https://bsky.app/profile/byledifj.bsky.social/post/3mzx5g3lf5u25) — bluesky — direct_public_post
+- [Con dinero de la empresa. Vamos, que no le pido herramienta al jefe, compro lo que necesito y le paso la factura.](https://bsky.app/profile/infilanak.satan.social/post/3mzizkmmrz22e) — bluesky — direct_public_post
+- [Si os dijera que estoy pensando compartir la herramienta que he creado autores ¿Qué os parecería? Estoy pensando en dejársela probar a algunas personas para comprobar que lo que a](https://bsky.app/profile/piramidedeespejo.bsky.social/post/3mzboeus6ik2a) — bluesky — direct_public_post
+- [Yo no necesito valoración sobre el tamaño de mi "herramienta" está muy bien, no he tenido quejas ni las tengo yo.. hay quien dice que es grande, para mí es medio normal, también es](https://bsky.app/profile/brokench.bsky.social/post/3mz3trit4622f) — bluesky — direct_public_post
+- [Creo que se ha ido para siempre, porque no tengo ninguna intención de reinstalar a corto plazo. También te digo que si tú tienes tanto control sobre esa herramienta, perfecto (yo n](https://bsky.app/profile/mazapanes.bsky.social/post/3mz23wx4lsc2r) — bluesky — direct_public_post
+- [It took me 9 days to actually push to git on this one. My legacy malware whispered the syntax errors were a sign. Today I finally decided to not believe it and actually post the wr](https://mastodon.social/@chaosandcozy/117650302411532410) — mastodon — direct_public_post
+- [If all of human history was just a single 24-hour day, farming and agriculture would have only been invented in the last 6 minutes before midnight. Want to know more? Click here fo](https://mastodon.social/@lzon/117650149793955013) — mastodon — direct_public_post
+- [I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA](https://news.ycombinator.com/item?id=50577613) — hackernews_ask — direct_public_post
+- [Second Brain and Agent Maintenance Thoughts on AI Usage?](https://news.ycombinator.com/item?id=50581873) — hackernews_ask — direct_public_post — intent keyword found
+- [Ask HN: Any actual balanced reviews of GTA 6?](https://news.ycombinator.com/item?id=50573839) — hackernews_ask — direct_public_post
 - [GitLab 19.6.0 is out and still vulnerable to Ruby2Shell and NGINX2Root](https://news.ycombinator.com/item?id=50561571) — hackernews_ask — direct_public_post
-- [Ask HN: Where do you see Software in 5 years?](https://news.ycombinator.com/item?id=50565484) — hackernews_ask — direct_public_post
 - [Ask HN: If AI tools are so good, why isn't your bug backlog empty?](https://news.ycombinator.com/item?id=50520076) — hackernews_ask — direct_public_post — intent keyword found
-- [Ask HN: Why no AI-led memory vulns in Python?](https://news.ycombinator.com/item?id=50565386) — hackernews_ask — direct_public_post
-- [The End of Continuous Rework](https://news.ycombinator.com/item?id=50564890) — hackernews_ask — direct_public_post — intent keyword found
+- [Ask HN: Did books that went viral on HN publish their manuscript?](https://news.ycombinator.com/item?id=50572342) — hackernews_ask — direct_public_post
 - [Agent coordination — part 6 (continues #4848)](https://github.com/solrenning-llc/marktmorgen/issues/4858) — github_issue — direct_public_issue_api
 - [[PTYSD-NATIVE OpenCode dispatch and receipts](https://github.com/PT-Original-Point/ptysd-autonomous-factory/issues/407) — github_issue — direct_public_issue_api
 - [Studio thread: November 2026 (cont.)](https://github.com/TheLaughingGod1986/orbit-with-ben/issues/954) — github_issue — direct_public_issue_api
