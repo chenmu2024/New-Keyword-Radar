@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-20T00:38:44.004716+00:00
-- Historical candidates: 6557
-- Newly recorded from pending: 14
+- Updated (UTC): 2026-11-20T10:18:25.838213+00:00
+- Historical candidates: 6777
+- Newly recorded from pending: 220
 - Awaiting 7/14/30-day evidence review: 5387
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- ask silver scam checker [Global] — discovered — first 2026-11-20, last 2026-11-20
-- contact manager networkfinds wesbite blog [Global] — discovered — first 2026-11-20, last 2026-11-20
-- makro manager pie pricing dispute [Global] — discovered — first 2026-11-20, last 2026-11-20
-- novire scraper [Global] — discovered — first 2026-11-20, last 2026-11-20
-- pattern 中文 [Global] — discovered — first 2026-11-20, last 2026-11-20
-- portable carbon monoxide detector [Global] — discovered — first 2026-11-20, last 2026-11-20
-- radon detector [Global] — discovered — first 2026-11-20, last 2026-11-20
-- sbi clerk mains exam pattern [Global] — discovered — first 2026-11-20, last 2026-11-20
-- sbi clerk mains exam pattern 2026 [Global] — discovered — first 2026-11-20, last 2026-11-20
-- sbi clerk mains pattern [Global] — discovered — first 2026-11-20, last 2026-11-20
-- schedule explorer [Global] — discovered — first 2026-11-20, last 2026-11-20
-- schedule explorer pace [Global] — discovered — first 2026-11-20, last 2026-11-20
-- virgin reward seat checker [Global] — discovered — first 2026-11-20, last 2026-11-20
 - zzz pull tracker [Global] — discovered — first 2026-11-20, last 2026-11-20
-- ssc cpo exam pattern [Global] — discovered — first 2026-11-19, last 2026-11-20
-- smoke detector installation [Global] — discovered — first 2026-11-19, last 2026-11-20
-- stil planner [Global] — discovered — first 2026-11-19, last 2026-11-20
-- windshield ice scraper [Global] — discovered — first 2026-11-19, last 2026-11-20
-- contact manager networkfinds blog [Global] — discovered — first 2026-11-19, last 2026-11-20
-- project 2025 tracker [Global] — discovered — first 2026-11-18, last 2026-11-20
-- cyclone akwan tracker live [Global] — discovered — first 2026-11-18, last 2026-11-20
-- apple down detector [Global] — discovered — first 2026-11-18, last 2026-11-20
-- akvan cyclone tracker live today [Global] — discovered — first 2026-11-18, last 2026-11-20
-- dashboard abm [Global] — discovered — first 2026-11-18, last 2026-11-20
-- windshield scraper [Global] — discovered — first 2026-11-18, last 2026-11-20
+- ask silver scam checker [Global] — discovered — first 2026-11-20, last 2026-11-20
+- sbi clerk mains exam pattern 2026 [Global] — discovered — first 2026-11-20, last 2026-11-20
+- schedule explorer [Global] — discovered — first 2026-11-20, last 2026-11-20
+- sbi clerk mains exam pattern [Global] — discovered — first 2026-11-20, last 2026-11-20
+- contact manager networkfinds wesbite blog [Global] — discovered — first 2026-11-20, last 2026-11-20
+- pattern 中文 [Global] — discovered — first 2026-11-20, last 2026-11-20
+- makro manager pie pricing dispute [Global] — discovered — first 2026-11-20, last 2026-11-20
+- portable carbon monoxide detector [Global] — discovered — first 2026-11-20, last 2026-11-20
+- virgin reward seat checker [Global] — discovered — first 2026-11-20, last 2026-11-20
+- schedule explorer pace [Global] — discovered — first 2026-11-20, last 2026-11-20
+- sbi clerk mains pattern [Global] — discovered — first 2026-11-20, last 2026-11-20
+- novire scraper [Global] — discovered — first 2026-11-20, last 2026-11-20
+- radon detector [Global] — discovered — first 2026-11-20, last 2026-11-20
+- accurate snow day calculator [Global] — discovered — first 2026-11-20, last 2026-11-20
+- ai comparator [Global] — discovered — first 2026-11-20, last 2026-11-20
+- ai flow [Global] — discovered — first 2026-11-20, last 2026-11-20
+- ai photo editor [Global] — discovered — first 2026-11-20, last 2026-11-20
+- akvan [Global] — discovered — first 2026-11-20, last 2026-11-20
+- akvan cyclone [Global] — discovered — first 2026-11-20, last 2026-11-20
+- akvan cyclone tracker [Global] — discovered — first 2026-11-20, last 2026-11-20
+- akwan cyclone [Global] — discovered — first 2026-11-20, last 2026-11-20
+- amazon comparator [Global] — discovered — first 2026-11-20, last 2026-11-20
+- america vs tigres [MX] — discovered — first 2026-11-20, last 2026-11-20
+- angelina jolie [BR] — discovered — first 2026-11-20, last 2026-11-20
 
 ## Due for follow-up
 

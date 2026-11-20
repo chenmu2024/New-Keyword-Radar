@@ -1,0 +1,121 @@
+{
+  "batch_id": "2026-11-20T10:18:19.340368+00:00-35-36-37-38",
+  "generated_at": "2026-11-20T10:18:19.340368+00:00",
+  "local_generated_at": "2026-11-20T18:18:19.340368+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "scheduler",
+    "converter",
+    "viewer",
+    "extractor"
+  ],
+  "seed_indices": [
+    35,
+    36,
+    37,
+    38
+  ],
+  "start_index": 35,
+  "discoveries": [
+    {
+      "seed": "scheduler",
+      "query": "walgreens pharmacy scheduler job",
+      "rise_value": 12850.0,
+      "raw_value": 12850
+    },
+    {
+      "seed": "scheduler",
+      "query": "gillece lawsuit",
+      "rise_value": 10850.0,
+      "raw_value": 10850
+    },
+    {
+      "seed": "scheduler",
+      "query": "osu class scheduler",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "scheduler",
+      "query": "student center cornell",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "scheduler",
+      "query": "garvi appointment scheduler",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "scheduler",
+      "query": "student center",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "scheduler",
+      "query": "usps passport appointment scheduler",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "scheduler",
+      "query": "exam scheduler iitk",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "scheduler",
+      "query": "nw scheduler download",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scheduler",
+      "query": "chase appointment scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "extractor",
+      "query": "hdmi audio extractor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "scheduler cornell",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "texas dmv appointment scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scheduler",
+      "query": "wmt web scheduler",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "extractor",
+      "query": "chipgenius",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "extractor",
+      "query": "youtube description extractor",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 16
+}
