@@ -1,6 +1,6 @@
 # OPC-inspired business evidence review
 
-Generated: 2026-11-19T04:04:13.436661+00:00
+Generated: 2026-11-20T03:56:38.280304+00:00
 
 **Advisory only.** The module does not collect keyword metrics, prove demand,
 approve a launch, or change the radar's formal verdict.
@@ -8,7 +8,7 @@ approve a launch, or change the radar's formal verdict.
 Formal radar candidates: 3.
 No candidate may be recommended for development without external source evidence.
 
-## warung life simulator (Worldwide)
+## akvan cyclone tracker live (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
@@ -16,7 +16,7 @@ No candidate may be recommended for development without external source evidence
 - Missing evidence: dated Volume/KD and source, dated SERP inspection and notes, dated reference-site traffic or verified recent-game signal, evidence-backed score: pain, evidence-backed score: leverage, evidence-backed score: timing, evidence-backed score: resource_fit, evidence-backed score: standardization, evidence-backed score: cashflow, monetization model, acquisition channel, estimated monthly fixed cost (USD)
 - Notes: Requires human decision
 
-## letterboxd top 4 analyzer (Worldwide)
+## akvan cyclone tracker live today (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
@@ -24,7 +24,7 @@ No candidate may be recommended for development without external source evidence
 - Missing evidence: dated Volume/KD and source, dated SERP inspection and notes, dated reference-site traffic or verified recent-game signal, evidence-backed score: pain, evidence-backed score: leverage, evidence-backed score: timing, evidence-backed score: resource_fit, evidence-backed score: standardization, evidence-backed score: cashflow, monetization model, acquisition channel, estimated monthly fixed cost (USD)
 - Notes: Requires human decision
 
-## barry wong generator purchase bbc (Worldwide)
+## akwan cyclone tracker (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
