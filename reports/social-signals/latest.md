@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-19T16:32:28.190781+00:00
+# V4 Social signal discovery — 2026-11-20T01:15:17.972102+00:00
 
-- Unique links this run: 60, newly seen: 28, history: 2125
+- Unique links this run: 59, newly seen: 26, history: 2151
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (6) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (5) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (30)
@@ -20,35 +20,34 @@
 
 ## Links (not validated project opportunities)
 
-- [Source](https://www.producthunt.com/products/source-public-beta) — producthunt — direct_public_feed
-- [Netlify Server](https://www.producthunt.com/products/netlify) — producthunt — direct_public_feed
-- [The Calm Creator Mastermind](https://www.producthunt.com/products/the-calm-creator-mastermind) — producthunt — direct_public_feed
+- [Tabstack by Mozilla](https://www.producthunt.com/products/tabstack) — producthunt — direct_public_feed
+- [Spellar for Chrome](https://www.producthunt.com/products/spellar) — producthunt — direct_public_feed
+- [Adside](https://www.producthunt.com/products/adside) — producthunt — direct_public_feed
+- [Tecla](https://www.producthunt.com/products/tecla-3) — producthunt — direct_public_feed
+- [Stripo Email Widgets](https://www.producthunt.com/products/stripo-email) — producthunt — direct_public_feed
 - [Verse Engine by Ctruh](https://www.producthunt.com/products/verse-engine-by-ctruh) — producthunt — direct_public_feed
-- [TestSprite 4.0](https://www.producthunt.com/products/testsprite) — producthunt — direct_public_feed
-- [Fieldwork Code](https://www.producthunt.com/products/fieldwork-code) — producthunt — direct_public_feed
-- [Loren/got-chatbot-backend](https://huggingface.co/spaces/Loren/got-chatbot-backend) — huggingface — direct_public_api
-- [RaijuCloudSystem/Final_Assignment_Template](https://huggingface.co/spaces/RaijuCloudSystem/Final_Assignment_Template) — huggingface — direct_public_api
-- [Valegol/easyproxy](https://huggingface.co/spaces/Valegol/easyproxy) — huggingface — direct_public_api
-- [Vasug786/deep_research](https://huggingface.co/spaces/Vasug786/deep_research) — huggingface — direct_public_api
-- [aditiattu/researchpaper-qa-assistant](https://huggingface.co/spaces/aditiattu/researchpaper-qa-assistant) — huggingface — direct_public_api
-- [Hussain8989/ai-control-center](https://huggingface.co/spaces/Hussain8989/ai-control-center) — huggingface — direct_public_api
-- [eu ainda estou pensando em como, fundamentalmente falando, é um insulto sem precedentes a brasil paralelo fazer um filme de IA da divina comédia e além disso "adaptarem" (se é que](https://bsky.app/profile/lowasreborn.bsky.social/post/3n2oihyvsik22) — bluesky — direct_public_post
-- [eu sei que tem coisa que me estresso a toa, que poderia ir pela via mais rápida, mas caralho mano. tô explicando para cuja como faz para não ter encheção do saco no próximo mês, al](https://bsky.app/profile/humaanqueen.bsky.social/post/3n2oid2lghs2v) — bluesky — direct_public_post
-- [Claro que consigo! Tal como consigo ver outros realizadores a fazer peças artísticas magníficas hoje em dia. Tal como consigo ver mensagens em blockbusters. Nada pode, nem deve, se](https://bsky.app/profile/manuelreis.bsky.social/post/3n2oiah442c2f) — bluesky — direct_public_post
-- [como pode as séries de televisão hj em dia demoram tanto pra fazer novas temporadas que minha vida mudou violentamente desde que eu assisti a última temporada](https://bsky.app/profile/ctrinda.de/post/3n2oi6xzk3k2r) — bluesky — direct_public_post
-- [como pode a cachorra fazer TRES cocôs num unico passeio uma maquina de bosta](https://bsky.app/profile/ofioqueliga.bsky.social/post/3n2ohme5nac2r) — bluesky — direct_public_post
-- [vou fazer? vou mas também tenho que trazer uma má notícia para os colegas da História: pra gente só pra vaga temporária, sociologia também (e vai contar como cadastro pelo PSS par](https://bsky.app/profile/96felix96.bsky.social/post/3n2ohgrcimc25) — bluesky — direct_public_post
-- [Use case — Tucas Magic Eraser: Remove distracting objects from travel photos and landscapes. Clean up product photos for online listings. # ImageTools # WebTools https:// tucastool](https://mastodon.social/@tucas/117641162597709741) — mastodon — direct_public_post
-- [One image, many formats! 🖼️✨ Convert your files to JPG, PNG, WEBP, BMP, GIF & more in seconds with Digitoly ImageConverter. ✅ High-quality output with zero software needed ✅ 100% s](https://mastodon.social/@digitoly/117641105690444610) — mastodon — direct_public_post
-- [A practical use for Tucas Image Crop: Prepare product images. Correct perspective and straighten images. # ImageTools # WebTools https:// tucastools.com/en/image-crop/](https://mastodon.social/@tucas/117638145183283580) — mastodon — direct_public_post
-- [Tucas Image Compressor in one line: Compress and optimize images directly in your browser with Smart, Target Size, and Professional modes. Batch processing without uploading images](https://mastodon.social/@tucas/117635171865331191) — mastodon — direct_public_post
-- [BMI Calculator — Free BMI calculator (body mass index). Free, no signup. # webtools # free https://www. utiltools.net/tools/bmi-calcul ator/?utm_source=mastodon](https://mastodon.social/@kglowreview/117634970857810687) — mastodon — direct_public_post
-- [A browser-based tool worth knowing: Tucas Image Converter. Create website-ready images. Convert supported document pages. # ImageTools # WebTools https:// tucastools.com/en/image-c](https://mastodon.social/@tucas/117632271649137701) — mastodon — direct_public_post — intent keyword found
+- [astroanand/redline](https://huggingface.co/spaces/astroanand/redline) — huggingface — direct_public_api
+- [Hani-al/hotel-booking-ar](https://huggingface.co/spaces/Hani-al/hotel-booking-ar) — huggingface — direct_public_api
+- [oddsayy/navevsbichos](https://huggingface.co/spaces/oddsayy/navevsbichos) — huggingface — direct_public_api
+- [Harshit1108/sab-ai-ek-sawal](https://huggingface.co/spaces/Harshit1108/sab-ai-ek-sawal) — huggingface — direct_public_api
+- [inchey/ai](https://huggingface.co/spaces/inchey/ai) — huggingface — direct_public_api
+- [AnotherD/camera-study](https://huggingface.co/spaces/AnotherD/camera-study) — huggingface — direct_public_api
+- [btw, this is one of my favorite research white-paper sites.. research >>>>> here's one I'm reading on #recursiveEembeddings: www.researchgate.net/publication/...](https://bsky.app/profile/liitx.com/post/3n2perabhkc2w) — bluesky — direct_public_post
+- [Thank you for drawing that line, it can't have been an easy call with a tool that's doing well. Fake senders make every honest cold email harder to trust. What would a tool need to](https://bsky.app/profile/veloxonhub.bsky.social/post/3n2pehx5yc22w) — bluesky — direct_public_post — intent keyword found
+- [“The Senate is debating BAAJA now, and a final vote could come quickly, potentially as soon as this week. Senators need to hear from their constituents before that vote happens.” P](https://bsky.app/profile/erinspacemuseum.bsky.social/post/3n2pa67htq22s) — bluesky — direct_public_post — intent keyword found
+- [A mincer is a handy tool if you need one. Nothing wrong with a hand mincer. I have a mincer with sausage attachment for my Kenwood. Obv you can make sausages or posh burgers. If y](https://bsky.app/profile/hollybrigstocke.bsky.social/post/3n2p4vukprs2m) — bluesky — direct_public_post — intent keyword found
+- [Some AI existed long before it was re-packaged and sold as the new shiny thing. Speech to text for example. A life saver for my dyslexic son. But the push now is to replace everyth](https://bsky.app/profile/thembird.bsky.social/post/3n2p4vmuqos2s) — bluesky — direct_public_post — intent keyword found
+- [For 26 years, measles elimination was a public health win we could count on. That changed on Nov. 17. Measles transmission is now considered re-established in the U.S. Chief Medi](https://bsky.app/profile/aafp.org/post/3n2p3ph4i4h2l) — bluesky — direct_public_post
+- [AI Fruit is featured on Awesome Indie! 🚀 Create Viral AI Fruit Videos in Seconds Upvote it → https:// awesomeindie.com/product/ai-fr uit # AIVideo # ArtificialIntelligence # Social](https://mastodon.social/@awesomeindie/117644506010320216) — mastodon — direct_public_post — intent keyword found
+- [VizRise AI Video Generator is featured on Awesome Indie! 🚀 Create AI videos from text prompts and images in one workspace. Upvote it → https:// awesomeindie.com/product/viz-r ise-a](https://mastodon.social/@awesomeindie/117644293687544732) — mastodon — direct_public_post — intent keyword found
+- [Pixparkle is featured on Awesome Indie! 🚀 Create AI images by chatting without prompt engineering Upvote it → https:// awesomeindie.com/product/pixpa rkle # AIImage # AIVideo # Art](https://mastodon.social/@awesomeindie/117644238623770588) — mastodon — direct_public_post — intent keyword found
+- [Describe an idea, get an animated story video 🐉 Type your idea and VidZonic AI writes the story, creates the characters and builds every scene. What story would you make? 👇 Want Vi](https://mastodon.social/@rankmarket99/117644172486559739) — mastodon — direct_public_post
+- [Tikdek is featured on Awesome Indie! 🚀 AI video & image generation for real workflows Upvote it → https:// awesomeindie.com/product/tikdek # AIImage # AIVideo](https://mastodon.social/@awesomeindie/117643758929182264) — mastodon — direct_public_post
+- [Ask HN: Where do you see Software in 5 years?](https://news.ycombinator.com/item?id=50565484) — hackernews_ask — direct_public_post
 - [GitLab 19.6.0 is out and still vulnerable to Ruby2Shell and NGINX2Root](https://news.ycombinator.com/item?id=50561571) — hackernews_ask — direct_public_post
-- [Ask HN: When was the last time you thought "that's bad API design"?](https://news.ycombinator.com/item?id=50560915) — hackernews_ask — direct_public_post
-- [Rant: Gemini 4 does not make any sense](https://news.ycombinator.com/item?id=50560575) — hackernews_ask — direct_public_post
-- [Does Liquidity Drive the Stock Market? We Tested 22 Years of Fed Data](https://news.ycombinator.com/item?id=50560946) — hackernews_ask — direct_public_post
-- [Ask HN: How do you manage the curse of rabbit hole?](https://news.ycombinator.com/item?id=50558285) — hackernews_ask — direct_public_post
+- [Anthropic should give stock to Stack Overflow (and OpenAI too)](https://news.ycombinator.com/item?id=50566487) — hackernews_ask — direct_public_post
+- [Ask HN: Who Is Hiring? (November 2026 – We Give a Shit Edition)](https://news.ycombinator.com/item?id=50564979) — hackernews_ask — direct_public_post
+- [The End of Continuous Rework](https://news.ycombinator.com/item?id=50564890) — hackernews_ask — direct_public_post — intent keyword found
 - [Ask HN: If AI tools are so good, why isn't your bug backlog empty?](https://news.ycombinator.com/item?id=50520076) — hackernews_ask — direct_public_post — intent keyword found
 - [Master roadmap: coordinate ReefVision 1.0–2.0 across five hourly development tracks](https://github.com/Rafael-Del-Valle/ReefVision/issues/76) — github_issue — direct_public_issue_api
 - [Fork sync: upstream and community fixes for pdf-inspector and AnyDoc (Mac + Windows hubs)](https://github.com/lawkitt/mdoc/issues/925) — github_issue — direct_public_issue_api
@@ -60,3 +59,4 @@
 - [My Friend Raised Her Seed Round in 17 Days](https://news.ycombinator.com/item?id=44112008) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
 - [Shop 2 — 5-day implementation-first Personalized POD sprint (API plugin excluded)](https://github.com/subvicco12/digiforge/issues/1266) — github_issue — direct_public_issue_api
 - [PlanReader agent coordination hub continuation — #3462 reached GitHub 2,500-comment limit](https://github.com/BryceCurran86/PlanReader-3D/issues/4135) — github_issue — direct_public_issue_api
+- [ERP readiness: integrate AP/AR, inventory, production, HR and management reporting](https://github.com/akvisomr-eng/BANYU-AGUNG/issues/24) — github_issue — direct_public_issue_api
