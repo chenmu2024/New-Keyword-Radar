@@ -1,0 +1,4176 @@
+{
+  "date": "2026-11-20",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-11-20T11:43:29.116647+08:00",
+  "mode": "read_only_buyer_pain_research",
+  "keyword_metrics": {
+    "volume": null,
+    "kd": null,
+    "cpc": null
+  },
+  "newness_verified": false,
+  "queries": [
+    {
+      "query": "invoice reconciliation manual",
+      "captured_at": "2026-11-20T03:43:14.367898+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "degraded",
+          "count": 0,
+          "warning": "HTTPError: HTTP Error 404: Not Found"
+        },
+        "hackernews_ask": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "roy-tong/Verovo",
+          "url": "https://github.com/roy-tong/Verovo",
+          "snippet": "Buyer-side AI invoice and delivery verification. Review one supplier and billing period, inspect evidence gaps and preserve the signed report for renewal.",
+          "published_at": "2026-08-16T02:47:41Z",
+          "engagement": {
+            "stars": 220
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T01:41:00Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:14.861622+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "LydiaOu1054/order-invoice-reconciliation",
+          "url": "https://github.com/LydiaOu1054/order-invoice-reconciliation",
+          "snippet": "Power BI dashboard for reconciling orders, shipments, and invoices using synthetic data.",
+          "published_at": "2026-11-20T00:28:00Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T00:28:02Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:14.861665+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "ckas-fh/invoiceops",
+          "url": "https://github.com/ckas-fh/invoiceops",
+          "snippet": "Invoice reconciliation & exception management demo (synthetic data)",
+          "published_at": "2026-11-20T00:32:35Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T00:32:45Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:14.861689+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "muratmiracg-dev/financial-reconciliation-controls-engine",
+          "url": "https://github.com/muratmiracg-dev/financial-reconciliation-controls-engine",
+          "snippet": "An end-to-end financial reconciliation and controls platform matching bank transactions, invoices and accounting entries, with explainable matching, exception management, audit trails and interactive reporting on synthetic data.",
+          "published_at": "2026-09-29T07:11:06Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-04T22:53:24Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:14.861715+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Agent coordination — part 6 (continues #4848)",
+          "url": "https://github.com/solrenning-llc/marktmorgen/issues/4858",
+          "snippet": "Continuação da #4848 (parte 5), que passou de 2.250 comentários (2.291 às 18/11/2026 18:46, Fortaleza). **Este é o canal ativo a partir de agora.** O PAINEL DA FILA continua sendo editado no comentário 6929670678 da #4827, e a 1ª linha dele diz qual é o canal ativo. **Regras em vigor (todas na #4848):** - regra (v) v4: 6989270970; - v4.1: 6991366157; - BROADCAST-275 (papéis pela cota): 6967764832; - BROADCAST-278 (regras anticonflito e decisões): 6969576080; - BROADCAST-281 (só nuvem): 6981607731; - BROADCAST-282 (conflitos): 6981728871. Continuam valendo as regras de sempre (BROADCAST-269 e AC (a)–(u)). **HOLDs abertos:** - **#3612:** MÉDIO do Codex (`tellCreator`); conserto feito, falta a ",
+          "published_at": "2026-11-18T21:46:11Z",
+          "engagement": {
+            "comments": 2374
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:43:12Z",
+            "state": "open",
+            "author": "solrenning-marktmorgen-agents[bot]"
+          },
+          "discovered_at": "2026-11-20T03:43:15.850064+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "[PTYSD-NATIVE] OpenCode dispatch and receipts",
+          "url": "https://github.com/PT-Original-Point/ptysd-autonomous-factory/issues/407",
+          "snippet": "PROJECT_ID: `CHATGPT_GLOBAL_SKILL_GOVERNANCE` HOST_ID: `DESKTOP-1B6PD2P` PURPOSE: durable native GitHub Issue ↔ Win11 OpenCode dispatch + receipts, replacing Human manual copy/paste. SOURCE_PR: https://github.com/PT-Original-Point/ptysd-autonomous-factory/pull/406 TRUSTED_DISPATCH_AUTHOR: `t14210184` (observed app actor; worker also binds exact project/repo/host). SOURCE_STATUS_AT_CREATION: `CANDIDATE_SOURCE_ONLY`; no Win11 installation, no worker receipt yet. QUEUE_CONTRACT: `PTYSD_NATIVE_JOB_V1` and `PTYSD_NATIVE_RECEIPT_V1` defined at `native-bridge/README.md` after source acceptance. Only reviewed task definitions from an exact accepted `main` commit can run. Initial jobs: `ping` (no LLM",
+          "published_at": "2026-10-12T13:26:05Z",
+          "engagement": {
+            "comments": 357
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:42:44Z",
+            "state": "open",
+            "author": "t14210184"
+          },
+          "discovered_at": "2026-11-20T03:43:15.850152+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Studio thread: November 2026 (cont.)",
+          "url": "https://github.com/TheLaughingGod1986/orbit-with-ben/issues/954",
+          "snippet": "Studio thread from 16 Nov 2026. It succeeds #478 (https://github.com/TheLaughingGod1986/orbit-with-ben/issues/478), which hit GitHub's 2,500-comment limit at 00:43Z on 16 Nov 2026 (new posts there fail with 403), as well as #264 and #99. Old comments on #478 stay as they are and can still be linked. Workers, relay notices, stale-review reminders, board buttons and the thread watch post here (`scripts/thread.json` and `05_Analytics/kanban/board_site/api/checks.js` point at this issue). The HOS desk stays on HOS PR #180 (https://github.com/TheLaughingGod1986/history-of-science/pull/180). Live queue: [JOBS.md](https://github.com/TheLaughingGod1986/orbit-with-ben/blob/main/JOBS.md). Board: https",
+          "published_at": "2026-11-16T01:09:26Z",
+          "engagement": {
+            "comments": 702
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:42:30Z",
+            "state": "open",
+            "author": "TheLaughingGod1986"
+          },
+          "discovered_at": "2026-11-20T03:43:15.850187+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Team-wide development direction: complete, advanced features and plugin architecture",
+          "url": "https://github.com/aec-lms/alom-s-english-center-lms-laravel/issues/285",
+          "snippet": "## Shared development direction (4 contributors) This is the agreed direction for all ongoing LMS work. Please coordinate before overlapping edits; inspect open PRs, branches, current implementation, and assigned work before starting a module. ### Quality bar - Develop features to a complete, advanced, production-quality level—not minimal/basic implementations. - If an existing feature is incomplete, finish and harden it rather than duplicate it. - Inspect edge cases, permissions, validation, error states, UI/UX, responsive/mobile behavior, accessibility, compatibility, tests, and documentation where applicable. - Preserve backward compatibility and existing data. Avoid destructive or sweepi",
+          "published_at": "2026-11-19T08:07:28Z",
+          "engagement": {
+            "comments": 105
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:42:17Z",
+            "state": "open",
+            "author": "aec-lms"
+          },
+          "discovered_at": "2026-11-20T03:43:15.851349+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Why traditional billing is breaking down - Reply",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XUFNkUTRrTmRmdzg3R2xNT3lWTmFtdE5FTE14aUxTZHN3aXJPUUZnMFNpdjRiR1AwbHQzTWdHZlRwcy1jSzlGVHZrbk1idkFxbU1HUi1kWjJmdFNoZVNfMmpTR3RHbko2OWFlZFp3RnBKaUhtODJF?oc=5",
+          "snippet": "Why traditional billing is breaking down Reply",
+          "published_at": "Mon, 25 May 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-11-20T03:43:16.313489+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "7 Best Billing Software for 2026: Here’s What I Recommend - G2 Learn Hub",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1HeF9NZkp1NnFNYkpkVEpsS0FqZGJRVy1GblJ1VUo0T1l4dkNTVTdSRmVvU05vejZZZVRlNDRNZlNvSnZTZElqUDRCdU5EejhjWHlYRdIBZEFVX3lxTE8zX1JKYk5aYmNGM0lNTkxqcXZGV2czRFVSQ1UyZm42U3dJWGp0aDg4SUxjRlF3cktUQXIyTjNyQjhOdUVOcVI4SlRyamtwS2ZMLUJKWmdDRHB3WnZxbFhhSjJHMng?oc=5",
+          "snippet": "7 Best Billing Software for 2026: Here’s What I Recommend G2 Learn Hub",
+          "published_at": "Wed, 29 Jul 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-11-20T03:43:16.313546+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Service Job Cards to Invoices: How a Dealer Management System Eliminates Manual Billing Errors - Nasscom",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTGRGTUJFOGJlNWRuNHE4TUhVeEx4a1V0SUU4NEJ3QzB3OVZnQkthS25jdWtXQXFkc2R6OXljVXhwZURCZDlvOE8teFl4Q3laWVVodV9jZV95OFJEY2hiX2RtRGpFeXVxY3ZoeDBrUWZOY1RoZmJZMjdjangwX2RzNVBlUVRwdWdwcTQyZ2JWbTR0M21IZEhfenZVbVYxcnV1cklJNXEtRS1wLUl2cWxsQTdnYnZQdm9JUWtFdGg4ZDA2cXB2?oc=5",
+          "snippet": "Service Job Cards to Invoices: How a Dealer Management System Eliminates Manual Billing Errors Nasscom",
+          "published_at": "Wed, 29 Jul 2026 10:51:08 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-11-20T03:43:16.313582+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "The 12 Best AI Accounting Software and Tools for 2026 - Intuit",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMHpGRjhPZkoyMzRSYk9NRF9KMVRhQzNQcjJhYjZ3Ukh1aWFjY1R2UFNpN3FUWnRIYlNKUHpjRUN0bEh2SmJIX3d1WVVLTlJ3cXY0U0Y2TzBMSllvT0diTnVXUmRzdklEanp0TmpiNEFMcElXOGc0VjQwU2Q2VDhVWWxLWWlnTndLaFE?oc=5",
+          "snippet": "The 12 Best AI Accounting Software and Tools for 2026 Intuit",
+          "published_at": "Wed, 26 Aug 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-11-20T03:43:16.313610+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Free Invoice Generator | Invoice Simple",
+          "url": "https://www.invoicesimple.com/invoice-generator",
+          "snippet": "A powerful invoice generator template designed to streamline your billing process effortlessly. Create professional-looking invoices quickly and easily with customizable options to suit your business needs.",
+          "published_at": "Thu, 19 Nov 2026 23:09:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:16.542853+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Free Invoice Generator",
+          "url": "https://invoice-generator.com/",
+          "snippet": "Create a free invoice online and download a professional PDF. Instant invoice maker with line items, taxes, and a customizable invoice template.",
+          "published_at": "Wed, 18 Nov 2026 17:05:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:16.542888+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "100 Free Invoice Templates | Print & Email Invoices",
+          "url": "https://invoicehome.com/",
+          "snippet": "Create and send invoices as a PDF attachment using over 100 professional invoice templates. Email invoices directly, get paid by card. Fast & Secure!",
+          "published_at": "Wed, 18 Nov 2026 17:41:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:16.542915+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Invoice Simple",
+          "url": "https://app.invoicesimple.com/login",
+          "snippet": "Log in to Invoice Simple to create and manage professional invoices, estimates, and receipts for your small business.",
+          "published_at": "Thu, 19 Nov 2026 22:19:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:16.542933+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Invoice OCR API for Logistics Expense Tracking Automation",
+          "url": "https://news.ycombinator.com/item?id=47362152",
+          "snippet": "Logistics and transportation companies handle large volumes of invoices for fuel, freight, tolls, and vendor services. Manually recording these expenses can slow down financial tracking and increase the chances of data entry errors. An Invoice OCR API helps automate this process by extracting important information directly from invoice images or PDFs. Using OCR technology, the system can capture details such as invoice numbers, vendor names, dates, line items, and total amounts. This structured data allows businesses to monitor logistics expenses more efficiently, simplify reconciliation, and improve overall financial visibility across transportation operations.",
+          "published_at": "2026-03-13T09:14:35Z",
+          "engagement": {
+            "points": 3,
+            "comments": 1
+          },
+          "metadata": {
+            "author": "azapi_ai",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-11-20T03:43:17.234442+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Invoice OCR API for Automated GST Data Extraction in India",
+          "url": "https://news.ycombinator.com/item?id=47348462",
+          "snippet": "Invoice processing and GST data management can be time-consuming when handled manually. An Invoice OCR API helps automate this process by extracting important information directly from invoice images or PDFs. Using AI-powered OCR technology, the system can detect fields such as invoice number, vendor details, invoice date, line items, and total amounts. It can also capture GST-specific data like GSTIN numbers, HSN/SAC codes, taxable values, and tax amounts. Automating invoice data extraction helps businesses reduce manual entry errors, speed up reconciliation, and simplify GST compliance when handling large volumes of invoices. https://azapi.ai/blog/invoice-ocr-api-with-gst-extraction-india/",
+          "published_at": "2026-03-12T09:50:02Z",
+          "engagement": {
+            "points": 1,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "azapi_ai",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-11-20T03:43:17.234508+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "FinCrew: Multi-Agent AI Financial Intelligence",
+          "url": "https://news.ycombinator.com/item?id=47148718",
+          "snippet": "SMBs and mid-market companies ($10M-$200M revenue) spend 40-60% of finance time on manual data entry, invoice management and basic reconciliation. We built FinCrew AI to automate this entirely. FinCrew is an AI CFO platform with multiple specialized agents (Data Ingestion, Transaction Recording, Invoice Management, Fraud Detection, CFO Orchestrator) using multi-agent orchestration with anti-hallucination safeguards. Existing solutions don't serve the mid-market segment. They're either SMB-focused or enterprise-only. We're targeting the $150B+ TAM in between. We're looking for feedback, beta users, and discussing investment. Happy to answer questions in the thread.",
+          "published_at": "2026-02-25T08:04:54Z",
+          "engagement": {
+            "points": 1,
+            "comments": 1
+          },
+          "metadata": {
+            "author": "adnan_builds",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-11-20T03:43:17.234548+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Tell HN: AI coding is sexy, but accounting is the real low-hanging target",
+          "url": "https://news.ycombinator.com/item?id=46238354",
+          "snippet": "Working on automating small business finance (bookkeeping, reconciliation, basic reporting). One thing I keep noticing: compared to programming, accounting often looks like the more automatable problem: It’s rule-based Double entry, charts of accounts, tax rules, materiality thresholds. For most day-to-day transactions you’re not inventing new logic, you’re applying existing rules. It’s verifiable The books either balance or they don’t. Ledgers either reconcile or they don’t. There’s almost always a “ground truth” to compare against (bank feeds, statements, prior periods). It’s boring and repetitive Same vendors, same categories, same patterns every month. Humans hate this work. Software lov",
+          "published_at": "2025-12-11T22:43:00Z",
+          "engagement": {
+            "points": 64,
+            "comments": 55
+          },
+          "metadata": {
+            "author": "bmadduma",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-11-20T03:43:17.234617+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "invoice reconciliation",
+        "github_issues": "invoice reconciliation",
+        "google_news_rss": "invoice reconciliation manual",
+        "duckduckgo": "invoice reconciliation manual",
+        "reddit": "invoice reconciliation manual",
+        "hackernews_ask": "invoice reconciliation"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 20,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 8,
+        "discarded_count": 12,
+        "review_leads": [],
+        "competitor_references": [
+          {
+            "platform": "github_repositories",
+            "title": "LydiaOu1054/order-invoice-reconciliation",
+            "url": "https://github.com/LydiaOu1054/order-invoice-reconciliation",
+            "snippet": "Power BI dashboard for reconciling orders, shipments, and invoices using synthetic data.",
+            "published_at": "2026-11-20T00:28:00Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-20T00:28:02Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:14.861665+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 77,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:invoice,reconciliation",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "published_within_7_days",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "invoice",
+                "reconciliation"
+              ],
+              "published_age_days": 0,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "ckas-fh/invoiceops",
+            "url": "https://github.com/ckas-fh/invoiceops",
+            "snippet": "Invoice reconciliation & exception management demo (synthetic data)",
+            "published_at": "2026-11-20T00:32:35Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-20T00:32:45Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:14.861689+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 77,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:invoice,reconciliation",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "published_within_7_days",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "invoice",
+                "reconciliation"
+              ],
+              "published_age_days": 0,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "muratmiracg-dev/financial-reconciliation-controls-engine",
+            "url": "https://github.com/muratmiracg-dev/financial-reconciliation-controls-engine",
+            "snippet": "An end-to-end financial reconciliation and controls platform matching bank transactions, invoices and accounting entries, with explainable matching, exception management, audit trails and interactive reporting on synthetic data.",
+            "published_at": "2026-09-29T07:11:06Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-04T22:53:24Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:14.861715+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 56,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:reconciliation",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "reconciliation"
+              ],
+              "published_age_days": 51,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "google_news_rss",
+            "title": "Service Job Cards to Invoices: How a Dealer Management System Eliminates Manual Billing Errors - Nasscom",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTGRGTUJFOGJlNWRuNHE4TUhVeEx4a1V0SUU4NEJ3QzB3OVZnQkthS25jdWtXQXFkc2R6OXljVXhwZURCZDlvOE8teFl4Q3laWVVodV9jZV95OFJEY2hiX2RtRGpFeXVxY3ZoeDBrUWZOY1RoZmJZMjdjangwX2RzNVBlUVRwdWdwcTQyZ2JWbTR0M21IZEhfenZVbVYxcnV1cklJNXEtRS1wLUl2cWxsQTdnYnZQdm9JUWtFdGg4ZDA2cXB2?oc=5",
+            "snippet": "Service Job Cards to Invoices: How a Dealer Management System Eliminates Manual Billing Errors Nasscom",
+            "published_at": "Wed, 29 Jul 2026 10:51:08 GMT",
+            "engagement": {},
+            "metadata": {},
+            "discovered_at": "2026-11-20T03:43:16.313582+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 50,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:manual",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "manual"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Free Invoice Generator | Invoice Simple",
+            "url": "https://www.invoicesimple.com/invoice-generator",
+            "snippet": "A powerful invoice generator template designed to streamline your billing process effortlessly. Create professional-looking invoices quickly and easily with customizable options to suit your business needs.",
+            "published_at": "Thu, 19 Nov 2026 23:09:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:16.542853+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 46,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:invoice",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "invoice"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Free Invoice Generator",
+            "url": "https://invoice-generator.com/",
+            "snippet": "Create a free invoice online and download a professional PDF. Instant invoice maker with line items, taxes, and a customizable invoice template.",
+            "published_at": "Wed, 18 Nov 2026 17:05:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:16.542888+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:invoice",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "invoice"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "100 Free Invoice Templates | Print & Email Invoices",
+            "url": "https://invoicehome.com/",
+            "snippet": "Create and send invoices as a PDF attachment using over 100 professional invoice templates. Email invoices directly, get paid by card. Fast & Secure!",
+            "published_at": "Wed, 18 Nov 2026 17:41:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:16.542915+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:invoice",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "invoice"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Invoice Simple",
+            "url": "https://app.invoicesimple.com/login",
+            "snippet": "Log in to Invoice Simple to create and manage professional invoices, estimates, and receipts for your small business.",
+            "published_at": "Thu, 19 Nov 2026 22:19:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:16.542933+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:invoice",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "invoice"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/roy-tong/Verovo",
+            "title": "roy-tong/Verovo",
+            "score": 37,
+            "reasons": [
+              "query_terms:invoice",
+              "commercial_or_tool_context",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://github.com/solrenning-llc/marktmorgen/issues/4858",
+            "title": "Agent coordination — part 6 (continues #4848)",
+            "score": 37,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/PT-Original-Point/ptysd-autonomous-factory/issues/407",
+            "title": "[PTYSD-NATIVE] OpenCode dispatch and receipts",
+            "score": 51,
+            "reasons": [
+              "query_terms:manual",
+              "problem_or_request_language",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/TheLaughingGod1986/orbit-with-ben/issues/954",
+            "title": "Studio thread: November 2026 (cont.)",
+            "score": 49,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/aec-lms/alom-s-english-center-lms-laravel/issues/285",
+            "title": "Team-wide development direction: complete, advanced features and plugin architecture",
+            "score": 49,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XUFNkUTRrTmRmdzg3R2xNT3lWTmFtdE5FTE14aUxTZHN3aXJPUUZnMFNpdjRiR1AwbHQzTWdHZlRwcy1jSzlGVHZrbk1idkFxbU1HUi1kWjJmdFNoZVNfMmpTR3RHbko2OWFlZFp3RnBKaUhtODJF?oc=5",
+            "title": "Why traditional billing is breaking down - Reply",
+            "score": 9,
+            "reasons": [
+              "commercial_or_tool_context",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1HeF9NZkp1NnFNYkpkVEpsS0FqZGJRVy1GblJ1VUo0T1l4dkNTVTdSRmVvU05vejZZZVRlNDRNZlNvSnZTZElqUDRCdU5EejhjWHlYRdIBZEFVX3lxTE8zX1JKYk5aYmNGM0lNTkxqcXZGV2czRFVSQ1UyZm42U3dJWGp0aDg4SUxjRlF3cktUQXIyTjNyQjhOdUVOcVI4SlRyamtwS2ZMLUJKWmdDRHB3WnZxbFhhSjJHMng?oc=5",
+            "title": "7 Best Billing Software for 2026: Here’s What I Recommend - G2 Learn Hub",
+            "score": 9,
+            "reasons": [
+              "commercial_or_tool_context",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMHpGRjhPZkoyMzRSYk9NRF9KMVRhQzNQcjJhYjZ3Ukh1aWFjY1R2UFNpN3FUWnRIYlNKUHpjRUN0bEh2SmJIX3d1WVVLTlJ3cXY0U0Y2TzBMSllvT0diTnVXUmRzdklEanp0TmpiNEFMcElXOGc0VjQwU2Q2VDhVWWxLWWlnTndLaFE?oc=5",
+            "title": "The 12 Best AI Accounting Software and Tools for 2026 - Intuit",
+            "score": 9,
+            "reasons": [
+              "commercial_or_tool_context",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=47362152",
+            "title": "Invoice OCR API for Logistics Expense Tracking Automation",
+            "score": 68,
+            "reasons": [
+              "query_terms:invoice,reconciliation",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "firsthand_date_missing_or_older_than_180_days"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=47348462",
+            "title": "Invoice OCR API for Automated GST Data Extraction in India",
+            "score": 78,
+            "reasons": [
+              "query_terms:invoice,manual,reconciliation",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "firsthand_date_missing_or_older_than_180_days"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=47148718",
+            "title": "FinCrew: Multi-Agent AI Financial Intelligence",
+            "score": 78,
+            "reasons": [
+              "query_terms:invoice,manual,reconciliation",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=46238354",
+            "title": "Tell HN: AI coding is sexy, but accounting is the real low-hanging target",
+            "score": 58,
+            "reasons": [
+              "query_terms:reconciliation",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "invoice reconciliation",
+        "market": "US",
+        "topic": "finance_operations",
+        "intent": "manual_invoice_pain",
+        "locale": "en",
+        "kind": "specific_buyer_problem"
+      },
+      "repeat_links_across_queries": []
+    },
+    {
+      "query": "payroll integration error",
+      "captured_at": "2026-11-20T03:43:17.237478+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "degraded",
+          "count": 0,
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+        },
+        "hackernews_ask": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "alfredang/AI-LMS-TMS",
+          "url": "https://github.com/alfredang/AI-LMS-TMS",
+          "snippet": "Self-hosted AI-powered Learning & Training Management System for Singapore's SkillsFuture ecosystem. SSG/TPGateway integration, multi-role access, OTP login, e-attendance with per-session QR check-in, learner feedback, training analytics with forecasts, practice-exam registration, QuickBooks finance workflows and AI agent automation.",
+          "published_at": "2026-01-19T03:37:48Z",
+          "engagement": {
+            "stars": 22
+          },
+          "metadata": {
+            "updated_at": "2026-11-16T17:50:21Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:17.672450+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "Shahnawaz1-tech/darearqam",
+          "url": "https://github.com/Shahnawaz1-tech/darearqam",
+          "snippet": "Laravel-based Attendance Management System (AMS) with biometric integration, automated reporting, payroll calculation, and multi-role access. Streamlines employee time tracking with real-time notifications and comprehensive analytics.",
+          "published_at": "2026-11-17T17:42:14Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-17T18:10:18Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:17.672487+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "liberusoftware/module-accounting-payroll-integration-filament",
+          "url": "https://github.com/liberusoftware/module-accounting-payroll-integration-filament",
+          "snippet": "This optional Filament 5 presentation package presents exactly one independent domain module. It contributes reusable resources, pages, widgets, schemas, tables, infolists, and actions to application-owned panels while delegating authorization, validation, tenancy, persistence, and business rules to the accounting-payroll-integration public bound",
+          "published_at": "2026-08-05T21:12:31Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-05T15:41:48Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:17.672512+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "liberusoftware/module-accounting-payroll-integration-livewire",
+          "url": "https://github.com/liberusoftware/module-accounting-payroll-integration-livewire",
+          "snippet": "This optional Livewire 4 presentation package provides interactive server-driven components for exactly one independent domain module. Components coordinate public queries/actions and presentation state; they do not own persistence, authorization decisions, tenancy, business rules, or theme identity. The package has no dependency on application Ap",
+          "published_at": "2026-08-05T22:00:03Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-02T15:43:35Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:17.672533+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Agent coordination — part 6 (continues #4848)",
+          "url": "https://github.com/solrenning-llc/marktmorgen/issues/4858",
+          "snippet": "Continuação da #4848 (parte 5), que passou de 2.250 comentários (2.291 às 18/11/2026 18:46, Fortaleza). **Este é o canal ativo a partir de agora.** O PAINEL DA FILA continua sendo editado no comentário 6929670678 da #4827, e a 1ª linha dele diz qual é o canal ativo. **Regras em vigor (todas na #4848):** - regra (v) v4: 6989270970; - v4.1: 6991366157; - BROADCAST-275 (papéis pela cota): 6967764832; - BROADCAST-278 (regras anticonflito e decisões): 6969576080; - BROADCAST-281 (só nuvem): 6981607731; - BROADCAST-282 (conflitos): 6981728871. Continuam valendo as regras de sempre (BROADCAST-269 e AC (a)–(u)). **HOLDs abertos:** - **#3612:** MÉDIO do Codex (`tellCreator`); conserto feito, falta a ",
+          "published_at": "2026-11-18T21:46:11Z",
+          "engagement": {
+            "comments": 2374
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:43:12Z",
+            "state": "open",
+            "author": "solrenning-marktmorgen-agents[bot]"
+          },
+          "discovered_at": "2026-11-20T03:43:18.575255+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Owner goals: dial in the main Budget page (waterfall, future periods, savings, bills, sorting)",
+          "url": "https://github.com/Atlas-Financal/Atlas-Financial/issues/821",
+          "snippet": "**Owner goals for the main Budget page (Dale, 2026-11-02).** These are the outcomes the owner wants dialled in on the main page. Each item links the issues that carry the work. Atlas **shows** and the owner **decides**: none of these add recommendations or automatic money decisions. Everything stays read-only against banks and Lunch Money, and no household figures go in GitHub. **Priority:** these outcomes come before further check/process machinery work, unless Muse or the owner says otherwise. - [ ] **1. Future pay periods are as accurate as possible.** Each projected period's income, bills, household budget and surplus on the timeline strip should match what will really happen, including ",
+          "published_at": "2026-11-02T03:20:33Z",
+          "engagement": {
+            "comments": 149
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:42:47Z",
+            "state": "open",
+            "author": "tc5v5s64ym-sketch"
+          },
+          "discovered_at": "2026-11-20T03:43:18.575391+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Team-wide development direction: complete, advanced features and plugin architecture",
+          "url": "https://github.com/aec-lms/alom-s-english-center-lms-laravel/issues/285",
+          "snippet": "## Shared development direction (4 contributors) This is the agreed direction for all ongoing LMS work. Please coordinate before overlapping edits; inspect open PRs, branches, current implementation, and assigned work before starting a module. ### Quality bar - Develop features to a complete, advanced, production-quality level—not minimal/basic implementations. - If an existing feature is incomplete, finish and harden it rather than duplicate it. - Inspect edge cases, permissions, validation, error states, UI/UX, responsive/mobile behavior, accessibility, compatibility, tests, and documentation where applicable. - Preserve backward compatibility and existing data. Avoid destructive or sweepi",
+          "published_at": "2026-11-19T08:07:28Z",
+          "engagement": {
+            "comments": 105
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:42:17Z",
+            "state": "open",
+            "author": "aec-lms"
+          },
+          "discovered_at": "2026-11-20T03:43:18.575683+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Master Development Dispatcher — Rolling Six-Hour Queue",
+          "url": "https://github.com/mrcalzon02/HB-TTRPG-tools/issues/19",
+          "snippet": "# Portfolio development dispatcher — rolling six-hour plan **Authority:** This issue is the shared coordination ledger for two ChatGPT automations (six-hour planner and half-hour hourly executor). It is NOT authority over individual project requirements; each repository's current governing documents, issues, main HEAD and tests take precedence for implementation. Project-management execution contract: INTENT → EXECUTE → OBSERVE → VERIFY → CLAIM. Do not invent completions, tests, pushes or releases. ## Cadence (America/Sitka) - Planner: 02:00, 08:00, 14:00, 20:00 local, four times daily. - Executor: at every :30, one bounded substantive project development job per hour. - The 02:00 plan cover",
+          "published_at": "2026-10-27T09:38:07Z",
+          "engagement": {
+            "comments": 790
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:40:38Z",
+            "state": "closed",
+            "author": "mrcalzon02"
+          },
+          "discovered_at": "2026-11-20T03:43:18.576387+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Access PeopleHR: Why payroll errors start before pay runs - Accountancy Today",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTl3OFpKVDFDWU5na2FPWDZYOWVHS3NMZFQxOGRaWHdVcEQyUlVRM1NULV80eEw4bTBkaDBhZVZmY3BwRWc3alJ0QlRvQ0VQY0JGeHkzeTZtRFdieU1iSnV3b2YybDNEZzNuSElGVWRPaUhONERWdHZCRGlmZXdCOTRDSlFJQnZKNE1paTZac2pEd1RJ?oc=5",
+          "snippet": "Access PeopleHR: Why payroll errors start before pay runs Accountancy Today",
+          "published_at": "Tue, 17 Nov 2026 10:48:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-11-20T03:43:19.008175+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "AI, payroll ledger, and the meaning of touchless payroll - Thomson Reuters tax",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVl2dVJQekhaZlNTU3pEeS1DbkFFdWdSRXNoMjEzTjdUZGhNeWZMMmktSTNyZ2dhT1dXeEZQSXB6WGpRWXF1N1lRR0ozRXR6RGJ1RWtvc2pnRWdOdFE5YmluVnNvTnBpVDRUQ3JIbGJrM1JKcUdBUHl4TUsxUzgzWmVtd2RFUzhNQ0hFcTJ6UVllYzBBSldUdkxmNmE?oc=5",
+          "snippet": "AI, payroll ledger, and the meaning of touchless payroll Thomson Reuters tax",
+          "published_at": "Thu, 09 Apr 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-11-20T03:43:19.008221+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "BrightHR Launches Xero Payroll Integration to Tackle Wage Theft and Simplify Compliance - techbusinessnews.com.au",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaU11QTBOMXdvUG9scENfUUdiUVBBTHNuVnk4MG1WTlFwOHR0dHA2RlV2bHhGOFk2X2o2Zi1kQ2JlUDhhMnFmeE5FbGs4cjFyQ0lpVEtlQ2pZT2lwTXVfYXM2VmV0SGRnaVRIV0IxLUlqZkpGczZ4UHAwUlpBbFhfYmhrcHkxYWppWXhVU043cnpDQkNJNUtRTGtwRVZLOFpnY1IzRzBGNTdYek9ZM2hqbXpVVmNOdE8wYVVGV2h3OXo1T3ZjbmpNZw?oc=5",
+          "snippet": "BrightHR Launches Xero Payroll Integration to Tackle Wage Theft and Simplify Compliance techbusinessnews.com.au",
+          "published_at": "Fri, 09 Oct 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-11-20T03:43:19.008253+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "The payroll problem often starts long before payday - ITWeb",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU1YtYUExb1NjdE5TVEhkTEFUMzdyTEpqYTk5ajBjQzlycmVRaWFSeC1mX0FxbUtDc3dzbHZPTXQwWWFHU0pUYmJjSm1FcWpzaXZNb3RoVl9lRW9BYkR1bkNzVmRUTkc4UUFVOXN1UzFkczVGRnR6OXpWZ2w2SVBFWUVmWEZZVFRsUTMzVnQxZ0ZuZDdCUGp0WlJ4N1JLZVN1Umc?oc=5",
+          "snippet": "The payroll problem often starts long before payday ITWeb",
+          "published_at": "Tue, 13 Oct 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-11-20T03:43:19.008277+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "updateValue",
+          "url": "https://jobs.pfchangs.com/us/en/leadpage",
+          "snippet": "The information you provide to the chatbot will be collected to improve your experience. Please read our privacy policy to see how we are storing and protecting your data",
+          "published_at": "Wed, 28 Oct 2026 18:27:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:19.199692+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Apply for the jobs in PFC.",
+          "url": "https://jobs.pfchangs.com/us/en/apply?jobSeqNo=PFCHUSJR10210EXTERNALENUS",
+          "snippet": "Apply for the jobs in PFC. e2ef1ddbe1154dbc8953bd36dcaa20de",
+          "published_at": "Mon, 26 Oct 2026 01:04:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:19.199728+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Backwaiter",
+          "url": "https://jobs.pfchangs.com/us/en/job/JR9799/Backwaiter",
+          "snippet": "Apply for Backwaiter job with PF Chang's in 2801 W Big Beaver Road, Troy, MI 48084, United States of America. Restaurant Team Member at PF Chang's",
+          "published_at": "Mon, 16 Nov 2026 13:47:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:19.199747+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Apply for the jobs in PFC.",
+          "url": "https://jobs.pfchangs.com/us/en/apply?jobSeqNo=PFCHUSJR1649EXTERNALENUS",
+          "snippet": "Upload either DOC, DOCX, HTML, PDF, or TXT file types (5MB max). If you already have a resume on one of the areas listed below, select the icon to upload your resume to parse your information in the fields below.",
+          "published_at": "Sun, 11 Oct 2026 00:03:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:19.199769+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Ask HN: Are we putting pricing on things too quickly?",
+          "url": "https://news.ycombinator.com/item?id=47220001",
+          "snippet": "I'm an early adopter. I genuinely enjoy exploring new ideas and trying early-stage products. But lately, when I browse launch platforms, even SideProject subreddit, it feels like almost everything is behind a paywall. Some offer a free trial, but I more often see posts saying something was vibe-coded in a few hours, and yet it costs over $50 to use. What feel odd to me is this: They are asking people for feedback. But if People can't actually use the product without paying, how people supposed to give you meaningful feedback? Is this just promoting subscriptions or asking feedback? I've seen builders ask for feedback while the core funtionality is locked unless you subscribe. That feels COUN",
+          "published_at": "2026-03-02T16:19:24Z",
+          "engagement": {
+            "points": 3,
+            "comments": 4
+          },
+          "metadata": {
+            "author": "LeanVibe",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-11-20T03:43:19.810673+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Zero-Knowledge Privacy Infrastructure for Solana",
+          "url": "https://news.ycombinator.com/item?id=46854817",
+          "snippet": "Open-source privacy protocol using Groth16 ZK-SNARKs. Sub-second proof generation, automated leak detection, 1M+ anonymity set capacity. No token, no VC. The Problem Every Solana transaction is public. Analytics firms link activity to real identity. I got doxxed via Coinbase deposit chain analysis in 24 hours. Tornado Cash: Sanctioned, $50+ fees. Privacy Cash: 10K limit. Token2022: No graph privacy. No complete infrastructure exists. SolVoid Architecture Privacy Shield: Groth16 ZK-SNARKs with Poseidon hashing 0.8s proof generation (vs 2-3s alternatives) 20-level Merkle tree (1M+ commitment capacity) $0.00001 transaction cost (500x cheaper than Ethereum) Leak Detection Pipeline: Automated pri",
+          "published_at": "2026-02-02T11:33:55Z",
+          "engagement": {
+            "points": 2,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "2r1in",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-11-20T03:43:19.810810+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "I built an AI health scanner for dogs would love your feedback",
+          "url": "https://news.ycombinator.com/item?id=44838374",
+          "snippet": "Hey HN, After months of solo building, trial and error, and countless chats with dog parents & vets, I just launched the 1st MVP of PawBud Scan - an AI-powered health scan tool for dogs. [https://scan.getpawbud.com](https://scan.getpawbud.com) It’s simple: • Fill out a quick health profile about your dog • Get an instant AI-generated health risk score + care tips • Optionally, unlock a vet style report for $10 The idea was born when my own 8 year old Labrador Retriever was diagnosed too late with a preventable joint condition. It hit me how little proactive care exists for pets, especially for early stage common symptoms. So I built this MVP with: • GPT-4o for AI triage • Stripe for instant ",
+          "published_at": "2025-08-08T15:45:08Z",
+          "engagement": {
+            "points": 1,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "anuragsrathor",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-11-20T03:43:19.810888+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "hackernews_ask",
+          "title": "Ask HN: What do you think of generic payment mechanism across paywalls?",
+          "url": "https://news.ycombinator.com/item?id=23263216",
+          "snippet": "I like to read articles, especially ones that top the HN list. However, many of them are behind paywall. I can pay for 1-2, but don't want to pay for all. Is there any app/market for someone to build a generic paywall integration? Pay upfront for articles and just click one button to read on a paywall. Apple news and Google news are good aggregators but sometimes they won't have the article I want to read. Are there any alternatives?",
+          "published_at": "2020-05-21T18:54:58Z",
+          "engagement": {
+            "points": 1,
+            "comments": 0
+          },
+          "metadata": {
+            "author": "rahulskn86",
+            "source": "Ask HN user-authored question",
+            "buyer_intent_verified": false
+          },
+          "discovered_at": "2026-11-20T03:43:19.810925+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "payroll integration",
+        "github_issues": "payroll integration",
+        "google_news_rss": "payroll integration error",
+        "duckduckgo": "payroll integration error",
+        "reddit": "payroll integration error",
+        "hackernews_ask": "payroll integration"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 20,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 7,
+        "discarded_count": 13,
+        "review_leads": [],
+        "competitor_references": [
+          {
+            "platform": "github_repositories",
+            "title": "Shahnawaz1-tech/darearqam",
+            "url": "https://github.com/Shahnawaz1-tech/darearqam",
+            "snippet": "Laravel-based Attendance Management System (AMS) with biometric integration, automated reporting, payroll calculation, and multi-role access. Streamlines employee time tracking with real-time notifications and comprehensive analytics.",
+            "published_at": "2026-11-17T17:42:14Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-17T18:10:18Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:17.672487+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 61,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:integration,payroll",
+                "commercial_or_tool_context",
+                "published_within_7_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "integration",
+                "payroll"
+              ],
+              "published_age_days": 2,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "liberusoftware/module-accounting-payroll-integration-filament",
+            "url": "https://github.com/liberusoftware/module-accounting-payroll-integration-filament",
+            "snippet": "This optional Filament 5 presentation package presents exactly one independent domain module. It contributes reusable resources, pages, widgets, schemas, tables, infolists, and actions to application-owned panels while delegating authorization, validation, tenancy, persistence, and business rules to the accounting-payroll-integration public bound",
+            "published_at": "2026-08-05T21:12:31Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-05T15:41:48Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:17.672512+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 47,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:integration,payroll",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "integration",
+                "payroll"
+              ],
+              "published_age_days": 106,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "liberusoftware/module-accounting-payroll-integration-livewire",
+            "url": "https://github.com/liberusoftware/module-accounting-payroll-integration-livewire",
+            "snippet": "This optional Livewire 4 presentation package provides interactive server-driven components for exactly one independent domain module. Components coordinate public queries/actions and presentation state; they do not own persistence, authorization decisions, tenancy, business rules, or theme identity. The package has no dependency on application Ap",
+            "published_at": "2026-08-05T22:00:03Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-02T15:43:35Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:17.672533+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 47,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:integration,payroll",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "integration",
+                "payroll"
+              ],
+              "published_age_days": 106,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "google_news_rss",
+            "title": "Access PeopleHR: Why payroll errors start before pay runs - Accountancy Today",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTl3OFpKVDFDWU5na2FPWDZYOWVHS3NMZFQxOGRaWHdVcEQyUlVRM1NULV80eEw4bTBkaDBhZVZmY3BwRWc3alJ0QlRvQ0VQY0JGeHkzeTZtRFdieU1iSnV3b2YybDNEZzNuSElGVWRPaUhONERWdHZCRGlmZXdCOTRDSlFJQnZKNE1paTZac2pEd1RJ?oc=5",
+            "snippet": "Access PeopleHR: Why payroll errors start before pay runs Accountancy Today",
+            "published_at": "Tue, 17 Nov 2026 10:48:00 GMT",
+            "engagement": {},
+            "metadata": {},
+            "discovered_at": "2026-11-20T03:43:19.008175+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 50,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:payroll",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "payroll"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "google_news_rss",
+            "title": "AI, payroll ledger, and the meaning of touchless payroll - Thomson Reuters tax",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVl2dVJQekhaZlNTU3pEeS1DbkFFdWdSRXNoMjEzTjdUZGhNeWZMMmktSTNyZ2dhT1dXeEZQSXB6WGpRWXF1N1lRR0ozRXR6RGJ1RWtvc2pnRWdOdFE5YmluVnNvTnBpVDRUQ3JIbGJrM1JKcUdBUHl4TUsxUzgzWmVtd2RFUzhNQ0hFcTJ6UVllYzBBSldUdkxmNmE?oc=5",
+            "snippet": "AI, payroll ledger, and the meaning of touchless payroll Thomson Reuters tax",
+            "published_at": "Thu, 09 Apr 2026 07:00:00 GMT",
+            "engagement": {},
+            "metadata": {},
+            "discovered_at": "2026-11-20T03:43:19.008221+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 34,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:payroll",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "payroll"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "google_news_rss",
+            "title": "BrightHR Launches Xero Payroll Integration to Tackle Wage Theft and Simplify Compliance - techbusinessnews.com.au",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaU11QTBOMXdvUG9scENfUUdiUVBBTHNuVnk4MG1WTlFwOHR0dHA2RlV2bHhGOFk2X2o2Zi1kQ2JlUDhhMnFmeE5FbGs4cjFyQ0lpVEtlQ2pZT2lwTXVfYXM2VmV0SGRnaVRIV0IxLUlqZkpGczZ4UHAwUlpBbFhfYmhrcHkxYWppWXhVU043cnpDQkNJNUtRTGtwRVZLOFpnY1IzRzBGNTdYek9ZM2hqbXpVVmNOdE8wYVVGV2h3OXo1T3ZjbmpNZw?oc=5",
+            "snippet": "BrightHR Launches Xero Payroll Integration to Tackle Wage Theft and Simplify Compliance techbusinessnews.com.au",
+            "published_at": "Fri, 09 Oct 2026 07:00:00 GMT",
+            "engagement": {},
+            "metadata": {},
+            "discovered_at": "2026-11-20T03:43:19.008253+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 44,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:integration,payroll",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "integration",
+                "payroll"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "google_news_rss",
+            "title": "The payroll problem often starts long before payday - ITWeb",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU1YtYUExb1NjdE5TVEhkTEFUMzdyTEpqYTk5ajBjQzlycmVRaWFSeC1mX0FxbUtDc3dzbHZPTXQwWWFHU0pUYmJjSm1FcWpzaXZNb3RoVl9lRW9BYkR1bkNzVmRUTkc4UUFVOXN1UzFkczVGRnR6OXpWZ2w2SVBFWUVmWEZZVFRsUTMzVnQxZ0ZuZDdCUGp0WlJ4N1JLZVN1Umc?oc=5",
+            "snippet": "The payroll problem often starts long before payday ITWeb",
+            "published_at": "Tue, 13 Oct 2026 07:00:00 GMT",
+            "engagement": {},
+            "metadata": {},
+            "discovered_at": "2026-11-20T03:43:19.008277+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 50,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:payroll",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "payroll"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/alfredang/AI-LMS-TMS",
+            "title": "alfredang/AI-LMS-TMS",
+            "score": 37,
+            "reasons": [
+              "query_terms:integration",
+              "commercial_or_tool_context",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://github.com/solrenning-llc/marktmorgen/issues/4858",
+            "title": "Agent coordination — part 6 (continues #4848)",
+            "score": 37,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/Atlas-Financal/Atlas-Financial/issues/821",
+            "title": "Owner goals: dial in the main Budget page (waterfall, future periods, savings, bills, sorting)",
+            "score": 44,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "published_within_30_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/aec-lms/alom-s-english-center-lms-laravel/issues/285",
+            "title": "Team-wide development direction: complete, advanced features and plugin architecture",
+            "score": 74,
+            "reasons": [
+              "query_terms:error",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/mrcalzon02/HB-TTRPG-tools/issues/19",
+            "title": "Master Development Dispatcher — Rolling Six-Hour Queue",
+            "score": 32,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_30_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://jobs.pfchangs.com/us/en/leadpage",
+            "title": "updateValue",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://jobs.pfchangs.com/us/en/apply?jobSeqNo=PFCHUSJR10210EXTERNALENUS",
+            "title": "Apply for the jobs in PFC.",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://jobs.pfchangs.com/us/en/job/JR9799/Backwaiter",
+            "title": "Backwaiter",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://jobs.pfchangs.com/us/en/apply?jobSeqNo=PFCHUSJR1649EXTERNALENUS",
+            "title": "Apply for the jobs in PFC.",
+            "score": 0,
+            "reasons": [
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=47220001",
+            "title": "Ask HN: Are we putting pricing on things too quickly?",
+            "score": 33,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "query_terms_not_found",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=46854817",
+            "title": "Zero-Knowledge Privacy Infrastructure for Solana",
+            "score": 21,
+            "reasons": [
+              "problem_or_request_language",
+              "query_terms_not_found",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=44838374",
+            "title": "I built an AI health scanner for dogs would love your feedback",
+            "score": 42,
+            "reasons": [
+              "query_terms:error",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "stale_over_one_year",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=23263216",
+            "title": "Ask HN: What do you think of generic payment mechanism across paywalls?",
+            "score": 42,
+            "reasons": [
+              "query_terms:integration",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "stale_over_one_year",
+              "firsthand_date_missing_or_older_than_180_days",
+              "no_topical_title_or_customer_attribution"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "payroll integration",
+        "market": "US",
+        "topic": "payroll",
+        "intent": "integration_pain",
+        "locale": "en",
+        "kind": "specific_buyer_problem"
+      },
+      "repeat_links_across_queries": [
+        "https://github.com/solrenning-llc/marktmorgen/issues/4858",
+        "https://github.com/aec-lms/alom-s-english-center-lms-laravel/issues/285"
+      ]
+    },
+    {
+      "query": "nota fiscal planilha",
+      "captured_at": "2026-11-20T03:43:19.814258+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "empty",
+          "count": 0,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "degraded",
+          "count": 0,
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "jaimerodriguesjunior-ptbr/nuvem-local-fiscal",
+          "url": "https://github.com/jaimerodriguesjunior-ptbr/nuvem-local-fiscal",
+          "snippet": "API para emissão de nota",
+          "published_at": "2026-06-12T02:02:27Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-08-05T21:27:39Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:20.306750+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "ddrhost/nota-fiscal-whmcs",
+          "url": "https://github.com/ddrhost/nota-fiscal-whmcs",
+          "snippet": "Nota Fiscal para WHMCS",
+          "published_at": "2025-12-25T16:42:25Z",
+          "engagement": {
+            "stars": 1
+          },
+          "metadata": {
+            "updated_at": "2026-08-13T14:51:36Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:20.306782+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "RicardoAndersonJC/api-automacao-fiscal",
+          "url": "https://github.com/RicardoAndersonJC/api-automacao-fiscal",
+          "snippet": "api para nota de entrada",
+          "published_at": "2026-04-23T21:44:47Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-12T15:15:46Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:20.306797+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "viniciusmirandait/nota-fiscal",
+          "url": "https://github.com/viniciusmirandait/nota-fiscal",
+          "snippet": "Projeto de Processamento de Nota Fiscal e Contabilização.",
+          "published_at": "2025-07-26T23:22:30Z",
+          "engagement": {
+            "stars": 1
+          },
+          "metadata": {
+            "updated_at": "2026-11-19T23:25:19Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:20.306810+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Agent coordination — part 6 (continues #4848)",
+          "url": "https://github.com/solrenning-llc/marktmorgen/issues/4858",
+          "snippet": "Continuação da #4848 (parte 5), que passou de 2.250 comentários (2.291 às 18/11/2026 18:46, Fortaleza). **Este é o canal ativo a partir de agora.** O PAINEL DA FILA continua sendo editado no comentário 6929670678 da #4827, e a 1ª linha dele diz qual é o canal ativo. **Regras em vigor (todas na #4848):** - regra (v) v4: 6989270970; - v4.1: 6991366157; - BROADCAST-275 (papéis pela cota): 6967764832; - BROADCAST-278 (regras anticonflito e decisões): 6969576080; - BROADCAST-281 (só nuvem): 6981607731; - BROADCAST-282 (conflitos): 6981728871. Continuam valendo as regras de sempre (BROADCAST-269 e AC (a)–(u)). **HOLDs abertos:** - **#3612:** MÉDIO do Codex (`tellCreator`); conserto feito, falta a ",
+          "published_at": "2026-11-18T21:46:11Z",
+          "engagement": {
+            "comments": 2374
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:43:12Z",
+            "state": "open",
+            "author": "solrenning-marktmorgen-agents[bot]"
+          },
+          "discovered_at": "2026-11-20T03:43:21.246614+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "[FINAL][P0/P1] Implementación funcional única — pendientes históricos de los 103 tickets ContaGest + Control Hípico",
+          "url": "https://github.com/adelvisMartin/ContaGest/issues/1391",
+          "snippet": "# Implementación final única — funcionalidades pendientes del backlog histórico (~103 tickets) ## Objetivo **Implementar realmente todo lo que aún falte** del programa ContaGest + Control Hípico, consolidando los 103 tickets históricos y las épicas previamente cerradas administrativamente **en este único issue**. Entregar funcionalidades integradas de extremo a extremo, no investigación, documentación sustitutiva, prototipos desconectados ni un nuevo backlog. **Fuente de requisitos:** [#835](https://github.com/adelvisMartin/ContaGest/issues/835) (mapa técnico y dependencias), [#841](https://github.com/adelvisMartin/ContaGest/issues/841) (cierre del programa), las especificaciones de los anti",
+          "published_at": "2026-11-20T03:42:09Z",
+          "engagement": {
+            "comments": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:42:09Z",
+            "state": "open",
+            "author": "adelvisMartin"
+          },
+          "discovered_at": "2026-11-20T03:43:21.247068+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "[EPIC] [P1][OSS][DENTAL] Odontología vNext — agenda multi-sillón, odontograma, planes, ledger y laboratorio",
+          "url": "https://github.com/adelvisMartin/ContaGest/issues/710",
+          "snippet": "<!-- CG_661_EPIC_CONSOLIDATION_20261118 --> ## Autoridad consolidada del backlog — 18 nov 2026 **Este issue es uno de los 20 owners activos.** Almacena 8 subalcances migrados desde issues administrativos ya ejecutados, duplicados en planificación o incrementos ya fusionados. **El cierre administrativo de esos issues no elimina requisitos ni acredita automáticamente sus DoD.** El usuario informó QA manual positivo sobre `main@4f433ec05699ca1299d015cc0d6ad6f74dd3a9e6` tras #1330 (sin logs exact-SHA). Reutilizar código ya integrado y trabajar solo gaps concretos. No crear tickets separados para estos subalcances sin una brecha nueva justificada. **Control de aceptación común:** comprobar contra",
+          "published_at": "2026-09-29T20:30:03Z",
+          "engagement": {
+            "comments": 6
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:35:23Z",
+            "state": "closed",
+            "author": "adelvisMartin"
+          },
+          "discovered_at": "2026-11-20T03:43:21.247594+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Codex — decisões validadas e procedimento de trabalho",
+          "url": "https://github.com/brunolrogerio-collab/EliteSCADA/issues/756",
+          "snippet": "## Objetivo e escopo Caderno operacional do Codex responsável pela [#741 — Site, contas, comunidade, suporte, downloads e licenciamento online](https://github.com/brunolrogerio-collab/EliteSCADA/issues/741). Consultar esta issue, a #741, seus comentários, os documentos e PRs relacionados antes de retomar o trabalho. Esta referência complementa o planejamento da #741; não amplia sua autorização. Procedimentos revisados em **23/10/2026**, após leitura da conversa e das issues #741/#756 e do PR #749. O GitHub vivo é a memória compartilhada e o canal de coordenação entre chats. ## Regra de entrada e ponto de retomada **[Abrir o ponto de retomada atual](https://github.com/brunolrogerio-collab/Eli",
+          "published_at": "2026-10-23T13:13:15Z",
+          "engagement": {
+            "comments": 2
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:34:09Z",
+            "state": "open",
+            "author": "brunolrogerio-collab"
+          },
+          "discovered_at": "2026-11-20T03:43:21.247907+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "NOTA | M&T Bank - trustnota.com",
+          "url": "https://www.mtb.com/business/nota",
+          "snippet": "Nota is a cloud-based platform that provides business banking solutions for solo and small law firms. It was designed to maximize your efficiency and offers transparent pricing and dedicated support from bankers with a deep understanding of the legal profession.",
+          "published_at": "Thu, 19 Nov 2026 10:30:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:21.800163+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Nota — AI Notes & Voice App for iPhone, iPad, Mac & Apple Watch",
+          "url": "https://nota.talk/en",
+          "snippet": "Capture thoughts by voice, text, sketch, or scan. Nota is an AI notes app for iPhone, iPad, Mac, and Apple Watch with transcription, search, sharing, and built-in AI.",
+          "published_at": "Mon, 16 Nov 2026 16:24:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:21.800210+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Nota AI",
+          "url": "https://www.nota.ai/",
+          "snippet": "Nota AI Accelerates Robot AI 3× on Qualcomm NPU, Demonstrating Physical AI Optimization in Real-World Robotics 2026.09.21",
+          "published_at": "Thu, 19 Nov 2026 08:43:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:21.800231+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "AI Note Taker | Free AI Meeting Transcription",
+          "url": "https://www.notta.ai/en",
+          "snippet": "Transcribe, summarize, collaborate and create all in a single workflow to stay productive. Generate instant deliverables to keep your team moving. The only AI powered platform that takes notes, transcribes meetings, and turns meeting insights into actionable visuals.",
+          "published_at": "Thu, 19 Nov 2026 07:24:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:21.800255+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "nota fiscal",
+        "github_issues": "nota fiscal",
+        "google_news_rss": "nota fiscal planilha",
+        "duckduckgo": "nota fiscal planilha",
+        "reddit": "nota fiscal planilha"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 12,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 5,
+        "discarded_count": 7,
+        "review_leads": [],
+        "competitor_references": [
+          {
+            "platform": "github_repositories",
+            "title": "jaimerodriguesjunior-ptbr/nuvem-local-fiscal",
+            "url": "https://github.com/jaimerodriguesjunior-ptbr/nuvem-local-fiscal",
+            "snippet": "API para emissão de nota",
+            "published_at": "2026-06-12T02:02:27Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-08-05T21:27:39Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:20.306750+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 47,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:fiscal,nota",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "fiscal",
+                "nota"
+              ],
+              "published_age_days": 161,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "ddrhost/nota-fiscal-whmcs",
+            "url": "https://github.com/ddrhost/nota-fiscal-whmcs",
+            "snippet": "Nota Fiscal para WHMCS",
+            "published_at": "2025-12-25T16:42:25Z",
+            "engagement": {
+              "stars": 1
+            },
+            "metadata": {
+              "updated_at": "2026-08-13T14:51:36Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:20.306782+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 47,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:fiscal,nota",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "fiscal",
+                "nota"
+              ],
+              "published_age_days": 329,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "RicardoAndersonJC/api-automacao-fiscal",
+            "url": "https://github.com/RicardoAndersonJC/api-automacao-fiscal",
+            "snippet": "api para nota de entrada",
+            "published_at": "2026-04-23T21:44:47Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-12T15:15:46Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:20.306797+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 47,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:fiscal,nota",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "fiscal",
+                "nota"
+              ],
+              "published_age_days": 210,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "viniciusmirandait/nota-fiscal",
+            "url": "https://github.com/viniciusmirandait/nota-fiscal",
+            "snippet": "Projeto de Processamento de Nota Fiscal e Contabilização.",
+            "published_at": "2025-07-26T23:22:30Z",
+            "engagement": {
+              "stars": 1
+            },
+            "metadata": {
+              "updated_at": "2026-11-19T23:25:19Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:20.306810+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 31,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:fiscal,nota",
+                "commercial_or_tool_context",
+                "stale_over_one_year",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "fiscal",
+                "nota"
+              ],
+              "published_age_days": 481,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "NOTA | M&T Bank - trustnota.com",
+            "url": "https://www.mtb.com/business/nota",
+            "snippet": "Nota is a cloud-based platform that provides business banking solutions for solo and small law firms. It was designed to maximize your efficiency and offers transparent pricing and dedicated support from bankers with a deep understanding of the legal profession.",
+            "published_at": "Thu, 19 Nov 2026 10:30:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:21.800163+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:nota",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "nota"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/solrenning-llc/marktmorgen/issues/4858",
+            "title": "Agent coordination — part 6 (continues #4848)",
+            "score": 37,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/adelvisMartin/ContaGest/issues/1391",
+            "title": "[FINAL][P0/P1] Implementación funcional única — pendientes históricos de los 103 tickets ContaGest + Control Hípico",
+            "score": 37,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/adelvisMartin/ContaGest/issues/710",
+            "title": "[EPIC] [P1][OSS][DENTAL] Odontología vNext — agenda multi-sillón, odontograma, planes, ledger y laboratorio",
+            "score": 26,
+            "reasons": [
+              "problem_or_request_language",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/brunolrogerio-collab/EliteSCADA/issues/756",
+            "title": "Codex — decisões validadas e procedimento de trabalho",
+            "score": 32,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_30_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://nota.talk/en",
+            "title": "Nota — AI Notes & Voice App for iPhone, iPad, Mac & Apple Watch",
+            "score": 18,
+            "reasons": [
+              "query_terms:nota",
+              "publication_date_unverified",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.nota.ai/",
+            "title": "Nota AI",
+            "score": 8,
+            "reasons": [
+              "query_terms:nota",
+              "publication_date_unverified",
+              "very_short_title",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://www.notta.ai/en",
+            "title": "AI Note Taker | Free AI Meeting Transcription",
+            "score": 5,
+            "reasons": [
+              "commercial_or_tool_context",
+              "publication_date_unverified",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "nota fiscal",
+        "market": "BR",
+        "topic": "tax_compliance",
+        "intent": "manual_invoice_pain",
+        "locale": "pt",
+        "kind": "specific_buyer_problem"
+      },
+      "repeat_links_across_queries": [
+        "https://github.com/solrenning-llc/marktmorgen/issues/4858"
+      ]
+    },
+    {
+      "query": "folha pagamento erro",
+      "captured_at": "2026-11-20T03:43:22.156418+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "ok",
+          "count": 2,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "degraded",
+          "count": 0,
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "kauaxp77/Folha-De-Pagamento",
+          "url": "https://github.com/kauaxp77/Folha-De-Pagamento",
+          "snippet": "Folha de pagamento em Java para praticar POO: herança, polimorfismo e abstração em quatro tipos de contrato.",
+          "published_at": "2026-08-11T20:56:08Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-14T17:09:11Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:22.664589+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "DanielznRtm/payroll-sentinel",
+          "url": "https://github.com/DanielznRtm/payroll-sentinel",
+          "snippet": "Resolva a burocracia de checar se a folha de pagamento da sua empresa está certa !",
+          "published_at": "2026-11-10T14:35:38Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-16T23:45:46Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:22.664624+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "Pamella-Rossi/FolhaFacil",
+          "url": "https://github.com/Pamella-Rossi/FolhaFacil",
+          "snippet": "Sistema de gerenciamento de folha de pagamento",
+          "published_at": "2026-11-18T02:10:43Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-18T03:51:49Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:22.664640+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "Paulo-cgkior/MISSAO-O1_FOLHA_DE_PAGAMENTO",
+          "url": "https://github.com/Paulo-cgkior/MISSAO-O1_FOLHA_DE_PAGAMENTO",
+          "snippet": "",
+          "published_at": "2026-11-18T16:41:33Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-18T19:45:00Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:22.664653+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "PRIORIDADE MÁXIMA — WORK 0: reproduzir fielmente os 8 ecrãs aprovados antes de novas funcionalidades",
+          "url": "https://github.com/drozz2025/royal-pirate/issues/104",
+          "snippet": "Problemas observados pelo utilizador (16-11-2026): Porto preenche ecrã; ao entrar em Frota/outros ecrãs conteúdo aparenta encolher; design aprovado inclui Ouro e Diamantes, mas Porto mostra moedas + vitórias e ecrãs internos mostram apenas moedas. Evidência no código da branch work6/web-3d-preview: - `WebPreview/src/app-screens.css`: `@media(min-width:660px){.app-sheet{max-width:600px;margin:auto...}}`, enquanto `.harbour-screen` usa `position:absolute;inset:0`. Verificar diferenças no iPhone real e no desktop; eliminar limitação apenas onde não corresponde ao design aprovado. - `WebPreview/src/harbour.tsx`: `.harbour-resources` mostra `profile.coins` e `profile.wins`, não diamantes; comentá",
+          "published_at": "2026-11-16T01:03:03Z",
+          "engagement": {
+            "comments": 482
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:33:36Z",
+            "state": "open",
+            "author": "drozz2025"
+          },
+          "discovered_at": "2026-11-20T03:43:23.510668+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "[OS-MINE-SERVER-001] Implementar Mural de Contratos e objetivo coletivo do Farol",
+          "url": "https://github.com/FelipeBigarelli/minecraft-server/issues/3",
+          "snippet": "Felipe autorizou iniciar esta macro no ciclo de colaboração do Mine Server. A Claude implementa e publica a entrega. O OS BIGA revisa antes da próxima macro. A instrução abaixo é uma cópia integral da versão publicada no OS BIGA, commit 1edac7ef500cc8f4b8f99ad70727c5b9acd30baa. O estado central pode ser consultado em [Mine Server no OS BIGA](https://github.com/FelipeBigarelli/os-biga/blob/master/projects/mine-server/state.md). [Instrução versionada](https://github.com/FelipeBigarelli/os-biga/blob/1edac7ef500cc8f4b8f99ad70727c5b9acd30baa/projects/mine-server/instructions/OS-MINE-SERVER-001.md) · [Estudo de economia e retorno](https://github.com/FelipeBigarelli/os-biga/blob/1edac7ef500cc8f4b8f",
+          "published_at": "2026-11-19T03:05:08Z",
+          "engagement": {
+            "comments": 23
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:22:05Z",
+            "state": "open",
+            "author": "FelipeBigarelli"
+          },
+          "discovered_at": "2026-11-20T03:43:23.511084+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Líquido da venda desconta o custo do PIX",
+          "url": "https://github.com/Densevolvimento-de-software/moto-chefe/issues/93",
+          "snippet": "## Parent #86 (Refs #86, Refs #70) ## What to build O líquido da venda de moto passa a descontar o custo do PIX conciliado, então /financeiro, fechamento, coletiva e DRE mostram o que entrou de verdade. A regra continua num lugar só (as duas formas do líquido que já moram juntas, Drizzle e SQL cru com alias), descontando: custo dos PIX conciliados pela venda **e pelo pedido dela**, e custo da forçada PIX da venda. PIX não conciliado entra pelo valor cheio. Também: Detalhes da venda ganha a linha \"Custo do PIX\" abaixo de \"Taxa do cartão\" no valor líquido; o relatório de contabilidade soma o custo do PIX em \"taxas\" e no \"valorLiquido\". ## Acceptance criteria - [ ] Venda R$ 18.500,00 (PIX 10.00",
+          "published_at": "2026-11-18T16:00:31Z",
+          "engagement": {
+            "comments": 3
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:10:28Z",
+            "state": "open",
+            "author": "Luis-development-mova"
+          },
+          "discovered_at": "2026-11-20T03:43:23.511145+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Desvincular a linha pix do Mercado Pago que completa uma forçada parcial de PIX",
+          "url": "https://github.com/Densevolvimento-de-software/moto-chefe/issues/166",
+          "snippet": "## O que falta Na forçada parcial de PIX (#92), o resto do pagamento pode vir de um PIX recebido do banco ou da linha pix do Mercado Pago (conciliação de cartão). O PR da #92 recusa desvincular o PIX do banco que completa uma forçada parcial (\"desfaça a forçada antes\"). Desvincular a linha pix do Mercado Pago da venda ainda não tem a mesma trava: a linha forçada ficaria marcada como recebida sem o dinheiro que a completava. ## O que fazer - Aplicar ao desvincular da conciliação de cartão a mesma regra do PIX: recusar só a linha que completa a forçada parcial, com a mesma frase, e permitir desfazer a forçada no mesmo lugar. - Teste de banco com a venda de moto, a OS e a venda de peça. Precisa",
+          "published_at": "2026-11-19T12:25:20Z",
+          "engagement": {
+            "comments": 3
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T02:12:40Z",
+            "state": "open",
+            "author": "Luis-development-mova"
+          },
+          "discovered_at": "2026-11-20T03:43:23.511191+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Análise: Lula supera erros, mas encara última dança difícil - Folha de S.Paulo",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUUNNTUQ2X0c3Q1hNSnpCQWFkUzlfRHk0d181eS1vTmJDMHhUYk5fUVNOeV9lRVZIVWZyY3drTmlrNkJXTHU0U2ctbWVFS1VuTHk1VHNLU3pqRTRmZ2lJRFB1NHBpTEQ4bEpiM09yUHNMQVRpUVZyMGZKRExydkJOUFllQmF3Y1NGVnhwcGhRdjFkbG8xYWlOOWNvdHVqQ2hI?oc=5",
+          "snippet": "Análise: Lula supera erros, mas encara última dança difícil Folha de S.Paulo",
+          "published_at": "Sun, 25 Oct 2026 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-11-20T03:43:23.909448+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "google_news_rss",
+          "title": "Não é verdade que existe documento secreto revelando falhas na apuração das eleições de 2018 - Folha de S.Paulo",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPV0hxQm5rbGpqYVVYVGVpVUJTX0VJVlVmNW1OM1pxNGdvYlpWaENNcTkzYkNkX2NFMGVjNU9WTkJobERmemZUUmljSjg3RzVzTWtGaWMtZHFJRVV3RzJjU0VwR1hyUEM0TDJDUnBzbHF5Mmk3ZFZsNlpTazRrSS0zTVprTW0zZUROb1I5Vk5aZlVBRWMtS0Z4aHJvc0tFZU5DUTh0MzY3QV9TY1RwVUJfekFwOVE3NWFKallMY0Q5Sm5yaXBDRkhiODJfeWJkNi1ESTlDV1l5Sm9QZ9IB3wFBVV95cUxOaFBjUnpTR0s2ejUzc2g0RDIzY1V3Q2JwazNTSk9MdTQ0YXdZWFlsR2x2QXhoWGN2d0tsRnRaVGsyWjdndk1Ic05QdmZ5bEFJTEhzZFkzTzVTVlZpUGFLT1hPYWp0RjlKZkhRd3dPb25nVFlIUmVOMkpsTjlwVHpMYUIwcEJFdmNacUtGQkZfd2hydG9ZTEp2ZDRqRXRTSlFwaUpvSk1sTFJRd1psSkZSMF9GNElGdkpjTENQZXdvdlM0UThkWnlnSWRzX1A4U01Xa3FXZlVvSk9Fb1FHbURZ?oc=5",
+          "snippet": "Não é verdade que existe documento secreto revelando falhas na apuração das eleições de 2018 Folha de S.Paulo",
+          "published_at": "Mon, 01 Aug 2022 07:00:00 GMT",
+          "engagement": {},
+          "metadata": {},
+          "discovered_at": "2026-11-20T03:43:23.909502+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Folha de S.Paulo",
+          "url": "https://www.folha.uol.com.br/",
+          "snippet": "We would like to show you a description here but the site won’t allow us.",
+          "published_at": "Thu, 19 Nov 2026 21:00:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:24.074908+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "FOLHA SÃO PAULO",
+          "url": "https://folhasaopaulo.com/",
+          "snippet": "Tetracampeão mundial de paracanoagem é resgatado após passar mais de 20 horas desaparecido no litoral paulista Posted in FOLHA SÃO PAULO",
+          "published_at": "Thu, 19 Nov 2026 15:38:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:24.074947+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Edição Folha - Folha de S.Paulo",
+          "url": "https://acervo.folha.com.br/digital",
+          "snippet": "Edição Folha - Folha de S.Paulo Quarta-feira, 18.nov Folha de S.Paulo Ano 106 - N° 35.686 Terça-feira, 17.nov Folha de S.Paulo Ano 106 - N° 35.685 Segunda-feira, 16.nov Folha de S.Paulo Ano 106 - N° 35.684 Domingo, 15.nov Folha de S.Paulo Ano 106 - N° 35.683 Sábado, 14.nov Folha de S.Paulo Ano 106 - N° 35.682 Sexta-feira, 13.nov Folha de S.Paulo Ano 106 - N° 35.681 Quinta-feira, 12 ...",
+          "published_at": "Thu, 19 Nov 2026 18:37:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:24.074984+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Folha PE - Noticias de politica, economia, esportes, cultura.",
+          "url": "https://www.folhape.com.br/",
+          "snippet": "Folha PE - portal de notícias da Folha de Pernambuco - Últimas notícias de política, economia, esportes, cultura, cotidiano, sociedade, concursos e empregos ...",
+          "published_at": "Fri, 19 Dec 2025 03:24:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:24.075006+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "folha pagamento",
+        "github_issues": "folha pagamento",
+        "google_news_rss": "folha pagamento erro",
+        "duckduckgo": "folha pagamento erro",
+        "reddit": "folha pagamento erro"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 14,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 9,
+        "discarded_count": 5,
+        "review_leads": [],
+        "competitor_references": [
+          {
+            "platform": "github_repositories",
+            "title": "kauaxp77/Folha-De-Pagamento",
+            "url": "https://github.com/kauaxp77/Folha-De-Pagamento",
+            "snippet": "Folha de pagamento em Java para praticar POO: herança, polimorfismo e abstração em quatro tipos de contrato.",
+            "published_at": "2026-08-11T20:56:08Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-14T17:09:11Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:22.664589+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 47,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha,pagamento",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "folha",
+                "pagamento"
+              ],
+              "published_age_days": 100,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "DanielznRtm/payroll-sentinel",
+            "url": "https://github.com/DanielznRtm/payroll-sentinel",
+            "snippet": "Resolva a burocracia de checar se a folha de pagamento da sua empresa está certa !",
+            "published_at": "2026-11-10T14:35:38Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-16T23:45:46Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:22.664624+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 56,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha,pagamento",
+                "commercial_or_tool_context",
+                "published_within_30_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "folha",
+                "pagamento"
+              ],
+              "published_age_days": 9,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "Pamella-Rossi/FolhaFacil",
+            "url": "https://github.com/Pamella-Rossi/FolhaFacil",
+            "snippet": "Sistema de gerenciamento de folha de pagamento",
+            "published_at": "2026-11-18T02:10:43Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-18T03:51:49Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:22.664640+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 61,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha,pagamento",
+                "commercial_or_tool_context",
+                "published_within_7_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "folha",
+                "pagamento"
+              ],
+              "published_age_days": 2,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "google_news_rss",
+            "title": "Análise: Lula supera erros, mas encara última dança difícil - Folha de S.Paulo",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUUNNTUQ2X0c3Q1hNSnpCQWFkUzlfRHk0d181eS1vTmJDMHhUYk5fUVNOeV9lRVZIVWZyY3drTmlrNkJXTHU0U2ctbWVFS1VuTHk1VHNLU3pqRTRmZ2lJRFB1NHBpTEQ4bEpiM09yUHNMQVRpUVZyMGZKRExydkJOUFllQmF3Y1NGVnhwcGhRdjFkbG8xYWlOOWNvdHVqQ2hI?oc=5",
+            "snippet": "Análise: Lula supera erros, mas encara última dança difícil Folha de S.Paulo",
+            "published_at": "Sun, 25 Oct 2026 07:00:00 GMT",
+            "engagement": {},
+            "metadata": {},
+            "discovered_at": "2026-11-20T03:43:23.909448+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 50,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "folha"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "google_news_rss",
+            "title": "Não é verdade que existe documento secreto revelando falhas na apuração das eleições de 2018 - Folha de S.Paulo",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPV0hxQm5rbGpqYVVYVGVpVUJTX0VJVlVmNW1OM1pxNGdvYlpWaENNcTkzYkNkX2NFMGVjNU9WTkJobERmemZUUmljSjg3RzVzTWtGaWMtZHFJRVV3RzJjU0VwR1hyUEM0TDJDUnBzbHF5Mmk3ZFZsNlpTazRrSS0zTVprTW0zZUROb1I5Vk5aZlVBRWMtS0Z4aHJvc0tFZU5DUTh0MzY3QV9TY1RwVUJfekFwOVE3NWFKallMY0Q5Sm5yaXBDRkhiODJfeWJkNi1ESTlDV1l5Sm9QZ9IB3wFBVV95cUxOaFBjUnpTR0s2ejUzc2g0RDIzY1V3Q2JwazNTSk9MdTQ0YXdZWFlsR2x2QXhoWGN2d0tsRnRaVGsyWjdndk1Ic05QdmZ5bEFJTEhzZFkzTzVTVlZpUGFLT1hPYWp0RjlKZkhRd3dPb25nVFlIUmVOMkpsTjlwVHpMYUIwcEJFdmNacUtGQkZfd2hydG9ZTEp2ZDRqRXRTSlFwaUpvSk1sTFJRd1psSkZSMF9GNElGdkpjTENQZXdvdlM0UThkWnlnSWRzX1A4U01Xa3FXZlVvSk9Fb1FHbURZ?oc=5",
+            "snippet": "Não é verdade que existe documento secreto revelando falhas na apuração das eleições de 2018 Folha de S.Paulo",
+            "published_at": "Mon, 01 Aug 2022 07:00:00 GMT",
+            "engagement": {},
+            "metadata": {},
+            "discovered_at": "2026-11-20T03:43:23.909502+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 50,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "folha"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Folha de S.Paulo",
+            "url": "https://www.folha.uol.com.br/",
+            "snippet": "We would like to show you a description here but the site won’t allow us.",
+            "published_at": "Thu, 19 Nov 2026 21:00:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:24.074908+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "folha"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "FOLHA SÃO PAULO",
+            "url": "https://folhasaopaulo.com/",
+            "snippet": "Tetracampeão mundial de paracanoagem é resgatado após passar mais de 20 horas desaparecido no litoral paulista Posted in FOLHA SÃO PAULO",
+            "published_at": "Thu, 19 Nov 2026 15:38:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:24.074947+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "folha"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Edição Folha - Folha de S.Paulo",
+            "url": "https://acervo.folha.com.br/digital",
+            "snippet": "Edição Folha - Folha de S.Paulo Quarta-feira, 18.nov Folha de S.Paulo Ano 106 - N° 35.686 Terça-feira, 17.nov Folha de S.Paulo Ano 106 - N° 35.685 Segunda-feira, 16.nov Folha de S.Paulo Ano 106 - N° 35.684 Domingo, 15.nov Folha de S.Paulo Ano 106 - N° 35.683 Sábado, 14.nov Folha de S.Paulo Ano 106 - N° 35.682 Sexta-feira, 13.nov Folha de S.Paulo Ano 106 - N° 35.681 Quinta-feira, 12 ...",
+            "published_at": "Thu, 19 Nov 2026 18:37:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:24.074984+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "folha"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Folha PE - Noticias de politica, economia, esportes, cultura.",
+            "url": "https://www.folhape.com.br/",
+            "snippet": "Folha PE - portal de notícias da Folha de Pernambuco - Últimas notícias de política, economia, esportes, cultura, cotidiano, sociedade, concursos e empregos ...",
+            "published_at": "Fri, 19 Dec 2025 03:24:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:24.075006+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:folha",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "folha"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/Paulo-cgkior/MISSAO-O1_FOLHA_DE_PAGAMENTO",
+            "title": "Paulo-cgkior/MISSAO-O1_FOLHA_DE_PAGAMENTO",
+            "score": 14,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://github.com/drozz2025/royal-pirate/issues/104",
+            "title": "PRIORIDADE MÁXIMA — WORK 0: reproduzir fielmente os 8 ecrãs aprovados antes de novas funcionalidades",
+            "score": 37,
+            "reasons": [
+              "problem_or_request_language",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/FelipeBigarelli/minecraft-server/issues/3",
+            "title": "[OS-MINE-SERVER-001] Implementar Mural de Contratos e objetivo coletivo do Farol",
+            "score": 21,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/Densevolvimento-de-software/moto-chefe/issues/93",
+            "title": "Líquido da venda desconta o custo do PIX",
+            "score": 33,
+            "reasons": [
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/Densevolvimento-de-software/moto-chefe/issues/166",
+            "title": "Desvincular a linha pix do Mercado Pago que completa uma forçada parcial de PIX",
+            "score": 74,
+            "reasons": [
+              "query_terms:pagamento",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "folha pagamento",
+        "market": "BR",
+        "topic": "payroll",
+        "intent": "payroll_error",
+        "locale": "pt",
+        "kind": "specific_buyer_problem"
+      },
+      "repeat_links_across_queries": []
+    },
+    {
+      "query": "CFDI conciliación errores",
+      "captured_at": "2026-11-20T03:43:24.307610+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "empty",
+          "count": 0,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "degraded",
+          "count": 0,
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "Roque98/Auxiliar-Contable",
+          "url": "https://github.com/Roque98/Auxiliar-Contable",
+          "snippet": "Consola para despacho contable: estados de cuenta, CFDI y conciliación por cliente",
+          "published_at": "2026-10-25T02:12:08Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-19T02:28:10Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:24.761331+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "Fintecia/fintecia-mcp",
+          "url": "https://github.com/Fintecia/fintecia-mcp",
+          "snippet": "MCP local de Fintecia — descarga de CFDI con e-firma, conciliación banco-CFDI, riesgo 69-B/EFOS, deducibilidad fiscal. SAT · CFDI · Conciliación · Seguridad · México · agente AI",
+          "published_at": "2026-11-09T19:48:16Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-12T02:11:55Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:24.761390+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "merolhack/sat-fiscal-toolkit",
+          "url": "https://github.com/merolhack/sat-fiscal-toolkit",
+          "snippet": "Toolkit de código abierto en Python para automatizar el procesamiento de CFDI 4.0 (XML/PDF), conciliación de flujo de efectivo y generación de informes fiscales optimizados para Gemini Notebook y Antigravity IDE.",
+          "published_at": "2026-10-16T02:25:00Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-10-31T17:46:42Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:24.761431+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "EduardoPecina/conciliacion-honorarios",
+          "url": "https://github.com/EduardoPecina/conciliacion-honorarios",
+          "snippet": "Conciliación automática de honorarios médicos: cruza el TXT de pagos de SAP con el catálogo de proveedores y las facturas CFDI 4.0, valida reglas fiscales y de negocio, y genera un reporte en Excel.",
+          "published_at": "2026-09-30T14:58:11Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-10T20:35:53Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:24.761473+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "[MVP-E2E] El mes de una PyME de punta a punta, como criterio ▶: la prueba de aceptación del MVP",
+          "url": "https://github.com/sedecim-com/Accounting/issues/311",
+          "snippet": "## Tramo nuevo: la definición ejecutable del MVP (`docs/MVP.md`, §1). Mientras esta prueba no esté en verde en CI, el MVP no está entregado, diga lo que diga cualquier documento. ## Qué debe ser cierto al terminar Una sola prueba de integración contra una base efímera (el patrón ▶ de `src/plan/conducta.ts`) recorre un mes completo de una PyME sintética. Usa **sólo** los comandos del CLI, como los teclearía el contador, y sin proveedor de IA (el camino manual): 1. Alta: tenant y entidad (persona moral, régimen 601). Catálogo y balanza de apertura cargados desde XML del Anexo 24 (#220), con documentos abiertos (#310). 2. Ingesta de los CFDI del mes desde `tests/fixtures/`, emitidos y recibidos",
+          "published_at": "2026-09-25T18:08:03Z",
+          "engagement": {
+            "comments": 19
+          },
+          "metadata": {
+            "updated_at": "2026-11-19T18:46:58Z",
+            "state": "open",
+            "author": "vic2099"
+          },
+          "discovered_at": "2026-11-20T03:43:25.739815+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Plan: Manual de procedimientos de la empresa y del ERP, filtrado por rol",
+          "url": "https://github.com/ElianPereira/ERP-QKT/issues/507",
+          "snippet": "Plan de implementación. Relacionado con #505 (sustituye el punto 9 de su PR 5, `docs/guia_ventas.md`). Es solo el plan: **un PR por sesión, en orden** (M1 → M2 → M3 → M4). ## Objetivo Un solo manual para toda la empresa: cómo se hace cada cosa en la Quinta y en el ERP, qué hacer cuando algo sale mal, qué es correcto y qué no. Cada persona ve y descarga **solo lo que le corresponde**; el dueño ve y descarga todo. ## Principios (decisiones del propietario) - **Un solo manual, una sola fuente.** Nada de un documento por puesto: cada sección declara para quién es. - **Mínima intervención humana.** El manual vive en el repositorio, se actualiza en el mismo PR que cambia un flujo, y las capturas d",
+          "published_at": "2026-11-16T23:33:40Z",
+          "engagement": {
+            "comments": 3
+          },
+          "metadata": {
+            "updated_at": "2026-11-18T21:14:10Z",
+            "state": "closed",
+            "author": "ElianPereira"
+          },
+          "discovered_at": "2026-11-20T03:43:25.740158+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Plan: personal de ventas — expediente, atribución, visitas, comisiones y liquidación",
+          "url": "https://github.com/ElianPereira/ERP-QKT/issues/505",
+          "snippet": "**Versión consolidada del 2026-11-16.** Este cuerpo integra las Enmiendas 1 a 4 (comentarios de abajo) y la revisión final de flujo; **el cuerpo manda** sobre los comentarios. Es solo el plan: cada PR se implementa en una sesión aparte, **un PR por sesión, en orden**. Quien implemente lee primero `CLAUDE.md` y este Issue completo. Orden: **1A → 1B → 2 → 3 → 4 → 5** (6 = opcionales). ## 1. Reglas de negocio (decididas por el propietario) | Concepto | Regla | |---|---| | Figura | Empleada de la Quinta, sin CFDI en ningún sentido. No pasa por `ReciboNomina`. | | Visita atendida | $100.00 por visita en la que el visitante se presentó, contrate o no. **Tope: 5 visitas pagadas por semana** (lunes ",
+          "published_at": "2026-11-16T06:04:46Z",
+          "engagement": {
+            "comments": 9
+          },
+          "metadata": {
+            "updated_at": "2026-11-18T21:14:08Z",
+            "state": "closed",
+            "author": "ElianPereira"
+          },
+          "discovered_at": "2026-11-20T03:43:25.740848+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "XML ingestion: an unknown issuer's CFDI is suggested the AP control account (2110), and the suggestion beats the person's default",
+          "url": "https://github.com/sedecim-com/Accounting/issues/684",
+          "snippet": "## Goal A received CFDI's expense line never posts to a control account on a suggestion alone; an unknown issuer gets no other vendor's history; a person's account for the whole document beats any suggestion; the panel decides where an uncoded line goes. ## Tranche and context - **Tranche:** new. Replaces this issue's first body (17 Nov 2026, 13:25 UTC), whose Constraints promised this text as a comment; here the criteria sit in one place. Source: #311's MNE-001-408 plan (comment 6940316995), point 6; its slice 3 codes `--line 1` around it. - **Why now** (`develop` `fe702017`; read, not run): - **No vendor means every vendor.** For an unknown issuer `matchVendor` returns `vendor: null` (`src",
+          "published_at": "2026-11-17T13:25:05Z",
+          "engagement": {
+            "comments": 4
+          },
+          "metadata": {
+            "updated_at": "2026-11-18T06:29:49Z",
+            "state": "open",
+            "author": "vic2099"
+          },
+          "discovered_at": "2026-11-20T03:43:25.741164+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "What is CFDI? - Understanding CFDI Compliance | Tipalti",
+          "url": "https://tipalti.com/resources/learn/cfdi-compliance",
+          "snippet": "CFDI, is an electronic invoice format mandated in Mexico and also used in certain Latin American countries. It serves as a digital tax receipt that provides all the details of a business transaction: the goods or services provided, their costs and calculated taxes.",
+          "published_at": "Thu, 19 Nov 2026 00:29:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:26.452635+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "¿Qué Es El CFDI? Qué Es, Para Qué Sirve Y Ejemplos Todo CFDI",
+          "url": "https://cfdi.org.mx/",
+          "snippet": "CFDI significa Comprobante Fiscal Digital por Internet. Te explicamos qué es, para qué sirve, dónde encontrarlo y cómo verificar si está vigente.",
+          "published_at": "Thu, 19 Nov 2026 11:13:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:26.452680+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Electronic invoices (CFDI) - Finance | Dynamics 365",
+          "url": "https://learn.microsoft.com/en-us/dynamics365/finance/localizations/iberoamerica/latam-mex-cfdi-electronic-invoices",
+          "snippet": "Learn about the currently approved method for submitting electronic invoices (CFDI), the requirements for using them, and the information that they include.",
+          "published_at": "Thu, 29 Sep 2022 20:35:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:26.452705+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "CENTER FOR DRUG INSPECTION OF NMPA - cfdi.org.cn",
+          "url": "https://www.cfdi.org.cn/cfdi/index_en",
+          "snippet": "The Training Course for Cosmetic Inspectors Was Successfully co-held by CFDI and National Medical Product Ad... 2020-12-02 The Cosmetics Inspection Work Experience Exchange Meeting was successfully Held in CFDI 2020-12-02",
+          "published_at": "Thu, 19 Nov 2026 03:21:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:26.452728+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "CFDI conciliación",
+        "github_issues": "CFDI conciliación",
+        "google_news_rss": "CFDI conciliación errores",
+        "duckduckgo": "CFDI conciliación errores",
+        "reddit": "CFDI conciliación errores"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 12,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 8,
+        "discarded_count": 4,
+        "review_leads": [],
+        "competitor_references": [
+          {
+            "platform": "github_repositories",
+            "title": "Roque98/Auxiliar-Contable",
+            "url": "https://github.com/Roque98/Auxiliar-Contable",
+            "snippet": "Consola para despacho contable: estados de cuenta, CFDI y conciliación por cliente",
+            "published_at": "2026-10-25T02:12:08Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-19T02:28:10Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:24.761331+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 72,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:cfdi,conciliación",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "published_within_30_days",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "cfdi",
+                "conciliación"
+              ],
+              "published_age_days": 26,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "Fintecia/fintecia-mcp",
+            "url": "https://github.com/Fintecia/fintecia-mcp",
+            "snippet": "MCP local de Fintecia — descarga de CFDI con e-firma, conciliación banco-CFDI, riesgo 69-B/EFOS, deducibilidad fiscal. SAT · CFDI · Conciliación · Seguridad · México · agente AI",
+            "published_at": "2026-11-09T19:48:16Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-12T02:11:55Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:24.761390+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 72,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:cfdi,conciliación",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "published_within_30_days",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "cfdi",
+                "conciliación"
+              ],
+              "published_age_days": 10,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "merolhack/sat-fiscal-toolkit",
+            "url": "https://github.com/merolhack/sat-fiscal-toolkit",
+            "snippet": "Toolkit de código abierto en Python para automatizar el procesamiento de CFDI 4.0 (XML/PDF), conciliación de flujo de efectivo y generación de informes fiscales optimizados para Gemini Notebook y Antigravity IDE.",
+            "published_at": "2026-10-16T02:25:00Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-10-31T17:46:42Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:24.761431+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 66,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:cfdi,conciliación",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "cfdi",
+                "conciliación"
+              ],
+              "published_age_days": 35,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "EduardoPecina/conciliacion-honorarios",
+            "url": "https://github.com/EduardoPecina/conciliacion-honorarios",
+            "snippet": "Conciliación automática de honorarios médicos: cruza el TXT de pagos de SAP con el catálogo de proveedores y las facturas CFDI 4.0, valida reglas fiscales y de negocio, y genera un reporte en Excel.",
+            "published_at": "2026-09-30T14:58:11Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-10T20:35:53Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:24.761473+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 66,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:cfdi,conciliación",
+                "problem_or_request_language",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand"
+              ],
+              "matched_query_terms": [
+                "cfdi",
+                "conciliación"
+              ],
+              "published_age_days": 50,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "What is CFDI? - Understanding CFDI Compliance | Tipalti",
+            "url": "https://tipalti.com/resources/learn/cfdi-compliance",
+            "snippet": "CFDI, is an electronic invoice format mandated in Mexico and also used in certain Latin American countries. It serves as a digital tax receipt that provides all the details of a business transaction: the goods or services provided, their costs and calculated taxes.",
+            "published_at": "Thu, 19 Nov 2026 00:29:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:26.452635+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:cfdi",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "cfdi"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "¿Qué Es El CFDI? Qué Es, Para Qué Sirve Y Ejemplos Todo CFDI",
+            "url": "https://cfdi.org.mx/",
+            "snippet": "CFDI significa Comprobante Fiscal Digital por Internet. Te explicamos qué es, para qué sirve, dónde encontrarlo y cómo verificar si está vigente.",
+            "published_at": "Thu, 19 Nov 2026 11:13:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:26.452680+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:cfdi",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "cfdi"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Electronic invoices (CFDI) - Finance | Dynamics 365",
+            "url": "https://learn.microsoft.com/en-us/dynamics365/finance/localizations/iberoamerica/latam-mex-cfdi-electronic-invoices",
+            "snippet": "Learn about the currently approved method for submitting electronic invoices (CFDI), the requirements for using them, and the information that they include.",
+            "published_at": "Thu, 29 Sep 2022 20:35:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:26.452705+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:cfdi",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "cfdi"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "CENTER FOR DRUG INSPECTION OF NMPA - cfdi.org.cn",
+            "url": "https://www.cfdi.org.cn/cfdi/index_en",
+            "snippet": "The Training Course for Cosmetic Inspectors Was Successfully co-held by CFDI and National Medical Product Ad... 2020-12-02 The Cosmetics Inspection Work Experience Exchange Meeting was successfully Held in CFDI 2020-12-02",
+            "published_at": "Thu, 19 Nov 2026 03:21:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:26.452728+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:cfdi",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "cfdi"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/sedecim-com/Accounting/issues/311",
+            "title": "[MVP-E2E] El mes de una PyME de punta a punta, como criterio ▶: la prueba de aceptación del MVP",
+            "score": 47,
+            "reasons": [
+              "query_terms:cfdi",
+              "commercial_or_tool_context",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/ElianPereira/ERP-QKT/issues/507",
+            "title": "Plan: Manual de procedimientos de la empresa y del ERP, filtrado por rol",
+            "score": 21,
+            "reasons": [
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/ElianPereira/ERP-QKT/issues/505",
+            "title": "Plan: personal de ventas — expediente, atribución, visitas, comisiones y liquidación",
+            "score": 74,
+            "reasons": [
+              "query_terms:cfdi",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/sedecim-com/Accounting/issues/684",
+            "title": "XML ingestion: an unknown issuer's CFDI is suggested the AP control account (2110), and the suggestion beats the person's default",
+            "score": 74,
+            "reasons": [
+              "query_terms:cfdi",
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "github_issue_without_explicit_customer_voice"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "CFDI conciliación",
+        "market": "MX",
+        "topic": "tax_compliance",
+        "intent": "invoice_validation",
+        "locale": "es",
+        "kind": "specific_buyer_problem"
+      },
+      "repeat_links_across_queries": []
+    },
+    {
+      "query": "nómina excel errores",
+      "captured_at": "2026-11-20T03:43:26.825059+00:00",
+      "sources": {
+        "github_repos": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "github_issues": {
+          "status": "ok",
+          "count": 4,
+          "warning": null
+        },
+        "google_news_rss": {
+          "status": "empty",
+          "count": 0,
+          "warning": null
+        },
+        "duckduckgo": {
+          "status": "degraded",
+          "count": 4,
+          "warning": "ValueError: Unexpected HTTP status: 202",
+          "fallback": "bing_rss"
+        },
+        "reddit": {
+          "status": "degraded",
+          "count": 0,
+          "warning": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      },
+      "items": [
+        {
+          "platform": "github_repositories",
+          "title": "arrazola-consultores/arrazola-calculadoras-descargas",
+          "url": "https://github.com/arrazola-consultores/arrazola-calculadoras-descargas",
+          "snippet": "Descargas oficiales de Arrazola Calculadoras Fiscales para Windows. Calcula ISR, IVA y nómina y exporta papeles de trabajo e informes a Excel y PDF. Prueba de 15 días, manual y actualizaciones.",
+          "published_at": "2026-11-18T17:34:47Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-18T17:59:37Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:27.360391+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "Jordan-Valencia/back-gymdigital",
+          "url": "https://github.com/Jordan-Valencia/back-gymdigital",
+          "snippet": "API REST de gestion de gimnasio con NestJS + Prisma + PostgreSQL: inventario, ventas, membresias, nomina, gastos y reportes (Excel/PDF).",
+          "published_at": "2025-08-08T03:56:17Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-17T00:27:47Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:27.360430+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "frankbuitrago3-code/control-asistencia",
+          "url": "https://github.com/frankbuitrago3-code/control-asistencia",
+          "snippet": "Control de asistencia para pymes: kiosco de fichaje con PIN, presencia en tiempo real, horas extra, tardanzas, ausencias y reporte de nómina en Excel. FastAPI + SQLAlchemy.",
+          "published_at": "2026-11-15T11:47:40Z",
+          "engagement": {
+            "stars": 0
+          },
+          "metadata": {
+            "updated_at": "2026-11-15T11:47:50Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:27.360453+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_repositories",
+          "title": "Camilo1408/Nomina-Xpress",
+          "url": "https://github.com/Camilo1408/Nomina-Xpress",
+          "snippet": "Nómina Xpress es un SaaS multi-tenant de gestión de nómina para restaurantes colombianos. Permite registrar horas, calcular salarios con tarifas diferenciadas para domingos y festivos, gestionar horarios semanales y generar reportes en PDF/Excel, con portal de consulta para empleados.",
+          "published_at": "2026-05-06T04:37:16Z",
+          "engagement": {
+            "stars": 1
+          },
+          "metadata": {
+            "updated_at": "2026-11-15T17:43:29Z",
+            "state": null,
+            "author": null
+          },
+          "discovered_at": "2026-11-20T03:43:27.360475+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "[EPIC] [P1][ERP/DATA] Import/Export + Portability — CSV/XLSX/JSON, dry-run, mapping y rollback seguro",
+          "url": "https://github.com/adelvisMartin/ContaGest/issues/770",
+          "snippet": "<!-- CG_661_EPIC_CONSOLIDATION_20261118 --> ## Autoridad consolidada del backlog — 18 nov 2026 **Este issue es uno de los 20 owners activos.** Almacena 3 subalcances migrados desde issues administrativos ya ejecutados, duplicados en planificación o incrementos ya fusionados. **El cierre administrativo de esos issues no elimina requisitos ni acredita automáticamente sus DoD.** El usuario informó QA manual positivo sobre `main@4f433ec05699ca1299d015cc0d6ad6f74dd3a9e6` tras #1330 (sin logs exact-SHA). Reutilizar código ya integrado y trabajar solo gaps concretos. No crear tickets separados para estos subalcances sin una brecha nueva justificada. **Control de aceptación común:** comprobar contra",
+          "published_at": "2026-09-29T22:54:23Z",
+          "engagement": {
+            "comments": 15
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T03:32:33Z",
+            "state": "closed",
+            "author": "adelvisMartin"
+          },
+          "discovered_at": "2026-11-20T03:43:28.298086+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "Tablón compartido de VetDosis · avances, responsables, bloqueos y entregas",
+          "url": "https://github.com/rojasalex9615-blip/Vetdosis-pruebAS/issues/31",
+          "snippet": "# Tablón compartido de VetDosis Actualizado: 2026-10-28 UTC · Codex, sesión activa con Ale. Ale pidió usar un tablón para compartir avances, responsables, bloqueos y entregas. La división antigua A/B/C quedó suspendida por indicación de Ale; se conserva abajo como historial, no como asignación vigente. ## Correcciones P1 actuales · candidatas [#64](https://github.com/rojasalex9615-blip/Vetdosis-pruebAS/pull/64), `fix/p1-patient-context-partial-returns-20261028`, SHA `08e87e606af5dda3c407956b85410ac0b1f3760b`, base #63 `e246f230051f46f8cfda40debfcdc743c6fbfc1e`. Refresco normal conserva paciente/peso; cambios reales y permisos revalidados invalidan. Devolución v3 atraviesa repositorio real. F",
+          "published_at": "2026-10-25T22:51:45Z",
+          "engagement": {
+            "comments": 468
+          },
+          "metadata": {
+            "updated_at": "2026-11-20T02:37:06Z",
+            "state": "open",
+            "author": "rojasalex9615-blip"
+          },
+          "discovered_at": "2026-11-20T03:43:28.298831+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "SeLoRecordamos · Editorial Outbox",
+          "url": "https://github.com/fabricelop/europapress-rss/issues/16",
+          "snippet": "Canal técnico de transporte para la evaluación editorial automática de SeLoRecordamos. La fuente de verdad sigue siendo `main`: `selorecordamos/assistant-output.json` y `selorecordamos/assistant-state.json`. Los comentarios `SELORECORDAMOS_OUTBOX_V1` son paquetes transitorios validados por GitHub Actions.",
+          "published_at": "2026-09-30T10:20:06Z",
+          "engagement": {
+            "comments": 133
+          },
+          "metadata": {
+            "updated_at": "2026-11-19T23:31:02Z",
+            "state": "open",
+            "author": "fabricelop"
+          },
+          "discovered_at": "2026-11-20T03:43:28.298866+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "github_issues",
+          "title": "ANALYSIS · Vinculación sencilla entre movimientos sin referencias automáticas innecesarias",
+          "url": "https://github.com/jmartinlabs/myfinanzas-app/issues/539",
+          "snippet": "## Revisión de Álex · ajustes pendientes a la SPEC v3 U-1 (#539, 19/11/2026) **Veredicto:** [SPEC v3 U-1 de Hermes](https://github.com/jmartinlabs/myfinanzas-app/issues/539#issuecomment-7023192274) **recoge correctamente la decisión B+D y la separación de U-2 a [#549](https://github.com/jmartinlabs/myfinanzas-app/issues/549)**, pero aún **no está aprobada**. La SPEC U-1 debe corregir y cerrar estos puntos sin reabrir decisiones funcionales ya tomadas. **No autoriza DEV, migraciones ni despliegue.** ### Correcciones concretas para la SPEC v3 1. **Unificar la ruta de alta con #538 (bloqueante).** §8.1 usa `POST /api/movimientos` con `body.devolucion`, mientras que #538 v2 §5.1 propone incorrec",
+          "published_at": "2026-11-19T11:10:30Z",
+          "engagement": {
+            "comments": 19
+          },
+          "metadata": {
+            "updated_at": "2026-11-19T23:05:03Z",
+            "state": "open",
+            "author": "jmartinlabs"
+          },
+          "discovered_at": "2026-11-20T03:43:28.299255+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Nómina | Spanish to English Translation - SpanishDictionary.com",
+          "url": "https://www.spanishdict.com/translate/n%C3%B3mina",
+          "snippet": "Translate Nómina. See 6 authoritative translations of Nómina in English with example sentences and audio pronunciations.",
+          "published_at": "Sun, 15 Nov 2026 03:04:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:28.843879+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Nómina - Wikipedia, la enciclopedia libre",
+          "url": "https://es.m.wikipedia.org/wiki/N%C3%B3mina",
+          "snippet": "La nómina es la factura que por imperativo de la normativa legal fiscal debe de confeccionar el empresario por los servicios prestados por unidad de tiempo (jornada) -hora, día, semana, o mes- de cada trabajador que este dado de alta en la empresa.",
+          "published_at": "Thu, 19 Nov 2026 07:45:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:28.843924+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "Nómina 2026 – Gerencie.com",
+          "url": "https://www.gerencie.com/nomina.html",
+          "snippet": "Qué es la nómina. La nómina es el conjunto de pagos que el empleador hace a sus trabajadores en cada periodo, sea semanal, quincenal o mensual. Comprende el salario básico y todo lo que el trabajador devenga en ese periodo, como comisiones, horas extras y recargos nocturnos, dominicales y festivos. Pero la nómina es más que el salario.",
+          "published_at": "Thu, 19 Nov 2026 06:05:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:28.843958+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        },
+        {
+          "platform": "bing_rss",
+          "title": "nómina | Definición | Diccionario de la lengua española | RAE - ASALE",
+          "url": "https://dle.rae.es/n%C3%B3mina",
+          "snippet": "f. Relación nominal de los individuos que en una oficina pública o particular han de percibir haberes y justificar con su firma haberlos recibido. La nómina de esa empresa es de trescientos empleados.",
+          "published_at": "Wed, 18 Nov 2026 23:46:00 GMT",
+          "engagement": {},
+          "metadata": {
+            "fallback_for": "duckduckgo"
+          },
+          "discovered_at": "2026-11-20T03:43:28.843986+00:00",
+          "volume": null,
+          "kd": null,
+          "cpc": null
+        }
+      ],
+      "cost_model": "no paid API",
+      "source_queries": {
+        "github_repos": "nómina excel",
+        "github_issues": "nómina excel",
+        "google_news_rss": "nómina excel errores",
+        "duckduckgo": "nómina excel errores",
+        "reddit": "nómina excel errores"
+      },
+      "keyword_metrics": {
+        "volume": null,
+        "kd": null,
+        "cpc": null
+      },
+      "total": 12,
+      "quality_screen": {
+        "method": "heuristic source/text triage; not SEO volume, paid intent, or actual user demand",
+        "review_count": 0,
+        "reference_count": 7,
+        "discarded_count": 5,
+        "review_leads": [],
+        "competitor_references": [
+          {
+            "platform": "github_repositories",
+            "title": "arrazola-consultores/arrazola-calculadoras-descargas",
+            "url": "https://github.com/arrazola-consultores/arrazola-calculadoras-descargas",
+            "snippet": "Descargas oficiales de Arrazola Calculadoras Fiscales para Windows. Calcula ISR, IVA y nómina y exporta papeles de trabajo e informes a Excel y PDF. Prueba de 15 días, manual y actualizaciones.",
+            "published_at": "2026-11-18T17:34:47Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-18T17:59:37Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:27.360391+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 61,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:excel,nómina",
+                "commercial_or_tool_context",
+                "published_within_7_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "excel",
+                "nómina"
+              ],
+              "published_age_days": 1,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "frankbuitrago3-code/control-asistencia",
+            "url": "https://github.com/frankbuitrago3-code/control-asistencia",
+            "snippet": "Control de asistencia para pymes: kiosco de fichaje con PIN, presencia en tiempo real, horas extra, tardanzas, ausencias y reporte de nómina en Excel. FastAPI + SQLAlchemy.",
+            "published_at": "2026-11-15T11:47:40Z",
+            "engagement": {
+              "stars": 0
+            },
+            "metadata": {
+              "updated_at": "2026-11-15T11:47:50Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:27.360453+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 61,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:excel,nómina",
+                "commercial_or_tool_context",
+                "published_within_7_days",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "excel",
+                "nómina"
+              ],
+              "published_age_days": 4,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "github_repositories",
+            "title": "Camilo1408/Nomina-Xpress",
+            "url": "https://github.com/Camilo1408/Nomina-Xpress",
+            "snippet": "Nómina Xpress es un SaaS multi-tenant de gestión de nómina para restaurantes colombianos. Permite registrar horas, calcular salarios con tarifas diferenciadas para domingos y festivos, gestionar horarios semanales y generar reportes en PDF/Excel, con portal de consulta para empleados.",
+            "published_at": "2026-05-06T04:37:16Z",
+            "engagement": {
+              "stars": 1
+            },
+            "metadata": {
+              "updated_at": "2026-11-15T17:43:29Z",
+              "state": null,
+              "author": null
+            },
+            "discovered_at": "2026-11-20T03:43:27.360475+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 47,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:excel,nómina",
+                "commercial_or_tool_context",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "excel",
+                "nómina"
+              ],
+              "published_age_days": 197,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Nómina | Spanish to English Translation - SpanishDictionary.com",
+            "url": "https://www.spanishdict.com/translate/n%C3%B3mina",
+            "snippet": "Translate Nómina. See 6 authoritative translations of Nómina in English with example sentences and audio pronunciations.",
+            "published_at": "Sun, 15 Nov 2026 03:04:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:28.843879+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:nómina",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "nómina"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Nómina - Wikipedia, la enciclopedia libre",
+            "url": "https://es.m.wikipedia.org/wiki/N%C3%B3mina",
+            "snippet": "La nómina es la factura que por imperativo de la normativa legal fiscal debe de confeccionar el empresario por los servicios prestados por unidad de tiempo (jornada) -hora, día, semana, o mes- de cada trabajador que este dado de alta en la empresa.",
+            "published_at": "Thu, 19 Nov 2026 07:45:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:28.843924+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:nómina",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "nómina"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "Nómina 2026 – Gerencie.com",
+            "url": "https://www.gerencie.com/nomina.html",
+            "snippet": "Qué es la nómina. La nómina es el conjunto de pagos que el empleador hace a sus trabajadores en cada periodo, sea semanal, quincenal o mensual. Comprende el salario básico y todo lo que el trabajador devenga en ese periodo, como comisiones, horas extras y recargos nocturnos, dominicales y festivos. Pero la nómina es más que el salario.",
+            "published_at": "Thu, 19 Nov 2026 06:05:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:28.843958+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:nómina",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "nómina"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          },
+          {
+            "platform": "bing_rss",
+            "title": "nómina | Definición | Diccionario de la lengua española | RAE - ASALE",
+            "url": "https://dle.rae.es/n%C3%B3mina",
+            "snippet": "f. Relación nominal de los individuos que en una oficina pública o particular han de percibir haberes y justificar con su firma haberlos recibido. La nómina de esa empresa es de trescientos empleados.",
+            "published_at": "Wed, 18 Nov 2026 23:46:00 GMT",
+            "engagement": {},
+            "metadata": {
+              "fallback_for": "duckduckgo"
+            },
+            "discovered_at": "2026-11-20T03:43:28.843986+00:00",
+            "volume": null,
+            "kd": null,
+            "cpc": null,
+            "quality": {
+              "score": 30,
+              "screening": "reference",
+              "reasons": [
+                "query_terms:nómina",
+                "commercial_or_tool_context",
+                "publication_date_unverified",
+                "context_only_not_first_person_demand",
+                "no_explicit_user_pain_in_snippet"
+              ],
+              "matched_query_terms": [
+                "nómina"
+              ],
+              "published_age_days": null,
+              "verified_volume": null,
+              "verified_kd": null,
+              "verified_cpc": null,
+              "is_verified_opportunity": false
+            }
+          }
+        ],
+        "discarded": [
+          {
+            "url": "https://github.com/Jordan-Valencia/back-gymdigital",
+            "title": "Jordan-Valencia/back-gymdigital",
+            "score": 21,
+            "reasons": [
+              "query_terms:excel",
+              "commercial_or_tool_context",
+              "stale_over_one_year",
+              "context_only_not_first_person_demand",
+              "no_explicit_user_pain_in_snippet",
+              "off_topic_contextual_reference"
+            ]
+          },
+          {
+            "url": "https://github.com/adelvisMartin/ContaGest/issues/770",
+            "title": "[EPIC] [P1][ERP/DATA] Import/Export + Portability — CSV/XLSX/JSON, dry-run, mapping y rollback seguro",
+            "score": 26,
+            "reasons": [
+              "problem_or_request_language",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/rojasalex9615-blip/Vetdosis-pruebAS/issues/31",
+            "title": "Tablón compartido de VetDosis · avances, responsables, bloqueos y entregas",
+            "score": 16,
+            "reasons": [
+              "published_within_30_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/fabricelop/europapress-rss/issues/16",
+            "title": "SeLoRecordamos · Editorial Outbox",
+            "score": 10,
+            "reasons": [
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_explicit_user_pain_in_snippet",
+              "no_topical_title_or_customer_attribution"
+            ]
+          },
+          {
+            "url": "https://github.com/jmartinlabs/myfinanzas-app/issues/539",
+            "title": "ANALYSIS · Vinculación sencilla entre movimientos sin referencias automáticas innecesarias",
+            "score": 49,
+            "reasons": [
+              "problem_or_request_language",
+              "commercial_or_tool_context",
+              "published_within_7_days",
+              "query_terms_not_found",
+              "github_issue_without_explicit_customer_voice",
+              "no_topical_title_or_customer_attribution"
+            ]
+          }
+        ],
+        "next_validation": [
+          "Check exact query Google Trends history",
+          "Check Volume/KD/CPC using real source",
+          "Inspect local country SERP",
+          "Verify independent user pain and payability"
+        ]
+      },
+      "research_scope": {
+        "issue_query": "nómina excel",
+        "market": "MX",
+        "topic": "payroll",
+        "intent": "manual_payroll_pain",
+        "locale": "es",
+        "kind": "specific_buyer_problem"
+      },
+      "repeat_links_across_queries": []
+    }
+  ],
+  "unique_evidence_links_across_queries": 87,
+  "warnings": [
+    "Search occurrences, heuristic scores and user issues do not prove search volume or willingness to pay.",
+    "Article/news hits and competitor repositories are contextual leads, not verified buyer demand.",
+    "Do not modify existing keyword lists or bypass exact-query Trends gates."
+  ]
+}
