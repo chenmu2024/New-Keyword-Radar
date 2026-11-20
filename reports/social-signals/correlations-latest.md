@@ -1,13 +1,13 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-20T01:15:17.972102+00:00
-- Source last updated: 2026-11-20T01:15:17.972102+00:00
-- Trends archive: 2026-11-20 (10/74; complete=False)
-- Eligible multiword rising queries: 74
+- Generated: 2026-11-20T11:34:09.991966+00:00
+- Source last updated: 2026-11-20T11:34:09.991966+00:00
+- Trends archive: 2026-11-20 (74/74; complete=True)
+- Eligible multiword rising queries: 460
 - Cross-source matches within 72h review window: 0
-- Social current-run links: 59, prior recent sightings: 212
+- Social current-run links: 55, prior recent sightings: 232
 - Search archives examined: 2026-11-20, 2026-11-19, 2026-11-18
-- Direct-post question-derived QUERY HYPOTHESES: 4
+- Direct-post question-derived QUERY HYPOTHESES: 3
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
@@ -15,9 +15,6 @@ No reliable full-query cross-source overlap found in this scan.
 
 ## Original public-post question hints (NOT validated search keywords)
 
-- Proposed query: **how i can make an audio file louder without butchering the**
-  - Original public post: https://bsky.app/profile/be-a-pal.bsky.social/post/3n2i6zszqls2p
-  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **to find where did that number come from**
   - Original public post: https://bsky.app/profile/seohyun0903.bsky.social/post/3n2ke6e24232p
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
