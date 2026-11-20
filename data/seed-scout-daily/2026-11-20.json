@@ -1,0 +1,548 @@
+{
+  "local_date": "2026-11-20",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "target_seed_count": 74,
+  "batches": [
+    {
+      "batch_id": "2026-11-20T00:34:30.049093+00:00-24-25-26-27-28",
+      "start_index": 24,
+      "seed_indices": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "generated_at": "2026-11-20T00:34:30.049093+00:00",
+      "local_generated_at": "2026-11-20T08:34:30.049093+08:00",
+      "seed_batch": [
+        "pattern",
+        "checker",
+        "detector",
+        "scraper",
+        "manager"
+      ],
+      "discovery_count": 49,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-20T00:36:08.734156+00:00-29-30-31-32-33",
+      "start_index": 29,
+      "seed_indices": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "generated_at": "2026-11-20T00:36:08.734156+00:00",
+      "local_generated_at": "2026-11-20T08:36:08.734156+08:00",
+      "seed_batch": [
+        "explorer",
+        "dashboard",
+        "planner",
+        "tracker",
+        "recorder"
+      ],
+      "discovery_count": 26,
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "generated_at": "2026-11-20T00:37:47.376828+00:00",
+      "local_generated_at": "2026-11-20T08:37:47.376828+08:00",
+      "start_index": 34,
+      "seed_indices": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "seed_batch": [
+        "optimizer",
+        "scheduler",
+        "converter",
+        "viewer",
+        "extractor"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    }
+  ],
+  "scanned_seeds": [
+    "pattern",
+    "checker",
+    "detector",
+    "scraper",
+    "manager",
+    "explorer",
+    "dashboard",
+    "planner",
+    "tracker",
+    "recorder"
+  ],
+  "discoveries": [
+    {
+      "seed": "tracker",
+      "query": "cbs marshals tracker return schedule",
+      "rise_value": 11350.0,
+      "raw_value": 11350
+    },
+    {
+      "seed": "tracker",
+      "query": "tracker blind spot",
+      "rise_value": 10300.0,
+      "raw_value": 10300
+    },
+    {
+      "seed": "tracker",
+      "query": "amy aquino",
+      "rise_value": 10200.0,
+      "raw_value": 10200
+    },
+    {
+      "seed": "tracker",
+      "query": "tracker s4e6",
+      "rise_value": 8850.0,
+      "raw_value": 8850
+    },
+    {
+      "seed": "tracker",
+      "query": "akvan cyclone tracker live today",
+      "rise_value": 7850.0,
+      "raw_value": 7850
+    },
+    {
+      "seed": "dashboard",
+      "query": "dashboard spr",
+      "rise_value": 4600.0,
+      "raw_value": 4600
+    },
+    {
+      "seed": "tracker",
+      "query": "akwan cyclone tracker",
+      "rise_value": 4500.0,
+      "raw_value": 4500
+    },
+    {
+      "seed": "scraper",
+      "query": "novire scraper",
+      "rise_value": 3800.0,
+      "raw_value": 3800
+    },
+    {
+      "seed": "tracker",
+      "query": "cyclone akwan tracker live",
+      "rise_value": 2650.0,
+      "raw_value": 2650
+    },
+    {
+      "seed": "checker",
+      "query": "ask silver scam checker",
+      "rise_value": 1950.0,
+      "raw_value": 1950
+    },
+    {
+      "seed": "manager",
+      "query": "makro manager pie pricing dispute",
+      "rise_value": 1900.0,
+      "raw_value": 1900
+    },
+    {
+      "seed": "tracker",
+      "query": "akvan cyclone tracker live",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "detector",
+      "query": "apple down detector",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "tracker",
+      "query": "cyclone live tracker",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "tracker",
+      "query": "zzz pull tracker",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "tracker",
+      "query": "gta 6 sales tracker",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "tracker",
+      "query": "cyclone tracker",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "tracker",
+      "query": "project 2025 tracker",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "pattern",
+      "query": "scalping pattern breakout ideas",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "detector",
+      "query": "claude down detector",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "tracker",
+      "query": "live cyclone tracker map",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "scraper",
+      "query": "how to get ice off windshield without scraper",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "checker",
+      "query": "aquaria digital",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "checker",
+      "query": "aquaria digital marketing agency",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "checker",
+      "query": "stress checker",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "detector",
+      "query": "smoke detector installation",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "pattern",
+      "query": "sbi clerk mains exam pattern",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "pattern",
+      "query": "sbi clerk mains pattern",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "detector",
+      "query": "steam down detector",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "scraper",
+      "query": "windscreen scraper",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "tracker",
+      "query": "flightaware flight tracker",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "explorer",
+      "query": "schedule explorer pace",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "pattern",
+      "query": "sbi clerk mains exam pattern 2026",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "scraper",
+      "query": "karcher ice scraper",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "detector",
+      "query": "radon detector",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "scraper",
+      "query": "car ice scraper",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "scraper",
+      "query": "ice scraper for car",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "detector",
+      "query": "portable carbon monoxide detector",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "scraper",
+      "query": "proxy scraper free web",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "manager",
+      "query": "scotland manager",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "explorer",
+      "query": "pi explorer",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "scraper",
+      "query": "car scraper",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "dashboard",
+      "query": "dashboard abm",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scraper",
+      "query": "ice scraper",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scraper",
+      "query": "windshield ice scraper",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "scraper",
+      "query": "best ice scraper",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "pattern",
+      "query": "ssc cpo exam pattern",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "scraper",
+      "query": "windshield scraper",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "detector",
+      "query": "down detector website",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "detector",
+      "query": "downtime detector",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "scraper",
+      "query": "heated ice scraper",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "manager",
+      "query": "nordpass password manager",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "checker",
+      "query": "backlink checker regalseo",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "scraper",
+      "query": "best ice scraper for car",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "manager",
+      "query": "contact manager networkfinds blog",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "checker",
+      "query": "domain age checker regalseo",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "scraper",
+      "query": "electric ice scraper",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "planner",
+      "query": "poe atlas planner",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "planner",
+      "query": "poe planner",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "manager",
+      "query": "contact manager networkfinds wesbite blog",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "checker",
+      "query": "domain expiry checker regalseo",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "detector",
+      "query": "down detector canada",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "planner",
+      "query": "planner 5d login",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "manager",
+      "query": "contact manager with herroyalguardian",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "dashboard",
+      "query": "lekhpal dashboard",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "checker",
+      "query": "meta tag checker regalseo",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "planner",
+      "query": "stil planner",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "checker",
+      "query": "virgin reward seat checker",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "pattern",
+      "query": "analyze my 12 months of credit card bills' spending pattern and suggest ways to save.",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "pattern",
+      "query": "antique pattern library",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "detector",
+      "query": "down detector",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "dashboard",
+      "query": "nss dashboard",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "pattern",
+      "query": "pattern 中文",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "explorer",
+      "query": "schedule explorer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "checker",
+      "query": "domain age checker",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "discovery_count": 75,
+  "updated_at": "2026-11-20T00:37:47.376828+00:00",
+  "scanned_seed_count": 10,
+  "batch_count": 2,
+  "attempted_seed_count": 15,
+  "complete_20_seeds": false,
+  "complete_daily_target": false,
+  "completion_pct": 13.5,
+  "failed_seed_count": 5
+}
