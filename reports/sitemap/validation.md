@@ -1,4 +1,4 @@
-# Sitemap to Google Trends validation — 2026-11-20
+# Sitemap to Google Trends validation — 2026-11-21
 
 This is independent research; original keyword seeds, commercial
 thresholds and the main radar candidate ranking are untouched.

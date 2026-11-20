@@ -1,6 +1,6 @@
 # 跨独立网站 Sitemap 同步上新观察
 
-观察截止：2026-11-20；滚动窗口：2026-11-14—2026-11-20（均为北京时间日期）。
+观察截止：2026-11-21；滚动窗口：2026-11-15—2026-11-21（均为北京时间日期）。
 
 **Sitemap 首见并不等于首次发行、真实24小时内上架或搜索量；同名和文件格式归并必须人工核实。**
 只有具备真实source_id、详情URL和first_seen的相对基线新增，才能成为候选。
@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-20T18:24:19.819914+08:00；详细候选：12000；7日轻量URL证据：12908/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：126/135；数据生成：2026-11-21T05:56:36.703709+08:00；详细候选：12000；7日轻量URL证据：12619/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 253，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 89，采样上限遗漏 0。
 
 - **treasures of the mystic sea 2**：不同根域 6 家；同一天峰值 3 家、连续3日 5 家、7日共 6 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-16 · https://gamedistribution.com/games/treasures-of-the-mystic-sea-2/ · 原词 treasures of the mystic sea 2
@@ -59,20 +59,20 @@
   - agame.com · agame-en · 2026-11-18 · https://www.agame.com/game/valley-of-dreams-build-your-world · 原词 valley of dreams build your world
   - gamesgames.com · gamesgames-en · 2026-11-18 · https://www.gamesgames.com/game/valley-of-dreams-build-your-world · 原词 valley of dreams build your world
   - girlsgogames.com · girlsgogames-en · 2026-11-18 · https://www.girlsgogames.com/game/valley-of-dreams-build-your-world · 原词 valley of dreams build your world
+- **bayday io**：不同根域 3 家；同一天峰值 1 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - y8.com · y8-en · 2026-11-19 · https://www.y8.com/games/bayday_io · 原词 bayday io
+  - gamenora.com · gamenora-en · 2026-11-20 · https://www.gamenora.com/game/bayday-io/ · 原词 bayday io
+  - minijuegos.com · minijuegos-es · 2026-11-21 · https://www.minijuegos.com/juego/bayday-io · 原词 bayday io
 - **chicken soup saras cooking class**：不同根域 3 家；同一天峰值 3 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - agame.com · agame-en · 2026-11-18 · https://www.agame.com/game/chicken-soup-saras-cooking-class · 原词 chicken soup saras cooking class
   - gamesgames.com · gamesgames-en · 2026-11-18 · https://www.gamesgames.com/game/chicken-soup-saras-cooking-class · 原词 chicken soup saras cooking class
   - girlsgogames.com · girlsgogames-en · 2026-11-18 · https://www.girlsgogames.com/game/chicken-soup-saras-cooking-class · 原词 chicken soup saras cooking class
-- **crazy plinko**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamedistribution.com · gamedistribution-games · 2026-11-18 · https://gamedistribution.com/games/crazy-plinko/ · 原词 crazy plinko
-  - gamepix.com · gamepix-en · 2026-11-18 · https://www.gamepix.com/play/crazy-plinko · 原词 crazy plinko
-  - minijuegos.com · minijuegos-es · 2026-11-19 · https://www.minijuegos.com/juego/crazy-plinko · 原词 crazy plinko
 
 失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 207，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 24，采样上限遗漏 0。
 
 - **sheets bootcamp**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-16 · https://fazier.com/launches/sheets-bootcamp · 原词 sheets bootcamp
@@ -114,7 +114,7 @@
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 20，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 25，采样上限遗漏 0。
 
 - **ai test automation**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aiagentstore.ai · aiagentstore-agents · 2026-11-18 · https://aiagentstore.ai/get-ai-agent/ai-test-automation · 原词 ai test automation
@@ -122,12 +122,6 @@
 - **davinci ai**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-20 · https://aitoolsdirectory.com/tool/davinci-ai · 原词 davinci ai
   - aitoptools.com · aitoptools-tools · 2026-11-20 · https://aitoptools.com/tool/davinci-ai/ · 原词 davinci ai
-- **triverse ai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - aixploria.com · aixploria-tools · 2026-11-14 · https://www.aixploria.com/triverse-ai/ · 原词 triverse ai
-  - dang.ai · dangai-tools · 2026-11-16 · https://dang.ai/tool/triverse-ai · 原词 triverse ai
-- **ai visibility**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - aitoptools.com · aitoptools-tools · 2026-11-14 · https://aitoptools.com/tool/ai-visibility/ · 原词 ai visibility
-  - aiagentstore.ai · aiagentstore-agents · 2026-11-18 · https://aiagentstore.ai/get-ai-agent/ai-visibility · 原词 ai visibility
 
 ## 计算器
 
@@ -139,7 +133,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 15，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 616，采样上限遗漏 496。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -147,15 +141,17 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 461，采样上限遗漏 265。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 254，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
 ## 巴西在线工具
 
-采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 8，采样上限遗漏 0。
+采集：9/10来源，配置根域 10，新建基线 0，失败 1，新增 URL 6，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
+
+失败来源：devdata4-br (HTTPError: HTTP Error 429: Too Many Requests)
 
 ## 跨类别同名或同向文件转换（仅作人工复核）
 
