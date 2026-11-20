@@ -1,0 +1,153 @@
+{
+  "batch_id": "2026-11-20T18:34:45.080816+00:00-36-37-38-39-40",
+  "generated_at": "2026-11-20T18:34:45.080816+00:00",
+  "local_generated_at": "2026-11-21T02:34:45.080816+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "converter",
+    "viewer",
+    "extractor",
+    "monitor",
+    "notifier"
+  ],
+  "seed_indices": [
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "start_index": 36,
+  "discoveries": [
+    {
+      "seed": "notifier",
+      "query": "firesense",
+      "rise_value": 13450.0,
+      "raw_value": 13450
+    },
+    {
+      "seed": "notifier",
+      "query": "synonyme de notifier",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "notifier",
+      "query": "p2rled",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "notifier",
+      "query": "ibm notifier",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier synonyme",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier def",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "monitor",
+      "query": "ps5 monitor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "ps5 pkg extractor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "extractor",
+      "query": "honey extractor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "notifier",
+      "query": "terminal notifier",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "notifier",
+      "query": "ts notifier",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "monitor",
+      "query": "best monitor for ps5",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "monitor",
+      "query": "gaming monitor for ps5",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "notifier nfs2-3030",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "notifier",
+      "query": "notifire",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "monitor",
+      "query": "oled monitor 4k",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "monitor",
+      "query": "oled tv",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "monitor",
+      "query": "playstation monitor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "monitor",
+      "query": "gaming monitor 4k",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "monitor",
+      "query": "oled gaming monitor",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "extractor",
+      "query": "welding fume extractor",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 21
+}
