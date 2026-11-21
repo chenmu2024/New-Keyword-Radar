@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-21T03:57:46.201190+00:00
+# V4 Social signal discovery — 2026-11-21T15:20:42.658389+00:00
 
-- Unique links this run: 62, newly seen: 37, history: 2240
+- Unique links this run: 60, newly seen: 23, history: 2263
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (4) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (2) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (34)
@@ -20,34 +20,32 @@
 
 ## Links (not validated project opportunities)
 
-- [Same Moon](https://www.producthunt.com/products/same-moon) — producthunt — direct_public_feed
-- [InteraOne](https://www.producthunt.com/products/interaone) — producthunt — direct_public_feed
-- [Groundwork](https://www.producthunt.com/products/groundwork-6) — producthunt — direct_public_feed
-- [tripps](https://www.producthunt.com/products/tripps) — producthunt — direct_public_feed
-- [pickfit](https://www.producthunt.com/products/pickfit) — producthunt — direct_public_feed
-- [DWaste](https://www.producthunt.com/products/deep-waste) — producthunt — direct_public_feed
-- [lipalive/lipa-mini](https://huggingface.co/spaces/lipalive/lipa-mini) — huggingface — direct_public_api
-- [bbuckland/credit-default-network](https://huggingface.co/spaces/bbuckland/credit-default-network) — huggingface — direct_public_api
-- [Aloksingh10/haryane-ka-jaat](https://huggingface.co/spaces/Aloksingh10/haryane-ka-jaat) — huggingface — direct_public_api
-- [walelang/bartox-ai](https://huggingface.co/spaces/walelang/bartox-ai) — huggingface — direct_public_api
-- [Deepakjee/rag-colosseum](https://huggingface.co/spaces/Deepakjee/rag-colosseum) — huggingface — direct_public_api
-- [chiraag/credit-risk-xgboost](https://huggingface.co/spaces/chiraag/credit-risk-xgboost) — huggingface — direct_public_api
-- [Yeah, the theory is that you need more power tools than batteries so it's cheaper overall when kitting yourself out to have tools without a battery and buy one or two batteries. B](https://bsky.app/profile/orthanc.nz/post/3n2s4ytddms2k) — bluesky — direct_public_post — intent keyword found
-- [Need to redo this whole guy caus I hate hate hate how it came out even with Design Doll as a tool assist](https://bsky.app/profile/furskidoodlevtuber.bsky.social/post/3n2s4xry2ck2f) — bluesky — direct_public_post — intent keyword found
-- [Screen recorders capture pixels. Subtitles need text. Different job, different tool — which is why a recorder will never produce a clean SRT. Free 60-second trial: https://linguare](https://bsky.app/profile/tttyyyy00.bsky.social/post/3n2s4bg3j7z2a) — bluesky — direct_public_post — intent keyword found
-- [Free tool: Saddle Stitch Booklet Calculator — a 20-page booklet needs 5 sheets. See exactly which pages share each sheet, so your folded booklet lands in the right order. For zine](https://bsky.app/profile/chudaoxianren.bsky.social/post/3n2s4bdcamk2h) — bluesky — direct_public_post — intent keyword found
-- [Recorded Healthcare Simulation: The Impact of Objective Assessments and Clinical Judgment in Nursing with AI https://learn.health... #HealthcareSimulation #ClinicalSimulation #Me](https://bsky.app/profile/healthysim.bsky.social/post/3n2s3ttabns2v) — bluesky — direct_public_post
-- [The parents whose child acted like a tool and killed Fiona the hippo need to be held accountable. Major fines and banned from the zoo for life - which includes the kid. If you act](https://bsky.app/profile/mycatsname.bsky.social/post/3n2s2a5feqs2r) — bluesky — direct_public_post — intent keyword found
-- [Describe an idea, get an animated story video 🐉 Type your idea and VidZonic AI writes the story, creates the characters and builds every scene. What story would you make? 👇 Want Vi](https://mastodon.social/@rankmarket99/117644172486559739) — mastodon — direct_public_post
-- [3 AutoCinema AI features worth knowing 1️⃣ Redraw any shot 2️⃣ Dub in another language 3️⃣ Continue the story with AI Which one first? 👇 Want AutoCinema AI at a low price? Message](https://mastodon.social/@rankmarket99/117642992709033656) — mastodon — direct_public_post
-- [Lance ta chaîne YouTube sans montrer ton visage. Le système complet : 20 angles viraux + 8 prompts + le pipeline de l'idée à la publication en ~2h. Le produit : https:// seepath.gu](https://mastodon.social/@seepathagency/117640496041866288) — mastodon — direct_public_post
-- [An AI movie in 3 steps Step 1: describe the idea. Step 2: review the cast and storyboard. Step 3: preview the whole film with voices. Save this 📌 Want AutoCinema AI at a low price?](https://mastodon.social/@rankmarket99/117638038230526319) — mastodon — direct_public_post
+- [gitroots](https://www.producthunt.com/products/gitroots) — producthunt — direct_public_feed
+- [LoudFlow](https://www.producthunt.com/products/loudflow) — producthunt — direct_public_feed
+- [SuperMailbox](https://www.producthunt.com/products/supermailbox) — producthunt — direct_public_feed
+- [Stitch Loop](https://www.producthunt.com/products/stitch-loop) — producthunt — direct_public_feed
+- [AnyProfile](https://www.producthunt.com/products/anyprofile) — producthunt — direct_public_feed
+- [Publicit](https://www.producthunt.com/products/publicit) — producthunt — direct_public_feed
+- [Birhan-AI/recharacter-ai](https://huggingface.co/spaces/Birhan-AI/recharacter-ai) — huggingface — direct_public_api
+- [kokabtak/Azmaish.fizik2](https://huggingface.co/spaces/kokabtak/Azmaish.fizik2) — huggingface — direct_public_api
+- [Simzy/wan22-i2v-v3-extend](https://huggingface.co/spaces/Simzy/wan22-i2v-v3-extend) — huggingface — direct_public_api
+- [Simzy/wan22-i2v-v3](https://huggingface.co/spaces/Simzy/wan22-i2v-v3) — huggingface — direct_public_api
+- [rovargasc/whisper_test](https://huggingface.co/spaces/rovargasc/whisper_test) — huggingface — direct_public_api
+- [fethi111/course](https://huggingface.co/spaces/fethi111/course) — huggingface — direct_public_api
+- [Full guide: cellwise.app/templates/r...](https://bsky.app/profile/talleyds.bsky.social/post/3n2lzswwpup2k) — bluesky — direct_public_post
+- [School Bulletin Boards will hook you up with some bulletin board inspiration. And we are always looking for more submissions from teachers just like you!](https://bsky.app/profile/theocblog.bsky.social/post/3n2lj2kaqpr2j) — bluesky — direct_public_post
+- [You can pass data to routed pages directly from the component that hosts `router-outlet` via an injection token, which sounds cool... But I honestly struggle to see when this coul](https://bsky.app/profile/armenvardanyan.dev/post/3n2lg33xzgk2s) — bluesky — direct_public_post
+- [Empty card, no schema, no benchmarks, 2026 dates — reads like a dev mirror, not a release. Still: 114K DeepSeek-R1 traces under Apache-2.0, template-free, so it drops into any chat](https://bsky.app/profile/aichina.news/post/3n2irt5wr4i2t) — bluesky — direct_public_post — intent keyword found
+- [Bordo: Restaurant Framer template (Free). A premium restaurant Framer template for fine dining, bistros, trattorias, cafes, wine bars and any food and hospitality. Created by Slava](https://bsky.app/profile/templita.bsky.social/post/3n2f7wc4ywz2t) — bluesky — direct_public_post — intent keyword found
+- ["The Ancestors" was made with Blender 3D back in 2021. It is now an audioreactive template, free to download on vizloom.com/ and easy to apply to any music track for your next audi](https://bsky.app/profile/vizloom.bsky.social/post/3n27mb4krh72k) — bluesky — direct_public_post — intent keyword found
+- [The Chromium open-source browser project has released version 160.0.8176.0, dated November 21, 2026. The installation file size is 352 MB. This version remains compatible with Wind](https://mastodon.social/@hacksgr/117655071928384990) — mastodon — direct_public_post
+- [A user shares their discontent with Framework hardware, sparking debate on quality and support in the tech community. # Darkwood # PHP # OpenSource https:// blog.darkwood.com/fr/ar](https://mastodon.social/@matyo91/117655044734819526) — mastodon — direct_public_post
+- [Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?](https://news.ycombinator.com/item?id=50583761) — hackernews_ask — direct_public_post
 - [I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA](https://news.ycombinator.com/item?id=50577613) — hackernews_ask — direct_public_post
-- [I have been unemployed for 2y.15YOE,US.What to do?](https://news.ycombinator.com/item?id=50583761) — hackernews_ask — direct_public_post
-- [How do we get 1 TW a year of orbital compute by 2035?](https://news.ycombinator.com/item?id=50585530) — hackernews_ask — direct_public_post
+- [Tell HN: OpenRouter prompts to Minimax may have been read](https://news.ycombinator.com/item?id=50585962) — hackernews_ask — direct_public_post — intent keyword found
 - [This Industrial Revolution Belongs to the Builders](https://news.ycombinator.com/item?id=50583252) — hackernews_ask — direct_public_post — intent keyword found
-- [Ask HN: Should Uber Ratings Decay over Time?](https://news.ycombinator.com/item?id=50583294) — hackernews_ask — direct_public_post
-- [Ask HN: What is the best travel aggregator for cheapest flight tickets in 2026?](https://news.ycombinator.com/item?id=50585561) — hackernews_ask — direct_public_post
+- [Ask HN: Rust, Zig, or C?](https://news.ycombinator.com/item?id=50586653) — hackernews_ask — direct_public_post
+- [Ask HN: What is your current hardware set up?](https://news.ycombinator.com/item?id=50587796) — hackernews_ask — direct_public_post
 - [b4769 Note 9: Advances & Repayments fields overlap and opening balance save unclear](https://github.com/raz744u-beep/briskers-app-public/issues/507) — github_issue — direct_public_issue_api
 - [P1 Android: Edit Service Task Assigned Hours selects value but numeric keyboard never opens](https://github.com/raz744u-beep/briskers-app-public/issues/501) — github_issue — direct_public_issue_api — intent keyword found
 - [[OpenSpec 2026-06-02-bookkeeping-waterschappen-bbv-variant-SUPERSEDED-BY-CHAIN](https://github.com/ConductionNL/shillinq/issues/578) — github_issue — direct_public_issue_api
@@ -60,3 +58,5 @@
 - [🧭 ПЛАНЁРКА BybitScanner — три роли подтверждены](https://github.com/svobodaXXI/BybitScanner/issues/1077) — github_issue — direct_public_issue_api
 - [Estate deep audit 2026-11-15 (10-pass GH + 10-pass HF)](https://github.com/szl-holdings/szl-org-health/issues/348) — github_issue — direct_public_issue_api
 - [Let church admins connect Rock RMS and link people to their Rock records](https://github.com/cwaits6/two42/issues/833) — github_issue — direct_public_issue_api
+- [Ask HN: Building KasirCepat, an offline-first POS for Indonesia](https://news.ycombinator.com/item?id=49692067) — hackernews_ask — indexed_public_post_excerpt
+- [Ask HN: Would a startup for young creatives who reject AI be feasible?](https://news.ycombinator.com/item?id=49689696) — hackernews_ask — indexed_public_post_excerpt
