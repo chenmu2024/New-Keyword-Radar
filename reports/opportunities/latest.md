@@ -1,8 +1,8 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-21T03:13:44.795829+00:00
-- Historical candidates: 6867
-- Newly recorded from pending: 24
+- Updated (UTC): 2026-11-21T14:33:42.687558+00:00
+- Historical candidates: 6955
+- Newly recorded from pending: 88
 - Awaiting 7/14/30-day evidence review: 5632
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
@@ -12,28 +12,28 @@
 - best pizza recipe [Global] — discovered — first 2026-11-21, last 2026-11-21
 - flux fm [Global] — discovered — first 2026-11-21, last 2026-11-21
 - synonyme de notifier [Global] — discovered — first 2026-11-21, last 2026-11-21
+- weakness analyzer wow forever [Global] — discovered — first 2026-11-21, last 2026-11-21
 - best running shoes [Global] — discovered — first 2026-11-21, last 2026-11-21
 - online casino österreich 🇦🇹 casinod.diy 🇦🇹 [Global] — discovered — first 2026-11-21, last 2026-11-21
 - welding fume extractor [Global] — discovered — first 2026-11-21, last 2026-11-21
 - portal crossword clue [Global] — discovered — first 2026-11-21, last 2026-11-21
 - ioe [Global] — discovered — first 2026-11-21, last 2026-11-21
+- ja'marr chase [Global] — discovered — first 2026-11-21, last 2026-11-21
+- rotoballer trade analyzer [Global] — discovered — first 2026-11-21, last 2026-11-21
+- dylan hynes centra manager [Global] — discovered — first 2026-11-21, last 2026-11-21
 - a hunting we will go composer [Global] — discovered — first 2026-11-21, last 2026-11-21
+- saleae logic analyzer [Global] — discovered — first 2026-11-21, last 2026-11-21
+- eu youth mobility scheme [Global] — discovered — first 2026-11-21, last 2026-11-21
+- ai web scraper [Global] — discovered — first 2026-11-21, last 2026-11-21
 - cornell student center [Global] — discovered — first 2026-11-21, last 2026-11-21
+- cm solar scheme phase 2 [Global] — discovered — first 2026-11-21, last 2026-11-21
 - sender.net [Global] — discovered — first 2026-11-21, last 2026-11-21
+- superheterodyne receiver [Global] — discovered — first 2026-11-21, last 2026-11-21
+- exitlag free trial [Global] — discovered — first 2026-11-21, last 2026-11-21
 - composer franz crossword [Global] — discovered — first 2026-11-21, last 2026-11-21
 - artstation [Global] — discovered — first 2026-11-21, last 2026-11-21
 - 3ds recorder [Global] — discovered — first 2026-11-21, last 2026-11-21
 - eon flux [Global] — discovered — first 2026-11-21, last 2026-11-21
-- firesense [Global] — discovered — first 2026-11-21, last 2026-11-21
-- best laptops [Global] — discovered — first 2026-11-21, last 2026-11-21
-- email checker [Global] — discovered — first 2026-11-21, last 2026-11-21
-- food processor kenwood [Global] — discovered — first 2026-11-21, last 2026-11-21
-- base del constructor clash of clans [Global] — discovered — first 2026-11-21, last 2026-11-21
-- parameterized constructor [Global] — discovered — first 2026-11-21, last 2026-11-21
-- antec flux pro [Global] — discovered — first 2026-11-21, last 2026-11-21
-- c++ constructor initializer list [Global] — discovered — first 2026-11-21, last 2026-11-21
-- generator for house [Global] — discovered — first 2026-11-21, last 2026-11-21
-- amd ryzen 7 5800x3d 8-core/16-thread processor [Global] — discovered — first 2026-11-21, last 2026-11-21
 
 ## Due for follow-up
 
