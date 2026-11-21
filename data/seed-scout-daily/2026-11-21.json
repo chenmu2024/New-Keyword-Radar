@@ -246,6 +246,92 @@
       ],
       "discovery_count": 27,
       "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-21T03:08:43.312431+00:00-17-18-19-20-21",
+      "start_index": 17,
+      "seed_indices": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "generated_at": "2026-11-21T03:08:43.312431+00:00",
+      "local_generated_at": "2026-11-21T11:08:43.312431+08:00",
+      "seed_batch": [
+        "uploader",
+        "calculator",
+        "sample",
+        "template",
+        "format"
+      ],
+      "discovery_count": 37,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-21T03:10:21.880150+00:00-22-23-24-25-26",
+      "start_index": 22,
+      "seed_indices": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "generated_at": "2026-11-21T03:10:21.880150+00:00",
+      "local_generated_at": "2026-11-21T11:10:21.880150+08:00",
+      "seed_batch": [
+        "builder",
+        "scheme",
+        "pattern",
+        "checker",
+        "detector"
+      ],
+      "discovery_count": 47,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-21T03:12:00.247547+00:00-27-28-29-30-12",
+      "start_index": 27,
+      "seed_indices": [
+        27,
+        28,
+        29,
+        30,
+        12
+      ],
+      "generated_at": "2026-11-21T03:12:00.247547+00:00",
+      "local_generated_at": "2026-11-21T11:12:00.247547+08:00",
+      "seed_batch": [
+        "scraper",
+        "manager",
+        "explorer",
+        "dashboard",
+        "analyzer"
+      ],
+      "discovery_count": 45,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-21T03:13:38.834146+00:00-13-14-15-16",
+      "start_index": 13,
+      "seed_indices": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "generated_at": "2026-11-21T03:13:38.834146+00:00",
+      "local_generated_at": "2026-11-21T11:13:38.834146+08:00",
+      "seed_batch": [
+        "evaluator",
+        "sender",
+        "receiver",
+        "interpreter"
+      ],
+      "discovery_count": 36,
+      "status": "ok"
     }
   ],
   "errors": [
@@ -325,7 +411,26 @@
     "editor",
     "processor",
     "designer",
-    "compiler"
+    "compiler",
+    "uploader",
+    "calculator",
+    "sample",
+    "template",
+    "format",
+    "builder",
+    "scheme",
+    "pattern",
+    "checker",
+    "detector",
+    "scraper",
+    "manager",
+    "explorer",
+    "dashboard",
+    "analyzer",
+    "evaluator",
+    "sender",
+    "receiver",
+    "interpreter"
   ],
   "discoveries": [
     {
@@ -339,6 +444,12 @@
       "query": "tradecopia",
       "rise_value": 134850.0,
       "raw_value": 134850
+    },
+    {
+      "seed": "scheme",
+      "query": "national student financial aid scheme",
+      "rise_value": 95200.0,
+      "raw_value": 95200
     },
     {
       "seed": "optimizer",
@@ -419,6 +530,12 @@
       "raw_value": 18250
     },
     {
+      "seed": "manager",
+      "query": "makro manager pie pricing dispute",
+      "rise_value": 16900.0,
+      "raw_value": 16900
+    },
+    {
       "seed": "composer",
       "query": "loyal follower crossword clue",
       "rise_value": 16250.0,
@@ -455,6 +572,18 @@
       "raw_value": 13450
     },
     {
+      "seed": "scheme",
+      "query": "labour pension for life scheme risks",
+      "rise_value": 12600.0,
+      "raw_value": 12600
+    },
+    {
+      "seed": "scheme",
+      "query": "shattering the scheme of ungrateful daughter",
+      "rise_value": 12350.0,
+      "raw_value": 12350
+    },
+    {
       "seed": "composer",
       "query": "australian composer jane stanley",
       "rise_value": 12300.0,
@@ -477,6 +606,12 @@
       "query": "amy aquino",
       "rise_value": 10550.0,
       "raw_value": 10550
+    },
+    {
+      "seed": "format",
+      "query": "icc 2027 world cup qualifier format",
+      "rise_value": 10250.0,
+      "raw_value": 10250
     },
     {
       "seed": "composer",
@@ -503,6 +638,12 @@
       "raw_value": 9400
     },
     {
+      "seed": "evaluator",
+      "query": "crowdgen by appen",
+      "rise_value": 9150.0,
+      "raw_value": 9150
+    },
+    {
       "seed": "game",
       "query": "mottle game",
       "rise_value": 8950.0,
@@ -521,10 +662,28 @@
       "raw_value": 8550
     },
     {
+      "seed": "scheme",
+      "query": "capita troubles pension scheme apology",
+      "rise_value": 8450.0,
+      "raw_value": 8450
+    },
+    {
       "seed": "composer",
       "query": "stomach crossword clue",
       "rise_value": 8400.0,
       "raw_value": 8400
+    },
+    {
+      "seed": "builder",
+      "query": "bloukrans bridge builder concor rescue",
+      "rise_value": 8350.0,
+      "raw_value": 8350
+    },
+    {
+      "seed": "analyzer",
+      "query": "backtofrontshow.com",
+      "rise_value": 8250.0,
+      "raw_value": 8250
     },
     {
       "seed": "scheduler",
@@ -605,10 +764,34 @@
       "raw_value": 5800
     },
     {
+      "seed": "scheme",
+      "query": "nhs pension scheme public consultation",
+      "rise_value": 5750.0,
+      "raw_value": 5750
+    },
+    {
+      "seed": "calculator",
+      "query": "saasswitcher saas roi calculator",
+      "rise_value": 5400.0,
+      "raw_value": 5400
+    },
+    {
       "seed": "creator",
       "query": "anthropic claude code creator engineer",
       "rise_value": 5200.0,
       "raw_value": 5200
+    },
+    {
+      "seed": "manager",
+      "query": "dylan hynes centra manager",
+      "rise_value": 5050.0,
+      "raw_value": 5050
+    },
+    {
+      "seed": "sample",
+      "query": "with jean sample sale",
+      "rise_value": 4650.0,
+      "raw_value": 4650
     },
     {
       "seed": "game",
@@ -677,6 +860,24 @@
       "raw_value": 3300
     },
     {
+      "seed": "receiver",
+      "query": "wide receiver rankings week 11",
+      "rise_value": 3300.0,
+      "raw_value": 3300
+    },
+    {
+      "seed": "scheme",
+      "query": "cm solar scheme phase 2",
+      "rise_value": 3250.0,
+      "raw_value": 3250
+    },
+    {
+      "seed": "format",
+      "query": "le passage au format carte de crédit est désormais sans frais avant la fin de validité",
+      "rise_value": 3200.0,
+      "raw_value": 3200
+    },
+    {
       "seed": "example",
       "query": "uber and lyft for example nyt",
       "rise_value": 3200.0,
@@ -701,6 +902,12 @@
       "raw_value": 2700
     },
     {
+      "seed": "scheme",
+      "query": "dinarcoin deposit scheme prosecution malaysia",
+      "rise_value": 2500.0,
+      "raw_value": 2500
+    },
+    {
       "seed": "game",
       "query": "othello",
       "rise_value": 2450.0,
@@ -715,6 +922,12 @@
     {
       "seed": "composer",
       "query": "film composer menken",
+      "rise_value": 2300.0,
+      "raw_value": 2300
+    },
+    {
+      "seed": "builder",
+      "query": "google forms alternatives",
       "rise_value": 2300.0,
       "raw_value": 2300
     },
@@ -779,10 +992,34 @@
       "raw_value": 1950
     },
     {
+      "seed": "sample",
+      "query": "redbull free sample",
+      "rise_value": 1950.0,
+      "raw_value": 1950
+    },
+    {
       "seed": "processor",
       "query": "amd ryzen 7 9850x3d processor 4.7 ghz 96 mb l3 tray",
       "rise_value": 1900.0,
       "raw_value": 1900
+    },
+    {
+      "seed": "builder",
+      "query": "typeform alternatives",
+      "rise_value": 1850.0,
+      "raw_value": 1850
+    },
+    {
+      "seed": "builder",
+      "query": "squarespace alternatives",
+      "rise_value": 1800.0,
+      "raw_value": 1800
+    },
+    {
+      "seed": "receiver",
+      "query": "steelers trade deadline receiver analysis",
+      "rise_value": 1800.0,
+      "raw_value": 1800
     },
     {
       "seed": "editor",
@@ -827,6 +1064,18 @@
       "raw_value": 1550
     },
     {
+      "seed": "analyzer",
+      "query": "letterboxd top 4 analyzer",
+      "rise_value": 1550.0,
+      "raw_value": 1550
+    },
+    {
+      "seed": "calculator",
+      "query": "timeless jewel calculator",
+      "rise_value": 1550.0,
+      "raw_value": 1550
+    },
+    {
       "seed": "steam",
       "query": "new free steam pc games",
       "rise_value": 1500.0,
@@ -863,6 +1112,12 @@
       "raw_value": 1400
     },
     {
+      "seed": "builder",
+      "query": "jotform alternatives",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
       "seed": "symbol",
       "query": "what is anthropic stock symbol",
       "rise_value": 1400.0,
@@ -881,10 +1136,22 @@
       "raw_value": 1300
     },
     {
+      "seed": "sample",
+      "query": "dohnte meyers",
+      "rise_value": 1300.0,
+      "raw_value": 1300
+    },
+    {
       "seed": "maker",
       "query": "moti hoppe maker",
       "rise_value": 1300.0,
       "raw_value": 1300
+    },
+    {
+      "seed": "scraper",
+      "query": "novire scraper",
+      "rise_value": 1150.0,
+      "raw_value": 1150
     },
     {
       "seed": "ai",
@@ -935,6 +1202,12 @@
       "raw_value": 950
     },
     {
+      "seed": "builder",
+      "query": "tally alternatives",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
       "seed": "symbol",
       "query": "anthropic ticker symbol",
       "rise_value": 900.0,
@@ -950,7 +1223,17 @@
       "seed": "constructor",
       "query": "walmart near me",
       "rise_value": 850.0,
-      "raw_value": 850
+      "raw_value": 850,
+      "also_from_seeds": [
+        "format",
+        "interpreter"
+      ]
+    },
+    {
+      "seed": "dashboard",
+      "query": "dashboard spr",
+      "rise_value": 800.0,
+      "raw_value": 800
     },
     {
       "seed": "download",
@@ -959,14 +1242,38 @@
       "raw_value": 800
     },
     {
+      "seed": "uploader",
+      "query": "zero uploader",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
       "seed": "recorder",
       "query": "3ds recorder",
       "rise_value": 650.0,
       "raw_value": 650
     },
     {
+      "seed": "detector",
+      "query": "apple down detector",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
       "seed": "tracker",
       "query": "project 2025 tracker",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "interpreter",
+      "query": "putin interpreter",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "builder",
+      "query": "wix alternatives",
       "rise_value": 650.0,
       "raw_value": 650
     },
@@ -983,10 +1290,82 @@
       "raw_value": 600
     },
     {
+      "seed": "sender",
+      "query": "hola prime",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
       "seed": "simulator",
       "query": "siteworks simulator",
       "rise_value": 600.0,
       "raw_value": 600
+    },
+    {
+      "seed": "builder",
+      "query": "typeform",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "sample",
+      "query": "chase brown",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "scheme",
+      "query": "eu youth mobility scheme",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "sender",
+      "query": "getresponse.com",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "sender",
+      "query": "memphistours",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "sender",
+      "query": "nord vpn discount code",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "sender",
+      "query": "nord vpn free",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "sender",
+      "query": "nordvpn coupon code",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "sender",
+      "query": "residential proxies",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "analyzer",
+      "query": "techgarena.com",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "analyzer",
+      "query": "weakness analyzer wow forever",
+      "rise_value": 550.0,
+      "raw_value": 550
     },
     {
       "seed": "processor",
@@ -995,8 +1374,38 @@
       "raw_value": 500
     },
     {
+      "seed": "sender",
+      "query": "artsmart.ai",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "sample",
+      "query": "drew sample",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "sender",
+      "query": "el dorado gg",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
       "seed": "game",
       "query": "game awards",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "sender",
+      "query": "getresponse coupon",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "sender",
+      "query": "hostinger ai builder",
       "rise_value": 500.0,
       "raw_value": 500
     },
@@ -1013,8 +1422,32 @@
       "raw_value": 500
     },
     {
+      "seed": "sender",
+      "query": "nordvpn discount code",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "sender",
+      "query": "nordvpn login",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
       "seed": "itch.io",
       "query": "nuestra casa itch.io",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "sender",
+      "query": "surfshark coupon",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "sender",
+      "query": "surfshark review",
       "rise_value": 500.0,
       "raw_value": 500
     },
@@ -1025,8 +1458,26 @@
       "raw_value": 500
     },
     {
+      "seed": "scheme",
+      "query": "uk eu youth mobility scheme",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
       "seed": "translator",
       "query": "cebo translator",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "scheme",
+      "query": "cm solar scheme",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "builder",
+      "query": "exitlag free trial",
       "rise_value": 450.0,
       "raw_value": 450
     },
@@ -1043,8 +1494,26 @@
       "raw_value": 450
     },
     {
+      "seed": "builder",
+      "query": "hostinger coupon",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "builder",
+      "query": "hostinger promo code",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
       "seed": "card",
       "query": "mp police constable admit card 2026",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "builder",
+      "query": "smartproxy",
       "rise_value": 450.0,
       "raw_value": 450
     },
@@ -1061,8 +1530,50 @@
       "raw_value": 450
     },
     {
+      "seed": "analyzer",
+      "query": "weakness analyzer",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
       "seed": "creator",
       "query": "creator of gta",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "analyzer",
+      "query": "drake maye",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "builder",
+      "query": "hostinger discount code",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "manager",
+      "query": "nordvpn alternatives",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "builder",
+      "query": "nordvpn app",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "sample",
+      "query": "samaje perine",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "builder",
+      "query": "shopify alternatives",
       "rise_value": 400.0,
       "raw_value": 400
     },
@@ -1087,6 +1598,12 @@
     {
       "seed": "verifier",
       "query": "verifier ticket loto",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "scheme",
+      "query": "youth experience scheme",
       "rise_value": 400.0,
       "raw_value": 400
     },
@@ -1151,6 +1668,18 @@
       "raw_value": 350
     },
     {
+      "seed": "uploader",
+      "query": "wed uploader",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "calculator",
+      "query": "arcana calculator",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
       "seed": "planner",
       "query": "emergent pricing",
       "rise_value": 300.0,
@@ -1163,8 +1692,38 @@
       "raw_value": 300
     },
     {
+      "seed": "analyzer",
+      "query": "kenneth walker",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
       "seed": "processor",
       "query": "luma video processor",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "sample",
+      "query": "mike gesicki",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "scheme",
+      "query": "national disability insurance scheme",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "manager",
+      "query": "nord password generator",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "manager",
+      "query": "saily.com",
       "rise_value": 300.0,
       "raw_value": 300
     },
@@ -1179,6 +1738,18 @@
       "query": "synonyme de notifier",
       "rise_value": 300.0,
       "raw_value": 300
+    },
+    {
+      "seed": "scheme",
+      "query": "youth mobility scheme",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "template",
+      "query": "94fbr capcut template",
+      "rise_value": 250.0,
+      "raw_value": 250
     },
     {
       "seed": "compressor",
@@ -1205,14 +1776,62 @@
       "raw_value": 250
     },
     {
+      "seed": "sample",
+      "query": "jee mains 2027 sample paper",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "format",
+      "query": "nations league format",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "manager",
+      "query": "nordpass password manager",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
       "seed": "optimizer",
       "query": "optimizer duck github",
       "rise_value": 250.0,
       "raw_value": 250
     },
     {
+      "seed": "pattern",
+      "query": "sbi clerk mains exam pattern",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "pattern",
+      "query": "sbi clerk mains pattern",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "uploader",
+      "query": "scs workshop uploader",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
       "seed": "planner",
       "query": "sender",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "detector",
+      "query": "smoke detector installation",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "format",
+      "query": "uefa nations league format",
       "rise_value": 250.0,
       "raw_value": 250
     },
@@ -1255,6 +1874,12 @@
     {
       "seed": "notifier",
       "query": "p2rled",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "pattern",
+      "query": "sbi clerk mains exam pattern 2026",
       "rise_value": 200.0,
       "raw_value": 200
     },
@@ -1319,6 +1944,12 @@
       "raw_value": 180
     },
     {
+      "seed": "detector",
+      "query": "radon detector",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
       "seed": "cocrea",
       "query": "spruted remastered cocrea",
       "rise_value": 180.0,
@@ -1345,6 +1976,12 @@
     {
       "seed": "tracker",
       "query": "flight tracker map",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "scraper",
+      "query": "how to get ice off windshield without scraper",
       "rise_value": 170.0,
       "raw_value": 170
     },
@@ -1397,6 +2034,12 @@
       "raw_value": 160
     },
     {
+      "seed": "scheme",
+      "query": "apna khet apna rozgar scheme apply online 2026",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
       "seed": "simulator",
       "query": "drag bike 201m sunmori",
       "rise_value": 150.0,
@@ -1421,8 +2064,26 @@
       "raw_value": 150
     },
     {
+      "seed": "scraper",
+      "query": "karcher ice scraper",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
       "seed": "verifier",
       "query": "loto quebec verifier un billet",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "detector",
+      "query": "portable carbon monoxide detector",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "detector",
+      "query": "steam down detector",
       "rise_value": 150.0,
       "raw_value": 150
     },
@@ -1437,6 +2098,12 @@
       "query": "wellidev itch.io",
       "rise_value": 150.0,
       "raw_value": 150
+    },
+    {
+      "seed": "scheme",
+      "query": "apna khet apna rozgar scheme apply online",
+      "rise_value": 140.0,
+      "raw_value": 140
     },
     {
       "seed": "simulator",
@@ -1535,6 +2202,12 @@
       "raw_value": 130
     },
     {
+      "seed": "checker",
+      "query": "aquaria digital marketing agency",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
       "seed": "card",
       "query": "capture card",
       "rise_value": 120.0,
@@ -1571,6 +2244,12 @@
       "raw_value": 120
     },
     {
+      "seed": "evaluator",
+      "query": "skill evaluator",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
       "seed": "downloader",
       "query": "tiktok downloader link",
       "rise_value": 120.0,
@@ -1583,14 +2262,32 @@
       "raw_value": 110
     },
     {
+      "seed": "checker",
+      "query": "aquaria digital",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
       "seed": "gumroad",
       "query": "artstation",
       "rise_value": 110.0,
       "raw_value": 110
     },
     {
+      "seed": "sample",
+      "query": "drew sample stats",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
       "seed": "itch.io",
       "query": "dummywar itch.io",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "evaluator",
+      "query": "evaluator meaning in hindi",
       "rise_value": 110.0,
       "raw_value": 110
     },
@@ -1637,14 +2334,38 @@
       "raw_value": 110
     },
     {
+      "seed": "interpreter",
+      "query": "the interpreter of silence",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
       "seed": "verifier",
       "query": "verifier loto",
       "rise_value": 110.0,
       "raw_value": 110
     },
     {
+      "seed": "format",
+      "query": "youtube video download online mp4 format",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
       "seed": "comparator",
       "query": "2 bit magnitude comparator",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "pattern",
+      "query": "antique pattern library",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "evaluator",
+      "query": "aws migration evaluator",
       "rise_value": 100.0,
       "raw_value": 100
     },
@@ -1703,6 +2424,24 @@
       "raw_value": 90
     },
     {
+      "seed": "evaluator",
+      "query": "google csp evaluator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "dashboard",
+      "query": "ipo dashboard",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "evaluator",
+      "query": "mlb trade evaluator",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
       "seed": "editor",
       "query": "preset editor",
       "rise_value": 90.0,
@@ -1745,6 +2484,12 @@
       "raw_value": 80
     },
     {
+      "seed": "pattern",
+      "query": "analyze my 12 months of credit card bills' spending pattern and suggest ways to save.",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "steam",
       "query": "black friday steam",
       "rise_value": 80.0,
@@ -1753,6 +2498,18 @@
     {
       "seed": "constructor",
       "query": "constructor and destructor in c++",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "manager",
+      "query": "contact manager networkfinds blog",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "manager",
+      "query": "contact manager networkfinds wesbite blog",
       "rise_value": 80.0,
       "raw_value": 80
     },
@@ -1775,6 +2532,12 @@
       "raw_value": 80
     },
     {
+      "seed": "explorer",
+      "query": "gmc explorer van",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
       "seed": "generator",
       "query": "jackery solar generator",
       "rise_value": 80.0,
@@ -1793,14 +2556,20 @@
       "raw_value": 80
     },
     {
-      "seed": "generator",
-      "query": "nord password generator",
+      "seed": "tea",
+      "query": "paragon tea room",
       "rise_value": 80.0,
       "raw_value": 80
     },
     {
-      "seed": "tea",
-      "query": "paragon tea room",
+      "seed": "pattern",
+      "query": "pattern 中文",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "scraper",
+      "query": "proxy scraper free web",
       "rise_value": 80.0,
       "raw_value": 80
     },
@@ -1853,14 +2622,32 @@
       "raw_value": 70
     },
     {
+      "seed": "sample",
+      "query": "english sample paper class 10",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "scheduler",
       "query": "exam scheduler iitk",
       "rise_value": 70.0,
       "raw_value": 70
     },
     {
+      "seed": "uploader",
+      "query": "fflogs uploader",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "flux",
       "query": "flux context",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "format",
+      "query": "free movie download online mp4 format",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -1877,8 +2664,32 @@
       "raw_value": 70
     },
     {
+      "seed": "scraper",
+      "query": "ice scraper for car",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "interpreter",
+      "query": "logo interpreter online",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "flux",
       "query": "luminous flux",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "evaluator",
+      "query": "migration evaluator",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "evaluator",
+      "query": "nba trade evaluator",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -1919,6 +2730,18 @@
       "raw_value": 70
     },
     {
+      "seed": "pattern",
+      "query": "ssc cpo exam pattern",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "interpreter",
+      "query": "timekettle w4 pro ai interpreter earbuds",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "assistant",
       "query": "up assistant professor",
       "rise_value": 70.0,
@@ -1927,6 +2750,30 @@
     {
       "seed": "verifier",
       "query": "verifier un iban",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "uploader",
+      "query": "video unavailable the uploader has not made this video available in your country",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "checker",
+      "query": "virgin reward seat checker",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "scraper",
+      "query": "windshield scraper",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "dashboard",
+      "query": "www gst gov in login dashboard",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -1973,14 +2820,68 @@
       "raw_value": 60
     },
     {
+      "seed": "manager",
+      "query": "contact manager with herroyalguardian",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "evaluator",
+      "query": "domain evaluator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "constructor",
       "query": "eichhorn constructor",
       "rise_value": 60.0,
       "raw_value": 60
     },
     {
+      "seed": "scraper",
+      "query": "electric ice scraper",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scraper",
+      "query": "electric ice scraper for car",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "calculator",
+      "query": "final grade calculator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "flux",
       "query": "flux fm",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "dashboard",
+      "query": "gst login",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "dashboard",
+      "query": "gst login dashboard",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "dashboard",
+      "query": "gst portal",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "dashboard",
+      "query": "gst portal login dashboard",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -1993,6 +2894,12 @@
     {
       "seed": "connector",
       "query": "health connector payment",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scraper",
+      "query": "heated ice scraper",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -2015,14 +2922,44 @@
       "raw_value": 60
     },
     {
+      "seed": "scraper",
+      "query": "ice scraper",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "tea",
       "query": "loaded tea discount codes",
       "rise_value": 60.0,
       "raw_value": 60
     },
     {
+      "seed": "interpreter",
+      "query": "logo interpreter",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "manager",
+      "query": "nginx proxy manager",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "uploader",
+      "query": "pictime uploader",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "navigator",
       "query": "pit boss navigator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "template",
+      "query": "rajan template edit",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -2045,6 +2982,12 @@
       "raw_value": 60
     },
     {
+      "seed": "template",
+      "query": "santa letter template",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "navigator",
       "query": "seven seas navigator",
       "rise_value": 60.0,
@@ -2059,6 +3002,18 @@
     {
       "seed": "translator",
       "query": "sign language translator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scraper",
+      "query": "snow scraper for car",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "checker",
+      "query": "stress checker",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -2081,14 +3036,32 @@
       "raw_value": 60
     },
     {
+      "seed": "scraper",
+      "query": "toughbuilt scraper utility knife",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "notifier",
       "query": "ts notifier",
       "rise_value": 60.0,
       "raw_value": 60
     },
     {
+      "seed": "uploader",
+      "query": "url uploader",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "scheduler",
       "query": "usps passport appointment scheduler",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "scraper",
+      "query": "windshield ice scraper",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -2111,6 +3084,12 @@
       "raw_value": 50
     },
     {
+      "seed": "scraper",
+      "query": "ai web scraper",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "comparator",
       "query": "amazon comparator",
       "rise_value": 50.0,
@@ -2129,8 +3108,20 @@
       "raw_value": 50
     },
     {
+      "seed": "receiver",
+      "query": "best av receiver",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "processor",
       "query": "best food processor 2026",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "scraper",
+      "query": "best ice scraper",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -2225,6 +3216,18 @@
       "raw_value": 50
     },
     {
+      "seed": "dashboard",
+      "query": "gst dashboard",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "sample",
+      "query": "how long does cocaine stay in your system for urine sample",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "assistant",
       "query": "icar technical assistant recruitment",
       "rise_value": 50.0,
@@ -2245,6 +3248,12 @@
     {
       "seed": "processor",
       "query": "large food processor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "template",
+      "query": "letter to santa template",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -2297,6 +3306,18 @@
       "raw_value": 50
     },
     {
+      "seed": "analyzer",
+      "query": "rotoballer trade analyzer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "pattern",
+      "query": "scalping pattern breakout ideas",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "scheduler",
       "query": "scheduler cornell",
       "rise_value": 50.0,
@@ -2309,14 +3330,32 @@
       "raw_value": 50
     },
     {
+      "seed": "uploader",
+      "query": "speed uploader for google drive",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "planner",
       "query": "stil planner",
       "rise_value": 50.0,
       "raw_value": 50
     },
     {
+      "seed": "receiver",
+      "query": "superheterodyne receiver",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "downloader",
       "query": "tiktokio video downloader",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "uploader",
+      "query": "uploader en français",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -2329,6 +3368,12 @@
     {
       "seed": "poki",
       "query": "1001 oyun poki",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "sample",
+      "query": "cbse",
       "rise_value": 40.0,
       "raw_value": 40
     },
@@ -2387,6 +3432,12 @@
       "raw_value": 40
     },
     {
+      "seed": "receiver",
+      "query": "ja'marr chase",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "creator",
       "query": "mym creator",
       "rise_value": 40.0,
@@ -2411,8 +3462,32 @@
       "raw_value": 40
     },
     {
+      "seed": "dashboard",
+      "query": "pos dashboard",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "responder",
       "query": "sala do futuro",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "analyzer",
+      "query": "saleae logic analyzer",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "sample",
+      "query": "sample paper",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "explorer",
+      "query": "schedule explorer",
       "rise_value": 40.0,
       "raw_value": 40
     },
@@ -2447,19 +3522,25 @@
       "raw_value": 40
     },
     {
+      "seed": "interpreter",
+      "query": "w4 pro ai interpreter earbuds",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "extractor",
       "query": "welding fume extractor",
       "rise_value": 40.0,
       "raw_value": 40
     }
   ],
-  "discovery_count": 354,
-  "updated_at": "2026-11-20T18:52:11.517872+00:00",
-  "scanned_seed_count": 55,
-  "batch_count": 11,
-  "attempted_seed_count": 60,
+  "discovery_count": 516,
+  "updated_at": "2026-11-21T03:13:38.834146+00:00",
+  "scanned_seed_count": 74,
+  "batch_count": 15,
+  "attempted_seed_count": 74,
   "complete_20_seeds": true,
-  "complete_daily_target": false,
-  "completion_pct": 74.3,
-  "failed_seed_count": 5
+  "complete_daily_target": true,
+  "completion_pct": 100.0,
+  "failed_seed_count": 0
 }
