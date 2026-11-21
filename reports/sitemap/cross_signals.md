@@ -8,12 +8,19 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：126/135；数据生成：2026-11-21T05:56:36.703709+08:00；详细候选：12000；7日轻量URL证据：12619/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-21T18:08:11.477493+08:00；详细候选：12000；7日轻量URL证据：12981/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 89，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 143，采样上限遗漏 0。
 
+- **escape chase**：不同根域 6 家；同一天峰值 3 家、连续3日 5 家、7日共 6 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamedistribution.com · gamedistribution-games · 2026-11-17 · https://gamedistribution.com/games/escape-chase/ · 原词 escape chase
+  - agame.com · agame-en · 2026-11-18 · https://www.agame.com/game/escape-chase · 原词 escape chase
+  - gamesgames.com · gamesgames-en · 2026-11-18 · https://www.gamesgames.com/game/escape-chase · 原词 escape chase
+  - girlsgogames.com · girlsgogames-en · 2026-11-18 · https://www.girlsgogames.com/game/escape-chase · 原词 escape chase
+  - jogos360.com.br · jogos360-br · 2026-11-19 · https://www.jogos360.com.br/escape_chase.html · 原词 escape chase
+  - crazygames.com · crazygames-es · 2026-11-21 · https://www.crazygames.com/es/game/escape-chase · 原词 escape chase
 - **treasures of the mystic sea 2**：不同根域 6 家；同一天峰值 3 家、连续3日 5 家、7日共 6 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-16 · https://gamedistribution.com/games/treasures-of-the-mystic-sea-2/ · 原词 treasures of the mystic sea 2
   - 1001games.com · 1001games-en · 2026-11-17 · https://www.1001games.com/match-3/treasures-of-the-mystic-sea-2 · 原词 treasures of the mystic sea 2
@@ -27,12 +34,6 @@
   - agame.com · agame-en · 2026-11-18 · https://www.agame.com/game/boba-tea-merge · 原词 boba tea merge
   - gamesgames.com · gamesgames-en · 2026-11-18 · https://www.gamesgames.com/game/boba-tea-merge · 原词 boba tea merge
   - girlsgogames.com · girlsgogames-en · 2026-11-18 · https://www.girlsgogames.com/game/boba-tea-merge · 原词 boba tea merge
-- **escape chase**：不同根域 5 家；同一天峰值 3 家、连续3日 5 家、7日共 5 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamedistribution.com · gamedistribution-games · 2026-11-17 · https://gamedistribution.com/games/escape-chase/ · 原词 escape chase
-  - agame.com · agame-en · 2026-11-18 · https://www.agame.com/game/escape-chase · 原词 escape chase
-  - gamesgames.com · gamesgames-en · 2026-11-18 · https://www.gamesgames.com/game/escape-chase · 原词 escape chase
-  - girlsgogames.com · girlsgogames-en · 2026-11-18 · https://www.girlsgogames.com/game/escape-chase · 原词 escape chase
-  - jogos360.com.br · jogos360-br · 2026-11-19 · https://www.jogos360.com.br/escape_chase.html · 原词 escape chase
 - **knights arena castle defense**：不同根域 5 家；同一天峰值 3 家、连续3日 5 家、7日共 5 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - agame.com · agame-en · 2026-11-18 · https://www.agame.com/game/knights-arena-castle-defense · 原词 knights arena castle defense
   - gamesgames.com · gamesgames-en · 2026-11-18 · https://www.gamesgames.com/game/knights-arena-castle-defense · 原词 knights arena castle defense
@@ -72,7 +73,7 @@
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 24，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 144，采样上限遗漏 0。
 
 - **sheets bootcamp**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-16 · https://fazier.com/launches/sheets-bootcamp · 原词 sheets bootcamp
@@ -114,7 +115,7 @@
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 25，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 21，采样上限遗漏 0。
 
 - **ai test automation**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aiagentstore.ai · aiagentstore-agents · 2026-11-18 · https://aiagentstore.ai/get-ai-agent/ai-test-automation · 原词 ai test automation
@@ -122,6 +123,9 @@
 - **davinci ai**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-20 · https://aitoolsdirectory.com/tool/davinci-ai · 原词 davinci ai
   - aitoptools.com · aitoptools-tools · 2026-11-20 · https://aitoptools.com/tool/davinci-ai/ · 原词 davinci ai
+- **decibri**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - dang.ai · dangai-tools · 2026-11-19 · https://dang.ai/tool/decibri · 原词 decibri
+  - aitoolnet.com · aitoolnet-tools · 2026-11-21 · https://www.aitoolnet.com/decibri · 原词 decibri
 
 ## 计算器
 
@@ -133,7 +137,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 616，采样上限遗漏 496。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 10，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -141,17 +145,15 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 254，采样上限遗漏 0。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 56，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
 ## 巴西在线工具
 
-采集：9/10来源，配置根域 10，新建基线 0，失败 1，新增 URL 6，采样上限遗漏 0。
+采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
-
-失败来源：devdata4-br (HTTPError: HTTP Error 429: Too Many Requests)
 
 ## 跨类别同名或同向文件转换（仅作人工复核）
 
@@ -166,10 +168,22 @@
   - saas · uneed-products · 2026-11-16 · https://www.uneed.best/tool/branchnote
   - developer · devhunt-tools · 2026-11-17 · https://devhunt.org/tool/branchnote
   - saas · fazier-launches · 2026-11-17 · https://fazier.com/launches/branchnote
+- node mantis：独立根域 3 家；类别 ai, developer, saas
+  - developer · devhunt-tools · 2026-11-20 · https://devhunt.org/tool/node-mantis
+  - saas · uneed-products · 2026-11-20 · https://www.uneed.best/tool/node-mantis
+  - ai · aitoptools-tools · 2026-11-21 · https://aitoptools.com/tool/node-mantis/
+- makeasong：独立根域 3 家；类别 ai, saas
+  - saas · productperch-products · 2026-11-18 · https://productperch.com/products/makeasong/
+  - saas · indieneed-products · 2026-11-20 · https://www.indieneed.com/products/makeasong
+  - ai · aitoolnet-tools · 2026-11-21 · https://www.aitoolnet.com/makeasong
 - onekdp：独立根域 3 家；类别 ai, saas
   - saas · uneed-products · 2026-11-16 · https://www.uneed.best/tool/onekdp
   - saas · fazier-launches · 2026-11-18 · https://fazier.com/launches/onekdp
   - ai · aitoolnet-tools · 2026-11-19 · https://www.aitoolnet.com/onekdp
+- decibri：独立根域 3 家；类别 ai, developer
+  - developer · devhunt-tools · 2026-11-17 · https://devhunt.org/tool/decibri
+  - ai · dangai-tools · 2026-11-19 · https://dang.ai/tool/decibri
+  - ai · aitoolnet-tools · 2026-11-21 · https://www.aitoolnet.com/decibri
 - viral video ai：独立根域 3 家；类别 ai, saas
   - ai · toolworthy-ai-tools · 2026-11-15 · https://www.toolworthy.ai/tool/viral-video-ai
   - saas · fazier-launches · 2026-11-18 · https://fazier.com/launches/viral-video-ai
@@ -177,21 +191,12 @@
 - midtown center auto repair：独立根域 2 家；类别 developer, saas
   - developer · devhunt-tools · 2026-11-17 · https://devhunt.org/tool/midtown-center-auto-repair
   - saas · smollaunch-products · 2026-11-17 · https://smollaunch.com/products/midtown-center-auto-repair
-- node mantis：独立根域 2 家；类别 developer, saas
-  - developer · devhunt-tools · 2026-11-20 · https://devhunt.org/tool/node-mantis
-  - saas · uneed-products · 2026-11-20 · https://www.uneed.best/tool/node-mantis
 - punchtape：独立根域 2 家；类别 developer, saas
   - developer · devhunt-tools · 2026-11-17 · https://devhunt.org/tool/punchtape
   - saas · uneed-products · 2026-11-17 · https://www.uneed.best/tool/punchtape
 - ai photo editor：独立根域 2 家；类别 ai, saas
   - ai · aiagentstore-agents · 2026-11-18 · https://aiagentstore.ai/get-ai-agent/ai-photo-editor
   - saas · productperch-products · 2026-11-19 · https://productperch.com/products/ai-photo-editor/
-- api gateway：独立根域 2 家；类别 ai, saas
-  - ai · aiagentstore-agents · 2026-11-18 · https://aiagentstore.ai/get-ai-agent/api-gateway
-  - saas · uneed-products · 2026-11-19 · https://www.uneed.best/tool/api-gateway
-- linear：独立根域 2 家；类别 ai, developer
-  - ai · aiagentstore-agents · 2026-11-18 · https://aiagentstore.ai/get-ai-agent/linear
-  - developer · netlify-product-watch · 2026-11-19 · https://www.netlify.com/integrations/linear/
 
 ### 跨类别同向文件转换
 

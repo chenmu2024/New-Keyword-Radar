@@ -67,6 +67,66 @@
         ]
       },
       {
+        "query": "escape chase",
+        "independent_websites": 6,
+        "date_span_days": 4,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 3,
+        "three_calendar_day_peak": 5,
+        "seven_calendar_day_total": 6,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/escape-chase/",
+            "first_seen": "2026-11-17",
+            "observed_query": "escape chase",
+            "source_category": "games"
+          },
+          {
+            "source_id": "agame-en",
+            "website": "agame.com",
+            "url": "https://www.agame.com/game/escape-chase",
+            "first_seen": "2026-11-18",
+            "observed_query": "escape chase",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamesgames-en",
+            "website": "gamesgames.com",
+            "url": "https://www.gamesgames.com/game/escape-chase",
+            "first_seen": "2026-11-18",
+            "observed_query": "escape chase",
+            "source_category": "games"
+          },
+          {
+            "source_id": "girlsgogames-en",
+            "website": "girlsgogames.com",
+            "url": "https://www.girlsgogames.com/game/escape-chase",
+            "first_seen": "2026-11-18",
+            "observed_query": "escape chase",
+            "source_category": "games"
+          },
+          {
+            "source_id": "jogos360-br",
+            "website": "jogos360.com.br",
+            "url": "https://www.jogos360.com.br/escape_chase.html",
+            "first_seen": "2026-11-19",
+            "observed_query": "escape chase",
+            "source_category": "games"
+          },
+          {
+            "source_id": "crazygames-es",
+            "website": "crazygames.com",
+            "url": "https://www.crazygames.com/es/game/escape-chase",
+            "first_seen": "2026-11-21",
+            "observed_query": "escape chase",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "boba tea merge",
         "independent_websites": 5,
         "date_span_days": 2,
@@ -114,58 +174,6 @@
             "url": "https://www.girlsgogames.com/game/boba-tea-merge",
             "first_seen": "2026-11-18",
             "observed_query": "boba tea merge",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "escape chase",
-        "independent_websites": 5,
-        "date_span_days": 2,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 3,
-        "three_calendar_day_peak": 5,
-        "seven_calendar_day_total": 5,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/escape-chase/",
-            "first_seen": "2026-11-17",
-            "observed_query": "escape chase",
-            "source_category": "games"
-          },
-          {
-            "source_id": "agame-en",
-            "website": "agame.com",
-            "url": "https://www.agame.com/game/escape-chase",
-            "first_seen": "2026-11-18",
-            "observed_query": "escape chase",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamesgames-en",
-            "website": "gamesgames.com",
-            "url": "https://www.gamesgames.com/game/escape-chase",
-            "first_seen": "2026-11-18",
-            "observed_query": "escape chase",
-            "source_category": "games"
-          },
-          {
-            "source_id": "girlsgogames-en",
-            "website": "girlsgogames.com",
-            "url": "https://www.girlsgogames.com/game/escape-chase",
-            "first_seen": "2026-11-18",
-            "observed_query": "escape chase",
-            "source_category": "games"
-          },
-          {
-            "source_id": "jogos360-br",
-            "website": "jogos360.com.br",
-            "url": "https://www.jogos360.com.br/escape_chase.html",
-            "first_seen": "2026-11-19",
-            "observed_query": "escape chase",
             "source_category": "games"
           }
         ]
@@ -1015,6 +1023,62 @@
         ]
       },
       {
+        "query": "bites back",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/bites-back",
+            "first_seen": "2026-11-20",
+            "observed_query": "bites back",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/bites_back",
+            "first_seen": "2026-11-21",
+            "observed_query": "bites back",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "emberless",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/emberless/",
+            "first_seen": "2026-11-20",
+            "observed_query": "emberless",
+            "source_category": "games"
+          },
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/emberless",
+            "first_seen": "2026-11-21",
+            "observed_query": "emberless",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "mecha war",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -1463,6 +1527,90 @@
         ]
       },
       {
+        "query": "floe penguin slide",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/floe-penguin-slide",
+            "first_seen": "2026-11-17",
+            "observed_query": "floe penguin slide",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/floe_penguin_slide",
+            "first_seen": "2026-11-21",
+            "observed_query": "floe penguin slide",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "granma s crossing",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/granma-s-crossing",
+            "first_seen": "2026-11-17",
+            "observed_query": "granma s crossing",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/granma_s_crossing",
+            "first_seen": "2026-11-21",
+            "observed_query": "granma s crossing",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "piggy muncher",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/piggy-muncher",
+            "first_seen": "2026-11-17",
+            "observed_query": "piggy muncher",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/piggy_muncher",
+            "first_seen": "2026-11-21",
+            "observed_query": "piggy muncher",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "zombie survival blackout",
         "independent_websites": 2,
         "date_span_days": 5,
@@ -1681,6 +1829,42 @@
         ]
       },
       {
+        "query": "node mantis",
+        "independent_websites": 3,
+        "date_span_days": 1,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 3,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/node-mantis",
+            "first_seen": "2026-11-20",
+            "observed_query": "node mantis",
+            "source_category": "developer"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/node-mantis",
+            "first_seen": "2026-11-20",
+            "observed_query": "node mantis",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "aitoptools-tools",
+            "website": "aitoptools.com",
+            "url": "https://aitoptools.com/tool/node-mantis/",
+            "first_seen": "2026-11-21",
+            "observed_query": "node mantis",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
         "query": "happy wan",
         "independent_websites": 3,
         "date_span_days": 2,
@@ -1753,6 +1937,42 @@
         ]
       },
       {
+        "query": "makeasong",
+        "independent_websites": 3,
+        "date_span_days": 3,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/makeasong/",
+            "first_seen": "2026-11-18",
+            "observed_query": "makeasong",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/makeasong",
+            "first_seen": "2026-11-20",
+            "observed_query": "makeasong",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/makeasong",
+            "first_seen": "2026-11-21",
+            "observed_query": "makeasong",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
         "query": "onekdp",
         "independent_websites": 3,
         "date_span_days": 3,
@@ -1784,6 +2004,42 @@
             "url": "https://www.aitoolnet.com/onekdp",
             "first_seen": "2026-11-19",
             "observed_query": "onekdp",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
+        "query": "decibri",
+        "independent_websites": 3,
+        "date_span_days": 4,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/decibri",
+            "first_seen": "2026-11-17",
+            "observed_query": "decibri",
+            "source_category": "developer"
+          },
+          {
+            "source_id": "dangai-tools",
+            "website": "dang.ai",
+            "url": "https://dang.ai/tool/decibri",
+            "first_seen": "2026-11-19",
+            "observed_query": "decibri",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/decibri",
+            "first_seen": "2026-11-21",
+            "observed_query": "decibri",
             "source_category": "ai"
           }
         ]
@@ -1988,34 +2244,6 @@
             "url": "https://startupbase.io/products/migmig",
             "first_seen": "2026-11-16",
             "observed_query": "migmig",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "node mantis",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/node-mantis",
-            "first_seen": "2026-11-20",
-            "observed_query": "node mantis",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/node-mantis",
-            "first_seen": "2026-11-20",
-            "observed_query": "node mantis",
             "source_category": "saas"
           }
         ]
@@ -2581,6 +2809,34 @@
         ]
       },
       {
+        "query": "adside",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/adside",
+            "first_seen": "2026-11-19",
+            "observed_query": "adside",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/adside",
+            "first_seen": "2026-11-21",
+            "observed_query": "adside",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
         "query": "ai scientific figure generator",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -2716,34 +2972,6 @@
             "url": "https://aiagentstore.ai/get-ai-agent/codex-cli",
             "first_seen": "2026-11-18",
             "observed_query": "codex cli",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "decibri",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/decibri",
-            "first_seen": "2026-11-17",
-            "observed_query": "decibri",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "dangai-tools",
-            "website": "dang.ai",
-            "url": "https://dang.ai/tool/decibri",
-            "first_seen": "2026-11-19",
-            "observed_query": "decibri",
             "source_category": "ai"
           }
         ]
@@ -2945,34 +3173,6 @@
         ]
       },
       {
-        "query": "makeasong",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/makeasong/",
-            "first_seen": "2026-11-18",
-            "observed_query": "makeasong",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/makeasong",
-            "first_seen": "2026-11-20",
-            "observed_query": "makeasong",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "mana grove",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -3029,6 +3229,34 @@
         ]
       },
       {
+        "query": "ofintech desk",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/ofintech-desk",
+            "first_seen": "2026-11-19",
+            "observed_query": "ofintech desk",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/ofintech-desk",
+            "first_seen": "2026-11-21",
+            "observed_query": "ofintech desk",
+            "source_category": "developer"
+          }
+        ]
+      },
+      {
         "query": "omni flash",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -3081,6 +3309,62 @@
             "first_seen": "2026-11-21",
             "observed_query": "open atelier",
             "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "peptilab peptides canada",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/peptilab-peptides-canada",
+            "first_seen": "2026-11-19",
+            "observed_query": "peptilab peptides canada",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/peptilab-peptides-canada",
+            "first_seen": "2026-11-21",
+            "observed_query": "peptilab peptides canada",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "teaflask",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "producthunt-products",
+            "website": "producthunt.com",
+            "url": "https://www.producthunt.com/products/teaflask",
+            "first_seen": "2026-11-19",
+            "observed_query": "teaflask",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/teaflask",
+            "first_seen": "2026-11-21",
+            "observed_query": "teaflask",
+            "source_category": "ai"
           }
         ]
       },
@@ -3281,6 +3565,62 @@
         ]
       },
       {
+        "query": "pinboardsaver",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "pitchwall-products",
+            "website": "pitchwall.co",
+            "url": "https://pitchwall.co/product/pinboardsaver",
+            "first_seen": "2026-11-18",
+            "observed_query": "pinboardsaver",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/pinboardsaver",
+            "first_seen": "2026-11-21",
+            "observed_query": "pinboardsaver",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "two minute drill",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/two-minute-drill",
+            "first_seen": "2026-11-18",
+            "observed_query": "two minute drill",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/two-minute-drill",
+            "first_seen": "2026-11-21",
+            "observed_query": "two minute drill",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "agentrun",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -3419,19 +3759,108 @@
             "source_category": "saas"
           }
         ]
+      },
+      {
+        "query": "github",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/github",
+            "first_seen": "2026-11-16",
+            "observed_query": "github",
+            "source_category": "developer"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/github",
+            "first_seen": "2026-11-21",
+            "observed_query": "github",
+            "source_category": "saas"
+          }
+        ]
       }
     ],
     "tools": [],
     "functions": []
   },
   "group_counts": {
-    "games": 44,
-    "products": 65,
+    "games": 49,
+    "products": 72,
     "tools": 0,
     "functions": 0
   },
   "by_type": {
     "games": [
+      {
+        "query": "escape chase",
+        "independent_websites": 6,
+        "date_span_days": 4,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 3,
+        "three_calendar_day_peak": 5,
+        "seven_calendar_day_total": 6,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/escape-chase/",
+            "first_seen": "2026-11-17",
+            "observed_query": "escape chase",
+            "source_category": "games"
+          },
+          {
+            "source_id": "agame-en",
+            "website": "agame.com",
+            "url": "https://www.agame.com/game/escape-chase",
+            "first_seen": "2026-11-18",
+            "observed_query": "escape chase",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamesgames-en",
+            "website": "gamesgames.com",
+            "url": "https://www.gamesgames.com/game/escape-chase",
+            "first_seen": "2026-11-18",
+            "observed_query": "escape chase",
+            "source_category": "games"
+          },
+          {
+            "source_id": "girlsgogames-en",
+            "website": "girlsgogames.com",
+            "url": "https://www.girlsgogames.com/game/escape-chase",
+            "first_seen": "2026-11-18",
+            "observed_query": "escape chase",
+            "source_category": "games"
+          },
+          {
+            "source_id": "jogos360-br",
+            "website": "jogos360.com.br",
+            "url": "https://www.jogos360.com.br/escape_chase.html",
+            "first_seen": "2026-11-19",
+            "observed_query": "escape chase",
+            "source_category": "games"
+          },
+          {
+            "source_id": "crazygames-es",
+            "website": "crazygames.com",
+            "url": "https://www.crazygames.com/es/game/escape-chase",
+            "first_seen": "2026-11-21",
+            "observed_query": "escape chase",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
       {
         "query": "treasures of the mystic sea 2",
         "independent_websites": 6,
@@ -3541,59 +3970,6 @@
             "url": "https://www.girlsgogames.com/game/boba-tea-merge",
             "first_seen": "2026-11-18",
             "observed_query": "boba tea merge",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "escape chase",
-        "independent_websites": 5,
-        "date_span_days": 2,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 3,
-        "three_calendar_day_peak": 5,
-        "seven_calendar_day_total": 5,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/escape-chase/",
-            "first_seen": "2026-11-17",
-            "observed_query": "escape chase",
-            "source_category": "games"
-          },
-          {
-            "source_id": "agame-en",
-            "website": "agame.com",
-            "url": "https://www.agame.com/game/escape-chase",
-            "first_seen": "2026-11-18",
-            "observed_query": "escape chase",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamesgames-en",
-            "website": "gamesgames.com",
-            "url": "https://www.gamesgames.com/game/escape-chase",
-            "first_seen": "2026-11-18",
-            "observed_query": "escape chase",
-            "source_category": "games"
-          },
-          {
-            "source_id": "girlsgogames-en",
-            "website": "girlsgogames.com",
-            "url": "https://www.girlsgogames.com/game/escape-chase",
-            "first_seen": "2026-11-18",
-            "observed_query": "escape chase",
-            "source_category": "games"
-          },
-          {
-            "source_id": "jogos360-br",
-            "website": "jogos360.com.br",
-            "url": "https://www.jogos360.com.br/escape_chase.html",
-            "first_seen": "2026-11-19",
-            "observed_query": "escape chase",
             "source_category": "games"
           }
         ],
@@ -4409,6 +4785,64 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "bites back",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/bites-back",
+            "first_seen": "2026-11-20",
+            "observed_query": "bites back",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/bites_back",
+            "first_seen": "2026-11-21",
+            "observed_query": "bites back",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "emberless",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/emberless/",
+            "first_seen": "2026-11-20",
+            "observed_query": "emberless",
+            "source_category": "games"
+          },
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/emberless",
+            "first_seen": "2026-11-21",
+            "observed_query": "emberless",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "ink sort world tour",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -4757,6 +5191,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "floe penguin slide",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/floe-penguin-slide",
+            "first_seen": "2026-11-17",
+            "observed_query": "floe penguin slide",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/floe_penguin_slide",
+            "first_seen": "2026-11-21",
+            "observed_query": "floe penguin slide",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "frost bridge rivals",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -4809,6 +5272,35 @@
             "url": "https://www.y8.com/games/glam_chic_corporate_aesthetic",
             "first_seen": "2026-11-18",
             "observed_query": "glam chic corporate aesthetic",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "granma s crossing",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/granma-s-crossing",
+            "first_seen": "2026-11-17",
+            "observed_query": "granma s crossing",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/granma_s_crossing",
+            "first_seen": "2026-11-21",
+            "observed_query": "granma s crossing",
             "source_category": "games"
           }
         ],
@@ -4925,6 +5417,35 @@
             "url": "https://www.gamepix.com/pt/play/pandaniel-san",
             "first_seen": "2026-11-19",
             "observed_query": "pandaniel san",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "piggy muncher",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/piggy-muncher",
+            "first_seen": "2026-11-17",
+            "observed_query": "piggy muncher",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/piggy_muncher",
+            "first_seen": "2026-11-21",
+            "observed_query": "piggy muncher",
             "source_category": "games"
           }
         ],
@@ -5843,6 +6364,35 @@
         "cross_signal_origin": "products"
       },
       {
+        "query": "peptilab peptides canada",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/peptilab-peptides-canada",
+            "first_seen": "2026-11-19",
+            "observed_query": "peptilab peptides canada",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/peptilab-peptides-canada",
+            "first_seen": "2026-11-21",
+            "observed_query": "peptilab peptides canada",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "postfjord",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -6336,6 +6886,35 @@
         "cross_signal_origin": "products"
       },
       {
+        "query": "pinboardsaver",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "pitchwall-products",
+            "website": "pitchwall.co",
+            "url": "https://pitchwall.co/product/pinboardsaver",
+            "first_seen": "2026-11-18",
+            "observed_query": "pinboardsaver",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/pinboardsaver",
+            "first_seen": "2026-11-21",
+            "observed_query": "pinboardsaver",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "saylift",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -6359,6 +6938,35 @@
             "url": "https://saascity.io/live/saylift",
             "first_seen": "2026-11-20",
             "observed_query": "saylift",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "two minute drill",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/two-minute-drill",
+            "first_seen": "2026-11-18",
+            "observed_query": "two minute drill",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/two-minute-drill",
+            "first_seen": "2026-11-21",
+            "observed_query": "two minute drill",
             "source_category": "saas"
           }
         ],
@@ -6423,6 +7031,35 @@
           }
         ],
         "cross_signal_origin": "products"
+      },
+      {
+        "query": "decibri",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "dangai-tools",
+            "website": "dang.ai",
+            "url": "https://dang.ai/tool/decibri",
+            "first_seen": "2026-11-19",
+            "observed_query": "decibri",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/decibri",
+            "first_seen": "2026-11-21",
+            "observed_query": "decibri",
+            "source_category": "ai"
+          }
+        ],
+        "cross_signal_origin": "products"
       }
     ],
     "calculators": [],
@@ -6431,17 +7068,17 @@
     "brazil": []
   },
   "by_type_counts": {
-    "games": 44,
-    "saas": 46,
-    "ai": 2,
+    "games": 49,
+    "saas": 49,
+    "ai": 3,
     "calculators": 0,
     "files": 0,
     "developer": 0,
     "brazil": 0
   },
-  "delta_ledger_count": 12619,
+  "delta_ledger_count": 12981,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-11-21T05:56:36.703709+08:00",
+  "generated_at": "2026-11-21T18:08:11.477493+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
@@ -6451,7 +7088,7 @@
       "baselines": 0,
       "delta_scans": 29,
       "failed": 4,
-      "new_urls": 89,
+      "new_urls": 143,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -6480,7 +7117,7 @@
       "baselines": 0,
       "delta_scans": 19,
       "failed": 1,
-      "new_urls": 24,
+      "new_urls": 144,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -6497,7 +7134,7 @@
       "baselines": 0,
       "delta_scans": 20,
       "failed": 0,
-      "new_urls": 25,
+      "new_urls": 21,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -6526,8 +7163,8 @@
       "baselines": 0,
       "delta_scans": 18,
       "failed": 2,
-      "new_urls": 616,
-      "over_scan_cap": 496,
+      "new_urls": 10,
+      "over_scan_cap": 0,
       "failed_sources": [
         {
           "source_id": "convertio-tools",
@@ -6547,7 +7184,7 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 254,
+      "new_urls": 56,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -6555,18 +7192,13 @@
       "configured_sources": 10,
       "configured_domains": 10,
       "reported": 10,
-      "successful": 9,
+      "successful": 10,
       "baselines": 0,
-      "delta_scans": 9,
-      "failed": 1,
-      "new_urls": 6,
+      "delta_scans": 10,
+      "failed": 0,
+      "new_urls": 0,
       "over_scan_cap": 0,
-      "failed_sources": [
-        {
-          "source_id": "devdata4-br",
-          "error": "HTTPError: HTTP Error 429: Too Many Requests"
-        }
-      ]
+      "failed_sources": []
     }
   }
 }
