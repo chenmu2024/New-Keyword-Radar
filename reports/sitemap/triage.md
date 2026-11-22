@@ -1,51 +1,51 @@
-# Sitemap lead triage — 2026-11-22
+# Sitemap lead triage — 2026-11-23
 
 **Important:** These are *unverified URL leads*, not proven new keywords,
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
-- Sitemap feeds succeeded: 127/135
-- URLs newly observed in the latest scan: 1164
-- Candidate URL rows extracted in latest scan: 653
-- First-time keyword/geo research leads: 613
-- Previously removed URLs resurfacing: 168
+- Sitemap feeds succeeded: 126/135
+- URLs newly observed in the latest scan: 98
+- Candidate URL rows extracted in latest scan: 95
+- First-time keyword/geo research leads: 90
+- Previously removed URLs resurfacing: 122
 - Accumulated queue: 12000
-- Human keyword/topic review: 2732
-- Game/general watchlist: 9102
-- Low-quality page-name noise: 166
+- Human keyword/topic review: 2720
+- Game/general watchlist: 9118
+- Low-quality page-name noise: 162
 - **Verified new keywords / search demand / business revenue: not established**
 
 ## Queue composition (by Sitemap source)
 
-- apify-actors-a: 438
-- apify-actors-z: 438
-- fazier-launches: 438
-- gamepix-en: 438
-- gamepix-pt: 438
-- playgama-en: 438
-- producthunt-products: 438
-- productperch-products: 437
-- railway-templates: 437
-- saasworthy-products: 437
-- toolveyor-tools: 437
-- uneed-products: 437
-- y8-en: 437
-- dangai-tools: 418
+- apify-actors-a: 435
+- apify-actors-z: 434
+- fazier-launches: 434
+- gamepix-en: 434
+- gamepix-pt: 434
+- playgama-en: 434
+- producthunt-products: 434
+- productperch-products: 434
+- railway-templates: 434
+- saasworthy-products: 434
+- toolveyor-tools: 434
+- uneed-products: 434
+- y8-en: 434
+- dangai-tools: 432
 - devhunt-tools: 395
 - startupbase-products: 324
 - crazygames-br: 323
 - crazygames-es: 323
 - crazygames-en: 320
 - smollaunch-products: 285
-- saascity-products: 265
+- saascity-products: 269
 - n8n-workflows: 235
 - indieneed-products: 221
 - vercel-product-watch: 220
 - pitchwall-products: 174
 - aitoolnet-tools: 172
-- gamedistribution-games: 164
+- gamedistribution-games: 169
 - aiagentstore-agents: 158
-- futuretools-products: 143
+- futuretools-products: 153
 - openhunts-projects: 136
 - pdfaid-tools: 134
 - futurepedia-tools: 122
@@ -56,24 +56,24 @@ Raw queue and all main radar settings remain unchanged.
 - onlinetools-br: 116
 - aitoolboard-tools: 113
 - fotor-features: 88
-- tooldirectory-ai-tools: 76
+- tooldirectory-ai-tools: 77
 - ezgif-tools: 67
+- toolfound-products: 67
 - indietools-products: 65
-- toolfound-products: 63
 - aitoptools-tools: 51
 - pipedream-actions: 46
 - netlify-product-watch: 39
 - aitoolsdirectory-tools: 38
 - fridayhunt-projects: 37
 - gamearter-en: 36
-- cokogames-es: 34
+- cokogames-es: 35
 - poki-en: 26
 - replicate-models: 26
+- silvergames-en: 26
 - planetscale-changelog: 24
 - yiv-games: 23
 - launchscaler-products: 21
 - pdfresizer-tools: 20
-- silvergames-en: 20
 - jogos360-br: 19
 - onlinegames-en: 18
 - toolworthy-ai-tools: 18
@@ -105,106 +105,101 @@ Raw queue and all main radar settings remain unchanged.
 
 ## Latest scan's leads (routing only)
 
-- [gun dmg](https://www.crazygames.com/game/1-gun-dmg) — watch / game-title-not-search-demand; source=crazygames-en
-- [dress up duel](https://www.crazygames.com/game/dress-up-duel) — watch / game-title-not-search-demand; source=crazygames-en
-- [march io](https://www.crazygames.com/game/march-io) — watch / game-title-not-search-demand; source=crazygames-en
-- [slime mine heist](https://www.crazygames.com/game/slime-mine-heist) — watch / game-title-not-search-demand; source=crazygames-en
-- [creature roll](https://www.crazygames.com/game/creature-roll) — watch / game-title-not-search-demand; source=crazygames-en
-- [bullseye brawl](https://www.crazygames.com/game/bullseye-brawl) — watch / game-title-not-search-demand; source=crazygames-en
-- [wrecking launch tic](https://www.crazygames.com/game/wrecking-launch-tic) — watch / game-title-not-search-demand; source=crazygames-en
-- [beach soccer championship](https://www.crazygames.com/game/beach-soccer-championship) — watch / game-title-not-search-demand; source=crazygames-en
-- [rig of the dead](https://www.crazygames.com/game/rig-of-the-dead) — watch / game-title-not-search-demand; source=crazygames-en
-- [swarm overload](https://www.crazygames.com/game/swarm-overload) — watch / game-title-not-search-demand; source=crazygames-en
-- [bullseye brawl](https://www.crazygames.com/br/game/bullseye-brawl) — watch / game-title-not-search-demand; source=crazygames-br
-- [slime mine heist](https://www.crazygames.com/br/game/slime-mine-heist) — watch / game-title-not-search-demand; source=crazygames-br
-- [creature roll](https://www.crazygames.com/br/game/creature-roll) — watch / game-title-not-search-demand; source=crazygames-br
-- [wrecking launch tic](https://www.crazygames.com/br/game/wrecking-launch-tic) — watch / game-title-not-search-demand; source=crazygames-br
-- [dress up duel](https://www.crazygames.com/br/game/dress-up-duel) — watch / game-title-not-search-demand; source=crazygames-br
-- [gun dmg](https://www.crazygames.com/br/game/1-gun-dmg) — watch / game-title-not-search-demand; source=crazygames-br
-- [beach soccer championship](https://www.crazygames.com/br/game/beach-soccer-championship) — watch / game-title-not-search-demand; source=crazygames-br
-- [rig of the dead](https://www.crazygames.com/br/game/rig-of-the-dead) — watch / game-title-not-search-demand; source=crazygames-br
-- [swarm overload](https://www.crazygames.com/br/game/swarm-overload) — watch / game-title-not-search-demand; source=crazygames-br
-- [march io](https://www.crazygames.com/br/game/march-io) — watch / game-title-not-search-demand; source=crazygames-br
-- [rig of the dead](https://www.crazygames.com/es/game/rig-of-the-dead) — watch / game-title-not-search-demand; source=crazygames-es
-- [dress up duel](https://www.crazygames.com/es/game/dress-up-duel) — watch / game-title-not-search-demand; source=crazygames-es
-- [creature roll](https://www.crazygames.com/es/game/creature-roll) — watch / game-title-not-search-demand; source=crazygames-es
-- [bullseye brawl](https://www.crazygames.com/es/game/bullseye-brawl) — watch / game-title-not-search-demand; source=crazygames-es
-- [swarm overload](https://www.crazygames.com/es/game/swarm-overload) — watch / game-title-not-search-demand; source=crazygames-es
-- [beach soccer championship](https://www.crazygames.com/es/game/beach-soccer-championship) — watch / game-title-not-search-demand; source=crazygames-es
-- [wrecking launch tic](https://www.crazygames.com/es/game/wrecking-launch-tic) — watch / game-title-not-search-demand; source=crazygames-es
-- [slime mine heist](https://www.crazygames.com/es/game/slime-mine-heist) — watch / game-title-not-search-demand; source=crazygames-es
-- [march io](https://www.crazygames.com/es/game/march-io) — watch / game-title-not-search-demand; source=crazygames-es
-- [gun dmg](https://www.crazygames.com/es/game/1-gun-dmg) — watch / game-title-not-search-demand; source=crazygames-es
-- [bridge builder pro](https://www.gamepix.com/play/bridge-builder-pro) — review / tool-intent-wording-not-verified; source=gamepix-en
-- [barber simulator asmr haircut](https://www.gamepix.com/play/barber-simulator-asmr-haircut) — review / tool-intent-wording-not-verified; source=gamepix-en
-- [color switch ball](https://www.gamepix.com/play/color-switch-ball) — watch / game-title-not-search-demand; source=gamepix-en
-- [solitaire classic master](https://www.gamepix.com/play/solitaire-classic-master) — watch / game-title-not-search-demand; source=gamepix-en
-- [mogfall](https://www.gamepix.com/play/mogfall) — watch / game-title-not-search-demand; source=gamepix-en
-- [marshmug](https://www.gamepix.com/play/marshmug) — watch / game-title-not-search-demand; source=gamepix-en
-- [bloques estrella](https://www.gamepix.com/play/bloques-estrella) — watch / game-title-not-search-demand; source=gamepix-en
-- [mine sweeper pro](https://www.gamepix.com/play/mine-sweeper-pro) — watch / game-title-not-search-demand; source=gamepix-en
-- [tank grow arena](https://www.gamepix.com/play/tank-grow-arena) — watch / game-title-not-search-demand; source=gamepix-en
-- [mutant arena](https://www.gamepix.com/play/mutant-arena) — watch / game-title-not-search-demand; source=gamepix-en
-- [helix drop](https://www.gamepix.com/play/helix-drop) — watch / game-title-not-search-demand; source=gamepix-en
-- [escape tower](https://www.gamepix.com/play/escape-tower) — watch / game-title-not-search-demand; source=gamepix-en
-- [pink slip kings](https://www.gamepix.com/play/pink-slip-kings) — watch / game-title-not-search-demand; source=gamepix-en
-- [piano tiles rush](https://www.gamepix.com/play/piano-tiles-rush) — watch / game-title-not-search-demand; source=gamepix-en
-- [ninefold sudoku](https://www.gamepix.com/play/ninefold-sudoku) — watch / game-title-not-search-demand; source=gamepix-en
-- [ink abyss escape](https://www.gamepix.com/play/ink-abyss-escape) — watch / game-title-not-search-demand; source=gamepix-en
-- [starlace](https://www.gamepix.com/play/starlace) — watch / game-title-not-search-demand; source=gamepix-en
-- [ember brook](https://www.gamepix.com/play/ember-brook) — watch / game-title-not-search-demand; source=gamepix-en
-- [trivia master quiz](https://www.gamepix.com/play/trivia-master-quiz) — watch / game-title-not-search-demand; source=gamepix-en
-- [sudoku oasis](https://www.gamepix.com/play/sudoku-oasis) — watch / game-title-not-search-demand; source=gamepix-en
-- [bubble pop mania](https://www.gamepix.com/play/bubble-pop-mania) — watch / game-title-not-search-demand; source=gamepix-en
-- [frosty donuts](https://www.gamepix.com/play/frosty-donuts) — watch / game-title-not-search-demand; source=gamepix-en
-- [thistledown market](https://www.gamepix.com/play/thistledown-market) — watch / game-title-not-search-demand; source=gamepix-en
-- [island keep](https://www.gamepix.com/play/island-keep) — watch / game-title-not-search-demand; source=gamepix-en
-- [block puzzle 1010](https://www.gamepix.com/play/block-puzzle-1010) — watch / game-title-not-search-demand; source=gamepix-en
-- [noob army zombie siege](https://www.gamepix.com/play/noob-army-zombie-siege) — watch / game-title-not-search-demand; source=gamepix-en
-- [shatterwake](https://www.gamepix.com/play/shatterwake) — watch / game-title-not-search-demand; source=gamepix-en
-- [gem snip](https://www.gamepix.com/play/gem-snip) — watch / game-title-not-search-demand; source=gamepix-en
-- [hive rush bee swarm](https://www.gamepix.com/play/hive-rush-bee-swarm) — watch / game-title-not-search-demand; source=gamepix-en
-- [domino to the moon](https://www.gamepix.com/play/domino-to-the-moon) — watch / game-title-not-search-demand; source=gamepix-en
-- [pipe dreams](https://www.gamepix.com/play/pipe-dreams) — watch / game-title-not-search-demand; source=gamepix-en
-- [freecell master](https://www.gamepix.com/play/freecell-master) — watch / game-title-not-search-demand; source=gamepix-en
-- [swat breacher](https://www.gamepix.com/play/swat-breacher) — watch / game-title-not-search-demand; source=gamepix-en
-- [jelly shot](https://www.gamepix.com/play/jelly-shot) — watch / game-title-not-search-demand; source=gamepix-en
-- [gran zoorismo](https://www.gamepix.com/play/gran-zoorismo) — watch / game-title-not-search-demand; source=gamepix-en
-- [tokyo extreme battleground](https://www.gamepix.com/play/tokyo-extreme-battleground) — watch / game-title-not-search-demand; source=gamepix-en
-- [explorador perdido lost explorer](https://www.gamepix.com/play/explorador-perdido-lost-explorer) — watch / game-title-not-search-demand; source=gamepix-en
-- [tile connect puzzle](https://www.gamepix.com/play/tile-connect-puzzle) — watch / game-title-not-search-demand; source=gamepix-en
-- [defensa del castillo](https://www.gamepix.com/play/defensa-del-castillo) — watch / game-title-not-search-demand; source=gamepix-en
-- [tris xo](https://www.gamepix.com/play/tris-xo) — watch / game-title-not-search-demand; source=gamepix-en
-- [egg heist steal the nest](https://www.gamepix.com/play/egg-heist-steal-the-nest) — watch / game-title-not-search-demand; source=gamepix-en
-- [macaron merge](https://www.gamepix.com/play/macaron-merge) — watch / game-title-not-search-demand; source=gamepix-en
-- [chocolate dream classic](https://www.gamepix.com/play/chocolate-dream-classic) — watch / game-title-not-search-demand; source=gamepix-en
-- [master of the eggs](https://www.gamepix.com/play/master-of-the-eggs) — watch / game-title-not-search-demand; source=gamepix-en
-- [one stroke master](https://www.gamepix.com/play/one-stroke-master) — watch / game-title-not-search-demand; source=gamepix-en
-- [kinelock](https://www.gamepix.com/play/kinelock) — watch / game-title-not-search-demand; source=gamepix-en
-- [twinklewire](https://www.gamepix.com/play/twinklewire) — watch / game-title-not-search-demand; source=gamepix-en
-- [pip dash](https://www.gamepix.com/play/pip-dash) — watch / game-title-not-search-demand; source=gamepix-en
-- [crystal voyager dimension shift](https://www.gamepix.com/play/crystal-voyager-dimension-shift) — watch / game-title-not-search-demand; source=gamepix-en
-- [arrows ruins tower archers](https://www.gamepix.com/play/arrows-ruins-tower-archers) — watch / game-title-not-search-demand; source=gamepix-en
-- [snackdown](https://www.gamepix.com/play/snackdown) — watch / game-title-not-search-demand; source=gamepix-en
-- [paper toss](https://www.gamepix.com/play/paper-toss) — watch / game-title-not-search-demand; source=gamepix-en
-- [pebble pollen](https://www.gamepix.com/play/pebble-pollen) — watch / game-title-not-search-demand; source=gamepix-en
-- [lampling](https://www.gamepix.com/play/lampling) — watch / game-title-not-search-demand; source=gamepix-en
-- [balance stack master](https://www.gamepix.com/play/balance-stack-master) — watch / game-title-not-search-demand; source=gamepix-en
-- [rogue tower dx](https://www.gamepix.com/play/rogue-tower-dx) — watch / game-title-not-search-demand; source=gamepix-en
-- [candy swipe](https://www.gamepix.com/play/candy-swipe) — watch / game-title-not-search-demand; source=gamepix-en
-- [moonbrew](https://www.gamepix.com/play/moonbrew) — watch / game-title-not-search-demand; source=gamepix-en
-- [castle catapult](https://www.gamepix.com/play/castle-catapult) — watch / game-title-not-search-demand; source=gamepix-en
-- [screw rescue](https://www.gamepix.com/play/screw-rescue) — watch / game-title-not-search-demand; source=gamepix-en
-- [sharks minnows kart](https://www.gamepix.com/play/sharks-minnows-kart) — watch / game-title-not-search-demand; source=gamepix-en
-- [alienity](https://www.gamepix.com/play/alienity) — watch / game-title-not-search-demand; source=gamepix-en
-- [wheelie king](https://www.gamepix.com/play/wheelie-king) — watch / game-title-not-search-demand; source=gamepix-en
-- [bottle flip pro](https://www.gamepix.com/play/bottle-flip-pro) — watch / game-title-not-search-demand; source=gamepix-en
-- [homeward slingshot](https://www.gamepix.com/play/homeward-slingshot) — watch / game-title-not-search-demand; source=gamepix-en
-- [udti gaadi](https://www.gamepix.com/play/udti-gaadi) — watch / game-title-not-search-demand; source=gamepix-en
-- [zombie juggernaut](https://www.gamepix.com/play/zombie-juggernaut) — watch / game-title-not-search-demand; source=gamepix-en
-- [cell grow arena](https://www.gamepix.com/play/cell-grow-arena) — watch / game-title-not-search-demand; source=gamepix-en
-- [walrus wallop](https://www.gamepix.com/play/walrus-wallop) — watch / game-title-not-search-demand; source=gamepix-en
-- [run valley](https://www.gamepix.com/play/run-valley) — watch / game-title-not-search-demand; source=gamepix-en
+- [stick duel](https://www.gamepix.com/play/stick-duel) — watch / game-title-not-search-demand; source=gamepix-en
+- [prairie hen drama](https://www.gamepix.com/play/prairie-hen-drama) — watch / game-title-not-search-demand; source=gamepix-en
+- [space defender shooter](https://www.gamepix.com/play/space-defender-shooter) — watch / game-title-not-search-demand; source=gamepix-en
+- [pixel monster smash](https://www.gamepix.com/play/pixel-monster-smash) — watch / game-title-not-search-demand; source=gamepix-en
+- [swing gate defense](https://www.gamepix.com/play/swing-gate-defense) — watch / game-title-not-search-demand; source=gamepix-en
+- [breezeling kite run](https://www.gamepix.com/play/breezeling-kite-run) — watch / game-title-not-search-demand; source=gamepix-en
+- [frostcrumb](https://www.gamepix.com/play/frostcrumb) — watch / game-title-not-search-demand; source=gamepix-en
+- [bop the blox 2](https://www.gamepix.com/play/bop-the-blox-2) — watch / game-title-not-search-demand; source=gamepix-en
+- [shuriken swarm](https://www.gamepix.com/play/shuriken-swarm) — watch / game-title-not-search-demand; source=gamepix-en
+- [swordfin](https://www.gamepix.com/play/swordfin) — watch / game-title-not-search-demand; source=gamepix-en
+- [prism grid](https://www.gamepix.com/play/prism-grid) — watch / game-title-not-search-demand; source=gamepix-en
+- [cookie heist](https://www.gamepix.com/play/cookie-heist) — watch / game-title-not-search-demand; source=gamepix-en
+- [wirewords](https://www.gamepix.com/play/wirewords) — watch / game-title-not-search-demand; source=gamepix-en
+- [neon survivor swarm](https://www.gamepix.com/play/neon-survivor-swarm) — watch / game-title-not-search-demand; source=gamepix-en
+- [pirate rush](https://www.gamepix.com/play/pirate-rush) — watch / game-title-not-search-demand; source=gamepix-en
+- [the last keeper](https://www.gamepix.com/play/the-last-keeper) — watch / game-title-not-search-demand; source=gamepix-en
+- [stock snake](https://www.gamepix.com/play/stock-snake) — watch / game-title-not-search-demand; source=gamepix-en
+- [swapini](https://www.gamepix.com/play/swapini) — watch / game-title-not-search-demand; source=gamepix-en
+- [tile link zen](https://www.gamepix.com/play/tile-link-zen) — watch / game-title-not-search-demand; source=gamepix-en
+- [supernova blocks](https://www.gamepix.com/play/supernova-blocks) — watch / game-title-not-search-demand; source=gamepix-en
+- [neon breakout](https://www.gamepix.com/play/neon-breakout) — watch / game-title-not-search-demand; source=gamepix-en
+- [sugarbox workshop](https://www.gamepix.com/play/sugarbox-workshop) — watch / game-title-not-search-demand; source=gamepix-en
+- [tic tac shot](https://www.gamepix.com/play/tic-tac-shot) — watch / game-title-not-search-demand; source=gamepix-en
+- [tavern rush tycoon](https://www.gamepix.com/play/tavern-rush-tycoon) — watch / game-title-not-search-demand; source=gamepix-en
+- [turf crews paint the city](https://www.gamepix.com/play/turf-crews-paint-the-city) — watch / game-title-not-search-demand; source=gamepix-en
+- [sprout trail](https://www.gamepix.com/play/sprout-trail) — watch / game-title-not-search-demand; source=gamepix-en
+- [gianki server](https://railway.com/deploy/gianki-server) — review / deployment-topic-not-search-demand; source=railway-templates
+- [modpack paste server](https://railway.com/deploy/modpack-paste-server) — review / deployment-topic-not-search-demand; source=railway-templates
+- [apache apisix on railway](https://railway.com/deploy/apache-apisix-on-railway) — review / deployment-topic-not-search-demand; source=railway-templates
+- [agentgateway](https://railway.com/deploy/agentgateway) — review / deployment-topic-not-search-demand; source=railway-templates
+- [mcpjam inspector mcpjam](https://railway.com/deploy/mcpjam-inspector--mcpjam) — review / deployment-topic-not-search-demand; source=railway-templates
+- [tesla](https://www.producthunt.com/products/tesla) — review / product-content-not-search-demand; source=producthunt-products
+- [annonspolicy](https://www.silvergames.com/sv/site/annonspolicy) — watch / generic-url-name-not-search-demand; source=silvergames-en
+- [redaktionell policy](https://www.silvergames.com/sv/site/redaktionell-policy) — watch / generic-url-name-not-search-demand; source=silvergames-en
+- [ansvarsfullt spelande](https://www.silvergames.com/sv/site/ansvarsfullt-spelande) — watch / generic-url-name-not-search-demand; source=silvergames-en
+- [sa betygsatter vi](https://www.silvergames.com/sv/site/sa-betygsatter-vi) — watch / generic-url-name-not-search-demand; source=silvergames-en
+- [casino utan svensk licens](https://www.silvergames.com/sv/casino-utan-svensk-licens) — watch / generic-url-name-not-search-demand; source=silvergames-en
+- [om oss](https://www.silvergames.com/sv/site/om-oss) — watch / generic-url-name-not-search-demand; source=silvergames-en
+- [testmu ai 0f9b169a](https://futuretools.io/tools/testmu-ai-0f9b169a) — watch / generic-url-name-not-search-demand; source=futuretools-products
+- [ada 295f47d4](https://futuretools.io/tools/ada-295f47d4) — watch / generic-url-name-not-search-demand; source=futuretools-products
+- [allternit 91848dd9](https://futuretools.io/tools/allternit-91848dd9) — watch / generic-url-name-not-search-demand; source=futuretools-products
+- [giga 56da0d43](https://futuretools.io/tools/giga-56da0d43) — watch / generic-url-name-not-search-demand; source=futuretools-products
+- [kabo c51fbf9c](https://futuretools.io/tools/kabo-c51fbf9c) — watch / generic-url-name-not-search-demand; source=futuretools-products
+- [loquill df21b496](https://futuretools.io/tools/loquill-df21b496) — watch / generic-url-name-not-search-demand; source=futuretools-products
+- [recastpro 13d54309](https://futuretools.io/tools/recastpro-13d54309) — watch / generic-url-name-not-search-demand; source=futuretools-products
+- [shortsboost e04c8608](https://futuretools.io/tools/shortsboost-e04c8608) — watch / generic-url-name-not-search-demand; source=futuretools-products
+- [smart jelly 3c381385](https://futuretools.io/tools/smart-jelly-3c381385) — watch / generic-url-name-not-search-demand; source=futuretools-products
+- [potluck fcb42f9a](https://futuretools.io/tools/potluck-fcb42f9a) — watch / generic-url-name-not-search-demand; source=futuretools-products
+- [paintball squad](https://gamedistribution.com/games/paintball-squad/) — watch / generic-url-name-not-search-demand; source=gamedistribution-games
+- [tidekeep](https://gamedistribution.com/games/tidekeep/) — watch / generic-url-name-not-search-demand; source=gamedistribution-games
+- [tumblephant](https://gamedistribution.com/games/tumblephant/) — watch / generic-url-name-not-search-demand; source=gamedistribution-games
+- [plumber panic](https://gamedistribution.com/games/plumber-panic/) — watch / generic-url-name-not-search-demand; source=gamedistribution-games
+- [sort master satisfeel asmr](https://gamedistribution.com/games/sort-master-satisfeel-asmr/) — watch / generic-url-name-not-search-demand; source=gamedistribution-games
+- [tennis bots](https://gamedistribution.com/games/tennis-bots/) — watch / generic-url-name-not-search-demand; source=gamedistribution-games
+- [gobble pit](https://gamedistribution.com/games/gobble-pit/) — watch / generic-url-name-not-search-demand; source=gamedistribution-games
+- [brandpush co](https://fazier.com/launches/brandpush-co) — watch / generic-url-name-not-search-demand; source=fazier-launches
+- [root quest](https://fazier.com/launches/root-quest) — watch / generic-url-name-not-search-demand; source=fazier-launches
+- [hiplip ai english coach](https://fazier.com/launches/hiplip-ai-english-coach) — watch / generic-url-name-not-search-demand; source=fazier-launches
+- [ai agents marketplace](https://fazier.com/launches/ai-agents-marketplace) — watch / generic-url-name-not-search-demand; source=fazier-launches
+- [emotions game in portuguese](https://www.cokogames.com/emotions-game-in-portuguese/) — watch / generic-url-name-not-search-demand; source=cokogames-es
+- [ollin 2](https://toolfound.com/tool/ollin-2) — watch / generic-url-name-not-search-demand; source=toolfound-products
+- [reelboop](https://toolfound.com/tool/reelboop) — watch / generic-url-name-not-search-demand; source=toolfound-products
+- [agi workforce](https://toolfound.com/tool/agi-workforce) — watch / generic-url-name-not-search-demand; source=toolfound-products
+- [paypervideo](https://toolfound.com/tool/paypervideo) — watch / generic-url-name-not-search-demand; source=toolfound-products
+- [hues ai](https://saascity.io/live/hues-ai) — watch / generic-url-name-not-search-demand; source=saascity-products
+- [iphone backup sync](https://saascity.io/live/iphone-backup-sync) — watch / generic-url-name-not-search-demand; source=saascity-products
+- [filmcraft](https://saascity.io/live/filmcraft) — watch / generic-url-name-not-search-demand; source=saascity-products
+- [ai room designer](https://saascity.io/live/ai-room-designer) — watch / generic-url-name-not-search-demand; source=saascity-products
+- [contextbolt seo](https://saascity.io/live/contextbolt-seo) — watch / generic-url-name-not-search-demand; source=saascity-products
+- [chatwith](https://productperch.com/products/chatwith/) — watch / generic-url-name-not-search-demand; source=productperch-products
+- [free website roast](https://productperch.com/products/free-website-roast/) — watch / generic-url-name-not-search-demand; source=productperch-products
+- [shopify products scraper](https://productperch.com/products/shopify-products-scraper/) — watch / generic-url-name-not-search-demand; source=productperch-products
+- [locate next](https://productperch.com/products/locate-next/) — watch / generic-url-name-not-search-demand; source=productperch-products
+- [kimiseek](https://productperch.com/products/kimiseek/) — watch / generic-url-name-not-search-demand; source=productperch-products
+- [qr static](https://productperch.com/products/qr-static/) — watch / generic-url-name-not-search-demand; source=productperch-products
+- [resale iq](https://productperch.com/products/resale-iq/) — watch / generic-url-name-not-search-demand; source=productperch-products
+- [openmapp](https://productperch.com/products/openmapp/) — watch / generic-url-name-not-search-demand; source=productperch-products
+- [tidykit](https://productperch.com/products/tidykit/) — watch / generic-url-name-not-search-demand; source=productperch-products
+- [ai pop video](https://productperch.com/products/ai-pop-video/) — watch / generic-url-name-not-search-demand; source=productperch-products
+- [approvalwatch](https://productperch.com/products/approvalwatch/) — watch / generic-url-name-not-search-demand; source=productperch-products
+- [seedance 3 0 ai video generator 3](https://dang.ai/tool/seedance-3-0-ai-video-generator-3) — review / tool-intent-wording-not-verified; source=dangai-tools
+- [velos website to video generator](https://dang.ai/tool/velos-website-to-video-generator) — review / tool-intent-wording-not-verified; source=dangai-tools
+- [kompres online pdf compressor](https://dang.ai/tool/kompres-online-pdf-compressor) — review / tool-intent-wording-not-verified; source=dangai-tools
+- [unitpic ai image generator](https://dang.ai/tool/unitpic-ai-image-generator) — review / tool-intent-wording-not-verified; source=dangai-tools
+- [seovyn ai seo content automation](https://dang.ai/tool/seovyn-ai-seo-content-automation) — watch / generic-url-name-not-search-demand; source=dangai-tools
+- [openai](https://dang.ai/tool/openai) — watch / generic-url-name-not-search-demand; source=dangai-tools
+- [upfluence](https://dang.ai/tool/upfluence) — watch / generic-url-name-not-search-demand; source=dangai-tools
+- [outfity ai fashion lookbook](https://dang.ai/tool/outfity-ai-fashion-lookbook) — watch / generic-url-name-not-search-demand; source=dangai-tools
+- [fenn ai visibility tracking](https://dang.ai/tool/fenn-ai-visibility-tracking) — watch / generic-url-name-not-search-demand; source=dangai-tools
+- [autocrit online editing](https://dang.ai/tool/autocrit-online-editing) — watch / generic-url-name-not-search-demand; source=dangai-tools
+- [goodcall](https://dang.ai/tool/goodcall) — watch / generic-url-name-not-search-demand; source=dangai-tools
+- [blaze 2](https://dang.ai/tool/blaze-2) — watch / generic-url-name-not-search-demand; source=dangai-tools
+- [twl ai sales outreach automation](https://dang.ai/tool/twl-ai-sales-outreach-automation) — watch / generic-url-name-not-search-demand; source=dangai-tools
+- [agentzap ai](https://dang.ai/tool/agentzap-ai) — watch / generic-url-name-not-search-demand; source=dangai-tools
+- [luminal inference](https://tooldirectory.ai/tools/luminal-inference) — watch / generic-url-name-not-search-demand; source=tooldirectory-ai-tools
 
 ## Source interpretation
 

@@ -1,71 +1,11 @@
 {
-  "date": "2026-11-22",
-  "window_start": "2026-11-16",
+  "date": "2026-11-23",
+  "window_start": "2026-11-17",
   "source_count": 135,
   "queue_count": 12000,
   "ignored_unverifiable_proofs": 0,
   "groups": {
     "games": [
-      {
-        "query": "treasures of the mystic sea 2",
-        "independent_websites": 6,
-        "date_span_days": 3,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 3,
-        "three_calendar_day_peak": 5,
-        "seven_calendar_day_total": 6,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/treasures-of-the-mystic-sea-2/",
-            "first_seen": "2026-11-16",
-            "observed_query": "treasures of the mystic sea 2",
-            "source_category": "games"
-          },
-          {
-            "source_id": "1001games-en",
-            "website": "1001games.com",
-            "url": "https://www.1001games.com/match-3/treasures-of-the-mystic-sea-2",
-            "first_seen": "2026-11-17",
-            "observed_query": "treasures of the mystic sea 2",
-            "source_category": "games"
-          },
-          {
-            "source_id": "agame-en",
-            "website": "agame.com",
-            "url": "https://www.agame.com/game/treasures-of-the-mystic-sea-2",
-            "first_seen": "2026-11-18",
-            "observed_query": "treasures of the mystic sea 2",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamesgames-en",
-            "website": "gamesgames.com",
-            "url": "https://www.gamesgames.com/game/treasures-of-the-mystic-sea-2",
-            "first_seen": "2026-11-18",
-            "observed_query": "treasures of the mystic sea 2",
-            "source_category": "games"
-          },
-          {
-            "source_id": "girlsgogames-en",
-            "website": "girlsgogames.com",
-            "url": "https://www.girlsgogames.com/game/treasures-of-the-mystic-sea-2",
-            "first_seen": "2026-11-18",
-            "observed_query": "treasures of the mystic sea 2",
-            "source_category": "games"
-          },
-          {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/treasures-of-the-mystic-sea-2/",
-            "first_seen": "2026-11-19",
-            "observed_query": "treasures of the mystic sea 2",
-            "source_category": "games"
-          }
-        ]
-      },
       {
         "query": "escape chase",
         "independent_websites": 6,
@@ -127,58 +67,6 @@
         ]
       },
       {
-        "query": "boba tea merge",
-        "independent_websites": 5,
-        "date_span_days": 2,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 4,
-        "three_calendar_day_peak": 5,
-        "seven_calendar_day_total": 5,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/boba-tea-merge/",
-            "first_seen": "2026-11-16",
-            "observed_query": "boba tea merge",
-            "source_category": "games"
-          },
-          {
-            "source_id": "1001games-en",
-            "website": "1001games.com",
-            "url": "https://www.1001games.com/think/boba-tea-merge",
-            "first_seen": "2026-11-18",
-            "observed_query": "boba tea merge",
-            "source_category": "games"
-          },
-          {
-            "source_id": "agame-en",
-            "website": "agame.com",
-            "url": "https://www.agame.com/game/boba-tea-merge",
-            "first_seen": "2026-11-18",
-            "observed_query": "boba tea merge",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamesgames-en",
-            "website": "gamesgames.com",
-            "url": "https://www.gamesgames.com/game/boba-tea-merge",
-            "first_seen": "2026-11-18",
-            "observed_query": "boba tea merge",
-            "source_category": "games"
-          },
-          {
-            "source_id": "girlsgogames-en",
-            "website": "girlsgogames.com",
-            "url": "https://www.girlsgogames.com/game/boba-tea-merge",
-            "first_seen": "2026-11-18",
-            "observed_query": "boba tea merge",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "knights arena castle defense",
         "independent_websites": 5,
         "date_span_days": 2,
@@ -226,6 +114,102 @@
             "url": "https://www.y8.com/games/knights_arena_-_castle_defense",
             "first_seen": "2026-11-20",
             "observed_query": "knights arena castle defense",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "treasures of the mystic sea 2",
+        "independent_websites": 5,
+        "date_span_days": 2,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 3,
+        "three_calendar_day_peak": 5,
+        "seven_calendar_day_total": 5,
+        "evidence": [
+          {
+            "source_id": "1001games-en",
+            "website": "1001games.com",
+            "url": "https://www.1001games.com/match-3/treasures-of-the-mystic-sea-2",
+            "first_seen": "2026-11-17",
+            "observed_query": "treasures of the mystic sea 2",
+            "source_category": "games"
+          },
+          {
+            "source_id": "agame-en",
+            "website": "agame.com",
+            "url": "https://www.agame.com/game/treasures-of-the-mystic-sea-2",
+            "first_seen": "2026-11-18",
+            "observed_query": "treasures of the mystic sea 2",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamesgames-en",
+            "website": "gamesgames.com",
+            "url": "https://www.gamesgames.com/game/treasures-of-the-mystic-sea-2",
+            "first_seen": "2026-11-18",
+            "observed_query": "treasures of the mystic sea 2",
+            "source_category": "games"
+          },
+          {
+            "source_id": "girlsgogames-en",
+            "website": "girlsgogames.com",
+            "url": "https://www.girlsgogames.com/game/treasures-of-the-mystic-sea-2",
+            "first_seen": "2026-11-18",
+            "observed_query": "treasures of the mystic sea 2",
+            "source_category": "games"
+          },
+          {
+            "source_id": "bgames-en",
+            "website": "bgames.com",
+            "url": "https://www.bgames.com/game/treasures-of-the-mystic-sea-2/",
+            "first_seen": "2026-11-19",
+            "observed_query": "treasures of the mystic sea 2",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "boba tea merge",
+        "independent_websites": 4,
+        "date_span_days": 0,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 4,
+        "three_calendar_day_peak": 4,
+        "seven_calendar_day_total": 4,
+        "evidence": [
+          {
+            "source_id": "1001games-en",
+            "website": "1001games.com",
+            "url": "https://www.1001games.com/think/boba-tea-merge",
+            "first_seen": "2026-11-18",
+            "observed_query": "boba tea merge",
+            "source_category": "games"
+          },
+          {
+            "source_id": "agame-en",
+            "website": "agame.com",
+            "url": "https://www.agame.com/game/boba-tea-merge",
+            "first_seen": "2026-11-18",
+            "observed_query": "boba tea merge",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamesgames-en",
+            "website": "gamesgames.com",
+            "url": "https://www.gamesgames.com/game/boba-tea-merge",
+            "first_seen": "2026-11-18",
+            "observed_query": "boba tea merge",
+            "source_category": "games"
+          },
+          {
+            "source_id": "girlsgogames-en",
+            "website": "girlsgogames.com",
+            "url": "https://www.girlsgogames.com/game/boba-tea-merge",
+            "first_seen": "2026-11-18",
+            "observed_query": "boba tea merge",
             "source_category": "games"
           }
         ]
@@ -358,50 +342,6 @@
             "url": "https://www.girlsgogames.com/game/valley-of-dreams-build-your-world",
             "first_seen": "2026-11-18",
             "observed_query": "valley of dreams build your world",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "go little ants",
-        "independent_websites": 4,
-        "date_span_days": 2,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 3,
-        "three_calendar_day_peak": 4,
-        "seven_calendar_day_total": 4,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/go-little-ants!/",
-            "first_seen": "2026-11-16",
-            "observed_query": "go little ants!",
-            "source_category": "games"
-          },
-          {
-            "source_id": "agame-en",
-            "website": "agame.com",
-            "url": "https://www.agame.com/game/go-little-ants",
-            "first_seen": "2026-11-18",
-            "observed_query": "go little ants",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamesgames-en",
-            "website": "gamesgames.com",
-            "url": "https://www.gamesgames.com/game/go-little-ants",
-            "first_seen": "2026-11-18",
-            "observed_query": "go little ants",
-            "source_category": "games"
-          },
-          {
-            "source_id": "girlsgogames-en",
-            "website": "girlsgogames.com",
-            "url": "https://www.girlsgogames.com/game/go-little-ants",
-            "first_seen": "2026-11-18",
-            "observed_query": "go little ants",
             "source_category": "games"
           }
         ]
@@ -618,6 +558,42 @@
             "url": "https://www.girlsgogames.com/game/free-cell-solitaire-online",
             "first_seen": "2026-11-18",
             "observed_query": "free cell solitaire online",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "go little ants",
+        "independent_websites": 3,
+        "date_span_days": 0,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 3,
+        "three_calendar_day_peak": 3,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "agame-en",
+            "website": "agame.com",
+            "url": "https://www.agame.com/game/go-little-ants",
+            "first_seen": "2026-11-18",
+            "observed_query": "go little ants",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamesgames-en",
+            "website": "gamesgames.com",
+            "url": "https://www.gamesgames.com/game/go-little-ants",
+            "first_seen": "2026-11-18",
+            "observed_query": "go little ants",
+            "source_category": "games"
+          },
+          {
+            "source_id": "girlsgogames-en",
+            "website": "girlsgogames.com",
+            "url": "https://www.girlsgogames.com/game/go-little-ants",
+            "first_seen": "2026-11-18",
+            "observed_query": "go little ants",
             "source_category": "games"
           }
         ]
@@ -1150,34 +1126,6 @@
             "url": "https://playgama.com/game/emberless",
             "first_seen": "2026-11-21",
             "observed_query": "emberless",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "mecha war",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/mecha-war/",
-            "first_seen": "2026-11-16",
-            "observed_query": "mecha war",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/mecha_war",
-            "first_seen": "2026-11-17",
-            "observed_query": "mecha war",
             "source_category": "games"
           }
         ]
@@ -1743,7 +1691,7 @@
         ]
       },
       {
-        "query": "pandaniel san",
+        "query": "paintball squad",
         "independent_websites": 2,
         "date_span_days": 3,
         "priority": "watch",
@@ -1753,19 +1701,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/pandaniel_san",
-            "first_seen": "2026-11-16",
-            "observed_query": "pandaniel san",
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/paintball-squad",
+            "first_seen": "2026-11-20",
+            "observed_query": "paintball squad",
             "source_category": "games"
           },
           {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/pandaniel-san",
-            "first_seen": "2026-11-19",
-            "observed_query": "pandaniel san",
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/paintball-squad/",
+            "first_seen": "2026-11-23",
+            "observed_query": "paintball squad",
             "source_category": "games"
           }
         ]
@@ -1965,197 +1913,9 @@
             "source_category": "games"
           }
         ]
-      },
-      {
-        "query": "zombie survival blackout",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/zombie_survival_blackout",
-            "first_seen": "2026-11-16",
-            "observed_query": "zombie survival blackout",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/zombie-survival-blackout",
-            "first_seen": "2026-11-21",
-            "observed_query": "zombie survival blackout",
-            "source_category": "games"
-          }
-        ]
       }
     ],
     "products": [
-      {
-        "query": "aisma",
-        "independent_websites": 4,
-        "date_span_days": 2,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 4,
-        "seven_calendar_day_total": 4,
-        "evidence": [
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/aisma",
-            "first_seen": "2026-11-16",
-            "observed_query": "aisma",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/aisma",
-            "first_seen": "2026-11-16",
-            "observed_query": "aisma",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/aisma",
-            "first_seen": "2026-11-17",
-            "observed_query": "aisma",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/aisma",
-            "first_seen": "2026-11-18",
-            "observed_query": "aisma",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "sheets bootcamp",
-        "independent_websites": 4,
-        "date_span_days": 2,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 4,
-        "seven_calendar_day_total": 4,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/sheets-bootcamp",
-            "first_seen": "2026-11-16",
-            "observed_query": "sheets bootcamp",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/sheets-bootcamp",
-            "first_seen": "2026-11-17",
-            "observed_query": "sheets bootcamp",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/sheets-bootcamp",
-            "first_seen": "2026-11-18",
-            "observed_query": "sheets bootcamp",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/sheets-bootcamp",
-            "first_seen": "2026-11-18",
-            "observed_query": "sheets bootcamp",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "branchnote",
-        "independent_websites": 3,
-        "date_span_days": 1,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 3,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/branchnote",
-            "first_seen": "2026-11-16",
-            "observed_query": "branchnote",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/branchnote",
-            "first_seen": "2026-11-17",
-            "observed_query": "branchnote",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/branchnote",
-            "first_seen": "2026-11-17",
-            "observed_query": "branchnote",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "luvvoice",
-        "independent_websites": 3,
-        "date_span_days": 1,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 3,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/luvvoice",
-            "first_seen": "2026-11-16",
-            "observed_query": "luvvoice",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/luvvoice",
-            "first_seen": "2026-11-17",
-            "observed_query": "luvvoice",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/luvvoice",
-            "first_seen": "2026-11-17",
-            "observed_query": "luvvoice",
-            "source_category": "saas"
-          }
-        ]
-      },
       {
         "query": "node mantis",
         "independent_websites": 3,
@@ -2193,37 +1953,37 @@
         ]
       },
       {
-        "query": "tavoa ai",
+        "query": "sheets bootcamp",
         "independent_websites": 3,
-        "date_span_days": 2,
+        "date_span_days": 1,
         "priority": "high",
         "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
+        "same_calendar_day_peak": 2,
         "three_calendar_day_peak": 3,
         "seven_calendar_day_total": 3,
         "evidence": [
           {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/tavoa-ai",
-            "first_seen": "2026-11-16",
-            "observed_query": "tavoa ai",
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/sheets-bootcamp",
+            "first_seen": "2026-11-17",
+            "observed_query": "sheets bootcamp",
             "source_category": "saas"
           },
           {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/tavoa-ai",
-            "first_seen": "2026-11-17",
-            "observed_query": "tavoa ai",
+            "source_id": "saasworthy-products",
+            "website": "saasworthy.com",
+            "url": "https://www.saasworthy.com/product/sheets-bootcamp",
+            "first_seen": "2026-11-18",
+            "observed_query": "sheets bootcamp",
             "source_category": "saas"
           },
           {
             "source_id": "uneed-products",
             "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/tavoa-ai",
+            "url": "https://www.uneed.best/tool/sheets-bootcamp",
             "first_seen": "2026-11-18",
-            "observed_query": "tavoa ai",
+            "observed_query": "sheets bootcamp",
             "source_category": "saas"
           }
         ]
@@ -2265,42 +2025,6 @@
         ]
       },
       {
-        "query": "onekdp",
-        "independent_websites": 3,
-        "date_span_days": 3,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/onekdp",
-            "first_seen": "2026-11-16",
-            "observed_query": "onekdp",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/onekdp",
-            "first_seen": "2026-11-18",
-            "observed_query": "onekdp",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/onekdp",
-            "first_seen": "2026-11-19",
-            "observed_query": "onekdp",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
         "query": "decibri",
         "independent_websites": 3,
         "date_span_days": 4,
@@ -2337,42 +2061,6 @@
         ]
       },
       {
-        "query": "greta sh",
-        "independent_websites": 3,
-        "date_span_days": 6,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "pitchwall-products",
-            "website": "pitchwall.co",
-            "url": "https://pitchwall.co/product/greta-sh",
-            "first_seen": "2026-11-16",
-            "observed_query": "greta sh",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/greta-sh",
-            "first_seen": "2026-11-17",
-            "observed_query": "greta sh",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/greta-sh",
-            "first_seen": "2026-11-22",
-            "observed_query": "greta sh",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "beatmotion",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -2396,6 +2084,34 @@
             "url": "https://pitchwall.co/product/beatmotion",
             "first_seen": "2026-11-20",
             "observed_query": "beatmotion",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "branchnote",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/branchnote",
+            "first_seen": "2026-11-17",
+            "observed_query": "branchnote",
+            "source_category": "developer"
+          },
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/branchnote",
+            "first_seen": "2026-11-17",
+            "observed_query": "branchnote",
             "source_category": "saas"
           }
         ]
@@ -2541,6 +2257,34 @@
         ]
       },
       {
+        "query": "luvvoice",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/luvvoice",
+            "first_seen": "2026-11-17",
+            "observed_query": "luvvoice",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/luvvoice",
+            "first_seen": "2026-11-17",
+            "observed_query": "luvvoice",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "midtown center auto repair",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -2564,34 +2308,6 @@
             "url": "https://smollaunch.com/products/midtown-center-auto-repair",
             "first_seen": "2026-11-17",
             "observed_query": "midtown center auto repair",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "migmig",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/migmig",
-            "first_seen": "2026-11-16",
-            "observed_query": "migmig",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/migmig",
-            "first_seen": "2026-11-16",
-            "observed_query": "migmig",
             "source_category": "saas"
           }
         ]
@@ -2709,34 +2425,6 @@
         ]
       },
       {
-        "query": "trakey flow",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/trakey-flow",
-            "first_seen": "2026-11-16",
-            "observed_query": "trakey flow",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/trakey-flow/",
-            "first_seen": "2026-11-16",
-            "observed_query": "trakey flow",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
         "query": "acadhex",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -2821,6 +2509,34 @@
         ]
       },
       {
+        "query": "aisma",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/aisma",
+            "first_seen": "2026-11-17",
+            "observed_query": "aisma",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/aisma",
+            "first_seen": "2026-11-18",
+            "observed_query": "aisma",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "api gateway",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -2844,34 +2560,6 @@
             "url": "https://www.uneed.best/tool/api-gateway",
             "first_seen": "2026-11-19",
             "observed_query": "api gateway",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "eppika",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/eppika",
-            "first_seen": "2026-11-16",
-            "observed_query": "eppika",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/eppika",
-            "first_seen": "2026-11-17",
-            "observed_query": "eppika",
             "source_category": "saas"
           }
         ]
@@ -2961,6 +2649,34 @@
         ]
       },
       {
+        "query": "onekdp",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/onekdp",
+            "first_seen": "2026-11-18",
+            "observed_query": "onekdp",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "aitoolnet-tools",
+            "website": "aitoolnet.com",
+            "url": "https://www.aitoolnet.com/onekdp",
+            "first_seen": "2026-11-19",
+            "observed_query": "onekdp",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
         "query": "postfjord",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -2989,7 +2705,7 @@
         ]
       },
       {
-        "query": "rakazo",
+        "query": "tavoa ai",
         "independent_websites": 2,
         "date_span_days": 1,
         "priority": "medium",
@@ -2999,20 +2715,20 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "producthunt-products",
-            "website": "producthunt.com",
-            "url": "https://www.producthunt.com/products/rakazo",
-            "first_seen": "2026-11-16",
-            "observed_query": "rakazo",
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/tavoa-ai",
+            "first_seen": "2026-11-17",
+            "observed_query": "tavoa ai",
             "source_category": "saas"
           },
           {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/rakazo",
-            "first_seen": "2026-11-17",
-            "observed_query": "rakazo",
-            "source_category": "ai"
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/tavoa-ai",
+            "first_seen": "2026-11-18",
+            "observed_query": "tavoa ai",
+            "source_category": "saas"
           }
         ]
       },
@@ -3069,34 +2785,6 @@
             "first_seen": "2026-11-18",
             "observed_query": "tool networker",
             "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "tulvo",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "producthunt-products",
-            "website": "producthunt.com",
-            "url": "https://www.producthunt.com/products/tulvo",
-            "first_seen": "2026-11-16",
-            "observed_query": "tulvo",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/tulvo",
-            "first_seen": "2026-11-17",
-            "observed_query": "tulvo",
-            "source_category": "ai"
           }
         ]
       },
@@ -3241,62 +2929,6 @@
         ]
       },
       {
-        "query": "bytespdf",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/bytespdf",
-            "first_seen": "2026-11-16",
-            "observed_query": "bytespdf",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/bytespdf",
-            "first_seen": "2026-11-18",
-            "observed_query": "bytespdf",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "codex cli",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "railway-templates",
-            "website": "railway.com",
-            "url": "https://railway.com/deploy/codex-cli",
-            "first_seen": "2026-11-16",
-            "observed_query": "codex cli",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "aiagentstore-agents",
-            "website": "aiagentstore.ai",
-            "url": "https://aiagentstore.ai/get-ai-agent/codex-cli",
-            "first_seen": "2026-11-18",
-            "observed_query": "codex cli",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
         "query": "displayswitcher",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -3353,34 +2985,6 @@
         ]
       },
       {
-        "query": "gitlab",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/gitlab",
-            "first_seen": "2026-11-16",
-            "observed_query": "gitlab",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "aiagentstore-agents",
-            "website": "aiagentstore.ai",
-            "url": "https://aiagentstore.ai/get-ai-agent/gitlab",
-            "first_seen": "2026-11-18",
-            "observed_query": "gitlab",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
         "query": "huggingface models",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -3405,90 +3009,6 @@
             "first_seen": "2026-11-20",
             "observed_query": "huggingface models",
             "source_category": "developer"
-          }
-        ]
-      },
-      {
-        "query": "insta4dl",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/insta4dl",
-            "first_seen": "2026-11-16",
-            "observed_query": "insta4dl",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/insta4dl",
-            "first_seen": "2026-11-18",
-            "observed_query": "insta4dl",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "jetbrains",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/jetbrains",
-            "first_seen": "2026-11-16",
-            "observed_query": "jetbrains",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "aiagentstore-agents",
-            "website": "aiagentstore.ai",
-            "url": "https://aiagentstore.ai/get-ai-agent/jetbrains",
-            "first_seen": "2026-11-18",
-            "observed_query": "jetbrains",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "offiai",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "producthunt-products",
-            "website": "producthunt.com",
-            "url": "https://www.producthunt.com/products/offiai",
-            "first_seen": "2026-11-16",
-            "observed_query": "offiai",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/offiai",
-            "first_seen": "2026-11-18",
-            "observed_query": "offiai",
-            "source_category": "saas"
           }
         ]
       },
@@ -3745,7 +3265,7 @@
         ]
       },
       {
-        "query": "nowah",
+        "query": "openmapp",
         "independent_websites": 2,
         "date_span_days": 3,
         "priority": "watch",
@@ -3755,19 +3275,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/nowah/",
-            "first_seen": "2026-11-16",
-            "observed_query": "nowah",
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/openmapp",
+            "first_seen": "2026-11-20",
+            "observed_query": "openmapp",
             "source_category": "saas"
           },
           {
-            "source_id": "indietools-products",
-            "website": "indietools.app",
-            "url": "https://www.indietools.app/products/nowah",
-            "first_seen": "2026-11-19",
-            "observed_query": "nowah",
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/openmapp/",
+            "first_seen": "2026-11-23",
+            "observed_query": "openmapp",
             "source_category": "saas"
           }
         ]
@@ -3941,7 +3461,7 @@
         ]
       },
       {
-        "query": "pageree",
+        "query": "shopify products scraper",
         "independent_websites": 2,
         "date_span_days": 4,
         "priority": "watch",
@@ -3951,53 +3471,25 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/pageree",
-            "first_seen": "2026-11-16",
-            "observed_query": "pageree",
-            "source_category": "saas"
+            "source_id": "apify-actors-z",
+            "website": "apify.com",
+            "url": "https://apify.com/parsegrid/shopify-products-scraper",
+            "first_seen": "2026-11-19",
+            "observed_query": "shopify products scraper",
+            "source_category": "developer"
           },
           {
-            "source_id": "fridayhunt-projects",
-            "website": "fridayhunt.com",
-            "url": "https://fridayhunt.com/projects/pageree",
-            "first_seen": "2026-11-20",
-            "observed_query": "pageree",
+            "source_id": "productperch-products",
+            "website": "productperch.com",
+            "url": "https://productperch.com/products/shopify-products-scraper/",
+            "first_seen": "2026-11-23",
+            "observed_query": "shopify products scraper",
             "source_category": "saas"
           }
         ]
       },
       {
-        "query": "saylift",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/saylift",
-            "first_seen": "2026-11-16",
-            "observed_query": "saylift",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/saylift",
-            "first_seen": "2026-11-20",
-            "observed_query": "saylift",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "github",
+        "query": "greta sh",
         "independent_websites": 2,
         "date_span_days": 5,
         "priority": "watch",
@@ -4007,19 +3499,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/github",
-            "first_seen": "2026-11-16",
-            "observed_query": "github",
-            "source_category": "developer"
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/greta-sh",
+            "first_seen": "2026-11-17",
+            "observed_query": "greta sh",
+            "source_category": "saas"
           },
           {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/github",
-            "first_seen": "2026-11-21",
-            "observed_query": "github",
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/greta-sh",
+            "first_seen": "2026-11-22",
+            "observed_query": "greta sh",
             "source_category": "saas"
           }
         ]
@@ -4051,14 +3543,42 @@
             "source_category": "saas"
           }
         ]
+      },
+      {
+        "query": "filmcraft",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "toolveyor-tools",
+            "website": "toolveyor.com",
+            "url": "https://toolveyor.com/filmcraft",
+            "first_seen": "2026-11-17",
+            "observed_query": "filmcraft",
+            "source_category": "ai"
+          },
+          {
+            "source_id": "saascity-products",
+            "website": "saascity.io",
+            "url": "https://saascity.io/live/filmcraft",
+            "first_seen": "2026-11-23",
+            "observed_query": "filmcraft",
+            "source_category": "saas"
+          }
+        ]
       }
     ],
     "tools": [],
     "functions": []
   },
   "group_counts": {
-    "games": 61,
-    "products": 70,
+    "games": 59,
+    "products": 58,
     "tools": 0,
     "functions": 0
   },
@@ -4126,120 +3646,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "treasures of the mystic sea 2",
-        "independent_websites": 6,
-        "date_span_days": 3,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 3,
-        "three_calendar_day_peak": 5,
-        "seven_calendar_day_total": 6,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/treasures-of-the-mystic-sea-2/",
-            "first_seen": "2026-11-16",
-            "observed_query": "treasures of the mystic sea 2",
-            "source_category": "games"
-          },
-          {
-            "source_id": "1001games-en",
-            "website": "1001games.com",
-            "url": "https://www.1001games.com/match-3/treasures-of-the-mystic-sea-2",
-            "first_seen": "2026-11-17",
-            "observed_query": "treasures of the mystic sea 2",
-            "source_category": "games"
-          },
-          {
-            "source_id": "agame-en",
-            "website": "agame.com",
-            "url": "https://www.agame.com/game/treasures-of-the-mystic-sea-2",
-            "first_seen": "2026-11-18",
-            "observed_query": "treasures of the mystic sea 2",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamesgames-en",
-            "website": "gamesgames.com",
-            "url": "https://www.gamesgames.com/game/treasures-of-the-mystic-sea-2",
-            "first_seen": "2026-11-18",
-            "observed_query": "treasures of the mystic sea 2",
-            "source_category": "games"
-          },
-          {
-            "source_id": "girlsgogames-en",
-            "website": "girlsgogames.com",
-            "url": "https://www.girlsgogames.com/game/treasures-of-the-mystic-sea-2",
-            "first_seen": "2026-11-18",
-            "observed_query": "treasures of the mystic sea 2",
-            "source_category": "games"
-          },
-          {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/treasures-of-the-mystic-sea-2/",
-            "first_seen": "2026-11-19",
-            "observed_query": "treasures of the mystic sea 2",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "boba tea merge",
-        "independent_websites": 5,
-        "date_span_days": 2,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 4,
-        "three_calendar_day_peak": 5,
-        "seven_calendar_day_total": 5,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/boba-tea-merge/",
-            "first_seen": "2026-11-16",
-            "observed_query": "boba tea merge",
-            "source_category": "games"
-          },
-          {
-            "source_id": "1001games-en",
-            "website": "1001games.com",
-            "url": "https://www.1001games.com/think/boba-tea-merge",
-            "first_seen": "2026-11-18",
-            "observed_query": "boba tea merge",
-            "source_category": "games"
-          },
-          {
-            "source_id": "agame-en",
-            "website": "agame.com",
-            "url": "https://www.agame.com/game/boba-tea-merge",
-            "first_seen": "2026-11-18",
-            "observed_query": "boba tea merge",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamesgames-en",
-            "website": "gamesgames.com",
-            "url": "https://www.gamesgames.com/game/boba-tea-merge",
-            "first_seen": "2026-11-18",
-            "observed_query": "boba tea merge",
-            "source_category": "games"
-          },
-          {
-            "source_id": "girlsgogames-en",
-            "website": "girlsgogames.com",
-            "url": "https://www.girlsgogames.com/game/boba-tea-merge",
-            "first_seen": "2026-11-18",
-            "observed_query": "boba tea merge",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "knights arena castle defense",
         "independent_websites": 5,
         "date_span_days": 2,
@@ -4293,45 +3699,98 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "go little ants",
-        "independent_websites": 4,
+        "query": "treasures of the mystic sea 2",
+        "independent_websites": 5,
         "date_span_days": 2,
         "priority": "high",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 3,
-        "three_calendar_day_peak": 4,
-        "seven_calendar_day_total": 4,
+        "three_calendar_day_peak": 5,
+        "seven_calendar_day_total": 5,
         "evidence": [
           {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/go-little-ants!/",
-            "first_seen": "2026-11-16",
-            "observed_query": "go little ants!",
+            "source_id": "1001games-en",
+            "website": "1001games.com",
+            "url": "https://www.1001games.com/match-3/treasures-of-the-mystic-sea-2",
+            "first_seen": "2026-11-17",
+            "observed_query": "treasures of the mystic sea 2",
             "source_category": "games"
           },
           {
             "source_id": "agame-en",
             "website": "agame.com",
-            "url": "https://www.agame.com/game/go-little-ants",
+            "url": "https://www.agame.com/game/treasures-of-the-mystic-sea-2",
             "first_seen": "2026-11-18",
-            "observed_query": "go little ants",
+            "observed_query": "treasures of the mystic sea 2",
             "source_category": "games"
           },
           {
             "source_id": "gamesgames-en",
             "website": "gamesgames.com",
-            "url": "https://www.gamesgames.com/game/go-little-ants",
+            "url": "https://www.gamesgames.com/game/treasures-of-the-mystic-sea-2",
             "first_seen": "2026-11-18",
-            "observed_query": "go little ants",
+            "observed_query": "treasures of the mystic sea 2",
             "source_category": "games"
           },
           {
             "source_id": "girlsgogames-en",
             "website": "girlsgogames.com",
-            "url": "https://www.girlsgogames.com/game/go-little-ants",
+            "url": "https://www.girlsgogames.com/game/treasures-of-the-mystic-sea-2",
             "first_seen": "2026-11-18",
-            "observed_query": "go little ants",
+            "observed_query": "treasures of the mystic sea 2",
+            "source_category": "games"
+          },
+          {
+            "source_id": "bgames-en",
+            "website": "bgames.com",
+            "url": "https://www.bgames.com/game/treasures-of-the-mystic-sea-2/",
+            "first_seen": "2026-11-19",
+            "observed_query": "treasures of the mystic sea 2",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "boba tea merge",
+        "independent_websites": 4,
+        "date_span_days": 0,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 4,
+        "three_calendar_day_peak": 4,
+        "seven_calendar_day_total": 4,
+        "evidence": [
+          {
+            "source_id": "1001games-en",
+            "website": "1001games.com",
+            "url": "https://www.1001games.com/think/boba-tea-merge",
+            "first_seen": "2026-11-18",
+            "observed_query": "boba tea merge",
+            "source_category": "games"
+          },
+          {
+            "source_id": "agame-en",
+            "website": "agame.com",
+            "url": "https://www.agame.com/game/boba-tea-merge",
+            "first_seen": "2026-11-18",
+            "observed_query": "boba tea merge",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamesgames-en",
+            "website": "gamesgames.com",
+            "url": "https://www.gamesgames.com/game/boba-tea-merge",
+            "first_seen": "2026-11-18",
+            "observed_query": "boba tea merge",
+            "source_category": "games"
+          },
+          {
+            "source_id": "girlsgogames-en",
+            "website": "girlsgogames.com",
+            "url": "https://www.girlsgogames.com/game/boba-tea-merge",
+            "first_seen": "2026-11-18",
+            "observed_query": "boba tea merge",
             "source_category": "games"
           }
         ],
@@ -4769,6 +4228,43 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "go little ants",
+        "independent_websites": 3,
+        "date_span_days": 0,
+        "priority": "high",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 3,
+        "three_calendar_day_peak": 3,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "agame-en",
+            "website": "agame.com",
+            "url": "https://www.agame.com/game/go-little-ants",
+            "first_seen": "2026-11-18",
+            "observed_query": "go little ants",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamesgames-en",
+            "website": "gamesgames.com",
+            "url": "https://www.gamesgames.com/game/go-little-ants",
+            "first_seen": "2026-11-18",
+            "observed_query": "go little ants",
+            "source_category": "games"
+          },
+          {
+            "source_id": "girlsgogames-en",
+            "website": "girlsgogames.com",
+            "url": "https://www.girlsgogames.com/game/go-little-ants",
+            "first_seen": "2026-11-18",
+            "observed_query": "go little ants",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "potion blast",
         "independent_websites": 3,
         "date_span_days": 0,
@@ -5151,35 +4647,6 @@
             "url": "https://www.y8.com/games/maze_siege",
             "first_seen": "2026-11-22",
             "observed_query": "maze siege",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "mecha war",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamedistribution-games",
-            "website": "gamedistribution.com",
-            "url": "https://gamedistribution.com/games/mecha-war/",
-            "first_seen": "2026-11-16",
-            "observed_query": "mecha war",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/mecha_war",
-            "first_seen": "2026-11-17",
-            "observed_query": "mecha war",
             "source_category": "games"
           }
         ],
@@ -5969,7 +5436,7 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "pandaniel san",
+        "query": "paintball squad",
         "independent_websites": 2,
         "date_span_days": 3,
         "priority": "watch",
@@ -5979,19 +5446,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/pandaniel_san",
-            "first_seen": "2026-11-16",
-            "observed_query": "pandaniel san",
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/paintball-squad",
+            "first_seen": "2026-11-20",
+            "observed_query": "paintball squad",
             "source_category": "games"
           },
           {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/pandaniel-san",
-            "first_seen": "2026-11-19",
-            "observed_query": "pandaniel san",
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/paintball-squad/",
+            "first_seen": "2026-11-23",
+            "observed_query": "paintball squad",
             "source_category": "games"
           }
         ],
@@ -6083,56 +5550,19 @@
           }
         ],
         "cross_signal_origin": "games"
-      },
-      {
-        "query": "zombie survival blackout",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/zombie_survival_blackout",
-            "first_seen": "2026-11-16",
-            "observed_query": "zombie survival blackout",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/zombie-survival-blackout",
-            "first_seen": "2026-11-21",
-            "observed_query": "zombie survival blackout",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
       }
     ],
     "saas": [
       {
         "query": "sheets bootcamp",
-        "independent_websites": 4,
-        "date_span_days": 2,
+        "independent_websites": 3,
+        "date_span_days": 1,
         "priority": "high",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 4,
-        "seven_calendar_day_total": 4,
+        "three_calendar_day_peak": 3,
+        "seven_calendar_day_total": 3,
         "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/sheets-bootcamp",
-            "first_seen": "2026-11-16",
-            "observed_query": "sheets bootcamp",
-            "source_category": "saas"
-          },
           {
             "source_id": "smollaunch-products",
             "website": "smollaunch.com",
@@ -6155,117 +5585,6 @@
             "url": "https://www.uneed.best/tool/sheets-bootcamp",
             "first_seen": "2026-11-18",
             "observed_query": "sheets bootcamp",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "luvvoice",
-        "independent_websites": 3,
-        "date_span_days": 1,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 3,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/luvvoice",
-            "first_seen": "2026-11-16",
-            "observed_query": "luvvoice",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/luvvoice",
-            "first_seen": "2026-11-17",
-            "observed_query": "luvvoice",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/luvvoice",
-            "first_seen": "2026-11-17",
-            "observed_query": "luvvoice",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "tavoa ai",
-        "independent_websites": 3,
-        "date_span_days": 2,
-        "priority": "high",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 3,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/tavoa-ai",
-            "first_seen": "2026-11-16",
-            "observed_query": "tavoa ai",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/tavoa-ai",
-            "first_seen": "2026-11-17",
-            "observed_query": "tavoa ai",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/tavoa-ai",
-            "first_seen": "2026-11-18",
-            "observed_query": "tavoa ai",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "greta sh",
-        "independent_websites": 3,
-        "date_span_days": 6,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "pitchwall-products",
-            "website": "pitchwall.co",
-            "url": "https://pitchwall.co/product/greta-sh",
-            "first_seen": "2026-11-16",
-            "observed_query": "greta sh",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/greta-sh",
-            "first_seen": "2026-11-17",
-            "observed_query": "greta sh",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/greta-sh",
-            "first_seen": "2026-11-22",
-            "observed_query": "greta sh",
             "source_category": "saas"
           }
         ],
@@ -6295,35 +5614,6 @@
             "url": "https://fazier.com/launches/acadhex",
             "first_seen": "2026-11-19",
             "observed_query": "acadhex",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "aisma",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/aisma",
-            "first_seen": "2026-11-16",
-            "observed_query": "aisma",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/aisma",
-            "first_seen": "2026-11-18",
-            "observed_query": "aisma",
             "source_category": "saas"
           }
         ],
@@ -6417,64 +5707,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "branchnote",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/branchnote",
-            "first_seen": "2026-11-16",
-            "observed_query": "branchnote",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/branchnote",
-            "first_seen": "2026-11-17",
-            "observed_query": "branchnote",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "bytespdf",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/bytespdf",
-            "first_seen": "2026-11-16",
-            "observed_query": "bytespdf",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/bytespdf",
-            "first_seen": "2026-11-18",
-            "observed_query": "bytespdf",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "deskhall",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -6527,35 +5759,6 @@
             "url": "https://productperch.com/products/displayswitcher/",
             "first_seen": "2026-11-19",
             "observed_query": "displayswitcher",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "eppika",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/eppika",
-            "first_seen": "2026-11-16",
-            "observed_query": "eppika",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/eppika",
-            "first_seen": "2026-11-17",
-            "observed_query": "eppika",
             "source_category": "saas"
           }
         ],
@@ -6620,35 +5823,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "insta4dl",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/insta4dl",
-            "first_seen": "2026-11-16",
-            "observed_query": "insta4dl",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/insta4dl",
-            "first_seen": "2026-11-18",
-            "observed_query": "insta4dl",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "localepak",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -6672,6 +5846,35 @@
             "url": "https://www.saasworthy.com/product/localepak",
             "first_seen": "2026-11-18",
             "observed_query": "localepak",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "luvvoice",
+        "independent_websites": 2,
+        "date_span_days": 0,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 2,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/luvvoice",
+            "first_seen": "2026-11-17",
+            "observed_query": "luvvoice",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "startupbase-products",
+            "website": "startupbase.io",
+            "url": "https://startupbase.io/products/luvvoice",
+            "first_seen": "2026-11-17",
+            "observed_query": "luvvoice",
             "source_category": "saas"
           }
         ],
@@ -6730,93 +5933,6 @@
             "url": "https://productperch.com/products/marketing-star/",
             "first_seen": "2026-11-18",
             "observed_query": "marketing star",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "migmig",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/migmig",
-            "first_seen": "2026-11-16",
-            "observed_query": "migmig",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "startupbase-products",
-            "website": "startupbase.io",
-            "url": "https://startupbase.io/products/migmig",
-            "first_seen": "2026-11-16",
-            "observed_query": "migmig",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "offiai",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "producthunt-products",
-            "website": "producthunt.com",
-            "url": "https://www.producthunt.com/products/offiai",
-            "first_seen": "2026-11-16",
-            "observed_query": "offiai",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/offiai",
-            "first_seen": "2026-11-18",
-            "observed_query": "offiai",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "onekdp",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/onekdp",
-            "first_seen": "2026-11-16",
-            "observed_query": "onekdp",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/onekdp",
-            "first_seen": "2026-11-18",
-            "observed_query": "onekdp",
             "source_category": "saas"
           }
         ],
@@ -6997,6 +6113,35 @@
         "cross_signal_origin": "products"
       },
       {
+        "query": "tavoa ai",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/tavoa-ai",
+            "first_seen": "2026-11-17",
+            "observed_query": "tavoa ai",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/tavoa-ai",
+            "first_seen": "2026-11-18",
+            "observed_query": "tavoa ai",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "tidyframe",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -7049,35 +6194,6 @@
             "url": "https://fazier.com/launches/tool-networker",
             "first_seen": "2026-11-18",
             "observed_query": "tool networker",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "trakey flow",
-        "independent_websites": 2,
-        "date_span_days": 0,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 2,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/trakey-flow",
-            "first_seen": "2026-11-16",
-            "observed_query": "trakey flow",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/trakey-flow/",
-            "first_seen": "2026-11-16",
-            "observed_query": "trakey flow",
             "source_category": "saas"
           }
         ],
@@ -7194,6 +6310,35 @@
             "url": "https://saascity.io/live/xprite",
             "first_seen": "2026-11-20",
             "observed_query": "xprite",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
+        "query": "greta sh",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/greta-sh",
+            "first_seen": "2026-11-17",
+            "observed_query": "greta sh",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/greta-sh",
+            "first_seen": "2026-11-22",
+            "observed_query": "greta sh",
             "source_category": "saas"
           }
         ],
@@ -7345,7 +6490,7 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "nowah",
+        "query": "openmapp",
         "independent_websites": 2,
         "date_span_days": 3,
         "priority": "watch",
@@ -7355,48 +6500,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/openmapp",
+            "first_seen": "2026-11-20",
+            "observed_query": "openmapp",
+            "source_category": "saas"
+          },
+          {
             "source_id": "productperch-products",
             "website": "productperch.com",
-            "url": "https://productperch.com/products/nowah/",
-            "first_seen": "2026-11-16",
-            "observed_query": "nowah",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "indietools-products",
-            "website": "indietools.app",
-            "url": "https://www.indietools.app/products/nowah",
-            "first_seen": "2026-11-19",
-            "observed_query": "nowah",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "pageree",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/pageree",
-            "first_seen": "2026-11-16",
-            "observed_query": "pageree",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fridayhunt-projects",
-            "website": "fridayhunt.com",
-            "url": "https://fridayhunt.com/projects/pageree",
-            "first_seen": "2026-11-20",
-            "observed_query": "pageree",
+            "url": "https://productperch.com/products/openmapp/",
+            "first_seen": "2026-11-23",
+            "observed_query": "openmapp",
             "source_category": "saas"
           }
         ],
@@ -7426,35 +6542,6 @@
             "url": "https://fazier.com/launches/pinboardsaver",
             "first_seen": "2026-11-21",
             "observed_query": "pinboardsaver",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "saylift",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/saylift",
-            "first_seen": "2026-11-16",
-            "observed_query": "saylift",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/saylift",
-            "first_seen": "2026-11-20",
-            "observed_query": "saylift",
             "source_category": "saas"
           }
         ],
@@ -7614,17 +6701,17 @@
     "brazil": []
   },
   "by_type_counts": {
-    "games": 61,
-    "saas": 46,
+    "games": 59,
+    "saas": 35,
     "ai": 4,
     "calculators": 0,
     "files": 0,
     "developer": 0,
     "brazil": 0
   },
-  "delta_ledger_count": 13853,
+  "delta_ledger_count": 10938,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-11-22T18:12:26.073917+08:00",
+  "generated_at": "2026-11-23T04:49:11.528546+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
@@ -7634,8 +6721,8 @@
       "baselines": 0,
       "delta_scans": 29,
       "failed": 4,
-      "new_urls": 806,
-      "over_scan_cap": 493,
+      "new_urls": 40,
+      "over_scan_cap": 0,
       "failed_sources": [
         {
           "source_id": "gamesgames-en",
@@ -7659,13 +6746,17 @@
       "configured_sources": 20,
       "configured_domains": 20,
       "reported": 20,
-      "successful": 19,
+      "successful": 18,
       "baselines": 0,
-      "delta_scans": 19,
-      "failed": 1,
-      "new_urls": 150,
+      "delta_scans": 18,
+      "failed": 2,
+      "new_urls": 35,
       "over_scan_cap": 0,
       "failed_sources": [
+        {
+          "source_id": "startupstash-tools",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        },
         {
           "source_id": "microlaunch-products",
           "error": "TimeoutError: The read operation timed out"
@@ -7680,7 +6771,7 @@
       "baselines": 0,
       "delta_scans": 20,
       "failed": 0,
-      "new_urls": 33,
+      "new_urls": 15,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -7692,7 +6783,7 @@
       "baselines": 0,
       "delta_scans": 14,
       "failed": 1,
-      "new_urls": 8,
+      "new_urls": 0,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -7730,7 +6821,7 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 164,
+      "new_urls": 8,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -7742,7 +6833,7 @@
       "baselines": 0,
       "delta_scans": 10,
       "failed": 0,
-      "new_urls": 3,
+      "new_urls": 0,
       "over_scan_cap": 0,
       "failed_sources": []
     }
