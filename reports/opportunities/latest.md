@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-21T23:29:09.262567+00:00
-- Historical candidates: 7070
-- Newly recorded from pending: 115
+- Updated (UTC): 2026-11-22T09:40:59.580589+00:00
+- Historical candidates: 7129
+- Newly recorded from pending: 59
 - Awaiting 7/14/30-day evidence review: 5819
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 1987 michael jackson hit [Global] — discovered — first 2026-11-22, last 2026-11-22
-- 2.54 cm [Global] — discovered — first 2026-11-22, last 2026-11-22
-- abp optimizer [Global] — discovered — first 2026-11-22, last 2026-11-22
-- antec flux [Global] — discovered — first 2026-11-22, last 2026-11-22
-- antec flux m [Global] — discovered — first 2026-11-22, last 2026-11-22
-- bossman dlow mr pot scraper [Global] — discovered — first 2026-11-22, last 2026-11-22
-- carbon monoxide detector for car [Global] — discovered — first 2026-11-22, last 2026-11-22
-- cash generator [Global] — discovered — first 2026-11-22, last 2026-11-22
+- how to game share on ps5 [Global] — discovered — first 2026-11-22, last 2026-11-22
 - casino ohne oasis 🇩🇪 www.casinobino.online [Global] — discovered — first 2026-11-22, last 2026-11-22
-- casino utan svensk spelpaus 🇸🇪 casinobasse.sbs [Global] — discovered — first 2026-11-22, last 2026-11-22
-- chinese buns [Global] — discovered — first 2026-11-22, last 2026-11-22
+- uploader meaning [Global] — discovered — first 2026-11-22, last 2026-11-22
+- scoopbyte.com [Global] — discovered — first 2026-11-22, last 2026-11-22
+- purple flavor of bubble tea [Global] — discovered — first 2026-11-22, last 2026-11-22
+- swansea manager [Global] — discovered — first 2026-11-22, last 2026-11-22
+- gst portal login [Global] — discovered — first 2026-11-22, last 2026-11-22
 - chinese buns in a bamboo steamer [Global] — discovered — first 2026-11-22, last 2026-11-22
-- chinese buns prepared in a steamer [Global] — discovered — first 2026-11-22, last 2026-11-22
-- creator of gta 6 [Global] — discovered — first 2026-11-22, last 2026-11-22
-- creator voyage 2027 [Global] — discovered — first 2026-11-22, last 2026-11-22
-- crocodile hunter [Global] — discovered — first 2026-11-22, last 2026-11-22
-- cybersecurity tips [Global] — discovered — first 2026-11-22, last 2026-11-22
-- difficult choice crossword clue [Global] — discovered — first 2026-11-22, last 2026-11-22
-- dirty crossword clue [Global] — discovered — first 2026-11-22, last 2026-11-22
-- dji osmo pocket 3 creator combo [Global] — discovered — first 2026-11-22, last 2026-11-22
+- rrb po exam pattern [Global] — discovered — first 2026-11-22, last 2026-11-22
 - dji osmo pocket 3 gimbal creator combo 969903 [Global] — discovered — first 2026-11-22, last 2026-11-22
-- elderado gg [Global] — discovered — first 2026-11-22, last 2026-11-22
-- eldorado reviews [Global] — discovered — first 2026-11-22, last 2026-11-22
+- virgin voyages creator cruise [Global] — discovered — first 2026-11-22, last 2026-11-22
+- vera bradley cat pattern [Global] — discovered — first 2026-11-22, last 2026-11-22
+- antec flux [Global] — discovered — first 2026-11-22, last 2026-11-22
+- 1987 michael jackson hit [Global] — discovered — first 2026-11-22, last 2026-11-22
+- gta 5 [Global] — discovered — first 2026-11-22, last 2026-11-22
 - eldorado.com [Global] — discovered — first 2026-11-22, last 2026-11-22
-- eldorado.gg [Global] — discovered — first 2026-11-22, last 2026-11-22
+- google assistant smart speaker sunset 2027 [Global] — discovered — first 2026-11-22, last 2026-11-22
+- wireless device battery monitor [Global] — discovered — first 2026-11-22, last 2026-11-22
+- eldoradogg [Global] — discovered — first 2026-11-22, last 2026-11-22
+- excellence on the internet [Global] — discovered — first 2026-11-22, last 2026-11-22
+- website analyzer [Global] — discovered — first 2026-11-22, last 2026-11-22
+- cash generator [Global] — discovered — first 2026-11-22, last 2026-11-22
+- pleased crossword clue [Global] — discovered — first 2026-11-22, last 2026-11-22
+- new microsoft windows 11 optimizer app [Global] — discovered — first 2026-11-22, last 2026-11-22
+- nereids [Global] — discovered — first 2026-11-22, last 2026-11-22
 
 ## Due for follow-up
 
