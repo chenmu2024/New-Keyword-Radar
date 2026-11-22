@@ -1,4 +1,4 @@
-# SaaS / new-keyword validation queue — 2026-11-21
+# SaaS / new-keyword validation queue — 2026-11-22
 
 **RESEARCH ONLY. 0 build-ready opportunities unless separately validated.**
 
@@ -8,9 +8,9 @@ Volume / KD / CPC: **not available**. These discovery queries are not necessaril
 
 History: 14 archived days in the prior 14 days. Observations are not distinct customer reports.
 
-## US · payroll
+## US · operations
 
-Search for user pain: `payroll integration error`
+Search for user pain: `scheduling spreadsheet manual`
 
 Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
 
@@ -20,22 +20,22 @@ Source limitations: duckduckgo, reddit
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
-- [TanujSaha/attendpay-attendance-payroll-integration](https://github.com/TanujSaha/attendpay-attendance-payroll-integration) (github_repositories)
-- [Shahnawaz1-tech/darearqam](https://github.com/Shahnawaz1-tech/darearqam) (github_repositories)
-- [Jaanger123/time-tracker-api](https://github.com/Jaanger123/time-tracker-api) (github_repositories)
-- [AI, payroll ledger, and the meaning of touchless payroll - Thomson Reuters tax](https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVl2dVJQekhaZlNTU3pEeS1DbkFFdWdSRXNoMjEzTjdUZGhNeWZMMmktSTNyZ2dhT1dXeEZQSXB6WGpRWXF1N1lRR0ozRXR6RGJ1RWtvc2pnRWdOdFE5YmluVnNvTnBpVDRUQ3JIbGJrM1JKcUdBUHl4TUsxUzgzWmVtd2RFUzhNQ0hFcTJ6UVllYzBBSldUdkxmNmE?oc=5) (google_news_rss)
+- [its-bzak/skeddie](https://github.com/its-bzak/skeddie) (github_repositories)
+- [The Hidden Cost of Manual Contact Center Scheduling - CX Today](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ULUxRQ1MwQXN4MklnUnlDejEzUGhRVVFJRDBQQ1JmNHBCZVhSZWZHYlBlVGx4cXpkLUtmWjdpS0dHX3BEWG9CRWg3M2dFbjdQczUw?oc=5) (google_news_rss)
+- [Morrisons to Replace Manual Store Planning Spreadsheets with Logile Software - citybiz](https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWxGUGtqdU1lMnhrd1h6Rk83b1hMbXc0b2gzODYwdndPeWZlN1MxUC12MV95OWNnR08yaGlFVjlSdzFzZDZhTk8tS1F5NWZaQXpiaDVYODR0YnpuZVdMMG5hbWt2NlNIWXU0eVlzNko4WUNnWTRCUmJUOUdjcVFlNWNKTWs1ZlpMMWF0S29fQzBleUN1THdxQS1Cb0xvLVA4TWVlS2ZDeUNIaXVJRTNqR3JHNmdyQQ?oc=5) (google_news_rss)
+- [Acuity Scheduling: Online Booking & Appointment Scheduling Software](https://acuityscheduling.com/) (bing_rss)
 
 **Exact keyword hypotheses to verify (en):**
-- `payroll integration software` — Volume: unknown; KD: unknown; CPC: unknown
-- `payroll integration errors` — Volume: unknown; KD: unknown; CPC: unknown
-- `payroll API integration` — Volume: unknown; KD: unknown; CPC: unknown
+- `employee scheduling spreadsheet` — Volume: unknown; KD: unknown; CPC: unknown
+- `schedule automation software` — Volume: unknown; KD: unknown; CPC: unknown
+- `staff rota generator` — Volume: unknown; KD: unknown; CPC: unknown
 
-Monetization hypothesis: B2B integrations or compliance tool; paid intent unverified
+Monetization hypothesis: Staff planning tool / subscription; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 7 (the same topic is not independent demand)
+- Earlier days this research area was covered: 6 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 2
+- Repeated context links (saved sample): 4
 
 **Next checks:**
 - Check the exact terms above for US Volume/KD/CPC, noting provider and date.
@@ -55,7 +55,8 @@ Source limitations: duckduckgo, reddit
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
-- [ladykirsah/TeamPit](https://github.com/ladykirsah/TeamPit) (github_repositories)
+- [itsoumya-d/commerce-erp-sync](https://github.com/itsoumya-d/commerce-erp-sync) (github_repositories)
+- [berberbernis21-create/webflow-sync-server](https://github.com/berberbernis21-create/webflow-sync-server) (github_repositories)
 - [somrudeebanthao09/OnHand-Inventory-Planner](https://github.com/somrudeebanthao09/OnHand-Inventory-Planner) (github_repositories)
 - [Inventory Management App (2026): Features To Look for and Ecommerce Options Including Shopify and Stock Sync - Shopify](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DMlJOQWtSMDZxbFA3MVgtcXVWYmRlU2QwVHhmOHpUVkFaWjZ3SEJuQ3I4eDBibnZId1lJdkdUVGN3Q1RjYVFORW43blZsMW56elNDNXgwckoxWTY4NDB4UjVuWXppLWc?oc=5) (google_news_rss)
 
@@ -67,9 +68,9 @@ Source limitations: duckduckgo, reddit
 Monetization hypothesis: B2B inventory synchronization; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 6 (the same topic is not independent demand)
+- Earlier days this research area was covered: 7 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 1
+- Repeated context links (saved sample): 2
 
 **Next checks:**
 - Check the exact terms above for US Volume/KD/CPC, noting provider and date.
@@ -90,9 +91,9 @@ Source limitations: duckduckgo, reddit
 
 **Competitor / context references (not demand validation)**
 - [Mauricio-G-Oliveira/makerpixel-central-contabil](https://github.com/Mauricio-G-Oliveira/makerpixel-central-contabil) (github_repositories)
+- [Gary-Rainer-Chumacero-Vanderlei/ledger-fpa](https://github.com/Gary-Rainer-Chumacero-Vanderlei/ledger-fpa) (github_repositories)
 - [andrew-drew-beep/treasury-bridge-core](https://github.com/andrew-drew-beep/treasury-bridge-core) (github_repositories)
 - [Unimake/EBank](https://github.com/Unimake/EBank) (github_repositories)
-- [GuiRocha07/conciliacao-bancaria](https://github.com/GuiRocha07/conciliacao-bancaria) (github_repositories)
 
 **Exact keyword hypotheses to verify (pt-BR):**
 - `conciliação bancária online` — Volume: unknown; KD: unknown; CPC: unknown
@@ -100,6 +101,40 @@ Source limitations: duckduckgo, reddit
 - `planilha conciliação bancária` — Volume: unknown; KD: unknown; CPC: unknown
 
 Monetization hypothesis: Brazil bookkeeping reconciliation; paid intent unverified
+
+**14-day cross-report observations**
+- Earlier days this research area was covered: 7 (the same topic is not independent demand)
+- Repeated firsthand links (saved sample): 0
+- Repeated context links (saved sample): 4
+
+**Next checks:**
+- Check the exact terms above for BR Volume/KD/CPC, noting provider and date.
+- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
+- Confirm independent, attributable recent problem reports.
+- Test ad/SaaS monetization and zero-fixed-cost feasibility.
+
+## BR · inventory
+
+Search for user pain: `estoque integração falha`
+
+Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
+
+Source limitations: duckduckgo, reddit
+
+**Firsthand requests**
+- No qualifying public first-person request yet.
+
+**Competitor / context references (not demand validation)**
+- [Cirker1226/CalculaDOR](https://github.com/Cirker1226/CalculaDOR) (github_repositories)
+- [vskkfael/proj-sa-estoque](https://github.com/vskkfael/proj-sa-estoque) (github_repositories)
+- [felgoes/parts-erp](https://github.com/felgoes/parts-erp) (github_repositories)
+
+**Exact keyword hypotheses to verify (pt-BR):**
+- `controle de estoque online` — Volume: unknown; KD: unknown; CPC: unknown
+- `integração de estoque` — Volume: unknown; KD: unknown; CPC: unknown
+- `sincronização de estoque` — Volume: unknown; KD: unknown; CPC: unknown
+
+Monetization hypothesis: Inventory integration utility; paid intent unverified
 
 **14-day cross-report observations**
 - Earlier days this research area was covered: 6 (the same topic is not independent demand)
@@ -112,44 +147,9 @@ Monetization hypothesis: Brazil bookkeeping reconciliation; paid intent unverifi
 - Confirm independent, attributable recent problem reports.
 - Test ad/SaaS monetization and zero-fixed-cost feasibility.
 
-## BR · payroll
+## MX · inventory
 
-Search for user pain: `folha pagamento erro`
-
-Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
-
-Source limitations: duckduckgo, reddit
-
-**Firsthand requests**
-- No qualifying public first-person request yet.
-
-**Competitor / context references (not demand validation)**
-- [juanpmaciel/Calculadora-de-Folha-de-Pagamento](https://github.com/juanpmaciel/Calculadora-de-Folha-de-Pagamento) (github_repositories)
-- [Pamella-Rossi/FolhaFacil](https://github.com/Pamella-Rossi/FolhaFacil) (github_repositories)
-- [DanielznRtm/payroll-sentinel](https://github.com/DanielznRtm/payroll-sentinel) (github_repositories)
-- [kauaxp77/Folha-De-Pagamento](https://github.com/kauaxp77/Folha-De-Pagamento) (github_repositories)
-
-**Exact keyword hypotheses to verify (pt-BR):**
-- `erro folha de pagamento` — Volume: unknown; KD: unknown; CPC: unknown
-- `conferência folha de pagamento` — Volume: unknown; KD: unknown; CPC: unknown
-- `cálculo folha de pagamento online` — Volume: unknown; KD: unknown; CPC: unknown
-
-Monetization hypothesis: Brazil payroll checker / B2B SaaS; paid intent unverified
-
-**14-day cross-report observations**
-- Earlier days this research area was covered: 7 (the same topic is not independent demand)
-- Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 3
-
-**Next checks:**
-- Check the exact terms above for BR Volume/KD/CPC, noting provider and date.
-- Verify SERP competitors (ideally 10k–100k monthly traffic evidence).
-- Confirm independent, attributable recent problem reports.
-- Test ad/SaaS monetization and zero-fixed-cost feasibility.
-
-## MX · payroll
-
-Search for user pain: `nómina excel errores`
+Search for user pain: `inventario excel manual`
 
 Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
 
@@ -159,21 +159,22 @@ Source limitations: duckduckgo, reddit
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
-- [arrazola-consultores/arrazola-calculadoras-descargas](https://github.com/arrazola-consultores/arrazola-calculadoras-descargas) (github_repositories)
-- [frankbuitrago3-code/control-asistencia](https://github.com/frankbuitrago3-code/control-asistencia) (github_repositories)
-- [Camilo1408/Nomina-Xpress](https://github.com/Camilo1408/Nomina-Xpress) (github_repositories)
+- [CrabF-ui/WoodTrack](https://github.com/CrabF-ui/WoodTrack) (github_repositories)
+- [arnaldoreyes/02-inventario-rotacion-postgresql-excel](https://github.com/arnaldoreyes/02-inventario-rotacion-postgresql-excel) (github_repositories)
+- [luismario140/bar-sotware](https://github.com/luismario140/bar-sotware) (github_repositories)
+- [miguelangela791-web/punto-venta-lupita](https://github.com/miguelangela791-web/punto-venta-lupita) (github_repositories)
 
 **Exact keyword hypotheses to verify (es-MX):**
-- `nómina excel` — Volume: unknown; KD: unknown; CPC: unknown
-- `calculadora de nómina México` — Volume: unknown; KD: unknown; CPC: unknown
-- `errores de nómina` — Volume: unknown; KD: unknown; CPC: unknown
+- `control de inventarios excel` — Volume: unknown; KD: unknown; CPC: unknown
+- `inventario en línea` — Volume: unknown; KD: unknown; CPC: unknown
+- `sistema de inventarios en excel` — Volume: unknown; KD: unknown; CPC: unknown
 
-Monetization hypothesis: Mexico payroll checker; paid intent unverified
+Monetization hypothesis: Small business inventory tool; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 7 (the same topic is not independent demand)
+- Earlier days this research area was covered: 6 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 3
+- Repeated context links (saved sample): 1
 
 **Next checks:**
 - Check the exact terms above for MX Volume/KD/CPC, noting provider and date.
@@ -206,9 +207,9 @@ Source limitations: duckduckgo, reddit
 Monetization hypothesis: Mexico invoice compliance utility; paid intent unverified
 
 **14-day cross-report observations**
-- Earlier days this research area was covered: 6 (the same topic is not independent demand)
+- Earlier days this research area was covered: 7 (the same topic is not independent demand)
 - Repeated firsthand links (saved sample): 0
-- Repeated context links (saved sample): 3
+- Repeated context links (saved sample): 4
 
 **Next checks:**
 - Check the exact terms above for MX Volume/KD/CPC, noting provider and date.
@@ -218,7 +219,7 @@ Monetization hypothesis: Mexico invoice compliance utility; paid intent unverifi
 
 ## Worldwide · seed_rising
 
-Search for user pain: `hostinger ai builder`
+Search for user pain: `apb optimizer`
 
 Stage: **needs_firsthand_problem_evidence**; priority: source_research; identifiable originators: 0
 
@@ -228,10 +229,8 @@ Source limitations: duckduckgo, reddit
 - No qualifying public first-person request yet.
 
 **Competitor / context references (not demand validation)**
-- [adhikariganesh9813/afnocv-AI-powered-resume-builder-webapp-hostinger](https://github.com/adhikariganesh9813/afnocv-AI-powered-resume-builder-webapp-hostinger) (github_repositories)
-- [DeveloperSarim/FlowForge](https://github.com/DeveloperSarim/FlowForge) (github_repositories)
-- [fikranaqshal01/BajaringanWEB](https://github.com/fikranaqshal01/BajaringanWEB) (github_repositories)
-- [hellob2c/b2c-V1](https://github.com/hellob2c/b2c-V1) (github_repositories)
+- [SarthakChor/FPGA-Based-AHB-to-APB-Bridge-Using-Verilog-HDL-Incorporating-Reduced-Latency](https://github.com/SarthakChor/FPGA-Based-AHB-to-APB-Bridge-Using-Verilog-HDL-Incorporating-Reduced-Latency) (github_repositories)
+- [APB Optimizer – Windows Optimization Tool & Guide](https://apboptimizer.com/) (bing_rss)
 
 **Exact keyword hypotheses to verify (multi):**
 - No curated exact keywords yet; derive from actual customer wording.

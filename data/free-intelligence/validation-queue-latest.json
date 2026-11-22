@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T11:27:30.382351+08:00",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T10:38:47.752080+08:00",
   "schema_version": 1,
   "status": "research_queue_not_approved_opportunities",
   "total_topics": 7,
   "firsthand_qualified_topics": 0,
   "build_ready_count": 0,
-  "independent_discovery_urls": 50,
+  "independent_discovery_urls": 33,
   "market_counts": {
     "BR": 2,
     "MX": 2,
@@ -15,55 +15,55 @@
   },
   "topics": [
     {
-      "id": "5782333daba9da",
+      "id": "b89d8dc181b4cd",
       "market": "US",
       "language": "en",
-      "research_topic": "payroll",
-      "research_intent": "integration_pain",
-      "query_used_for_discovery": "payroll integration error",
+      "research_topic": "operations",
+      "research_intent": "manual_schedule_pain",
+      "query_used_for_discovery": "scheduling spreadsheet manual",
       "keyword_candidate": null,
       "keyword_is_validated": false,
       "stage": "needs_firsthand_problem_evidence",
       "priority": "source_research",
       "firsthand_evidence_count": 0,
       "attributable_independent_authors": 0,
-      "contextual_reference_count": 11,
+      "contextual_reference_count": 5,
       "firsthand_evidence": [],
       "contextual_references": [
         {
-          "title": "TanujSaha/attendpay-attendance-payroll-integration",
-          "url": "https://github.com/TanujSaha/attendpay-attendance-payroll-integration",
+          "title": "its-bzak/skeddie",
+          "url": "https://github.com/its-bzak/skeddie",
           "source": "github_repositories",
-          "published_at": "2026-11-20T19:36:34Z",
+          "published_at": "2026-11-14T00:03:47Z",
           "author": null,
-          "heuristic_score": 61,
+          "heuristic_score": 54,
           "verified_willingness_to_pay": false
         },
         {
-          "title": "Shahnawaz1-tech/darearqam",
-          "url": "https://github.com/Shahnawaz1-tech/darearqam",
-          "source": "github_repositories",
-          "published_at": "2026-11-17T17:42:14Z",
-          "author": null,
-          "heuristic_score": 61,
-          "verified_willingness_to_pay": false
-        },
-        {
-          "title": "Jaanger123/time-tracker-api",
-          "url": "https://github.com/Jaanger123/time-tracker-api",
-          "source": "github_repositories",
-          "published_at": "2025-11-19T06:15:48Z",
-          "author": null,
-          "heuristic_score": 31,
-          "verified_willingness_to_pay": false
-        },
-        {
-          "title": "AI, payroll ledger, and the meaning of touchless payroll - Thomson Reuters tax",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVl2dVJQekhaZlNTU3pEeS1DbkFFdWdSRXNoMjEzTjdUZGhNeWZMMmktSTNyZ2dhT1dXeEZQSXB6WGpRWXF1N1lRR0ozRXR6RGJ1RWtvc2pnRWdOdFE5YmluVnNvTnBpVDRUQ3JIbGJrM1JKcUdBUHl4TUsxUzgzWmVtd2RFUzhNQ0hFcTJ6UVllYzBBSldUdkxmNmE?oc=5",
+          "title": "The Hidden Cost of Manual Contact Center Scheduling - CX Today",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ULUxRQ1MwQXN4MklnUnlDejEzUGhRVVFJRDBQQ1JmNHBCZVhSZWZHYlBlVGx4cXpkLUtmWjdpS0dHX3BEWG9CRWg3M2dFbjdQczUw?oc=5",
           "source": "google_news_rss",
-          "published_at": "Thu, 09 Apr 2026 07:00:00 GMT",
+          "published_at": "Fri, 16 Oct 2026 07:00:00 GMT",
+          "author": null,
+          "heuristic_score": 32,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "Morrisons to Replace Manual Store Planning Spreadsheets with Logile Software - citybiz",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWxGUGtqdU1lMnhrd1h6Rk83b1hMbXc0b2gzODYwdndPeWZlN1MxUC12MV95OWNnR08yaGlFVjlSdzFzZDZhTk8tS1F5NWZaQXpiaDVYODR0YnpuZVdMMG5hbWt2NlNIWXU0eVlzNko4WUNnWTRCUmJUOUdjcVFlNWNKTWs1ZlpMMWF0S29fQzBleUN1THdxQS1Cb0xvLVA4TWVlS2ZDeUNIaXVJRTNqR3JHNmdyQQ?oc=5",
+          "source": "google_news_rss",
+          "published_at": "Wed, 14 Oct 2026 07:00:00 GMT",
           "author": null,
           "heuristic_score": 34,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "Acuity Scheduling: Online Booking & Appointment Scheduling Software",
+          "url": "https://acuityscheduling.com/",
+          "source": "bing_rss",
+          "published_at": "Sat, 21 Nov 2026 20:58:00 GMT",
+          "author": null,
+          "heuristic_score": 30,
           "verified_willingness_to_pay": false
         }
       ],
@@ -109,9 +109,9 @@
         "country": "US",
         "language": "en",
         "exact_terms_to_check": [
-          "payroll integration software",
-          "payroll integration errors",
-          "payroll API integration"
+          "employee scheduling spreadsheet",
+          "schedule automation software",
+          "staff rota generator"
         ],
         "hypotheses_only": true,
         "original_website_keywords_unchanged": true,
@@ -120,20 +120,20 @@
         "cpc_values": null,
         "evidence_provider": null,
         "market_serp_checked": false,
-        "monetization_hypothesis": "B2B integrations or compliance tool; paid intent unverified",
+        "monetization_hypothesis": "Staff planning tool / subscription; paid intent unverified",
         "needs_manual_volume_kd_cpc_validation": true
       },
       "history": {
         "history_window_days": 14,
         "prior_archive_days_scanned": 14,
-        "previous_days_in_same_research_area": 7,
-        "previous_days_with_exact_query": 7,
+        "previous_days_in_same_research_area": 6,
+        "previous_days_with_exact_query": 6,
         "new_firsthand_urls_in_saved_sample": 0,
         "returning_firsthand_urls_in_saved_sample": 0,
-        "new_context_urls_in_saved_sample": 2,
-        "returning_context_urls_in_saved_sample": 2,
+        "new_context_urls_in_saved_sample": 0,
+        "returning_context_urls_in_saved_sample": 4,
         "historical_firsthand_urls_in_saved_sample": 0,
-        "historical_context_urls_in_saved_sample": 21,
+        "historical_context_urls_in_saved_sample": 7,
         "is_repeat_user_demand_verified": false,
         "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
       }
@@ -151,16 +151,25 @@
       "priority": "source_research",
       "firsthand_evidence_count": 0,
       "attributable_independent_authors": 0,
-      "contextual_reference_count": 3,
+      "contextual_reference_count": 4,
       "firsthand_evidence": [],
       "contextual_references": [
         {
-          "title": "ladykirsah/TeamPit",
-          "url": "https://github.com/ladykirsah/TeamPit",
+          "title": "itsoumya-d/commerce-erp-sync",
+          "url": "https://github.com/itsoumya-d/commerce-erp-sync",
           "source": "github_repositories",
-          "published_at": "2026-06-22T14:46:30Z",
+          "published_at": "2026-11-05T03:27:38Z",
           "author": null,
-          "heuristic_score": 47,
+          "heuristic_score": 72,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "berberbernis21-create/webflow-sync-server",
+          "url": "https://github.com/berberbernis21-create/webflow-sync-server",
+          "source": "github_repositories",
+          "published_at": "2025-11-13T20:07:11Z",
+          "author": null,
+          "heuristic_score": 31,
           "verified_willingness_to_pay": false
         },
         {
@@ -241,14 +250,14 @@
       "history": {
         "history_window_days": 14,
         "prior_archive_days_scanned": 14,
-        "previous_days_in_same_research_area": 6,
-        "previous_days_with_exact_query": 6,
+        "previous_days_in_same_research_area": 7,
+        "previous_days_with_exact_query": 7,
         "new_firsthand_urls_in_saved_sample": 0,
         "returning_firsthand_urls_in_saved_sample": 0,
         "new_context_urls_in_saved_sample": 2,
-        "returning_context_urls_in_saved_sample": 1,
+        "returning_context_urls_in_saved_sample": 2,
         "historical_firsthand_urls_in_saved_sample": 0,
-        "historical_context_urls_in_saved_sample": 15,
+        "historical_context_urls_in_saved_sample": 17,
         "is_repeat_user_demand_verified": false,
         "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
       }
@@ -279,6 +288,15 @@
           "verified_willingness_to_pay": false
         },
         {
+          "title": "Gary-Rainer-Chumacero-Vanderlei/ledger-fpa",
+          "url": "https://github.com/Gary-Rainer-Chumacero-Vanderlei/ledger-fpa",
+          "source": "github_repositories",
+          "published_at": "2026-10-08T17:37:19Z",
+          "author": null,
+          "heuristic_score": 66,
+          "verified_willingness_to_pay": false
+        },
+        {
           "title": "andrew-drew-beep/treasury-bridge-core",
           "url": "https://github.com/andrew-drew-beep/treasury-bridge-core",
           "source": "github_repositories",
@@ -294,15 +312,6 @@
           "published_at": "2022-01-13T14:14:41Z",
           "author": null,
           "heuristic_score": 47,
-          "verified_willingness_to_pay": false
-        },
-        {
-          "title": "GuiRocha07/conciliacao-bancaria",
-          "url": "https://github.com/GuiRocha07/conciliacao-bancaria",
-          "source": "github_repositories",
-          "published_at": "2026-11-19T15:07:45Z",
-          "author": null,
-          "heuristic_score": 65,
           "verified_willingness_to_pay": false
         }
       ],
@@ -364,75 +373,66 @@
       "history": {
         "history_window_days": 14,
         "prior_archive_days_scanned": 14,
-        "previous_days_in_same_research_area": 6,
-        "previous_days_with_exact_query": 6,
+        "previous_days_in_same_research_area": 7,
+        "previous_days_with_exact_query": 7,
         "new_firsthand_urls_in_saved_sample": 0,
         "returning_firsthand_urls_in_saved_sample": 0,
-        "new_context_urls_in_saved_sample": 2,
-        "returning_context_urls_in_saved_sample": 2,
+        "new_context_urls_in_saved_sample": 0,
+        "returning_context_urls_in_saved_sample": 4,
         "historical_firsthand_urls_in_saved_sample": 1,
-        "historical_context_urls_in_saved_sample": 9,
+        "historical_context_urls_in_saved_sample": 11,
         "is_repeat_user_demand_verified": false,
         "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
       }
     },
     {
-      "id": "cc8de5df3779a3",
+      "id": "26b0e8bfc0237f",
       "market": "BR",
       "language": "pt",
-      "research_topic": "payroll",
-      "research_intent": "payroll_error",
-      "query_used_for_discovery": "folha pagamento erro",
+      "research_topic": "inventory",
+      "research_intent": "integration_pain",
+      "query_used_for_discovery": "estoque integração falha",
       "keyword_candidate": null,
       "keyword_is_validated": false,
       "stage": "needs_firsthand_problem_evidence",
       "priority": "source_research",
       "firsthand_evidence_count": 0,
       "attributable_independent_authors": 0,
-      "contextual_reference_count": 9,
+      "contextual_reference_count": 3,
       "firsthand_evidence": [],
       "contextual_references": [
         {
-          "title": "juanpmaciel/Calculadora-de-Folha-de-Pagamento",
-          "url": "https://github.com/juanpmaciel/Calculadora-de-Folha-de-Pagamento",
+          "title": "Cirker1226/CalculaDOR",
+          "url": "https://github.com/Cirker1226/CalculaDOR",
           "source": "github_repositories",
-          "published_at": "2026-05-12T16:17:39Z",
-          "author": null,
-          "heuristic_score": 47,
-          "verified_willingness_to_pay": false
-        },
-        {
-          "title": "Pamella-Rossi/FolhaFacil",
-          "url": "https://github.com/Pamella-Rossi/FolhaFacil",
-          "source": "github_repositories",
-          "published_at": "2026-11-18T02:10:43Z",
+          "published_at": "2026-11-22T01:14:24Z",
           "author": null,
           "heuristic_score": 61,
           "verified_willingness_to_pay": false
         },
         {
-          "title": "DanielznRtm/payroll-sentinel",
-          "url": "https://github.com/DanielznRtm/payroll-sentinel",
+          "title": "vskkfael/proj-sa-estoque",
+          "url": "https://github.com/vskkfael/proj-sa-estoque",
           "source": "github_repositories",
-          "published_at": "2026-11-10T14:35:38Z",
+          "published_at": "2026-11-03T23:57:48Z",
           "author": null,
           "heuristic_score": 56,
           "verified_willingness_to_pay": false
         },
         {
-          "title": "kauaxp77/Folha-De-Pagamento",
-          "url": "https://github.com/kauaxp77/Folha-De-Pagamento",
+          "title": "felgoes/parts-erp",
+          "url": "https://github.com/felgoes/parts-erp",
           "source": "github_repositories",
-          "published_at": "2026-08-11T20:56:08Z",
+          "published_at": "2026-09-30T00:27:00Z",
           "author": null,
-          "heuristic_score": 47,
+          "heuristic_score": 50,
           "verified_willingness_to_pay": false
         }
       ],
       "source_health": {
         "github_repos": "ok",
         "github_issues": "ok",
-        "google_news_rss": "ok",
+        "google_news_rss": "empty",
         "duckduckgo": "degraded",
         "reddit": "degraded"
       },
@@ -470,9 +470,9 @@
         "country": "BR",
         "language": "pt-BR",
         "exact_terms_to_check": [
-          "erro folha de pagamento",
-          "conferência folha de pagamento",
-          "cálculo folha de pagamento online"
+          "controle de estoque online",
+          "integração de estoque",
+          "sincronização de estoque"
         ],
         "hypotheses_only": true,
         "original_website_keywords_unchanged": true,
@@ -481,65 +481,74 @@
         "cpc_values": null,
         "evidence_provider": null,
         "market_serp_checked": false,
-        "monetization_hypothesis": "Brazil payroll checker / B2B SaaS; paid intent unverified",
+        "monetization_hypothesis": "Inventory integration utility; paid intent unverified",
         "needs_manual_volume_kd_cpc_validation": true
       },
       "history": {
         "history_window_days": 14,
         "prior_archive_days_scanned": 14,
-        "previous_days_in_same_research_area": 7,
-        "previous_days_with_exact_query": 7,
+        "previous_days_in_same_research_area": 6,
+        "previous_days_with_exact_query": 6,
         "new_firsthand_urls_in_saved_sample": 0,
         "returning_firsthand_urls_in_saved_sample": 0,
         "new_context_urls_in_saved_sample": 1,
-        "returning_context_urls_in_saved_sample": 3,
+        "returning_context_urls_in_saved_sample": 2,
         "historical_firsthand_urls_in_saved_sample": 0,
-        "historical_context_urls_in_saved_sample": 26,
+        "historical_context_urls_in_saved_sample": 11,
         "is_repeat_user_demand_verified": false,
         "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
       }
     },
     {
-      "id": "8d14902a14a01e",
+      "id": "180950c60a8fc7",
       "market": "MX",
       "language": "es",
-      "research_topic": "payroll",
-      "research_intent": "manual_payroll_pain",
-      "query_used_for_discovery": "nómina excel errores",
+      "research_topic": "inventory",
+      "research_intent": "manual_inventory_pain",
+      "query_used_for_discovery": "inventario excel manual",
       "keyword_candidate": null,
       "keyword_is_validated": false,
       "stage": "needs_firsthand_problem_evidence",
       "priority": "source_research",
       "firsthand_evidence_count": 0,
       "attributable_independent_authors": 0,
-      "contextual_reference_count": 3,
+      "contextual_reference_count": 7,
       "firsthand_evidence": [],
       "contextual_references": [
         {
-          "title": "arrazola-consultores/arrazola-calculadoras-descargas",
-          "url": "https://github.com/arrazola-consultores/arrazola-calculadoras-descargas",
+          "title": "CrabF-ui/WoodTrack",
+          "url": "https://github.com/CrabF-ui/WoodTrack",
           "source": "github_repositories",
-          "published_at": "2026-11-18T17:34:47Z",
+          "published_at": "2026-09-23T03:31:56Z",
           "author": null,
-          "heuristic_score": 61,
+          "heuristic_score": 48,
           "verified_willingness_to_pay": false
         },
         {
-          "title": "frankbuitrago3-code/control-asistencia",
-          "url": "https://github.com/frankbuitrago3-code/control-asistencia",
+          "title": "arnaldoreyes/02-inventario-rotacion-postgresql-excel",
+          "url": "https://github.com/arnaldoreyes/02-inventario-rotacion-postgresql-excel",
           "source": "github_repositories",
-          "published_at": "2026-11-15T11:47:40Z",
+          "published_at": "2026-11-19T19:42:06Z",
           "author": null,
-          "heuristic_score": 61,
+          "heuristic_score": 49,
           "verified_willingness_to_pay": false
         },
         {
-          "title": "Camilo1408/Nomina-Xpress",
-          "url": "https://github.com/Camilo1408/Nomina-Xpress",
+          "title": "luismario140/bar-sotware",
+          "url": "https://github.com/luismario140/bar-sotware",
           "source": "github_repositories",
-          "published_at": "2026-05-06T04:37:16Z",
+          "published_at": "2026-11-11T19:51:48Z",
           "author": null,
-          "heuristic_score": 47,
+          "heuristic_score": 44,
+          "verified_willingness_to_pay": false
+        },
+        {
+          "title": "miguelangela791-web/punto-venta-lupita",
+          "url": "https://github.com/miguelangela791-web/punto-venta-lupita",
+          "source": "github_repositories",
+          "published_at": "2026-11-21T01:33:38Z",
+          "author": null,
+          "heuristic_score": 49,
           "verified_willingness_to_pay": false
         }
       ],
@@ -584,9 +593,9 @@
         "country": "MX",
         "language": "es-MX",
         "exact_terms_to_check": [
-          "nómina excel",
-          "calculadora de nómina México",
-          "errores de nómina"
+          "control de inventarios excel",
+          "inventario en línea",
+          "sistema de inventarios en excel"
         ],
         "hypotheses_only": true,
         "original_website_keywords_unchanged": true,
@@ -595,20 +604,20 @@
         "cpc_values": null,
         "evidence_provider": null,
         "market_serp_checked": false,
-        "monetization_hypothesis": "Mexico payroll checker; paid intent unverified",
+        "monetization_hypothesis": "Small business inventory tool; paid intent unverified",
         "needs_manual_volume_kd_cpc_validation": true
       },
       "history": {
         "history_window_days": 14,
         "prior_archive_days_scanned": 14,
-        "previous_days_in_same_research_area": 7,
-        "previous_days_with_exact_query": 7,
+        "previous_days_in_same_research_area": 6,
+        "previous_days_with_exact_query": 6,
         "new_firsthand_urls_in_saved_sample": 0,
         "returning_firsthand_urls_in_saved_sample": 0,
-        "new_context_urls_in_saved_sample": 0,
-        "returning_context_urls_in_saved_sample": 3,
+        "new_context_urls_in_saved_sample": 3,
+        "returning_context_urls_in_saved_sample": 1,
         "historical_firsthand_urls_in_saved_sample": 0,
-        "historical_context_urls_in_saved_sample": 7,
+        "historical_context_urls_in_saved_sample": 14,
         "is_repeat_user_demand_verified": false,
         "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
       }
@@ -724,68 +733,50 @@
       "history": {
         "history_window_days": 14,
         "prior_archive_days_scanned": 14,
-        "previous_days_in_same_research_area": 6,
-        "previous_days_with_exact_query": 6,
+        "previous_days_in_same_research_area": 7,
+        "previous_days_with_exact_query": 7,
         "new_firsthand_urls_in_saved_sample": 0,
         "returning_firsthand_urls_in_saved_sample": 0,
-        "new_context_urls_in_saved_sample": 1,
-        "returning_context_urls_in_saved_sample": 3,
+        "new_context_urls_in_saved_sample": 0,
+        "returning_context_urls_in_saved_sample": 4,
         "historical_firsthand_urls_in_saved_sample": 0,
-        "historical_context_urls_in_saved_sample": 7,
+        "historical_context_urls_in_saved_sample": 8,
         "is_repeat_user_demand_verified": false,
         "interpretation": "Observed links in saved, truncated report samples only. Repeated links are not independent demand. A recurring topic may be a rotating query, not recurring customer complaints."
       }
     },
     {
-      "id": "94579f9a7a844a",
+      "id": "a26112ebebcb5d",
       "market": "Worldwide",
       "language": "multi",
       "research_topic": "seed_rising",
       "research_intent": "emerging_query",
-      "query_used_for_discovery": "hostinger ai builder",
-      "keyword_candidate": "hostinger ai builder",
+      "query_used_for_discovery": "apb optimizer",
+      "keyword_candidate": "apb optimizer",
       "keyword_is_validated": false,
       "stage": "needs_firsthand_problem_evidence",
       "priority": "source_research",
       "firsthand_evidence_count": 0,
       "attributable_independent_authors": 0,
-      "contextual_reference_count": 12,
+      "contextual_reference_count": 2,
       "firsthand_evidence": [],
       "contextual_references": [
         {
-          "title": "adhikariganesh9813/afnocv-AI-powered-resume-builder-webapp-hostinger",
-          "url": "https://github.com/adhikariganesh9813/afnocv-AI-powered-resume-builder-webapp-hostinger",
+          "title": "SarthakChor/FPGA-Based-AHB-to-APB-Bridge-Using-Verilog-HDL-Incorporating-Reduced-Latency",
+          "url": "https://github.com/SarthakChor/FPGA-Based-AHB-to-APB-Bridge-Using-Verilog-HDL-Incorporating-Reduced-Latency",
           "source": "github_repositories",
-          "published_at": "2026-08-16T21:07:36Z",
+          "published_at": "2026-07-18T06:17:51Z",
           "author": null,
-          "heuristic_score": 45,
+          "heuristic_score": 30,
           "verified_willingness_to_pay": false
         },
         {
-          "title": "DeveloperSarim/FlowForge",
-          "url": "https://github.com/DeveloperSarim/FlowForge",
-          "source": "github_repositories",
-          "published_at": "2026-10-12T07:20:19Z",
+          "title": "APB Optimizer – Windows Optimization Tool & Guide",
+          "url": "https://apboptimizer.com/",
+          "source": "bing_rss",
+          "published_at": "Sat, 21 Nov 2026 10:56:00 GMT",
           "author": null,
-          "heuristic_score": 76,
-          "verified_willingness_to_pay": false
-        },
-        {
-          "title": "fikranaqshal01/BajaringanWEB",
-          "url": "https://github.com/fikranaqshal01/BajaringanWEB",
-          "source": "github_repositories",
-          "published_at": "2026-10-08T05:56:57Z",
-          "author": null,
-          "heuristic_score": 48,
-          "verified_willingness_to_pay": false
-        },
-        {
-          "title": "hellob2c/b2c-V1",
-          "url": "https://github.com/hellob2c/b2c-V1",
-          "source": "github_repositories",
-          "published_at": "2026-10-05T06:45:42Z",
-          "author": null,
-          "heuristic_score": 48,
+          "heuristic_score": 50,
           "verified_willingness_to_pay": false
         }
       ],
@@ -847,7 +838,7 @@
         "previous_days_with_exact_query": 0,
         "new_firsthand_urls_in_saved_sample": 0,
         "returning_firsthand_urls_in_saved_sample": 0,
-        "new_context_urls_in_saved_sample": 4,
+        "new_context_urls_in_saved_sample": 2,
         "returning_context_urls_in_saved_sample": 0,
         "historical_firsthand_urls_in_saved_sample": 0,
         "historical_context_urls_in_saved_sample": 17,
@@ -866,7 +857,6 @@
     "lookback_days": 14,
     "prior_archive_days_found": 14,
     "prior_archive_dates": [
-      "2026-11-07",
       "2026-11-08",
       "2026-11-09",
       "2026-11-10",
@@ -879,7 +869,8 @@
       "2026-11-17",
       "2026-11-18",
       "2026-11-19",
-      "2026-11-20"
+      "2026-11-20",
+      "2026-11-21"
     ],
     "unreadable_archive_files": [],
     "confidence": "observation_only",
