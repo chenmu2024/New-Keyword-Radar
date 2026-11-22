@@ -1,6 +1,6 @@
 # OPC-inspired business evidence review
 
-Generated: 2026-11-21T03:51:34.179068+00:00
+Generated: 2026-11-22T02:54:39.648758+00:00
 
 **Advisory only.** The module does not collect keyword metrics, prove demand,
 approve a launch, or change the radar's formal verdict.
@@ -8,7 +8,7 @@ approve a launch, or change the radar's formal verdict.
 Formal radar candidates: 3.
 No candidate may be recommended for development without external source evidence.
 
-## akvan cyclone tracker live (Worldwide)
+## how to remove tracker gta 6 (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
@@ -16,7 +16,7 @@ No candidate may be recommended for development without external source evidence
 - Missing evidence: dated Volume/KD and source, dated SERP inspection and notes, dated reference-site traffic or verified recent-game signal, evidence-backed score: pain, evidence-backed score: leverage, evidence-backed score: timing, evidence-backed score: resource_fit, evidence-backed score: standardization, evidence-backed score: cashflow, monetization model, acquisition channel, estimated monthly fixed cost (USD)
 - Notes: Requires human decision
 
-## makro manager pie pricing dispute (Worldwide)
+## tracker season 4 episode 6 cast (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
@@ -24,7 +24,7 @@ No candidate may be recommended for development without external source evidence
 - Missing evidence: dated Volume/KD and source, dated SERP inspection and notes, dated reference-site traffic or verified recent-game signal, evidence-backed score: pain, evidence-backed score: leverage, evidence-backed score: timing, evidence-backed score: resource_fit, evidence-backed score: standardization, evidence-backed score: cashflow, monetization model, acquisition channel, estimated monthly fixed cost (USD)
 - Notes: Requires human decision
 
-## akvan cyclone tracker live today (Worldwide)
+## tracker blind spot (Worldwide)
 
 - Status: **needs-evidence** (never automatic approval)
 - Volume: UNVERIFIED; KD: UNVERIFIED; CPC: UNVERIFIED
