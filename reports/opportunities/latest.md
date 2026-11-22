@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-22T18:09:07.993703+00:00
+- Updated (UTC): 2026-11-22T23:33:34.793787+00:00
 - Historical candidates: 7213
-- Newly recorded from pending: 84
+- Newly recorded from pending: 0
 - Awaiting 7/14/30-day evidence review: 5970
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
+- rkss.yachts [Global] — discovered — first 2026-11-23, last 2026-11-23
+- claude code notifier [Global] — discovered — first 2026-11-23, last 2026-11-23
+- สล็อต เว็บ ตรง editor pgstar777 cfd [Global] — discovered — first 2026-11-23, last 2026-11-23
+- app optimizer [Global] — discovered — first 2026-11-23, last 2026-11-23
+- atbu my dashboard login [Global] — discovered — first 2026-11-23, last 2026-11-23
+- windows 11 optimizer [Global] — discovered — first 2026-11-23, last 2026-11-23
+- tiktok download mp4 [Global] — discovered — first 2026-11-23, last 2026-11-23
+- jsn stats [Global] — discovered — first 2026-11-23, last 2026-11-23
+- cyclone akvan tracker live [Global] — discovered — first 2026-11-23, last 2026-11-23
+- xbox gift card [Global] — discovered — first 2026-11-23, last 2026-11-23
+- saily esim [Global] — discovered — first 2026-11-23, last 2026-11-23
+- steam gta 5 [Global] — discovered — first 2026-11-23, last 2026-11-23
+- megaaa.casa [Global] — discovered — first 2026-11-23, last 2026-11-23
+- kangton.lol [Global] — discovered — first 2026-11-23, last 2026-11-23
+- game of the year [Global] — discovered — first 2026-11-23, last 2026-11-23
+- savefrom.net mp3 convert [Global] — discovered — first 2026-11-23, last 2026-11-23
+- situsel.wiki [Global] — discovered — first 2026-11-23, last 2026-11-23
+- คา สิ โน ออนไลน์ editor pgstar777 cfd [Global] — discovered — first 2026-11-23, last 2026-11-23
+- gold calculator [Global] — discovered — first 2026-11-23, last 2026-11-23
+- english to nepali converter [Global] — discovered — first 2026-11-23, last 2026-11-23
 - 4k gaming monitor [Global] — discovered — first 2026-11-23, last 2026-11-23
 - 5d planner [Global] — discovered — first 2026-11-23, last 2026-11-23
-- app optimizer [Global] — discovered — first 2026-11-23, last 2026-11-23
-- ariat first responder discount [Global] — discovered — first 2026-11-23, last 2026-11-23
-- asus oled monitor [Global] — discovered — first 2026-11-23, last 2026-11-23
-- atbu my dashboard login [Global] — discovered — first 2026-11-23, last 2026-11-23
-- capcut video editing template [Global] — discovered — first 2026-11-23, last 2026-11-23
-- casino ohne oasis sperre 🇩🇪 casinobino.online [Global] — discovered — first 2026-11-23, last 2026-11-23
-- casino online 🇦🇺 2026 www.casinobimo.blog [Global] — discovered — first 2026-11-23, last 2026-11-23
-- casino online 🇪🇸 www.casinobimo.blog [Global] — discovered — first 2026-11-23, last 2026-11-23
-- casino utan licens 🇸🇪 casinobasse.com [Global] — discovered — first 2026-11-23, last 2026-11-23
-- casino utan svensk licens 🇸🇪 casinobasse.com [Global] — discovered — first 2026-11-23, last 2026-11-23
-- claude code notifier [Global] — discovered — first 2026-11-23, last 2026-11-23
-- cm punjab solar panel scheme online apply 2026 [Global] — discovered — first 2026-11-23, last 2026-11-23
-- composer jule [Global] — discovered — first 2026-11-23, last 2026-11-23
-- credit crossword clue [Global] — discovered — first 2026-11-23, last 2026-11-23
-- cyclone akvan tracker live [Global] — discovered — first 2026-11-23, last 2026-11-23
-- dexcom uploader [Global] — discovered — first 2026-11-23, last 2026-11-23
-- difficult choice crossword clue 7 letters [Global] — discovered — first 2026-11-23, last 2026-11-23
-- english to nepali converter [Global] — discovered — first 2026-11-23, last 2026-11-23
-- epf installment payout retirement scheme [Global] — discovered — first 2026-11-23, last 2026-11-23
-- flux 2 pro [Global] — discovered — first 2026-11-23, last 2026-11-23
+- gta 6 cuck simulator [Global] — discovered — first 2026-11-23, last 2026-11-23
+- slew [Global] — discovered — first 2026-11-23, last 2026-11-23
 - flux pro [Global] — discovered — first 2026-11-23, last 2026-11-23
-- game of the year [Global] — discovered — first 2026-11-23, last 2026-11-23
-- gaming computer monitor [Global] — discovered — first 2026-11-23, last 2026-11-23
 
 ## Due for follow-up
 
