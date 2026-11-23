@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：126/135；数据生成：2026-11-23T04:49:11.528546+08:00；详细候选：12000；7日轻量URL证据：10938/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-23T19:09:53.932451+08:00；详细候选：12000；7日轻量URL证据：14320/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 40，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 677，采样上限遗漏 364。
 
 - **escape chase**：不同根域 6 家；同一天峰值 3 家、连续3日 5 家、7日共 6 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-17 · https://gamedistribution.com/games/escape-chase/ · 原词 escape chase
@@ -53,6 +53,11 @@
   - agame.com · agame-en · 2026-11-18 · https://www.agame.com/game/valley-of-dreams-build-your-world · 原词 valley of dreams build your world
   - gamesgames.com · gamesgames-en · 2026-11-18 · https://www.gamesgames.com/game/valley-of-dreams-build-your-world · 原词 valley of dreams build your world
   - girlsgogames.com · girlsgogames-en · 2026-11-18 · https://www.girlsgogames.com/game/valley-of-dreams-build-your-world · 原词 valley of dreams build your world
+- **sortica winter**：不同根域 4 家；同一天峰值 3 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - agame.com · agame-en · 2026-11-18 · https://www.agame.com/game/sortica-winter · 原词 sortica winter
+  - gamesgames.com · gamesgames-en · 2026-11-18 · https://www.gamesgames.com/game/sortica-winter · 原词 sortica winter
+  - girlsgogames.com · girlsgogames-en · 2026-11-18 · https://www.girlsgogames.com/game/sortica-winter · 原词 sortica winter
+  - gamedistribution.com · gamedistribution-games · 2026-11-23 · https://gamedistribution.com/games/sortica-winter/ · 原词 sortica winter
 - **bayday io**：不同根域 3 家；同一天峰值 1 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - y8.com · y8-en · 2026-11-19 · https://www.y8.com/games/bayday_io · 原词 bayday io
   - gamenora.com · gamenora-en · 2026-11-20 · https://www.gamenora.com/game/bayday-io/ · 原词 bayday io
@@ -61,17 +66,17 @@
   - agame.com · agame-en · 2026-11-18 · https://www.agame.com/game/chicken-soup-saras-cooking-class · 原词 chicken soup saras cooking class
   - gamesgames.com · gamesgames-en · 2026-11-18 · https://www.gamesgames.com/game/chicken-soup-saras-cooking-class · 原词 chicken soup saras cooking class
   - girlsgogames.com · girlsgogames-en · 2026-11-18 · https://www.girlsgogames.com/game/chicken-soup-saras-cooking-class · 原词 chicken soup saras cooking class
-- **crazy plinko**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamedistribution.com · gamedistribution-games · 2026-11-18 · https://gamedistribution.com/games/crazy-plinko/ · 原词 crazy plinko
-  - gamepix.com · gamepix-pt · 2026-11-18 · https://www.gamepix.com/pt/play/crazy-plinko · 原词 crazy plinko
-  - minijuegos.com · minijuegos-es · 2026-11-19 · https://www.minijuegos.com/juego/crazy-plinko · 原词 crazy plinko
 
 失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 35，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 512，采样上限遗漏 209。
 
+- **puresound**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - fazier.com · fazier-launches · 2026-11-22 · https://fazier.com/launches/puresound · 原词 puresound
+  - startupbase.io · startupbase-products · 2026-11-22 · https://startupbase.io/products/puresound · 原词 puresound
+  - openhunts.com · openhunts-projects · 2026-11-23 · https://openhunts.com/projects/puresound · 原词 puresound
 - **sheets bootcamp**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - smollaunch.com · smollaunch-products · 2026-11-17 · https://smollaunch.com/products/sheets-bootcamp · 原词 sheets bootcamp
   - saasworthy.com · saasworthy-products · 2026-11-18 · https://www.saasworthy.com/product/sheets-bootcamp · 原词 sheets bootcamp
@@ -79,36 +84,33 @@
 - **acadhex**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - saasworthy.com · saasworthy-products · 2026-11-18 · https://www.saasworthy.com/product/acadhex · 原词 acadhex
   - fazier.com · fazier-launches · 2026-11-19 · https://fazier.com/launches/acadhex · 原词 acadhex
+- **aisong ai song cover generator**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - productperch.com · productperch-products · 2026-11-21 · https://productperch.com/products/aisong-ai-song-cover-generator/ · 原词 aisong ai song cover generator
+  - indieneed.com · indieneed-products · 2026-11-23 · https://www.indieneed.com/products/aisong-ai-song-cover-generator · 原词 aisong ai song cover generator
 - **apex protocol**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-20 · https://fazier.com/launches/apex-protocol · 原词 apex protocol
   - uneed.best · uneed-products · 2026-11-22 · https://www.uneed.best/tool/apex-protocol · 原词 apex protocol
 - **beatmotion**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-20 · https://fazier.com/launches/beatmotion · 原词 beatmotion
   - pitchwall.co · pitchwall-products · 2026-11-20 · https://pitchwall.co/product/beatmotion · 原词 beatmotion
+- **betheone**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - productperch.com · productperch-products · 2026-11-22 · https://productperch.com/products/betheone/ · 原词 betheone
+  - saasworthy.com · saasworthy-products · 2026-11-23 · https://www.saasworthy.com/product/betheone · 原词 betheone
 - **bizpeel**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-20 · https://fazier.com/launches/bizpeel · 原词 bizpeel
   - uneed.best · uneed-products · 2026-11-22 · https://www.uneed.best/tool/bizpeel · 原词 bizpeel
+- **daleelai**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - indieneed.com · indieneed-products · 2026-11-21 · https://www.indieneed.com/products/daleelai · 原词 daleelai
+  - saasworthy.com · saasworthy-products · 2026-11-23 · https://www.saasworthy.com/product/daleelai · 原词 daleelai
 - **deskhall**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-19 · https://fazier.com/launches/deskhall · 原词 deskhall
   - startupbase.io · startupbase-products · 2026-11-19 · https://startupbase.io/products/deskhall · 原词 deskhall
-- **displayswitcher**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - startups.fyi · startupsfyi-products · 2026-11-17 · https://www.startups.fyi/product/displayswitcher · 原词 displayswitcher
-  - productperch.com · productperch-products · 2026-11-19 · https://productperch.com/products/displayswitcher/ · 原词 displayswitcher
-- **happy wan**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - smollaunch.com · smollaunch-products · 2026-11-17 · https://smollaunch.com/products/happy-wan · 原词 happy wan
-  - uneed.best · uneed-products · 2026-11-17 · https://www.uneed.best/tool/happy-wan · 原词 happy wan
-- **infinite audience**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - saascity.io · saascity-products · 2026-11-18 · https://saascity.io/live/infinite-audience · 原词 infinite audience
-  - saasworthy.com · saasworthy-products · 2026-11-18 · https://www.saasworthy.com/product/infinite-audience · 原词 infinite audience
-- **localepak**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - indieneed.com · indieneed-products · 2026-11-17 · https://www.indieneed.com/products/localepak · 原词 localepak
-  - saasworthy.com · saasworthy-products · 2026-11-18 · https://www.saasworthy.com/product/localepak · 原词 localepak
 
-失败来源：startupstash-tools (HTTPError: HTTP Error 403: Forbidden)；microlaunch-products (TimeoutError: The read operation timed out)
+失败来源：microlaunch-products (TimeoutError: The read operation timed out)
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 15，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 77，采样上限遗漏 0。
 
 - **ai test automation**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aiagentstore.ai · aiagentstore-agents · 2026-11-18 · https://aiagentstore.ai/get-ai-agent/ai-test-automation · 原词 ai test automation
@@ -141,7 +143,7 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 8，采样上限遗漏 0。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 2144，采样上限遗漏 1827。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -167,15 +169,16 @@
   - developer · devhunt-tools · 2026-11-17 · https://devhunt.org/tool/decibri
   - ai · dangai-tools · 2026-11-19 · https://dang.ai/tool/decibri
   - ai · aitoolnet-tools · 2026-11-21 · https://www.aitoolnet.com/decibri
+- punchtape：独立根域 3 家；类别 developer, saas
+  - developer · devhunt-tools · 2026-11-17 · https://devhunt.org/tool/punchtape
+  - saas · uneed-products · 2026-11-17 · https://www.uneed.best/tool/punchtape
+  - saas · startupbase-products · 2026-11-23 · https://startupbase.io/products/punchtape
 - branchnote：独立根域 2 家；类别 developer, saas
   - developer · devhunt-tools · 2026-11-17 · https://devhunt.org/tool/branchnote
   - saas · fazier-launches · 2026-11-17 · https://fazier.com/launches/branchnote
 - midtown center auto repair：独立根域 2 家；类别 developer, saas
   - developer · devhunt-tools · 2026-11-17 · https://devhunt.org/tool/midtown-center-auto-repair
   - saas · smollaunch-products · 2026-11-17 · https://smollaunch.com/products/midtown-center-auto-repair
-- punchtape：独立根域 2 家；类别 developer, saas
-  - developer · devhunt-tools · 2026-11-17 · https://devhunt.org/tool/punchtape
-  - saas · uneed-products · 2026-11-17 · https://www.uneed.best/tool/punchtape
 - ai photo editor：独立根域 2 家；类别 ai, saas
   - ai · aiagentstore-agents · 2026-11-18 · https://aiagentstore.ai/get-ai-agent/ai-photo-editor
   - saas · productperch-products · 2026-11-19 · https://productperch.com/products/ai-photo-editor/
