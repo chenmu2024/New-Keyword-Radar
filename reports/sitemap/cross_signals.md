@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-24T09:51:25.446561+08:00；详细候选：12000；7日轻量URL证据：14208/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-24T20:52:53.122909+08:00；详细候选：12000；7日轻量URL证据：15636/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 911，采样上限遗漏 563。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 446，采样上限遗漏 110。
 
 - **knights arena castle defense**：不同根域 5 家；同一天峰值 3 家、连续3日 5 家、7日共 5 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - agame.com · agame-en · 2026-11-18 · https://www.agame.com/game/knights-arena-castle-defense · 原词 knights arena castle defense
@@ -67,16 +67,33 @@
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 195，采样上限遗漏 1。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 192，采样上限遗漏 0。
 
-- **puresound**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+- **puresound**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-22 · https://fazier.com/launches/puresound · 原词 puresound
   - startupbase.io · startupbase-products · 2026-11-22 · https://startupbase.io/products/puresound · 原词 puresound
   - openhunts.com · openhunts-projects · 2026-11-23 · https://openhunts.com/projects/puresound · 原词 puresound
+  - uneed.best · uneed-products · 2026-11-24 · https://www.uneed.best/tool/puresound · 原词 puresound
+- **picnext**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - fazier.com · fazier-launches · 2026-11-22 · https://fazier.com/launches/picnext · 原词 picnext
+  - smollaunch.com · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/picnext · 原词 picnext
+  - uneed.best · uneed-products · 2026-11-24 · https://www.uneed.best/tool/picnext · 原词 picnext
+- **supermailbox**：不同根域 3 家；同一天峰值 1 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - producthunt.com · producthunt-products · 2026-11-22 · https://www.producthunt.com/products/supermailbox · 原词 supermailbox
+  - uneed.best · uneed-products · 2026-11-23 · https://www.uneed.best/tool/supermailbox · 原词 supermailbox
+  - fazier.com · fazier-launches · 2026-11-24 · https://fazier.com/launches/supermailbox · 原词 supermailbox
+- **wiro ai**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - saasworthy.com · saasworthy-products · 2026-11-23 · https://www.saasworthy.com/product/wiro-ai · 原词 wiro ai
+  - productperch.com · productperch-products · 2026-11-24 · https://productperch.com/products/wiro-ai/ · 原词 wiro ai
+  - smollaunch.com · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/wiro-ai · 原词 wiro ai
 - **apex protocol**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-20 · https://fazier.com/launches/apex-protocol · 原词 apex protocol
   - uneed.best · uneed-products · 2026-11-22 · https://www.uneed.best/tool/apex-protocol · 原词 apex protocol
   - smollaunch.com · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/apex-protocol · 原词 apex protocol
+- **pageree**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - fridayhunt.com · fridayhunt-projects · 2026-11-20 · https://fridayhunt.com/projects/pageree · 原词 pageree
+  - indietools.app · indietools-products · 2026-11-24 · https://www.indietools.app/products/pageree · 原词 pageree
+  - productperch.com · productperch-products · 2026-11-24 · https://productperch.com/products/pageree/ · 原词 pageree
 - **ttapi**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-21 · https://fazier.com/launches/ttapi · 原词 ttapi
   - uneed.best · uneed-products · 2026-11-23 · https://www.uneed.best/tool/ttapi · 原词 ttapi
@@ -88,27 +105,15 @@
 - **acadhex**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - saasworthy.com · saasworthy-products · 2026-11-18 · https://www.saasworthy.com/product/acadhex · 原词 acadhex
   - fazier.com · fazier-launches · 2026-11-19 · https://fazier.com/launches/acadhex · 原词 acadhex
-- **aisong ai song cover generator**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - productperch.com · productperch-products · 2026-11-21 · https://productperch.com/products/aisong-ai-song-cover-generator/ · 原词 aisong ai song cover generator
-  - indieneed.com · indieneed-products · 2026-11-23 · https://www.indieneed.com/products/aisong-ai-song-cover-generator · 原词 aisong ai song cover generator
-- **beatmotion**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - fazier.com · fazier-launches · 2026-11-20 · https://fazier.com/launches/beatmotion · 原词 beatmotion
-  - pitchwall.co · pitchwall-products · 2026-11-20 · https://pitchwall.co/product/beatmotion · 原词 beatmotion
-- **best places to work**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - saasworthy.com · saasworthy-products · 2026-11-23 · https://www.saasworthy.com/product/best-places-to-work · 原词 best places to work
-  - smollaunch.com · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/best-places-to-work · 原词 best places to work
-- **betheone**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - productperch.com · productperch-products · 2026-11-22 · https://productperch.com/products/betheone/ · 原词 betheone
-  - saasworthy.com · saasworthy-products · 2026-11-23 · https://www.saasworthy.com/product/betheone · 原词 betheone
-- **bizpeel**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - fazier.com · fazier-launches · 2026-11-20 · https://fazier.com/launches/bizpeel · 原词 bizpeel
-  - uneed.best · uneed-products · 2026-11-22 · https://www.uneed.best/tool/bizpeel · 原词 bizpeel
+- **ai agents marketplace**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - fazier.com · fazier-launches · 2026-11-23 · https://fazier.com/launches/ai-agents-marketplace · 原词 ai agents marketplace
+  - uneed.best · uneed-products · 2026-11-24 · https://www.uneed.best/tool/ai-agents-marketplace · 原词 ai agents marketplace
 
 失败来源：microlaunch-products (TimeoutError: The read operation timed out)
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 49，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 29，采样上限遗漏 0。
 
 - **ai test automation**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aiagentstore.ai · aiagentstore-agents · 2026-11-18 · https://aiagentstore.ai/get-ai-agent/ai-test-automation · 原词 ai test automation
@@ -141,7 +146,7 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 125，采样上限遗漏 0。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 778，采样上限遗漏 584。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -163,6 +168,9 @@
   - saas · productperch-products · 2026-11-18 · https://productperch.com/products/makeasong/
   - saas · indieneed-products · 2026-11-20 · https://www.indieneed.com/products/makeasong
   - ai · aitoolnet-tools · 2026-11-21 · https://www.aitoolnet.com/makeasong
+- ai visibility check：独立根域 2 家；类别 developer, saas
+  - developer · apify-actors-z · 2026-11-24 · https://apify.com/operstack/ai-visibility-check
+  - saas · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/ai-visibility-check
 - glideworth：独立根域 2 家；类别 developer, saas
   - developer · devhunt-tools · 2026-11-24 · https://devhunt.org/tool/glideworth
   - saas · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/glideworth
@@ -184,9 +192,6 @@
 - huggingface models：独立根域 2 家；类别 ai, developer
   - ai · aiagentstore-agents · 2026-11-18 · https://aiagentstore.ai/get-ai-agent/huggingface-models
   - developer · apify-actors-z · 2026-11-20 · https://apify.com/ponderable_hydrometer/huggingface-models
-- ofintech desk：独立根域 2 家；类别 developer, saas
-  - saas · producthunt-products · 2026-11-19 · https://www.producthunt.com/products/ofintech-desk
-  - developer · devhunt-tools · 2026-11-21 · https://devhunt.org/tool/ofintech-desk
 
 ### 跨类别同向文件转换
 
