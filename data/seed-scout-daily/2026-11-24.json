@@ -4,7 +4,184 @@
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "target_seed_count": 74,
-  "batches": [],
+  "batches": [
+    {
+      "batch_id": "2026-11-24T12:22:35.622704+00:00-57-58-59-60-61",
+      "start_index": 57,
+      "seed_indices": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "generated_at": "2026-11-24T12:22:35.622704+00:00",
+      "local_generated_at": "2026-11-24T20:22:35.622704+08:00",
+      "seed_batch": [
+        "game",
+        "poki",
+        "slope game",
+        "crazy games",
+        "itch.io"
+      ],
+      "discovery_count": 36,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-24T12:24:16.155794+00:00-62-63-64-65-66",
+      "start_index": 62,
+      "seed_indices": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "generated_at": "2026-11-24T12:24:16.155794+00:00",
+      "local_generated_at": "2026-11-24T20:24:16.155794+08:00",
+      "seed_batch": [
+        "roblox",
+        "cocrea",
+        "cocrea world",
+        "compressor",
+        "figma"
+      ],
+      "discovery_count": 9,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-24T12:25:57.156955+00:00-67-68-69-70-71",
+      "start_index": 67,
+      "seed_indices": [
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "generated_at": "2026-11-24T12:25:57.156955+00:00",
+      "local_generated_at": "2026-11-24T20:25:57.156955+08:00",
+      "seed_batch": [
+        "composer",
+        "fonts",
+        "card",
+        "symbol",
+        "instagram"
+      ],
+      "discovery_count": 44,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-24T12:27:37.249705+00:00-72-73-0-1-2",
+      "start_index": 72,
+      "seed_indices": [
+        72,
+        73,
+        0,
+        1,
+        2
+      ],
+      "generated_at": "2026-11-24T12:27:37.249705+00:00",
+      "local_generated_at": "2026-11-24T20:27:37.249705+08:00",
+      "seed_batch": [
+        "tea",
+        "download",
+        "translator",
+        "generator",
+        "example"
+      ],
+      "discovery_count": 21,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-24T12:29:18.706584+00:00-3-4-5-6-7",
+      "start_index": 3,
+      "seed_indices": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "generated_at": "2026-11-24T12:29:18.706584+00:00",
+      "local_generated_at": "2026-11-24T20:29:18.706584+08:00",
+      "seed_batch": [
+        "convert",
+        "online",
+        "downloader",
+        "maker",
+        "creator"
+      ],
+      "discovery_count": 44,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-24T12:30:59.651527+00:00-8-9-10-11-12",
+      "start_index": 8,
+      "seed_indices": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "generated_at": "2026-11-24T12:30:59.651527+00:00",
+      "local_generated_at": "2026-11-24T20:30:59.651527+08:00",
+      "seed_batch": [
+        "editor",
+        "processor",
+        "designer",
+        "compiler",
+        "analyzer"
+      ],
+      "discovery_count": 35,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-24T12:32:39.739524+00:00-13-14-15-16-17",
+      "start_index": 13,
+      "seed_indices": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "generated_at": "2026-11-24T12:32:39.739524+00:00",
+      "local_generated_at": "2026-11-24T20:32:39.739524+08:00",
+      "seed_batch": [
+        "evaluator",
+        "sender",
+        "receiver",
+        "interpreter",
+        "uploader"
+      ],
+      "discovery_count": 55,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-24T12:34:17.851896+00:00-18-19-20-21-22",
+      "start_index": 18,
+      "seed_indices": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "generated_at": "2026-11-24T12:34:17.851896+00:00",
+      "local_generated_at": "2026-11-24T20:34:17.851896+08:00",
+      "seed_batch": [
+        "calculator",
+        "sample",
+        "template",
+        "format",
+        "builder"
+      ],
+      "discovery_count": 39,
+      "status": "ok"
+    }
+  ],
   "errors": [
     {
       "generated_at": "2026-11-24T01:37:30.324156+00:00",
@@ -25,16 +202,1748 @@
         "steam"
       ],
       "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
+    },
+    {
+      "generated_at": "2026-11-24T12:35:58.547272+00:00",
+      "local_generated_at": "2026-11-24T20:35:58.547272+08:00",
+      "start_index": 23,
+      "seed_indices": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "seed_batch": [
+        "scheme",
+        "pattern",
+        "checker",
+        "detector",
+        "scraper"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
     }
   ],
-  "scanned_seeds": [],
-  "discoveries": [],
-  "updated_at": "2026-11-24T01:37:30.324156+00:00",
-  "scanned_seed_count": 0,
-  "batch_count": 0,
-  "attempted_seed_count": 5,
-  "complete_20_seeds": false,
+  "scanned_seeds": [
+    "game",
+    "poki",
+    "slope game",
+    "crazy games",
+    "itch.io",
+    "roblox",
+    "cocrea",
+    "cocrea world",
+    "compressor",
+    "figma",
+    "composer",
+    "fonts",
+    "card",
+    "symbol",
+    "instagram",
+    "tea",
+    "download",
+    "translator",
+    "generator",
+    "example",
+    "convert",
+    "online",
+    "downloader",
+    "maker",
+    "creator",
+    "editor",
+    "processor",
+    "designer",
+    "compiler",
+    "analyzer",
+    "evaluator",
+    "sender",
+    "receiver",
+    "interpreter",
+    "uploader",
+    "calculator",
+    "sample",
+    "template",
+    "format",
+    "builder"
+  ],
+  "discoveries": [
+    {
+      "seed": "composer",
+      "query": "nereids",
+      "rise_value": 123250.0,
+      "raw_value": 123250
+    },
+    {
+      "seed": "composer",
+      "query": "fezzik",
+      "rise_value": 90300.0,
+      "raw_value": 90300
+    },
+    {
+      "seed": "online",
+      "query": "online casino 🇬🇧 2026 www.casinobimo.blog",
+      "rise_value": 82150.0,
+      "raw_value": 82150
+    },
+    {
+      "seed": "composer",
+      "query": "hindu holy person",
+      "rise_value": 80300.0,
+      "raw_value": 80300
+    },
+    {
+      "seed": "composer",
+      "query": "funny girl jule composer",
+      "rise_value": 67200.0,
+      "raw_value": 67200
+    },
+    {
+      "seed": "composer",
+      "query": "funny girl jule",
+      "rise_value": 66750.0,
+      "raw_value": 66750
+    },
+    {
+      "seed": "composer",
+      "query": "muslim or hindu holy person",
+      "rise_value": 60500.0,
+      "raw_value": 60500
+    },
+    {
+      "seed": "composer",
+      "query": "fezzik princess bride",
+      "rise_value": 51200.0,
+      "raw_value": 51200
+    },
+    {
+      "seed": "online",
+      "query": "casino online österreich casinod.diy 🇦🇹",
+      "rise_value": 48950.0,
+      "raw_value": 48950
+    },
+    {
+      "seed": "composer",
+      "query": "funny girl",
+      "rise_value": 48850.0,
+      "raw_value": 48850
+    },
+    {
+      "seed": "composer",
+      "query": "crocodile hunter",
+      "rise_value": 44850.0,
+      "raw_value": 44850
+    },
+    {
+      "seed": "evaluator",
+      "query": "pleased crossword clue",
+      "rise_value": 44200.0,
+      "raw_value": 44200
+    },
+    {
+      "seed": "online",
+      "query": "online casino 🇩🇪 casinod.cv",
+      "rise_value": 41550.0,
+      "raw_value": 41550
+    },
+    {
+      "seed": "maker",
+      "query": "best hiking boots",
+      "rise_value": 40250.0,
+      "raw_value": 40250
+    },
+    {
+      "seed": "composer",
+      "query": "the crocodile hunter",
+      "rise_value": 40250.0,
+      "raw_value": 40250
+    },
+    {
+      "seed": "composer",
+      "query": "chinese buns prepared in a steamer",
+      "rise_value": 39300.0,
+      "raw_value": 39300
+    },
+    {
+      "seed": "evaluator",
+      "query": "nature crossword clue",
+      "rise_value": 38550.0,
+      "raw_value": 38550
+    },
+    {
+      "seed": "online",
+      "query": "casino online 🇧🇪 www.etoilecasino.com 🇧🇪",
+      "rise_value": 37750.0,
+      "raw_value": 37750
+    },
+    {
+      "seed": "online",
+      "query": "online casino 🇧🇪 www.etoilecasino.com 🇧🇪",
+      "rise_value": 37500.0,
+      "raw_value": 37500
+    },
+    {
+      "seed": "maker",
+      "query": "best travel backpack",
+      "rise_value": 36550.0,
+      "raw_value": 36550
+    },
+    {
+      "seed": "composer",
+      "query": "ncaa quakers",
+      "rise_value": 36550.0,
+      "raw_value": 36550
+    },
+    {
+      "seed": "maker",
+      "query": "best budget phone",
+      "rise_value": 35550.0,
+      "raw_value": 35550
+    },
+    {
+      "seed": "editor",
+      "query": "แทง บอล ออนไลน์ editor pgstar777 cfd",
+      "rise_value": 35100.0,
+      "raw_value": 35100
+    },
+    {
+      "seed": "editor",
+      "query": "บา คา ร่า ออนไลน์ editor pgstar777 cfd",
+      "rise_value": 34800.0,
+      "raw_value": 34800
+    },
+    {
+      "seed": "online",
+      "query": "casino migliori online 🇮🇹 2026 www.casinobimo.blog",
+      "rise_value": 32500.0,
+      "raw_value": 32500
+    },
+    {
+      "seed": "composer",
+      "query": "joy to the world composer watts",
+      "rise_value": 29700.0,
+      "raw_value": 29700
+    },
+    {
+      "seed": "composer",
+      "query": "watts joy to the world",
+      "rise_value": 29700.0,
+      "raw_value": 29700
+    },
+    {
+      "seed": "composer",
+      "query": "pink color named after a flower",
+      "rise_value": 29350.0,
+      "raw_value": 29350
+    },
+    {
+      "seed": "editor",
+      "query": "คา สิ โน ออนไลน์ editor pgstar777 cfd",
+      "rise_value": 27450.0,
+      "raw_value": 27450
+    },
+    {
+      "seed": "online",
+      "query": "online casino australia 🇦🇺 2026 www.casinobimo.blog",
+      "rise_value": 24000.0,
+      "raw_value": 24000
+    },
+    {
+      "seed": "evaluator",
+      "query": "walmart near me",
+      "rise_value": 23850.0,
+      "raw_value": 23850,
+      "also_from_seeds": [
+        "interpreter",
+        "format"
+      ]
+    },
+    {
+      "seed": "evaluator",
+      "query": "dirty crossword clue",
+      "rise_value": 23600.0,
+      "raw_value": 23600
+    },
+    {
+      "seed": "slope game",
+      "query": "googlay",
+      "rise_value": 23300.0,
+      "raw_value": 23300
+    },
+    {
+      "seed": "evaluator",
+      "query": "difficult choice crossword clue 7 letters",
+      "rise_value": 23000.0,
+      "raw_value": 23000
+    },
+    {
+      "seed": "online",
+      "query": "online casino nederland 🇳🇱 2026 www.casinobimo.blog",
+      "rise_value": 22500.0,
+      "raw_value": 22500
+    },
+    {
+      "seed": "online",
+      "query": "online casinos belgium 🇧🇪 www.casinobino.blog",
+      "rise_value": 22100.0,
+      "raw_value": 22100
+    },
+    {
+      "seed": "online",
+      "query": "online casino 🇩🇪 casinod.one",
+      "rise_value": 21900.0,
+      "raw_value": 21900
+    },
+    {
+      "seed": "online",
+      "query": "online casinos belgium 🇧🇪 2026 www.casinobimo.blog",
+      "rise_value": 21800.0,
+      "raw_value": 21800
+    },
+    {
+      "seed": "evaluator",
+      "query": "nature crossword clue 7 letters",
+      "rise_value": 20900.0,
+      "raw_value": 20900
+    },
+    {
+      "seed": "maker",
+      "query": "best office chair",
+      "rise_value": 20050.0,
+      "raw_value": 20050
+    },
+    {
+      "seed": "maker",
+      "query": "best pizza recipe",
+      "rise_value": 19650.0,
+      "raw_value": 19650
+    },
+    {
+      "seed": "evaluator",
+      "query": "credit crossword clue",
+      "rise_value": 18700.0,
+      "raw_value": 18700
+    },
+    {
+      "seed": "online",
+      "query": "casino online österreich 2026 atboni.sbs 🇦🇹",
+      "rise_value": 18200.0,
+      "raw_value": 18200
+    },
+    {
+      "seed": "evaluator",
+      "query": "fleshy crossword clue",
+      "rise_value": 17550.0,
+      "raw_value": 17550
+    },
+    {
+      "seed": "maker",
+      "query": "best running shoes",
+      "rise_value": 17200.0,
+      "raw_value": 17200
+    },
+    {
+      "seed": "online",
+      "query": "best australian casino online 🇦🇺 2026 www.casinobimo.blog",
+      "rise_value": 15600.0,
+      "raw_value": 15600
+    },
+    {
+      "seed": "maker",
+      "query": "best laptops",
+      "rise_value": 15600.0,
+      "raw_value": 15600
+    },
+    {
+      "seed": "maker",
+      "query": "activision custom gaming cake maker",
+      "rise_value": 13600.0,
+      "raw_value": 13600
+    },
+    {
+      "seed": "evaluator",
+      "query": "2.54 cm",
+      "rise_value": 13150.0,
+      "raw_value": 13150
+    },
+    {
+      "seed": "slope game",
+      "query": "clever",
+      "rise_value": 12650.0,
+      "raw_value": 12650
+    },
+    {
+      "seed": "editor",
+      "query": "ufoo.life",
+      "rise_value": 12150.0,
+      "raw_value": 12150
+    },
+    {
+      "seed": "creator",
+      "query": "virgin voyages creator cruise",
+      "rise_value": 12150.0,
+      "raw_value": 12150
+    },
+    {
+      "seed": "editor",
+      "query": "megaaa.casa",
+      "rise_value": 11700.0,
+      "raw_value": 11700
+    },
+    {
+      "seed": "editor",
+      "query": "kangton.lol",
+      "rise_value": 10850.0,
+      "raw_value": 10850
+    },
+    {
+      "seed": "editor",
+      "query": "royalin.watch",
+      "rise_value": 9450.0,
+      "raw_value": 9450
+    },
+    {
+      "seed": "creator",
+      "query": "creator voyage 2027",
+      "rise_value": 8150.0,
+      "raw_value": 8150
+    },
+    {
+      "seed": "analyzer",
+      "query": "techgarena.com",
+      "rise_value": 7600.0,
+      "raw_value": 7600
+    },
+    {
+      "seed": "symbol",
+      "query": "modicum",
+      "rise_value": 7050.0,
+      "raw_value": 7050
+    },
+    {
+      "seed": "maker",
+      "query": "mochi hop maker",
+      "rise_value": 6550.0,
+      "raw_value": 6550
+    },
+    {
+      "seed": "builder",
+      "query": "ノード vpn",
+      "rise_value": 6200.0,
+      "raw_value": 6200
+    },
+    {
+      "seed": "maker",
+      "query": "my eight year old fortune maker",
+      "rise_value": 5200.0,
+      "raw_value": 5200
+    },
+    {
+      "seed": "symbol",
+      "query": "modicum meaning",
+      "rise_value": 5050.0,
+      "raw_value": 5050
+    },
+    {
+      "seed": "analyzer",
+      "query": "tts vibes",
+      "rise_value": 4850.0,
+      "raw_value": 4850
+    },
+    {
+      "seed": "maker",
+      "query": "mochi hoppe maker",
+      "rise_value": 4600.0,
+      "raw_value": 4600
+    },
+    {
+      "seed": "sender",
+      "query": "norvpn",
+      "rise_value": 4300.0,
+      "raw_value": 4300,
+      "also_from_seeds": [
+        "builder"
+      ]
+    },
+    {
+      "seed": "sender",
+      "query": "nord vnp",
+      "rise_value": 3950.0,
+      "raw_value": 3950
+    },
+    {
+      "seed": "creator",
+      "query": "virgin voyages creator cruise application",
+      "rise_value": 3900.0,
+      "raw_value": 3900
+    },
+    {
+      "seed": "tea",
+      "query": "kabsat bubble tea",
+      "rise_value": 3750.0,
+      "raw_value": 3750
+    },
+    {
+      "seed": "sender",
+      "query": "surfshark gratis",
+      "rise_value": 3750.0,
+      "raw_value": 3750
+    },
+    {
+      "seed": "symbol",
+      "query": "nu meaning",
+      "rise_value": 3700.0,
+      "raw_value": 3700
+    },
+    {
+      "seed": "roblox",
+      "query": "roblox vs senate",
+      "rise_value": 3650.0,
+      "raw_value": 3650
+    },
+    {
+      "seed": "sender",
+      "query": "isp proxies",
+      "rise_value": 3600.0,
+      "raw_value": 3600
+    },
+    {
+      "seed": "sender",
+      "query": "emergentsh",
+      "rise_value": 3550.0,
+      "raw_value": 3550
+    },
+    {
+      "seed": "sender",
+      "query": "residential proxies",
+      "rise_value": 3500.0,
+      "raw_value": 3500
+    },
+    {
+      "seed": "example",
+      "query": "uber and lyft for example nyt",
+      "rise_value": 3500.0,
+      "raw_value": 3500
+    },
+    {
+      "seed": "builder",
+      "query": "노드 vpn",
+      "rise_value": 3350.0,
+      "raw_value": 3350
+    },
+    {
+      "seed": "sample",
+      "query": "sephora cyber bag sample",
+      "rise_value": 3250.0,
+      "raw_value": 3250
+    },
+    {
+      "seed": "symbol",
+      "query": "cubism",
+      "rise_value": 3200.0,
+      "raw_value": 3200
+    },
+    {
+      "seed": "sender",
+      "query": "emergent ia",
+      "rise_value": 3200.0,
+      "raw_value": 3200
+    },
+    {
+      "seed": "card",
+      "query": "sindh youth card registration online",
+      "rise_value": 3200.0,
+      "raw_value": 3200
+    },
+    {
+      "seed": "sender",
+      "query": "surfshark vpn gratis",
+      "rise_value": 3200.0,
+      "raw_value": 3200
+    },
+    {
+      "seed": "sender",
+      "query": "vpn surfshark",
+      "rise_value": 3150.0,
+      "raw_value": 3150
+    },
+    {
+      "seed": "sender",
+      "query": "nordvpn cost",
+      "rise_value": 3100.0,
+      "raw_value": 3100,
+      "also_from_seeds": [
+        "builder"
+      ]
+    },
+    {
+      "seed": "sender",
+      "query": "surfshark.com",
+      "rise_value": 3100.0,
+      "raw_value": 3100
+    },
+    {
+      "seed": "sender",
+      "query": "eldorado reviews",
+      "rise_value": 2950.0,
+      "raw_value": 2950
+    },
+    {
+      "seed": "builder",
+      "query": "nordvpn promo",
+      "rise_value": 2950.0,
+      "raw_value": 2950
+    },
+    {
+      "seed": "card",
+      "query": "sindh youth card registration",
+      "rise_value": 2950.0,
+      "raw_value": 2950
+    },
+    {
+      "seed": "tea",
+      "query": "slew meaning",
+      "rise_value": 2950.0,
+      "raw_value": 2950
+    },
+    {
+      "seed": "builder",
+      "query": "best seo tool",
+      "rise_value": 2850.0,
+      "raw_value": 2850,
+      "also_from_seeds": [
+        "analyzer"
+      ]
+    },
+    {
+      "seed": "analyzer",
+      "query": "letterboxd top 4 analyzer",
+      "rise_value": 2850.0,
+      "raw_value": 2850
+    },
+    {
+      "seed": "builder",
+      "query": "nordvpn discount",
+      "rise_value": 2850.0,
+      "raw_value": 2850
+    },
+    {
+      "seed": "builder",
+      "query": "nordvpn free trial",
+      "rise_value": 2850.0,
+      "raw_value": 2850
+    },
+    {
+      "seed": "sender",
+      "query": "nord vpn free",
+      "rise_value": 2800.0,
+      "raw_value": 2800
+    },
+    {
+      "seed": "sender",
+      "query": "surfshark review",
+      "rise_value": 2800.0,
+      "raw_value": 2800
+    },
+    {
+      "seed": "builder",
+      "query": "nordvpn discount code",
+      "rise_value": 2750.0,
+      "raw_value": 2750
+    },
+    {
+      "seed": "card",
+      "query": "sindh youth card",
+      "rise_value": 2750.0,
+      "raw_value": 2750
+    },
+    {
+      "seed": "builder",
+      "query": "nordvpn code",
+      "rise_value": 2700.0,
+      "raw_value": 2700
+    },
+    {
+      "seed": "builder",
+      "query": "nordvpn review",
+      "rise_value": 2700.0,
+      "raw_value": 2700
+    },
+    {
+      "seed": "builder",
+      "query": "nordvpn deal",
+      "rise_value": 2650.0,
+      "raw_value": 2650
+    },
+    {
+      "seed": "builder",
+      "query": "nordvpn free",
+      "rise_value": 2650.0,
+      "raw_value": 2650
+    },
+    {
+      "seed": "builder",
+      "query": "nordvpn",
+      "rise_value": 2600.0,
+      "raw_value": 2600
+    },
+    {
+      "seed": "card",
+      "query": "protect our neighbors act green card",
+      "rise_value": 2600.0,
+      "raw_value": 2600
+    },
+    {
+      "seed": "builder",
+      "query": "code promo nordvpn",
+      "rise_value": 2550.0,
+      "raw_value": 2550
+    },
+    {
+      "seed": "receiver",
+      "query": "jeremiah smith wide receiver prospect",
+      "rise_value": 1600.0,
+      "raw_value": 1600
+    },
+    {
+      "seed": "creator",
+      "query": "dentastix creator",
+      "rise_value": 1500.0,
+      "raw_value": 1500
+    },
+    {
+      "seed": "analyzer",
+      "query": "growthscribe",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "card",
+      "query": "mysss card expanded benefits program",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "download",
+      "query": "nordvpn free download",
+      "rise_value": 1400.0,
+      "raw_value": 1400
+    },
+    {
+      "seed": "symbol",
+      "query": "lambda meaning",
+      "rise_value": 1350.0,
+      "raw_value": 1350
+    },
+    {
+      "seed": "generator",
+      "query": "nord password generator",
+      "rise_value": 1350.0,
+      "raw_value": 1350
+    },
+    {
+      "seed": "format",
+      "query": "article format spm",
+      "rise_value": 1300.0,
+      "raw_value": 1300
+    },
+    {
+      "seed": "symbol",
+      "query": "what is anthropic stock symbol",
+      "rise_value": 1200.0,
+      "raw_value": 1200
+    },
+    {
+      "seed": "maker",
+      "query": "moti hoppe maker",
+      "rise_value": 1050.0,
+      "raw_value": 1050
+    },
+    {
+      "seed": "sample",
+      "query": "idp band 9 essay sample",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "format",
+      "query": "report format spm",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "format",
+      "query": "review format spm",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "card",
+      "query": "rrb paramedical admit card",
+      "rise_value": 950.0,
+      "raw_value": 950
+    },
+    {
+      "seed": "symbol",
+      "query": "anthropic stock symbol",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "sample",
+      "query": "stefon diggs stats",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "receiver",
+      "query": "wide receiver rankings week 11",
+      "rise_value": 850.0,
+      "raw_value": 850
+    },
+    {
+      "seed": "symbol",
+      "query": "anthropic symbol",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "analyzer",
+      "query": "backtofrontshow.com",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "sample",
+      "query": "treylon burks stats",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "game",
+      "query": "harvard yale game",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "analyzer",
+      "query": "rec0ded88",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "convert",
+      "query": "savefrom.net mp3 convert",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "processor",
+      "query": "amd ryzen 7 5800x3d 8-core/16-thread processor",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
+      "seed": "symbol",
+      "query": "iota",
+      "rise_value": 700.0,
+      "raw_value": 700
+    },
+    {
+      "seed": "evaluator",
+      "query": "evaluator crossword",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "symbol",
+      "query": "anthropic ticker symbol",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "translator",
+      "query": "cebo translator",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "evaluator",
+      "query": "difficult choice crossword clue",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "format",
+      "query": "mls playoff format",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "itch.io",
+      "query": "nightbound itch.io",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "game",
+      "query": "gta6 game",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "sample",
+      "query": "jayden daniels stats",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "download",
+      "query": "surfshark download",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "tea",
+      "query": "tea with mussolini",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "maker",
+      "query": "best coffee maker",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "evaluator",
+      "query": "evaluator crossword clue",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "game",
+      "query": "game awards 2026 nominees",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "download",
+      "query": "how long does gta 6 take to download",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "creator",
+      "query": "creator of gta 6",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "game",
+      "query": "gta vi game",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "download",
+      "query": "nordvpn download",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "translator",
+      "query": "vi translator",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "creator",
+      "query": "gta 6 creator",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "symbol",
+      "query": "nu",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "symbol",
+      "query": "nu symbol",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "itch.io",
+      "query": "nuestra casa itch.io",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "analyzer",
+      "query": "scoopbyte.com",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "creator",
+      "query": "creator of gta",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "game",
+      "query": "game awards",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "game",
+      "query": "gta 6 game",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "sample",
+      "query": "winterspring blood sample",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "processor",
+      "query": "amd ryzen 7 9850x3d 8-core processor",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "card",
+      "query": "bsf tradesman admit card",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "itch.io",
+      "query": "dummywar itch.io",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "evaluator",
+      "query": "evaluator meaning in hindi",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "game",
+      "query": "game awards 2026",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "game",
+      "query": "how to game share on ps5",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "uploader",
+      "query": "tenor",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "game",
+      "query": "the game awards",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "itch.io",
+      "query": "dummy war itch.io",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "online",
+      "query": "gta 6 online",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "creator",
+      "query": "gta creator",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "fonts",
+      "query": "gta fonts",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "itch.io",
+      "query": "itch.io dummy war",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "game",
+      "query": "the game awards 2026",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "sample",
+      "query": "with jean sample sale",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "processor",
+      "query": "amd ryzen 9 9950x3d2 16-core processor",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "template",
+      "query": "capcut video editing template",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "translator",
+      "query": "console translator",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "evaluator",
+      "query": "glass crossword clue",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "uploader",
+      "query": "gs uploader",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "game",
+      "query": "hunger game",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "calculator",
+      "query": "timeless jewel calculator",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "game",
+      "query": "broncos game",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "card",
+      "query": "mahaid card",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "uploader",
+      "query": "wed uploader",
+      "rise_value": 180.0,
+      "raw_value": 180
+    },
+    {
+      "seed": "game",
+      "query": "can you game share gta 6",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "sample",
+      "query": "flower in a hurricane sample",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "download",
+      "query": "gta 6 download",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "game",
+      "query": "bears game today",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "sample",
+      "query": "hive wall sample",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "slope game",
+      "query": "poople",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "example",
+      "query": "vocal fry example",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "card",
+      "query": "capture card",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "card",
+      "query": "elgato capture card",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "game",
+      "query": "game of the year 2026",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "sample",
+      "query": "tee higgins stats",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "analyzer",
+      "query": "weakness analyzer",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "compiler",
+      "query": "abhyas ai",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "sample",
+      "query": "chase brown stats",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "uploader",
+      "query": "dropbox",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "slope game",
+      "query": "google sites",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "download",
+      "query": "gta 5 download",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "uploader",
+      "query": "onedrive",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "analyzer",
+      "query": "weakness analyzer wow forever",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "analyzer",
+      "query": "website analyzer",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "evaluator",
+      "query": "website evaluator",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "symbol",
+      "query": "lambda",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "symbol",
+      "query": "lambda symbol",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "processor",
+      "query": "pie crust recipe",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "interpreter",
+      "query": "the interpreter of silence",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "maker",
+      "query": "website maker",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "itch.io",
+      "query": "wellidev itch.io",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "designer",
+      "query": "wordpress website designer",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "receiver",
+      "query": "michigan wide receiver",
+      "rise_value": 120.0,
+      "raw_value": 120
+    },
+    {
+      "seed": "uploader",
+      "query": "carelink uploader",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "tea",
+      "query": "hc andersen født",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "slope game",
+      "query": "ixl",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "download",
+      "query": "tiktok download mp4",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "itch.io",
+      "query": "time freeze on itch.io",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "designer",
+      "query": "zora designer",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "generator",
+      "query": "cash generator",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "slope game",
+      "query": "cork7",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "roblox",
+      "query": "eldorado roblox",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "translator",
+      "query": "game translator",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "instagram",
+      "query": "instagram reels danword",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "sample",
+      "query": "mike gesicki stats",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "slope game",
+      "query": "neal fun",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "processor",
+      "query": "ps5 processor",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "roblox",
+      "query": "urban vpn",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "sample",
+      "query": "dohnte meyers stats",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "figma",
+      "query": "figma ipo",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "receiver",
+      "query": "dk metcalf",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "figma",
+      "query": "figma to wordpress",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "processor",
+      "query": "processor design",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "uploader",
+      "query": "video unavailable the uploader has not made this video available in your country",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "slope game",
+      "query": "wacky flip",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "creator",
+      "query": "webpage creator",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "sample",
+      "query": "drew sample stats",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "roblox",
+      "query": "how to update roblox on macbook",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "slope game",
+      "query": "snake io",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "slope game",
+      "query": "snowrider",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "designer",
+      "query": "website designer near me",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "calculator",
+      "query": "arcana calculator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "slope game",
+      "query": "block blast",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "calculator",
+      "query": "final grade calculator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "interpreter",
+      "query": "how much does an asl interpreter make",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "roblox",
+      "query": "how to update roblox on pc",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "analyzer",
+      "query": "kenneth walker",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "maker",
+      "query": "ninja slushie maker",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "editor",
+      "query": "pg editor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "creator",
+      "query": "photo creator instant camera",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "slope game",
+      "query": "prodigy",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "card",
+      "query": "rrb po admit card",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "uploader",
+      "query": "the uploader has not made this video available in your country",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "interpreter",
+      "query": "timekettle w4 pro ai interpreter earbuds",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "uploader",
+      "query": "uploader en français",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "designer",
+      "query": "website designer",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "receiver",
+      "query": "best av receiver",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "roblox",
+      "query": "btroblox",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "creator",
+      "query": "creator sathi ai",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "processor",
+      "query": "cuisinart 14 cup food processor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "receiver",
+      "query": "denon av receiver",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "creator",
+      "query": "dji osmo pocket 3",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "sample",
+      "query": "emersonicon.com sample",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "analyzer",
+      "query": "ffb trade analyzer",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "uploader",
+      "query": "fflogs uploader",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "interpreter",
+      "query": "interpreter def",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "slope game",
+      "query": "krillion",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "slope game",
+      "query": "krillion game",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "processor",
+      "query": "large food processor",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "interpreter",
+      "query": "martti interpreter",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "card",
+      "query": "navodaya admit card",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "creator",
+      "query": "osmo pocket 3",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "creator",
+      "query": "osmo pocket 3 creator combo",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "uploader",
+      "query": "ps5 uploader",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "generator",
+      "query": "warp generator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "card",
+      "query": "xbox gift card",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "figma",
+      "query": "figma stock",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "interpreter",
+      "query": "putin interpreter",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "uploader",
+      "query": "wwe2k image uploader",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "example",
+      "query": "石油",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "updated_at": "2026-11-24T12:35:58.547272+00:00",
+  "scanned_seed_count": 40,
+  "batch_count": 8,
+  "attempted_seed_count": 50,
+  "complete_20_seeds": true,
   "complete_daily_target": false,
-  "completion_pct": 0.0,
-  "failed_seed_count": 5
+  "completion_pct": 54.1,
+  "failed_seed_count": 10,
+  "discovery_count": 276
 }

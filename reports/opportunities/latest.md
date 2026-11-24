@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-24T01:37:42.070420+00:00
-- Historical candidates: 7296
-- Newly recorded from pending: 0
+- Updated (UTC): 2026-11-24T12:36:16.035668+00:00
+- Historical candidates: 7453
+- Newly recorded from pending: 157
 - Awaiting 7/14/30-day evidence review: 6155
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- rkss.yachts [Global] — discovered — first 2026-11-23, last 2026-11-23
-- pacers vs knicks match player stats game 2 [US] — discovered — first 2026-11-23, last 2026-11-23
-- claude code notifier [Global] — discovered — first 2026-11-23, last 2026-11-23
-- linku.cash [Global] — discovered — first 2026-11-23, last 2026-11-23
-- สล็อต เว็บ ตรง editor pgstar777 cfd [Global] — discovered — first 2026-11-23, last 2026-11-23
-- app optimizer [Global] — discovered — first 2026-11-23, last 2026-11-23
-- princess eugenie [GB] — discovered — first 2026-11-23, last 2026-11-23
-- atbu my dashboard login [Global] — discovered — first 2026-11-23, last 2026-11-23
-- bulls - nuggets [ES] — discovered — first 2026-11-23, last 2026-11-23
-- windows 11 optimizer [Global] — discovered — first 2026-11-23, last 2026-11-23
-- tiktok download mp4 [Global] — discovered — first 2026-11-23, last 2026-11-23
-- jsn stats [Global] — discovered — first 2026-11-23, last 2026-11-23
-- jorge mendes monthly pay cell c [Global] — discovered — first 2026-11-23, last 2026-11-23
-- cyclone akvan tracker live [Global] — discovered — first 2026-11-23, last 2026-11-23
-- xbox gift card [Global] — discovered — first 2026-11-23, last 2026-11-23
-- saily esim [Global] — discovered — first 2026-11-23, last 2026-11-23
-- steam gta 5 [Global] — discovered — first 2026-11-23, last 2026-11-23
-- megaaa.casa [Global] — discovered — first 2026-11-23, last 2026-11-23
-- google maps leads tracker [US] — discovered — first 2026-11-23, last 2026-11-23
-- pacers vs knicks match player stats espn [US] — discovered — first 2026-11-23, last 2026-11-23
-- cyclone akwan tracker [Global] — discovered — first 2026-11-23, last 2026-11-23
-- pacers vs knicks match player stats 3 pointers [US] — discovered — first 2026-11-23, last 2026-11-23
-- kangton.lol [Global] — discovered — first 2026-11-23, last 2026-11-23
-- game of the year [Global] — discovered — first 2026-11-23, last 2026-11-23
-- actionsa [Global] — discovered — first 2026-11-23, last 2026-11-23
+- activision custom gaming cake maker [Global] — discovered — first 2026-11-24, last 2026-11-24
+- adam driver [US] — discovered — first 2026-11-24, last 2026-11-24
+- amd ryzen 7 9850x3d 8-core processor [Global] — discovered — first 2026-11-24, last 2026-11-24
+- article format spm [Global] — discovered — first 2026-11-24, last 2026-11-24
+- ball tampering [GB] — discovered — first 2026-11-24, last 2026-11-24
+- best australian casino online 🇦🇺 2026 www.casinobimo.blog [Global] — discovered — first 2026-11-24, last 2026-11-24
+- best seo tool [Global] — discovered — first 2026-11-24, last 2026-11-24
+- bodo glimt [MX] — discovered — first 2026-11-24, last 2026-11-24
+- bolsa familia dezembro [BR] — discovered — first 2026-11-24, last 2026-11-24
+- btroblox [Global] — discovered — first 2026-11-24, last 2026-11-24
+- can you game share gta 6 [Global] — discovered — first 2026-11-24, last 2026-11-24
+- casino migliori online 🇮🇹 2026 www.casinobimo.blog [Global] — discovered — first 2026-11-24, last 2026-11-24
+- casino online österreich 2026 atboni.sbs 🇦🇹 [Global] — discovered — first 2026-11-24, last 2026-11-24
+- casino online 🇧🇪 www.etoilecasino.com 🇧🇪 [Global] — discovered — first 2026-11-24, last 2026-11-24
+- chase brown stats [Global] — discovered — first 2026-11-24, last 2026-11-24
+- chelsea f.c. [GB] — discovered — first 2026-11-24, last 2026-11-24
+- collin sexton [US] — discovered — first 2026-11-24, last 2026-11-24
+- collin sexton stats [US] — discovered — first 2026-11-24, last 2026-11-24
+- connections hint today [GB] — discovered — first 2026-11-24, last 2026-11-24
+- cubism [Global] — discovered — first 2026-11-24, last 2026-11-24
+- cyberpunk 2077 [MX] — discovered — first 2026-11-24, last 2026-11-24
+- cyclone akvan landfall [Global] — discovered — first 2026-11-24, last 2026-11-24
+- cyclone akwan update [Global] — discovered — first 2026-11-24, last 2026-11-24
+- cyclone landfall [Global] — discovered — first 2026-11-24, last 2026-11-24
+- dassault rafale [ES] — discovered — first 2026-11-24, last 2026-11-24
 
 ## Due for follow-up
 
