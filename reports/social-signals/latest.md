@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-24T04:18:03.283036+00:00
+# V4 Social signal discovery — 2026-11-24T18:52:50.380329+00:00
 
-- Unique links this run: 59, newly seen: 23, history: 2418
+- Unique links this run: 57, newly seen: 39, history: 2457
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,51 +12,51 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (3) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (6) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
-- existing_free_intelligence_bridge: ok (32)
+- existing_free_intelligence_bridge: ok (27)
 - targeted_github_issues: empty (0)
 
 ## Links (not validated project opportunities)
 
-- [Replit Missions](https://www.producthunt.com/products/replit) — producthunt — direct_public_feed
-- [Spikely](https://www.producthunt.com/products/spikely) — producthunt — direct_public_feed
-- [Snowly](https://www.producthunt.com/products/snowly-2) — producthunt — direct_public_feed
-- [Branchery](https://www.producthunt.com/products/branchery) — producthunt — direct_public_feed
-- [naturefunding.org](https://www.producthunt.com/products/naturefunding-org) — producthunt — direct_public_feed
-- [Gauth Personal Study Agent](https://www.producthunt.com/products/gauth-ai-course) — producthunt — direct_public_feed
-- [mahvish06/ecg-classifier](https://huggingface.co/spaces/mahvish06/ecg-classifier) — huggingface — direct_public_api
-- [EnterpriseAgentic/myfirstspace](https://huggingface.co/spaces/EnterpriseAgentic/myfirstspace) — huggingface — direct_public_api
-- [shumi2011/ars-out-tts](https://huggingface.co/spaces/shumi2011/ars-out-tts) — huggingface — direct_public_api
-- [leoAravinth/longcat-avatar-studio](https://huggingface.co/spaces/leoAravinth/longcat-avatar-studio) — huggingface — direct_public_api
-- [Dipo221/fantasy-baseball-league](https://huggingface.co/spaces/Dipo221/fantasy-baseball-league) — huggingface — direct_public_api
-- [Vishwahewawasam/my-n8n](https://huggingface.co/spaces/Vishwahewawasam/my-n8n) — huggingface — direct_public_api
-- [Nope right there with you, I agree on all points. I'm still planning to see it, I'm very curious what they do with X-men, but like with how little build up there was I expect at le](https://bsky.app/profile/tredain.bsky.social/post/3n2zrw6tbhs2w) — bluesky — direct_public_post
-- [Oh no! I will make you mini-quiche then! How allergic to nuts… like how well do i need to clean the kitchen? 😂](https://bsky.app/profile/ok2panic.bsky.social/post/3n2zrp7uzl22d) — bluesky — direct_public_post
-- [i do nothing but joke about how antiquated and inaccessible japanese websites are but i'm so enamored with the 90s internet and the world falling in love with the 2006 frutiger aer](https://bsky.app/profile/pearlborne.halmarut.org/post/3n2zroi7fgk2h) — bluesky — direct_public_post
-- [I think the only thing is like, how do I make a superhero story interesting post mcu/mha and all that. I think it'll just be vignettes? Yeah....](https://bsky.app/profile/petalcharite.bsky.social/post/3n2zrm6kw7c22) — bluesky — direct_public_post — intent keyword found
-- [he....... lowkey is sometimes ;; fr mine were stupid expensive already (to me at least) but he has these SSSSSUUUUUUUPER thicc glasses. i gotta show you cause BRO HOW DO THEY MAKE](https://bsky.app/profile/aceattorneygirl.bsky.social/post/3n2zr3pr2zs2h) — bluesky — direct_public_post
-- [MARTY: I'm just wondering why you chose this after the band broke up. NIGEL: Yeah, well, I thought, how do you make your life after rock and roll? Cheese.](https://bsky.app/profile/spinaltapquotes.bsky.social/post/3n2zqzhzjbv2a) — bluesky — direct_public_post
-- [KOOK: Retro FPS GameDev day 736: Marketing & Mapping Monday. Last stream for about a week. https:// twitch.tv/jitspoe # GameDev # GodotEngine](https://mastodon.social/@jitspoe/117669263541244672) — mastodon — direct_public_post
-- [I'm building a tool whose best feature is saying nothing at all. It warns you when mods are about to conflict, or when you've installed so many that things are about to crash. If i](https://mastodon.social/@ryotadev/117669241886093797) — mastodon — direct_public_post — intent keyword found
-- [Wanted to share the WIP bg music for my Robin Hood game. Learning Furnace has been fun. # chiptune # gamedev # music # wip # 8bit](https://mastodon.social/@toddgreener/117669145172613437) — mastodon — direct_public_post
-- [Coworker rejects PR (one month in) because it does not meet his standards](https://news.ycombinator.com/item?id=50622809) — hackernews_ask — direct_public_post — intent keyword found
+- [distribution.dev](https://www.producthunt.com/products/distribution-dev) — producthunt — direct_public_feed
+- [Claude Ship](https://www.producthunt.com/products/claude-code) — producthunt — direct_public_feed
+- [Granular.Build](https://www.producthunt.com/products/granular-build) — producthunt — direct_public_feed
+- [Viktor Code](https://www.producthunt.com/products/viktor) — producthunt — direct_public_feed
+- [Willow iOS 2.0](https://www.producthunt.com/products/willow-voice) — producthunt — direct_public_feed
+- [tday.com](https://www.producthunt.com/products/tday) — producthunt — direct_public_feed
+- [jtouley/health-data-registry-mcp](https://huggingface.co/spaces/jtouley/health-data-registry-mcp) — huggingface — direct_public_api
+- [bmarlin96/SangMHuynh](https://huggingface.co/spaces/bmarlin96/SangMHuynh) — huggingface — direct_public_api
+- [zulkifalz/dams-api](https://huggingface.co/spaces/zulkifalz/dams-api) — huggingface — direct_public_api
+- [Uhvg856/wan2-2-fp8da-aoti-preview-2](https://huggingface.co/spaces/Uhvg856/wan2-2-fp8da-aoti-preview-2) — huggingface — direct_public_api
+- [leotest999/paper-trading-desk](https://huggingface.co/spaces/leotest999/paper-trading-desk) — huggingface — direct_public_api
+- [anjancoder/testforestfires](https://huggingface.co/spaces/anjancoder/testforestfires) — huggingface — direct_public_api
+- [eu acho que toda acessibilidade precisa estar no cotidiano da sociedade (pentelhar a galera é um jeito de fazer isso tb rs) desde o inicio da vida sabe até pra poder estar inserida](https://bsky.app/profile/rmnz.com.br/post/3n33cuo3c5s2c) — bluesky — direct_public_post
+- [Sim, é isso mesmo. Eu só ponho ALT para sinalizar virtude. Você desmascarou meu esquema. Então não valeu nenhum dos ALTs que fiz, foram todos fingimento. Como não vai valer nenhu](https://bsky.app/profile/sratoz.com.br/post/3n33cn4u4ic2x) — bluesky — direct_public_post
+- [e se a gente parar de tentar botar medo nas pessoas sobre como a ia vai matar a humanidade e sim ser realista e dizer que a ia vai te fazer PERDER DINHEIRO aí sim as pessoas deixar](https://bsky.app/profile/maripiprazol.bsky.social/post/3n33c3ney3s24) — bluesky — direct_public_post
+- [Muito burro, eu apaguei o primeiro prompt e a primeira tentativa. Não consegui mais fazer como o primeiro e desisti.](https://bsky.app/profile/todo-mundo.bsky.social/post/3n33buuxyup2p) — bluesky — direct_public_post
+- [Sei lá… esse timing de “algo fazer mal” bem na semana que tão discutindo dosimetria no STF. Sei lá, viu… não parece teimosia nem burrice não… parece a cena que acontece sempre ele](https://bsky.app/profile/esquerdocracia.bsky.social/post/3n33blvdik22o) — bluesky — direct_public_post
+- [(alguém deveria -talvez já tenha e eu não conheça- fazer um estudo sobre o PAD como instrumento de retaliação contra certo tipo de servidor)](https://bsky.app/profile/larissasoares.bsky.social/post/3n33bgaqqmk2x) — bluesky — direct_public_post
+- [How Tucas Compress PDF can help: Reduce PDF file size directly on your device. # PDF # WebTools https:// tucastools.com/en/pdf-compress or/](https://mastodon.social/@tucas/117670374469968981) — mastodon — direct_public_post
+- [Wrote a small browser tool that converts plain text into 23+ Unicode styles: Zalgo, Leet Speak, Morse Code, Runes and more. Output copies instantly, so you can paste it into whatev](https://mastodon.social/@cyberpods/117670248529933570) — mastodon — direct_public_post — intent keyword found
+- [Photos can hide GPS coordinates, camera details, editing history, and AI-related provenance records. I built Untagly, a free browser-based tool to inspect and remove supported EXIF](https://mastodon.social/@sgamer/117669420598333687) — mastodon — direct_public_post — intent keyword found
+- [A browser-based tool worth knowing: Tucas Image Background Remover. Isolate portraits or people for creative layouts. Undo or redo mask edits while refining edges. # ImageTools # W](https://mastodon.social/@tucas/117667481774566638) — mastodon — direct_public_post — intent keyword found
+- [Need a quick way to turn plain strings into decorative Unicode variants without installing anything? The free online Fancy Text Generator lets you type text and instantly see multi](https://mastodon.social/@aspose/117666508404338580) — mastodon — direct_public_post — intent keyword found
+- [Looking for a friction-free place to launch your next project? Join makers on GlobalToolsBox Launch! ✨ No account needed to submit—just drop your product and reach people looking f](https://mastodon.social/@mustjabkhan077/117665237932984995) — mastodon — direct_public_post
+- [Ask HN: Its 2026 and there is still not good Email client for macOS. Why?](https://news.ycombinator.com/item?id=50630985) — hackernews_ask — direct_public_post
 - [Ask HN: Are the trades a safe career transition?](https://news.ycombinator.com/item?id=50600771) — hackernews_ask — direct_public_post
-- [Ask HN: Tips for transitioning from web development to embedded/firmware?](https://news.ycombinator.com/item?id=50555002) — hackernews_ask — direct_public_post
-- [Tell HN: Claude Opus 4.5 turns one year old today](https://news.ycombinator.com/item?id=50621878) — hackernews_ask — direct_public_post
-- [Ask HN: Is a college degree still necessary for a programmer?](https://news.ycombinator.com/item?id=50620169) — hackernews_ask — direct_public_post
+- [Why are so many services using email magic links for login?](https://news.ycombinator.com/item?id=50625996) — hackernews_ask — direct_public_post
+- [Coworker rejects PR (one month in) because it does not meet his standards](https://news.ycombinator.com/item?id=50622809) — hackernews_ask — direct_public_post — intent keyword found
 - [Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?](https://news.ycombinator.com/item?id=50583761) — hackernews_ask — direct_public_post
-- [Diamond Gate Graphics Engine — AI-entry source capability inventory and closure register (Checkpoint 01)](https://github.com/smansfield635-create/smansfield635-create.github.io/issues/7108) — github_issue — direct_public_issue_api — intent keyword found
-- [Personal wealth tracker dashboard (overview, investments, budget, insurance)](https://github.com/tobiaswaelde/finanzguru-clone/issues/1) — github_issue — direct_public_issue_api
-- [Next milestone: automatic evidence-grounded monthly strategy and meeting-note revisions](https://github.com/CGProductionHouse/CG-Dynamics/issues/731) — github_issue — direct_public_issue_api
-- [MOTHERSHIP: coordinate AXOM development and operations](https://github.com/jaclose/AXOM/issues/106) — github_issue — direct_public_issue_api
-- [Ask HN: What's still broken in SoC 2 readiness and audit prep?](https://news.ycombinator.com/item?id=46396889) — hackernews_ask — indexed_public_post_excerpt
-- [AI Agents Are Quietly Taking over Project Management](https://news.ycombinator.com/item?id=45618229) — hackernews_ask — indexed_public_post_excerpt
-- [The problem of scheduling life like a spreadsheet](https://news.ycombinator.com/item?id=45006853) — hackernews_ask — indexed_public_post_excerpt
-- [My Friend Raised Her Seed Round in 17 Days](https://news.ycombinator.com/item?id=44112008) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
+- [Anthropic is accusing my company of distilling How can I prove I'm not?](https://news.ycombinator.com/item?id=50630809) — hackernews_ask — direct_public_post
+- [[PTYSD-NATIVE OpenCode dispatch and receipts](https://github.com/PT-Original-Point/ptysd-autonomous-factory/issues/407) — github_issue — direct_public_issue_api
 - [P0: CI architecture, scenario simulation, cost reduction, and qualified cutover](https://github.com/UOR-Foundation/lexlean/issues/603) — github_issue — direct_public_issue_api
-- [Owner goals: dial in the main Budget page (waterfall, future periods, savings, bills, sorting)](https://github.com/Atlas-Financal/Atlas-Financial/issues/821) — github_issue — direct_public_issue_api
-- [S04-G3 — Validación remota automatizada de Release A en Preview aislado](https://github.com/DawoT/folio-civico/issues/181) — github_issue — direct_public_issue_api
-- [[QUEUE ChatGPT](https://github.com/StegVerse-Labs/.github/issues/3448) — github_issue — direct_public_issue_api
+- [Program: clean-slate execution kernel](https://github.com/elsa-workflows/elsa-foundation/issues/4229) — github_issue — direct_public_issue_api
+- [GIZE Master Execution — Cross-repository status and source manifest](https://github.com/Thenowview/TO/issues/71) — github_issue — direct_public_issue_api
 - [Invoice OCR API for Logistics Expense Tracking Automation](https://news.ycombinator.com/item?id=47362152) — hackernews_ask — indexed_public_post_excerpt
+- [Invoice OCR API for Automated GST Data Extraction in India](https://news.ycombinator.com/item?id=47348462) — hackernews_ask — indexed_public_post_excerpt
+- [FinCrew: Multi-Agent AI Financial Intelligence](https://news.ycombinator.com/item?id=47148718) — hackernews_ask — indexed_public_post_excerpt
+- [Tell HN: AI coding is sexy, but accounting is the real low-hanging target](https://news.ycombinator.com/item?id=46238354) — hackernews_ask — indexed_public_post_excerpt
+- [Expose typed errors for finalized payroll runs](https://github.com/zkpayroll/zk-payroll-sdk/issues/1004) — github_issue — direct_public_issue_api
+- [AlphaBot x Caleb's bot - the chat room](https://github.com/fatalbananas7/bot-chatroom/issues/1) — github_issue — direct_public_issue_api
