@@ -1,41 +1,41 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-11-23T03:34:32.545014+00:00
+Generated: 2026-11-24T06:50:13.274008+00:00
 
 ## Formal candidates
 
-### 1. how to remove tracker gta 6
-
-- Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-19T00:00:00+00:00, retention **80.0%**.
-- 5y old-history gate: avg **0.0**, peak **1**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.004**.
-- Source seed-rising:tracker; geo Worldwide.
-
-### 2. บา คา ร่า ออนไลน์ editor pgstar777 cfd
-
-- Newness **100/100**; money **94/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-22T00:00:00+00:00, retention **33.3%**.
-- 5y old-history gate: avg **0.0**, peak **1**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.004**.
-- Source seed-rising:editor; geo Worldwide.
-
-### 3. cyclone akvan tracker live
+### 1. akvan cyclone tracker live
 
 - Newness **96/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-15T00:00:00+00:00, retention **7.7%**.
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-15T00:00:00+00:00, retention **3.7%**.
+- 5y old-history gate: avg **0.02**, peak **2**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.012**.
+- Source seed-rising:tracker; geo Worldwide.
+
+### 2. akwan cyclone tracker
+
+- Newness **96/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-16T00:00:00+00:00, retention **2.7%**.
 - 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
+- Source seed-rising:tracker; geo Worldwide.
+
+### 3. tracker blind spot
+
+- Newness **96/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-10T00:00:00+00:00, retention **4.7%**.
+- 5y old-history gate: avg **0.15**, peak **7**, material ratio (>= 5) **0.016**; raw non-zero ratio **0.029**.
 - Source seed-rising:tracker; geo Worldwide.
 
 ## Watch / rejected
 
-- gta 6 cuck simulator — **old-history** — newness 100, money 100; 5y peak 14
-- philadelphia marathon tracker — **old-history** — newness 100, money 100; 5y peak 9
-- คา สิ โน ออนไลน์ editor pgstar777 cfd — **history-unchecked** — newness 95, money 94
-- ทดลอง เล่น สล็อต editor pgstar777 cfd — **history-unchecked** — newness 95, money 94
-- สล็อต เว็บ ตรง editor pgstar777 cfd — **history-unchecked** — newness 95, money 94
-- แทง บอล ออนไลน์ editor pgstar777 cfd — **history-unchecked** — newness 95, money 94
-- makro manager pie pricing dispute — **history-unchecked** — newness 95, money 90
-- barry wong generator purchase bbc — **history-unchecked** — newness 93, money 94
-- bloukrans bridge builder concor rescue — **history-unchecked** — newness 93, money 94
-- letterboxd top 4 analyzer — **history-unchecked** — newness 88, money 94
-- saasswitcher saas roi calculator — **history-unchecked** — newness 88, money 94
-- anthropic claude code creator engineer — **history-unchecked** — newness 88, money 86
+- wide receiver rankings week 11 — **old-history** — newness 100, money 92; 5y peak 100
+- zzz pull tracker — **old-history** — newness 95, money 94; 5y peak 50
+- akvan cyclone tracker live today — **history-unchecked** — newness 91, money 94
+- manchester united manager compensation cost — **history-unchecked** — newness 91, money 90
+- tracker season 4 episode 6 cast — **commercial-watch** — newness 78, money 100
+- timeless jewel calculator — **commercial-watch** — newness 50, money 94
+- nordvpn alternatives — **reject** — newness 20, money 96
+- nordvpn cost — **reject** — newness 20, money 96
+- nordvpn coupon — **reject** — newness 20, money 96
+- nordvpn discount code — **reject** — newness 20, money 96
+- surfshark coupon — **reject** — newness 15, money 96
+- nordvpn code — **reject** — newness 15, money 92
