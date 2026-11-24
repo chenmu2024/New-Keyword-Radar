@@ -1,13 +1,13 @@
 # V4 exact query × social-source linkage
 
-- Generated: 2026-11-23T19:13:24.707229+00:00
-- Source last updated: 2026-11-23T19:13:24.707229+00:00
+- Generated: 2026-11-24T04:18:03.283036+00:00
+- Source last updated: 2026-11-24T04:18:03.283036+00:00
 - Trends archive: 2026-11-23 (74/74; complete=True)
 - Eligible multiword rising queries: 411
 - Cross-source matches within 72h review window: 0
-- Social current-run links: 62, prior recent sightings: 211
+- Social current-run links: 59, prior recent sightings: 180
 - Search archives examined: 2026-11-23, 2026-11-22
-- Direct-post question-derived QUERY HYPOTHESES: 1
+- Direct-post question-derived QUERY HYPOTHESES: 2
 - Direct-post author self-reported payments (NOT processor verified): 0
 - Both question-derived hypotheses and phrase matches are research leads ONLY; no SEO volume, demand, or payment is verified.
 
@@ -15,6 +15,9 @@ No reliable full-query cross-source overlap found in this scan.
 
 ## Original public-post question hints (NOT validated search keywords)
 
+- Proposed query: **a few decades of at least mild security to get to**
+  - Original public post: https://news.ycombinator.com/item?id=50600771
+  - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
 - Proposed query: **to organize my projects this week as i really need to**
   - Original public post: https://bsky.app/profile/drsteggy.bsky.social/post/3n2x2xeienc2n
   - Status: unverified_question_hint (not measured Volume/KD, no payment confirmation)
