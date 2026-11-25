@@ -1,29 +1,7 @@
-# Free SaaS pain and new-keyword intelligence — 2026-11-24
+# Free SaaS pain and new-keyword intelligence — 2026-11-25
 
 Research only. **Volume / KD / CPC: unverified, not zero.**
 Sources can be rate-limited. A zero-lead day is not evidence of zero demand.
-
-## invoice reconciliation manual
-
-Market: US · Topic: finance_operations · Intent: manual_invoice_pain · Category: specific_buyer_problem
-
-Queries by source: github_repos = invoice reconciliation, github_issues = invoice reconciliation, google_news_rss = invoice reconciliation manual, duckduckgo = invoice reconciliation manual, reddit = invoice reconciliation manual, hackernews_ask = invoice reconciliation
-
-Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
-
-**Buyer-pain review leads:** 0 / 20 raw unique links. Filtered, not verified.
-
-- No qualifying buyer-pain evidence. Do not infer absence of demand.
-
-Competitor / contextual references: 7
-
-- [harshalpatil-IITGN/PolicyGuard_AP](https://github.com/harshalpatil-IITGN/PolicyGuard_AP)
-- [2848823170/docuclean-ledger-mcp](https://github.com/2848823170/docuclean-ledger-mcp)
-- [Real-Time Tax Reporting Is Here. Manual Reconciliation Isn’t Going to Keep Up - Thomson Reuters](https://news.google.com/rss/articles/CBMiygFBVV95cUxNMExEZWh0bl9ydmNjN2RsSTJtYmRicHhRTzRacHZxTkNKZkVBUnhCNW1LY3d0Ymc4QTZPWmdmdVkwa1ltWlZkem1sendkLWJ2eGk1NFlJMVZGM2JLcFNzMFo4UzRETXFraWRJZjRKczlxU0VucHJOS0NoeHpVUDI3d0NHRFhTS21GWTJRWXd1enc5MFlUamFFQ2laZnpzaElPSGg4SnRoVXpGbmthS2Q0Z0ZNb1o0NUlfV1Bkc05CTzd0S1hRQTUwS01B?oc=5)
-
-Discarded/noise: 13; repeated URLs across queries: 0
-
-Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
 ## payroll integration error
 
@@ -31,41 +9,41 @@ Market: US · Topic: payroll · Intent: integration_pain · Category: specific_b
 
 Queries by source: github_repos = payroll integration, github_issues = payroll integration, google_news_rss = payroll integration error, duckduckgo = payroll integration error, reddit = payroll integration error, hackernews_ask = payroll integration
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
+Sources: github_repos=ok, github_issues=ok, google_news_rss=error, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 19 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 16 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 11
+Competitor / contextual references: 5
 
-- [Shahnawaz1-tech/darearqam](https://github.com/Shahnawaz1-tech/darearqam)
+- [tjcdigitalservices/auto-repair-ops](https://github.com/tjcdigitalservices/auto-repair-ops)
 - [analysttom712/total-rewards-analytics](https://github.com/analysttom712/total-rewards-analytics)
-- [ascensus-gs-ux/ux-calsaversdemo-beta](https://github.com/ascensus-gs-ux/ux-calsaversdemo-beta)
+- [Payroll, Tax, HR and HCM solutions | ADP](https://www.adp.com/)
 
-Discarded/noise: 8; repeated URLs across queries: 0
+Discarded/noise: 11; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
-## nota fiscal planilha
+## inventory sync spreadsheet
 
-Market: BR · Topic: tax_compliance · Intent: manual_invoice_pain · Category: specific_buyer_problem
+Market: US · Topic: retail_operations · Intent: manual_sync_pain · Category: specific_buyer_problem
 
-Queries by source: github_repos = nota fiscal, github_issues = nota fiscal, google_news_rss = nota fiscal planilha, duckduckgo = nota fiscal planilha, reddit = nota fiscal planilha
+Queries by source: github_repos = inventory sync, github_issues = inventory sync, google_news_rss = inventory sync spreadsheet, duckduckgo = inventory sync spreadsheet, reddit = inventory sync spreadsheet, hackernews_ask = inventory sync
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 12 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 20 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 3
+Competitor / contextual references: 4
 
-- [Hitalozz/Sistema-de-Locacao-de-Veiculos](https://github.com/Hitalozz/Sistema-de-Locacao-de-Veiculos)
-- [Cadu-X/impressora-de-nota-fiscal](https://github.com/Cadu-X/impressora-de-nota-fiscal)
-- [NOTA | M&T Bank - trustnota.com](https://www.mtb.com/business/nota)
+- [datdao5898/inventory-syncing-Kingcom-Sapo](https://github.com/datdao5898/inventory-syncing-Kingcom-Sapo)
+- [somrudeebanthao09/OnHand-Inventory-Planner](https://github.com/somrudeebanthao09/OnHand-Inventory-Planner)
+- [SurefireStudios/TCGiant-Sync](https://github.com/SurefireStudios/TCGiant-Sync)
 
-Discarded/noise: 9; repeated URLs across queries: 0
+Discarded/noise: 16; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -77,39 +55,39 @@ Queries by source: github_repos = folha pagamento, github_issues = folha pagamen
 
 Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded
 
-**Buyer-pain review leads:** 0 / 11 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 12 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 8
+Competitor / contextual references: 7
 
-- [Jessica-Fuentess/HR_Dashboard](https://github.com/Jessica-Fuentess/HR_Dashboard)
-- [Pamella-Rossi/FolhaFacil](https://github.com/Pamella-Rossi/FolhaFacil)
-- [Mmendes011/exercicio6-rh-folha](https://github.com/Mmendes011/exercicio6-rh-folha)
+- [AugustoACosta1/Projeto-A3---Folha-de-Pagamento](https://github.com/AugustoACosta1/Projeto-A3---Folha-de-Pagamento)
+- [otaviocosta07/folha-pagamento-grupo2](https://github.com/otaviocosta07/folha-pagamento-grupo2)
+- [FelipeSeiji/Sistema-Folha-Pagamento](https://github.com/FelipeSeiji/Sistema-Folha-Pagamento)
 
-Discarded/noise: 3; repeated URLs across queries: 0
+Discarded/noise: 5; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
-## CFDI conciliación errores
+## conciliação bancária manual
 
-Market: MX · Topic: tax_compliance · Intent: invoice_validation · Category: specific_buyer_problem
+Market: BR · Topic: finance_operations · Intent: manual_reconciliation · Category: specific_buyer_problem
 
-Queries by source: github_repos = CFDI conciliación, github_issues = CFDI conciliación, google_news_rss = CFDI conciliación errores, duckduckgo = CFDI conciliación errores, reddit = CFDI conciliación errores
+Queries by source: github_repos = conciliação bancária, github_issues = conciliação bancária, google_news_rss = conciliação bancária manual, duckduckgo = conciliação bancária manual, reddit = conciliação bancária manual
 
 Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
 
-**Buyer-pain review leads:** 0 / 10 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 12 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
 Competitor / contextual references: 4
 
-- [merolhack/sat-fiscal-toolkit](https://github.com/merolhack/sat-fiscal-toolkit)
-- [Fintecia/fintecia-mcp](https://github.com/Fintecia/fintecia-mcp)
-- [Roque98/Auxiliar-Contable](https://github.com/Roque98/Auxiliar-Contable)
+- [Thiagobcdev/caixa-claro](https://github.com/Thiagobcdev/caixa-claro)
+- [Hirynnn/SeuDinheiro](https://github.com/Hirynnn/SeuDinheiro)
+- [Mauricio-G-Oliveira/makerpixel-central-contabil](https://github.com/Mauricio-G-Oliveira/makerpixel-central-contabil)
 
-Discarded/noise: 6; repeated URLs across queries: 0
+Discarded/noise: 8; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -119,18 +97,40 @@ Market: MX · Topic: payroll · Intent: manual_payroll_pain · Category: specifi
 
 Queries by source: github_repos = nómina excel, github_issues = nómina excel, google_news_rss = nómina excel errores, duckduckgo = nómina excel errores, reddit = nómina excel errores
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
+Sources: github_repos=ok, github_issues=empty, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
 
-**Buyer-pain review leads:** 0 / 12 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 8 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 6
+Competitor / contextual references: 3
 
+- [ngGabriell/Sistema-de-asistencia-y-c-lculo-de-n-mina-Basado-en-almacenes-de-ropa-Herpo-](https://github.com/ngGabriell/Sistema-de-asistencia-y-c-lculo-de-n-mina-Basado-en-almacenes-de-ropa-Herpo-)
 - [Camilo1408/Nomina-Xpress](https://github.com/Camilo1408/Nomina-Xpress)
 - [arrazola-consultores/arrazola-calculadoras-descargas](https://github.com/arrazola-consultores/arrazola-calculadoras-descargas)
-- [frankbuitrago3-code/control-asistencia](https://github.com/frankbuitrago3-code/control-asistencia)
 
-Discarded/noise: 6; repeated URLs across queries: 0
+Discarded/noise: 5; repeated URLs across queries: 0
+
+Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
+
+## facturas SAT errores
+
+Market: MX · Topic: tax_compliance · Intent: invoice_rejection · Category: specific_buyer_problem
+
+Queries by source: github_repos = facturas SAT, github_issues = facturas SAT, google_news_rss = facturas SAT errores, duckduckgo = facturas SAT errores, reddit = facturas SAT errores
+
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded
+
+**Buyer-pain review leads:** 0 / 13 raw unique links. Filtered, not verified.
+
+- No qualifying buyer-pain evidence. Do not infer absence of demand.
+
+Competitor / contextual references: 4
+
+- [Pablo-Gomez-Perez/visor-cfdi-xml](https://github.com/Pablo-Gomez-Perez/visor-cfdi-xml)
+- [contreras117/descarga-masiva](https://github.com/contreras117/descarga-masiva)
+- [Breif7/cfdi-tools](https://github.com/Breif7/cfdi-tools)
+
+Discarded/noise: 9; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
