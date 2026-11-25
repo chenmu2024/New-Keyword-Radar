@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-25T03:01:55.352252+00:00
+# V4 Social signal discovery — 2026-11-25T12:49:58.016693+00:00
 
-- Unique links this run: 55, newly seen: 23, history: 2480
+- Unique links this run: 54, newly seen: 39, history: 2500
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -11,7 +11,7 @@
 - x: empty (0) — Search-index-only coverage. Original post/comments unverified.
 - producthunt: ok (6)
 - huggingface: ok (6)
-- bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
+- bluesky: ok (5) — Direct public post text, not verified customer payment or SEO demand.
 - mastodon: ok (4) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
@@ -20,43 +20,43 @@
 
 ## Links (not validated project opportunities)
 
-- [K-Stra](https://www.producthunt.com/products/k-stra) — producthunt — direct_public_feed
-- [Umami Manager](https://www.producthunt.com/products/umami-manager) — producthunt — direct_public_feed
-- [Astrolabio](https://www.producthunt.com/products/astrolabio) — producthunt — direct_public_feed
-- [Adanotch](https://www.producthunt.com/products/adanotch) — producthunt — direct_public_feed
-- [Claude Ship](https://www.producthunt.com/products/claude-code) — producthunt — direct_public_feed
-- [Rotara](https://www.producthunt.com/products/rotara) — producthunt — direct_public_feed
-- [Sherwanapp/Sherwanapp](https://huggingface.co/spaces/Sherwanapp/Sherwanapp) — huggingface — direct_public_api
-- [vernal0910/sulphur-3-demo](https://huggingface.co/spaces/vernal0910/sulphur-3-demo) — huggingface — direct_public_api
-- [Noriaki/MIDI-to-Score](https://huggingface.co/spaces/Noriaki/MIDI-to-Score) — huggingface — direct_public_api
-- [fckup/Final_Assignment_Template](https://huggingface.co/spaces/fckup/Final_Assignment_Template) — huggingface — direct_public_api
-- [FreddyQQQ/extendVideominimax](https://huggingface.co/spaces/FreddyQQQ/extendVideominimax) — huggingface — direct_public_api
-- [Sherwanapp/Sherwsnapp](https://huggingface.co/spaces/Sherwanapp/Sherwsnapp) — huggingface — direct_public_api
-- [also i forgot how much i love this brush for lines mamma mia assets.clip-studio.com/en-us/detail...](https://bsky.app/profile/shuruzy.bsky.social/post/3n344r7mnds2p) — bluesky — direct_public_post
-- [I also could’ve talked about who won the beef between Kendrick and Drake, but that’s also a topic that’s not relevant to this conversation or my original point about how Democrats](https://bsky.app/profile/airsinclair28g.bsky.social/post/3n342rrlem422) — bluesky — direct_public_post — intent keyword found
-- [But we’re in the situation we’re in, and that’s why I have been saying that Democrats need to use every tool at their disposal to fight. And again, I didn’t NEED to say anything a](https://bsky.app/profile/airsinclair28g.bsky.social/post/3n33zrcityu22) — bluesky — direct_public_post — intent keyword found
-- [he doesn't run the company but owns a lot of shares so a prolonged boycott will reduce their value and diminish his wealth also don't platform this reactionary tool. ever](https://bsky.app/profile/kwardvancouver.bsky.social/post/3n33yoieups2l) — bluesky — direct_public_post — intent keyword found
-- [CDR is almost entirely useless as a climate-fixing tool but i'm hoping the research will eventually lead to self-contained air systems you can buy for like 150 bucks that never nee](https://bsky.app/profile/treat.kandicritter.sqky.one/post/3n33x37uunk2b) — bluesky — direct_public_post — intent keyword found
-- [well the idiocy that this is referencing is the theory that the chatbots will become uncontrollable by humans so we need to build a very special killswitch rather than treating it](https://bsky.app/profile/sagastar.bsky.social/post/3n33uv4hey22r) — bluesky — direct_public_post — intent keyword found
-- [Open the box. Step into the City of Angels. 🌴🎬 Behind this enamel lid is a whole tiny Los Angeles. The Hollywood Sign sits on golden hills, searchlights sweep over a red-carpet pre](https://mastodon.social/@view3dtv/117674181438805408) — mastodon — direct_public_post
-- [Found and shared here, not created here: Astra Blue made this video on Jensen Huang's eleven days away from Nvidia. It tells the comeback the way I have argued it, with capitalism](https://mastodon.social/@basilpuglisi/117673772929072032) — mastodon — direct_public_post
-- [Every AI studio in one workspace 🧠 Video, music, voice, images, websites and ebooks, all from one dashboard. Which studio would you open first? 👇 Want LimitlessAI at a low price? M](https://mastodon.social/@rankmarket99/117672483768880079) — mastodon — direct_public_post
-- [AI Studio also makes short videos for Reels, Stories, and feeds — from a description, or by bringing one of your photos to life. On paid plans, clips are up to 8 seconds. They land](https://mastodon.social/@wearedeepworks/117672247800692226) — mastodon — direct_public_post
+- [Qube](https://www.producthunt.com/products/qube-6) — producthunt — direct_public_feed
+- [3way.Social MCP](https://www.producthunt.com/products/3way-social) — producthunt — direct_public_feed
+- [MyClaw 3.0](https://www.producthunt.com/products/myclaw-3-0) — producthunt — direct_public_feed
+- [Koed](https://www.producthunt.com/products/koed) — producthunt — direct_public_feed
+- [Canva MCP](https://www.producthunt.com/products/canva) — producthunt — direct_public_feed
+- [Airbot](https://www.producthunt.com/products/airbots) — producthunt — direct_public_feed
+- [PhosorAI/MiniMax-H3-R2V](https://huggingface.co/spaces/PhosorAI/MiniMax-H3-R2V) — huggingface — direct_public_api
+- [zibaandishi/consumer-intelligence-lab](https://huggingface.co/spaces/zibaandishi/consumer-intelligence-lab) — huggingface — direct_public_api
+- [yking21/awnak](https://huggingface.co/spaces/yking21/awnak) — huggingface — direct_public_api
+- [oddadmix/pico-voca-arabic](https://huggingface.co/spaces/oddadmix/pico-voca-arabic) — huggingface — direct_public_api
+- [Kiro404/social-media-manager-demo](https://huggingface.co/spaces/Kiro404/social-media-manager-demo) — huggingface — direct_public_api
+- [MathBotCreator/MathBot](https://huggingface.co/spaces/MathBotCreator/MathBot) — huggingface — direct_public_api
+- [Time is the one we hear most too. What's saved our family hours: one printed page with Mom's medications, conditions, and contacts that we hand to every new doctor. The template is](https://bsky.app/profile/pageoneproject.org/post/3n32wmrbg322u) — bluesky — direct_public_post — intent keyword found
+- [Download Letterhead Template LIVE PREVIEWDownload Now Letterhead template. This layout is suitable for any project purpose. Very easy to use and customise. Size : A4 (21 29.7CM) F](https://bsky.app/profile/boomear.bsky.social/post/3n32iwdi46t24) — bluesky — direct_public_post — intent keyword found
+- [Calendar quirk: on a Sunday-start grid, a 31-day month that begins on a Friday or Saturday needs six week rows, not five. Our blank monthly calendar has six rows and no dates print](https://bsky.app/profile/officeprintable.bsky.social/post/3n2zsvxppg22h) — bluesky — direct_public_post
+- [No worries! I'm not the right person for you as I don't have a high enough invoice volume to justify any form of automation, even free (plus I invoice across three separate sets of](https://bsky.app/profile/theodora.bsky.social/post/3n2v7ntvksk2d) — bluesky — direct_public_post — intent keyword found
+- [Use WordPress, find a theme or template you like, install it, and go with that to start. There are tons of plugins to use for practically any purpose, and it's easy to work with fo](https://bsky.app/profile/factorone.bsky.social/post/3n2utcwxwvc24) — bluesky — direct_public_post — intent keyword found
+- [🚀 Deploy # Poweradmin on # AlmaLinux # VPS (5 Minute Quick-Start Guide) Below is a complete, production-ready, step-by-step guide for how to deploy Poweradmin on AlmaLinux VPS. Wha](https://mastodon.social/@radwebhosting/117677123654315489) — mastodon — direct_public_post — intent keyword found
+- [Wie schafft man es, ein Stück Software bekannter zu machen, das super nützlich, aber so unspektakulär wie eine Steuererklärung ist? Weil mich Geld-, Zeit- und Lebensmittelverschwen](https://mastodon.social/@nils_ramsperger/117677105892613261) — mastodon — direct_public_post
+- [My first real X thread through DotShare cost $0.05, and I charged $0.25. DotShare 3.8.1 now charges X posts like a card payment: → hold the most a post can cost → wait for X's dedu](https://mastodon.social/@FreeRave/117677077649171802) — mastodon — direct_public_post
+- [MSI Z690/Z790 con Coreboot: abbandona il firmware proprietario e ottieni il controllo completo della tua scheda madre. Questo aggiornamento di 3mdeb migliora la compatibilità e le](https://mastodon.social/@incastropc/117677074113336200) — mastodon — direct_public_post
 - [Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?](https://news.ycombinator.com/item?id=50630809) — hackernews_ask — direct_public_post
-- [Ask HN: Am I the only one whose AI hype is cooling down a lot?](https://news.ycombinator.com/item?id=50633601) — hackernews_ask — direct_public_post
 - [Ask HN: Are the trades a safe career transition?](https://news.ycombinator.com/item?id=50600771) — hackernews_ask — direct_public_post
-- [Ask HN: Will Claude be able to solve future maths problems?](https://news.ycombinator.com/item?id=50635183) — hackernews_ask — direct_public_post
+- [The CIA is the latest federal agency hit by a cyber breach](https://news.ycombinator.com/item?id=50639746) — hackernews_ask — direct_public_post
+- [Ask HN: Am I the only one whose AI hype is cooling down a lot?](https://news.ycombinator.com/item?id=50633601) — hackernews_ask — direct_public_post
 - [Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?](https://news.ycombinator.com/item?id=50583761) — hackernews_ask — direct_public_post
-- [Ask HN: Its 2026 and there is still not good Email client for macOS. Why?](https://news.ycombinator.com/item?id=50630985) — hackernews_ask — direct_public_post
-- [[PTYSD-NATIVE OpenCode dispatch and receipts](https://github.com/PT-Original-Point/ptysd-autonomous-factory/issues/407) — github_issue — direct_public_issue_api
-- [P0: CI architecture, scenario simulation, cost reduction, and qualified cutover](https://github.com/UOR-Foundation/lexlean/issues/603) — github_issue — direct_public_issue_api
-- [Program: clean-slate execution kernel](https://github.com/elsa-workflows/elsa-foundation/issues/4229) — github_issue — direct_public_issue_api
-- [GIZE Master Execution — Cross-repository status and source manifest](https://github.com/Thenowview/TO/issues/71) — github_issue — direct_public_issue_api
-- [Invoice OCR API for Logistics Expense Tracking Automation](https://news.ycombinator.com/item?id=47362152) — hackernews_ask — indexed_public_post_excerpt
-- [Invoice OCR API for Automated GST Data Extraction in India](https://news.ycombinator.com/item?id=47348462) — hackernews_ask — indexed_public_post_excerpt
-- [FinCrew: Multi-Agent AI Financial Intelligence](https://news.ycombinator.com/item?id=47148718) — hackernews_ask — indexed_public_post_excerpt
-- [Tell HN: AI coding is sexy, but accounting is the real low-hanging target](https://news.ycombinator.com/item?id=46238354) — hackernews_ask — indexed_public_post_excerpt
-- [Expose typed errors for finalized payroll runs](https://github.com/zkpayroll/zk-payroll-sdk/issues/1004) — github_issue — direct_public_issue_api
-- [AlphaBot x Caleb's bot - the chat room](https://github.com/fatalbananas7/bot-chatroom/issues/1) — github_issue — direct_public_issue_api
-- [Story thread: English engine, scenes, director (from Nov 16)](https://github.com/lamontaes/Political-Game-Git/issues/9750) — github_issue — direct_public_issue_api
+- [I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA](https://news.ycombinator.com/item?id=50577613) — hackernews_ask — direct_public_post
+- [[RC19 MASTER Stabilize Member, Calendar, Staffing, Attendance, Payroll, Storage, Reports & UX (Analytics HOLD)](https://github.com/anhkienk4-max/live-app-main/issues/80) — github_issue — direct_public_issue_api
+- [[RC19 W4 Delta D Emergency staffing replacement: staff incident history, draft shift notes & end-of-shift reports](https://github.com/anhkienk4-max/live-app-main/issues/190) — github_issue — direct_public_issue_api
+- [[6221 wsu - 13th Month Pay Initial](https://github.com/lllacer/Ticketing/issues/1419) — github_issue — direct_public_issue_api — intent keyword found
+- [[P0 OWNER ACTION First paid planning customer — Stripe eligibility, terms, support and approved order (no charge)](https://github.com/Coxskull/Bliss_Bot_Chapel/issues/361) — github_issue — direct_public_issue_api
+- [Ask HN: Are we putting pricing on things too quickly?](https://news.ycombinator.com/item?id=47220001) — hackernews_ask — indexed_public_post_excerpt
 - [Zero-Knowledge Privacy Infrastructure for Solana](https://news.ycombinator.com/item?id=46854817) — hackernews_ask — indexed_public_post_excerpt
+- [I built an AI health scanner for dogs would love your feedback](https://news.ycombinator.com/item?id=44838374) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
+- [Idea – machine learning algorithm that browses the web?](https://news.ycombinator.com/item?id=38569843) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
+- [Harness autonomy tracking issue](https://github.com/daniel-ospina/agent-infra/issues/3487) — github_issue — direct_public_issue_api — intent keyword found
+- [V2 public-audience completed-day maintenance: strict canonical incremental UTC 00:05, no full-history forge](https://github.com/Emaren/traffic-api/issues/31) — github_issue — direct_public_issue_api
+- [SportsEdge agent relay — Claude / ChatGPT / Perplexity only](https://github.com/bighauss/Sportsedge/issues/57) — github_issue — direct_public_issue_api
+- [WE3 PRODUCT release register — qualified Atlas #1494, then Watcher V3 and Matchups](https://github.com/Emaren/app-prodn/issues/1491) — github_issue — direct_public_issue_api
+- [Thoughts on Nvidia from a Investors Perspective](https://news.ycombinator.com/item?id=50619492) — hackernews_ask — indexed_public_post_excerpt
