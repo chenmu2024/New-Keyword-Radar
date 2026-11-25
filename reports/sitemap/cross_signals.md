@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-25T07:36:53.107746+08:00；详细候选：12000；7日轻量URL证据：13512/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-25T19:39:51.477544+08:00；详细候选：12000；7日轻量URL证据：14835/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 14，采样上限遗漏 0。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 432，采样上限遗漏 163。
 
 - **bayday io**：不同根域 4 家；同一天峰值 1 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - y8.com · y8-en · 2026-11-19 · https://www.y8.com/games/bayday_io · 原词 bayday io
@@ -39,7 +39,7 @@
   - y8.com · y8-en · 2026-11-20 · https://www.y8.com/games/alienity · 原词 alienity
   - gamepix.com · gamepix-en · 2026-11-22 · https://www.gamepix.com/play/alienity · 原词 alienity
 - **animal calculator**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamepix.com · gamepix-pt · 2026-11-24 · https://www.gamepix.com/pt/play/animal-calculator · 原词 animal calculator
+  - gamepix.com · gamepix-en · 2026-11-24 · https://www.gamepix.com/play/animal-calculator · 原词 animal calculator
   - y8.com · y8-en · 2026-11-24 · https://www.y8.com/games/animal_calculator · 原词 animal calculator
 - **bites back**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-en · 2026-11-20 · https://www.gamepix.com/play/bites-back · 原词 bites back
@@ -48,14 +48,14 @@
   - gamepix.com · gamepix-en · 2026-11-21 · https://www.gamepix.com/play/boom-ridge · 原词 boom ridge
   - y8.com · y8-en · 2026-11-23 · https://www.y8.com/games/boom_ridge · 原词 boom ridge
 - **butterfly inc**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamepix.com · gamepix-pt · 2026-11-23 · https://www.gamepix.com/pt/play/butterfly-inc · 原词 butterfly inc
+  - gamepix.com · gamepix-en · 2026-11-23 · https://www.gamepix.com/play/butterfly-inc · 原词 butterfly inc
   - y8.com · y8-en · 2026-11-24 · https://www.y8.com/games/butterfly_inc · 原词 butterfly inc
 
 失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 36，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 300，采样上限遗漏 0。
 
 - **puresound**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-22 · https://fazier.com/launches/puresound · 原词 puresound
@@ -100,7 +100,7 @@
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 28，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 88，采样上限遗漏 0。
 
 - **cocomusic**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-22 · https://aitoolsdirectory.com/tool/cocomusic · 原词 cocomusic
@@ -111,13 +111,19 @@
 - **decibri**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - dang.ai · dangai-tools · 2026-11-19 · https://dang.ai/tool/decibri · 原词 decibri
   - aitoolnet.com · aitoolnet-tools · 2026-11-21 · https://www.aitoolnet.com/decibri · 原词 decibri
+- **intellemo**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolhouse.com · aitoolhouse-tools · 2026-11-24 · https://www.aitoolhouse.com/tools/intellemo · 原词 intellemo
+  - toolveyor.com · toolveyor-tools · 2026-11-25 · https://toolveyor.com/intellemo · 原词 intellemo
 - **dessi ai**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - tooldirectory.ai · tooldirectory-ai-tools · 2026-11-21 · https://tooldirectory.ai/tools/dessi-ai · 原词 dessi ai
   - aitoolnet.com · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/dessi-ai · 原词 dessi ai
+- **the influencer ai**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - dang.ai · dangai-tools · 2026-11-21 · https://dang.ai/tool/the-influencer-ai · 原词 the influencer ai
+  - toolveyor.com · toolveyor-tools · 2026-11-25 · https://toolveyor.com/the-influencer-ai · 原词 the influencer ai
 
 ## 计算器
 
-采集：14/15来源，配置根域 15，新建基线 0，失败 1，新增 URL 1，采样上限遗漏 0。
+采集：14/15来源，配置根域 15，新建基线 0，失败 1，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -125,7 +131,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 7，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -133,7 +139,7 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 934，采样上限遗漏 542。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 554，采样上限遗漏 290。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -151,12 +157,26 @@
   - developer · devhunt-tools · 2026-11-20 · https://devhunt.org/tool/node-mantis
   - saas · uneed-products · 2026-11-20 · https://www.uneed.best/tool/node-mantis
   - ai · aitoptools-tools · 2026-11-21 · https://aitoptools.com/tool/node-mantis/
+- plango：独立根域 3 家；类别 ai, developer, saas
+  - developer · devhunt-tools · 2026-11-23 · https://devhunt.org/tool/plango
+  - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/plango
+  - saas · uneed-products · 2026-11-25 · https://www.uneed.best/tool/plango
+- ofintech desk：独立根域 3 家；类别 ai, developer, saas
+  - saas · producthunt-products · 2026-11-19 · https://www.producthunt.com/products/ofintech-desk
+  - developer · devhunt-tools · 2026-11-21 · https://devhunt.org/tool/ofintech-desk
+  - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/ofintech-desk
 - ai visibility check：独立根域 2 家；类别 developer, saas
   - developer · apify-actors-z · 2026-11-24 · https://apify.com/operstack/ai-visibility-check
   - saas · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/ai-visibility-check
 - glideworth：独立根域 2 家；类别 developer, saas
   - developer · devhunt-tools · 2026-11-24 · https://devhunt.org/tool/glideworth
   - saas · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/glideworth
+- ankon ai：独立根域 2 家；类别 ai, saas
+  - saas · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/ankon-ai
+  - ai · toolveyor-tools · 2026-11-25 · https://toolveyor.com/ankon-ai
+- codei lab：独立根域 2 家；类别 ai, saas
+  - saas · productperch-products · 2026-11-24 · https://productperch.com/products/codei-lab/
+  - ai · toolveyor-tools · 2026-11-25 · https://toolveyor.com/codei-lab
 - makeasong：独立根域 2 家；类别 ai, saas
   - saas · indieneed-products · 2026-11-20 · https://www.indieneed.com/products/makeasong
   - ai · aitoolnet-tools · 2026-11-21 · https://www.aitoolnet.com/makeasong
@@ -166,18 +186,6 @@
 - chat with work：独立根域 2 家；类别 ai, saas
   - saas · producthunt-products · 2026-11-23 · https://www.producthunt.com/products/chat-with-work
   - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/chat-with-work
-- hydrilla：独立根域 2 家；类别 ai, saas
-  - saas · producthunt-products · 2026-11-23 · https://www.producthunt.com/products/hydrilla
-  - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/hydrilla
-- motionflare：独立根域 2 家；类别 ai, saas
-  - saas · producthunt-products · 2026-11-23 · https://www.producthunt.com/products/motionflare
-  - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/motionflare
-- ofintech desk：独立根域 2 家；类别 developer, saas
-  - saas · producthunt-products · 2026-11-19 · https://www.producthunt.com/products/ofintech-desk
-  - developer · devhunt-tools · 2026-11-21 · https://devhunt.org/tool/ofintech-desk
-- plango：独立根域 2 家；类别 ai, developer
-  - developer · devhunt-tools · 2026-11-23 · https://devhunt.org/tool/plango
-  - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/plango
 
 ### 跨类别同向文件转换
 
