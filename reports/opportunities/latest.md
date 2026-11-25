@@ -1,8 +1,8 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-24T23:30:51.805456+00:00
-- Historical candidates: 7461
-- Newly recorded from pending: 8
+- Updated (UTC): 2026-11-25T11:32:50.099047+00:00
+- Historical candidates: 7663
+- Newly recorded from pending: 202
 - Awaiting 7/14/30-day evidence review: 6369
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
@@ -10,30 +10,30 @@
 ## Recent tracked queries (not build recommendations)
 
 - greek nereids [Global] — discovered — first 2026-11-25, last 2026-11-25
-- jule funny girl composer [Global] — discovered — first 2026-11-25, last 2026-11-25
-- nereids names [Global] — discovered — first 2026-11-25, last 2026-11-25
-- newgrounds [Global] — discovered — first 2026-11-25, last 2026-11-25
-- roblox gta 6 [Global] — discovered — first 2026-11-25, last 2026-11-25
 - roblox.dmg [Global] — discovered — first 2026-11-25, last 2026-11-25
 - sprunki phase 15 cocrea [Global] — discovered — first 2026-11-25, last 2026-11-25
+- roblox gta 6 [Global] — discovered — first 2026-11-25, last 2026-11-25
+- newgrounds [Global] — discovered — first 2026-11-25, last 2026-11-25
 - the princess bride [Global] — discovered — first 2026-11-25, last 2026-11-25
-- gta fonts [Global] — discovered — first 2026-11-24, last 2026-11-25
-- snake io [Global] — discovered — first 2026-11-24, last 2026-11-25
-- watts joy to the world [Global] — discovered — first 2026-11-24, last 2026-11-25
-- pink color named after a flower [Global] — discovered — first 2026-11-24, last 2026-11-25
-- googlay [Global] — discovered — first 2026-11-24, last 2026-11-25
-- ncaa quakers [Global] — discovered — first 2026-11-24, last 2026-11-25
-- krillion game [Global] — discovered — first 2026-11-24, last 2026-11-25
-- dummy war itch.io [Global] — discovered — first 2026-11-24, last 2026-11-25
-- funny girl jule [Global] — discovered — first 2026-11-24, last 2026-11-25
-- hindu holy person [Global] — discovered — first 2026-11-24, last 2026-11-25
-- nereids [Global] — discovered — first 2026-11-22, last 2026-11-25
-- nightbound itch.io [Global] — discovered — first 2026-11-22, last 2026-11-25
-- chinese buns prepared in a steamer [Global] — discovered — first 2026-11-22, last 2026-11-25
-- joy to the world composer watts [Global] — discovered — first 2026-11-22, last 2026-11-25
-- fezzik [Global] — discovered — first 2026-11-22, last 2026-11-25
-- urban vpn [Global] — discovered — first 2026-11-22, last 2026-11-25
-- fezzik princess bride [Global] — discovered — first 2026-11-22, last 2026-11-25
+- jule funny girl composer [Global] — discovered — first 2026-11-25, last 2026-11-25
+- nereids names [Global] — discovered — first 2026-11-25, last 2026-11-25
+- 2 bit comparator truth table [Global] — discovered — first 2026-11-25, last 2026-11-25
+- 25n [MX] — discovered — first 2026-11-25, last 2026-11-25
+- aaron rodgers [US] — discovered — first 2026-11-25, last 2026-11-25
+- aaron rodgers stats [US] — discovered — first 2026-11-25, last 2026-11-25
+- academy sports [Global] — discovered — first 2026-11-25, last 2026-11-25
+- acuity scheduler [Global] — discovered — first 2026-11-25, last 2026-11-25
+- andy burnham [GB] — discovered — first 2026-11-25, last 2026-11-25
+- anthony davis [BR] — discovered — first 2026-11-25, last 2026-11-25
+- auckland odometer rollback fraud scheme [Global] — discovered — first 2026-11-25, last 2026-11-25
+- av receiver denon avr-x1800h [Global] — discovered — first 2026-11-25, last 2026-11-25
+- bbva [ES] — discovered — first 2026-11-25, last 2026-11-25
+- best buy first responder discount [Global] — discovered — first 2026-11-25, last 2026-11-25
+- best online casinos uk 🇬🇧 2026 www.casinobimo.blog [Global] — discovered — first 2026-11-25, last 2026-11-25
+- bharosa scheme in west bengal online apply [Global] — discovered — first 2026-11-25, last 2026-11-25
+- bharosa scheme west bengal [Global] — discovered — first 2026-11-25, last 2026-11-25
+- blockchain technology [Global] — discovered — first 2026-11-25, last 2026-11-25
+- brett delaney super league assistant [Global] — discovered — first 2026-11-25, last 2026-11-25
 
 ## Due for follow-up
 
