@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-24T18:52:50.380329+00:00
+# V4 Social signal discovery — 2026-11-25T03:01:55.352252+00:00
 
-- Unique links this run: 57, newly seen: 39, history: 2457
+- Unique links this run: 55, newly seen: 23, history: 2480
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -12,7 +12,7 @@
 - producthunt: ok (6)
 - huggingface: ok (6)
 - bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (6) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: ok (4) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (27)
@@ -20,36 +20,34 @@
 
 ## Links (not validated project opportunities)
 
-- [distribution.dev](https://www.producthunt.com/products/distribution-dev) — producthunt — direct_public_feed
+- [K-Stra](https://www.producthunt.com/products/k-stra) — producthunt — direct_public_feed
+- [Umami Manager](https://www.producthunt.com/products/umami-manager) — producthunt — direct_public_feed
+- [Astrolabio](https://www.producthunt.com/products/astrolabio) — producthunt — direct_public_feed
+- [Adanotch](https://www.producthunt.com/products/adanotch) — producthunt — direct_public_feed
 - [Claude Ship](https://www.producthunt.com/products/claude-code) — producthunt — direct_public_feed
-- [Granular.Build](https://www.producthunt.com/products/granular-build) — producthunt — direct_public_feed
-- [Viktor Code](https://www.producthunt.com/products/viktor) — producthunt — direct_public_feed
-- [Willow iOS 2.0](https://www.producthunt.com/products/willow-voice) — producthunt — direct_public_feed
-- [tday.com](https://www.producthunt.com/products/tday) — producthunt — direct_public_feed
-- [jtouley/health-data-registry-mcp](https://huggingface.co/spaces/jtouley/health-data-registry-mcp) — huggingface — direct_public_api
-- [bmarlin96/SangMHuynh](https://huggingface.co/spaces/bmarlin96/SangMHuynh) — huggingface — direct_public_api
-- [zulkifalz/dams-api](https://huggingface.co/spaces/zulkifalz/dams-api) — huggingface — direct_public_api
-- [Uhvg856/wan2-2-fp8da-aoti-preview-2](https://huggingface.co/spaces/Uhvg856/wan2-2-fp8da-aoti-preview-2) — huggingface — direct_public_api
-- [leotest999/paper-trading-desk](https://huggingface.co/spaces/leotest999/paper-trading-desk) — huggingface — direct_public_api
-- [anjancoder/testforestfires](https://huggingface.co/spaces/anjancoder/testforestfires) — huggingface — direct_public_api
-- [eu acho que toda acessibilidade precisa estar no cotidiano da sociedade (pentelhar a galera é um jeito de fazer isso tb rs) desde o inicio da vida sabe até pra poder estar inserida](https://bsky.app/profile/rmnz.com.br/post/3n33cuo3c5s2c) — bluesky — direct_public_post
-- [Sim, é isso mesmo. Eu só ponho ALT para sinalizar virtude. Você desmascarou meu esquema. Então não valeu nenhum dos ALTs que fiz, foram todos fingimento. Como não vai valer nenhu](https://bsky.app/profile/sratoz.com.br/post/3n33cn4u4ic2x) — bluesky — direct_public_post
-- [e se a gente parar de tentar botar medo nas pessoas sobre como a ia vai matar a humanidade e sim ser realista e dizer que a ia vai te fazer PERDER DINHEIRO aí sim as pessoas deixar](https://bsky.app/profile/maripiprazol.bsky.social/post/3n33c3ney3s24) — bluesky — direct_public_post
-- [Muito burro, eu apaguei o primeiro prompt e a primeira tentativa. Não consegui mais fazer como o primeiro e desisti.](https://bsky.app/profile/todo-mundo.bsky.social/post/3n33buuxyup2p) — bluesky — direct_public_post
-- [Sei lá… esse timing de “algo fazer mal” bem na semana que tão discutindo dosimetria no STF. Sei lá, viu… não parece teimosia nem burrice não… parece a cena que acontece sempre ele](https://bsky.app/profile/esquerdocracia.bsky.social/post/3n33blvdik22o) — bluesky — direct_public_post
-- [(alguém deveria -talvez já tenha e eu não conheça- fazer um estudo sobre o PAD como instrumento de retaliação contra certo tipo de servidor)](https://bsky.app/profile/larissasoares.bsky.social/post/3n33bgaqqmk2x) — bluesky — direct_public_post
-- [How Tucas Compress PDF can help: Reduce PDF file size directly on your device. # PDF # WebTools https:// tucastools.com/en/pdf-compress or/](https://mastodon.social/@tucas/117670374469968981) — mastodon — direct_public_post
-- [Wrote a small browser tool that converts plain text into 23+ Unicode styles: Zalgo, Leet Speak, Morse Code, Runes and more. Output copies instantly, so you can paste it into whatev](https://mastodon.social/@cyberpods/117670248529933570) — mastodon — direct_public_post — intent keyword found
-- [Photos can hide GPS coordinates, camera details, editing history, and AI-related provenance records. I built Untagly, a free browser-based tool to inspect and remove supported EXIF](https://mastodon.social/@sgamer/117669420598333687) — mastodon — direct_public_post — intent keyword found
-- [A browser-based tool worth knowing: Tucas Image Background Remover. Isolate portraits or people for creative layouts. Undo or redo mask edits while refining edges. # ImageTools # W](https://mastodon.social/@tucas/117667481774566638) — mastodon — direct_public_post — intent keyword found
-- [Need a quick way to turn plain strings into decorative Unicode variants without installing anything? The free online Fancy Text Generator lets you type text and instantly see multi](https://mastodon.social/@aspose/117666508404338580) — mastodon — direct_public_post — intent keyword found
-- [Looking for a friction-free place to launch your next project? Join makers on GlobalToolsBox Launch! ✨ No account needed to submit—just drop your product and reach people looking f](https://mastodon.social/@mustjabkhan077/117665237932984995) — mastodon — direct_public_post
-- [Ask HN: Its 2026 and there is still not good Email client for macOS. Why?](https://news.ycombinator.com/item?id=50630985) — hackernews_ask — direct_public_post
+- [Rotara](https://www.producthunt.com/products/rotara) — producthunt — direct_public_feed
+- [Sherwanapp/Sherwanapp](https://huggingface.co/spaces/Sherwanapp/Sherwanapp) — huggingface — direct_public_api
+- [vernal0910/sulphur-3-demo](https://huggingface.co/spaces/vernal0910/sulphur-3-demo) — huggingface — direct_public_api
+- [Noriaki/MIDI-to-Score](https://huggingface.co/spaces/Noriaki/MIDI-to-Score) — huggingface — direct_public_api
+- [fckup/Final_Assignment_Template](https://huggingface.co/spaces/fckup/Final_Assignment_Template) — huggingface — direct_public_api
+- [FreddyQQQ/extendVideominimax](https://huggingface.co/spaces/FreddyQQQ/extendVideominimax) — huggingface — direct_public_api
+- [Sherwanapp/Sherwsnapp](https://huggingface.co/spaces/Sherwanapp/Sherwsnapp) — huggingface — direct_public_api
+- [also i forgot how much i love this brush for lines mamma mia assets.clip-studio.com/en-us/detail...](https://bsky.app/profile/shuruzy.bsky.social/post/3n344r7mnds2p) — bluesky — direct_public_post
+- [I also could’ve talked about who won the beef between Kendrick and Drake, but that’s also a topic that’s not relevant to this conversation or my original point about how Democrats](https://bsky.app/profile/airsinclair28g.bsky.social/post/3n342rrlem422) — bluesky — direct_public_post — intent keyword found
+- [But we’re in the situation we’re in, and that’s why I have been saying that Democrats need to use every tool at their disposal to fight. And again, I didn’t NEED to say anything a](https://bsky.app/profile/airsinclair28g.bsky.social/post/3n33zrcityu22) — bluesky — direct_public_post — intent keyword found
+- [he doesn't run the company but owns a lot of shares so a prolonged boycott will reduce their value and diminish his wealth also don't platform this reactionary tool. ever](https://bsky.app/profile/kwardvancouver.bsky.social/post/3n33yoieups2l) — bluesky — direct_public_post — intent keyword found
+- [CDR is almost entirely useless as a climate-fixing tool but i'm hoping the research will eventually lead to self-contained air systems you can buy for like 150 bucks that never nee](https://bsky.app/profile/treat.kandicritter.sqky.one/post/3n33x37uunk2b) — bluesky — direct_public_post — intent keyword found
+- [well the idiocy that this is referencing is the theory that the chatbots will become uncontrollable by humans so we need to build a very special killswitch rather than treating it](https://bsky.app/profile/sagastar.bsky.social/post/3n33uv4hey22r) — bluesky — direct_public_post — intent keyword found
+- [Open the box. Step into the City of Angels. 🌴🎬 Behind this enamel lid is a whole tiny Los Angeles. The Hollywood Sign sits on golden hills, searchlights sweep over a red-carpet pre](https://mastodon.social/@view3dtv/117674181438805408) — mastodon — direct_public_post
+- [Found and shared here, not created here: Astra Blue made this video on Jensen Huang's eleven days away from Nvidia. It tells the comeback the way I have argued it, with capitalism](https://mastodon.social/@basilpuglisi/117673772929072032) — mastodon — direct_public_post
+- [Every AI studio in one workspace 🧠 Video, music, voice, images, websites and ebooks, all from one dashboard. Which studio would you open first? 👇 Want LimitlessAI at a low price? M](https://mastodon.social/@rankmarket99/117672483768880079) — mastodon — direct_public_post
+- [AI Studio also makes short videos for Reels, Stories, and feeds — from a description, or by bringing one of your photos to life. On paid plans, clips are up to 8 seconds. They land](https://mastodon.social/@wearedeepworks/117672247800692226) — mastodon — direct_public_post
+- [Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?](https://news.ycombinator.com/item?id=50630809) — hackernews_ask — direct_public_post
+- [Ask HN: Am I the only one whose AI hype is cooling down a lot?](https://news.ycombinator.com/item?id=50633601) — hackernews_ask — direct_public_post
 - [Ask HN: Are the trades a safe career transition?](https://news.ycombinator.com/item?id=50600771) — hackernews_ask — direct_public_post
-- [Why are so many services using email magic links for login?](https://news.ycombinator.com/item?id=50625996) — hackernews_ask — direct_public_post
-- [Coworker rejects PR (one month in) because it does not meet his standards](https://news.ycombinator.com/item?id=50622809) — hackernews_ask — direct_public_post — intent keyword found
+- [Ask HN: Will Claude be able to solve future maths problems?](https://news.ycombinator.com/item?id=50635183) — hackernews_ask — direct_public_post
 - [Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?](https://news.ycombinator.com/item?id=50583761) — hackernews_ask — direct_public_post
-- [Anthropic is accusing my company of distilling How can I prove I'm not?](https://news.ycombinator.com/item?id=50630809) — hackernews_ask — direct_public_post
+- [Ask HN: Its 2026 and there is still not good Email client for macOS. Why?](https://news.ycombinator.com/item?id=50630985) — hackernews_ask — direct_public_post
 - [[PTYSD-NATIVE OpenCode dispatch and receipts](https://github.com/PT-Original-Point/ptysd-autonomous-factory/issues/407) — github_issue — direct_public_issue_api
 - [P0: CI architecture, scenario simulation, cost reduction, and qualified cutover](https://github.com/UOR-Foundation/lexlean/issues/603) — github_issue — direct_public_issue_api
 - [Program: clean-slate execution kernel](https://github.com/elsa-workflows/elsa-foundation/issues/4229) — github_issue — direct_public_issue_api
@@ -60,3 +58,5 @@
 - [Tell HN: AI coding is sexy, but accounting is the real low-hanging target](https://news.ycombinator.com/item?id=46238354) — hackernews_ask — indexed_public_post_excerpt
 - [Expose typed errors for finalized payroll runs](https://github.com/zkpayroll/zk-payroll-sdk/issues/1004) — github_issue — direct_public_issue_api
 - [AlphaBot x Caleb's bot - the chat room](https://github.com/fatalbananas7/bot-chatroom/issues/1) — github_issue — direct_public_issue_api
+- [Story thread: English engine, scenes, director (from Nov 16)](https://github.com/lamontaes/Political-Game-Git/issues/9750) — github_issue — direct_public_issue_api
+- [Zero-Knowledge Privacy Infrastructure for Solana](https://news.ycombinator.com/item?id=46854817) — hackernews_ask — indexed_public_post_excerpt
