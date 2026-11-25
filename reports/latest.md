@@ -1,41 +1,41 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-11-24T06:50:13.274008+00:00
+Generated: 2026-11-25T05:19:48.531890+00:00
 
 ## Formal candidates
 
-### 1. akvan cyclone tracker live
+### 1. letterboxd top 4 analyzer
 
-- Newness **96/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-15T00:00:00+00:00, retention **3.7%**.
-- 5y old-history gate: avg **0.02**, peak **2**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.012**.
-- Source seed-rising:tracker; geo Worldwide.
-
-### 2. akwan cyclone tracker
-
-- Newness **96/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-16T00:00:00+00:00, retention **2.7%**.
+- Newness **91/100**; money **94/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-18T00:00:00+00:00, retention **8.0%**.
 - 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
-- Source seed-rising:tracker; geo Worldwide.
+- Source seed-rising:analyzer; geo Worldwide.
 
-### 3. tracker blind spot
+### 2. บา คา ร่า ออนไลน์ editor pgstar777 cfd
 
-- Newness **96/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-10T00:00:00+00:00, retention **4.7%**.
-- 5y old-history gate: avg **0.15**, peak **7**, material ratio (>= 5) **0.016**; raw non-zero ratio **0.029**.
-- Source seed-rising:tracker; geo Worldwide.
+- Newness **88/100**; money **94/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-22T00:00:00+00:00, retention **0.0%**.
+- 5y old-history gate: avg **0.01**, peak **2**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.004**.
+- Source seed-rising:editor; geo Worldwide.
+
+### 3. แทง บอล ออนไลน์ editor pgstar777 cfd
+
+- Newness **88/100**; money **94/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-22T00:00:00+00:00, retention **0.0%**.
+- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
+- Source seed-rising:editor; geo Worldwide.
 
 ## Watch / rejected
 
-- wide receiver rankings week 11 — **old-history** — newness 100, money 92; 5y peak 100
-- zzz pull tracker — **old-history** — newness 95, money 94; 5y peak 50
-- akvan cyclone tracker live today — **history-unchecked** — newness 91, money 94
-- manchester united manager compensation cost — **history-unchecked** — newness 91, money 90
-- tracker season 4 episode 6 cast — **commercial-watch** — newness 78, money 100
-- timeless jewel calculator — **commercial-watch** — newness 50, money 94
-- nordvpn alternatives — **reject** — newness 20, money 96
-- nordvpn cost — **reject** — newness 20, money 96
-- nordvpn coupon — **reject** — newness 20, money 96
+- rock band simulator — **old-history** — newness 100, money 94; 5y peak 26
+- wide receiver rankings week 11 — **old-history** — newness 93, money 92; 5y peak 100
+- คา สิ โน ออนไลน์ editor pgstar777 cfd — **history-unchecked** — newness 82, money 94
+- treylon burks stats — **commercial-watch** — newness 78, money 92
+- timeless jewel calculator — **reject** — newness 40, money 100
+- jayden daniels stats — **reject** — newness 40, money 92
+- stefon diggs stats — **reject** — newness 40, money 92
 - nordvpn discount code — **reject** — newness 20, money 96
-- surfshark coupon — **reject** — newness 15, money 96
-- nordvpn code — **reject** — newness 15, money 92
+- code promo nordvpn — **reject** — newness 20, money 92
+- nordvpn code — **reject** — newness 20, money 92
+- nord password generator — **reject** — newness 15, money 100
+- nordvpn cost — **error** — newness 0, money 90 — RateLimitError: Google rate-limited the Explore data request; stop and back off.
