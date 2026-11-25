@@ -1,75 +1,75 @@
-# Sitemap lead triage — 2026-11-25
+# Sitemap lead triage — 2026-11-26
 
 **Important:** These are *unverified URL leads*, not proven new keywords,
 not Google Trends validation, not Semrush Volume/KD/CPC, and not revenue evidence.
 Raw queue and all main radar settings remain unchanged.
 
 - Sitemap feeds succeeded: 127/135
-- URLs newly observed in the latest scan: 1381
-- Candidate URL rows extracted in latest scan: 870
-- First-time keyword/geo research leads: 802
-- Previously removed URLs resurfacing: 171
+- URLs newly observed in the latest scan: 391
+- Candidate URL rows extracted in latest scan: 214
+- First-time keyword/geo research leads: 199
+- Previously removed URLs resurfacing: 224
 - Accumulated queue: 12000
-- Human keyword/topic review: 2594
-- Game/general watchlist: 9258
-- Low-quality page-name noise: 148
+- Human keyword/topic review: 2585
+- Game/general watchlist: 9268
+- Low-quality page-name noise: 147
 - **Verified new keywords / search demand / business revenue: not established**
 
 ## Queue composition (by Sitemap source)
 
-- apify-actors-a: 389
-- apify-actors-z: 389
-- dangai-tools: 389
-- devhunt-tools: 389
-- fazier-launches: 389
-- gamepix-en: 389
-- gamepix-pt: 389
-- playgama-en: 388
-- producthunt-products: 388
-- productperch-products: 388
-- railway-templates: 388
-- saasworthy-products: 388
-- toolveyor-tools: 388
-- uneed-products: 388
-- y8-en: 388
+- apify-actors-a: 386
+- apify-actors-z: 386
+- dangai-tools: 386
+- devhunt-tools: 386
+- fazier-launches: 386
+- gamepix-en: 386
+- gamepix-pt: 386
+- playgama-en: 386
+- producthunt-products: 386
+- productperch-products: 386
+- railway-templates: 386
+- saasworthy-products: 386
+- toolveyor-tools: 386
+- uneed-products: 386
+- y8-en: 385
 - smollaunch-products: 384
 - startupbase-products: 362
 - crazygames-es: 351
 - crazygames-br: 350
 - crazygames-en: 347
-- gamedistribution-games: 300
-- saascity-products: 291
+- gamedistribution-games: 301
+- saascity-products: 299
 - indieneed-products: 248
 - n8n-workflows: 235
-- vercel-product-watch: 234
+- vercel-product-watch: 235
 - aitoolnet-tools: 218
 - pitchwall-products: 205
-- futuretools-products: 179
+- futuretools-products: 189
 - aiagentstore-agents: 167
 - openhunts-projects: 137
 - pdfaid-tools: 134
-- futurepedia-tools: 126
-- minijuegos-es: 123
+- minijuegos-es: 129
+- futurepedia-tools: 127
 - playhop-en: 123
 - startupstash-tools: 121
 - convertfiles-tools: 118
 - onlinetools-br: 116
 - aitoolboard-tools: 113
-- indietools-products: 95
+- indietools-products: 99
 - fotor-features: 92
 - tooldirectory-ai-tools: 77
-- toolfound-products: 73
+- toolfound-products: 76
 - ezgif-tools: 68
-- aitoptools-tools: 56
+- aitoptools-tools: 57
 - pipedream-actions: 49
+- cokogames-es: 40
 - netlify-product-watch: 40
 - aitoolsdirectory-tools: 39
-- cokogames-es: 39
 - fridayhunt-projects: 38
 - gamearter-en: 36
 - poki-en: 30
 - replicate-models: 30
-- planetscale-changelog: 28
+- planetscale-changelog: 29
 - yiv-games: 28
 - silvergames-en: 26
 - launchscaler-products: 24
@@ -86,10 +86,10 @@ Raw queue and all main radar settings remain unchanged.
 - ifttt-services: 12
 - kizi-en: 12
 - 1001games-en: 11
+- invertexto-br: 11
 - modal-changelog: 11
 - bgames-en: 10
 - gamegame-en: 10
-- invertexto-br: 10
 - aixploria-tools: 9
 - nextool-tools: 9
 - aiagentslist-agents: 8
@@ -106,106 +106,106 @@ Raw queue and all main radar settings remain unchanged.
 
 ## Latest scan's leads (routing only)
 
-- [evolution simulator jzs](https://www.crazygames.com/game/evolution-simulator-jzs) — review / tool-intent-wording-not-verified; source=crazygames-en
-- [wild trial](https://www.crazygames.com/game/wild-trial) — watch / game-title-not-search-demand; source=crazygames-en
-- [elf factory tycoon](https://www.crazygames.com/game/elf-factory-tycoon) — watch / game-title-not-search-demand; source=crazygames-en
-- [pop the bubble](https://www.crazygames.com/game/pop-the-bubble) — watch / game-title-not-search-demand; source=crazygames-en
-- [fish story rkj](https://www.crazygames.com/game/fish-story-rkj) — watch / game-title-not-search-demand; source=crazygames-en
-- [block blitz rby](https://www.crazygames.com/game/block-blitz-rby) — watch / game-title-not-search-demand; source=crazygames-en
-- [galaxy chaos sandbox](https://www.crazygames.com/game/galaxy-chaos-sandbox) — watch / game-title-not-search-demand; source=crazygames-en
-- [pocket dino world clicker](https://www.crazygames.com/game/pocket-dino-world-clicker) — watch / game-title-not-search-demand; source=crazygames-en
-- [kingdoms chaos sandbox](https://www.crazygames.com/game/kingdoms-chaos-sandbox) — watch / game-title-not-search-demand; source=crazygames-en
-- [beach party life](https://www.crazygames.com/game/beach-party-life) — watch / game-title-not-search-demand; source=crazygames-en
-- [evolution simulator jzs](https://www.crazygames.com/br/game/evolution-simulator-jzs) — review / tool-intent-wording-not-verified; source=crazygames-br
-- [kingdoms chaos sandbox](https://www.crazygames.com/br/game/kingdoms-chaos-sandbox) — watch / game-title-not-search-demand; source=crazygames-br
-- [elf factory tycoon](https://www.crazygames.com/br/game/elf-factory-tycoon) — watch / game-title-not-search-demand; source=crazygames-br
-- [pop the bubble](https://www.crazygames.com/br/game/pop-the-bubble) — watch / game-title-not-search-demand; source=crazygames-br
-- [block blitz rby](https://www.crazygames.com/br/game/block-blitz-rby) — watch / game-title-not-search-demand; source=crazygames-br
-- [beach party life](https://www.crazygames.com/br/game/beach-party-life) — watch / game-title-not-search-demand; source=crazygames-br
-- [wild trial](https://www.crazygames.com/br/game/wild-trial) — watch / game-title-not-search-demand; source=crazygames-br
-- [galaxy chaos sandbox](https://www.crazygames.com/br/game/galaxy-chaos-sandbox) — watch / game-title-not-search-demand; source=crazygames-br
-- [fish story rkj](https://www.crazygames.com/br/game/fish-story-rkj) — watch / game-title-not-search-demand; source=crazygames-br
-- [pocket dino world clicker](https://www.crazygames.com/br/game/pocket-dino-world-clicker) — watch / game-title-not-search-demand; source=crazygames-br
-- [evolution simulator jzs](https://www.crazygames.com/es/game/evolution-simulator-jzs) — review / tool-intent-wording-not-verified; source=crazygames-es
-- [galaxy chaos sandbox](https://www.crazygames.com/es/game/galaxy-chaos-sandbox) — watch / game-title-not-search-demand; source=crazygames-es
-- [block blitz rby](https://www.crazygames.com/es/game/block-blitz-rby) — watch / game-title-not-search-demand; source=crazygames-es
-- [pocket dino world clicker](https://www.crazygames.com/es/game/pocket-dino-world-clicker) — watch / game-title-not-search-demand; source=crazygames-es
-- [kingdoms chaos sandbox](https://www.crazygames.com/es/game/kingdoms-chaos-sandbox) — watch / game-title-not-search-demand; source=crazygames-es
-- [wild trial](https://www.crazygames.com/es/game/wild-trial) — watch / game-title-not-search-demand; source=crazygames-es
-- [beach party life](https://www.crazygames.com/es/game/beach-party-life) — watch / game-title-not-search-demand; source=crazygames-es
-- [fish story rkj](https://www.crazygames.com/es/game/fish-story-rkj) — watch / game-title-not-search-demand; source=crazygames-es
-- [pop the bubble](https://www.crazygames.com/es/game/pop-the-bubble) — watch / game-title-not-search-demand; source=crazygames-es
-- [elf factory tycoon](https://www.crazygames.com/es/game/elf-factory-tycoon) — watch / game-title-not-search-demand; source=crazygames-es
-- [ludopathic town](https://www.gamepix.com/play/ludopathic-town) — watch / game-title-not-search-demand; source=gamepix-en
-- [ragdoll fighting simulator](https://www.gamepix.com/pt/play/ragdoll-fighting-simulator) — review / tool-intent-wording-not-verified; source=gamepix-pt
-- [drone simulator fpv racing](https://www.gamepix.com/pt/play/drone-simulator-fpv-racing) — review / tool-intent-wording-not-verified; source=gamepix-pt
-- [potion sort academy](https://www.gamepix.com/pt/play/potion-sort-academy) — watch / game-title-not-search-demand; source=gamepix-pt
-- [cargo crane rescue](https://www.gamepix.com/pt/play/cargo-crane-rescue) — watch / game-title-not-search-demand; source=gamepix-pt
-- [arrows escape](https://www.gamepix.com/pt/play/arrows-escape) — watch / game-title-not-search-demand; source=gamepix-pt
-- [constellune](https://www.gamepix.com/pt/play/constellune) — watch / game-title-not-search-demand; source=gamepix-pt
-- [kickspire](https://www.gamepix.com/pt/play/kickspire) — watch / game-title-not-search-demand; source=gamepix-pt
-- [lanternrise](https://www.gamepix.com/pt/play/lanternrise) — watch / game-title-not-search-demand; source=gamepix-pt
-- [outpost d c zombie idle](https://www.gamepix.com/pt/play/outpost-d-c-zombie-idle) — watch / game-title-not-search-demand; source=gamepix-pt
-- [dozer zone](https://www.gamepix.com/pt/play/dozer-zone) — watch / game-title-not-search-demand; source=gamepix-pt
-- [aurora solitaire](https://www.gamepix.com/pt/play/aurora-solitaire) — watch / game-title-not-search-demand; source=gamepix-pt
-- [meadowhive idle bee garden](https://www.gamepix.com/pt/play/meadowhive-idle-bee-garden) — watch / game-title-not-search-demand; source=gamepix-pt
-- [colony flow](https://www.gamepix.com/pt/play/colony-flow) — watch / game-title-not-search-demand; source=gamepix-pt
-- [office madness](https://www.gamepix.com/pt/play/office-madness) — watch / game-title-not-search-demand; source=gamepix-pt
-- [firefly link](https://www.gamepix.com/pt/play/firefly-link) — watch / game-title-not-search-demand; source=gamepix-pt
-- [forgotten waters](https://www.gamepix.com/pt/play/forgotten-waters) — watch / game-title-not-search-demand; source=gamepix-pt
-- [vectaswarms](https://www.gamepix.com/pt/play/vectaswarms) — watch / game-title-not-search-demand; source=gamepix-pt
-- [dare forward](https://www.gamepix.com/pt/play/dare-forward) — watch / game-title-not-search-demand; source=gamepix-pt
-- [moon cleaner rockonaut](https://www.gamepix.com/pt/play/moon-cleaner-rockonaut) — watch / game-title-not-search-demand; source=gamepix-pt
-- [noobs go home](https://www.gamepix.com/pt/play/noobs-go-home) — watch / game-title-not-search-demand; source=gamepix-pt
-- [toolbox tumble](https://www.gamepix.com/pt/play/toolbox-tumble) — watch / game-title-not-search-demand; source=gamepix-pt
-- [crystal blocks](https://www.gamepix.com/pt/play/crystal-blocks) — watch / game-title-not-search-demand; source=gamepix-pt
-- [perfect park](https://www.gamepix.com/pt/play/perfect-park) — watch / game-title-not-search-demand; source=gamepix-pt
-- [deep treasure dive](https://www.gamepix.com/pt/play/deep-treasure-dive) — watch / game-title-not-search-demand; source=gamepix-pt
-- [colonies](https://www.gamepix.com/pt/play/colonies) — watch / game-title-not-search-demand; source=gamepix-pt
-- [sensei sushi](https://www.gamepix.com/pt/play/sensei-sushi) — watch / game-title-not-search-demand; source=gamepix-pt
-- [ultimate football champion](https://www.gamepix.com/pt/play/ultimate-football-champion) — watch / game-title-not-search-demand; source=gamepix-pt
-- [critter park](https://www.gamepix.com/pt/play/critter-park) — watch / game-title-not-search-demand; source=gamepix-pt
-- [turbo hills rider](https://www.gamepix.com/pt/play/turbo-hills-rider) — watch / game-title-not-search-demand; source=gamepix-pt
-- [goal guard](https://www.gamepix.com/pt/play/goal-guard) — watch / game-title-not-search-demand; source=gamepix-pt
-- [tuk tuk garage](https://www.gamepix.com/pt/play/tuk-tuk-garage) — watch / game-title-not-search-demand; source=gamepix-pt
-- [dead extraction zero hour](https://www.gamepix.com/pt/play/dead-extraction-zero-hour) — watch / game-title-not-search-demand; source=gamepix-pt
-- [saltillo](https://www.gamepix.com/pt/play/saltillo) — watch / game-title-not-search-demand; source=gamepix-pt
-- [glyph match](https://www.gamepix.com/pt/play/glyph-match) — watch / game-title-not-search-demand; source=gamepix-pt
-- [star blaster 2](https://www.gamepix.com/pt/play/star-blaster-2) — watch / game-title-not-search-demand; source=gamepix-pt
-- [pusher monsters](https://www.gamepix.com/pt/play/pusher-monsters) — watch / game-title-not-search-demand; source=gamepix-pt
-- [chess multi player](https://www.gamepix.com/pt/play/chess-multi-player) — watch / game-title-not-search-demand; source=gamepix-pt
-- [tapflow arrow escape](https://www.gamepix.com/pt/play/tapflow-arrow-escape) — watch / game-title-not-search-demand; source=gamepix-pt
-- [catdoku cat sudoku puzzle](https://www.gamepix.com/pt/play/catdoku-cat-sudoku-puzzle) — watch / game-title-not-search-demand; source=gamepix-pt
-- [zombie gate rush](https://www.gamepix.com/pt/play/zombie-gate-rush) — watch / game-title-not-search-demand; source=gamepix-pt
-- [time hook](https://www.gamepix.com/pt/play/time-hook) — watch / game-title-not-search-demand; source=gamepix-pt
-- [saws deungon escapes](https://www.gamepix.com/pt/play/saws-deungon-escapes) — watch / game-title-not-search-demand; source=gamepix-pt
-- [lava rising plus one](https://www.gamepix.com/pt/play/lava-rising-plus-one) — watch / game-title-not-search-demand; source=gamepix-pt
-- [sky courier](https://www.gamepix.com/pt/play/sky-courier) — watch / game-title-not-search-demand; source=gamepix-pt
-- [fix it garage](https://www.gamepix.com/pt/play/fix-it-garage) — watch / game-title-not-search-demand; source=gamepix-pt
-- [getaway ace](https://www.gamepix.com/pt/play/getaway-ace) — watch / game-title-not-search-demand; source=gamepix-pt
-- [cubbo gem quest](https://www.gamepix.com/pt/play/cubbo-gem-quest) — watch / game-title-not-search-demand; source=gamepix-pt
-- [crypt crawlers](https://www.gamepix.com/pt/play/crypt-crawlers) — watch / game-title-not-search-demand; source=gamepix-pt
-- [north pole gridlock](https://www.gamepix.com/pt/play/north-pole-gridlock) — watch / game-title-not-search-demand; source=gamepix-pt
-- [hydro stunt odyssey](https://www.gamepix.com/pt/play/hydro-stunt-odyssey) — watch / game-title-not-search-demand; source=gamepix-pt
-- [one pan](https://www.gamepix.com/pt/play/one-pan) — watch / game-title-not-search-demand; source=gamepix-pt
-- [empire tycoon](https://www.gamepix.com/pt/play/empire-tycoon) — watch / game-title-not-search-demand; source=gamepix-pt
-- [wake the way](https://www.gamepix.com/pt/play/wake-the-way) — watch / game-title-not-search-demand; source=gamepix-pt
-- [apocalypse rush fighting game](https://www.gamepix.com/pt/play/apocalypse-rush-fighting-game) — watch / game-title-not-search-demand; source=gamepix-pt
-- [songkran water fight](https://www.gamepix.com/pt/play/songkran-water-fight) — watch / game-title-not-search-demand; source=gamepix-pt
-- [the african pantry mahjong](https://www.gamepix.com/pt/play/the-african-pantry-mahjong) — watch / game-title-not-search-demand; source=gamepix-pt
-- [formula master](https://www.gamepix.com/pt/play/formula-master) — watch / game-title-not-search-demand; source=gamepix-pt
-- [phantom scope 3d sniper](https://www.gamepix.com/pt/play/phantom-scope-3d-sniper) — watch / game-title-not-search-demand; source=gamepix-pt
-- [peekaboo manor halloween logic puzzle](https://www.gamepix.com/pt/play/peekaboo-manor-halloween-logic-puzzle) — watch / game-title-not-search-demand; source=gamepix-pt
-- [emoji quest](https://www.gamepix.com/pt/play/emoji-quest) — watch / game-title-not-search-demand; source=gamepix-pt
-- [paw goal](https://www.gamepix.com/pt/play/paw-goal) — watch / game-title-not-search-demand; source=gamepix-pt
-- [fincremental studio](https://www.gamepix.com/pt/play/fincremental-studio) — watch / game-title-not-search-demand; source=gamepix-pt
-- [gem shaft block puzzle](https://www.gamepix.com/pt/play/gem-shaft-block-puzzle) — watch / game-title-not-search-demand; source=gamepix-pt
-- [thai wordle](https://www.gamepix.com/pt/play/thai-wordle) — watch / game-title-not-search-demand; source=gamepix-pt
-- [sheep shearing tycoon](https://www.gamepix.com/pt/play/sheep-shearing-tycoon) — watch / game-title-not-search-demand; source=gamepix-pt
-- [ninja streets](https://www.gamepix.com/pt/play/ninja-streets) — watch / game-title-not-search-demand; source=gamepix-pt
-- [fruit merge drop html5](https://www.gamepix.com/pt/play/fruit-merge-drop-html5) — watch / game-title-not-search-demand; source=gamepix-pt
-- [lineora single line puzzle](https://www.gamepix.com/pt/play/lineora-single-line-puzzle) — watch / game-title-not-search-demand; source=gamepix-pt
-- [uncle hit punch the dummy](https://www.gamepix.com/pt/play/uncle-hit-punch-the-dummy) — watch / game-title-not-search-demand; source=gamepix-pt
+- [ragdoll fighting simulator](https://www.gamepix.com/play/ragdoll-fighting-simulator) — review / tool-intent-wording-not-verified; source=gamepix-en
+- [drone simulator fpv racing](https://www.gamepix.com/play/drone-simulator-fpv-racing) — review / tool-intent-wording-not-verified; source=gamepix-en
+- [pennyhold](https://www.gamepix.com/play/pennyhold) — watch / game-title-not-search-demand; source=gamepix-en
+- [pusher monsters](https://www.gamepix.com/play/pusher-monsters) — watch / game-title-not-search-demand; source=gamepix-en
+- [paw goal](https://www.gamepix.com/play/paw-goal) — watch / game-title-not-search-demand; source=gamepix-en
+- [neon flip](https://www.gamepix.com/play/neon-flip) — watch / game-title-not-search-demand; source=gamepix-en
+- [one ball hell](https://www.gamepix.com/play/one-ball-hell) — watch / game-title-not-search-demand; source=gamepix-en
+- [magnet mayhem](https://www.gamepix.com/play/magnet-mayhem) — watch / game-title-not-search-demand; source=gamepix-en
+- [cannon launch infinite boost](https://www.gamepix.com/play/cannon-launch-infinite-boost) — watch / game-title-not-search-demand; source=gamepix-en
+- [little kaiju](https://www.gamepix.com/play/little-kaiju) — watch / game-title-not-search-demand; source=gamepix-en
+- [ember crypt](https://www.gamepix.com/play/ember-crypt) — watch / game-title-not-search-demand; source=gamepix-en
+- [office madness](https://www.gamepix.com/play/office-madness) — watch / game-title-not-search-demand; source=gamepix-en
+- [sand block puzzle](https://www.gamepix.com/play/sand-block-puzzle) — watch / game-title-not-search-demand; source=gamepix-en
+- [getaway ace](https://www.gamepix.com/play/getaway-ace) — watch / game-title-not-search-demand; source=gamepix-en
+- [lane shift](https://www.gamepix.com/play/lane-shift) — watch / game-title-not-search-demand; source=gamepix-en
+- [colonies](https://www.gamepix.com/play/colonies) — watch / game-title-not-search-demand; source=gamepix-en
+- [fruit slice frenzy 2](https://www.gamepix.com/play/fruit-slice-frenzy-2) — watch / game-title-not-search-demand; source=gamepix-en
+- [apocalypse 2029](https://www.gamepix.com/play/apocalypse-2029) — watch / game-title-not-search-demand; source=gamepix-en
+- [math safety rescue me](https://www.gamepix.com/play/math-safety-rescue-me) — watch / game-title-not-search-demand; source=gamepix-en
+- [harbor strike](https://www.gamepix.com/play/harbor-strike) — watch / game-title-not-search-demand; source=gamepix-en
+- [reactor protocol](https://www.gamepix.com/play/reactor-protocol) — watch / game-title-not-search-demand; source=gamepix-en
+- [one pan](https://www.gamepix.com/play/one-pan) — watch / game-title-not-search-demand; source=gamepix-en
+- [hydro stunt odyssey](https://www.gamepix.com/play/hydro-stunt-odyssey) — watch / game-title-not-search-demand; source=gamepix-en
+- [stackmancer](https://www.gamepix.com/play/stackmancer) — watch / game-title-not-search-demand; source=gamepix-en
+- [kickspire](https://www.gamepix.com/play/kickspire) — watch / game-title-not-search-demand; source=gamepix-en
+- [glass for two](https://www.gamepix.com/play/glass-for-two) — watch / game-title-not-search-demand; source=gamepix-en
+- [gem shaft block puzzle](https://www.gamepix.com/play/gem-shaft-block-puzzle) — watch / game-title-not-search-demand; source=gamepix-en
+- [cosmic breaker neon breakout](https://www.gamepix.com/play/cosmic-breaker-neon-breakout) — watch / game-title-not-search-demand; source=gamepix-en
+- [thai wordle](https://www.gamepix.com/play/thai-wordle) — watch / game-title-not-search-demand; source=gamepix-en
+- [arrow puzzle combo battle](https://www.gamepix.com/play/arrow-puzzle-combo-battle) — watch / game-title-not-search-demand; source=gamepix-en
+- [rail stars](https://www.gamepix.com/play/rail-stars) — watch / game-title-not-search-demand; source=gamepix-en
+- [underworld io](https://www.gamepix.com/play/underworld-io) — watch / game-title-not-search-demand; source=gamepix-en
+- [winter cottage connect](https://www.gamepix.com/play/winter-cottage-connect) — watch / game-title-not-search-demand; source=gamepix-en
+- [pawprint patches](https://www.gamepix.com/play/pawprint-patches) — watch / game-title-not-search-demand; source=gamepix-en
+- [stunt double](https://www.gamepix.com/play/stunt-double) — watch / game-title-not-search-demand; source=gamepix-en
+- [lineora single line puzzle](https://www.gamepix.com/play/lineora-single-line-puzzle) — watch / game-title-not-search-demand; source=gamepix-en
+- [fincremental studio](https://www.gamepix.com/play/fincremental-studio) — watch / game-title-not-search-demand; source=gamepix-en
+- [sky rush](https://www.gamepix.com/play/sky-rush) — watch / game-title-not-search-demand; source=gamepix-en
+- [city guardians elite force](https://www.gamepix.com/play/city-guardians-elite-force) — watch / game-title-not-search-demand; source=gamepix-en
+- [add me up](https://www.gamepix.com/play/add-me-up) — watch / game-title-not-search-demand; source=gamepix-en
+- [block blast qhaleex](https://www.gamepix.com/play/block-blast-qhaleex) — watch / game-title-not-search-demand; source=gamepix-en
+- [phantom scope 3d sniper](https://www.gamepix.com/play/phantom-scope-3d-sniper) — watch / game-title-not-search-demand; source=gamepix-en
+- [duck chaos](https://www.gamepix.com/play/duck-chaos) — watch / game-title-not-search-demand; source=gamepix-en
+- [noobs go home](https://www.gamepix.com/play/noobs-go-home) — watch / game-title-not-search-demand; source=gamepix-en
+- [lava rising plus one](https://www.gamepix.com/play/lava-rising-plus-one) — watch / game-title-not-search-demand; source=gamepix-en
+- [glyph match](https://www.gamepix.com/play/glyph-match) — watch / game-title-not-search-demand; source=gamepix-en
+- [prism drift](https://www.gamepix.com/play/prism-drift) — watch / game-title-not-search-demand; source=gamepix-en
+- [tile garden mahjong](https://www.gamepix.com/play/tile-garden-mahjong) — watch / game-title-not-search-demand; source=gamepix-en
+- [tundra spark](https://www.gamepix.com/play/tundra-spark) — watch / game-title-not-search-demand; source=gamepix-en
+- [word voyage](https://www.gamepix.com/play/word-voyage) — watch / game-title-not-search-demand; source=gamepix-en
+- [broadside](https://www.gamepix.com/play/broadside) — watch / game-title-not-search-demand; source=gamepix-en
+- [block tower rush](https://www.gamepix.com/play/block-tower-rush) — watch / game-title-not-search-demand; source=gamepix-en
+- [cargo crane rescue](https://www.gamepix.com/play/cargo-crane-rescue) — watch / game-title-not-search-demand; source=gamepix-en
+- [tasty triple challenge](https://www.gamepix.com/play/tasty-triple-challenge) — watch / game-title-not-search-demand; source=gamepix-en
+- [forgotten waters](https://www.gamepix.com/play/forgotten-waters) — watch / game-title-not-search-demand; source=gamepix-en
+- [hammy skies](https://www.gamepix.com/play/hammy-skies) — watch / game-title-not-search-demand; source=gamepix-en
+- [hyperfoot football manager](https://www.gamepix.com/play/hyperfoot-football-manager) — watch / game-title-not-search-demand; source=gamepix-en
+- [comet ace](https://www.gamepix.com/play/comet-ace) — watch / game-title-not-search-demand; source=gamepix-en
+- [creep](https://www.gamepix.com/play/creep) — watch / game-title-not-search-demand; source=gamepix-en
+- [second glance](https://www.gamepix.com/play/second-glance) — watch / game-title-not-search-demand; source=gamepix-en
+- [flipsy gravity flip runner](https://www.gamepix.com/play/flipsy-gravity-flip-runner) — watch / game-title-not-search-demand; source=gamepix-en
+- [orbital hop](https://www.gamepix.com/play/orbital-hop) — watch / game-title-not-search-demand; source=gamepix-en
+- [pocket moons](https://www.gamepix.com/play/pocket-moons) — watch / game-title-not-search-demand; source=gamepix-en
+- [ragdoll arena](https://www.gamepix.com/play/ragdoll-arena) — watch / game-title-not-search-demand; source=gamepix-en
+- [saltillo](https://www.gamepix.com/play/saltillo) — watch / game-title-not-search-demand; source=gamepix-en
+- [uncle hit punch the dummy](https://www.gamepix.com/play/uncle-hit-punch-the-dummy) — watch / game-title-not-search-demand; source=gamepix-en
+- [wake the way](https://www.gamepix.com/play/wake-the-way) — watch / game-title-not-search-demand; source=gamepix-en
+- [emoji quest](https://www.gamepix.com/play/emoji-quest) — watch / game-title-not-search-demand; source=gamepix-en
+- [aurora solitaire](https://www.gamepix.com/play/aurora-solitaire) — watch / game-title-not-search-demand; source=gamepix-en
+- [the african pantry mahjong](https://www.gamepix.com/play/the-african-pantry-mahjong) — watch / game-title-not-search-demand; source=gamepix-en
+- [tuk tuk garage](https://www.gamepix.com/play/tuk-tuk-garage) — watch / game-title-not-search-demand; source=gamepix-en
+- [core breaker mecha drill](https://www.gamepix.com/play/core-breaker-mecha-drill) — watch / game-title-not-search-demand; source=gamepix-en
+- [borealis](https://www.gamepix.com/play/borealis) — watch / game-title-not-search-demand; source=gamepix-en
+- [skyprism](https://www.gamepix.com/play/skyprism) — watch / game-title-not-search-demand; source=gamepix-en
+- [bloko tower](https://www.gamepix.com/play/bloko-tower) — watch / game-title-not-search-demand; source=gamepix-en
+- [woolwhistle](https://www.gamepix.com/play/woolwhistle) — watch / game-title-not-search-demand; source=gamepix-en
+- [fruit merge drop html5](https://www.gamepix.com/play/fruit-merge-drop-html5) — watch / game-title-not-search-demand; source=gamepix-en
+- [candy match saga sweet puzzle](https://www.gamepix.com/play/candy-match-saga-sweet-puzzle) — watch / game-title-not-search-demand; source=gamepix-en
+- [run bull ranch](https://www.gamepix.com/play/run-bull-ranch) — watch / game-title-not-search-demand; source=gamepix-en
+- [turbo colis](https://www.gamepix.com/play/turbo-colis) — watch / game-title-not-search-demand; source=gamepix-en
+- [neon survivor](https://www.gamepix.com/play/neon-survivor) — watch / game-title-not-search-demand; source=gamepix-en
+- [apex moto](https://www.gamepix.com/play/apex-moto) — watch / game-title-not-search-demand; source=gamepix-en
+- [milena s farm](https://www.gamepix.com/play/milena-s-farm) — watch / game-title-not-search-demand; source=gamepix-en
+- [nova strike escuadron nova](https://www.gamepix.com/play/nova-strike-escuadron-nova) — watch / game-title-not-search-demand; source=gamepix-en
+- [empire tycoon](https://www.gamepix.com/play/empire-tycoon) — watch / game-title-not-search-demand; source=gamepix-en
+- [north pole gridlock](https://www.gamepix.com/play/north-pole-gridlock) — watch / game-title-not-search-demand; source=gamepix-en
+- [fix it garage](https://www.gamepix.com/play/fix-it-garage) — watch / game-title-not-search-demand; source=gamepix-en
+- [voidgrid](https://www.gamepix.com/play/voidgrid) — watch / game-title-not-search-demand; source=gamepix-en
+- [cosmobite fly thru](https://www.gamepix.com/play/cosmobite-fly-thru) — watch / game-title-not-search-demand; source=gamepix-en
+- [signal sort](https://www.gamepix.com/play/signal-sort) — watch / game-title-not-search-demand; source=gamepix-en
+- [zombie gate rush](https://www.gamepix.com/play/zombie-gate-rush) — watch / game-title-not-search-demand; source=gamepix-en
+- [moon cleaner rockonaut](https://www.gamepix.com/play/moon-cleaner-rockonaut) — watch / game-title-not-search-demand; source=gamepix-en
+- [brainrot heist](https://www.gamepix.com/play/brainrot-heist) — watch / game-title-not-search-demand; source=gamepix-en
+- [snowball rampage](https://www.gamepix.com/play/snowball-rampage) — watch / game-title-not-search-demand; source=gamepix-en
+- [neon merge drop](https://www.gamepix.com/play/neon-merge-drop) — watch / game-title-not-search-demand; source=gamepix-en
+- [bloom bubbles](https://www.gamepix.com/play/bloom-bubbles) — watch / game-title-not-search-demand; source=gamepix-en
+- [alchemy drop](https://www.gamepix.com/play/alchemy-drop) — watch / game-title-not-search-demand; source=gamepix-en
+- [bumper balls](https://www.gamepix.com/play/bumper-balls) — watch / game-title-not-search-demand; source=gamepix-en
+- [the smile archive 317](https://www.gamepix.com/play/the-smile-archive-317) — watch / game-title-not-search-demand; source=gamepix-en
+- [okavango water sort](https://www.gamepix.com/play/okavango-water-sort) — watch / game-title-not-search-demand; source=gamepix-en
 
 ## Source interpretation
 

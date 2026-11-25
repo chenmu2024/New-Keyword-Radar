@@ -1,6 +1,6 @@
 # 跨独立网站 Sitemap 同步上新观察
 
-观察截止：2026-11-25；滚动窗口：2026-11-19—2026-11-25（均为北京时间日期）。
+观察截止：2026-11-26；滚动窗口：2026-11-20—2026-11-26（均为北京时间日期）。
 
 **Sitemap 首见并不等于首次发行、真实24小时内上架或搜索量；同名和文件格式归并必须人工核实。**
 只有具备真实source_id、详情URL和first_seen的相对基线新增，才能成为候选。
@@ -8,21 +8,24 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-25T19:39:51.477544+08:00；详细候选：12000；7日轻量URL证据：14835/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-26T07:15:24.206030+08:00；详细候选：12000；7日轻量URL证据：12982/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 432，采样上限遗漏 163。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 321，采样上限遗漏 173。
 
-- **bayday io**：不同根域 4 家；同一天峰值 1 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - y8.com · y8-en · 2026-11-19 · https://www.y8.com/games/bayday_io · 原词 bayday io
-  - gamenora.com · gamenora-en · 2026-11-20 · https://www.gamenora.com/game/bayday-io/ · 原词 bayday io
-  - minijuegos.com · minijuegos-es · 2026-11-21 · https://www.minijuegos.com/juego/bayday-io · 原词 bayday io
-  - jogos360.com.br · jogos360-br · 2026-11-25 · https://www.jogos360.com.br/bayday_io.html · 原词 bayday io
+- **lambs apart**：不同根域 3 家；同一天峰值 1 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamedistribution.com · gamedistribution-games · 2026-11-24 · https://gamedistribution.com/games/lambs-apart/ · 原词 lambs apart
+  - 1001games.com · 1001games-en · 2026-11-25 · https://www.1001games.com/think/lambs-apart · 原词 lambs apart
+  - minijuegos.com · minijuegos-es · 2026-11-26 · https://www.minijuegos.com/juego/lambs-apart · 原词 lambs apart
 - **race rocket arena car extreme**：不同根域 3 家；同一天峰值 2 家、连续3日 3 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-23 · https://gamedistribution.com/games/race%3A-rocket-arena-car-extreme/ · 原词 race: rocket arena car extreme
   - gamenora.com · gamenora-en · 2026-11-25 · https://www.gamenora.com/game/race-rocket-arena-car-extreme/ · 原词 race rocket arena car extreme
   - jogos360.com.br · jogos360-br · 2026-11-25 · https://www.jogos360.com.br/race_rocket_arena_car_extreme.html · 原词 race rocket arena car extreme
+- **bayday io**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamenora.com · gamenora-en · 2026-11-20 · https://www.gamenora.com/game/bayday-io/ · 原词 bayday io
+  - minijuegos.com · minijuegos-es · 2026-11-21 · https://www.minijuegos.com/juego/bayday-io · 原词 bayday io
+  - jogos360.com.br · jogos360-br · 2026-11-25 · https://www.jogos360.com.br/bayday_io.html · 原词 bayday io
 - **eggcavation**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-en · 2026-11-21 · https://www.gamepix.com/play/eggcavation · 原词 eggcavation
   - y8.com · y8-en · 2026-11-23 · https://www.y8.com/games/eggcavation · 原词 eggcavation
@@ -47,15 +50,12 @@
 - **boom ridge**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-en · 2026-11-21 · https://www.gamepix.com/play/boom-ridge · 原词 boom ridge
   - y8.com · y8-en · 2026-11-23 · https://www.y8.com/games/boom_ridge · 原词 boom ridge
-- **butterfly inc**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamepix.com · gamepix-en · 2026-11-23 · https://www.gamepix.com/play/butterfly-inc · 原词 butterfly inc
-  - y8.com · y8-en · 2026-11-24 · https://www.y8.com/games/butterfly_inc · 原词 butterfly inc
 
 失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 300，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 45，采样上限遗漏 0。
 
 - **puresound**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-22 · https://fazier.com/launches/puresound · 原词 puresound
@@ -100,7 +100,7 @@
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 88，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 12，采样上限遗漏 0。
 
 - **cocomusic**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-22 · https://aitoolsdirectory.com/tool/cocomusic · 原词 cocomusic
@@ -108,9 +108,6 @@
 - **davinci ai**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-20 · https://aitoolsdirectory.com/tool/davinci-ai · 原词 davinci ai
   - aitoptools.com · aitoptools-tools · 2026-11-20 · https://aitoptools.com/tool/davinci-ai/ · 原词 davinci ai
-- **decibri**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - dang.ai · dangai-tools · 2026-11-19 · https://dang.ai/tool/decibri · 原词 decibri
-  - aitoolnet.com · aitoolnet-tools · 2026-11-21 · https://www.aitoolnet.com/decibri · 原词 decibri
 - **intellemo**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolhouse.com · aitoolhouse-tools · 2026-11-24 · https://www.aitoolhouse.com/tools/intellemo · 原词 intellemo
   - toolveyor.com · toolveyor-tools · 2026-11-25 · https://toolveyor.com/intellemo · 原词 intellemo
@@ -131,7 +128,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 7，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -139,13 +136,13 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 554，采样上限遗漏 290。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 12，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
 ## 巴西在线工具
 
-采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
+采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 1，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -161,16 +158,15 @@
   - developer · devhunt-tools · 2026-11-23 · https://devhunt.org/tool/plango
   - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/plango
   - saas · uneed-products · 2026-11-25 · https://www.uneed.best/tool/plango
-- ofintech desk：独立根域 3 家；类别 ai, developer, saas
-  - saas · producthunt-products · 2026-11-19 · https://www.producthunt.com/products/ofintech-desk
-  - developer · devhunt-tools · 2026-11-21 · https://devhunt.org/tool/ofintech-desk
-  - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/ofintech-desk
 - ai visibility check：独立根域 2 家；类别 developer, saas
   - developer · apify-actors-z · 2026-11-24 · https://apify.com/operstack/ai-visibility-check
   - saas · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/ai-visibility-check
 - glideworth：独立根域 2 家；类别 developer, saas
   - developer · devhunt-tools · 2026-11-24 · https://devhunt.org/tool/glideworth
   - saas · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/glideworth
+- shopify products scraper：独立根域 2 家；类别 developer, saas
+  - developer · apify-actors-z · 2026-11-23 · https://apify.com/pagecraft/shopify-products-scraper
+  - saas · productperch-products · 2026-11-23 · https://productperch.com/products/shopify-products-scraper/
 - ankon ai：独立根域 2 家；类别 ai, saas
   - saas · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/ankon-ai
   - ai · toolveyor-tools · 2026-11-25 · https://toolveyor.com/ankon-ai
@@ -180,12 +176,12 @@
 - makeasong：独立根域 2 家；类别 ai, saas
   - saas · indieneed-products · 2026-11-20 · https://www.indieneed.com/products/makeasong
   - ai · aitoolnet-tools · 2026-11-21 · https://www.aitoolnet.com/makeasong
-- adside：独立根域 2 家；类别 ai, saas
-  - saas · producthunt-products · 2026-11-19 · https://www.producthunt.com/products/adside
-  - ai · aitoolnet-tools · 2026-11-21 · https://www.aitoolnet.com/adside
 - chat with work：独立根域 2 家；类别 ai, saas
   - saas · producthunt-products · 2026-11-23 · https://www.producthunt.com/products/chat-with-work
   - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/chat-with-work
+- hydrilla：独立根域 2 家；类别 ai, saas
+  - saas · producthunt-products · 2026-11-23 · https://www.producthunt.com/products/hydrilla
+  - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/hydrilla
 
 ### 跨类别同向文件转换
 
