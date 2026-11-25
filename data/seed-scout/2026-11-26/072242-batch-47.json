@@ -1,0 +1,117 @@
+{
+  "batch_id": "2026-11-25T23:22:42.231236+00:00-47-48-49-50-51",
+  "generated_at": "2026-11-25T23:22:42.231236+00:00",
+  "local_generated_at": "2026-11-26T07:22:42.231236+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "syncer",
+    "connector",
+    "cataloger",
+    "responder",
+    "color"
+  ],
+  "seed_indices": [
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "start_index": 47,
+  "discoveries": [
+    {
+      "seed": "syncer",
+      "query": "trade copia",
+      "rise_value": 84200.0,
+      "raw_value": 84200
+    },
+    {
+      "seed": "connector",
+      "query": "lexu connector",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
+      "seed": "color",
+      "query": "color vision en vivo",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "color",
+      "query": "tory lanez the color violet",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
+      "seed": "syncer",
+      "query": "tradecopia",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "responder",
+      "query": "alo first responder discount",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "responder",
+      "query": "chick fil a first responder discount",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "responder",
+      "query": "first responder bowl 2026",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "responder",
+      "query": "lululemon first responder discount",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "color",
+      "query": "tolino vision color",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "connector",
+      "query": "health connector payment",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "syncer",
+      "query": "apex",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "responder",
+      "query": "best buy first responder discount",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "responder",
+      "query": "hoka first responder discount",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "responder",
+      "query": "samsung first responder discount",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 15
+}

@@ -1,0 +1,55 @@
+{
+  "batch_id": "2026-11-25T23:27:35.365576+00:00-62-63-64-65",
+  "generated_at": "2026-11-25T23:27:35.365576+00:00",
+  "local_generated_at": "2026-11-26T07:27:35.365576+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "roblox",
+    "cocrea",
+    "cocrea world",
+    "compressor"
+  ],
+  "seed_indices": [
+    62,
+    63,
+    64,
+    65
+  ],
+  "start_index": 62,
+  "discoveries": [
+    {
+      "seed": "roblox",
+      "query": "gta 6 roblox",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "roblox",
+      "query": "roblox.dmg",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "cocrea",
+      "query": "sprunki phase 15 cocrea",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "roblox",
+      "query": "eldorado roblox",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "cocrea",
+      "query": "sprunki phase 20",
+      "rise_value": 70.0,
+      "raw_value": 70
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 5
+}
