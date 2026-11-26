@@ -1,6 +1,6 @@
-# V4 Social signal discovery — 2026-11-26T12:27:32.073423+00:00
+# V4 Social signal discovery — 2026-11-26T23:50:11.110815+00:00
 
-- Unique links this run: 59, newly seen: 37, history: 2500
+- Unique links this run: 57, newly seen: 16, history: 2500
 - IMPORTANT: Candidate links are leads only; neither user demand, SEO volume nor payment is verified.
 
 ## Source health
@@ -11,8 +11,8 @@
 - x: empty (0) — Search-index-only coverage. Original post/comments unverified.
 - producthunt: ok (6)
 - huggingface: ok (6)
-- bluesky: ok (5) — Direct public post text, not verified customer payment or SEO demand.
-- mastodon: ok (3) — Direct public post text, not verified customer payment or SEO demand.
+- bluesky: ok (6) — Direct public post text, not verified customer payment or SEO demand.
+- mastodon: empty (0) — Direct public post text, not verified customer payment or SEO demand.
 - hackernews_ask: ok (6) — Official Ask HN public posts; question text is not verified paid demand.
 - youtube_channel: not_configured (0)
 - existing_free_intelligence_bridge: ok (33)
@@ -20,32 +20,30 @@
 
 ## Links (not validated project opportunities)
 
-- [Pax by Pydantic](https://www.producthunt.com/products/pydantic) — producthunt — direct_public_feed
-- [Chunkify](https://www.producthunt.com/products/chunkify) — producthunt — direct_public_feed
+- [Ottante](https://www.producthunt.com/products/ottante) — producthunt — direct_public_feed
+- [SuperLoupe](https://www.producthunt.com/products/superloupe) — producthunt — direct_public_feed
+- [Claude-Mem Cloud Sync](https://www.producthunt.com/products/claude-mem) — producthunt — direct_public_feed
+- [DeskFleet](https://www.producthunt.com/products/deskfleet) — producthunt — direct_public_feed
+- [NEXUS](https://www.producthunt.com/products/nexus-42) — producthunt — direct_public_feed
 - [ExtraOrbital](https://www.producthunt.com/products/extraorbital-deleted-1365752) — producthunt — direct_public_feed
-- [Hub](https://www.producthunt.com/products/hub-20) — producthunt — direct_public_feed
-- [Nookdeck](https://www.producthunt.com/products/nookdeck) — producthunt — direct_public_feed
-- [Kagi Mail](https://www.producthunt.com/products/kagi) — producthunt — direct_public_feed
-- [buchanora/my-argilla](https://huggingface.co/spaces/buchanora/my-argilla) — huggingface — direct_public_api
-- [igel666/omadria-ai-simulator](https://huggingface.co/spaces/igel666/omadria-ai-simulator) — huggingface — direct_public_api
-- [teddy600/classic-bible](https://huggingface.co/spaces/teddy600/classic-bible) — huggingface — direct_public_api
-- [roaddata-ai/real-world-eval](https://huggingface.co/spaces/roaddata-ai/real-world-eval) — huggingface — direct_public_api
-- [Xristova/TestModel](https://huggingface.co/spaces/Xristova/TestModel) — huggingface — direct_public_api
-- [murthy0x05/semantic-attribute-classifier](https://huggingface.co/spaces/murthy0x05/semantic-attribute-classifier) — huggingface — direct_public_api
-- [Time is the one we hear most too. What's saved our family hours: one printed page with Mom's medications, conditions, and contacts that we hand to every new doctor. The template is](https://bsky.app/profile/pageoneproject.org/post/3n32wmrbg322u) — bluesky — direct_public_post — intent keyword found
-- [Download Letterhead Template LIVE PREVIEWDownload Now Letterhead template. This layout is suitable for any project purpose. Very easy to use and customise. Size : A4 (21 29.7CM) F](https://bsky.app/profile/boomear.bsky.social/post/3n32iwdi46t24) — bluesky — direct_public_post — intent keyword found
-- [Calendar quirk: on a Sunday-start grid, a 31-day month that begins on a Friday or Saturday needs six week rows, not five. Our blank monthly calendar has six rows and no dates print](https://bsky.app/profile/officeprintable.bsky.social/post/3n2zsvxppg22h) — bluesky — direct_public_post
-- [No worries! I'm not the right person for you as I don't have a high enough invoice volume to justify any form of automation, even free (plus I invoice across three separate sets of](https://bsky.app/profile/theodora.bsky.social/post/3n2v7ntvksk2d) — bluesky — direct_public_post — intent keyword found
-- [Use WordPress, find a theme or template you like, install it, and go with that to start. There are tons of plugins to use for practically any purpose, and it's easy to work with fo](https://bsky.app/profile/factorone.bsky.social/post/3n2utcwxwvc24) — bluesky — direct_public_post — intent keyword found
-- [Downloadable weights do not make a model yours. "The weights change hands. The rights do not." Proprietary is about rights. Closed is about availability and access. # Tagoross AI O](https://mastodon.social/@toscalix/117682727564256757) — mastodon — direct_public_post
-- [MariaDB 13.1 introduce miglioramenti significativi nella gestione dei dati parallela, con un focus sulla scalabilità e l'efficienza. Analizziamo nel dettaglio le novità che impatta](https://mastodon.social/@incastropc/117682725928527706) — mastodon — direct_public_post
-- [Sovereignty isn't bought as a package. It's assembled from building blocks. Wrap-up of "The Sovereign Workplace": what search, documents, email, chat and storage showed – why lock-](https://mastodon.social/@forfoxes/117682701795012872) — mastodon — direct_public_post — intent keyword found
+- [adwitiyashukla/cnn-image-classifier-on-hadoop](https://huggingface.co/spaces/adwitiyashukla/cnn-image-classifier-on-hadoop) — huggingface — direct_public_api
+- [Crownhahaha/gaia-agent](https://huggingface.co/spaces/Crownhahaha/gaia-agent) — huggingface — direct_public_api
+- [ccrent/remote-mac-first-connection-ko](https://huggingface.co/spaces/ccrent/remote-mac-first-connection-ko) — huggingface — direct_public_api
+- [manitriesCV/Number-Plate-Text-Reader](https://huggingface.co/spaces/manitriesCV/Number-Plate-Text-Reader) — huggingface — direct_public_api
+- [schredinger/metabolism](https://huggingface.co/spaces/schredinger/metabolism) — huggingface — direct_public_api
+- [protexto/bot_](https://huggingface.co/spaces/protexto/bot_) — huggingface — direct_public_api
+- [Para eso necesito ver el código porque es la herramienta. Si no veo el código, no sé si lo está haciendo bien o si lo puede hacer mejor. Las reglas se las salta. Prefiere repetir](https://bsky.app/profile/xurxodev.com/post/3n3afedi6ic26) — bluesky — direct_public_post
+- [Yo he escrito un PFC, un TFM, una tesis y una docena de artículos científicos. Diría que como herramienta es válida. Mejorable como cualquiera, pero cumplió su propósito. No necesi](https://bsky.app/profile/felixstdp.bsky.social/post/3n2m73jw4ac2m) — bluesky — direct_public_post
+- [Antes de recomendarte una solución, necesito saber esto. Muchos negocios compran la herramienta antes de entender el problema. 3 preguntas clave: tiempo, clientes, tareas a mano.](https://bsky.app/profile/byledifj.bsky.social/post/3mzx5g3lf5u25) — bluesky — direct_public_post
+- [Con dinero de la empresa. Vamos, que no le pido herramienta al jefe, compro lo que necesito y le paso la factura.](https://bsky.app/profile/infilanak.satan.social/post/3mzizkmmrz22e) — bluesky — direct_public_post
+- [Si os dijera que estoy pensando compartir la herramienta que he creado autores ¿Qué os parecería? Estoy pensando en dejársela probar a algunas personas para comprobar que lo que a](https://bsky.app/profile/piramidedeespejo.bsky.social/post/3mzboeus6ik2a) — bluesky — direct_public_post
+- [Yo no necesito valoración sobre el tamaño de mi "herramienta" está muy bien, no he tenido quejas ni las tengo yo.. hay quien dice que es grande, para mí es medio normal, también es](https://bsky.app/profile/brokench.bsky.social/post/3mz3trit4622f) — bluesky — direct_public_post
+- [Tell HN: Happy Thanksgiving](https://news.ycombinator.com/item?id=50655664) — hackernews_ask — direct_public_post
+- [Ask HN: Any courses/products by indie makers worth getting today?](https://news.ycombinator.com/item?id=50656763) — hackernews_ask — direct_public_post
+- [DietPi released a new version v10.9](https://news.ycombinator.com/item?id=50658963) — hackernews_ask — direct_public_post — intent keyword found
 - [Tell HN: Lots of Ask HNs again](https://news.ycombinator.com/item?id=50649864) — hackernews_ask — direct_public_post
+- [Ask HN: What's Going on with the Minecraft Rust Rewrite? (Horizon)](https://news.ycombinator.com/item?id=50660522) — hackernews_ask — direct_public_post
 - [Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?](https://news.ycombinator.com/item?id=50630809) — hackernews_ask — direct_public_post
-- [Ask HN: Is RSA in Jeopardy?](https://news.ycombinator.com/item?id=50645915) — hackernews_ask — direct_public_post
-- [Ask HN: If I broke prime factorization, who should I tell?](https://news.ycombinator.com/item?id=50653391) — hackernews_ask — direct_public_post
-- [Ask HN: Are the trades a safe career transition?](https://news.ycombinator.com/item?id=50600771) — hackernews_ask — direct_public_post
-- [Queue Theory: a software engineering tutorial](https://news.ycombinator.com/item?id=50647851) — hackernews_ask — direct_public_post — intent keyword found
 - [Prevent Windows installers from shipping a stale Starter build](https://github.com/Tribes3-Modded/T3FrontEndClient/issues/81) — github_issue — direct_public_issue_api
 - [Milestone 04C — Manager.io Desktop API feasibility](https://github.com/cruzreyes2089/Engineering-Project-Managements-Software/issues/3) — github_issue — direct_public_issue_api
 - [Renovate Dependency Dashboard](https://github.com/RovxBot/homelab-infra/issues/1) — github_issue — direct_public_issue_api — intent keyword found
@@ -60,3 +58,5 @@
 - [Ask HN: What's still broken in SoC 2 readiness and audit prep?](https://news.ycombinator.com/item?id=46396889) — hackernews_ask — indexed_public_post_excerpt
 - [AI Agents Are Quietly Taking over Project Management](https://news.ycombinator.com/item?id=45618229) — hackernews_ask — indexed_public_post_excerpt
 - [The problem of scheduling life like a spreadsheet](https://news.ycombinator.com/item?id=45006853) — hackernews_ask — indexed_public_post_excerpt
+- [My Friend Raised Her Seed Round in 17 Days](https://news.ycombinator.com/item?id=44112008) — hackernews_ask — indexed_public_post_excerpt — intent keyword found
+- [TAMÃO — AUDITORIA INTEGRAL, CORREÇÕES E SUPORTE CONTÍNUO](https://github.com/carloskk07/gassg/issues/493) — github_issue — direct_public_issue_api
