@@ -1,0 +1,93 @@
+{
+  "batch_id": "2026-11-26T22:56:09.872213+00:00-73-0-1-2-3",
+  "generated_at": "2026-11-26T22:56:09.872213+00:00",
+  "local_generated_at": "2026-11-27T06:56:09.872213+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "download",
+    "translator",
+    "generator",
+    "example",
+    "convert"
+  ],
+  "seed_indices": [
+    73,
+    0,
+    1,
+    2,
+    3
+  ],
+  "start_index": 73,
+  "discoveries": [
+    {
+      "seed": "convert",
+      "query": "savefrom.net mp3 convert",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "translator",
+      "query": "vi translator",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "generator",
+      "query": "nord password generator",
+      "rise_value": 160.0,
+      "raw_value": 160
+    },
+    {
+      "seed": "download",
+      "query": "nordvpn free download",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "download",
+      "query": "tiktok download mp4",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "download",
+      "query": "surfshark download",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "download",
+      "query": "nordvpn download",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "generator",
+      "query": "charades generator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "convert",
+      "query": "convert 5 miles to km",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "download",
+      "query": "gta 5 download",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "generator",
+      "query": "warp generator",
+      "rise_value": 50.0,
+      "raw_value": 50
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 11
+}

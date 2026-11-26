@@ -1,0 +1,117 @@
+{
+  "batch_id": "2026-11-26T23:14:20.723295+00:00-49-50-51-52-53",
+  "generated_at": "2026-11-26T23:14:20.723295+00:00",
+  "local_generated_at": "2026-11-27T07:14:20.723295+08:00",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "seed_batch": [
+    "cataloger",
+    "responder",
+    "color",
+    "image",
+    "flux"
+  ],
+  "seed_indices": [
+    49,
+    50,
+    51,
+    52,
+    53
+  ],
+  "start_index": 49,
+  "discoveries": [
+    {
+      "seed": "image",
+      "query": "happy thanksgiving image",
+      "rise_value": 1800.0,
+      "raw_value": 1800
+    },
+    {
+      "seed": "responder",
+      "query": "first responder thanksgiving",
+      "rise_value": 400.0,
+      "raw_value": 400
+    },
+    {
+      "seed": "color",
+      "query": "color vision en vivo",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "responder",
+      "query": "alo first responder discount",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "image",
+      "query": "turkey image",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "responder",
+      "query": "chick fil a first responder discount",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "responder",
+      "query": "lululemon first responder discount",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "responder",
+      "query": "new balance first responder discount",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "flux",
+      "query": "flux migratoire",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "responder",
+      "query": "id me first responder discounts",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "responder",
+      "query": "on cloud first responder discount",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "responder",
+      "query": "first responder bowl 2026",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "flux",
+      "query": "flux footwear",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "responder",
+      "query": "hoka first responder discount",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "flux",
+      "query": "octopus flux",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "status": "ok",
+  "discovery_count": 15
+}
