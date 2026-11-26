@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-25T23:27:42.446309+00:00
-- Historical candidates: 7716
-- Newly recorded from pending: 53
+- Updated (UTC): 2026-11-26T10:45:23.613200+00:00
+- Historical candidates: 7796
+- Newly recorded from pending: 80
 - Awaiting 7/14/30-day evidence review: 6543
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- ankle monitor [Global] — discovered — first 2026-11-26, last 2026-11-26
-- apex [Global] — discovered — first 2026-11-26, last 2026-11-26
-- boreen game [Global] — discovered — first 2026-11-26, last 2026-11-26
-- britannic explorer train [Global] — discovered — first 2026-11-26, last 2026-11-26
-- casa de apuestas online 🇪🇸 www.casinobimo.blog [Global] — discovered — first 2026-11-26, last 2026-11-26
-- coffee maker [Global] — discovered — first 2026-11-26, last 2026-11-26
-- cuisinart food processor [Global] — discovered — first 2026-11-26, last 2026-11-26
-- cutlist optimizer free [Global] — discovered — first 2026-11-26, last 2026-11-26
-- digitalconnectmag.com [Global] — discovered — first 2026-11-26, last 2026-11-26
-- dota 2 pro tracker [Global] — discovered — first 2026-11-26, last 2026-11-26
-- download drag bike 201m simulator [Global] — discovered — first 2026-11-26, last 2026-11-26
-- figma stock price [Global] — discovered — first 2026-11-26, last 2026-11-26
-- flux para soldar [Global] — discovered — first 2026-11-26, last 2026-11-26
-- flux pavilion [Global] — discovered — first 2026-11-26, last 2026-11-26
-- flux soldering [Global] — discovered — first 2026-11-26, last 2026-11-26
-- food processor walmart [Global] — discovered — first 2026-11-26, last 2026-11-26
-- funny girl composer jule [Global] — discovered — first 2026-11-26, last 2026-11-26
-- game gta6 [Global] — discovered — first 2026-11-26, last 2026-11-26
-- gameboost [Global] — discovered — first 2026-11-26, last 2026-11-26
-- gimkit [Global] — discovered — first 2026-11-26, last 2026-11-26
-- gizmocrunch.com [Global] — discovered — first 2026-11-26, last 2026-11-26
-- gta 6 roblox [Global] — discovered — first 2026-11-26, last 2026-11-26
-- gta steam [Global] — discovered — first 2026-11-26, last 2026-11-26
-- hamilton beach food processor [Global] — discovered — first 2026-11-26, last 2026-11-26
+- migliori casino online 🇮🇹 2026 www.casinobimo.blog [Global] — discovered — first 2026-11-26, last 2026-11-26
+- party starter nyt [Global] — discovered — first 2026-11-26, last 2026-11-26
 - hole io [Global] — discovered — first 2026-11-26, last 2026-11-26
+- superabled mf itch.io [Global] — discovered — first 2026-11-26, last 2026-11-26
+- rosin flux [Global] — discovered — first 2026-11-26, last 2026-11-26
+- pokies online au 🇦🇺 2026 www.casinobimo.blog [Global] — discovered — first 2026-11-26, last 2026-11-26
+- turkey image [Global] — discovered — first 2026-11-26, last 2026-11-26
+- phone comparator [Global] — discovered — first 2026-11-26, last 2026-11-26
+- hamilton beach food processor [Global] — discovered — first 2026-11-26, last 2026-11-26
+- gameboost [Global] — discovered — first 2026-11-26, last 2026-11-26
+- online casinos uk 🇬🇧 2026 www.casinobimo.blog [Global] — discovered — first 2026-11-26, last 2026-11-26
+- flux pavilion [Global] — discovered — first 2026-11-26, last 2026-11-26
+- online casinos 🇧🇪 2026 www.casinobimo.blog [Global] — discovered — first 2026-11-26, last 2026-11-26
+- interpreter adalah [Global] — discovered — first 2026-11-26, last 2026-11-26
+- sassa [Global] — discovered — first 2026-11-26, last 2026-11-26
+- casa de apuestas online 🇪🇸 www.casinobimo.blog [Global] — discovered — first 2026-11-26, last 2026-11-26
+- food processor walmart [Global] — discovered — first 2026-11-26, last 2026-11-26
+- ideogram [Global] — discovered — first 2026-11-26, last 2026-11-26
+- coffee maker [Global] — discovered — first 2026-11-26, last 2026-11-26
+- ankle monitor [Global] — discovered — first 2026-11-26, last 2026-11-26
+- nockbone itch.io [Global] — discovered — first 2026-11-26, last 2026-11-26
+- tolino vision color [Global] — discovered — first 2026-11-26, last 2026-11-26
+- dota 2 pro tracker [Global] — discovered — first 2026-11-26, last 2026-11-26
+- gimkit [Global] — discovered — first 2026-11-26, last 2026-11-26
+- game gta6 [Global] — discovered — first 2026-11-26, last 2026-11-26
 
 ## Due for follow-up
 
