@@ -1,6 +1,6 @@
 # 跨独立网站 Sitemap 同步上新观察
 
-观察截止：2026-11-26；滚动窗口：2026-11-20—2026-11-26（均为北京时间日期）。
+观察截止：2026-11-27；滚动窗口：2026-11-21—2026-11-27（均为北京时间日期）。
 
 **Sitemap 首见并不等于首次发行、真实24小时内上架或搜索量；同名和文件格式归并必须人工核实。**
 只有具备真实source_id、详情URL和first_seen的相对基线新增，才能成为候选。
@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-26T19:26:22.352133+08:00；详细候选：12000；7日轻量URL证据：13542/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-27T07:14:56.018622+08:00；详细候选：12000；7日轻量URL证据：13836/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 357，采样上限遗漏 36。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 260，采样上限遗漏 63。
 
 - **race rocket arena car extreme**：不同根域 4 家；同一天峰值 2 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-23 · https://gamedistribution.com/games/race%3A-rocket-arena-car-extreme/ · 原词 race: rocket arena car extreme
@@ -23,41 +23,37 @@
   - gamedistribution.com · gamedistribution-games · 2026-11-24 · https://gamedistribution.com/games/lambs-apart/ · 原词 lambs apart
   - 1001games.com · 1001games-en · 2026-11-25 · https://www.1001games.com/think/lambs-apart · 原词 lambs apart
   - minijuegos.com · minijuegos-es · 2026-11-26 · https://www.minijuegos.com/juego/lambs-apart · 原词 lambs apart
-- **bayday io**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamenora.com · gamenora-en · 2026-11-20 · https://www.gamenora.com/game/bayday-io/ · 原词 bayday io
-  - minijuegos.com · minijuegos-es · 2026-11-21 · https://www.minijuegos.com/juego/bayday-io · 原词 bayday io
-  - jogos360.com.br · jogos360-br · 2026-11-25 · https://www.jogos360.com.br/bayday_io.html · 原词 bayday io
 - **eggcavation**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-en · 2026-11-21 · https://www.gamepix.com/play/eggcavation · 原词 eggcavation
   - y8.com · y8-en · 2026-11-23 · https://www.y8.com/games/eggcavation · 原词 eggcavation
   - crazygames.com · crazygames-es · 2026-11-24 · https://www.crazygames.com/es/game/eggcavation · 原词 eggcavation
-- **office madness**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamearter.com · gamearter-en · 2026-11-20 · https://www.gamearter.com/game/office-madness/ · 原词 office madness
-  - gamepix.com · gamepix-pt · 2026-11-25 · https://www.gamepix.com/pt/play/office-madness · 原词 office madness
-  - y8.com · y8-en · 2026-11-26 · https://www.y8.com/games/office_madness · 原词 office madness
-- **paintball squad**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - playgama.com · playgama-en · 2026-11-20 · https://playgama.com/game/paintball-squad · 原词 paintball squad
-  - gamedistribution.com · gamedistribution-games · 2026-11-23 · https://gamedistribution.com/games/paintball-squad/ · 原词 paintball squad
-  - gamepix.com · gamepix-en · 2026-11-23 · https://www.gamepix.com/play/paintball-squad · 原词 paintball squad
-- **sniper vs 99 players**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - minijuegos.com · minijuegos-es · 2026-11-20 · https://www.minijuegos.com/juego/sniper-vs-99-players · 原词 sniper vs 99 players
-  - gamenora.com · gamenora-en · 2026-11-21 · https://www.gamenora.com/game/sniper-vs-99-players/ · 原词 sniper vs 99 players
-  - gamepix.com · gamepix-pt · 2026-11-23 · https://www.gamepix.com/pt/play/sniper-vs-99-players · 原词 sniper vs 99 players
-- **alienity**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - y8.com · y8-en · 2026-11-20 · https://www.y8.com/games/alienity · 原词 alienity
-  - gamepix.com · gamepix-en · 2026-11-22 · https://www.gamepix.com/play/alienity · 原词 alienity
 - **animal calculator**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-en · 2026-11-24 · https://www.gamepix.com/play/animal-calculator · 原词 animal calculator
   - y8.com · y8-en · 2026-11-24 · https://www.y8.com/games/animal_calculator · 原词 animal calculator
 - **bear firefly**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-pt · 2026-11-25 · https://www.gamepix.com/pt/play/bear-firefly · 原词 bear firefly
   - y8.com · y8-en · 2026-11-26 · https://www.y8.com/games/bear_firefly · 原词 bear firefly
+- **boom ridge**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamepix.com · gamepix-en · 2026-11-21 · https://www.gamepix.com/play/boom-ridge · 原词 boom ridge
+  - y8.com · y8-en · 2026-11-23 · https://www.y8.com/games/boom_ridge · 原词 boom ridge
+- **butterfly inc**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamepix.com · gamepix-en · 2026-11-23 · https://www.gamepix.com/play/butterfly-inc · 原词 butterfly inc
+  - y8.com · y8-en · 2026-11-24 · https://www.y8.com/games/butterfly_inc · 原词 butterfly inc
+- **custom diy phone case maker**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - y8.com · y8-en · 2026-11-24 · https://www.y8.com/games/custom_diy_phone_case_maker · 原词 custom diy phone case maker
+  - gamepix.com · gamepix-pt · 2026-11-25 · https://www.gamepix.com/pt/play/custom-diy-phone-case-maker · 原词 custom diy phone case maker
+- **ellies thanksgiving feast party**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - playgama.com · playgama-en · 2026-11-24 · https://playgama.com/game/ellies-thanksgiving-feast-party · 原词 ellies thanksgiving feast party
+  - y8.com · y8-en · 2026-11-26 · https://www.y8.com/games/ellies_thanksgiving_feast_party · 原词 ellies thanksgiving feast party
+- **escape tower**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamepix.com · gamepix-en · 2026-11-22 · https://www.gamepix.com/play/escape-tower · 原词 escape tower
+  - y8.com · y8-en · 2026-11-24 · https://www.y8.com/games/escape_tower · 原词 escape tower
 
 失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 165，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 40，采样上限遗漏 0。
 
 - **puresound**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-22 · https://fazier.com/launches/puresound · 原词 puresound
@@ -76,14 +72,6 @@
   - saasworthy.com · saasworthy-products · 2026-11-23 · https://www.saasworthy.com/product/wiro-ai · 原词 wiro ai
   - productperch.com · productperch-products · 2026-11-24 · https://productperch.com/products/wiro-ai/ · 原词 wiro ai
   - smollaunch.com · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/wiro-ai · 原词 wiro ai
-- **apex protocol**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - fazier.com · fazier-launches · 2026-11-20 · https://fazier.com/launches/apex-protocol · 原词 apex protocol
-  - uneed.best · uneed-products · 2026-11-22 · https://www.uneed.best/tool/apex-protocol · 原词 apex protocol
-  - smollaunch.com · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/apex-protocol · 原词 apex protocol
-- **pageree**：不同根域 3 家；同一天峰值 2 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - fridayhunt.com · fridayhunt-projects · 2026-11-20 · https://fridayhunt.com/projects/pageree · 原词 pageree
-  - indietools.app · indietools-products · 2026-11-24 · https://www.indietools.app/products/pageree · 原词 pageree
-  - productperch.com · productperch-products · 2026-11-24 · https://productperch.com/products/pageree/ · 原词 pageree
 - **ttapi**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-21 · https://fazier.com/launches/ttapi · 原词 ttapi
   - uneed.best · uneed-products · 2026-11-23 · https://www.uneed.best/tool/ttapi · 原词 ttapi
@@ -97,25 +85,34 @@
 - **aisong ai song cover generator**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - productperch.com · productperch-products · 2026-11-21 · https://productperch.com/products/aisong-ai-song-cover-generator/ · 原词 aisong ai song cover generator
   - indieneed.com · indieneed-products · 2026-11-23 · https://www.indieneed.com/products/aisong-ai-song-cover-generator · 原词 aisong ai song cover generator
+- **apex protocol**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - uneed.best · uneed-products · 2026-11-22 · https://www.uneed.best/tool/apex-protocol · 原词 apex protocol
+  - smollaunch.com · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/apex-protocol · 原词 apex protocol
+- **best places to work**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - saasworthy.com · saasworthy-products · 2026-11-23 · https://www.saasworthy.com/product/best-places-to-work · 原词 best places to work
+  - smollaunch.com · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/best-places-to-work · 原词 best places to work
 
 失败来源：microlaunch-products (TimeoutError: The read operation timed out)
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 16，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 67，采样上限遗漏 0。
 
+- **bedrock data**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - futurepedia.io · futurepedia-tools · 2026-11-26 · https://www.futurepedia.io/tool/bedrock-data · 原词 bedrock data
+  - toolveyor.com · toolveyor-tools · 2026-11-27 · https://toolveyor.com/bedrock-data · 原词 bedrock data
 - **cocomusic**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-22 · https://aitoolsdirectory.com/tool/cocomusic · 原词 cocomusic
   - aitoptools.com · aitoptools-tools · 2026-11-22 · https://aitoptools.com/tool/cocomusic/ · 原词 cocomusic
-- **davinci ai**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - aitoolsdirectory.com · aitoolsdirectory-tools · 2026-11-20 · https://aitoolsdirectory.com/tool/davinci-ai · 原词 davinci ai
-  - aitoptools.com · aitoptools-tools · 2026-11-20 · https://aitoptools.com/tool/davinci-ai/ · 原词 davinci ai
 - **intellemo**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolhouse.com · aitoolhouse-tools · 2026-11-24 · https://www.aitoolhouse.com/tools/intellemo · 原词 intellemo
   - toolveyor.com · toolveyor-tools · 2026-11-25 · https://toolveyor.com/intellemo · 原词 intellemo
 - **dessi ai**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - tooldirectory.ai · tooldirectory-ai-tools · 2026-11-21 · https://tooldirectory.ai/tools/dessi-ai · 原词 dessi ai
   - aitoolnet.com · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/dessi-ai · 原词 dessi ai
+- **layla**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - futurepedia.io · futurepedia-tools · 2026-11-24 · https://www.futurepedia.io/tool/layla · 原词 layla
+  - toolveyor.com · toolveyor-tools · 2026-11-27 · https://toolveyor.com/layla · 原词 layla
 - **the influencer ai**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - dang.ai · dangai-tools · 2026-11-21 · https://dang.ai/tool/the-influencer-ai · 原词 the influencer ai
   - toolveyor.com · toolveyor-tools · 2026-11-25 · https://toolveyor.com/the-influencer-ai · 原词 the influencer ai
@@ -130,7 +127,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 6，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -138,13 +135,13 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 89，采样上限遗漏 0。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 1442，采样上限遗漏 1079。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
 ## 巴西在线工具
 
-采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
+采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 3，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -152,10 +149,6 @@
 
 ### 跨SaaS和AI的同名产品
 
-- node mantis：独立根域 3 家；类别 ai, developer, saas
-  - developer · devhunt-tools · 2026-11-20 · https://devhunt.org/tool/node-mantis
-  - saas · uneed-products · 2026-11-20 · https://www.uneed.best/tool/node-mantis
-  - ai · aitoptools-tools · 2026-11-21 · https://aitoptools.com/tool/node-mantis/
 - plango：独立根域 3 家；类别 ai, developer, saas
   - developer · devhunt-tools · 2026-11-23 · https://devhunt.org/tool/plango
   - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/plango
@@ -175,15 +168,18 @@
 - codei lab：独立根域 2 家；类别 ai, saas
   - saas · productperch-products · 2026-11-24 · https://productperch.com/products/codei-lab/
   - ai · toolveyor-tools · 2026-11-25 · https://toolveyor.com/codei-lab
-- makeasong：独立根域 2 家；类别 ai, saas
-  - saas · indieneed-products · 2026-11-20 · https://www.indieneed.com/products/makeasong
-  - ai · aitoolnet-tools · 2026-11-21 · https://www.aitoolnet.com/makeasong
 - chat with work：独立根域 2 家；类别 ai, saas
   - saas · producthunt-products · 2026-11-23 · https://www.producthunt.com/products/chat-with-work
   - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/chat-with-work
 - hydrilla：独立根域 2 家；类别 ai, saas
   - saas · producthunt-products · 2026-11-23 · https://www.producthunt.com/products/hydrilla
   - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/hydrilla
+- motionflare：独立根域 2 家；类别 ai, saas
+  - saas · producthunt-products · 2026-11-23 · https://www.producthunt.com/products/motionflare
+  - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/motionflare
+- spikely：独立根域 2 家；类别 ai, saas
+  - saas · producthunt-products · 2026-11-23 · https://www.producthunt.com/products/spikely
+  - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/spikely
 
 ### 跨类别同向文件转换
 
