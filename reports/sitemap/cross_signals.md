@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-27T07:14:56.018622+08:00；详细候选：12000；7日轻量URL证据：13836/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：126/135；数据生成：2026-11-27T19:20:49.410111+08:00；详细候选：12000；7日轻量URL证据：14919/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 260，采样上限遗漏 63。
+采集：28/33来源，配置根域 30，新建基线 0，失败 5，新增 URL 242，采样上限遗漏 14。
 
 - **race rocket arena car extreme**：不同根域 4 家；同一天峰值 2 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-23 · https://gamedistribution.com/games/race%3A-rocket-arena-car-extreme/ · 原词 race: rocket arena car extreme
@@ -27,9 +27,16 @@
   - gamepix.com · gamepix-en · 2026-11-21 · https://www.gamepix.com/play/eggcavation · 原词 eggcavation
   - y8.com · y8-en · 2026-11-23 · https://www.y8.com/games/eggcavation · 原词 eggcavation
   - crazygames.com · crazygames-es · 2026-11-24 · https://www.crazygames.com/es/game/eggcavation · 原词 eggcavation
+- **escape chase**：不同根域 3 家；同一天峰值 1 家、连续3日 2 家、7日共 3 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - crazygames.com · crazygames-es · 2026-11-21 · https://www.crazygames.com/es/game/escape-chase · 原词 escape chase
+  - bgames.com · bgames-en · 2026-11-26 · https://www.bgames.com/game/escape-chase/ · 原词 escape chase
+  - playgama.com · playgama-en · 2026-11-27 · https://playgama.com/game/escape-chase · 原词 escape chase
 - **animal calculator**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-en · 2026-11-24 · https://www.gamepix.com/play/animal-calculator · 原词 animal calculator
   - y8.com · y8-en · 2026-11-24 · https://www.y8.com/games/animal_calculator · 原词 animal calculator
+- **barber haircut shop**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamepix.com · gamepix-pt · 2026-11-25 · https://www.gamepix.com/pt/play/barber-haircut-shop · 原词 barber haircut shop
+  - y8.com · y8-en · 2026-11-27 · https://www.y8.com/games/barber_haircut_shop · 原词 barber haircut shop
 - **bear firefly**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-pt · 2026-11-25 · https://www.gamepix.com/pt/play/bear-firefly · 原词 bear firefly
   - y8.com · y8-en · 2026-11-26 · https://www.y8.com/games/bear_firefly · 原词 bear firefly
@@ -39,21 +46,15 @@
 - **butterfly inc**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamepix.com · gamepix-en · 2026-11-23 · https://www.gamepix.com/play/butterfly-inc · 原词 butterfly inc
   - y8.com · y8-en · 2026-11-24 · https://www.y8.com/games/butterfly_inc · 原词 butterfly inc
-- **custom diy phone case maker**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - y8.com · y8-en · 2026-11-24 · https://www.y8.com/games/custom_diy_phone_case_maker · 原词 custom diy phone case maker
-  - gamepix.com · gamepix-pt · 2026-11-25 · https://www.gamepix.com/pt/play/custom-diy-phone-case-maker · 原词 custom diy phone case maker
-- **ellies thanksgiving feast party**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - playgama.com · playgama-en · 2026-11-24 · https://playgama.com/game/ellies-thanksgiving-feast-party · 原词 ellies thanksgiving feast party
-  - y8.com · y8-en · 2026-11-26 · https://www.y8.com/games/ellies_thanksgiving_feast_party · 原词 ellies thanksgiving feast party
-- **escape tower**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - gamepix.com · gamepix-en · 2026-11-22 · https://www.gamepix.com/play/escape-tower · 原词 escape tower
-  - y8.com · y8-en · 2026-11-24 · https://www.y8.com/games/escape_tower · 原词 escape tower
+- **continental order**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - gamepix.com · gamepix-pt · 2026-11-27 · https://www.gamepix.com/pt/play/continental-order · 原词 continental order
+  - y8.com · y8-en · 2026-11-27 · https://www.y8.com/studios/continental-order · 原词 continental order
 
-失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
+失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；gamenora-en (HTTPError: HTTP Error 415: Unsupported Media Type)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 40，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 121，采样上限遗漏 0。
 
 - **puresound**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-22 · https://fazier.com/launches/puresound · 原词 puresound
@@ -96,7 +97,7 @@
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 67，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 26，采样上限遗漏 0。
 
 - **bedrock data**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - futurepedia.io · futurepedia-tools · 2026-11-26 · https://www.futurepedia.io/tool/bedrock-data · 原词 bedrock data
@@ -127,7 +128,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 0，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 13，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -135,13 +136,13 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 1442，采样上限遗漏 1079。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 688，采样上限遗漏 476。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
 ## 巴西在线工具
 
-采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 3，采样上限遗漏 0。
+采集：10/10来源，配置根域 10，新建基线 0，失败 0，新增 URL 0，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
