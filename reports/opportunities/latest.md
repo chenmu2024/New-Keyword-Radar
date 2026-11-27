@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-26T23:20:59.091851+00:00
-- Historical candidates: 7897
-- Newly recorded from pending: 101
+- Updated (UTC): 2026-11-27T10:46:23.003838+00:00
+- Historical candidates: 8008
+- Newly recorded from pending: 111
 - Awaiting 7/14/30-day evidence review: 6777
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- 1 bit comparator circuit diagram [Global] — discovered — first 2026-11-27, last 2026-11-27
-- api design principles [Global] — discovered — first 2026-11-27, last 2026-11-27
-- appsc [Global] — discovered — first 2026-11-27, last 2026-11-27
-- backend development [Global] — discovered — first 2026-11-27, last 2026-11-27
-- benjamin hauwanga [Global] — discovered — first 2026-11-27, last 2026-11-27
-- bharosa scheme [Global] — discovered — first 2026-11-27, last 2026-11-27
-- breville handy mix scraper [Global] — discovered — first 2026-11-27, last 2026-11-27
-- by terry tea to tan [Global] — discovered — first 2026-11-27, last 2026-11-27
-- can i use a blender instead of a food processor [Global] — discovered — first 2026-11-27, last 2026-11-27
-- can you shred cheese in a food processor [Global] — discovered — first 2026-11-27, last 2026-11-27
-- capcut template video [Global] — discovered — first 2026-11-27, last 2026-11-27
-- casino ohne oasis 🇩🇪 charlescasinos.sbs [Global] — discovered — first 2026-11-27, last 2026-11-27
-- casino online 🇦🇺 www.casinoganino.blog [Global] — discovered — first 2026-11-27, last 2026-11-27
-- casino zonder cruks 🇳🇱 2026 www.casinoganino.blog [Global] — discovered — first 2026-11-27, last 2026-11-27
-- casinos online 🇧🇪 www.casinoganino.blog [Global] — discovered — first 2026-11-27, last 2026-11-27
-- casinos online 🇪🇸 www.casinobimo.blog [Global] — discovered — first 2026-11-27, last 2026-11-27
-- cet 12th level admit card 2026 [Global] — discovered — first 2026-11-27, last 2026-11-27
-- cet admit card [Global] — discovered — first 2026-11-27, last 2026-11-27
-- cet admit card 2026 [Global] — discovered — first 2026-11-27, last 2026-11-27
-- cet admit card 2026 rpresult.com [Global] — discovered — first 2026-11-27, last 2026-11-27
-- charades generator [Global] — discovered — first 2026-11-27, last 2026-11-27
+- gta 6 advanced tracker removal [Global] — discovered — first 2026-11-27, last 2026-11-27
 - clc dashboard [Global] — discovered — first 2026-11-27, last 2026-11-27
-- community action appointment scheduler open now [Global] — discovered — first 2026-11-27, last 2026-11-27
-- connectioncafe.com [Global] — discovered — first 2026-11-27, last 2026-11-27
-- court interpreter [Global] — discovered — first 2026-11-27, last 2026-11-27
+- cet 12th level admit card 2026 [Global] — discovered — first 2026-11-27, last 2026-11-27
+- web development best practices [Global] — discovered — first 2026-11-27, last 2026-11-27
+- dell 15.6 2k touchscreen laptop intel core i7 processor [Global] — discovered — first 2026-11-27, last 2026-11-27
+- defenseless receiver [Global] — discovered — first 2026-11-27, last 2026-11-27
+- gro creator [Global] — discovered — first 2026-11-27, last 2026-11-27
+- benjamin hauwanga [Global] — discovered — first 2026-11-27, last 2026-11-27
+- by terry tea to tan [Global] — discovered — first 2026-11-27, last 2026-11-27
+- ibps clerk mains pattern [Global] — discovered — first 2026-11-27, last 2026-11-27
+- ibps clerk mains exam pattern [Global] — discovered — first 2026-11-27, last 2026-11-27
+- life path calculator [Global] — discovered — first 2026-11-27, last 2026-11-27
+- insta navigator [Global] — discovered — first 2026-11-27, last 2026-11-27
+- math playground [Global] — discovered — first 2026-11-27, last 2026-11-27
+- sprunki anti shifted phase 4 [Global] — discovered — first 2026-11-27, last 2026-11-27
+- tracker season 4 episode 7 [Global] — discovered — first 2026-11-27, last 2026-11-27
+- food processor pie crust recipe [Global] — discovered — first 2026-11-27, last 2026-11-27
+- casinos online 🇧🇪 www.casinoganino.blog [Global] — discovered — first 2026-11-27, last 2026-11-27
+- charades generator [Global] — discovered — first 2026-11-27, last 2026-11-27
+- bharosa scheme [Global] — discovered — first 2026-11-27, last 2026-11-27
+- online video uploader [Global] — discovered — first 2026-11-27, last 2026-11-27
+- receiver of funds crossword clue [Global] — discovered — first 2026-11-27, last 2026-11-27
+- nba cup format [Global] — discovered — first 2026-11-27, last 2026-11-27
+- breville handy mix scraper [Global] — discovered — first 2026-11-27, last 2026-11-27
+- green bay packers game [Global] — discovered — first 2026-11-27, last 2026-11-27
 
 ## Due for follow-up
 
