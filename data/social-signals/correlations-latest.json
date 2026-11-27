@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-11-27T12:13:03.809112+00:00",
-  "social_generated_at": "2026-11-27T12:13:03.809112+00:00",
+  "generated_at": "2026-11-27T23:26:41.093668+00:00",
+  "social_generated_at": "2026-11-27T23:26:41.093668+00:00",
   "trends_coverage": {
-    "archive_date": "2026-11-27",
-    "scanned_seed_count": 74,
+    "archive_date": "2026-11-28",
+    "scanned_seed_count": 5,
     "target_seed_count": 74,
-    "complete_daily_target": true,
-    "rising_total": 500,
-    "eligible_exact_queries": 458
+    "complete_daily_target": false,
+    "rising_total": 65,
+    "eligible_exact_queries": 60
   },
-  "social_unique_in_run": 54,
+  "social_unique_in_run": 56,
   "review_window": {
     "trend_days_evaluated": [
+      {
+        "archive_date": "2026-11-28",
+        "scanned_seed_count": 5,
+        "target_seed_count": 74,
+        "complete_daily_target": false,
+        "rising_total": 65,
+        "eligible_exact_queries": 60
+      },
       {
         "archive_date": "2026-11-27",
         "scanned_seed_count": 74,
@@ -27,20 +35,12 @@
         "complete_daily_target": true,
         "rising_total": 501,
         "eligible_exact_queries": 453
-      },
-      {
-        "archive_date": "2026-11-25",
-        "scanned_seed_count": 74,
-        "target_seed_count": 74,
-        "complete_daily_target": true,
-        "rising_total": 510,
-        "eligible_exact_queries": 457
       }
     ],
-    "exact_queries_in_window": 689,
-    "social_current_run": 54,
-    "social_prior_sightings_72h": 191,
-    "social_reviewable_72h": 245,
+    "exact_queries_in_window": 616,
+    "social_current_run": 56,
+    "social_prior_sightings_72h": 179,
+    "social_reviewable_72h": 235,
     "window_hours": 72,
     "not_new_discoveries_warning": "Window includes older links recently re-seen. Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."
   },
