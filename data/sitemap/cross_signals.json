@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-27",
-  "window_start": "2026-11-21",
+  "date": "2026-11-28",
+  "window_start": "2026-11-22",
   "source_count": 135,
   "queue_count": 12000,
   "ignored_unverifiable_proofs": 0,
@@ -87,45 +87,9 @@
         ]
       },
       {
-        "query": "eggcavation",
-        "independent_websites": 3,
-        "date_span_days": 3,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/eggcavation",
-            "first_seen": "2026-11-21",
-            "observed_query": "eggcavation",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/eggcavation",
-            "first_seen": "2026-11-23",
-            "observed_query": "eggcavation",
-            "source_category": "games"
-          },
-          {
-            "source_id": "crazygames-es",
-            "website": "crazygames.com",
-            "url": "https://www.crazygames.com/es/game/eggcavation",
-            "first_seen": "2026-11-24",
-            "observed_query": "eggcavation",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "escape chase",
         "independent_websites": 3,
-        "date_span_days": 6,
+        "date_span_days": 5,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -133,10 +97,10 @@
         "seven_calendar_day_total": 3,
         "evidence": [
           {
-            "source_id": "crazygames-es",
+            "source_id": "crazygames-br",
             "website": "crazygames.com",
-            "url": "https://www.crazygames.com/es/game/escape-chase",
-            "first_seen": "2026-11-21",
+            "url": "https://www.crazygames.com/br/game/escape-chase",
+            "first_seen": "2026-11-22",
             "observed_query": "escape chase",
             "source_category": "games"
           },
@@ -154,6 +118,42 @@
             "url": "https://playgama.com/game/escape-chase",
             "first_seen": "2026-11-27",
             "observed_query": "escape chase",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "voxplode destruction sim",
+        "independent_websites": 3,
+        "date_span_days": 6,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/voxplode_destruction_sim",
+            "first_seen": "2026-11-22",
+            "observed_query": "voxplode destruction sim",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/voxplode-destruction-sim",
+            "first_seen": "2026-11-23",
+            "observed_query": "voxplode destruction sim",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/voxplode%3A-destruction-sim/",
+            "first_seen": "2026-11-28",
+            "observed_query": "voxplode: destruction sim",
             "source_category": "games"
           }
         ]
@@ -477,9 +477,9 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-en",
+            "source_id": "gamepix-pt",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/turbo-colis",
+            "url": "https://www.gamepix.com/pt/play/turbo-colis",
             "first_seen": "2026-11-26",
             "observed_query": "turbo colis",
             "source_category": "games"
@@ -635,6 +635,34 @@
         ]
       },
       {
+        "query": "eggcavation",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/eggcavation",
+            "first_seen": "2026-11-23",
+            "observed_query": "eggcavation",
+            "source_category": "games"
+          },
+          {
+            "source_id": "crazygames-es",
+            "website": "crazygames.com",
+            "url": "https://www.crazygames.com/es/game/eggcavation",
+            "first_seen": "2026-11-24",
+            "observed_query": "eggcavation",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "gobble pit",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -775,34 +803,6 @@
         ]
       },
       {
-        "query": "scamper karts",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/scamper_karts",
-            "first_seen": "2026-11-21",
-            "observed_query": "scamper karts",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/scamper-karts",
-            "first_seen": "2026-11-22",
-            "observed_query": "scamper karts",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "stickninja stealth assassin",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -859,34 +859,6 @@
         ]
       },
       {
-        "query": "thistledown market",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/thistledown_market",
-            "first_seen": "2026-11-21",
-            "observed_query": "thistledown market",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/thistledown-market",
-            "first_seen": "2026-11-22",
-            "observed_query": "thistledown market",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "tumblephant",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -915,62 +887,6 @@
         ]
       },
       {
-        "query": "voxplode destruction sim",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/voxplode_destruction_sim",
-            "first_seen": "2026-11-22",
-            "observed_query": "voxplode destruction sim",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/voxplode-destruction-sim",
-            "first_seen": "2026-11-23",
-            "observed_query": "voxplode destruction sim",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "whiskfire",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/whiskfire",
-            "first_seen": "2026-11-21",
-            "observed_query": "whiskfire",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/whiskfire",
-            "first_seen": "2026-11-22",
-            "observed_query": "whiskfire",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "barber haircut shop",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -994,34 +910,6 @@
             "url": "https://www.y8.com/games/barber_haircut_shop",
             "first_seen": "2026-11-27",
             "observed_query": "barber haircut shop",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "boom ridge",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/boom-ridge",
-            "first_seen": "2026-11-21",
-            "observed_query": "boom ridge",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/boom_ridge",
-            "first_seen": "2026-11-23",
-            "observed_query": "boom ridge",
             "source_category": "games"
           }
         ]
@@ -1111,34 +999,6 @@
         ]
       },
       {
-        "query": "padsong",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/padsong",
-            "first_seen": "2026-11-21",
-            "observed_query": "padsong",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/padsong",
-            "first_seen": "2026-11-23",
-            "observed_query": "padsong",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "paper bike race motocross",
         "independent_websites": 2,
         "date_span_days": 2,
@@ -1218,62 +1078,6 @@
             "url": "https://www.gamepix.com/pt/play/saws-deungon-escapes",
             "first_seen": "2026-11-25",
             "observed_query": "saws deungon escapes",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "sea swarm",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/sea_swarm",
-            "first_seen": "2026-11-21",
-            "observed_query": "sea swarm",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/sea-swarm",
-            "first_seen": "2026-11-23",
-            "observed_query": "sea swarm",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "sniper vs 99 players",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamenora-en",
-            "website": "gamenora.com",
-            "url": "https://www.gamenora.com/game/sniper-vs-99-players/",
-            "first_seen": "2026-11-21",
-            "observed_query": "sniper vs 99 players",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/sniper-vs-99-players",
-            "first_seen": "2026-11-23",
-            "observed_query": "sniper vs 99 players",
             "source_category": "games"
           }
         ]
@@ -1363,7 +1167,7 @@
         ]
       },
       {
-        "query": "tank rampage",
+        "query": "street fighter",
         "independent_websites": 2,
         "date_span_days": 2,
         "priority": "medium",
@@ -1373,19 +1177,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "playgama-en",
-            "website": "playgama.com",
-            "url": "https://playgama.com/game/tank-rampage",
-            "first_seen": "2026-11-21",
-            "observed_query": "tank rampage",
+            "source_id": "minijuegos-es",
+            "website": "minijuegos.com",
+            "url": "https://www.minijuegos.com/juego/street-fighter",
+            "first_seen": "2026-11-26",
+            "observed_query": "street fighter",
             "source_category": "games"
           },
           {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/tank-rampage",
-            "first_seen": "2026-11-23",
-            "observed_query": "tank rampage",
+            "source_id": "silvergames-en",
+            "website": "silvergames.com",
+            "url": "https://www.silvergames.com/en/t/street-fighter",
+            "first_seen": "2026-11-28",
+            "observed_query": "street fighter",
             "source_category": "games"
           }
         ]
@@ -1470,34 +1274,6 @@
             "url": "https://playgama.com/game/break-the-walls",
             "first_seen": "2026-11-25",
             "observed_query": "break the walls",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "cosmic cleaners",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "playgama-en",
-            "website": "playgama.com",
-            "url": "https://playgama.com/game/cosmic-cleaners",
-            "first_seen": "2026-11-21",
-            "observed_query": "cosmic cleaners",
-            "source_category": "games"
-          },
-          {
-            "source_id": "jogos360-br",
-            "website": "jogos360.com.br",
-            "url": "https://www.jogos360.com.br/cosmic_cleaners.html",
-            "first_seen": "2026-11-24",
-            "observed_query": "cosmic cleaners",
             "source_category": "games"
           }
         ]
@@ -1615,34 +1391,6 @@
         ]
       },
       {
-        "query": "platform thief",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/platform_thief",
-            "first_seen": "2026-11-21",
-            "observed_query": "platform thief",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/platform-thief",
-            "first_seen": "2026-11-24",
-            "observed_query": "platform thief",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "pyramid builders",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -1727,6 +1475,34 @@
         ]
       },
       {
+        "query": "world s deepest hole",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/world-s-deepest-hole",
+            "first_seen": "2026-11-22",
+            "observed_query": "world s deepest hole",
+            "source_category": "games"
+          },
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/world_s_deepest_hole",
+            "first_seen": "2026-11-25",
+            "observed_query": "world s deepest hole",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "zombie juggernaut",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -1783,34 +1559,6 @@
         ]
       },
       {
-        "query": "bayday io",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "minijuegos-es",
-            "website": "minijuegos.com",
-            "url": "https://www.minijuegos.com/juego/bayday-io",
-            "first_seen": "2026-11-21",
-            "observed_query": "bayday io",
-            "source_category": "games"
-          },
-          {
-            "source_id": "jogos360-br",
-            "website": "jogos360.com.br",
-            "url": "https://www.jogos360.com.br/bayday_io.html",
-            "first_seen": "2026-11-25",
-            "observed_query": "bayday io",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
         "query": "brick arrow escape puzzle",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -1834,6 +1582,34 @@
             "url": "https://www.y8.com/games/brick_arrow_escape_puzzle",
             "first_seen": "2026-11-27",
             "observed_query": "brick arrow escape puzzle",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "crystal workshop",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/crystal-workshop",
+            "first_seen": "2026-11-24",
+            "observed_query": "crystal workshop",
+            "source_category": "games"
+          },
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/crystal-workshop",
+            "first_seen": "2026-11-28",
+            "observed_query": "crystal workshop",
             "source_category": "games"
           }
         ]
@@ -2063,7 +1839,7 @@
         ]
       },
       {
-        "query": "pickle rally",
+        "query": "roadrival",
         "independent_websites": 2,
         "date_span_days": 4,
         "priority": "watch",
@@ -2073,19 +1849,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/pickle-rally/",
-            "first_seen": "2026-11-21",
-            "observed_query": "pickle rally",
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/roadrival",
+            "first_seen": "2026-11-22",
+            "observed_query": "roadrival",
             "source_category": "games"
           },
           {
             "source_id": "y8-en",
             "website": "y8.com",
-            "url": "https://www.y8.com/games/pickle_rally",
-            "first_seen": "2026-11-25",
-            "observed_query": "pickle rally",
+            "url": "https://www.y8.com/games/roadrival",
+            "first_seen": "2026-11-26",
+            "observed_query": "roadrival",
             "source_category": "games"
           }
         ]
@@ -2119,7 +1895,7 @@
         ]
       },
       {
-        "query": "sky rush",
+        "query": "save the fireball",
         "independent_websites": 2,
         "date_span_days": 4,
         "priority": "watch",
@@ -2129,19 +1905,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/sky-rush/",
-            "first_seen": "2026-11-21",
-            "observed_query": "sky rush",
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/save-the-fireball",
+            "first_seen": "2026-11-24",
+            "observed_query": "save the fireball",
             "source_category": "games"
           },
           {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/sky-rush",
-            "first_seen": "2026-11-25",
-            "observed_query": "sky rush",
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/save-the-fireball/",
+            "first_seen": "2026-11-28",
+            "observed_query": "save the fireball",
             "source_category": "games"
           }
         ]
@@ -2231,6 +2007,34 @@
         ]
       },
       {
+        "query": "swat ops bodycamera",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "minijuegos-es",
+            "website": "minijuegos.com",
+            "url": "https://www.minijuegos.com/juego/swat-ops-bodycamera",
+            "first_seen": "2026-11-24",
+            "observed_query": "swat ops bodycamera",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamenora-en",
+            "website": "gamenora.com",
+            "url": "https://www.gamenora.com/game/swat-ops-bodycamera/",
+            "first_seen": "2026-11-28",
+            "observed_query": "swat ops bodycamera",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
         "query": "the other way around",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -2259,9 +2063,9 @@
         ]
       },
       {
-        "query": "truck rush highway racing",
+        "query": "bring down this castle",
         "independent_websites": 2,
-        "date_span_days": 4,
+        "date_span_days": 5,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -2271,45 +2075,17 @@
           {
             "source_id": "gamepix-en",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/truck-rush-highway-racing",
-            "first_seen": "2026-11-21",
-            "observed_query": "truck rush highway racing",
+            "url": "https://www.gamepix.com/play/bring-down-this-castle",
+            "first_seen": "2026-11-22",
+            "observed_query": "bring down this castle",
             "source_category": "games"
           },
           {
             "source_id": "y8-en",
             "website": "y8.com",
-            "url": "https://www.y8.com/games/truck_rush_highway_racing",
-            "first_seen": "2026-11-25",
-            "observed_query": "truck rush highway racing",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "world s deepest hole",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/world-s-deepest-hole",
-            "first_seen": "2026-11-21",
-            "observed_query": "world s deepest hole",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/world_s_deepest_hole",
-            "first_seen": "2026-11-25",
-            "observed_query": "world s deepest hole",
+            "url": "https://www.y8.com/games/bring_down_this_castle_",
+            "first_seen": "2026-11-27",
+            "observed_query": "bring down this castle",
             "source_category": "games"
           }
         ]
@@ -2371,7 +2147,7 @@
         ]
       },
       {
-        "query": "roadrival",
+        "query": "kingdom realms tower defense",
         "independent_websites": 2,
         "date_span_days": 5,
         "priority": "watch",
@@ -2381,19 +2157,103 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-pt",
+            "source_id": "gamepix-en",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/roadrival",
-            "first_seen": "2026-11-21",
-            "observed_query": "roadrival",
+            "url": "https://www.gamepix.com/play/kingdom-realms-tower-defense",
+            "first_seen": "2026-11-23",
+            "observed_query": "kingdom realms tower defense",
+            "source_category": "games"
+          },
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/kingdom-realms-tower-defense",
+            "first_seen": "2026-11-28",
+            "observed_query": "kingdom realms tower defense",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "lunar sweepers moon dust simulator",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/lunar-sweepers-moon-dust-simulator",
+            "first_seen": "2026-11-23",
+            "observed_query": "lunar sweepers moon dust simulator",
+            "source_category": "games"
+          },
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/lunar-sweepers-moon-dust-simulator",
+            "first_seen": "2026-11-28",
+            "observed_query": "lunar sweepers moon dust simulator",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "magical forest mahjong",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/magical-forest-mahjong/",
+            "first_seen": "2026-11-23",
+            "observed_query": "magical forest mahjong",
+            "source_category": "games"
+          },
+          {
+            "source_id": "bgames-en",
+            "website": "bgames.com",
+            "url": "https://www.bgames.com/game/magical-forest-mahjong/",
+            "first_seen": "2026-11-28",
+            "observed_query": "magical forest mahjong",
+            "source_category": "games"
+          }
+        ]
+      },
+      {
+        "query": "my glam hair salon",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "crazygames-br",
+            "website": "crazygames.com",
+            "url": "https://www.crazygames.com/br/game/my-glam-hair-salon",
+            "first_seen": "2026-11-22",
+            "observed_query": "my glam hair salon",
             "source_category": "games"
           },
           {
             "source_id": "y8-en",
             "website": "y8.com",
-            "url": "https://www.y8.com/games/roadrival",
-            "first_seen": "2026-11-26",
-            "observed_query": "roadrival",
+            "url": "https://www.y8.com/games/my_glam_hair_salon",
+            "first_seen": "2026-11-27",
+            "observed_query": "my glam hair salon",
             "source_category": "games"
           }
         ]
@@ -2511,7 +2371,7 @@
         ]
       },
       {
-        "query": "bring down this castle",
+        "query": "soccer",
         "independent_websites": 2,
         "date_span_days": 6,
         "priority": "watch",
@@ -2521,47 +2381,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/bring-down-this-castle",
-            "first_seen": "2026-11-21",
-            "observed_query": "bring down this castle",
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/6_soccer",
+            "first_seen": "2026-11-22",
+            "observed_query": "soccer",
             "source_category": "games"
           },
           {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/bring_down_this_castle_",
-            "first_seen": "2026-11-27",
-            "observed_query": "bring down this castle",
-            "source_category": "games"
-          }
-        ]
-      },
-      {
-        "query": "my glam hair salon",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "crazygames-es",
-            "website": "crazygames.com",
-            "url": "https://www.crazygames.com/es/game/my-glam-hair-salon",
-            "first_seen": "2026-11-21",
-            "observed_query": "my glam hair salon",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/my_glam_hair_salon",
-            "first_seen": "2026-11-27",
-            "observed_query": "my glam hair salon",
+            "source_id": "silvergames-en",
+            "website": "silvergames.com",
+            "url": "https://www.silvergames.com/en/t/soccer",
+            "first_seen": "2026-11-28",
+            "observed_query": "soccer",
             "source_category": "games"
           }
         ]
@@ -2752,42 +2584,6 @@
             "url": "https://fazier.com/launches/supermailbox",
             "first_seen": "2026-11-24",
             "observed_query": "supermailbox",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "ttapi",
-        "independent_websites": 3,
-        "date_span_days": 3,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/ttapi",
-            "first_seen": "2026-11-21",
-            "observed_query": "ttapi",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/ttapi",
-            "first_seen": "2026-11-23",
-            "observed_query": "ttapi",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/ttapi",
-            "first_seen": "2026-11-24",
-            "observed_query": "ttapi",
             "source_category": "saas"
           }
         ]
@@ -3241,6 +3037,34 @@
         ]
       },
       {
+        "query": "dhtmlx planning engine",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "devhunt-tools",
+            "website": "devhunt.org",
+            "url": "https://devhunt.org/tool/dhtmlx-planning-engine",
+            "first_seen": "2026-11-27",
+            "observed_query": "dhtmlx planning engine",
+            "source_category": "developer"
+          },
+          {
+            "source_id": "fazier-launches",
+            "website": "fazier.com",
+            "url": "https://fazier.com/launches/dhtmlx-planning-engine",
+            "first_seen": "2026-11-28",
+            "observed_query": "dhtmlx planning engine",
+            "source_category": "saas"
+          }
+        ]
+      },
+      {
         "query": "domainrating",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -3493,9 +3317,9 @@
         ]
       },
       {
-        "query": "aisong ai song cover generator",
+        "query": "ttapi",
         "independent_websites": 2,
-        "date_span_days": 2,
+        "date_span_days": 1,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -3503,19 +3327,19 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/aisong-ai-song-cover-generator/",
-            "first_seen": "2026-11-21",
-            "observed_query": "aisong ai song cover generator",
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/ttapi",
+            "first_seen": "2026-11-23",
+            "observed_query": "ttapi",
             "source_category": "saas"
           },
           {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/aisong-ai-song-cover-generator",
-            "first_seen": "2026-11-23",
-            "observed_query": "aisong ai song cover generator",
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/ttapi",
+            "first_seen": "2026-11-24",
+            "observed_query": "ttapi",
             "source_category": "saas"
           }
         ]
@@ -3545,6 +3369,34 @@
             "first_seen": "2026-11-24",
             "observed_query": "apex protocol",
             "source_category": "saas"
+          }
+        ]
+      },
+      {
+        "query": "betaneon",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "indieneed-products",
+            "website": "indieneed.com",
+            "url": "https://www.indieneed.com/products/betaneon",
+            "first_seen": "2026-11-26",
+            "observed_query": "betaneon",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "toolveyor-tools",
+            "website": "toolveyor.com",
+            "url": "https://toolveyor.com/betaneon",
+            "first_seen": "2026-11-28",
+            "observed_query": "betaneon",
+            "source_category": "ai"
           }
         ]
       },
@@ -3601,62 +3453,6 @@
             "first_seen": "2026-11-25",
             "observed_query": "chat with work",
             "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "daleelai",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/daleelai",
-            "first_seen": "2026-11-21",
-            "observed_query": "daleelai",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/daleelai",
-            "first_seen": "2026-11-23",
-            "observed_query": "daleelai",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "get your ai rap videos",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/get-your-ai-rap-videos/",
-            "first_seen": "2026-11-21",
-            "observed_query": "get your ai rap videos",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/get-your-ai-rap-videos",
-            "first_seen": "2026-11-23",
-            "observed_query": "get your ai rap videos",
-            "source_category": "saas"
           }
         ]
       },
@@ -3997,6 +3793,34 @@
         ]
       },
       {
+        "query": "humanize ink",
+        "independent_websites": 2,
+        "date_span_days": 3,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "toolfound-products",
+            "website": "toolfound.com",
+            "url": "https://toolfound.com/tool/humanize-ink",
+            "first_seen": "2026-11-25",
+            "observed_query": "humanize ink",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "toolveyor-tools",
+            "website": "toolveyor.com",
+            "url": "https://toolveyor.com/humanize-ink",
+            "first_seen": "2026-11-28",
+            "observed_query": "humanize ink",
+            "source_category": "ai"
+          }
+        ]
+      },
+      {
         "query": "jobs every hour",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -4109,174 +3933,6 @@
         ]
       },
       {
-        "query": "dessi ai",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "tooldirectory-ai-tools",
-            "website": "tooldirectory.ai",
-            "url": "https://tooldirectory.ai/tools/dessi-ai",
-            "first_seen": "2026-11-21",
-            "observed_query": "dessi ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/dessi-ai",
-            "first_seen": "2026-11-25",
-            "observed_query": "dessi ai",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "eonebill",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/eonebill",
-            "first_seen": "2026-11-21",
-            "observed_query": "eonebill",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/eonebill",
-            "first_seen": "2026-11-25",
-            "observed_query": "eonebill",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "filmgrail",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/filmgrail",
-            "first_seen": "2026-11-21",
-            "observed_query": "filmgrail",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/filmgrail/",
-            "first_seen": "2026-11-25",
-            "observed_query": "filmgrail",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "mapsleadextractor",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/mapsleadextractor/",
-            "first_seen": "2026-11-21",
-            "observed_query": "mapsleadextractor",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/mapsleadextractor",
-            "first_seen": "2026-11-25",
-            "observed_query": "mapsleadextractor",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "ofintech desk",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "devhunt-tools",
-            "website": "devhunt.org",
-            "url": "https://devhunt.org/tool/ofintech-desk",
-            "first_seen": "2026-11-21",
-            "observed_query": "ofintech desk",
-            "source_category": "developer"
-          },
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/ofintech-desk",
-            "first_seen": "2026-11-25",
-            "observed_query": "ofintech desk",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
-        "query": "the influencer ai",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "dangai-tools",
-            "website": "dang.ai",
-            "url": "https://dang.ai/tool/the-influencer-ai",
-            "first_seen": "2026-11-21",
-            "observed_query": "the influencer ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/the-influencer-ai",
-            "first_seen": "2026-11-25",
-            "observed_query": "the influencer ai",
-            "source_category": "ai"
-          }
-        ]
-      },
-      {
         "query": "waifu",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -4305,7 +3961,7 @@
         ]
       },
       {
-        "query": "enlyo",
+        "query": "reelboop",
         "independent_websites": 2,
         "date_span_days": 5,
         "priority": "watch",
@@ -4315,48 +3971,20 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/enlyo/",
-            "first_seen": "2026-11-21",
-            "observed_query": "enlyo",
+            "source_id": "toolfound-products",
+            "website": "toolfound.com",
+            "url": "https://toolfound.com/tool/reelboop",
+            "first_seen": "2026-11-23",
+            "observed_query": "reelboop",
             "source_category": "saas"
           },
           {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/enlyo",
-            "first_seen": "2026-11-26",
-            "observed_query": "enlyo",
-            "source_category": "saas"
-          }
-        ]
-      },
-      {
-        "query": "decibri",
-        "independent_websites": 2,
-        "date_span_days": 6,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/decibri",
-            "first_seen": "2026-11-21",
-            "observed_query": "decibri",
+            "source_id": "toolveyor-tools",
+            "website": "toolveyor.com",
+            "url": "https://toolveyor.com/reelboop",
+            "first_seen": "2026-11-28",
+            "observed_query": "reelboop",
             "source_category": "ai"
-          },
-          {
-            "source_id": "saascity-products",
-            "website": "saascity.io",
-            "url": "https://saascity.io/live/decibri",
-            "first_seen": "2026-11-27",
-            "observed_query": "decibri",
-            "source_category": "saas"
           }
         ]
       }
@@ -4365,8 +3993,8 @@
     "functions": []
   },
   "group_counts": {
-    "games": 90,
-    "products": 62,
+    "games": 84,
+    "products": 55,
     "tools": 0,
     "functions": 0
   },
@@ -4455,46 +4083,9 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "eggcavation",
-        "independent_websites": 3,
-        "date_span_days": 3,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/eggcavation",
-            "first_seen": "2026-11-21",
-            "observed_query": "eggcavation",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/eggcavation",
-            "first_seen": "2026-11-23",
-            "observed_query": "eggcavation",
-            "source_category": "games"
-          },
-          {
-            "source_id": "crazygames-es",
-            "website": "crazygames.com",
-            "url": "https://www.crazygames.com/es/game/eggcavation",
-            "first_seen": "2026-11-24",
-            "observed_query": "eggcavation",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "escape chase",
         "independent_websites": 3,
-        "date_span_days": 6,
+        "date_span_days": 5,
         "priority": "medium",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -4502,10 +4093,10 @@
         "seven_calendar_day_total": 3,
         "evidence": [
           {
-            "source_id": "crazygames-es",
+            "source_id": "crazygames-br",
             "website": "crazygames.com",
-            "url": "https://www.crazygames.com/es/game/escape-chase",
-            "first_seen": "2026-11-21",
+            "url": "https://www.crazygames.com/br/game/escape-chase",
+            "first_seen": "2026-11-22",
             "observed_query": "escape chase",
             "source_category": "games"
           },
@@ -4523,6 +4114,43 @@
             "url": "https://playgama.com/game/escape-chase",
             "first_seen": "2026-11-27",
             "observed_query": "escape chase",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "voxplode destruction sim",
+        "independent_websites": 3,
+        "date_span_days": 6,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 3,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/voxplode_destruction_sim",
+            "first_seen": "2026-11-22",
+            "observed_query": "voxplode destruction sim",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/voxplode-destruction-sim",
+            "first_seen": "2026-11-23",
+            "observed_query": "voxplode destruction sim",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/voxplode%3A-destruction-sim/",
+            "first_seen": "2026-11-28",
+            "observed_query": "voxplode: destruction sim",
             "source_category": "games"
           }
         ],
@@ -4616,35 +4244,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "boom ridge",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/boom-ridge",
-            "first_seen": "2026-11-21",
-            "observed_query": "boom ridge",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/boom_ridge",
-            "first_seen": "2026-11-23",
-            "observed_query": "boom ridge",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "butterfly inc",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -4726,6 +4325,35 @@
             "url": "https://www.gamepix.com/pt/play/custom-diy-phone-case-maker",
             "first_seen": "2026-11-25",
             "observed_query": "custom diy phone case maker",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "eggcavation",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/eggcavation",
+            "first_seen": "2026-11-23",
+            "observed_query": "eggcavation",
+            "source_category": "games"
+          },
+          {
+            "source_id": "crazygames-es",
+            "website": "crazygames.com",
+            "url": "https://www.crazygames.com/es/game/eggcavation",
+            "first_seen": "2026-11-24",
+            "observed_query": "eggcavation",
             "source_category": "games"
           }
         ],
@@ -5022,35 +4650,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "padsong",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/padsong",
-            "first_seen": "2026-11-21",
-            "observed_query": "padsong",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/padsong",
-            "first_seen": "2026-11-23",
-            "observed_query": "padsong",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "paintball squad",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -5196,64 +4795,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "scamper karts",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/scamper_karts",
-            "first_seen": "2026-11-21",
-            "observed_query": "scamper karts",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/scamper-karts",
-            "first_seen": "2026-11-22",
-            "observed_query": "scamper karts",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "sea swarm",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/sea_swarm",
-            "first_seen": "2026-11-21",
-            "observed_query": "sea swarm",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/sea-swarm",
-            "first_seen": "2026-11-23",
-            "observed_query": "sea swarm",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "slime factory defense",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -5277,35 +4818,6 @@
             "url": "https://www.y8.com/games/slime_factory_defense",
             "first_seen": "2026-11-22",
             "observed_query": "slime factory defense",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "sniper vs 99 players",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamenora-en",
-            "website": "gamenora.com",
-            "url": "https://www.gamenora.com/game/sniper-vs-99-players/",
-            "first_seen": "2026-11-21",
-            "observed_query": "sniper vs 99 players",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/sniper-vs-99-players",
-            "first_seen": "2026-11-23",
-            "observed_query": "sniper vs 99 players",
             "source_category": "games"
           }
         ],
@@ -5515,6 +5027,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "street fighter",
+        "independent_websites": 2,
+        "date_span_days": 2,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "minijuegos-es",
+            "website": "minijuegos.com",
+            "url": "https://www.minijuegos.com/juego/street-fighter",
+            "first_seen": "2026-11-26",
+            "observed_query": "street fighter",
+            "source_category": "games"
+          },
+          {
+            "source_id": "silvergames-en",
+            "website": "silvergames.com",
+            "url": "https://www.silvergames.com/en/t/street-fighter",
+            "first_seen": "2026-11-28",
+            "observed_query": "street fighter",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "taller smash",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -5544,35 +5085,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "tank rampage",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "playgama-en",
-            "website": "playgama.com",
-            "url": "https://playgama.com/game/tank-rampage",
-            "first_seen": "2026-11-21",
-            "observed_query": "tank rampage",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/tank-rampage",
-            "first_seen": "2026-11-23",
-            "observed_query": "tank rampage",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "tennis bots",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -5596,35 +5108,6 @@
             "url": "https://www.y8.com/games/tennis_bots",
             "first_seen": "2026-11-23",
             "observed_query": "tennis bots",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "thistledown market",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/thistledown_market",
-            "first_seen": "2026-11-21",
-            "observed_query": "thistledown market",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/thistledown-market",
-            "first_seen": "2026-11-22",
-            "observed_query": "thistledown market",
             "source_category": "games"
           }
         ],
@@ -5670,9 +5153,9 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-en",
+            "source_id": "gamepix-pt",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/turbo-colis",
+            "url": "https://www.gamepix.com/pt/play/turbo-colis",
             "first_seen": "2026-11-26",
             "observed_query": "turbo colis",
             "source_category": "games"
@@ -5712,64 +5195,6 @@
             "url": "https://www.y8.com/games/vectatanks",
             "first_seen": "2026-11-23",
             "observed_query": "vectatanks",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "voxplode destruction sim",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/voxplode_destruction_sim",
-            "first_seen": "2026-11-22",
-            "observed_query": "voxplode destruction sim",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/voxplode-destruction-sim",
-            "first_seen": "2026-11-23",
-            "observed_query": "voxplode destruction sim",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "whiskfire",
-        "independent_websites": 2,
-        "date_span_days": 1,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/whiskfire",
-            "first_seen": "2026-11-21",
-            "observed_query": "whiskfire",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/whiskfire",
-            "first_seen": "2026-11-22",
-            "observed_query": "whiskfire",
             "source_category": "games"
           }
         ],
@@ -5892,35 +5317,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "bayday io",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "minijuegos-es",
-            "website": "minijuegos.com",
-            "url": "https://www.minijuegos.com/juego/bayday-io",
-            "first_seen": "2026-11-21",
-            "observed_query": "bayday io",
-            "source_category": "games"
-          },
-          {
-            "source_id": "jogos360-br",
-            "website": "jogos360.com.br",
-            "url": "https://www.jogos360.com.br/bayday_io.html",
-            "first_seen": "2026-11-25",
-            "observed_query": "bayday io",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "break the walls",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -5981,7 +5377,7 @@
       {
         "query": "bring down this castle",
         "independent_websites": 2,
-        "date_span_days": 6,
+        "date_span_days": 5,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -5989,10 +5385,10 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-pt",
+            "source_id": "gamepix-en",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/bring-down-this-castle",
-            "first_seen": "2026-11-21",
+            "url": "https://www.gamepix.com/play/bring-down-this-castle",
+            "first_seen": "2026-11-22",
             "observed_query": "bring down this castle",
             "source_category": "games"
           },
@@ -6002,35 +5398,6 @@
             "url": "https://www.y8.com/games/bring_down_this_castle_",
             "first_seen": "2026-11-27",
             "observed_query": "bring down this castle",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "cosmic cleaners",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "playgama-en",
-            "website": "playgama.com",
-            "url": "https://playgama.com/game/cosmic-cleaners",
-            "first_seen": "2026-11-21",
-            "observed_query": "cosmic cleaners",
-            "source_category": "games"
-          },
-          {
-            "source_id": "jogos360-br",
-            "website": "jogos360.com.br",
-            "url": "https://www.jogos360.com.br/cosmic_cleaners.html",
-            "first_seen": "2026-11-24",
-            "observed_query": "cosmic cleaners",
             "source_category": "games"
           }
         ],
@@ -6089,6 +5456,35 @@
             "url": "https://playgama.com/game/crossum",
             "first_seen": "2026-11-27",
             "observed_query": "crossum",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "crystal workshop",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/crystal-workshop",
+            "first_seen": "2026-11-24",
+            "observed_query": "crystal workshop",
+            "source_category": "games"
+          },
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/crystal-workshop",
+            "first_seen": "2026-11-28",
+            "observed_query": "crystal workshop",
             "source_category": "games"
           }
         ],
@@ -6269,6 +5665,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "kingdom realms tower defense",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/kingdom-realms-tower-defense",
+            "first_seen": "2026-11-23",
+            "observed_query": "kingdom realms tower defense",
+            "source_category": "games"
+          },
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/kingdom-realms-tower-defense",
+            "first_seen": "2026-11-28",
+            "observed_query": "kingdom realms tower defense",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "lantern sums",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -6298,6 +5723,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "lunar sweepers moon dust simulator",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamepix-en",
+            "website": "gamepix.com",
+            "url": "https://www.gamepix.com/play/lunar-sweepers-moon-dust-simulator",
+            "first_seen": "2026-11-23",
+            "observed_query": "lunar sweepers moon dust simulator",
+            "source_category": "games"
+          },
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/lunar-sweepers-moon-dust-simulator",
+            "first_seen": "2026-11-28",
+            "observed_query": "lunar sweepers moon dust simulator",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "magic tower endless siege",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -6321,6 +5775,35 @@
             "url": "https://playgama.com/game/magic-tower-endless-siege",
             "first_seen": "2026-11-25",
             "observed_query": "magic tower endless siege",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "magical forest mahjong",
+        "independent_websites": 2,
+        "date_span_days": 5,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/magical-forest-mahjong/",
+            "first_seen": "2026-11-23",
+            "observed_query": "magical forest mahjong",
+            "source_category": "games"
+          },
+          {
+            "source_id": "bgames-en",
+            "website": "bgames.com",
+            "url": "https://www.bgames.com/game/magical-forest-mahjong/",
+            "first_seen": "2026-11-28",
+            "observed_query": "magical forest mahjong",
             "source_category": "games"
           }
         ],
@@ -6387,7 +5870,7 @@
       {
         "query": "my glam hair salon",
         "independent_websites": 2,
-        "date_span_days": 6,
+        "date_span_days": 5,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -6395,10 +5878,10 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "crazygames-es",
+            "source_id": "crazygames-br",
             "website": "crazygames.com",
-            "url": "https://www.crazygames.com/es/game/my-glam-hair-salon",
-            "first_seen": "2026-11-21",
+            "url": "https://www.crazygames.com/br/game/my-glam-hair-salon",
+            "first_seen": "2026-11-22",
             "observed_query": "my glam hair salon",
             "source_category": "games"
           },
@@ -6443,35 +5926,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "pickle rally",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/pickle-rally/",
-            "first_seen": "2026-11-21",
-            "observed_query": "pickle rally",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/pickle_rally",
-            "first_seen": "2026-11-25",
-            "observed_query": "pickle rally",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "picture garden moonhaven",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -6495,35 +5949,6 @@
             "url": "https://www.gamepix.com/pt/play/picture-garden-moonhaven",
             "first_seen": "2026-11-27",
             "observed_query": "picture garden moonhaven",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "platform thief",
-        "independent_websites": 2,
-        "date_span_days": 3,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/platform_thief",
-            "first_seen": "2026-11-21",
-            "observed_query": "platform thief",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/platform-thief",
-            "first_seen": "2026-11-24",
-            "observed_query": "platform thief",
             "source_category": "games"
           }
         ],
@@ -6561,7 +5986,7 @@
       {
         "query": "roadrival",
         "independent_websites": 2,
-        "date_span_days": 5,
+        "date_span_days": 4,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -6569,10 +5994,10 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-pt",
+            "source_id": "gamepix-en",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/roadrival",
-            "first_seen": "2026-11-21",
+            "url": "https://www.gamepix.com/play/roadrival",
+            "first_seen": "2026-11-22",
             "observed_query": "roadrival",
             "source_category": "games"
           },
@@ -6611,6 +6036,35 @@
             "url": "https://www.y8.com/games/saltness_light",
             "first_seen": "2026-11-27",
             "observed_query": "saltness light",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "save the fireball",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "playgama-en",
+            "website": "playgama.com",
+            "url": "https://playgama.com/game/save-the-fireball",
+            "first_seen": "2026-11-24",
+            "observed_query": "save the fireball",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamedistribution-games",
+            "website": "gamedistribution.com",
+            "url": "https://gamedistribution.com/games/save-the-fireball/",
+            "first_seen": "2026-11-28",
+            "observed_query": "save the fireball",
             "source_category": "games"
           }
         ],
@@ -6675,35 +6129,6 @@
         "cross_signal_origin": "games"
       },
       {
-        "query": "sky rush",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "bgames-en",
-            "website": "bgames.com",
-            "url": "https://www.bgames.com/game/sky-rush/",
-            "first_seen": "2026-11-21",
-            "observed_query": "sky rush",
-            "source_category": "games"
-          },
-          {
-            "source_id": "gamepix-pt",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/sky-rush",
-            "first_seen": "2026-11-25",
-            "observed_query": "sky rush",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
         "query": "sky whale stack",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -6756,6 +6181,35 @@
             "url": "https://playgama.com/game/smash-buildings-fest-destroy",
             "first_seen": "2026-11-27",
             "observed_query": "smash buildings fest destroy",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
+        "query": "soccer",
+        "independent_websites": 2,
+        "date_span_days": 6,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "y8-en",
+            "website": "y8.com",
+            "url": "https://www.y8.com/games/6_soccer",
+            "first_seen": "2026-11-22",
+            "observed_query": "soccer",
+            "source_category": "games"
+          },
+          {
+            "source_id": "silvergames-en",
+            "website": "silvergames.com",
+            "url": "https://www.silvergames.com/en/t/soccer",
+            "first_seen": "2026-11-28",
+            "observed_query": "soccer",
             "source_category": "games"
           }
         ],
@@ -6849,6 +6303,35 @@
         "cross_signal_origin": "games"
       },
       {
+        "query": "swat ops bodycamera",
+        "independent_websites": 2,
+        "date_span_days": 4,
+        "priority": "watch",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 1,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "minijuegos-es",
+            "website": "minijuegos.com",
+            "url": "https://www.minijuegos.com/juego/swat-ops-bodycamera",
+            "first_seen": "2026-11-24",
+            "observed_query": "swat ops bodycamera",
+            "source_category": "games"
+          },
+          {
+            "source_id": "gamenora-en",
+            "website": "gamenora.com",
+            "url": "https://www.gamenora.com/game/swat-ops-bodycamera/",
+            "first_seen": "2026-11-28",
+            "observed_query": "swat ops bodycamera",
+            "source_category": "games"
+          }
+        ],
+        "cross_signal_origin": "games"
+      },
+      {
         "query": "the other way around",
         "independent_websites": 2,
         "date_span_days": 4,
@@ -6872,35 +6355,6 @@
             "url": "https://www.y8.com/games/the_other_way_around",
             "first_seen": "2026-11-26",
             "observed_query": "the other way around",
-            "source_category": "games"
-          }
-        ],
-        "cross_signal_origin": "games"
-      },
-      {
-        "query": "truck rush highway racing",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "gamepix-en",
-            "website": "gamepix.com",
-            "url": "https://www.gamepix.com/play/truck-rush-highway-racing",
-            "first_seen": "2026-11-21",
-            "observed_query": "truck rush highway racing",
-            "source_category": "games"
-          },
-          {
-            "source_id": "y8-en",
-            "website": "y8.com",
-            "url": "https://www.y8.com/games/truck_rush_highway_racing",
-            "first_seen": "2026-11-25",
-            "observed_query": "truck rush highway racing",
             "source_category": "games"
           }
         ],
@@ -6967,7 +6421,7 @@
       {
         "query": "world s deepest hole",
         "independent_websites": 2,
-        "date_span_days": 4,
+        "date_span_days": 3,
         "priority": "watch",
         "match_basis": "normalized_exact_title_only",
         "same_calendar_day_peak": 1,
@@ -6975,10 +6429,10 @@
         "seven_calendar_day_total": 2,
         "evidence": [
           {
-            "source_id": "gamepix-pt",
+            "source_id": "gamepix-en",
             "website": "gamepix.com",
-            "url": "https://www.gamepix.com/pt/play/world-s-deepest-hole",
-            "first_seen": "2026-11-21",
+            "url": "https://www.gamepix.com/play/world-s-deepest-hole",
+            "first_seen": "2026-11-22",
             "observed_query": "world s deepest hole",
             "source_category": "games"
           },
@@ -7181,43 +6635,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "ttapi",
-        "independent_websites": 3,
-        "date_span_days": 3,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 3,
-        "evidence": [
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/ttapi",
-            "first_seen": "2026-11-21",
-            "observed_query": "ttapi",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "uneed-products",
-            "website": "uneed.best",
-            "url": "https://www.uneed.best/tool/ttapi",
-            "first_seen": "2026-11-23",
-            "observed_query": "ttapi",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "smollaunch-products",
-            "website": "smollaunch.com",
-            "url": "https://smollaunch.com/products/ttapi",
-            "first_seen": "2026-11-24",
-            "observed_query": "ttapi",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "ai agents marketplace",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -7270,35 +6687,6 @@
             "url": "https://www.indietools.app/products/aipptorg",
             "first_seen": "2026-11-24",
             "observed_query": "aipptorg",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "aisong ai song cover generator",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/aisong-ai-song-cover-generator/",
-            "first_seen": "2026-11-21",
-            "observed_query": "aisong ai song cover generator",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/aisong-ai-song-cover-generator",
-            "first_seen": "2026-11-23",
-            "observed_query": "aisong ai song cover generator",
             "source_category": "saas"
           }
         ],
@@ -7450,35 +6838,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "daleelai",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "indieneed-products",
-            "website": "indieneed.com",
-            "url": "https://www.indieneed.com/products/daleelai",
-            "first_seen": "2026-11-21",
-            "observed_query": "daleelai",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/daleelai",
-            "first_seen": "2026-11-23",
-            "observed_query": "daleelai",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "domainrating",
         "independent_websites": 2,
         "date_span_days": 1,
@@ -7502,35 +6861,6 @@
             "url": "https://www.indietools.app/products/domainrating",
             "first_seen": "2026-11-24",
             "observed_query": "domainrating",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "get your ai rap videos",
-        "independent_websites": 2,
-        "date_span_days": 2,
-        "priority": "medium",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 2,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/get-your-ai-rap-videos/",
-            "first_seen": "2026-11-21",
-            "observed_query": "get your ai rap videos",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/get-your-ai-rap-videos",
-            "first_seen": "2026-11-23",
-            "observed_query": "get your ai rap videos",
             "source_category": "saas"
           }
         ],
@@ -7972,6 +7302,35 @@
         "cross_signal_origin": "products"
       },
       {
+        "query": "ttapi",
+        "independent_websites": 2,
+        "date_span_days": 1,
+        "priority": "medium",
+        "match_basis": "normalized_exact_title_only",
+        "same_calendar_day_peak": 1,
+        "three_calendar_day_peak": 2,
+        "seven_calendar_day_total": 2,
+        "evidence": [
+          {
+            "source_id": "uneed-products",
+            "website": "uneed.best",
+            "url": "https://www.uneed.best/tool/ttapi",
+            "first_seen": "2026-11-23",
+            "observed_query": "ttapi",
+            "source_category": "saas"
+          },
+          {
+            "source_id": "smollaunch-products",
+            "website": "smollaunch.com",
+            "url": "https://smollaunch.com/products/ttapi",
+            "first_seen": "2026-11-24",
+            "observed_query": "ttapi",
+            "source_category": "saas"
+          }
+        ],
+        "cross_signal_origin": "products"
+      },
+      {
         "query": "vcarda",
         "independent_websites": 2,
         "date_span_days": 0,
@@ -8111,64 +7470,6 @@
             "url": "https://www.uneed.best/tool/courant-mail",
             "first_seen": "2026-11-26",
             "observed_query": "courant mail",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "enlyo",
-        "independent_websites": 2,
-        "date_span_days": 5,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/enlyo/",
-            "first_seen": "2026-11-21",
-            "observed_query": "enlyo",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "fazier-launches",
-            "website": "fazier.com",
-            "url": "https://fazier.com/launches/enlyo",
-            "first_seen": "2026-11-26",
-            "observed_query": "enlyo",
-            "source_category": "saas"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
-        "query": "mapsleadextractor",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "productperch-products",
-            "website": "productperch.com",
-            "url": "https://productperch.com/products/mapsleadextractor/",
-            "first_seen": "2026-11-21",
-            "observed_query": "mapsleadextractor",
-            "source_category": "saas"
-          },
-          {
-            "source_id": "saasworthy-products",
-            "website": "saasworthy.com",
-            "url": "https://www.saasworthy.com/product/mapsleadextractor",
-            "first_seen": "2026-11-25",
-            "observed_query": "mapsleadextractor",
             "source_category": "saas"
           }
         ],
@@ -8351,35 +7652,6 @@
         "cross_signal_origin": "products"
       },
       {
-        "query": "dessi ai",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "tooldirectory-ai-tools",
-            "website": "tooldirectory.ai",
-            "url": "https://tooldirectory.ai/tools/dessi-ai",
-            "first_seen": "2026-11-21",
-            "observed_query": "dessi ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "aitoolnet-tools",
-            "website": "aitoolnet.com",
-            "url": "https://www.aitoolnet.com/dessi-ai",
-            "first_seen": "2026-11-25",
-            "observed_query": "dessi ai",
-            "source_category": "ai"
-          }
-        ],
-        "cross_signal_origin": "products"
-      },
-      {
         "query": "layla",
         "independent_websites": 2,
         "date_span_days": 3,
@@ -8407,35 +7679,6 @@
           }
         ],
         "cross_signal_origin": "products"
-      },
-      {
-        "query": "the influencer ai",
-        "independent_websites": 2,
-        "date_span_days": 4,
-        "priority": "watch",
-        "match_basis": "normalized_exact_title_only",
-        "same_calendar_day_peak": 1,
-        "three_calendar_day_peak": 1,
-        "seven_calendar_day_total": 2,
-        "evidence": [
-          {
-            "source_id": "dangai-tools",
-            "website": "dang.ai",
-            "url": "https://dang.ai/tool/the-influencer-ai",
-            "first_seen": "2026-11-21",
-            "observed_query": "the influencer ai",
-            "source_category": "ai"
-          },
-          {
-            "source_id": "toolveyor-tools",
-            "website": "toolveyor.com",
-            "url": "https://toolveyor.com/the-influencer-ai",
-            "first_seen": "2026-11-25",
-            "observed_query": "the influencer ai",
-            "source_category": "ai"
-          }
-        ],
-        "cross_signal_origin": "products"
       }
     ],
     "calculators": [],
@@ -8444,28 +7687,28 @@
     "brazil": []
   },
   "by_type_counts": {
-    "games": 90,
-    "saas": 41,
-    "ai": 6,
+    "games": 84,
+    "saas": 36,
+    "ai": 4,
     "calculators": 0,
     "files": 0,
     "developer": 0,
     "brazil": 0
   },
-  "delta_ledger_count": 14919,
+  "delta_ledger_count": 14749,
   "delta_ledger_limit": 30000,
-  "generated_at": "2026-11-27T19:20:49.410111+08:00",
+  "generated_at": "2026-11-28T06:53:34.269599+08:00",
   "coverage": {
     "games": {
       "configured_sources": 33,
       "configured_domains": 30,
       "reported": 33,
-      "successful": 28,
+      "successful": 29,
       "baselines": 0,
-      "delta_scans": 28,
-      "failed": 5,
-      "new_urls": 242,
-      "over_scan_cap": 14,
+      "delta_scans": 29,
+      "failed": 4,
+      "new_urls": 1186,
+      "over_scan_cap": 736,
       "failed_sources": [
         {
           "source_id": "gamesgames-en",
@@ -8478,10 +7721,6 @@
         {
           "source_id": "gamecomets-en",
           "error": "HTTPError: HTTP Error 403: Forbidden"
-        },
-        {
-          "source_id": "gamenora-en",
-          "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
         },
         {
           "source_id": "girlsgogames-en",
@@ -8497,7 +7736,7 @@
       "baselines": 0,
       "delta_scans": 19,
       "failed": 1,
-      "new_urls": 121,
+      "new_urls": 43,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -8514,7 +7753,7 @@
       "baselines": 0,
       "delta_scans": 20,
       "failed": 0,
-      "new_urls": 26,
+      "new_urls": 78,
       "over_scan_cap": 0,
       "failed_sources": []
     },
@@ -8543,7 +7782,7 @@
       "baselines": 0,
       "delta_scans": 18,
       "failed": 2,
-      "new_urls": 13,
+      "new_urls": 2,
       "over_scan_cap": 0,
       "failed_sources": [
         {
@@ -8564,8 +7803,8 @@
       "baselines": 0,
       "delta_scans": 17,
       "failed": 0,
-      "new_urls": 688,
-      "over_scan_cap": 476,
+      "new_urls": 51,
+      "over_scan_cap": 0,
       "failed_sources": []
     },
     "brazil": {
