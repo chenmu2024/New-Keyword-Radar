@@ -1,0 +1,461 @@
+{
+  "local_date": "2026-11-28",
+  "timezone": "Asia/Shanghai",
+  "timeframe": "now 7-d",
+  "geo": "Worldwide",
+  "target_seed_count": 74,
+  "batches": [
+    {
+      "batch_id": "2026-11-27T22:39:23.016353+00:00-6-7-8-9-10",
+      "start_index": 6,
+      "seed_indices": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "generated_at": "2026-11-27T22:39:23.016353+00:00",
+      "local_generated_at": "2026-11-28T06:39:23.016353+08:00",
+      "seed_batch": [
+        "maker",
+        "creator",
+        "editor",
+        "processor",
+        "designer"
+      ],
+      "discovery_count": 65,
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "generated_at": "2026-11-27T22:41:02.712717+00:00",
+      "local_generated_at": "2026-11-28T06:41:02.712717+08:00",
+      "start_index": 11,
+      "seed_indices": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "seed_batch": [
+        "compiler",
+        "analyzer",
+        "evaluator",
+        "sender",
+        "receiver"
+      ],
+      "error": "TooManyRequestsError: Google Trends is blocking Explore requests from this IP (HTTP 429 'too many requests' / 'unusual traffic' page).\n\nThis is a hard, per-IP cooldown, not a transient glitch — the Explore endpoints allow roughly 8-10 fresh browser sessions per hour before blocking. Solutions:\n• Wait 30+ minutes before trying again (retrying sooner extends the block)\n• Reuse results: cache='disk' answers identical repeat requests without a session\n• Use the RSS path for fast, frequent real-time checks\n\nKeywords: ['compiler', 'analyzer', 'evaluator', 'sender', 'receiver'] | Geo:  | Timeframe: now 7-d"
+    }
+  ],
+  "scanned_seeds": [
+    "maker",
+    "creator",
+    "editor",
+    "processor",
+    "designer"
+  ],
+  "discoveries": [
+    {
+      "seed": "editor",
+      "query": "แทง บอล ออนไลน์ editor pgstar777 cfd",
+      "rise_value": 36700.0,
+      "raw_value": 36700
+    },
+    {
+      "seed": "editor",
+      "query": "คา สิ โน ออนไลน์ editor pgstar777 cfd",
+      "rise_value": 26100.0,
+      "raw_value": 26100
+    },
+    {
+      "seed": "editor",
+      "query": "บา คา ร่า ออนไลน์ editor pgstar777 cfd",
+      "rise_value": 23450.0,
+      "raw_value": 23450
+    },
+    {
+      "seed": "editor",
+      "query": "ufoo.life",
+      "rise_value": 12600.0,
+      "raw_value": 12600
+    },
+    {
+      "seed": "editor",
+      "query": "megaaa.casa",
+      "rise_value": 12250.0,
+      "raw_value": 12250
+    },
+    {
+      "seed": "maker",
+      "query": "activision custom gaming cake maker",
+      "rise_value": 12200.0,
+      "raw_value": 12200
+    },
+    {
+      "seed": "editor",
+      "query": "royalin.watch",
+      "rise_value": 9850.0,
+      "raw_value": 9850
+    },
+    {
+      "seed": "designer",
+      "query": "david suárez hair designer",
+      "rise_value": 8250.0,
+      "raw_value": 8250
+    },
+    {
+      "seed": "designer",
+      "query": "best seo tool",
+      "rise_value": 8100.0,
+      "raw_value": 8100
+    },
+    {
+      "seed": "editor",
+      "query": "casino ohne oasis sperre 🇩🇪 www.casinoganino.blog",
+      "rise_value": 7750.0,
+      "raw_value": 7750
+    },
+    {
+      "seed": "editor",
+      "query": "lemonet.casa",
+      "rise_value": 7750.0,
+      "raw_value": 7750
+    },
+    {
+      "seed": "creator",
+      "query": "marvel rivals creator awards",
+      "rise_value": 7200.0,
+      "raw_value": 7200
+    },
+    {
+      "seed": "editor",
+      "query": "kangton.lol",
+      "rise_value": 7000.0,
+      "raw_value": 7000
+    },
+    {
+      "seed": "editor",
+      "query": "casino ohne oasis sperre 🇩🇪 casinobino.online",
+      "rise_value": 5700.0,
+      "raw_value": 5700
+    },
+    {
+      "seed": "editor",
+      "query": "alexison.wiki",
+      "rise_value": 5000.0,
+      "raw_value": 5000
+    },
+    {
+      "seed": "maker",
+      "query": "my eight year old fortune maker",
+      "rise_value": 4950.0,
+      "raw_value": 4950
+    },
+    {
+      "seed": "creator",
+      "query": "dji osmo pocket 3 gimbal creator combo 969903",
+      "rise_value": 4000.0,
+      "raw_value": 4000
+    },
+    {
+      "seed": "maker",
+      "query": "best hiking boots",
+      "rise_value": 3250.0,
+      "raw_value": 3250
+    },
+    {
+      "seed": "maker",
+      "query": "best travel backpack",
+      "rise_value": 3250.0,
+      "raw_value": 3250
+    },
+    {
+      "seed": "maker",
+      "query": "best budget phone",
+      "rise_value": 3200.0,
+      "raw_value": 3200
+    },
+    {
+      "seed": "maker",
+      "query": "best laptops",
+      "rise_value": 3200.0,
+      "raw_value": 3200
+    },
+    {
+      "seed": "maker",
+      "query": "best office chair",
+      "rise_value": 3200.0,
+      "raw_value": 3200
+    },
+    {
+      "seed": "maker",
+      "query": "best pizza recipe",
+      "rise_value": 3100.0,
+      "raw_value": 3100
+    },
+    {
+      "seed": "maker",
+      "query": "best running shoes",
+      "rise_value": 3000.0,
+      "raw_value": 3000
+    },
+    {
+      "seed": "creator",
+      "query": "west wing creator",
+      "rise_value": 2350.0,
+      "raw_value": 2350
+    },
+    {
+      "seed": "maker",
+      "query": "best coffee maker",
+      "rise_value": 1250.0,
+      "raw_value": 1250
+    },
+    {
+      "seed": "processor",
+      "query": "asus v16 16 2k gaming laptop intel core 5 processor 210h with nvidia geforce rtx 3050",
+      "rise_value": 800.0,
+      "raw_value": 800
+    },
+    {
+      "seed": "processor",
+      "query": "amd ryzen 7 9850x3d 8-core processor",
+      "rise_value": 750.0,
+      "raw_value": 750
+    },
+    {
+      "seed": "maker",
+      "query": "pizza maker",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "maker",
+      "query": "website maker",
+      "rise_value": 500.0,
+      "raw_value": 500
+    },
+    {
+      "seed": "processor",
+      "query": "pie crust recipe",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "processor",
+      "query": "food processor pie crust",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "maker",
+      "query": "mochi hoppe maker",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "maker",
+      "query": "coffee maker",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "designer",
+      "query": "designer black friday deals",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "processor",
+      "query": "cuisinart food processor not turning on",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "creator",
+      "query": "virgin voyages creator cruise application",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "processor",
+      "query": "food processor black friday sale",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "processor",
+      "query": "food processor black friday",
+      "rise_value": 110.0,
+      "raw_value": 110
+    },
+    {
+      "seed": "processor",
+      "query": "can i use a blender instead of a food processor",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "creator",
+      "query": "virgin voyages creator cruise",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "processor",
+      "query": "cuisinart food processor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "creator",
+      "query": "dji osmo pocket 3",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "processor",
+      "query": "hamilton beach food processor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "maker",
+      "query": "mochi hop maker",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "processor",
+      "query": "ninja food processor attachment",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "creator",
+      "query": "photo creator instant camera",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "creator",
+      "query": "creator crafted",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "processor",
+      "query": "cuisinart",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "processor",
+      "query": "cuisinart 14 cup food processor",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "creator",
+      "query": "dentastix creator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "creator",
+      "query": "dji osmo pocket 3 creator combo",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "creator",
+      "query": "gro creator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "processor",
+      "query": "kitchenaid food processor attachment",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "creator",
+      "query": "osmo pocket 3 creator combo",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "processor",
+      "query": "processor design",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "creator",
+      "query": "supercell creator",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "designer",
+      "query": "designer bags on sale",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "creator",
+      "query": "osmo pocket 3",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "designer",
+      "query": "ashford designer outlet",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "designer",
+      "query": "coach bag",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "designer",
+      "query": "coach outlet",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "designer",
+      "query": "designer bag sale",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "designer",
+      "query": "michael kors",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "designer",
+      "query": "tory burch",
+      "rise_value": 40.0,
+      "raw_value": 40
+    }
+  ],
+  "discovery_count": 65,
+  "updated_at": "2026-11-27T22:41:02.712717+00:00",
+  "scanned_seed_count": 5,
+  "batch_count": 1,
+  "attempted_seed_count": 10,
+  "complete_20_seeds": false,
+  "complete_daily_target": false,
+  "completion_pct": 6.8,
+  "failed_seed_count": 5
+}
