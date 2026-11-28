@@ -1,39 +1,39 @@
 # New Keyword Opportunity Ledger (V3)
 
-- Updated (UTC): 2026-11-27T22:41:14.720375+00:00
-- Historical candidates: 8019
-- Newly recorded from pending: 11
+- Updated (UTC): 2026-11-28T10:18:55.936954+00:00
+- Historical candidates: 8109
+- Newly recorded from pending: 90
 - Awaiting 7/14/30-day evidence review: 6955
 - WARNING: Trending queries are not verified buyer demand, paid sales, or ranking opportunities.
 - This report does NOT confirm the 24h/72h trends or SERP window; those require dated external evidence.
 
 ## Recent tracked queries (not build recommendations)
 
-- ashford designer outlet [Global] — discovered — first 2026-11-28, last 2026-11-28
-- asus v16 16 2k gaming laptop intel core 5 processor 210h with nvidia geforce rtx 3050 [Global] — discovered — first 2026-11-28, last 2026-11-28
-- coach bag [Global] — discovered — first 2026-11-28, last 2026-11-28
-- coach outlet [Global] — discovered — first 2026-11-28, last 2026-11-28
 - creator crafted [Global] — discovered — first 2026-11-28, last 2026-11-28
 - cuisinart [Global] — discovered — first 2026-11-28, last 2026-11-28
+- asus v16 16 2k gaming laptop intel core 5 processor 210h with nvidia geforce rtx 3050 [Global] — discovered — first 2026-11-28, last 2026-11-28
+- coach outlet [Global] — discovered — first 2026-11-28, last 2026-11-28
+- coach bag [Global] — discovered — first 2026-11-28, last 2026-11-28
 - designer bags on sale [Global] — discovered — first 2026-11-28, last 2026-11-28
+- ashford designer outlet [Global] — discovered — first 2026-11-28, last 2026-11-28
 - designer black friday deals [Global] — discovered — first 2026-11-28, last 2026-11-28
 - kitchenaid food processor attachment [Global] — discovered — first 2026-11-28, last 2026-11-28
 - michael kors [Global] — discovered — first 2026-11-28, last 2026-11-28
 - tory burch [Global] — discovered — first 2026-11-28, last 2026-11-28
-- gro creator [Global] — discovered — first 2026-11-27, last 2026-11-28
-- designer bag sale [Global] — discovered — first 2026-11-27, last 2026-11-28
-- ninja food processor attachment [Global] — discovered — first 2026-11-27, last 2026-11-28
-- can i use a blender instead of a food processor [Global] — discovered — first 2026-11-27, last 2026-11-28
-- cuisinart food processor not turning on [Global] — discovered — first 2026-11-27, last 2026-11-28
-- food processor black friday sale [Global] — discovered — first 2026-11-27, last 2026-11-28
-- west wing creator [Global] — discovered — first 2026-11-27, last 2026-11-28
-- pizza maker [Global] — discovered — first 2026-11-27, last 2026-11-28
-- alexison.wiki [Global] — discovered — first 2026-11-27, last 2026-11-28
-- hamilton beach food processor [Global] — discovered — first 2026-11-26, last 2026-11-28
-- coffee maker [Global] — discovered — first 2026-11-26, last 2026-11-28
-- cuisinart food processor [Global] — discovered — first 2026-11-26, last 2026-11-28
-- food processor black friday [Global] — discovered — first 2026-11-25, last 2026-11-28
-- marvel rivals creator awards [Global] — discovered — first 2026-11-25, last 2026-11-28
+- alejandra guzmán [MX] — discovered — first 2026-11-28, last 2026-11-28
+- anfield [GB] — discovered — first 2026-11-28, last 2026-11-28
+- appeal [GB] — discovered — first 2026-11-28, last 2026-11-28
+- backlink checker [Global] — discovered — first 2026-11-28, last 2026-11-28
+- ballot builder [Global] — discovered — first 2026-11-28, last 2026-11-28
+- bank of england [GB] — discovered — first 2026-11-28, last 2026-11-28
+- beca sor juana ines de la cruz 2026 [MX] — discovered — first 2026-11-28, last 2026-11-28
+- bet calculator 🇬🇧 www.smarterbettingapp.com [Global] — discovered — first 2026-11-28, last 2026-11-28
+- bra size calculator [Global] — discovered — first 2026-11-28, last 2026-11-28
+- brad pitt [GB] — discovered — first 2026-11-28, last 2026-11-28
+- bwf thomas cup format change 2028 [Global] — discovered — first 2026-11-28, last 2026-11-28
+- bwin [ES] — discovered — first 2026-11-28, last 2026-11-28
+- can you register a car with a tracker gta 6 [Global] — discovered — first 2026-11-28, last 2026-11-28
+- capcut pro 2026 template [Global] — discovered — first 2026-11-28, last 2026-11-28
 
 ## Due for follow-up
 

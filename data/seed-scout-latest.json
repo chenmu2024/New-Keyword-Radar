@@ -1,26 +1,26 @@
 {
-  "batch_id": "2026-11-27T22:41:02.712717+00:00-11-12-13-14-15",
-  "generated_at": "2026-11-27T22:41:02.712717+00:00",
-  "local_generated_at": "2026-11-28T06:41:02.712717+08:00",
+  "batch_id": "2026-11-28T10:18:36.453032+00:00-26-27-28-29-30",
+  "generated_at": "2026-11-28T10:18:36.453032+00:00",
+  "local_generated_at": "2026-11-28T18:18:36.453032+08:00",
   "timezone": "Asia/Shanghai",
   "timeframe": "now 7-d",
   "geo": "Worldwide",
   "seed_batch": [
-    "compiler",
-    "analyzer",
-    "evaluator",
-    "sender",
-    "receiver"
+    "detector",
+    "scraper",
+    "manager",
+    "explorer",
+    "dashboard"
   ],
   "seed_indices": [
-    11,
-    12,
-    13,
-    14,
-    15
+    26,
+    27,
+    28,
+    29,
+    30
   ],
-  "start_index": 11,
+  "start_index": 26,
   "discoveries": [],
   "status": "error",
-  "error": "TooManyRequestsError: Google Trends is blocking Explore requests from this IP (HTTP 429 'too many requests' / 'unusual traffic' page).\n\nThis is a hard, per-IP cooldown, not a transient glitch — the Explore endpoints allow roughly 8-10 fresh browser sessions per hour before blocking. Solutions:\n• Wait 30+ minutes before trying again (retrying sooner extends the block)\n• Reuse results: cache='disk' answers identical repeat requests without a session\n• Use the RSS path for fast, frequent real-time checks\n\nKeywords: ['compiler', 'analyzer', 'evaluator', 'sender', 'receiver'] | Geo:  | Timeframe: now 7-d"
+  "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
 }

@@ -26,6 +26,50 @@
       ],
       "discovery_count": 65,
       "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-28T10:15:20.378288+00:00-16-17-18-19-20",
+      "start_index": 16,
+      "seed_indices": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "generated_at": "2026-11-28T10:15:20.378288+00:00",
+      "local_generated_at": "2026-11-28T18:15:20.378288+08:00",
+      "seed_batch": [
+        "interpreter",
+        "uploader",
+        "calculator",
+        "sample",
+        "template"
+      ],
+      "discovery_count": 42,
+      "status": "ok"
+    },
+    {
+      "batch_id": "2026-11-28T10:16:57.541842+00:00-21-22-23-24-25",
+      "start_index": 21,
+      "seed_indices": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "generated_at": "2026-11-28T10:16:57.541842+00:00",
+      "local_generated_at": "2026-11-28T18:16:57.541842+08:00",
+      "seed_batch": [
+        "format",
+        "builder",
+        "scheme",
+        "pattern",
+        "checker"
+      ],
+      "discovery_count": 50,
+      "status": "ok"
     }
   ],
   "errors": [
@@ -48,6 +92,26 @@
         "receiver"
       ],
       "error": "TooManyRequestsError: Google Trends is blocking Explore requests from this IP (HTTP 429 'too many requests' / 'unusual traffic' page).\n\nThis is a hard, per-IP cooldown, not a transient glitch — the Explore endpoints allow roughly 8-10 fresh browser sessions per hour before blocking. Solutions:\n• Wait 30+ minutes before trying again (retrying sooner extends the block)\n• Reuse results: cache='disk' answers identical repeat requests without a session\n• Use the RSS path for fast, frequent real-time checks\n\nKeywords: ['compiler', 'analyzer', 'evaluator', 'sender', 'receiver'] | Geo:  | Timeframe: now 7-d"
+    },
+    {
+      "generated_at": "2026-11-28T10:18:36.453032+00:00",
+      "local_generated_at": "2026-11-28T18:18:36.453032+08:00",
+      "start_index": 26,
+      "seed_indices": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "seed_batch": [
+        "detector",
+        "scraper",
+        "manager",
+        "explorer",
+        "dashboard"
+      ],
+      "error": "TooManyRequestsError: Google rate-limited the Explore data request; stop and back off."
     }
   ],
   "scanned_seeds": [
@@ -55,9 +119,25 @@
     "creator",
     "editor",
     "processor",
-    "designer"
+    "designer",
+    "interpreter",
+    "uploader",
+    "calculator",
+    "sample",
+    "template",
+    "format",
+    "builder",
+    "scheme",
+    "pattern",
+    "checker"
   ],
   "discoveries": [
+    {
+      "seed": "scheme",
+      "query": "queensland landlord solar rebate scheme",
+      "rise_value": 96250.0,
+      "raw_value": 96250
+    },
     {
       "seed": "editor",
       "query": "แทง บอล ออนไลน์ editor pgstar777 cfd",
@@ -75,6 +155,12 @@
       "query": "บา คา ร่า ออนไลน์ editor pgstar777 cfd",
       "rise_value": 23450.0,
       "raw_value": 23450
+    },
+    {
+      "seed": "interpreter",
+      "query": "cicada",
+      "rise_value": 14850.0,
+      "raw_value": 14850
     },
     {
       "seed": "editor",
@@ -101,8 +187,26 @@
       "raw_value": 9850
     },
     {
+      "seed": "sample",
+      "query": "fssai coimbatore food sample failure",
+      "rise_value": 9400.0,
+      "raw_value": 9400
+    },
+    {
+      "seed": "checker",
+      "query": "sportsmag .io",
+      "rise_value": 8450.0,
+      "raw_value": 8450
+    },
+    {
       "seed": "designer",
       "query": "david suárez hair designer",
+      "rise_value": 8250.0,
+      "raw_value": 8250
+    },
+    {
+      "seed": "checker",
+      "query": "sportsmag.io",
       "rise_value": 8250.0,
       "raw_value": 8250
     },
@@ -110,7 +214,10 @@
       "seed": "designer",
       "query": "best seo tool",
       "rise_value": 8100.0,
-      "raw_value": 8100
+      "raw_value": 8100,
+      "also_from_seeds": [
+        "builder"
+      ]
     },
     {
       "seed": "editor",
@@ -137,6 +244,12 @@
       "raw_value": 7000
     },
     {
+      "seed": "scheme",
+      "query": "epf installment payout retirement scheme",
+      "rise_value": 5750.0,
+      "raw_value": 5750
+    },
+    {
       "seed": "editor",
       "query": "casino ohne oasis sperre 🇩🇪 casinobino.online",
       "rise_value": 5700.0,
@@ -155,10 +268,46 @@
       "raw_value": 4950
     },
     {
+      "seed": "checker",
+      "query": "sports mag .io",
+      "rise_value": 4800.0,
+      "raw_value": 4800
+    },
+    {
+      "seed": "interpreter",
+      "query": "benjamin hauwanga",
+      "rise_value": 4700.0,
+      "raw_value": 4700
+    },
+    {
+      "seed": "format",
+      "query": "bwf thomas cup format change 2028",
+      "rise_value": 4200.0,
+      "raw_value": 4200
+    },
+    {
       "seed": "creator",
       "query": "dji osmo pocket 3 gimbal creator combo 969903",
       "rise_value": 4000.0,
       "raw_value": 4000
+    },
+    {
+      "seed": "scheme",
+      "query": "bharosa scheme west bengal",
+      "rise_value": 3650.0,
+      "raw_value": 3650
+    },
+    {
+      "seed": "interpreter",
+      "query": "uebert angel",
+      "rise_value": 3600.0,
+      "raw_value": 3600
+    },
+    {
+      "seed": "scheme",
+      "query": "vorsa scheme",
+      "rise_value": 3550.0,
+      "raw_value": 3550
     },
     {
       "seed": "maker",
@@ -169,6 +318,12 @@
     {
       "seed": "maker",
       "query": "best travel backpack",
+      "rise_value": 3250.0,
+      "raw_value": 3250
+    },
+    {
+      "seed": "sample",
+      "query": "sephora cyber bag sample",
       "rise_value": 3250.0,
       "raw_value": 3250
     },
@@ -197,10 +352,40 @@
       "raw_value": 3100
     },
     {
+      "seed": "calculator",
+      "query": "odds calculator 🇬🇧 www.smarterbettingapp.com",
+      "rise_value": 3100.0,
+      "raw_value": 3100
+    },
+    {
+      "seed": "scheme",
+      "query": "bharosa scheme in west bengal online apply",
+      "rise_value": 3050.0,
+      "raw_value": 3050
+    },
+    {
       "seed": "maker",
       "query": "best running shoes",
       "rise_value": 3000.0,
       "raw_value": 3000
+    },
+    {
+      "seed": "calculator",
+      "query": "bet calculator 🇬🇧 www.smarterbettingapp.com",
+      "rise_value": 2950.0,
+      "raw_value": 2950
+    },
+    {
+      "seed": "format",
+      "query": "miss universe 2026 format",
+      "rise_value": 2500.0,
+      "raw_value": 2500
+    },
+    {
+      "seed": "sample",
+      "query": "idp band 9 essay sample",
+      "rise_value": 2450.0,
+      "raw_value": 2450
     },
     {
       "seed": "creator",
@@ -209,10 +394,46 @@
       "raw_value": 2350
     },
     {
+      "seed": "scheme",
+      "query": "varsha scheme",
+      "rise_value": 2200.0,
+      "raw_value": 2200
+    },
+    {
+      "seed": "scheme",
+      "query": "beverage container return scheme",
+      "rise_value": 2150.0,
+      "raw_value": 2150
+    },
+    {
+      "seed": "checker",
+      "query": "merlion technologies .com",
+      "rise_value": 1750.0,
+      "raw_value": 1750
+    },
+    {
+      "seed": "scheme",
+      "query": "bharosa scheme",
+      "rise_value": 1600.0,
+      "raw_value": 1600
+    },
+    {
+      "seed": "scheme",
+      "query": "recluse crossword clue",
+      "rise_value": 1500.0,
+      "raw_value": 1500
+    },
+    {
       "seed": "maker",
       "query": "best coffee maker",
       "rise_value": 1250.0,
       "raw_value": 1250
+    },
+    {
+      "seed": "sample",
+      "query": "sephora sample bags",
+      "rise_value": 1100.0,
+      "raw_value": 1100
     },
     {
       "seed": "processor",
@@ -227,10 +448,34 @@
       "raw_value": 750
     },
     {
+      "seed": "format",
+      "query": "article format spm",
+      "rise_value": 650.0,
+      "raw_value": 650
+    },
+    {
       "seed": "maker",
       "query": "pizza maker",
       "rise_value": 600.0,
       "raw_value": 600
+    },
+    {
+      "seed": "format",
+      "query": "report format spm",
+      "rise_value": 600.0,
+      "raw_value": 600
+    },
+    {
+      "seed": "scheme",
+      "query": "free solar scheme 2026 apply online",
+      "rise_value": 550.0,
+      "raw_value": 550
+    },
+    {
+      "seed": "scheme",
+      "query": "imu color scheme",
+      "rise_value": 500.0,
+      "raw_value": 500
     },
     {
       "seed": "maker",
@@ -239,10 +484,58 @@
       "raw_value": 500
     },
     {
+      "seed": "scheme",
+      "query": "cm punjab solar panel scheme online apply 2026",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
+      "seed": "format",
+      "query": "mls playoff format",
+      "rise_value": 450.0,
+      "raw_value": 450
+    },
+    {
       "seed": "processor",
       "query": "pie crust recipe",
       "rise_value": 350.0,
       "raw_value": 350
+    },
+    {
+      "seed": "scheme",
+      "query": "solar scheme punjab",
+      "rise_value": 350.0,
+      "raw_value": 350
+    },
+    {
+      "seed": "checker",
+      "query": "backlink checker regalseo",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "builder",
+      "query": "ballot builder",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "template",
+      "query": "capcut video editing template",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "scheme",
+      "query": "cm punjab solar panel scheme",
+      "rise_value": 300.0,
+      "raw_value": 300
+    },
+    {
+      "seed": "scheme",
+      "query": "cm solar scheme",
+      "rise_value": 300.0,
+      "raw_value": 300
     },
     {
       "seed": "processor",
@@ -251,14 +544,62 @@
       "raw_value": 300
     },
     {
+      "seed": "checker",
+      "query": "domain age checker regalseo",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "checker",
+      "query": "meta tag checker regalseo",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "format",
+      "query": "nba cup format",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "uploader",
+      "query": "wwe2k26 image uploader",
+      "rise_value": 250.0,
+      "raw_value": 250
+    },
+    {
+      "seed": "pattern",
+      "query": "ibps clerk mains pattern",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
       "seed": "maker",
       "query": "mochi hoppe maker",
       "rise_value": 200.0,
       "raw_value": 200
     },
     {
+      "seed": "uploader",
+      "query": "wwe 2k26 image uploader",
+      "rise_value": 200.0,
+      "raw_value": 200
+    },
+    {
+      "seed": "pattern",
+      "query": "ibps clerk mains exam pattern",
+      "rise_value": 190.0,
+      "raw_value": 190
+    },
+    {
       "seed": "maker",
       "query": "coffee maker",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
+      "seed": "interpreter",
+      "query": "court interpreter",
       "rise_value": 170.0,
       "raw_value": 170
     },
@@ -269,8 +610,20 @@
       "raw_value": 170
     },
     {
+      "seed": "uploader",
+      "query": "wwe2k image uploader",
+      "rise_value": 170.0,
+      "raw_value": 170
+    },
+    {
       "seed": "processor",
       "query": "cuisinart food processor not turning on",
+      "rise_value": 150.0,
+      "raw_value": 150
+    },
+    {
+      "seed": "pattern",
+      "query": "ibps clerk mains exam pattern 2026",
       "rise_value": 150.0,
       "raw_value": 150
     },
@@ -281,10 +634,40 @@
       "raw_value": 150
     },
     {
+      "seed": "pattern",
+      "query": "ibps po mains pattern",
+      "rise_value": 140.0,
+      "raw_value": 140
+    },
+    {
+      "seed": "checker",
+      "query": "domain age checker",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "sample",
+      "query": "flower in a hurricane sample",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
       "seed": "processor",
       "query": "food processor black friday sale",
       "rise_value": 130.0,
       "raw_value": 130
+    },
+    {
+      "seed": "sample",
+      "query": "shomin sample",
+      "rise_value": 130.0,
+      "raw_value": 130
+    },
+    {
+      "seed": "pattern",
+      "query": "ibps po mains exam pattern",
+      "rise_value": 120.0,
+      "raw_value": 120
     },
     {
       "seed": "processor",
@@ -299,10 +682,76 @@
       "raw_value": 100
     },
     {
+      "seed": "uploader",
+      "query": "uploader jp サービス 終了",
+      "rise_value": 100.0,
+      "raw_value": 100
+    },
+    {
+      "seed": "uploader",
+      "query": "fflogs uploader",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "sample",
+      "query": "silithus venom sample",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "pattern",
+      "query": "ssc chsl exam pattern",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
       "seed": "creator",
       "query": "virgin voyages creator cruise",
       "rise_value": 90.0,
       "raw_value": 90
+    },
+    {
+      "seed": "sample",
+      "query": "winterspring blood sample",
+      "rise_value": 90.0,
+      "raw_value": 90
+    },
+    {
+      "seed": "sample",
+      "query": "cologne sample set",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "sample",
+      "query": "drew sample stats",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "format",
+      "query": "format surat rasmi",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "sample",
+      "query": "mpc sample update",
+      "rise_value": 80.0,
+      "raw_value": 80
+    },
+    {
+      "seed": "checker",
+      "query": "aquaria digital marketing agency",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "uploader",
+      "query": "aura web uploader",
+      "rise_value": 70.0,
+      "raw_value": 70
     },
     {
       "seed": "processor",
@@ -317,8 +766,26 @@
       "raw_value": 70
     },
     {
+      "seed": "uploader",
+      "query": "file uploader free",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "processor",
       "query": "hamilton beach food processor",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "sample",
+      "query": "hive wall sample",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "interpreter",
+      "query": "interpreter adalah",
       "rise_value": 70.0,
       "raw_value": 70
     },
@@ -335,10 +802,40 @@
       "raw_value": 70
     },
     {
+      "seed": "pattern",
+      "query": "pattern beauty",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
       "seed": "creator",
       "query": "photo creator instant camera",
       "rise_value": 70.0,
       "raw_value": 70
+    },
+    {
+      "seed": "uploader",
+      "query": "ps5 uploader",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "sample",
+      "query": "sephora mens cologne sample set",
+      "rise_value": 70.0,
+      "raw_value": 70
+    },
+    {
+      "seed": "checker",
+      "query": "backlink checker",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "template",
+      "query": "capcut template video",
+      "rise_value": 60.0,
+      "raw_value": 60
     },
     {
       "seed": "creator",
@@ -371,6 +868,12 @@
       "raw_value": 60
     },
     {
+      "seed": "uploader",
+      "query": "facebook video uploader",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "creator",
       "query": "gro creator",
       "rise_value": 60.0,
@@ -379,6 +882,18 @@
     {
       "seed": "processor",
       "query": "kitchenaid food processor attachment",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "pattern",
+      "query": "mulshi pattern",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
+      "seed": "uploader",
+      "query": "online image uploader",
       "rise_value": 60.0,
       "raw_value": 60
     },
@@ -395,14 +910,56 @@
       "raw_value": 60
     },
     {
+      "seed": "template",
+      "query": "santa letter template",
+      "rise_value": 60.0,
+      "raw_value": 60
+    },
+    {
       "seed": "creator",
       "query": "supercell creator",
       "rise_value": 60.0,
       "raw_value": 60
     },
     {
+      "seed": "builder",
+      "query": "brio builder",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "template",
+      "query": "capcut pro",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "template",
+      "query": "capcut pro 2026 template",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "template",
+      "query": "capcut pro template",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "designer",
       "query": "designer bags on sale",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "template",
+      "query": "letter to santa template",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "builder",
+      "query": "nordvpn",
       "rise_value": 50.0,
       "raw_value": 50
     },
@@ -413,8 +970,32 @@
       "raw_value": 50
     },
     {
+      "seed": "checker",
+      "query": "scrabble word checker",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
+      "seed": "template",
+      "query": "snowflake template",
+      "rise_value": 50.0,
+      "raw_value": 50
+    },
+    {
       "seed": "designer",
       "query": "ashford designer outlet",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "calculator",
+      "query": "bra size calculator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "template",
+      "query": "christmas card template",
       "rise_value": 40.0,
       "raw_value": 40
     },
@@ -431,6 +1012,12 @@
       "raw_value": 40
     },
     {
+      "seed": "builder",
+      "query": "code promo nordvpn",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "designer",
       "query": "designer bag sale",
       "rise_value": 40.0,
@@ -443,19 +1030,55 @@
       "raw_value": 40
     },
     {
+      "seed": "builder",
+      "query": "nordvpn promo",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "calculator",
+      "query": "odds calculator",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "pattern",
+      "query": "pattern hair products",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "sample",
+      "query": "perfume sample set",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
+      "seed": "pattern",
+      "query": "rrb station master exam pattern",
+      "rise_value": 40.0,
+      "raw_value": 40
+    },
+    {
       "seed": "designer",
       "query": "tory burch",
       "rise_value": 40.0,
       "raw_value": 40
+    },
+    {
+      "seed": "builder",
+      "query": "ノード vpn",
+      "rise_value": 40.0,
+      "raw_value": 40
     }
   ],
-  "discovery_count": 65,
-  "updated_at": "2026-11-27T22:41:02.712717+00:00",
-  "scanned_seed_count": 5,
-  "batch_count": 1,
-  "attempted_seed_count": 10,
+  "discovery_count": 156,
+  "updated_at": "2026-11-28T10:18:36.453032+00:00",
+  "scanned_seed_count": 15,
+  "batch_count": 3,
+  "attempted_seed_count": 25,
   "complete_20_seeds": false,
   "complete_daily_target": false,
-  "completion_pct": 6.8,
-  "failed_seed_count": 5
+  "completion_pct": 20.3,
+  "failed_seed_count": 10
 }
