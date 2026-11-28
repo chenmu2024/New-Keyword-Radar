@@ -8,11 +8,11 @@
 日期精度仅为日历日，同日/连续3日不是严格24/72小时时间跨度。
 首次抓取建立基线，重新出现的旧URL不计新增。
 
-配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-28T06:53:34.269599+08:00；详细候选：12000；7日轻量URL证据：14749/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
+配置Sitemap来源：135；最新成功来源：127/135；数据生成：2026-11-28T18:48:06.054239+08:00；详细候选：12000；7日轻量URL证据：16872/30000。轻量证据可覆盖研究队列采样之外的URL，但仍受单源2500条/总量30000条安全上限。
 
 ## 游戏平台
 
-采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 1186，采样上限遗漏 736。
+采集：29/33来源，配置根域 30，新建基线 0，失败 4，新增 URL 385，采样上限遗漏 30。
 
 - **race rocket arena car extreme**：不同根域 4 家；同一天峰值 2 家、连续3日 3 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - gamedistribution.com · gamedistribution-games · 2026-11-23 · https://gamedistribution.com/games/race%3A-rocket-arena-car-extreme/ · 原词 race: rocket arena car extreme
@@ -50,11 +50,11 @@
   - y8.com · y8-en · 2026-11-24 · https://www.y8.com/games/custom_diy_phone_case_maker · 原词 custom diy phone case maker
   - gamepix.com · gamepix-pt · 2026-11-25 · https://www.gamepix.com/pt/play/custom-diy-phone-case-maker · 原词 custom diy phone case maker
 
-失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (HTTPError: HTTP Error 403: Forbidden)
+失败来源：gamesgames-en (HTTPError: HTTP Error 403: Forbidden)；agame-en (HTTPError: HTTP Error 403: Forbidden)；gamecomets-en (HTTPError: HTTP Error 403: Forbidden)；girlsgogames-en (URLError: <urlopen error timed out>)
 
 ## SaaS 产品发布目录
 
-采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 43，采样上限遗漏 0。
+采集：19/20来源，配置根域 20，新建基线 0，失败 1，新增 URL 140，采样上限遗漏 0。
 
 - **puresound**：不同根域 4 家；同一天峰值 2 家、连续3日 4 家、7日共 4 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - fazier.com · fazier-launches · 2026-11-22 · https://fazier.com/launches/puresound · 原词 puresound
@@ -96,7 +96,7 @@
 
 ## AI 工具和 Agent 目录
 
-采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 78，采样上限遗漏 0。
+采集：20/20来源，配置根域 20，新建基线 0，失败 0，新增 URL 1616，采样上限遗漏 1453。
 
 - **bedrock data**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - futurepedia.io · futurepedia-tools · 2026-11-26 · https://www.futurepedia.io/tool/bedrock-data · 原词 bedrock data
@@ -107,9 +107,27 @@
 - **intellemo**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
   - aitoolhouse.com · aitoolhouse-tools · 2026-11-24 · https://www.aitoolhouse.com/tools/intellemo · 原词 intellemo
   - toolveyor.com · toolveyor-tools · 2026-11-25 · https://toolveyor.com/intellemo · 原词 intellemo
-- **layla**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
-  - futurepedia.io · futurepedia-tools · 2026-11-24 · https://www.futurepedia.io/tool/layla · 原词 layla
-  - toolveyor.com · toolveyor-tools · 2026-11-27 · https://toolveyor.com/layla · 原词 layla
+- **pingcode ai**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolboard.com · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/pingcode-ai · 原词 pingcode ai
+  - toolveyor.com · toolveyor-tools · 2026-11-28 · https://toolveyor.com/pingcode-ai · 原词 pingcode ai
+- **rapframe**：不同根域 2 家；同一天峰值 1 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - toolveyor.com · toolveyor-tools · 2026-11-27 · https://toolveyor.com/rapframe · 原词 rapframe
+  - aitoolboard.com · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/rapframe · 原词 rapframe
+- **yoairap**：不同根域 2 家；同一天峰值 2 家、连续3日 2 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - aitoolboard.com · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/yoairap · 原词 yoairap
+  - toolveyor.com · toolveyor-tools · 2026-11-28 · https://toolveyor.com/yoairap · 原词 yoairap
+- **agentseo**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - toolveyor.com · toolveyor-tools · 2026-11-25 · https://toolveyor.com/agentseo · 原词 agentseo
+  - aitoolboard.com · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/agentseo · 原词 agentseo
+- **ai christmas photos**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - toolveyor.com · toolveyor-tools · 2026-11-25 · https://toolveyor.com/ai-christmas-photos · 原词 ai christmas photos
+  - aitoolboard.com · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/ai-christmas-photos · 原词 ai christmas photos
+- **aidirs**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - toolveyor.com · toolveyor-tools · 2026-11-25 · https://toolveyor.com/aidirs · 原词 aidirs
+  - aitoolboard.com · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/aidirs · 原词 aidirs
+- **airmusic**：不同根域 2 家；同一天峰值 1 家、连续3日 1 家、7日共 2 家；匹配 normalized_exact_title_only，但仍须复核游戏/产品是否同款及运营主体。
+  - toolveyor.com · toolveyor-tools · 2026-11-25 · https://toolveyor.com/airmusic · 原词 airmusic
+  - aitoolboard.com · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/airmusic · 原词 airmusic
 
 ## 计算器
 
@@ -121,7 +139,7 @@
 
 ## PDF / 文件 / 图片工具
 
-采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 2，采样上限遗漏 0。
+采集：18/20来源，配置根域 20，新建基线 0，失败 2，新增 URL 9，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -129,7 +147,7 @@
 
 ## 开发者和自动化
 
-采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 51，采样上限遗漏 0。
+采集：17/17来源，配置根域 15，新建基线 0，失败 0，新增 URL 8，采样上限遗漏 0。
 
 **0：本类尚无两家以上不同域名的同步新增证据。**
 
@@ -143,37 +161,42 @@
 
 ### 跨SaaS和AI的同名产品
 
+- cloudmail：独立根域 3 家；类别 ai, saas
+  - saas · productperch-products · 2026-11-26 · https://productperch.com/products/cloudmail/
+  - saas · saascity-products · 2026-11-26 · https://saascity.io/live/cloudmail
+  - ai · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/cloudmail
 - plango：独立根域 3 家；类别 ai, developer, saas
   - developer · devhunt-tools · 2026-11-23 · https://devhunt.org/tool/plango
   - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/plango
   - saas · uneed-products · 2026-11-25 · https://www.uneed.best/tool/plango
+- codei lab：独立根域 3 家；类别 ai, saas
+  - saas · productperch-products · 2026-11-24 · https://productperch.com/products/codei-lab/
+  - ai · toolveyor-tools · 2026-11-25 · https://toolveyor.com/codei-lab
+  - ai · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/codei-lab
+- domainrating：独立根域 3 家；类别 ai, saas
+  - saas · saasworthy-products · 2026-11-23 · https://www.saasworthy.com/product/domainrating
+  - saas · indietools-products · 2026-11-24 · https://www.indietools.app/products/domainrating
+  - ai · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/domainrating
+- mytpen：独立根域 3 家；类别 ai, saas
+  - saas · saasworthy-products · 2026-11-23 · https://www.saasworthy.com/product/mytpen
+  - saas · uneed-products · 2026-11-26 · https://www.uneed.best/tool/mytpen
+  - ai · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/mytpen
+- waifu：独立根域 3 家；类别 ai, saas
+  - saas · saasworthy-products · 2026-11-23 · https://www.saasworthy.com/product/waifu
+  - saas · indieneed-products · 2026-11-27 · https://www.indieneed.com/products/waifu
+  - ai · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/waifu
+- actlike ai：独立根域 2 家；类别 ai, saas
+  - ai · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/actlike-ai
+  - saas · fazier-launches · 2026-11-28 · https://fazier.com/launches/actlike-ai
 - ai visibility check：独立根域 2 家；类别 developer, saas
   - developer · apify-actors-z · 2026-11-24 · https://apify.com/operstack/ai-visibility-check
   - saas · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/ai-visibility-check
-- glideworth：独立根域 2 家；类别 developer, saas
-  - developer · devhunt-tools · 2026-11-24 · https://devhunt.org/tool/glideworth
-  - saas · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/glideworth
-- shopify products scraper：独立根域 2 家；类别 developer, saas
-  - developer · apify-actors-z · 2026-11-23 · https://apify.com/pagecraft/shopify-products-scraper
-  - saas · productperch-products · 2026-11-23 · https://productperch.com/products/shopify-products-scraper/
-- ankon ai：独立根域 2 家；类别 ai, saas
-  - saas · smollaunch-products · 2026-11-24 · https://smollaunch.com/products/ankon-ai
-  - ai · toolveyor-tools · 2026-11-25 · https://toolveyor.com/ankon-ai
-- codei lab：独立根域 2 家；类别 ai, saas
-  - saas · productperch-products · 2026-11-24 · https://productperch.com/products/codei-lab/
-  - ai · toolveyor-tools · 2026-11-25 · https://toolveyor.com/codei-lab
-- dhtmlx planning engine：独立根域 2 家；类别 developer, saas
-  - developer · devhunt-tools · 2026-11-27 · https://devhunt.org/tool/dhtmlx-planning-engine
-  - saas · fazier-launches · 2026-11-28 · https://fazier.com/launches/dhtmlx-planning-engine
-- betaneon：独立根域 2 家；类别 ai, saas
-  - saas · indieneed-products · 2026-11-26 · https://www.indieneed.com/products/betaneon
-  - ai · toolveyor-tools · 2026-11-28 · https://toolveyor.com/betaneon
-- chat with work：独立根域 2 家；类别 ai, saas
-  - saas · producthunt-products · 2026-11-23 · https://www.producthunt.com/products/chat-with-work
-  - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/chat-with-work
-- hydrilla：独立根域 2 家；类别 ai, saas
-  - saas · producthunt-products · 2026-11-23 · https://www.producthunt.com/products/hydrilla
-  - ai · aitoolnet-tools · 2026-11-25 · https://www.aitoolnet.com/hydrilla
+- best launch directories：独立根域 2 家；类别 ai, saas
+  - ai · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/best-launch-directories
+  - saas · fazier-launches · 2026-11-28 · https://fazier.com/launches/best-launch-directories
+- doodara：独立根域 2 家；类别 ai, saas
+  - ai · aitoolboard-tools · 2026-11-28 · https://aitoolboard.com/tools/doodara
+  - saas · productperch-products · 2026-11-28 · https://productperch.com/products/doodara/
 
 ### 跨类别同向文件转换
 
