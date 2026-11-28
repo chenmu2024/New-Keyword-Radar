@@ -1,41 +1,41 @@
 # New Keyword Radar — Latest
 
-Generated: 2026-11-27T04:51:18.706380+00:00
+Generated: 2026-11-28T04:36:44.654572+00:00
 
 ## Formal candidates
 
-### 1. gta 6 advanced tracker removal
+### 1. advanced tracker gta 6
 
 - Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-21T00:00:00+00:00, retention **72.3%**.
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-21T00:00:00+00:00, retention **69.7%**.
+- 5y old-history gate: avg **0.0**, peak **1**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.004**.
+- Source seed-rising:tracker; geo Worldwide.
+
+### 2. how to remove advanced tracker gta 6
+
+- Newness **100/100**; money **100/100** (tool).
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-20T00:00:00+00:00, retention **73.0%**.
 - 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
 - Source seed-rising:tracker; geo Worldwide.
 
-### 2. gta 6 pc port tracker
+### 3. how to remove tracker from car gta 6
 
 - Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-10-31T00:00:00+00:00, retention **76.3%**.
-- 5y old-history gate: avg **0.02**, peak **6**, material ratio (>= 5) **0.004**; raw non-zero ratio **0.004**.
-- Source seed-rising:tracker; geo Worldwide.
-
-### 3. how to remove tracker gta 6
-
-- Newness **100/100**; money **100/100** (tool).
-- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-19T00:00:00+00:00, retention **62.0%**.
-- 5y old-history gate: avg **0.01**, peak **2**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.004**.
+- 90d baseline avg **0.0**, recent peak **100**, first rise 2026-11-19T00:00:00+00:00, retention **44.7%**.
+- 5y old-history gate: avg **0.0**, peak **0**, material ratio (>= 5) **0.0**; raw non-zero ratio **0.0**.
 - Source seed-rising:tracker; geo Worldwide.
 
 ## Watch / rejected
 
-- gta 6 port tracker — **history-error** — newness 100, money 100
-- papi kos simulator — **old-history** — newness 100, money 100; 5y peak 10
-- papi kost simulator — **history-unchecked** — newness 100, money 100
-- safar trip planner — **history-unchecked** — newness 100, money 100
-- sheru bhai life simulator game — **history-unchecked** — newness 100, money 100
-- holy grail war simulator — **history-unchecked** — newness 100, money 94
-- tracker that's the job — **history-unchecked** — newness 96, money 100
-- tracker season 4 episode 7 — **history-unchecked** — newness 95, money 94
-- คา สิ โน ออนไลน์ editor pgstar777 cfd — **history-unchecked** — newness 93, money 100
-- บา คา ร่า ออนไลน์ editor pgstar777 cfd — **history-unchecked** — newness 93, money 100
-- แทง บอล ออนไลน์ editor pgstar777 cfd — **history-unchecked** — newness 93, money 100
-- how to get rid of tracker gta 6 — **commercial-watch** — newness 58, money 100
+- how to remove standard tracker gta 6 — **old-history** — newness 100, money 100; 5y peak 11
+- gta 6 cuck simulator — **old-history** — newness 96, money 100; 5y peak 13
+- gta 6 pc tracker — **history-unchecked** — newness 94, money 100
+- philadelphia marathon tracker — **history-unchecked** — newness 93, money 100
+- gta 6 tracker — **history-unchecked** — newness 92, money 100
+- makro manager pie pricing dispute — **history-unchecked** — newness 91, money 90
+- คา สิ โน ออนไลน์ editor pgstar777 cfd — **history-unchecked** — newness 88, money 94
+- บา คา ร่า ออนไลน์ editor pgstar777 cfd — **history-unchecked** — newness 88, money 94
+- แทง บอล ออนไลน์ editor pgstar777 cfd — **history-unchecked** — newness 88, money 94
+- manchester united manager compensation cost — **history-unchecked** — newness 88, money 90
+- trb annual planner 2027 — **commercial-watch** — newness 69, money 94
+- wide receiver rankings week 12 — **commercial-watch** — newness 53, money 86
