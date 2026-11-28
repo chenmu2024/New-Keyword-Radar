@@ -1,29 +1,7 @@
-# Free SaaS pain and new-keyword intelligence — 2026-11-27
+# Free SaaS pain and new-keyword intelligence — 2026-11-28
 
 Research only. **Volume / KD / CPC: unverified, not zero.**
 Sources can be rate-limited. A zero-lead day is not evidence of zero demand.
-
-## scheduling spreadsheet manual
-
-Market: US · Topic: operations · Intent: manual_schedule_pain · Category: specific_buyer_problem
-
-Queries by source: github_repos = scheduling spreadsheet, github_issues = scheduling spreadsheet, google_news_rss = scheduling spreadsheet manual, duckduckgo = scheduling spreadsheet manual, reddit = scheduling spreadsheet manual, hackernews_ask = scheduling spreadsheet
-
-Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
-
-**Buyer-pain review leads:** 0 / 20 raw unique links. Filtered, not verified.
-
-- No qualifying buyer-pain evidence. Do not infer absence of demand.
-
-Competitor / contextual references: 4
-
-- [The Hidden Cost of Manual Contact Center Scheduling - CX Today](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ULUxRQ1MwQXN4MklnUnlDejEzUGhRVVFJRDBQQ1JmNHBCZVhSZWZHYlBlVGx4cXpkLUtmWjdpS0dHX3BEWG9CRWg3M2dFbjdQczUw?oc=5)
-- [Morrisons to Replace Manual Store Planning Spreadsheets with Logile Software - citybiz](https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWxGUGtqdU1lMnhrd1h6Rk83b1hMbXc0b2gzODYwdndPeWZlN1MxUC12MV95OWNnR08yaGlFVjlSdzFzZDZhTk8tS1F5NWZaQXpiaDVYODR0YnpuZVdMMG5hbWt2NlNIWXU0eVlzNko4WUNnWTRCUmJUOUdjcVFlNWNKTWs1ZlpMMWF0S29fQzBleUN1THdxQS1Cb0xvLVA4TWVlS2ZDeUNIaXVJRTNqR3JHNmdyQQ?oc=5)
-- [Acuity Scheduling: Online Booking & Appointment Scheduling Software](https://acuityscheduling.com/)
-
-Discarded/noise: 16; repeated URLs across queries: 0
-
-Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
 ## invoice reconciliation manual
 
@@ -39,33 +17,33 @@ Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degra
 
 Competitor / contextual references: 8
 
-- [DeekshaKriti07/Ledgerly](https://github.com/DeekshaKriti07/Ledgerly)
-- [mjkxpro/invoice-reconciliation-starter-kit](https://github.com/mjkxpro/invoice-reconciliation-starter-kit)
-- [Real-Time Tax Reporting Is Here. Manual Reconciliation Isn’t Going to Keep Up - Thomson Reuters](https://news.google.com/rss/articles/CBMiygFBVV95cUxNMExEZWh0bl9ydmNjN2RsSTJtYmRicHhRTzRacHZxTkNKZkVBUnhCNW1LY3d0Ymc4QTZPWmdmdVkwa1ltWlZkem1sendkLWJ2eGk1NFlJMVZGM2JLcFNzMFo4UzRETXFraWRJZjRKczlxU0VucHJOS0NoeHpVUDI3d0NHRFhTS21GWTJRWXd1enc5MFlUamFFQ2laZnpzaElPSGg4SnRoVXpGbmthS2Q0Z0ZNb1o0NUlfV1Bkc05CTzd0S1hRQTUwS01B?oc=5)
+- [Pimmy21/purchaseguard-ai-v5](https://github.com/Pimmy21/purchaseguard-ai-v5)
+- [DanielRoaUribe/invoice-intelligence-ai](https://github.com/DanielRoaUribe/invoice-intelligence-ai)
+- [Service Job Cards to Invoices: How a Dealer Management System Eliminates Manual Billing Errors - Nasscom](https://news.google.com/rss/articles/CBMixAFBVV95cUxNTGRGTUJFOGJlNWRuNHE4TUhVeEx4a1V0SUU4NEJ3QzB3OVZnQkthS25jdWtXQXFkc2R6OXljVXhwZURCZDlvOE8teFl4Q3laWVVodV9jZV95OFJEY2hiX2RtRGpFeXVxY3ZoeDBrUWZOY1RoZmJZMjdjangwX2RzNVBlUVRwdWdwcTQyZ2JWbTR0M21IZEhfenZVbVYxcnV1cklJNXEtRS1wLUl2cWxsQTdnYnZQdm9JUWtFdGg4ZDA2cXB2?oc=5)
 
 Discarded/noise: 12; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
-## estoque integração falha
+## payroll integration error
 
-Market: BR · Topic: inventory · Intent: integration_pain · Category: specific_buyer_problem
+Market: US · Topic: payroll · Intent: integration_pain · Category: specific_buyer_problem
 
-Queries by source: github_repos = estoque integração, github_issues = estoque integração, google_news_rss = estoque integração falha, duckduckgo = estoque integração falha, reddit = estoque integração falha
+Queries by source: github_repos = payroll integration, github_issues = payroll integration, google_news_rss = payroll integration error, duckduckgo = payroll integration error, reddit = payroll integration error, hackernews_ask = payroll integration
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded, hackernews_ask=ok
 
-**Buyer-pain review leads:** 0 / 12 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 20 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 5
+Competitor / contextual references: 10
 
-- [arielluz/Ariel-da-luz-rosa](https://github.com/arielluz/Ariel-da-luz-rosa)
-- [iamLucasDev/almoxarifado](https://github.com/iamLucasDev/almoxarifado)
-- [heberthaugusto/portfolio-app-estoquemax](https://github.com/heberthaugusto/portfolio-app-estoquemax)
+- [ostafford/eh-payroll-sync](https://github.com/ostafford/eh-payroll-sync)
+- [marcelinosandroni/consigport-platform](https://github.com/marcelinosandroni/consigport-platform)
+- [BrightHR Launches Xero Payroll Integration to Tackle Wage Theft and Simplify Compliance - techbusinessnews.com.au](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaU11QTBOMXdvUG9scENfUUdiUVBBTHNuVnk4MG1WTlFwOHR0dHA2RlV2bHhGOFk2X2o2Zi1kQ2JlUDhhMnFmeE5FbGs4cjFyQ0lpVEtlQ2pZT2lwTXVfYXM2VmV0SGRnaVRIV0IxLUlqZkpGczZ4UHAwUlpBbFhfYmhrcHkxYWppWXhVU043cnpDQkNJNUtRTGtwRVZLOFpnY1IzRzBGNTdYek9ZM2hqbXpVVmNOdE8wYVVGV2h3OXo1T3ZjbmpNZw?oc=5)
 
-Discarded/noise: 7; repeated URLs across queries: 0
+Discarded/noise: 10; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -75,40 +53,41 @@ Market: BR · Topic: tax_compliance · Intent: manual_invoice_pain · Category: 
 
 Queries by source: github_repos = nota fiscal, github_issues = nota fiscal, google_news_rss = nota fiscal planilha, duckduckgo = nota fiscal planilha, reddit = nota fiscal planilha
 
-Sources: github_repos=ok, github_issues=ok, google_news_rss=error, duckduckgo=degraded, reddit=degraded
+Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
 
 **Buyer-pain review leads:** 0 / 12 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 4
+Competitor / contextual references: 5
 
-- [Miguel-Mendes-203/Projeto-Nota-Fiscal](https://github.com/Miguel-Mendes-203/Projeto-Nota-Fiscal)
-- [Priscilla-star-crypto/Nota-Fiscal](https://github.com/Priscilla-star-crypto/Nota-Fiscal)
+- [DeivideD/Java_NFSe](https://github.com/DeivideD/Java_NFSe)
 - [AlissonDevAugusto/Sistema-Loja-Augusto](https://github.com/AlissonDevAugusto/Sistema-Loja-Augusto)
+- [rednaxelbr/nfelib](https://github.com/rednaxelbr/nfelib)
 
-Discarded/noise: 8; repeated URLs across queries: 0
+Discarded/noise: 7; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
-## inventario excel manual
+## folha pagamento erro
 
-Market: MX · Topic: inventory · Intent: manual_inventory_pain · Category: specific_buyer_problem
+Market: BR · Topic: payroll · Intent: payroll_error · Category: specific_buyer_problem
 
-Queries by source: github_repos = inventario excel, github_issues = inventario excel, google_news_rss = inventario excel manual, duckduckgo = inventario excel manual, reddit = inventario excel manual
+Queries by source: github_repos = folha pagamento, github_issues = folha pagamento, google_news_rss = folha pagamento erro, duckduckgo = folha pagamento erro, reddit = folha pagamento erro
 
 Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=degraded, reddit=degraded
 
-**Buyer-pain review leads:** 0 / 10 raw unique links. Filtered, not verified.
+**Buyer-pain review leads:** 0 / 11 raw unique links. Filtered, not verified.
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 2
+Competitor / contextual references: 6
 
-- [sebagonza324-glitch/automatizaciones-pymes](https://github.com/sebagonza324-glitch/automatizaciones-pymes)
-- [caixeta7/painel-inventario-corporativo](https://github.com/caixeta7/painel-inventario-corporativo)
+- [aureliocastru/Folha-de-Pagamento-Ilnet](https://github.com/aureliocastru/Folha-de-Pagamento-Ilnet)
+- [w1esther/folha-pagamentos-PBD](https://github.com/w1esther/folha-pagamentos-PBD)
+- [Folha de S.Paulo](https://www.folha.uol.com.br/)
 
-Discarded/noise: 8; repeated URLs across queries: 1
+Discarded/noise: 5; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
 
@@ -124,12 +103,34 @@ Sources: github_repos=ok, github_issues=ok, google_news_rss=empty, duckduckgo=de
 
 - No qualifying buyer-pain evidence. Do not infer absence of demand.
 
-Competitor / contextual references: 6
+Competitor / contextual references: 3
 
 - [Roque98/Auxiliar-Contable](https://github.com/Roque98/Auxiliar-Contable)
 - [EduardoPecina/conciliacion-honorarios](https://github.com/EduardoPecina/conciliacion-honorarios)
 - [merolhack/sat-fiscal-toolkit](https://github.com/merolhack/sat-fiscal-toolkit)
 
-Discarded/noise: 6; repeated URLs across queries: 0
+Discarded/noise: 9; repeated URLs across queries: 0
+
+Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
+
+## nómina excel errores
+
+Market: MX · Topic: payroll · Intent: manual_payroll_pain · Category: specific_buyer_problem
+
+Queries by source: github_repos = nómina excel, github_issues = nómina excel, google_news_rss = nómina excel errores, duckduckgo = nómina excel errores, reddit = nómina excel errores
+
+Sources: github_repos=ok, github_issues=ok, google_news_rss=ok, duckduckgo=degraded, reddit=degraded
+
+**Buyer-pain review leads:** 0 / 11 raw unique links. Filtered, not verified.
+
+- No qualifying buyer-pain evidence. Do not infer absence of demand.
+
+Competitor / contextual references: 4
+
+- [ngGabriell/Sistema-de-asistencia-y-c-lculo-de-n-mina-Basado-en-almacenes-de-ropa-Herpo-](https://github.com/ngGabriell/Sistema-de-asistencia-y-c-lculo-de-n-mina-Basado-en-almacenes-de-ropa-Herpo-)
+- [Camilo1408/Nomina-Xpress](https://github.com/Camilo1408/Nomina-Xpress)
+- [arrazola-consultores/arrazola-calculadoras-descargas](https://github.com/arrazola-consultores/arrazola-calculadoras-descargas)
+
+Discarded/noise: 7; repeated URLs across queries: 0
 
 Next: verify exact Trends history, real Volume/KD/CPC, local SERP and user payability.
