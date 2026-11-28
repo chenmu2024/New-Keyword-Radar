@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-27T23:26:41.093668+00:00",
-  "social_generated_at": "2026-11-27T23:26:41.093668+00:00",
+  "generated_at": "2026-11-28T11:41:52.217255+00:00",
+  "social_generated_at": "2026-11-28T11:41:52.217255+00:00",
   "trends_coverage": {
     "archive_date": "2026-11-28",
-    "scanned_seed_count": 5,
+    "scanned_seed_count": 15,
     "target_seed_count": 74,
     "complete_daily_target": false,
-    "rising_total": 65,
-    "eligible_exact_queries": 60
+    "rising_total": 156,
+    "eligible_exact_queries": 146
   },
-  "social_unique_in_run": 56,
+  "social_unique_in_run": 52,
   "review_window": {
     "trend_days_evaluated": [
       {
         "archive_date": "2026-11-28",
-        "scanned_seed_count": 5,
+        "scanned_seed_count": 15,
         "target_seed_count": 74,
         "complete_daily_target": false,
-        "rising_total": 65,
-        "eligible_exact_queries": 60
+        "rising_total": 156,
+        "eligible_exact_queries": 146
       },
       {
         "archive_date": "2026-11-27",
@@ -37,16 +37,29 @@
         "eligible_exact_queries": 453
       }
     ],
-    "exact_queries_in_window": 616,
-    "social_current_run": 56,
+    "exact_queries_in_window": 647,
+    "social_current_run": 52,
     "social_prior_sightings_72h": 179,
-    "social_reviewable_72h": 235,
+    "social_reviewable_72h": 231,
     "window_hours": 72,
     "not_new_discoveries_warning": "Window includes older links recently re-seen. Original published_at is not overwritten by last_seen; do not report the entire window as fresh posts."
   },
   "cross_matches": 1,
-  "public_question_hypotheses": 3,
+  "public_question_hypotheses": 4,
   "query_hypotheses": [
+    {
+      "proposed_query": "link to that thingy",
+      "original_post_url": "https://bsky.app/profile/pedanticcheesecake.bsky.social/post/3n3dgito7os2g",
+      "original_platform": "bluesky",
+      "original_post_text": "is there a link to that generator thingy?",
+      "published_at": "2026-11-28T00:18:27.343000+00:00",
+      "demand_status": "unverified_question_hint",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "actual_user_paid": false,
+      "ready_to_build": false,
+      "necessary_verification": "Check authentic user intent, independent demand, Trends and current SERP; verify $0 ongoing cost."
+    },
     {
       "proposed_query": "read the status comments at the bottom",
       "original_post_url": "https://github.com/daniel-ospina/agent-infra/issues/3487",
@@ -100,9 +113,9 @@
       "links": [
         {
           "platform": "hackernews_ask",
-          "url": "https://news.ycombinator.com/item?id=50635183",
-          "title": "Ask HN: Will Claude be able to solve future maths problems?",
-          "published_at": "2026-11-24T21:44:47+00:00",
+          "url": "https://news.ycombinator.com/item?id=50674717",
+          "title": "The Riemann Hypothesis proof written out as readable papers",
+          "published_at": "2026-11-28T04:34:44+00:00",
           "evidence_type": "direct_public_post",
           "potential_first_person_question": false,
           "verified_customer_demand": false,
